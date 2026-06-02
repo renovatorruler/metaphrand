@@ -10,3 +10,7 @@ venv/
 .mypy_cache/
 .ruff_cache/
 *.log
+
+# Generated audio artifacts (regenerate from the seed)
+*.wav
+*.mp3

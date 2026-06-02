@@ -59,9 +59,11 @@ story.save("story.json")
 | --- | --- |
 | `brehon/metaphor.py` | `Metaphor` — the atomic unit. |
 | `brehon/story.py` | `Story` — the DAG, with `instantiate`/`link`, traversal, cycle protection, and canonical serialization. |
-| `brehon/render.py` | The rendering seam (words). `OutlineRenderer` (debug view of the whole DAG) and `FountainRenderer` (a real screenplay in [Fountain](https://fountain.io) format, walking only the structural spine). |
+| `brehon/render.py` | The text rendering seam. `OutlineRenderer` (debug view of the whole DAG) and `FountainRenderer` (a real screenplay in [Fountain](https://fountain.io) format, walking only the structural spine). |
+| `brehon/audio.py` | Multi-voice audio. `AudioRenderer` walks the spine into `(voice, text)` utterances (narrator reads action, characters read dialogue); pluggable `TTSBackend` (`KokoroBackend` free/local, `SilentBackend` dependency-free) stitched to one WAV. |
 | `examples/three_act.py` | A tiny end-to-end story graph. |
 | `examples/janitor.py` | A full generated story: builds the DAG, renders the screenplay, saves the seed. |
+| `examples/janitor_audio.py` | Renders the same seed to a multi-voice audio file. |
 | `stories/` | Stored seeds (`*.json`) and rendered scripts (`*.fountain`). |
 | `tests/` | The DAG and determinism guarantees. |
 

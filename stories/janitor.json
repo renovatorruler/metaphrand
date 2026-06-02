@@ -450,7 +450,11 @@
     {
       "attributes": {
         "author": "brehon",
+        "cast": {
+          "SUPERVISOR": "am_adam"
+        },
         "credit": "written by",
+        "narrator_voice": "af_heart",
         "source": "generated from a metaphor DAG",
         "title": "The Night Shift"
       },

@@ -28,6 +28,9 @@ def build() -> Story:
         credit="written by",
         author="brehon",
         source="generated from a metaphor DAG",
+        # Casting lives in the seed, so voice assignment is deterministic data.
+        narrator_voice="af_heart",
+        cast={"SUPERVISOR": "am_adam"},
     )
 
     # -- ACTS: the structural spine (children of the root) --------------
