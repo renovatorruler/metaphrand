@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "brehon"
+version = "0.0.1"
+description = "A screenplay engine that models a story as a DAG of metaphors."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+include = ["brehon*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
