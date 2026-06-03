@@ -45,6 +45,12 @@ def build() -> Story:
                   kind="beat", id="b-catalyst", attributes={"function": "Catalyst", "character": "TOMMY", "dialogue": "yes"})
     s.instantiate(before.id, "Ray argues with every weapon he owns, all true; Tommy only says, 'I know all that, Ray,' and goes",
                   kind="beat", id="b-debate", attributes={"function": "Debate", "character": "TOMMY", "dialogue": "yes"})
+
+    # -- FLESH: the town and the war, off Ray's line (subplot/texture) --
+    s.instantiate(before.id, "Sully, turned away at the enlistment desk for a bad heart, pours the last round for the boys who passed and runs a tab he knows won't be paid",
+                  kind="beat", id="b-sully")
+    s.instantiate(before.id, "Boys line the depot with cardboard suitcases while the town's women and old men see them off, and blue-star flags go up in the front windows",
+                  kind="beat", id="b-depot")
     s.instantiate(before.id, "The man of all words sits to write his brother a letter, crumples three failed tries, and works their dead father's Anzio lighter down into the packed duffel instead",
                   kind="beat", id="b-gift")
     s.instantiate(before.id, "The telegram: Tommy is dead, pointless, exactly as Ray swore — and Ray goes cold, not grieved",
@@ -59,6 +65,18 @@ def build() -> Story:
                   kind="beat", id="b-fun", attributes={"function": "Fun and Games"})
     s.instantiate(after.id, "He ends it with June, who loved the safe man, and training grinds him toward the front",
                   kind="beat", id="b-close", attributes={"function": "Bad Guys Close In", "character": "JUNE", "dialogue": "yes"})
+
+    # -- FLESH: the home front lives its own life while Ray is away --
+    s.instantiate(after.id, "Ruth and Annie fold the dead boy's shirts into a box together, the mother and the girl he'd have married, the two left to outlive the warriors",
+                  kind="beat", id="b-women")
+    s.instantiate(after.id, "Ruth tends two graves now, Earl's and the boy's, side by side, and a gold-star flag hangs in her own front window",
+                  kind="beat", id="b-graves")
+    s.instantiate(after.id, "The mill runs day and night on government contracts; the same women who buried the men assemble the shells the next ones will fire",
+                  kind="beat", id="b-mill")
+    s.instantiate(after.id, "Annie goes back to the diner counter and pours coffee for the next boys shipping out, steady-eyed, the way she does everything",
+                  kind="beat", id="b-annie-work")
+    s.instantiate(after.id, "June marries the safe man after all, rice in her hair on the church steps, and does not look unhappy",
+                  kind="beat", id="b-june")
     s.instantiate(after.id, "He ships out and the shooting starts — the test his life was built to dodge",
                   kind="beat", id="b-front", attributes={"doorway": 2})
     s.instantiate(after.id, "First firefight: Ray braces for the cold hands and the freeze, sure he's the coward he feared",
