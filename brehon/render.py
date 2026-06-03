@@ -95,15 +95,42 @@ class FountainRenderer:
         out: list[str] = []
         self._title_page(root, out)
 
-        acts = [m for m in story.children(root.id) if m.kind == "act"]
-        for index, act in enumerate(acts, start=1):
-            label = _ACT_NAMES.get(index, f"ACT {index}")
-            out.append(f"# {label}")
-            out.append("")
-            for beat in story.children(act.id):
-                self._emit_beat(story.get(beat.id), out)
+        if root.kind == "mirror":
+            self._render_mirror(story, root, out)
+        else:
+            acts = [m for m in story.children(root.id) if m.kind == "act"]
+            for index, act in enumerate(acts, start=1):
+                label = _ACT_NAMES.get(index, f"ACT {index}")
+                out.append(f"# {label}")
+                out.append("")
+                for beat in story.children(act.id):
+                    self._emit_beat(story.get(beat.id), out)
 
         return self._normalise(out)
+
+    def _render_mirror(self, story: Story, root, out: list[str]) -> None:
+        """Linearize a mirror story: previous branch -> the mirror -> next branch.
+
+        The mirror scene (the root's own manifestation) falls at the hinge by
+        construction — no one places it at the midpoint; the structure does.
+        State and other purely-structural nodes carry no page text, so they emit
+        nothing as the branches are walked.
+        """
+        states = [m for m in story.children(root.id) if m.kind == "state"]
+        previous = next((s for s in states if s.attributes.get("role") == "previous"), None)
+        following = next((s for s in states if s.attributes.get("role") == "next"), None)
+        if previous is None and states:
+            previous = states[0]
+        if following is None and len(states) > 1:
+            following = states[1]
+
+        if previous is not None:
+            for node in story.walk(previous.id):
+                self._emit_beat(node, out)
+        self._emit_beat(root, out)  # the mirror, at the hinge
+        if following is not None:
+            for node in story.walk(following.id):
+                self._emit_beat(node, out)
 
     def _title_page(self, root, out: list[str]) -> None:
         if not root.attributes.get("title"):

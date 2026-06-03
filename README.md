@@ -53,6 +53,24 @@ story.link(theme.id, beat.id)  # one beat, two parents — the DAG at work
 story.save("story.json")
 ```
 
+## Generating from a premise
+
+The graph need not be hand-authored. `DagGenerator` asks a pluggable
+`LLMClient` — by default a local, open-source `ollama` model, so no API keys —
+to propose the whole story as one JSON document, then assembles it through the
+same `Story` API. Only the *proposal* is fuzzy; the graph it lands in is the
+same deterministic seed every other layer speaks, with unknown edges and voices
+repaired rather than trusted.
+
+```python
+from brehon.generate import generate_story
+from brehon.render import FountainRenderer
+
+story = generate_story("A lighthouse keeper's light was built to wreck ships")
+print(FountainRenderer().render(story))   # a Fountain screenplay
+story.save("stories/generated.json")      # the deterministic seed
+```
+
 ## Layout
 
 | Path | What it is |
@@ -61,9 +79,12 @@ story.save("story.json")
 | `brehon/story.py` | `Story` — the DAG, with `instantiate`/`link`, traversal, cycle protection, and canonical serialization. |
 | `brehon/render.py` | The text rendering seam. `OutlineRenderer` (debug view of the whole DAG) and `FountainRenderer` (a real screenplay in [Fountain](https://fountain.io) format, walking only the structural spine). |
 | `brehon/audio.py` | Multi-voice audio. `AudioRenderer` walks the spine into `(voice, text)` utterances (narrator reads action, characters read dialogue); pluggable `TTSBackend` (`KokoroBackend` free/local, `SilentBackend` dependency-free) stitched to one WAV. |
+| `brehon/generate.py` | The generation seam. `DagGenerator` turns a one-line premise into the metaphor DAG via a pluggable `LLMClient` (`OllamaClient` = free/local, zero API keys); a deterministic `build_story` assembles the proposal through the `Story` API, repairing bad edges and voices rather than trusting the model. |
 | `examples/three_act.py` | A tiny end-to-end story graph. |
 | `examples/janitor.py` | A full generated story: builds the DAG, renders the screenplay, saves the seed. |
 | `examples/janitor_audio.py` | Renders the same seed to a multi-voice audio file. |
+| `examples/generate.py` | Generate a screenplay from a premise with a local model, end to end. |
+| `examples/render_audio.py` | Render any stored seed to a multi-voice audio file (Kokoro, or silent fallback). |
 | `stories/` | Stored seeds (`*.json`) and rendered scripts (`*.fountain`). |
 | `tests/` | The DAG and determinism guarantees. |
 
@@ -73,12 +94,23 @@ story.save("story.json")
 pip install -e ".[dev]"
 pytest
 python -m examples.three_act
+
+# Generate a screenplay from a one-line premise (uses a local ollama model):
+python -m examples.generate "A lighthouse keeper's light was built to wreck ships"
+
+# Render a stored seed to multi-voice audio (Python <=3.12; needs espeak-ng):
+pip install -e ".[audio]"
+python -m examples.render_audio stories/generated.json stories/generated.wav
 ```
 
 ## Status
 
-The metaphor DAG, its deterministic serialization, and a deterministic
-`FountainRenderer` that turns a stored seed into a screenplay. Still open: the
-*fuzzy* render layer — paraphrasing a beat's wording (e.g. via an LLM) while
-keeping the metaphor stack fixed, so the core elements survive even when the
-sentences change.
+The metaphor DAG and its deterministic serialization; a deterministic
+`FountainRenderer` (stored seed → screenplay) and `AudioRenderer` (seed →
+multi-voice recording); and a `DagGenerator` that builds the DAG from a one-line
+premise via a local open-source model — the fuzzy proposal landing in the same
+deterministic graph every other layer already speaks.
+
+Still open: a *fuzzy re-render* layer — paraphrasing an existing beat's wording
+while holding its metaphor stack fixed, so a stored story can be re-voiced
+without changing its core elements.

@@ -1,0 +1,382 @@
+{
+  "edges": [
+    {
+      "child": "b-wind",
+      "parent": "act1"
+    },
+    {
+      "child": "b-lens",
+      "parent": "act1"
+    },
+    {
+      "child": "b-log",
+      "parent": "act1"
+    },
+    {
+      "child": "b-signal",
+      "parent": "act1"
+    },
+    {
+      "child": "b-seal",
+      "parent": "act2"
+    },
+    {
+      "child": "b-diagram",
+      "parent": "act2"
+    },
+    {
+      "child": "b-glass",
+      "parent": "act2"
+    },
+    {
+      "child": "b-voice",
+      "parent": "act2"
+    },
+    {
+      "child": "b-wax2",
+      "parent": "act2"
+    },
+    {
+      "child": "b-light",
+      "parent": "act3"
+    },
+    {
+      "child": "b-crank",
+      "parent": "act3"
+    },
+    {
+      "child": "b-log2",
+      "parent": "act3"
+    },
+    {
+      "child": "b-choice",
+      "parent": "act3"
+    },
+    {
+      "child": "crank",
+      "parent": "complicity"
+    },
+    {
+      "child": "wax",
+      "parent": "complicity"
+    },
+    {
+      "child": "b-wax2",
+      "parent": "complicity"
+    },
+    {
+      "child": "b-wind",
+      "parent": "crank"
+    },
+    {
+      "child": "b-light",
+      "parent": "crank"
+    },
+    {
+      "child": "b-crank",
+      "parent": "crank"
+    },
+    {
+      "child": "glass",
+      "parent": "deception"
+    },
+    {
+      "child": "wax",
+      "parent": "deception"
+    },
+    {
+      "child": "b-diagram",
+      "parent": "deception"
+    },
+    {
+      "child": "b-voice",
+      "parent": "deception"
+    },
+    {
+      "child": "b-log2",
+      "parent": "deception"
+    },
+    {
+      "child": "b-lens",
+      "parent": "glass"
+    },
+    {
+      "child": "b-glass",
+      "parent": "glass"
+    },
+    {
+      "child": "crank",
+      "parent": "inevitability"
+    },
+    {
+      "child": "b-crank",
+      "parent": "inevitability"
+    },
+    {
+      "child": "b-choice",
+      "parent": "inevitability"
+    },
+    {
+      "child": "deception",
+      "parent": "three-act"
+    },
+    {
+      "child": "inevitability",
+      "parent": "three-act"
+    },
+    {
+      "child": "complicity",
+      "parent": "three-act"
+    },
+    {
+      "child": "act1",
+      "parent": "three-act"
+    },
+    {
+      "child": "act2",
+      "parent": "three-act"
+    },
+    {
+      "child": "act3",
+      "parent": "three-act"
+    },
+    {
+      "child": "b-choice",
+      "parent": "three-act"
+    },
+    {
+      "child": "b-seal",
+      "parent": "wax"
+    },
+    {
+      "child": "b-wax2",
+      "parent": "wax"
+    }
+  ],
+  "metaphors": [
+    {
+      "attributes": {},
+      "concreteness": null,
+      "id": "act1",
+      "kind": "act",
+      "manifestation": "",
+      "meaning": "The keeper tends the light as taught"
+    },
+    {
+      "attributes": {},
+      "concreteness": null,
+      "id": "act2",
+      "kind": "act",
+      "manifestation": "",
+      "meaning": "The truth surfaces: the light turns toward danger"
+    },
+    {
+      "attributes": {},
+      "concreteness": null,
+      "id": "act3",
+      "kind": "act",
+      "manifestation": "",
+      "meaning": "He stops turning the crank"
+    },
+    {
+      "attributes": {
+        "slug": "EXT. LIGHTHOUSE - DAWN"
+      },
+      "concreteness": 1.0,
+      "id": "b-choice",
+      "kind": "beat",
+      "manifestation": "He opens the door. The wind pushes it wide. He steps out.",
+      "meaning": "He walks to the door and does not turn back"
+    },
+    {
+      "attributes": {
+        "slug": "INT. LAMP ROOM - NIGHT"
+      },
+      "concreteness": 1.0,
+      "id": "b-crank",
+      "kind": "beat",
+      "manifestation": "He places the crank handle on the workbench. It does not move.",
+      "meaning": "He sets the crank down"
+    },
+    {
+      "attributes": {
+        "slug": "INT. KEEPER'S QUARTERS - NIGHT"
+      },
+      "concreteness": 1.0,
+      "id": "b-diagram",
+      "kind": "beat",
+      "manifestation": "He holds the blueprint. The arrow points seaward, not inland.",
+      "meaning": "The plan shows the wrong aim"
+    },
+    {
+      "attributes": {
+        "slug": "INT. LAMP ROOM - NIGHT"
+      },
+      "concreteness": 1.0,
+      "id": "b-glass",
+      "kind": "beat",
+      "manifestation": "He looks through the lens at night. A reef glints under moonlight.",
+      "meaning": "The lens reveals the wreck site"
+    },
+    {
+      "attributes": {
+        "slug": "INT. LAMP ROOM - NOON"
+      },
+      "concreteness": 1.0,
+      "id": "b-lens",
+      "kind": "beat",
+      "manifestation": "He wipes the outer lens with a dry cloth. No streaks remain.",
+      "meaning": "He polishes the glass"
+    },
+    {
+      "attributes": {
+        "slug": "INT. LAMP ROOM - NIGHT"
+      },
+      "concreteness": 1.0,
+      "id": "b-light",
+      "kind": "beat",
+      "manifestation": "The lamp sputters. The glass cools.",
+      "meaning": "The lamp flickers without his hand"
+    },
+    {
+      "attributes": {
+        "slug": "INT. KEEPER'S QUARTERS - AFTERNOON"
+      },
+      "concreteness": 1.0,
+      "id": "b-log",
+      "kind": "beat",
+      "manifestation": "He writes in the log: 'Sea clear. Light burning steady.'",
+      "meaning": "He records no ships in sight"
+    },
+    {
+      "attributes": {
+        "slug": "INT. KEEPER'S QUARTERS - DAWN"
+      },
+      "concreteness": 1.0,
+      "id": "b-log2",
+      "kind": "beat",
+      "manifestation": "He writes: 'Light out. No ships seen.'",
+      "meaning": "He writes the truth"
+    },
+    {
+      "attributes": {
+        "slug": "INT. LAMP ROOM - NIGHT"
+      },
+      "concreteness": 1.0,
+      "id": "b-seal",
+      "kind": "beat",
+      "manifestation": "He peels back a strip of yellow wax from the base of the lamp housing.",
+      "meaning": "He finds the waxed seam"
+    },
+    {
+      "attributes": {
+        "slug": "EXT. CLIFF PATH - DUSK"
+      },
+      "concreteness": 1.0,
+      "id": "b-signal",
+      "kind": "beat",
+      "manifestation": "Three flashes from the horizon. He returns two.",
+      "meaning": "A distant vessel flashes back"
+    },
+    {
+      "attributes": {
+        "character": "CAPTAIN",
+        "dialogue": "That light's been drawing them onto the rocks for twenty years.",
+        "parenthetical": "quiet, tired",
+        "slug": "EXT. DOCK - DAWN"
+      },
+      "concreteness": 1.0,
+      "id": "b-voice",
+      "kind": "beat",
+      "manifestation": "",
+      "meaning": "The captain speaks the truth"
+    },
+    {
+      "attributes": {
+        "slug": "INT. LAMP ROOM - NIGHT"
+      },
+      "concreteness": 1.0,
+      "id": "b-wax2",
+      "kind": "beat",
+      "manifestation": "He melts a new strip of wax and presses it into place.",
+      "meaning": "He reseals the seam"
+    },
+    {
+      "attributes": {
+        "slug": "INT. LAMP ROOM - DAWN"
+      },
+      "concreteness": 1.0,
+      "id": "b-wind",
+      "kind": "beat",
+      "manifestation": "He turns the crank thirty-three times. The gears engage.",
+      "meaning": "He winds the clockwork"
+    },
+    {
+      "attributes": {},
+      "concreteness": null,
+      "id": "complicity",
+      "kind": "theme",
+      "manifestation": "",
+      "meaning": "To keep turning the crank after knowing"
+    },
+    {
+      "attributes": {},
+      "concreteness": null,
+      "id": "crank",
+      "kind": "motif",
+      "manifestation": "",
+      "meaning": "The thing you turn to keep the lie turning"
+    },
+    {
+      "attributes": {},
+      "concreteness": null,
+      "id": "deception",
+      "kind": "theme",
+      "manifestation": "",
+      "meaning": "A surface that hides its own function"
+    },
+    {
+      "attributes": {},
+      "concreteness": null,
+      "id": "glass",
+      "kind": "motif",
+      "manifestation": "",
+      "meaning": "The barrier that only works when it hides"
+    },
+    {
+      "attributes": {},
+      "concreteness": null,
+      "id": "inevitability",
+      "kind": "theme",
+      "manifestation": "",
+      "meaning": "The path that cannot be unwalked"
+    },
+    {
+      "attributes": {
+        "author": "brehon",
+        "cast": {
+          "CAPTAIN": "am_eric",
+          "KEEPER": "am_onyx"
+        },
+        "credit": "written by",
+        "narrator_voice": "am_michael",
+        "source": "generated from a metaphor DAG",
+        "title": "The Lamp Room"
+      },
+      "concreteness": null,
+      "id": "three-act",
+      "kind": "three-act",
+      "manifestation": "",
+      "meaning": "A lighthouse keeper discovers the light he tends was built to wreck ships, not to save them"
+    },
+    {
+      "attributes": {},
+      "concreteness": null,
+      "id": "wax",
+      "kind": "motif",
+      "manifestation": "",
+      "meaning": "The seal that holds the truth in place"
+    }
+  ],
+  "root_id": "three-act"
+}

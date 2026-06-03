@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Any
+from typing import Any, Optional
 
 
 @dataclass
@@ -22,16 +22,23 @@ class Metaphor:
     Attributes:
         id: Stable identifier. The authoritative handle in the stored graph;
             determinism rides on these being reproducible across runs.
-        meaning: The abstract idea this metaphor embodies (its *tenor*).
+        meaning: The abstract idea this metaphor embodies (its *metaphrand*).
             Present at every level — even the root three-act structure has a
-            meaning: the story's controlling premise.
+            meaning: the story's controlling premise. It is allowed to be
+            abstract; it is the thing the manifestation makes concrete.
         manifestation: The concrete thing that appears in the story (its
-            *vehicle*) — a line, an action, an image. Typically empty for
+            *metaphier*) — a line, an action, an image. This must be a *bare
+            physical fact*, not ornament: "Her skin is cold," never "her skin
+            was cold as the absence of his warmth." Typically empty for
             abstract/internal metaphors and filled in at the leaves.
         kind: Free-form role tag (e.g. "three-act", "act", "beat", "image",
             "line"). Purely advisory — *everything* is still a metaphor.
         attributes: Arbitrary structured data (characters referenced, props,
             timing, generation seeds, …).
+        concreteness: Optional 0.0–1.0 score of how concrete the manifestation
+            is (1.0 = bare physical fact; lower = ornamental/abstract). Set by
+            :mod:`brehon.concreteness`; ``None`` until measured. The engine
+            drives leaves toward 1.0 — flowery language is the thing to remove.
     """
 
     id: str
@@ -39,6 +46,7 @@ class Metaphor:
     manifestation: str = ""
     kind: str = "metaphor"
     attributes: dict[str, Any] = field(default_factory=dict)
+    concreteness: Optional[float] = None
 
     def is_concretized(self) -> bool:
         """True once this metaphor has reached the page (has a manifestation)."""
@@ -51,6 +59,7 @@ class Metaphor:
             "manifestation": self.manifestation,
             "kind": self.kind,
             "attributes": self.attributes,
+            "concreteness": self.concreteness,
         }
 
     @classmethod
@@ -61,4 +70,5 @@ class Metaphor:
             manifestation=data.get("manifestation", ""),
             kind=data.get("kind", "metaphor"),
             attributes=dict(data.get("attributes", {})),
+            concreteness=data.get("concreteness"),
         )

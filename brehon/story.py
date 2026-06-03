@@ -129,6 +129,47 @@ class Story:
         self.set_root(root.id)
         return root
 
+    def mirror(
+        self,
+        transformation: str,
+        *,
+        previous: str,
+        next: str,
+        manifestation: str = "",
+        id: str = "mirror",
+        previous_id: str = "previous-state",
+        next_id: str = "next-state",
+        **attributes: Any,
+    ) -> tuple[Metaphor, Metaphor, Metaphor]:
+        """Create the root *mirror moment* and its two reflected branches.
+
+        The root holds the transformation the story aims to work on the reader;
+        its ``manifestation`` is the mirror scene itself — both worlds at once.
+        Its two children are the ``previous`` state (the world the hero leaves)
+        and the ``next`` state (the world he becomes); everything else
+        concretizes under one of them, and the renderer linearizes the graph as
+        *previous -> mirror -> next*, so the mirror lands at the hinge by
+        construction.
+
+        This is the only structure the model imposes. The journey beats that
+        hang below — an ordinary world, a refusal, an emergence — are a writer's
+        affordances, not a required schema; nothing here enforces them.
+        """
+        root = self.instantiate(
+            None, transformation, manifestation=manifestation,
+            kind="mirror", id=id, attributes=attributes,
+        )
+        self.set_root(root.id)
+        prev = self.instantiate(
+            root.id, previous, kind="state", id=previous_id,
+            attributes={"role": "previous"},
+        )
+        nxt = self.instantiate(
+            root.id, next, kind="state", id=next_id,
+            attributes={"role": "next"},
+        )
+        return root, prev, nxt
+
     def _auto_id(self, meaning: str) -> str:
         base = _slug(meaning)
         if base not in self._metaphors:

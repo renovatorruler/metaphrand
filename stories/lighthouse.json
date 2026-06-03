@@ -1,0 +1,172 @@
+{
+  "edges": [
+    {
+      "child": "previous-state",
+      "parent": "mirror"
+    },
+    {
+      "child": "next-state",
+      "parent": "mirror"
+    },
+    {
+      "child": "b-stop",
+      "parent": "next-state"
+    },
+    {
+      "child": "b-dark",
+      "parent": "next-state"
+    },
+    {
+      "child": "b-boat",
+      "parent": "next-state"
+    },
+    {
+      "child": "b-leave",
+      "parent": "next-state"
+    },
+    {
+      "child": "b-ritual",
+      "parent": "previous-state"
+    },
+    {
+      "child": "b-supply",
+      "parent": "previous-state"
+    },
+    {
+      "child": "b-fisherman",
+      "parent": "previous-state"
+    },
+    {
+      "child": "b-chart",
+      "parent": "previous-state"
+    }
+  ],
+  "metaphors": [
+    {
+      "attributes": {
+        "function": "elixir",
+        "slug": "EXT. THE REEF - DAWN"
+      },
+      "concreteness": 1.0,
+      "id": "b-boat",
+      "kind": "beat",
+      "manifestation": "At first light a fishing boat crosses the line where the beam used to fall. It passes the reef and holds its course.",
+      "meaning": "The elixir: a hull crosses the line and holds"
+    },
+    {
+      "attributes": {
+        "function": "refusal",
+        "slug": "INT. PELL LIGHT - CHART TABLE - NIGHT"
+      },
+      "concreteness": 1.0,
+      "id": "b-chart",
+      "kind": "beat",
+      "manifestation": "That night he lays the beam against the chart. It falls a thumb's width south of the channel, square on the reef. He closes the chart and winds the crank thirty-three turns.",
+      "meaning": "Refusal: he sees the proof and keeps winding"
+    },
+    {
+      "attributes": {
+        "function": "emergence"
+      },
+      "concreteness": 1.0,
+      "id": "b-dark",
+      "kind": "beat",
+      "manifestation": "For the first time in twenty years the tower is dark, and he hears the sea he could never hear over the gears.",
+      "meaning": "The new world: he hears what the gears drowned"
+    },
+    {
+      "attributes": {
+        "character": "FISHERMAN",
+        "dialogue": "Twenty years I've rowed wide of your light. Ask the Mason's Reef why.",
+        "function": "call"
+      },
+      "concreteness": 1.0,
+      "id": "b-fisherman",
+      "kind": "beat",
+      "manifestation": "A fisherman mending net on the jetty will not take the rope from his hand.",
+      "meaning": "The call: the light is not what he was told it was"
+    },
+    {
+      "attributes": {
+        "function": "return",
+        "slug": "INT. PELL LIGHT - STAIRS - DAY"
+      },
+      "concreteness": 1.0,
+      "id": "b-leave",
+      "kind": "beat",
+      "manifestation": "He leaves the logbook open to the last line, the ink still wet -- LIGHT OUT -- and goes down the ninety-one steps. He does not come back up.",
+      "meaning": "The cost: he leaves the only place he belongs"
+    },
+    {
+      "attributes": {
+        "function": "ordinary world",
+        "slug": "INT. PELL LIGHT - STAIRS - DUSK"
+      },
+      "concreteness": 1.0,
+      "id": "b-ritual",
+      "kind": "beat",
+      "manifestation": "At dusk he climbs the ninety-one steps, fills the oil, and winds the crank thirty-three turns. The light comes up. He writes the date.",
+      "meaning": "His life is the maintenance of the machine"
+    },
+    {
+      "attributes": {
+        "function": "the turn",
+        "slug": "INT. LANTERN ROOM - NIGHT"
+      },
+      "concreteness": 1.0,
+      "id": "b-stop",
+      "kind": "beat",
+      "manifestation": "He takes his hand off the crank. The spring runs down. The lamp gutters and the beam pulls back across the water.",
+      "meaning": "He stops"
+    },
+    {
+      "attributes": {
+        "function": "ordinary world",
+        "slug": "EXT. PELL LIGHT - JETTY - DAY"
+      },
+      "concreteness": 1.0,
+      "id": "b-supply",
+      "kind": "beat",
+      "manifestation": "The supply boat leaves a sack of meal and a three-week-old newspaper on the bottom step and pushes off before he is down to take it.",
+      "meaning": "No one comes; the light is all he is"
+    },
+    {
+      "attributes": {
+        "author": "brehon",
+        "cast": {
+          "FISHERMAN": "am_fenrir"
+        },
+        "credit": "written by",
+        "narrator_voice": "am_michael",
+        "slug": "INT. LANTERN ROOM - NIGHT",
+        "title": "Pell Light"
+      },
+      "concreteness": 1.0,
+      "id": "mirror",
+      "kind": "mirror",
+      "manifestation": "He stands at the crank at three in the morning, one hand on the handle. The logbook lies open to twenty years of his own writing: LIGHT BURNING. SEA CLEAR. Through the glass the beam runs white and steady onto the Mason's Reef. He does not turn the handle. He does not let go of it.",
+      "meaning": "A man who keeps the machine running because he was told to becomes a man who stops it, though stopping costs him the only place he belongs"
+    },
+    {
+      "attributes": {
+        "role": "next"
+      },
+      "concreteness": null,
+      "id": "next-state",
+      "kind": "state",
+      "manifestation": "",
+      "meaning": "The keeper who lets it go dark"
+    },
+    {
+      "attributes": {
+        "role": "previous"
+      },
+      "concreteness": null,
+      "id": "previous-state",
+      "kind": "state",
+      "manifestation": "",
+      "meaning": "The keeper who winds the light"
+    }
+  ],
+  "root_id": "mirror"
+}

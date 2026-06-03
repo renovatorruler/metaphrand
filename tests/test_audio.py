@@ -70,6 +70,17 @@ def test_em_dashes_normalised_for_speech():
     assert AudioRenderer().utterances(s)[0].text == "A, B, C."
 
 
+def test_unicode_dash_and_emphasis_normalised_for_speech():
+    s = Story()
+    root = s.three_act("p", narrator_voice="n")
+    act = s.instantiate(root.id, "a", kind="act", id="act1")
+    s.instantiate(
+        act.id, "b", kind="beat",
+        manifestation="The lens—*hollow*—turns inward.", id="b1",
+    )
+    assert AudioRenderer().utterances(s)[0].text == "The lens, hollow, turns inward."
+
+
 def test_to_wav_writes_valid_mono_pcm(tmp_path):
     path = str(tmp_path / "out.wav")
     us = AudioRenderer().to_wav(_story(), SilentBackend(sample_rate=8000), path)

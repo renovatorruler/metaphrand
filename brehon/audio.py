@@ -22,6 +22,7 @@ Backends:
 
 from __future__ import annotations
 
+import re
 import wave
 from dataclasses import dataclass
 from typing import Optional, Protocol
@@ -39,8 +40,17 @@ class Utterance:
 
 
 def _for_speech(text: str) -> str:
-    """Light normalisation so written punctuation reads aloud cleanly."""
-    return text.replace(" -- ", ", ").strip()
+    """Light normalisation so written punctuation reads aloud cleanly.
+
+    Turns dashes into spoken pauses and drops markdown emphasis, so prose
+    written for the page (``a -- b``, ``the lens--hollow--turns``, ``*italics*``)
+    is not voiced as stray symbols.
+    """
+    text = text.replace(" -- ", ", ")
+    text = re.sub(r"\s*[—–]\s*", ", ", text)  # em/en dash -> a spoken pause
+    text = text.replace("*", "")              # markdown emphasis is silent
+    text = re.sub(r"\s+", " ", text)          # collapse runs of whitespace
+    return text.strip()
 
 
 class AudioRenderer:
