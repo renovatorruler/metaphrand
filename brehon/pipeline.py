@@ -14,7 +14,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Optional
 
-from brehon import cinema as _cinema
+from brehon import arrangement as _arrangement, cinema as _cinema
 from brehon import concreteness, density as _density, doorways as _doorways
 from brehon import dossier as _dossier, embodiment, showing
 from brehon import generate as _generate
@@ -73,6 +73,8 @@ def check(
         f"root = {root.kind if root else 'none'}"))
     door = _doorways.doorways(story)
     stages.append(StageReport("doorways", door.passed, door.summary()))
+    arr = _arrangement.arrangement(story)
+    stages.append(StageReport("arrangement", arr.passed, arr.summary()))
 
     # 3 — World  (skipped if no cast supplied)
     if world is not None:

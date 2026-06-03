@@ -25,7 +25,8 @@ def _clean_story():
 
 def test_check_reports_every_stage():
     names = [s.name for s in check(_clean_story()).stages]
-    assert names == ["spine", "doorways", "concreteness", "show-not-tell", "visual", "density"]
+    assert names == ["spine", "doorways", "arrangement", "concreteness",
+                     "show-not-tell", "visual", "density"]
 
 
 def test_clean_story_passes():

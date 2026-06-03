@@ -109,8 +109,25 @@ def to_prompt(story: "Story", *, form: str = "screenplay") -> str:
         "  - Allow contingency — specifics and small events that do NOT pay off; a "
         "real world is not a machine where every part is load-bearing.",
     ]
+    from brehon.arrangement import arrangement as _arrange, story_order
+    arr = _arrange(story)
+    if not arr.linear and arr.cold_opens:
+        cold = {b.id: b for b in story_order(story)}.get(arr.cold_opens[0])
+        if cold is not None:
+            out += [
+                "",
+                "TELLING ORDER — do NOT tell this front to back:",
+                f"  - COLD OPEN on this moment, then cut away before it resolves: "
+                f"{cold.manifestation or cold.meaning}",
+                "  - Play the rest from the beginning as a FLASHBACK that leads up to it, "
+                "then RETURN to that moment at its place in time and let it land in full.",
+                "  - The audience knows the ending from the first scene; let that dread "
+                "shadow every scene between.",
+            ]
+
     out += ["", "RULES (non-negotiable; checked on your output):", *_RULES, "",
-            f"Write the {form} now, scene by scene, in order."]
+            f"Write the {form} now, scene by scene, in the order the audience should see "
+            "it (follow TELLING ORDER if one is given; otherwise chronological)."]
     return "\n".join(out)
 
 

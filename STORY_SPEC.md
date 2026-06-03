@@ -36,6 +36,13 @@ own. *(Modifies: replaces "controlling premise" as the root's purpose.)*
   transformed — proving the change, not announcing it. *(Added.)*
 - **Connection machinery.** Campbell's early beats (ordinary world, call, refusal…)
   exist to get the ego to board; include by *function*, not as a rigid checklist. *(Added.)*
+- **Arrangement: story-time vs plot-time.** The spine is the events in order (the
+  chronology); the *telling* order is a separate clock. A `plot_order` on the root
+  re-sequences the presentation — a cold-open **frame** shows a beat first and returns
+  to it (open on the death notice, flash back, arrive again and feel it). The gate
+  checks the re-ordering is legal (every beat still presented, the cold open sits on a
+  real turn, the frame returns); causality is untouched because story-time is the
+  spine. *(Added.)*
 
 ## 2 — Metaphor (the unit)
 
@@ -149,7 +156,7 @@ concreteness, structure). What the code cannot cleanly fix, it does not try to.
 ## The pipeline (the gates the code owns)
 
 1. **Aim** — the transformation signal.
-2. **Spine** — mirror root + two branches + doorways + the test.
+2. **Spine** — mirror root + two branches + doorways + the test + arrangement (telling order).
 3. **World** — archetypal ensemble (clear the Fullness gate).
 4. **Weave** — A / B threads.
 5. **Metaphor** — concretize + embodiment check, per beat.

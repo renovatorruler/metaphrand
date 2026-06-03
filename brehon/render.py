@@ -95,7 +95,9 @@ class FountainRenderer:
         out: list[str] = []
         self._title_page(root, out)
 
-        if root.kind == "mirror":
+        if root.attributes.get("plot_order"):
+            self._render_arranged(story, out)
+        elif root.kind == "mirror":
             self._render_mirror(story, root, out)
         else:
             acts = [m for m in story.children(root.id) if m.kind == "act"]
@@ -107,6 +109,27 @@ class FountainRenderer:
                     self._emit_beat(story.get(beat.id), out)
 
         return self._normalise(out)
+
+    def _render_arranged(self, story: Story, out: list[str]) -> None:
+        """Render in presentation order, marking the jumps between time slabs.
+
+        Honors the root's ``plot_order``: a cold open, a flashback, the return.
+        A backward jump in story-time prints FLASHBACK TO:; catching back up prints
+        PRESENT DAY, so the page reads the way the film cuts.
+        """
+        from brehon import arrangement  # local: keep render.py importable standalone
+
+        chrono = {b.id: i for i, b in enumerate(arrangement.story_order(story))}
+        previous = None
+        for beat in arrangement.plot_order(story):
+            here = chrono.get(beat.id)
+            if previous is not None and here is not None:
+                if here < previous:
+                    out += ["FLASHBACK TO:", ""]
+                elif here > previous + 1:
+                    out += ["PRESENT DAY", ""]
+            self._emit_beat(beat, out)
+            previous = here
 
     def _render_mirror(self, story: Story, root, out: list[str]) -> None:
         """Linearize a mirror story: previous branch -> the mirror -> next branch.

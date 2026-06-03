@@ -10,6 +10,7 @@ Run with:  python -m examples.ray
 """
 
 from brehon import Story
+from brehon.arrangement import frame
 from brehon.prompt import to_beat_sheet
 from brehon.world import (
     ALLY, GUARDIAN, HERALD, HERO, MENTOR, SHAPESHIFTER, TRICKSTER, Character, World,
@@ -80,6 +81,11 @@ def build() -> Story:
         Character("sully", "SULLY", TRICKSTER, "to keep his friend in the booth beside him", "m"),
         Character("recruiter", "RECRUITER", GUARDIAN, "to fill a quota", "m"),
     ]).attach(s)
+
+    # Arrangement: open on the death notice, flash back through the setup, and
+    # return to it -- the audience knows Tommy is gone from the first scene, and
+    # every beat of him enlisting is shadowed by it.
+    frame(s, "b-telegram")
     return s
 
 
