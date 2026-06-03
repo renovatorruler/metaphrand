@@ -1,5 +1,5 @@
 from brehon import Story
-from brehon.prompt import lint_prose, to_prompt, write_story
+from brehon.prompt import lint_prose, to_beat_sheet, to_prompt, write_story
 
 
 def _seed():
@@ -57,3 +57,28 @@ def test_lint_prose_flags_the_code_owned_rules():
 
 def test_lint_prose_passes_clean_prose():
     assert lint_prose("He bolts the door from the inside. He sets the cup down.") == []
+
+
+def _seed_with_events():
+    s = Story()
+    root, prev, nxt = s.mirror(
+        "a man who hides becomes a man who stands",
+        manifestation="He stands at the door with his hand on the bolt.",
+        previous="the hider", next="the stander", narrator_voice="x",
+    )
+    s.instantiate(prev.id, "he refuses the call", kind="beat", id="b1",
+                  attributes={"doorway": 1},
+                  manifestation="He closes the chart and winds the crank again.")
+    s.instantiate(nxt.id, "he stands", kind="beat", id="b2",
+                  manifestation="He steps into the open and takes the fire meant for the boy.")
+    return s
+
+
+def test_to_beat_sheet_is_a_concrete_ordered_sheet():
+    sheet = to_beat_sheet(_seed_with_events())
+    assert "beat sheet" in sheet
+    assert "He closes the chart" in sheet            # the concrete event, not the meaning
+    assert "DOORWAY 1" in sheet
+    assert "THE MIRROR" in sheet and "hand on the bolt" in sheet
+    assert "TO THE WRITER" in sheet
+    assert sheet.index("BEFORE") < sheet.index("THE MIRROR") < sheet.index("AFTER")

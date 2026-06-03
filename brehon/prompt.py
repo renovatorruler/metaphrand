@@ -84,6 +84,71 @@ def to_prompt(story: "Story", *, form: str = "screenplay") -> str:
     return "\n".join(out)
 
 
+def to_beat_sheet(story: "Story", *, title: Optional[str] = None) -> str:
+    """Render the seed as a BEAT SHEET — the prompt you hand an LLM.
+
+    Concrete beats in narrative order (before -> the mirror -> after), each the
+    event plus the meaning it embodies and any structural marker. The program's
+    job ends here: an LLM writes the screenplay *from* this and owns the
+    continuity, the world, and the words; it does not invent the beats.
+    """
+    if story.root_id is None:
+        return ""
+    root = story.get(story.root_id)
+    heading = (title or root.attributes.get("title") or "Untitled").upper()
+    out: list[str] = [f"{heading} — a beat sheet", "",
+                      f"TRANSFORMATION: {root.meaning}", ""]
+    counter = [1]
+
+    def emit(parent_id: str) -> None:
+        for beat in story.children(parent_id):
+            door = beat.attributes.get("doorway")
+            mark = f"   [DOORWAY {door} — point of no return]" if door else ""
+            speaks = ("   [has dialogue]" if beat.attributes.get("character")
+                      and beat.attributes.get("dialogue") else "")
+            event = beat.manifestation.strip() or f"(a beat that embodies: {beat.meaning})"
+            out.append(f"{counter[0]}. {event}{mark}")
+            out.append(f"      embodies — {beat.meaning}{speaks}")
+            counter[0] += 1
+
+    if root.kind == "mirror":
+        states = sorted((m for m in story.children(root.id) if m.kind == "state"),
+                        key=lambda s: 0 if s.attributes.get("role") == "previous" else 1)
+        if states:
+            out.append(f"BEFORE — {states[0].meaning}:")
+            emit(states[0].id)
+            out.append("")
+        out.append(f"{counter[0]}. THE MIRROR (the hinge, both worlds at once): {root.manifestation}")
+        out.append(f"      embodies — {root.meaning}")
+        counter[0] += 1
+        out.append("")
+        if len(states) > 1:
+            out.append(f"AFTER — {states[1].meaning}:")
+            emit(states[1].id)
+            out.append("")
+    else:
+        for index, act in enumerate((m for m in story.children(root.id) if m.kind == "act"), 1):
+            out.append(f"ACT {index} — {act.meaning}:")
+            emit(act.id)
+            out.append("")
+
+    cast = [m for m in story.walk() if m.kind == "character"]
+    if cast:
+        out.append("CAST:")
+        for c in cast:
+            out.append(f"  - {c.meaning} — {c.attributes.get('archetype', '')}: "
+                       f"wants {c.attributes.get('want', '')}")
+        out.append("")
+
+    out.append(
+        "TO THE WRITER: expand this beat sheet into a screenplay. Write each beat as "
+        "a scene — action and dialogue — in this exact order, changing none of the "
+        "events and none of what they mean. You own the continuity, the world, and "
+        "the words. Show every beat as a bare physical fact; never name its meaning; "
+        "use plain, common names.")
+    return "\n".join(out)
+
+
 def write_story(
     story: "Story", client: "LLMClient", *, form: str = "screenplay",
     system: Optional[str] = None,

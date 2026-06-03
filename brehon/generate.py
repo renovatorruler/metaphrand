@@ -251,12 +251,14 @@ class OllamaClient:
         temperature: float = 0.7,
         seed: Optional[int] = 7,
         timeout: float = 600.0,
+        json_mode: bool = True,
     ) -> None:
         self.model = model
         self.host = host.rstrip("/")
         self.temperature = temperature
         self.seed = seed
         self.timeout = timeout
+        self.json_mode = json_mode  # JSON for structured seed calls; off for prose
 
     def complete(self, prompt: str, *, system: Optional[str] = None) -> str:
         options: dict[str, Any] = {"temperature": self.temperature}
@@ -266,9 +268,10 @@ class OllamaClient:
             "model": self.model,
             "prompt": prompt,
             "stream": False,
-            "format": "json",
             "options": options,
         }
+        if self.json_mode:
+            body["format"] = "json"
         if system:
             body["system"] = system
         request = urllib.request.Request(
