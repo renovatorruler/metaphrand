@@ -92,6 +92,29 @@ def test_parse_screenplay_splits_voices():
     ]
 
 
+def test_parse_screenplay_colon_cues():
+    from brehon.audio import parse_screenplay
+
+    script = "RAY:\nName the company.\n\nCARL (CONT'D):\nThe what?"
+    assert parse_screenplay(script, {"RAY": "rv", "CARL": "cv"}, "narr") == [
+        Utterance("rv", "Name the company.", "screenplay"),
+        Utterance("cv", "The what?", "screenplay"),
+    ]
+
+
+def test_parse_screenplay_standalone_wryly_keeps_speaker():
+    from brehon.audio import parse_screenplay
+
+    # a lone "(beat)" between a cue and its continuation must not hand the line
+    # to the narrator -- it stays with the character who was talking
+    script = ("TOMMY:\nHe didn't, but okay.\n\n(beat)\n\n"
+              "You've got all the words, Ray.")
+    assert parse_screenplay(script, {"TOMMY": "tv"}, "narr") == [
+        Utterance("tv", "He didn't, but okay.", "screenplay"),
+        Utterance("tv", "You've got all the words, Ray.", "screenplay"),
+    ]
+
+
 def test_to_wav_writes_valid_mono_pcm(tmp_path):
     path = str(tmp_path / "out.wav")
     us = AudioRenderer().to_wav(_story(), SilentBackend(sample_rate=8000), path)

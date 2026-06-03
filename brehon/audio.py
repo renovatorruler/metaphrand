@@ -147,14 +147,30 @@ def parse_screenplay(text: str, cast: dict[str, str], narrator: str) -> list[Utt
     The narrator reads the action; each cast character reads their own dialogue.
     Scene headings and transitions are not spoken; an unlisted speaker (a one-line
     extra) falls to the narrator. Blocks are separated by blank lines.
+
+    Character cues may be bare (``RAY``) or colon-terminated (``RAY:``), with or
+    without a parenthetical (``RAY (CONT'D):``) — the colon form is friendlier to
+    text-to-speech. A standalone wryly on its own line (``(beat)``) is not spoken
+    and does not break the speaker: the dialogue after it stays attributed to the
+    character who was talking, rather than falling to the narrator.
     """
     voices = {name.upper(): voice for name, voice in cast.items()}
     out: list[Utterance] = []
 
+    def norm(s: str) -> str:  # drop a trailing colon and any stray space
+        return s.strip().rstrip(":").strip()
+
     def is_cue(line: str) -> bool:
-        base = re.sub(r"\(.*?\)", "", line).strip().rstrip(":")
+        base = norm(re.sub(r"\(.*?\)", "", line))
         return (bool(base) and base == base.upper()
                 and 1 <= len(base.split()) <= 4 and any(c.isalpha() for c in base))
+
+    def spoken(parts: list[str]) -> str:
+        return " ".join(p for p in parts
+                        if not (p.startswith("(") and p.endswith(")")))
+
+    last_voice: Optional[str] = None
+    pending = False  # a lone wryly is holding the current speaker open
 
     for block in re.split(r"\n\s*\n", text):
         lines = [ln.strip() for ln in block.splitlines() if ln.strip()]
@@ -164,16 +180,27 @@ def parse_screenplay(text: str, cast: dict[str, str], narrator: str) -> list[Utt
         if (head.startswith(("INT.", "EXT.", "INT/", "EXT/", "I/E"))
                 or head in ("FADE IN:", "FADE OUT.", "FADE TO BLACK.")
                 or head.endswith("TO:")):
-            continue  # orientation / transitions are not spoken
+            last_voice, pending = None, False  # action breaks any dialogue run
+            continue
+        if len(lines) == 1 and lines[0].startswith("(") and lines[0].endswith(")"):
+            if last_voice is not None:
+                pending = True  # wryly between a cue and its continued dialogue
+            continue
         if is_cue(lines[0]):
-            name = re.sub(r"\(.*?\)", "", lines[0]).strip().rstrip(":").upper()
-            voice = voices.get(name, narrator)
-            dialogue = " ".join(ln for ln in lines[1:]
-                                if not (ln.startswith("(") and ln.endswith(")")))
+            name = norm(re.sub(r"\(.*?\)", "", lines[0])).upper()
+            last_voice = voices.get(name, narrator)
+            dialogue = spoken(lines[1:])
             if dialogue.strip():
-                out.append(Utterance(voice, _for_speech(dialogue), "screenplay"))
+                out.append(Utterance(last_voice, _for_speech(dialogue), "screenplay"))
+            pending = False
+        elif pending and last_voice is not None:
+            dialogue = spoken(lines)  # continued dialogue after a lone wryly
+            if dialogue.strip():
+                out.append(Utterance(last_voice, _for_speech(dialogue), "screenplay"))
+            pending = False
         else:
             out.append(Utterance(narrator, _for_speech(" ".join(lines)), "screenplay"))
+            last_voice, pending = None, False
     return out
 
 
