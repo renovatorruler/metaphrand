@@ -50,9 +50,9 @@ def build() -> Story:
     # -- FLESH: the town and the war, off Ray's line (subplot/texture) --
     s.instantiate(before.id, "Sully, turned away at the enlistment desk for a bad heart, pours the last round for the boys who passed and runs a tab he knows won't be paid",
                   kind="beat", id="b-sully")
-    s.instantiate(before.id, "Boys line the depot with cardboard suitcases while the town's women and old men see them off, and blue-star flags go up in the front windows",
+    s.instantiate(before.id, "Kids with gym bags load into a van outside the strip-mall recruiting office, the only place still hiring in a county where the plant closed years ago",
                   kind="beat", id="b-depot")
-    s.instantiate(before.id, "The man of all words sits to write his brother a letter, crumples three failed tries, and works their dead father's Anzio lighter down into the packed duffel instead",
+    s.instantiate(before.id, "The man of all words sits to write his brother a letter, crumples three failed tries, and works the Zippo their father carried home from his war down into the packed duffel instead",
                   kind="beat", id="b-gift")
     s.instantiate(before.id, "The telegram: Tommy is dead, pointless, exactly as Ray swore — and Ray goes cold, not grieved",
                   kind="beat", id="b-telegram", attributes={"doorway": 1})
@@ -72,7 +72,7 @@ def build() -> Story:
                   kind="beat", id="b-women")
     s.instantiate(after.id, "Ruth tends two graves now, Earl's and the boy's, side by side, and a gold-star flag hangs in her own front window",
                   kind="beat", id="b-graves")
-    s.instantiate(after.id, "The mill runs day and night on government contracts; the same women who buried the men assemble the shells the next ones will fire",
+    s.instantiate(after.id, "The plant at the edge of town sits dark and has for years; the recruiter's storefront is the one set of lights left on Main Street, and every kid knows the address",
                   kind="beat", id="b-mill")
     s.instantiate(after.id, "Annie goes back to the diner counter and pours coffee for the next boys shipping out, steady-eyed, the way she does everything",
                   kind="beat", id="b-annie-work")
@@ -106,27 +106,27 @@ def build() -> Story:
     attach_bibles(s, [
         Dossier("EARL", [
             Fact("Came home from his war and didn't say four words a year for the rest of his life.", "surface"),
-            Fact("Carried home a battered brass lighter he never once explained.", "surface"),
-            Fact("At Anzio he froze in the landing boat; a friend climbed over him into the fire and was killed doing it, and Earl came ashore behind the body.", "submerged"),
-            Fact("He believed to his grave the medal he was given belonged to that dead man, and the lighter was the dead man's too.", "submerged"),
+            Fact("Carried home a scratched-up Zippo he never once explained.", "surface"),
+            Fact("At a hot LZ in Vietnam he froze in the door of the helicopter; a friend shoved past him to jump and was cut down on the skid, and Earl stepped off behind the body.", "submerged"),
+            Fact("He believed to his grave the medal he was given belonged to that dead man, and the Zippo was the dead man's too.", "submerged"),
             Fact("The one war story he ever told -- the boat in, the dark, standing up into it -- he told the boy Tommy, and left out that he never stood up; the boy heard a hero where there was a confession.", "submerged"),
-            Fact("Scorpio sun, Capricorn moon, Mars square Saturn -- the will and the brake welded together; terrified his whole life of deep water; carved soap animals and burned them before anyone saw.", "submerged"),
+            Fact("Scorpio sun, Capricorn moon, Mars square Saturn -- the will and the brake welded together; couldn't stand the sound of a helicopter the rest of his life; carved soap animals and burned them before anyone saw.", "submerged"),
         ]),
         Dossier("RUTH", [
             Fact("Her hands never shake; she keeps two graves behind the church now.", "surface"),
-            Fact("Earl told her the truth of Anzio once, drunk, the only time she ever saw him so; she has carried his shame alone for thirty years and never said a word, not even to the sons.", "submerged"),
+            Fact("Earl told her the truth of the war once, drunk, the only time she ever saw him so; she has carried his shame alone for thirty years and never said a word, not even to the sons.", "submerged"),
             Fact("She lets Tommy march off chasing a hero who never existed because the truth would destroy the only piece of his father the boy owns.", "submerged"),
             Fact("Virgo sun, Scorpio moon -- the vault; can recite the kings of England in order, which has never once been required of her; guesses the killer by page forty and tells no one.", "submerged"),
         ]),
         Dossier("RAY", [
             Fact("When anything real is at stake his hands go cold and useless, so he learned to talk instead.", "surface"),
-            Fact("He remembered his father before the war and watched him come home a ghost; as a boy he decided, wordlessly, that war eats men and he would not be eaten.", "submerged"),
+            Fact("He grew up under the father's silence, the war long over and the ghost long home, and decided as a boy, wordlessly, that war eats men and he would not be eaten.", "submerged"),
             Fact("He suspects the cold hands are his father's, inherited, and has spent forty years proving in arguments he always wins that his cowardice is a principle.", "submerged"),
             Fact("Gemini sun, Mars conjunct Saturn caged in the twelfth -- the warrior talked into a cage; county spelling champion who went out on 'necessary' at twelve; cried at a book age ten and hid it in the wall, where it still is.", "submerged"),
         ]),
         Dossier("TOMMY", [
             Fact("As a boy he walked back into beatings he couldn't win, again and again, grinning.", "surface"),
-            Fact("Born after the war, he only knew the silent father and read the silence as strength; he built his whole self on the one Anzio story, which he heard backwards.", "submerged"),
+            Fact("Born after the war, he only knew the silent father and read the silence as strength; he built his whole self on the one war story, which he heard backwards.", "submerged"),
             Fact("He goes to war to become the hero his father never was, certain he is honoring the hero his father was.", "submerged"),
             Fact("Aries sun conjunct Mars, nothing in him brakes; could rebuild any engine in the county but couldn't spell; carried a buckeye for luck and named all his bantam hens.", "submerged"),
         ]),
