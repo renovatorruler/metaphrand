@@ -14,6 +14,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Optional
 
+from brehon import cinema as _cinema
 from brehon import concreteness, doorways as _doorways, embodiment, showing
 from brehon import generate as _generate
 from brehon import weave as _weave
@@ -91,6 +92,13 @@ def check(
     # 6 — Render: show, don't tell
     told = showing.report(story)
     stages.append(StageReport("show-not-tell", told.telling == 0, told.summary()))
+
+    # 7 — Cinema: tell it in pictures (the sound-off test)
+    mod = _cinema.modality(story)
+    stages.append(StageReport("visual", mod.passed, mod.summary()))
+    if client is not None:
+        silent = _cinema.silent_legibility(story, client)
+        stages.append(StageReport("silent-spine", silent.passed, silent.summary()))
 
     return PipelineResult(stages)
 

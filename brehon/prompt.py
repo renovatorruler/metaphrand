@@ -31,6 +31,12 @@ _RULES = (
     "- Keep the structure and the order: the previous state, then the mirror scene, "
     "then the next state. The two doorways are points of no return.",
     "- Plain, common names — no invented-literary words.",
+    "- TELL IT IN PICTURES. Carry every turn in what people DO, not what they say. A "
+    "stranger who speaks no English must be able to follow the spine with the sound "
+    "off: each beat has to put a physical action or image on screen, and the opening "
+    "image, the mirror, and the finale must land for the eye. Dialogue is seasoning "
+    "— never run more than two talking scenes back to back without an active one, "
+    "and as the hero is broken open let the film grow quieter and more visual.",
 )
 
 

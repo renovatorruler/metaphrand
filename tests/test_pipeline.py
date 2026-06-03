@@ -20,7 +20,7 @@ def _clean_story():
 
 def test_check_reports_every_stage():
     names = [s.name for s in check(_clean_story()).stages]
-    assert names == ["spine", "doorways", "concreteness", "show-not-tell"]
+    assert names == ["spine", "doorways", "concreteness", "show-not-tell", "visual"]
 
 
 def test_clean_story_passes():
@@ -115,6 +115,8 @@ class _PipelineClient:
             return _WEAVE
         if "read the meaning" in sys_l:
             return _MEANING
+        if "pictures" in sys_l:  # the silent-spine round-trip (sound-off test)
+            return json.dumps({"arc": "a keeper learns to stop the light he was told to keep"})
         return json.dumps({"line": "He stands in the room."})  # concretize/show fallback
 
 
