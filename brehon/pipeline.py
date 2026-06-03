@@ -15,7 +15,8 @@ from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Optional
 
 from brehon import cinema as _cinema
-from brehon import concreteness, density as _density, doorways as _doorways, embodiment, showing
+from brehon import concreteness, density as _density, doorways as _doorways
+from brehon import dossier as _dossier, embodiment, showing
 from brehon import generate as _generate
 from brehon import weave as _weave
 from brehon import world as _world
@@ -60,6 +61,7 @@ def check(
     world: Optional["World"] = None,
     weave: Optional["Weave"] = None,
     client: Optional["LLMClient"] = None,
+    script: Optional[str] = None,
 ) -> PipelineResult:
     """Run the story through every gate the spec defines, in order."""
     stages: list[StageReport] = []
@@ -104,6 +106,11 @@ def check(
     dens = _density.density(story, world=world)
     stages.append(StageReport("density", dens.passed, dens.summary()))
 
+    # 9 — Backstory: the iceberg stays under (only when a script is supplied)
+    if script is not None:
+        spill = _dossier.leak(script, story)
+        stages.append(StageReport("backstory", spill.passed, spill.summary()))
+
     return PipelineResult(stages)
 
 
@@ -125,6 +132,7 @@ def generate(
     *,
     concretize: bool = True,
     show: bool = True,
+    bible: bool = False,
 ) -> StoryResult:
     """Run a premise through the whole spec, stage by stage, gated at each step.
 
@@ -143,6 +151,11 @@ def generate(
     world = _world.populate(premise, client, warnings=warnings)
     world.attach(story)
 
+    # Bible — build each character's backstory; most of it stays submerged, fed to
+    # the prompt as "what you know, and must not say," and checked by the leak gate.
+    if bible:
+        _dossier.attach(story, _dossier.write_bible(story, premise, client, warnings=warnings))
+
     # Weave — braid an A-story with B-stories that refract it.
     hero = world.hero()
     beat_ids = [m.id for m in story.walk() if m.kind == "beat"]
@@ -160,5 +173,5 @@ def generate(
         showing.show(story, client, warnings=warnings)
     screenplay = FountainRenderer().render(story)
 
-    report = check(story, world=world, weave=weave, client=client)
+    report = check(story, world=world, weave=weave, client=client, script=screenplay)
     return StoryResult(story, world, weave, screenplay, report, warnings)

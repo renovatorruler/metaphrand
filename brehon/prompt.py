@@ -91,6 +91,11 @@ def to_prompt(story: "Story", *, form: str = "screenplay") -> str:
             out.append(f"  - {c.meaning} — {c.attributes.get('archetype', '')}; "
                        f"wants {c.attributes.get('want', '')}")
 
+    from brehon.dossier import reference_block  # the backstory you know, not say
+    bible = reference_block(story)
+    if bible:
+        out += ["", bible]
+
     out += [
         "",
         "THE FLESH (yours to invent — the fixed beats above are the load-bearing "

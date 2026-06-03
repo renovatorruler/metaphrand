@@ -117,6 +117,24 @@ monorail. *(Added.)*
 
 ---
 
+## 8 — Backstory (the iceberg under each character)
+
+- **Build the bible.** Every character carries a backstory the audience never
+  learns: the wound, the ghost (often inherited), upbringing, want vs. need, the
+  secret, the contradiction. The model skips this work unless made to do it. *(Added.)*
+- **Surface vs. submerged.** Each fact is tagged: *surface* (shown in the story,
+  never told) or *submerged* (informs only, never appears — what broke the father at
+  Anzio). Most of the bible is submerged; its job is to exist. *(Added.)*
+- **Feed it as "what you know, and must not say."** The bible is rendered into the
+  prompt (`dossier.reference_block`) as context that shapes behaviour and choice and
+  never becomes dialogue or narration — the model's habit is to exposit whatever it
+  holds, so the discipline is explicit. *(Added.)*
+- **Gate: no leaks.** After the draft, `dossier.leak` checks the script against the
+  submerged set; any buried fact that surfaced as exposition is a leak, to cut or
+  bury. Show the symptom; submerge the cause. *(Added.)*
+
+---
+
 ## The data structure is a managed prompt
 
 The graph is not a generator or a simulator — it is a **seed**: the deep
@@ -138,6 +156,7 @@ concreteness, structure). What the code cannot cleanly fix, it does not try to.
 6. **Render** — active prose + the show-not-tell pass.
 7. **Cinema** — the modality gate + the silent-spine (sound-off) round-trip.
 8. **Density** — flesh on the bones: the anti-shrink-wrap gate (bones vs flesh, undramatized wants).
+9. **Backstory** — the character bible: built, fed as "what you know, not say," gated for leaks.
 
 The LLM is the worker inside each step. The steps, the order, and the gates are the
 system.
