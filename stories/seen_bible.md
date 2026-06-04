@@ -115,6 +115,44 @@ because there's no anxiety where there's no self.
   whether there is a man under the masks at all — and the only place that answer
   lives is the one place that will lie to him about it.
 
+**The houses (deeper).** *The Dolans*, nine to eleven — a good-enough couple who
+wanted a quiet boy and got one; he was so quiet they forgot his birthday twice and
+he let them, because being forgotten was a skill and skills were the only currency he
+carried between houses. *The Reaches*, twelve to thirteen — a man who hit, and Danny
+learned to be so exactly what the man wanted in the doorway that the hand stayed down;
+that was the first cover he ever ran, and the man's approval the best review he ever
+got. *The Okonkwos*, thirteen to fifteen — the one kind house, where a foster mother
+named *Grace* taught him chess and meant to keep him, and he ran away the week before
+the adoption hearing, because being kept was the single thing he had no cover for. He
+has never told this to a living soul, and has given three different therapists three
+different reasons he left.
+
+**The drawing (submerged, load-bearing).** Between houses, in the back of every
+caseworker's car, he drew — never pictures of anything, just the same dense
+crosshatch that swallowed a page and a half-hour and let him be nowhere. An art
+teacher once held up his notebook and said, *this boy disappears into a page like
+it's a door,* meaning it as worry; Danny took it as the only true thing anyone ever
+saw in him and stopped drawing the next day, because being seen was worse than the
+hand in the doorway. The cover — "Danny, aspiring painter" — is going to put a
+pencil back in his hand for the first time in thirty years, and the department thinks
+it's a prop.
+
+**The covers.** Eleven legends in twelve years. A dock foreman; a hospice volunteer;
+a man who sold knockoff insulin to people who couldn't afford the real thing and was
+loved for it. *Wendell* — a cover so complete he kept the apartment six weeks after
+the arrests because he'd forgotten how to be no one again. And the one that wakes
+him: *Petey,* a kid he ran against a crew, nineteen, who trusted Danny like a brother
+and is doing eleven years on Danny's word, and who writes him — to the cover name —
+twice a year, *Danny, when you getting out?,* and Danny reads them and can't answer,
+because there is no Danny to get out.
+
+**Tastes, fears, contingencies.** Can't sit in a room with a ticking clock and won't
+say why (it isn't trauma; a clock is just the one thing that was the same in every
+house). Tips exactly twenty percent, always — the one fixed value he owns. Has never
+finished a book. Fears being *recognized* — actually known, by someone who knew the
+boy — more than any gun. Still plays Grace Okonkwo's chess opening, the Caro-Kann,
+against a phone app, and loses on purpose.
+
 ---
 
 ## MARSH (GARY PRUITT) — the prophet who can't paint
@@ -158,6 +196,40 @@ other people's openings, and means it.
   the recognition is the seduction. He is not conning a mark. He is courting a mirror.
 - **Want vs. need:** to be the one who confers greatness, since he was denied it / to
   be seen for the small failed man he is, by one person, and survive it.
+
+**The four sentences (the wound, deeper).** The critic was *Howard Hollis,* dead now,
+whom Marsh has outlived and never forgiven for it. The show was eleven paintings in a
+borrowed space, decades back; Hollis came, and wrote that the work had "the terrible
+competence of a man who studied feeling the way other men study for the bar," and
+that "Mr. Pruitt can render anything and has discovered nothing," and two sentences
+worse that Marsh can still recite at four in the morning. The rival was *Dana Frame,*
+who couldn't draw a hand and got the magazine cover and the teaching chair, and who
+once, twenty years on, didn't recognize him at a benefit — and *that,* not Hollis, is
+the wound the Collective is built on: not the cruelty of the gate, but being
+un-rememberable at it.
+
+**How he sees (the gift, in action).** He clocks the wound in thirty seconds — the
+way a person says *I just dabble,* the way they pull the room's attention and then
+flinch from it, the photo on the phone of the thing they made at sixteen. Then he
+says the sentence no one has ever said to them: *you were the most alive the day you
+made that, and you've been dying ever since, and you know it.* It is true. It is the
+truest thing he owns. He spends it like a man spends a counterfeit bill he is almost
+sure is real.
+
+**The doctrine, in his own mouth.** The world's galleries are "a death-cult of the
+already-dead." Fame is "a late and lesser confirmation" of a greatness the Collective
+grants *now.* Your work must "ripen out of the light" — which means leave the building
+unsigned. The Seeing is "realer than any review." He believes about sixty percent of
+all this, which is the single most dangerous percentage there is.
+
+**The daily ritual & the parts that go nowhere.** Puts paint under his nails each
+morning from a tube he never otherwise opens. Keeps a studio at the top of the loft
+no member may enter; inside stands one primed six-foot canvas he set up decades ago,
+has never touched, and dusts himself. Can't sleep without the radio tuned to the hiss
+between two stations. *Loved Eli* — actually loved him, the way you love the part of
+yourself you killed — and after, alone, went down to the river at the hour the boy
+went in, every week for a month, and told no one, and it is the nearest thing to
+prayer he has.
 
 ---
 
@@ -239,6 +311,43 @@ and she will be right, and it will cost him the only self he ever wanted.
 - **COWAN, ~40**, the believer-enforcer who handles "members in crisis" and the
   paperwork no one's supposed to see. All-in, and therefore dangerous. The face of
   the hunger as belonging, gone hard.
+
+---
+
+## THE COLLECTIVE — the world, the money, the doctrine
+
+*The loft.* A converted ribbon factory at the edge of the arts district. Four floors:
+the **workshop** (open, paint-smelling, always lit, no clocks); the **dormitory**
+(members give up their leases and move in, "to remove the friction of the outside");
+the **gallery and café** at street level (the legitimate face, where the public buys
+the work — signed *Marsh*); and the **top floor,** Marsh's, off-limits.
+
+*The money.* Three streams the front launders into one: **tuition** for the public
+workshops; **"patronage"** — members signing over savings, inheritances, the proceeds
+of sold houses, framed as freeing themselves of the world's claims; and the engine,
+**the members' own work** leaving as Marsh's and coming back as money. Cowan keeps two
+sets of books. The gallery makes the whole machine look like an institution with a
+mission, which is exactly what a good front is for.
+
+*The language.* You don't join, you "come inside." Your old life is "the noise." Your
+family is "the first audience that taught you to perform instead of make." Money is
+"friction." Leaving is "going back to the dark." Being chosen is "being Seen." Marsh
+is never "the leader" — just *Marsh,* said the way you'd say a kind of weather.
+
+*The Seeing (the central rite).* Once a week the Collective circles one member and
+tells them, one by one, exactly what they see in them — the gift, the wound, the
+greatness coming. It is the most loving thing most of them have ever felt, and it is
+the hook: nothing in the outside world will ever do that for them again, and they know
+it, and that knowledge is the bars.
+
+*The rebirth (the deep rite — and the film's mirror).* Rare, and only for the chosen:
+you "burn the man who couldn't." You destroy something of your old self and make, in
+front of everyone, the truest thing you have, and you are renamed. Eli went through
+it. Danny will be offered it. It is where the mirror of the film lives — the night he
+is meant to *perform* sincerity and discovers, maybe, he has none left to perform.
+
+*The rules no one calls rules.* No clocks on the workshop floor. No phones above the
+café. You don't ask where the money goes. You don't ask about Eli.
 
 ---
 
