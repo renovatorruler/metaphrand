@@ -1,15 +1,16 @@
-"""The SEEN seed — the undercover/cult story, encoded as a managed beat sheet.
+"""THE SEEING — the undercover/cult story, encoded as a managed beat sheet.
 
 An undercover cop with no self of his own is sent into a cult that promises to make
 its members famous artists, and can't tell anymore which of his selves is the cover.
-Like ``examples/ray.py``, this fixes the deep craft (the transformation, the mirror,
-the two doorways, which beat fills which slot, the cast, the submerged backstory) and
-hands the rest to the writer.
+The data structure fixes the deep craft (the transformation, the mirror, the two
+doorways, which beat fills which slot, the cast, the submerged backstory) and hands
+the rest — the flesh, the continuity, the words — to the writer.
 
-Run with:  python -m examples.seen
+Run with:  python -m examples.seeing
 """
 
 from brehon import Story
+from brehon.arrangement import frame
 from brehon.dossier import Dossier, Fact, attach as attach_bibles
 from brehon.prompt import to_beat_sheet
 from brehon.world import (
@@ -31,7 +32,7 @@ def build() -> Story:
         "whether he conned them or confessed.",
         previous="the professional nobody, emptiness wearing competence",
         next="the man who found a self, and what it cost him",
-        title="SEEN",
+        title="THE SEEING",
         narrator_voice="am_adam",
         cast={"DANNY": "am_michael", "MARSH": "am_onyx", "NORA": "af_sarah",
               "ELI": "am_liam", "REYES": "af_kore", "PRIYA": "af_bella",
@@ -103,7 +104,7 @@ def build() -> Story:
         Character("august", "AUGUST", ALLY, "to not have been ordinary", "m"),
     ]).attach(s)
 
-    # -- BACKSTORY: the iceberg (full bible in stories/seen_bible.md) --
+    # -- BACKSTORY: the iceberg (full bible in stories/seeing_bible.md) --
     attach_bibles(s, [
         Dossier("DANNY", [
             Fact("Black coffee he lets go cold, eats standing up, sleeps fine in a stranger's bed and not in his own.", "surface"),
@@ -134,6 +135,12 @@ def build() -> Story:
             Fact("Believes the badge is a real self you can put on and have it be true -- the law as its own cult, and she its truest member.", "submerged"),
         ]),
     ])
+
+    # Arrangement: open cold on the rite -- the question incarnate (con or
+    # confession?). Flash back through the whole first half (which reveals the man
+    # is a cop), return to the rite at the Midpoint, then let the second half -- the
+    # truth, the wire, the second rite -- detonate it.
+    frame(s, root.id)
     return s
 
 
