@@ -2,6 +2,7 @@
 
 An undercover cop with no self of his own is sent into a cult that promises to make
 its members famous artists, and can't tell anymore which of his selves is the cover.
+Tone: a deadpan tragicomedy in the key of *Patriot* (the flesh carries that).
 The data structure fixes the deep craft (the transformation, the mirror, the two
 doorways, which beat fills which slot, the cast, the submerged backstory) and hands
 the rest — the flesh, the continuity, the words — to the writer.

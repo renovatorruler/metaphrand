@@ -131,7 +131,7 @@ def to_prompt(story: "Story", *, form: str = "screenplay") -> str:
     return "\n".join(out)
 
 
-# Blake Snyder's "Save the Cat!" 15 beats, with page targets on a 110-page script.
+# Blake Snyder's "Save the Cat!" 15 beats, in running order (page targets kept for reference).
 BEAT_SHEET = (
     ("Opening Image", "1"), ("Theme Stated", "6"), ("Set-Up", "1-10"),
     ("Catalyst", "13"), ("Debate", "13-25"), ("Break into Two", "28"),
@@ -145,7 +145,7 @@ BEAT_SHEET = (
 def to_beat_sheet(story: "Story", *, title: Optional[str] = None) -> str:
     """Render the seed as a Save-the-Cat BEAT SHEET — the story's STRUCTURE.
 
-    The fifteen functional beats, each at its page target, with a one-line note on
+    The fifteen functional beats, ranked in running order, with a one-line note on
     how this story hits it. This is the skeleton an LLM hangs scenes on — not the
     scenes. The mirror auto-fills the Midpoint; the two doorways fill Break into
     Two and All Is Lost; other beats are placed by a ``function`` attribute.
@@ -179,16 +179,16 @@ def to_beat_sheet(story: "Story", *, title: Optional[str] = None) -> str:
 
     heading = (title or root.attributes.get("title") or "Untitled").upper()
     out = [f"{heading} — BEAT SHEET (Save the Cat!)", "", f"LOGLINE: {root.meaning}", ""]
-    for name, page in BEAT_SHEET:
-        out.append(f"{name} (p.{page}): {' / '.join(slots[name]) or '—'}")
+    for i, (name, _page) in enumerate(BEAT_SHEET, 1):
+        out.append(f"{i:>2}. {name}: {' / '.join(slots[name]) or '—'}")
 
     cast = [m for m in story.walk() if m.kind == "character"]
     if cast:
         out += ["", "CAST: " + ", ".join(
             f"{c.meaning} ({c.attributes.get('archetype', '')})" for c in cast)]
     out += ["", "TO THE WRITER: this is the structure, not the prose. Expand each beat "
-            "into scenes around its page mark; keep the beats and what they mean; you "
-            "own the continuity and the words."]
+            "into scenes in this order; keep the beats and what they mean; you own the "
+            "continuity and the words."]
     return "\n".join(out)
 
 

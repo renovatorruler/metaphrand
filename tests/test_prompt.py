@@ -76,12 +76,14 @@ def _structured_seed():
 def test_to_beat_sheet_is_a_save_the_cat_structure():
     from brehon.prompt import BEAT_SHEET
     sheet = to_beat_sheet(_structured_seed())
-    lines = {ln.split(" (p.")[0]: ln for ln in sheet.splitlines() if " (p." in ln}
 
-    # every one of the fifteen structural beats, with its page mark
-    for name, page in BEAT_SHEET:
-        assert f"{name} (p.{page}):" in sheet
+    # every one of the fifteen structural beats, ranked ordinally, no page marks
+    for i, (name, _page) in enumerate(BEAT_SHEET, 1):
+        assert f"{i:>2}. {name}:" in sheet
+    assert "(p." not in sheet
 
+    lines = {name: next(ln for ln in sheet.splitlines() if f". {name}:" in ln)
+             for name, _ in BEAT_SHEET}
     assert "He stops at the door" in lines["Midpoint"]          # mirror -> Midpoint
     assert "lock-out" in lines["Break into Two"]                # doorway 1
     assert "worst moment" in lines["All Is Lost"]               # doorway 2

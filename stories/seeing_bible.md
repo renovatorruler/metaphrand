@@ -4,6 +4,18 @@ An undercover cop joins a cult that promises to make its members famous artists,
 can't tell anymore which of his selves is the cover. The title is the cult's central
 rite — and the thing the cop has never once been.
 
+**Tone — the key of *Patriot*.** This plays as a deadpan tragicomedy, not a thriller:
+melancholy and absurdity held dead flat, bureaucratic farce on the police side and
+earnest art-cult farce on the other, awkward and humane, the floor dropping into
+sudden grief or bungled violence and then righting itself like nothing happened.
+Danny is no slick operator — he is a porous, hangdog sad-sack whose cover keeps
+slipping because the offer (be seen, be an artist) actually cracks him open. The
+comedy is the gap between a flat, emptied man and a room of people earnestly telling
+him he is a genius. And the device the register hands us: **the art is his
+folk-song.** The way the show's spy bleeds his classified missions into open-mic
+ballads, Danny leaks his real self and the whole case into the work he is made to
+produce — confessions in plain sight that the Collective reads as talent.
+
 Reference, not script. **Surface** = shown, never told. **Submerged** = informs
 only. **Deep** = no possible use in the film, kept anyway, because real people are
 mostly made of things that never come up. Most of this is Deep. Each person gets a
