@@ -52,6 +52,32 @@ def _build(warnings=None):
     return build_story(SPEC, warnings=warnings)
 
 
+def test_ollama_client_rejects_non_http_host():
+    from brehon.generate import OllamaClient
+    with pytest.raises(ValueError):
+        OllamaClient(host="file:///etc/passwd")
+    assert OllamaClient(host="http://localhost:11434").host == "http://localhost:11434"
+
+
+def test_forward_referenced_motif_parent_has_no_stray_root_edge():
+    """A motif whose first-listed parent is a LATER motif must end up under that
+    motif only — not double-parented to the root by the provisional first pass."""
+    spec = {
+        "title": "t", "premise": "p", "narrator_voice": "af_sky",
+        "themes": [{"id": "th", "meaning": "a theme"}],
+        "motifs": [
+            {"id": "early", "meaning": "names a later motif first", "parents": ["late"]},
+            {"id": "late", "meaning": "defined after", "parents": ["th"]},
+        ],
+        "acts": [{"id": "act1", "meaning": "a", "beats": [
+            {"id": "b1", "meaning": "x", "manifestation": "He shuts the door."}]}],
+    }
+    s = build_story(spec)
+    parents = {p.id for p in s.parents("early")}
+    assert parents == {"late"}          # only the real (later-motif) parent
+    assert s.root_id not in parents     # the provisional root edge was retracted
+
+
 def test_structure_acts_and_beats_in_order():
     s = _build()
     root = s.get(s.root_id)

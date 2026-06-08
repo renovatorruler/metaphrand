@@ -1,4 +1,11 @@
+import pytest
+
 from brehon.repair import repair
+
+
+def test_rejects_nonpositive_max_tries():
+    with pytest.raises(ValueError):
+        repair(lambda feedback: "x", lambda v: (True, ""), max_tries=0)
 
 
 def test_passes_on_first_try():

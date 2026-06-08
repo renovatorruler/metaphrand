@@ -109,6 +109,16 @@ class Story:
             self._children[parent_id].append(child_id)
             self._parents[child_id].append(parent_id)
 
+    def unlink(self, parent_id: str, child_id: str) -> None:
+        """Remove the edge ``parent_id -> child_id`` if present (idempotent).
+
+        Retracts an edge without deleting either node — used to drop a
+        provisional parent once a real one has been wired in.
+        """
+        if child_id in self._children.get(parent_id, []):
+            self._children[parent_id].remove(child_id)
+            self._parents[child_id].remove(parent_id)
+
     def set_root(self, metaphor_id: str) -> None:
         """Designate the most-abstract metaphor (the three-act structure)."""
         if metaphor_id not in self._metaphors:

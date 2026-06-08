@@ -125,6 +125,11 @@ def consistency(story: "Story", client: "LLMClient") -> ConsistencyReport:
                 fact = str(c.get("fact", "")).strip()
                 if fact:
                     conflicts.append((node.meaning, str(c.get("canon", "")).strip(), fact))
-        except Exception:
-            continue
+        except Exception as exc:
+            # Fail closed: a transport/parse error means this node's backstory was
+            # never actually verified, so record it as an (unverified) conflict
+            # rather than letting an unchecked character silently pass the gate.
+            conflicts.append(
+                (node.meaning, "", f"[consistency unverified: {type(exc).__name__}]")
+            )
     return ConsistencyReport(conflicts)

@@ -40,6 +40,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+import urllib.parse
 import urllib.request
 from typing import Any, Optional, Protocol
 
@@ -149,15 +150,17 @@ def build_story(
             n += 1
         return f"{base}-{n}"
 
-    def safe_link(parent_id: object, child_id: str) -> None:
+    def safe_link(parent_id: object, child_id: str) -> bool:
         target = resolved.get(parent_id) if isinstance(parent_id, str) else None
         if target is None:
             warn.append(f"dropped edge to unknown parent {parent_id!r} -> {child_id}")
-            return
+            return False
         try:
             s.link(target, child_id)
+            return True
         except CycleError:
             warn.append(f"dropped cyclic edge {target} -> {child_id}")
+            return False
 
     # themes (children of root) ------------------------------------------
     for theme in spec.get("themes") or []:
@@ -171,19 +174,30 @@ def build_story(
     # motifs (shared vehicles; create all, then wire every parent so that a
     # motif may name a theme *or* a later motif as a parent) --------------
     motif_specs = [m for m in (spec.get("motifs") or []) if str(m.get("meaning") or "").strip()]
+    parked_under_root: set[str] = set()
     for motif in motif_specs:
         meaning = str(motif["meaning"]).strip()
-        parents = [resolved[p] for p in (motif.get("parents") or []) if p in resolved]
+        declared = motif.get("parents") or []
+        parents = [resolved[p] for p in declared if p in resolved]
         first = parents[0] if parents else root.id
         mid = unique_id(motif.get("id"), meaning)
         s.instantiate(first, meaning, kind="motif", id=mid)
         register(motif.get("id"), mid)
+        if declared and not parents:
+            # Parked under root only because its first parent is a later motif not
+            # created yet. The real edge is wired below, and this one retracted —
+            # otherwise the motif keeps a stray root edge the spec never asked for.
+            parked_under_root.add(mid)
     for motif in motif_specs:
         child = resolved.get(motif.get("id"))
         if child is None:
             continue
+        wired = False
         for parent in motif.get("parents") or []:
-            safe_link(parent, child)
+            if safe_link(parent, child):
+                wired = True
+        if wired and child in parked_under_root:
+            s.unlink(root.id, child)
 
     # acts (the structural spine) ----------------------------------------
     created_acts: list[tuple[str, dict[str, Any]]] = []
@@ -253,6 +267,10 @@ class OllamaClient:
         timeout: float = 600.0,
         json_mode: bool = True,
     ) -> None:
+        # Restrict to HTTP(S): the host is handed to urllib.request.urlopen, which
+        # would otherwise honor schemes like file:// and reach an unexpected handler.
+        if urllib.parse.urlparse(host).scheme not in ("http", "https"):
+            raise ValueError(f"OllamaClient.host must be an http(s) URL, got {host!r}")
         self.model = model
         self.host = host.rstrip("/")
         self.temperature = temperature

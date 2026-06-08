@@ -88,7 +88,7 @@ class AudioDrama:
         m: dict = {}
         for c in self.cues():
             if c.query:
-                m.setdefault((c.kind == "ambience" and "ambience" or "sfx", c.query), []).append(c)
+                m.setdefault(("ambience" if c.kind == "ambience" else "sfx", c.query), []).append(c)
         return m
 
     def utterances(self, cast: dict, narrator: str = "narrator") -> list:

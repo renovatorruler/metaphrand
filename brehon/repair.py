@@ -36,6 +36,8 @@ def repair(
     ``generate`` call. Returns the best candidate, whether it passed, how many tries it took,
     and the last reason.
     """
+    if max_tries < 1:
+        raise ValueError(f"max_tries must be >= 1, got {max_tries}")
     feedback = ""
     value = ""
     reason = ""
