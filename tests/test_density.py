@@ -40,7 +40,7 @@ def test_fleshed_seed_passes():
     assert rep.passed
 
 
-def test_reports_undramatized_wants():
+def test_undramatized_want_fails_the_gate():
     world = World([
         Character("ray", "Ray", HERO, "to win the room", "m"),
         Character("ann", "Ann", ALLY, "to be seen", "f"),   # never named in a beat
@@ -48,3 +48,17 @@ def test_reports_undramatized_wants():
     rep = density(_seed(flesh_beats=3), world=world)
     assert "Ann" in rep.undramatized_wants
     assert "Ray" not in rep.undramatized_wants               # the hero doesn't count
+    assert not rep.passed   # a declared-but-undramatized want fails, flesh or no flesh
+
+
+def test_dramatized_cast_passes():
+    world = World([
+        Character("ray", "Ray", HERO, "to win the room", "m"),
+        Character("ann", "Ann", ALLY, "to be seen", "f"),
+    ])
+    s = _seed(flesh_beats=2)
+    s.instantiate("next-state", "Ann steps in", kind="beat", id="ann1",
+                  manifestation="Ann crosses the room and takes the empty chair.")
+    rep = density(s, world=world)
+    assert rep.undramatized_wants == []   # Ann now has a beat of her own
+    assert rep.passed

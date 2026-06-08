@@ -75,15 +75,15 @@ _SPINE = json.dumps({
     "cast": {"FISHERMAN": "am_fenrir"},
     "previous_beats": [
         {"id": "b-routine", "meaning": "the keeper's routine",
-         "manifestation": "At dusk he climbs the stairs and winds the crank."},
+         "manifestation": "At dusk he climbs the stairs past Ruth's room and winds the crank."},
         {"id": "b-lock", "meaning": "the lock that shuts him out", "doorway": 1,
          "manifestation": "He reads the telegram on the porch and does not sit down."},
     ],
     "next_beats": [
         {"id": "b-cross", "meaning": "the threshold he crosses", "doorway": 2,
-         "manifestation": "He boards the train and the doors close behind him."},
+         "manifestation": "He boards the train while June calls his name, and the doors close behind him."},
         {"id": "b-stand", "meaning": "the stand he makes",
-         "manifestation": "He steps into the open and pulls the boy out of the fire."},
+         "manifestation": "He steps into the open and pulls Sully's boy out of the fire."},
     ],
 })
 

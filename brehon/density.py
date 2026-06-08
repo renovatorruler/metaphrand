@@ -64,7 +64,9 @@ class DensityReport:
 
     @property
     def passed(self) -> bool:
-        return not self.shrink_wrapped
+        # Both tells fail the gate: too little flesh, and a cast member handed a
+        # want they never get a beat to pursue (set dressing for the hero's line).
+        return not self.shrink_wrapped and not self.undramatized_wants
 
     def summary(self) -> str:
         head = f"{self.flesh}/{self.total} beats are flesh ({self.flesh_ratio:.0%})"
