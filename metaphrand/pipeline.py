@@ -15,7 +15,7 @@ from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Optional
 
 from metaphrand import arrangement as _arrangement, canon as _canon, cinema as _cinema
-from metaphrand import concreteness, density as _density, doorways as _doorways
+from metaphrand import concreteness, density as _density, doorways as _doorways, drama as _drama
 from metaphrand import dossier as _dossier, embodiment, kishotenketsu as _kishotenketsu, showing
 from metaphrand import generate as _generate
 from metaphrand import weave as _weave
@@ -84,6 +84,12 @@ def check(
         stages.append(StageReport("doorways", door.passed, door.summary()))
     arr = _arrangement.arrangement(story)
     stages.append(StageReport("arrangement", arr.passed, arr.summary()))
+
+    # 2b — Drama: every scene is a fight, or it's a postcard (Mamet). Opt-in — gated only
+    # once any scene carries a drama, so stories that haven't specified one aren't failed.
+    if any(n.attributes.get("drama") for n in story.walk()):
+        dram = _drama.drama(story)
+        stages.append(StageReport("drama", dram.passed, dram.summary()))
 
     # 3 — World  (skipped if no cast supplied)
     if world is not None:
