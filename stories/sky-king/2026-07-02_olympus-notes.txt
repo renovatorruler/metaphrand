@@ -1,0 +1,40 @@
+DIRECTOR'S NOTES — OLYMPUS + THE JOB lift (2026-07-02). Every note MUST be addressed.
+
+1. FIX (shared tic): Birdy's "The Olympics. I'm already up here so." — the
+   trailing "so." is MAYA's tic (the call scene). Remove it WITHOUT introducing
+   "anyway" (his one "Anyway" later in the scene is load-bearing and must stay
+   the only one): e.g. "The Olympics. I'm already up here." Keep "if that's
+   alright" as is.
+
+2. FIX (narration echo): "lets it go" appears in two nearby action lines (Birdy
+   glancing at the fuel / Bishop closing his mic). Vary ONE — e.g. Bishop's
+   becomes "…and then closes it." Keep Birdy's.
+
+3. TRIM (parallel restatement, minimal): "Yeah, she's alright. She's steady,
+   she's doing fine." — drop the third clause: "Yeah, she's alright. She's
+   steady." Nothing else changes in the line.
+
+4. PROTECT VERBATIM (the scene's spine):
+   - The job exchange whole: "You think, uh. You think the airline'd give me a
+     job after this? Like a pilot job." / Bishop's almost-laugh action line /
+     "Man, you pull this off, they'd give you a job doing about anything." /
+     "Yeah, no. I know."
+   - THE PRICE LINE exactly, including the pivot: "It's jail for a guy who does
+     this. Life, probably. Anyway I got the tank down around, I don't know,
+     it's getting down there."
+   - Bishop's silence block: "Bishop opens his mic. He doesn't say anything
+     into it. He lets it sit open a second..." (subject to note 2's variation
+     only).
+   - The Reyes intercut action lines (silent, single, "listening, not moving").
+   - Bishop's redirect: "How's she flying? She trimmed out okay for you?"
+   - The final image (the dark range, the fuel number, the fighters, nobody
+     saying anything).
+
+5. THE RUSSELL LAW: the job stays a joke; the price stays a flat statement with
+   no question in it; NO deal talk, NO coming-down talk, NO comfort from Bishop
+   — his silence is the answer. Do not soften or expand any of it.
+
+6. Action lines stay full present-tense sentences; every voice stays oriented;
+   no Maya/call references anywhere.
+
+7. Fix any other genuine catalog tell minimally; otherwise leave lines alone.

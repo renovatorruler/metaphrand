@@ -1,0 +1,794 @@
+[
+ {
+  "group": 0,
+  "scene": "ch1card",
+  "frame": "ch1card",
+  "path": "stories/civil-war/performance/segments/grp_b0619813914410a3.mp3",
+  "duration": 1.84,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 1,
+  "scene": "ch1p000",
+  "frame": "ch1p000",
+  "path": "stories/civil-war/performance/segments/grp_3e6edf985c95e00f.mp3",
+  "duration": 6.64,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 2,
+  "scene": "ch1p001",
+  "frame": "ch1p001",
+  "path": "stories/civil-war/performance/segments/grp_ebabf34e3b6513ba.mp3",
+  "duration": 4.16,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 3,
+  "scene": "ch1p002",
+  "frame": "ch1p002",
+  "path": "stories/civil-war/performance/segments/grp_e06a9d6fb3528383.mp3",
+  "duration": 11.84,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 4,
+  "scene": "ch1p003",
+  "frame": "ch1p003",
+  "path": "stories/civil-war/performance/segments/grp_dd7f8b4b5f11a09e.mp3",
+  "duration": 3.52,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 5,
+  "scene": "ch1p004",
+  "frame": "ch1p004",
+  "path": "stories/civil-war/performance/segments/grp_f80fa0e5edd0d9b1.mp3",
+  "duration": 32.4,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 6,
+  "scene": "ch1p005",
+  "frame": "ch1p005",
+  "path": "stories/civil-war/performance/segments/grp_cd81c0fd02598667.mp3",
+  "duration": 10.24,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 7,
+  "scene": "ch1p006",
+  "frame": "ch1p006",
+  "path": "stories/civil-war/performance/segments/grp_5c8d71a2b6ad8da8.mp3",
+  "duration": 3.6,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 8,
+  "scene": "ch1p007",
+  "frame": "ch1p007",
+  "path": "stories/civil-war/performance/segments/grp_9c277b3035a4441f.mp3",
+  "duration": 5.04,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 9,
+  "scene": "ch1p008",
+  "frame": "ch1p008",
+  "path": "stories/civil-war/performance/segments/grp_800bd8e66772dab2.mp3",
+  "duration": 9.44,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 10,
+  "scene": "ch1p009",
+  "frame": "ch1p009",
+  "path": "stories/civil-war/performance/segments/grp_6cf15152c1bbb8a3.mp3",
+  "duration": 31.6,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 11,
+  "scene": "ch1p010",
+  "frame": "ch1p010",
+  "path": "stories/civil-war/performance/segments/grp_4b9c23192578c9ad.mp3",
+  "duration": 7.04,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 12,
+  "scene": "ch1p011",
+  "frame": "ch1p011",
+  "path": "stories/civil-war/performance/segments/grp_a181b0c7a49d6049.mp3",
+  "duration": 55.04,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 13,
+  "scene": "ch1p012",
+  "frame": "ch1p012",
+  "path": "stories/civil-war/performance/segments/grp_47c023a5378e2fcc.mp3",
+  "duration": 3.12,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 14,
+  "scene": "ch1p013",
+  "frame": "ch1p013",
+  "path": "stories/civil-war/performance/segments/grp_394ffa03d1800184.mp3",
+  "duration": 1.44,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 15,
+  "scene": "ch1p014",
+  "frame": "ch1p014",
+  "path": "stories/civil-war/performance/segments/grp_02f1240d9cc4da34.mp3",
+  "duration": 31.84,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 16,
+  "scene": "ch1p015",
+  "frame": "ch1p015",
+  "path": "stories/civil-war/performance/segments/grp_a6fe7078e3440990.mp3",
+  "duration": 1.6,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 17,
+  "scene": "ch1p016",
+  "frame": "ch1p016",
+  "path": "stories/civil-war/performance/segments/grp_2e48d50533339fdc.mp3",
+  "duration": 11.84,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 18,
+  "scene": "ch1p017",
+  "frame": "ch1p017",
+  "path": "stories/civil-war/performance/segments/grp_1d01c3df290bac1a.mp3",
+  "duration": 1.92,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 19,
+  "scene": "ch1p018",
+  "frame": "ch1p018",
+  "path": "stories/civil-war/performance/segments/grp_bc4a4a44e4a7ffd3.mp3",
+  "duration": 2.16,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 20,
+  "scene": "ch1p019",
+  "frame": "ch1p019",
+  "path": "stories/civil-war/performance/segments/grp_05cdab55a7a1ffc1.mp3",
+  "duration": 27.68,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 21,
+  "scene": "ch1p020",
+  "frame": "ch1p020",
+  "path": "stories/civil-war/performance/segments/grp_6048385808a87b73.mp3",
+  "duration": 8.96,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 22,
+  "scene": "ch1p021",
+  "frame": "ch1p021",
+  "path": "stories/civil-war/performance/segments/grp_c35452c34858a3b2.mp3",
+  "duration": 12.32,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 23,
+  "scene": "ch1p022",
+  "frame": "ch1p022",
+  "path": "stories/civil-war/performance/segments/grp_3f01ff8c446d4436.mp3",
+  "duration": 2.08,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 24,
+  "scene": "ch1p023",
+  "frame": "ch1p023",
+  "path": "stories/civil-war/performance/segments/grp_6a50aeb5e1366f55.mp3",
+  "duration": 4.0,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 25,
+  "scene": "ch1p024",
+  "frame": "ch1p024",
+  "path": "stories/civil-war/performance/segments/grp_c207e8f8e1799066.mp3",
+  "duration": 16.64,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 26,
+  "scene": "ch1p025",
+  "frame": "ch1p025",
+  "path": "stories/civil-war/performance/segments/grp_9f66b945b1d9cf38.mp3",
+  "duration": 5.04,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 27,
+  "scene": "ch1p026",
+  "frame": "ch1p026",
+  "path": "stories/civil-war/performance/segments/grp_91754174bcc7b923.mp3",
+  "duration": 5.04,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 28,
+  "scene": "ch1p027",
+  "frame": "ch1p027",
+  "path": "stories/civil-war/performance/segments/grp_63ad3b5395115996.mp3",
+  "duration": 46.48,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 29,
+  "scene": "ch1p028",
+  "frame": "ch1p028",
+  "path": "stories/civil-war/performance/segments/grp_0f1ecf0f1b4f5bdf.mp3",
+  "duration": 14.4,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 30,
+  "scene": "ch1p029",
+  "frame": "ch1p029",
+  "path": "stories/civil-war/performance/segments/grp_4513200ab043481e.mp3",
+  "duration": 10.48,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 31,
+  "scene": "ch1p030",
+  "frame": "ch1p030",
+  "path": "stories/civil-war/performance/segments/grp_cdbc4073bc781c58.mp3",
+  "duration": 2.64,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 32,
+  "scene": "ch1p031",
+  "frame": "ch1p031",
+  "path": "stories/civil-war/performance/segments/grp_d05ebb150a9f3d10.mp3",
+  "duration": 11.44,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 33,
+  "scene": "ch1p032",
+  "frame": "ch1p032",
+  "path": "stories/civil-war/performance/segments/grp_3c0cae0dc771895b.mp3",
+  "duration": 12.72,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 34,
+  "scene": "ch1p033",
+  "frame": "ch1p033",
+  "path": "stories/civil-war/performance/segments/grp_6c4af7d61a97be6a.mp3",
+  "duration": 10.24,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 35,
+  "scene": "ch1p034",
+  "frame": "ch1p034",
+  "path": "stories/civil-war/performance/segments/grp_41337d691370b220.mp3",
+  "duration": 3.52,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 36,
+  "scene": "ch1p035",
+  "frame": "ch1p035",
+  "path": "stories/civil-war/performance/segments/grp_f1cb3cd1edf5483b.mp3",
+  "duration": 14.88,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 37,
+  "scene": "ch1p036",
+  "frame": "ch1p036",
+  "path": "stories/civil-war/performance/segments/grp_32e66ff163487521.mp3",
+  "duration": 2.4,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 38,
+  "scene": "ch2card",
+  "frame": "ch2card",
+  "path": "stories/civil-war/performance/segments/grp_454e45bd96db1d09.mp3",
+  "duration": 2.64,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 39,
+  "scene": "ch2p000",
+  "frame": "ch2p000",
+  "path": "stories/civil-war/performance/segments/grp_579323cb73bf3b6e.mp3",
+  "duration": 5.52,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 40,
+  "scene": "ch2p001",
+  "frame": "ch2p001",
+  "path": "stories/civil-war/performance/segments/grp_29395cc9fb18eccd.mp3",
+  "duration": 8.96,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 41,
+  "scene": "ch2p002",
+  "frame": "ch2p002",
+  "path": "stories/civil-war/performance/segments/grp_317a0693f6649255.mp3",
+  "duration": 19.6,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 42,
+  "scene": "ch2p003",
+  "frame": "ch2p003",
+  "path": "stories/civil-war/performance/segments/grp_87b6ffb9b7ea2f5f.mp3",
+  "duration": 7.28,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 43,
+  "scene": "ch2p004",
+  "frame": "ch2p004",
+  "path": "stories/civil-war/performance/segments/grp_6cab0d4a6a807378.mp3",
+  "duration": 3.76,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 44,
+  "scene": "ch2p005",
+  "frame": "ch2p005",
+  "path": "stories/civil-war/performance/segments/grp_4911e79f683cdf2f.mp3",
+  "duration": 15.36,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 45,
+  "scene": "ch2p006",
+  "frame": "ch2p006",
+  "path": "stories/civil-war/performance/segments/grp_326b3e887b74f05a.mp3",
+  "duration": 5.36,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 46,
+  "scene": "ch2p007",
+  "frame": "ch2p007",
+  "path": "stories/civil-war/performance/segments/grp_c7ad07c852a5ba04.mp3",
+  "duration": 1.6,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 47,
+  "scene": "ch2p008",
+  "frame": "ch2p008",
+  "path": "stories/civil-war/performance/segments/grp_51b92fdcf08c3392.mp3",
+  "duration": 19.52,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 48,
+  "scene": "ch2p009",
+  "frame": "ch2p009",
+  "path": "stories/civil-war/performance/segments/grp_235cd3f07ef6b5e9.mp3",
+  "duration": 3.6,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 49,
+  "scene": "ch2p010",
+  "frame": "ch2p010",
+  "path": "stories/civil-war/performance/segments/grp_fb78123dbc7c4dd9.mp3",
+  "duration": 3.2,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 50,
+  "scene": "ch2p011",
+  "frame": "ch2p011",
+  "path": "stories/civil-war/performance/segments/grp_13275bf44cff01c5.mp3",
+  "duration": 2.08,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 51,
+  "scene": "ch2p012",
+  "frame": "ch2p012",
+  "path": "stories/civil-war/performance/segments/grp_7a7ee310311648d7.mp3",
+  "duration": 3.12,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 52,
+  "scene": "ch2p013",
+  "frame": "ch2p013",
+  "path": "stories/civil-war/performance/segments/grp_3c6464fe31d3c651.mp3",
+  "duration": 29.68,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 53,
+  "scene": "ch2p014",
+  "frame": "ch2p014",
+  "path": "stories/civil-war/performance/segments/grp_1f10165ca5260c8c.mp3",
+  "duration": 24.56,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 54,
+  "scene": "ch2p015",
+  "frame": "ch2p015",
+  "path": "stories/civil-war/performance/segments/grp_67f898228fce11b3.mp3",
+  "duration": 2.16,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 55,
+  "scene": "ch2p016",
+  "frame": "ch2p016",
+  "path": "stories/civil-war/performance/segments/grp_3da1ec956b3a9919.mp3",
+  "duration": 4.48,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 56,
+  "scene": "ch2p017",
+  "frame": "ch2p017",
+  "path": "stories/civil-war/performance/segments/grp_0c34c467761dcd29.mp3",
+  "duration": 3.52,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 57,
+  "scene": "ch2p018",
+  "frame": "ch2p018",
+  "path": "stories/civil-war/performance/segments/grp_eac040dbec37174a.mp3",
+  "duration": 10.08,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 58,
+  "scene": "ch2p019",
+  "frame": "ch2p019",
+  "path": "stories/civil-war/performance/segments/grp_af415ba47834bbc9.mp3",
+  "duration": 2.24,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 59,
+  "scene": "ch2p020",
+  "frame": "ch2p020",
+  "path": "stories/civil-war/performance/segments/grp_d4fb0959a5cd01bc.mp3",
+  "duration": 13.36,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 60,
+  "scene": "ch2p021",
+  "frame": "ch2p021",
+  "path": "stories/civil-war/performance/segments/grp_944956cc316e5ed7.mp3",
+  "duration": 1.68,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 61,
+  "scene": "ch2p022",
+  "frame": "ch2p022",
+  "path": "stories/civil-war/performance/segments/grp_e19321f66073e40d.mp3",
+  "duration": 3.04,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 62,
+  "scene": "ch2p023",
+  "frame": "ch2p023",
+  "path": "stories/civil-war/performance/segments/grp_490c0c091756dfff.mp3",
+  "duration": 2.8,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 63,
+  "scene": "ch3card",
+  "frame": "ch3card",
+  "path": "stories/civil-war/performance/segments/grp_a0a6015344e8b0d8.mp3",
+  "duration": 1.44,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 64,
+  "scene": "ch3p000",
+  "frame": "ch3p000",
+  "path": "stories/civil-war/performance/segments/grp_37f2eab1a3597dfb.mp3",
+  "duration": 7.2,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 65,
+  "scene": "ch3p001",
+  "frame": "ch3p001",
+  "path": "stories/civil-war/performance/segments/grp_da1782993cc95eb5.mp3",
+  "duration": 5.84,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 66,
+  "scene": "ch3p002",
+  "frame": "ch3p002",
+  "path": "stories/civil-war/performance/segments/grp_d153f0562ddfef62.mp3",
+  "duration": 1.52,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 67,
+  "scene": "ch3p003",
+  "frame": "ch3p003",
+  "path": "stories/civil-war/performance/segments/grp_4e7621800ef8745b.mp3",
+  "duration": 28.48,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 68,
+  "scene": "ch3p004",
+  "frame": "ch3p004",
+  "path": "stories/civil-war/performance/segments/grp_667a3ba105a2de2b.mp3",
+  "duration": 7.04,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 69,
+  "scene": "ch3p005",
+  "frame": "ch3p005",
+  "path": "stories/civil-war/performance/segments/grp_928b0cc2d2b17121.mp3",
+  "duration": 17.76,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 70,
+  "scene": "ch3p006",
+  "frame": "ch3p006",
+  "path": "stories/civil-war/performance/segments/grp_91eddc211291f6ec.mp3",
+  "duration": 12.88,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 71,
+  "scene": "ch3p007",
+  "frame": "ch3p007",
+  "path": "stories/civil-war/performance/segments/grp_094c56a79f28c56b.mp3",
+  "duration": 6.88,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 72,
+  "scene": "ch3p008",
+  "frame": "ch3p008",
+  "path": "stories/civil-war/performance/segments/grp_bfce6549f76e36ff.mp3",
+  "duration": 18.0,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 73,
+  "scene": "ch3p009",
+  "frame": "ch3p009",
+  "path": "stories/civil-war/performance/segments/grp_4f521ff6cd840055.mp3",
+  "duration": 3.2,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 74,
+  "scene": "ch3p010",
+  "frame": "ch3p010",
+  "path": "stories/civil-war/performance/segments/grp_0b9f540f1647ef79.mp3",
+  "duration": 1.44,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 75,
+  "scene": "ch3p011",
+  "frame": "ch3p011",
+  "path": "stories/civil-war/performance/segments/grp_0cde03a8108ad00a.mp3",
+  "duration": 11.6,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 76,
+  "scene": "ch3p012",
+  "frame": "ch3p012",
+  "path": "stories/civil-war/performance/segments/grp_b7840ef824e56659.mp3",
+  "duration": 7.04,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 77,
+  "scene": "ch3p013",
+  "frame": "ch3p013",
+  "path": "stories/civil-war/performance/segments/grp_f3070cecb0b92318.mp3",
+  "duration": 25.68,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 78,
+  "scene": "ch3p014",
+  "frame": "ch3p014",
+  "path": "stories/civil-war/performance/segments/grp_688b415cdf95ab76.mp3",
+  "duration": 4.0,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 79,
+  "scene": "ch3p015",
+  "frame": "ch3p015",
+  "path": "stories/civil-war/performance/segments/grp_14edcbd114902abb.mp3",
+  "duration": 2.08,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 80,
+  "scene": "ch3p016",
+  "frame": "ch3p016",
+  "path": "stories/civil-war/performance/segments/grp_c5bbac2f558b6ff5.mp3",
+  "duration": 14.96,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 81,
+  "scene": "ch3p017",
+  "frame": "ch3p017",
+  "path": "stories/civil-war/performance/segments/grp_08ac6540a9c33b8b.mp3",
+  "duration": 4.0,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 82,
+  "scene": "ch3p018",
+  "frame": "ch3p018",
+  "path": "stories/civil-war/performance/segments/grp_4ae78762041c537c.mp3",
+  "duration": 24.08,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 83,
+  "scene": "ch3p019",
+  "frame": "ch3p019",
+  "path": "stories/civil-war/performance/segments/grp_48015f20b72c9cde.mp3",
+  "duration": 6.8,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 84,
+  "scene": "ch3p020",
+  "frame": "ch3p020",
+  "path": "stories/civil-war/performance/segments/grp_c25d7dd34bae4c51.mp3",
+  "duration": 15.6,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 85,
+  "scene": "ch3p021",
+  "frame": "ch3p021",
+  "path": "stories/civil-war/performance/segments/grp_390f698b3152eba1.mp3",
+  "duration": 1.92,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 86,
+  "scene": "ch3p022",
+  "frame": "ch3p022",
+  "path": "stories/civil-war/performance/segments/grp_b360251f8ab14d97.mp3",
+  "duration": 1.04,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 87,
+  "scene": "ch3p023",
+  "frame": "ch3p023",
+  "path": "stories/civil-war/performance/segments/grp_7db929f97be8ece9.mp3",
+  "duration": 7.68,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 88,
+  "scene": "ch3p024",
+  "frame": "ch3p024",
+  "path": "stories/civil-war/performance/segments/grp_e08769c0c4d2c027.mp3",
+  "duration": 17.92,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 89,
+  "scene": "ch3p025",
+  "frame": "ch3p025",
+  "path": "stories/civil-war/performance/segments/grp_400a2254340cdf5c.mp3",
+  "duration": 22.0,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 90,
+  "scene": "ch3p026",
+  "frame": "ch3p026",
+  "path": "stories/civil-war/performance/segments/grp_cbc58073d53a2d43.mp3",
+  "duration": 5.92,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 91,
+  "scene": "ch3p027",
+  "frame": "ch3p027",
+  "path": "stories/civil-war/performance/segments/grp_e4a0f7d5c156c174.mp3",
+  "duration": 3.76,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 92,
+  "scene": "ch3p028",
+  "frame": "ch3p028",
+  "path": "stories/civil-war/performance/segments/grp_9af6123a632ebbcc.mp3",
+  "duration": 14.32,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 93,
+  "scene": "ch3p029",
+  "frame": "ch3p029",
+  "path": "stories/civil-war/performance/segments/grp_6d7f9193ede024d1.mp3",
+  "duration": 15.6,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 94,
+  "scene": "ch3p030",
+  "frame": "ch3p030",
+  "path": "stories/civil-war/performance/segments/grp_501527d83143d6ba.mp3",
+  "duration": 11.28,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 95,
+  "scene": "ch3p031",
+  "frame": "ch3p031",
+  "path": "stories/civil-war/performance/segments/grp_5a9ac8cb2c1fea2b.mp3",
+  "duration": 20.24,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 96,
+  "scene": "ch3p032",
+  "frame": "ch3p032",
+  "path": "stories/civil-war/performance/segments/grp_13bab5c73618bf7d.mp3",
+  "duration": 29.68,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 97,
+  "scene": "ch3p033",
+  "frame": "ch3p033",
+  "path": "stories/civil-war/performance/segments/grp_a8700723437c5e6c.mp3",
+  "duration": 6.4,
+  "gap_after_ms": 550
+ },
+ {
+  "group": 98,
+  "scene": "ch3p034",
+  "frame": "ch3p034",
+  "path": "stories/civil-war/performance/segments/grp_bc12c9e6dd5bd4e4.mp3",
+  "duration": 3.28,
+  "gap_after_ms": 0
+ }
+]

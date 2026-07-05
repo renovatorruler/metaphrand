@@ -1,0 +1,42 @@
+SKY KING — EXT. SEA-TAC - NORTH RAMP - NIGHT
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-stop.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The belt keeps running in the last low gold light, long shadows thrown across the apron, bags riding up it and dropping off the end into a cart nobody is loading.
+ACTION: GUS, older, a Texan in a fuel company jacket, stands on the platform of his truck with the nozzle in the wing and one boot up on the fender.
+ACTION: Forty feet down, a jet sits half-turned off the gate, the tug still hooked to the nose, the pushback driver leaning out of his seat looking at the tower.
+ACTION: DEZ, young, a handheld radio in his fist, stands off past the last row of tails with his back half to the crew, looking out at the far end of the field, the sun nearly down behind it.
+ACTION: The PA crackles up on the terminal wall.
+PA (RADIO): Ground stop. All ramp personnel, ground stop in effect. Hold all aircraft, hold all vehicles. Nothing moves.
+ACTION: Gus's nozzle clicks off in his hand. He looks at the numbers on the pump, then up at the terminal.
+GUS: That's not weather.
+ACTION: The pushback driver kills his engine. The tug sits there hooked to the nose, going nowhere. The belt keeps running, bags climbing and dropping, climbing and dropping, into the cart nobody touches.
+ACTION: He walks out a few feet past the wing and stands in the low gold light looking at the row of tails.
+ACTION: Far across the field, blue and red lights slide along the far taxiway, two sets, then three, running low and fast with no siren the ramp can hear.
+ACTION: The handhelds on every hip go clipped and strange, the tower voice coming through in pieces, half a word and then gone.
+TOWER (RADIO): — hold your position, do not — say again, do not —
+ACTION: The office door bangs open and WARD comes out, the ramp boss, a windbreaker thrown over his uniform shirt, a phone pressed hard to his ear. He walks out onto the apron a few steps and stops, looking south, past the field, at the sky going from gold to blue, the sun down, the west still faintly lit.
+WARD: Yeah.
+ACTION: He listens. His free hand comes up and rubs the back of his neck and stays there.
+WARD: Wait. Say that again.
+ACTION: He goes still. Whatever is coming through the phone, he takes it standing, staring south, and gives the ramp nothing.
+ACTION: Gus watches Ward a second, then turns back to the row of tails. He lifts his chin and starts down the line, counting under his breath, slow.
+GUS: One. Two.
+ACTION: He points with two fingers, tail to tail, walking the row.
+GUS: Three. Four.
+ACTION: He stops. He looks at a black gap in the line where the low gold light falls on empty concrete, chocks lying loose on the ground, no airplane over them.
+ACTION: He counts the rest of the row quick, then walks back to the gap and stands at it.
+GUS: We're one short.
+ACTION: The pushback driver climbs down and comes over and looks at the empty spot with him. Nobody says anything. The belt runs. A bag drops off the end and hits the concrete and lies there.
+ACTION: Gus looks back down the line at Dez, still out past the tails with the radio in his hand.
+GUS: Dez. You were out that end.
+ACTION: Dez doesn't turn all the way around. He looks at Gus over his shoulder.
+GUS: You see anything go?
+ACTION: Dez looks down at the radio in his hand, then back out at the fading light in the south.
+DEZ: I don't know. I wasn't— I don't know what I saw.
+ACTION: Gus lets it sit. He looks at the kid a long beat, then looks away, back at the empty concrete and the loose chocks.
+GUS: Okay.
+ACTION: Headlights swing onto the ramp from the service road. A port-police SUV rolls up the line, slow, past the frozen tug, past the running belt, coming toward the crew and the gap in the tails.
+ACTION: Ward lowers the phone from his ear and watches it come.
+ACTION: Dez watches it too. The SUV rolls closer, its lights washing over him.
+ACTION: He turns his head and looks south, out at the last of the light where the airplane went, and the radio hangs in his hand at his side.

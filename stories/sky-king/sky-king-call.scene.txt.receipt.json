@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-call",
+  "slug": "INT. FBI SEDAN (MOVING) / INT. Q400 FLIGHT DECK - NIGHT (INTERCUT)",
+  "seedHash": "6ad4f066e53aacece30a066c20077e5cd0d08e4a2e291b85bbf6c54ad898d894",
+  "sceneHash": "b97cd887f65e305d132f3df71b44c338cfb90ea2e68ba62db923a07e961e0259",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

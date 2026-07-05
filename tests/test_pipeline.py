@@ -20,12 +20,16 @@ def _clean_story():
                   manifestation="His neighbor hammers a sign into the next yard.")
     s.instantiate(act.id, "sub2", kind="beat", id="f2",
                   manifestation="A dog drags its chain across the gravel and lies down.")
+    # heart: the gate is opt-out, so the canonical fixture carries one banked bond
+    s.instantiate(act.id, "sub3", kind="beat", id="f3",
+                  manifestation="She leaves the thermos on the gate post for him without a word.",
+                  attributes={"bond": "him+her", "deposit": "the thermos"})
     return s
 
 
 def test_check_reports_every_stage():
     names = [s.name for s in check(_clean_story()).stages]
-    assert names == ["spine", "doorways", "arrangement", "concreteness",
+    assert names == ["spine", "doorways", "arrangement", "heart", "concreteness",
                      "show-not-tell", "visual", "density"]
 
 

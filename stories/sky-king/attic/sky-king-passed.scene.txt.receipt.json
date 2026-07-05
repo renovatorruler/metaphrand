@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-passed",
+  "slug": "INT. RAMP OFFICE - DAY",
+  "seedHash": "d9daf224bef727e0e8dcfb54e7609f55e98bb618d2b9234065063582206ef8c1",
+  "sceneHash": "c450110ab7901f1a6061ff7a5839106ed56931aacb4104f24b1857e672a54159",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

@@ -12,6 +12,11 @@ venv/
 .ruff_cache/
 *.log
 
-# Generated audio artifacts (regenerate from the seed)
-*.wav
-*.mp3
+# local secrets / API keys
+.env
+
+# per-render caches (ephemeral; regenerated every render — NOT versioned)
+*_rs/
+.DS_Store
+
+# media (png/jpg/jpeg/webp/mp3/mp4/m4a/wav/glb) is tracked via Git LFS — see .gitattributes

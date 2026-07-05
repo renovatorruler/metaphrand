@@ -1,0 +1,32 @@
+SKY KING — INT. AIRPORT OPERATIONS CENTER - COMMAND POST - NIGHT
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-deal2.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Reyes comes in off the radar-room corridor still pulling the headset cord off her neck. Mercer stands at the big table in the middle of the floor, a phone from the bridge line open in front of him.
+REYES: I want it on paper. A name that's good for it, and terms I can actually read to him on the frequency without it being a lie.
+MERCER: I already asked. Put it upstairs an hour ago. They're not going to write paper for a man they've got filed as a threat.
+REYES: He hasn't asked anybody for anything the whole time he's been up there. There's nobody on that airplane but him. He hasn't touched a soul, and the board's got him under two hours on fuel. Whatever the file says, that's not what's flying around up there.
+MERCER: The plane being empty doesn't change the file. It changed the second he took it off the ground.
+REYES: Then tell me the plan. He flies it till the tank's dry, and then what. What happens to him.
+MERCER: There's guys on the bridge line who wouldn't mind some fireworks over the water. He goes in the sound, there's no courtroom for anybody to sit in. It solves itself.
+REYES: And whose name is on that. Somebody keys a mic and makes that call. Who's that.
+MERCER: Not me. Not you. That's what a bridge line's for.
+REYES: Don't hand me the bridge line. You're standing here telling me the plan is to wait him out and let—
+MERCER: I'm telling you what's on the table. I didn't put it there.
+ACTION: They're talking over each other now, both of them low, neither one giving ground.
+ACTION: Behind them a phone goes off at full volume, and a small tinny voice comes out of it and carries across the floor.
+BIRDY (RADIO): I, uh. I kind of did a bad thing here. It's not, it's not really my airplane, is the thing. I feel bad about that part.
+ACTION: A young agent grabs for his phone to shut it off. Two desks over, another one is already playing the same clip.
+ACTION: On the far wall a monitor switches to a night feed of the beach road, a long line of headlights stopped along the shoulder.
+ACTION: Kemp, the DHS liaison, looks up from his phone with his log open in front of him.
+KEMP: Watch floor's asking about a clip. They want to know if it came from us and how far it's gone.
+KEMP: They keep handing me a new number for it. It's not slowing down.
+ACTION: Around the room the agents go still. Nobody finishes what they were doing. The whole floor just holds where it is.
+MERCER: Nobody's putting anything over the water tonight. Not with that coming out of every phone from here to the coast.
+MERCER: They need him down and alive now. A dead one we picked, somebody upstairs has to own that, and tonight nobody's going to.
+ACTION: Mercer turns from the monitor back to Reyes.
+MERCER: So you get your paper. Go make him the offer, and make it real.
+ACTION: Reyes looks at the phones still going around the room, then back at Mercer. She doesn't say it.
+REYES: Alright. I'll take it up to him.
+ACTION: She's already moving for the radar-room corridor.
+ACTION: Mercer stays at the table by himself. Behind him the number on the wall monitor climbs again.

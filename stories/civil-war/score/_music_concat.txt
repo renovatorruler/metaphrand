@@ -1,0 +1,3 @@
+file '/Users/dusty/Dev/brehon-law/stories/civil-war/score/_seg0.mp3'
+file '/Users/dusty/Dev/brehon-law/stories/civil-war/score/_seg1.mp3'
+file '/Users/dusty/Dev/brehon-law/stories/civil-war/score/_seg2.mp3'

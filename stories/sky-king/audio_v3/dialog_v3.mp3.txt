@@ -1,0 +1,7 @@
+file '/Users/dusty/dev/brehon-law/stories/sky-king/audio_v3/scene1_radio.mp3'
+file '/Users/dusty/dev/brehon-law/stories/sky-king/audio_v3/sil7.mp3'
+file '/Users/dusty/dev/brehon-law/stories/sky-king/performance/segments/grp_47452e446c275bb2.mp3'
+file '/Users/dusty/dev/brehon-law/stories/sky-king/audio_v3/sil7.mp3'
+file '/Users/dusty/dev/brehon-law/stories/sky-king/performance/segments/grp_ded6043810bb530a.mp3'
+file '/Users/dusty/dev/brehon-law/stories/sky-king/audio_v3/sil7.mp3'
+file '/Users/dusty/dev/brehon-law/stories/sky-king/performance/segments/grp_b4711260747272b9.mp3'

@@ -1,0 +1,3099 @@
+# THE HEIR
+
+*written by metaphrand*
+*Draft: 2026-06-09 (v4 — tension/release rework)*
+
+---
+
+*FADE IN:*
+
+### INT. PRESIDENTIAL PALACE - THE PRESIDENT'S OFFICE - NIGHT
+
+Dark, except for the city through tall windows — the lights of a capital that works, that is quiet, that is afraid in the right amounts. At a great desk built for someone bigger sits a man it fits now. This is NADIR DEMIR, forties, though the eyes have more miles than that. He is entirely still. It is his father's stillness, and he came by it honestly.
+
+An internal telephone waits under his hand. He looks at it a while. Then he lifts it, and the line is answered on half a ring.
+
+**NADIR**  
+How many.  
+
+He listens. The number takes a moment to say, and another to qualify — we never hear it. Nothing in his face moves while it's said.
+
+**NADIR (CONT'D)**  
+That's if they resist. And if they don't?  
+
+He listens. The second number is shorter.
+
+**NADIR (CONT'D)**  
+All right. Tonight.  
+
+He sets the receiver down, soft, the way you put down a thing that turns out heavier than it looked. Far across the city, floodlights climb a building and find a portrait four storeys tall — his father, young again, looking out over everyone's head.
+
+Nadir doesn't turn to it. He stopped needing to check a long time ago.
+
+In the dark, barely aloud, to no one:
+
+**NADIR (CONT'D)**  
+Watch.  
+
+*SMASH CUT TO:*
+
+A title fades up over black: three years earlier.
+
+### INT. LONDON - GRAY'S INN - A BARRISTER'S ROOM - DAY
+
+Rain on tall Georgian windows. The civilised hum of a place where the worst thing that can happen to a man is a deadline. NADIR — younger in the face, looser in the shoulders, a good suit worn like a dressing gown — stands at the window with an OLD MAN in a donated coat: OSMAN, seventies, a schoolteacher's stoop, two fingers missing from his right hand. A COLLEAGUE waits by the door with the paperwork.
+
+**NADIR**  
+It's granted, Osman. It's over. The tribunal accepted everything — you, your wife, your son's family when we can get them out. Nobody can send you back. Not ever. You're a free man in a boring country, which is the best kind there is.  
+
+The old man takes this in. Then he takes Nadir's hand in both of his — the whole hand, the missing fingers and all — and holds it, and can't speak. Nadir lets him hold it as long as he needs.
+
+**OSMAN**  
+*(finally, an accent from home)*  
+They told me, in the cells — nobody leaves, nobody is heard. Forty years they told me that.  
+
+**NADIR**  
+I know. They told my mother the same thing.  
+*(gently)*  
+Go and tell your wife. Use my office. Take your time on the phone — it's a good phone, it's the firm's.  
+
+The colleague walks Osman out. Nadir watches them go, and for a moment, alone, he flexes his own right hand — all five fingers — like a man checking his luck.
+
+**COLLEAGUE**  
+*(returning)*  
+That's the fourth one this year from that godawful place. Chambers grumbles, you know. The hours you sink into them. There's no money in it.  
+
+**NADIR**  
+There's no money in it.  
+*(back to his desk, light again)*  
+That's rather the point. It's the only file in this building where I know exactly who I'm against.  
+
+On the desk his phone lights and buzzes — a long foreign number — and something behind his face quietly shuts. He turns the phone face down without answering it.
+
+**COLLEAGUE**  
+You're not going to get that?  
+
+**NADIR**  
+It's nobody. A wrong number that's been wrong for about fifteen years.  
+
+The phone buzzes again under his hand, patient, face down, and he doesn't look at it, and he doesn't quite manage not to.
+
+*CUT TO:*
+
+### INT. LONDON - NADIR AND LENA'S FLAT - NIGHT
+
+Small and warm and real — books, a radiator that works, a life with no motorcades in it. LENA, late thirties, English, has set her reading down. NADIR stands at the window with the foreign phone finally against his ear, and he has been listening a long time. When he speaks, the ease has gone out of his voice.
+
+**NADIR**  
+How long.  
+
+He listens.
+
+**NADIR (CONT'D)**  
+And he asked for me. He used those words. You're sure he used those words.  
+
+He listens, then lowers the phone and ends the call without a goodbye, because no goodbye fits.
+
+**LENA**  
+That was the number you don't answer.  
+
+**NADIR**  
+My father's dying. Weeks. They think less.  
+
+**LENA**  
+Okay.  
+*(gently)*  
+Do you want to go.  
+
+**NADIR**  
+No.  
+
+**LENA**  
+That isn't what I asked. I know you don't want to. Do you need to.  
+
+He looks out at the city that took him in — the one place on earth where no one he loves has ever been put into a car and not come back.
+
+**NADIR**  
+I'll go and put him in the ground, and I'll come home. Three days. I'm not going anywhere near the rest of it, Lena. I bury him, I come back, and we never say the name of that country in this flat again.  
+
+**LENA**  
+Three days. Fine. I'm coming with you.  
+
+**NADIR**  
+You are absolutely not —  
+
+**LENA**  
+You're going to bury the man who made you flinch at telephones, surrounded by people who all want something from you, and you'd like to do that alone. No. I've heard about that country my whole marriage and never once seen it. Three days, both of us, and I'll finally know what I'm married to.  
+
+She crosses and stands with him at the glass. Neither of them believes the three days, but it is a kind thing to say, so they say it.
+
+*CUT TO:*
+
+### INT. PRESIDENTIAL RESIDENCE - ASLAN'S ROOM - NIGHT
+
+Karash. A heavier gravity, and you can watch it settle onto Nadir the moment he is here: the dark, the machines, a tube, the smell of a sickroom someone has tried to cover with something floral.
+
+NADIR sits where a son sits — still in the coat he flew in, a bag by the door he hasn't carried to a room, because he is not staying. He landed four hours ago. He watches the monitor, not the man.
+
+ASLAN DEMIR, eighty, what's left of him, breathes on the machine's schedule.
+
+The line stops climbing.
+
+Nadir doesn't move. He waits for it the way you wait for the other shoe.
+
+The flat tone comes.
+
+He reaches over and turns the sound off before it can travel down the hall. Then he sits in the new quiet, and his shoulders come down off his ears.
+
+He puts a hand over his own mouth. Holds it there. Takes it away.
+
+**NADIR**  
+*(to the body)*  
+Okay.  
+
+The door opens behind him. He doesn't turn around.
+
+**BAYAR (O.S.)**  
+Mr. President.  
+
+Nadir keeps his eyes on his father. Doesn't answer to it. Not yet.
+
+*CUT TO:*
+
+### INT. THE OFFICE - SECURITY HEADQUARTERS - NIGHT
+
+The same night. No grief in this building, only logistics. A wall of screens: state television gone to a test card, then a flag; the airport road; the eastern garrison gates standing open and emptying. BAYAR reads it the way another man reads a weather report. NADIR, still in his travelling coat, has been brought here and hasn't been told why.
+
+**NADIR**  
+My father died an hour ago. Why am I in a basement.  
+
+**BAYAR**  
+Because an hour ago your father died, Mr. President.  
+*(he lets it sit)*  
+General Rustam has the eastern garrison on the Astan road. He has the television. By breakfast he intends to have the country, and he isn't hiding it, because hiding it is for men who think they might lose.  
+
+**NADIR**  
+Then it's your problem. Yours and your generals'. I came to bury him. I'm on the morning flight.  
+
+**BAYAR**  
+There is no morning flight. He closed the airport at midnight, and your name is on the short list of people who are not to use it.  
+*(almost kind)*  
+You've misread the room you're standing in. You are not a mourner who gets to go home. You are the one thing in this country with a better claim to that chair than Rustam has — which makes you, tonight, both the most dangerous man alive and the most likely to be dead by dawn. He can't take the country while the son still breathes. Neither of those facts cares in the slightest what you flew in for.  
+
+*CUT TO:*
+
+### INT. PRESIDENTIAL RESIDENCE - A CORRIDOR - NIGHT
+
+Soldiers in the hall who are not Bayar's. At the end of it, GENERAL RUSTAM, late fifties, built like a door, still in field dress so that Nadir will know he came straight off the column. He looks at Nadir the way you look at a problem you'd expected to be bigger.
+
+**RUSTAM**  
+So. The lawyer.  
+*(he smiles, and means it)*  
+I knew your father forty years. I bled for the thing he built. And he wills it to a boy who took the first plane out and only came home when the old man couldn't say no.  
+
+**NADIR**  
+I don't want it. You can have the — I genuinely, I don't want any part of it. Put me on a plane and it's yours. There's no fight here.  
+
+**RUSTAM**  
+And that is the trouble, you see. I almost believe you. But "almost" is the word that gets a country killed. Tomorrow, or in ten years, some man with a grievance remembers there is a real son in London and goes to find him. You don't leave the rightful heir alive in a city he can fly home from. Your father taught me that. He taught me with his own brother.  
+*(flat)*  
+Sign the country to me tonight and stay on as my guest, where I can see you. That is the generous offer. Refuse it and you will not reach the airport you keep bringing up.  
+
+*CUT TO:*
+
+### EXT. ASTAN - THE CHIEF JUSTICE'S HOUSE - NIGHT
+
+A good house on a quiet street, every window dark on purpose. NADIR on the step, an overcoat over his funeral suit, a folder under his arm — an actual folder, tabs and flags, assembled in two hours. BAYAR waits at the car, letting the boy try.
+
+The door opens the width of its chain. One old eye: the CHIEF JUSTICE.
+
+**NADIR**  
+Article eleven. I read the whole constitution on the plane — your constitution, you drafted half of it. The presidency is vacant, the army has no standing to fill it, and you have the lawful power to swear in an interim civil council tonight. Three names. I've written them down. None of them is mine — that's the point, none of them is mine and none of them is his. You convene the court, the succession is legal, and no one has to own the country by morning. It's all here. It's clean. It would hold up anywhere on earth.  
+
+A silence behind the chain.
+
+**CHIEF JUSTICE**  
+It's a beautiful argument, Mr. Demir. I can hear your father's opposite in every line of it.  
+*(the eye wets)*  
+I have grandchildren. Four of them. Three streets from here.  
+
+The door closes. The bolt goes over, soft, apologetic. Nadir stands on the step holding the cleanest argument of his life.
+
+**BAYAR**  
+*(from the car, no triumph in it)*  
+That was the last law in the country, Mr. President. You just watched it lock its door.  
+
+### EXT. ASTAN - A BOULEVARD CHECKPOINT - NIGHT
+
+The car, stopped. Floodlights. SOLDIERS in field dress — Rustam's — walking the line of waiting vehicles with torches. One of them is checking faces against a phone.
+
+In the back seat, Nadir and Bayar. Bayar slides a passport across — not Nadir's.
+
+**BAYAR**  
+*(quietly)*  
+Look bored. Bored is invisible.  
+
+The torch fills the window. A SERGEANT studies the passport, then the two men — a long, careless, deciding look. Somewhere ahead a car is being emptied, a man spread against its roof, his suitcase open on the asphalt, shirts in the wind.
+
+The sergeant waves them through.
+
+Nadir watches the spread-eagled man slide past his window — a businessman, somebody's uncle, nobody — and Nadir's breath has gone shallow and he doesn't notice his own hand has closed around the door handle, white.
+
+**BAYAR (CONT'D)**  
+Now you know what it is, when it isn't an argument. That's his country, one checkpoint at a time, by Thursday. Whoever that man is, he is now a person things can be done to.  
+*(beat)*  
+There is one list in Karash with your name on it tonight, Mr. President. The question is whether it's his or mine.  
+
+*CUT TO:*
+
+### INT. THE OFFICE - BAYAR'S OFFICE - NIGHT
+
+The offer still sitting on him — and the checkpoint sitting on him harder. BAYAR pours a drink Nadir doesn't touch. GENERAL TURAN is here too — older, scarred, the army's honest man, and the fact that he walked into Bayar's office instead of Rustam's is its own kind of vote.
+
+**NADIR**  
+He said he'd let me leave. Sign it over, and I leave.  
+
+**TURAN**  
+He said you'd stay on as his guest. Did you catch the part where you leave? I served beside that man thirty years. I never once saw him let a guest walk back out a door.  
+
+**NADIR**  
+So I sign nothing, and I sit here, and I wait for him to —  
+
+**BAYAR**  
+You don't wait. There is no version of this night where waiting is one of the moves. By sunrise the country has Rustam or it has you, and the difference, to a hundred thousand people who will never know your name, is whether the next ten years are a boot or an open hand. I'm not asking you to want the chair. I gave up expecting men to want it a long time ago. I'm telling you the only people who walk out of this alive are the ones who pick it up before it's handed to them.  
+
+**NADIR**  
+And how. I'm a lawyer. I don't have an army. I have a coat and a closed airport.  
+
+**BAYAR**  
+You have the one thing Rustam will never have, which is the right to the chair, and you have me, and I know where his men sleep and which of them he's quietly stopped paying. Your father wouldn't have asked how. Your father, by now, would have a list.  
+*(a beat)*  
+The question isn't whether you can. It's whether you can do it the way it has to be done and still call yourself the man who landed tonight. I already know the answer. So do you. You just haven't said it where you could hear it.  
+
+*CUT TO:*
+
+### INT. PRESIDENTIAL RESIDENCE - THE PRESIDENT'S OFFICE - NIGHT
+
+Nadir's first time in this room — his father's office, the great desk. He doesn't sit at it. He stands, the coat off at last, a phone in his hand and Bayar's list on the desk: names, and beside each a number, and beside some of the numbers, in Bayar's dead hand, the word "unpaid."
+
+He's been on the phone an hour, and he isn't hedging now. He's a lawyer who has found the clause.
+
+**NADIR**  
+*(into the phone, even)*  
+Colonel. You haven't been paid since March. He'll tell you it's coming. It isn't — he spent it on the column you're standing in. I won't insult you with patriotism. I'm going to wire you and your men a full year, tonight, while we're on the phone, and in the morning you'll have served the President instead of a dead man's general. The only choice in front of you is whether you learn that the easy way.  
+
+He hangs up. Looks at the next name. From the shadow, BAYAR watches, and there is something on his face that hasn't been there before. Not warmth. Recognition.
+
+**BAYAR**  
+That's three of his battalions. He has two left, and they're the ones who believe in him — which makes them the ones who'll die for him. The believers always cost the most. The rest you can buy. The believers you have to break.  
+
+Nadir is quiet a long moment. Then he sets the phone down and looks at Bayar, and it isn't flat at all — it's a man holding a door shut with his whole weight.
+
+**NADIR**  
+No. Nobody gets broken tonight. He's a general without an army by sunrise — so at breakfast he gets arrested. In his pyjamas, in front of his staff, with a warrant, and I will draft the warrant myself, and it will be the most boring, correct document this country has ever produced. The believers go home to their families with their pensions intact and a story about the night they almost mattered.  
+*(beat)*  
+I'll do this. Apparently I'll do this. But it gets done my way or all we've changed tonight is which thug owns the chair.  
+
+**BAYAR**  
+*(a long look; he files it somewhere)*  
+Your father had a saying. A spared believer is a debt. You pay it later, with interest.  
+
+**NADIR**  
+Then I'll pay it. Send someone for a typewriter.  
+
+Bayar inclines his head — to the order, or to the debt, hard to say — and goes to find one.
+
+*CUT TO:*
+
+### INT. PRESIDENTIAL RESIDENCE - A CORRIDOR - PRE-DAWN
+
+The warrant signed, the night nearly over. NADIR catches GENERAL TURAN by a window, away from the aides. He's still holding the pen.
+
+**NADIR**  
+Take it.  
+
+**TURAN**  
+Take what.  
+
+**NADIR**  
+The chair. The country. I mean it — I'll stand up in front of the cameras at noon and hand it to you myself, the loyal general who saved the republic. You're honest, the army trusts you, and I have a flat in London and a wife who hates it here already. Everyone gets what they want. Take it.  
+
+Turan looks at him a long moment — and laughs. Once, short, no joy in it.
+
+**TURAN**  
+The army trusts me because in forty years I never once reached for anything. The day I sit in that chair, that man dies, and some new man wakes up in his skin and starts counting who's loyal. I've watched it happen to better men than me.  
+*(beat)*  
+And a soldier in that chair is just your Rustam problem again, with table manners. No, Mr. President. You're the only man in the country tonight who doesn't want it. Unfortunately for you, that's the only kind it's safe to give it to.  
+
+He walks on, leaving Nadir alone with the pen and the arithmetic — every door out of the building leading back into it.
+
+*CUT TO:*
+
+### INT. PRESIDENTIAL RESIDENCE - NADIR AND LENA'S ROOMS - DAWN
+
+Grey light. NADIR hasn't slept. LENA has been awake all night in a country she doesn't know, holding her fear and her fury very still.
+
+**LENA**  
+It's on the radio. "The President's son has secured the capital." They're saying President already. I rang the embassy — the airport's open, they'll make an exception for us, there's a flight at noon. I booked two seats.  
+
+**NADIR**  
+Cancel them.  
+
+**LENA**  
+Nadir.  
+
+**NADIR**  
+I tried to give it away. That's where I've been since four — I offered it to Turan in a corridor, I'd have offered it to the doorman. Nobody honest will take it and everybody else is a Rustam. If I get on that plane today this is a war by Friday, and the man who wins it is worse than the one I stopped, and his list has both our names on it and it reaches all the way to the flat.  
+
+**LENA**  
+So we're staying because you couldn't find anyone to hold the bomb.  
+
+**NADIR**  
+We're staying until I build someone to hold it. A council, a court, an election — something that isn't a person. The whole problem with this country is that it's always been a person. I can fix that. That's the one thing I'd actually know how to fix.  
+
+**LENA**  
+"Until." And how long is until.  
+
+**NADIR**  
+*(he doesn't know, and won't quite lie)*  
+A year. Two. However long it takes to make this place a country instead of a man. And Lena — I do it as me. The prisons open, the courts come back, the whole apparatus that ate people like Osman goes on trial in daylight. I'm not staying to keep my father's house. I'm staying to take it apart with the lights on. That's the only version of this I'll do.  
+
+Lena looks at the man she married telling her a thing he needs to be true.
+
+**LENA**  
+You took a man apart with a telephone last night, and you were good at it. I heard your voice through the door. I have never once heard that voice.  
+
+**NADIR**  
+It was the only night it'll be needed. To survive it. Once.  
+
+**LENA**  
+*(quietly)*  
+That's what once sounds like. The first time.  
+
+She doesn't cancel the flight, exactly. She just doesn't get on it. Out the window, across the waking city, men on a crane are already taking a four-storey portrait of the dead Lion down, panel by panel — the new President's first order, the windows coming open.
+
+*CUT TO:*
+
+### EXT. STATE FUNERAL, ASTAN - DAY
+
+A square the size of a runway. A hundred thousand people who were given the day off. A portrait of ASLAN four stories tall, the Lion young again, looking somewhere over their heads.
+
+The coffin rolls past on a gun carriage. The crowd makes the sound a crowd makes when it's been told to.
+
+NADIR walks behind it in a black coat, alone in a lane of empty asphalt, the whole country watching him not cry.
+
+At a microphone, he reads from a card.
+
+**NADIR**  
+My father found a country in pieces and made it one. Everything you are standing on, he held together with his hands.  
+
+(beat) We will keep what he built. And we will build on it.
+
+He folds the card and steps back from the microphone.
+
+### EXT. STATE FUNERAL, ASTAN - BEHIND THE STANDS - DAY
+
+Behind the grandstands, the other side of the spectacle: a warren of cables, water bottles, folding chairs, a PA rack. This is where the grief is run from. BAYAR stands at a bank of small monitors, each showing the square from a different angle, an earpiece in, calm as a man watching a kettle.
+
+A PROTOCOL OFFICER beside him — headset, clipboard, sweating.
+
+**PROTOCOL OFFICER**  
+Section nine isn't crying. Camera four wants a wide and section nine is just standing there.  
+
+**BAYAR**  
+*(into his mic, unbothered)*  
+Bring the choir up under the eulogy. The front two rows in nine are paid; they'll start, and the rest will remember they're on television. Nobody wants to be the one not crying on television.  
+
+He's right. On the little monitors, a ripple — the front rows, then the rows behind, grief spreading outward like something poured. On camera four's wide it looks completely real. It is completely real. That's the part that works.
+
+**PROTOCOL OFFICER**  
+How do you know it'll catch.  
+
+**BAYAR**  
+Forty years I've moved this crowd. Cheer, mourn, fear, back to cheer. Same crowd, same three levers. The trick people miss —  
+*(watching a monitor, where NADIR, tiny, steps to the mic)*  
+— is that it isn't a lie. They did love him. You can't fake a square. You can only tell it which true thing to feel, and when.  
+
+On the monitor the new young President begins to speak, and a hundred thousand people feel a true thing on Bayar's cue. Bayar watches the boy at the mic with no expression at all.
+
+**PROTOCOL OFFICER**  
+And him? The son?  
+
+**BAYAR**  
+*(eyes on the small grey figure)*  
+He's section nine. Standing there. Not crying yet.  
+*(into the mic, moving on)*  
+Camera four, off the wides. Stay close on the coffin.  
+
+### EXT. ASLAN'S GRAVE - LATER
+
+Family only now, and BAYAR three steps back with his hands folded, watching the way a man watches a runway.
+
+They lower the box. A soldier hands Nadir the first spadeful of dirt.
+
+Nadir holds it over the hole a moment too long, looking down.
+
+**NADIR (V.O.)**  
+*(to the box)*  
+Watch.  
+
+He lets the dirt go and steps back. Bayar moves up beside him, not too close.
+
+**BAYAR**  
+The cabinet can wait till you're ready. They've waited thirty years. They'll manage the afternoon.  
+
+Nadir nods at the grave. Not at Bayar.
+
+*CUT TO:*
+
+### INT. ASTAN CENTRAL HOSPITAL - PEDIATRIC WARD - DAY
+
+A ward that's clean because someone made it clean for a visit. LENA, in scrubs and a borrowed white coat, moves between cots with the ease of a person who is, for one hour, just good at something. She listens to a kid's chest, makes a face that makes the kid laugh, moves on.
+
+A nervous HOSPITAL DIRECTOR trails her, clipboard, sweating.
+
+**DIRECTOR**  
+The First Lady honors us. If there's anything — we prepared a presentation, the new wing —  
+
+**LENA**  
+I don't want the presentation. I want to know why bed four's on an adult dose and why you're out of the cheap antibiotic but not the expensive one nobody can pronounce.  
+
+**DIRECTOR**  
+*(thrown)*  
+Procurement is centralized, ma'am, the ministry —  
+
+**LENA**  
+Then I'll talk to the ministry. My husband runs it, apparently.  
+
+She says it lightly. It lands on the director like a sentence. A NURSE nearby hides a smile.
+
+Lena crouches by bed four — a boy, six, wary. She doesn't talk to him like a patient.
+
+**LENA (CONT'D)**  
+You don't like it here.  
+
+**BOY**  
+No.  
+
+**LENA**  
+Neither do I. We'll both get out. Deal?  
+
+The boy considers her. Nods once, a serious nod, the kind you don't take back.
+
+She moves on — and for a moment, in the white coat, she's the woman she was in London. Useful. Unafraid. Out the window behind her, across the city, a banner crew is unfurling a new portrait of the dead President down the face of the hospital.
+
+She doesn't see it. The boy does. He watches it cover the glass.
+
+*CUT TO:*
+
+### INT. PALACE OF THE REPUBLIC - THE GREAT HALL - DAY
+
+A hall built to make a person small. Marble, a vaulted ceiling, a flag forty feet tall. Ranks of them: GENERALS in dress uniform, MINISTERS, the diplomatic corps, the clergy, a hundred cameras. At the center, on a dais, a single object on a velvet cushion — the founding CHARTER of the Republic, behind glass, the Lion's own first document.
+
+NADIR stands before it in a dark suit, no medals — the one note of restraint, and everyone reads it. BAYAR, off to the side, lets him have it; it costs nothing.
+
+An old CHIEF JUSTICE, robes, holds a card.
+
+**CHIEF JUSTICE**  
+Repeat, please. I, Nadir Demir.  
+
+**NADIR**  
+I, Nadir Demir.  
+
+**CHIEF JUSTICE**  
+Do swear to hold and defend the Republic the founder built.  
+
+A flicker — the smallest pause. He came home swearing to unbuild half of it. He swears to hold it.
+
+**NADIR**  
+Do swear to hold and defend the Republic the founder built.  
+
+The Chief Justice lifts the glass case. Nadir is to lay his hand on the charter — the actual page, the founder's hand. He hesitates over it. We, alone, know what's written on pages like this one, in a cheaper notebook, in a basement: open the prisons, publish the budget, the people are always ready.
+
+He lays his palm flat on the glass over the founder's words. The hall comes to its feet — the sound enormous, and arranged, and, like Bayar's funeral, not a lie. They want a wall. He's just put his hand on the first stone of one and called it an oath.
+
+Through the forty-foot windows, across the square, the steel scaffold that carried the four-story portrait stands bare — he had it taken down his first week. A skeleton of pipe where his father used to be. From here the eye keeps going to it anyway.
+
+*CUT TO:*
+
+### INT. CABINET ROOM - DAY
+
+A long table of old men. The Lion's men — generals, ministers who held their seats before Nadir could drive. At the far end, BAYAR: the only one not in uniform, the only one not watching Nadir. He watches the others watch him.
+
+Nadir takes the head of the table. The chair is too big. It was built for someone bigger.
+
+**NADIR**  
+Thank you. I know most of you better as names on my father's calendar than as faces. We'll fix that.  
+
+(beat) I'm bringing Yusuf Karim home from London. He gets the new ministry. Reform.
+
+Nothing moves. The particular stillness of men deciding whether to take you seriously.
+
+GENERAL TURAN, seventy, scarred:
+
+**GENERAL TURAN**  
+Reform of what, Mr. President.  
+
+**NADIR**  
+The parts that don't work.  
+
+**GENERAL TURAN**  
+Everything works. He's in the ground and everything still works. That was the design.  
+
+Nadir holds it. Doesn't blink first, which costs him something.
+
+**NADIR**  
+Then Yusuf will have an easy job of it.  
+
+Down the table, the smallest thing happens at the corner of Bayar's mouth. Not a smile. The memory of one.
+
+**BAYAR**  
+Welcome, Mr. President. We're all very interested.  
+
+*CUT TO:*
+
+### INT. ASTAN AIRPORT - ARRIVALS - DAY
+
+A private channel, but still — fluorescent, a floor buffer running somewhere, a building that smells like jet fuel and the sea. YUSUF KARIM comes through with one bag and a grin that's been on a plane nine hours and survived.
+
+NADIR is there himself. No detail, no aides. Just him, in a coat, like a person.
+
+**YUSUF**  
+They let the President wait at arrivals. There's your headline. "Strongman Carries Own Friend's Bag."  
+
+**NADIR**  
+I'm not carrying your bag.  
+
+**YUSUF**  
+You will. Symbolically.  
+
+They hug — the real kind, a beat past comfortable. Yusuf holds him at arm's length and reads his face.
+
+**YUSUF (CONT'D)**  
+You look terrible. Good. A man should look terrible at his own coronation.  
+
+**NADIR**  
+It was a funeral.  
+
+**YUSUF**  
+Same thing, you'll find.  
+
+It lands a little wrong. They both let it go by.
+
+**YUSUF (CONT'D)**  
+Four years we planned this in a room with a broken radiator. Four years, that radiator. And now there's no radiator and no him and just the door. We're the good chapter, Nadir. I decided on the plane. I'm putting it in the preamble.  
+
+Nadir smiles — the first real one in the picture.
+
+**NADIR**  
+There's a preamble now.  
+
+**YUSUF**  
+There's going to be everything.  
+
+They walk out toward the cars. Behind them, two of Bayar's men fall into step, unhurried, a polite distance back.
+
+*CUT TO:*
+
+### INT. MINISTRY OF REFORM - A BARE OFFICE - DAY
+
+An office that used to be something else — you can see the ghost of a different sign on the door. YUSUF, jacket off, in front of a dozen YOUNG PEOPLE, twenties, the kind who own one good suit. Whiteboards. Bad coffee. The energy of a startup that's going to fix a country.
+
+**YUSUF**  
+I want to be clear what this job is. It's not a good job. The pay's an insult, the hours are a war crime, and everyone in this building who outranks us has been here since before you were born and would like us to fail and go home.  
+
+He grins.
+
+**YUSUF (CONT'D)**  
+Which is why I only hired people who have somewhere else to be. People London wanted. People with an offer in their inbox right now. So I know that when it gets bad — and it gets bad — you stayed because you chose to, not because you were stuck.  
+
+A YOUNG MAN in front, twenty-six, suit a half-size too big, hand already up.
+
+**YOUNG MAN**  
+Sir — the rural schools and the budget. I ran it both ways. There's a version where we do both, if we phase the —  
+
+**YUSUF**  
+What's your name.  
+
+**YOUNG MAN**  
+Demir, sir. No relation. It's a common name.  
+
+**YUSUF**  
+*(laughs)*  
+It's a terrible name for a reformer. Bring me the schools thing Friday. If it's good I'll steal it and put my name on it, and that's how you'll know you've made it.  
+
+The room laughs. The young man beams. He's home. He found the thing he came back for.
+
+Behind Yusuf, near the door, a man in a grey suit stands very still, Office by the stillness of him, and writes nothing. Just watches the young people who have somewhere else to be.
+
+*CUT TO:*
+
+### INT. THE OFFICE - SECURITY HEADQUARTERS - DAY
+
+A building with no sign on it. Inside, just corridors and steel doors and the hum of a server room somewhere, doing the country's remembering.
+
+BAYAR walks Nadir through it like a host. Unhurried. Proud, almost, with the quiet pride of a man and his clean machine.
+
+**BAYAR**  
+Records. Everyone who's ever been a problem, and everyone who might become one. Your father read it like the morning paper. Every day.  
+
+**NADIR**  
+I want it opened. The political cases — a panel, judges, not us, every file reviewed. The ones who shouldn't be in here, out by spring.  
+
+Bayar stops at a steel door. Doesn't open it. Considers Nadir with something close to warmth, which is worse than anything.
+
+**BAYAR**  
+Of course, Mr. President. It's your house.  
+
+(beat) Open whichever doors you like. I'll have the lists on your desk in the morning.
+
+**NADIR**  
+That easy.  
+
+**BAYAR**  
+That easy.  
+
+He lays a hand flat on the steel, the way you'd pat a horse you've owned a long time.
+
+**BAYAR (CONT'D)**  
+A door is only frightening from one side of it. You'll see.  
+
+He opens it. Inside: files, floor to ceiling. More than a man could read in a life.
+
+Nadir takes in the size of it. Bayar takes in Nadir.
+
+*CUT TO:*
+
+### INT. RESIDENCE - NADIR & LENA'S ROOMS - NIGHT
+
+Late. The floor is paper — printouts, a map of the country, two mugs, a plate someone forgot to finish. LENA cross-legged on the rug in his shirt, a red pen behind her ear. NADIR opposite, tie long gone, the most unguarded we've seen him.
+
+**LENA**  
+Health or the courts. You can announce one properly this month. Both and you announce neither — you just annoy two ministries instead of one.  
+
+**NADIR**  
+Yusuf says both.  
+
+**LENA**  
+Yusuf says yes to everything; it's his best and worst feature. Pick. If it were only up to you, nobody watching — health or courts.  
+
+**NADIR**  
+*(immediately)*  
+Health. Courts make a headline. Health makes a kid in Karagh not die of a thing London cured in 1950.  
+
+She points the red pen at him: correct.
+
+**LENA**  
+There he is. That's the man I married. Not the one who does the hand at funerals. Keep that one out front.  
+
+He pulls a page toward him, writes something, and for a moment they work in the particular quiet of two people who like the same problem. She steals his mug. He lets her.
+
+**LENA (CONT'D)**  
+In London you used to say you'd never come back here. You said it like a man talking about prison.  
+
+**NADIR**  
+I meant it like that.  
+
+**LENA**  
+And now look. Red pen, my husband's shirt, a whole country on the carpet. Is this — is this you happy? I genuinely can't always tell with you. It looks a little like happy.  
+
+He considers it honestly, which is the thing she loves.
+
+**NADIR**  
+It's the closest I've stood next to it. Ask me in a year.  
+
+**LENA**  
+*(lightly, back to the page)*  
+I'll ask you in a year.  
+
+Out in the dark hall, far off, a door closes — staff, nothing, the building breathing. They don't hear it. On the carpet between them, the map of the country, the east end of it under Lena's bare foot.
+
+*CUT TO:*
+
+### EXT. PRISON GATES - DAY
+
+A high wall in a brown landscape. Cameras — the world's cameras, satellite trucks, a forest of lenses pointed at one small door cut into a big gate.
+
+NADIR stands at a podium set up in the dirt. Behind him, the gate.
+
+**NADIR**  
+For thirty years this gate only opened one way.  
+
+He nods. An officer unlocks the small door.
+
+MEN come out. Blinking, thin, in clothes that don't fit them anymore, some of them holding up the others. They stop when they see the cameras, the crowd, the daylight. One old man just stands with his face turned up like he's drinking it.
+
+The crowd makes a real sound this time. Not the told-to kind.
+
+A young WOMAN REPORTER gets a mic to him:
+
+**REPORTER**  
+Mr. President — they're already calling you the reformer. The reform president. Is that —  
+
+**NADIR**  
+I'm calling me a man whose father kept some people in a building too long. That's all today is.  
+
+It's the right answer. He knows it is.
+
+Off to the side, a freed PRISONER, maybe forty, watches Nadir instead of the cameras. Doesn't smile. Files him away.
+
+Nadir catches it. Holds the man's eyes a second. Looks away first.
+
+*CUT TO:*
+
+### INT. PRESIDENTIAL PALACE - BANQUET HALL - NIGHT
+
+Gold, too much of it. A long table under the dead President's portrait — they kept it here, of course they kept it here. AMBASSADORS, generals, wives. ANATOLY, the Russian envoy, at Nadir's right; a WESTERN AMBASSADOR at his left. Both of them smiling at him the way you smile at a stock you're deciding whether to buy.
+
+NADIR works the table. He's good at it — the London polish, the right joke for the right man. LENA across from him, in a gown she clearly hates, doing the same work, worse, because she won't pretend to like anyone.
+
+**ANATOLY**  
+*(low, to Nadir, warm as a snake)*  
+Your father and I never needed translators. A handshake, a hunting trip. We understood each other. Real things.  
+
+**NADIR**  
+My father shot a bear with your president and called it diplomacy.  
+
+**ANATOLY**  
+It was diplomacy. The bear thought so too, briefly.  
+
+Nadir laughs. It's the right laugh. He's getting good at the right laugh.
+
+Down the table, the WESTERN AMBASSADOR leans to Lena.
+
+**WESTERN AMBASSADOR**  
+We're all so encouraged, Mrs. Demir. The prisoners. The press. A new day. You must be proud.  
+
+**LENA**  
+I'm a doctor. I'm proud when bed four goes home. Ask me about the new day in a year.  
+
+The ambassador blinks, recalibrates, decides she's charming. She isn't trying to be charming.
+
+A SERVER refills the glasses under the portrait. Nadir catches his own reflection in the dark window behind the head of the table: himself at his father's table, under his father's face. For half a second he can't find the difference.
+
+Then Anatoly starts in on another hunting story, and Nadir gives the right laugh, and the moment's gone.
+
+*CUT TO:*
+
+### INT. RESIDENCE - NIGHT
+
+LENA at the counter, a newspaper open in front of her. NADIR comes in loosening a tie.
+
+**LENA**  
+Page six.  
+
+**NADIR**  
+What about it.  
+
+**LENA**  
+Read it.  
+
+He reads, eyes moving.
+
+**NADIR**  
+"The President's reforms remain cosmetic, his cabinet the same men who served the father." Huh.  
+
+**LENA**  
+They printed that. This morning. And nobody came to the house.  
+
+She says it lightly but there's water in her eyes and she's annoyed at herself for it.
+
+**LENA (CONT'D)**  
+In London that's a Tuesday. Here I keep waiting for a car to pull up. I keep waiting for the phone. And it's just a man in a flat with a paper that says my husband isn't doing enough.  
+
+**NADIR**  
+You want me to arrest him for you. Make it feel like home.  
+
+**LENA**  
+Don't joke. This is the thing. This is the only thing.  
+
+He stands behind her, reads over her shoulder, sets a hand on the counter next to hers. Not on hers.
+
+**NADIR**  
+He's right, though. It is cosmetic. So far.  
+
+**LENA**  
+So far.  
+
+Far off, a single car alarm. They both go still for half a second before it stops mattering. Neither one mentions it.
+
+*CUT TO:*
+
+### INT. ASTAN CENTRAL HOSPITAL - LOCKER ROOM - NIGHT
+
+End of a double shift. LENA, out of the white coat, human and tired. MIRA, mid-twenties, a nurse with fast hands and a faster mouth, packs a bag beside her. The easy quiet of two women who work.
+
+**MIRA**  
+You didn't have to take the late one. You're the — you know what you are.  
+
+**LENA**  
+I'm better at the late one. Nobody curtsies at 2 a.m. They just want the pain to stop. That I can do.  
+
+Mira laughs. Then, not looking up, the thing she's carried all shift:
+
+**MIRA**  
+My brother's home.  
+
+Lena stops.
+
+**MIRA (CONT'D)**  
+Kerim. They let him out in March. The gate, the cameras, your husband's speech — he was in it. Behind the old man drinking the daylight. Eight years. He's at my table now, eating like he never left, asking is the bread always this good or did they change it.  
+
+**LENA**  
+Mira.  
+
+**MIRA**  
+Did they change the bread, Lena? I can't tell anymore. I can't tell what's him being happy and what's the country being different.  
+
+Light, but her hands have stopped. Lena puts a hand over them — the gesture she wouldn't give the director.
+
+**LENA**  
+The bread's the same. He's just out.  
+
+**MIRA**  
+*(nods, brisk again)*  
+Anyway. Thank your husband. I never thought I'd say a sentence like that. Thank him.  
+
+**LENA**  
+I'll tell him a nurse said the country's different.  
+
+**MIRA**  
+Tell him a nurse said don't stop.  
+
+She shoulders the bag, knocks Lena's shoulder with hers, gone. Lena sits a moment with what she's been handed — somewhere across town, a freed man eating bread, asking if it changed. She almost smiles. Then she goes home to the man who opened the gate.
+
+*CUT TO:*
+
+### INT. PROVINCIAL COURTHOUSE - KARASH - DAY
+
+A shabby courtroom in a town that isn't Astan. Peeling paint, a ceiling fan, a portrait of the dead President on the wall — smaller than it used to be; you can tell from the clean rectangle around it where the bigger one hung.
+
+JUDGE FERIDA, fifties, reading glasses, the unimpressed calm of a woman who's waited her whole career to be allowed to do her actual job. Before her: an OFFICE OFFICIAL in a good suit, and a thin PRINTER holding his hat.
+
+In the back row, two men nobody's looking at: YUSUF, and beside him NADIR in a plain coat and a few days of beard. Two citizens on a bench.
+
+**JUDGE FERIDA**  
+The press was seized on a verbal order. No warrant. Under the old practice, that was the practice.  
+*(takes off the glasses)*  
+There's a new practice. Return the equipment by Friday, or the official who signed nothing will sign his name to a contempt order. Mine.  
+
+The Office official opens his mouth. Looks at the judge. Looks at the small portrait. Closes his mouth. Twenty years of one reflex, meeting a wall that's new.
+
+**OFFICE OFFICIAL**  
+*(strangled)*  
+The state complies.  
+
+He's never said that sentence in that direction. It costs him a tooth to say it. The thin printer just stares, not yet believing his press is coming back.
+
+In the back row, Yusuf doesn't cheer. He presses his knee against Nadir's, once, like they're boys again.
+
+### EXT. COURTHOUSE - STEPS - DAY
+
+Nadir and Yusuf walk down and away, hands in pockets, the only two who know who they are.
+
+**YUSUF**  
+That's the whole thing, right there. Not a speech, not a square. A fat man in a good suit saying "the state complies" because a woman in a cardigan told him to. A law did that.  
+
+**NADIR**  
+She did that. We just stopped the phone ringing in her ear.  
+
+**YUSUF**  
+That's the entire job. The only job. Stop the phone ringing in the judge's ear — for everyone, for good — and then go be an old man.  
+
+Nadir laughs. Open, unguarded, the London laugh. For one block, in a coat nobody knows, he's exactly the man he meant to be.
+
+**NADIR**  
+Put it in the preamble.  
+
+**YUSUF**  
+It's already in the preamble.  
+
+They walk on, two men in plain coats, nobody turning to look. Behind them, on the courthouse step, the thin printer is telling a stranger about his press, using both hands.
+
+*CUT TO:*
+
+### INT. A COMMUNITY HALL - A NORTHERN TOWN - DAY
+
+Folding chairs, a basketball hoop cranked up out of the way, a banner somebody made by hand. A few hundred ORDINARY PEOPLE, wary, not used to this. NADIR on a low stage — no podium, one microphone on a stand. YUSUF at the side of the room, watching his friend do the thing they dreamed.
+
+**NADIR**  
+No script. No approved questions. My father held one of these never, so I don't have his example to ignore. Ask me things.  
+
+Silence first — the silence of people who learned that a raised hand is a marked hand. Then, near the front, a YOUNG TEACHER puts his up, slow, like he might take it back.
+
+**YOUNG TEACHER**  
+The school in Veresh. We've forty children and a roof that comes in when it rains, and every year the form goes up to the province, and every year it comes back stamped, and nothing — sorry. Is that allowed. I genuinely don't know if I'm allowed to ask that.  
+
+**NADIR**  
+You're allowed to ask it. I just — honestly, I don't have an answer for you yet, which I realise is a terrible thing to say out loud at one of these. What I can tell you is that the roof in Veresh is a thing I know about now, and it wasn't ninety seconds ago, and that's — I mean, that isn't a roof. I know it isn't a roof. Give me a month. If it's still coming in on those children in a month, you stand up here again and you make it hurt.  
+
+A small laugh, surprised out of the room. Two more hands go up, then a third. You can feel a country trying on a new posture, stiff at the joints.
+
+Then, near the back, an older woman stands. SEVDA, fifties, a good coat, the stillness of someone who rehearsed this on the bus. The room quiets differently for her. Some of them know.
+
+**SEVDA**  
+My husband was Tomas Aliyev. A teacher, like that young man. In the spring of the founding, men came in a car, and he got into it, and that is the last fact I have. Thirty years. No charge. No grave. No date.  
+
+The microphone finds her. Nobody breathes.
+
+**SEVDA (CONT'D)**  
+I'm not asking for money. I don't want a building named anything. I want the date. The day. You've opened the files — you said so, on the television. So somewhere there's a page with the day on it. I'd like the day, Mr. President. So I can keep one of them, instead of all of them.  
+
+It's the whole reform, in one woman, in one sentence, and Nadir feels the size of what he promised land on him at last. He doesn't reach for a phrase. For once he lets the silence run its proper length.
+
+**NADIR**  
+I'll find your husband's date. Myself — not an office, me. You'll have it before the month's out. And if it's a hard date, I'll bring it to you in person, because somebody should have to carry it to your door, instead of leaving you to go and find it.  
+
+Sevda nods, once. She doesn't thank him — she's not there yet, and may never be. She sits. Across the room, Yusuf looks at Nadir the way you look at a bet coming in.
+
+*CUT TO:*
+
+### INT. CABINET ROOM - DAY
+
+YUSUF on his feet, sleeves up, a stack of folders, the energy of a man who's waited four years for this meeting. The old ministers watch him the way cattle watch a dog.
+
+**YUSUF**  
+Three things. We publish the budget — the real one, not the one where "special programs" is bigger than health. We pension the provincial governors who've sat since the war and let the towns elect their own. And we put the Office under a civilian, a lawyer, answerable to the courts, not to —  
+
+**MINISTER OF INTERIOR**  
+The Office answers to the President.  
+
+**YUSUF**  
+The Office answers to the President's father. Who is dead. With respect.  
+
+Silence. GENERAL TURAN, not looking up from his cup:
+
+**GENERAL TURAN**  
+Publish that budget, every governor in the east reads it as the center going blind, and inside a month three of them keep their oil "for local stability." Pension them off, they don't go to a beach. They go home and raise a flag. You've never run a thing, son. You've run a seminar.  
+
+Yusuf opens his mouth. He has the answer. It's a good answer. It's the kind of good that's true in a seminar.
+
+At the end of the table BAYAR writes something small in a notebook. Doesn't look up. The most attention anyone's paid all meeting, and it's his, and it's aimed at Yusuf, and it isn't friendly.
+
+**YUSUF**  
+*(quieter)*  
+Then we do it carefully. But we do it.  
+
+Nobody answers. The meeting moves on without a vote, the way water moves around a stone.
+
+*CUT TO:*
+
+### INT. SITUATION ROOM - DAY
+
+A map of Karash on a screen, the east lit amber. A FINANCE MINISTER, two generals, NADIR at the head.
+
+**FINANCE MINISTER**  
+The Karagh refinery's remittance didn't come Friday. Or Monday. Governor Eskin's office calls it a "temporary local reconciliation of accounts."  
+
+**NADIR**  
+Meaning he's keeping it.  
+
+**FINANCE MINISTER**  
+Meaning he's keeping it.  
+
+GENERAL TURAN against the wall, arms folded. He doesn't say I told you. He just lets the room remember he did.
+
+**NADIR**  
+Get Eskin on a plane. I'll talk to him. He's a businessman, not a rebel — he's testing the new man. I'd test the new man too.  
+
+**TURAN**  
+He won't get on the plane.  
+
+**NADIR**  
+Then I'll go to him.  
+
+That earns a look from Turan — the first real one, almost interested.
+
+**TURAN**  
+Your father never went to anyone.  
+
+**NADIR**  
+I'm aware.  
+
+He says it like it's the whole point. Turan lets it sit, unconvinced. On the screen the amber stays.
+
+*CUT TO:*
+
+### INT. NADIR'S OFFICE - NIGHT
+
+Late. NADIR alone, a phone to his ear, the city dark out the window. On a muted screen, a news feed: tanks on flatbeds, moving.
+
+**NADIR**  
+*(into phone)*  
+We read about the exercises in the press, Anatoly. Before your foreign ministry called mine. Strange way to do it between friends.  
+
+He listens. His jaw works.
+
+**NADIR (CONT'D)**  
+Thirty thousand is a large exercise.  
+
+He listens.
+
+**NADIR (CONT'D)**  
+My father's understanding with your president was personal. My father is dead. I'd like my own understanding, and I'd like to make it without thirty thousand men reading over my shoulder.  
+
+He listens a while. Whatever it is, it isn't yes. He sets the phone down soft, the way you set something down when what you want is to throw it.
+
+He stands at the window. The muted tanks keep rolling on the screen behind him. He turns the screen off — the same hand, the same reflex as the monitor in his father's room.
+
+He doesn't notice he did it.
+
+*CUT TO:*
+
+### EXT. ASTAN - A SQUARE - DAY
+
+An ordinary city square, the kind with a fountain and some pigeons and nothing much ever happening in it. Today there are people in it, and then there are more people, and they're holding signs that don't agree with each other about anything except that all of it should be happening faster.
+
+NADIR watches from a tinted car across the street, idling. YUSUF beside him.
+
+**YUSUF**  
+This is good. This is the thing working. They couldn't have stood here a year ago.  
+
+**NADIR**  
+What do the signs say.  
+
+**YUSUF**  
+That one wants the eastern governor hanged. That one wants him made prime minister. That one's about water.  
+
+**NADIR**  
+So they want everything.  
+
+**YUSUF**  
+They've been allowed to want for a month. They're making up for thirty years.  
+
+A chant starts. It isn't his name. It used to be his father's name, in a square like this, on command. This one nobody commanded, and it isn't a name at all, just louder.
+
+**NADIR**  
+My father would look at this and see a fire.  
+
+**YUSUF**  
+Your father would be wrong.  
+
+**NADIR**  
+*(watching)*  
+Probably.  
+
+He keeps watching. He doesn't say what he sees. The car idles. Outside, the square keeps filling.
+
+*CUT TO:*
+
+### INT. THE OFFICE - BAYAR'S OFFICE - NIGHT
+
+Spare. A desk, two chairs, blinds half down. BAYAR pours two glasses of something and sets one in front of NADIR, who doesn't touch it.
+
+**BAYAR**  
+Eskin won't fly. You knew he wouldn't. So — two doors, Mr. President. I'll stand at neither. I only keep the keys.  
+
+He sits.
+
+**BAYAR (CONT'D)**  
+Door one. You go east. You sit in his ugly office, drink his tea, make him a deal he can sell his people as a win. He keeps a face. You keep the oil, most of it. And every other governor watches the President of Karash travel to a man who robbed him, and does the arithmetic. By spring you have four Eskins. By autumn the east is a country.  
+
+**NADIR**  
+And door two.  
+
+**BAYAR**  
+Door two, the refinery has a fire. A real one. Old Soviet plant, terrible safety culture, these things happen. Eskin survives it, barely, and is so shaken he begs Astan to send troops to secure the asset. We secure it. He keeps his office and his life and the proper amount of fear, and every other governor does a very different arithmetic.  
+
+**NADIR**  
+That's not two doors. That's one door and a thing you want me to call a door.  
+
+Bayar almost likes that. Lifts his glass a half inch.
+
+**BAYAR**  
+Your father would have said the same. Then he'd have lit the match.  
+
+**NADIR**  
+I'm not my father.  
+
+**BAYAR**  
+No.  
+*(a sip)*  
+Not yet. No insult in it. A wall isn't born a wall. It's the first thing the weather makes.  
+
+Nadir stands, leaves the drink. At the door:
+
+**NADIR**  
+There's a third door.  
+
+**BAYAR**  
+*(not unkind)*  
+There's always a third door, Mr. President. It's the one the building burns down while you're looking for it.  
+
+*CUT TO:*
+
+### INT. RESIDENCE - NIGHT
+
+NADIR comes in late, tie gone. LENA's up, reading, glasses on.
+
+**LENA**  
+You smell like Bayar's office. The whiskey he keeps for occasions.  
+
+**NADIR**  
+I didn't drink it.  
+
+**LENA**  
+I know. You came home to tell me you didn't drink it.  
+
+He sits on the end of the bed and tells her — the fire that won't be called a fire, the two doors with one room behind them. She lets him get all the way to the end before she says anything.
+
+**LENA (CONT'D)**  
+And you're looking for the third door.  
+
+**NADIR**  
+There's always a third door.  
+
+**LENA**  
+That's not a Nate sentence. That's a sentence a man says right before he walks through door two and calls it three.  
+
+He looks at her.
+
+**LENA (CONT'D)**  
+I'm not saying you'd do the thing. I'm saying I've watched you find a reasonable version of every unreasonable thing this place needs from you. You're good at it. You're so good at it. That's the part keeping me up.  
+
+**NADIR**  
+What would you have me do. Lose the east. Lose the country in a year. Hand it to the next man, who won't look for a third door at all.  
+
+**LENA**  
+I'd have you lose it.  
+
+It stops him. She means it.
+
+**LENA (CONT'D)**  
+I'd rather go home with the man I married than stay here with the one who kept the country.  
+
+He has no answer. For once. He reaches over and turns off her lamp, gently, ending a conversation he can't win. In the dark:
+
+**NADIR**  
+I'm going to find the third door.  
+
+She doesn't answer. She's already looking at a door of her own.
+
+*CUT TO:*
+
+### EXT. KARAGH - THE GOVERNOR'S COMPOUND - DAY
+
+The east. Flat, oil-rich, ugly, rich. A compound that's half palace, half refinery office. GOVERNOR ESKIN, sixties, a big laughing man who got fat on the margin between what the wells make and what he sends west, meets NADIR on the steps with both arms out, like family.
+
+**ESKIN**  
+The President of Karash, in my house! Your father never came east. Forty years. Said the drive ruined his back.  
+
+**NADIR**  
+I came to ruin my back.  
+
+Eskin roars. He likes that. Walks Nadir in with a hand on his shoulder — the hand of a man showing everyone watching that he can put a hand on the President.
+
+### INT. ESKIN'S OFFICE - DAY
+
+Tea. Sweets. ESKIN sprawled, NADIR upright. The warmth has a floor under it and they both know where it is.
+
+**ESKIN**  
+You want the money. A new President needs the money — it's how the others learn you're real. I understand.  
+
+**NADIR**  
+I want an arrangement that works for both of us. Keep a bigger share here. The refinery's a death trap — fix it. Schools. Send the rest. And let me say you chose to. Let me make you the governor who modernized the east instead of the one I —  
+
+**ESKIN**  
+The one you what.  
+
+A beat. The room cools a degree.
+
+**NADIR**  
+The one I had to come east about.  
+
+Eskin smiles, but it's the other smile now, the one underneath. He pours more tea, slow — the power move of a man making a President wait.
+
+**ESKIN**  
+Here's a thing your father knew that you're still learning. The east doesn't keep the oil because it's greedy. It keeps the oil to find out if Astan still has teeth. That's all this is. A man checking. And you came all this way, in person, to ask me nicely.  
+*(sips)*  
+Your father would have sent a plane I couldn't say no to. You sent yourself. I'll think about it. Tell the President I'll think about it.  
+
+Nadir sets his tea down. Stands. At the door he stops, and for the first time we hear, very faint, a different register under his voice.
+
+**NADIR**  
+You'll think about it until Friday.  
+
+He goes. Eskin's smile holds until the door shuts. Then it doesn't.
+
+*CUT TO:*
+
+### INT. WAR ROOM - DAY
+
+A bunker feel. Screens. GENERALS, the FINANCE MINISTER, BAYAR at the back. The east on the map isn't amber anymore — it's unit symbols, his own and not his own.
+
+**GENERAL TURAN**  
+Eskin's brought the eastern garrison over. Two battalions. He's not keeping oil anymore, he's keeping a border. This morning there's a checkpoint on the Astan road flying a flag that isn't ours.  
+
+**NADIR**  
+Casualties?  
+
+**TURAN**  
+At the checkpoint? Not yet. That's the window. It shuts the second some idiot on either side gets nervous. Could be tonight.  
+
+**NADIR**  
+What does a move cost. Honestly.  
+
+**TURAN**  
+Honestly — we take the refinery in a night, light, if we go now and go hard enough nobody has time to be brave. Wait a week, it's a battle, and battles in your own country you don't win, you survive. Either way some number of your citizens don't come home.  
+
+Silence. Nadir at the map. Everyone watching the new man do the thing the new man has to do.
+
+**NADIR**  
+Give me the night.  
+
+**TURAN**  
+The window —  
+
+**NADIR**  
+Give me the night, General.  
+
+Turan looks at Bayar. Bayar gives nothing. Turan nods once — already drafting, you can see it, the report that says the President was warned.
+
+*CUT TO:*
+
+### INT. NADIR'S OFFICE - NIGHT
+
+The order is one page, on the desk. NADIR reads it again like there's a word in it he hasn't found. YUSUF, the only one he let in.
+
+**YUSUF**  
+Don't.  
+
+**NADIR**  
+You heard Turan. A week from now it's a battle. Tonight it's a police action and Eskin keeps his life.  
+
+**YUSUF**  
+"Police action." You hear yourself. That's his word. That's the exact —  
+
+**NADIR**  
+It's a better outcome by every number that exists. Fewer dead. The country holds. The reforms survive because there's a country left to reform. You want to publish a budget for a place coming apart?  
+
+**YUSUF**  
+I want you to lose it the right way before you keep it the wrong way. Once. Lose one. So you know you still can.  
+
+Nadir picks up the pen. Doesn't sign.
+
+**NADIR**  
+This isn't his kind of order. His kind, the refinery has a fire and we call it an accident. This says exactly what it is. Troops, a date, a man's name, my signature. No lie in it.  
+
+**YUSUF**  
+*(quietly)*  
+The honesty isn't the part I'm scared of.  
+
+A long beat. Nadir signs it. The pen moves, it's done, and the room is exactly as quiet as it was.
+
+He sets the pen down. Looks at his own hand like it belongs to a man he's just met.
+
+**YUSUF (CONT'D)**  
+Just this once.  
+
+**NADIR**  
+Just this once.  
+
+Yusuf goes. Nadir alone with the signed page. He reaches for the desk lamp — and stops, his hand on the switch, finally feeling the gesture, where it comes from, whose hand it is.
+
+He leaves the light on. Small mutiny. Too late to matter.
+
+*CUT TO:*
+
+### INT. SITUATION ROOM - DAWN
+
+Grey light. Screens with night-vision footage gone still. NADIR up all night, tie off. TURAN reads from a tablet, flat.
+
+**TURAN**  
+Refinery secured oh-four-hundred. Garrison stood down when they saw the numbers. Eskin's in his office. Alive. Very cooperative. The flag's down.  
+
+**NADIR**  
+Ours?  
+
+**TURAN**  
+Two. A driver, and a kid who went the wrong way at the checkpoint.  
+
+**NADIR**  
+Theirs.  
+
+**TURAN**  
+Eleven.  
+
+Nadir takes it. Doesn't write it down. Doesn't need to.
+
+**TURAN (CONT'D)**  
+By the standard of these things, that's a miracle, Mr. President. Your father's last one was a number you'd round.  
+
+**NADIR**  
+Don't.  
+
+**TURAN**  
+*(not stopping)*  
+It worked. That's the only review history writes. It worked, the east pays its taxes, and in a month nobody says the word "checkpoint." You did the right thing. I'd have done it three days sooner and lost the same two boys. So. Welcome.  
+
+He sets the tablet down and leaves Nadir with the still screens. On one of them, frozen, a body the size of a thumbnail at the edge of the frame.
+
+Nadir doesn't turn it off. He makes himself look at it.
+
+*CUT TO:*
+
+### INT. HAMID'S BARBERSHOP - DAY
+
+Two chairs, a cracked mirror, a radio bracketed to the wall reading the news in the over-calm voice of the state. HAMID, sixty, cuts a REGULAR's hair with the unhurried authority of a man who's cut through three governments. Two OLD MEN wait — not for haircuts, just to be where the talk is.
+
+**RADIO (V.O.)**  
+...the eastern province secured, order restored. The President thanks the brave...  
+
+**HAMID**  
+*(to the radio, mild)*  
+Eleven dead and they thank the brave. As if the eleven were cowards.  
+
+**OLD MAN ONE**  
+Eleven's nothing. Under the old man it was eleven before breakfast and we slept fine. My niece can drive to Karagh again. That's worth eleven.  
+
+**HAMID**  
+*(snipping)*  
+There it is. Two weeks ago you wanted the windows open. Now you want the man who closes them.  
+
+**OLD MAN ONE**  
+I want my niece to get to Karagh. I don't care who lets her.  
+
+Hamid catches the REGULAR's eye in the cracked mirror. The regular says nothing — younger, careful, the kind who's noticed the shop's gotten quieter about names.
+
+**HAMID**  
+*(lighter, the out ready)*  
+Don't mind me. A barber complains, it keeps his hand steady. Reformer, strongman — I cut them both the same. Little off the top.  
+*(razor to the strop)*  
+You only ever tell which way a country's leaning by who people stop saying out loud. Three months ago nobody said the old man's name.  
+*(he shaves a neat line, doesn't finish the thought)*  
+Now it's the new one we've gone quiet about.  
+
+The radio moves to the weather. The old men listen to the weather. It's safer.
+
+*CUT TO:*
+
+### INT. KARAGH - ESKIN'S OFFICE - DAY
+
+The ugly-rich office from before, the warmth bombed out of it. Soldiers in the hall now, Astan's, not Eskin's. GOVERNOR ESKIN behind his desk, smaller, a bandage at his hairline, the big laugh nowhere. Across from him, not Nadir — a deputy would be beneath the point. TURAN, sent to take the surrender in person, which is its own message.
+
+**ESKIN**  
+*(pouring tea, hands not quite steady)*  
+He didn't come himself. Last time he came himself. I took that for weakness. Tell him I've revised my estimate.  
+
+**TURAN**  
+He doesn't come anymore. To anyone. You taught him that. You, and the square, and a few others.  
+
+Eskin pushes a folder across — remittances, restored, with interest. Turan doesn't touch it.
+
+**ESKIN**  
+It's all there. More than all. I added the back months, and a number for goodwill. You'll find it generous.  
+
+**TURAN**  
+I'm not here for the money. The money was never the thing, Governor. A man checking whether Astan still had teeth — you said that yourself, I'm told.  
+*(beat)*  
+You have your answer. He's leaving you the office. The chair, the tea, the title. You'll govern the east in his name for twenty years and every remittance will be early. The lesson isn't the troops in your hall. The lesson is he let you live — because a dead governor is a martyr, and a frightened one is an institution.  
+
+Eskin takes that in. The big man, learning his new size.
+
+**ESKIN**  
+And if I'd guessed right? If he'd been the soft one after all?  
+
+**TURAN**  
+Then you'd be a country by now, and he'd be in a culvert, and we wouldn't be having tea.  
+*(stands)*  
+You bet on the wrong man, Governor. The trouble is, so did he. The difference is he covered his bet. You didn't.  
+
+Turan leaves the folder on the desk, untouched, and walks out through the soldiers who used to be Eskin's. Eskin sits alone with his restored fortune and his bandaged head, the richest frightened man in the east.
+
+*CUT TO:*
+
+### EXT. A NORTHERN TOWN - SEVDA'S STREET - DAY
+
+A row of small houses, washing on the lines, a street that has never once seen a motorcade — and now sees a single black car, no flags, pull up and sit. NADIR gets out himself, alone but for a driver who stays with the car. One folded page in his hand.
+
+He finds the door. Knocks. SEVDA opens it, sees who it is, and goes very still — not starstruck. Braced.
+
+**NADIR**  
+I said I'd bring it myself.  
+
+He holds out the page. She doesn't take it yet.
+
+**SEVDA**  
+Is it a hard date.  
+
+**NADIR**  
+It's a hard date. Nineteen days after the car. He was alive nineteen days. I thought about not telling you the nineteen days — and then I thought you'd kept thirty years of not knowing, and you'd earned the nineteen days more than I'd earned deciding for you.  
+
+She takes the page. Looks at it. One line. A date, a name spelled right. Thirty years, one line.
+
+**SEVDA**  
+*(barely)*  
+Tomas Aliyev. They spelled it right.  
+
+**NADIR**  
+I checked it twice.  
+
+She doesn't cry in front of him — she'll do that alone, the way she's done everything. She folds the page once, against her chest.
+
+**SEVDA**  
+You drove here.  
+
+**NADIR**  
+I drove here.  
+
+**SEVDA**  
+The next one won't. You know that. Whatever you are right now, on my step, with the date in your own hand — there's a version of you coming that sends an office. I hope you get to stay the one who drives. I don't think you will. I've watched men get the country before.  
+
+It isn't cruel. It's the truest blessing anyone hands him in the film, from a woman with no reason left to flatter.
+
+**NADIR**  
+*(quietly)*  
+Neither do I.  
+
+He goes back to the car. Sevda stands in her doorway with thirty years folded against her chest, watches the single black car drive away, and does not wave.
+
+*CUT TO:*
+
+### INT. RESIDENCE - DAY
+
+Morning. LENA at the window with coffee, dressed, like she's going somewhere or thinking about it. NADIR comes in still in last night's clothes. She doesn't turn around.
+
+**LENA**  
+It's on the news. They're calling it "decisive." There's a man on the BBC saying you've found your spine. He means it as a compliment.  
+
+**NADIR**  
+Lena.  
+
+**LENA**  
+Thirteen people, Nate.  
+
+**NADIR**  
+Eleven of them were —  
+
+**LENA**  
+Don't. Don't do the number with me. Don't tell me whose eleven they were. I married a man who couldn't watch a nature program when the lion got the gazelle. He left the room.  
+
+**NADIR**  
+That man — the one who leaves the room when the lion gets the gazelle — he loses this whole country by the weekend, and then everyone in that market dies anyway, only slower, and worse, and for nothing. I'm not defending it. I don't think I'm defending it. I'm telling you the arithmetic, and I hate that I've got arithmetic now where a person used to be.  
+
+**LENA**  
+*(turning)*  
+Maybe the country isn't worth what it costs to keep. Did anyone — in any room, with any general — once put that on the table? That you could just not?  
+
+He doesn't answer. The room never held that option, and they both know it.
+
+**LENA (CONT'D)**  
+You said just this once.  
+
+**NADIR**  
+It was just this once.  
+
+**LENA**  
+You said that the night you took the country, too. Same words. I'm learning to hear the sound of it before you've finished saying it.  
+
+She takes her coffee to another room. Not out the door — not yet — just another room. He hears it close, soft, the way doors close in this house now.
+
+*CUT TO:*
+
+### INT. MIRA'S FLAT - KITCHEN - NIGHT
+
+Small, warm, a radio on low. KERIM at the table, sleeves rolled, methodically buttering bread — too much of it, a man who spent eight years hungry and can't quite stop. MIRA cooks, steals a piece off his plate, swats his hand.
+
+**MIRA**  
+You'll make yourself sick. Nobody's taking the bread.  
+
+**KERIM**  
+*(eating)*  
+That's exactly what a person says right before they take the bread.  
+
+She laughs, sits, pulls his plate between them to share. For a moment it's two people and a radio, which in this country is a kind of miracle nobody's supposed to mention.
+
+**KERIM (CONT'D)**  
+There's a thing Thursday. At the square. Standing, talking. Nobody throws anything.  
+
+Mira stops chewing.
+
+**MIRA**  
+Kerim.  
+
+**KERIM**  
+I went today. Stood in the back. Left when it got big. I know what I'm doing. I'm careful.  
+
+**MIRA**  
+You buttered seven pieces of bread because a guard once decided whether you ate. That's not careful. That's a man who forgot what careful costs.  
+
+**KERIM**  
+*(quiet)*  
+And you patched up a checkpoint boy last month and never asked whose side he shot for. We both go toward it. It's the same thing in us. Mother had it.  
+
+That lands. The radio plays. She doesn't argue, because it's true.
+
+**MIRA**  
+The back. The edge. You leave when it gets big.  
+
+**KERIM**  
+I leave when it gets big.  
+
+He says it the way you say a thing to end a conversation, not the way you say a thing you'll do. She knows the difference. She butters a piece of bread and sets it on his plate — the only argument she has left — and they eat.
+
+*CUT TO:*
+
+### INT. THE OFFICE - ARCHIVE - DAY
+
+A records sub-basement, all cement and buzzing strip-light, with the kind of shelving on rails that you crank apart to open an aisle. YUSUF is alone here except for a bored ARCHIVIST at a desk; he cranks an aisle open and runs a finger down boxes labelled in a dead man's hand.
+
+**YUSUF**  
+These are sealed. "DM, personal." Forty years of them.  
+
+**ARCHIVIST**  
+The President's personal series. Was the President's. Nobody opens those.  
+
+**YUSUF**  
+There's a new President. He gave me a letter.  
+*(holds it up)*  
+Says I open whatever I want. Including the part where you stop telling me what nobody opens.  
+
+The archivist shrugs the shrug of a man who has survived four regimes by shrugging. Yusuf pulls a box, blows the dust. Inside: not files. Notebooks — cheap ones, the kind a student buys. A photograph slides out: a young man, maybe twenty-five, on a crate in a crowd, mouth open mid-word, fist up.
+
+Yusuf almost doesn't recognize him. Then does.
+
+**YUSUF (CONT'D)**  
+*(to himself)*  
+Huh.  
+
+He sits down on the cement with the box — a man who's found something he wasn't looking for and isn't sure he wants.
+
+*CUT TO:*
+
+### INT. ARCHIVE - NIGHT
+
+Hours on. Strip light off, a desk lamp. YUSUF surrounded by open notebooks, reading by hand. He's been crying a little and doesn't know it.
+
+He reads low, to nobody:
+
+**YUSUF**  
+"A country is not a man's to keep. It is a debt he carries for the people who built it and the ones not yet born. The first act of the new state must be to put the secret police under a court..."  
+
+He stops. Turns the notebook to check the date. 1989. Reads on, flipping faster.
+
+**YUSUF (CONT'D)**  
+"...we will open every prison and review every name. We will publish the budget. The men who held power the old way will say the people aren't ready. The people are always ready. It is the powerful who are not..."  
+
+He sits back. Stares at the wall like it owes him money.
+
+It's their charter. Almost word for word — the thing he and Nadir wrote on a napkin in a room with a broken radiator. Written by the Lion. Before the Lion was the Lion.
+
+**YUSUF (CONT'D)**  
+*(to the dead man)*  
+What happened to you.  
+
+He gathers the notebooks. He knows where they have to go, and he dreads it, and he goes.
+
+*CUT TO:*
+
+### INT. NADIR'S OFFICE - NIGHT
+
+NADIR at his desk, late, the country's paper. YUSUF comes in without knocking, sets a stack of cheap notebooks down, a photograph on top.
+
+**YUSUF**  
+The one with the corner folded. Page four.  
+
+**NADIR**  
+Yusuf, it's —  
+
+**YUSUF**  
+Read it. Please.  
+
+Something in his face. Nadir reads. We watch it land — slowly, then all at once.
+
+**NADIR**  
+This is ours. This is — where did you —  
+
+**YUSUF**  
+His personal boxes. He wrote it in 1989. He's twenty-six in the photo. That's him on the crate.  
+
+Nadir looks at the photograph. The fist. The open mouth. The face that is his own, almost, and his father's, exactly.
+
+**NADIR**  
+*(barely)*  
+He was you.  
+
+**YUSUF**  
+He was both of us. That's the part I can't put down. He stood in a square and said the powerful always claim the people aren't ready. And then he —  
+
+**NADIR**  
+Stop.  
+
+**YUSUF**  
+And then he became the thing he —  
+
+**NADIR**  
+Stop, Yusuf.  
+
+Silence. Nadir closes the notebook. Keeps a hand flat on the cover, like it might get up.
+
+**YUSUF**  
+*(gently, which is worse)*  
+I'm not showing you a ghost story. I'm showing you a map. Somebody walked this exact road ahead of us and we know where it comes out. We're standing on it. The east — you're already —  
+
+**NADIR**  
+I said stop.  
+
+He says it in a voice neither of them has heard from him. Flat. Final. His father's voice, out of his mouth, in defense of not being his father.
+
+They both hear it.
+
+Yusuf takes his hands off the desk. Steps back. For the first time a little afraid — not of the regime. Of his friend.
+
+*CUT TO:*
+
+### EXT. A SQUARE - ASTAN - DAY (1989)
+
+Grainy, like memory or old tape. A poorer Astan. A crowd, a real one — nobody told to be here. On a crate, a YOUNG MAN, twenty-six, thin, fist up: the photograph come to life. ASLAN. Before.
+
+**YOUNG ASLAN**  
+They will tell you the people are not ready! They have always told you that! It is not the people who aren't ready —  
+
+**CROWD**  
+— it's the powerful!  
+
+They say it with him. They learned it from him. His face is lit, open — a man who believes what he's saying with all of it. More than Yusuf. More than Nadir ever has.
+
+A hand on his shoulder from below the crate — an older man, urgent, pointing: soldiers at the edge of the square, deciding. Young Aslan looks at the soldiers. Looks at his crowd. Makes a choice we don't see the end of —
+
+*SMASH CUT TO:*
+
+### INT. NADIR'S OFFICE - NIGHT
+
+— Nadir, alone now, holding the photograph, the present rushing back. The same square. The same words. The same soldiers, somewhere, always, at the edge of it.
+
+He sets the photo face down.
+
+*CUT TO:*
+
+### INT. THE OFFICE - BAYAR'S OFFICE - NIGHT
+
+Late. BAYAR at the desk. A knock — not a subordinate's knock — and GENERAL TURAN lets himself in, uninvited, the privilege of an equal. He sets a bottle on the desk. His own, not Bayar's.
+
+**TURAN**  
+Yours is terrible. You keep it for show. Drink mine.  
+
+Bayar almost smiles. Gets two glasses. They pour. Two old men who've spent forty years not quite trusting each other and outlived everyone who'd remember why.
+
+**TURAN (CONT'D)**  
+The boy went to a courthouse last week. In a coat. To watch a judge.  
+
+**BAYAR**  
+I know. I had two men in the room.  
+
+**TURAN**  
+So did I.  
+*(drinks)*  
+We're guarding a President who sneaks out to admire the law. His father would have had the judge transferred and the building repainted.  
+
+**BAYAR**  
+His father, at that age, wrote the law she was using.  
+
+That stops Turan, glass halfway up. Bayar says it flatly, a fact off a file.
+
+**TURAN**  
+You knew him then. Before.  
+
+**BAYAR**  
+I drove him. '88, '89. A lieutenant with a notebook and a mouth, going square to square. I carried the notebook. I thought he'd get us both shot.  
+*(a beat — the only soft thing he'll say all film)*  
+He had a laugh. People forget he had a laugh. I watched it go. You'd think all at once. It was a chair at a time.  
+
+Silence. Turan turns his glass.
+
+**TURAN**  
+And you've waited forty years to watch it happen again.  
+
+**BAYAR**  
+I've done my job for forty years. The watching is just what the job feels like from inside.  
+*(refills Turan's glass, not his own)*  
+You want him iron by Tuesday so the country stops bleeding. So do I. The difference is I've seen the price up close and I'd still pour the drink. That's why they gave me the keys and not you, Vali. You flinch. It's your one flaw. It's why your men love you.  
+
+Turan takes the insult like a compliment, because from Bayar it is one. They drink, two instruments of one dead man, in no hurry, the city quiet outside.
+
+*CUT TO:*
+
+### INT. CABINET ROOM - DAY
+
+The table again, the temperature different. Reports. GENERAL TURAN, the INTERIOR MINISTER, BAYAR. NADIR at the head — and the chair fits a little better now, which nobody says.
+
+**INTERIOR MINISTER**  
+Three things since Monday. The port's struck, no oil moving, which the east finds hilarious. A police colonel in the south says he answers to "the constitution," whatever he thinks that is. And the square isn't a square anymore, it's a city, and last night they burned a magistrate's car with the magistrate's name on it.  
+
+**TURAN**  
+You opened the windows, Mr. President. This is the weather that was outside.  
+
+**NADIR**  
+The weather was outside because the house was a prison. People don't burn cars in a country that listens to them.  
+
+**TURAN**  
+People burn cars in a country that lets them. Listening is what you do after.  
+
+BAYAR, who hasn't spoken, lays a single folder on the table and slides it an inch toward Nadir. Doesn't open it. Doesn't say what's in it.
+
+**BAYAR**  
+When the President has a moment.  
+
+Nadir looks at the folder. Doesn't reach for it.
+
+**NADIR**  
+I'm not declaring an emergency. We hold. We talk to the port. We find the colonel something to be loyal to.  
+
+**TURAN**  
+And the city in the square?  
+
+Nadir doesn't answer that one. The folder sits there. Everyone's aware of the folder.
+
+*CUT TO:*
+
+### INT. PRESIDENTIAL PALACE - A SMALL ROOM - NIGHT
+
+Not the banquet hall. A working room, two chairs, no witnesses — which is the message. ANATOLY, comfortable, a man who brought a good offer and knows it. NADIR across from him, tired, the week's disorder on him.
+
+**ANATOLY**  
+I'll be quick, because we're friends and friends don't perform for each other. Your spring is loud. Markets, a square, a governor who forgot who he works for. It happens to every new house. The roof leaks where you didn't know there was a seam.  
+
+**NADIR**  
+Is there an offer in this, Anatoly, or just weather.  
+
+**ANATOLY**  
+*(spreading his hands)*  
+Help. Only help. We have men who are very good at quiet. They could be at your refinery, your ports, your square — in a week. Wearing your flag, if you like. No one need ever know they answer to anyone but you.  
+
+**NADIR**  
+And what does quiet cost.  
+
+**ANATOLY**  
+Friendship has no invoice. It has understandings. The pipeline routes north, not west. The base at Karagh reopens, for "exercises." And when my president telephones, the President of Karash is — let us say — reliably available.  
+
+Nadir looks at him a long moment. He understands exactly the size of the door being held open, and the country on the other side of it.
+
+**NADIR**  
+My father kept you north of the river thirty years with a handshake and no base.  
+
+**ANATOLY**  
+Your father was a wall. One does not garrison a wall; one simply does not test it.  
+*(leans in, almost kind)*  
+You are not yet a wall. You are a young man with a leak and a phone full of generals doing arithmetic. I am offering you the time to become the wall. That is all. The alternative is you become it the hard way, alone, owing it to no one — which is a luxury, and luxuries are expensive, and the bill comes in your citizens.  
+
+**NADIR**  
+Tell your president I'm honored. And that the river's where it's always been.  
+
+Anatoly stands, unoffended, a man who planted a seed and knows the soil.
+
+**ANATOLY**  
+Of course. We'll speak again in the spring. These things always want a second conversation.  
+
+He goes. Nadir sits a while with the no he just said — and its cost, which is that now he'll have to make the quiet himself.
+
+*CUT TO:*
+
+### INT. PROVINCIAL COURTHOUSE - JUDGE FERIDA'S CHAMBERS - DAY
+
+The same building as the verdict, a different temperature. Boxes on the desk — she's packing. JUDGE FERIDA moves books into a crate with the same dry economy she ran her court.
+
+A NERVOUS CLERK in the doorway holds a paper he doesn't want to hold.
+
+**CLERK**  
+The review panel vacated the press ruling. Procedural grounds. And they've — they've moved you. The land registry. In the south.  
+
+**FERIDA**  
+It's not a demotion. It's a desert with a desk. I know the address.  
+
+**CLERK**  
+The official you ruled against signed the transfer. Himself.  
+
+**FERIDA**  
+*(almost amused)*  
+Of course he did. He waited his whole career for a procedure to hide behind, same as I waited mine for a law to stand on. We're the same animal. He just read the weather better.  
+
+She tapes a box. Through the window, in the yard, two men in good suits carry the thin PRINTER's press back out — with a warrant this time. A clipboard. A signature. All in order.
+
+**CLERK**  
+They came back for the press. They had the paper for it.  
+
+**FERIDA**  
+That's the part nobody warns you about. The first time they take it, it's lawless, and everyone's ashamed. The second time it's legal, and nobody is. Legal is how they get you to stop being ashamed.  
+
+She lifts the crate. One look back at the bench she sat at, for one season, as a real judge.
+
+**FERIDA (CONT'D)**  
+Tell the printer I'm sorry. Tell him to take up a quieter trade.  
+*(beat)*  
+Don't tell him that. He shouldn't. That's the whole trouble — he shouldn't.  
+
+She goes. In the yard the press rolls away, lawful, unhurried.
+
+*CUT TO:*
+
+### EXT. ASTAN - A MARKET STREET - NIGHT
+
+The aftermath of a bombing. What was a bus stop an hour ago is broken glass and a single shoe and the particular silence that settles after a loud noise. Emergency lights wash over everyone in red and blue. NADIR is here — he insisted, against everyone — a coat thrown over the clothes he sleeps in, standing in the glass.
+
+A PARAMEDIC moves past with a stretcher. Nadir steps out of the way, into more glass.
+
+**TURAN (O.S.)**  
+Mr. President, you shouldn't —  
+
+**NADIR**  
+How many.  
+
+**TURAN**  
+Nine confirmed. More coming. Market was full, end of the day.  
+
+**NADIR**  
+Who.  
+
+**TURAN**  
+Nobody's claimed it. By morning everybody will have. And every one of them says the same first sentence: this didn't happen when the Lion was alive.  
+
+Nadir crouches by something on the ground. A child's backpack, the cartoon kind. He doesn't pick it up. Just looks at it.
+
+A small CROWD has gathered at the tape, watching the President stand in the glass. Someone says his name. Not warmly. Then someone says his father's name, warmly, like a thing they miss.
+
+Nadir hears it. Stands. Doesn't turn to face them.
+
+**NADIR**  
+*(low, to Turan — the worst thing he's said yet)*  
+What's in Bayar's folder.  
+
+*CUT TO:*
+
+### INT. THE OFFICE - BAYAR'S OFFICE - DAY
+
+The folder is open now, on the desk between them. NADIR has read it. BAYAR waits, hands folded.
+
+**NADIR**  
+This is nothing. A man who reformed a budget office.  
+
+**BAYAR**  
+Before we discuss the folder — you should know what the trace actually says. The market device was military. Garrison stock, garrison wiring. Three of the men who built it draw pensions you signed in the spring, in a warrant you drafted yourself, the most correct document this country has ever produced.  
+*(he lets that arrive all the way)*  
+The believers, Mr. President. The debt. I told you the interest would come due; I didn't know it would choose a market. So. We can tell the country the truth — that the bomb was the mercy of its President, with interest — or the country can be told a story it will believe. Which brings us to the folder.  
+
+**NADIR**  
+*(grey)*  
+A man who reformed a budget office.  
+
+**BAYAR**  
+A foreign-educated minister. Western money in his program — real money, NGOs, we have the wires. He opened the prisons with you, and the men you both let out are men the country is ready to blame. None of it is true. But it's the shape the country already believes, and you only ever have to push a thing the way it's leaning.  
+
+**NADIR**  
+You want me to hang Yusuf for a bomb you can't trace.  
+
+**BAYAR**  
+I want the disorder to have a name, Mr. President, before it takes yours. A frightened country will accept any explanation except the one where no one is in charge. Give them a small man and keep the spring. Give them the truth — that opening the doors let the weather in — and you give them you.  
+
+**NADIR**  
+He's my friend.  
+
+**BAYAR**  
+Yes.  
+*(and here, for once, something almost like sympathy)*  
+Your father had friends too. There's a list. It's in the archive, if you'd like to read who he was before he learned. That's the price of the chair. It isn't the murders. It's that they have to be the people you love — those are the only ones large enough to mean it.  
+
+Nadir looks at the folder a long time.
+
+**NADIR**  
+Get out.  
+
+Bayar stands. At the door, not turning:
+
+**BAYAR**  
+The order needs a signature by Friday or it isn't an order, it's a rumor, and rumors get the wrong man killed. Friday, Mr. President.  
+
+He goes. The folder stays.
+
+*CUT TO:*
+
+### EXT. THE KARASH COURIER - OFFICE FRONT - DAY
+
+A storefront newspaper office, lights off in daytime. Taped inside the glass: an official notice, stamped. A young WATCHMAN sweeps the step of a place with nothing left to protect.
+
+LENA stands at the glass, reading the notice. She came here for a reason and the reason is gone.
+
+**LENA**  
+*(to the watchman)*  
+It says "temporary suspension pending review." Review of what.  
+
+**WATCHMAN**  
+*(careful, not meeting her eyes — he knows the face)*  
+Of the paperwork, ma'am. Their fire exits. Turned out the fire exits weren't to code.  
+
+**LENA**  
+The fire exits.  
+
+**WATCHMAN**  
+Forty years, those fire exits. Suddenly not to code.  
+
+**LENA**  
+And Orhan. The editor.  
+
+**WATCHMAN**  
+Gone to family. In the east, they're saying. He left fast. Didn't take his coat — it's still on the hook.  
+*(the smallest rebellion)*  
+I keep the heat on for it. The coat. Stupid.  
+
+Lena looks past him through the glass: a dark newsroom, chairs pushed back, and on a hook by the wall, one coat, waiting for a man who's "gone to family."
+
+She thinks of a morning months ago — a page-six insult, no car pulling up to the house, and how that had made her happy.
+
+**LENA**  
+It's not stupid.  
+
+She gives the dark glass one more look and walks. Behind her the watchman keeps sweeping a clean step, the heat on for a coat.
+
+*CUT TO:*
+
+### INT. NADIR'S OFFICE - NIGHT
+
+Whiskey, the good kind, two glasses, both used. YUSUF sprawled in a chair, tie loose, mid-story, happy. NADIR across from him, listening like a man memorizing.
+
+**YUSUF**  
+— so the radiator finally goes, February, that flat, and you, genius, you put the budget printouts over the pipe to dry and they catch, and we're standing on the bed beating the deficit out with a pillow. The deficit. On fire.  
+
+**NADIR**  
+*(somewhere else)*  
+I remember the smell.  
+
+**YUSUF**  
+Burning austerity. Should've been a sign.  
+
+He laughs, refills both glasses, doesn't notice Nadir isn't drinking.
+
+**YUSUF (CONT'D)**  
+You know what I keep thinking? We're going to be old men. Old men in a country where nobody's afraid, and some kid asks us how we did it, and you take all the credit and I let you.  
+
+**NADIR**  
+You'll write the preamble.  
+
+**YUSUF**  
+I'll write the preamble.  
+
+A beat. Nadir looks at his friend — the warmth coming off him, the whole unlived life of it.
+
+**NADIR**  
+Yusuf. If I ever — if something happened, and it looked like I —  
+
+**YUSUF**  
+*(waving it off)*  
+Nothing's going to happen. Drink your drink. You've gone strange tonight. Drink.  
+
+Nadir picks up the glass. Drinks. It's easier than finishing the sentence. He lets the hour have itself, because he's the only one in the room who knows it's the last one.
+
+*CUT TO:*
+
+### INT. MIRA'S FLAT - KITCHEN - NIGHT
+
+The kitchen from the bread night, the warmth gone out of it. KERIM at the window, not eating, watching the street. MIRA comes in fast, coat still on, rattled.
+
+**MIRA**  
+They took Davud. Last night. Same two men, same car as — they're using the same cars, Kerim. They didn't even get new cars.  
+
+**KERIM**  
+*(flat, at the glass)*  
+I know. Reshad too. And the Polat boy. Everyone who walked out that gate in March is walking back in. Quietly. No cameras this time.  
+
+**MIRA**  
+Then you stop. You stay in. You were behind the news desk in the daylight, your face was in it, you're exactly —  
+
+**KERIM**  
+I'm exactly the shape they want. I know.  
+
+He turns from the window. Something's decided in him, and it scares her more than the fear did.
+
+**KERIM (CONT'D)**  
+That's why I'm not staying in. They let us out for a photograph and they're taking us back for a different photograph. If I sit in this kitchen and wait my turn, I die the way I almost died the first time — quiet, indoors, no one counting. At least the square counts. The square, they have to do in front of everyone.  
+
+**MIRA**  
+The square is where they'll do it in front of everyone. That's not safety. That's an audience.  
+
+**KERIM**  
+*(gently, the worst gentleness)*  
+I spent eight years being no one's audience. I'd like a few people to see.  
+
+She has no answer for that. He picks up his coat — and out of the old habit butters a piece of bread, eats it standing, fuel, a man getting ready to be somewhere there won't be any.
+
+**MIRA**  
+Then I'm coming.  
+
+**KERIM**  
+Mira —  
+
+**MIRA**  
+You don't get to make a speech about being seen and then ask me not to see you. I'm coming.  
+
+He doesn't argue. He hands her the second piece. They eat, coats on, the radio off this time.
+
+*CUT TO:*
+
+### INT. RESIDENCE - NIGHT
+
+Late. LENA in bed, light on, a book she's not reading. NADIR sits on the edge, his back to her, still dressed.
+
+**LENA**  
+You haven't slept in your own bed in eight days. I counted.  
+
+He doesn't answer. She sits up.
+
+**LENA (CONT'D)**  
+What.  
+
+**NADIR**  
+They want a name. For the bombing, for the disorder, all of it. It has to be somebody big enough that the country exhales.  
+
+**LENA**  
+Who's big enough.  
+
+He doesn't say it. He doesn't have to. She watches it arrive on his face and goes very still.
+
+**LENA (CONT'D)**  
+No.  
+
+**NADIR**  
+Lena —  
+
+**LENA**  
+No. Say a sentence where you tell me you said no. Start with that and we'll figure out the rest.  
+
+He can't start with that. That's the whole thing — he can't start with that.
+
+**LENA (CONT'D)**  
+*(the bottom dropping out)*  
+Oh. You're actually sitting on the bed deciding. You came in here to decide it next to me. Like I make it more okay.  
+
+**NADIR**  
+I came in here because you're the only person who'd tell me not to.  
+
+**LENA**  
+And if I tell you not to?  
+
+He looks at her. There it is — the answer, in him not answering. She gets out of bed. Doesn't slam anything. Takes a blanket and goes to the couch in the next room, where she's been sleeping, she realizes, for weeks.
+
+*CUT TO:*
+
+### INT. NADIR'S OFFICE - DAY
+
+Friday. The order on the desk, signed already — we don't see him sign it, which is worse. NADIR at the window, back to the room. BAYAR by the door. Below, the courtyard.
+
+YUSUF crosses it toward a car, a folder under his arm, on his way to a meeting that isn't a meeting. Two plainclothes men fall into step beside him — the way Bayar's men have all film — except this time they don't stop walking with him.
+
+Yusuf slows. Says something to them. A joke, you can tell by his shoulders. They don't laugh. One opens the car door.
+
+Yusuf looks up. At the window. At Nadir, a shape behind the glass.
+
+For a second neither moves.
+
+Nadir doesn't open the window. Doesn't lift a hand. The most violent thing in the film is a man standing still behind glass.
+
+**BAYAR**  
+*(very quiet)*  
+You can watch or not watch, Mr. President. Watching is the more honest of the two. Your father never watched.  
+
+Nadir keeps watching. Below, they put Yusuf in the car. The door shuts. The car goes.
+
+When it's gone, Nadir turns from the window, sits back at the desk, and pulls the next folder toward him, because there's always a next folder.
+
+His hand, reaching for it, is steady. That's the thing he notices. That his hand is steady.
+
+*CUT TO:*
+
+### INT. THE OFFICE - CELL - NIGHT
+
+A clean cell — its own message; they're not hiding him, they're keeping him. YUSUF on the cot, a bruise starting at the cheekbone, his good shirt wrong now. The door opens. NADIR comes in alone. Stands.
+
+For a while, nothing. Then Yusuf, hoarse:
+
+**YUSUF**  
+They keep asking about money I never touched. NGOs, wires. Half forged, and the forged half's better than the real half.  
+
+**NADIR**  
+I know.  
+
+**YUSUF**  
+So tell them. You're the President. Say a sentence and I go home.  
+
+**NADIR**  
+I can't.  
+
+Yusuf turns it over. You can watch him not want to understand it.
+
+**YUSUF**  
+Okay. Then one thing, and you can go. Tell me you didn't know. Tell me they did this over your head, you found out this morning, you came straight here. I'll believe it. I've believed you my whole life, I'm extremely good at it. Say it.  
+
+Nadir says nothing.
+
+**YUSUF (CONT'D)**  
+Say it, Nadir. Say you didn't know.  
+
+Nadir holds his eyes. Doesn't lie to him. It's the last gift he has and it's a terrible one — the truth, handed over as silence.
+
+Yusuf understands. Something goes out of his face. He looks at his own hands.
+
+**YUSUF (CONT'D)**  
+*(barely)*  
+You walked this road ahead of me too, then. You just got further.  
+
+Nadir leaves. The door closes. The good kind, soft, final.
+
+*CUT TO:*
+
+### INT. MINISTRY OF REFORM - DAY
+
+The bare office from before, run backward. Whiteboards wiped. MEN in grey — Office, Interior, the difference stopped mattering — carry boxes out. The young people who had somewhere else to be stand along the walls holding their own boxes, learning in real time that they don't, anymore.
+
+DEMIR — the schools one, twenty-six — hasn't moved. He holds one folder flat against his chest like it's warm.
+
+A TIRED DEPUTY, fifties, a survivor, supervises the emptying without cruelty. He stops at Demir.
+
+**DEPUTY**  
+Leave the folder or take it. Nobody's reading it either way.  
+
+**DEMIR**  
+It's the rural schools. Minister Karim flagged it. He said bring it Friday.  
+
+**DEPUTY**  
+*(not unkind)*  
+There's no Friday. There's no minister. Go home, son. You're young, you studied somewhere good, and it isn't in your file yet that you were here. Keep it that way.  
+
+**DEMIR**  
+What did he do.  
+
+The deputy looks at him — the question of a man who still thinks the answer is a thing a person did.
+
+**DEPUTY**  
+Does it matter? He's the name now. A scared country doesn't want a reason, it wants a face, and his was the brightest one in the room.  
+*(beat)*  
+Yours is bright too. That's not a compliment. Dim it.  
+
+He moves on. Through the door, the last whiteboard goes by on a hand truck, a ghost of erased handwriting still on it — a budget, a schedule, a country, half rubbed out.
+
+Demir doesn't go home. He finds a pen and fixes the number he came in to fix, alone, in a room that isn't a ministry anymore.
+
+*CUT TO:*
+
+### INT. NADIR'S OFFICE - NIGHT
+
+Dark but for a screen. NADIR alone — not at the desk, in a chair pulled close to the television, the posture of a man making himself watch something. On screen: a studio, AYGÜN at her desk, serene.
+
+**AYGÜN (ON SCREEN)**  
+...and in a statement recorded today, the former minister addressed the financial irregularities directly. We bring you his words in full.  
+
+The screen cuts to YUSUF. A plain room, a plain chair. The bruise is gone — they waited for the bruise to go. Clean shirt. He reads from a page, and the thing that's wrong isn't his face. It's his voice. The fastest, warmest, most quoting mouth in the film, reading words somebody else wrote, at the speed of a man crossing a minefield.
+
+**YUSUF (ON SCREEN)**  
+*(flat)*  
+I accepted foreign funds. I allowed foreign influence into the reform program. I betrayed the President's trust, and the people's. I am grateful to the organs of the state for correcting my errors before they could do more harm.  
+
+He looks up once — not at the camera. Just off it, to the left. To whoever's standing there.
+
+**YUSUF (ON SCREEN) (CONT'D)**  
+I'd like the record to show I cooperated fully.  
+
+It's the only true line in it. Two people watching know why he chose those exact words — a man telling the one friend who'll see this that he gave them nothing, until they made the giving mean nothing.
+
+The statement ends. Aygün returns, moves to the weather.
+
+Nadir sits in the screen-light. He doesn't turn it off — his whole hand knows how, and he doesn't. He watches the weather on his dead friend's channel.
+
+**NADIR**  
+*(to no one)*  
+You always did talk too fast.  
+
+He says it the way you say a thing at a graveside. Then he gets up and goes back to the desk, where the folders are, because there are always folders.
+
+*CUT TO:*
+
+### INT. RESIDENCE - NIGHT
+
+A suitcase open on the bed — the good one, the leaving one. LENA folds without urgency, the calm of a decision already made. NADIR in the doorway.
+
+**NADIR**  
+Yusuf's lawyer says —  
+
+**LENA**  
+I don't want the update. I stopped wanting the update. That's how I knew.  
+
+She keeps folding.
+
+**LENA (CONT'D)**  
+I used to ask you everything. What happened today, what did Bayar say, is the colonel loyal yet. A week ago I noticed I'd stopped, and I thought I was tired, and then I understood I'd stopped because I didn't want the answers to be true, and the only way to keep them from being true was to not know them. That's not a marriage. That's a hostage situation with nicer plates.  
+
+**NADIR**  
+Don't go tonight. Not tonight. Tonight I can't —  
+
+**LENA**  
+*(almost gently)*  
+Nadir. I married Nate. And I keep waiting for him — at dinner, in the car, in this bed. I keep the seat warm. And a different, very competent man keeps showing up wearing his face, doing terrible necessary things, and I keep being polite to him because he looks like my husband.  
+*(closes the case)*  
+I can't keep the seat warm anymore. He's not coming back to the car.  
+
+She lifts the case. Stops at him in the doorway. Touches his face once — not unkindly, the way you'd touch a photograph.
+
+**LENA (CONT'D)**  
+If you ever find him, send him home.  
+
+She goes. Nadir stands in the door of the empty room. He doesn't go after her. He's learned not to go after the things that leave.
+
+*CUT TO:*
+
+### INT. ASTAN AIRPORT - DEPARTURES - NIGHT
+
+The terminal Yusuf flew into — the floor buffer somewhere, the jet-fuel-and-sea smell, the fluorescent honesty of an airport at night. One bag now, going the other way. LENA at a gate, coat on, boarding pass already in her hand though it's an hour to board.
+
+A young GROUND AGENT recognizes her and can't find the protocol for a First Lady leaving alone at midnight.
+
+**GROUND AGENT**  
+Mrs. Demir — should I call someone? Is there —  
+
+**LENA**  
+No one's coming. Just me and the early flight. You can stamp it. I'm allowed to leave. I checked.  
+
+She had to check. That's the part of the sentence she keeps off it — that the First Lady of Karash quietly checked whether the airport would let her board.
+
+The agent stamps it. Relief on both sides of the desk.
+
+Lena takes a seat at the dark window. Across the apron a government plane sits under lights — the kind that flies governors in, and friends in, and lately people out who don't come back. She looks at it. Looks away.
+
+She thumbs her phone to a photo: a man and her in a London registry office, no crowd, no portrait, both laughing at something off-frame. She studies it the way you study a country you used to live in.
+
+She doesn't cry. She did that weeks ago, alone, when she still thought it might change. Now she just watches the glass.
+
+A luggage cart crosses the apron; its lights swing once across her reflection — a woman alone in a window, in a country that isn't hers, going home to one she's not sure is either.
+
+They call the flight. She stands, and doesn't look back at the terminal, because there's no one in it to look back at.
+
+*CUT TO:*
+
+### EXT. ASTAN - THE SQUARE - DAY
+
+Not a protest now. A sea. The square overflowed days ago — now it's the streets that feed the square, and the streets that feed those. NADIR watches from a rooftop, alone but for two Office men at a polite distance. A million people, and the sound of them comes up the building like weather.
+
+This time it's a name. His. Not chanted — howled. And threaded under it, like a hymn somebody else taught them, the other name. The Lion's. The dead man getting louder by the hour, missed now, because the dead don't disappoint you.
+
+GENERAL TURAN comes up onto the roof, winded from the stairs.
+
+**TURAN**  
+The police line at the ministry's gone. Not broken — gone. They took off their helmets and walked into the crowd. Two precincts have stopped answering. By tonight the garrison decides whether you're a President or a building they're guarding out of habit.  
+
+**NADIR**  
+What do they want.  
+
+**TURAN**  
+They wanted Yusuf back. Now they want you out. Tomorrow they'll want each other's blood, because that's what a square this size is for. It doesn't have a demand, Mr. President. It has a temperature.  
+
+Nadir looks down at all of them. Yusuf in his head: this is the thing working. They couldn't have stood here a year ago.
+
+**NADIR**  
+*(to himself)*  
+They couldn't have stood here a year ago.  
+
+**TURAN**  
+No. They couldn't. You gave them the square. Now you decide what it costs you to keep it.  
+
+The sound comes up the building. Nadir doesn't move.
+
+*CUT TO:*
+
+### EXT. ASTAN - THE SQUARE - NIGHT
+
+Down in it now. Not a sea from here — people. A thermos going hand to hand. Someone's wired a phone to a speaker. The giddy cold of a crowd that has stopped being afraid and doesn't quite believe its own nerve.
+
+MIRA, scarf up, eyes bright. KERIM beside her — older, careful, an ex-prisoner's habit of clocking the exits. A hand on her sleeve.
+
+**KERIM**  
+We've made the point. We can make it again Tuesday. From the edge.  
+
+**MIRA**  
+You always want the edge.  
+
+**KERIM**  
+I know where the middle goes. I lived in the middle eight years.  
+
+**MIRA**  
+*(softer)*  
+And then a man opened a gate. Maybe this is how it stays open. People standing in it so it can't shut.  
+
+A WOMAN presses tea on them from a flask. A teenager two feet off films everything, narrating to his phone like it's already history. It nearly is.
+
+Out of habit Kerim scans the rooftops. High on the palace, one lit window — too far to be a face, but he watches it anyway.
+
+**KERIM**  
+There's a light on up there. All night.  
+
+**MIRA**  
+Good. Let him see us. Let him see it's just people.  
+*(to the light, to no one)*  
+Tell her we said thank you. Tell her we're not leaving.  
+
+She doesn't know Lena's already at the airport. The light stays on. The crowd sings something with no command under it, and Kerim — despite eight years — lets go of her sleeve and stands in the middle of it, not watching the exits.
+
+*CUT TO:*
+
+### EXT. ASTAN - GARRISON CHECKPOINT, EDGE OF THE SQUARE - NIGHT
+
+Where the army meets the crowd. A line of soldiers, nervous, young, facing a sea of people they grew up among. Behind them, armor. GENERAL VURAL, late forties, watches the square through field glasses from the top of a personnel carrier. His AIDE waits on a radio.
+
+**AIDE**  
+Sir, two precincts of police have stood down. The crowd knows it. If the army stands down too, it's over by morning. Some of the men are talking. Asking what we do if the order comes.  
+
+**VURAL**  
+*(not lowering the glasses)*  
+What do they think we do.  
+
+**AIDE**  
+They're young. They think there's a version where nobody has to.  
+
+Vural lowers the glasses. Looks at his own men — boys, really — looking back at him for the thing a commander is for: to make the choice theirs not to make.
+
+**VURAL**  
+There's always a version where nobody has to. It's the most expensive one. Somebody else pays for it later, more.  
+
+He looks up, past the square, to the palace on its hill, where one window burns high up, all night.
+
+**VURAL (CONT'D)**  
+You see that light? As long as that light is the President, my orders come from that light. The day it isn't the President, I'll have a different problem, and so will you.  
+*(flat, the choice already made and dressed as procedure)*  
+We move when he says move. Tell the men their general gave them an order, so it's mine, not theirs. That's the one mercy in the job — they can hate me, and go home, and sleep. Pass it down.  
+
+The aide swallows, relays it. Down the line you can see it travel — the relief and the shame of men handed permission to obey. Vural raises the glasses again, a man who decided years ago and only found out tonight.
+
+*CUT TO:*
+
+### INT. WAR ROOM - NIGHT
+
+The map's all red — the capital, the square, the streets. GENERALS, BAYAR, a clock nobody looks at. The order is on the table. NADIR hasn't sat down.
+
+**TURAN**  
+Two ways this ends. One, you clear the square tonight, hard, before the garrison decides for itself. It's ugly. It's a number you'll carry. And it holds — the country wakes up frightened, and frightened is governable.  
+
+**NADIR**  
+And two.  
+
+**TURAN**  
+Two, you don't, and by Thursday there's a man in this chair who isn't you. A general. The eastern governor. The crowd, for a week, before it eats itself. And you don't get a flight out, Mr. President. Men like your father don't get airports. They get a culvert by a road, or a square of their own, turned the other way round. You've seen the videos. Everyone in this room has seen the videos.  
+
+Silence. Bayar, who has said nothing, finally, almost kind:
+
+**BAYAR**  
+There was never a third door. You've known it since the east. I think you've known it since the grave. You just needed the building to be on fire before you'd believe me.  
+
+Nadir picks up the order, reads it. It's the same order. The only word that changes is the place.
+
+He doesn't sign it here, with them watching. He folds it once and puts it in his pocket.
+
+**NADIR**  
+I'll do it alone.  
+
+He leaves. The generals look at Bayar. Bayar looks at the door, nothing on his face at all, which is the most there's ever been.
+
+*CUT TO:*
+
+### EXT. ASTAN - A STAGING YARD BEHIND THE SQUARE - NIGHT
+
+A municipal lot — buses, water trucks, floodlights. Lines of men in black, calm, bored, the boredom of professionals. COLONEL ADAK, fifties, a clipboard he doesn't need, walks the line. He's done this before. Once, long ago, in this same city. It's in his hands.
+
+He stops at a YOUNG SOLDIER — eighteen — and checks the boy's kit without looking at his face.
+
+**ADAK**  
+Strap. Tighter. You'll thank me at hour three.  
+*(moving down the line, flat)*  
+Listen. It's not a battle. A battle is two armies. This is one army and a lot of tired people who want to go home and don't know it yet. The whole job is helping them remember they want to go home. Pressure, direction, time. Give a crowd a direction and a reason to take it, it takes it. Nobody's a hero tonight. Heroes make the number go up.  
+
+The young soldier swallows.
+
+**YOUNG SOLDIER**  
+Colonel. What if they don't go.  
+
+Adak looks at him — not unkindly. The one honest question, and he answers it honestly, which is the worst thing about him.
+
+**ADAK**  
+Then we make the cost of staying higher than the cost of going, a notch at a time, until they go. There's always a notch. I've never not found it.  
+*(checks his watch)*  
+We move when the phone rings. Not before. Not a minute before. The man upstairs gets to be the one who decides. That part's not ours.  
+
+He walks to the front of the yard, where a field telephone sits on a crate, dark and silent. He stands beside it the way a man stands beside a kettle. The floodlights hum. Two thousand men wait for a sound.
+
+The phone doesn't ring. Not yet.
+
+*CUT TO:*
+
+### INT. NADIR'S OFFICE - NIGHT
+
+Alone. The order on the desk, unfolded. NADIR at the window. Below, the square, lit, one enormous living thing.
+
+He picks up the phone. An internal line. Answered on half a ring.
+
+**NADIR**  
+*(into phone)*  
+It's me.  
+
+He listens.
+
+**NADIR (CONT'D)**  
+Clear the square.  
+
+A pause on the line. A question, maybe — the kind you ask once and then never again.
+
+His eyes are on the glass, on his own faint reflection laid over the lit square, the two the same size.
+
+**NADIR (CONT'D)**  
+I don't want the number. Don't bring me the number. Just tell me when it's quiet.  
+
+He sets the phone down soft, the way you set down a thing heavier than it looks.
+
+He doesn't turn off the light. He left it on weeks ago, a small mutiny. It isn't a mutiny now. It's a man who'd rather see.
+
+Far below, the first movement at the edge of the sea. Lines forming. The square beginning, slowly, to be cleared.
+
+Nadir watches. He has his father's stillness now. He came by it honestly. He earned every inch.
+
+*CUT TO:*
+
+### EXT. ASTAN - THE SQUARE - DAWN
+
+Empty. That's what the eye can't get over — empty. Where a million people stood, grey light and water trucks and men in coveralls working fast, with the practiced speed of a crew whose job is to make a thing look like it never happened.
+
+The fountain runs pink a while, then runs clear.
+
+NADIR walks in, alone, no detail, a coat over last night's clothes. He stops roughly where a crate stood in 1989, in his father's photograph, though he doesn't know that's the spot. Maybe he does.
+
+A young SOLDIER, eighteen, exhausted, doesn't place him at first — just a man where civilians shouldn't be.
+
+**SOLDIER**  
+Sir, you can't, the square's closed.  
+
+**NADIR**  
+I know. I closed it.  
+
+The soldier places him and goes white and stands very straight. Nadir waves it off, tired.
+
+**NADIR (CONT'D)**  
+What's it like. Past the cordon. The city.  
+
+**SOLDIER**  
+*(careful)*  
+Quiet, sir. Real quiet. People stayed in.  
+
+**NADIR**  
+Good.  
+
+He says it and means it and hates that he means it. One more look at the empty square, the clean fountain, the men washing the stone.
+
+**NADIR (CONT'D)**  
+*(to the soldier, but really to the square)*  
+It held.  
+
+He turns and walks out the way he came. The trucks keep working. By noon you won't be able to tell.
+
+*CUT TO:*
+
+### EXT. ASLAN'S GRAVE - DAY
+
+The same plot as the funeral, months on. The grass has taken. A headstone now — austere, just the name and the dates, the way the old man would have wanted; no "beloved," no "father." NADIR comes alone, no mourning coat this time, just a man on a path. Two Office men keep their distance — the way they keep it from him now, not for him.
+
+He stands where he stood with the spade. For a while he says nothing. The thing he came to say takes setting up.
+
+**NADIR**  
+I cleared a square.  
+
+The wind. The grass.
+
+**NADIR (CONT'D)**  
+You never told me how. That's what I came to ask — and you're the one man I could ask, and you arranged to be unavailable.  
+*(almost a laugh, no humor in it)*  
+Not the order. Anyone can give the order. The part after. How you eat. How you go home and there's a plate and you eat off it. I kept waiting for the part where I couldn't. It didn't come.  
+*(quieter)*  
+That's what I wanted to ask. Whether it ever came for you. Or whether you were also just waiting for a wall that never arrived, and calling the wait strength.  
+
+He crouches, the way he crouched for the spadeful. Doesn't touch the stone.
+
+**NADIR (CONT'D)**  
+At the funeral I stood here and told you to watch. Like a threat. Like I'd be the thing you weren't.  
+
+He nods, slow, conceding a point to a man who can't gloat.
+
+**NADIR (CONT'D)**  
+Keep watching. It's the same thing now. I just don't know which of us I was warning.  
+
+He stands a while longer, then walks back up the path. The two Office men fall in behind him at the proper distance — the way they used to fall in behind his father — and he doesn't notice them at all.
+
+*CUT TO:*
+
+### INT. THE OFFICE - A SUB-BASEMENT - NIGHT
+
+Strip light. A long room of grey cabinets. At a desk, a CLERK, fifties, cardigan, a tray of forms and an old computer. This is where the number lives that the President said he didn't want.
+
+She works without drama. A form, a name, a keystroke, the next form. The banality is the horror of it — a woman doing data entry on a massacre the way she'd do it on a tax season, because to her it is one.
+
+A YOUNG OFFICER waits with another stack, fidgeting, new to the building.
+
+**YOUNG OFFICER**  
+The colonel called these "reconciliations." Not — not the other word.  
+
+**CLERK**  
+*(not looking up, typing)*  
+They're reconciliations. A person was at an address. Now the person isn't. We reconcile the address.  
+*(a keystroke)*  
+You'll sleep better if you let the words do their job. The words are built for this. It's what they're for.  
+
+She takes his stack, squares it, starts in. A name, a keystroke. A name, a keystroke. On the wall behind her, a small framed portrait of the President — the young photo, the saint-lit one — watches her reconcile the people who stood in his square.
+
+**YOUNG OFFICER**  
+Does anyone read them. After.  
+
+**CLERK**  
+*(the first time she pauses)*  
+No. That's the kindness in it. Nobody reads them, so nobody has to carry them. They only have to exist. A country that counts its dead has to mean something by the number.  
+*(resumes typing)*  
+We're very careful not to mean anything by the number. We just keep it. Go home, son. It keeps without you.  
+
+The young officer goes. The clerk works on, alone, under the saint-lit portrait — the only person in the country who knows the number, and the one person sworn never to say it.
+
+The strip light hums. A name. A keystroke. A name.
+
+*CUT TO:*
+
+### INT. HAMID'S BARBERSHOP - DAY
+
+The same two chairs, the same cracked mirror. Quieter now. The radio's still on, lower, and nobody argues with it. HAMID cuts a YOUNG MAN's hair — careful, neat. One OLD MAN waits; the other chair, where his friend used to sit, sits empty.
+
+**RADIO (V.O.)**  
+...a period of remarkable stability... the President's steady hand...  
+
+Nobody talks back to the radio. That's the change. Hamid used to talk back. Now he cuts hair.
+
+The young man, braver or stupider than the room:
+
+**YOUNG MAN**  
+My uncle says it used to be louder in here. The talk.  
+
+**HAMID**  
+*(snips, mild)*  
+Your uncle talks too much. Tell him a barber's job is hair.  
+
+He works. The young man waits for more; there isn't more. The radio murmurs stability. The empty chair stays empty.
+
+Then, low, not looking up from the scissors, the one thing he'll risk:
+
+**HAMID (CONT'D)**  
+We used to say you watch a country by who people stop naming. I told a man that once, sitting where you are.  
+*(the scissors)*  
+Funny thing. We've gone quiet about everyone now. The old man. The new one. The ones who aren't here. All of them. Safest the shop's ever been.  
+
+He brushes the young man's neck, whips off the cape. Done.
+
+**HAMID (CONT'D)**  
+*(bright, the out, loud enough for the radio)*  
+Steady hand. Can't complain. Who's next.  
+
+The old man rises for his turn. Nobody's next, really. There's all the time in the world now. That's what steady buys you.
+
+*CUT TO:*
+
+### INT. THE OFFICE - A TRAINING ROOM - DAY
+
+A modern room — screens, a coffee machine that works, the Office upgraded. YALIN, late twenties, sharp suit, runs a briefing for a few junior officers, fluent in a new vocabulary. BAYAR sits at the back, older this year, a spectator at his own institution, watching the way you watch a son drive.
+
+**YALIN**  
+*(to the juniors, brisk)*  
+Forget the old model. Kicking doors at 4 a.m. doesn't scale, and it radicalizes three relatives per door. The future is legibility. Good data, predictable consequences, and people regulate themselves. You almost never have to do the thing, if everyone correctly believes you would.  
+
+The juniors take notes. It's clean. It's modern. It's the same wall with better software, and only Bayar, at the back, hears the old song under the new words.
+
+Afterward, the room cleared, Yalin comes to Bayar, eager for the verdict.
+
+**YALIN (CONT'D)**  
+Too much theory? I can dial it back.  
+
+**BAYAR**  
+No. It's better than I did it. You'll keep more of your soul than I kept, and the machine won't lose a gram of its grip. That's the upgrade. They get to feel modern while it stays exactly as old.  
+
+**YALIN**  
+*(unsure if it's a compliment)*  
+I think of it as reform. Honestly. From the inside.  
+
+**BAYAR**  
+*(the ghost of a smile, almost fond, entirely terrible)*  
+Of course you do. So did the best man I ever broke. So did the President, once. So did the President's father.  
+*(stands, slow, a knee that hurts this year)*  
+Walk an old man out, Yalin. I'll show you which doors you'll hold the keys to — and which ones you'll spend your life telling yourself you'd never open. Those are the ones that are really yours.  
+
+He sets a hand on the young man's shoulder — the gesture of a man passing something down — and they go, the wall and its next good stone, into the corridors of the building with no name.
+
+*CUT TO:*
+
+### INT. RESIDENCE - DAY
+
+He comes in. The suite that was made to feel like a flat feels like a suite now. Lena's things gone — not all, just enough that the room reads as half. Her side of the closet open and empty. A mug in the sink, washed and set to dry. Hers.
+
+NADIR stands in the middle of it. Doesn't take his coat off.
+
+On the counter, where the newspaper used to be, nothing. Nobody's left him a paper. Nobody criticizes the government in print anymore. He notices the absence of the thing he hated, and it's worse than the thing.
+
+He goes to the window. Across the city the four-story portrait of his father is back up — they put it up again during the troubles, for morale, and nobody's taken it down. The Lion, young, looking over everyone's head.
+
+Nadir looks at it a while.
+
+Then he does a thing he hasn't done in the whole film: he pours himself a drink. Bayar's kind. The occasion kind.
+
+He doesn't drink it. Just holds it, and looks at his father's face the size of a building, and stands in the quiet of a house where nobody's waiting for anyone in the car.
+
+*CUT TO:*
+
+### EXT. PRESIDENTIAL PALACE - THE GATE - DAY
+
+The outer gate, the public face of the house. A guard post. An OLD WOMAN stands at the barrier in a good coat that's been good for twenty years — NESRIN, late sixties, a cloth bag held in both hands. Patient the way only a teacher or a mourner is patient.
+
+A young GUARD, uncomfortable, has clearly already said no twice.
+
+**NESRIN**  
+I'll wait. I'm not in anyone's way. I'm well to the side.  
+
+**GUARD**  
+Ma'am, there's no appointment. I can't put your name on anything.  
+
+**NESRIN**  
+You don't need my name. Tell whoever's inside it's Yusuf Karim's mother. From Bishenk. Tell them I taught the President his sums, the summer he came north as a boy. He had a terrible time with fractions. He'll remember the fractions.  
+
+The guard doesn't know what to do with that. He looks at the bag.
+
+**NESRIN (CONT'D)**  
+It's food. For my son. Open it, go on — there's nothing in it but the thing he likes. They feed them, I'm sure they feed them. But not the way. I'd just like to leave it where it reaches him.  
+
+### INT. NADIR'S CAR - THE DRIVE - CONTINUOUS
+
+Through the tinted glass, NADIR in the back of a slowing car sees them: the guard, the old woman, the bag. He knows the coat. He knows the woman in it. A hot classroom in the north, a boy who'd never been north, a fraction he kept getting wrong — and a teacher who gave him an apricot the once he got it right.
+
+The car idles. One word to the driver and the gate opens; one word and it doesn't. Bayar isn't here to hand him the choice. There's no folder. It's a car, a man, a gate, and the woman who gave him the apricot.
+
+He looks a long moment.
+
+**NADIR**  
+*(to the driver, quiet)*  
+The side entrance.  
+
+The car turns. It doesn't go to the gate. Through the rear window, getting smaller, Nesrin is still explaining her bag to a boy in a uniform, holding it open so he can see there's nothing in it but the thing her son likes.
+
+### EXT. PRESIDENTIAL PALACE - THE GATE - LATER
+
+The guard alone now, the car long gone. Nesrin finally understands the shape of the afternoon. She doesn't weep, doesn't argue. She sets the bag down at the foot of the barrier — square, careful, where it can be seen.
+
+**NESRIN**  
+For when someone's going in. It keeps a day. Tell them it keeps a day.  
+
+She walks back toward the bus stop, the good coat, the empty hands. Behind her the bag sits at the gate of the house her son died for, and nobody picks it up.
+
+*CUT TO:*
+
+### INT. THE OFFICE - BAYAR'S OFFICE - DAY
+
+BAYAR at his desk, blinds half down, a report he isn't reading. NADIR comes in without being announced — he doesn't announce himself anymore, anywhere.
+
+**BAYAR**  
+Mr. President. The garrison sends its loyalty. Sincerely this time, which is rarer than you'd think. The east has gone very quiet. Three governors want audiences, to assure you of things.  
+
+**NADIR**  
+And the number.  
+
+**BAYAR**  
+You said you didn't want the number.  
+
+**NADIR**  
+I changed my mind. Tell me.  
+
+Bayar looks at him — a long look, and in it, finally, the thing he's withheld the whole film. Not warmth. Recognition. The look you give a man who's arrived somewhere you've been waiting for him.
+
+**BAYAR**  
+No, Mr. President. You don't want it. And a man who knows he doesn't want it and asks anyway, so that he carries it — that man has a long reign in him. Your father would have done the square before lunch and slept like a child. You did it at night, alone, and came down here to be told the cost.  
+*(beat)*  
+That's the difference between you. It's the only difference. It changes nothing. But it's there.  
+
+He slides a single sheet across, face down. Nadir doesn't turn it over.
+
+**NADIR**  
+Burn it.  
+
+**BAYAR**  
+*(the ghost of approval)*  
+There he is.  
+
+Nadir leaves. Bayar watches him go, and for the first time all film he pours himself a drink, and drinks it.
+
+*CUT TO:*
+
+### INT. STATE TELEVISION - STUDIO - NIGHT
+
+A set built to look like authority — desk, flag, a fresh portrait of NADIR behind the anchor, lit like a saint. AYGÜN, forties, flawless, reads the autocue in the warm cadence of good news. A FLOOR CREW. A director's silent count.
+
+**AYGÜN**  
+*(to camera, serene)*  
+...and across the country tonight, calm. The squares are quiet. The President has restored what the disorder threatened, and the nation, this evening, is grateful.  
+
+The red light dies. Her face goes neutral the instant it does — professional, off. She sips water. To a PRODUCER off-set:
+
+**AYGÜN (CONT'D)**  
+The portrait's too young. He doesn't look like that anymore. Get one from this month. And lose "grateful" — I said it Tuesday. Use "steady."  
+
+NADIR stands at the back of the studio, in the dark past the lights, unannounced. He's been watching. The producer sees him and freezes. Aygün follows the look, finds him, and doesn't flinch — she's read worse rooms.
+
+**AYGÜN (CONT'D)**  
+Mr. President. We can reshoot with any word you prefer.  
+
+**NADIR**  
+*(coming a little into the light)*  
+Grateful was fine. You said it well.  
+
+**AYGÜN**  
+I say everything well. It's the job. In the spring I called you the reformer prince, and I said that well too.  
+*(no apology in it)*  
+You've gotten easier to light. In the spring it took three lamps to find the authority. Now it's one. You bring your own.  
+
+The truest review he's had, from the one person paid to lie. He takes it like a blade going in clean.
+
+**NADIR**  
+My father. On this set. How many lamps.  
+
+**AYGÜN**  
+*(the ghost of something — she lit the father too)*  
+None, Mr. President. We turned them off and shot him in the dark. He came out anyway.  
+
+Nadir looks at the saint-lit portrait of himself — too young, already wrong. He doesn't ask them to change the face. Only the date.
+
+**NADIR**  
+Use this month's photo.  
+
+He walks back into the dark at the rear of the studio, where the lamps don't reach. He doesn't look wrong there at all.
+
+*CUT TO:*
+
+### INT. CABINET ROOM - DAY
+
+The same long table, a different physics. NADIR at the head, and the chair fits now — nobody mentions it because nobody notices it anymore, which is the point. The old guard, GENERAL TURAN among them, sit forward, attentive, waiting to be told.
+
+**INTERIOR MINISTER**  
+The teachers' union in the north. Strike called for the tenth. Pay, mostly. It could spread — the nurses are watching it.  
+
+A year ago this was a crisis with three bad options. Nadir doesn't put down the page he's reading.
+
+**NADIR**  
+Pay them. Find it in the security budget; Reza will show you where. Announce it as my idea, before the strike, so it's a gift and not a win. And the two who organized it — the loud one and the quiet one. Promote the quiet one. Transfer the loud one somewhere with a title and no telephone.  
+
+The Interior Minister writes it down. Nobody argues. Turan watches Nadir the way you watch a young fighter stop telegraphing his punches — a flat professional respect with grief in it somewhere, well buried.
+
+**NADIR (CONT'D)**  
+What else.  
+
+**INTERIOR MINISTER**  
+That was the hard one, Mr. President.  
+
+**NADIR**  
+It wasn't hard.  
+
+No pride in it, no shame — a man noting the weather. The meeting moves on, smooth and fast, a machine finally handed the part it was missing.
+
+Across the table, the smallest thing: Turan, who needled the soft prince in this room a year ago, now waits to be dismissed. He doesn't rise until Nadir's eyes give him leave. Neither of them marks it. It's just how the room works now.
+
+*CUT TO:*
+
+### INT. PRESIDENTIAL PALACE - A WORKING ROOM - NIGHT
+
+The same room as the first offer, the chairs the same. ANATOLY, a year older, a degree more careful. NADIR across from him — and the difference in the room is all in Nadir: stiller, slower, the man who used to lean forward now perfectly upright.
+
+**ANATOLY**  
+I said we'd talk again in the spring. It's spring.  
+*(studies him, pleased and not)*  
+You didn't take the help.  
+
+**NADIR**  
+No.  
+
+**ANATOLY**  
+You did it yourself. The square, the east, the rest. No base, no men of mine in your ports. You're the first man in twenty years to tell Moscow the river's where it's always been and make it stick.  
+
+**NADIR**  
+You sound disappointed.  
+
+**ANATOLY**  
+*(a small laugh)*  
+I'm a professional. I came to vassalize a frightened boy and instead I'm drinking with a wall. The wall costs me more, and I respect it more. Both true.  
+*(sets down his glass)*  
+My president would like a photograph. Two heads of state, equals, a handshake, no tricks. He's decided you're real — which, from him, is the only blessing that comes with no invoice.  
+
+Nadir considers it — the thing his father had, the thing he wanted his whole life to come by some other way. He's got it now. The old way. Exactly the old way.
+
+**NADIR**  
+He can have the photograph.  
+
+**ANATOLY**  
+*(rising)*  
+The spring you turned me down, I thought: pity, the soft one won't last the year. I was right the soft one wouldn't last. I just had the reason backwards.  
+*(at the door, almost gentle)*  
+He didn't get eaten, Mr. President. He got promoted. Goodnight. It's a pleasure to deal with a country again, instead of a hope.  
+
+He goes. Nadir sits with the compliment — the worst thing anyone's handed him: that he won, on his enemy's terms, by becoming the one thing his enemy could finally respect.
+
+*CUT TO:*
+
+### INT. THE OFFICE - BAYAR'S OFFICE - NIGHT
+
+NADIR has come down himself — he does that now, goes to Bayar instead of summoning, a courtesy that's really control. BAYAR at the desk. A file, closed, between them.
+
+**NADIR**  
+Karim.  
+
+**BAYAR**  
+*(no euphemism — Nadir's past needing it)*  
+Three weeks ago. Quiet. No announcement; an announcement makes a relic, and you didn't want a relic. There's a place. It's marked in our way — a number, not a name. If you ever want the number, I have it.  
+
+Nadir is quiet. Whatever moves in him moves below where the camera can follow now — there used to be a face for this, and there isn't anymore.
+
+**NADIR**  
+Did he say anything. At the end.  
+
+**BAYAR**  
+*(a beat — the small mercy of an old killer)*  
+He asked the man with him what the weather was doing. The man said rain. He said good, the country needs it. That's all. It's in the report. I can have the line struck, if you'd rather it didn't exist.  
+
+**NADIR**  
+Leave it.  
+
+**BAYAR**  
+Leave it.  
+
+A silence. Bayar watches him with that flat recognition.
+
+**BAYAR (CONT'D)**  
+You came down to hear it said. Your father never did. He signed and didn't read the names — that was his discipline. You read them. You make yourself hear the weather. I've wondered a year whether that makes you better than him, or only more awake. I've decided it matters to no one but you. And it matters to you less every month.  
+
+Nadir stands. At the door he stops, doesn't turn.
+
+**NADIR**  
+He really say that? The rain?  
+
+**BAYAR**  
+He really said it.  
+
+Nadir goes. Bayar opens the file he never needed to open, looks at one line, closes it again.
+
+*CUT TO:*
+
+### INT. RESIDENCE - STUDY - DAY
+
+A TV on, muted, a Western news channel. A graphic: NADIR's face, and under it, NADIR THE BLOODY. The same anchor who, months ago, said reformer prince.
+
+NADIR watches with the sound off, a tumbler in his hand. He's drinking now. It's become a thing he does.
+
+A KNOCK. The FOREIGN MINISTER, nervous, a tablet.
+
+**FOREIGN MINISTER**  
+Mr. President. The Americans. And the Germans. They've both put out statements. Strong ones. "Deeply concerned." "Calls for restraint."  
+
+**NADIR**  
+And.  
+
+**FOREIGN MINISTER**  
+And their energy people called an hour after. Privately. The pipeline contract — they'd like to sign Thursday. Both of them. Quietly. They asked if you'd be available.  
+
+Nadir looks at his own face on the screen, the new title under it.
+
+**NADIR**  
+"Deeply concerned." And Thursday.  
+
+**FOREIGN MINISTER**  
+*(careful)*  
+Thursday, sir.  
+
+Nadir almost smiles. It's not a good thing to watch.
+
+**NADIR**  
+My father always said the West will forgive anything except being cheap. Tell them Thursday. Tell them I'm honored by their concern.  
+
+The minister goes. Nadir lifts the tumbler toward his own face on the muted screen. A toast. To what, he couldn't tell you.
+
+*CUT TO:*
+
+### INT. PRESIDENTIAL PALACE - SIGNING ROOM - DAY
+
+Cameras, flags — Karash's and two Western ones — a long table, two leather folders, gold pens. The choreography of a partnership. NADIR and CLAIRE VOSS, American, fifties, sign for the cameras, shake hands, hold it the requisite three seconds, smile.
+
+The press is walked out. The flags stay. The smiles change — not off, just true now.
+
+**CLAIRE VOSS**  
+I won't insult you by pretending the statement out of Washington meant anything. We issued it so we could sign the folder. The statement is the price of the folder. You and I are the only two people in this building who already knew that, so let's not perform it for each other.  
+
+**NADIR**  
+My father said the West forgives anything except being cheap.  
+
+**CLAIRE VOSS**  
+*(a real laugh)*  
+Your father was cheaper than you and twice as easy. He'd have signed this in '02 if he could've found the pen under all the principle.  
+*(caps her gold pen)*  
+One realist to another — I liked the other you. The spring you. My board liked him: clean story, good optics, a man you could put in an annual report. This you is better for the actual asset. The pipeline's a forty-year instrument. I need a forty-year man, not a forty-year hope.  
+
+**NADIR**  
+You're saying the bodies improved your confidence.  
+
+**CLAIRE VOSS**  
+*(not flinching)*  
+I'm saying stability did. I don't ask how a country got stable any more than I ask how the steel got hot. I just need it to hold pressure.  
+*(stands, offers the hand again, privately this time)*  
+We wire the first tranche Friday. Spend some of it on schools. It photographs well, and you're going to want things that photograph well. Trust me.  
+
+She goes, brisk, a woman with another country at four o'clock. Nadir looks at the two signed folders, then at the gold pen still in his hand — a gift — and puts it in his pocket.
+
+*CUT TO:*
+
+### INT. NADIR'S OFFICE - LATE NIGHT
+
+Very late. The folders squared. NADIR alone with a glass he isn't drinking. He takes out a phone — a personal one, old, not the state one — and thumbs to a voicemail saved at the top, starred, months old.
+
+He plays it. Holds it to his ear. We hear it small and tinny, the way a saved voice always sounds — far away, and from before.
+
+**LENA (V.O.)**  
+*(from the message, light, alive, another era)*  
+It's me, it's nothing. I'm at the market and they've got the figs you like, and I bought a stupid amount, so come home at a reasonable hour for once and ruin your appetite with me. That's the whole message. Figs. Come home.  
+
+The message ends. The little robot voice offers to delete or to save. He saves it. He's saved it a hundred times.
+
+He scrolls to her name. His thumb hovers over the call. It's the middle of the night here, which is evening in London, which means she'd be home, which means she'd answer — or see it was him and not answer — and either one —
+
+He doesn't call. He sets the phone face down on the desk, the way he set the photograph face down, the way he's learned to set down anything still alive enough to ask something of him.
+
+He picks the glass back up. This time he drinks it.
+
+Out the window, the portrait of his father holds the city, young and lit. Nadir doesn't look at it. He's stopped needing to check.
+
+*CUT TO:*
+
+### INT. LONDON HOSPITAL - STAFF ROOM - DAY
+
+Grey London light through a window onto a car park and a normal, ugly, miraculous street. LENA, in scrubs, her own coat now, no detail at the door, makes tea in a chipped mug. She looks, simply, like a doctor on a break. She looks well.
+
+A TV in the corner, muted, rolling news. A YOUNG REGISTRAR, PRIYA, eats a sandwich under it, half-watching.
+
+**PRIYA**  
+God, look at this. That Caspian place — Karash? They're saying the President cleared a square full of people. Thousands, maybe. "Nadir the Bloody," they're calling him.  
+
+On the muted screen: NADIR's face, the title under it, then the empty square, the water trucks.
+
+Lena stirs her tea. Doesn't look up for a moment. When she does, it's the way you look at weather in a country you've left.
+
+**PRIYA (CONT'D)**  
+Imagine being married to something like that. The wife. Imagine waking up next to it.  
+
+**LENA**  
+*(evenly)*  
+I can't, no.  
+
+She says it without a flicker, and it isn't a lie — because the man she woke up next to and the man on the screen stopped being the same person before she left, which is the whole reason she could.
+
+**PRIYA**  
+You alright? You went somewhere.  
+
+**LENA**  
+Long shift. Bed nine's septic; I want to recheck the lactate.  
+
+She tips the rest of the tea in the sink, rinses the mug, sets it on the rack — one mug, the small competent motions of a life that fits her hand. On the screen, the square. She doesn't look at it again.
+
+**PRIYA**  
+You're so calm. I'd be a wreck. I get worked up about the parking.  
+
+**LENA**  
+*(a small, true smile, the first in a while)*  
+The parking's worth getting worked up about. The parking you can change.  
+
+She goes back to her patients — bed nine, the lactate, the real and fixable thing in front of her.
+
+*CUT TO:*
+
+### INT. RESIDENCE - ASLAN'S OLD ROOM - NIGHT
+
+The sickroom from the first scene, stripped — machines gone, the bed made up like a museum. NADIR comes in with the box of notebooks under his arm. The personal series. The young Lion.
+
+He sits in the chair where he sat the night his father died. Same chair, same angle. Opens a notebook. Reads.
+
+We don't hear it this time. We watch his face read it, and we know the words, because we read them in the archive: open the prisons, publish the budget, the people are always ready.
+
+He turns to the last notebook. The entries get shorter. The handwriting gets harder, more pressed-down, the way a man writes when he's stopped arguing with himself. The dates jump — years between them now.
+
+The last entry is one line. Nadir reads it twice.
+
+He sets the notebook on his knee and sits a long time in his dead father's room. He understands the man now, completely, and the understanding is worse than grief would have been. There was never a choice in it. Only the chair, and what the chair makes of whoever sits down in it.
+
+**NADIR**  
+*(to the empty room, to the dead man, to himself)*  
+Okay.  
+
+The same word he said to the body the first night. It doesn't mean the same thing now.
+
+He closes the notebook and turns off the lamp. This time he doesn't notice the gesture at all. It's just his hand now. Just how he turns off a light.
+
+*CUT TO:*
+
+### INT. PALACE - RECEPTION HALL - DAY
+
+Months later — you can tell by the calm. The machine runs smooth now. Aides, files, the quiet competence of a state that works because everyone's afraid in the right amounts. NADIR moves through it, older around the eyes, an entourage at the correct distance.
+
+A YOUNG AIDE waits by a door with a folder — twenty-six, maybe, a good suit that doesn't quite fit yet, the slightly-too-bright look of someone who studied abroad and came home to fix things. You can smell the new on him.
+
+Nadir slows. Something about the kid stops him.
+
+**YOUNG AIDE**  
+*(too eager)*  
+Mr. President — the education file, the one you flagged. There's a way to do the rural schools and the budget both, I think, if we — I stayed up on it. I think it's good.  
+
+**NADIR**  
+Leave it on the desk.  
+
+**YOUNG AIDE**  
+Yes. Of course. It's just — it's a good one. I think you'll —  
+
+He stops, because Nadir is looking at him. Really looking. The way you look at a photograph of yourself you forgot was taken.
+
+The young aide doesn't know what the look means. It frightens him a little. He drops his eyes. Looks away first.
+
+Nadir watches him do it. He knows the look from the other side now. He wore it once, at a grave. The kid will wear it a while, and then he won't.
+
+**NADIR**  
+*(not unkind)*  
+What's your name.  
+
+**YOUNG AIDE**  
+Demir, sir. No relation. It's a common name.  
+
+A beat. Something moves behind Nadir's eyes and is gone.
+
+**NADIR**  
+You'll be fine. Leave the file.  
+
+He moves on. The young aide stands holding his good idea, watching the President go, not knowing yet that he just met the end of his own road in a better suit.
+
+*CUT TO:*
+
+### INT. NADIR'S OFFICE - NIGHT
+
+Late. The building quiet. NADIR alone at the desk — his father's desk now; he had it brought up, though he'd deny it was on purpose.
+
+He isn't working. The folders are squared. The country is, for tonight, held.
+
+He sits very still. He has his father's stillness all the way through now. It isn't a costume anymore. It's just the shape he settled into, the way a wall settles.
+
+On the desk, the photograph: young Aslan on the crate, fist up, the open believing face. Nadir has kept it out. He looks at it the way you look at a picture of yourself at an age you can't get back to.
+
+He reaches over and turns off the desk lamp.
+
+Dark, but for the city through the window — the lights of a capital that works, that is quiet, that is afraid in the right amounts, that is held.
+
+In the dark, his voice, low. Not to anyone.
+
+**NADIR (V.O.)**  
+Watch.  
+
+The same word he said into the grave. There was never anyone else to say it to. There was never a door.
+
+He doesn't move. The city holds. Hold on the dark, the held city, the still man who got everything he swore he'd never take.
+
+*FADE OUT.*
+
+*THE END*

@@ -1,0 +1,49 @@
+SKY KING — INT. Q400 FLIGHT DECK / NIGHT SKY OVER THE SOUND / COMMAND POST - NIGHT (INTERCUT)
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-sights.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The Q400 flies level a few thousand feet above the water, engines steady, nothing else in the sky.
+ACTION: The moon sits low over the Sound. Its reflection runs down the middle of the water in one straight white line. Along the far shore the city spreads out in strings of light, and behind the city the mountains stand black on both sides.
+ACTION: BIRDY sits alone at the controls of the airliner, one hand loose on the yoke, and looks at all of it.
+ACTION: Two fighter jets hold off his wings. DEACON flies the right side and leads. BANJO flies the left and works his throttles to stay in close.
+BIRDY: The moon's right down on the water.
+BIRDY: You can see the whole city. All the lights and everything.
+ACTION: At a radar scope on the ground, BISHOP watches the airliner's blip crawl across the dark of the water.
+BIRDY: There's a ferry crossing down there, all lit up.
+BISHOP (RADIO): Yeah. Right here.
+ACTION: The airplane holds its heading. The lights slide by under the nose and nobody says anything for a while.
+BIRDY: You guys get this every day, up here?
+BANJO (RADIO): Honestly, you kind of stop seeing it after a while.
+ACTION: Birdy doesn't answer. The moon holds on the water and the shore goes by.
+ACTION: Birdy feeds in the yoke and rolls the airliner into a bank. The left wing drops toward the water and stays there. The airplane comes all the way around in one long clean circle and rolls level again on the same line of lights.
+ACTION: On the right side Deacon's jet slides wide and repositions to stay outside the turn.
+DEACON (RADIO): What are you holding that turn at?
+BIRDY: Two-ten, about. Flaps fifteen. She sits right in it.
+ACTION: The frequency goes quiet. Nobody follows it up.
+ACTION: Off the left wing Banjo's helmet turns toward the airliner and stays there a moment. Below and ahead of them it holds its line along the water, both wings level.
+BANJO (WHISPER): Deacon. You think— you think this is a test? That they're testing us?
+DEACON (WHISPER): I don't think so.
+BANJO (WHISPER): How come.
+DEACON (WHISPER): This man sounds like he's experiencing the life of a pilot for the first time.
+ACTION: Birdy pulls the nose up and rolls it over the top and lets it come back down the other way, then eases down low over the water and flies straight along the white line the moon lays across it. The two jets stop holding him in and just fly with him now, one off each wing.
+ACTION: Off the left wing a long orange flame lights at the back of Banjo's jet, dies, and lights again.
+BIRDY: Banjo, you keep lighting that burner to hang on with me.
+BIRDY: I can flatten it out, fly her straight a while. No sense you burning all that gas on my account.
+BANJO (RADIO): Yeah. Thanks. Appreciate that.
+ACTION: Birdy rolls the wings level and holds it steady. The two fighters settle in easier on either side of him.
+ACTION: Banjo's jet dips a wing down toward the dark shore.
+BANJO (RADIO): Hey. You got cars stopping down on that beach road. Whole line of headlights pulled off to the side.
+BIRDY: Down there? Those are people?
+BIRDY: Well, I'll be.
+ACTION: At the command post, MERCER stands over a lit table where the airliner's track loops back on itself. On the board the fuel number drops another digit.
+BIRDY (RADIO): You think an airline'd give me a job after this, like a flying job?
+BISHOP (RADIO): After what I just watched? They'd hire you to do about anything they've got.
+BIRDY (RADIO): Yeah, no. I know.
+ACTION: A small laugh comes over the mic and runs down to nothing.
+MERCER: He runs that tank dry, he's got to put it down somewhere.
+MERCER: And the shore's filling up with people now.
+ACTION: REYES has been standing at the edge of the room through all of it. She lifts a headset off the hook by her hand.
+REYES: I'm going up on his frequency.
+MERCER: Reyes.
+REYES: I am.
+ACTION: She walks out with the headset in her hand.

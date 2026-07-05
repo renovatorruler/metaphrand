@@ -1,0 +1,10 @@
+4 violations (0 HIGH):
+
+  L0    [MED] em-dash-density: 15 dashes / 1002 words
+        -> 15.0 per 1000 words (>8) — AI over-uses the em-dash
+  L23   [MED] short-sentence: She says nothing.
+        -> 3-word punch sentence — humans don't end on two words for effect
+  L31   [MED] rule-of-three: He stands, stretches, and angles for
+        -> three short parallel items — AI rhythm
+  L67   [MED] short-sentence: Kamla leans in.
+        -> 3-word punch sentence — humans don't end on two words for effect

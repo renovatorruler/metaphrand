@@ -15,8 +15,9 @@ from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Optional
 
 from metaphrand import arrangement as _arrangement, canon as _canon, cinema as _cinema
-from metaphrand import concreteness, density as _density, doorways as _doorways, drama as _drama
+from metaphrand import concreteness, craftlint as _craftlint, density as _density, doorways as _doorways, drama as _drama, heart as _heart
 from metaphrand import dossier as _dossier, embodiment, kishotenketsu as _kishotenketsu, showing
+from metaphrand import naturalness as _naturalness
 from metaphrand import generate as _generate
 from metaphrand import weave as _weave
 from metaphrand import world as _world
@@ -91,6 +92,15 @@ def check(
         dram = _drama.drama(story)
         stages.append(StageReport("drama", dram.passed, dram.summary()))
 
+    # 2c — Heart: bonds as ledgers; wounds and thaws must spend banked deposits,
+    # never arguments (the Good Wife rule). OPT-OUT: runs on every story —
+    # cold is a choice, not a default — unless the root declares
+    # attributes={"heart": "opt-out"}.
+    _root = story.get(story.root_id) if story.root_id else None
+    if not (_root is not None and _root.attributes.get("heart") == "opt-out"):
+        hrt = _heart.heart(story)
+        stages.append(StageReport("heart", hrt.passed, hrt.summary()))
+
     # 3 — World  (skipped if no cast supplied)
     if world is not None:
         full = _world.fullness(world)
@@ -130,6 +140,19 @@ def check(
     if script is not None:
         spill = _dossier.leak(script, story)
         stages.append(StageReport("backstory", spill.passed, spill.summary()))
+
+    # 10 — Prose tells: the clickbait cadence and the two-word punch line. Deterministic, so
+    # this gate cannot be claimed clean, only produced clean. Screenplay mode tolerates a lone
+    # terse action line but never a staccato run.
+    if script is not None:
+        ok, summ = _craftlint.gate(script, mode="screenplay")
+        stages.append(StageReport("craftlint", ok, summ))
+
+    # 11 — The One Law (docs/06-THE-ONE-LAW.md): nothing arranged for effect. Semantic, so it
+    # needs a critic model; the deterministic floor above runs without one.
+    if script is not None and client is not None:
+        ok, summ = _naturalness.gate(script, client)
+        stages.append(StageReport("naturalness", ok, summ))
 
     return PipelineResult(stages)
 

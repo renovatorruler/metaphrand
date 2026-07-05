@@ -1,0 +1,52 @@
+SKY KING — INT. AIRPORT OPERATIONS CENTER - COMMAND POST / Q400 FLIGHT DECK - NIGHT (INTERCUT)
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-deal1.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The big screen shows the airplane's green track curling over the black water of the Sound and starting the same loop it made a minute ago.
+ACTION: Reyes stands close to the screen with a headset half on, one cup pushed back off her ear.
+ACTION: Bishop keys the patch from the console beside her and gives her a small nod.
+BISHOP: You're on his frequency now. Whenever you want it.
+ACTION: Reyes settles the headset and keys the mic.
+REYES: Hey. Hi. This is Anne, I'm gonna be the one talking to you for a little while, okay, if that's all right with you.
+ACTION: In the dark cockpit the panel glows under Birdy's hands and he keys his mic without looking up from the gauges.
+BIRDY: Sure. Yeah, that's fine. Sorry, I've kind of got my hands full up here.
+REYES: No, that's okay, you take your time. There's no rush on my end at all. I just want to hear how you're doing up there.
+BIRDY: I'm okay. Fuel's coming down a little quicker than I thought, but she's flying nice. Real nice, actually.
+ACTION: Reyes watches the green track come around the top of the loop and head out over the water again.
+REYES: That's good. That's really good to hear. You're doing a great job, you know that? You're keeping her real steady for me.
+BIRDY: Well. It mostly flies itself.
+REYES: I hear you. And I want you to know, everybody down here, we're all just, we're pulling for you. That's the whole thing. Nobody's mad at you.
+ACTION: An F-15 slides in off the right wingtip and holds there in the dark, running lights steady.
+BIRDY: They put a couple of the fighter guys out here with me. They've been real polite about it.
+REYES: They're just there to help you, that's all they are.
+BIRDY: Yeah. I figured.
+ACTION: Reyes leans a little closer to the screen and slows her voice down.
+REYES: Okay. So here's what I'm thinking. I'm thinking you and me just talk this through nice and easy, one thing at a time, and we're gonna get you down safe. Nice and slow. Does that sound okay to you.
+ACTION: Birdy keys the mic and there is a beat of engine hum before he answers.
+BIRDY: You know, you sound like Mrs. Corley. She had me for a couple years. She used to talk to me real slow like that, so I'd get it.
+ACTION: Reyes holds the mic and doesn't say anything for a second.
+REYES: I'm — sorry. Was she good to you?
+BIRDY: Oh, she was fine. She meant well. Everybody meant well.
+ACTION: Mercer moves in at Reyes's shoulder with his eyes on the fuel readout at the bottom of the screen.
+MERCER: Where are you going with this.
+ACTION: Reyes waves him off without turning and keys the mic.
+REYES: Listen. I want to tell you something, okay, and I need you to really hear me on it. You bring this airplane down, you set it down somewhere safe for me, and you are not going to jail. I'll make sure of that. That's, I'm telling you that right now.
+ACTION: The fuel number on the screen ticks down a hundred pounds.
+BIRDY: That's real nice of you to say.
+REYES: I'm not just saying it. I mean it. I will walk you through the door myself and I will stand there and make sure of it. You have my word on that.
+BIRDY: I appreciate it. I really do. You've been real kind.
+REYES: So you'll bring her down. We can start you turning back in right now, I'll stay right here with you the whole way.
+BIRDY: I don't think it works like that for a guy like me. But that's okay. It was a nice thing to say.
+ACTION: Reyes watches the track roll into the loop again, out over the water, coming back around.
+REYES: It does work like that. I'm the one telling you it does. I've got the room, I've got, this is real, this is a real thing I'm offering you.
+BIRDY: I know you believe it. Hey, the escort guys drifted out a ways, I think I climbed on 'em a little. I'm gonna let down a couple hundred feet, get back with 'em.
+ACTION: Bishop keys his console and keeps his voice level.
+BISHOP: Copy, he's got the traffic in sight, they're staying with him.
+ACTION: Reyes keeps the mic keyed and her voice goes flat and plain.
+REYES: Just, stay with me. Okay? Stay talking to me.
+BIRDY: I'm here.
+ACTION: Mercer reaches over and taps the mic switch to cut her, then leans in close and drops his voice off the air.
+MERCER: You can't offer that. You know you can't. That's not yours to give and it went out on an open line.
+ACTION: Reyes pulls the cup off her ear and turns and looks at him.
+REYES: Then I'll go get it.
+ACTION: Mercer holds her eyes and she holds his, and neither of them looks back at the screen where the green track starts the loop again.

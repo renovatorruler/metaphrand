@@ -1,0 +1,6 @@
+2 violations (0 HIGH):
+
+  L46   [MED] rule-of-three: flies now, two and then three
+        -> three short parallel items — AI rhythm
+  L53   [MED] rule-of-three: the next, people looking and then
+        -> three short parallel items — AI rhythm

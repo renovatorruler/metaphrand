@@ -1,0 +1,754 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,44,&H00FFFFFF,&H000000FF,&H00101010,&H80000000,0,0,0,0,100,100,0,0,1,2.4,1.2,2,80,80,56,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:04.00,Default,,0,0,0,,That world, where Ratan hasn't yet arrived. Rana sits on his
+Dialogue: 0,0:00:04.06,0:00:08.05,Default,,0,0,0,,swing, a line of people with folded hands before him, tea
+Dialogue: 0,0:00:08.11,0:00:12.11,Default,,0,0,0,,going round. He grants one a licence, puts off the next,
+Dialogue: 0,0:00:12.17,0:00:16.17,Default,,0,0,0,,the same one smile for both. Apart from the line, his
+Dialogue: 0,0:00:16.23,0:00:20.23,Default,,0,0,0,,back stiff and a white goatee, stands Kishan Borana, summoned, not
+Dialogue: 0,0:00:20.29,0:00:24.28,Default,,0,0,0,,come to beg. He hasn't folded his hands. Rana's been working
+Dialogue: 0,0:00:24.34,0:00:28.34,Default,,0,0,0,,on him a while.
+Dialogue: 0,0:00:28.70,0:00:32.38,Default,,0,0,0,,Kishan, sit, man. How long have you been standing? Good. That
+Dialogue: 0,0:00:32.44,0:00:36.12,Default,,0,0,0,,land of yours by the Reva, four bigha. I'll pay one
+Dialogue: 0,0:00:36.18,0:00:39.86,Default,,0,0,0,,and a half times market rate, cash. The road's coming through
+Dialogue: 0,0:00:39.92,0:00:43.60,Default,,0,0,0,,there, the whole area will benefit.
+Dialogue: 0,0:00:43.96,0:00:47.78,Default,,0,0,0,,The land is my forefathers', sahib. Their bones lie in it.
+Dialogue: 0,0:00:47.84,0:00:51.66,Default,,0,0,0,,It's not for sale. I'm sorry.
+Dialogue: 0,0:00:52.02,0:00:55.83,Default,,0,0,0,,Bones. That's good. A man should be that attached to his
+Dialogue: 0,0:00:55.89,0:00:59.69,Default,,0,0,0,,land. And how's your son? Karan? He's doing pharmacy in Neemuch,
+Dialogue: 0,0:00:59.75,0:01:03.56,Default,,0,0,0,,isn't he.
+Dialogue: 0,0:01:03.92,0:01:06.74,Default,,0,0,0,,Something stops inside Kishan for a moment. Rana catches it and
+Dialogue: 0,0:01:06.80,0:01:09.62,Default,,0,0,0,,looks away.
+Dialogue: 0,0:01:09.98,0:01:14.26,Default,,0,0,0,,I hear he's started keeping company with some boys who aren't
+Dialogue: 0,0:01:14.32,0:01:18.59,Default,,0,0,0,,right. The doda trade. If some case gets made tomorrow, the
+Dialogue: 0,0:01:18.65,0:01:22.93,Default,,0,0,0,,boy's whole life is ruined, the licence gone too. But don't
+Dialogue: 0,0:01:22.99,0:01:27.26,Default,,0,0,0,,you worry. The SP is my man. I'll tell him, Karan's
+Dialogue: 0,0:01:27.32,0:01:31.60,Default,,0,0,0,,name won't come up anywhere. Completely clean.
+Dialogue: 0,0:01:31.96,0:01:34.70,Default,,0,0,0,,Kishan understands it all. His back is still stiff, but something
+Dialogue: 0,0:01:34.76,0:01:37.50,Default,,0,0,0,,behind his eyes has gone out.
+Dialogue: 0,0:01:37.86,0:01:38.92,Default,,0,0,0,,...Should I bring the papers tomorrow?
+Dialogue: 0,0:01:39.28,0:01:42.84,Default,,0,0,0,,Look at that! Kishan's a sensible man after all. Don't you
+Dialogue: 0,0:01:42.90,0:01:46.46,Default,,0,0,0,,worry about the papers, I'll have them drawn up, you just
+Dialogue: 0,0:01:46.52,0:01:50.08,Default,,0,0,0,,sign. And listen, Karan's remaining studies are on me now. He's
+Dialogue: 0,0:01:50.14,0:01:53.70,Default,,0,0,0,,our own boy.
+Dialogue: 0,0:01:54.06,0:01:58.30,Default,,0,0,0,,He sees Kishan to the stairs like an honoured guest. The
+Dialogue: 0,0:01:58.36,0:02:02.60,Default,,0,0,0,,old man goes down the steps, having just signed away his
+Dialogue: 0,0:02:02.66,0:02:06.90,Default,,0,0,0,,forefathers' land to save his son. Rana turns, claps for tea,
+Dialogue: 0,0:02:06.96,0:02:11.20,Default,,0,0,0,,and the line shuffles one step forward.
+Dialogue: 0,0:02:11.56,0:02:14.38,Default,,0,0,0,,Ratan comes inside. The compounder slumps with relief and gestures at
+Dialogue: 0,0:02:14.44,0:02:17.26,Default,,0,0,0,,the money.
+Dialogue: 0,0:02:17.62,0:02:20.20,Default,,0,0,0,,Sahib, I didn't even touch it, he put it there himself.
+Dialogue: 0,0:02:20.56,0:02:24.02,Default,,0,0,0,,Pick it up. It isn't yours.
+Dialogue: 0,0:02:24.38,0:02:27.96,Default,,0,0,0,,The compounder gathers the wad and puts it in the drawer.
+Dialogue: 0,0:02:28.02,0:02:31.60,Default,,0,0,0,,Ratan goes to the tin door but doesn't open it. Beyond
+Dialogue: 0,0:02:31.66,0:02:35.24,Default,,0,0,0,,it is the file he signed last autumn, on its second
+Dialogue: 0,0:02:35.30,0:02:38.88,Default,,0,0,0,,page a name he never once turned back to look at.
+Dialogue: 0,0:02:38.94,0:02:42.52,Default,,0,0,0,,Sugna has come and stood at the inner door. Sitting among
+Dialogue: 0,0:02:42.58,0:02:46.16,Default,,0,0,0,,the women, she heard her brother's voice.
+Dialogue: 0,0:02:46.52,0:02:48.58,Default,,0,0,0,,The case was cleared yesterday. We came to collect her today.
+Dialogue: 0,0:02:48.64,0:02:50.70,Default,,0,0,0,,You've stopped it again.
+Dialogue: 0,0:02:51.06,0:02:55.56,Default,,0,0,0,,Sugna.
+Dialogue: 0,0:02:55.92,0:02:58.86,Default,,0,0,0,,She's been lying on ice four days, and now you'll take
+Dialogue: 0,0:02:58.92,0:03:01.86,Default,,0,0,0,,her two hundred kilometres away to be cut open again.
+Dialogue: 0,0:03:02.22,0:03:05.00,Default,,0,0,0,,The report they've made is a lie. I know how these
+Dialogue: 0,0:03:05.06,0:03:07.84,Default,,0,0,0,,are made, I've been making them twenty-five years.
+Dialogue: 0,0:03:08.20,0:03:10.67,Default,,0,0,0,,You know so much. When she was being sold to old
+Dialogue: 0,0:03:10.73,0:03:13.21,Default,,0,0,0,,Dhanraj, a girl of sixteen, where was all this knowing of
+Dialogue: 0,0:03:13.27,0:03:15.74,Default,,0,0,0,,yours then?
+Dialogue: 0,0:03:16.10,0:03:19.80,Default,,0,0,0,,He has no answer. Sugna raised that girl and watched her
+Dialogue: 0,0:03:19.86,0:03:23.56,Default,,0,0,0,,sold; Ratan only signed a paper.
+Dialogue: 0,0:03:23.92,0:03:25.06,Default,,0,0,0,,Who killed her, Sugna?
+Dialogue: 0,0:03:25.42,0:03:28.64,Default,,0,0,0,,Nobody killed her. She fell. That's what your department wrote. So
+Dialogue: 0,0:03:28.70,0:03:31.92,Default,,0,0,0,,let her be cremated, brother.
+Dialogue: 0,0:03:32.28,0:03:36.22,Default,,0,0,0,,She goes back into the dark. 'Nobody' sticks inside Ratan, a
+Dialogue: 0,0:03:36.28,0:03:40.22,Default,,0,0,0,,little too quick, a little too certain, but he sets it
+Dialogue: 0,0:03:40.28,0:03:44.22,Default,,0,0,0,,aside as a mother's grief.
+Dialogue: 0,0:03:44.58,0:03:48.34,Default,,0,0,0,,A small warm room, a single tubelight. Amma on the cot
+Dialogue: 0,0:03:48.40,0:03:52.15,Default,,0,0,0,,with her phone, the neighbour woman bent over, both beaming at
+Dialogue: 0,0:03:52.21,0:03:55.97,Default,,0,0,0,,a photo. Manju sits to one side, eyes down, present and
+Dialogue: 0,0:03:56.03,0:03:59.79,Default,,0,0,0,,absent at once. Deva comes in late, the day still riding
+Dialogue: 0,0:03:59.85,0:04:03.61,Default,,0,0,0,,him: he spent the whole day with a dead girl of
+Dialogue: 0,0:04:03.67,0:04:07.42,Default,,0,0,0,,sixteen, and now he's watching his sister's marriage settled on a
+Dialogue: 0,0:04:07.48,0:04:11.24,Default,,0,0,0,,phone screen.
+Dialogue: 0,0:04:11.60,0:04:14.95,Default,,0,0,0,,You're here! Look, a new photo of the boy came, standing
+Dialogue: 0,0:04:15.01,0:04:18.37,Default,,0,0,0,,with his tractor. They've got a good bit of land in
+Dialogue: 0,0:04:18.43,0:04:21.78,Default,,0,0,0,,Rajasthan. Manju will live like a queen there, a queen.
+Dialogue: 0,0:04:22.14,0:04:24.68,Default,,0,0,0,,Deva looks at the photo a moment, then at his sister,
+Dialogue: 0,0:04:24.74,0:04:27.28,Default,,0,0,0,,who hasn't lifted her eyes from her lap.
+Dialogue: 0,0:04:27.64,0:04:29.02,Default,,0,0,0,,Is Manju looking at the photo too?
+Dialogue: 0,0:04:29.38,0:04:32.40,Default,,0,0,0,,Oh, what'll she look at, she's shy, poor thing. It's a
+Dialogue: 0,0:04:32.46,0:04:35.48,Default,,0,0,0,,good house, Deva. Matches like this don't come every day.
+Dialogue: 0,0:04:35.84,0:04:38.82,Default,,0,0,0,,Manju lifts her eyes to her brother for a moment, then
+Dialogue: 0,0:04:38.88,0:04:41.86,Default,,0,0,0,,drops them back to her lap. Deva says nothing. The girl
+Dialogue: 0,0:04:41.92,0:04:44.90,Default,,0,0,0,,from the morgue is still behind his eyes, and his own
+Dialogue: 0,0:04:44.96,0:04:47.94,Default,,0,0,0,,sister sits three feet away while her life is settled on
+Dialogue: 0,0:04:48.00,0:04:50.98,Default,,0,0,0,,a phone.
+Dialogue: 0,0:04:51.34,0:04:55.12,Default,,0,0,0,,Mid-morning, the fan turning, two farmers waiting with their files and
+Dialogue: 0,0:04:55.18,0:04:58.96,Default,,0,0,0,,folded notes. The munshi is quietly on the phone, and puts
+Dialogue: 0,0:04:59.02,0:05:02.80,Default,,0,0,0,,it down quickly the moment Ratan enters.
+Dialogue: 0,0:05:03.16,0:05:03.74,Default,,0,0,0,,Whose call was that?
+Dialogue: 0,0:05:04.10,0:05:07.40,Default,,0,0,0,,Nothing, sahib. Mishra sahib was asking whether you'd come in.
+Dialogue: 0,0:05:07.76,0:05:11.34,Default,,0,0,0,,Ratan sits. The first farmer slides his file and a fold
+Dialogue: 0,0:05:11.40,0:05:14.98,Default,,0,0,0,,of notes across the desk. Ratan signs the file and slides
+Dialogue: 0,0:05:15.04,0:05:18.62,Default,,0,0,0,,the notes back with one finger. The farmer stares at him;
+Dialogue: 0,0:05:18.68,0:05:22.26,Default,,0,0,0,,this has never happened before.
+Dialogue: 0,0:05:22.62,0:05:25.44,Default,,0,0,0,,Sahib...?
+Dialogue: 0,0:05:25.80,0:05:27.34,Default,,0,0,0,,Keep it. Go.
+Dialogue: 0,0:05:27.70,0:05:30.55,Default,,0,0,0,,The farmer takes his money back and leaves, a little offended.
+Dialogue: 0,0:05:30.61,0:05:33.45,Default,,0,0,0,,The munshi watches and says nothing. Deva, at the next desk,
+Dialogue: 0,0:05:33.51,0:05:36.36,Default,,0,0,0,,is watching too.
+Dialogue: 0,0:05:36.72,0:05:39.86,Default,,0,0,0,,Sahib, this body business is all over the market now. Bherulal
+Dialogue: 0,0:05:39.92,0:05:43.06,Default,,0,0,0,,seth's men have been circling the hospital since morning. And Mishra
+Dialogue: 0,0:05:43.12,0:05:46.26,Default,,0,0,0,,sahib has called three times.
+Dialogue: 0,0:05:46.62,0:05:47.84,Default,,0,0,0,,Let them.
+Dialogue: 0,0:05:48.20,0:05:50.78,Default,,0,0,0,,He pulls a file toward himself. Deva steps closer and lowers
+Dialogue: 0,0:05:50.84,0:05:53.42,Default,,0,0,0,,his voice.
+Dialogue: 0,0:05:53.78,0:05:56.56,Default,,0,0,0,,Sahib, what you wrote last night, that two-hundred-kilometre order, will the
+Dialogue: 0,0:05:56.62,0:05:59.40,Default,,0,0,0,,body really get there? Won't those people stop it?
+Dialogue: 0,0:05:59.76,0:06:05.62,Default,,0,0,0,,They'll stop it. Watch how they stop it.
+Dialogue: 0,0:06:05.98,0:06:09.32,Default,,0,0,0,,Mishra stands at the window. He turns with that same usual
+Dialogue: 0,0:06:09.38,0:06:12.72,Default,,0,0,0,,warmth, but he's made three calls this morning.
+Dialogue: 0,0:06:13.08,0:06:16.56,Default,,0,0,0,,Sit, brother. Yesterday it seemed settled. Today I hear you've slapped
+Dialogue: 0,0:06:16.62,0:06:20.09,Default,,0,0,0,,down a second order, to the district headquarters. Ratan, a report's
+Dialogue: 0,0:06:20.15,0:06:23.63,Default,,0,0,0,,already in, plain and clear, death by fall. The paper's complete,
+Dialogue: 0,0:06:23.69,0:06:27.16,Default,,0,0,0,,the file's closed. So what's the sense in a second post-mortem,
+Dialogue: 0,0:06:27.22,0:06:30.70,Default,,0,0,0,,brother?
+Dialogue: 0,0:06:31.06,0:06:33.16,Default,,0,0,0,,Because the first one came the same day.
+Dialogue: 0,0:06:33.52,0:06:35.38,Default,,0,0,0,,So? The doctor was quick.
+Dialogue: 0,0:06:35.74,0:06:38.67,Default,,0,0,0,,You and I have had that quickness done for twenty-five years,
+Dialogue: 0,0:06:38.73,0:06:41.65,Default,,0,0,0,,Mishra. A proper post-mortem takes a week. We both know what
+Dialogue: 0,0:06:41.71,0:06:44.64,Default,,0,0,0,,a same-day report means.
+Dialogue: 0,0:06:45.00,0:06:48.38,Default,,0,0,0,,The warmth thins out. He tries reason; it's the one weapon
+Dialogue: 0,0:06:48.44,0:06:51.82,Default,,0,0,0,,he has.
+Dialogue: 0,0:06:52.18,0:06:55.74,Default,,0,0,0,,Fine, say you're right, the girl didn't fall. So what? This
+Dialogue: 0,0:06:55.80,0:06:59.35,Default,,0,0,0,,system's been running twenty-five years, Ratan, before you and I came.
+Dialogue: 0,0:06:59.41,0:07:02.97,Default,,0,0,0,,Now, at retirement, you'll set it straight? That girl won't come
+Dialogue: 0,0:07:03.03,0:07:06.58,Default,,0,0,0,,back from ten post-mortems. Who are you doing all this for,
+Dialogue: 0,0:07:06.64,0:07:10.20,Default,,0,0,0,,brother?
+Dialogue: 0,0:07:10.56,0:07:15.20,Default,,0,0,0,,Ratan doesn't answer. He can't, not in any way Mishra would
+Dialogue: 0,0:07:15.26,0:07:19.90,Default,,0,0,0,,understand. Mishra waits, and the silence doesn't budge the way his
+Dialogue: 0,0:07:19.96,0:07:24.60,Default,,0,0,0,,silences usually do. The warmth drains from his face, and what's
+Dialogue: 0,0:07:24.66,0:07:29.30,Default,,0,0,0,,underneath is just tiredness.
+Dialogue: 0,0:07:29.66,0:07:33.41,Default,,0,0,0,,All right, brother. I've explained, I've done my duty. Now this
+Dialogue: 0,0:07:33.47,0:07:37.23,Default,,0,0,0,,won't stay in my hands, it'll go up, to Rana sahib.
+Dialogue: 0,0:07:37.29,0:07:41.04,Default,,0,0,0,,Then don't say Mishra didn't warn you.
+Dialogue: 0,0:07:41.40,0:07:44.49,Default,,0,0,0,,Ratan stands. He's heard this name his whole life; this is
+Dialogue: 0,0:07:44.55,0:07:47.63,Default,,0,0,0,,the man who got his father's licence cancelled. He leaves without
+Dialogue: 0,0:07:47.69,0:07:50.78,Default,,0,0,0,,a word.
+Dialogue: 0,0:07:51.14,0:07:55.79,Default,,0,0,0,,The house Ratan grew up beside and never once went inside.
+Dialogue: 0,0:07:55.85,0:08:00.49,Default,,0,0,0,,Big, cold, full of money, somewhere a colour TV blaring, a
+Dialogue: 0,0:08:00.55,0:08:05.20,Default,,0,0,0,,deep-freeze humming, papers for a new tractor on the table. Bherulal
+Dialogue: 0,0:08:05.26,0:08:09.91,Default,,0,0,0,,sits at a low table counting notes, one wad, a rubber
+Dialogue: 0,0:08:09.97,0:08:14.61,Default,,0,0,0,,band, the next wad, like a man counting grain. His cold-eyed
+Dialogue: 0,0:08:14.67,0:08:19.32,Default,,0,0,0,,man stands waiting.
+Dialogue: 0,0:08:19.68,0:08:21.14,Default,,0,0,0,,Did you give it to the hospital man?
+Dialogue: 0,0:08:21.50,0:08:23.92,Default,,0,0,0,,Gave it, seth. The munshi, the compounder, all squared. Just that
+Dialogue: 0,0:08:23.98,0:08:26.40,Default,,0,0,0,,Panwar...
+Dialogue: 0,0:08:26.76,0:08:30.54,Default,,0,0,0,,Panwar I'll handle. He's our own man, family, he'll understand.
+Dialogue: 0,0:08:30.90,0:08:34.92,Default,,0,0,0,,Sugna has come and stopped at the inner door, a steel
+Dialogue: 0,0:08:34.98,0:08:39.00,Default,,0,0,0,,glass going cold in her hands. She's heard it all and
+Dialogue: 0,0:08:39.06,0:08:43.08,Default,,0,0,0,,she hasn't moved. Bherulal feels her presence but doesn't look up.
+Dialogue: 0,0:08:43.44,0:08:45.62,Default,,0,0,0,,You go inside. This is men's work.
+Dialogue: 0,0:08:45.98,0:08:48.92,Default,,0,0,0,,How much was the deal for my daughter? Alive, she had
+Dialogue: 0,0:08:48.98,0:08:51.92,Default,,0,0,0,,a price, and dead, she has one too.
+Dialogue: 0,0:08:52.28,0:08:54.96,Default,,0,0,0,,I'm not the one pricing her, Sugna. The world does. I'm
+Dialogue: 0,0:08:55.02,0:08:57.70,Default,,0,0,0,,just saving the house. I have a son, four years old.
+Dialogue: 0,0:08:57.76,0:09:00.44,Default,,0,0,0,,His name, his licence. Should I sink the whole house over
+Dialogue: 0,0:09:00.50,0:09:03.18,Default,,0,0,0,,one?
+Dialogue: 0,0:09:03.54,0:09:06.89,Default,,0,0,0,,Sugna looks at him, then at the money, and goes back
+Dialogue: 0,0:09:06.95,0:09:10.30,Default,,0,0,0,,into the dark of the house without a word. Bherulal looks
+Dialogue: 0,0:09:10.36,0:09:13.70,Default,,0,0,0,,at the empty doorway. For a moment his hands rest on
+Dialogue: 0,0:09:13.76,0:09:17.11,Default,,0,0,0,,the notes; then he ties the next wad tighter than before
+Dialogue: 0,0:09:17.17,0:09:20.52,Default,,0,0,0,,and doesn't look at that door again.
+Dialogue: 0,0:09:20.88,0:09:22.42,Default,,0,0,0,,And if someone asks about the girl?
+Dialogue: 0,0:09:22.78,0:09:25.68,Default,,0,0,0,,She fell. Foot slipped off the embankment, hit her head. It's
+Dialogue: 0,0:09:25.74,0:09:28.64,Default,,0,0,0,,been four days now, even God will write the same thing.
+Dialogue: 0,0:09:29.00,0:09:32.36,Default,,0,0,0,,A white SUV stands at the gate. Bherulal stands by it,
+Dialogue: 0,0:09:32.42,0:09:35.78,Default,,0,0,0,,not in mourning now but a big man solving a problem,
+Dialogue: 0,0:09:35.84,0:09:39.20,Default,,0,0,0,,the cold-eyed man a step behind. The moment Ratan comes out,
+Dialogue: 0,0:09:39.26,0:09:42.62,Default,,0,0,0,,he opens his arms.
+Dialogue: 0,0:09:42.98,0:09:46.60,Default,,0,0,0,,Arre, sahib! There's mourning at home and you're here buried in
+Dialogue: 0,0:09:46.66,0:09:50.28,Default,,0,0,0,,papers. Come, come home, have some tea. Your sister is weeping.
+Dialogue: 0,0:09:50.64,0:09:51.94,Default,,0,0,0,,How did the girl fall, Bherulal?
+Dialogue: 0,0:09:52.30,0:09:55.60,Default,,0,0,0,,The same thing again. Look, sahib, I'm a business man, I
+Dialogue: 0,0:09:55.66,0:09:58.96,Default,,0,0,0,,talk straight. Tell me, what do you want, land, money, a
+Dialogue: 0,0:09:59.02,0:10:02.32,Default,,0,0,0,,job for your boy somewhere? Whatever you say will be here
+Dialogue: 0,0:10:02.38,0:10:05.68,Default,,0,0,0,,by this evening. Just end this body business right here. It's
+Dialogue: 0,0:10:05.74,0:10:09.04,Default,,0,0,0,,a matter of one paper, and everything's fine.
+Dialogue: 0,0:10:09.40,0:10:10.62,Default,,0,0,0,,For the truth.
+Dialogue: 0,0:10:10.98,0:10:13.84,Default,,0,0,0,,Truth! Houses don't run on truth, sahib. I have a son,
+Dialogue: 0,0:10:13.90,0:10:16.76,Default,,0,0,0,,four years old. Next year the licence is to be made
+Dialogue: 0,0:10:16.82,0:10:19.68,Default,,0,0,0,,in his name. For that I need the family name clean,
+Dialogue: 0,0:10:19.74,0:10:22.60,Default,,0,0,0,,that's all. And you, his own maternal uncle, are putting a
+Dialogue: 0,0:10:22.66,0:10:25.52,Default,,0,0,0,,stain on that name, for a girl who isn't even here
+Dialogue: 0,0:10:25.58,0:10:28.44,Default,,0,0,0,,anymore.
+Dialogue: 0,0:10:28.80,0:10:29.94,Default,,0,0,0,,She was your own daughter.
+Dialogue: 0,0:10:30.30,0:10:33.20,Default,,0,0,0,,There are other daughters. There's only one son.
+Dialogue: 0,0:10:33.56,0:10:36.81,Default,,0,0,0,,He turns toward the SUV. Then he stops, as if a
+Dialogue: 0,0:10:36.87,0:10:40.11,Default,,0,0,0,,small thing has come to mind, and nods not to Ratan
+Dialogue: 0,0:10:40.17,0:10:43.42,Default,,0,0,0,,but to his cold-eyed man.
+Dialogue: 0,0:10:43.78,0:10:48.08,Default,,0,0,0,,It's a long road, two hundred kilometres, Panwar sahib. Early morning,
+Dialogue: 0,0:10:48.14,0:10:52.44,Default,,0,0,0,,deserted. A man alone, an old vehicle, anything can happen.
+Dialogue: 0,0:10:52.80,0:10:55.58,Default,,0,0,0,,Last month a sahib went down this same road at night.
+Dialogue: 0,0:10:55.64,0:10:58.42,Default,,0,0,0,,Bike skidded, finished on the spot. It's a bad road.
+Dialogue: 0,0:10:58.78,0:11:02.20,Default,,0,0,0,,He says it without any heat. By then Bherulal is already
+Dialogue: 0,0:11:02.26,0:11:05.68,Default,,0,0,0,,in the SUV, warm again, a hand raised in farewell.
+Dialogue: 0,0:11:06.04,0:11:08.46,Default,,0,0,0,,Think it over. The tea will be ready.
+Dialogue: 0,0:11:08.82,0:11:10.48,Default,,0,0,0,,The SUV pulls away. Tomorrow Ratan will go down that same
+Dialogue: 0,0:11:10.54,0:11:12.20,Default,,0,0,0,,road.
+Dialogue: 0,0:11:12.56,0:11:16.26,Default,,0,0,0,,Ratan and Deva in the hospital office. The clerk behind the
+Dialogue: 0,0:11:16.32,0:11:20.02,Default,,0,0,0,,counter is very sorry but won't budge an inch.
+Dialogue: 0,0:11:20.38,0:11:23.04,Default,,0,0,0,,A vehicle? There's only one hearse, sahib, and it's broken down
+Dialogue: 0,0:11:23.10,0:11:25.76,Default,,0,0,0,,today, with the mechanic.
+Dialogue: 0,0:11:26.12,0:11:27.10,Default,,0,0,0,,Will it be fixed by tomorrow?
+Dialogue: 0,0:11:27.46,0:11:30.73,Default,,0,0,0,,Can't say, the parts come from Indore. Come back in a
+Dialogue: 0,0:11:30.79,0:11:34.07,Default,,0,0,0,,week. The body will be here on ice till then, what's
+Dialogue: 0,0:11:34.13,0:11:37.40,Default,,0,0,0,,the hurry.
+Dialogue: 0,0:11:37.76,0:11:40.86,Default,,0,0,0,,There is a hurry. The family wants to do the last
+Dialogue: 0,0:11:40.92,0:11:44.02,Default,,0,0,0,,rites and —
+Dialogue: 0,0:11:44.38,0:11:45.84,Default,,0,0,0,,Any private vehicle? A tempo?
+Dialogue: 0,0:11:46.20,0:11:48.78,Default,,0,0,0,,A government body in a private vehicle? There's no rule for
+Dialogue: 0,0:11:48.84,0:11:51.42,Default,,0,0,0,,it, sahib. You need a form, you need approval from above.
+Dialogue: 0,0:11:51.48,0:11:54.06,Default,,0,0,0,,And in cases like these, approval hasn't been coming these days.
+Dialogue: 0,0:11:54.12,0:11:56.70,Default,,0,0,0,,You understand, don't you.
+Dialogue: 0,0:11:57.06,0:12:01.00,Default,,0,0,0,,Ratan understands. At every door it's the same hand, two hundred
+Dialogue: 0,0:12:01.06,0:12:05.00,Default,,0,0,0,,kilometres up, that never has to show its face. He doesn't
+Dialogue: 0,0:12:05.06,0:12:09.00,Default,,0,0,0,,waste his anger on a small man behind a counter.
+Dialogue: 0,0:12:09.36,0:12:11.06,Default,,0,0,0,,I understand.
+Dialogue: 0,0:12:11.42,0:12:14.52,Default,,0,0,0,,Outside, Deva is burning with it, the way only the young
+Dialogue: 0,0:12:14.58,0:12:17.68,Default,,0,0,0,,burn.
+Dialogue: 0,0:12:18.04,0:12:21.18,Default,,0,0,0,,Sahib, they've stopped the vehicle deliberately. We complain higher up —
+Dialogue: 0,0:12:21.54,0:12:24.31,Default,,0,0,0,,Higher up. Higher up is the very one who had the
+Dialogue: 0,0:12:24.37,0:12:27.13,Default,,0,0,0,,vehicle stopped, Deva. Paper won't work anymore. We'll have to find
+Dialogue: 0,0:12:27.19,0:12:29.96,Default,,0,0,0,,another way.
+Dialogue: 0,0:12:30.32,0:12:34.73,Default,,0,0,0,,By the river the pyre stands ready and built, wood stacked,
+Dialogue: 0,0:12:34.79,0:12:39.20,Default,,0,0,0,,ghee set out, the priest paid and sitting idle, and no
+Dialogue: 0,0:12:39.26,0:12:43.68,Default,,0,0,0,,body for the pyre. The family sits around it in the
+Dialogue: 0,0:12:43.74,0:12:48.15,Default,,0,0,0,,dust, the women in a circle, Sugna in the middle, dry-eyed,
+Dialogue: 0,0:12:48.21,0:12:52.62,Default,,0,0,0,,while the rest weep. Bherulal's cold-eyed man moves among the men
+Dialogue: 0,0:12:52.68,0:12:57.09,Default,,0,0,0,,standing at the edge, dropping a word here, a word there,
+Dialogue: 0,0:12:57.15,0:13:01.56,Default,,0,0,0,,and the whole town has chosen its side. Ratan comes down
+Dialogue: 0,0:13:01.62,0:13:06.04,Default,,0,0,0,,the path; the road passes right by this field and he
+Dialogue: 0,0:13:06.10,0:13:10.51,Default,,0,0,0,,has to come through here. The talk stops ahead of him.
+Dialogue: 0,0:13:10.57,0:13:14.98,Default,,0,0,0,,An old woman sees him and says it to his face.
+Dialogue: 0,0:13:15.34,0:13:18.72,Default,,0,0,0,,He's here. This is the one. He's her own maternal uncle,
+Dialogue: 0,0:13:18.78,0:13:22.16,Default,,0,0,0,,and he won't let the mother do her daughter's last rites,
+Dialogue: 0,0:13:22.22,0:13:25.60,Default,,0,0,0,,four days now. Is this police rule or bandit rule?
+Dialogue: 0,0:13:25.96,0:13:29.89,Default,,0,0,0,,A low murmur runs through the standing men. Ratan stops. He
+Dialogue: 0,0:13:29.95,0:13:33.87,Default,,0,0,0,,looks at the empty pyre, at the wood that won't be
+Dialogue: 0,0:13:33.93,0:13:37.86,Default,,0,0,0,,lit, and then past it at Sugna. For a moment his
+Dialogue: 0,0:13:37.92,0:13:41.85,Default,,0,0,0,,sister turns and looks at him. She isn't begging, isn't weeping.
+Dialogue: 0,0:13:41.91,0:13:45.83,Default,,0,0,0,,Then she turns her face away. Ratan walks on through that
+Dialogue: 0,0:13:45.89,0:13:49.82,Default,,0,0,0,,silence, and the men make way for him.
+Dialogue: 0,0:13:50.18,0:13:53.32,Default,,0,0,0,,Tempos and trucks parked for the night, the lone bulb of
+Dialogue: 0,0:13:53.38,0:13:56.52,Default,,0,0,0,,a tea stall. Ratan, out of uniform, stands with a wary
+Dialogue: 0,0:13:56.58,0:13:59.72,Default,,0,0,0,,tempo driver.
+Dialogue: 0,0:14:00.08,0:14:03.90,Default,,0,0,0,,Four o'clock tomorrow morning, district headquarters, one trip. It's government work,
+Dialogue: 0,0:14:03.96,0:14:07.78,Default,,0,0,0,,but the vehicle isn't government. The responsibility is mine.
+Dialogue: 0,0:14:08.14,0:14:09.44,Default,,0,0,0,,What's to be carried, sahib?
+Dialogue: 0,0:14:09.80,0:14:11.42,Default,,0,0,0,,A body.
+Dialogue: 0,0:14:11.78,0:14:14.20,Default,,0,0,0,,The man's hand half closes on the money.
+Dialogue: 0,0:14:14.56,0:14:17.25,Default,,0,0,0,,Bherulal seth's? Forgive me, sahib, I can't make an enemy of
+Dialogue: 0,0:14:17.31,0:14:19.99,Default,,0,0,0,,that house. My business is right here. Take it today and
+Dialogue: 0,0:14:20.05,0:14:22.74,Default,,0,0,0,,tomorrow my vehicles will be grounded.
+Dialogue: 0,0:14:23.10,0:14:27.57,Default,,0,0,0,,He hands the money back. Ratan takes it without argument. He
+Dialogue: 0,0:14:27.63,0:14:32.11,Default,,0,0,0,,knows how big a thing he's asking. Just then Deva speaks
+Dialogue: 0,0:14:32.17,0:14:36.64,Default,,0,0,0,,from the dark; he came looking and heard the last part.
+Dialogue: 0,0:14:37.00,0:14:40.27,Default,,0,0,0,,Sahib, my uncle has a tempo, across the border on the
+Dialogue: 0,0:14:40.33,0:14:43.61,Default,,0,0,0,,Rajasthan side. He's an outsider, his business isn't here, beyond Bherulal's
+Dialogue: 0,0:14:43.67,0:14:46.94,Default,,0,0,0,,grip. I'll talk to him, and I'll come along too.
+Dialogue: 0,0:14:47.30,0:14:50.60,Default,,0,0,0,,Ratan looks at the boy a moment, then nods once.
+Dialogue: 0,0:14:50.96,0:14:52.74,Default,,0,0,0,,Four o'clock. Don't tell anyone.
+Dialogue: 0,0:14:53.10,0:14:55.60,Default,,0,0,0,,The two of them stand together a moment in the dark.
+Dialogue: 0,0:14:55.96,0:14:59.18,Default,,0,0,0,,A whole different world, quite apart from the belt: a high
+Dialogue: 0,0:14:59.24,0:15:02.46,Default,,0,0,0,,gate, a paved road, and a lawn kept green in a
+Dialogue: 0,0:15:02.52,0:15:05.74,Default,,0,0,0,,district where the wells have run dry. Cars, men with guns
+Dialogue: 0,0:15:05.80,0:15:09.02,Default,,0,0,0,,who move like police but aren't. Ratan and Deva in the
+Dialogue: 0,0:15:09.08,0:15:12.30,Default,,0,0,0,,borrowed jeep. Deva takes the sprawl of it all in with
+Dialogue: 0,0:15:12.36,0:15:15.58,Default,,0,0,0,,his eyes.
+Dialogue: 0,0:15:15.94,0:15:17.32,Default,,0,0,0,,All this belongs to one MLA?
+Dialogue: 0,0:15:17.68,0:15:21.16,Default,,0,0,0,,MLA is the recent part. Before that his father was a
+Dialogue: 0,0:15:21.22,0:15:24.70,Default,,0,0,0,,bandit in the ravines. Then came the land, then the votes.
+Dialogue: 0,0:15:24.76,0:15:28.24,Default,,0,0,0,,Now he hands out licences, gives to whom he likes, snatches
+Dialogue: 0,0:15:28.30,0:15:31.78,Default,,0,0,0,,from whom he likes.
+Dialogue: 0,0:15:32.14,0:15:35.68,Default,,0,0,0,,A man at the gate waves them in without a check;
+Dialogue: 0,0:15:35.74,0:15:39.28,Default,,0,0,0,,they're expected. Ratan has gone completely still.
+Dialogue: 0,0:15:39.64,0:15:43.29,Default,,0,0,0,,A wide verandah. Rana holds the centre of it on a
+Dialogue: 0,0:15:43.35,0:15:46.99,Default,,0,0,0,,swing, a big carefree man in white, a phone in one
+Dialogue: 0,0:15:47.05,0:15:50.70,Default,,0,0,0,,hand, a line of petitioners before him. He disposes of each
+Dialogue: 0,0:15:50.76,0:15:54.41,Default,,0,0,0,,in a single breath, granting one, putting off another, never in
+Dialogue: 0,0:15:54.47,0:15:58.11,Default,,0,0,0,,a hurry. The moment he sees Ratan he stands, arms open,
+Dialogue: 0,0:15:58.17,0:16:01.82,Default,,0,0,0,,as if an old friend has come.
+Dialogue: 0,0:16:02.18,0:16:05.80,Default,,0,0,0,,Arre, Panwar sahib! Look who's here. Come, come, sit. This is
+Dialogue: 0,0:16:05.86,0:16:09.48,Default,,0,0,0,,your own home, sahib, your own home.
+Dialogue: 0,0:16:09.84,0:16:14.74,Default,,0,0,0,,Ratan doesn't sit. He stands a little too long, taking in
+Dialogue: 0,0:16:14.80,0:16:19.70,Default,,0,0,0,,that green lawn, the cars, those gunmen who move like police
+Dialogue: 0,0:16:19.76,0:16:24.66,Default,,0,0,0,,but aren't, and Rana watches him take it all in.
+Dialogue: 0,0:16:25.02,0:16:26.80,Default,,0,0,0,,My home was beyond Garoth, Rana sahib. It went with the
+Dialogue: 0,0:16:26.86,0:16:28.64,Default,,0,0,0,,licence.
+Dialogue: 0,0:16:29.00,0:16:33.26,Default,,0,0,0,,For half a moment the room goes quiet. Rana's smile doesn't
+Dialogue: 0,0:16:33.32,0:16:37.58,Default,,0,0,0,,fall; it deepens, as if Ratan has said something dear.
+Dialogue: 0,0:16:37.94,0:16:42.15,Default,,0,0,0,,Do sit. Just look at this man, that Chambal tale, the
+Dialogue: 0,0:16:42.21,0:16:46.41,Default,,0,0,0,,man who went alone into the ravines among the bandits, that's
+Dialogue: 0,0:16:46.47,0:16:50.68,Default,,0,0,0,,him. Your sahib was a hero in his day, beta.
+Dialogue: 0,0:16:51.04,0:16:53.26,Default,,0,0,0,,I didn't come to tell tales, Rana sahib. I came to
+Dialogue: 0,0:16:53.32,0:16:55.54,Default,,0,0,0,,talk about the Koteshwar girl.
+Dialogue: 0,0:16:55.90,0:16:59.76,Default,,0,0,0,,Straight to business. There'll be business too, sahib. First tea, first
+Dialogue: 0,0:16:59.82,0:17:03.68,Default,,0,0,0,,a little warmth. You gave the government a whole lifetime. Now
+Dialogue: 0,0:17:03.74,0:17:07.60,Default,,0,0,0,,is the time to take. In the end a man should
+Dialogue: 0,0:17:07.66,0:17:11.52,Default,,0,0,0,,get what is his due. Isn't that so?
+Dialogue: 0,0:17:11.88,0:17:15.52,Default,,0,0,0,,A servant brings the kasumba things, opium, water, and a palm
+Dialogue: 0,0:17:15.58,0:17:19.22,Default,,0,0,0,,cup. Rana takes them before the man can serve and mixes
+Dialogue: 0,0:17:19.28,0:17:22.92,Default,,0,0,0,,the kasumba with his own hand, that old hospitality, refusing which
+Dialogue: 0,0:17:22.98,0:17:26.62,Default,,0,0,0,,is taken as an insult.
+Dialogue: 0,0:17:26.98,0:17:30.76,Default,,0,0,0,,No, no, I'll give this with my own hand. The old
+Dialogue: 0,0:17:30.82,0:17:34.60,Default,,0,0,0,,way, sahib. People these days have forgotten all this, I don't
+Dialogue: 0,0:17:34.66,0:17:38.44,Default,,0,0,0,,forget. This same earth gives us everything, medicine, hospitality, honour. All
+Dialogue: 0,0:17:38.50,0:17:42.28,Default,,0,0,0,,from this one flower.
+Dialogue: 0,0:17:42.64,0:17:45.70,Default,,0,0,0,,Ratan looks at the offered palm and doesn't take it at
+Dialogue: 0,0:17:45.76,0:17:48.82,Default,,0,0,0,,once. Both know what it is: a thing taken from this
+Dialogue: 0,0:17:48.88,0:17:51.94,Default,,0,0,0,,hand must be returned to this hand.
+Dialogue: 0,0:17:52.30,0:17:53.96,Default,,0,0,0,,If you serve it with your own hand, then one day
+Dialogue: 0,0:17:54.02,0:17:55.68,Default,,0,0,0,,you'll come asking too, Rana sahib.
+Dialogue: 0,0:17:56.04,0:17:59.98,Default,,0,0,0,,For the first time Rana's pleasure is real, not for show.
+Dialogue: 0,0:18:00.04,0:18:03.98,Default,,0,0,0,,He likes that the old man sees it.
+Dialogue: 0,0:18:04.34,0:18:07.72,Default,,0,0,0,,See! That's exactly why you're a hero. But what a host
+Dialogue: 0,0:18:07.78,0:18:11.16,Default,,0,0,0,,gives is not returned, sahib. It's the custom.
+Dialogue: 0,0:18:11.52,0:18:16.04,Default,,0,0,0,,A moment. Then Ratan drinks from his hand, because in this
+Dialogue: 0,0:18:16.10,0:18:20.61,Default,,0,0,0,,house, from this palm, a man does not refuse, and he
+Dialogue: 0,0:18:20.67,0:18:25.19,Default,,0,0,0,,takes it the way a man finally signs a paper he's
+Dialogue: 0,0:18:25.25,0:18:29.76,Default,,0,0,0,,read all the way through. Rana watches him, certain he's just
+Dialogue: 0,0:18:29.82,0:18:34.34,Default,,0,0,0,,tied a thread around the old man's wrist.
+Dialogue: 0,0:18:34.70,0:18:37.52,Default,,0,0,0,,The petitioners have been cleared away. Now just the two of
+Dialogue: 0,0:18:37.58,0:18:40.40,Default,,0,0,0,,them, and Deva at the edge. Rana comes to it with
+Dialogue: 0,0:18:40.46,0:18:43.28,Default,,0,0,0,,no change in his warmth.
+Dialogue: 0,0:18:43.64,0:18:47.22,Default,,0,0,0,,Let me ask you something, don't take it badly. Your father's
+Dialogue: 0,0:18:47.28,0:18:50.86,Default,,0,0,0,,licence, the one beyond Garoth, what year was it cancelled?
+Dialogue: 0,0:18:51.22,0:18:54.84,Default,,0,0,0,,In seventy-eight. And it was cancelled on your father's weighing. Ask
+Dialogue: 0,0:18:54.90,0:18:58.52,Default,,0,0,0,,that too, Rana sahib.
+Dialogue: 0,0:18:58.88,0:19:03.38,Default,,0,0,0,,Silence. Deva is stunned. But Rana just nods slowly, sorrowful over
+Dialogue: 0,0:19:03.44,0:19:07.94,Default,,0,0,0,,it, as if Ratan has reminded him of something.
+Dialogue: 0,0:19:08.30,0:19:12.05,Default,,0,0,0,,It came out two kilos short, yes. The quarrels of fathers
+Dialogue: 0,0:19:12.11,0:19:15.85,Default,,0,0,0,,and grandfathers, sahib. You got ground in it, and to be
+Dialogue: 0,0:19:15.91,0:19:19.66,Default,,0,0,0,,honest, so did we. But that's old now. I can fix
+Dialogue: 0,0:19:19.72,0:19:23.46,Default,,0,0,0,,it. One phone call, and that licence comes back in your
+Dialogue: 0,0:19:23.52,0:19:27.27,Default,,0,0,0,,family's name. And that signet ring too, lying pawned at the
+Dialogue: 0,0:19:27.33,0:19:31.07,Default,,0,0,0,,seth's, let it be redeemed. A man pawning his forefathers' keepsake,
+Dialogue: 0,0:19:31.13,0:19:34.88,Default,,0,0,0,,it doesn't look good.
+Dialogue: 0,0:19:35.24,0:19:38.43,Default,,0,0,0,,That signet ring. He even knows about the ring. Ratan's face
+Dialogue: 0,0:19:38.49,0:19:41.69,Default,,0,0,0,,doesn't move, but on the wall he came in against, one
+Dialogue: 0,0:19:41.75,0:19:44.94,Default,,0,0,0,,hand now rests.
+Dialogue: 0,0:19:45.30,0:19:46.68,Default,,0,0,0,,The price?
+Dialogue: 0,0:19:47.04,0:19:49.74,Default,,0,0,0,,Rana seems wounded by the word, as if Ratan has misread
+Dialogue: 0,0:19:49.80,0:19:52.50,Default,,0,0,0,,a kindness.
+Dialogue: 0,0:19:52.86,0:19:56.77,Default,,0,0,0,,Price? There's no price, sahib. I'm not getting you to do
+Dialogue: 0,0:19:56.83,0:20:00.75,Default,,0,0,0,,anything. That Koteshwar girl, she fell, poor thing, that's what the
+Dialogue: 0,0:20:00.81,0:20:04.72,Default,,0,0,0,,paper says too. Just let her stay fallen. Give the body
+Dialogue: 0,0:20:04.78,0:20:08.69,Default,,0,0,0,,to the family, let them do the last rites. You don't
+Dialogue: 0,0:20:08.75,0:20:12.67,Default,,0,0,0,,have to do anything new. What you've done for twenty-five years,
+Dialogue: 0,0:20:12.73,0:20:16.64,Default,,0,0,0,,just look the other way one more time, that's all.
+Dialogue: 0,0:20:17.00,0:20:20.43,Default,,0,0,0,,Rana is asking nothing of him, only to stay the same
+Dialogue: 0,0:20:20.49,0:20:23.92,Default,,0,0,0,,man he's been for twenty-five years, and to look away one
+Dialogue: 0,0:20:23.98,0:20:27.40,Default,,0,0,0,,more time. This goes deeper than any threat. Ratan's face doesn't
+Dialogue: 0,0:20:27.46,0:20:30.89,Default,,0,0,0,,move, but on the wall he came in against, both hands
+Dialogue: 0,0:20:30.95,0:20:34.38,Default,,0,0,0,,now rest.
+Dialogue: 0,0:20:34.74,0:20:38.52,Default,,0,0,0,,The dead girl won't come back, sahib. But a living family,
+Dialogue: 0,0:20:38.58,0:20:42.36,Default,,0,0,0,,your own, its licence can come back.
+Dialogue: 0,0:20:42.72,0:20:46.41,Default,,0,0,0,,This is the very thing Ratan has wanted for twenty-five years,
+Dialogue: 0,0:20:46.47,0:20:50.16,Default,,0,0,0,,set before him with warmth, in the same cup he's already
+Dialogue: 0,0:20:50.22,0:20:53.91,Default,,0,0,0,,drunk from. His father's licence. That ring back on his finger.
+Dialogue: 0,0:20:53.97,0:20:57.66,Default,,0,0,0,,And all of it just for one signature, which he's given
+Dialogue: 0,0:20:57.72,0:21:01.41,Default,,0,0,0,,a thousand times. He's looked away for far less than this.
+Dialogue: 0,0:21:01.47,0:21:05.16,Default,,0,0,0,,He looks at Rana's open, friendly face, and at that green
+Dialogue: 0,0:21:05.22,0:21:08.91,Default,,0,0,0,,lawn grown on his family's dead water, and stays silent a
+Dialogue: 0,0:21:08.97,0:21:12.66,Default,,0,0,0,,long time.
+Dialogue: 0,0:21:13.02,0:21:14.24,Default,,0,0,0,,The girl was my niece.
+Dialogue: 0,0:21:14.60,0:21:17.06,Default,,0,0,0,,Then even better. You're doing it for your own blood after
+Dialogue: 0,0:21:17.12,0:21:19.58,Default,,0,0,0,,all. For family.
+Dialogue: 0,0:21:19.94,0:21:23.24,Default,,0,0,0,,No.
+Dialogue: 0,0:21:23.60,0:21:27.30,Default,,0,0,0,,He neither argues nor explains. He sets the empty cup down
+Dialogue: 0,0:21:27.36,0:21:31.06,Default,,0,0,0,,and turns to leave. For a moment the warmth vanishes from
+Dialogue: 0,0:21:31.12,0:21:34.82,Default,,0,0,0,,Rana's face. The host steps back and the thing sitting beneath
+Dialogue: 0,0:21:34.88,0:21:38.58,Default,,0,0,0,,him peers out and weighs Ratan.
+Dialogue: 0,0:21:38.94,0:21:41.87,Default,,0,0,0,,Think it over, Panwar sahib. Nobody's in a hurry. But don't
+Dialogue: 0,0:21:41.93,0:21:44.85,Default,,0,0,0,,take too long either. Two years is a long time, and
+Dialogue: 0,0:21:44.91,0:21:47.84,Default,,0,0,0,,a very short one too.
+Dialogue: 0,0:21:48.20,0:21:53.26,Default,,0,0,0,,Ratan walks out through the petitioners waiting their turn. Behind him
+Dialogue: 0,0:21:53.32,0:21:58.38,Default,,0,0,0,,Rana is warm again, calling the next man.
+Dialogue: 0,0:21:58.74,0:22:01.72,Default,,0,0,0,,The jeep on the road, the green gate shrinking behind. Deva
+Dialogue: 0,0:22:01.78,0:22:04.76,Default,,0,0,0,,is driving. He's just watched a man be offered everything, say
+Dialogue: 0,0:22:04.82,0:22:07.80,Default,,0,0,0,,a single word, and walk out, and he can't hold himself
+Dialogue: 0,0:22:07.86,0:22:10.84,Default,,0,0,0,,back.
+Dialogue: 0,0:22:11.20,0:22:13.54,Default,,0,0,0,,Sahib, that licence was your family's. And the ring too. You
+Dialogue: 0,0:22:13.60,0:22:15.94,Default,,0,0,0,,refused.
+Dialogue: 0,0:22:16.30,0:22:16.56,Default,,0,0,0,,Yes.
+Dialogue: 0,0:22:16.92,0:22:18.94,Default,,0,0,0,,For a girl who isn't even here anymore.
+Dialogue: 0,0:22:19.30,0:22:23.48,Default,,0,0,0,,You're saying it too. Mishra says it, Bherulal says it, Rana
+Dialogue: 0,0:22:23.54,0:22:27.72,Default,,0,0,0,,says it. Everyone says the same thing. Why, for a dead
+Dialogue: 0,0:22:27.78,0:22:31.96,Default,,0,0,0,,girl. Nobody asks who she was for when she was alive.
+Dialogue: 0,0:22:32.32,0:22:35.98,Default,,0,0,0,,Deva has no answer. He drives. He brought his whole family
+Dialogue: 0,0:22:36.04,0:22:39.70,Default,,0,0,0,,to settle in a border town so his sister could marry
+Dialogue: 0,0:22:39.76,0:22:43.42,Default,,0,0,0,,into a good house, and today the two halves of his
+Dialogue: 0,0:22:43.48,0:22:47.14,Default,,0,0,0,,day have come face to face inside him.
+Dialogue: 0,0:22:47.50,0:22:51.26,Default,,0,0,0,,A deserted highway in the dark, the tempo racing, Deva's uncle's,
+Dialogue: 0,0:22:51.32,0:22:55.09,Default,,0,0,0,,with an out-of-state plate. The cloth-wrapped body is in the back.
+Dialogue: 0,0:22:55.15,0:22:58.91,Default,,0,0,0,,Ratan in front, Deva in the middle, the driver hunched over
+Dialogue: 0,0:22:58.97,0:23:02.74,Default,,0,0,0,,the wheel. A Bolero has been behind them a long while,
+Dialogue: 0,0:23:02.80,0:23:06.56,Default,,0,0,0,,headlights steady, holding its distance.
+Dialogue: 0,0:23:06.92,0:23:09.26,Default,,0,0,0,,Sahib, that Bolero. It's been on our tail since the station.
+Dialogue: 0,0:23:09.62,0:23:11.72,Default,,0,0,0,,I see it.
+Dialogue: 0,0:23:12.08,0:23:16.02,Default,,0,0,0,,Deva, what work have you handed me, brother. A body, and
+Dialogue: 0,0:23:16.08,0:23:20.02,Default,,0,0,0,,a vehicle on our tail. I'm an outsider.
+Dialogue: 0,0:23:20.38,0:23:23.76,Default,,0,0,0,,Keep driving. Don't stop, no matter what happens.
+Dialogue: 0,0:23:24.12,0:23:27.85,Default,,0,0,0,,Ahead, where the road narrows over a culvert, a tractor-trolley stands
+Dialogue: 0,0:23:27.91,0:23:31.63,Default,,0,0,0,,across it. Two men stand by it, putting no real effort
+Dialogue: 0,0:23:31.69,0:23:35.42,Default,,0,0,0,,into moving it. Behind them the Bolero is closing in.
+Dialogue: 0,0:23:35.78,0:23:38.52,Default,,0,0,0,,The road's blocked. Sahib, I was telling you —
+Dialogue: 0,0:23:38.88,0:23:40.74,Default,,0,0,0,,Don't look back. Take it down into the field, run it
+Dialogue: 0,0:23:40.80,0:23:42.66,Default,,0,0,0,,along the embankment.
+Dialogue: 0,0:23:43.02,0:23:45.55,Default,,0,0,0,,The driver hesitates; the tempo isn't made for fields. The men
+Dialogue: 0,0:23:45.61,0:23:48.13,Default,,0,0,0,,by the tractor start walking toward them. Deva is already half
+Dialogue: 0,0:23:48.19,0:23:50.72,Default,,0,0,0,,out of his seat.
+Dialogue: 0,0:23:51.08,0:23:54.70,Default,,0,0,0,,Deva, sit. Drive!
+Dialogue: 0,0:23:55.06,0:23:58.63,Default,,0,0,0,,The driver takes the tempo off the road and onto the
+Dialogue: 0,0:23:58.69,0:24:02.26,Default,,0,0,0,,shallow embankment, jolting along the field's edge, the body bouncing in
+Dialogue: 0,0:24:02.32,0:24:05.90,Default,,0,0,0,,the back, and climbs back onto the road past the culvert.
+Dialogue: 0,0:24:05.96,0:24:09.53,Default,,0,0,0,,The Bolero gets stuck behind the very tractor put there to
+Dialogue: 0,0:24:09.59,0:24:13.16,Default,,0,0,0,,trap them. The men shout. The tempo disappears into the haze.
+Dialogue: 0,0:24:13.52,0:24:16.26,Default,,0,0,0,,They came to stop us. All this for one body.
+Dialogue: 0,0:24:16.62,0:24:19.88,Default,,0,0,0,,Nobody does all this for one body. The man hiding it
+Dialogue: 0,0:24:19.94,0:24:23.20,Default,,0,0,0,,is afraid of something else.
+Dialogue: 0,0:24:23.56,0:24:26.82,Default,,0,0,0,,Mishra on the phone, the warmth gone, just business, calling ahead
+Dialogue: 0,0:24:26.88,0:24:30.14,Default,,0,0,0,,before the body arrives.
+Dialogue: 0,0:24:30.50,0:24:34.29,Default,,0,0,0,,Yes, district headquarters hospital, forensics. Put me on to Doctor Khare.
+Dialogue: 0,0:24:34.35,0:24:38.15,Default,,0,0,0,,...Doctor sahib, this is Mishra, from Amargarh CBN. A body's coming
+Dialogue: 0,0:24:38.21,0:24:42.00,Default,,0,0,0,,to you, the Koteshwar one. Look, the case is already closed,
+Dialogue: 0,0:24:42.06,0:24:45.85,Default,,0,0,0,,the report's clean. This second post-mortem is just a cranky officer's
+Dialogue: 0,0:24:45.91,0:24:49.71,Default,,0,0,0,,whim, the poor man's at retirement. You understand, don't you, there's
+Dialogue: 0,0:24:49.77,0:24:53.56,Default,,0,0,0,,no need to dig too much.
+Dialogue: 0,0:24:53.92,0:24:58.22,Default,,0,0,0,,He listens. Whatever's said from the other end is short, and
+Dialogue: 0,0:24:58.28,0:25:02.58,Default,,0,0,0,,not what he wanted. The smoothness falters.
+Dialogue: 0,0:25:02.94,0:25:04.36,Default,,0,0,0,,...No, that's all right, Doctor sahib. Forgive me, sorry to trouble
+Dialogue: 0,0:25:04.42,0:25:05.84,Default,,0,0,0,,you.
+Dialogue: 0,0:25:06.20,0:25:08.62,Default,,0,0,0,,He hangs up and sits staring at the phone. Some doors
+Dialogue: 0,0:25:08.68,0:25:11.10,Default,,0,0,0,,are so high up the road that his hand doesn't reach
+Dialogue: 0,0:25:11.16,0:25:13.58,Default,,0,0,0,,them.
+Dialogue: 0,0:25:13.94,0:25:18.12,Default,,0,0,0,,A big, hard hospital on the edge of the city. The
+Dialogue: 0,0:25:18.18,0:25:22.36,Default,,0,0,0,,tempo comes in; Ratan and Deva carry the wrapped body inside
+Dialogue: 0,0:25:22.42,0:25:26.60,Default,,0,0,0,,and no one helps. Doctor Khare meets them with a clipboard,
+Dialogue: 0,0:25:26.66,0:25:30.84,Default,,0,0,0,,in his fifties, a crumpled coat, tired eyes.
+Dialogue: 0,0:25:31.20,0:25:33.86,Default,,0,0,0,,The Koteshwar one? Ratan Singh Panwar. You're the one who sent
+Dialogue: 0,0:25:33.92,0:25:36.58,Default,,0,0,0,,her? A call just came from Amargarh, saying don't dig too
+Dialogue: 0,0:25:36.64,0:25:39.30,Default,,0,0,0,,much.
+Dialogue: 0,0:25:39.66,0:25:40.24,Default,,0,0,0,,And you?
+Dialogue: 0,0:25:40.60,0:25:43.85,Default,,0,0,0,,I've got six bodies today. No seth from Amargarh has done
+Dialogue: 0,0:25:43.91,0:25:47.15,Default,,0,0,0,,me any favours. Whatever I see, I'll write down. I've no
+Dialogue: 0,0:25:47.21,0:25:50.46,Default,,0,0,0,,time for nonsense.
+Dialogue: 0,0:25:50.82,0:25:53.04,Default,,0,0,0,,For the first time the road has reached a place the
+Dialogue: 0,0:25:53.10,0:25:55.32,Default,,0,0,0,,hand from above doesn't reach.
+Dialogue: 0,0:25:55.68,0:25:59.54,Default,,0,0,0,,A cold room, a steel table, a drain in the floor.
+Dialogue: 0,0:25:59.60,0:26:03.46,Default,,0,0,0,,Khare opens the girl with those quick, unhesitating hands that have
+Dialogue: 0,0:26:03.52,0:26:07.38,Default,,0,0,0,,done this work ten thousand times. Ratan stands at the head.
+Dialogue: 0,0:26:07.44,0:26:11.30,Default,,0,0,0,,Deva, by the wall, has gone pale. Khare studies him a
+Dialogue: 0,0:26:11.36,0:26:15.22,Default,,0,0,0,,moment before he begins.
+Dialogue: 0,0:26:15.58,0:26:17.72,Default,,0,0,0,,Female, age sixteen, seventeen. Injury to the back of the head.
+Dialogue: 0,0:26:17.78,0:26:19.92,Default,,0,0,0,,...Hmm.
+Dialogue: 0,0:26:20.28,0:26:20.70,Default,,0,0,0,,What is it?
+Dialogue: 0,0:26:21.06,0:26:21.72,Default,,0,0,0,,Wait a moment.
+Dialogue: 0,0:26:22.08,0:26:25.90,Default,,0,0,0,,He picks up the blade. At the first incision Deva turns
+Dialogue: 0,0:26:25.96,0:26:29.78,Default,,0,0,0,,his face away, then walks out with a hand over his
+Dialogue: 0,0:26:29.84,0:26:33.66,Default,,0,0,0,,mouth. Ratan doesn't look away. He's signed a hundred such papers
+Dialogue: 0,0:26:33.72,0:26:37.54,Default,,0,0,0,,without once standing in the room. This one he stays for.
+Dialogue: 0,0:26:37.90,0:26:40.83,Default,,0,0,0,,Later, the work done. Khare wipes his hands and tells them
+Dialogue: 0,0:26:40.89,0:26:43.81,Default,,0,0,0,,flatly, the way he'd tell any one of the day's other
+Dialogue: 0,0:26:43.87,0:26:46.80,Default,,0,0,0,,six bodies.
+Dialogue: 0,0:26:47.16,0:26:49.34,Default,,0,0,0,,This girl didn't die of this head injury.
+Dialogue: 0,0:26:49.70,0:26:52.36,Default,,0,0,0,,Meaning?
+Dialogue: 0,0:26:52.72,0:26:56.41,Default,,0,0,0,,Meaning, when this injury was inflicted, she was already dead. There's
+Dialogue: 0,0:26:56.47,0:27:00.15,Default,,0,0,0,,no blood pooled under the wound, and in a living body
+Dialogue: 0,0:27:00.21,0:27:03.90,Default,,0,0,0,,it pools. Her head was struck against the embankment after death,
+Dialogue: 0,0:27:03.96,0:27:07.65,Default,,0,0,0,,later. There are pressure marks on the throat, tiny blood spots
+Dialogue: 0,0:27:07.71,0:27:11.39,Default,,0,0,0,,in the eyes. She was strangled. She didn't fall, she was
+Dialogue: 0,0:27:11.45,0:27:15.14,Default,,0,0,0,,killed first and then made to look fallen.
+Dialogue: 0,0:27:15.50,0:27:18.45,Default,,0,0,0,,What Ratan had known ever since he saw that low embankment
+Dialogue: 0,0:27:18.51,0:27:21.47,Default,,0,0,0,,was finally said in a clean room, from the mouth of
+Dialogue: 0,0:27:21.53,0:27:24.48,Default,,0,0,0,,a man with nothing to gain by it.
+Dialogue: 0,0:27:24.84,0:27:28.94,Default,,0,0,0,,By whom?
+Dialogue: 0,0:27:29.30,0:27:32.39,Default,,0,0,0,,That's your job. I can only tell you that someone killed
+Dialogue: 0,0:27:32.45,0:27:35.53,Default,,0,0,0,,her up close, with their own hands. And no girl lets
+Dialogue: 0,0:27:35.59,0:27:38.68,Default,,0,0,0,,a stranger get that close.
+Dialogue: 0,0:27:39.04,0:27:41.14,Default,,0,0,0,,Ratan says nothing. He's thinking of a big house full of
+Dialogue: 0,0:27:41.20,0:27:43.30,Default,,0,0,0,,family.
+Dialogue: 0,0:27:43.66,0:27:47.12,Default,,0,0,0,,Outside, the day is a little too bright after that cold
+Dialogue: 0,0:27:47.18,0:27:50.64,Default,,0,0,0,,room. Deva sits on a step, wrung out. Ratan comes out
+Dialogue: 0,0:27:50.70,0:27:54.16,Default,,0,0,0,,with the folded report in his hand, two typed pages and
+Dialogue: 0,0:27:54.22,0:27:57.68,Default,,0,0,0,,a stamp. Khare follows, lighting a cigarette.
+Dialogue: 0,0:27:58.04,0:28:01.69,Default,,0,0,0,,Inspector, a piece of free advice. This paper is yours now.
+Dialogue: 0,0:28:01.75,0:28:05.40,Default,,0,0,0,,The Amargarh people didn't want it made, which means there's a
+Dialogue: 0,0:28:05.46,0:28:09.12,Default,,0,0,0,,big man's name in it, or it leads to one. I'm
+Dialogue: 0,0:28:09.18,0:28:12.83,Default,,0,0,0,,two hundred kilometres away, nothing will happen to me. But you
+Dialogue: 0,0:28:12.89,0:28:16.54,Default,,0,0,0,,live right among them. Be careful, sahib.
+Dialogue: 0,0:28:16.90,0:28:20.12,Default,,0,0,0,,It's too late for careful now. Twenty-five years.
+Dialogue: 0,0:28:20.48,0:28:24.31,Default,,0,0,0,,He doesn't explain it and Khare doesn't ask. Deva looks up
+Dialogue: 0,0:28:24.37,0:28:28.21,Default,,0,0,0,,at him from the step. They've won nothing; they've only made
+Dialogue: 0,0:28:28.27,0:28:32.10,Default,,0,0,0,,one thing true, and now it has to be carried.
+Dialogue: 0,0:28:32.46,0:28:35.83,Default,,0,0,0,,On the way back, in a town that isn't theirs, Ratan
+Dialogue: 0,0:28:35.89,0:28:39.25,Default,,0,0,0,,stops at a small post office. He photographs both pages of
+Dialogue: 0,0:28:39.31,0:28:42.68,Default,,0,0,0,,the report into Deva's phone. Then he buys an envelope, writes
+Dialogue: 0,0:28:42.74,0:28:46.11,Default,,0,0,0,,his own home address on it, seals the original report inside,
+Dialogue: 0,0:28:46.17,0:28:49.53,Default,,0,0,0,,and posts it. A registry receipt comes across the counter and
+Dialogue: 0,0:28:49.59,0:28:52.96,Default,,0,0,0,,he tucks it away carefully.
+Dialogue: 0,0:28:53.32,0:28:56.22,Default,,0,0,0,,Sahib, you've got the report already. Why post it?
+Dialogue: 0,0:28:56.58,0:29:00.49,Default,,0,0,0,,What's with me can be snatched, can be burned. But what's
+Dialogue: 0,0:29:00.55,0:29:04.47,Default,,0,0,0,,been entered in the post, with a government stamp and date,
+Dialogue: 0,0:29:04.53,0:29:08.44,Default,,0,0,0,,no one can erase now. Whatever happens to me.
+Dialogue: 0,0:29:08.80,0:29:11.86,Default,,0,0,0,,Deva hears that last line and doesn't like it. Ratan walks
+Dialogue: 0,0:29:11.92,0:29:14.98,Default,,0,0,0,,back toward the tempo, and the report sets off behind him
+Dialogue: 0,0:29:15.04,0:29:18.10,Default,,0,0,0,,through the post, on its way home.
+Dialogue: 0,0:29:18.46,0:29:21.76,Default,,0,0,0,,Very late at night. Deva has come home from the district
+Dialogue: 0,0:29:21.82,0:29:25.12,Default,,0,0,0,,headquarters, that incision still in his eyes, he stood in a
+Dialogue: 0,0:29:25.18,0:29:28.48,Default,,0,0,0,,cold room and watched what was done to a girl of
+Dialogue: 0,0:29:28.54,0:29:31.84,Default,,0,0,0,,sixteen who said no. Amma is on the phone in the
+Dialogue: 0,0:29:31.90,0:29:35.20,Default,,0,0,0,,next room, happy; the Rajasthan match is all but settled. Manju
+Dialogue: 0,0:29:35.26,0:29:38.56,Default,,0,0,0,,sits with her books that she no longer opens. Deva sits
+Dialogue: 0,0:29:38.62,0:29:41.92,Default,,0,0,0,,down across from her and asks the thing no one in
+Dialogue: 0,0:29:41.98,0:29:45.28,Default,,0,0,0,,this house asks.
+Dialogue: 0,0:29:45.64,0:29:47.70,Default,,0,0,0,,Manju. This Rajasthan match. What do you yourself want? Tell me
+Dialogue: 0,0:29:47.76,0:29:49.82,Default,,0,0,0,,the truth.
+Dialogue: 0,0:29:50.18,0:29:53.48,Default,,0,0,0,,Maa's seen it, hasn't she. Whatever you all think is right.
+Dialogue: 0,0:29:53.84,0:29:55.62,Default,,0,0,0,,Forget Maa. I'm asking you. Do you want to go into
+Dialogue: 0,0:29:55.68,0:29:57.46,Default,,0,0,0,,that house?
+Dialogue: 0,0:29:57.82,0:30:00.76,Default,,0,0,0,,Manju opens her mouth and finds she has no answer ready.
+Dialogue: 0,0:30:00.82,0:30:03.76,Default,,0,0,0,,No one ever taught her to have a want of her
+Dialogue: 0,0:30:03.82,0:30:06.76,Default,,0,0,0,,own, let alone to speak it. She looks toward her mother's
+Dialogue: 0,0:30:06.82,0:30:09.76,Default,,0,0,0,,voice from the next room.
+Dialogue: 0,0:30:10.12,0:30:14.38,Default,,0,0,0,,I don't know.
+Dialogue: 0,0:30:14.74,0:30:17.90,Default,,0,0,0,,It's the truest thing said in this house in weeks. Deva
+Dialogue: 0,0:30:17.96,0:30:21.12,Default,,0,0,0,,looks at his sister, and the girl from the steel table
+Dialogue: 0,0:30:21.18,0:30:24.34,Default,,0,0,0,,won't leave the room. He doesn't push her; he has nothing
+Dialogue: 0,0:30:24.40,0:30:27.56,Default,,0,0,0,,to give her yet.
+Dialogue: 0,0:30:27.92,0:30:31.58,Default,,0,0,0,,Manju has gone inside. Under Amma's glow there's a worry now;
+Dialogue: 0,0:30:31.64,0:30:35.30,Default,,0,0,0,,the boy's family called after the photo went round.
+Dialogue: 0,0:30:35.66,0:30:38.83,Default,,0,0,0,,There's one thing those people were saying. At the wedding the
+Dialogue: 0,0:30:38.89,0:30:42.05,Default,,0,0,0,,boy needs a Bullet, a motorcycle, and a little gold. It's
+Dialogue: 0,0:30:42.11,0:30:45.28,Default,,0,0,0,,a big house, their standing has to be kept up too.
+Dialogue: 0,0:30:45.64,0:30:47.26,Default,,0,0,0,,A Bullet and gold. How much?
+Dialogue: 0,0:30:47.62,0:30:49.64,Default,,0,0,0,,Deva, all this happens anyway. If your father were here, he
+Dialogue: 0,0:30:49.70,0:30:51.72,Default,,0,0,0,,too would —
+Dialogue: 0,0:30:52.08,0:30:55.54,Default,,0,0,0,,This is dowry, Maa. In plain words, dowry.
+Dialogue: 0,0:30:55.90,0:30:58.99,Default,,0,0,0,,Not dowry, it's custom. It's give and take. It happens in
+Dialogue: 0,0:30:59.05,0:31:02.13,Default,,0,0,0,,every house. To marry off a girl you have to give.
+Dialogue: 0,0:31:02.19,0:31:05.28,Default,,0,0,0,,Why are you acting like this today?
+Dialogue: 0,0:31:05.64,0:31:08.96,Default,,0,0,0,,Deva doesn't answer. He spent four days in another district learning
+Dialogue: 0,0:31:09.02,0:31:12.34,Default,,0,0,0,,the market price of a girl, and now that same price
+Dialogue: 0,0:31:12.40,0:31:15.72,Default,,0,0,0,,has followed him home, sat down at his own table, and
+Dialogue: 0,0:31:15.78,0:31:19.10,Default,,0,0,0,,is calling itself custom.
+Dialogue: 0,0:31:19.46,0:31:22.98,Default,,0,0,0,,On foot, without any paper, Ratan tracks down the village's human
+Dialogue: 0,0:31:23.04,0:31:26.57,Default,,0,0,0,,rubble: Ganga, a doda-chura addict, dried up and shaking, propped against
+Dialogue: 0,0:31:26.63,0:31:30.15,Default,,0,0,0,,a wall behind the country-liquor shop. A man with nothing left
+Dialogue: 0,0:31:30.21,0:31:33.74,Default,,0,0,0,,to lose, and that's what makes him the only one who'll
+Dialogue: 0,0:31:33.80,0:31:37.32,Default,,0,0,0,,talk.
+Dialogue: 0,0:31:37.68,0:31:39.86,Default,,0,0,0,,You lie around here at night, near the fields?
+Dialogue: 0,0:31:40.22,0:31:43.32,Default,,0,0,0,,Where would I go, sahib. My veins are full of doda.
+Dialogue: 0,0:31:43.38,0:31:46.48,Default,,0,0,0,,I'm fit for nowhere now.
+Dialogue: 0,0:31:46.84,0:31:54.46,Default,,0,0,0,,That night, Bherulal's girl's night, did you see anything?
+Dialogue: 0,0:31:54.82,0:31:59.59,Default,,0,0,0,,I saw it. Late at night there was light in the
+Dialogue: 0,0:31:59.65,0:32:04.41,Default,,0,0,0,,field, torches burning. Two or three men, Bherulal seth's, the big-car
+Dialogue: 0,0:32:04.47,0:32:09.24,Default,,0,0,0,,ones. They were carrying something toward the embankment.
+Dialogue: 0,0:32:09.60,0:32:14.34,Default,,0,0,0,,The girl?
+Dialogue: 0,0:32:14.70,0:32:19.15,Default,,0,0,0,,Something heavy wrapped in cloth. I turned my face away, sahib.
+Dialogue: 0,0:32:19.21,0:32:23.65,Default,,0,0,0,,Whoever keeps his eyes open at night here doesn't see the
+Dialogue: 0,0:32:23.71,0:32:28.16,Default,,0,0,0,,morning. I'm half dead anyway.
+Dialogue: 0,0:32:28.52,0:32:31.47,Default,,0,0,0,,Late at night. Ratan sits at his desk with the copy
+Dialogue: 0,0:32:31.53,0:32:34.49,Default,,0,0,0,,of the report, working the thing out half to Deva and
+Dialogue: 0,0:32:34.55,0:32:37.50,Default,,0,0,0,,half to himself.
+Dialogue: 0,0:32:37.86,0:32:40.58,Default,,0,0,0,,The match with Dhanraj was settled. Bherulal's weighing had been two
+Dialogue: 0,0:32:40.64,0:32:43.36,Default,,0,0,0,,kilos short for two years, the licence was shaky. The deal
+Dialogue: 0,0:32:43.42,0:32:46.14,Default,,0,0,0,,over the girl would have cleared the debt and raised the
+Dialogue: 0,0:32:46.20,0:32:48.92,Default,,0,0,0,,match too.
+Dialogue: 0,0:32:49.28,0:32:50.74,Default,,0,0,0,,But the girl wasn't willing.
+Dialogue: 0,0:32:51.10,0:32:54.32,Default,,0,0,0,,The whole village had heard her scream that she wouldn't go
+Dialogue: 0,0:32:54.38,0:32:57.60,Default,,0,0,0,,to that old man. That night she died. His men laid
+Dialogue: 0,0:32:57.66,0:33:00.88,Default,,0,0,0,,her on the embankment to make it look like a fall.
+Dialogue: 0,0:33:00.94,0:33:04.16,Default,,0,0,0,,And in the morning they were all in a rush to
+Dialogue: 0,0:33:04.22,0:33:07.44,Default,,0,0,0,,cremate her.
+Dialogue: 0,0:33:07.80,0:33:09.58,Default,,0,0,0,,So you're saying Bherulal...
+Dialogue: 0,0:33:09.94,0:33:13.64,Default,,0,0,0,,I'm saying every road winds back to that same house.
+Dialogue: 0,0:33:14.00,0:33:18.45,Default,,0,0,0,,Deva has gone. Ratan sits alone with the picture he's drawn.
+Dialogue: 0,0:33:18.51,0:33:22.95,Default,,0,0,0,,Motive, men, the cover-up, the haste, all point to that same
+Dialogue: 0,0:33:23.01,0:33:27.46,Default,,0,0,0,,big house. One piece doesn't sit straight with the rest. Khare's
+Dialogue: 0,0:33:27.52,0:33:31.97,Default,,0,0,0,,words: killed up close, with hands, by someone she let come
+Dialogue: 0,0:33:32.03,0:33:36.47,Default,,0,0,0,,near. Bherulal's men in their big cars could carry the body
+Dialogue: 0,0:33:36.53,0:33:40.98,Default,,0,0,0,,to the embankment, but no girl lets a hired man put
+Dialogue: 0,0:33:41.04,0:33:45.49,Default,,0,0,0,,his hands on her throat in the dark. Whoever did this,
+Dialogue: 0,0:33:45.55,0:33:49.99,Default,,0,0,0,,she knew him, and trusted him. Ratan turns the thought over
+Dialogue: 0,0:33:50.05,0:33:54.50,Default,,0,0,0,,once. It leads him somewhere he isn't ready to go. He
+Dialogue: 0,0:33:54.56,0:33:59.01,Default,,0,0,0,,sets it aside, tells himself the men are enough, and writes
+Dialogue: 0,0:33:59.07,0:34:03.51,Default,,0,0,0,,at the top of the page: Bherulal. Below that name the
+Dialogue: 0,0:34:03.57,0:34:08.02,Default,,0,0,0,,page is blank.
+Dialogue: 0,0:34:08.38,0:34:11.79,Default,,0,0,0,,Ratan is out. The munshi slides a file toward Deva, a
+Dialogue: 0,0:34:11.85,0:34:15.25,Default,,0,0,0,,fold of notes tucked in the cover, the daily machinery keeps
+Dialogue: 0,0:34:15.31,0:34:18.72,Default,,0,0,0,,running, inspector or no inspector.
+Dialogue: 0,0:34:19.08,0:34:22.06,Default,,0,0,0,,Deva, just sign this. It's an accident, a straight case. And
+Dialogue: 0,0:34:22.12,0:34:25.10,Default,,0,0,0,,take this tea-money, it's your share.
+Dialogue: 0,0:34:25.46,0:34:28.64,Default,,0,0,0,,Deva looks at the file, then at the money. A week
+Dialogue: 0,0:34:28.70,0:34:31.88,Default,,0,0,0,,ago it would have made no difference to him. Now there's
+Dialogue: 0,0:34:31.94,0:34:35.12,Default,,0,0,0,,a girl from the steel table behind his eyes, and his
+Dialogue: 0,0:34:35.18,0:34:38.36,Default,,0,0,0,,sahib walking empty-handed out of a kingdom.
+Dialogue: 0,0:34:38.72,0:34:40.34,Default,,0,0,0,,The file's done. You keep this.
+Dialogue: 0,0:34:40.70,0:34:43.32,Default,,0,0,0,,You've caught Panwar sahib's sickness, beta? It'll wear off in two
+Dialogue: 0,0:34:43.38,0:34:46.00,Default,,0,0,0,,weeks. It's a job, it doesn't run like this.
+Dialogue: 0,0:34:46.36,0:34:50.01,Default,,0,0,0,,Deva says nothing. He's done nothing brave. He signed the accident
+Dialogue: 0,0:34:50.07,0:34:53.71,Default,,0,0,0,,the way everyone does, just didn't take the money, and even
+Dialogue: 0,0:34:53.77,0:34:57.42,Default,,0,0,0,,that small thing feels lonely.
+Dialogue: 0,0:34:57.78,0:35:01.36,Default,,0,0,0,,Govind finds Ratan on the steps by the water and sits
+Dialogue: 0,0:35:01.42,0:35:05.00,Default,,0,0,0,,down beside him without hurry, the way an old friend sits.
+Dialogue: 0,0:35:05.36,0:35:08.02,Default,,0,0,0,,I hear you've made an enemy of the whole department. Even
+Dialogue: 0,0:35:08.08,0:35:10.74,Default,,0,0,0,,Rana. For a dead girl.
+Dialogue: 0,0:35:11.10,0:35:12.32,Default,,0,0,0,,You've come to say the same thing too?
+Dialogue: 0,0:35:12.68,0:35:16.03,Default,,0,0,0,,No. I've come to say it's good to see you like
+Dialogue: 0,0:35:16.09,0:35:19.45,Default,,0,0,0,,this after years. For twenty-five years you walked around dead, Ratan.
+Dialogue: 0,0:35:19.51,0:35:22.86,Default,,0,0,0,,A corpse in uniform. Now something's stirring inside you. You've picked
+Dialogue: 0,0:35:22.92,0:35:26.27,Default,,0,0,0,,a bad time for it, two years left, the pension on
+Dialogue: 0,0:35:26.33,0:35:29.69,Default,,0,0,0,,the line. But the topsoil's coming off. Underneath is the same
+Dialogue: 0,0:35:29.75,0:35:33.10,Default,,0,0,0,,old man.
+Dialogue: 0,0:35:33.46,0:35:35.00,Default,,0,0,0,,Maybe it's coming off too late.
+Dialogue: 0,0:35:35.36,0:35:38.38,Default,,0,0,0,,Late is fine. We all have to die, Ratan. Some people
+Dialogue: 0,0:35:38.44,0:35:41.46,Default,,0,0,0,,just wake up once before they do.
+Dialogue: 0,0:35:41.82,0:35:44.83,Default,,0,0,0,,On the way back. Deva has carried this whole day, the
+Dialogue: 0,0:35:44.89,0:35:47.89,Default,,0,0,0,,dowry sat at his table, and the money he didn't take,
+Dialogue: 0,0:35:47.95,0:35:50.96,Default,,0,0,0,,and now it comes out.
+Dialogue: 0,0:35:51.32,0:35:54.06,Default,,0,0,0,,Sahib, today I didn't take the money from munshi-ji. But I
+Dialogue: 0,0:35:54.12,0:35:56.86,Default,,0,0,0,,know, in two weeks I'll start taking it. Everyone does, you
+Dialogue: 0,0:35:56.92,0:35:59.66,Default,,0,0,0,,took it too. So what difference does it make? One girl,
+Dialogue: 0,0:35:59.72,0:36:02.46,Default,,0,0,0,,one report, what will it change? You're wrecking your whole life
+Dialogue: 0,0:36:02.52,0:36:05.26,Default,,0,0,0,,and nothing will change.
+Dialogue: 0,0:36:05.62,0:36:10.48,Default,,0,0,0,,Ratan walks a while before he answers, and what he gives
+Dialogue: 0,0:36:10.54,0:36:15.40,Default,,0,0,0,,the boy is no hero's answer, because he doesn't have one.
+Dialogue: 0,0:36:15.76,0:36:19.22,Default,,0,0,0,,Nothing will change. And there's no profit in it either.
+Dialogue: 0,0:36:19.58,0:36:20.80,Default,,0,0,0,,Then why are you doing it?
+Dialogue: 0,0:36:21.16,0:36:26.02,Default,,0,0,0,,For twenty-five years I signed every body and went home, ate,
+Dialogue: 0,0:36:26.08,0:36:30.94,Default,,0,0,0,,and slept. This time I couldn't sleep. That's all it is.
+Dialogue: 0,0:36:31.30,0:36:35.12,Default,,0,0,0,,He says nothing more. At the turn where their paths part,
+Dialogue: 0,0:36:35.18,0:36:39.00,Default,,0,0,0,,he stops, and without looking at the boy, says:
+Dialogue: 0,0:36:39.36,0:36:42.30,Default,,0,0,0,,The day your own sleep goes too, don't run from it.
+Dialogue: 0,0:36:42.36,0:36:45.30,Default,,0,0,0,,That's the one thing that'll stay alive in you.
+Dialogue: 0,0:36:45.66,0:36:49.20,Default,,0,0,0,,He walks away. Deva stands a long while at that turn.
+Dialogue: 0,0:36:49.56,0:36:52.86,Default,,0,0,0,,Bherulal has come to him, and this time the seth isn't
+Dialogue: 0,0:36:52.92,0:36:56.22,Default,,0,0,0,,calm, the report's reached the district, the body's been cut, and
+Dialogue: 0,0:36:56.28,0:36:59.58,Default,,0,0,0,,Panwar is still going. Rana hears him out from his swing,
+Dialogue: 0,0:36:59.64,0:37:02.94,Default,,0,0,0,,feeding pieces of fruit to a bird shut in a cage.
+Dialogue: 0,0:37:03.30,0:37:06.23,Default,,0,0,0,,Rana sahib, this is slipping out of hand. The report's made,
+Dialogue: 0,0:37:06.29,0:37:09.21,Default,,0,0,0,,it's reached the district. That man won't stop. You said you'd
+Dialogue: 0,0:37:09.27,0:37:12.20,Default,,0,0,0,,handle it.
+Dialogue: 0,0:37:12.56,0:37:13.94,Default,,0,0,0,,I am handling it.
+Dialogue: 0,0:37:14.30,0:37:16.48,Default,,0,0,0,,Until when, sahib? He's my son, the licence is to be
+Dialogue: 0,0:37:16.54,0:37:18.72,Default,,0,0,0,,made in his name next year...
+Dialogue: 0,0:37:19.08,0:37:22.81,Default,,0,0,0,,I offered that man his father's cancelled licence back, Bherulal. Served
+Dialogue: 0,0:37:22.87,0:37:26.59,Default,,0,0,0,,him kasumba with my own hand. And he said no to
+Dialogue: 0,0:37:26.65,0:37:30.38,Default,,0,0,0,,my face.
+Dialogue: 0,0:37:30.74,0:37:32.92,Default,,0,0,0,,He watches the bird hop in the cage.
+Dialogue: 0,0:37:33.28,0:37:35.70,Default,,0,0,0,,Very few people say no to me. And those who do,
+Dialogue: 0,0:37:35.76,0:37:38.18,Default,,0,0,0,,I remember them.
+Dialogue: 0,0:37:38.54,0:37:41.64,Default,,0,0,0,,He picks up the phone, and the warmth that returns is
+Dialogue: 0,0:37:41.70,0:37:44.80,Default,,0,0,0,,just a habit his face goes through.
+Dialogue: 0,0:37:45.16,0:37:49.47,Default,,0,0,0,,Yes, listen. That Koteshwar matter, the Panwar one. The man's tired,
+Dialogue: 0,0:37:49.53,0:37:53.85,Default,,0,0,0,,poor thing, at retirement. All this running about isn't good for
+Dialogue: 0,0:37:53.91,0:37:58.22,Default,,0,0,0,,the health. Get him a little rest. At home.
+Dialogue: 0,0:37:58.58,0:38:00.92,Default,,0,0,0,,He sets the phone down and turns back to the bird.
+Dialogue: 0,0:38:00.98,0:38:03.32,Default,,0,0,0,,He never says the word 'suspension'; there are other people for
+Dialogue: 0,0:38:03.38,0:38:05.72,Default,,0,0,0,,that.
+Dialogue: 0,0:38:06.08,0:38:09.09,Default,,0,0,0,,Mishra brings the order himself, which in its own way is
+Dialogue: 0,0:38:09.15,0:38:12.15,Default,,0,0,0,,a kindness. He isn't gloating. He's genuinely pained, and that's harder
+Dialogue: 0,0:38:12.21,0:38:15.22,Default,,0,0,0,,to bear.
+Dialogue: 0,0:38:15.58,0:38:19.42,Default,,0,0,0,,You've been suspended, inquiry pending. I told you, Ratan, this went
+Dialogue: 0,0:38:19.48,0:38:23.32,Default,,0,0,0,,all the way up. Hand in your badge and revolver. And
+Dialogue: 0,0:38:23.38,0:38:27.22,Default,,0,0,0,,the pension will stay frozen till the inquiry's complete. And the
+Dialogue: 0,0:38:27.28,0:38:31.12,Default,,0,0,0,,inquiry never completes, you know that.
+Dialogue: 0,0:38:31.48,0:38:35.79,Default,,0,0,0,,Ratan unclips the badge and lays it on the desk. Twenty-five
+Dialogue: 0,0:38:35.85,0:38:40.17,Default,,0,0,0,,years. He doesn't argue. There's no one to argue with, only
+Dialogue: 0,0:38:40.23,0:38:44.54,Default,,0,0,0,,Mishra, who is himself just a man the machine uses.
+Dialogue: 0,0:38:44.90,0:38:49.08,Default,,0,0,0,,Done?
+Dialogue: 0,0:38:49.44,0:38:52.34,Default,,0,0,0,,Done. Now let it go, yaar. The badge is gone, the
+Dialogue: 0,0:38:52.40,0:38:55.30,Default,,0,0,0,,pension's going too. Now for whom?
+Dialogue: 0,0:38:55.66,0:38:58.48,Default,,0,0,0,,Ratan doesn't answer. For the first time in twenty-five years he
+Dialogue: 0,0:38:58.54,0:39:01.36,Default,,0,0,0,,turns and walks out without a badge. Mishra is left looking
+Dialogue: 0,0:39:01.42,0:39:04.24,Default,,0,0,0,,at what's left on the desk.
+Dialogue: 0,0:39:04.60,0:39:08.03,Default,,0,0,0,,Ratan at home, without a badge. Kanta has heard; the town
+Dialogue: 0,0:39:08.09,0:39:11.52,Default,,0,0,0,,hears everything. She serves the food, but today there's an edge
+Dialogue: 0,0:39:11.58,0:39:15.00,Default,,0,0,0,,in it that the silent years had kept down. The pension
+Dialogue: 0,0:39:15.06,0:39:18.49,Default,,0,0,0,,papers, which he'd left in a drawer, lie out on the
+Dialogue: 0,0:39:18.55,0:39:21.98,Default,,0,0,0,,table today.
+Dialogue: 0,0:39:22.34,0:39:26.41,Default,,0,0,0,,The office women came today. They were asking if it's true,
+Dialogue: 0,0:39:26.47,0:39:30.55,Default,,0,0,0,,that there's been a suspension, the pension frozen. I said, how
+Dialogue: 0,0:39:30.61,0:39:34.68,Default,,0,0,0,,would I know. My husband never tells me anything.
+Dialogue: 0,0:39:35.04,0:39:36.42,Default,,0,0,0,,Kanta.
+Dialogue: 0,0:39:36.78,0:39:40.42,Default,,0,0,0,,Two years. Just two years were left. You thought the same
+Dialogue: 0,0:39:40.48,0:39:44.12,Default,,0,0,0,,thing too, a little peace after two years. And you blew
+Dialogue: 0,0:39:44.18,0:39:47.82,Default,,0,0,0,,it all in one stroke. For a dead girl you don't
+Dialogue: 0,0:39:47.88,0:39:51.52,Default,,0,0,0,,even know.
+Dialogue: 0,0:39:51.88,0:39:55.70,Default,,0,0,0,,She's said the thing she never says. The kitchen goes completely
+Dialogue: 0,0:39:55.76,0:39:59.58,Default,,0,0,0,,silent. Ratan looks at the papers, and at his wife, who
+Dialogue: 0,0:39:59.64,0:40:03.46,Default,,0,0,0,,gave up expecting anything of him years ago and today waits
+Dialogue: 0,0:40:03.52,0:40:07.34,Default,,0,0,0,,for an answer. He can't give her the true answer, that
+Dialogue: 0,0:40:07.40,0:40:11.22,Default,,0,0,0,,the girl was his sister's child, that he sold her on
+Dialogue: 0,0:40:11.28,0:40:15.10,Default,,0,0,0,,paper without seeing her. He gives her what he has.
+Dialogue: 0,0:40:15.46,0:40:17.72,Default,,0,0,0,,I know her. And I don't, either.
+Dialogue: 0,0:40:18.08,0:40:21.77,Default,,0,0,0,,It's no answer and she knows it. But underneath it she
+Dialogue: 0,0:40:21.83,0:40:25.52,Default,,0,0,0,,hears something that hasn't been in his voice for twenty-five years,
+Dialogue: 0,0:40:25.58,0:40:29.27,Default,,0,0,0,,the man she married, who was different before the dust settled.
+Dialogue: 0,0:40:29.33,0:40:33.01,Default,,0,0,0,,This frightens her more than the lost pension. This time she
+Dialogue: 0,0:40:33.07,0:40:36.76,Default,,0,0,0,,doesn't put the papers back. She sits down across from him,
+Dialogue: 0,0:40:36.82,0:40:40.51,Default,,0,0,0,,which she hasn't done in years, and slides the plate a
+Dialogue: 0,0:40:40.57,0:40:44.26,Default,,0,0,0,,little closer.
+Dialogue: 0,0:40:44.62,0:40:46.80,Default,,0,0,0,,Eat. It's getting cold.
+Dialogue: 0,0:40:47.16,0:40:50.78,Default,,0,0,0,,Ratan on a bench in a senior officer's outer room, a
+Dialogue: 0,0:40:50.84,0:40:54.46,Default,,0,0,0,,file on his knee, an old man in plain clothes, no
+Dialogue: 0,0:40:54.52,0:40:58.14,Default,,0,0,0,,badge. A PA passes him twice. The third time he stops,
+Dialogue: 0,0:40:58.20,0:41:01.82,Default,,0,0,0,,plainly told what to say.
+Dialogue: 0,0:41:02.18,0:41:05.08,Default,,0,0,0,,Sahib is in a meeting. And anyway you're suspended now, aren't
+Dialogue: 0,0:41:05.14,0:41:08.04,Default,,0,0,0,,you, officially you can't bring any case. Send your complaint by
+Dialogue: 0,0:41:08.10,0:41:11.00,Default,,0,0,0,,post, it'll be looked into.
+Dialogue: 0,0:41:11.36,0:41:16.18,Default,,0,0,0,,By post.
+Dialogue: 0,0:41:16.54,0:41:17.44,Default,,0,0,0,,Yes. That's the rule.
+Dialogue: 0,0:41:17.80,0:41:22.04,Default,,0,0,0,,Ratan looks at that closed door, behind which a man he
+Dialogue: 0,0:41:22.10,0:41:26.34,Default,,0,0,0,,worked under for years won't see him. He spent his life
+Dialogue: 0,0:41:26.40,0:41:30.64,Default,,0,0,0,,inside these very doors, watching them close on others. He stands,
+Dialogue: 0,0:41:30.70,0:41:34.94,Default,,0,0,0,,tucks the file under his arm, and leaves.
+Dialogue: 0,0:41:35.30,0:41:39.94,Default,,0,0,0,,Without a badge, without any way, outside every book. Ratan stands
+Dialogue: 0,0:41:40.00,0:41:44.64,Default,,0,0,0,,across the dark field from the big house, glittering at the
+Dialogue: 0,0:41:44.70,0:41:49.34,Default,,0,0,0,,far end. His sister's house, the house his theory points to.
+Dialogue: 0,0:41:49.40,0:41:54.04,Default,,0,0,0,,Deva comes and stands beside him, out of uniform too.
+Dialogue: 0,0:41:54.40,0:41:57.22,Default,,0,0,0,,Sahib, you're suspended. I'll get caught up in this with you.
+Dialogue: 0,0:41:57.58,0:41:59.52,Default,,0,0,0,,Go home, Deva. This is my fight.
+Dialogue: 0,0:41:59.88,0:42:02.78,Default,,0,0,0,,You're the one who said, the day your sleep goes, don't
+Dialogue: 0,0:42:02.84,0:42:05.74,Default,,0,0,0,,run from it. Mine's gone, sahib.
+Dialogue: 0,0:42:06.10,0:42:09.36,Default,,0,0,0,,Ratan doesn't send him back again. The two of them stand
+Dialogue: 0,0:42:09.42,0:42:12.68,Default,,0,0,0,,watching that glittering house across the dark.
+Dialogue: 0,0:42:13.04,0:42:16.02,Default,,0,0,0,,Bherulal. From tomorrow we start with that house.
+Dialogue: 0,0:42:16.38,0:42:19.07,Default,,0,0,0,,Inside those glittering windows his sister sits, and her brother stands
+Dialogue: 0,0:42:19.13,0:42:21.81,Default,,0,0,0,,out here in the dark, deciding to start with the wrong
+Dialogue: 0,0:42:21.87,0:42:24.56,Default,,0,0,0,,man.
+Dialogue: 0,0:42:24.92,0:42:28.61,Default,,0,0,0,,A man walking home through the dark, sleeping belt, without a
+Dialogue: 0,0:42:28.67,0:42:32.36,Default,,0,0,0,,badge, without a pension, without any way, a file under his
+Dialogue: 0,0:42:32.42,0:42:36.11,Default,,0,0,0,,arm and a registry receipt in his pocket. By every measure
+Dialogue: 0,0:42:36.17,0:42:39.85,Default,,0,0,0,,of this place he's been beaten. He's blown those two years,
+Dialogue: 0,0:42:39.91,0:42:43.60,Default,,0,0,0,,the pension, his place, his wife's peace, all of it. By
+Dialogue: 0,0:42:43.66,0:42:47.35,Default,,0,0,0,,every rule of the principles he lived by, this is the
+Dialogue: 0,0:42:47.41,0:42:51.10,Default,,0,0,0,,place where a man stops.
+Dialogue: 0,0:42:51.46,0:42:54.20,Default,,0,0,0,,He doesn't stop.
+Dialogue: 0,0:42:54.56,0:42:57.58,Default,,0,0,0,,The Jhujhar song rises, the voice of the Charan, of the
+Dialogue: 0,0:42:57.64,0:43:00.66,Default,,0,0,0,,headless one who keeps fighting even after he's fallen.
+Dialogue: 0,0:43:01.02,0:43:03.96,Default,,0,0,0,,Last image: the old man alone on a dark road, walking
+Dialogue: 0,0:43:04.02,0:43:06.96,Default,,0,0,0,,toward that glittering house.
+Dialogue: 0,0:43:07.32,0:43:09.66,Default,,0,0,0,,The curtain falls.

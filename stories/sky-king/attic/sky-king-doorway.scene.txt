@@ -1,0 +1,44 @@
+SKY KING — EXT. AIRPORT RAMP - DUSK
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-doorway.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The last of the ramp crew drift toward the terminal, high-vis vests going orange under the sodium lights.
+ACTION: Birdy stands at the tail of the cold Q400 with a wheel chock in one hand and a clipboard under his arm.
+ACTION: The apron is wet and empty. The beacon on a parked tug turns, throwing red across the puddles.
+ACTION: Birdy sets the clipboard down on the ground, flat, squared to nothing.
+ACTION: He sets the chock down next to it.
+ACTION: He looks at the airplane for a while.
+ACTION: He walks to the airstair door and climbs up.
+ACTION: Inside, the cabin is dark, the seats in their rows with the blankets folded.
+ACTION: He goes forward through the galley and stops at the flight deck.
+ACTION: He sits down in the left seat and puts his hands flat on his thighs.
+ACTION: He runs a hand along the glareshield, then the pedestal, slow, finding the levers by feel.
+BIRDY: Battery.
+ACTION: A switch clicks. The panel wakes up in soft green and white.
+BIRDY: Hydraulics, three pumps.
+BIRDY: Fuel.
+ACTION: Through the windscreen, out on the ramp, Dez comes around the nose of a baggage cart with a tug key swinging on his finger.
+ACTION: Dez stops.
+ACTION: The right prop begins to turn, slow, then blurs.
+BIRDY: Start two.
+ACTION: The engine catches and settles into a low even whine.
+ACTION: Dez does not move.
+BIRDY: Start one.
+ACTION: The left prop spins up. The whole airplane is running now, lit, alive on the dark apron.
+ACTION: Dez brings the handheld radio up to his mouth and holds it there.
+DEZ (RADIO): Birdy.
+ACTION: Birdy's hands go to the tiller and the power levers.
+BIRDY: Flaps ten.
+BIRDY: Bugs set.
+BIRDY: Brakes.
+ACTION: The airplane rocks forward off its wheels and begins to roll, out past the tug, past Dez, toward the taxi line.
+ACTION: Dez lowers the radio and just watches it go.
+DEZ (RADIO): He's — that's four-two-oscar, that's the Dash, it's — it's rolling, somebody, is anybody...
+ACTION: The Q400 swings onto the runway centerline and straightens.
+ACTION: The lights of the field stretch out ahead in the last of the dusk.
+BIRDY: Power.
+ACTION: The engines come up and the airplane starts to move, slow, then not slow.
+BIRDY: Rotate.
+ACTION: The nose lifts.
+ACTION: The wheels leave the ground.
+ACTION: The Dash climbs out over the dark fields and gets smaller against the last light.

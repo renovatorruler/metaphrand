@@ -1,0 +1,44 @@
+SKY KING — INT. FBI SEDAN (MOVING) / INT. Q400 FLIGHT DECK - NIGHT (INTERCUT)
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-call.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The sedan threads the empty downtown lanes and the dashboard washes Maya's face pale green.
+ACTION: Shaw turns halfway around from the front passenger seat and holds a laminated card up against the seatback where Maya can see it.
+SHAW: When the patch goes live you keep it simple. First point on the card. You're glad to hear his voice, you want him to talk to the man who can help him down.
+ACTION: Maya looks at the card and then out the window at the passing storefronts and says nothing.
+SHAW: Second point. He's not in trouble yet. Nobody's angry. You just want him home.
+ACTION: Voss keeps both hands on the wheel and watches the mirror.
+ACTION: The Q400 banks slow over the black water and the panel lights Birdy's face green from below.
+ACTION: A fighter holds tight off the right wing, its running lights steady in the dark.
+BISHOP (RADIO): Ma'am, I've got him up on the frequency now. It's open. Go ahead when you're ready.
+ACTION: Shaw taps the card twice and mouths the first line.
+BIRDY (RADIO): There she is. Hi.
+ACTION: Maya brings the phone up close to her mouth.
+MAYA: ...Sam.
+BIRDY (RADIO): Hey. Yeah. It's me.
+ACTION: Shaw circles the top line of the card with her finger and holds it steady in Maya's sightline.
+MAYA: I'm mad at you.
+ACTION: Shaw lowers the card an inch and looks at it.
+MAYA: But I came.
+ACTION: In the cockpit Birdy's hand rests on the throttle and does not move.
+BIRDY (RADIO): Yeah. Okay. Thank you.
+SHAW (WHISPER): She's not saying any of it. What is she doing.
+VOSS (WHISPER): Let her talk.
+ACTION: Maya turns her whole body toward the window with her back to the front seat.
+MAYA: You left the water running in the yard again. I found it this morning going into the road.
+BIRDY (RADIO): Ah. Sorry. I meant to get that.
+ACTION: The escort fighter slides in closer and levels off a few feet from the wingtip.
+ACTION: Birdy lifts two fingers off the yoke and gives the fighter a small flat wave.
+BIRDY (RADIO): Got some company out here. They've been real nice about it.
+MAYA: You don't have to make a joke.
+BIRDY (RADIO): No. You're right. Sorry.
+ACTION: Shaw presses the card flat to the seatback again and holds it there.
+BIRDY (RADIO): I figured wrong about a lot of stuff, I think. Didn't think it'd turn into all this.
+ACTION: The panel glow steadies on Birdy's face and his hand stays flat and still on the throttle.
+BIRDY (RADIO): A guy like me. I don't know.
+MAYA: Ken's still got our ladder.
+BIRDY (RADIO): Yeah, he's had it since spring.
+MAYA: When this is done you go over there and you get it back. I'm tired of asking.
+BIRDY (RADIO): Okay.
+ACTION: The sedan slows and swings up the ramp toward the airport, its taillights sinking into the exit.
+ACTION: Out over the water the Q400's lights track away the other direction and grow small against the dark.

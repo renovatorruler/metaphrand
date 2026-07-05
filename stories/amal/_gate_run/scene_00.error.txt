@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/tmp/run_episode.py", line 25, in run_one
+    gated, log, floor, clean = compose(brief="", context=CTX, draft=scene, rounds=1)
+                               ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dusty/dev/brehon-law/metaphrand/run_scene.py", line 54, in compose
+    text, log = repair(text, passes, context, rounds)
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dusty/dev/brehon-law/metaphrand/passes.py", line 233, in repair
+    r2 = test_pass(p, text, context)
+  File "/Users/dusty/dev/brehon-law/metaphrand/passes.py", line 72, in test_pass
+    raw = _claude(_ctx(p.test, context) + _VERDICT + "\n\n=== SCENE ===\n" + text)
+  File "/Users/dusty/dev/brehon-law/metaphrand/passes.py", line 52, in _claude
+    raise RuntimeError(f"claude -p failed ({r.returncode}): {r.stderr[:300]}")
+RuntimeError: claude -p failed (1): 

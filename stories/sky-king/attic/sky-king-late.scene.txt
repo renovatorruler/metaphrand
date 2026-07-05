@@ -1,0 +1,69 @@
+SKY KING — EXT. AIRPORT RAMP - DAWN
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-late.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The ramp is wet under the sodium lights. A Q400 sits at the stand, cargo doors open, ground power humming. BIRDY walks up in his hi-vis, thermos in one hand, and stops at the wall-mounted terminal.
+ACTION: He taps his badge. The screen loads his name and an assignment line. He reads it.
+BIRDY: Huh.
+ACTION: DEZ comes up beside him, blowing into his hands.
+DEZ: What'd you draw.
+BIRDY: Lav truck.
+DEZ: Again.
+BIRDY: Says lav truck.
+ACTION: Dez looks past him to the Q400 at the stand, then back at the screen.
+DEZ: Who's got the turn.
+BIRDY: Uh. Says Marquez has the aircraft.
+DEZ: Marquez?
+BIRDY: He'll be alright on it.
+DEZ: You worked that gate two years.
+BIRDY: The app just moves it around. Whoever it puts.
+ACTION: Birdy caps the thermos back onto its lid and thumbs the screen to accept.
+DEZ: Did you put in for the turn.
+BIRDY: It's fine. Lav truck's fine.
+ACTION: Dez watches him a second, then shakes his head and walks toward the belt loader.
+ACTION: TANNER hurries over with a manifest tablet, checking it against the cargo bins on the cart.
+TANNER: We good on the count. Twelve for the forward, eight aft.
+ACTION: Birdy glances at the cart, then at the tablet.
+BIRDY: Which one's your forward.
+TANNER: These twelve. Off the cart.
+BIRDY: The heavy ones there.
+TANNER: Yeah, those go up front.
+BIRDY: Yeah. Those are your aft, I think. The tags.
+ACTION: Tanner leans in, turns a bag tag over, reads it. His jaw tightens.
+TANNER: No, that's — those are marked forward.
+BIRDY: Could be. I'd put the heavy back, but. You're the lead.
+ACTION: Tanner looks at the open forward hold, already half-loaded, then at the clock on the tablet. Push is in nine minutes.
+TANNER: They're gonna want the paperwork if the numbers move.
+BIRDY: I'll pull 'em. It's quick.
+TANNER: I signed the load sheet already.
+BIRDY: Say I loaded it wrong. I'll re-do the count, put my number on it. Easier.
+TANNER: You sure.
+BIRDY: Yeah. Go do your walkaround, I got this.
+ACTION: Tanner hesitates, then hands over the tablet and heads off. Birdy climbs into the forward hold, pulls the heavy bags back down onto the cart, and starts restacking. Dez, on the belt loader, watches him do it.
+DEZ: That's Tanner's load.
+BIRDY: It's a couple bags.
+DEZ: He signed it. Now it's on your number.
+BIRDY: Doesn't matter whose number.
+DEZ: It does when they pull the sheet.
+BIRDY: They won't. It's re-stacked right, that's the thing.
+ACTION: Birdy drops the last bag into the aft bin and pushes the cart clear. He pulls out a foil-wrapped sandwich and unwraps one corner, standing by the loader.
+DEZ: Turkey.
+BIRDY: Yeah, turkey.
+DEZ: Every day, turkey.
+BIRDY: She makes 'em the night before. Easier.
+ACTION: Dez looks at the sandwich, then at Birdy.
+DEZ: You're the best hand out here. Everybody knows it. Marquez knows it.
+BIRDY: Marquez is good.
+DEZ: He's got your gate. Tanner's got the lead. You're carrying the both of 'em and you're driving the shit truck.
+BIRDY: It all works out.
+DEZ: You never once asked for the turn. Not once. You just take whatever the box puts up.
+BIRDY: The box decides it. Not me.
+DEZ: You could walk in there and ask. That's all it'd take. You won't even do that.
+ACTION: Birdy folds the foil back over the sandwich and looks at the ground for a second.
+BIRDY: Good sandwich, though.
+ACTION: Dez holds his look, then lets out a breath and turns back to the loader.
+DEZ: Yeah.
+ACTION: A tug hooks up to the Q400's nose gear. The beacon comes on, red, sweeping the wet apron.
+RAMP (RADIO): Ground, four-seven-one at the stand, ready for push.
+ACTION: Birdy pockets the sandwich and picks up the wands off the cart, then sets them back down. Not his aircraft. He walks the other way, toward the blue lav truck parked at the edge of the ramp, and climbs in.
+ACTION: Behind him the tug pushes the Q400 back off the stand, Marquez on the wands, the props starting to turn. It swings its nose toward the taxiway and rolls out under the last of the dark. Birdy starts the lav truck and drives the other direction.

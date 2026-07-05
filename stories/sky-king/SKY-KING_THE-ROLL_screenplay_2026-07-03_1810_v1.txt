@@ -1,0 +1,37 @@
+SKY KING — INT. Q400 FLIGHT DECK / NIGHT SKY / COMMAND POST - LAST LIGHT (INTERCUT)
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-roll.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The sun is a red line on the western water and everything else has gone to dark blue. The flight deck of the Q400 glows from the panel alone. Birdy sits with both hands loose on the yoke, watching the last of the light.
+BIRDY (RADIO): Hey, Bishop.
+ACTION: In the darkened radar room Bishop keys his headset, eyes on the slow blip crawling south.
+BISHOP: Go ahead.
+BIRDY (RADIO): Thanks for tonight. You've been real good to me.
+ACTION: Bishop holds the key down a second and doesn't answer right away. Around him the room has gone still. A supervisor stops behind his chair.
+BISHOP: Copy that.
+ACTION: Birdy looks out the left window at the water going black under him.
+BIRDY (RADIO): I think I'm gonna try a barrel roll.
+ACTION: In the lead F-15 Deacon eases his throttles and looks down at the turboprop below and to his right.
+DEACON: Sword flight, spreading out, giving him the room.
+ACTION: Banjo's fighter slides wide and drops back off the Q400's tail.
+BANJO: Copy, spread.
+ACTION: Deacon keys the frequency, flat.
+DEACON (RADIO): Anybody under him, we're clearing it now.
+ACTION: In the command post men who had been sitting stand up out of their chairs. Nobody speaks. On the beach road below the flight path a line of cars has pulled over and the people on them have gone quiet, watching the dark.
+DEACON: Airspace under him's clear.
+ACTION: The Q400's nose comes up. The engines climb in pitch and the airplane claws for altitude against the last red band on the horizon.
+BIRDY (RADIO): Okay. Here we go.
+ACTION: The nose keeps coming and the horizon rolls off to the right. The last red light sweeps across the cockpit floor to ceiling. Loose paper lifts off the pedestal and hangs. The engines howl.
+BIRDY (RADIO): Over.
+ACTION: The airplane goes inverted and hangs there upside down against the dark. The black water is up through the top of the windscreen. The nose falls toward it.
+BIRDY (RADIO): Coming through.
+ACTION: The horizon comes back around the other side. Birdy's hands move without waiting on him and the wings roll level and steady. The Q400 skims low over the water, close enough to see its own wake catching the last light.
+BIRDY (RADIO): Level.
+ACTION: For a second nobody says anything on the frequency. Then Banjo keys it, plane to plane.
+BANJO (RADIO): You son of a bitch. You son of a bitch, you did it.
+ACTION: On the beach road the horns start, one and then all of them down the shoreline. In the command post the whole room comes up loud at once, the first noise all night. Birdy watches the water slide by under the wings. The light is nearly gone now.
+BIRDY (RADIO): Yeah. I was kind of hoping that'd be it.
+ACTION: The frequency laughs, a few of them at once, easy.
+BANJO (RADIO): Man's got jokes.
+ACTION: The Q400 comes off the water and settles into a slow left turn into the dark. Deacon keys up, routine.
+DEACON (RADIO): Seattle, Sword flight, flight of three, coming left.

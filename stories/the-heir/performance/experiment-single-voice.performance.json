@@ -1,0 +1,45 @@
+{
+  "title": "THE HEIR — EXPERIMENT: single-voice performance (London + the flat)",
+  "notes": "One voice (George) performs narrator and ALL characters, audiobook-style; character separation is done only with v3 expression tags (register cues at each speaker change). Same screenplay text as act1-opening. Purpose: hear whether expression controls alone can carry character differentiation.",
+  "model_id": "eleven_v3",
+  "output_format": "mp3_44100_128",
+  "gaps_ms": { "group": 600 },
+  "cast": {
+    "NARRATOR":  { "voice": "George", "voice_id": "JBFqnCBsd6RMkjVDRZzb", "direction": "the storyteller: measured, dry" },
+    "NADIR":     { "voice": "George", "voice_id": "JBFqnCBsd6RMkjVDRZzb", "direction": "the neutral register: warm, quick, hedging" },
+    "OSMAN":     { "voice": "George", "voice_id": "JBFqnCBsd6RMkjVDRZzb", "direction": "character work: frail old man, trembling" },
+    "LENA":      { "voice": "George", "voice_id": "JBFqnCBsd6RMkjVDRZzb", "direction": "character work: lighter, wry, feminine lilt" },
+    "COLLEAGUE": { "voice": "George", "voice_id": "JBFqnCBsd6RMkjVDRZzb", "direction": "character work: breezy, collegial" }
+  },
+  "segments": [
+    { "scene": "LONDON — GRAY'S INN, DAY", "speaker": "NARRATOR", "frame": "stories/the-heir/storyboard/03_london_osman.png", "text": "[measured, dry] London. Rain on tall Georgian windows, and the civilised hum of a place where the worst thing that can happen to a man is a deadline. Nadir — younger in the face, looser in the shoulders, a good suit worn like a dressing gown — stands at the window with an old man in a donated coat: Osman, seventies, a schoolteacher's stoop, two fingers missing from his right hand." },
+    { "scene": "LONDON", "speaker": "NADIR", "frame": "stories/the-heir/storyboard/03_london_osman.png", "text": "[warm, animated] It's granted, Osman. It's over. The tribunal accepted everything — you, your wife, your son's family when we can get them out. Nobody can send you back. Not ever. [gently] You're a free man in a boring country, which is the best kind there is." },
+    { "scene": "LONDON", "speaker": "NARRATOR", "frame": "stories/the-heir/storyboard/03_london_osman.png", "text": "[measured] The old man takes this in. Then he takes Nadir's hand in both of his — the whole hand, the missing fingers and all — and holds it, and can't speak. Nadir lets him hold it as long as he needs." },
+    { "scene": "LONDON", "speaker": "OSMAN", "frame": "stories/the-heir/storyboard/03_london_osman.png", "text": "[as a frail old man, voice cracked and trembling, heavy accent of grief] They told me, in the cells — nobody leaves, nobody is heard. [tearful, almost a whisper] Forty years they told me that." },
+    { "scene": "LONDON", "speaker": "NADIR", "frame": "stories/the-heir/storyboard/03_london_osman.png", "text": "[back to the warm register, softly] I know. They told my mother the same thing. [brighter] Go and tell your wife. Use my office. Take your time on the phone — it's a good phone, it's the firm's." },
+    { "scene": "LONDON", "speaker": "NARRATOR", "frame": "stories/the-heir/storyboard/03_london_osman.png", "text": "[measured, dry] The colleague walks Osman out. Nadir watches them go, and for a moment, alone, he flexes his own right hand — all five fingers — like a man checking his luck." },
+    { "scene": "LONDON", "speaker": "COLLEAGUE", "frame": "stories/the-heir/storyboard/03_london_osman.png", "text": "[in a breezier, teasing voice] That's the fourth one this year from that godawful place. Chambers grumbles, you know. The hours you sink into them. There's no money in it." },
+    { "scene": "LONDON", "speaker": "NADIR", "frame": "stories/the-heir/storyboard/03_london_osman.png", "text": "[wry] There's no money in it. [lighter] That's rather the point. It's the only file in this building where I know exactly who I'm against." },
+    { "scene": "LONDON", "speaker": "NARRATOR", "frame": "stories/the-heir/storyboard/09_london_phone.png", "text": "[measured] On the desk his phone lights and buzzes — a long foreign number — and something behind his face quietly shuts. He turns the phone face down without answering it." },
+    { "scene": "LONDON", "speaker": "COLLEAGUE", "frame": "stories/the-heir/storyboard/09_london_phone.png", "text": "[breezy, curious] You're not going to get that?" },
+    { "scene": "LONDON", "speaker": "NADIR", "frame": "stories/the-heir/storyboard/09_london_phone.png", "text": "[dry, a little too quick] It's nobody. A wrong number that's been wrong for about fifteen years." },
+    { "scene": "LONDON", "speaker": "NARRATOR", "frame": "stories/the-heir/storyboard/09_london_phone.png", "text": "[measured, slowing] The phone buzzes again under his hand, patient, face down, and he doesn't look at it, [pause] and he doesn't quite manage not to." },
+
+    { "scene": "LONDON — THE FLAT, NIGHT", "speaker": "NARRATOR", "frame": "stories/the-heir/storyboard/04_london_flat.png", "text": "[measured, dry] Their flat. Small and warm and real — books, a radiator that works, a life with no motorcades in it. Lena has set her reading down. Nadir stands at the window with the foreign phone finally against his ear, and he has been listening a long time. When he speaks, the ease has gone out of his voice." },
+    { "scene": "FLAT", "speaker": "NADIR", "frame": "stories/the-heir/storyboard/04_london_flat.png", "text": "[quiet, careful] How long." },
+    { "scene": "FLAT", "speaker": "NARRATOR", "frame": "stories/the-heir/storyboard/04_london_flat.png", "text": "He listens." },
+    { "scene": "FLAT", "speaker": "NADIR", "frame": "stories/the-heir/storyboard/04_london_flat.png", "text": "[tighter] And he asked for me. He used those words. [pause] You're sure he used those words." },
+    { "scene": "FLAT", "speaker": "NARRATOR", "frame": "stories/the-heir/storyboard/04_london_flat.png", "text": "[measured] He listens, then lowers the phone and ends the call without a goodbye, because no goodbye fits." },
+    { "scene": "FLAT", "speaker": "LENA", "frame": "stories/the-heir/storyboard/04_london_flat.png", "text": "[in a lighter, wry, feminine register, level] That was the number you don't answer." },
+    { "scene": "FLAT", "speaker": "NADIR", "frame": "stories/the-heir/storyboard/04_london_flat.png", "text": "[back to the neutral register, exhales] My father's dying. Weeks. They think less." },
+    { "scene": "FLAT", "speaker": "LENA", "frame": "stories/the-heir/storyboard/04_london_flat.png", "text": "[lighter register, gently] Okay. [pause] Do you want to go." },
+    { "scene": "FLAT", "speaker": "NADIR", "frame": "stories/the-heir/storyboard/04_london_flat.png", "text": "[flat] No." },
+    { "scene": "FLAT", "speaker": "LENA", "frame": "stories/the-heir/storyboard/04_london_flat.png", "text": "[lighter register, patient, precise] That isn't what I asked. I know you don't want to. [pause] Do you need to." },
+    { "scene": "FLAT", "speaker": "NARRATOR", "frame": "stories/the-heir/storyboard/04_london_flat.png", "text": "[measured] He looks out at the city that took him in — the one place on earth where no one he loves has ever been put into a car and not come back." },
+    { "scene": "FLAT", "speaker": "NADIR", "frame": "stories/the-heir/storyboard/04_london_flat.png", "text": "[deciding as he says it] I'll go and put him in the ground, and I'll come home. Three days. I'm not going anywhere near the rest of it, Lena. I bury him, I come back, [firmer] and we never say the name of that country in this flat again." },
+    { "scene": "FLAT", "speaker": "LENA", "frame": "stories/the-heir/storyboard/04_london_flat.png", "text": "[lighter register, dry] Three days. Fine. I'm coming with you." },
+    { "scene": "FLAT", "speaker": "NADIR", "frame": "stories/the-heir/storyboard/04_london_flat.png", "text": "[alarmed] You are absolutely not —" },
+    { "scene": "FLAT", "speaker": "LENA", "frame": "stories/the-heir/storyboard/04_london_flat.png", "text": "[lighter register, overriding, calm] You're going to bury the man who made you flinch at telephones, surrounded by people who all want something from you, and you'd like to do that alone. No. I've heard about that country my whole marriage and never once seen it. [softer] Three days, both of us, and I'll finally know what I'm married to." },
+    { "scene": "FLAT", "speaker": "NARRATOR", "frame": "stories/the-heir/storyboard/04_london_flat.png", "text": "[measured, quiet] She crosses and stands with him at the glass. Neither of them believes the three days, but it is a kind thing to say, so they say it." }
+  ]
+}

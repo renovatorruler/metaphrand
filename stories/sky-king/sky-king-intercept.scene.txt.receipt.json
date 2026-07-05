@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-intercept",
+  "slug": "INT. F-15 COCKPIT / NIGHT SKY - NIGHT",
+  "seedHash": "e7bdde97b927055790ce7e5ff1f5588d2a552874c3b42e34df2fd6c8b03dce61",
+  "sceneHash": "68b608d42ffdb63cfcab116204f2364e73868f0a6ddd0af83876967bb04c29a8",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

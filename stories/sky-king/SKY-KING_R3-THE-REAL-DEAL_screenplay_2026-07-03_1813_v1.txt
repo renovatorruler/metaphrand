@@ -1,0 +1,38 @@
+SKY KING — INT. SEATTLE APPROACH - RADAR ROOM / Q400 FLIGHT DECK - NIGHT (INTERCUT)
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-deal3.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The radar room is dark except for the scopes, green rings turning under the tech's face and Bishop's.
+ACTION: The TECH leans over Bishop's shoulder and taps the naked dot crawling northwest of the field.
+TECH: I need that one tagged for the tapes, we can't leave a target running blank all night.
+ACTION: Bishop looks at the dot for a long moment, the same dot he has watched since it left the ground, and sets his hands on the keyboard and types.
+ACTION: The letters SKY KING appear in a small data block under the blip on every scope in the room.
+ACTION: The tech squares his stack of paper against the console, nods at nothing, and walks back to his own station.
+ACTION: The tag rides the blip as it drifts, the words SKY KING sliding a pixel at a time out toward the black water.
+ACTION: In the cockpit Birdy sits in the dark, the panel and the fuel gauge the only light on his face, one hand loose on the yoke.
+ACTION: Reyes comes up the corridor into the radar room with a single sheet of paper in her hand and takes the spare headset off the hook and puts it on standing.
+REYES (RADIO): It's me again. I've got something in front of me, I'm just going to read it to you, okay, all of it.
+ACTION: She holds the page up to the scope light and reads it flat, no lift in it anywhere.
+REYES (RADIO): No charges. That's the first line, no charges filed. It says you land the airplane and you walk out of the hangar and there's a doctor, that's it, there's a doctor and nobody puts you anywhere.
+ACTION: On the flight deck Birdy tilts his head a little toward the sound, listening.
+REYES (RADIO): There's a name on it, the field director, and a second name over the phone from Washington, and both of them signed, I watched one of them sign it. The terms are right here. I'm holding it. It's in my hand right now.
+ACTION: Bishop sits still beside her, both hands flat on the console, watching the tag move.
+ACTION: Birdy lets out a breath that carries a small laugh in it, soft, nothing sharp.
+BIRDY (RADIO): You went and did all that.
+REYES (RADIO): I did.
+BIRDY (RADIO): For me. Huh. That's, that's really something, you doing that.
+ACTION: He shifts in the seat, glances at the gauge, and his voice stays warm and easy.
+BIRDY (RADIO): I believe you. I believe every word, I do, I know you wouldn't hold up a piece of paper and tell me it says a thing it doesn't. That's not what this is.
+REYES (RADIO): So come down and let it be real. It's already real, it's already done, you just have to be there for it.
+ACTION: Birdy is quiet for a second, and when he answers there is no argument in it, only a man being honest.
+BIRDY (RADIO): I just don't think a thing like that lands on a guy like me. That's the part I can't, I can't get there. You got the whole thing done, and it's a good thing, I just don't figure it's mine.
+ACTION: He taps the gauge with one knuckle.
+BIRDY (RADIO): Tank's getting down to where it starts to matter, anyway.
+ACTION: Reyes lowers the page an inch, still holding it, and tries once more, quiet.
+REYES (RADIO): It's got your name where the pilot signs. There's a blank line with your name under it.
+BIRDY (RADIO): Yeah. That was real good of you. Thank you.
+ACTION: Reyes holds there, the headset cord swinging a little against the console, and does not say anything.
+ACTION: Her hand comes off the transmit key and rests on the paper.
+ACTION: Bishop's hand stays flat where it is.
+ACTION: On the glass the tag rides the blip out over the black water, and the fuel readout on the command-post board drops another hundred pounds and holds.
+ACTION: Nobody in the room says anything.

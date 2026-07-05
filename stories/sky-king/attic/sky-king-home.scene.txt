@@ -1,0 +1,50 @@
+SKY KING — INT. BIRDY AND MAYA'S HOME - NIGHT
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-home.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The spare room is lit blue by a single wide monitor, a yoke and throttle quadrant clamped to a small desk, a lamp on low behind him.
+ACTION: Birdy sits close to the screen, one hand on the yoke, the other walking the levers up.
+BIRDY: Flaps five, set. Bugs are set.
+ACTION: On the monitor a Q400 sits at the hold short line, runway lights running out into the dark ahead.
+BIRDY (RADIO): Flapjack twenty-two sixty, runway two seven, cleared for takeoff, wind two five zero at eight.
+BIRDY: Twenty-two sixty, cleared for takeoff, two seven.
+ACTION: He eases the throttles forward and the engine note climbs on the speakers.
+BIRDY: Power's set. Airspeed alive.
+ACTION: The runway lights start to slide toward the screen.
+BIRDY: Eighty knots, checks.
+BIRDY: V1. Rotate.
+ACTION: He draws the yoke back a small even amount and the runway drops away under the nose.
+BIRDY: Positive rate.
+ACTION: His thumb finds a switch by feel without looking.
+BIRDY: Gear up.
+ACTION: Maya stands in the doorway in a robe, a glass of water in her hand.
+MAYA: I put the fan on in the bedroom. It's warm back there.
+BIRDY: Yeah. Okay.
+ACTION: He doesn't turn from the screen. The turboprop banks slow and level.
+BIRDY: Flaps up, climb power set.
+MAYA: There's the rest of the pasta if you want it. It's in the blue thing.
+BIRDY: I'm alright. I ate.
+MAYA: You didn't, but okay.
+ACTION: She sips the water and watches the screen a moment.
+MAYA: Which one's this.
+BIRDY: The Dash. Same one from work.
+MAYA: It looks the same as the other one to me.
+BIRDY: It's the same, yeah.
+ACTION: The aircraft settles into a steady climb, the wings holding flat.
+MAYA: Don't be too late. You've got the early one.
+BIRDY: I won't. Just this leg.
+ACTION: She stands there another second. He runs a hand across the panel and clicks something.
+BIRDY: Passing through six thousand.
+MAYA: Okay. Night.
+BIRDY: Night. I'll be in.
+ACTION: Maya goes out. Her footsteps go down the hall and a door closes soft.
+ACTION: Birdy flies on alone, calling the levels under his breath, sure and quiet.
+BIRDY: Level change, ten thousand. Speed two ten.
+ACTION: Time cuts. The clock on the desk reads later. The engine hum still plays low from the speakers.
+ACTION: Birdy is slumped back in the chair, chin down, asleep, one hand still resting on the yoke.
+ACTION: On the monitor the Q400 holds a straight and level cruise above a dark map, the autopilot flying it.
+ACTION: Maya comes back in with a folded blanket. She stops at the doorway, looks at him.
+ACTION: She lays the blanket over his chest and legs and tucks the edge behind his shoulder.
+ACTION: She lifts his hand off the yoke and sets it in his lap. He doesn't wake.
+ACTION: She reaches past him and turns the lamp off. The blue screen keeps glowing on his face.
+ACTION: She leaves it running, goes out, and pulls the door most of the way shut.

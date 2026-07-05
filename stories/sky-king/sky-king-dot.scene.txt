@@ -1,0 +1,66 @@
+SKY KING — INT. SEATTLE APPROACH - RADAR ROOM - NIGHT
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-dot.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Bishop sits at the radar scope in a cardigan under his headset, his reading glasses pushed up on his head, a controller in his fifties working the quiet end of a long night shift.
+ACTION: A blip crawls onto the bottom of his scope with no tag beside it, and he watches it for a second before he thumbs his mic toward the man at the next position.
+BISHOP: Price. You working anything down off the field, south end?
+ACTION: Price, thirties, his sleeves shoved up past his elbows and his own sector's traffic still going in one ear, leans back in his chair without looking over.
+PRICE: Down where.
+BISHOP: Off Sea-Tac. Came off the ground a minute ago, tracking south. No tag on him. No ID, no altitude, just the blip.
+PRICE: Not mine. Nobody handed me anything off the field.
+ACTION: Behind the chairs Kemp stands at the supervisor's desk in a government sport coat, a visitor badge clipped crooked on his pocket, signing the bottom of a thin folder of forms, the DHS liaison at the end of a quarterly night visit where nothing has happened.
+BISHOP: Well, somebody's gotta be working him. He didn't file a plan, there's nothing on him.
+ACTION: A line on Price's console lights up and buzzes, and he picks up the handset and wedges it against his shoulder.
+PRICE: Approach.
+ACTION: Price listens, and his chair comes forward off its slouch.
+PRICE: Say that again. They watched it go?
+ACTION: He covers the mouthpiece and says it across to Bishop, flat.
+PRICE: Tower's got eyes on it. Says it's one of the airline's turboprops, the big twin-prop. Taxied out on its own, nobody cleared it, and it took off.
+PRICE: Yeah. Yeah, we got him down here, no tag on him. Okay.
+ACTION: Price hangs up the line and turns half back to his own scope.
+PRICE: They don't have a name on who's in it. Just watched it roll.
+ACTION: Bishop pulls his chair in and thumbs the transmit key, his eyes on the blip crawling with nothing next to it.
+BISHOP: Aircraft southbound off Sea-Tac, this is Seattle Approach. Identify yourself and say your intentions.
+ACTION: The frequency keys open with a hiss. An engine drones somewhere behind it. Someone breathes. The mic clicks off. No words come.
+BISHOP: Aircraft off Sea-Tac, Seattle Approach. How do you hear.
+ACTION: The same hiss opens and holds. The engine drones behind it. A breath goes by. The mic clicks off again.
+ACTION: Bishop leans back and lifts his voice without turning around.
+BISHOP: Hey. I need the sup over here.
+ACTION: The Supervisor comes off his desk, sixties, gray, his reading glasses hanging on a lanyard, a man twenty years of night shifts have made impossible to hurry, Kemp's half-signed folder still in one hand.
+SUPERVISOR: What've you got.
+BISHOP: Airplane off the field, no plan, no ID. He's keying up and not saying anything.
+ACTION: Kemp follows his folder over, his jacket over one arm, and stops behind Bishop's chair looking at the untagged blip.
+KEMP: When he keys up and there's nothing. That happen a lot, a guy keys the mic and doesn't talk?
+BISHOP: Stuck mic, sometimes. Guy bumps it in the seat. This isn't that.
+KEMP: I'm just, I gotta know what I'm writing down here.
+ACTION: The Supervisor sets the folder on the console and leans over Bishop's shoulder toward the speaker.
+SUPERVISOR: Try him again.
+ACTION: Bishop keys the transmit.
+BISHOP: Aircraft off Sea-Tac, Seattle Approach. You're up on your own frequency, go ahead.
+ACTION: The frequency opens and the engine drones behind it. This time a voice comes through, soft and slow.
+BIRDY (RADIO): Yeah, uh. Hi. Sorry to bug you guys.
+ACTION: The room goes still around the speaker.
+BIRDY (RADIO): I, uh. I kind of did a bad thing. This airplane's not really mine to have. Real sorry.
+ACTION: Bishop's hand stays on the key and his voice flattens down into the job.
+BISHOP: Okay. I hear you. Anybody else on the airplane with you?
+BIRDY (RADIO): No. No, it's empty. Nobody back there.
+BISHOP: And it's you flying it right now. Just you.
+BIRDY (RADIO): Yeah. Just me up here.
+ACTION: Price has turned all the way around in his chair now, his own traffic still going in the ear nobody's listening to.
+PRICE (WHISPER): That's a hijacking.
+ACTION: The Supervisor doesn't look up from the speaker.
+SUPERVISOR: Hijacked off who. He's the only one on it. Keep that word off the phone.
+KEMP: The floor's gonna ask me what it is, though. What do I call it.
+ACTION: The Supervisor straightens up and thinks about it for a second.
+SUPERVISOR: A guy took an airplane that wasn't his. It's a stolen airplane. That's what it is.
+ACTION: Kemp uncaps a pen against the folder and writes it down.
+KEMP: Stolen aircraft.
+ACTION: Kemp reads back over what he wrote, his lips moving, then stops.
+KEMP: They're gonna want who, though. I say a guy took it, first thing out of their mouth is which guy. And I got nothing for that.
+BISHOP: We don't have a name. Tower doesn't either.
+KEMP: Yeah. That's the part that sounds made up.
+ACTION: Kemp works the sentence half under his breath, then lifts the phone off the wall and dials.
+KEMP: Somebody took one of the airline's turboprops off Sea-Tac a few minutes ago. It's empty, one man on board flying it, up talking to us on the radio right now. And we don't know who he is.
+ACTION: Nobody in the room moves. Kemp stands there with the phone still at his ear.
+ACTION: On Bishop's scope the untagged blip crawls off the last of the ground and out over the black of the water.

@@ -1,0 +1,42 @@
+[
+ {
+  "group": 0,
+  "scene": "THE CHIEF JUSTICE'S HOUSE",
+  "frame": "stories/the-heir/storyboard/22_ext_justice_house.png",
+  "path": "stories/the-heir/performance/segments/grp00_13a4150127695ab5.mp3",
+  "duration": 20.88,
+  "gap_after_ms": 600
+ },
+ {
+  "group": 1,
+  "scene": "THE CHIEF JUSTICE'S HOUSE",
+  "frame": "stories/the-heir/storyboard/23_door_chain.png",
+  "path": "stories/the-heir/performance/segments/grp01_6b79fbaca6bb9000.mp3",
+  "duration": 69.36,
+  "gap_after_ms": 600
+ },
+ {
+  "group": 2,
+  "scene": "A BOULEVARD CHECKPOINT",
+  "frame": "stories/the-heir/storyboard/24_checkpoint.png",
+  "path": "stories/the-heir/performance/segments/grp02_d9f06eda2d4a1856.mp3",
+  "duration": 83.28,
+  "gap_after_ms": 600
+ },
+ {
+  "group": 3,
+  "scene": "BAYAR'S OFFICE",
+  "frame": "stories/the-heir/storyboard/25_bayar_office.png",
+  "path": "stories/the-heir/performance/segments/grp03_725cde835bfd413e.mp3",
+  "duration": 43.2,
+  "gap_after_ms": 600
+ },
+ {
+  "group": 4,
+  "scene": "BAYAR'S OFFICE",
+  "frame": "stories/the-heir/storyboard/26_bayar_cu.png",
+  "path": "stories/the-heir/performance/segments/grp04_5c13f3dd68c5f2fa.mp3",
+  "duration": 70.4,
+  "gap_after_ms": 0
+ }
+]

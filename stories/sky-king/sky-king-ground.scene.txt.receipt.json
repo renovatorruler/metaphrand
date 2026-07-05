@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-ground",
+  "slug": "INT. AIRPORT OPERATIONS CENTER - COMMAND POST - NIGHT",
+  "seedHash": "d035fa753c3aae8ae93b8e5d5b039b4a83b5ec724fa94bb33089607ef12c29c7",
+  "sceneHash": "d4f7171a5fc9632e701e36ac89ebb7614e2138d92cd11c1088270a98c576f233",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

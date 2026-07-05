@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-stall",
+  "slug": "INT. Q400 FLIGHT DECK / NIGHT SKY / COMMAND POST - NIGHT (INTERCUT)",
+  "seedHash": "f235e191dd8518037515ecec7a1f6a8e8ac44e93833b2e98e604f5a62517055c",
+  "sceneHash": "1faccb4343a519116759de97635c7c31903e499342ae8f6b05ee6890d3843cbe",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

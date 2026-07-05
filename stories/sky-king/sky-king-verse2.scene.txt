@@ -1,0 +1,55 @@
+SKY KING — INT. COMMAND POST - NIGHT / EXT. SEA-TAC RAMP OFFICE - DAY (FLASHBACK)
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-verse2.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The command post is a windowless room lit blue by monitors, and REYES sits across a folding table from WARD, a heavyset man in a reflective ramp vest, his badge still clipped to it.
+ACTION: WARD keeps his eyes down on the table where his hands are folded.
+REYES: I'm not asking you to say anything you don't want to say. I just want to get a picture of him.
+WARD: He worked for me nine years. Good with the equipment.
+REYES: What about lately. Last couple weeks, last month. Anything going on with him that you noticed.
+WARD: Not that he told me.
+REYES: I don't mean told. I mean anything change for him. At work, I don't know, something come up that didn't go his way.
+ACTION: WARD moves a paper clip a half inch and does not look up.
+WARD: It's a ramp. Same thing every day.
+REYES: Sure.
+WARD: I don't know what you want me to say.
+ACTION: WARD looks past her at the wall, and the room goes to daylight.
+ACTION: The ramp office is a plywood booth with a window onto the tarmac, sun coming in hard, a jet parked out on the concrete beyond the glass. WARD stands at a corkboard with a printed sheet in his hand, younger by the two weeks.
+ACTION: MARQUEZ leans in the doorway, twenties, a lanyard and a clean vest, a coffee going cold in his fist.
+MARQUEZ: You put the lead posting up yet, or.
+WARD: Going up now.
+ACTION: WARD pins the sheet to the board and steps back from it.
+MARQUEZ: I put my name on it. The other day. I don't know if that's, if you saw.
+WARD: I saw it.
+MARQUEZ: Okay. I just didn't want it to seem like I was, you know.
+WARD: You're the one that wants it. That's the sheet.
+ACTION: WARD turns and BIRDY is at the fuel truck out the window, late thirties, hearing protection around his neck, coiling a hose without hurry.
+ACTION: WARD steps out onto the ramp and the noise comes up, and BIRDY looks over.
+WARD: Got a minute.
+BIRDY: Yeah.
+WARD: I gave the lead to Marquez. Signed it this morning.
+ACTION: BIRDY sets the hose end down and wipes his hands on his pants.
+BIRDY: Oh. Good. He'll be good at that.
+WARD: You didn't put in.
+BIRDY: No. No, it's alright. He wanted it.
+ACTION: WARD stands there a second longer than he needs to.
+WARD: I need somebody to bring him up on the whole thing. The board, the turns, all of it. You know it better than anybody out here.
+BIRDY: Sure. No problem.
+WARD: You don't have to.
+BIRDY: No, it's fine. Kid's sharp. Won't take long.
+ACTION: MARQUEZ comes out from the booth and stops a few feet off, hands in his pockets.
+MARQUEZ: Hey. I don't want it to be weird, or.
+ACTION: BIRDY steps over and puts out his hand, and MARQUEZ takes it.
+BIRDY: Congratulations. You earned it, putting your name down.
+MARQUEZ: Thanks. I mean it, I'll take whatever you got.
+BIRDY: We'll start Monday. It's easy once you see it.
+ACTION: BIRDY picks the hose back up and goes back to the truck, and WARD watches him do it.
+ACTION: The light drops out and the monitors are blue again, REYES still across the table, waiting.
+REYES: Anything?
+ACTION: WARD keeps his eyes on his hands.
+WARD: He was a good worker. Steady.
+ACTION: A radio on the table breaks up with a controller's voice, low under the room.
+CONTROLLER (RADIO): Post, we still got him west of the field, no change.
+ACTION: REYES lets it sit and does not write anything down.
+REYES: Steady.
+ACTION: WARD nods once and does not look at her.

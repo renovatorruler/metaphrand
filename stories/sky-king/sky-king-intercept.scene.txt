@@ -1,0 +1,62 @@
+SKY KING — INT. F-15 COCKPIT / NIGHT SKY - NIGHT
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-intercept.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The klaxon rips through the ready room and both men are up and moving before the second cycle.
+DEACON: That's the real tone.
+BANJO: Yeah, it always is. Then it's some crop duster nobody shut off.
+ACTION: They cross the ramp in the last dusk light, the ramp lights just coming on, helmets under their arms, boots loud on the concrete.
+DEACON: Brief said airliner. Q400 out of Cascade, went dark, quit answering, came around off its clearance.
+BANJO: Off its clearance how far?
+DEACON: Hijack profile. That's what they handed us.
+ACTION: Canopies drop. Engines wind up and the two jets roll and go, afterburners lighting the taxiway behind them.
+DEACON (RADIO): Sword flight airborne, passing angels eight, looking for the picture.
+BISHOP (RADIO): Sword lead, Bishop. Your target's your eleven o'clock, forty miles, angels one-two, slow. Very slow.
+BANJO (RADIO): Copy slow. Here we go again. Another one out of the county strip.
+DEACON (RADIO): Negative. This one's moving.
+BANJO (RADIO): Say again?
+DEACON (RADIO): It's a real one, Banjo. It's up and it's turning.
+ACTION: The HUD steps down the range. A single contact sits low and alone over the darkening water.
+BANJO (RADIO): Okay. Okay, so it's not a Cessna.
+DEACON (RADIO): No.
+ACTION: They climb toward it, the two jets closing on the one slow return in the failing light.
+DEACON (RADIO): Bishop, confirm the intent. You getting anything off him. Demands, a number, anything.
+BISHOP (RADIO): Nothing like that. I've got a man on the frequency. He's talking to me. That's all he's doing.
+DEACON (RADIO): There's a guy actually talking to you?
+BISHOP (RADIO): Yeah. Just him, far as I can tell.
+BANJO (RADIO): Tally the strobe. My twelve, low.
+DEACON (RADIO): No joy. Where.
+BANJO (RADIO): Below the horizon line. He's under us and he's just kind of, drifting.
+ACTION: Deacon banks and drops. Ahead the running lights blink on the wings of the airliner. It is not flying straight. It wanders, noses up, sinks, comes back.
+DEACON (RADIO): Visual. I've got him.
+BANJO (RADIO): The hell is he doing. He's all over the place.
+DEACON (RADIO): He's chasing the altitude. He keeps losing it and getting it back.
+BISHOP (RADIO): He told me he's not sure he's doing this right. Those were his words.
+ACTION: The two fighters slide in above and behind the Q400, matching its slow crawl, throttles back near the edge of the envelope.
+BANJO (RADIO): There's no gun on this thing, Deak, there's nothing on it at all. It's just a guy up there.
+DEACON (RADIO): I see him.
+ACTION: The airliner's cockpit is a faint green glow against the blue dusk. A single figure sits in the left seat, hands on the yoke.
+BANJO (RADIO): So what do we do here.
+DEACON (RADIO): I don't know.
+BANJO (RADIO): You're lead, Deak.
+DEACON (RADIO): I know I am. Just give me a second.
+ACTION: The Q400 sinks again, a hundred feet, then more, the wings rocking.
+DEACON (RADIO): He's coming down. Bishop, he's descending, he's got a wing down.
+BISHOP (RADIO): I know. Talk him up if he asks. He's not trying to hurt anybody. He keeps saying that.
+ACTION: The airliner's nose lifts. The wings level. Slowly, evenly, it rolls into a long clean turn against the last light in the west, holding it all the way through.
+BANJO (RADIO): Whoa.
+BANJO (RADIO): Deak. Deak, you see that.
+DEACON (RADIO): Yeah, I got it.
+BANJO (RADIO): He actually flew that. That was a real turn.
+DEACON (RADIO): Yeah.
+BANJO (RADIO): Where's he even learn to do that.
+ACTION: Deacon says nothing. His jet holds formation off the airliner's wing, matching the slow bank, following it around.
+DEACON (RADIO): Bishop. What's his name.
+BISHOP (RADIO): He goes by Birdy. That's what he asked me to call him.
+ACTION: A faint voice bleeds across the frequency under Bishop's, warm and unhurried, the words lost.
+DEACON (RADIO): Say your last, I stepped on it.
+BISHOP (RADIO): That was him, not me. He was just saying it's real pretty up here.
+ACTION: The two jets stay locked on the Q400's wingtip as it comes level again, all three aircraft crawling through the last of the light together.
+DEACON (RADIO): What do you want us to do with him.
+BISHOP (RADIO): Just stay with him. Right now, just stay with him.
+ACTION: The airliner drifts on, running lights blinking, and neither fighter moves off it.

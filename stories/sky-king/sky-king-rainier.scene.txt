@@ -1,0 +1,41 @@
+SKY KING — INT. Q400 FLIGHT DECK / SEATTLE APPROACH - RADAR ROOM - NIGHT (INTERCUT)
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-rainier.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The Q400 drones south in the dark. Both engines hold steady. The panel glows green across Birdy's face.
+ACTION: Off the right wing a fighter holds close, its nav lights blinking. Off the left wing the other one sits in tight.
+ACTION: Ahead and off to the side the mountain stands up black against the sky, and the very top of it still holds the last of the evening light while the rest of it has gone dark.
+ACTION: Birdy keys the mic.
+BIRDY (RADIO): Hey. You still there.
+ACTION: Bishop sits at his scope in the radar room, the track crawling across the glass, other controllers quiet around him.
+BISHOP (RADIO): I'm here. Go ahead.
+ACTION: Birdy looks out the left window at the mountain. He doesn't say anything for a second.
+BIRDY (RADIO): You can see it real good from up here. The big one. It's got the light still on the top of it.
+BISHOP (RADIO): Yeah?
+BIRDY (RADIO): The rest of it's gone dark but the top's still got it. I dunno. I been looking at it.
+ACTION: Bishop watches the track. He waits.
+BIRDY (RADIO): I was gonna. Never mind. It's fine.
+BISHOP (RADIO): Say again, I didn't get that.
+BIRDY (RADIO): No, it's nothing. I don't gotta. Forget it.
+ACTION: The mountain sits off the nose. Birdy's hand rests on the yoke and doesn't move.
+BIRDY (RADIO): I guess I was wondering if I could maybe go over by it. Just to look at it. If that doesn't mess anything up for you.
+ACTION: Bishop looks at the scope a moment, the track holding its heading. Then he leans to the mic.
+BISHOP (RADIO): You can do that. Turn left, come around to about one-six-zero, take it right at the mountain. Keep the altitude you got.
+ACTION: A beat of quiet on the frequency.
+BIRDY (RADIO): Left to one-six-zero, direct the mountain, keep what I got.
+ACTION: Bishop sits back. The track on his scope begins to bend, easing left toward the high ground.
+ACTION: Off the wings the two fighters roll with the Q400, banking as it comes around.
+ACTION: In Deacon's cockpit the exchange plays over the guard frequency. Deacon holds formation and says nothing.
+ACTION: Banjo keys his own frequency, plane to plane.
+BANJO (WHISPER): You catch that readback.
+ACTION: Deacon keeps his eyes on the Q400's wing, matching the turn.
+BANJO (WHISPER): Where's a guy like that get a readback like that.
+ACTION: Deacon doesn't answer. Both fighters settle into the new heading, one off each wing, and the mountain slides around to the front.
+ACTION: In the radar room another line comes up, flat, from the command net.
+CONTROLLER (RADIO): What's he doing. Where's he going now.
+ACTION: Bishop keys the command net.
+BISHOP (RADIO): You said keep him talking. He's talking.
+ACTION: The net goes quiet. Bishop turns back to his scope.
+ACTION: In the flight deck the mountain grows in the windscreen, filling it up, the last of the light still sitting on the very top.
+BIRDY (RADIO): Would you look at that. Top's still lit.
+ACTION: The Q400 sits tiny against the mountain, a fighter off each wing, all three holding steady toward the light on the top. Nobody says anything.

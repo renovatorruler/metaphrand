@@ -1,0 +1,419 @@
+{
+  "title": "THE HEIR — Act 1 opening performance (first ~10 minutes)",
+  "notes": "The maintained performance layer: screenplay text verbatim + ElevenLabs v3 audio tags directing delivery per the bible voice cards. Edit THIS file to re-direct a line; the renderer (examples/heir_elevenlabs.py) consumes it. Tags follow eleven_v3 conventions: bracketed cues inline at the shift point, 1-3 per line, purposeful. Narrator stays measured and dry — the actors carry the emotion. Nadir's arc note: in this slice he is the EARLY voice (warm, hedging); the cold open alone is the LATE voice (flat).",
+  "model_id": "eleven_v3",
+  "output_format": "mp3_44100_128",
+  "gaps_ms": {
+    "line": 320,
+    "scene": 1000
+  },
+  "cast": {
+    "NARRATOR": {
+      "voice": "George",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "settings": {
+        "stability": 0.5,
+        "similarity_boost": 0.8
+      },
+      "direction": "measured, dry, unhurried; never performs the emotion, reports it"
+    },
+    "NADIR": {
+      "voice": "Daniel",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "settings": {
+        "stability": 0.32,
+        "similarity_boost": 0.8
+      },
+      "direction": "London: warm, quick, hedging. Cold open only: flat, slow, dead calm"
+    },
+    "LENA": {
+      "voice": "Lily",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "settings": {
+        "stability": 0.35,
+        "similarity_boost": 0.8
+      },
+      "direction": "dry, exact, English; love expressed as precision"
+    },
+    "BAYAR": {
+      "voice": "Bill",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "settings": {
+        "stability": 0.4,
+        "similarity_boost": 0.8
+      },
+      "direction": "aged, courteous, dry; never raises it; lets facts threaten"
+    },
+    "RUSTAM": {
+      "voice": "Callum",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "settings": {
+        "stability": 0.3,
+        "similarity_boost": 0.8
+      },
+      "direction": "blunt, heavy, amused contempt; commands, never asks"
+    },
+    "OSMAN": {
+      "voice": "Brian",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "settings": {
+        "stability": 0.3,
+        "similarity_boost": 0.8
+      },
+      "direction": "old, frail, overcome; gratitude bigger than the voice"
+    },
+    "COLLEAGUE": {
+      "voice": "Antoni",
+      "voice_id": "ErXwobaYiN019PkySvjV",
+      "settings": {
+        "stability": 0.4,
+        "similarity_boost": 0.8
+      },
+      "direction": "easy, collegial, teasing"
+    }
+  },
+  "segments": [
+    {
+      "scene": "COLD OPEN — THE PRESIDENT'S OFFICE, NIGHT",
+      "speaker": "NARRATOR",
+      "text": "Dark, except for the city through tall windows — the lights of a capital that works, that is quiet, that is afraid in the right amounts. At a great desk built for someone bigger sits a man it fits now. This is Nadir Demir, forties, though the eyes have more miles than that. He is entirely still. [quietly] It is his father's stillness, and he came by it honestly.",
+      "frame": "stories/the-heir/storyboard/01_cold-open_desk.png"
+    },
+    {
+      "scene": "COLD OPEN",
+      "speaker": "NARRATOR",
+      "text": "An internal telephone waits under his hand. He looks at it a while. Then he lifts it, and the line is answered on half a ring.",
+      "frame": "stories/the-heir/storyboard/01_cold-open_desk.png"
+    },
+    {
+      "scene": "COLD OPEN",
+      "speaker": "NADIR",
+      "text": "[flat] How many.",
+      "frame": "stories/the-heir/storyboard/01_cold-open_desk.png"
+    },
+    {
+      "scene": "COLD OPEN",
+      "speaker": "NARRATOR",
+      "text": "He listens. The number takes a moment to say, and another to qualify — we never hear it. [quietly] Nothing in his face moves while it's said.",
+      "frame": "stories/the-heir/storyboard/01_cold-open_desk.png"
+    },
+    {
+      "scene": "COLD OPEN",
+      "speaker": "NADIR",
+      "text": "[flat] That's if they resist. [pause] And if they don't?",
+      "frame": "stories/the-heir/storyboard/01_cold-open_desk.png"
+    },
+    {
+      "scene": "COLD OPEN",
+      "speaker": "NARRATOR",
+      "text": "He listens. The second number is shorter.",
+      "frame": "stories/the-heir/storyboard/01_cold-open_desk.png"
+    },
+    {
+      "scene": "COLD OPEN",
+      "speaker": "NADIR",
+      "text": "[cold, unhurried] All right. [pause] Tonight.",
+      "frame": "stories/the-heir/storyboard/01_cold-open_desk.png"
+    },
+    {
+      "scene": "COLD OPEN",
+      "speaker": "NARRATOR",
+      "text": "He sets the receiver down, soft, the way you put down a thing that turns out heavier than it looked. Far across the city, floodlights climb a building and find a portrait four storeys tall — his father, young again, looking out over everyone's head. Nadir doesn't turn to it. [dry] He stopped needing to check a long time ago.",
+      "frame": "stories/the-heir/storyboard/02_cold-open_watch.png"
+    },
+    {
+      "scene": "COLD OPEN",
+      "speaker": "NARRATOR",
+      "text": "In the dark, barely aloud, to no one:",
+      "frame": "stories/the-heir/storyboard/02_cold-open_watch.png"
+    },
+    {
+      "scene": "COLD OPEN",
+      "speaker": "NADIR",
+      "text": "[whispers] Watch.",
+      "frame": "stories/the-heir/storyboard/02_cold-open_watch.png"
+    },
+    {
+      "scene": "TITLE",
+      "speaker": "NARRATOR",
+      "text": "[long pause] Three years earlier.",
+      "frame": "stories/the-heir/storyboard/title_3yrs.png"
+    },
+    {
+      "scene": "LONDON — GRAY'S INN, DAY",
+      "speaker": "NARRATOR",
+      "text": "London. Rain on tall Georgian windows, and the civilised hum of a place where the worst thing that can happen to a man is a deadline. Nadir — younger in the face, looser in the shoulders, a good suit worn like a dressing gown — stands at the window with an old man in a donated coat: Osman, seventies, a schoolteacher's stoop, two fingers missing from his right hand.",
+      "frame": "stories/the-heir/storyboard/03_london_osman.png"
+    },
+    {
+      "scene": "LONDON",
+      "speaker": "NADIR",
+      "text": "[warm] It's granted, Osman. It's over. The tribunal accepted everything — you, your wife, your son's family when we can get them out. Nobody can send you back. Not ever. [gently] You're a free man in a boring country, which is the best kind there is.",
+      "frame": "stories/the-heir/storyboard/03_london_osman.png"
+    },
+    {
+      "scene": "LONDON",
+      "speaker": "NARRATOR",
+      "text": "The old man takes this in. Then he takes Nadir's hand in both of his — the whole hand, the missing fingers and all — and holds it, and can't speak. Nadir lets him hold it as long as he needs.",
+      "frame": "stories/the-heir/storyboard/03_london_osman.png"
+    },
+    {
+      "scene": "LONDON",
+      "speaker": "OSMAN",
+      "text": "[shaky, overcome] They told me, in the cells — nobody leaves, nobody is heard. [tearful] Forty years they told me that.",
+      "frame": "stories/the-heir/storyboard/03_london_osman.png"
+    },
+    {
+      "scene": "LONDON",
+      "speaker": "NADIR",
+      "text": "[softly] I know. They told my mother the same thing. [warmer] Go and tell your wife. Use my office. Take your time on the phone — it's a good phone, it's the firm's.",
+      "frame": "stories/the-heir/storyboard/03_london_osman.png"
+    },
+    {
+      "scene": "LONDON",
+      "speaker": "NARRATOR",
+      "text": "The colleague walks Osman out. Nadir watches them go, and for a moment, alone, he flexes his own right hand — all five fingers — like a man checking his luck.",
+      "frame": "stories/the-heir/storyboard/03_london_osman.png"
+    },
+    {
+      "scene": "LONDON",
+      "speaker": "COLLEAGUE",
+      "text": "[easy, teasing] That's the fourth one this year from that godawful place. Chambers grumbles, you know. The hours you sink into them. There's no money in it.",
+      "frame": "stories/the-heir/storyboard/03_london_osman.png"
+    },
+    {
+      "scene": "LONDON",
+      "speaker": "NADIR",
+      "text": "[wry] There's no money in it. [lighter] That's rather the point. It's the only file in this building where I know exactly who I'm against.",
+      "frame": "stories/the-heir/storyboard/03_london_osman.png"
+    },
+    {
+      "scene": "LONDON",
+      "speaker": "NARRATOR",
+      "text": "On the desk his phone lights and buzzes — a long foreign number — and something behind his face quietly shuts. He turns the phone face down without answering it.",
+      "frame": "stories/the-heir/storyboard/09_london_phone.png"
+    },
+    {
+      "scene": "LONDON",
+      "speaker": "COLLEAGUE",
+      "text": "[curious] You're not going to get that?",
+      "frame": "stories/the-heir/storyboard/09_london_phone.png"
+    },
+    {
+      "scene": "LONDON",
+      "speaker": "NADIR",
+      "text": "[dry, a little too quick] It's nobody. A wrong number that's been wrong for about fifteen years.",
+      "frame": "stories/the-heir/storyboard/09_london_phone.png"
+    },
+    {
+      "scene": "LONDON",
+      "speaker": "NARRATOR",
+      "text": "The phone buzzes again under his hand, patient, face down, and he doesn't look at it, [pause] and he doesn't quite manage not to.",
+      "frame": "stories/the-heir/storyboard/09_london_phone.png"
+    },
+    {
+      "scene": "LONDON — THE FLAT, NIGHT",
+      "speaker": "NARRATOR",
+      "text": "Their flat. Small and warm and real — books, a radiator that works, a life with no motorcades in it. Lena has set her reading down. Nadir stands at the window with the foreign phone finally against his ear, and he has been listening a long time. When he speaks, the ease has gone out of his voice.",
+      "frame": "stories/the-heir/storyboard/04_london_flat.png"
+    },
+    {
+      "scene": "FLAT",
+      "speaker": "NADIR",
+      "text": "[quiet, careful] How long.",
+      "frame": "stories/the-heir/storyboard/04_london_flat.png"
+    },
+    {
+      "scene": "FLAT",
+      "speaker": "NARRATOR",
+      "text": "He listens.",
+      "frame": "stories/the-heir/storyboard/04_london_flat.png"
+    },
+    {
+      "scene": "FLAT",
+      "speaker": "NADIR",
+      "text": "[tighter] And he asked for me. He used those words. [pause] You're sure he used those words.",
+      "frame": "stories/the-heir/storyboard/04_london_flat.png"
+    },
+    {
+      "scene": "FLAT",
+      "speaker": "NARRATOR",
+      "text": "He listens, then lowers the phone and ends the call without a goodbye, because no goodbye fits.",
+      "frame": "stories/the-heir/storyboard/04_london_flat.png"
+    },
+    {
+      "scene": "FLAT",
+      "speaker": "LENA",
+      "text": "[level] That was the number you don't answer.",
+      "frame": "stories/the-heir/storyboard/04_london_flat.png"
+    },
+    {
+      "scene": "FLAT",
+      "speaker": "NADIR",
+      "text": "[exhales] My father's dying. Weeks. They think less.",
+      "frame": "stories/the-heir/storyboard/04_london_flat.png"
+    },
+    {
+      "scene": "FLAT",
+      "speaker": "LENA",
+      "text": "[gently] Okay. [pause] Do you want to go.",
+      "frame": "stories/the-heir/storyboard/04_london_flat.png"
+    },
+    {
+      "scene": "FLAT",
+      "speaker": "NADIR",
+      "text": "[flat] No.",
+      "frame": "stories/the-heir/storyboard/04_london_flat.png"
+    },
+    {
+      "scene": "FLAT",
+      "speaker": "LENA",
+      "text": "[patient, precise] That isn't what I asked. I know you don't want to. [pause] Do you need to.",
+      "frame": "stories/the-heir/storyboard/04_london_flat.png"
+    },
+    {
+      "scene": "FLAT",
+      "speaker": "NARRATOR",
+      "text": "He looks out at the city that took him in — the one place on earth where no one he loves has ever been put into a car and not come back.",
+      "frame": "stories/the-heir/storyboard/04_london_flat.png"
+    },
+    {
+      "scene": "FLAT",
+      "speaker": "NADIR",
+      "text": "[deciding as he says it] I'll go and put him in the ground, and I'll come home. Three days. I'm not going anywhere near the rest of it, Lena. I bury him, I come back, [firmer] and we never say the name of that country in this flat again.",
+      "frame": "stories/the-heir/storyboard/04_london_flat.png"
+    },
+    {
+      "scene": "FLAT",
+      "speaker": "LENA",
+      "text": "[dry] Three days. Fine. I'm coming with you.",
+      "frame": "stories/the-heir/storyboard/04_london_flat.png"
+    },
+    {
+      "scene": "FLAT",
+      "speaker": "NADIR",
+      "text": "[alarmed] You are absolutely not —",
+      "frame": "stories/the-heir/storyboard/04_london_flat.png"
+    },
+    {
+      "scene": "FLAT",
+      "speaker": "LENA",
+      "text": "[overriding, calm] You're going to bury the man who made you flinch at telephones, surrounded by people who all want something from you, and you'd like to do that alone. No. I've heard about that country my whole marriage and never once seen it. [softer] Three days, both of us, and I'll finally know what I'm married to.",
+      "frame": "stories/the-heir/storyboard/04_london_flat.png"
+    },
+    {
+      "scene": "FLAT",
+      "speaker": "NARRATOR",
+      "text": "She crosses and stands with him at the glass. [quietly] Neither of them believes the three days, but it is a kind thing to say, so they say it.",
+      "frame": "stories/the-heir/storyboard/04_london_flat.png"
+    },
+    {
+      "scene": "KARASH — ASLAN'S ROOM, NIGHT",
+      "speaker": "NARRATOR",
+      "text": "Karash. A heavier gravity, and you can watch it settle onto Nadir the moment he is here: the dark, the machines, a tube, the smell of a sickroom someone has tried to cover with something floral. Nadir sits where a son sits — still in the coat he flew in, a bag by the door he hasn't carried to a room, because he is not staying. He landed four hours ago. [quietly] He watches the monitor, not the man.",
+      "frame": "stories/the-heir/storyboard/05_deathbed.png"
+    },
+    {
+      "scene": "ASLAN'S ROOM",
+      "speaker": "NARRATOR",
+      "text": "Aslan Demir, eighty, what's left of him, breathes on the machine's schedule. [pause] The line stops climbing.",
+      "frame": "stories/the-heir/storyboard/10_flatline.png"
+    },
+    {
+      "scene": "ASLAN'S ROOM",
+      "speaker": "NARRATOR",
+      "text": "Nadir doesn't move. He waits for it the way you wait for the other shoe. [long pause] The flat tone comes.",
+      "frame": "stories/the-heir/storyboard/10_flatline.png"
+    },
+    {
+      "scene": "ASLAN'S ROOM",
+      "speaker": "NARRATOR",
+      "text": "He reaches over and turns the sound off before it can travel down the hall. Then he sits in the new quiet, and his shoulders come down off his ears. He puts a hand over his own mouth. Holds it there. [pause] Takes it away.",
+      "frame": "stories/the-heir/storyboard/10_flatline.png"
+    },
+    {
+      "scene": "ASLAN'S ROOM",
+      "speaker": "NADIR",
+      "text": "[whispers, unsteady] Okay.",
+      "frame": "stories/the-heir/storyboard/05_deathbed.png"
+    },
+    {
+      "scene": "ASLAN'S ROOM",
+      "speaker": "NARRATOR",
+      "text": "The door opens behind him. He doesn't turn around.",
+      "frame": "stories/the-heir/storyboard/06_mr-president.png"
+    },
+    {
+      "scene": "ASLAN'S ROOM",
+      "speaker": "BAYAR",
+      "text": "[quiet, courteous] Mr. President.",
+      "frame": "stories/the-heir/storyboard/06_mr-president.png"
+    },
+    {
+      "scene": "ASLAN'S ROOM",
+      "speaker": "NARRATOR",
+      "text": "Nadir keeps his eyes on his father. Doesn't answer to it. [pause] Not yet.",
+      "frame": "stories/the-heir/storyboard/06_mr-president.png"
+    },
+    {
+      "scene": "THE OFFICE — SECURITY HQ, NIGHT",
+      "speaker": "NARRATOR",
+      "text": "The Office. Security headquarters, the same night. No grief in this building, only logistics. A wall of screens: state television gone to a test card, then a flag; the airport road; the eastern garrison gates standing open and emptying. Bayar reads it the way another man reads a weather report. Nadir, still in his travelling coat, has been brought here and hasn't been told why.",
+      "frame": "stories/the-heir/storyboard/07_office_screens.png"
+    },
+    {
+      "scene": "SECURITY HQ",
+      "speaker": "NADIR",
+      "text": "[strained] My father died an hour ago. Why am I in a basement.",
+      "frame": "stories/the-heir/storyboard/07_office_screens.png"
+    },
+    {
+      "scene": "SECURITY HQ",
+      "speaker": "BAYAR",
+      "text": "[dry, deliberate] Because an hour ago your father died, Mr. President. [pause] General Rustam has the eastern garrison on the Astan road. He has the television. By breakfast he intends to have the country, and he isn't hiding it, [drier] because hiding it is for men who think they might lose.",
+      "frame": "stories/the-heir/storyboard/07_office_screens.png"
+    },
+    {
+      "scene": "SECURITY HQ",
+      "speaker": "NADIR",
+      "text": "[refusing it] Then it's your problem. Yours and your generals'. I came to bury him. I'm on the morning flight.",
+      "frame": "stories/the-heir/storyboard/07_office_screens.png"
+    },
+    {
+      "scene": "SECURITY HQ",
+      "speaker": "BAYAR",
+      "text": "[patient] There is no morning flight. He closed the airport at midnight, and your name is on the short list of people who are not to use it. [almost kind] You've misread the room you're standing in. You are not a mourner who gets to go home. You are the one thing in this country with a better claim to that chair than Rustam has — which makes you, tonight, both the most dangerous man alive and the most likely to be dead by dawn. He can't take the country while the son still breathes. [pause] Neither of those facts cares in the slightest what you flew in for.",
+      "frame": "stories/the-heir/storyboard/07_office_screens.png"
+    },
+    {
+      "scene": "PALACE CORRIDOR, NIGHT",
+      "speaker": "NARRATOR",
+      "text": "A palace corridor. Soldiers in the hall who are not Bayar's. At the end of it, General Rustam, late fifties, built like a door, still in field dress so that Nadir will know he came straight off the column. He looks at Nadir the way you look at a problem you'd expected to be bigger.",
+      "frame": "stories/the-heir/storyboard/08_rustam_corridor.png"
+    },
+    {
+      "scene": "CORRIDOR",
+      "speaker": "RUSTAM",
+      "text": "[heavy, amused] So. The lawyer. [pause] I knew your father forty years. I bled for the thing he built. And he wills it to a boy who took the first plane out, [contempt] and only came home when the old man couldn't say no.",
+      "frame": "stories/the-heir/storyboard/08_rustam_corridor.png"
+    },
+    {
+      "scene": "CORRIDOR",
+      "speaker": "NADIR",
+      "text": "[hurried, sincere] I don't want it. You can have the — I genuinely, I don't want any part of it. Put me on a plane and it's yours. [pleading] There's no fight here.",
+      "frame": "stories/the-heir/storyboard/08_rustam_corridor.png"
+    },
+    {
+      "scene": "CORRIDOR",
+      "speaker": "RUSTAM",
+      "text": "[low, reasonable, which is worse] And that is the trouble, you see. I almost believe you. But almost is the word that gets a country killed. Tomorrow, or in ten years, some man with a grievance remembers there is a real son in London, and goes to find him. You don't leave the rightful heir alive in a city he can fly home from. [flat] Your father taught me that. He taught me with his own brother.",
+      "frame": "stories/the-heir/storyboard/08_rustam_corridor.png"
+    },
+    {
+      "scene": "CORRIDOR",
+      "speaker": "RUSTAM",
+      "text": "[final, unhurried] Sign the country to me tonight and stay on as my guest, where I can see you. That is the generous offer. [pause] Refuse it, and you will not reach the airport you keep bringing up.",
+      "frame": "stories/the-heir/storyboard/08_rustam_corridor.png"
+    }
+  ]
+}

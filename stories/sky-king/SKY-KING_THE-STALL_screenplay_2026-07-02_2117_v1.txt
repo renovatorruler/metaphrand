@@ -1,0 +1,43 @@
+SKY KING — INT. Q400 FLIGHT DECK / NIGHT SKY / COMMAND POST - NIGHT (INTERCUT)
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-stall.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Two thousand feet over the black shoulder of the west range, the Q400 hangs its nose up and mushes along at a crawl, running lights swaying, and the two F-15s ride its wings so slow their own wings shudder.
+ACTION: Banjo's jet wallows on the edge, the afterburner lighting and dropping and lighting again to hold him back from falling out of the sky.
+BANJO: Deacon, I'm out of airplane over here, I got the blower cycling just to stay this slow, he keeps bringing the nose up on me.
+DEACON: Copy, hold what you can, don't go past your edge for him.
+BANJO: Yeah, I'm about at it, he's got nothing left to slow with and neither do I.
+ACTION: The turboprop's nose drifts higher toward the dark ridgeline, the speed bleeds off another notch, and through Birdy's keyed mic a hard clattering rattle starts up under the engine drone.
+ACTION: The left wing drops and the airplane rolls off toward the black ground, the rattle hammering, and Birdy's breathing comes fast over the open mic.
+BIRDY (RADIO): Okay, sorry, hang on, hang on, she quit on me there.
+DEACON: He's got a wing down, he's rolling left and coming down, nose is falling.
+ACTION: The command post comes up out of its chairs in one wave, Kemp among them, every face on the big screen where the blip crawls with no number under it.
+DEACON: No altitude on him, I'm your altitude, he's descending, nose down through the roll, dropping toward the ridge.
+BISHOP (RADIO): You're talking, keep talking to me.
+BIRDY (RADIO): Nose is coming down, I'm putting the nose down, sorry, there, wings, wings are coming.
+ACTION: The clattering keeps hammering, then thins out, and the engine note climbs back up steady.
+BIRDY (RADIO): There she is, okay, she's flying, I got her, sorry about that.
+DEACON: He's level, he's climbing off it, he's got it.
+ACTION: The two fighters slide back out to the wingtips and the blip steadies and starts inching up again.
+ACTION: At the command post the room settles back down into its chairs, nobody saying anything, Kemp still standing.
+DEACON: What happened up there, what was that.
+BIRDY (RADIO): I got slow, that's all, I had the nose too high for the power I was carrying and she just quit flying on me, that was my fault.
+DEACON: And you put it down into it and flew out.
+BIRDY (RADIO): Yeah, you get the nose back down and let her fly, I don't know, I've done that part before I guess.
+DEACON: Done it where.
+BIRDY (RADIO): Video games, mostly, some, I don't know, the flight sim thing, I played that a lot.
+ACTION: The net sits empty for a beat, just the carrier hiss and the far-off engines.
+BANJO (WHISPER): That was hands.
+ACTION: Deacon keys up, holds it a second, and says nothing, then unkeys.
+BIRDY (RADIO): You think an airline'd give me a job after that, like a flying job.
+BISHOP (RADIO): Man, after that I think they'd hire you to do about anything they got.
+ACTION: A small laugh comes over Birdy's mic and runs down to nothing.
+BIRDY (RADIO): Nah, it's, they put a guy in jail for this, life probably, doing what I'm doing, and I burned a good chunk getting her back there, I'm down around, I don't even know what I'm down to now.
+ACTION: Bishop's mic stays open, the hiss riding under it, and he lets it sit there.
+ACTION: At the command post Mercer watches the blip climb, flat, not to anyone.
+MERCER: Next time he gets slow like that he doesn't catch it, and it won't pick where it comes down.
+ACTION: Reyes, who has stood at the back of the post through all of it, reaches over a console and lifts a headset off its hook.
+REYES: I'm going up on his frequency.
+MERCER: You're going on the air with him.
+REYES: I am.
+ACTION: She turns with the headset in her hand and walks toward the radar room.

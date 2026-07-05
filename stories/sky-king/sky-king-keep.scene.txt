@@ -1,0 +1,36 @@
+SKY KING — INT. SEATTLE APPROACH - RADAR ROOM - NIGHT (MOMENTS LATER)
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-keep.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Kemp stands at the edge of the console with the phone still at his ear, one hand cupped over the mouthpiece, listening to the watch floor.
+ACTION: He lowers the phone a few inches and turns to the room.
+KEMP: Okay. They want him kept talking. Whoever's got the frequency, keep him on it.
+ACTION: The Supervisor is behind Bishop's chair with his reading glasses pushed up on his head, and he pulls them down to look at the scope.
+SUPERVISOR: That's you, Bishop. Just keep him talking.
+ACTION: Kemp brings the phone back up, listens, then covers it again.
+KEMP: And they're bringing some airplanes up out of the base. To take a look at him.
+ACTION: Nobody in the room says anything to that. Kemp goes back to the phone.
+ACTION: On Bishop's scope the one slow blip drifts out over the black water, no tag, no altitude on it. Bishop keys up.
+BISHOP: Hey. Same guy down here you had before. I'm gonna stay with you a while, okay?
+BIRDY (RADIO): Yeah. Yeah, I'm here.
+BISHOP: That's a big airplane you got there. Lot of airplane to be flying around by hand.
+BIRDY (RADIO): She's, uh. She's flying okay, I think. I don't really know if I'm doing it right, to be honest with you.
+ACTION: Bishop leans back a little in the chair and keeps his eyes on the blip.
+BISHOP: You're doing fine. Doing just fine.
+BIRDY (RADIO): I don't want to hurt anybody, that's the main thing. I hope I'm not scaring people down there.
+BISHOP: Nobody's scared. It's a quiet night, there's not a lot of traffic out there right now.
+ACTION: Price, half turned back to his own traffic at the next position, watches his own sector while he half-listens.
+BIRDY (RADIO): It's real pretty up here. You can see the lights and everything.
+BISHOP: Yeah? I bet it is. Hey, listen, I'm gonna be talking to you a while here. What do I call you?
+BIRDY (RADIO): Aw. It's, uh.
+ACTION: The line hisses for a second. Bishop waits, doesn't fill it.
+BIRDY (RADIO): Everybody just calls me Birdy. You can call me that.
+BISHOP: Okay. Birdy.
+ACTION: Kemp has his log flat on the console and he writes across it, saying it down at the paper.
+KEMP (WHISPER): Goes by Birdy, quote-unquote. No name.
+ACTION: Price's eyes go to the bottom of his scope where two new tags come up off the base, moving fast, and he calls it flat across the room without turning his head.
+PRICE: Bishop, you got two fast movers coming up off the south, climbing hard.
+ACTION: Bishop looks down at the corner of his own scope and finds them. He keys up, easy.
+BISHOP: Hey Birdy, couple airplanes are gonna come up and take a look at you. They're not gonna do anything, all right?
+BIRDY (RADIO): Oh. Okay. That's okay.
+ACTION: On the scope the two fast tags climb toward the one slow blip, closing the water between them.

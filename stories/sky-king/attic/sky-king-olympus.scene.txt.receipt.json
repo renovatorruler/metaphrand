@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-olympus",
+  "slug": "INT. Q400 FLIGHT DECK / SEATTLE APPROACH - RADAR ROOM - NIGHT (INTERCUT)",
+  "seedHash": "306a4a4b8474e4a5c77bbce298a4986f34cce6ab4b09409d0b60f474f73456c1",
+  "sceneHash": "d3372caf4b04bf9ddc0a71d1c243d64c73a12965ac3477af427f41018f802dec",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

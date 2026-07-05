@@ -1,0 +1,30 @@
+DIRECTOR'S NOTES — INTERCEPT retime + law check (2026-07-04). The intercept is
+~20 min after a golden-hour theft: DEEP DUSK / blue hour, the west still faintly
+lit, the sky darkening but NOT full night/stars yet. Rewrite ONLY the light;
+protect all dialogue, blocking, structure.
+
+1. Line 8 "under the sodium lights" → the base ramp in the last dusk light,
+   the ramp lights just coming on.
+2. Line 9 "went dark" — KEEP (this means lost comms / went silent, not
+   nighttime — do not change).
+3. Line 11 "Hijack profile. That's what they handed us." — KEEP EXACTLY (the
+   military tasking language; deliberate channel-irony vs. the dot supervisor's
+   ban; ruled canon).
+4. Line 19 "sits low and alone over the black" → over the darkening water /
+   over the dusk (not full black).
+5. Line 22 "closing on the one slow return in the dark" → in the failing light
+   / in the dusk.
+6. Line 38 "a faint green glow in the dark" → a faint green glow against the
+   blue dusk.
+7. Line 46 "rolls into a long clean turn against the stars" → against the last
+   light in the west (NOT stars — too dark for this point).
+8. Line 59 "crawling through the dark together" → through the last of the light
+   together / through the deepening dusk.
+
+PROTECT everything else verbatim: "That's the real tone." / "Then it's some crop
+duster nobody shut off." / "Off its clearance how far?" / "It's a real one,
+Banjo. It's up and it's turning." / "Okay. Okay, so it's not a Cessna." / "No." /
+the awe beats ("He actually flew that. That was a real turn." / "Where's he even
+learn to do that.") / "He goes by Birdy. That's what he asked me to call him." /
+"it's real pretty up here." / "Just stay with him." Change ONLY the light. If a
+genuine tell surfaces, fix minimally; otherwise leave lines alone.
