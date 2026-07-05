@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-verse1",
+  "slug": "INT. COMMAND POST - HOLDING AREA - NIGHT / EXT. SEA-TAC RAMP - DAY (FLASHBACK)",
+  "seedHash": "523c24969f44ea6f72ce60e267a866a51d22703263f26b6ce2da69110bbda687",
+  "sceneHash": "f03dc5d85ad7e4eb698e80ea73ed7b865bbff8aa91db6664b19a1a17e0e897ab",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

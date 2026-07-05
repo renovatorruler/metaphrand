@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-stop",
+  "slug": "EXT. SEA-TAC - NORTH RAMP - NIGHT",
+  "seedHash": "9a2140d72dff01edf8f0d362b881410d04d2db0208c0689a48c6c2370b14e244",
+  "sceneHash": "8db7eec178f4ffc9586a82a7529ebf6b942a5f4785987223cd87a0c804598d77",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

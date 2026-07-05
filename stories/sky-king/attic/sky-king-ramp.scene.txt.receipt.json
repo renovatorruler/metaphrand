@@ -1,0 +1,9 @@
+{
+  "id": "sky-king-ramp",
+  "slug": "EXT. AIRPORT RAMP - DUSK",
+  "seedHash": "c0c6f7743a27b0f384ace890fb5428c05a9f0dfb239b6baae60b1e949676c67f",
+  "sceneHash": "3cbed75fac0cf8636f102f984ec5da1795f210fc55d9104bbe6c56598ac6da5e",
+  "gate": "PASS",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

@@ -1,0 +1,298 @@
+{
+ "title": "Sky King",
+ "model_id": "eleven_v3",
+ "output_format": "mp3_44100_128",
+ "gaps_ms": {
+  "group": 700
+ },
+ "cast": {
+  "BIRDY": {
+   "voice": "Will",
+   "voice_id": "bIHbv24MWmeRgasZH58o"
+  },
+  "MAYA": {
+   "voice": "Suzanne",
+   "voice_id": "b0XAJReHClzJsXv2FxoO"
+  },
+  "DEZ": {
+   "voice": "Chris",
+   "voice_id": "iP95p4xoKVk53GoZ742B"
+  },
+  "BISHOP": {
+   "voice": "Bill",
+   "voice_id": "pqHfZKP75CvOlQylNhV4"
+  }
+ },
+ "segments": [
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "BISHOP",
+   "text": "How you doing up there."
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "BIRDY",
+   "text": "Doing okay. It's real pretty up here."
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "BISHOP",
+   "text": "You're gonna want to start bringing her down soon. While you've still got the light."
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "BIRDY",
+   "text": "Yeah. Couple more minutes."
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "BIRDY",
+   "text": "You seeing this? The mountain."
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "BISHOP",
+   "text": "I'm on the ground, partner. I'll take your word for it."
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "BIRDY",
+   "text": "Man. I didn't think it'd look like this."
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "BISHOP",
+   "text": "You still with me?"
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "BIRDY",
+   "text": "Still here."
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "BIRDY",
+   "text": "Hey. Thanks for staying up with me. Sorry to keep you so late."
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "BISHOP",
+   "text": "That's what I'm here for."
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "BIRDY",
+   "text": "Okay."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "DEZ",
+   "text": "You know what Marquez got. The new guy. Six months."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "BIRDY",
+   "text": "I don't, no."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "DEZ",
+   "text": "Guess."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "BIRDY",
+   "text": "Dez."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "DEZ",
+   "text": "More than you. Six months in and more than you."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "BIRDY",
+   "text": "Good for him."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "DEZ",
+   "text": "That's not. No. That's not good for him. That's them robbing you and you saying thank you."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "BIRDY",
+   "text": "He asked. I bet he asked."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "DEZ",
+   "text": "So go ask."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "BIRDY",
+   "text": "Now?"
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "DEZ",
+   "text": "Klein's still up there. Light's on. Right now, before he leaves. I did the math last night, Birdy. What they pay you an hour, for this. It's a joke. It's an actual joke."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "BIRDY",
+   "text": "It's enough."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "DEZ",
+   "text": "It's not the point if it's enough."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "BIRDY",
+   "text": "I'll talk to him. Next week. When he's not running out the door."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "DEZ",
+   "text": "That's what you told me last month."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "BIRDY",
+   "text": "He's a busy guy."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "DEZ",
+   "text": "You'd take less. Just to not make him look at you."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "BIRDY",
+   "text": "I'll take what he offers."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "DEZ",
+   "text": "You're soaked, man. Come on."
+  },
+  {
+   "scene": "s3",
+   "frame": "s3",
+   "speaker": "MAYA",
+   "text": "Wash up. It's ready."
+  },
+  {
+   "scene": "s3",
+   "frame": "s3",
+   "speaker": "MAYA",
+   "text": "Donna asked about you today. At the register. I told her you were gonna fix her gate. You said that."
+  },
+  {
+   "scene": "s3",
+   "frame": "s3",
+   "speaker": "BIRDY",
+   "text": "I'll get to it."
+  },
+  {
+   "scene": "s3",
+   "frame": "s3",
+   "speaker": "MAYA",
+   "text": "Remember when we drove up to Index? You climbed that thing in your church shoes."
+  },
+  {
+   "scene": "s3",
+   "frame": "s3",
+   "speaker": "MAYA",
+   "text": "Anyway."
+  },
+  {
+   "scene": "s3",
+   "frame": "s3",
+   "speaker": "MAYA",
+   "text": "Hey. How are you. Really. Just one. The real one."
+  },
+  {
+   "scene": "s3",
+   "frame": "s3",
+   "speaker": "BIRDY",
+   "text": "I'm fine."
+  },
+  {
+   "scene": "s3",
+   "frame": "s3",
+   "speaker": "MAYA",
+   "text": "Okay."
+  },
+  {
+   "scene": "s3",
+   "frame": "s3",
+   "speaker": "MAYA",
+   "text": "I'm going up."
+  },
+  {
+   "scene": "s3",
+   "frame": "s3",
+   "speaker": "BIRDY",
+   "text": "I'll be up."
+  },
+  {
+   "scene": "s4",
+   "frame": "s4",
+   "speaker": "BIRDY",
+   "text": "Lost track of time."
+  },
+  {
+   "scene": "s4",
+   "frame": "s4",
+   "speaker": "MAYA",
+   "text": "I saw you."
+  },
+  {
+   "scene": "s4",
+   "frame": "s4",
+   "speaker": "BIRDY",
+   "text": "I'll be up in a minute."
+  },
+  {
+   "scene": "s4",
+   "frame": "s4",
+   "speaker": "MAYA",
+   "text": "Don't be long."
+  }
+ ]
+}

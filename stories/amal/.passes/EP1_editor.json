@@ -1,0 +1,12 @@
+{
+ "verdict": "revise",
+ "outstanding": [
+  {
+   "note": "Marriage-stage logic contradicts itself in the dialogue. Ratan asks if she was engaged (सगाई हो गई थी इसकी?), Bherulal confirms (हाँ), then says the boy's side were coming परसों ... देखने — but 'देखने आना' is the pre-engagement viewing, which precedes sagai, not follows it. In a realist register an audience that knows the custom will catch the snag. Canon fixes her as already engaged to the ~40-yr-old, so the upcoming visit should be a post-engagement step, not a viewing.",
+   "where": "दृश्य एक — BHERULAL: हाँ। परसों लड़के वाले देखने आने वाले थे।",
+   "fix": "Keep her engaged and make the upcoming visit a later stage, e.g. ब्याह की तारीख पक्की करने आने वाले थे / तिलक लेके आने वाले थे (or लगन धरने). Keeps the 'परसों' urgency and the 'बात फैल गई तो' scandal beat intact without the viewing/engagement contradiction."
+  }
+ ],
+ "resolved_this_round": [],
+ "new_breakage": []
+}

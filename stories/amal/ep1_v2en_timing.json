@@ -1,0 +1,1542 @@
+{
+ "gap": 0.3,
+ "voices_dur": 1811.55,
+ "segments": [
+  {
+   "i": 0,
+   "scene": 1,
+   "spk": "N",
+   "txt": "There is no establishing shot. We are close to him, and the only light is the fire. An old hand, bloody to the wrist, closes on the worn grip of a sword. The blade is old and notched in a hundred places, and on one finger sits a heavy gold signet, its mark almost rubbed smooth. The blade goes forward into a man we never see, and a shape twists away into the dark. On one side there is fire, and men keep coming out of it. The old hand turns the sword to meet them, and meets them again. For half a breath the view opens: an old man on dark ground, the smoke behind him lit saffron, the blood to his elbow, more men closing in — and he does not go down.",
+   "start": 0.0,
+   "dur": 63.12
+  },
+  {
+   "i": 1,
+   "scene": 1,
+   "spk": "N",
+   "txt": "CUT TO BLACK.",
+   "start": 63.42,
+   "dur": 0.88
+  },
+  {
+   "i": 2,
+   "scene": 3,
+   "spk": "N",
+   "txt": "A low government building the colour of the dust around it, the paint peeling off the board outside, a CBN jeep up on bricks with one wheel gone. A shared tempo pulls away in a cloud of grit and DEVA steps down with an iron trunk on his shoulder, his uniform still creased from the shop. He stands and takes the place in, and it is not what he pictured on the bus. Inside, a MUNSHI sits behind a register under a slow fan, a glass of tea going cold by his elbow. He does not look up when the door's shadow falls across his book.",
+   "start": 64.6,
+   "dur": 41.12
+  },
+  {
+   "i": 3,
+   "scene": 3,
+   "spk": "DEVA",
+   "txt": "Constable Deva. Transferred from Itarsi. I'm to report to Ratan Singh Pawar, sir.",
+   "start": 106.02,
+   "dur": 4.4
+  },
+  {
+   "i": 4,
+   "scene": 3,
+   "spk": "MUNSHI",
+   "txt": "Sahib's out on rounds.",
+   "start": 110.72,
+   "dur": 1.36
+  },
+  {
+   "i": 5,
+   "scene": 3,
+   "spk": "DEVA",
+   "txt": "I see. When will he be back?",
+   "start": 112.38,
+   "dur": 2.0
+  },
+  {
+   "i": 6,
+   "scene": 3,
+   "spk": "MUNSHI",
+   "txt": "He'll come.",
+   "start": 114.68,
+   "dur": 1.92
+  },
+  {
+   "i": 7,
+   "scene": 3,
+   "spk": "N",
+   "txt": "Deva waits for more. There is no more. He sets the trunk down, then thinks better of it and keeps standing.",
+   "start": 116.9,
+   "dur": 8.48
+  },
+  {
+   "i": 8,
+   "scene": 3,
+   "spk": "DEVA",
+   "txt": "Should I... wait here? Or the quarters—",
+   "start": 125.68,
+   "dur": 2.64
+  },
+  {
+   "i": 9,
+   "scene": 3,
+   "spk": "MUNSHI",
+   "txt": "Sit.",
+   "start": 128.62,
+   "dur": 1.76
+  },
+  {
+   "i": 10,
+   "scene": 3,
+   "spk": "N",
+   "txt": "He sits on the bench. A KISAN comes in past him, a man who has been here before and knows the order of things. He lays a folded note on the register and slides it across without a word. The munshi takes it under his palm, stamps a paper, and turns it around for the farmer to lift. It is done in seconds. The farmer touches his forehead and goes. Deva watches the note go under the blotter, and is not sure what he just saw.",
+   "start": 130.68,
+   "dur": 35.44
+  },
+  {
+   "i": 11,
+   "scene": 3,
+   "spk": "DEVA",
+   "txt": "That... what did he give that for?",
+   "start": 166.42,
+   "dur": 2.08
+  },
+  {
+   "i": 12,
+   "scene": 3,
+   "spk": "MUNSHI",
+   "txt": "Tea money.",
+   "start": 168.8,
+   "dur": 1.12
+  },
+  {
+   "i": 13,
+   "scene": 3,
+   "spk": "DEVA",
+   "txt": "For what, though?",
+   "start": 170.22,
+   "dur": 0.96
+  },
+  {
+   "i": 14,
+   "scene": 3,
+   "spk": "N",
+   "txt": "The munshi looks up at him for the first time, then goes back to his register.",
+   "start": 171.48,
+   "dur": 4.96
+  },
+  {
+   "i": 15,
+   "scene": 3,
+   "spk": "MUNSHI",
+   "txt": "You're new. Sit down, son. When the sahib comes he'll tell you what for.",
+   "start": 176.74,
+   "dur": 4.32
+  },
+  {
+   "i": 16,
+   "scene": 3,
+   "spk": "N",
+   "txt": "Deva sits back down. He watches the stamped paper go out the door in the farmer's hand, and says nothing.",
+   "start": 181.36,
+   "dur": 6.64
+  },
+  {
+   "i": 17,
+   "scene": 4,
+   "spk": "N",
+   "txt": "RATAN comes in heavy and unhurried, the khaki gone shapeless on him, and lowers himself into the chair behind the desk as if it costs him something. Deva is on his feet at once.",
+   "start": 188.3,
+   "dur": 13.04
+  },
+  {
+   "i": 18,
+   "scene": 4,
+   "spk": "DEVA",
+   "txt": "Sir. Constable Deva. I've been posted under you.",
+   "start": 201.64,
+   "dur": 2.8
+  },
+  {
+   "i": 19,
+   "scene": 4,
+   "spk": "N",
+   "txt": "Ratan looks at him — the new uniform, the open face — for a second longer than nothing, and then it is put away. He pulls the day's files toward him. A second KISAN is already at the desk, a thin file in front of him.",
+   "start": 204.74,
+   "dur": 18.24
+  },
+  {
+   "i": 20,
+   "scene": 4,
+   "spk": "RATAN",
+   "txt": "Yes.",
+   "start": 223.28,
+   "dur": 1.68
+  },
+  {
+   "i": 21,
+   "scene": 4,
+   "spk": "KISAN",
+   "txt": "Sir, the tractor turned over in the night, on my elder brother. Just write that it was an accident. There's mourning at home — we want nothing else.",
+   "start": 225.26,
+   "dur": 11.92
+  },
+  {
+   "i": 22,
+   "scene": 4,
+   "spk": "N",
+   "txt": "Ratan opens the file. He does not read it. He signs.",
+   "start": 237.48,
+   "dur": 4.64
+  },
+  {
+   "i": 23,
+   "scene": 4,
+   "spk": "RATAN",
+   "txt": "Done. Go.",
+   "start": 242.42,
+   "dur": 1.28
+  },
+  {
+   "i": 24,
+   "scene": 4,
+   "spk": "N",
+   "txt": "The farmer sets a small fold of notes by the inkpad and is gone before it lands. Ratan moves it under the blotter with two fingers, without looking at it. Deva has watched all of it.",
+   "start": 244.0,
+   "dur": 14.56
+  },
+  {
+   "i": 25,
+   "scene": 4,
+   "spk": "DEVA",
+   "txt": "Sir... won't there be a postmortem?",
+   "start": 258.86,
+   "dur": 1.68
+  },
+  {
+   "i": 26,
+   "scene": 4,
+   "spk": "RATAN",
+   "txt": "For whom?",
+   "start": 260.84,
+   "dur": 2.72
+  },
+  {
+   "i": 27,
+   "scene": 4,
+   "spk": "DEVA",
+   "txt": "A man's dead, sir. At least take a look—",
+   "start": 263.86,
+   "dur": 2.72
+  },
+  {
+   "i": 28,
+   "scene": 4,
+   "spk": "RATAN",
+   "txt": "And what will looking get you?",
+   "start": 266.88,
+   "dur": 1.6
+  },
+  {
+   "i": 29,
+   "scene": 4,
+   "spk": "DEVA",
+   "txt": "...I don't know. But the rules—",
+   "start": 268.78,
+   "dur": 1.92
+  },
+  {
+   "i": 30,
+   "scene": 4,
+   "spk": "RATAN",
+   "txt": "Someone dies here every day. If I did a postmortem on each, nothing else would ever get done.",
+   "start": 271.0,
+   "dur": 6.24
+  },
+  {
+   "i": 31,
+   "scene": 4,
+   "spk": "N",
+   "txt": "He looks at Deva properly now, and does not look away as fast as he might.",
+   "start": 277.54,
+   "dur": 4.56
+  },
+  {
+   "i": 32,
+   "scene": 4,
+   "spk": "RATAN",
+   "txt": "You're from Itarsi, aren't you.",
+   "start": 282.4,
+   "dur": 1.76
+  },
+  {
+   "i": 33,
+   "scene": 4,
+   "spk": "DEVA",
+   "txt": "Yes, sir.",
+   "start": 284.46,
+   "dur": 0.48
+  },
+  {
+   "i": 34,
+   "scene": 4,
+   "spk": "RATAN",
+   "txt": "They don't grow opium there.",
+   "start": 285.24,
+   "dur": 1.52
+  },
+  {
+   "i": 35,
+   "scene": 4,
+   "spk": "DEVA",
+   "txt": "Opium? You mean... really?",
+   "start": 287.06,
+   "dur": 2.16
+  },
+  {
+   "i": 36,
+   "scene": 4,
+   "spk": "RATAN",
+   "txt": "It's the crop here, on a government licence. The whole district runs on it. Look too hard and the first thing you'll lose is your job.",
+   "start": 289.52,
+   "dur": 8.64
+  },
+  {
+   "i": 37,
+   "scene": 4,
+   "spk": "N",
+   "txt": "Deva does not answer. Ratan has already pulled the next file toward him.",
+   "start": 298.46,
+   "dur": 5.12
+  },
+  {
+   "i": 38,
+   "scene": 5,
+   "spk": "N",
+   "txt": "A SIPAHI comes in off the road, dust to the knees, and puts a thin file on the desk — barely a page in it.",
+   "start": 303.88,
+   "dur": 8.88
+  },
+  {
+   "i": 39,
+   "scene": 5,
+   "spk": "SIPAHI",
+   "txt": "This morning, near Koteshwar, a girl was found at the edge of a field, sir.",
+   "start": 313.06,
+   "dur": 4.56
+  },
+  {
+   "i": 40,
+   "scene": 5,
+   "spk": "RATAN",
+   "txt": "Whose?",
+   "start": 317.92,
+   "dur": 2.96
+  },
+  {
+   "i": 41,
+   "scene": 5,
+   "spk": "SIPAHI",
+   "txt": "From the big house. Must have fallen in the night, in the dark. The body's at the district hospital. The family says settle it quickly — they want to cremate her; there's a wedding coming, word mustn't spread.",
+   "start": 321.18,
+   "dur": 15.84
+  },
+  {
+   "i": 42,
+   "scene": 5,
+   "spk": "RATAN",
+   "txt": "Which big house?",
+   "start": 337.32,
+   "dur": 0.96
+  },
+  {
+   "i": 43,
+   "scene": 5,
+   "spk": "SIPAHI",
+   "txt": "Bherulal seth's.",
+   "start": 338.58,
+   "dur": 1.04
+  },
+  {
+   "i": 44,
+   "scene": 5,
+   "spk": "N",
+   "txt": "The name means nothing to Ratan. He does not open the file. Deva, beside him, looks down at the closed cover.",
+   "start": 339.92,
+   "dur": 8.0
+  },
+  {
+   "i": 45,
+   "scene": 5,
+   "spk": "DEVA",
+   "txt": "A girl, was it?",
+   "start": 348.22,
+   "dur": 1.12
+  },
+  {
+   "i": 46,
+   "scene": 5,
+   "spk": "SIPAHI",
+   "txt": "She was. Now she isn't.",
+   "start": 349.64,
+   "dur": 2.64
+  },
+  {
+   "i": 47,
+   "scene": 5,
+   "spk": "RATAN",
+   "txt": "Put it on the pile.",
+   "start": 352.58,
+   "dur": 0.96
+  },
+  {
+   "i": 48,
+   "scene": 5,
+   "spk": "N",
+   "txt": "Deva looks at the single thin page that is all there is of her. The sipahi sets the file on the day's pile and goes back out to the road.",
+   "start": 353.84,
+   "dur": 9.92
+  },
+  {
+   "i": 49,
+   "scene": 6,
+   "spk": "N",
+   "txt": "The light has gone amber. The pile has come down to the last file, the thin one. Ratan opens the cover, reads to the end of the first line, and uncaps his pen.",
+   "start": 364.06,
+   "dur": 12.8
+  },
+  {
+   "i": 50,
+   "scene": 6,
+   "spk": "DEVA",
+   "txt": "Sir. Should we go and look, just once? Koteshwar's close. Half an hour.",
+   "start": 377.16,
+   "dur": 4.24
+  },
+  {
+   "i": 51,
+   "scene": 6,
+   "spk": "RATAN",
+   "txt": "She fell.",
+   "start": 381.7,
+   "dur": 1.6
+  },
+  {
+   "i": 52,
+   "scene": 6,
+   "spk": "DEVA",
+   "txt": "You haven't even seen it, and—",
+   "start": 383.6,
+   "dur": 1.68
+  },
+  {
+   "i": 53,
+   "scene": 6,
+   "spk": "RATAN",
+   "txt": "There's the constable's report, isn't there.",
+   "start": 385.58,
+   "dur": 1.92
+  },
+  {
+   "i": 54,
+   "scene": 6,
+   "spk": "DEVA",
+   "txt": "But sir, it's a girl, it's a big house's matter — if someone asks tomorrow—",
+   "start": 387.8,
+   "dur": 4.08
+  },
+  {
+   "i": 55,
+   "scene": 6,
+   "spk": "RATAN",
+   "txt": "No one will ask.",
+   "start": 392.18,
+   "dur": 1.12
+  },
+  {
+   "i": 56,
+   "scene": 6,
+   "spk": "N",
+   "txt": "He says it flat, certain. He writes the cause across the form, caps the pen, and closes the file without ever turning to the name on the second page. The day's fold of notes goes into his breast pocket. He stands and reaches for his cap. Deva starts to say something and stops himself. He watches the notes go into Ratan's pocket, and this time he stays quiet.",
+   "start": 393.6,
+   "dur": 29.04
+  },
+  {
+   "i": 57,
+   "scene": 7,
+   "spk": "N",
+   "txt": "A small kept house. KANTA sets a plate in front of him and straightens, a hand on her back. On the side table, an opened government envelope.",
+   "start": 422.94,
+   "dur": 10.8
+  },
+  {
+   "i": 58,
+   "scene": 7,
+   "spk": "KANTA",
+   "txt": "The pension papers came today. The office called as well. Two more years.",
+   "start": 434.04,
+   "dur": 6.96
+  },
+  {
+   "i": 59,
+   "scene": 7,
+   "spk": "N",
+   "txt": "Ratan turns his hand over and looks at the pale band where the ring used to be, then at the plate. He does not start eating.",
+   "start": 441.3,
+   "dur": 9.44
+  },
+  {
+   "i": 60,
+   "scene": 7,
+   "spk": "KANTA",
+   "txt": "Two years and you'll be home all day. I keep wondering what you'll do with yourself. You were never one to sit at home.",
+   "start": 451.04,
+   "dur": 8.8
+  },
+  {
+   "i": 61,
+   "scene": 7,
+   "spk": "RATAN",
+   "txt": "I'll eat your cooking.",
+   "start": 460.14,
+   "dur": 1.12
+  },
+  {
+   "i": 62,
+   "scene": 7,
+   "spk": "KANTA",
+   "txt": "Don't sweet-talk me. Eat — it's going cold.",
+   "start": 461.56,
+   "dur": 3.6
+  },
+  {
+   "i": 63,
+   "scene": 7,
+   "spk": "N",
+   "txt": "He eats. She stands a moment longer than she needs to, looking at his bent head from across the small kitchen, across a distance that has grown over the years without either of them deciding it. Then she takes the envelope off the side table and puts it away in a drawer, where the other unspoken things are kept.",
+   "start": 465.46,
+   "dur": 24.0
+  },
+  {
+   "i": 64,
+   "scene": 8,
+   "spk": "N",
+   "txt": "The pyre has caught. Not many have come — a handful of old men, a son with his head freshly shaved, a dog keeping its distance. A singer works through a Nirgun bhajan, the kind sung where there is no idol and no comfort in the words. RATAN stands at the edge, hands behind his back. GOVIND, his own age, stands next to him and watches the fire instead of the body.",
+   "start": 489.76,
+   "dur": 32.0
+  },
+  {
+   "i": 65,
+   "scene": 8,
+   "spk": "GOVIND",
+   "txt": "There were four of us, remember? You, me, him, and Kailash. Now there are two left.",
+   "start": 522.06,
+   "dur": 5.6
+  },
+  {
+   "i": 66,
+   "scene": 8,
+   "spk": "RATAN",
+   "txt": "Mm.",
+   "start": 527.96,
+   "dur": 1.2
+  },
+  {
+   "i": 67,
+   "scene": 8,
+   "spk": "GOVIND",
+   "txt": "Look how many came. Three months ago the man was in uniform, gave the orders. He retired, and everyone forgot. Today there aren't even enough to carry the pyre.",
+   "start": 529.46,
+   "dur": 9.84
+  },
+  {
+   "i": 68,
+   "scene": 8,
+   "spk": "N",
+   "txt": "Ratan watches the smoke go up and does not answer. Govind is quiet a while, then says the thing more softly, not to wound, just because it is in him.",
+   "start": 539.6,
+   "dur": 11.68
+  },
+  {
+   "i": 69,
+   "scene": 8,
+   "spk": "GOVIND",
+   "txt": "Who'll remember us, Ratan? A few years, and we're this same ash. No son, no name — no one to ask what kind of man he was.",
+   "start": 551.58,
+   "dur": 9.92
+  },
+  {
+   "i": 70,
+   "scene": 8,
+   "spk": "N",
+   "txt": "Ratan looks down at his own hands. He does not say anything.",
+   "start": 561.8,
+   "dur": 4.24
+  },
+  {
+   "i": 71,
+   "scene": 9,
+   "spk": "N",
+   "txt": "The others have gone. The pyre is down to embers. Govind crouches and feeds a last stick into it, more for something to do than for the fire. Ratan stands as if he means to leave and does not.",
+   "start": 566.34,
+   "dur": 16.64
+  },
+  {
+   "i": 72,
+   "scene": 9,
+   "spk": "GOVIND",
+   "txt": "Remember Chambal?",
+   "start": 583.28,
+   "dur": 0.96
+  },
+  {
+   "i": 73,
+   "scene": 9,
+   "spk": "RATAN",
+   "txt": "Let it go now, Govind.",
+   "start": 584.54,
+   "dur": 1.2
+  },
+  {
+   "i": 74,
+   "scene": 9,
+   "spk": "GOVIND",
+   "txt": "No, listen. When you went alone into the ravines, after those dacoits. The whole station stood outside, wetting their trousers, and you went in. And by evening you brought them out tied up. Alone. Your photo was in the paper.",
+   "start": 586.04,
+   "dur": 14.8
+  },
+  {
+   "i": 75,
+   "scene": 9,
+   "spk": "RATAN",
+   "txt": "That was many years ago. A different man.",
+   "start": 601.14,
+   "dur": 2.48
+  },
+  {
+   "i": 76,
+   "scene": 9,
+   "spk": "GOVIND",
+   "txt": "Exactly. You were different, Ratan. The rest of us joined for the wages. There was something else in you. A man doesn't really change, brother. He just gets buried, on top. The earth covers him. But underneath, he's the same.",
+   "start": 603.92,
+   "dur": 13.92
+  },
+  {
+   "i": 77,
+   "scene": 9,
+   "spk": "N",
+   "txt": "Ratan looks at his hands again. Govind lets it sit. Ratan turns to go. At the road, where one way runs home and the other toward Koteshwar, he stands a moment. Then he takes the road to Koteshwar.",
+   "start": 618.14,
+   "dur": 16.64
+  },
+  {
+   "i": 78,
+   "scene": 10,
+   "spk": "N",
+   "txt": "The place has been walked over by everyone who came to look and to settle it. A few villagers stop their work to watch the old inspector who never comes to a scene now standing at one, in no hurry, looking at the dirt.",
+   "start": 635.08,
+   "dur": 15.2
+  },
+  {
+   "i": 79,
+   "scene": 10,
+   "spk": "RATAN",
+   "txt": "Who found her?",
+   "start": 650.58,
+   "dur": 1.76
+  },
+  {
+   "i": 80,
+   "scene": 10,
+   "spk": "N",
+   "txt": "A young CHARVAHA (herder), hanging back, answers because Ratan is looking at him.",
+   "start": 652.64,
+   "dur": 4.8
+  },
+  {
+   "i": 81,
+   "scene": 10,
+   "spk": "CHARVAHA",
+   "txt": "I did, sir. In the morning, I'd brought the buffalo. She was lying right here.",
+   "start": 657.74,
+   "dur": 4.96
+  },
+  {
+   "i": 82,
+   "scene": 10,
+   "spk": "RATAN",
+   "txt": "Which way was she facing?",
+   "start": 663.0,
+   "dur": 1.36
+  },
+  {
+   "i": 83,
+   "scene": 10,
+   "spk": "CHARVAHA",
+   "txt": "Face down. Below the bund.",
+   "start": 664.66,
+   "dur": 2.72
+  },
+  {
+   "i": 84,
+   "scene": 10,
+   "spk": "N",
+   "txt": "Ratan crouches at the bund and puts his hand flat on top of it. It comes up to his knee. He looks at it a long time, at the dry hard earth, at the distance to the well. He has not worked a scene in twenty-five years. He works this one.",
+   "start": 667.68,
+   "dur": 20.56
+  },
+  {
+   "i": 85,
+   "scene": 10,
+   "spk": "RATAN",
+   "txt": "A bund knee-high.",
+   "start": 688.54,
+   "dur": 1.36
+  },
+  {
+   "i": 86,
+   "scene": 10,
+   "spk": "CHARVAHA",
+   "txt": "Sir?",
+   "start": 690.2,
+   "dur": 1.84
+  },
+  {
+   "i": 87,
+   "scene": 10,
+   "spk": "RATAN",
+   "txt": "Nothing.",
+   "start": 692.34,
+   "dur": 2.56
+  },
+  {
+   "i": 88,
+   "scene": 10,
+   "spk": "N",
+   "txt": "An older KISAN, eager to close it, speaks up.",
+   "start": 695.2,
+   "dur": 3.6
+  },
+  {
+   "i": 89,
+   "scene": 10,
+   "spk": "KISAN",
+   "txt": "She must have fallen in the dark, sir. Felt dizzy, maybe. Girls are weak.",
+   "start": 699.1,
+   "dur": 5.28
+  },
+  {
+   "i": 90,
+   "scene": 10,
+   "spk": "N",
+   "txt": "Ratan does not look up from the ground. A girl does not trip over a thing she could step across and break her skull on flat dirt. He stays crouched there until the kisan runs out of things to say.",
+   "start": 704.68,
+   "dur": 14.24
+  },
+  {
+   "i": 91,
+   "scene": 11,
+   "spk": "N",
+   "txt": "On the way back from the field the jeep stops outside a narrow pawnshop. Ratan gets down without a word and goes in; the SAHUKAR rises to meet him and the two move to the back, out of earshot — a private matter, an old one. DEVA waits by the jeep. On the step sits CHARAN, very old, one eye gone white, shelling peanuts into his lap, in no hurry. He has been looking at Deva's new uniform a while.",
+   "start": 719.22,
+   "dur": 32.48
+  },
+  {
+   "i": 92,
+   "scene": 11,
+   "spk": "CHARAN",
+   "txt": "Who are you posted with, son?",
+   "start": 752.0,
+   "dur": 1.28
+  },
+  {
+   "i": 93,
+   "scene": 11,
+   "spk": "DEVA",
+   "txt": "Under Ratan Singh Pawar, sir. At the post.",
+   "start": 753.58,
+   "dur": 2.32
+  },
+  {
+   "i": 94,
+   "scene": 11,
+   "spk": "CHARAN",
+   "txt": "Pawar. Do you know what he's gone in there for?",
+   "start": 756.2,
+   "dur": 2.88
+  },
+  {
+   "i": 95,
+   "scene": 11,
+   "spk": "DEVA",
+   "txt": "No.",
+   "start": 759.38,
+   "dur": 1.44
+  },
+  {
+   "i": 96,
+   "scene": 11,
+   "spk": "CHARAN",
+   "txt": "A ring. A gold signet. His forefathers'. He comes every month to pay the interest so the seth won't sell it. Tells no one.",
+   "start": 761.12,
+   "dur": 9.92
+  },
+  {
+   "i": 97,
+   "scene": 11,
+   "spk": "N",
+   "txt": "Deva looks at the shop doorway.",
+   "start": 771.34,
+   "dur": 1.76
+  },
+  {
+   "i": 98,
+   "scene": 11,
+   "spk": "CHARAN",
+   "txt": "I'm the bard of that house — I carry seven generations of their names. The finger that signet belongs to — that man's head was struck from his body in battle, and still the sword kept moving. Seven hundred years ago, on this very soil. Everyone fell that day. He fell and did not fall. That's the blood your sahib carries. And today he's in there, pleading with a moneylender over that same ring.",
+   "start": 773.4,
+   "dur": 30.16
+  },
+  {
+   "i": 99,
+   "scene": 11,
+   "spk": "N",
+   "txt": "He goes back to his peanuts. After a while Ratan comes out, his face shut, his ring finger bare. He gets into the jeep without a word. Deva looks at the bare finger, and at him, and says nothing.",
+   "start": 803.86,
+   "dur": 16.88
+  },
+  {
+   "i": 100,
+   "scene": 12,
+   "spk": "N",
+   "txt": "Ratan pulls the thin file back off the closed pile and opens it on the desk. The MUNSHI watches, not understanding, then understanding and not liking it.",
+   "start": 821.04,
+   "dur": 13.04
+  },
+  {
+   "i": 101,
+   "scene": 12,
+   "spk": "MUNSHI",
+   "txt": "Sir, that was closed yesterday. You signed it off yourself.",
+   "start": 834.38,
+   "dur": 2.88
+  },
+  {
+   "i": 102,
+   "scene": 12,
+   "spk": "RATAN",
+   "txt": "I'm opening it again.",
+   "start": 837.56,
+   "dur": 1.2
+  },
+  {
+   "i": 103,
+   "scene": 12,
+   "spk": "MUNSHI",
+   "txt": "For a postmortem? Sir, it's a big house's matter. Bherulal seth's. He sent word himself to settle it fast.",
+   "start": 839.06,
+   "dur": 7.68
+  },
+  {
+   "i": 104,
+   "scene": 12,
+   "spk": "RATAN",
+   "txt": "So?",
+   "start": 847.04,
+   "dur": 2.72
+  },
+  {
+   "i": 105,
+   "scene": 12,
+   "spk": "MUNSHI",
+   "txt": "So... nothing, sir. Just... word will reach the top.",
+   "start": 850.06,
+   "dur": 4.0
+  },
+  {
+   "i": 106,
+   "scene": 12,
+   "spk": "N",
+   "txt": "Ratan takes a fresh requisition form, writes the order in his own hand, signs it, and turns it to face the munshi.",
+   "start": 854.36,
+   "dur": 7.76
+  },
+  {
+   "i": 107,
+   "scene": 12,
+   "spk": "RATAN",
+   "txt": "Phone the hospital. The body's released to no one — not the family, no one. There'll be a postmortem, here in the district, by Dr. Bhanwar. Today.",
+   "start": 862.42,
+   "dur": 13.12
+  },
+  {
+   "i": 108,
+   "scene": 12,
+   "spk": "N",
+   "txt": "The munshi looks at the form, and at the inspector who has signed papers in this room for fifteen years and never once asked for a postmortem on anything. He picks it up as if it might be hot. Across the room, DEVA watches the man amend his own signature, and something in his face that had been going out comes back a little.",
+   "start": 875.84,
+   "dur": 25.6
+  },
+  {
+   "i": 109,
+   "scene": 13,
+   "spk": "N",
+   "txt": "MISHRA sits behind a clean desk, a neat man, a pressed uniform. He waves Ratan to a chair with real warmth.",
+   "start": 901.74,
+   "dur": 8.88
+  },
+  {
+   "i": 110,
+   "scene": 13,
+   "spk": "MISHRA",
+   "txt": "Arre, sit, Ratan, sit. Shall I send for tea? Listen, this Koteshwar file. You've sent it for a postmortem?",
+   "start": 910.92,
+   "dur": 9.12
+  },
+  {
+   "i": 111,
+   "scene": 13,
+   "spk": "RATAN",
+   "txt": "I have.",
+   "start": 920.34,
+   "dur": 0.56
+  },
+  {
+   "i": 112,
+   "scene": 13,
+   "spk": "MISHRA",
+   "txt": "Twenty-five years of service, yaar. Two left. And you, over a girl who fell — what for? Tell me, what's the matter?",
+   "start": 921.2,
+   "dur": 9.36
+  },
+  {
+   "i": 113,
+   "scene": 13,
+   "spk": "RATAN",
+   "txt": "The bund was knee-high.",
+   "start": 930.86,
+   "dur": 1.36
+  },
+  {
+   "i": 114,
+   "scene": 13,
+   "spk": "MISHRA",
+   "txt": "So? People die falling from knee height too, if the head hits wrong. Look. The file was closed. Let it stay closed. Do your two years in peace, take your pension, go home. What's in this mess — one girl, a big house, reach all the way to the top. Let it go, brother. Not for me — for yourself.",
+   "start": 932.52,
+   "dur": 23.68
+  },
+  {
+   "i": 115,
+   "scene": 13,
+   "spk": "RATAN",
+   "txt": "It's done, Mishra. The file's gone.",
+   "start": 956.5,
+   "dur": 1.76
+  },
+  {
+   "i": 116,
+   "scene": 13,
+   "spk": "N",
+   "txt": "For a moment the warmth is not quite there in Mishra's face. Then it comes back, smooth.",
+   "start": 958.56,
+   "dur": 6.64
+  },
+  {
+   "i": 117,
+   "scene": 13,
+   "spk": "MISHRA",
+   "txt": "Gone. All right. Have your tea before you go.",
+   "start": 965.5,
+   "dur": 3.68
+  },
+  {
+   "i": 118,
+   "scene": 13,
+   "spk": "N",
+   "txt": "Ratan stands and goes without the chai. Mishra watches the door a moment, then picks up the phone.",
+   "start": 969.48,
+   "dur": 6.56
+  },
+  {
+   "i": 119,
+   "scene": 14,
+   "spk": "N",
+   "txt": "A black stone face under a heap of marigold and silver foil, fierce, smeared with vermilion. The PUJARI tips country liquor into the shallow silver dish set below the god's mouth, and the level in the dish drops as they watch. DEVA, a step behind Ratan, stares at it.",
+   "start": 976.34,
+   "dur": 21.6
+  },
+  {
+   "i": 120,
+   "scene": 14,
+   "spk": "DEVA",
+   "txt": "Sir... it's... going down.",
+   "start": 998.24,
+   "dur": 2.56
+  },
+  {
+   "i": 121,
+   "scene": 14,
+   "spk": "PUJARI",
+   "txt": "It's Kaal Bhairav, son. The kotwal of Avanti. Flowers don't move him much. No sweets, no recommendations. Only this — liquor. And whoever lies before him, he settles the account himself. He needs no police station.",
+   "start": 1001.1,
+   "dur": 16.08
+  },
+  {
+   "i": 122,
+   "scene": 14,
+   "spk": "N",
+   "txt": "Deva looks at the god, half-spooked. Ratan looks at it longer — the one kotwal in the district who takes only this, and no man's money, and keeps his own accounts. Then he looks away, puts a coin in the plate, and does not meet the stone eyes again.",
+   "start": 1017.48,
+   "dur": 19.12
+  },
+  {
+   "i": 123,
+   "scene": 15,
+   "spk": "N",
+   "txt": "Ratan and Deva go lane to lane, and the lanes close as they come. A man remembers a buffalo to see to. A woman pulls a child inside. At last an old man on a cot outside a shop is the one who talks — too idle to be afraid, and he likes an audience.",
+   "start": 1036.9,
+   "dur": 20.4
+  },
+  {
+   "i": 124,
+   "scene": 15,
+   "spk": "OLD MAN",
+   "txt": "Police? It's about the girl, isn't it — Bherulal's?",
+   "start": 1057.6,
+   "dur": 3.76
+  },
+  {
+   "i": 125,
+   "scene": 15,
+   "spk": "RATAN",
+   "txt": "Was there talk of her marriage?",
+   "start": 1061.66,
+   "dur": 1.68
+  },
+  {
+   "i": 126,
+   "scene": 15,
+   "spk": "OLD MAN",
+   "txt": "Talk? It was settled. To Dhanraj seth.",
+   "start": 1063.64,
+   "dur": 3.36
+  },
+  {
+   "i": 127,
+   "scene": 15,
+   "spk": "DEVA",
+   "txt": "To Dhanraj seth's son?",
+   "start": 1067.3,
+   "dur": 1.44
+  },
+  {
+   "i": 128,
+   "scene": 15,
+   "spk": "OLD MAN",
+   "txt": "Not the son, boy. Dhanraj himself.",
+   "start": 1069.04,
+   "dur": 3.04
+  },
+  {
+   "i": 129,
+   "scene": 15,
+   "spk": "DEVA",
+   "txt": "How old is he?",
+   "start": 1072.38,
+   "dur": 0.88
+  },
+  {
+   "i": 130,
+   "scene": 15,
+   "spk": "OLD MAN",
+   "txt": "Sixty, sixty-five, must be.",
+   "start": 1073.56,
+   "dur": 1.76
+  },
+  {
+   "i": 131,
+   "scene": 15,
+   "spk": "DEVA",
+   "txt": "And the girl's sixteen.",
+   "start": 1075.62,
+   "dur": 1.36
+  },
+  {
+   "i": 132,
+   "scene": 15,
+   "spk": "OLD MAN",
+   "txt": "Arre, who looks at age here — they look at standing. Bherulal's yield's fallen short two years running, the licence's shaky. So hand the daughter to the old seth — clears the debt, and a fine connection too. Big houses. In their hands a daughter's just goods, sahib.",
+   "start": 1077.28,
+   "dur": 16.88
+  },
+  {
+   "i": 133,
+   "scene": 15,
+   "spk": "N",
+   "txt": "Ratan has gone still — the stillness of a man into whom one piece has just slid against another. He turns to go.",
+   "start": 1094.46,
+   "dur": 9.04
+  },
+  {
+   "i": 134,
+   "scene": 15,
+   "spk": "OLD MAN",
+   "txt": "And listen — they won't even let them cremate her yet. The body's lying in the hospital. Your own department's holding it.",
+   "start": 1103.8,
+   "dur": 7.68
+  },
+  {
+   "i": 135,
+   "scene": 15,
+   "spk": "N",
+   "txt": "Deva looks at Ratan. Ratan says nothing — it is his own order holding the girl in the morgue.",
+   "start": 1111.78,
+   "dur": 6.88
+  },
+  {
+   "i": 136,
+   "scene": 16,
+   "spk": "N",
+   "txt": "A small, warm, plain room, one tube-light. AMMA presses a second roti onto Deva's plate before the first is gone. MANJU sits to the side, eyes down, a girl being discussed.",
+   "start": 1118.96,
+   "dur": 15.92
+  },
+  {
+   "i": 137,
+   "scene": 16,
+   "spk": "AMMA",
+   "txt": "Eat, eat. You've gone thin. And listen, the boy's photo came from Rajasthan. Good family, well-off. Manju will rule the house there. It's just across the border, but there's a direct bus, three hours.",
+   "start": 1135.18,
+   "dur": 13.68
+  },
+  {
+   "i": 138,
+   "scene": 16,
+   "spk": "N",
+   "txt": "Deva looks at his sister. He has spent the whole day learning what a girl is worth in this belt, and the words",
+   "start": 1149.16,
+   "dur": 8.32
+  },
+  {
+   "i": 139,
+   "scene": 16,
+   "spk": "DEVA",
+   "txt": "Manju. Have you seen the photo? Did it... seem all right to you?",
+   "start": 1157.78,
+   "dur": 6.08
+  },
+  {
+   "i": 140,
+   "scene": 16,
+   "spk": "MANJU",
+   "txt": "Whatever you all think best, brother.",
+   "start": 1164.16,
+   "dur": 1.68
+  },
+  {
+   "i": 141,
+   "scene": 16,
+   "spk": "DEVA",
+   "txt": "I'm asking you. You.",
+   "start": 1166.14,
+   "dur": 1.44
+  },
+  {
+   "i": 142,
+   "scene": 16,
+   "spk": "N",
+   "txt": "Manju glances at her mother, then down again, and says nothing, which is its own answer. Amma fills the silence the way mothers do.",
+   "start": 1167.88,
+   "dur": 10.32
+  },
+  {
+   "i": 143,
+   "scene": 16,
+   "spk": "AMMA",
+   "txt": "Oh, what are you asking her for. She's shy. You just do your job properly, the rest takes care of itself.",
+   "start": 1178.5,
+   "dur": 7.84
+  },
+  {
+   "i": 144,
+   "scene": 16,
+   "spk": "N",
+   "txt": "Deva starts to say something — about old men and young girls and what a marriage can be made to mean — and lets it go. This match is a good one; it is not a sale. And still he cannot get the day out of his mouth.",
+   "start": 1186.64,
+   "dur": 17.92
+  },
+  {
+   "i": 145,
+   "scene": 17,
+   "spk": "N",
+   "txt": "The report is already back. The same day it went out. The MUNSHI hands it across almost apologetically. Ratan reads it: typed, stamped, two lines — death consistent with a fall, no foul play indicated. He holds it and does not put it down.",
+   "start": 1204.86,
+   "dur": 21.76
+  },
+  {
+   "i": 146,
+   "scene": 17,
+   "spk": "RATAN",
+   "txt": "The same day?",
+   "start": 1226.92,
+   "dur": 0.64
+  },
+  {
+   "i": 147,
+   "scene": 17,
+   "spk": "MUNSHI",
+   "txt": "The doctor was quick, sir. Said it's your case, not to hold it up.",
+   "start": 1227.86,
+   "dur": 3.36
+  },
+  {
+   "i": 148,
+   "scene": 17,
+   "spk": "N",
+   "txt": "Ratan has handed Dr. Bhanwar a dozen reports like this, and not one ever took less than a week, because a real postmortem takes a week. He knows exactly what a same-day clean report is, in his hands, in his ink. He spent twenty-five years making them. The clean page does not close the girl's death for him. It opens everything standing behind it. He folds the report into his pocket, and for once he is not tired in the way he is usually tired.",
+   "start": 1231.52,
+   "dur": 35.28
+  },
+  {
+   "i": 149,
+   "scene": 18,
+   "spk": "N",
+   "txt": "DR. BHANWAR SINGH does not get up. A tired, clean-shaven man, a Rajput of Ratan's own age and kind, a room that smells of phenyl and old paper.",
+   "start": 1267.1,
+   "dur": 11.92
+  },
+  {
+   "i": 150,
+   "scene": 18,
+   "spk": "BHANWAR",
+   "txt": "You'll have got the report. It's clean. Death by a fall.",
+   "start": 1279.32,
+   "dur": 5.84
+  },
+  {
+   "i": 151,
+   "scene": 18,
+   "spk": "RATAN",
+   "txt": "How did it come back clean the same day, Bhanwar?",
+   "start": 1285.46,
+   "dur": 2.48
+  },
+  {
+   "i": 152,
+   "scene": 18,
+   "spk": "BHANWAR",
+   "txt": "It was done by the rules. The same rules for twenty-five years, Pawar Sahib. This many of your cases were closed by these same rules. Not once did you ask \"how, the same day.\" What's changed today?",
+   "start": 1288.24,
+   "dur": 19.68
+  },
+  {
+   "i": 153,
+   "scene": 18,
+   "spk": "RATAN",
+   "txt": "I don't know.",
+   "start": 1308.22,
+   "dur": 1.92
+  },
+  {
+   "i": 154,
+   "scene": 18,
+   "spk": "N",
+   "txt": "It is the truest thing he has said in years, and it costs him to say it. Bhanwar hears it. He does not soften — that is Mishra's trade, not his. He keeps the cold courtesy of one finished Rajput to another, and that formality is its own wall.",
+   "start": 1310.44,
+   "dur": 21.6
+  },
+  {
+   "i": 155,
+   "scene": 18,
+   "spk": "BHANWAR",
+   "txt": "Go home, Pawar Sahib. You've two years left. Don't ruin them for a dead girl. She isn't coming back — and neither are you.",
+   "start": 1332.34,
+   "dur": 8.08
+  },
+  {
+   "i": 156,
+   "scene": 18,
+   "spk": "N",
+   "txt": "Ratan stands a moment longer, looking at the man across the desk — the same khaki, the same twenty-five years, the same arrangement, a mirror that talks. He had reached, with the name, for the old brotherhood; Bhanwar gave him back the formal address. Then he leaves. There is no clean channel left to him now.",
+   "start": 1340.72,
+   "dur": 24.8
+  },
+  {
+   "i": 157,
+   "scene": 19,
+   "spk": "N",
+   "txt": "No paper will help him now. Every paper in the district lies, and he knows it, because he taught it how. So he does the thing he has not done in twenty-five years. He goes out among the field hands at the end of the day, on foot, off the books, and asks — whose girl, whose house, who saw her last.",
+   "start": 1365.82,
+   "dur": 24.8
+  },
+  {
+   "i": 158,
+   "scene": 19,
+   "spk": "RATAN",
+   "txt": "Were you in the field that night?",
+   "start": 1390.92,
+   "dur": 2.16
+  },
+  {
+   "i": 159,
+   "scene": 19,
+   "spk": "HAND",
+   "txt": "I know nothing, sir. I'm a labouring man. I come at dawn, I leave at dusk.",
+   "start": 1393.38,
+   "dur": 5.36
+  },
+  {
+   "i": 160,
+   "scene": 19,
+   "spk": "RATAN",
+   "txt": "I'm not trapping you. I'm only asking.",
+   "start": 1399.04,
+   "dur": 2.4
+  },
+  {
+   "i": 161,
+   "scene": 19,
+   "spk": "N",
+   "txt": "The hand weighs the old inspector against the thing the whole village has agreed to forget. Then, quietly:",
+   "start": 1401.74,
+   "dur": 9.28
+  },
+  {
+   "i": 162,
+   "scene": 19,
+   "spk": "HAND",
+   "txt": "It's a big house over there, sir. Bherulal seth's. It's their matter. Don't ask me.",
+   "start": 1411.32,
+   "dur": 5.12
+  },
+  {
+   "i": 163,
+   "scene": 19,
+   "spk": "N",
+   "txt": "The name is still nothing to Ratan. He turns and looks across the darkening fields at the big house lit up at the end of them, and he walks toward it.",
+   "start": 1416.74,
+   "dur": 11.2
+  },
+  {
+   "i": 164,
+   "scene": 20,
+   "spk": "N",
+   "txt": "A prosperous house, gold in the doorway, a generator humming. Ratan comes up the steps with his cap in his hand. He knocks. Feet inside, a bolt drawn back, and the door opens. It is SUGNA. Twenty-five years. Neither of them moves. Somewhere inside a woman is crying and stops.",
+   "start": 1428.24,
+   "dur": 24.24
+  },
+  {
+   "i": 165,
+   "scene": 20,
+   "spk": "SUGNA",
+   "txt": "Now you come.",
+   "start": 1452.78,
+   "dur": 0.88
+  },
+  {
+   "i": 166,
+   "scene": 20,
+   "spk": "RATAN",
+   "txt": "...Sugna.",
+   "start": 1453.96,
+   "dur": 0.56
+  },
+  {
+   "i": 167,
+   "scene": 20,
+   "spk": "N",
+   "txt": "She looks at the cap in his hands, the khaki, back at his face.",
+   "start": 1454.82,
+   "dur": 5.04
+  },
+  {
+   "i": 168,
+   "scene": 20,
+   "spk": "SUGNA",
+   "txt": "You've come in uniform. To ask questions.",
+   "start": 1460.16,
+   "dur": 2.64
+  },
+  {
+   "i": 169,
+   "scene": 20,
+   "spk": "RATAN",
+   "txt": "I didn't know this was your house. I'm telling the truth, Sugna. I didn't—",
+   "start": 1463.1,
+   "dur": 4.16
+  },
+  {
+   "i": 170,
+   "scene": 20,
+   "spk": "SUGNA",
+   "txt": "When did you ever know anything.",
+   "start": 1467.56,
+   "dur": 2.16
+  },
+  {
+   "i": 171,
+   "scene": 20,
+   "spk": "N",
+   "txt": "He has no answer, the way he has had none for twenty-five years. Behind her the house is dim, full of people sitting in the heavy quiet after a death. On a shelf by the door, a girl's things — a school bag, a comb, a folded dupatta, set aside the way you set aside what you cannot yet put away. He looks at them, and at his sister's closed face, and it begins to come.",
+   "start": 1470.02,
+   "dur": 30.88
+  },
+  {
+   "i": 172,
+   "scene": 20,
+   "spk": "RATAN",
+   "txt": "Whose... whose girl was she?",
+   "start": 1501.2,
+   "dur": 2.8
+  },
+  {
+   "i": 173,
+   "scene": 20,
+   "spk": "N",
+   "txt": "Sugna's jaw works. She will not say it. From inside, an AUNT's voice, taking him for only a policeman:",
+   "start": 1504.3,
+   "dur": 9.92
+  },
+  {
+   "i": 174,
+   "scene": 20,
+   "spk": "AUNT",
+   "txt": "It was Leela. Sugna's eldest daughter. Only sixteen.",
+   "start": 1514.52,
+   "dur": 3.76
+  },
+  {
+   "i": 175,
+   "scene": 20,
+   "spk": "N",
+   "txt": "The name goes into him and does not stop. Leela was his sister's daughter. He read the first line of that file and signed it a fall and never turned to her name; he took the day's money and went home and ate his dinner.",
+   "start": 1518.58,
+   "dur": 15.44
+  },
+  {
+   "i": 176,
+   "scene": 20,
+   "spk": "RATAN",
+   "txt": "I...",
+   "start": 1534.32,
+   "dur": 0.4
+  },
+  {
+   "i": 177,
+   "scene": 20,
+   "spk": "SUGNA",
+   "txt": "You what?",
+   "start": 1535.02,
+   "dur": 0.72
+  },
+  {
+   "i": 178,
+   "scene": 20,
+   "spk": "N",
+   "txt": "He cannot say it. She watches him not say it. BHERULAL fills the inner doorway — heavy, still, taking in the brother-in-law in uniform at his door at the worst hour he could have come.",
+   "start": 1536.04,
+   "dur": 15.36
+  },
+  {
+   "i": 179,
+   "scene": 20,
+   "spk": "BHERULAL",
+   "txt": "Who is it? ...Oh.",
+   "start": 1551.7,
+   "dur": 2.72
+  },
+  {
+   "i": 180,
+   "scene": 20,
+   "spk": "SUGNA",
+   "txt": "My brother. He's in the police. Hasn't come in twenty-five years. Today he's come.",
+   "start": 1554.72,
+   "dur": 5.68
+  },
+  {
+   "i": 181,
+   "scene": 20,
+   "spk": "N",
+   "txt": "She steps back from the door — not to let him in, but because she is done holding it open — and turns into the mourning house, leaving him on the step with her husband's eyes on him.",
+   "start": 1560.7,
+   "dur": 14.16
+  },
+  {
+   "i": 182,
+   "scene": 21,
+   "spk": "N",
+   "txt": "A side room, away from the mourners. Bherulal sits Ratan down and sits across from him. He is not grieving in front of Ratan; he is working out a problem, and Ratan is the problem.",
+   "start": 1575.16,
+   "dur": 13.36
+  },
+  {
+   "i": 183,
+   "scene": 21,
+   "spk": "BHERULAL",
+   "txt": "Twenty-five years you didn't show your face at this house. Sugna's brother, and you didn't come for the wedding, didn't come when the daughters were born, nothing. And today, this very night, here you are. In uniform. And you've had the body held at the hospital — her mother's in agony, can't even cremate her own daughter.",
+   "start": 1588.82,
+   "dur": 19.76
+  },
+  {
+   "i": 184,
+   "scene": 21,
+   "spk": "RATAN",
+   "txt": "How did the girl die, Bherulal?",
+   "start": 1608.88,
+   "dur": 1.52
+  },
+  {
+   "i": 185,
+   "scene": 21,
+   "spk": "BHERULAL",
+   "txt": "What's done is done. Leela's gone. What comes back from that? Now if there's a postmortem, word spreads — whose loss is it? Your sister's. This house's. The little one, four years old. The licence is to be made in his name next year. For that the family name must be clean. You don't sink a living child's future for a dead girl.",
+   "start": 1610.7,
+   "dur": 25.76
+  },
+  {
+   "i": 186,
+   "scene": 21,
+   "spk": "N",
+   "txt": "Ratan says nothing. From the door, one of Bherulal's MEN speaks — easy, flat, the way you'd mention the weather.",
+   "start": 1636.76,
+   "dur": 9.2
+  },
+  {
+   "i": 187,
+   "scene": 21,
+   "spk": "MAN",
+   "txt": "Accidents keep happening in these parts, sir. A man goes out at night, the bike slips, that's all. It happens. You know that well enough.",
+   "start": 1646.26,
+   "dur": 7.44
+  },
+  {
+   "i": 188,
+   "scene": 21,
+   "spk": "N",
+   "txt": "It is said without heat, which is what makes it what it is. Ratan looks at the man, and then past him, toward the room where his sister sits among the women and will not look at him at all.",
+   "start": 1654.0,
+   "dur": 13.36
+  },
+  {
+   "i": 189,
+   "scene": 22,
+   "spk": "N",
+   "txt": "A glass of doda water goes cold at his elbow — the poppy-husk brew he drinks to put the days down. Tonight it does not work. On the table are two papers. One is the clean report, his way out, the honourable one: he did his duty, it is official, he can stop now and keep his pension and his life. The other is a blank requisition form. He turns his hand over. The pale band where the ring used to be is white in the lamplight. Down the passage, KANTA appears in her doorway and sees him sitting up over papers at this hour, which he has not done in years. She does not ask. She knows the shape of him well enough to know it is not a thing he will say. She goes back in and the light under her door goes out. He does not pick up the pen for a long time. Outside, the night thins toward grey. And then, near morning, he picks it up.",
+   "start": 1667.66,
+   "dur": 70.32
+  },
+  {
+   "i": 190,
+   "scene": 23,
+   "spk": "N",
+   "txt": "The post is empty and grey, the fan still. Ratan writes out a fresh requisition by hand — a second postmortem, this one at the district headquarters hospital two hundred kilometres away, out of Bhanwar's reach, and Mishra's, and the big house's. At the bottom he does not press the office stamp into it. He signs it himself, his own name, in full, the way a man signs a thing he means to stand behind. DEVA comes in early, the dawn grey behind him, and stops when he sees the old man already at the desk. He sees what the requisition is, and the name on it, and what it will cost. He does not say anything. He stands a little straighter. Ratan caps the pen and sets it down. He has the look of a man who has finally decided something.",
+   "start": 1738.28,
+   "dur": 57.12
+  },
+  {
+   "i": 191,
+   "scene": 23,
+   "spk": "N",
+   "txt": "CUT TO BLACK.",
+   "start": 1795.7,
+   "dur": 0.88
+  }
+ ]
+}

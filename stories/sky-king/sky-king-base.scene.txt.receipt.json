@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-base",
+  "slug": "INT. ALERT FACILITY, AIR NATIONAL GUARD FIGHTER BASE - DAY",
+  "seedHash": "7042d5f51fe4cf126b5db8d71041bf0ca04e1491c1cf31dc75c86c86a7af4461",
+  "sceneHash": "e77ce5bba3fd81baeb87c0e06473be7a622b08a6e4633e2b77fc5873735e5a41",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

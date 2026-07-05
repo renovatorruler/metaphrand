@@ -1,0 +1,167 @@
+=== SCENE CRAFT (Mercurio) ===
+scene craft — S1 SCENE 1 — THE SAKA (the promise): 4 core FAIL, 2 flag(s)
+  ✗ single_action     One focused action, one time & place (unity)  → Fuses multiple actions: sword grab, stabbing, defense against multiple attackers
+  ✗ plot_change       The situation ends shifted from how it opened  → No external outcome shown—attackers still advancing, protagonist’s fate unresolv
+  ✗ character_change  A character's inner state shifts, caused by the scene's action  → No inner shift shown; old man remains stoic throughout, no internal conflict rev
+  ✗ reversal          A set-up surprise, inevitable in hindsight & rooted in character  → No directional shift: linear progression of defense with no surprise or conseque
+  • beats             Distinct, escalating beats — not one note repeated (Clurman)  → Lacks escalating beats; all action is static defense, no variation in intensity 
+  • escalation        Stakes/accountability rise; hard for the protagonist  → Stakes don’t rise; no added pressure, injury, or consequence beyond initial bloo
+
+scene craft — S3 SCENE 3 — DEVA ARRIVES: 4 core FAIL, 2 flag(s)
+  ✗ single_action     One focused action, one time & place (unity)  → No single dramatic action; Deva arrives and waits passively.
+  ✗ plot_change       The situation ends shifted from how it opened  → No external situation changes; status quo maintained.
+  ✗ character_change  A character's inner state shifts, caused by the scene's action  → Deva remains passive observer; no inner shift occurs.
+  ✗ reversal          A set-up surprise, inevitable in hindsight & rooted in character  → No surprise or directional shift; flat interaction.
+  • beats             Distinct, escalating beats — not one note repeated (Clurman)  → Only one beat: arrival and waiting; no escalation.
+  • escalation        Stakes/accountability rise; hard for the protagonist  → No stakes, pressure, or accountability introduced.
+
+scene craft — S4 SCENE 4 — THE TEACHER: PASS — all 6 criteria met.
+
+scene craft — S5 SCENE 5 — THE SIGNET: 1 core FAIL, 0 flag(s)
+  ✓ single_action     One focused action, one time & place (unity)
+  ✓ plot_change       The situation ends shifted from how it opened
+  ✗ character_change  A character's inner state shifts, caused by the scene's action  → Ratan’s inner state doesn’t shift — he acts passively, no emotional or resolve c
+  ✓ reversal          A set-up surprise, inevitable in hindsight & rooted in character
+  ✓ beats             Distinct, escalating beats — not one note repeated (Clurman)
+  ✓ escalation        Stakes/accountability rise; hard for the protagonist
+
+scene craft — S6 SCENE 6 — THE FILE: 2 core FAIL, 2 flag(s)
+  ✓ single_action     One focused action, one time & place (unity)
+  ✓ plot_change       The situation ends shifted from how it opened
+  ✗ character_change  A character's inner state shifts, caused by the scene's action  → Ratan shows no inner shift—only passive acceptance, no growth or change.
+  ✗ reversal          A set-up surprise, inevitable in hindsight & rooted in character  → No surprise or directional shift; flat delivery with no tension or pivot.
+  • beats             Distinct, escalating beats — not one note repeated (Clurman)  → Single beat: file delivered, ignored; no escalation or variation in action.
+  • escalation        Stakes/accountability rise; hard for the protagonist  → No rising stakes or pressure; situation is passive, low-stakes, and unchallengin
+
+scene craft — S7 SCENE 7 — SHE FELL: 1 core FAIL, 1 flag(s)
+  ✓ single_action     One focused action, one time & place (unity)
+  ✓ plot_change       The situation ends shifted from how it opened
+  ✗ character_change  A character's inner state shifts, caused by the scene's action  → Ratan shows no inner shift—he acts out of habit, not transformation.
+  ✓ reversal          A set-up surprise, inevitable in hindsight & rooted in character
+  ✓ beats             Distinct, escalating beats — not one note repeated (Clurman)
+  • escalation        Stakes/accountability rise; hard for the protagonist  → No rising stakes or accountability; Ratan faces no pressure, acts unchallenged.
+
+scene craft — S8 SCENE 8 — TWO MORE YEARS: 2 core FAIL, 2 flag(s)
+  ✓ single_action     One focused action, one time & place (unity)
+  ✓ plot_change       The situation ends shifted from how it opened
+  ✗ character_change  A character's inner state shifts, caused by the scene's action  → Ratan shows resignation, but no inner shift—stays passive, unchanged.
+  ✗ reversal          A set-up surprise, inevitable in hindsight & rooted in character  → No surprise or directional shift; expectation (retirement) confirmed, not subver
+  • beats             Distinct, escalating beats — not one note repeated (Clurman)  → Single beat of delivery and reaction; no escalation or variation.
+  • escalation        Stakes/accountability rise; hard for the protagonist  → No rising stakes or pressure; tension is static, not mounting.
+
+=== ONE LAW (naturalness) ===
+44 lines arranged for effect (The One Law):
+
+  L3: No establishing. Close, and lit by fire.
+        -> Two-word punch sentence: 'No establishing.'
+  L5: An old hand, bloody to the wrist, closes on the worn grip of a sword. Th
+        -> Balanced antithesis setup: 'old hand...bloody to the wrist' + 'worn grip' + 'bla
+  L6: hundred places, and on one finger sits a heavy gold signet, its mark alm
+        -> End-loaded detail: 'mark almost rubbed smooth' tacked on after pause.
+  L9: the view opens: an old man on dark ground, the smoke behind him lit saff
+        -> Composition for effect: 'fire...men closing in — and he does not go down' — fina
+  L20: A low government building the colour of the dust around it, the paint pe
+        -> Staccato run: 'CBN jeep up on bricks with one wheel gone.'
+  L24: Inside, a MUNSHI sits behind a register under a slow fan, a glass of tea
+        -> End-loaded detail: 'a glass of tea going cold by his elbow' — fact tail after pa
+  L27: कांस्टेबल देवा। इतरसी से ट्रांसफर। रतन सिंह पँवार साहब को रिपोर्ट करना ह
+        -> Placed for rhythmic effect: 'कांस्टेबल देवा। इतरसी से ट्रांसफर।' — short declara
+  L31: कब तक आ जाएँगे, जी?
+        -> Two-word punch: 'कब तक आ जाएँगे, जी?' — interrogative arranged for tension, not 
+  L33: आ जाएँगे।
+        -> Two-word punch: 'आ जाएँगे।' — single-line reply shaped for impact.
+  L38: ये... किसलिए दिया उसने?
+        -> End-loaded detail: 'ये... किसलिए दिया उसने?' — ellipsis + question tail.
+  L40: चाय-पानी। बैठ जा।
+        -> Two-word punch: 'चाय-पानी।' + 'बैठ जा।' — staccato commands.
+  L48: RATAN comes in heavy and unhurried, the khaki gone shapeless on him, and
+        -> Balanced antithesis: 'heavy and unhurried' — oxymoronic pairing for effect.
+  L52: साहब, ट्रैक्टर पलट गया था भाई पे। बस इतना लिख दीजिए, घर में मातम है।
+        -> End-loaded detail: 'घर में मातम है' tacked on after comma-tail.
+  L57: हो गया। जा।
+        -> Two-word punch: 'हो गया। जा।' — staccato dismissal.
+  L61: साहब, पोस्टमॉर्टम नहीं होगा?
+        -> Two-word punch: 'साहब, पोस्टमॉर्टम नहीं होगा?' — formal phrasing shaped for tens
+  L63: किसके लिए?
+        -> Two-word punch: 'किसके लिए?' — abrupt, staged question.
+  L65: आदमी मरा है, साहब।
+        -> Two-word punch: 'आदमी मरा है, साहब।' — formal phrasing for effect.
+  L67: रोज़ मरते हैं।
+        -> Two-word punch: 'रोज़ मरते हैं।' — flattened resignation shaped as epigram.
+  L71: इतरसी से आया है ना तू। वहाँ अफ़ीम नहीं होती।
+        -> End-loaded detail: 'वहाँ अफ़ीम नहीं होती।' — fact tacked on after pause.
+  L75: यहाँ की खेती है। सरकारी, पट्टे पे। पूरा इलाका इसी पानी पे तैरता है। आँख 
+        -> Balanced antithesis: 'सरकारी, पट्टे पे' + 'पूरा इलाका इसी पानी पे तैरता है' + 'आ
+  L87: ब्याज चढ़ता जा रहा है, सिंह साहब।
+        -> End-loaded detail: 'ब्याज चढ़ता जा रहा है, सिंह साहब।' — fact tail after comma.
+  L91: अगले महीने बाक़ी।
+        -> Two-word punch: 'अगले महीने बाक़ी।' — flat statement shaped for weight.
+  L93: कब तक रखूँ इसे? एक जौहरी पूछ रहा था। सोना पुराना है, दाम अच्छा देगा।
+        -> End-loaded detail: 'एक जौहरी पूछ रहा था। सोना पुराना है, दाम अच्छा देगा।' — laye
+  L98: वो मुहर सोने की नहीं है, सेठ। वो रकत की है।
+        -> End-loaded detail + pathos: 'वो मुहर सोने की नहीं है, सेठ। वो रकत की है।' — epig
+  L100: चारण बाबा, फिर शुरू।
+        -> Two-word punch: 'चारण बाबा, फिर शुरू।' — staged call to action.
+  L102: सिर धड़ से अलग हुआ, और तलवार चलती रही। राजा भोज का बंस, पँवार का — खिलजी
+        -> Balanced antithesis + epigram: 'सिर धड़ से अलग हुआ, और तलवार चलती रही। राजा भोज 
+  L104: Ratan does not turn around. He goes out into the light, and for a moment
+        -> End-loaded detail: 'the finger where the ring used to sit is bare, with a pale b
+  L111: A SIPAHI comes in dusty from the road and puts a thin file on the desk, 
+        -> Staccato run: 'A SIPAHI comes in dusty from the road and puts a thin file on the
+  L113: कोटेश्वर के पास, खेत के किनारे एक लड़की पड़ी मिली। सुबह मिली।
+        -> End-loaded detail: 'सुबह मिली।' tacked on after comma.
+  L117: बड़े घर की। गिर गई होगी रात में। घरवाले कह रहे हैं जल्दी निपटा दो, शादी 
+        -> End-loaded detail: 'शादी का घर है, बात न फैले।' — fact tail after comma.
+  L119: Ratan does not open it. Deva, beside him, looks down at the closed file.
+        -> Two-word punch: 'रख दे।' — single-line instruction shaped for finality.
+  L125: The sipahi puts it on the day's pile and goes back out to the road.
+        -> Staccato run: 'The sipahi puts it on the day's pile and goes back out to the roa
+  L131: The pile has come down to the last file, the thin one. Ratan opens the c
+        -> Balanced antithesis: 'Ratan opens the cover, does not read past the first line' 
+  L134: साहब, एक बार देख आएँ? पास ही है।
+        -> Two-word punch: 'एक बार देख आएँ? पास ही है।' — staged invitation.
+  L136: गिर गई।
+        -> Two-word punch: 'गिर गई।' — single-line confirmation for weight.
+  L138: पर लड़की है, साहब, और—
+        -> End-loaded detail: 'पर लड़की है, साहब, और—' — ellipsis tail.
+  L140: हो गया।
+        -> Two-word punch: 'हो गया।' — abrupt finality.
+  L142: He writes the cause across the form, caps the pen, and closes the file w
+        -> End-loaded detail: 'without ever turning to the name on the second page' — fact 
+  L153: पेंशन के काग़ज़ आ गए। दफ़्तर से फ़ोन था। दो साल और।
+        -> End-loaded detail: 'दो साल और।' — tacked on after comma.
+  L155: Ratan looks at the bare band on his finger, then at the plate. He does n
+        -> End-loaded detail: 'He does not eat yet.' — fact after pause.
+  L157: दो साल बाद घर पे रहेंगे। दिन भर क्या करेंगे?
+        -> Two-word punch: 'दो साल बाद घर पे रहेंगे। दिन भर क्या करेंगे?' — rhetorical ques
+  L159: तेरे हाथ का खाना खाऊँगा।
+        -> Two-word punch: 'तेरे हाथ का खाना खाऊँगा।' — composed pathos.
+  L161: मक्खन मत लगाइए। खाना खाइए, ठंडा हो रहा है।
+        -> Two-word punch: 'मक्खन मत लगाइए। खाना खाइए, ठंडा हो रहा है।' — staccato instruct
+  L163: He eats. She watches him a moment, the way you watch someone from a dist
+        -> End-loaded detail: 'the way you watch someone from a distance that has grown wit
+
+=== BLIND ATTRIBUTION (voices) ===
+blind attribution — 25 lines judged, 19 correct (76%).
+
+per character (recall — low = a blurred voice):
+  ratan       6/11  54%  most taken for: govind ×2
+  deva        8/9   88%  most taken for: ratan ×1
+  kanta       3/3  100%
+  charan      2/2  100%
+
+worst blur (re-voice these pairs):
+  deva ↔ ratan  ×2
+  govind ↔ ratan  ×2
+  bherulal ↔ ratan  ×1
+  mishra ↔ ratan  ×1
+
+sample misattributions (the lines that could be anyone):
+  true=ratan     guess=deva      इतरसी से आया है ना तू। वहाँ अफ़ीम नहीं होती।
+  true=deva      guess=ratan     अफ़ीम?
+  true=ratan     guess=bherulal  यहाँ की खेती है। सरकारी, पट्टे पे। पूरा इलाका 
+  true=ratan     guess=mishra    अगले महीने बाक़ी।
+  true=ratan     guess=govind    किसकी?
+  true=ratan     guess=govind    तेरे हाथ का खाना खाऊँगा।
+
+(not judged — speakers absent from the cards: kisan, munshi, sahukar, sipahi)

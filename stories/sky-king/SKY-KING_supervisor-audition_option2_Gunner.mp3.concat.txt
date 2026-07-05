@@ -1,0 +1,8 @@
+file '/Users/dusty/dev/brehon-law/stories/sky-king/audition_rs/supervisor_option2_0.mp3'
+file '/Users/dusty/dev/brehon-law/stories/sky-king/audition_rs/silence_600.mp3'
+file '/Users/dusty/dev/brehon-law/stories/sky-king/audition_rs/supervisor_option2_1.mp3'
+file '/Users/dusty/dev/brehon-law/stories/sky-king/audition_rs/silence_600.mp3'
+file '/Users/dusty/dev/brehon-law/stories/sky-king/audition_rs/supervisor_option2_2.mp3'
+file '/Users/dusty/dev/brehon-law/stories/sky-king/audition_rs/silence_600.mp3'
+file '/Users/dusty/dev/brehon-law/stories/sky-king/audition_rs/supervisor_option2_3.mp3'
+file '/Users/dusty/dev/brehon-law/stories/sky-king/audition_rs/silence_600.mp3'

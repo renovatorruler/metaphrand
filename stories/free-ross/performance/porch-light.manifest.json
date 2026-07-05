@@ -1,0 +1,74 @@
+[
+ {
+  "group": 0,
+  "scene": "s1",
+  "frame": "s1",
+  "path": "stories/free-ross/performance/segments/grp_5a0f1927434b7873.mp3",
+  "duration": 72.8,
+  "gap_after_ms": 700
+ },
+ {
+  "group": 1,
+  "scene": "s2",
+  "frame": "s2",
+  "path": "stories/free-ross/performance/segments/grp_1ddc5b7c076236cc.mp3",
+  "duration": 54.16,
+  "gap_after_ms": 700
+ },
+ {
+  "group": 2,
+  "scene": "s3",
+  "frame": "s3",
+  "path": "stories/free-ross/performance/segments/grp_76d43c71e468ad45.mp3",
+  "duration": 36.72,
+  "gap_after_ms": 700
+ },
+ {
+  "group": 3,
+  "scene": "s4",
+  "frame": "s4",
+  "path": "stories/free-ross/performance/segments/grp_9e8f087ddac45151.mp3",
+  "duration": 42.8,
+  "gap_after_ms": 700
+ },
+ {
+  "group": 4,
+  "scene": "s5",
+  "frame": "s5",
+  "path": "stories/free-ross/performance/segments/grp_d5622e73839fa5f2.mp3",
+  "duration": 51.76,
+  "gap_after_ms": 700
+ },
+ {
+  "group": 5,
+  "scene": "s6",
+  "frame": "s6",
+  "path": "stories/free-ross/performance/segments/grp_ad1117d8bee6ab01.mp3",
+  "duration": 68.56,
+  "gap_after_ms": 700
+ },
+ {
+  "group": 6,
+  "scene": "s7",
+  "frame": "s7",
+  "path": "stories/free-ross/performance/segments/grp_a874e9d8140429cc.mp3",
+  "duration": 139.12,
+  "gap_after_ms": 700
+ },
+ {
+  "group": 7,
+  "scene": "s8",
+  "frame": "s8",
+  "path": "stories/free-ross/performance/segments/grp_584a2b0a3c827ab1.mp3",
+  "duration": 44.88,
+  "gap_after_ms": 700
+ },
+ {
+  "group": 8,
+  "scene": "s9",
+  "frame": "s9",
+  "path": "stories/free-ross/performance/segments/grp_283a89591fddfe21.mp3",
+  "duration": 75.36,
+  "gap_after_ms": 0
+ }
+]

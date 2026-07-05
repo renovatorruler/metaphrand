@@ -1,0 +1,45 @@
+SKY KING — INT. BIRDY AND MAYA'S HOME - NIGHT
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-night.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A small kitchen lit by one bulb. A space heater ticks in the corner. On the table, a thin dinner of rice and a single fried egg split across two plates.
+ACTION: A stack of mail sits by the salt. The top envelope is open, the flight program's letterhead showing, a folded denial inside.
+ACTION: Birdy comes in still in his airport vest, name badge clipped on, lunch cooler in hand. He sets the cooler down and rubs his hands over the heater.
+BIRDY: It's colder in here than the tarmac.
+MAYA: The man's coming Thursday about the bill. I told him after the fifteenth.
+ACTION: Birdy nods. He sees the open envelope. He picks it up, reads the first line, sets it back down face-down.
+BIRDY: Well. They're gonna run out of ways to spell my name eventually.
+ACTION: Maya doesn't smile. She sets the two plates on the table and sits.
+MAYA: Sit. It's getting cold.
+ACTION: They eat. The heater ticks. Forks scrape the plates. Birdy reaches over and slides half his egg onto her plate. She slides it back.
+MAYA: Eat your own.
+ACTION: A long quiet. Maya sets her fork down with most of the rice still on it.
+MAYA: How much was it this time. The application.
+BIRDY: Wasn't much.
+ACTION: Maya looks at him. He looks at the table.
+MAYA: Birdy.
+BIRDY: It wasn't much, Maya.
+ACTION: She gathers the plates, scrapes hers into a container for tomorrow, runs the tap.
+MAYA: I can't keep my eyes open. I'm going to bed.
+ACTION: She stops at his chair. Her hand rests on his shoulder a moment, then lifts.
+MAYA: Don't stay up all night in there.
+ACTION: She goes down the dark hall. A door clicks shut.
+ACTION: Birdy sits alone with the heater. He turns the letter over, reads it again, then folds it small and pushes it under the mail stack.
+ACTION: The spare room. A secondhand office chair patched with tape. A monitor on a plank-and-cinderblock desk. A bargain yoke and throttle clamped to the edge, one clamp shimmed with a folded coaster.
+ACTION: Birdy lowers into the chair. He wakes the screen. A cockpit glows up out of the dark, a runway strung with blue lights. He pulls a worn headset over his ears and thumbs the mic.
+BIRDY: Evening, gentlemen. Anybody got eyes on the weather over the pass.
+ACTION: Static, then voices crackle thin in the little speakers.
+VOICE (RADIO): Birdy. We were about to send a search party.
+VOICE (RADIO): Ceiling's coming down north of the field. You taking the long way again.
+BIRDY: I always take the long way.
+ACTION: He eases the throttle up. The engine note rises. His hands settle on the yoke and go still and sure. On the screen the runway slides away beneath him and the dark mountains tilt up into the window.
+BIRDY: Wheels up.
+ACTION: The room is dark but for the screen. Birdy leans into a slow bank, lights from the panel moving across his face. He is grinning at nothing.
+VOICE (RADIO): Look at that. Smooth as anything.
+BIRDY: Told you. This is the easy part.
+ACTION: Hours pass on the clock by the door. The voices thin out and go quiet, one signing off, then another.
+VOICE (RADIO): Night, Birdy.
+ACTION: Birdy doesn't answer. The plane holds level over a black ridge, autopilot steady. His head has dropped to one side. His hands have slid off the yoke into his lap. The headset is still on. The engine drones soft and even from the little speakers.
+ACTION: The hall door opens. Maya stands in it in her robe, a comforter bunched in her arms. She looks at him asleep, at the plane still flying itself across the screen.
+ACTION: She crosses and lays the comforter over him, tucks it at his shoulder, careful of the headset. She looks at the screen a long moment, the blue lights crawling by below the wing.
+ACTION: She switches off the desk lamp. She leaves the screen glowing and the engine humming, and goes quietly out, drawing the door to behind her.

@@ -1,0 +1,45 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,44,&H00FFFFFF,&H000000FF,&H00101010,&H80000000,0,0,0,0,100,100,0,0,1,2.4,1.2,2,80,80,56,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.71,Default,,0,0,0,,Behind the hospital, a low building. A tin door, the smell
+Dialogue: 0,0:00:03.77,0:00:07.49,Default,,0,0,0,,of phenyl and melting ice. A tempo stands outside, loaded with
+Dialogue: 0,0:00:07.55,0:00:11.26,Default,,0,0,0,,a bolt of white cloth and pyre wood. Three or four
+Dialogue: 0,0:00:11.32,0:00:15.03,Default,,0,0,0,,men from the big house stand at the door. Bherulal's man
+Dialogue: 0,0:00:15.09,0:00:18.81,Default,,0,0,0,,is talking, cold-eyed, in no hurry. The morgue compounder stands clutching
+Dialogue: 0,0:00:18.87,0:00:22.58,Default,,0,0,0,,his register to his chest.
+Dialogue: 0,0:00:22.94,0:00:25.72,Default,,0,0,0,,Doctor Bhanwar wrote 'death by fall' just yesterday and closed the
+Dialogue: 0,0:00:25.78,0:00:28.56,Default,,0,0,0,,case. Now hand over the body, the mother's waiting outside.
+Dialogue: 0,0:00:28.92,0:00:30.62,Default,,0,0,0,,Sahib, a new order came from above this morning. The body's
+Dialogue: 0,0:00:30.68,0:00:32.38,Default,,0,0,0,,not to be released to anyone.
+Dialogue: 0,0:00:32.74,0:00:35.32,Default,,0,0,0,,New order? The file was closed yesterday.
+Dialogue: 0,0:00:35.68,0:00:38.05,Default,,0,0,0,,It came with Panwar sahib's signature, that the body goes to
+Dialogue: 0,0:00:38.11,0:00:40.47,Default,,0,0,0,,the district headquarters for a second post-mortem. How can I release
+Dialogue: 0,0:00:40.53,0:00:42.90,Default,,0,0,0,,it on my own?
+Dialogue: 0,0:00:43.26,0:00:45.97,Default,,0,0,0,,The man reads the register slowly, down to the name written
+Dialogue: 0,0:00:46.03,0:00:48.75,Default,,0,0,0,,at the bottom. Then he takes a wad of notes from
+Dialogue: 0,0:00:48.81,0:00:51.52,Default,,0,0,0,,his vest and lays it on the open register.
+Dialogue: 0,0:00:51.88,0:00:54.70,Default,,0,0,0,,Take this, and write that the family took the body. You've
+Dialogue: 0,0:00:54.76,0:00:57.58,Default,,0,0,0,,got the doctor's clean paper already.
+Dialogue: 0,0:00:57.94,0:01:01.48,Default,,0,0,0,,The compounder doesn't earn this much in a year. But his
+Dialogue: 0,0:01:01.54,0:01:05.08,Default,,0,0,0,,hand stays where it is.
+Dialogue: 0,0:01:05.44,0:01:08.18,Default,,0,0,0,,Panwar sahib's coming himself, sahib. You'll get me in trouble.
+Dialogue: 0,0:01:08.54,0:01:11.63,Default,,0,0,0,,A woman's wailing rises from the corridor, and the other women
+Dialogue: 0,0:01:11.69,0:01:14.77,Default,,0,0,0,,hush her. The man looks at the cloth and wood in
+Dialogue: 0,0:01:14.83,0:01:17.92,Default,,0,0,0,,the tempo, then at the tin door.
+Dialogue: 0,0:01:18.28,0:01:20.70,Default,,0,0,0,,Think about it. We need the body by evening. Let the
+Dialogue: 0,0:01:20.76,0:01:23.18,Default,,0,0,0,,mother cremate her daughter.
+Dialogue: 0,0:01:23.54,0:01:27.14,Default,,0,0,0,,He walks back to his people. The compounder stands holding the
+Dialogue: 0,0:01:27.20,0:01:30.81,Default,,0,0,0,,register, the notes still on it. And Ratan's been standing at
+Dialogue: 0,0:01:30.87,0:01:34.47,Default,,0,0,0,,the door long enough to have heard everything. He looks at
+Dialogue: 0,0:01:34.53,0:01:38.14,Default,,0,0,0,,the tin door, then at the money on the register, and
+Dialogue: 0,0:01:38.20,0:01:41.80,Default,,0,0,0,,says nothing.

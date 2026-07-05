@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-gift",
+  "slug": "INT. Q400 FLIGHT DECK / SKY OVER RAINIER - DUSK",
+  "seedHash": "ebfcd5b92166ef5915296f981e5ac147290b04d29be9e6257288077eb6a122bc",
+  "sceneHash": "442d10d76e29cf39b7bb35c620717bfa27194e868d5204ad78305c4f1015c0ac",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

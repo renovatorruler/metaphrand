@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-maya",
+  "slug": "INT. CARE HOME - NIGHT",
+  "seedHash": "bc3cdc872c19a8ef9fcc4effc17d11e2b8c81f7ffd79990aea9cedee8191e795",
+  "sceneHash": "881388035cae79971657c44369e02acd053ab0409d7131e5b9d06c477a18f98f",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

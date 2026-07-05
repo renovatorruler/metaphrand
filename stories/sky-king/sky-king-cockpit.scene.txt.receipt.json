@@ -1,0 +1,9 @@
+{
+  "id": "sky-king-cockpit",
+  "slug": "INT. PARKED Q400 FLIGHT DECK - NIGHT",
+  "seedHash": "63aea5d8c210ad1dc10126492350fae64c5f7f828db2e49a3b9c0a024a673ca7",
+  "sceneHash": "f7730951bdf66631a695a53256341edcef3d91b23d23a71445edeb76bd07d4bd",
+  "gate": "PASS",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

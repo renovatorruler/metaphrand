@@ -1,0 +1,635 @@
+{
+ "title": "INDIVISIBLE \u2014 Part One, pilot (ch.1-3)",
+ "model_id": "eleven_v3",
+ "output_format": "mp3_44100_128",
+ "gaps_ms": {
+  "group": 550
+ },
+ "cast": {
+  "NARRATOR": {
+   "voice": "George",
+   "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+   "direction": "audiobook narration: measured, dry, unhurried; reports emotion, never performs it; dialogue inside narration gets only the lightest shift of register"
+  }
+ },
+ "segments": [
+  {
+   "scene": "ch1card",
+   "frame": "ch1card",
+   "speaker": "NARRATOR",
+   "text": "Chapter One."
+  },
+  {
+   "scene": "ch1p000",
+   "frame": "ch1p000",
+   "speaker": "NARRATOR",
+   "text": "Desmond set the axe to the log again and missed the split again, and the wood rolled off the block into the dirt."
+  },
+  {
+   "scene": "ch1p001",
+   "frame": "ch1p001",
+   "speaker": "NARRATOR",
+   "text": "\"Nia,\" he said, not looking up. \"Water.\""
+  },
+  {
+   "scene": "ch1p002",
+   "frame": "ch1p002",
+   "speaker": "NARRATOR",
+   "text": "\"I watered.\" Her voice came from the lean-to, where she had the bay's big head down in both hands and was feeding it oats out of her apron pocket a few at a time, making it work for them."
+  },
+  {
+   "scene": "ch1p003",
+   "frame": "ch1p003",
+   "speaker": "NARRATOR",
+   "text": "[dry] \"You watered the one you like. Troughs mean all three.\""
+  },
+  {
+   "scene": "ch1p004",
+   "frame": "ch1p004",
+   "speaker": "NARRATOR",
+   "text": "She gave the bay the last of the oats and went for the well bucket with the put-upon walk she'd carried since she was small, and on her way past the rail she touched the saddle that sat there, the dark tooled leather with silver let into the cantle, the way you'd touch a thing in a store you'd been told twice not to handle. She had it drawn in her notebook already and had gotten the fork of it wrong, and had written under the drawing the question nobody downstairs would answer: WHOSE."
+  },
+  {
+   "scene": "ch1p005",
+   "frame": "ch1p005",
+   "speaker": "NARRATOR",
+   "text": "In the side yard Della had the wash pot going over a low fire, boiling her good linen on a Tuesday, stirring with the dolly stick, the lye smell flat on the heat."
+  },
+  {
+   "scene": "ch1p006",
+   "frame": "ch1p006",
+   "speaker": "NARRATOR",
+   "text": "[dry] \"You're chopping it like it owes you money,\" Nia said from the well."
+  },
+  {
+   "scene": "ch1p007",
+   "frame": "ch1p007",
+   "speaker": "NARRATOR",
+   "text": "\"Go on and pour.\" \"Mama does it better than you.\" \"Pour, Nia.\""
+  },
+  {
+   "scene": "ch1p008",
+   "frame": "ch1p008",
+   "speaker": "NARRATOR",
+   "text": "They kept their rules: nobody past the tree line alone, no lamp in the window after dark, somebody on the road from first light to last."
+  },
+  {
+   "scene": "ch1p009",
+   "frame": "ch1p009",
+   "speaker": "NARRATOR",
+   "text": "Nia saw the dust first. She didn't shout, just said \"Daddy\" and lifted her chin to where the track met the county road, where something kicked up a haze with no wind to do it, and above Desmond a window slid in its frame before he'd turned all the way around. Della's rifle came to rest on the sill like it was being set in a rack built for it. He sent the girl up the stairs with a look and didn't watch her go, and heard the second window go up, the girl at it."
+  },
+  {
+   "scene": "ch1p010",
+   "frame": "ch1p010",
+   "speaker": "NARRATOR",
+   "text": "He leaned the axe against the block like a man who meant to get back to it, and stood in the yard with his hands where they showed."
+  },
+  {
+   "scene": "ch1p011",
+   "frame": "ch1p011",
+   "speaker": "NARRATOR",
+   "text": "The riders came up the track easy, in no hurry. They were four men as dark as he was, dusty and well-mounted, and they carried their rifles across their laps, oilcloth slickers rolled and tied behind the cantles, riding government leather on horses too good for field work. The one in front wore broadcloth gone green at the seams and a low crowned hat, and he walked his horse near to the porch before he stopped it and looked Desmond over, the homespun gone soft as paper, the brogans split at the welt, and smiled like the inventory pleased him. The oldest of them stopped well back by the gate post and didn't look at the house at all. He looked at the tree line, and at the wind in it, and then at the upstairs windows, in that order, and after that he sat still."
+  },
+  {
+   "scene": "ch1p012",
+   "frame": "ch1p012",
+   "speaker": "NARRATOR",
+   "text": "[low] \"Which plantation you run off from?\" the front one said."
+  },
+  {
+   "scene": "ch1p013",
+   "frame": "ch1p013",
+   "speaker": "NARRATOR",
+   "text": "[flat] \"Don't know what you mean.\""
+  },
+  {
+   "scene": "ch1p014",
+   "frame": "ch1p014",
+   "speaker": "NARRATOR",
+   "text": "\"No?\" He hung his hands on the horn, comfortable. \"We're after a nigger come through here three, four days back. Tall, took a ball in the leg above the knee. Would've looked like he needed a place to lie up.\" He drew a paper from inside his coat and held it up unfolded, a printed thing, slick as a playing card and shining where the light got it. \"Recovery paper, all lawful. Man that gives him up holds forty dollars gold. Word of him alone is worth ten.\""
+  },
+  {
+   "scene": "ch1p015",
+   "frame": "ch1p015",
+   "speaker": "NARRATOR",
+   "text": "\"Nobody comes out this far.\""
+  },
+  {
+   "scene": "ch1p016",
+   "frame": "ch1p016",
+   "speaker": "NARRATOR",
+   "text": "\"Somebody did.\" He looked the place over while he said it, the house, the well, the lean-to. \"Bring your wife on out. The girl too. We'll all of us talk about it.\""
+  },
+  {
+   "scene": "ch1p017",
+   "frame": "ch1p017",
+   "speaker": "NARRATOR",
+   "text": "\"They got nothing to tell you I can't.\""
+  },
+  {
+   "scene": "ch1p018",
+   "frame": "ch1p018",
+   "speaker": "NARRATOR",
+   "text": "[flat] \"Wasn't a request.\""
+  },
+  {
+   "scene": "ch1p019",
+   "frame": "ch1p019",
+   "speaker": "NARRATOR",
+   "text": "One of the others got down off his horse and started for the porch, taking his time about it, a big man eating sunflower seeds out of his palm. Desmond stepped into his way, not fast, just enough to stand between him and the door, and the big man stopped and looked back \u2014 past the talker, all the way back to the old one at the gate post, who hadn't said a word yet. Desmond marked where the look went."
+  },
+  {
+   "scene": "ch1p020",
+   "frame": "ch1p020",
+   "speaker": "NARRATOR",
+   "text": "\"There's no man here,\" Desmond said, to the gate post. \"Ride north, you'll cut his trail at the river. I wouldn't waste your daylight on us.\""
+  },
+  {
+   "scene": "ch1p021",
+   "frame": "ch1p021",
+   "speaker": "NARRATOR",
+   "text": "The old one sat his horse and chewed on it, looking at the house and the empty road north, and Desmond watched him weigh a houseful of women and a yard full of work against a lamed stranger and come up short."
+  },
+  {
+   "scene": "ch1p022",
+   "frame": "ch1p022",
+   "speaker": "NARRATOR",
+   "text": "[low] \"Mount up,\" the old one said."
+  },
+  {
+   "scene": "ch1p023",
+   "frame": "ch1p023",
+   "speaker": "NARRATOR",
+   "text": "The big man spat a hull at Desmond's feet and turned for his horse."
+  },
+  {
+   "scene": "ch1p024",
+   "frame": "ch1p024",
+   "speaker": "NARRATOR",
+   "text": "They were bringing the horses around when the young one at the back went still. He was looking past the lean-to at the bay standing easy in the shade, and at the saddle on the rail beside her, the silver in the cantle throwing light, worth more than the house and everything in it."
+  },
+  {
+   "scene": "ch1p025",
+   "frame": "ch1p025",
+   "speaker": "NARRATOR",
+   "text": "[tense] \"That's his saddle,\" the young one said, rising in his stirrups. \"That's the\u2014\""
+  },
+  {
+   "scene": "ch1p026",
+   "frame": "ch1p026",
+   "speaker": "NARRATOR",
+   "text": "Della fired once from the upstairs window and took him off the horse with the sentence unfinished."
+  },
+  {
+   "scene": "ch1p027",
+   "frame": "ch1p027",
+   "speaker": "NARRATOR",
+   "text": "After that it went fast. The big man was already swinging his rifle up \u2014 he had started the swing before her shot, some cold corner of Desmond saw that and kept it \u2014 and Desmond pulled the pistol from the small of his back and put him down on the second shot. The second window opened up over him, the girl firing slow and level the way she'd been taught, and the yard filled with wheeling horses that couldn't turn in the close of it. The talker took one high in the shoulder, held on somehow, and got himself out low on his horse's neck. The old one was a length ahead of him going down the track, flat to the mane, and Desmond couldn't have said when the man started \u2014 only that nobody had been shooting at him yet when he did."
+  },
+  {
+   "scene": "ch1p028",
+   "frame": "ch1p028",
+   "speaker": "NARRATOR",
+   "text": "Desmond stood with the pistol up until there was nothing left to point it at. The young one lay where the yard's one piece of shade came up short, seventeen years old, maybe, and right, was all, half a second too loud about it."
+  },
+  {
+   "scene": "ch1p029",
+   "frame": "ch1p029",
+   "speaker": "NARRATOR",
+   "text": "Desmond went inside and up the stairs. Della was thumbing rounds back into the rifle, the window still open, and she looked at his face once and went back to the work."
+  },
+  {
+   "scene": "ch1p030",
+   "frame": "ch1p030",
+   "speaker": "NARRATOR",
+   "text": "\"I had them leaving,\" he said."
+  },
+  {
+   "scene": "ch1p031",
+   "frame": "ch1p031",
+   "speaker": "NARRATOR",
+   "text": "\"You had them turning.\" She seated the last round. \"The big one started his swing before I fired. The old one was gone before anybody touched a trigger. Look again.\""
+  },
+  {
+   "scene": "ch1p032",
+   "frame": "ch1p032",
+   "speaker": "NARRATOR",
+   "text": "He played it back: the rein hand drifting while the talker talked, and the old man who'd looked at the wind and the windows and never once at him, pricing the place the whole time the front man kept him busy being brave."
+  },
+  {
+   "scene": "ch1p033",
+   "frame": "ch1p033",
+   "speaker": "NARRATOR",
+   "text": "\"Two got out,\" Della said. \"The old one's blood kin to that boy in the yard, or I've never watched a man not look at something. We have an hour. Maybe two.\""
+  },
+  {
+   "scene": "ch1p034",
+   "frame": "ch1p034",
+   "speaker": "NARRATOR",
+   "text": "[low] \"Pack what you can carry,\" Desmond said. \"Ten minutes.\""
+  },
+  {
+   "scene": "ch1p035",
+   "frame": "ch1p035",
+   "speaker": "NARRATOR",
+   "text": "Della was already past him with the rifle slung, calling the girl down off the landing. Desmond stood one moment more at the window, looking at the lean-to, where the bay stood easy in the shade wearing a dead boy's worth of silver."
+  },
+  {
+   "scene": "ch1p036",
+   "frame": "ch1p036",
+   "speaker": "NARRATOR",
+   "text": "Ten minutes was not going to be enough."
+  },
+  {
+   "scene": "ch2card",
+   "frame": "ch2card",
+   "speaker": "NARRATOR",
+   "text": "Chapter Two. Eighteen months earlier."
+  },
+  {
+   "scene": "ch2p000",
+   "frame": "ch2p000",
+   "speaker": "NARRATOR",
+   "text": "The realtor's name was Brad, and he had a way of announcing every room like it was the best one in the house."
+  },
+  {
+   "scene": "ch2p001",
+   "frame": "ch2p001",
+   "speaker": "NARRATOR",
+   "text": "\"Now this,\" Brad said, \"is your bonus room. Media room, home gym, man cave \u2014 whatever speaks to you.\""
+  },
+  {
+   "scene": "ch2p002",
+   "frame": "ch2p002",
+   "speaker": "NARRATOR",
+   "text": "What spoke to Desmond was the window. One window, street side, and past it the cul-de-sac curled back on itself with a single way in and out."
+  },
+  {
+   "scene": "ch2p002",
+   "frame": "ch2p002",
+   "speaker": "NARRATOR",
+   "text": "He stood there working it the way he worked everything \u2014 where's the door, where's the second door, what happens when the first one fails."
+  },
+  {
+   "scene": "ch2p003",
+   "frame": "ch2p003",
+   "speaker": "NARRATOR",
+   "text": "\"You're doing the thing,\" Della said, beside him, smiling out at the yard so Brad wouldn't catch her not smiling at her husband."
+  },
+  {
+   "scene": "ch2p004",
+   "frame": "ch2p004",
+   "speaker": "NARRATOR",
+   "text": "[dry] \"I'm looking at the house.\" \"You're looking at the exits.\""
+  },
+  {
+   "scene": "ch2p005",
+   "frame": "ch2p005",
+   "speaker": "NARRATOR",
+   "text": "[low] \"One road in, Dell. One road in is one road out.\" He kept it low. \"I keep telling you. We should be looking at land. Couple acres east of here, some space around us, something we can actually\u2014\""
+  },
+  {
+   "scene": "ch2p006",
+   "frame": "ch2p006",
+   "speaker": "NARRATOR",
+   "text": "\"A compound.\" She almost laughed. \"You want to raise our daughter in a compound.\""
+  },
+  {
+   "scene": "ch2p007",
+   "frame": "ch2p007",
+   "speaker": "NARRATOR",
+   "text": "[quietly] \"I want to raise our daughter.\""
+  },
+  {
+   "scene": "ch2p008",
+   "frame": "ch2p008",
+   "speaker": "NARRATOR",
+   "text": "[warm] \"Desmond.\" She looked at him then, still smiling. \"It's going to be okay. People have been calling the end of the country since before there was a country. We're going to buy a house, gripe about the HOA, complain about the heat after thirty years of St. Louis winters, and be fine.\""
+  },
+  {
+   "scene": "ch2p009",
+   "frame": "ch2p009",
+   "speaker": "NARRATOR",
+   "text": "\"Schools out here are phenomenal, by the way,\" Brad said from the hall."
+  },
+  {
+   "scene": "ch2p010",
+   "frame": "ch2p010",
+   "speaker": "NARRATOR",
+   "text": "[dry] \"See?\" Della said. \"Phenomenal schools.\""
+  },
+  {
+   "scene": "ch2p011",
+   "frame": "ch2p011",
+   "speaker": "NARRATOR",
+   "text": "Desmond looked back out the one window."
+  },
+  {
+   "scene": "ch2p012",
+   "frame": "ch2p012",
+   "speaker": "NARRATOR",
+   "text": "Outside, Nia found the only other kids on the street."
+  },
+  {
+   "scene": "ch2p013",
+   "frame": "ch2p013",
+   "speaker": "NARRATOR",
+   "text": "They were in the next yard over, a boy and a smaller girl, running something back and forth that took a lot of shrieking. The boy looked about her age."
+  },
+  {
+   "scene": "ch2p013",
+   "frame": "ch2p013",
+   "speaker": "NARRATOR",
+   "text": "Theirs was the only yard on the cul-de-sac with a fence, chain-link and a head taller than it needed to be, matching nothing else on the street."
+  },
+  {
+   "scene": "ch2p013",
+   "frame": "ch2p013",
+   "speaker": "NARRATOR",
+   "text": "Nia went to the chain-link, hooked her fingers in it, and watched, waiting to be noticed. The smaller girl noticed first and stopped, and then the boy stopped."
+  },
+  {
+   "scene": "ch2p014",
+   "frame": "ch2p014",
+   "speaker": "NARRATOR",
+   "text": "Then the screen door banged and the mother came out fast, talking. The talk wasn't for Nia. It went over her head in a language she didn't have one word of."
+  },
+  {
+   "scene": "ch2p014",
+   "frame": "ch2p014",
+   "speaker": "NARRATOR",
+   "text": "She didn't need the words. She had the face, and the way the woman caught the little girl by the wrist and turned her with it, and the way she put herself between her kids and the fence without once looking at what was on the other side of it."
+  },
+  {
+   "scene": "ch2p015",
+   "frame": "ch2p015",
+   "speaker": "NARRATOR",
+   "text": "Nia took her fingers out of the chain-link."
+  },
+  {
+   "scene": "ch2p016",
+   "frame": "ch2p016",
+   "speaker": "NARRATOR",
+   "text": "[quietly] She knew it without the words. She'd known it without the words before."
+  },
+  {
+   "scene": "ch2p017",
+   "frame": "ch2p017",
+   "speaker": "NARRATOR",
+   "text": "She was almost back to her own yard when she heard the gate."
+  },
+  {
+   "scene": "ch2p018",
+   "frame": "ch2p018",
+   "speaker": "NARRATOR",
+   "text": "The boy had come through it. He stood a second like he wasn't sure why, then crossed the grass with his hands in his pockets and stopped a careful few feet off."
+  },
+  {
+   "scene": "ch2p019",
+   "frame": "ch2p019",
+   "speaker": "NARRATOR",
+   "text": "\"She's not always like that,\" he said."
+  },
+  {
+   "scene": "ch2p020",
+   "frame": "ch2p020",
+   "speaker": "NARRATOR",
+   "text": "\"It's okay.\" \"It's not, though.\" He looked back at his house, then at her. \"You want to see something? There's a frog living in the storm drain by the hydrant. He's the size of a softball.\""
+  },
+  {
+   "scene": "ch2p021",
+   "frame": "ch2p021",
+   "speaker": "NARRATOR",
+   "text": "Nia looked at him."
+  },
+  {
+   "scene": "ch2p022",
+   "frame": "ch2p022",
+   "speaker": "NARRATOR",
+   "text": "\"I'm serious,\" the boy said. \"He's enormous.\""
+  },
+  {
+   "scene": "ch2p023",
+   "frame": "ch2p023",
+   "speaker": "NARRATOR",
+   "text": "\"Okay,\" Nia said, and went with him."
+  },
+  {
+   "scene": "ch3card",
+   "frame": "ch3card",
+   "speaker": "NARRATOR",
+   "text": "Chapter Three."
+  },
+  {
+   "scene": "ch3p000",
+   "frame": "ch3p000",
+   "speaker": "NARRATOR",
+   "text": "The system wanted a number Mrs. Adeyemi did not have, and Thanh Nguyen had been staring at the field for most of a minute."
+  },
+  {
+   "scene": "ch3p001",
+   "frame": "ch3p001",
+   "speaker": "NARRATOR",
+   "text": "\"It's the update,\" he said. \"They put a new field in. It won't take blank.\""
+  },
+  {
+   "scene": "ch3p002",
+   "frame": "ch3p002",
+   "speaker": "NARRATOR",
+   "text": "\"What number is it asking for?\""
+  },
+  {
+   "scene": "ch3p003",
+   "frame": "ch3p003",
+   "speaker": "NARRATOR",
+   "text": "\"It doesn't say.\" He turned the screen so she could see it not saying. The field had a name made of initials, and a red asterisk, and twenty-one years of filling her blood-pressure pills stood on one side of it and the refill stood on the other. Thanh keyed back out, took a stock bottle off the shelf behind him, counted fourteen days of tablets into a vial by fives, the tray clicking, and pushed the vial across with the label blank."
+  },
+  {
+   "scene": "ch3p004",
+   "frame": "ch3p004",
+   "speaker": "NARRATOR",
+   "text": "\"That's a sample,\" he said. \"Samples don't go in the computer. By the time you're through them, the field will have a help line.\""
+  },
+  {
+   "scene": "ch3p005",
+   "frame": "ch3p005",
+   "speaker": "NARRATOR",
+   "text": "He rang up her cough drops so she'd have a receipt for the walk back, and watched her out the door, and then he stood a while looking at the pickup wall of stapled white bags, where the stapled bags waited patient in their rows and every one carried a family's name in his own block letters."
+  },
+  {
+   "scene": "ch3p006",
+   "frame": "ch3p006",
+   "speaker": "NARRATOR",
+   "text": "The radio on the back counter, low, was running the noon update. Registration would open statewide the first of the month, the warm voice said. Everyone counted, so everyone's cared for."
+  },
+  {
+   "scene": "ch3p007",
+   "frame": "ch3p007",
+   "speaker": "NARRATOR",
+   "text": "Hoa called at two, which was her time, with the question she asked once a week the way other people went to church."
+  },
+  {
+   "scene": "ch3p008",
+   "frame": "ch3p008",
+   "speaker": "NARRATOR",
+   "text": "\"Binh says the hospital will sponsor. He says his attending did it for a family from Laos, four people, eight weeks start to finish.\" The pause had a kitchen in it \u2014 somewhere behind her a tap ran and shut off. \"Eight weeks, Thanh. If we filed now.\""
+  },
+  {
+   "scene": "ch3p009",
+   "frame": "ch3p009",
+   "speaker": "NARRATOR",
+   "text": "[quietly] \"Who fills Mrs. Adeyemi on the fifteenth?\""
+  },
+  {
+   "scene": "ch3p010",
+   "frame": "ch3p010",
+   "speaker": "NARRATOR",
+   "text": "\"Walgreens fills her.\""
+  },
+  {
+   "scene": "ch3p011",
+   "frame": "ch3p011",
+   "speaker": "NARRATOR",
+   "text": "\"Walgreens' computer is the same computer.\" He said it gently, and not for the first time, and through the window he watched the parking lot do nothing in the heat. \"We'll talk at dinner.\""
+  },
+  {
+   "scene": "ch3p012",
+   "frame": "ch3p012",
+   "speaker": "NARRATOR",
+   "text": "\"We'll talk at dinner,\" she said, in the voice of a woman filing the case for next week, and was kind enough to hang up first."
+  },
+  {
+   "scene": "ch3p013",
+   "frame": "ch3p013",
+   "speaker": "NARRATOR",
+   "text": "Dr. Mehta came in at ten to six, on a Tuesday that should have had him at the hospital, and he came in person, a man whose prescriptions had arrived by fax for nine years under a signature like a cardiogram. He stood at the counter in a golf shirt that had never been worn to golf, and out front, past the glass, a small dog sat up in the basket of a girl's bicycle with its ears up like a captain."
+  },
+  {
+   "scene": "ch3p014",
+   "frame": "ch3p014",
+   "speaker": "NARRATOR",
+   "text": "\"Thanh,\" he said. \"I find myself with a free afternoon.\""
+  },
+  {
+   "scene": "ch3p015",
+   "frame": "ch3p015",
+   "speaker": "NARRATOR",
+   "text": "[flat] \"On a Tuesday.\""
+  },
+  {
+   "scene": "ch3p016",
+   "frame": "ch3p016",
+   "speaker": "NARRATOR",
+   "text": "\"On all the Tuesdays.\" Dr. Mehta straightened the counter mat with one finger. \"There was an audit this morning. A category audit. My privileges are suspended pending \u2014 \" he turned his hand over \" \u2014 pending.\""
+  },
+  {
+   "scene": "ch3p017",
+   "frame": "ch3p017",
+   "speaker": "NARRATOR",
+   "text": "The word sat on the counter between them like a thing that had crawled up there."
+  },
+  {
+   "scene": "ch3p018",
+   "frame": "ch3p018",
+   "speaker": "NARRATOR",
+   "text": "\"Priya's brother drove to the airport Friday,\" Dr. Mehta said. \"He had visas, tickets, everything stamped. They boarded him back off at the gate, and the paper gives no reason. It says see addendum, and there is no addendum.\" He was working to keep it in the contractual voice, the voice that had read labs to frightened men for thirty years, and it mostly held."
+  },
+  {
+   "scene": "ch3p019",
+   "frame": "ch3p019",
+   "speaker": "NARRATOR",
+   "text": "[low] \"You said once \u2014 last winter, you said a thing to me. About a man with an airplane.\""
+  },
+  {
+   "scene": "ch3p020",
+   "frame": "ch3p020",
+   "speaker": "NARRATOR",
+   "text": "Thanh came around the counter, went to the door, and stood looking at the lot a moment \u2014 at the girl and the bicycle and the dog, at the two parked cars, at the road. Then he flipped the sign to CLOSED and came back."
+  },
+  {
+   "scene": "ch3p021",
+   "frame": "ch3p021",
+   "speaker": "NARRATOR",
+   "text": "\"You were never in today,\" he said."
+  },
+  {
+   "scene": "ch3p022",
+   "frame": "ch3p022",
+   "speaker": "NARRATOR",
+   "text": "\"I was never in.\""
+  },
+  {
+   "scene": "ch3p023",
+   "frame": "ch3p023",
+   "speaker": "NARRATOR",
+   "text": "\"There's a strip past Bowie.\" Then he said a phone number once, at the speed a man says his own. \"Say it back.\""
+  },
+  {
+   "scene": "ch3p024",
+   "frame": "ch3p024",
+   "speaker": "NARRATOR",
+   "text": "Dr. Mehta said it back. Thanh nodded and did not say it again, and wrote nothing down, and watched the doctor not write it down either, the two of them standing in the smell of vitamins committing a phone number the old way, like men their age memorizing a girl's address in 1985."
+  },
+  {
+   "scene": "ch3p025",
+   "frame": "ch3p025",
+   "speaker": "NARRATOR",
+   "text": "\"He prices in gold,\" Thanh said. \"If you bargain, he subtracts. And he'll want a place, not a country \u2014 have the place before you call.\" He went down the second aisle and came back with a small box and put it in the doctor's hand. \"For the girl. Half a tablet, twenty minutes before. It's a small airplane.\""
+  },
+  {
+   "scene": "ch3p026",
+   "frame": "ch3p026",
+   "speaker": "NARRATOR",
+   "text": "Dr. Mehta looked at the box of motion-sickness tablets a long moment, his thumb moving once across it."
+  },
+  {
+   "scene": "ch3p027",
+   "frame": "ch3p027",
+   "speaker": "NARRATOR",
+   "text": "\"I would want to pay something,\" he said. \"For the introduction.\""
+  },
+  {
+   "scene": "ch3p028",
+   "frame": "ch3p028",
+   "speaker": "NARRATOR",
+   "text": "\"You'd pay him. There's nothing to pay me for. I wasn't in today, and I didn't do anything, and you'll remember that I didn't.\" Thanh said it kindly, the way he said take with food. \"Toronto?\""
+  },
+  {
+   "scene": "ch3p029",
+   "frame": "ch3p029",
+   "speaker": "NARRATOR",
+   "text": "\"My sister.\" \"Eat at her place a year before you open anything.\" He unlocked the door. \"Doctor. The girl takes the dog, or the girl learns the word for what happens to it. There's no third thing in between, whatever Priya is hoping.\""
+  },
+  {
+   "scene": "ch3p030",
+   "frame": "ch3p030",
+   "speaker": "NARRATOR",
+   "text": "The bell went, and the doctor was a customer leaving, and the bicycle wobbled off the curb with its captain riding high, and Thanh turned the sign back and stood at his counter with the lights buzzing."
+  },
+  {
+   "scene": "ch3p031",
+   "frame": "ch3p031",
+   "speaker": "NARRATOR",
+   "text": "At dinner Hoa put Binh on speaker while she served, and the boy's voice came out bright and far and resident-tired, from a city where the word pending was something you did to a file. Eight weeks, he said, maybe ten now; the forms kept changing but the attending knew the new forms."
+  },
+  {
+   "scene": "ch3p032",
+   "frame": "ch3p032",
+   "speaker": "NARRATOR",
+   "text": "Thanh ate, and said the food was good, and it was. Across the table his wife watched him the way she'd watched him for thirty years, adding up what he wasn't saying, and the pickup wall of stapled white bags stood in his mind, the stapled bags waiting patient with every name in his own square hand, and forty years ago somebody had said a number out loud once in a room in Songkhla and his whole family had happened because of it."
+  },
+  {
+   "scene": "ch3p033",
+   "frame": "ch3p033",
+   "speaker": "NARRATOR",
+   "text": "\"Ten weeks is fast,\" he said to the phone. \"That's good news, Binh. Tell me again after the fifteenth.\""
+  },
+  {
+   "scene": "ch3p034",
+   "frame": "ch3p034",
+   "speaker": "NARRATOR",
+   "text": "[quietly] Hoa set the serving spoon down with no sound at all."
+  }
+ ]
+}

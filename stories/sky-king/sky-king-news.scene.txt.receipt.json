@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-news",
+  "slug": "INT. BIRDY AND MAYA'S HOME - NIGHT",
+  "seedHash": "b0a6d3fac2c1c78f8386a68271c97cce295d3a0c551e50da2a71030b9159e2bb",
+  "sceneHash": "396ba13ced2ccf4a032b94e191b2bd220af6879a3d6af489fabfc172c5ce2053",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

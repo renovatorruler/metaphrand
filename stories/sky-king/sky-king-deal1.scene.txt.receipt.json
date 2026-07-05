@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-deal1",
+  "slug": "INT. SEATTLE APPROACH - RADAR ROOM / Q400 FLIGHT DECK - DUSK (INTERCUT)",
+  "seedHash": "65a6e123d7f488546d175be587676396f01ebd9af0ab42113a897b6aff0b39b3",
+  "sceneHash": "98c04bb9e1a1a98717e66b2c4fbba02dfce2436f6270593ac3e73f09e9493be7",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

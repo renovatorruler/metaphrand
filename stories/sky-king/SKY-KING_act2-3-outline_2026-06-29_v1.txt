@@ -1,0 +1,132 @@
+SKY KING — ACT 2 & ACT 3 OUTLINE
+(and how the clock / light is handled)
+29 June 2026 — v1
+
+
+================================================================
+THE CLOCK  (the timing thing you flagged)
+================================================================
+
+The whole flight is ONE continuous stretch — about an hour, late
+evening. The light runs in a single unbroken arc and never resets:
+
+    golden hour  ->  SUNSET (the roll, the peak)  ->  dusk  ->  lit night
+
+Two rules from that:
+
+  • The sun sets ONCE. After the roll, the gold is gone — from there
+    it's dusk, then night. No later scene goes back to golden light.
+
+  • It never "just goes dark." Night here is LIT: the city below is a
+    field of lights, the runway lights ahead, the instrument glow, the
+    last blue in the sky. We always keep seeing.
+
+(Act 1 — his ground life — happens earlier, over ordinary days. The
+continuous clock starts only at takeoff, the end of Act 1.)
+
+Status key:  [WRITTEN] = done at the new bar   [DRAFT] = exists, needs a
+pass   [TO WRITE] = not yet.
+
+
+================================================================
+ACT 2 — THE SKY  (the hour aloft)
+================================================================
+
+10. FIRST CONTACT                          LIGHT: golden hour (sun up, lowering)
+    Bishop refuses to bark — talks to the man, not the threat. Birdy is
+    braced for the regulation speech, ready to disappear; the kindness
+    undoes him and he answers honestly for the first time.
+    Carries: "a kind of a bad thing — a selfish thing, ha"; he's a ground
+    service agent; what flying he knows is from video games / the home
+    sim; he picked an empty plane (protecting everyone — buried).
+    [TO WRITE]
+
+11. RAINIER                                LIGHT: late golden hour (pink on the peak, Olympics going dark)
+    The dreamy confession. A lot of people will be disappointed; it's
+    probably jail for life; the flying job he reaches for and knows he
+    won't get; "a couple screws loose." Bishop stays — no argument, no pity.
+    [WRITTEN — the keystone you have]
+
+12. THE PORCH LIGHT                        LIGHT: SUNSET (sky at its deepest color)
+    Bishop breaks the rule and keys MAYA in. The disappointment confession
+    goes personal and devastating — to his wife. She doesn't argue him
+    down; she leaves him something instead: "I left the porch light on.
+    I'm going to leave it on." Jets on his wings now; fuel low (clock).
+    [TO WRITE]
+
+13. THE ROLL  (the sky peak / M83)         LIGHT: LAST LIGHT, sun dipping -> dusk
+    He asks if it can do a barrel roll. Then he does it. The involuntary
+    joy cracks the despair (he laughs, and it turns into crying). "I was
+    kind of hoping that was gonna be it... but maybe I could." The turn:
+    for the first time he wants to live. This is the visual peak — the
+    last blaze floods the cockpit; as he levels, the sun is gone.
+    [DRAFT — good version exists; add the barrel-roll question + the
+     "hoped that was gonna be it" line; set light to last-blaze]
+
+13A. THE WATCHERS                          LIGHT: dusk (plane a silhouette on the afterglow)
+    Almost wordless. The world watching in disbelief — the two fighter
+    pilots, the frozen tower crew, a kid filming from a rooftop, cars
+    pulled over on the highway, a newsroom. The invisible man, seen by
+    everyone. (We never say that; we just watch them watch.)
+    [TO WRITE]
+
+14. THE HONEST DEAL  (the DA)              LIGHT: deep dusk (gold gone orange, city coming on)
+    Reyes. He refuses the clean lie; she levels with him -> suspended
+    sentence, not a cell. The mercy he never expected — the floor to land on.
+    [WRITTEN — you approved it]
+
+15. DOORWAY 2 — THE DECISION TO LAND       LIGHT: early night (city glittering, field lights far ahead)
+    Wanting to live now, terrified he can't land it (he never learned).
+    Bishop talks him toward trying; a real future flickers (the world that
+    watched — kept from being too neat). Act 2 break: a man with no
+    training decides to TRY.
+    [TO WRITE]
+
+
+================================================================
+ACT 3 — COMING HOME   (provisional — we lock this after you react to Act 2)
+================================================================
+
+You said Act 3 might not be all about the landing. Here's a sensible
+default; three knobs below to change it.
+
+16. THE DESCENT                            LIGHT: lit night (city below, runway ahead, instrument glow)
+    The hardest thing he's ever done — not the dying, the living.
+    Untrained, terrified, talked down inch by inch by Bishop and Maya,
+    the whole city looking up.
+    [TO WRITE]
+
+17. TOUCHDOWN                              LIGHT: lit night (runway lights)
+    He lands it. Rough, and alive.
+    [TO WRITE]
+
+18. AFTERMATH                              LIGHT: DAY (deliberate break — the long night is over)
+    The honest reckoning: the arrest, the court. Reyes keeps her word;
+    the suspended sentence holds; the cage is avoided. Voss's offer becomes
+    real — the world that watched gives the invisible man a future.
+    [TO WRITE]
+
+19. CODA                                   LIGHT: day into evening (the porch light on)
+    His gentle voice, recorded that night, gets passed around — a living
+    folk hero this time, not a tragic one. He and Maya begin, slowly, to
+    actually talk. He has somewhere to be. The ordinary life he almost
+    left. Close on the porch light.
+    [TO WRITE]
+
+
+--- Act 3 knobs (since you weren't sure) ---
+  A) Landing-heavy: 16 + 17 get the real screen time (the white-knuckle
+     descent), aftermath/coda kept short.
+  B) Aftermath-heavy: compress the landing to ONE taut scene, spend Act 3
+     on him, Maya, and the world's reaction (the folk-hero turn).
+  C) Tightest: land at deep dusk, hard cut to the coda — keeps the whole
+     film short, the way you want it.
+
+
+================================================================
+WHERE THINGS STAND
+================================================================
+Written at the new bar:  11 (Rainier), 14 (the DA deal).
+Good draft to tune:      13 (the roll).
+To write next (Act 2):   10, 12, 13A, 15  — then you read the whole act,
+then we lock Act 3.

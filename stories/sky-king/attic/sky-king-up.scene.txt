@@ -1,0 +1,43 @@
+SKY KING — INT. APPROACH CONTROL / Q400 FLIGHT DECK - NIGHT
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-up.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Green radar returns crawl across a dark scope, one target blinking with a code that doesn't belong to anything in the air.
+ACTION: TOWER leans in, one hand on his headset, eyes on the blip climbing off the field.
+TOWER: Seattle approach, aircraft squawking one-two-hundred northwest of the field, say your call sign.
+ACTION: There's nothing back but the hiss of the open frequency, and the target keeps climbing.
+TOWER: Aircraft northwest of the field on a discrete beacon code, if you hear me, ident.
+ACTION: The blip holds its heading and doesn't ident.
+TOWER: That's a ramp code. That's a pushback code, that's not — somebody's got a live airplane on a tug code.
+ACTION: He thumbs a different frequency.
+TOWER: Aircraft climbing out of the field area, this is Seattle approach on guard, do you read.
+ACTION: A long hiss runs out, and then a soft voice comes back, close and easy.
+BIRDY (RADIO): Yeah. Yeah, hi. I got you.
+ACTION: TOWER goes still for a second, then keys up.
+TOWER: Aircraft on guard, say your call sign and your intentions.
+BIRDY (RADIO): I don't — I'm sorry, I don't really have a call sign or anything. It's just me.
+TOWER: Understand you're the only one on board. What's your altitude, sir.
+BIRDY (RADIO): Hang on. Let me — it says about, uh, forty-four hundred. Going up a little. Sorry, I'm still figuring the numbers out.
+ACTION: TOWER looks over his shoulder toward the supervisor's station, then back to the scope.
+TOWER: Okay. That's okay. You're doing fine. Are you a rated pilot, sir.
+BIRDY (RADIO): No. No, I work the ramp. I just, I load the bags and stuff. I've watched it a bunch, though.
+ACTION: TOWER's hand comes off the desk, then goes back down.
+TOWER: All right. I need you to keep your wings level for me and don't touch anything you don't have to. Can you do that.
+BIRDY (RADIO): Yeah, I can do that. She flies real nice, actually. I didn't want to cause anybody a headache down there.
+TOWER: You're not causing me a headache. I just want to help you out. How much fuel you got.
+BIRDY (RADIO): I'm not sure. It was fueled up for the morning, so, plenty, I think. I didn't take much.
+BIRDY (RADIO): I'm sorry about all this. I know it's a lot of trouble. I really didn't mean to bother everybody.
+ACTION: TOWER doesn't answer right away, and on the scope the target keeps climbing, slow and steady.
+TOWER: You're not in any trouble. I just want to get you back on the ground safe, okay. Stay with me.
+BIRDY (RADIO): Okay. Thanks. You've been real nice about it.
+ACTION: At the supervisor's desk a phone is already up against an ear.
+SUPERVISOR: Yeah, this is the watch. I got an unauthorized aircraft airborne out of the field, single occupant, no rating, squawking a ground code.
+SUPERVISOR: Negative, no threat stated. Can't confirm intentions. I'm classifying it as a possible.
+ACTION: He listens, nods once.
+SUPERVISOR: Copy. Recommend you launch the alert birds.
+ACTION: He hangs up and turns back to the room without looking at anyone.
+SUPERVISOR: They're putting fighters up.
+ACTION: TOWER glances at him, then keys the mic again, voice level.
+TOWER: You still with me, sir.
+BIRDY (RADIO): Still here. It's real pretty up here, all the lights and everything.
+ACTION: The target keeps blinking across the dark scope as it climbs, and there's no one else up there with it.

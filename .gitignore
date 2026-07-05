@@ -12,6 +12,25 @@ venv/
 .ruff_cache/
 *.log
 
-# Generated audio artifacts (regenerate from the seed)
-*.wav
+# local secrets / API keys
+.env
+
+# per-render caches (ephemeral; regenerated every render)
+*_rs/
+.DS_Store
+
+# generated media — NOT versioned (regenerable; deliverables live on YouTube;
+# source of truth is the scene text + the studio engine)
+*.png
+*.jpg
+*.jpeg
+*.webp
 *.mp3
+*.mp4
+*.m4a
+*.wav
+*.glb
+
+# ffmpeg 2-pass stats (junk)
+*.mbtree
+ffmpeg2pass*.log*

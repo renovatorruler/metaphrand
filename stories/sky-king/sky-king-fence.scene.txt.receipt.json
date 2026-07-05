@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-fence",
+  "slug": "EXT. SEA-TAC PERIMETER - CCTV - GOLDEN HOUR",
+  "seedHash": "e47755f4bd11e4c34091b92974a23aa7f1ad76c3bebbcbc8a17891d882f29e8f",
+  "sceneHash": "c72f37bc7966cc33fa9334984d130ab290aa2be0a34a934e6387edd8b0f10259",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

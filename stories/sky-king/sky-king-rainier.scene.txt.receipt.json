@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-rainier",
+  "slug": "INT. Q400 FLIGHT DECK / SEATTLE APPROACH - RADAR ROOM - NIGHT (INTERCUT)",
+  "seedHash": "d9060cf23cd80f75c4c52589fe1ff72e068ac9de66b463920b4673252e924203",
+  "sceneHash": "d9a73ab2062533fe70b3e139fe056c4b7239a32bfbeeb68d5eee2994f1313d1f",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

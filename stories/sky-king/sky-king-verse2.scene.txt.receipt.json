@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-verse2",
+  "slug": "INT. COMMAND POST - NIGHT / EXT. SEA-TAC RAMP OFFICE - DAY (FLASHBACK)",
+  "seedHash": "7af97df95ea73a819fc6fd13162277a214c8ebc69c92a5cda65493b003c1e6c0",
+  "sceneHash": "425f7433a4bfac4680e818ccb6f871c0535f90e41803dde78d8bc4d286ffc61d",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

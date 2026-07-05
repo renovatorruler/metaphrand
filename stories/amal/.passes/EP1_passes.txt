@@ -1,0 +1,58 @@
+CRAFT PASSES — 10/13 passed
+
+[PASS] drama              Both scenes are real fights with a concrete want, live opposition, and a clean turn on a loss.
+[PASS] human-reaction     The father's grief reads true as shock-denial-and-economic-terror rather than coldness, and the mother and inspector are each human within their roles.
+[PASS] voice              Four speakers, four unmistakable mouths — the procedural cop, the over-explaining desperate father, the keening mother, the gatekeeping aunt — all class-true with no one over-talking their station.
+[FAIL] dialogue-realism   Mostly in the right register—evasive, physical, inarticulate—but a handful of lines are too well-made and resolve a beat too cleanly to read as spoken.
+        · Sc1, Bherulal's opening speech lands his whole strategy in one tidy, fully-formed proposal — 'आप काग़ज़ बना दो, मैं दस्तख़त कर दूँगा' — which is too articulate and pre-packaged for a man who supposedly can't look at his dead daughter; real cover-up instinct would surface muddier and more sideways, not as a clean closing offer.
+        · Sc1, 'परसों लड़के वाले देखने आने वाले थे... बात फैल गई तो...' telegraphs the honor/engagement motive on cue right after Ratan's question; it reads as the writer planting the theme rather than a father volunteering it. The information arrives too conveniently and too early.
+        · Sc1, Ratan's 'नियम है' is an iconic-cop button line — clean, final, and quotable in a way spoken authority rarely is. Same with the near-perfect weighting of all his clipped lines; he never fumbles, repeats, or talks past anyone, so he plays as a written archetype rather than a tired man.
+        · Sc2, Sugna's 'ये मेरी बच्ची का सामान है' explains aloud what the image already shows (her clutching the clothes); it's on-the-nose narration of the visible. A real protest here would be more broken and less informative — closer to the wordless 'मेरी लाडो' that already works.
+        · Sc1, Bherulal's 'साहब, आप जानते हो। मेरे पास और कुछ...' gestures at inarticulacy but the trail-off is positioned exactly where a writer wants the gut-punch; the rhythm of his desperation is a little too shapely/escalating to feel like genuine floundering.
+[FAIL] backstory          (pass errored: claude -p failed (1): )
+[PASS] heart              Grief is carried entirely by behavior—the father who won't look at the body, the gum that can't stop, the worn Ratlam handbill—and never once announced.
+[PASS] layers             The surface stays literal (a death, a harvest, a search) while the real weighing — gum against daughter, the rule against the family's ruin, her hidden money against the engagement — lives entirely underneath and is never named.
+[PASS] show-not-tell      Grief, deference, shame, and desperation are all carried by behavior and image — not a single told feeling or trait in the bunch.
+[PASS] shrink-wrap        The world is felt in the working detail—scored pods weeping gum overnight, the curved scraping iron racing the dew, गोंद रुकती नी है, the Ratlam coaching handbill soft at the folds—not gestured at.
+[PASS] concreteness       The prose is physical and restrained throughout, with no decorative abstraction.
+[FAIL] clear-pane         Strong clear-pane work overall — the real intrigue (the hidden money and Ratlam handbill, the father working the field, his refusal to look) lives in events and intent — but a reused not-looking pronoun and a recurring 'looks…a moment' beat lean on syntax for weight.
+        · 'He does not look at the father.' — the bare 'He' reuses the exact not-looking construction earlier pinned to Bherulal ('He still has not looked at her'), so the subject momentarily reads as the father before resolving to Ratan; name Ratan so the parse stumble doesn't supply false weight.
+        · The 'Ratan looks at the handbill a moment, then…' / 'looks at the field a moment, then…' / 'looks at him' cadence recurs as a beat-marker; 'a moment' repeatedly implies an undisclosed inner event in the pause, manufacturing significance through the syntactic frame rather than through what he does next — vary or cut so the gaps aren't doing the work the action should.
+[PASS] consistency        Clean — grief reads as grief, the hidden money/flight surfaces as allowed, and nothing fingers Sugna as the killer, names opium as the weapon, or links her to the train flashback or Ratan's buried wound.
+[PASS] editorial          clean (craftlint floor); +36 ollama advisory
+        · (advisory) L13: Staccato rhythm: 'cold enough to show breath' arranged for effect
+        · (advisory) L14: Pathos via end-loaded detail: 'have wept their gum overnight'
+        · (advisory) L17: End-loaded detail: 'lies a girl on her side in the dirt:'
+        · (advisory) L18: Balanced antithesis: 'one slipper on and one in the furrow'
+        · (advisory) L19: Composed pathos: 'her lips going राम राम... her iron not stopping'
+        · (advisory) L22: End-loaded detail: 'heavy, a sweater under his uniform'
+        · (advisory) L26: End-loaded detail: 'stops a few rows short of the body'
+        · (advisory) L28: Two-word punch: 'पता नी किस काम से' + staccato 'बस।'
+        · (advisory) L30: Punch sentence: 'He still has not looked at her.'
+        · (advisory) L32: Staccato rhythm: 'पहले देखी किसने?'
+        · (advisory) L34: End-loaded detail: 'मुँह अँधेरे आए... पड़ी थी।'
+        · (advisory) L36: End-loaded detail: 'slow, a hand on his knee'
+        · (advisory) L39: Punch sentence: 'सगाई हो गई थी इसकी?'
+        · (advisory) L41: End-loaded detail: 'बात फैल गई तो...'
+        · (advisory) L43: Staccato rhythm: 'Ratan stands and looks at the scrapers'
+        · (advisory) L45: Punch sentence: 'काम चालू रखा है।'
+        · (advisory) L47: End-loaded detail: 'गोंद रुकती नी है साहब।'
+        · (advisory) L53: End-loaded detail: 'Bherulal comes after Ratan.'
+        · (advisory) L56: End-loaded detail: 'माल नी उतरा तो...'
+        · (advisory) L58: Punch sentence: 'थाने से दो आदमी और बुला।'
+        · (advisory) L60: Staccato run: 'नी, चार बुला।'
+        · (advisory) L62: End-loaded detail: 'गिर के मरी है। उसे और मत... बस... रहने दो उसे।'
+        · (advisory) L64: Punch sentence: 'He does not look at the father.'
+        · (advisory) L66: Punch sentence: 'नियम है।'
+        · (advisory) L68: End-loaded detail: 'but Ratan has crouched back down beside the girl'
+        · (advisory) L79: Balanced antithesis: 'thin light... smells of the gum'
+        · (advisory) L80: End-loaded detail: 'guidebooks tied with string for the boards three weeks off'
+        · (advisory) L83: Composed pathos: 'Sugna sits... shoulders shaking... fold pressed to her mouth'
+        · (advisory) L86: Punch sentence: 'क्या कर रहे हो आप... ये मेरी बच्ची का सामान है।'
+        · (advisory) L94: End-loaded detail: 'a smaller cloth knotted tight'
+        · (advisory) L95: End-loaded detail: 'soft at the folds from handling'
+        · (advisory) L98: End-loaded detail: 'Sugna has got to her feet and reached him'
+        · (advisory) L100: Composed pathos: 'मेरी लाडो... मेरी बच्ची...'
+        · (advisory) L103: End-loaded detail: 'the aunt comes and takes Sugna by the arm'
+        · (advisory) L104: End-loaded detail: 'Sugna folds against her and lets herself be held'
+        · (advisory) L106: End-loaded detail: 'He goes, out through the keening.'

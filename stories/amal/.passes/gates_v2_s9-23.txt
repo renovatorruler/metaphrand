@@ -1,0 +1,259 @@
+=== SCENE CRAFT (Mercurio) ===
+scene craft — S9 SCENE 9 — THE PYRE: 3 core FAIL, 2 flag(s)
+  ✓ single_action     One focused action, one time & place (unity)
+  ✗ plot_change       The situation ends shifted from how it opened  → No external situation changes; no forward movement in story.
+  ✗ character_change  A character's inner state shifts, caused by the scene's action  → Ratan’s inner state remains static—no shift from contemplation to realization or
+  ✗ reversal          A set-up surprise, inevitable in hindsight & rooted in character  → No surprise or directional shift; only melancholic reflection with no pivot.
+  • beats             Distinct, escalating beats — not one note repeated (Clurman)  → Beats are repetitive lamentation; no escalation or variation in tension.
+  • escalation        Stakes/accountability rise; hard for the protagonist  → No rising stakes or accountability; passive observation with no pressure mountin
+
+scene craft — S10 SCENE 10 — WHAT YOU WERE: 2 core FAIL, 2 flag(s)
+  ✓ single_action     One focused action, one time & place (unity)
+  ✓ plot_change       The situation ends shifted from how it opened
+  ✗ character_change  A character's inner state shifts, caused by the scene's action  → Ratan remains passive and unchanged internally; no inner shift shown despite Gov
+  ✗ reversal          A set-up surprise, inevitable in hindsight & rooted in character  → No surprise or directional shift; Ratan's choice aligns with established silence
+  • beats             Distinct, escalating beats — not one note repeated (Clurman)  → Beats are static: silence,回忆, Govind speaks, Ratan says little—no escalation or 
+  • escalation        Stakes/accountability rise; hard for the protagonist  → No rising stakes or accountability; emotional pressure remains low, no hard choi
+
+scene craft — S11 SCENE 11 — THE FIELD: 1 core FAIL, 2 flag(s)
+  ✓ single_action     One focused action, one time & place (unity)
+  ✗ plot_change       The situation ends shifted from how it opened  → No external situation changes; no new development or direction shift.
+  ✓ character_change  A character's inner state shifts, caused by the scene's action
+  ✓ reversal          A set-up surprise, inevitable in hindsight & rooted in character
+  • beats             Distinct, escalating beats — not one note repeated (Clurman)  → Only two beats: observation, then villager speaks and Ratan stays silent — no es
+  • escalation        Stakes/accountability rise; hard for the protagonist  → No rising stakes or pressure; tension is static, not mounting.
+
+scene craft — S12 SCENE 12 — THE PEN, UNCAPPED: 1 core FAIL, 0 flag(s)
+  ✓ single_action     One focused action, one time & place (unity)
+  ✓ plot_change       The situation ends shifted from how it opened
+  ✗ character_change  A character's inner state shifts, caused by the scene's action  → Ratan’s inner state unchanged; no visible shift in motive, doubt, or resolve.
+  ✓ reversal          A set-up surprise, inevitable in hindsight & rooted in character
+  ✓ beats             Distinct, escalating beats — not one note repeated (Clurman)
+  ✓ escalation        Stakes/accountability rise; hard for the protagonist
+
+scene craft — S13 SCENE 13 — A CLOSED FILE: 4 core FAIL, 2 flag(s)
+  ✗ single_action     One focused action, one time & place (unity)  → Two actions: Mishra's conversation with Ratan, then him picking up the phone. No
+  ✗ plot_change       The situation ends shifted from how it opened  → No external situation changes: file remains open, Mishra takes no decisive actio
+  ✗ character_change  A character's inner state shifts, caused by the scene's action  → Mishra’s inner state is static—he’s ‘made his peace’ and remains unchanged by th
+  ✗ reversal          A set-up surprise, inevitable in hindsight & rooted in character  → No directional shift; Mishra’s passive response is predictable, not a surprise o
+  • beats             Distinct, escalating beats — not one note repeated (Clurman)  → Only one beat: warning and dismissal. No escalation or variation in tension.
+  • escalation        Stakes/accountability rise; hard for the protagonist  → No rising stakes or accountability; Mishra faces no pressure, makes no choice, i
+
+scene craft — S14 SCENE 14 — THE GOD WHO DRINKS: 1 core FAIL, 2 flag(s)
+  ✓ single_action     One focused action, one time & place (unity)
+  ✗ plot_change       The situation ends shifted from how it opened  → No external situation changes; ritual proceeds unchanged.
+  ✓ character_change  A character's inner state shifts, caused by the scene's action
+  ✓ reversal          A set-up surprise, inevitable in hindsight & rooted in character
+  • beats             Distinct, escalating beats — not one note repeated (Clurman)  → Only one beat: pouring liquor; no escalation or variation in action.
+  • escalation        Stakes/accountability rise; hard for the protagonist  → No rising stakes or pressure; ritual is static, no difficulty for Ratan.
+
+scene craft — S15 SCENE 15 — STANDING, NOT AGE: PASS — all 6 criteria met.
+
+scene craft — S16 SCENE 16 — MANJU: PASS — all 6 criteria met.
+
+scene craft — S17 SCENE 17 — CLEAN: 1 core FAIL, 2 flag(s)
+  ✓ single_action     One focused action, one time & place (unity)
+  ✗ plot_change       The situation ends shifted from how it opened  → No external situation changes; only internal reaction to existing report.
+  ✓ character_change  A character's inner state shifts, caused by the scene's action
+  ✓ reversal          A set-up surprise, inevitable in hindsight & rooted in character
+  • beats             Distinct, escalating beats — not one note repeated (Clurman)  → Only one beat: receipt and internal reaction; no escalation or distinct phases.
+  • escalation        Stakes/accountability rise; hard for the protagonist  → No rising stakes or accountability; tension is static, not mounting.
+
+scene craft — S18 SCENE 18 — GO HOME, SINGH SAHIB: 1 core FAIL, 1 flag(s)
+  ✓ single_action     One focused action, one time & place (unity)
+  ✓ plot_change       The situation ends shifted from how it opened
+  ✓ character_change  A character's inner state shifts, caused by the scene's action
+  ✗ reversal          A set-up surprise, inevitable in hindsight & rooted in character  → No reversal: Bhanwar’s quiet kindness isn’t unexpected or rooted in Ratan’s frus
+  ✓ beats             Distinct, escalating beats — not one note repeated (Clurman)
+  • escalation        Stakes/accountability rise; hard for the protagonist  → No rising stakes or accountability: confrontation is mild; no pressure mounts on
+
+scene craft — S19 SCENE 19 — OFF THE BOOKS: 3 core FAIL, 2 flag(s)
+  ✓ single_action     One focused action, one time & place (unity)
+  ✗ plot_change       The situation ends shifted from how it opened  → No external situation changes; he still seeks but hasn’t moved the case forward 
+  ✗ character_change  A character's inner state shifts, caused by the scene's action  → No inner shift shown; he repeats old behavior without emotional or moral consequ
+  ✗ reversal          A set-up surprise, inevitable in hindsight & rooted in character  → No surprise or directional shift; straightforward pursuit with no friction or ex
+  • beats             Distinct, escalating beats — not one note repeated (Clurman)  → Only one beat: walking and hearing a name; no escalation or distinct steps.
+  • escalation        Stakes/accountability rise; hard for the protagonist  → No rising stakes or accountability; action is passive, low-risk, and easy.
+
+scene craft — S20 SCENE 20 — THE HOUSE: 4 core FAIL, 2 flag(s)
+  ✗ single_action     One focused action, one time & place (unity)  → Fuses two actions: approaching door + confronting Sugna without clear single dra
+  ✗ plot_change       The situation ends shifted from how it opened  → No external situation changes; Ratan remains outside, no resolution or escalatio
+  ✗ character_change  A character's inner state shifts, caused by the scene's action  → Ratan experiences only passive recognition, no inner shift caused by action.
+  ✗ reversal          A set-up surprise, inevitable in hindsight & rooted in character  → No surprise or directional shift; tension builds but no pivot or consequence.
+  • beats             Distinct, escalating beats — not one note repeated (Clurman)  → Single emotional beat (shock/stagnation); no escalation or variation in beats.
+  • escalation        Stakes/accountability rise; hard for the protagonist  → No rising stakes or accountability; confrontation stalls without pressure mounti
+
+scene craft — S21 SCENE 21 — THE BIKE THAT SLIPPED: 1 core FAIL, 1 flag(s)
+  ✓ single_action     One focused action, one time & place (unity)
+  ✓ plot_change       The situation ends shifted from how it opened
+  ✗ character_change  A character's inner state shifts, caused by the scene's action  → Ratan remains passive and silent; no inner shift shown despite pressure.
+  ✓ reversal          A set-up surprise, inevitable in hindsight & rooted in character
+  ✓ beats             Distinct, escalating beats — not one note repeated (Clurman)
+  • escalation        Stakes/accountability rise; hard for the protagonist  → No rising stakes or accountability; pressure is moral, not tangible or urgent.
+
+scene craft — S22 SCENE 22 — THE PEN, ALL NIGHT: 2 core FAIL, 2 flag(s)
+  ✓ single_action     One focused action, one time & place (unity)
+  ✗ plot_change       The situation ends shifted from how it opened  → No external situation changes; decision remains unmade (pen not picked until nea
+  ✓ character_change  A character's inner state shifts, caused by the scene's action
+  ✗ reversal          A set-up surprise, inevitable in hindsight & rooted in character  → No surprise or directional shift; he hesitates then acts—no set-up for inevitabl
+  • beats             Distinct, escalating beats — not one note repeated (Clurman)  → Beats lack escalation: staring, reflection, wife’s glance, then pen picked—no di
+  • escalation        Stakes/accountability rise; hard for the protagonist  → No rising stakes or accountability; tension is static, no pressure mounting towa
+
+scene craft — S23 SCENE 23 — HIS OWN NAME: 1 core FAIL, 0 flag(s)
+  ✓ single_action     One focused action, one time & place (unity)
+  ✓ plot_change       The situation ends shifted from how it opened
+  ✓ character_change  A character's inner state shifts, caused by the scene's action
+  ✗ reversal          A set-up surprise, inevitable in hindsight & rooted in character  → No surprise or directional shift—action aligns with prior tension, lacks setup f
+  ✓ beats             Distinct, escalating beats — not one note repeated (Clurman)
+  ✓ escalation        Stakes/accountability rise; hard for the protagonist
+
+=== ONE LAW (naturalness) ===
+56 lines arranged for effect (The One Law):
+
+  L3: The pyre has caught. Not many have come — a handful of old men, a son wi
+        -> Two-word punch sentence: 'Not many have come'
+  L4: singer works through a Nirgun bhajan, the kind sung where there is no id
+        -> End-loaded detail: 'the kind sung where there is no idol and no comfort in the w
+  L8: चार जने थे हम लोग, याद है? अब तू और मैं बचे।
+        -> Balanced antithesis: 'चार जने थे... अब तू और मैं बचे।'
+  L12: कोई नहीं आया इसके लिए। रिटायर क्या हुआ, सब भूल गए। तीन महीने पहले वर्दी 
+        -> Staccato facts recited as beats: 'रिटायर क्या हुआ... तीन महीने पहले... और आज इतन
+  L14: Ratan watches the smoke go up. Two years sits in him like a stone — the 
+        -> End-loaded detail: 'the same fire, the same thin crowd.'
+  L16: अपने को कौन याद करेगा, रतन? दो-चार बरस में अपनी भी यही राख है, और नाम ले
+        -> Composed pathos / quotable epigram: 'अपने को कौन याद करेगा... और नाम लेने वाला क
+  L24: The others have gone. The pyre is down to embers. Govind crouches and fe
+        -> Two-word punch sentence: 'stands as if he means to leave and does not.'
+  L27: याद है चंबल? बीहड़ में जब तू अकेला घुस गया था। पूरा थाना बाहर खड़ा डर रह
+        -> End-loaded detail: 'पूरा थाना बाहर खड़ा डर रहा था, और तू अंदर — और डाकुओं को बाह
+  L31: तू अलग था, रतन। हम सब में, तेरे में कुछ और था। आदमी कहाँ बदलता है — बस द
+        -> Balanced antithesis: 'आदमी कहाँ बदलता है — बस दब जाता है, ऊपर से।'
+  L33: Ratan says nothing. He looks at his hands again, the way a man looks at 
+        -> End-loaded detail: 'the way a man looks at a tool he has not picked up in years.
+  L41: The place has been walked over by everyone who came to look and settle i
+        -> End-loaded detail: 'it comes up to his knee. He looks at it for a long time... a
+  L44: the well, and his face begins to do a thing it has not done in twenty-fi
+        -> End-loaded detail: 'then at the dry earth, then at the distance to the well, and
+  L48: गिर गई थी, साहब। रात में। बस।
+        -> Staccato facts as beats: 'गिर गई थी, साहब। रात में। बस।'
+  L60: साहब, वो तो बंद हो गया था। आपने ही साइन किया था।
+        -> Two-word punch sentence: 'वो तो बंद हो गया था।'
+  L64: ...पोस्टमॉर्टम? बड़े घर का मामला है, साहब। भेरूलाल का।
+        -> End-loaded detail: 'बड़े घर का मामला है, साहब। भेरूलाल का।'
+  L66: The name lands on nothing. Ratan does not know it. He takes a requisitio
+        -> Two-word punch sentence: 'The name lands on nothing.'
+  L78: MISHRA sits behind a clean desk, unbothered, a man who made his peace ye
+        -> Balanced antithesis: 'मिश्रा sits behind a clean desk, unbothered, a man who mad
+  L80: पच्चीस साल हो गए तुम्हें, रतन। और अब एक गिरी हुई लड़की पे पोस्टमॉर्टम। क
+        -> End-loaded detail: 'और अब एक गिरी हुई लड़की पे पोस्टमॉर्टम। क्यों?'
+  L84: फ़ाइल बंद थी। बंद रहने दो। दो साल में पेंशन है, घर है, सब ठीक है। इस सब 
+        -> End-loaded detail: 'इस सब में क्या रखा है — एक लड़की, बड़े घर का मामला। रहने दो।
+  L94: A black stone face, smeared and garlanded. The PUJARI takes a bottle, ti
+        -> End-loaded detail: 'the god's mouth, and the level in the dish goes down.'
+  L97: काल भैरव हैं। अवंती के कोतवाल। इन पे कोई चढ़ावा नहीं चलता, कोई सिफ़ारिश 
+        -> End-loaded detail: 'इन पे कोई चढ़ावा नहीं चलता, कोई सिफ़ारिश नहीं — बस यही, दारू
+  L100: money. Then he looks away, the way you look away from someone who has ca
+        -> End-loaded detail: 'knows you.'
+  L107: Ratan and Deva move through the lanes asking, and the lanes close as the
+        -> End-loaded detail: 'at last one old WOMAN, sweeping, talks because she is too ol
+  L112: धनराज? वो तो बूढ़ा आदमी है।
+        -> Two-word punch sentence: 'वो तो बूढ़ा आदमी है।'
+  L114: हैसियत देखी जाती है यहाँ, बेटा, उमर नहीं। कर्ज़ा था घर पे। लड़की उतार दी
+        -> End-loaded detail: 'कर्ज़ा था घर पे। लड़की उतार दी जाती कर्ज़े में।'
+  L126: लड़का अच्छा है, बेटा। राजस्थान में, घर-बार वाला। मंजू सुखी रहेगी वहाँ। स
+        -> End-loaded detail: 'सरहद पार है बस, पर पास ही तो है।'
+  L133: जैसा आप सब ठीक समझें, भैया।
+        -> End-loaded detail: 'जैसा आप सब ठीक समझें, भैया।'
+  L142: The report is already back. The same day it went out. Typed, stamped, tw
+        -> Two-word punch sentence: 'death consistent with a fall.'
+  L143: fall. Ratan holds it and does not put it down.
+        -> Staccato facts as beats: 'Typed, stamped, two lines'
+  L147: डॉक्टर साहब ने जल्दी कर दी, साहब। आपका मामला था।
+        -> End-loaded detail: 'आपका मामला था।'
+  L150: exactly what a same-day report is; he has spent twenty-five years making
+        -> End-loaded detail: 'The clean page does not close the girl's death. It opens eve
+  L157: DR. BHANWAR SINGH does not get up. A tired, clean-shaven man, a pressed 
+        -> End-loaded detail: 'A tired, clean-shaven man, a pressed shirt, a Rajput of Rata
+  L160: रिपोर्ट साफ़ है, सिंह साहब। गिरने से मौत।
+        -> Two-word punch sentence: 'रिपोर्ट साफ़ है, सिंह साहब।'
+  L162: उसी दिन कैसे साफ़ हो गई?
+        -> Two-word punch sentence: 'उसी दिन कैसे साफ़ हो गई?'
+  L164: पच्चीस साल से ऐसे ही होता है। तुमने भी तो इतने ही केस ऐसे ही भेजे हैं, र
+        -> End-loaded detail: 'तुमने भी तो इतने ही केस ऐसे ही भेजे हैं, रतन। आज अचानक क्या 
+  L168: It is the truest thing he has said in years, and it costs him to say it.
+        -> End-loaded detail: 'It is the truest thing he has said in years, and it costs hi
+  L171: घर जाओ, सिंह साहब। दो साल बचे हैं। ख़राब मत करो उन्हें।
+        -> End-loaded detail: 'ख़राब मत करो उन्हें।'
+  L180: No paper will help him now; every paper in the district lies, and he kno
+        -> End-loaded detail: 'So he does the thing he has not done in twenty-five years — 
+  L184: मैं कुछ नहीं जानता, साहब। बस... बड़ा घर है, भेरूलाल का। उधर का मामला है।
+        -> End-loaded detail: 'बस... बड़ा घर है, भेरूलाल का। उधर का मामला है।'
+  L192: A prosperous house, gold in the doorway, a house that does not lose. Rat
+        -> End-loaded detail: 'his cap in his hand, a policeman at a door.'
+  L197: His sister. Twenty-five years on the other side of a thing neither of th
+        -> End-loaded detail: 'She does not step aside to let him in.'
+  L202: Behind her, the house in mourning — and a girl's things, folded. The gir
+        -> End-loaded detail: 'The girl from the field's edge. The thin file he never opene
+  L203: file he never opened past the first line, the name on the second page he
+        -> End-loaded detail: 'his own blood, and he stamped her a fall and pocketed the da
+  L204: he stamped her a fall and pocketed the day's money and went home to his 
+        -> End-loaded detail: 'heavy and still, watching the brother-in-law he never wanted
+  L207: Ratan's mouth opens and nothing comes. Sugna does not help him.
+        -> End-loaded detail: 'Sugna does not help him.'
+  L213: Bherulal sits Ratan down the way a man sits down a problem. He is not gr
+        -> End-loaded detail: 'Bherulal sits Ratan down the way a man sits down a problem.'
+  L216: सालों इस घर का मुँह नहीं देखा तुमने, और आज — इसी वक़्त चले आए। जो हुआ सो
+        -> End-loaded detail: 'जो हुआ सो हुआ, रतन। लड़की चली गई। अब पुलिस, पोस्टमॉर्टम, बात
+  L220: इलाके में हादसे होते रहते हैं, साहब। आदमी रात को निकलता है, बाइक फिसल जा
+        -> End-loaded detail: 'होता रहता है।'
+  L229: A glass of doda water goes cold at his elbow, the poppy-husk brew he dri
+        -> End-loaded detail: 'the honourable one: he did his duty, it is official, he can 
+  L230: does not work. The requisition form is in front of him. The clean report
+        -> End-loaded detail: 'Tonight it does not work.'
+  L231: honourable one: he did his duty, it is official, he can stop now and kee
+        -> End-loaded detail: 'the honourable one: he did his duty, it is official, he can 
+  L232: breath in his body.
+        -> End-loaded detail: 'the honourable one: he did his duty, it is official, he can 
+  L234: He turns his hand over. The band where the ring was is pale in the lampl
+        -> End-loaded detail: 'KANTA stands in her doorway and sees him sitting up over a p
+  L243: district headquarters hospital, out of Bhanwar's reach and Mishra's and 
+        -> End-loaded detail: 'out of Bhanwar's reach and Mishra's and the big house's.'
+  L244: does not stamp it with the office seal. He signs it himself, his own nam
+        -> End-loaded detail: 'He signs it himself, his own name, in full.'
+  L247: Ratan caps the pen and sets it down. He has the look of a man who has fi
+        -> End-loaded detail: 'He has the look of a man who has finally decided something.'
+
+=== BLIND ATTRIBUTION (voices) ===
+blind attribution — 25 lines judged, 16 correct (64%).
+
+per character (recall — low = a blurred voice):
+  ratan       4/9   44%  most taken for: deva ×3
+  deva        1/2   50%  most taken for: leela ×1
+  sugna       1/1  100%
+  bherulal    1/1  100%
+  amma        1/1  100%
+  manju       1/1  100%
+  govind      5/5  100%
+  mishra      0/2    0%  most taken for: deva ×1
+  bhanwar     2/3   66%  most taken for: mishra ×1
+
+worst blur (re-voice these pairs):
+  deva ↔ ratan  ×3
+  mishra ↔ ratan  ×2
+  govind ↔ ratan  ×1
+  deva ↔ mishra  ×1
+  deva ↔ leela  ×1
+  bhanwar ↔ mishra  ×1
+
+sample misattributions (the lines that could be anyone):
+  true=ratan     guess=govind    बहुत साल पहले की बात है।
+  true=ratan     guess=deva      ज़िला अस्पताल नहीं — यहीं के डॉक्टर को भेज। आज
+  true=mishra    guess=deva      पच्चीस साल हो गए तुम्हें, रतन। और अब एक गिरी ह
+  true=mishra    guess=ratan     फ़ाइल बंद थी। बंद रहने दो। दो साल में पेंशन है
+  true=ratan     guess=mishra    हो गया, मिश्रा।
+  true=deva      guess=leela     मंजू, तू खुश है इस सब में?
+  true=ratan     guess=deva      उसी दिन?
+  true=ratan     guess=deva      उसी दिन कैसे साफ़ हो गई?
+  true=bhanwar   guess=mishra    पच्चीस साल से ऐसे ही होता है। तुमने भी तो इतने
+
+(not judged — speakers absent from the cards: aadmi, hand, kisan, munshi, pujari, woman)

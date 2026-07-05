@@ -259,7 +259,7 @@ class OllamaClient:
 
     def __init__(
         self,
-        model: str = "qwen3-coder-next:latest",
+        model: str = "gemma3:27b",
         host: str = "http://localhost:11434",
         *,
         temperature: float = 0.7,
@@ -510,6 +510,10 @@ def build_spine(
         next=_label("next_label", "next_state", default="the next self"),
         **attrs,
     )
+    # TODO(heart): the generator does not yet ask the model for bonds/deposits,
+    # so generated seeds opt out of the (opt-out) heart gate rather than fail
+    # it silently. Remove once the prompt grows the heart layer.
+    root.attributes.setdefault("heart", "opt-out")
 
     def _seat(branch_id: str, beats: Any) -> int:
         count = 0

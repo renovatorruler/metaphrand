@@ -1,0 +1,122 @@
+[
+ {
+  "group": 0,
+  "scene": "COLD OPEN",
+  "frame": "stories/the-heir/storyboard/01_cold-open_desk.png",
+  "path": "stories/the-heir/performance/segments/grp00_51e5b356cd75589e.mp3",
+  "duration": 59.04,
+  "gap_after_ms": 600
+ },
+ {
+  "group": 1,
+  "scene": "COLD OPEN",
+  "frame": "stories/the-heir/storyboard/02_cold-open_watch.png",
+  "path": "stories/the-heir/performance/segments/grp01_52548c8d5beb751e.mp3",
+  "duration": 27.04,
+  "gap_after_ms": 600
+ },
+ {
+  "group": 2,
+  "scene": "TITLE",
+  "frame": "stories/the-heir/storyboard/title_3yrs.png",
+  "path": "stories/the-heir/performance/segments/grp02_63dd1c2daee899aa.mp3",
+  "duration": 1.68,
+  "gap_after_ms": 600
+ },
+ {
+  "group": 3,
+  "scene": "LONDON",
+  "frame": "stories/the-heir/storyboard/03_london_osman.png",
+  "path": "stories/the-heir/performance/segments/grp03_71acd993f5c41c12.mp3",
+  "duration": 111.2,
+  "gap_after_ms": 600
+ },
+ {
+  "group": 4,
+  "scene": "LONDON",
+  "frame": "stories/the-heir/storyboard/09_london_phone.png",
+  "path": "stories/the-heir/performance/segments/grp04_3e5249389542cbbe.mp3",
+  "duration": 28.32,
+  "gap_after_ms": 600
+ },
+ {
+  "group": 5,
+  "scene": "LONDON",
+  "frame": "stories/the-heir/storyboard/04_london_flat.png",
+  "path": "stories/the-heir/performance/segments/grp05_d670bbc070ab062e.mp3",
+  "duration": 22.32,
+  "gap_after_ms": 600
+ },
+ {
+  "group": 6,
+  "scene": "FLAT",
+  "frame": "stories/the-heir/storyboard/04_london_flat.png",
+  "path": "stories/the-heir/performance/segments/grp06_318890819a1a0c73.mp3",
+  "duration": 98.0,
+  "gap_after_ms": 600
+ },
+ {
+  "group": 7,
+  "scene": "KARASH",
+  "frame": "stories/the-heir/storyboard/05_deathbed.png",
+  "path": "stories/the-heir/performance/segments/grp07_24ae1e9f299a4331.mp3",
+  "duration": 29.6,
+  "gap_after_ms": 600
+ },
+ {
+  "group": 8,
+  "scene": "ASLAN'S ROOM",
+  "frame": "stories/the-heir/storyboard/10_flatline.png",
+  "path": "stories/the-heir/performance/segments/grp08_ed25d8e21d2b6e30.mp3",
+  "duration": 32.0,
+  "gap_after_ms": 600
+ },
+ {
+  "group": 9,
+  "scene": "ASLAN'S ROOM",
+  "frame": "stories/the-heir/storyboard/05_deathbed.png",
+  "path": "stories/the-heir/performance/segments/grp09_1edc525efe230546.mp3",
+  "duration": 1.52,
+  "gap_after_ms": 600
+ },
+ {
+  "group": 10,
+  "scene": "ASLAN'S ROOM",
+  "frame": "stories/the-heir/storyboard/06_mr-president.png",
+  "path": "stories/the-heir/performance/segments/grp10_54619ec5492b91ed.mp3",
+  "duration": 11.68,
+  "gap_after_ms": 600
+ },
+ {
+  "group": 11,
+  "scene": "THE OFFICE",
+  "frame": "stories/the-heir/storyboard/07_office_screens.png",
+  "path": "stories/the-heir/performance/segments/grp11_99ca9b66e2a9da6d.mp3",
+  "duration": 28.0,
+  "gap_after_ms": 600
+ },
+ {
+  "group": 12,
+  "scene": "SECURITY HQ",
+  "frame": "stories/the-heir/storyboard/07_office_screens.png",
+  "path": "stories/the-heir/performance/segments/grp12_f964109696322ef2.mp3",
+  "duration": 63.84,
+  "gap_after_ms": 600
+ },
+ {
+  "group": 13,
+  "scene": "PALACE CORRIDOR, NIGHT",
+  "frame": "stories/the-heir/storyboard/08_rustam_corridor.png",
+  "path": "stories/the-heir/performance/segments/grp13_ce67cce5e7b5d96a.mp3",
+  "duration": 18.24,
+  "gap_after_ms": 600
+ },
+ {
+  "group": 14,
+  "scene": "CORRIDOR",
+  "frame": "stories/the-heir/storyboard/08_rustam_corridor.png",
+  "path": "stories/the-heir/performance/segments/grp14_14fde03013d67fa0.mp3",
+  "duration": 60.64,
+  "gap_after_ms": 0
+ }
+]

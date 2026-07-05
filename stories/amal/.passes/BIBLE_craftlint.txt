@@ -1,0 +1,6 @@
+2 violations (0 HIGH):
+
+  L29   [MED] rule-of-three: covers Mandsaur, Neemuch, and Ratlam in
+        -> three short parallel items — AI rhythm
+  L96   [MED] rule-of-three: CBN, about 52, and not an
+        -> three short parallel items — AI rhythm

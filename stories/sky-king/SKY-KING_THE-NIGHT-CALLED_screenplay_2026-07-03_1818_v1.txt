@@ -1,0 +1,37 @@
+SKY KING — INT. Q400 FLIGHT DECK / NIGHT SKY / RADAR ROOM / COMMAND POST - NIGHT (INTERCUT)
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-finale.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The panel light glows on Birdy's face and nothing else in the cockpit has light.
+ACTION: Banjo's fighter holds off the right wing, its position lights the only other thing in the black.
+BANJO (RADIO): Tell you what. You set her down on that field down there, I'll buy the first round. Whole night's on me.
+ACTION: Birdy watches the black water slide under the nose.
+BANJO (RADIO): I want to hear the stories. Whatever you got. I got all night for it.
+ACTION: The frequency holds open a second with nobody on it.
+BIRDY (RADIO): ...I don't have any stories.
+ACTION: Nobody answers him. Bishop sits at his scope in the radar room, the tag on the glass the brightest thing in front of him.
+ACTION: In the command post Maya stands at the rail. Kemp has the open log in front of him and his pen down on it.
+ACTION: The panel light stays on Birdy's face. He is quiet for a moment.
+BIRDY (RADIO): I'll just bring this nose down and call it a night.
+ACTION: The nose comes down. The black water comes up in the windscreen.
+ACTION: Deacon's fighter noses over off the left wing.
+DEACON (RADIO): You're through eight thousand. Level the wings and pull.
+ACTION: The angle steepens. The water fills more of the glass.
+DEACON (RADIO): Birdy. Pull. PULL.
+CONTROLLER (RADIO): Escort, you're below your floor. Come off him.
+ACTION: Both fighters stay nosed down beside the airliner, their lights falling with it into the dark.
+DEACON (RADIO): Negative.
+CONTROLLER (RADIO): Below your floor. Come off him.
+ACTION: The command net goes quiet. The controller does not key again.
+BANJO (RADIO): Birdy, you're— level her. Level—
+ACTION: Banjo's carrier cuts. His lights keep falling.
+ACTION: Bishop watches the tag ride the glass and keys his mic.
+BISHOP (RADIO): Birdy?
+ACTION: On the scope the island's black shoulder crosses the line and the frequency drops to hiss in the middle of the sound.
+ACTION: Bishop keys once into the hiss and holds the key open. He says nothing. He lets the key go.
+ACTION: The radar room is still. Bishop sits with his hand off the key and does not move.
+ACTION: In the command post nobody sits down. Maya stands at the rail with her face held and her two hands flat on the top of it.
+ACTION: Kemp's pen is down on the open log. The line under his hand is unwritten.
+ACTION: On the glass the tag reads SKY KING and rides a spot with nothing under it.
+ACTION: The tag holds its spot. The room holds around it.
+ACTION: The panel light, the scopes, the empty glass. Nobody moves.

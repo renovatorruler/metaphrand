@@ -20,6 +20,7 @@ from typing import TYPE_CHECKING, Optional
 
 from metaphrand import canon as _canon
 from metaphrand import concreteness as _concreteness
+from metaphrand import craftlint as _craftlint
 from metaphrand import dossier as _dossier
 from metaphrand.cinema import spine_beats
 
@@ -47,6 +48,9 @@ def check_passage(story: "Story", passage: str) -> tuple[bool, str]:
     crimes = sorted({f"{f.kind} ({f.text})" for f in _concreteness.findings(passage)})
     if crimes:
         problems.append("strip this ornament: " + ", ".join(crimes))
+    tells = _craftlint.feedback(passage, mode="prose")  # clickbait cadence + two-word punch lines
+    if tells:
+        problems.append(tells)
     leaks = _dossier.leak(passage, story).leaks
     if leaks:
         facts = "; ".join(f'"{fact}"' for _char, fact, _line in leaks[:3])

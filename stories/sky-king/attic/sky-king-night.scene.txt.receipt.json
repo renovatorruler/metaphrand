@@ -1,0 +1,9 @@
+{
+  "id": "sky-king-night",
+  "slug": "INT. BIRDY AND MAYA'S HOME - NIGHT",
+  "seedHash": "7f33abf6d17223b3f264334f37b896e8bd875ba12799d848c022a423ad250f98",
+  "sceneHash": "ce0a4caf1df3a1ab3077af3c8eca8568acfe1c52e6e98c03fffcf2bf97e1fa2d",
+  "gate": "PASS",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

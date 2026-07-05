@@ -1,0 +1,12 @@
+Fix each of these; they are AI tells still on the page. Keep the events, staging, and each character's voice.
+
+1. REYES "Okay. Okay, I'll call you back." — kill the doubled "Okay. Okay." Reyes must not have that doubled-opener tic. Single, plain.
+2. The word "reason" is a refrain — REYES "That's not a reason, though. None of that's a reason to do this." and WARD "you keep asking me for a reason and I don't have your kind of reason." Cut the repetition: Reyes says it plainly once; do NOT have both of them lean on "reason."
+3. REYES "Okay. So there it is. He's angry." → WARD "He wasn't angry." — kill the "angry"/"angry" bounce. Ward answers the accusation WITHOUT echoing her word.
+4. REYES "he's got some grievance, he got passed over, somebody wrote him up." — this is a clean 3-item list. Break it up; make it uneven and baggy, not an inventory.
+5. REYES "She here, she reachable, she got a phone." — another rattled 3-list. Make it one or two things, real and uneven.
+6. REYES "That's not a name." — a crafted button. Plainer: she just wants the name on the badge.
+7. REYES "Intent. That's the word they need. What did he intend." — kill the "That's the word they need" button; plainer.
+8. DEZ "I talked to him. Before." — appended-fact fragment ("Before." stapled on). Fold it in plainly.
+9. REYES "I need a car to the residence and I need her talking to me in twenty minutes." — a movie ticking-clock line. Make it plainer, real dispatch, not tight and end-weighted.
+10. REYES overall reads as a mode: every line tight, efficient, end-weighted. Give her at least one or two BAGGY/redundant/flat lines — a real agent under pressure repeats herself and uses dead procedural filler. She is a person, not an interrogation machine.

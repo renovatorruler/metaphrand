@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-finale",
+  "slug": "INT. Q400 FLIGHT DECK / NIGHT SKY / RADAR ROOM / COMMAND POST - NIGHT (INTERCUT)",
+  "seedHash": "149042d0b7f62558f8df24d7733e8fc32b40456b87de4f0750ee8a673440fe33",
+  "sceneHash": "b9adef096855cc19783eca2a4e47f24dd39ef9c58f19227886a030863f802794",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}
