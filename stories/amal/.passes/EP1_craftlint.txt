@@ -1,0 +1,12 @@
+5 violations (0 HIGH):
+
+  L3    [MED] short-sentence: Malwa opium belt.
+        -> 3-word punch sentence — humans don't end on two words for effect
+  L3    [MED] short-sentence: See .
+        -> 1-word punch sentence — humans don't end on two words for effect
+  L56   [MED] short-sentence: Deva goes.
+        -> 2-word punch sentence — humans don't end on two words for effect
+  L89   [MED] rule-of-three: a pile, one and then the
+        -> three short parallel items — AI rhythm
+  L111  [MED] short-sentence: It stops him.
+        -> 3-word punch sentence — humans don't end on two words for effect

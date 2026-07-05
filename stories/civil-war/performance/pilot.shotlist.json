@@ -1,0 +1,794 @@
+{
+ "shots": {
+  "0": "stories/civil-war/storyboard/pro/card-ch1.png",
+  "1": [
+   [
+    "stories/civil-war/storyboard/pro/c1-establish.png",
+    2
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-yard-axe.png",
+    3
+   ]
+  ],
+  "2": "stories/civil-war/storyboard/pro/c1-desmond-inside.png",
+  "3": [
+   [
+    "stories/civil-war/storyboard/pro/c1-nia-oats.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-bay.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-nia-oats.png",
+    1
+   ]
+  ],
+  "4": "stories/civil-war/storyboard/pro/c1-desmond-inside.png",
+  "5": [
+   [
+    "stories/civil-war/storyboard/pro/c1-nia-bucket.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-saddle-touch.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-saddle.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-saddle-touch.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-notebook.png",
+    1
+   ]
+  ],
+  "6": [
+   [
+    "stories/civil-war/storyboard/pro/c1-washpot.png",
+    2
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-linen-boil.png",
+    1
+   ]
+  ],
+  "7": "stories/civil-war/storyboard/pro/c1-quip-well.png",
+  "8": "stories/civil-war/storyboard/pro/c1-desmond-inside.png",
+  "9": [
+   [
+    "stories/civil-war/storyboard/pro/c1-rules-window.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-rules-road.png",
+    1
+   ]
+  ],
+  "10": [
+   [
+    "stories/civil-war/storyboard/pro/c1-nia-chin.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-dust.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-window-slide.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-look-stairs.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-window-slide.png",
+    1
+   ]
+  ],
+  "11": [
+   [
+    "stories/civil-war/storyboard/pro/c1-axe-lean.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-hands-show.png",
+    1
+   ]
+  ],
+  "12": [
+   [
+    "stories/civil-war/storyboard/pro/c1-riders-come.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-slickers-cu.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-leader.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-leader-smile.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-silas-gatepost.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-silas-reads.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-silas-gatepost.png",
+    1
+   ]
+  ],
+  "13": "stories/civil-war/storyboard/pro/c1-standoff.png",
+  "14": "stories/civil-war/storyboard/pro/c1-desmond-cu.png",
+  "15": [
+   [
+    "stories/civil-war/storyboard/pro/c1-leader-talk.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-moses-paper.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-paper-cu.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-leader-talk.png",
+    1
+   ]
+  ],
+  "16": "stories/civil-war/storyboard/pro/c1-desmond-cu.png",
+  "17": [
+   [
+    "stories/civil-war/storyboard/pro/c1-survey.png",
+    2
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-leader-smile.png",
+    1
+   ]
+  ],
+  "18": "stories/civil-war/storyboard/pro/c1-desmond-talk.png",
+  "19": "stories/civil-war/storyboard/pro/c1-leader-smile.png",
+  "20": [
+   [
+    "stories/civil-war/storyboard/pro/c1-dismount.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-dab-seeds.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-block.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-glance-back.png",
+    1
+   ]
+  ],
+  "21": [
+   [
+    "stories/civil-war/storyboard/pro/c1-desmond-talk.png",
+    3
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-silas-gatepost.png",
+    2
+   ]
+  ],
+  "22": [
+   [
+    "stories/civil-war/storyboard/pro/c1-silas-weigh.png",
+    2
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-road-look.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-desmond-cu.png",
+    1
+   ]
+  ],
+  "23": "stories/civil-war/storyboard/pro/c1-silas-weigh.png",
+  "24": "stories/civil-war/storyboard/pro/c1-mount-up.png",
+  "25": [
+   [
+    "stories/civil-war/storyboard/pro/c1-turning.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-young-still.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-saddle.png",
+    1
+   ]
+  ],
+  "26": "stories/civil-war/storyboard/pro/c1-young-point.png",
+  "27": "stories/civil-war/storyboard/pro/c1-della-fires.png",
+  "28": [
+   [
+    "stories/civil-war/storyboard/pro/c1-dab-swing.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-desmond-draws.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-windows-fire.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-yard-chaos.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-leader.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-flee.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-track.png",
+    1
+   ]
+  ],
+  "29": [
+   [
+    "stories/civil-war/storyboard/pro/c1-pistol-up.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-down.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-pistol-up.png",
+    1
+   ]
+  ],
+  "30": [
+   [
+    "stories/civil-war/storyboard/pro/c1-stairs.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-della-reload.png",
+    1
+   ]
+  ],
+  "31": "stories/civil-war/storyboard/pro/c1-marriage.png",
+  "32": [
+   [
+    "stories/civil-war/storyboard/pro/c1-della-reload.png",
+    2
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-marriage.png",
+    1
+   ]
+  ],
+  "33": [
+   [
+    "stories/civil-war/storyboard/pro/c1-replay-rein.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-silas-gatepost.png",
+    1
+   ]
+  ],
+  "34": [
+   [
+    "stories/civil-war/storyboard/pro/c1-marriage.png",
+    2
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-down.png",
+    1
+   ]
+  ],
+  "35": "stories/civil-war/storyboard/pro/c1-pack.png",
+  "36": [
+   [
+    "stories/civil-war/storyboard/pro/c1-landing.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c1-bay-window.png",
+    1
+   ]
+  ],
+  "37": "stories/civil-war/storyboard/pro/c1-track.png",
+  "38": "stories/civil-war/storyboard/pro/card-ch2.png",
+  "39": [
+   [
+    "stories/civil-war/storyboard/pro/c2-house-ext.png",
+    2
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c2-bonus-brad.png",
+    3
+   ]
+  ],
+  "40": "stories/civil-war/storyboard/pro/c2-brad-talk.png",
+  "41": [
+   [
+    "stories/civil-war/storyboard/pro/c2-desmond-window.png",
+    3
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c2-culdesac.png",
+    2
+   ]
+  ],
+  "42": [
+   [
+    "stories/civil-war/storyboard/pro/c2-desmond-window-cu.png",
+    3
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c2-culdesac.png",
+    2
+   ]
+  ],
+  "43": [
+   [
+    "stories/civil-war/storyboard/pro/c2-della-smile.png",
+    2
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c2-desmond-window-cu.png",
+    1
+   ]
+  ],
+  "44": "stories/civil-war/storyboard/pro/c2-couple-window.png",
+  "45": [
+   [
+    "stories/civil-war/storyboard/pro/c2-desmond-low.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c2-culdesac.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c2-desmond-low.png",
+    1
+   ]
+  ],
+  "46": "stories/civil-war/storyboard/pro/c2-della-laugh.png",
+  "47": "stories/civil-war/storyboard/pro/c2-couple-window.png",
+  "48": [
+   [
+    "stories/civil-war/storyboard/pro/c2-della-cu.png",
+    2
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c2-couple-soft.png",
+    2
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c2-culdesac.png",
+    1
+   ]
+  ],
+  "49": "stories/civil-war/storyboard/pro/c2-brad-hall.png",
+  "50": "stories/civil-war/storyboard/pro/c2-della-smile.png",
+  "51": "stories/civil-war/storyboard/pro/c2-desmond-window-cu.png",
+  "52": "stories/civil-war/storyboard/pro/c2-street-kids.png",
+  "53": [
+   [
+    "stories/civil-war/storyboard/pro/c2-yard-kids.png",
+    2
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c2-min.png",
+    1
+   ]
+  ],
+  "54": [
+   [
+    "stories/civil-war/storyboard/pro/c2-culdesac.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c2-yard-kids.png",
+    1
+   ]
+  ],
+  "55": [
+   [
+    "stories/civil-war/storyboard/pro/c2-nia-fence.png",
+    2
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c2-kids-stop.png",
+    1
+   ]
+  ],
+  "56": [
+   [
+    "stories/civil-war/storyboard/pro/c2-mother.png",
+    2
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c2-nia-watch.png",
+    1
+   ]
+  ],
+  "57": [
+   [
+    "stories/civil-war/storyboard/pro/c2-wrist.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c2-between.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c2-nia-watch.png",
+    1
+   ]
+  ],
+  "58": "stories/civil-war/storyboard/pro/c2-fingers-out.png",
+  "59": "stories/civil-war/storyboard/pro/c2-nia-walk.png",
+  "60": "stories/civil-war/storyboard/pro/c2-gate.png",
+  "61": [
+   [
+    "stories/civil-war/storyboard/pro/c2-min-gate.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c2-min-approach.png",
+    1
+   ]
+  ],
+  "62": "stories/civil-war/storyboard/pro/c2-min-cu.png",
+  "63": [
+   [
+    "stories/civil-war/storyboard/pro/c2-nia-flat.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c2-min-house.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/c2-min-earnest.png",
+    1
+   ]
+  ],
+  "64": "stories/civil-war/storyboard/pro/c2-nia-look.png",
+  "65": "stories/civil-war/storyboard/pro/c2-min-earnest.png",
+  "66": "stories/civil-war/storyboard/pro/c2-two-walk.png",
+  "67": "stories/civil-war/storyboard/pro/card-ch3.png",
+  "68": [
+   [
+    "stories/civil-war/storyboard/pro/n3-pharm-wide Every sign, label and tile in the store is BLANK colored plastic with no printing of any kind..png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-screen-stare.png",
+    1
+   ]
+  ],
+  "69": "stories/civil-war/storyboard/pro/n3-thanh-cu.png",
+  "70": "stories/civil-war/storyboard/pro/n3-adeyemi.png",
+  "71": [
+   [
+    "stories/civil-war/storyboard/pro/n3-screen-turn.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-field-cu.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-count-fives.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-vial-push.png",
+    1
+   ]
+  ],
+  "72": [
+   [
+    "stories/civil-war/storyboard/pro/n3-thanh-kind.png",
+    2
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-vial-push.png",
+    1
+   ]
+  ],
+  "73": [
+   [
+    "stories/civil-war/storyboard/pro/n3-register.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-door-watch.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-willcall Every sign, label and tile in the store is BLANK colored plastic with no printing of any kind..png",
+    1
+   ]
+  ],
+  "74": [
+   [
+    "stories/civil-war/storyboard/pro/n3-radio.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-pharm-wide.png",
+    1
+   ]
+  ],
+  "75": [
+   [
+    "stories/civil-war/storyboard/pro/n3-phone-two.png",
+    2
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-lot-heat.png",
+    1
+   ]
+  ],
+  "76": [
+   [
+    "stories/civil-war/storyboard/pro/n3-hoa-kitchen.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-tap.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-hoa-kitchen.png",
+    1
+   ]
+  ],
+  "77": "stories/civil-war/storyboard/pro/n3-thanh-cu.png",
+  "78": "stories/civil-war/storyboard/pro/n3-hoa-kitchen.png",
+  "79": [
+   [
+    "stories/civil-war/storyboard/pro/n3-thanh-gentle.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-lot-heat.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-thanh-gentle.png",
+    1
+   ]
+  ],
+  "80": [
+   [
+    "stories/civil-war/storyboard/pro/n3-hoa-hangup.png",
+    2
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-hoa-kitchen.png",
+    1
+   ]
+  ],
+  "81": [
+   [
+    "stories/civil-war/storyboard/pro/n3-mehta-enters.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-mehta-counter.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-bike-dog Every sign, label and tile in the store is BLANK colored plastic with no printing of any kind..png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-mehta-counter.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-bike-dog.png",
+    1
+   ]
+  ],
+  "82": "stories/civil-war/storyboard/pro/n3-mehta-cu.png",
+  "83": "stories/civil-war/storyboard/pro/n3-thanh-cu.png",
+  "84": [
+   [
+    "stories/civil-war/storyboard/pro/n3-mehta-mat.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-mehta-cu.png",
+    1
+   ]
+  ],
+  "85": "stories/civil-war/storyboard/pro/n3-counter-word.png",
+  "86": [
+   [
+    "stories/civil-war/storyboard/pro/n3-mehta-tells.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-thanh-listens.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-mehta-tells.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-thanh-listens.png",
+    1
+   ]
+  ],
+  "87": "stories/civil-war/storyboard/pro/n3-mehta-asks.png",
+  "88": [
+   [
+    "stories/civil-war/storyboard/pro/n3-door-look.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-lot-survey.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-sign-flip.png",
+    1
+   ]
+  ],
+  "89": "stories/civil-war/storyboard/pro/n3-thanh-level.png",
+  "90": "stories/civil-war/storyboard/pro/n3-mehta-cu.png",
+  "91": [
+   [
+    "stories/civil-war/storyboard/pro/n3-number-said.png",
+    2
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-thanh-level.png",
+    1
+   ]
+  ],
+  "92": [
+   [
+    "stories/civil-war/storyboard/pro/n3-two-memorize.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-vitamins.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-two-memorize.png",
+    1
+   ]
+  ],
+  "93": [
+   [
+    "stories/civil-war/storyboard/pro/n3-thanh-warns.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-aisle-walk.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-tablets-hand.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-thanh-warns.png",
+    1
+   ]
+  ],
+  "94": "stories/civil-war/storyboard/pro/n3-tablets-thumb.png",
+  "95": "stories/civil-war/storyboard/pro/n3-mehta-pay.png",
+  "96": [
+   [
+    "stories/civil-war/storyboard/pro/n3-thanh-kindly.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-mehta-cu.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-thanh-kindly.png",
+    1
+   ]
+  ],
+  "97": [
+   [
+    "stories/civil-war/storyboard/pro/n3-mehta-cu.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-door-unlock.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-dog-warning.png",
+    1
+   ]
+  ],
+  "98": [
+   [
+    "stories/civil-war/storyboard/pro/n3-bell-leave.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-bike-wobble.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-lights-buzz.png",
+    1
+   ]
+  ],
+  "99": [
+   [
+    "stories/civil-war/storyboard/pro/n3-dinner-wide.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-phone-speaker.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-dinner-wide.png",
+    1
+   ]
+  ],
+  "100": [
+   [
+    "stories/civil-war/storyboard/pro/n3-thanh-eats.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-hoa-watches.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-willcall.png",
+    1
+   ],
+   [
+    "stories/civil-war/storyboard/pro/n3-thanh-eats.png",
+    1
+   ]
+  ],
+  "101": "stories/civil-war/storyboard/pro/n3-thanh-phone-dinner.png",
+  "102": "stories/civil-war/storyboard/pro/n3-spoon.png"
+ }
+}

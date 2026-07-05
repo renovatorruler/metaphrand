@@ -115,6 +115,19 @@ def test_parse_screenplay_standalone_wryly_keeps_speaker():
     ]
 
 
+def test_parse_screenplay_block_opening_with_wryly_keeps_speaker():
+    from metaphrand.audio import parse_screenplay
+
+    # a dialogue block split by a blank line before its "(beat)": the
+    # continuation block *opens* with the wryly and must stay with the
+    # speaker, not fall to the narrator (which would also read "(beat)" aloud)
+    script = "NADIR\nMade it one.\n\n(beat)\nWe will keep what he built."
+    assert parse_screenplay(script, {"NADIR": "nv"}, "narr") == [
+        Utterance("nv", "Made it one.", "screenplay"),
+        Utterance("nv", "We will keep what he built.", "screenplay"),
+    ]
+
+
 def test_to_wav_writes_valid_mono_pcm(tmp_path):
     path = str(tmp_path / "out.wav")
     us = AudioRenderer().to_wav(_story(), SilentBackend(sample_rate=8000), path)

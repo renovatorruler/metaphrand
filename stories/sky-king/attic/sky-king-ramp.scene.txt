@@ -1,0 +1,30 @@
+SKY KING — EXT. AIRPORT RAMP - DUSK
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-ramp.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The Q400's belly cargo door stands open under the wing, ramp lights buzzing on as the sky goes orange behind the tail.
+ACTION: BIRDY lifts a hard-sided suitcase off the cart, sets it flat in the hold, then squares it against the others with both hands.
+BIRDY: Soft side down, every time. Somebody's whole week is in here.
+ACTION: DEZ swings a duffel up without looking and lets it land where it falls.
+DEZ: They never know the difference, Birdy.
+BIRDY: I know the difference.
+ACTION: DEZ wipes his hands down the front of his vest and watches BIRDY restack the row.
+DEZ: That you do.
+ACTION: BIRDY reaches for another bag, then holds it against his chest a second.
+BIRDY: They put up that spot. The one off the ramp, inside, at the desk.
+DEZ: Saw it.
+BIRDY: I was thinking I might put my name down. See what happens.
+ACTION: DEZ tosses the last duffel into the hold and leans on the cart.
+DEZ: It's got a name on it already. Always does. Fellas down here stay down here.
+ACTION: BIRDY sets the bag in, slow, and pats it flat.
+BIRDY: Good. Saves me washing a shirt.
+ACTION: DEZ huffs a short laugh and reaches up to pull the cargo door down.
+DEZ: That's the spirit.
+ACTION: A RADIO clipped to the cart crackles.
+GROUND (RADIO): Ramp, that's the bird buttoned up, push in two.
+ACTION: BIRDY slaps the side of the fuselage twice and steps back from the wing.
+BIRDY: All yours.
+ACTION: The Q400's props turn over and bite the air as the plane rolls forward off the stand.
+ACTION: BIRDY stands with the empty cart, watching the tail swing toward the taxiway and the lights shrink down the apron.
+ACTION: The plane holds at the line, then eases away into the dark.
+ACTION: BIRDY watches it a moment longer, then turns the cart around toward the next stack of bags.

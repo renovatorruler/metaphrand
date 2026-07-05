@@ -1,0 +1,41 @@
+SKY KING — INT. SEATTLE APPROACH - RADAR ROOM / Q400 FLIGHT DECK - DUSK (INTERCUT)
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-deal1.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Reyes comes in off the command-post corridor with the headset she carried down from the tower, the cord looped once around her hand.
+ACTION: Bishop sits at his scope three feet inside the door, a paper coffee cup gone cold at his elbow, a strip squared up under his thumb.
+BISHOP: Plug in there. I'll put you up on his frequency.
+ACTION: Bishop reaches over without looking at her and seats her jack, then flattens his hand back down on the strip.
+BISHOP: You're up. He's got you.
+ACTION: Reyes settles the cup of the headset over one ear and opens her mouth to start.
+ACTION: On the flight deck the last light is low on the water off the left window, and the town lights are coming up in ones and twos below the wing.
+BIRDY (RADIO): Oh, hey. You seeing this down there. The water.
+BIRDY (RADIO): The lights are all coming on, the little towns, you can watch 'em come on. It's real pretty right now.
+ACTION: Reyes closes her mouth. Her thumb comes off the words she had ready.
+REYES: Yeah. I see it.
+BIRDY (RADIO): I never come out this way this time of day. It's usually all dark by now.
+ACTION: The scope's sweep goes around and finds his blip and drops it and finds it again.
+REYES: Listen to me a second. I want to tell you something and I want you to hear it plain.
+REYES: You bring this airplane down and you're not going to jail. Not tonight, not after. That's me telling you. I'll be standing right there when you get out and I'll walk you through the whole thing myself.
+ACTION: For a moment there is only the hiss of the open channel in the room.
+BIRDY (RADIO): Well, that's real nice of you to say. I mean that.
+BIRDY (RADIO): I don't think it works like that, though. Not for a guy like me.
+REYES: It does. I'm the one that gets to say how it works, and I'm saying it.
+BIRDY (RADIO): No, you've been real kind, coming out for all this.
+BIRDY (RADIO): I just figure they're gonna do something with me either way, and I'd sorta rather not come down and find out what.
+ACTION: Bishop does not look up from the scope. His hand stays flat on the strip.
+BIRDY (RADIO): Those two fellas are still off my wing, by the way. They're riding real easy back there, you can tell 'em they don't have to work so hard.
+BIRDY (RADIO): Fuel's getting on down some. It's fine. Just letting you know.
+ACTION: Reyes sits with her hand near the key and nothing coming.
+REYES: Okay.
+ACTION: The channel goes quiet again and the sweep comes around one more time.
+ACTION: Reyes lifts her hand toward the key to sign off.
+BIRDY (RADIO): You talk like Mrs. Corley. She had me a couple years back in school.
+BIRDY (RADIO): She used to talk to me real slow like that, kind of easy, so I'd get it.
+ACTION: Reyes stops with her hand where it is.
+REYES: Was she good to you?
+BIRDY (RADIO): She was fine. She meant well.
+BIRDY (RADIO): Everybody meant well.
+ACTION: Reyes takes her hand off the key. She lifts the headset off and sets it down on the console.
+ACTION: She walks out the way she came.
+ACTION: Bishop stays at his scope, the cold cup at his elbow, the sweep going around. The headset lies where she left it.

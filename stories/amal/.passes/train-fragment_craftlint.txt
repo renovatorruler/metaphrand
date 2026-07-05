@@ -1,0 +1,6 @@
+2 violations (0 HIGH):
+
+  L3    [MED] short-sentence: Shown, never explained.
+        -> 3-word punch sentence — humans don't end on two words for effect
+  L41   [MED] rule-of-three: next, people looking and then carefully
+        -> three short parallel items — AI rhythm

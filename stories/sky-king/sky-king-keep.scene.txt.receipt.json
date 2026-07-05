@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-keep",
+  "slug": "INT. SEATTLE APPROACH - RADAR ROOM - NIGHT (MOMENTS LATER)",
+  "seedHash": "b95bb25d70f3247c152793a300edae72c8e3d7e1df1908051a2edd5a27ec72f2",
+  "sceneHash": "875eb464677ef459ed0398ddfa2d7d9ecc85e2d4e90beabc1e5b288c89af719a",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

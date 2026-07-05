@@ -1,0 +1,33 @@
+DIRECTOR'S NOTES — THE STOP lift (2026-07-02). Every note MUST be addressed.
+
+1. FIX (shared tic): WARD's "No. No, say that again." — the doubled-word opener
+   ("No. No,") is BIRDY's tic (the dot scene: "No. No, it's empty."). A tic
+   belongs to ONE character. Change Ward's line to a plain phone fragment
+   without the doubled opener — e.g. "Wait. Say that again." or just "Say that
+   again." Keep it low, half-heard.
+
+2. PROTECT VERBATIM (the scene's spine):
+   - The PA call: "Ground stop. All ramp personnel, ground stop in effect. Hold
+     all aircraft, hold all vehicles. Nothing moves."
+   - GUS: "That's not weather."
+   - The counting: "One. Two." / "Three. Four." / "We're one short." and the
+     walking-the-tails action around it (the gap, the loose chocks).
+   - The Gus-Dez exchange whole: "Dez. You were out that end." / "You see
+     anything go?" / "I don't know. I wasn't— I don't know what I saw." /
+     "Okay." (Dez's bookended "I don't know" is the hollow deflection — real
+     speech under stress, NOT a tell. Gus's "Okay." lets it sit. Leave all of it.)
+   - The belt imagery ("climbing and dropping, climbing and dropping, into the
+     cart nobody touches" / the bag hitting the concrete and lying there) — the
+     literal loop is the image, deliberate.
+   - The ending: the SUV rolling slow up the line, its lights washing over Dez,
+     Dez looking south with the radio hanging in his hand.
+
+3. NOBODY names Birdy, nobody says stolen or hijack, nobody summarizes. Keep it.
+
+4. This is a BREATHER: do not add dialogue anywhere; do not fill the quiet.
+
+5. Action lines stay full present-tense sentences; every voice stays oriented;
+   the re-anchor intros (Gus/Dez/Ward) stay.
+
+6. Fix only a genuine catalog tell if one exists beyond note 1; otherwise the
+   rest returns as-is. Do not gild working lines.

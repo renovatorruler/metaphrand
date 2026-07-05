@@ -1,0 +1,39 @@
+SKY KING — INT. SEATTLE APPROACH - RADAR ROOM / Q400 FLIGHT DECK - NIGHT (INTERCUT)
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-deal1.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Reyes steps in from the command post floor, a headset hooked in one hand, and pulls the door shut behind her so the room goes quiet.
+ACTION: Bishop sits at his scope without turning around, a single track crawling across the glass, a paper strip squared off by his elbow and a coffee going cold beside it.
+REYES: They said you're the one he's been talking to.
+BISHOP: I've been on him since he came up.
+ACTION: Bishop reaches over and works a patch on the panel, still not looking at her, and slides the spare cord toward her hand.
+BISHOP: You're on. His frequency. Right there.
+ACTION: Reyes pulls the headset on and keys up, and her voice goes slow and warm and even.
+REYES: Hey. My name's Reyes. I came in special to talk to you tonight. I just want to hear how you're doing up there.
+ACTION: Up on the flight deck the panel glows blue and the city lights slide by under the wing, an escort fighter holding easy off the tip.
+BIRDY (RADIO): Oh, I'm doing okay. It's real nice of you to get up for me.
+REYES: I've got all the time you want. No hurry on my end. You just talk, I'll listen.
+ACTION: On the flight deck Birdy tips his head against the seat and watches the fighter ride along.
+BIRDY (RADIO): You sound like Mrs. Corley.
+REYES: I'm sorry?
+BIRDY (RADIO): Mrs. Corley. She had me for a couple years. She used to talk to me real slow like that, so I'd get it.
+ACTION: Reyes goes still with the cord looped in her fingers, and she doesn't key up for a moment.
+REYES: I'm— sorry. Was she good to you?
+BIRDY (RADIO): Oh, she was fine. She meant well. Everybody meant well.
+ACTION: Bishop reaches up and squares the paper strip a second time and leaves his hand flat on the console.
+ACTION: Reyes takes the warm out of her voice and keys up plain.
+REYES: I want to tell you something, and I need you to hear it straight from me. You bring this airplane down, you're not going to jail. Not tonight, not after. I'll see to that myself. That's my word to you.
+ACTION: On the flight deck Birdy nudges the yoke and the wing dips a little toward the water and comes back.
+BIRDY (RADIO): That's real nice of you to say.
+REYES: I mean it. You put it on the ground and I'm the one standing there for you.
+ACTION: Reyes waits with the headset pressed and the track crawling past on Bishop's scope.
+BIRDY (RADIO): I don't think it works like that for a guy like me.
+BIRDY (RADIO): They're gonna do something to me down there. I'd just as soon not come down and find out what.
+ACTION: Reyes doesn't answer, and the frequency hisses low in the room.
+BIRDY (RADIO): You've been real kind. I mean that. Getting up in the night and all.
+ACTION: On the flight deck Birdy glances out at the fighter riding off his wingtip, the lights below him going by slow.
+BIRDY (RADIO): He's still with me, that other airplane. Riding real easy. Fuel's getting on, though.
+ACTION: The track loops once across Bishop's scope and Bishop watches it and says nothing.
+ACTION: Reyes reaches up and unkeys, and she sits a moment with her hand still on the headset.
+ACTION: She lifts it off and sets it down on the console beside Bishop's cold coffee, and she goes out the door toward the command post.
+ACTION: Bishop keeps his eyes on the scope, the blip crawling across the glass, the headset lying where she left it.

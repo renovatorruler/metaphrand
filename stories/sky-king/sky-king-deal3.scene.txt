@@ -1,0 +1,29 @@
+SKY KING — INT. SEATTLE APPROACH - RADAR ROOM / Q400 FLIGHT DECK - NIGHT (INTERCUT)
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-deal3.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Reyes comes up the dark corridor into Approach with a page in her hand and stops behind Bishop's chair.
+ACTION: Bishop sits at his scope without turning, one hand flat on the console, a single blip crawling across the black over the water with nothing tagged to it.
+ACTION: Reyes lifts the spare headset off the hook and puts it on standing, the paper held up under the console light so she can read off it.
+REYES: Hey. It's Reyes again. I got something in my hand, I want to just read it to you.
+ACTION: In the flight deck the panel is the only light on Birdy's face, the fuel gauge lit low beside his knee.
+BIRDY (RADIO): Yeah, okay. Go ahead.
+REYES: There's no charges. That's the first line, no charges get filed, that's got a name signed under it. There's a doctor, they set up a doctor for you, and nobody puts you anywhere. You don't go anywhere. That's all signed, it's real names, it's real.
+ACTION: She turns the page a quarter and keeps her finger on the line she's reading.
+REYES: And there's one more part on here and I'm gonna read it the way it's put down. You're done flying. For the rest of your life. Never at the controls of anything, ever again. That's the term. That's on there too.
+ACTION: Birdy's hand rests easy on the yoke and he glances at the gauge.
+BIRDY (RADIO): Boy. You went and did all that.
+REYES: It's real. I'm holding it. It's in my hand right now.
+BIRDY (RADIO): That's really something. That you'd go do that. For me.
+ACTION: Bishop watches the naked blip inch along and does not move his hand.
+BIRDY (RADIO): I got about eleven hundred pounds showing.
+REYES: There's a line on here for you. It's blank. Your name's supposed to go under it.
+ACTION: Birdy looks out the black window a moment and comes back to the gauge.
+BIRDY (RADIO): I believe you. I do. I just don't figure a thing like that's for me. A guy like me, that don't land on him.
+REYES: It's got your name printed right over the blank. They already put it there.
+BIRDY (RADIO): No, I hear you. That was real good of you, all of that. Thank you.
+ACTION: Reyes stands with the headset on and doesn't say anything.
+BIRDY (RADIO): Eleven hundred, and it's going.
+ACTION: Reyes takes her hand off the transmit key and lays her palm flat on the paper against the console.
+ACTION: Bishop's hand stays flat beside his scope.
+ACTION: On the glass the blip rides out over the black water with no name on it yet, and the fuel number drops one and holds.

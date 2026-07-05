@@ -1,0 +1,6 @@
+file '/Users/dusty/dev/brehon-law/stories/sky-king/audition_rs/price_option4_0.mp3'
+file '/Users/dusty/dev/brehon-law/stories/sky-king/audition_rs/silence_600.mp3'
+file '/Users/dusty/dev/brehon-law/stories/sky-king/audition_rs/price_option4_1.mp3'
+file '/Users/dusty/dev/brehon-law/stories/sky-king/audition_rs/silence_600.mp3'
+file '/Users/dusty/dev/brehon-law/stories/sky-king/audition_rs/price_option4_2.mp3'
+file '/Users/dusty/dev/brehon-law/stories/sky-king/audition_rs/silence_600.mp3'

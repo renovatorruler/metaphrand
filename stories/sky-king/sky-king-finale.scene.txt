@@ -1,0 +1,42 @@
+SKY KING — INT. Q400 FLIGHT DECK / NIGHT SKY / RADAR ROOM / COMMAND POST - NIGHT (INTERCUT)
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-finale.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Full dark. The panel light lies green across BIRDY's face. Below the windscreen the black water slides by with no edge to it. In the two side windows the escort fighters hold their slots, their nav lights the only other thing burning out there.
+ACTION: BANJO keys up from the left wing, and his voice comes in dry and easy.
+BANJO (RADIO): Tell you what. You set her down soft on that field and the first round's mine. Whole night's on me. I want to hear the stories.
+ACTION: BIRDY lets a little quiet go by. The green light doesn't move on his face.
+BIRDY (RADIO): I don't have any stories.
+ACTION: Nobody comes back. In the RADAR ROOM, BISHOP sits still at his scope, the blip crawling, no data under it. In the COMMAND POST, MAYA stands with both hands flat on the table edge and does not move.
+ACTION: DEACON keys from the right wing, and his voice stays level.
+DEACON (RADIO): Let me ask you something. Is there anything anybody can say that'd change your mind?
+ACTION: BIRDY's hand rests easy on the yoke. He doesn't reach for anything.
+BIRDY (RADIO): Well. You heard them. I'll never be able to fly again.
+ACTION: The frequency holds a second with nothing on it. BANJO keys, and now he goes plain and flat and quick, like he's reading a list off the back of his hand.
+BANJO (RADIO): See, that's where you're wrong. That readback you gave the tower back there was cleaner than half the line pilots I fly with.
+BANJO (RADIO): You caught that stall coming and you greased her right back out of it. You rolled an airliner. And you spent the whole damn night up here worried about our gas.
+BANJO (RADIO): That's stories, man. You've been telling 'em all night.
+ACTION: DEACON keys over him, quiet.
+DEACON (RADIO): And you don't pick your own. That's not how it works.
+ACTION: A beat.
+DEACON (RADIO): Took a vote up here. Two to nothing.
+ACTION: DEACON's thumb stays on the transmit. When he says it he says it plain, and he says it once.
+DEACON (RADIO): Sky King.
+ACTION: In the RADAR ROOM, BISHOP leans to the keyboard and types. A data tag comes up under the naked blip and holds on the glass. It reads SKY KING.
+ACTION: BIRDY takes a small breath. The green light sits on his face.
+BIRDY (RADIO): Well. Huh. Okay.
+ACTION: He sits with it a moment. His hand settles on the yoke.
+BIRDY (RADIO): I'll just bring this nose down and call it a night.
+ACTION: The nose goes down. The black water climbs up the windscreen. In both side windows the fighters' lights tip and start to fall with him.
+DEACON (RADIO): Birdy. Pull. PULL.
+CONTROLLER (RADIO): You're below your floor. Come off him.
+DEACON (RADIO): Negative.
+ACTION: The two fighters roll in and descend into the dark alongside the airliner, their nav lights dropping with it.
+BANJO (RADIO): Birdy, you're— level her. Level—
+ACTION: BANJO's carrier cuts and his wing light is gone from the window.
+ACTION: In the RADAR ROOM, BISHOP watches the blip and the tag fall together toward the island's black edge on the scope. He keys once.
+BISHOP (RADIO): Birdy?
+ACTION: The island's shoulder crosses the line and the frequency goes to hiss mid-breath. BISHOP holds the key down into the hiss, says nothing, and lets it go.
+ACTION: The RADAR ROOM is still. BISHOP does not move off the scope.
+ACTION: In the COMMAND POST, everyone is on their feet and no one speaks. MAYA stands with both hands flat on the table, her face fixed on the far screen. KEMP's pen lies down across the open log, the last line unwritten.
+ACTION: On every scope in the room the tag SKY KING rides its small spot of glass with nothing under it. It holds there. It holds.

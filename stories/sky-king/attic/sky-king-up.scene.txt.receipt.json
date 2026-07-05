@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-up",
+  "slug": "INT. APPROACH CONTROL / Q400 FLIGHT DECK - NIGHT",
+  "seedHash": "811a50be2e9c4873318c9a87e2bf61dd983e904dd23414a8596e8cc04827d2db",
+  "sceneHash": "8a36e54f8bda6e21e023ac6efa562e2a91695efb14dfa7ab260b7e1a8c30677e",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

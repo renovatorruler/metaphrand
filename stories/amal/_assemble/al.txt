@@ -1,0 +1,2 @@
+file '/Users/dusty/dev/brehon-law/stories/amal/_assemble/silence_4000.mp3'
+file '/Users/dusty/dev/brehon-law/stories/amal/ep1_hindi_tableread.mp3'

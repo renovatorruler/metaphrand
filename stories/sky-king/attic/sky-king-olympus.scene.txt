@@ -1,0 +1,22 @@
+SKY KING — INT. Q400 FLIGHT DECK / SEATTLE APPROACH - RADAR ROOM - NIGHT (INTERCUT)
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-olympus.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Birdy sits in the left seat, the panel glowing under his hands. The mountain is gone behind him now, and the black water of the Sound slides by ahead.
+ACTION: He tips the yoke and the Q400 comes around slow to the west, and off the right wing one of the two fighters banks with him and holds there.
+BIRDY (RADIO): Hey, I'm gonna swing over toward the other range, if that's alright. The Olympics. I'm already up here.
+ACTION: At his scope, Bishop keys his mic without looking up from the trace.
+BISHOP (RADIO): Yeah, that's fine. You're clear over that way, nobody out there.
+ACTION: The far range stands up black against the sky across the water, no light left on it, and Birdy flies at it anyway with the two fighters trailing along behind him.
+BIRDY (RADIO): You think, uh. You think the airline'd give me a job after this? Like a pilot job.
+ACTION: Bishop lets out a little breath that's almost a laugh.
+BISHOP (RADIO): Man, you pull this off, they'd give you a job doing about anything.
+BIRDY (RADIO): Yeah, no. I know.
+ACTION: Birdy laughs a bit at himself and thumbs something on the panel, the fuel number lower now than it was, and he glances at it and lets it go.
+BIRDY (RADIO): It's jail for a guy who does this. Life, probably. Anyway I got the tank down around, I don't know, it's getting down there.
+ACTION: Bishop opens his mic. He doesn't say anything into it. He lets it sit open a second and then closes it.
+ACTION: At the command post a woman stands under the wall screen with one earpiece of a headset held to her ear, listening, not moving. This is REYES, the agent running the room.
+ACTION: Bishop keys back in and keeps his voice easy.
+BISHOP (RADIO): How's she flying? She trimmed out okay for you?
+BIRDY (RADIO): Yeah, she's alright. She's steady.
+ACTION: The dark range fills the windscreen ahead of him, the fuel number sitting where it is, the two fighters holding off his wings, and nobody says anything.

@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-doorway",
+  "slug": "EXT. AIRPORT RAMP - DUSK",
+  "seedHash": "05e55b839d8805fe1347e8e05d3c9b3250f6d7343b865e1e91dd8ee01d96f51b",
+  "sceneHash": "c663c8f087aaa7cbe00e3986ab3e4cdee41a2942d7e112318c5ae9c086800139",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

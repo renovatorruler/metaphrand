@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-deal2",
+  "slug": "INT. AIRPORT OPERATIONS CENTER - COMMAND POST - NIGHT",
+  "seedHash": "9970899f669525aa9e1fbda7504735f2f3366efb3b9067b48214a2a573709856",
+  "sceneHash": "3a1408bdb5448e4b1799736de863cbcf659828a113425510ed973dcfa806fce5",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

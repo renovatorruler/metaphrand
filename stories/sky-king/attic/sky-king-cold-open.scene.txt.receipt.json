@@ -1,0 +1,9 @@
+{
+  "id": "sky-king-cold-open",
+  "slug": "EXT. SKY - DUSK / INT. Q400 COCKPIT - CONTINUOUS",
+  "seedHash": "8de2041de4cbb3fe323211ef7d5300a775fcc37efd7ef81bbdb350cbdedbdd65",
+  "sceneHash": "67846a8b181a6865f93ac60b855fdd8584bfc2a93832554a212e2e3a16f2c5f6",
+  "gate": "PASS",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

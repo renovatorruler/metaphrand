@@ -1,0 +1,28 @@
+NATURALNESS AUDIT — The One Law (docs/06-THE-ONE-LAW.md)
+
+SCENE ONE — critic: qwen3-coder-next (local, the only model available; slow and noisy, but it RAN).
+It flagged ~12 lines. Reconciled against the author's ear:
+
+  LEGIT catches (acted on — the gate found what the linter and the author's first read missed):
+   - the layered-disbelief question ("चौदह साल की लड़की, अकेले, तेरे पास...") -> blunted to one question
+   - "She lets the silence sit." (writerly action) -> "She waits him out."
+   - the father two-days antithesis ("बेटी ग़ायब है, और बाप दो दिन इंतज़ार करता रहा") -> blunted
+
+  FALSE positives (model noise; left as-is — natural terse speech is exempt by the Law):
+   - "बोल।" flagged as punchy: it is a real command, not composition
+   - "तो तूने उसे बस में बिठा दिया।" mislabeled "two-word": it is a normal 6-word sentence
+   - a couple of already-rewritten lines re-flagged
+
+  Verdict: the semantic gate is REAL and useful — it caught composed lines nothing else did — but it
+  over-flags and needs a stronger critic model + the author's calibration. Exactly as docs/06 says.
+
+SCENE TWO — critic: by hand (the coder model is too slow to rerun per scene). Verdict: CLEAN.
+  No fragments-for-drama, no antithesis, no held-to-end punch, no recitation. Ramesh reads as an
+  entitled man performing concern; Rekha stays clipped. Both speech, not writing.
+
+SCENE THREE — critic: by hand (the One Law applied while writing, docs/06). Verdict: CLEAN.
+  End-loaded details actively avoided: every fact integrated into its sentence, no comma-tail,
+  no fragment-tail. Two composed temptations caught and rewritten BEFORE the draft:
+   - Malhotra's "...कोर्ट देखेगा... तू नहीं।" (held-to-end punch) -> "आगे का फ़ैसला कोर्ट करेगा।"
+   - his "इसे केस की तरह देख, बच्ची की तरह मत देख।" (antithesis) -> "बस इसे ज़्यादा अपने ऊपर मत ले।"
+  Closest call left in: "हम कितनों को बचाएँगे?" — a weary rhetorical line; plain enough, watch it.

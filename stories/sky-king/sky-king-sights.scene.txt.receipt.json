@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-sights",
+  "slug": "INT. Q400 FLIGHT DECK / NIGHT SKY OVER THE SOUND / COMMAND POST - NIGHT (INTERCUT)",
+  "seedHash": "b80aed61c6a51fe44fb539e0a83dafc23d401a134200990c0bb9190571cf9ed9",
+  "sceneHash": "d29d623632f0316e9ab82c18f4b19bb852d3534042a03b0300a0adbb90efd5a4",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

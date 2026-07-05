@@ -1,5 +1,14 @@
 # Voice From The Chart
 
+**System: match the chart to the story's world.** Use **Vedic / Jyotish** (the nine *graha*) for Indian
+stories, **Western / tropical** for Western ones. The six voice-axes below read the same either way —
+only the inputs change. Graha → axis key: **Shani (Saturn)** clips/grounds/colds; **Guru (Jupiter)**
+swells/preaches; **Budh (Mercury)** is the core mind-and-language; **Chandra (Moon)** colors with feeling;
+**Mangal (Mars)** sharpens/speeds/heats; **Shukra (Venus)** warms; **Rahu** jolts, obsesses, loads,
+intoxicates (no Western equal — the insatiable head); **Ketu** dissolves, severs, detaches (the headless
+body, the elliptical voice); **Surya (Sun)** sets the bearing. Build a FULL chart (ascendant + the aspects
+on Budh + the running *dasha*), not just a sun-sign.
+
 A character's natal chart is already a voice generator; we just have to read it.
 **Mercury** is the core — how the mind forms and fires language. The **Moon** colors
 it with feeling. Planets that aspect Mercury (or sit strong in the chart) bend it:

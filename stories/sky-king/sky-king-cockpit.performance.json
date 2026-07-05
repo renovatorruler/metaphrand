@@ -1,0 +1,260 @@
+[
+ {
+  "i": 0,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "A baggage cart idles on the floodlit ramp, then cuts out, and the noise drops to nothing."
+ },
+ {
+  "i": 1,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "Birdy stands at the foot of the airstair in his hi-vis vest, looking up at the dark open door of the parked Q400."
+ },
+ {
+  "i": 2,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "He glances back across the empty ramp, then climbs the airstair one slow step at a time."
+ },
+ {
+  "i": 3,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "He ducks through the door and stops in the black galley, letting his eyes adjust."
+ },
+ {
+  "i": 4,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "He steps up to the flight deck, rests a hand on the back of the left seat, and stays there a moment."
+ },
+ {
+  "i": 5,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "He lowers himself into the captain's seat and sits very still, hands in his lap."
+ },
+ {
+  "i": 6,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "Through the windscreen the runway lights run off into the dark."
+ },
+ {
+  "i": 7,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "He sets his feet on the rudder pedals and wraps his right hand around the yoke."
+ },
+ {
+  "i": 8,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "His left hand finds the power levers and rests there."
+ },
+ {
+  "i": 9,
+  "who": "BIRDY",
+  "tag": "[quietly]",
+  "text": "Before start checklist complete."
+ },
+ {
+  "i": 10,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "He thumbs an imaginary switch on the overhead and his lips move without sound."
+ },
+ {
+  "i": 11,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "His hand slides the power levers forward a few inches and holds them steady."
+ },
+ {
+  "i": 12,
+  "who": "BIRDY",
+  "tag": "[quietly]",
+  "text": "Power set."
+ },
+ {
+  "i": 13,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "He fixes his eyes down the dark runway and eases the yoke."
+ },
+ {
+  "i": 14,
+  "who": "BIRDY",
+  "tag": "[soft]",
+  "text": "Rotate."
+ },
+ {
+  "i": 15,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "He draws the yoke back into his stomach, slow and even, and his feet come off the pedals."
+ },
+ {
+  "i": 16,
+  "who": "BIRDY",
+  "tag": "[quietly]",
+  "text": "Positive rate."
+ },
+ {
+  "i": 17,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "His left hand leaves the levers, reaches down to the gear handle, and lifts it."
+ },
+ {
+  "i": 18,
+  "who": "BIRDY",
+  "tag": "[soft]",
+  "text": "Gear up."
+ },
+ {
+  "i": 19,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "He settles the yoke into a gentle bank and his shoulders turn with it."
+ },
+ {
+  "i": 20,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "His thumb rolls a trim wheel, easing pressure off the column."
+ },
+ {
+  "i": 21,
+  "who": "BIRDY",
+  "tag": "[quietly]",
+  "text": "Flaps up."
+ },
+ {
+  "i": 22,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "He holds the bank, eyes ahead, breathing slow, the runway lights wheeling under the nose."
+ },
+ {
+  "i": 23,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "A flashlight beam swings across the windscreen from the galley."
+ },
+ {
+  "i": 24,
+  "who": "WARD",
+  "tag": "[flat]",
+  "text": "Hey."
+ },
+ {
+  "i": 25,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "Birdy's hands drop off the yoke into his lap."
+ },
+ {
+  "i": 26,
+  "who": "WARD",
+  "tag": "[brisk]",
+  "text": "Off the controls. Out of the seat."
+ },
+ {
+  "i": 27,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "Birdy turns, blinking into the light."
+ },
+ {
+  "i": 28,
+  "who": "BIRDY",
+  "tag": "[apologetic]",
+  "text": "Sorry. Sorry, Captain."
+ },
+ {
+  "i": 29,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "He fumbles the seat belt loose and starts to lever himself up."
+ },
+ {
+  "i": 30,
+  "who": "BIRDY",
+  "tag": "[wry]",
+  "text": "Left my good seat warming for you."
+ },
+ {
+  "i": 31,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "Ward stands square in the galley, headset in one hand, and does not move aside."
+ },
+ {
+  "i": 32,
+  "who": "WARD",
+  "tag": "[matter-of-fact]",
+  "text": "I forgot my headset. You can't be up here."
+ },
+ {
+  "i": 33,
+  "who": "BIRDY",
+  "tag": "[quietly]",
+  "text": "No. You're right."
+ },
+ {
+  "i": 34,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "Birdy climbs out of the seat and squeezes past Ward toward the door, head down."
+ },
+ {
+  "i": 35,
+  "who": "WARD",
+  "tag": "[flat]",
+  "text": "Door's logged when you go."
+ },
+ {
+  "i": 36,
+  "who": "BIRDY",
+  "tag": "[quietly]",
+  "text": "Going."
+ },
+ {
+  "i": 37,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "Birdy steps out onto the airstair and works his way down to the ramp."
+ },
+ {
+  "i": 38,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "He stands on the floodlit concrete in his vest, the dark plane rising behind him."
+ },
+ {
+  "i": 39,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "A handheld radio on his belt crackles."
+ },
+ {
+  "i": 40,
+  "who": "RAMP LEAD",
+  "tag": "[matter-of-fact]",
+  "text": "Birdy, you clear of the aircraft?"
+ },
+ {
+  "i": 41,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "He lifts the radio without looking back at the plane."
+ },
+ {
+  "i": 42,
+  "who": "BIRDY",
+  "tag": "[tired]",
+  "text": "Yeah. Clear."
+ }
+]

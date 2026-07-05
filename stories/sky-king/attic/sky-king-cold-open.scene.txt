@@ -1,0 +1,18 @@
+SKY KING — EXT. SKY - DUSK / INT. Q400 COCKPIT - CONTINUOUS
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-cold-open.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The Q400 banks slow against a sky going orange, twin propellers catching the last light, the land far below soft and blue.
+ACTION: Inside the cockpit Birdy sits alone at the yoke in his ground-crew vest, the orange hi-vis bright against the dim panel.
+BIRDY: You there still?
+BISHOP (RADIO): I'm here, Birdy. Right here.
+BIRDY: I wish you could see this. The whole sky's gone gold. The mountains have got this little pink on the tops of them.
+BISHOP (RADIO): Tell me about it. I've got a window but it faces the parking lot.
+BIRDY: That's a shame. You're missing it. It's about the prettiest thing I ever saw and there's nobody up here but me.
+ACTION: A grey fighter jet slides into frame off the right wing, then a second settles off the left, holding close.
+BIRDY: I got some company now. Couple of jets came up alongside me. They're real close. I can see one of the fellas in there.
+BISHOP (RADIO): Those are escorts, Birdy. They've been with you a while.
+BIRDY: They fly nice. Steady. It's good of them to come up and ride along. I don't mind it.
+BISHOP (RADIO): Birdy, the light's going. I need you to start easing her down for me while we've still got it. Nice and slow.
+BIRDY: I don't think I can do that yet. I'm sorry. I'm just not ready to put it down.
+ACTION: The Q400 holds its slow turn into the last of the sun, the two jets riding its wings as the gold thins to a long red line on the horizon.

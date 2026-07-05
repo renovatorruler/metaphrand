@@ -1,0 +1,19 @@
+{
+  "name": "studio",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean",
+    "watch": "rescript -w",
+    "lint:hatches": "bash scripts/no-escape-hatches.sh",
+    "test": "npm run lint:hatches && rescript && node src/Test.res.mjs",
+    "flow": "rescript && node src/Flow.res.mjs",
+    "probe": "rescript && node src/Probe.res.mjs",
+    "smoke": "rescript && CLAUDE_STUDIO_BIN=\"$(pwd)/scripts/fake-claude.mjs\" CLAUDE_STUDIO_BUDGET=5 node src/Smoke.res.mjs"
+  },
+  "devDependencies": {
+    "rescript": "^11.1.4"
+  }
+}

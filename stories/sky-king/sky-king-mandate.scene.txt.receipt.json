@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-mandate",
+  "slug": "INT. AIRPORT OPERATIONS CENTER - COMMAND POST - NIGHT",
+  "seedHash": "1a5f8c930b4036953fb94f88239ae3700fe32928c235c37f16c699d2f7222df0",
+  "sceneHash": "8db0b9af9d2d4724d390c0da5df9e70740f4f25b44d30f5300e64ec9bb73d813",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

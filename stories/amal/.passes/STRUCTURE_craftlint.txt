@@ -1,0 +1,6 @@
+2 violations (0 HIGH):
+
+  L12   [MED] rule-of-three: way Aranyak, Delhi Crime, and Paatal Lok
+        -> three short parallel items — AI rhythm
+  L54   [MED] rule-of-three: and baffling, a woman and a bundle
+        -> three short parallel items — AI rhythm

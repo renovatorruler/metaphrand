@@ -1,0 +1,16 @@
+SKY KING — EXT. SEA-TAC PERIMETER - CCTV - GOLDEN HOUR
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-fence.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A fixed camera on the perimeter road holds a stretch of chain-link fence, and the timestamp in the corner reads 18:42 with the low sun flaring gold across the lens.
+ACTION: The man comes out of the scrub on the far side of the ditch, his hood up and a canvas bag across his back, and the long shadows run out ahead of him toward the fence.
+ACTION: He crosses the ditch and goes up the chain-link and over the wire in one motion, and the camera watches him drop to the road with the timestamp still running and nobody coming.
+ACTION: A camera on the fuel farm picks him up crossing the service road, his face turned away from the pole, while a fuel truck rolls past behind him and its driver looks the other way.
+ACTION: He walks the edge of the equipment rows and the camera above the baggage carts takes him from behind as the sun sits lower in this frame than the last.
+ACTION: Out on the apron a tug backs an aircraft off its gate, and the pushback crew work the nosewheel while the man passes along the far side of the carts and none of them turn their heads.
+ACTION: A camera on a light pole catches him in the open between two service lanes, and the floodlights on the ramp flick on early against the falling light while gulls lift off the grass around him.
+ACTION: He keeps to the blind side of each pole, and camera to camera his face never once comes toward a lens.
+ACTION: The last camera on the outer ramp takes him small and far, crossing the concrete toward the parked rows with his shadow stretched long across the paint.
+ACTION: He walks to the edge of the frame and out of it, and the camera does not follow.
+ACTION: The frame holds on empty concrete and the long gold shadows lying across it.
+ACTION: The timestamp in the corner ticks over, and far off in the corner of the image the tail of a parked airliner stands against the low sun.

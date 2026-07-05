@@ -186,6 +186,7 @@ def parse_screenplay(text: str, cast: dict[str, str], narrator: str) -> list[Utt
             if last_voice is not None:
                 pending = True  # wryly between a cue and its continued dialogue
             continue
+        opens_wryly = lines[0].startswith("(") and lines[0].endswith(")")
         if is_cue(lines[0]):
             name = norm(re.sub(r"\(.*?\)", "", lines[0])).upper()
             last_voice = voices.get(name, narrator)
@@ -193,13 +194,13 @@ def parse_screenplay(text: str, cast: dict[str, str], narrator: str) -> list[Utt
             if dialogue.strip():
                 out.append(Utterance(last_voice, _for_speech(dialogue), "screenplay"))
             pending = False
-        elif pending and last_voice is not None:
-            dialogue = spoken(lines)  # continued dialogue after a lone wryly
+        elif (pending or opens_wryly) and last_voice is not None:
+            dialogue = spoken(lines)  # continued dialogue (after a lone wryly, or a block that opens with one)
             if dialogue.strip():
                 out.append(Utterance(last_voice, _for_speech(dialogue), "screenplay"))
             pending = False
         else:
-            out.append(Utterance(narrator, _for_speech(" ".join(lines)), "screenplay"))
+            out.append(Utterance(narrator, _for_speech(spoken(lines)), "screenplay"))
             last_voice, pending = None, False
     return out
 

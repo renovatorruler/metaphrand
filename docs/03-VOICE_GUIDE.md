@@ -1,5 +1,10 @@
 # Voice Guide
 
+> **The layer law (2026-06-12):** "if it sounds like writing, cut it" now has an enforcement
+> arm — the `clear-pane` skill (~/.claude/skills/clear-pane). Intrigue belongs to events,
+> meaning, and intent; the text layer is a clear pane. Six families, thirty-one devices,
+> mandatory in every pipeline, every story.
+
 How the prose should sound, what every scene has to carry underneath, and what keeps the reader turning. Run any draft through this. If a page fails it, the page gets rewritten — not patched.
 
 ## The one rule

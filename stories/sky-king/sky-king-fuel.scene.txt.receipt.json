@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-fuel",
+  "slug": "EXT. AIRPORT RAMP / FUELING THE Q400 - DAY",
+  "seedHash": "4392a223ce8fd0caea7d417116ffa76d7cac39ee48a53416c72cb27a99c6d5d4",
+  "sceneHash": "7a77c2fe2aff448c4661fca94d73b1ec264dd21d14fd5b1a5f691bc26fc133cd",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

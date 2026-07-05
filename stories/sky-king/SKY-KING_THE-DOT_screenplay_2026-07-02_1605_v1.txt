@@ -1,0 +1,56 @@
+SKY KING — INT. SEATTLE APPROACH - RADAR ROOM - NIGHT
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-dot.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The radar room sits low and dark, and the scopes glow amber down the row of chairs.
+ACTION: Bishop leans into his with the headset on one ear and a paper coffee cup going cold by his elbow.
+ACTION: A slow primary return crawls up off the Sea-Tac surface, a soft blip with no data block beside it.
+ACTION: Bishop watches it take a couple of sweeps, then he taps the glass next to it.
+BISHOP: Hey, Price. You got anything working off the field down here, the southwest corner.
+ACTION: Price is turned toward his own scope with a hand on his headset, talking to his airplane.
+PRICE: Alaska twenty-six forty, descend and maintain eight thousand.
+ACTION: Price rolls his chair a few inches toward Bishop without really looking over.
+PRICE: That's not me. I got nothing down that low.
+BISHOP: I don't have a strip on it. Nobody handed it to me either.
+ACTION: Bishop pulls a strip out of the bay, turns it over, and sets it back.
+BISHOP: You didn't take a handoff on something coming off the ground down there.
+PRICE: Off the ground? No. Tower didn't ship me anything tonight.
+ACTION: The blip crawls another sweep to the southwest, steady, with nothing hanging next to it.
+BISHOP: It's squawking nothing. I don't even have an altitude on it.
+PRICE: So it's just a primary.
+BISHOP: Yeah. And it's moving.
+ACTION: Bishop keys his mic and holds it a second.
+BISHOP: Aircraft off the Seattle-Tacoma surface, southwest bound, this is Seattle Approach, ident and say your intentions.
+ACTION: The frequency opens with a hiss, a mic keys somewhere out there, and a slow breath comes through it with an engine droning behind.
+ACTION: Bishop waits. The carrier holds open. The breathing stays on the line.
+ACTION: Then the mic clicks off and the frequency goes flat.
+ACTION: Bishop drops his voice toward Price without turning his head.
+BISHOP (WHISPER): He keyed up. He's just not saying anything back.
+ACTION: Price finally looks over at Bishop's scope.
+PRICE: He answered you?
+BISHOP: He keyed the mic. There was somebody breathing on it.
+ACTION: Bishop keys the mic again, flat and even.
+BISHOP: Aircraft southwest of Sea-Tac, Seattle Approach, if you read me, go ahead.
+ACTION: The carrier breaks open again, a breath, the engine under it, and then the click of the mic dropping.
+ACTION: Bishop pulls the headset off his ear and turns toward the supervisor's desk across the room.
+BISHOP: Hey. You want to come take a look at this one.
+ACTION: The supervisor gets up from his desk without any hurry and comes across to stand behind Bishop's chair.
+SUPERVISOR: What've you got.
+BISHOP: Primary target, no data block, came up off the Sea-Tac surface. No strip, no flight plan on it. I hailed him twice, and he keys up and you can hear him breathing on it and then it just drops off again.
+SUPERVISOR: Nobody worked a handoff.
+BISHOP: Nothing. Price doesn't have him either.
+PRICE: Not mine.
+ACTION: The supervisor leans down closer to the glass and watches the blip take a sweep.
+SUPERVISOR: Try him one more time.
+ACTION: Bishop keys the mic once more.
+BISHOP: Aircraft southwest bound off Sea-Tac, this is Seattle Approach. Go ahead and tell me what you're doing out there.
+ACTION: The frequency opens. A breath comes first, close on the mic, and a soft voice finds its way onto it.
+BIRDY (RADIO): Yeah, hi. Sorry to bug you here.
+BIRDY (RADIO): I, uh... I kind of did a bad thing.
+BIRDY (RADIO): I'm real sorry about it. This airplane's not... it's not really mine to have.
+ACTION: Nobody in the room says anything. Price has both hands on his headset and he isn't talking to his airplane anymore.
+ACTION: The supervisor straightens up and looks at the blip a second longer.
+ACTION: He steps back to the desk and lifts the landline off its cradle.
+SUPERVISOR: This is the one for DHS.
+ACTION: He starts dialing without looking anything up.
+ACTION: On the scope the amber blip crawls past the coastline and out over the black of the water, no data block beside it.

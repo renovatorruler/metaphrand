@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-late",
+  "slug": "EXT. AIRPORT RAMP - DAWN",
+  "seedHash": "b27f5c0e8058fdce0ab16d929368eb9463ffdf797a86b11c065d156da00e8acf",
+  "sceneHash": "bd0095b1a5bc6f9074da5cf83481edd4c7bcd5938a70bf2f48ea9d480785d573",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

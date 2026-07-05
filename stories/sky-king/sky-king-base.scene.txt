@@ -1,0 +1,59 @@
+SKY KING — INT. ALERT FACILITY, AIR NATIONAL GUARD FIGHTER BASE - DAY
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-base.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The room holds two vinyl recliners, a folding table, a wall clock, and a coffee maker with the pot half-empty. DEACON sits with a binder open on his knee, reading. BANJO is sunk low in the second recliner, one boot up on the folding table, working a plastic spoon around an empty yogurt cup.
+BANJO: They put the strawberry back in the machine. Row C. I checked twice.
+ACTION: DEACON turns a page.
+BANJO: I'm not saying it's a big thing. It's just the strawberry's the one nobody buys, so it just sits there, and the peanut ones are gone by like nine every morning, and nobody ever moves them around, that's all.
+DEACON: Put it on the sheet.
+BANJO: On the sheet?
+DEACON: The DFAC comment sheet. By the door.
+BANJO: Yeah. I'll write up the yogurt.
+ACTION: BANJO drops the cup on the table. It rolls a little and stops. The clock ticks. DEACON keeps reading.
+BANJO: This chair's got a thing in it now. Right here, in the back, like a bolt or something come loose, so when you lean it just kind of. It doesn't go all the way anymore.
+DEACON: They swapped it in March.
+BANJO: This is the swapped one.
+DEACON: Maintenance can look at it.
+BANJO: I don't want maintenance to look at it, I just want to lean back in the chair.
+ACTION: DEACON doesn't answer. He reaches for his coffee, finds it cold, sets it back down without drinking.
+BANJO: You ever count how many times we been out here this month.
+DEACON: We're on the schedule through Thursday.
+BANJO: No, I know we're on the schedule. I mean sitting here. Like this. The two of us in the chairs.
+DEACON: It's the rotation.
+BANJO: I know it's the rotation.
+ACTION: BANJO takes his boot off the table and sits up a little.
+BANJO: You talk to Karen this week or.
+DEACON: About what.
+BANJO: I don't know. Anything. She good.
+DEACON: She's fine.
+BANJO: That's good. That's good, that she's fine.
+ACTION: DEACON turns another page. BANJO watches him for a second, then looks back at the clock.
+BANJO: You could just say the thing. Whatever it is. It's just me out here.
+DEACON: Nothing to say.
+BANJO: Okay.
+DEACON: Read your checklist stuff. You're due for the quals.
+BANJO: I did the quals.
+DEACON: The recurring.
+ACTION: BANJO leans his head back against the broken recliner and stares up.
+BANJO: Right. The recurring.
+ACTION: A loud tone cuts through the room from the wall speaker. Both men are up out of the chairs before the second beat, moving. DEACON's binder hits the floor. They cross to the gear.
+RADIO: Alert, alert, unknown low and slow, scramble the alert.
+ACTION: DEACON has his G-suit half on, one leg zipped, reaching for the harness. BANJO is right beside him, helmet already in his hand, breathing hard.
+DEACON: You got the freq.
+BANJO: I got it.
+ACTION: The wall speaker crackles again.
+RADIO: Stand down, stand down. Contact's turned. He's a strayed Cessna, he's coming about, we got him. Stand down the alert.
+ACTION: Neither man moves for a moment. DEACON stands there with one leg of the suit zipped, the harness in his hand. BANJO lowers the helmet.
+BANJO: Turned around.
+DEACON: Copy the stand-down.
+ACTION: DEACON unzips the suit leg. He picks his binder up off the floor and sets it back on the table. BANJO stands by the gear a second longer, then hangs the helmet back on the hook.
+BANJO: A Cessna.
+DEACON: They wander up out of the county strip. Happens.
+ACTION: BANJO walks back to the recliners and drops into the broken one. It doesn't lean.
+BANJO: We're gonna do this till they hand us the paperwork, you know that.
+ACTION: DEACON sits down, opens the binder to where he was.
+BANJO: Just you and me out here. And that strawberry nobody even eats.
+DEACON: Write it up.
+BANJO: I'll write it up.
+ACTION: DEACON reads. BANJO looks at the ceiling. The clock ticks. Neither of them says anything for a while.

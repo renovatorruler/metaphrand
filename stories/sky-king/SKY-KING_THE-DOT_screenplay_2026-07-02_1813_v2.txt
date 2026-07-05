@@ -1,0 +1,46 @@
+SKY KING — INT. SEATTLE APPROACH - RADAR ROOM - NIGHT
+[engine-emitted; verify against /Users/dusty/dev/brehon-law/stories/sky-king/sky-king-dot.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The radar room runs half-dark and quiet. Most of the scopes are dimmed, and a coffee goes cold at Bishop's elbow.
+ACTION: Bishop leans into his scope and works the trackball, following a slow return that crawled off the Sea-Tac ground a minute ago.
+BISHOP: Price. You got anything working off the field down there?
+ACTION: Price rolls his chair a few inches and looks at Bishop's scope without much interest.
+PRICE: Off Sea-Tac? Nothing of mine. Everything I've got is up north.
+BISHOP: There's no ID on him. No altitude coming off him either, just the blip. Tower never called me anything.
+PRICE: Then it's not really a thing. Somebody's ground equipment, probably.
+BISHOP: It's moving, though. Came off the ground a minute ago.
+ACTION: At the desk behind them, Kemp caps a pen and signs the last page in a thin folder. His visitor badge sits clipped crooked, and his jacket is already over one arm.
+BISHOP: Aircraft off Seattle-Tacoma, this is Seattle Approach. Identify, and say your intentions.
+ACTION: The frequency keys. Under the carrier hiss there's a breath and the drone of an engine, and then the mic clicks off.
+BISHOP: Aircraft off Sea-Tac, Seattle Approach, you're coming in with your mic but I'm not hearing any words. Say again.
+ACTION: The mic keys a second time. The same breath comes through with the same engine behind it, and then it clicks off.
+ACTION: Bishop half-turns from the scope and lifts a hand toward the desk.
+BISHOP: Hey. Can you come look at this a second. I got somebody keying up on me and not saying anything.
+ACTION: Kemp sets his pen down and drifts up behind the two chairs with the jacket still over his arm.
+KEMP: That a thing that happens? Somebody keys the radio and doesn't talk?
+BISHOP: It happens. Not usually off a target with nothing on it.
+KEMP: Because if it's routine I don't put it in the writeup. If it's not routine, I do.
+ACTION: The supervisor comes up behind Bishop's chair and leans a hand on the seatback.
+SUPERVISOR: Where'd he come off.
+BISHOP: The Sea-Tac ground. Nobody filed a plan for him. He's just out there with no tag on him at all.
+SUPERVISOR: Hit him again. Let me hear it.
+BISHOP: Aircraft off Sea-Tac, Seattle Approach. Say your call sign, tell me what you're doing.
+ACTION: The frequency opens, and a soft voice comes through under the engine.
+BIRDY (RADIO): Hey, uh. Sorry to bug you guys.
+ACTION: Nobody in the room moves. The blip crawls one notch across Bishop's scope.
+BIRDY (RADIO): I, uh. I kind of did a bad thing here. I got one of the airplanes up and it's, it's not really mine to have. So. Real sorry about it.
+ACTION: The supervisor straightens off the seatback and looks at the badge on Kemp's shirt.
+SUPERVISOR: You're still on the property.
+KEMP: I was signing out.
+SUPERVISOR: Soon as it left the ground it's a federal thing. You're the only federal I've got standing here. So it's yours.
+ACTION: Kemp moves the jacket to his other arm and looks at the phone on the wall by the desk.
+KEMP: Okay. What is he. Somebody give me what he actually is, because I've got to say it to the watch floor and it has to hold up.
+BISHOP: No ID on him, no altitude. He came off Sea-Tac, and there's a guy on the radio telling me the airplane isn't his.
+KEMP: So it's just him. Not a crew flying it.
+BISHOP: One voice on there. Sounds like just the one.
+ACTION: Kemp lifts the phone off the hook and holds it against his chest without dialing.
+KEMP: A civilian took an aircraft off the field. No. A guy off the ground got an airplane up and he's...
+ACTION: Kemp thumbs the number and puts the phone to his ear, and his eyes stay on the blip.
+KEMP: This is Kemp, DHS, out here at Seattle Approach. I've got a ground worker who took an airliner off Sea-Tac, and he's up flying it right now.
+ACTION: Nobody at the scopes says anything. The blip crawls off the coastline on Bishop's screen and out over the black of the water.

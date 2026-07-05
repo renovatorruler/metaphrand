@@ -1,0 +1,34 @@
+[
+ {
+  "group": 0,
+  "scene": "s1",
+  "frame": "s1",
+  "path": "stories/sky-king/performance/segments/grp_ba493aa161114b94.mp3",
+  "duration": 31.52,
+  "gap_after_ms": 700
+ },
+ {
+  "group": 1,
+  "scene": "s2",
+  "frame": "s2",
+  "path": "stories/sky-king/performance/segments/grp_47452e446c275bb2.mp3",
+  "duration": 48.72,
+  "gap_after_ms": 700
+ },
+ {
+  "group": 2,
+  "scene": "s3",
+  "frame": "s3",
+  "path": "stories/sky-king/performance/segments/grp_ded6043810bb530a.mp3",
+  "duration": 28.72,
+  "gap_after_ms": 700
+ },
+ {
+  "group": 3,
+  "scene": "s4",
+  "frame": "s4",
+  "path": "stories/sky-king/performance/segments/grp_b4711260747272b9.mp3",
+  "duration": 6.32,
+  "gap_after_ms": 0
+ }
+]

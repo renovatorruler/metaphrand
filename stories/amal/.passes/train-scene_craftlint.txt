@@ -1,0 +1,18 @@
+8 violations (0 HIGH):
+
+  L3    [MED] short-sentence: Supersedes the   version.
+        -> 3-word punch sentence — humans don't end on two words for effect
+  L28   [MED] short-sentence: She says nothing.
+        -> 3-word punch sentence — humans don't end on two words for effect
+  L42   [MED] short-sentence: The flat hand.
+        -> 3-word punch sentence — humans don't end on two words for effect
+  L48   [MED] rule-of-three: and stretches, slow, and as he
+        -> three short parallel items — AI rhythm
+  L55   [MED] short-sentence: Rajesh leans in.
+        -> 3-word punch sentence — humans don't end on two words for effect
+  L118  [MED] short-sentence: She gets up.
+        -> 3-word punch sentence — humans don't end on two words for effect
+  L151  [MED] short-sentence: A beat.
+        -> 2-word punch sentence — humans don't end on two words for effect
+  L168  [MED] rule-of-three: split, packed and taped
+        -> three short parallel items — AI rhythm

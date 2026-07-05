@@ -1,0 +1,44 @@
+21 violations (4 HIGH):
+
+  L0    [MED] em-dash-density: 30 dashes / 1391 words
+        -> 21.6 per 1000 words (>8) — AI over-uses the em-dash
+  L7    [MED] short-sentence: v6.
+        -> 1-word punch sentence — humans don't end on two words for effect
+  L13   [HIGH] staccato-run: …
+        -> 3 very short sentences in a row — AI punchy cadence
+  L23   [HIGH] staccato-run: …
+        -> 4 very short sentences in a row — AI punchy cadence
+  L47   [MED] short-sentence: A beat.
+        -> 2-word punch sentence — humans don't end on two words for effect
+  L47   [MED] short-sentence: Her read shifts.
+        -> 3-word punch sentence — humans don't end on two words for effect
+  L47   [MED] short-sentence: He doesn't know.
+        -> 3-word punch sentence — humans don't end on two words for effect
+  L53   [MED] short-sentence: Miles, rattled.
+        -> 2-word punch sentence — humans don't end on two words for effect
+  L53   [HIGH] staccato-run: …
+        -> 4 very short sentences in a row — AI punchy cadence
+  L85   [MED] short-sentence: Miles turns.
+        -> 2-word punch sentence — humans don't end on two words for effect
+  L93   [MED] short-sentence: Doesn't keep it.
+        -> 3-word punch sentence — humans don't end on two words for effect
+  L131  [MED] short-sentence: Norwood doesn't move.
+        -> 3-word punch sentence — humans don't end on two words for effect
+  L135  [MED] rule-of-three: Norwood rises, slow, and buttons his
+        -> three short parallel items — AI rhythm
+  L139  [MED] short-sentence: He goes.
+        -> 2-word punch sentence — humans don't end on two words for effect
+  L141  [MED] short-sentence: Now it isn't.
+        -> 3-word punch sentence — humans don't end on two words for effect
+  L151  [MED] short-sentence: Miles opens it.
+        -> 3-word punch sentence — humans don't end on two words for effect
+  L151  [MED] short-sentence: His own name.
+        -> 3-word punch sentence — humans don't end on two words for effect
+  L151  [MED] short-sentence: His Union address.
+        -> 3-word punch sentence — humans don't end on two words for effect
+  L151  [HIGH] staccato-run: …
+        -> 3 very short sentences in a row — AI punchy cadence
+  L161  [MED] short-sentence: A beat.
+        -> 2-word punch sentence — humans don't end on two words for effect
+  L167  [MED] short-sentence: At the gold.
+        -> 3-word punch sentence — humans don't end on two words for effect

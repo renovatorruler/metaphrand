@@ -1,0 +1,8 @@
+3 violations (0 HIGH):
+
+  L69   [MED] rule-of-three: the route, trucks now and trains before
+        -> three short parallel items — AI rhythm
+  L71   [MED] rule-of-three: forty, two pattas, and a first
+        -> three short parallel items — AI rhythm
+  L92   [MED] rule-of-three: a death, courtesy and poison in
+        -> three short parallel items — AI rhythm

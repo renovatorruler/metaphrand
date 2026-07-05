@@ -1,0 +1,91 @@
+SKY KING — Scene: "THE ORDER"  (Act 3 — the institutional move, beat 1)
+29 June 2026 — v1
+
+[ Holt sends Reyes in. Deniable: Holt never instructs a lie, never says a word
+  he couldn't defend later. The reassurance Reyes gives is NOT flagged as
+  hollow — that's revealed much later. Spare. One fix marked below: cut the
+  "County." echo (the exact reflective-dialogue tell). ]
+
+----------------------------------------------------------------
+
+INT. INCIDENT COMMAND POST — NIGHT
+
+Folding tables. Radios. The city out the window, far down.
+
+HOLT stands over a chart, sleeves rolled. REYES comes in still in his
+suit, county lanyard, woken from somewhere.
+
+REYES
+They said a plane.
+
+HOLT
+Baggage handler. Took a turboprop off the south apron.
+
+REYES
+And you want a prosecutor.
+
+HOLT
+I want him on the ground.
+
+Reyes looks at the radio. At the dark beyond the glass — two faint
+shapes holding off the wing lights of the third.
+
+REYES
+What am I telling him.
+
+HOLT
+Whatever puts him down.
+
+A beat. Reyes waits for more. Holt goes back to the chart.
+
+HOLT (CONT'D)
+You're better with people than I am.
+
+He doesn't look up. Reyes takes the headset.
+
+INTERCUT — THE COCKPIT
+
+BIRDY, small in the seat. The yoke loose in his hands. BISHOP's voice
+steady in his ear, mid-sentence.
+
+BISHOP (V.O.)
+— got somebody here wants to say hello. That alright.
+
+BIRDY
+Sure.
+
+REYES (V.O.)
+Birdy. My name's Reyes. I work for the county.
+
+Birdy watches the lights of a jet slide closer, then ease back.
+
+BIRDY
+They woke a lawyer up for me.                <!-- fix: was the echo "County." -->
+
+REYES (V.O.)
+I'm not here to make this bigger than it is. You come on in, we sit
+down, we work out what this really is. It won't be the thing you're
+picturing.
+
+Birdy is quiet. The engines drone.
+
+BIRDY
+You can do that.
+
+REYES (V.O.)
+I can sit at the table. That's a start, isn't it.
+
+A long beat. Birdy's eyes go to the city below, all of it lit.
+
+BIRDY
+It's a nice view from here.
+
+He doesn't say no. He doesn't say yes. The jet holds on his wing.
+
+BISHOP (V.O.)
+Still got you, Birdy.
+
+BIRDY
+Yeah.
+
+He keeps flying.

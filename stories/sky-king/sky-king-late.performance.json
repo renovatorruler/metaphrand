@@ -1,0 +1,224 @@
+[
+ {
+  "i": 0,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "A Q400 sits dark on the ramp, props still, ground lights bleeding across wet tarmac."
+ },
+ {
+  "i": 1,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "Birdy jogs in from the lot, thermos under one arm, and swipes his badge at the clock. The reader chirps and flashes red."
+ },
+ {
+  "i": 2,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "Tanner stands at the job board with a tablet, thumb dragging down a schedule."
+ },
+ {
+  "i": 3,
+  "who": "BIRDY",
+  "tag": "[warm]",
+  "text": "Morning. Put me on the Q400. She's mine to marshal, I'll have her turned before the coffee's cold."
+ },
+ {
+  "i": 4,
+  "who": "TANNER",
+  "tag": "[flat]",
+  "text": "You badged in at six-eleven."
+ },
+ {
+  "i": 5,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "Tanner taps Birdy's name, drags it down the board."
+ },
+ {
+  "i": 6,
+  "who": "BIRDY",
+  "tag": "[light]",
+  "text": "Baby had a night. I made the drive up in twenty."
+ },
+ {
+  "i": 7,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "Behind them a belt loader idles at the cargo door, unmanned, and starts to creep on the slope. Birdy is already moving."
+ },
+ {
+  "i": 8,
+  "who": "BIRDY",
+  "tag": "[quickly]",
+  "text": "Loader's rolling."
+ },
+ {
+  "i": 9,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "Birdy crosses, drops into the seat, sets the brake, kills the engine. Down the taxiway a set of landing lights swings onto the ramp early."
+ },
+ {
+  "i": 10,
+  "who": "BIRDY",
+  "tag": "[matter-of-fact]",
+  "text": "And your inbound's early. She's turning off Bravo now."
+ },
+ {
+  "i": 11,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "Tanner glances up, checks the tablet, looks back down."
+ },
+ {
+  "i": 12,
+  "who": "TANNER",
+  "tag": "[clipped]",
+  "text": "Good. Lav service. Truck's fueled, both birds need it before the wave."
+ },
+ {
+  "i": 13,
+  "who": "BIRDY",
+  "tag": "[gently]",
+  "text": "You sure? I can have the four-hundred loaded by the time they cross the fence."
+ },
+ {
+  "i": 14,
+  "who": "TANNER",
+  "tag": "[flat]",
+  "text": "Lav's open. Take it."
+ },
+ {
+  "i": 15,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "Tanner is already walking, thumb on the tablet, headed for the fuel island."
+ },
+ {
+  "i": 16,
+  "who": "TANNER",
+  "tag": "[brisk]",
+  "text": "Ops, ramp lead, inbound's early, pull the crew up."
+ },
+ {
+  "i": 17,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "Dez comes around the tail of the lav truck, hose over his shoulder, watching Tanner go."
+ },
+ {
+  "i": 18,
+  "who": "DEZ",
+  "tag": "[dry]",
+  "text": "Twelve years and the kid's got you pumping toilets."
+ },
+ {
+  "i": 19,
+  "who": "BIRDY",
+  "tag": "[amused]",
+  "text": "Somebody's gotta. Might as well be the handsome one."
+ },
+ {
+  "i": 20,
+  "who": "DEZ",
+  "tag": "[dry]",
+  "text": "He couldn't find the fuel port without you standing there pointing."
+ },
+ {
+  "i": 21,
+  "who": "BIRDY",
+  "tag": "[wry]",
+  "text": "He found the board all right."
+ },
+ {
+  "i": 22,
+  "who": "DEZ",
+  "tag": "[grumbling]",
+  "text": "Year and a half. Year and a half and a clipboard and he's telling you where to stand."
+ },
+ {
+  "i": 23,
+  "who": "BIRDY",
+  "tag": "[gentle]",
+  "text": "He's got numbers to hit. I was late."
+ },
+ {
+  "i": 24,
+  "who": "DEZ",
+  "tag": "[dry]",
+  "text": "You were late once. He's late in the head every day of the week."
+ },
+ {
+  "i": 25,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "Birdy climbs up, hooks the drain, cranks the valve. The truck shudders and pulls."
+ },
+ {
+  "i": 26,
+  "who": "BIRDY",
+  "tag": "[wry]",
+  "text": "There. See. Skilled labor."
+ },
+ {
+  "i": 27,
+  "who": "DEZ",
+  "tag": "[quietly]",
+  "text": "You should've said something."
+ },
+ {
+  "i": 28,
+  "who": "BIRDY",
+  "tag": "[a small laugh]",
+  "text": "I did. I said good morning."
+ },
+ {
+  "i": 29,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "Birdy sets the thermos on the truck step and pulls a wax-paper bundle from his coat. He unfolds it."
+ },
+ {
+  "i": 30,
+  "who": "BIRDY",
+  "tag": "[warm]",
+  "text": "Maya put too much in again. Egg and cheese. She thinks I'm two men."
+ },
+ {
+  "i": 31,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "He tears the sandwich down the middle and holds half out to Dez."
+ },
+ {
+  "i": 32,
+  "who": "BIRDY",
+  "tag": "[gentle]",
+  "text": "Here. Before it's cold."
+ },
+ {
+  "i": 33,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "Dez takes it, still watching the fuel island."
+ },
+ {
+  "i": 34,
+  "who": "DEZ",
+  "tag": "[quietly]",
+  "text": "I'd have said something."
+ },
+ {
+  "i": 35,
+  "who": "BIRDY",
+  "tag": "[soft]",
+  "text": "I know you would."
+ },
+ {
+  "i": 36,
+  "who": "NARRATOR",
+  "tag": "",
+  "text": "They lean against the lav truck and eat. Across the ramp the inbound Q400 rolls in, wands up, crew running to meet it. Tanner stands at the fuel island counting drums, tablet up, not looking their way."
+ }
+]

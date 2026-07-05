@@ -1,0 +1,519 @@
+{
+ "title": "Free Ross \u2014 The Porch Light",
+ "model_id": "eleven_v3",
+ "output_format": "mp3_44100_128",
+ "gaps_ms": {
+  "group": 700
+ },
+ "cast": {
+  "N": {
+   "voice": "George",
+   "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+   "direction": "in-character, naturalistic, unhurried"
+  },
+  "ROSS": {
+   "voice": "Bill",
+   "voice_id": "pqHfZKP75CvOlQylNhV4",
+   "direction": "in-character, naturalistic, unhurried"
+  },
+  "COLE": {
+   "voice": "Antoni",
+   "voice_id": "ErXwobaYiN019PkySvjV",
+   "direction": "in-character, naturalistic, unhurried"
+  },
+  "SADIE": {
+   "voice": "Sarah",
+   "voice_id": "EXAVITQu4vr4xnSDxMaL",
+   "direction": "in-character, naturalistic, unhurried"
+  },
+  "ENYA": {
+   "voice": "Domi",
+   "voice_id": "AZnzlk1XvdvUeBnXmlld",
+   "direction": "in-character, naturalistic, unhurried"
+  },
+  "RUTH": {
+   "voice": "Matilda",
+   "voice_id": "XrExE9yKIg1WjnnlVkGX",
+   "direction": "in-character, naturalistic, unhurried"
+  },
+  "TOMAS": {
+   "voice": "Clyde",
+   "voice_id": "2EiwWnXFnvU5JabPnv8n",
+   "direction": "in-character, naturalistic, unhurried"
+  },
+  "SURETY": {
+   "voice": "Daniel",
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "direction": "in-character, naturalistic, unhurried"
+  },
+  "NERV": {
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "direction": "in-character, naturalistic, unhurried"
+  }
+ },
+ "segments": [
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "N",
+   "text": "The Free Ross Detective Agency. A converted storefront \u2014 mismatched desks, a good coffee machine, the underdog shop. A nervous man clutches a receipt across the desk from Ross Underwood."
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "NERV",
+   "text": "I'm telling you, the watch was in the drawer when I left and gone when I came back. My brother-in-law was the only one in the house."
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "N",
+   "text": "Ross doesn't look at the receipt. He looks at the man's hands."
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "ROSS",
+   "text": "How long'd you rehearse that?"
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "NERV",
+   "text": "[confused] What?"
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "ROSS",
+   "text": "\"In the drawer when I left, gone when I came back.\" Clean. No ums. You said it to the mirror."
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "NERV",
+   "text": "I'm just trying to be\u2014"
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "ROSS",
+   "text": "Your brother-in-law's broke and you're not. And you'd rather lose a watch than have a Tuesday where you ask him to his face. Go home. Ask him. He already wants to tell you."
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "N",
+   "text": "The man sits a moment, then goes. Ruth Marrow, the agency's in-house arbitrator, drops a file on the desk."
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "RUTH",
+   "text": "You could've taken his money."
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "ROSS",
+   "text": "He didn't have a case. He had a grudge with a coat on."
+  },
+  {
+   "scene": "s1",
+   "frame": "s1",
+   "speaker": "RUTH",
+   "text": "This one's a case. Showdown's Thursday. We're the defense."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "N",
+   "text": "Ross opens the file. A photo: a teenage girl, Sadie, in a wheelchair, with eyes that have decided not to need anyone."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "RUTH",
+   "text": "Cole Vance is claiming against his neighbor. His sixteen-year-old went onto the man's lot at night. Empty in-ground pool, mid-construction, no fence. She fell in. Spinal. She'll need care the rest of her life."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "ROSS",
+   "text": "And the neighbor's our client."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "RUTH",
+   "text": "Tomas Reyes. Left a hole in the ground unsecured. On the facts, he's done. Cole's asking eleven thousand grams, lifetime surety. Tomas couldn't cover a tenth of it."
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "ROSS",
+   "text": "So why'd Tomas hire us instead of folding?"
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "RUTH",
+   "text": "Because he says the girl didn't fall. He won't explain. He just keeps saying it \u2014 \"you don't fall in that hole, Mr. Ross.\""
+  },
+  {
+   "scene": "s2",
+   "frame": "s2",
+   "speaker": "N",
+   "text": "Ross looks at the photo of Sadie a beat too long."
+  },
+  {
+   "scene": "s3",
+   "frame": "s3",
+   "speaker": "N",
+   "text": "The Reyes kitchen. Tomas \u2014 a contractor's hands, a careful man \u2014 won't sit still."
+  },
+  {
+   "scene": "s3",
+   "frame": "s3",
+   "speaker": "TOMAS",
+   "text": "I fence it a week early, none of this. But you can't un-leave a hole open. I'm not saying the girl's lying. I'm saying somebody is \u2014 and it isn't the hole."
+  },
+  {
+   "scene": "s3",
+   "frame": "s3",
+   "speaker": "ROSS",
+   "text": "Walk me through the night."
+  },
+  {
+   "scene": "s3",
+   "frame": "s3",
+   "speaker": "TOMAS",
+   "text": "I was asleep. I heard nothing. That's the thing. A kid goes into a pit that deep, there's a sound. I sleep with the window open. Forty years. I'd have heard it."
+  },
+  {
+   "scene": "s3",
+   "frame": "s3",
+   "speaker": "N",
+   "text": "Ross writes nothing down. He files it away."
+  },
+  {
+   "scene": "s4",
+   "frame": "s4",
+   "speaker": "N",
+   "text": "The Vance house. Immaculate. Cole Vance makes coffee he doesn't drink \u2014 a man holding himself together with both hands."
+  },
+  {
+   "scene": "s4",
+   "frame": "s4",
+   "speaker": "COLE",
+   "text": "She snuck out. Kids. She went over there in the dark, and that man left a grave open in his yard. The porch light was off \u2014 ours. She couldn't see the step."
+  },
+  {
+   "scene": "s4",
+   "frame": "s4",
+   "speaker": "ROSS",
+   "text": "Whose porch light?"
+  },
+  {
+   "scene": "s4",
+   "frame": "s4",
+   "speaker": "COLE",
+   "text": "Ours. It was off."
+  },
+  {
+   "scene": "s4",
+   "frame": "s4",
+   "speaker": "ROSS",
+   "text": "Why?"
+  },
+  {
+   "scene": "s4",
+   "frame": "s4",
+   "speaker": "COLE",
+   "text": "[too quickly] Bulb. We'd been meaning to."
+  },
+  {
+   "scene": "s4",
+   "frame": "s4",
+   "speaker": "N",
+   "text": "Ross nods, and lets it sit. Down the hall, Sadie appears in her doorway. She's heard her father say \"the porch light was off.\" Her face does something. She wheels out of sight."
+  },
+  {
+   "scene": "s5",
+   "frame": "s5",
+   "speaker": "N",
+   "text": "Back at the agency. A woman waits across the bullpen \u2014 Enya Shore, Union-crisp, with a badge-holder's posture in a world that has no badges."
+  },
+  {
+   "scene": "s5",
+   "frame": "s5",
+   "speaker": "RUTH",
+   "text": "That's the claimant's investigator. Cole hired up. She built his whole file \u2014 pool unsecured, attractive nuisance, the medicals. It's airtight."
+  },
+  {
+   "scene": "s5",
+   "frame": "s5",
+   "speaker": "N",
+   "text": "Enya comes over. Even. A true believer."
+  },
+  {
+   "scene": "s5",
+   "frame": "s5",
+   "speaker": "ENYA",
+   "text": "Mr. Underwood. I've read about your method."
+  },
+  {
+   "scene": "s5",
+   "frame": "s5",
+   "speaker": "ROSS",
+   "text": "There's no method."
+  },
+  {
+   "scene": "s5",
+   "frame": "s5",
+   "speaker": "ENYA",
+   "text": "There's a hole in the ground, a man who left it open, and a child who can't walk. Three facts, all on the table. You're going to try to make a feeling outweigh that. I want to watch you try."
+  },
+  {
+   "scene": "s5",
+   "frame": "s5",
+   "speaker": "ROSS",
+   "text": "You built the cleanest case you've ever seen, you said."
+  },
+  {
+   "scene": "s5",
+   "frame": "s5",
+   "speaker": "ENYA",
+   "text": "I did."
+  },
+  {
+   "scene": "s5",
+   "frame": "s5",
+   "speaker": "ROSS",
+   "text": "That's what bothers me."
+  },
+  {
+   "scene": "s6",
+   "frame": "s6",
+   "speaker": "N",
+   "text": "Ross, alone with two photos \u2014 Sadie's face, and Cole at his spotless counter. Ruth in the doorway."
+  },
+  {
+   "scene": "s6",
+   "frame": "s6",
+   "speaker": "ROSS",
+   "text": "Cole told me the porch light was off three times. Tomas told me his was off once, like it didn't matter \u2014 because it didn't. A man tells you twice the broken thing was the bulb, when you didn't ask? The bulb's not broken. He turned it off."
+  },
+  {
+   "scene": "s6",
+   "frame": "s6",
+   "speaker": "RUTH",
+   "text": "People turn off porch lights."
+  },
+  {
+   "scene": "s6",
+   "frame": "s6",
+   "speaker": "ROSS",
+   "text": "Not the night their kid's out. You leave it on so she can find the step \u2014 unless you don't want her coming back in yet."
+  },
+  {
+   "scene": "s6",
+   "frame": "s6",
+   "speaker": "RUTH",
+   "text": "[realizing] They fought."
+  },
+  {
+   "scene": "s6",
+   "frame": "s6",
+   "speaker": "ROSS",
+   "text": "She didn't sneak out. He put her out. Close enough that he can call it sneaking and still sleep. She went into the dark, mad, and found the only hole on the street. He's known since the sound he didn't hear, either."
+  },
+  {
+   "scene": "s6",
+   "frame": "s6",
+   "speaker": "RUTH",
+   "text": "You can't establish that. There's no witness. There's a porch light."
+  },
+  {
+   "scene": "s6",
+   "frame": "s6",
+   "speaker": "ROSS",
+   "text": "I don't have to establish it. I have to make him unable to bet on the lie. Seal the showdown. And put Sadie in the room."
+  },
+  {
+   "scene": "s7",
+   "frame": "s7",
+   "speaker": "N",
+   "text": "The arbitration hall. Spare, almost sacred. A felt-topped table; a surety-master deals the claim like a hand. Cole and Enya on one side, Ross and Tomas on the other. Ruth, the neutral. Sadie at the back, in her chair."
+  },
+  {
+   "scene": "s7",
+   "frame": "s7",
+   "speaker": "SURETY",
+   "text": "Vance claims against Reyes. Eleven thousand grams, lifetime. Reyes' position."
+  },
+  {
+   "scene": "s7",
+   "frame": "s7",
+   "speaker": "ROSS",
+   "text": "We don't contest the hole. We don't contest the injury. We contest the cause. You established a path \u2014 steps, street, lot. You established everything except the one thing that pays: that she fell because Tomas left it open. So I'm going to ask the claimant to stake that. Just that. Raise on it, Cole. Put grams on \"my daughter fell.\""
+  },
+  {
+   "scene": "s7",
+   "frame": "s7",
+   "speaker": "ENYA",
+   "text": "He doesn't have to stake a fact you can't disprove."
+  },
+  {
+   "scene": "s7",
+   "frame": "s7",
+   "speaker": "ROSS",
+   "text": "He raised eleven thousand on it sight unseen. I'm asking him to raise one. One gram, Cole. On \"she fell.\""
+  },
+  {
+   "scene": "s7",
+   "frame": "s7",
+   "speaker": "N",
+   "text": "Silence. Cole's hand near his stack. Not moving."
+  },
+  {
+   "scene": "s7",
+   "frame": "s7",
+   "speaker": "ROSS",
+   "text": "[gently] You keep telling everyone the porch light was off. The bulb. You turned it off, Cole. She wanted out, and you let the door close behind her, and you killed the light so the house would feel like a thing she chose to leave. You've told it so clean there's no fight in it. No door. No dark. Just a hole, and a man who left it open. Stake the part where she fell. You can't \u2014 because the last thing you saw was her walking away from you, fast, into a yard you'd warned her about a hundred times. And going in anyway."
+  },
+  {
+   "scene": "s7",
+   "frame": "s7",
+   "speaker": "COLE",
+   "text": "[barely a whisper] Stop."
+  },
+  {
+   "scene": "s7",
+   "frame": "s7",
+   "speaker": "ROSS",
+   "text": "One gram."
+  },
+  {
+   "scene": "s7",
+   "frame": "s7",
+   "speaker": "N",
+   "text": "Cole doesn't move. And from the back of the room\u2014"
+  },
+  {
+   "scene": "s7",
+   "frame": "s7",
+   "speaker": "SADIE",
+   "text": "I jumped."
+  },
+  {
+   "scene": "s7",
+   "frame": "s7",
+   "speaker": "N",
+   "text": "Everything stops."
+  },
+  {
+   "scene": "s7",
+   "frame": "s7",
+   "speaker": "SADIE",
+   "text": "I wasn't drunk. I wasn't lost. The light being off \u2014 Dad, the light was never the thing. We fought, and I went out there, and I sat on the edge of that stupid hole because it was the one place you'd never look. And I don't even know if I meant it. But I didn't fall."
+  },
+  {
+   "scene": "s8",
+   "frame": "s8",
+   "speaker": "SURETY",
+   "text": "On the cause \u2014 unestablished. Reyes is released from the claim."
+  },
+  {
+   "scene": "s8",
+   "frame": "s8",
+   "speaker": "N",
+   "text": "Tomas exhales a breath he's held for two weeks. He doesn't gloat. He looks at Sadie."
+  },
+  {
+   "scene": "s8",
+   "frame": "s8",
+   "speaker": "TOMAS",
+   "text": "The care still happens. Coverage covers a child who needs it. It doesn't need a guilty man to pay for it. That's the whole point of the thing."
+  },
+  {
+   "scene": "s8",
+   "frame": "s8",
+   "speaker": "RUTH",
+   "text": "Community surety. She's covered. No one's in the program."
+  },
+  {
+   "scene": "s8",
+   "frame": "s8",
+   "speaker": "N",
+   "text": "The system didn't punish anyone. It just stopped a man from buying a lie with his neighbor's life. Cole crosses to Sadie and goes down to her eye level. For the first time, he doesn't have a clean sentence."
+  },
+  {
+   "scene": "s8",
+   "frame": "s8",
+   "speaker": "COLE",
+   "text": "I turned off the light."
+  },
+  {
+   "scene": "s8",
+   "frame": "s8",
+   "speaker": "SADIE",
+   "text": "I know, Dad. I always knew."
+  },
+  {
+   "scene": "s9",
+   "frame": "s9",
+   "speaker": "N",
+   "text": "Outside, on the hall steps. Ross, just standing. Enya finds him."
+  },
+  {
+   "scene": "s9",
+   "frame": "s9",
+   "speaker": "ENYA",
+   "text": "You didn't establish anything. A girl confessed and you took credit for a feeling."
+  },
+  {
+   "scene": "s9",
+   "frame": "s9",
+   "speaker": "ROSS",
+   "text": "She didn't confess to me. She confessed to him. I just made the room quiet enough."
+  },
+  {
+   "scene": "s9",
+   "frame": "s9",
+   "speaker": "ENYA",
+   "text": "That's not detection. You decided he was guilty and bent a hearing until a child broke. If you're wrong next time, somebody innocent goes to Cainland on your mood."
+  },
+  {
+   "scene": "s9",
+   "frame": "s9",
+   "speaker": "ROSS",
+   "text": "I'm not wrong."
+  },
+  {
+   "scene": "s9",
+   "frame": "s9",
+   "speaker": "ENYA",
+   "text": "That's exactly what frightens me about you. I'm staying in Dallas, Mr. Underwood. I'm going to take every case you touch \u2014 and prove that what you do is just a prettier word for prejudice. I think we're going to know each other a long time."
+  },
+  {
+   "scene": "s9",
+   "frame": "s9",
+   "speaker": "N",
+   "text": "Ross looks at her offered hand. He doesn't take it. Not cruel \u2014 careful."
+  },
+  {
+   "scene": "s9",
+   "frame": "s9",
+   "speaker": "ROSS",
+   "text": "You read everything in that file except the one thing that mattered. You'd have buried an innocent man on the cleanest case you ever saw. You should be more frightened of that."
+  },
+  {
+   "scene": "s9",
+   "frame": "s9",
+   "speaker": "N",
+   "text": "He goes. Enya watches him \u2014 not anger. Resolve. The nemesis, born."
+  }
+ ]
+}

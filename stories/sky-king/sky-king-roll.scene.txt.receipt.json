@@ -1,0 +1,10 @@
+{
+  "id": "sky-king-roll",
+  "slug": "INT. Q400 FLIGHT DECK / NIGHT SKY / COMMAND POST - LAST LIGHT (INTERCUT)",
+  "seedHash": "6c499fb4cd983a0a6c1614f65e5c7f8b3f4d1cc4c5e66034c6bc0e8176b40643",
+  "sceneHash": "3a3560baa3525136ace218cb9435d7c6642219b14df1e3830cb5619f17718b77",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}
