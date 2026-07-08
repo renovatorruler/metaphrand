@@ -34,8 +34,8 @@ TITLEKEY_RE = re.compile(r"^(Title|Credit|Author|Source|Draft date|Contact|Notes
 CSS = """
 @page { size: 8.5in 11in; margin: 1in 1in 1in 1.5in; }
 * { box-sizing: border-box; }
-body { font-family: 'Courier New', Courier, monospace; font-size: 12pt; line-height: 1; color: #000; }
-p { margin: 0; padding: 0; white-space: pre-wrap; }
+body { font-family: 'Courier New', Courier, monospace; font-size: 12pt; line-height: 1.1; color: #000; }
+p { margin: 0; padding: 0; white-space: normal; }
 .action { margin: 12pt 0 0 0; }
 .slug { margin: 24pt 0 0 0; font-weight: bold; }
 .cue { margin: 12pt 0 0 2.2in; }
@@ -101,7 +101,20 @@ def parse(text: str) -> tuple[dict, list[tuple[str, str]]]:
             body.append(("dialogue", _strip_md(s)))
         else:
             body.append(("action", _strip_md(s)))
-    return title, body
+    return title, _merge_runs(body)
+
+
+def _merge_runs(body: list[tuple[str, str]]) -> list[tuple[str, str]]:
+    """Hard-wrapped source lines are one paragraph until a blank line: join
+    consecutive action lines (and consecutive dialogue lines) with spaces so
+    only intentional breaks survive."""
+    out: list[tuple[str, str]] = []
+    for kind, s in body:
+        if kind in ("action", "dialogue") and out and out[-1][0] == kind:
+            out[-1] = (kind, out[-1][1] + " " + s)
+        else:
+            out.append((kind, s))
+    return out
 
 
 def to_html(title: dict, body: list[tuple[str, str]]) -> str:
