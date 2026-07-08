@@ -1,0 +1,55 @@
+{
+ "title": "THE FOUR OLDS — cold open table read",
+ "model_id": "eleven_v3",
+ "cast": {
+  "N":           {"voice": "George",  "voice_id": "JBFqnCBsd6RMkjVDRZzb"},
+  "ANCHOR":      {"voice": "Sarah",   "voice_id": "EXAVITQu4vr4xnSDxMaL"},
+  "COMMENTATOR": {"voice": "Liam",    "voice_id": "TX3LPaxmHKxFdv7VOQHJ"},
+  "MARWANI":     {"voice": "Antoni",  "voice_id": "ErXwobaYiN019PkySvjV"},
+  "SENATOR":     {"voice": "Clyde",   "voice_id": "2EiwWnXFnvU5JabPnv8n"},
+  "HALE":        {"voice": "Daniel",  "voice_id": "onwK4e9ZLuTAKqWW03F9"},
+  "RADIO":       {"voice": "Matilda", "voice_id": "XrExE9yKIg1WjnnlVkGX"},
+  "BUCK":        {"voice": "Bill",    "voice_id": "pqHfZKP75CvOlQylNhV4"}
+ },
+ "beats": [
+  {"caption": "INT. CABLE NEWS STUDIO - NIGHT", "panel": "beat00.png", "lines": [
+   {"role": "N", "text": "[calm, setting the scene] Election night. A wall-sized map, most of it undecided gray. Confetti cannons stand by, unfired. The board flips a state blue. Then another. A production assistant claps twice, alone, then stops."},
+   {"role": "ANCHOR", "text": "[professional, tightening with disbelief] At eleven-oh-four eastern, we can now project — Zoran Marwani, the junior senator from New York, the first D-S-A affiliated nominee ever to carry a major party — has been elected President of the United States."},
+   {"role": "N", "text": "The studio erupts. Balloons fall on the news desk. Someone has printed HISTORY IS HEALING on a bedsheet in the crowd outside the window. The commentator, silver-haired, removes his glasses. His eyes are wet on camera."},
+   {"role": "COMMENTATOR", "text": "[moved, voice unsteady] Forty-one years I've covered this building. Perhaps tonight — [swallows] perhaps tonight begins the reconciliation with a world the last administration spent years insulting."},
+   {"role": "N", "text": "[dry] The chyron below him rolls: markets, cautious. Allies, jubilant."}
+  ]},
+  {"caption": "EXT. NATIONAL MALL - DAY", "panel": "beat01.png", "lines": [
+   {"role": "N", "text": "Two months later. Inauguration crowd to the horizon. On the jumbotron, President Marwani, forty-one, hand off the Bible, already at the podium. Flags on the stage: the fifty stars — and beside it, same height, the U-N blue."},
+   {"role": "MARWANI", "text": "[measured, presidential, unhurried] I do not stand here to celebrate a victory. I stand here to begin a repair. On behalf of the United States — to every nation we have wronged — [beat] we are sorry."},
+   {"role": "N", "text": "The crowd roars. The roar rolls down the Mall in a wave."},
+   {"role": "MARWANI", "text": "[rising, emphatic] This is not retreat. This is not surrender. This is repair."},
+   {"role": "N", "text": "[flat] Under the podium feed, the chyron: Nobel Committee awards Peace Prize, citing, quote, the announced agenda."}
+  ]},
+  {"caption": "INT. C-17 CARGO BAY - DAY", "panel": "beat02.png", "lines": [
+   {"role": "N", "text": "[low] Cold metal light. Pallets nose to tail, shrink-wrapped. Under the plastic: banded bricks of hundred-dollar bills. A loadmaster walks the line with a clipboard manifest. Stamped across the top page: Iran Compensation Framework. Disbursement one of twelve."},
+   {"role": "N", "text": "[deadpan] At the ramp, a young State Department aide turns his back to the pallets, raises his phone, and takes a selfie. He checks it. Takes a better one."}
+  ]},
+  {"caption": "INT. GRAND HALL, BRUSSELS - DAY", "panel": "beat03.png", "lines": [
+   {"role": "N", "text": "Chandeliers. A long table of ministers. The U-S Treasury Secretary signs a document the size of a phone book; a European minister pats his shoulder twice. Champagne comes out on trays."},
+   {"role": "N", "text": "[dry] The chyron on the broadcast feed: United States commits two hundred billion dollars to European defense renewal. Below it, a stock ticker. All red."}
+  ]},
+  {"caption": "ON A PHONE SCREEN", "panel": "beat04.png", "lines": [
+   {"role": "N", "text": "A push alert stacks over a family photo: White House unveils Stewardship Act. Private assets above one billion to be administered in the public interest. [beat] A thumb swipes it away. Another alert lands on top of it."}
+  ]},
+  {"caption": "INT. SENATE HEARING ROOM - DAY", "panel": "beat05.png", "lines": [
+   {"role": "N", "text": "Packed gallery. Magnus Hale alone at the witness table, reading from a single prepared page. His voice is level and dead."},
+   {"role": "HALE", "text": "[flat, toneless, reading a statement that is not his] Frontier is proud to serve the goals of this administration. At home, and beyond it."},
+   {"role": "SENATOR", "text": "[savoring every word, slow] Proud. That's good. Because some of my colleagues feel a capability this essential shouldn't rest in private hands at all. There's a word for the remedy. I want you to hear me say it slowly. [pause] Nationalization."},
+   {"role": "N", "text": "The Senator leans back. Cameras click. [beat] Hale folds his page in half. And in half again. And says nothing."}
+  ]},
+  {"caption": "INT. ROY'S DINER - MORNING", "panel": "beat06.png", "lines": [
+   {"role": "N", "text": "[hushed] A counter town diner. Six regulars, coffee, forks down. Nobody talks. On the wall TV, muted: the Brussels champagne, the falling balloons, the jumbotron apology, cycling. Earlene refills Buck's cup. Buck, seventies, feed cap, doesn't look up from the counter."},
+   {"role": "RADIO", "text": "[distant, faint, bureaucratic] ...effective January first, the private sale and discharge of consumer fireworks is prohibited nationwide, under the administration's binding carbon framework. Municipal displays may apply for cultural exemption through the..."},
+   {"role": "N", "text": "[quiet] Nobody moves to turn it up. The percolator finishes. Buck turns his cup a quarter turn on the saucer."},
+   {"role": "BUCK", "text": "[a long beat, then flat, almost to himself] Huh."},
+   {"role": "N", "text": "[quiet] He drinks."}
+  ]},
+  {"caption": "__TITLE__", "text": "THE FOUR OLDS"}
+ ]
+}
