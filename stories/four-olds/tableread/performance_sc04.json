@@ -32,7 +32,7 @@
     {"role": "N", "text": "[flat] The screen cuts to a graphic."}
    ]},
   {"caption": "ON THE SCREEN",
-   "panel": {"insert": ["APOLLO 11 — ARCHIVE, 1969", "", "ARTIST'S RENDERING", "CURRENT CONDITION"]},
+   "panel": {"reuse": "sc04_02.png"},
    "lines": [
     {"role": "N", "text": "[dry] On the left: the archive photo. Aldrin's salute, the flag hard-colored against black. On the right: a computer rendering of the same flag, boiled white. Captioned: artist's rendering. Current condition."},
     {"role": "MARWANI", "text": "[rising, the big finish] In their place will fly the Harmony Banner — designed by a committee of forty-four nations. Not one nation's pride. Not one nation's claim. One planet's promise. The retrieval will be broadcast live, this coming July fourth. Not Independence Day. This year, the first Unity Day."},
