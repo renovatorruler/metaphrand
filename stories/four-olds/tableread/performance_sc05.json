@@ -1,0 +1,74 @@
+{
+ "title": "THE FOUR OLDS — sc05 the seizure",
+ "model_id": "eleven_v3",
+ "cast": {
+  "N":       {"voice": "Dejuan (library)",   "voice_id": "dIa7afHH94O36L8tjJ0L"},
+  "CRICKET": {"voice": "Ken (library)",      "voice_id": "sP6cqUGhZxuStGV0pn9o"},
+  "PELL":    {"voice": "Reginald (library)", "voice_id": "FhztqDnr1aPqLSEpGz3v"},
+  "WADE":    {"voice": "Dave (library)",     "voice_id": "GxlyuhtF6MwdhQmwZ3cu"},
+  "PEG":     {"voice": "Carol (library)",    "voice_id": "5u41aNhyCU6hXOcjPPv0"},
+  "DUTCH":   {"voice": "David (library)",    "voice_id": "TqOasn6BO225ydKxXhaK"},
+  "STITCH":  {"voice": "Jim Cox (library)",  "voice_id": "FPofnDi5DdNeTktLQ0u9"},
+  "GUNNY":   {"voice": "Moe M (library)",    "voice_id": "9oa4l5rZznK9dXRwFpSB"}
+ },
+ "beats": [
+  {"caption": "EXT. DAWES FARM - DAY",
+   "panel": {"gen": "Two black government SUVs and a county flatbed truck coming up a long dirt farm drive toward a white Nebraska farmhouse, an old farmer standing at the bottom of his porch steps waiting for them, shoulders squared, dust rising behind the vehicles."},
+   "lines": [
+    {"role": "N", "text": "[low, uneasy] Two black SUVs come up the drive doing about half the speed of the county flatbed truck behind them. They park in a row, doors open together. Cricket steps off the porch and stands waiting, shoulders back. Administrator Pell, fifties, lanyard over a zip fleece, gets out reading a folder — and doesn't look at Cricket at all. Behind him, a county deputy, and four movers in matching polos."},
+    {"role": "PELL", "text": "[bright, administrative, a man delivering good news that isn't] Mister Dawes! There he is. This is a routine action, sir, nothing dramatic. The county's executing on the delinquent assessment — that's their side. I'm only here for the federal paperwork."},
+    {"role": "CRICKET", "text": "[level] The bank logged my paperwork received next cycle. I have sixty days."},
+    {"role": "PELL", "text": "[patient, explaining rain to a farmer] That's the bank. The bank isn't the county. And neither one of them is federal. You're dealing with three separate systems today, Mr. Dawes. They don't wait on each other. Nobody's done anything wrong here."},
+    {"role": "N", "text": "[flat] He hands Cricket a pink sheet without stopping his walk to the barn."}
+   ]},
+  {"caption": "INT. DAWES BARN - CONTINUOUS",
+   "panel": {"gen": "Inside a wooden barn, four workers in matching polo shirts unbolting and dismantling a homebuilt cockpit simulator made of plywood and salvaged instrument panels, a smug official with a lanyard and clipboard supervising, an old farmer watching from the side, floor-to-ceiling shelves of spiral notebooks on the back wall untouched."},
+   "lines": [
+    {"role": "N", "text": "The movers roll the door wide. Daylight falls across the simulator. One of them asks what the thing even is. Nobody answers him. Pell circles the rig, checking it against an inventory sheet."},
+    {"role": "PELL", "text": "[reading, ticking boxes] Item one. Homebuilt trainer, gyroscopic couch, panels — one altitude indicator—"},
+    {"role": "CRICKET", "text": "[quiet correction] Attitude."},
+    {"role": "N", "text": "Pell looks at the sheet. Makes a small correction with his pen."},
+    {"role": "PELL", "text": "[unbothered] Noted."},
+    {"role": "N", "text": "[slow, letting it land] He peels a long orange sticker off a backing sheet and lays it across the main panel, smoothing it down with his thumb: FEDERAL INTEREST. SENSITIVE AEROSPACE TRAINING APPARATUS. EXCLUDED FROM PUBLIC AUCTION."},
+    {"role": "CRICKET", "text": "[working it out, cold] Excluded from auction. So the county can't even sell it to cover the taxes. Then this isn't about the taxes."},
+    {"role": "PELL", "text": "[pleasant, bland, terrifying] Everything's compliance now. It's fairer that way. Same rules for everybody."},
+    {"role": "N", "text": "[quiet] The movers unbolt the crew couch. A ratchet slips; a mover barks a knuckle and swears; Cricket hands him the correct socket off the pegboard. The mover takes it and can't look at him. [beat] Pell reaches the logbook wall. Hundreds of dated spines. He pulls one notebook, flips three pages of grid-ruled block printing."},
+    {"role": "PELL", "text": "[dismissive] Personal papers. No salvage value. Leave them."}
+   ]},
+  {"caption": "THE DOORWAY",
+   "panel": {"gen": "An old farmer standing squarely in the open doorway of his barn, feet planted, blocking the way, while a county deputy approaches him slowly holding his hat in his hands, movers with a loaded dolly waiting behind them, tense quiet standoff, low afternoon light."},
+   "lines": [
+    {"role": "N", "text": "[tightening] The first dolly rolls toward the door with the crew couch strapped to it — and stops. Cricket is standing in the doorway. Square in it, feet set, hands at his sides."},
+    {"role": "PELL", "text": "[a sigh in a suit] Mr. Dawes. This is executed. It's paper now."},
+    {"role": "N", "text": "Cricket doesn't move. Doesn't say anything either. The barn goes quiet, six men standing around fifty years on a dolly. Pell nods at the deputy. The deputy comes over slow, and stops in front of Cricket, close, hat in his hand."},
+    {"role": "WADE", "text": "[low, pained] Earl."},
+    {"role": "CRICKET", "text": "[quiet, immovable] You'll have to move me, Wade."},
+    {"role": "N", "text": "[soft] Wade stands there a moment. Then he puts his hat on, takes Cricket's arm with both hands, gentle, and walks him three steps aside — and Cricket lets him, because it's Wade. The dolly rolls past. Cricket's eyes never leave the couch, all the way onto the flatbed."}
+   ]},
+  {"caption": "EXT. DAWES FARM - LATER",
+   "panel": {"gen": "A county flatbed truck loaded with the dismantled pieces of a plywood cockpit simulator chained at four corners pulling away down a farm drive, an old woman holding a screen door open on the farmhouse porch, an old farmer standing in the yard watching the truck go, long shadows."},
+   "lines": [
+    {"role": "N", "text": "The simulator rides the flatbed in pieces, chained at four corners. The movers file past the porch. Peg holds the screen door open for them and nods each one through."},
+    {"role": "PEG", "text": "[pleasant, arctic] Doorframe's fresh painted. Mind it."},
+    {"role": "N", "text": "The deputy is last. He hands Cricket the county copy, folded small."},
+    {"role": "WADE", "text": "[quiet, not looking at him] There's an appeal window at the courthouse. It's open till four."},
+    {"role": "CRICKET", "text": "[even] Thank you, Wade."},
+    {"role": "N", "text": "Pell pauses at his SUV door and takes in the farm, the barn, the sky. He nods at each."},
+    {"role": "PELL", "text": "[reciting, satisfied, laminated] Folks, I know change feels sudden. But as the Accord reminds us — harmony is a verb."},
+    {"role": "N", "text": "[flat] He gets in. The convoy pulls out, flatbed last. Dust hangs over the drive and settles."}
+   ]},
+  {"caption": "INT. DAWES BARN - DUSK",
+   "panel": {"gen": "Inside a half-empty barn at dusk, a clean rectangle of undisturbed dust on the floor with bolt holes at the corners where a large machine stood for decades, an old man sitting at a workbench with a glowing ham radio, one hanging work light, the shelves of notebooks still full on the back wall."},
+   "lines": [
+    {"role": "N", "text": "[quiet] The barn, half empty. Where the simulator stood: a clean rectangle of dust, bolt holes at the corners. Cricket stands at its edge. Peg comes in and stands next to him. Neither says anything for a while. Straight backs, both of them."},
+    {"role": "PEG", "text": "[gentle, ordinary] Supper's on in twenty."},
+    {"role": "N", "text": "She goes. Cricket looks at the rectangle one more moment. Then he crosses to the workbench — they left the radio — pulls the stool in, and keys the mic."},
+    {"role": "CRICKET", "text": "[flat, awake] Net's open. Wednesday."},
+    {"role": "N", "text": "[beat] Static. Then, fast:"},
+    {"role": "DUTCH", "fx": "radio", "text": "[instant] Copy Wednesday."},
+    {"role": "STITCH", "fx": "radio", "text": "[right behind him] Copy."},
+    {"role": "GUNNY", "fx": "radio", "text": "[grim satisfaction] About time."},
+    {"role": "N", "text": "[low] Cricket sets the mic down and reaches up and pulls the work light on."}
+   ]}
+ ]
+}
