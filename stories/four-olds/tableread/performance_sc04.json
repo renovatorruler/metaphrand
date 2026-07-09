@@ -1,0 +1,53 @@
+{
+ "title": "THE FOUR OLDS — sc04 Danny's call and the Accord",
+ "model_id": "eleven_v3",
+ "cast": {
+  "N":       {"voice": "Dejuan (library)",     "voice_id": "dIa7afHH94O36L8tjJ0L"},
+  "CRICKET": {"voice": "Ken (library)",        "voice_id": "sP6cqUGhZxuStGV0pn9o"},
+  "DANNY":   {"voice": "Danny (library)",      "voice_id": "BgKhVteUTnSGoNk6fizV"},
+  "MARWANI": {"voice": "Clinton (library)",    "voice_id": "ZF7Ng6hYSXU5QiOXbbSZ"},
+  "ANCHOR":  {"voice": "Alexandria (library)", "voice_id": "QyCGbzzEtSqHWJ8rNRMK"},
+  "DUTCH":   {"voice": "David (library)",      "voice_id": "TqOasn6BO225ydKxXhaK"}
+ },
+ "beats": [
+  {"caption": "INT. DAWES FARMHOUSE, KITCHEN - NIGHT",
+   "panel": {"gen": "A Nebraska farmhouse kitchen at night, an old farmer standing at a wall-mounted telephone with a long curly cord pressed to his ear, his wife drying dishes at the sink behind him, checked curtains, warm single overhead light."},
+   "lines": [
+    {"role": "N", "text": "[calm] Supper cleared. Peg dries dishes at the sink. Cricket at the kitchen table with the county tax letter, a legal pad, and a pencil, doing long division he's already done twice. The wall phone rings. Curly cord. He takes it standing."},
+    {"role": "CRICKET", "text": "[flat] Dawes."},
+    {"role": "DANNY", "text": "[easy, circling, filling air] Hey, Dad. Roads are clear down here, finally. They got the sale barn running Thursdays again, so that's — Rachel says hi. Kids are good."},
+    {"role": "CRICKET", "text": "[dry] Good."},
+    {"role": "DANNY", "text": "[a beat, quieter] Yeah. [pause] Dad. Maybe don't watch the news tonight."},
+    {"role": "N", "text": "[quiet] Cricket stands there a second. Peg has stopped drying."},
+    {"role": "CRICKET", "text": "[even, final] Thank you for calling."},
+    {"role": "N", "text": "He hangs up. Crosses to the parlor TV and turns it on."}
+   ]},
+  {"caption": "INT. DAWES FARMHOUSE, PARLOR - CONTINUOUS",
+   "panel": {"gen": "A dim farmhouse parlor, an old tube television glowing with a broadcast of a young president at a White House lectern flanked by a United Nations flag and a folded banner on a stand, an old man and his wife watching from the dark, lit only by the screen."},
+   "lines": [
+    {"role": "N", "text": "On the screen: the White House briefing room. President Marwani at the lectern, flanked by the U-N flag and a folded blue banner on a stand."},
+    {"role": "MARWANI", "text": "[polished, measured, presidential] Tonight I can announce the Lunar Heritage Neutralization Accord. Fifty-seven years ago, one nation planted its banner on ground that belongs to all mankind. Not as conquest, we were told. And yet the banner stayed. It stayed through every apology we owed and never gave."},
+    {"role": "N", "text": "[low] Peg comes to the parlor doorway, dish towel over her shoulder."},
+    {"role": "MARWANI", "text": "[softer, warmer, selling it] Science tells us those six flags are bleached white now — fifty years of unfiltered sun. Some call those flags of surrender. [beat] I call them flags of peace. Let this be our gesture to the rest of the world: we come in peace. We will retire them with dignity. We will return them to Earth. And we will gift them — one to each nation America has wronged. The first, to the people of Iran."},
+    {"role": "N", "text": "[flat] The screen cuts to a graphic."}
+   ]},
+  {"caption": "ON THE SCREEN",
+   "panel": {"insert": ["APOLLO 11 — ARCHIVE, 1969", "", "ARTIST'S RENDERING", "CURRENT CONDITION"]},
+   "lines": [
+    {"role": "N", "text": "[dry] On the left: the archive photo. Aldrin's salute, the flag hard-colored against black. On the right: a computer rendering of the same flag, boiled white. Captioned: artist's rendering. Current condition."},
+    {"role": "MARWANI", "text": "[rising, the big finish] In their place will fly the Harmony Banner — designed by a committee of forty-four nations. Not one nation's pride. Not one nation's claim. One planet's promise. The retrieval will be broadcast live, this coming July fourth. Not Independence Day. This year, the first Unity Day."},
+    {"role": "N", "text": "Applause from the briefing room press corps. Marwani does not smile. He nods, slowly, eyes down. [beat] Peg picks a dish back up and dries it. Dries it harder. Sets it down in the rack with a crack of china on china."},
+    {"role": "ANCHOR", "text": "[news cadence, wrapping] — being called the most generous act in the history of spaceflight."}
+   ]},
+  {"caption": "INT. DAWES FARMHOUSE, KITCHEN - CONTINUOUS",
+   "panel": {"reuse": "sc04_00.png"},
+   "lines": [
+    {"role": "N", "text": "[quiet] Cricket turns the set off. Sets the remote down square on the arm cover. Stands a moment in the dark parlor. Then he goes back to the kitchen, takes the wall phone off the hook, and dials from memory — seven digits, then four more."},
+    {"role": "CRICKET", "text": "[low] You watching this?"},
+    {"role": "DUTCH", "fx": "radio", "text": "[grim, level] Both channels. They're running that white mock-up every ten minutes."},
+    {"role": "N", "text": "Neither man says anything for a moment. On the muted parlor TV behind Cricket, the white rendering again, full screen."},
+    {"role": "CRICKET", "text": "[decided] Tuesday. Early."},
+    {"role": "N", "text": "[soft] He hangs the phone on its cradle, gently."}
+   ]}
+ ]
+}

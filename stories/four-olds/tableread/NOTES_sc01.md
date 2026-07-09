@@ -14,3 +14,10 @@
   dialogue rendering.
 - Panel 4 (phone insert) works; consider a typeset insert (no gen) for pure
   text screens in future scenes.
+
+# sc03 notes (second read)
+- DUTCH recast: Mike Weinberger read too young/light — replaced with
+  "David" (TqOasn6BO225ydKxXhaK) from sc04 onward; re-render sc03 with the
+  new Dutch at the second read.
+- CRICKET (Ken): source has room tone vs the officer's studio track —
+  third candidate or a designed voice at the recast pass.
