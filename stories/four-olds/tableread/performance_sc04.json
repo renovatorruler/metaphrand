@@ -34,7 +34,11 @@
   {"caption": "ON THE SCREEN",
    "panel": {"reuse": "sc04_02.png"},
    "lines": [
-    {"role": "N", "text": "[dry] On the left: the archive photo. Aldrin's salute, the flag hard-colored against black. On the right: a computer rendering of the same flag, boiled white. Captioned: artist's rendering. Current condition."},
+    {"role": "N", "text": "[dry] On the left: the archive photo. Aldrin's salute, the flag hard-colored against black. On the right: a computer rendering of the same flag, boiled white. Captioned: artist's rendering. Current condition."}
+   ]},
+  {"caption": "ON THE SCREEN - THE HARMONY BANNER",
+   "panel": {"reuse": "sc04_02b.png"},
+   "lines": [
     {"role": "MARWANI", "text": "[rising, the big finish] In their place will fly the Harmony Banner — designed by a committee of forty-four nations. Not one nation's pride. Not one nation's claim. One planet's promise. The retrieval will be broadcast live, this coming July fourth. Not Independence Day. This year, the first Unity Day."},
     {"role": "N", "text": "Applause from the briefing room press corps. Marwani does not smile. He nods, slowly, eyes down. [beat] Peg picks a dish back up and dries it. Dries it harder. Sets it down in the rack with a crack of china on china."},
     {"role": "ANCHOR", "text": "[news cadence, wrapping] — being called the most generous act in the history of spaceflight."}
