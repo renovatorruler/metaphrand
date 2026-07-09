@@ -108,14 +108,17 @@ def main() -> int:
             raw = os.path.join(panels, f"{slug}_{n:02}.png")
             if not os.path.exists(raw):
                 print(f"gen panel {n}: {beat['caption']}")
-                bk.save_png(raw, bk.image(INK + p["gen"], pro=False, aspect="16:9"))
+                refs = [os.path.join(base, r) for r in p["refs"]] if p.get("refs") else None
+                bk.save_png(raw, bk.image(INK + p["gen"], refs=refs,
+                                           pro=p.get("pro", False), aspect="16:9"))
             panel = caption_panel(raw, beat["caption"])
 
         lines = beat.get("lines", [])
         if lines and any(l.get("fx") for l in lines):
             # per-line mode: lines with fx (e.g. radio) are synthesized solo,
             # filtered, then stitched with the rest in order.
-            digest = hashlib.sha1(json.dumps(lines, sort_keys=True).encode()).hexdigest()[:12]
+            digest_src = [{**l, "voice_id": cast[l["role"]]["voice_id"]} for l in lines]
+            digest = hashlib.sha1(json.dumps(digest_src, sort_keys=True).encode()).hexdigest()[:12]
             audio = os.path.join(segs, f"seg{n:02}_{digest}.mp3")
             if not os.path.exists(audio):
                 print(f"beat {n}: {len(lines)} lines -> per-line takes (fx)")

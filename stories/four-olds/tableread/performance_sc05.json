@@ -13,16 +13,18 @@
  },
  "beats": [
   {"caption": "EXT. DAWES FARM - DAY",
-   "panel": {"gen": "Two black government SUVs and a county flatbed truck coming up a long dirt farm drive toward a white Nebraska farmhouse, an old farmer standing at the bottom of his porch steps waiting for them, shoulders squared, dust rising behind the vehicles."},
+   "panel": {"gen": "Two black government SUVs and a county flatbed truck coming up a long dirt farm drive toward a white Nebraska farmhouse, an old farmer standing at the bottom of his porch steps waiting for them, shoulders squared, dust rising behind the vehicles. Getting out of the lead SUV, reading a folder: a soft square-built man in his fifties with wire-rim glasses and a badge lanyard, matching the attached reference exactly. Behind him: a sheriff's deputy in a tan uniform and wide-brim hat, matching the second attached reference exactly.",
+    "refs": ["refsheets/pell.png", "refsheets/wade.png"], "pro": true},
    "lines": [
-    {"role": "N", "text": "[low, uneasy] Two black SUVs come up the drive doing about half the speed of the county flatbed truck behind them. They park in a row, doors open together. Cricket steps off the porch and stands waiting, shoulders back. Administrator Pell, fifties, lanyard over a zip fleece, gets out reading a folder — and doesn't look at Cricket at all. Behind him, a county deputy, and four movers in matching polos."},
+    {"role": "N", "text": "[low, uneasy] Two black SUVs come up the drive doing about half the speed of the county flatbed truck behind them. They park in a row, doors open together. Cricket steps off the porch and stands waiting, shoulders back. Administrator Pell, fifties, lanyard over a zip fleece, gets out reading a folder — and doesn't look at Cricket at all. Behind him, Wade Halversen, the county deputy — the boy Cricket taught to drive a tractor in this same yard, twenty years back — and four movers in matching polos."},
     {"role": "PELL", "text": "[bright, administrative, a man delivering good news that isn't] Mister Dawes! There he is. This is a routine action, sir, nothing dramatic. The county's executing on the delinquent assessment — that's their side. I'm only here for the federal paperwork."},
     {"role": "CRICKET", "text": "[level] The bank logged my paperwork received next cycle. I have sixty days."},
     {"role": "PELL", "text": "[patient, explaining rain to a farmer] That's the bank. The bank isn't the county. And neither one of them is federal. You're dealing with three separate systems today, Mr. Dawes. They don't wait on each other. Nobody's done anything wrong here."},
     {"role": "N", "text": "[flat] He hands Cricket a pink sheet without stopping his walk to the barn."}
    ]},
   {"caption": "INT. DAWES BARN - CONTINUOUS",
-   "panel": {"gen": "Inside a wooden barn, four workers in matching polo shirts unbolting and dismantling a homebuilt cockpit simulator made of plywood and salvaged instrument panels, a smug official with a lanyard and clipboard supervising, an old farmer watching from the side, floor-to-ceiling shelves of spiral notebooks on the back wall untouched."},
+   "panel": {"gen": "Inside a wooden barn, four workers in matching polo shirts unbolting and dismantling the exact homebuilt cockpit simulator shown in the first attached reference sheet, keeping its design, gauges, and proportions identical. Supervising with a lanyard and clipboard: the same official from the second attached reference sheet, matching his face exactly. An old farmer watches from the side. Floor-to-ceiling shelves of spiral notebooks fill the back wall, untouched.",
+    "refs": ["refsheets/simulator.png", "refsheets/pell.png"], "pro": true},
    "lines": [
     {"role": "N", "text": "The movers roll the door wide. Daylight falls across the simulator. One of them asks what the thing even is. Nobody answers him. Pell circles the rig, checking it against an inventory sheet."},
     {"role": "PELL", "text": "[reading, ticking boxes] Item one. Homebuilt trainer, gyroscopic couch, panels — one altitude indicator—"},
@@ -36,17 +38,19 @@
     {"role": "PELL", "text": "[dismissive] Personal papers. No salvage value. Leave them."}
    ]},
   {"caption": "THE DOORWAY",
-   "panel": {"gen": "An old farmer standing squarely in the open doorway of his barn, feet planted, blocking the way, while a county deputy approaches him slowly holding his hat in his hands, movers with a loaded dolly waiting behind them, tense quiet standoff, low afternoon light."},
+   "panel": {"gen": "Close, face-visible view: an old farmer standing squarely in the open doorway of his barn, feet planted, blocking the way, while the sheriff's deputy from the attached reference sheet approaches him slowly, hat held in both hands, his weathered face clearly lit and readable, pained. Movers with a loaded dolly wait behind them. Tense quiet standoff, low afternoon light.",
+    "refs": ["refsheets/wade.png"], "pro": true},
    "lines": [
     {"role": "N", "text": "[tightening] The first dolly rolls toward the door with the crew couch strapped to it — and stops. Cricket is standing in the doorway. Square in it, feet set, hands at his sides."},
     {"role": "PELL", "text": "[a sigh in a suit] Mr. Dawes. This is executed. It's paper now."},
-    {"role": "N", "text": "Cricket doesn't move. Doesn't say anything either. The barn goes quiet, six men standing around fifty years on a dolly. Pell nods at the deputy. The deputy comes over slow, and stops in front of Cricket, close, hat in his hand."},
+    {"role": "N", "text": "Cricket doesn't move. Doesn't say anything either. The barn goes quiet, six men standing around fifty years on a dolly. Pell nods at Wade. Wade comes over slow, and stops in front of Cricket, close, hat in his hand."},
     {"role": "WADE", "text": "[low, pained] Earl."},
     {"role": "CRICKET", "text": "[quiet, immovable] You'll have to move me, Wade."},
     {"role": "N", "text": "[soft] Wade stands there a moment. Then he puts his hat on, takes Cricket's arm with both hands, gentle, and walks him three steps aside — and Cricket lets him, because it's Wade. The dolly rolls past. Cricket's eyes never leave the couch, all the way onto the flatbed."}
    ]},
   {"caption": "EXT. DAWES FARM - LATER",
-   "panel": {"gen": "A county flatbed truck loaded with the dismantled pieces of a plywood cockpit simulator chained at four corners pulling away down a farm drive, an old woman holding a screen door open on the farmhouse porch, an old farmer standing in the yard watching the truck go, long shadows."},
+   "panel": {"gen": "A county flatbed truck loaded with the exact dismantled simulator pieces from the first attached reference, chained at four corners, pulling away down a farm drive. Beside a black SUV in the yard, the same official from the second attached reference sheet, matching his face exactly. An old woman holds a screen door open on the farmhouse porch; an old farmer stands in the yard watching the truck go, long shadows.",
+    "refs": ["refsheets/simulator.png", "refsheets/pell.png"], "pro": true},
    "lines": [
     {"role": "N", "text": "The simulator rides the flatbed in pieces, chained at four corners. The movers file past the porch. Peg holds the screen door open for them and nods each one through."},
     {"role": "PEG", "text": "[pleasant, arctic] Doorframe's fresh painted. Mind it."},
