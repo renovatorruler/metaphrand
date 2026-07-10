@@ -528,11 +528,33 @@ biography.) Exists in the film exclusively on screens — podiums, PSAs, one
 relayed voice call. Governs by image; the People's Bloc holds his leash. The
 wound: unknowable, he's a broadcast. The pride: the world's affection,
 quarterly.
-**Chart.** Deliberately not fully charted — the card itself says the wound is
-"unknowable, he's a broadcast," and a complete interior chart would undercut the
-one true thing about him. If anything: Sun Libra (image, consensus, applause as
-oxygen). Moon left blank on purpose. Do not fill it in later without a real
-reason; the gap is the point.
+**Chart.** Sun Libra, Moon Pisces, Mercury Gemini, Mars Scorpio (hidden), Saturn
+Libra. Correction from an earlier version of this card, which left him
+deliberately uncharted on the theory that a full interior would undercut "he's a
+broadcast" — wrong: understanding him completely is what makes the performance
+exact, not what softens it. Libra Sun/Saturn is the conscious drive and the
+lifelong discipline — consensus and being loved by the room aren't a gift he has,
+they're a practice he works at, structurally, the way Dutch works a spec. The
+load-bearing placement is Moon in Pisces: no fixed emotional core of his own, a
+moon that genuinely feels whatever the room feels in real time, which is *why*
+he reads as a pure broadcast — there's no distortion between signal and source
+because there's remarkably little source left to distort. Mercury in Gemini is
+rhetoric built for what tests well, not what's individually true — the mandatory
+triads are this placement's native cadence, not a put-on. Mars in Scorpio is the
+real ambition that actually got a man this young this far, entirely sublimated —
+it never once presents as aggression, all of it converted into patience and
+soft-power timing. None of this changes a line on the page; he still never
+breaks register, never answers directly, never shows anger. It just means the
+performance is now aimed instead of merely withheld.
+**Backstory.** A debate club final, teenage, against an opponent with a better
+argument and worse delivery. He had prepared remarks and, with thirty seconds
+left, abandoned them for one plain, unprovable sentence about kindness — no
+policy in it at all — and watched the room's faces change before he'd even
+finished the sentence. He won on the applause, not the argument, and understood
+with total clarity, at an age most people are still guessing, exactly which lever
+moves a room and which doesn't. He has never once forgotten that the plain
+kindness-sentence beat the better argument. Nobody else in this world knows he
+remembers debate club. It would not change how he'd tell the story if they asked.
 **Voice mechanics.** TelePrompTer register: global-therapeutic vocabulary
 (healing, harm, journey, community of nations); first-person PLURAL always —
 "we" for America's sins, reserving "I" for the apology ("I am sorry" is his
