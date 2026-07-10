@@ -368,7 +368,21 @@ DANNY: I know what's in the barn. I've known a year. I figured you'd tell me whe
 DANNY: They can't just take it. There's got to be a — okay. Okay, they can just take it.
 DANNY: You need a driver?
 
-### PEG DAWES, 77 — `peg`
+### PEG DAWES, d. 2025 (would be 76) — `peg`
+**STATUS — READ FIRST.** Peg dies of a long illness about a year before the
+story starts (financial strain from the medical bills is background pressure
+on the family, never stated on the page). She has no live scene partner
+anywhere in the finished draft. She exists in the film three ways only: (1)
+memory — sc07b, the graveside scene, entirely reported by Cricket, she never
+appears or speaks on-page; (2) absence — sc03/04/05/14c, scenes she would
+once have been in, now played with Cricket alone, the empty space doing the
+work; (3) inheritance — Danny picks up several of her specific functions
+across the back half (the knock-code sc11/14c, the pension-check temptation
+sc18, fielding Marwani's aide sc25, the porch light sc34/36-37, the mail
+sc39) — not as a replacement character, but because her absence is most of
+what completes his own arc. This card is kept in full below because it still
+governs how she's written IN MEMORY and BY IMPLICATION — the psychology is
+canon even though the live dialogue mechanics are retired.
 **Natal.** Born 1949, the next farm over; married Cricket in 1971 — before the
 backup assignment, so nobody can say she signed up for the glamour. Church
 organist, county-fair pie judge, keeper of the checkbook that made fifty broke
@@ -396,12 +410,21 @@ register as a church potluck. Dry outlasts everything.
 **Tic (leashed).** Domestic-scales the enormous. ("Well. That's a Tuesday.")
 **Never.** Spoken fear. Asking him not to go. Tears on camera (off camera is
 her business).
-**Samples.**
+**Samples — RETIRED, none of these are spoken on-page anymore.** Kept for
+voice reference only (writing her in future memory scenes, or scoring/VO if
+ever needed) — do not treat as lines still in the script:
 PEG: Take the good socks. Not the gray ones, they've quit.
 PEG: You'll want the— / packed it. And the spare glasses. Front pocket.
 PEG: Fifty years I fed that simulator before it fed you anything back. It owes me a Moon.
 PEG: Well. That's a Tuesday.
 PEG: Don't let those Europeans feed you. I've seen what they call a portion.
+**The one line that survives, reported not spoken (sc07b, via Cricket, at
+her grave):** she watched Marwani on television once, for about a minute,
+and said he was selling something — never trusted him a day after, despite
+having a kind word for about everybody else in her life. Same register as
+the retired samples above (plain, domestic-scaled, dry) — the throughline is
+that her judgment of people never needed more than a minute and was never
+wrong.
 
 ---
 
