@@ -35,3 +35,9 @@ venv/
 # ffmpeg 2-pass stats (junk)
 *.mbtree
 ffmpeg2pass*.log*
+
+# table-read production output — entirely regenerable from the tracked
+# performance_sceneXX.json scripts + the source .fountain files
+stories/*/tableread/segs*/
+stories/*/tableread/refsheets/
+stories/*/tableread/index.html
