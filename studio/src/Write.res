@@ -28,8 +28,14 @@ let unpath = t =>
   | Cinema_Backends.Path(s) => s
   }
 
-let doctrinePath = "/Users/dusty/Dev/brehon-law/studio/DIALOGUE_DOCTRINE.md"
-let doctrine = () => Cinema_Backends.readText(Cinema_Backends.Path(doctrinePath))
+/* every entry point here is documented as run from inside studio/ (see package.json's
+   scripts + every SkyKing_Write*.res's own comment: "node src/X.res.mjs"), so the doctrine
+   file is resolved relative to the process's cwd, never a hardcoded absolute path — the
+   same hardcoded-path bug (a leftover /Users/.../brehon-law/... string) broke this exact
+   line once already after a project rename, in more than one checkout. */
+@val @scope("process") external cwd: unit => string = "cwd"
+let doctrinePath = () => cwd() ++ "/DIALOGUE_DOCTRINE.md"
+let doctrine = () => Cinema_Backends.readText(Cinema_Backends.Path(doctrinePath()))
 
 /* ---- canonical forms ----------------------------------------------------- */
 let canonOf = sp =>
@@ -327,7 +333,7 @@ let liftDialogue = async (~path, ~notes: option<string>=?, ~maxTries: int): scen
   | Some(b) => b
   | None => raise(WriteError("no scene body at " ++ unpath(path)))
   }
-  let doctrine = Cinema_Backends.readText(Cinema_Backends.Path(doctrinePath))
+  let doctrine = Cinema_Backends.readText(Cinema_Backends.Path(doctrinePath()))
   let rec round = async (n, lns) => {
     let raw = await Session.ask(liftPrompt(doctrine, lns, gateAll(lns), notes))
     let lns2 = Js.String2.trim(raw) == "NONE" ? lns : applyEdits(lns, raw)
@@ -442,7 +448,8 @@ let emit = (sc, ~txt) => {
   let p = unpath(txt)
   let body = canonical(sc.lns)
   let header =
-    "SKY KING — " ++
+    sc.id ++
+    " — " ++
     sc.slug ++
     "\n[engine-emitted; verify against " ++
     p ++
