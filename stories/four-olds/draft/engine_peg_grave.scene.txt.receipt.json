@@ -1,0 +1,10 @@
+{
+  "id": "four-olds-peg-grave",
+  "slug": "EXT. COUNTY CEMETERY - DAY",
+  "seedHash": "c18628aaf31d30c2b5fa1a35d64bff28767f94006fb47a4a0098ab5981101398",
+  "sceneHash": "c857809ef2c5a624f63a7199dfd893372b7198db4baa4eb5a4e9d66b284eadd2",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}
