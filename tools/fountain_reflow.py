@@ -21,7 +21,7 @@ from __future__ import annotations
 import re
 import sys
 
-CUE_RE = re.compile(r"^([A-Z][A-Z0-9 .'\-]{0,30}?)(\s*\((?:V\.O\.|O\.S\.|CONT'D|ON SCREEN|FILTERED)\))?:$")
+CUE_RE = re.compile(r"^([A-Z][A-Z0-9 #.'\-]{0,30}?)(\s*\((?:V\.O\.|O\.S\.|CONT'D|ON SCREEN|FILTERED)\))?:$")
 SLUG_RE = re.compile(r"^(INT\.|EXT\.|EST\.|INT/EXT\.|I/E\.)", re.I)
 CENTER_RE = re.compile(r"^>\s*(.*?)\s*<$")
 TRANS_RE = re.compile(r"^(CUT TO|SMASH CUT TO|MATCH CUT TO|FADE (IN|OUT|TO)|DISSOLVE TO|WHITE OUT|BLACK)[ A-Z]*:?$")

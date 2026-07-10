@@ -1,6 +1,6 @@
 Title: THE FOUR OLDS
-Credit: finishing draft v9 — source reflow (one line per paragraph)
-Draft date: 2026-07-10 08:14
+Credit: finishing draft v10 — legibility pass (simulator ID + seizure logic)
+Draft date: 2026-07-10 08:40
 
 INT. CABLE NEWS STUDIO - NIGHT
 
@@ -215,7 +215,7 @@ CUT TO:
 
 INT. DAWES BARN - NIGHT
 
-A work light on a beam. Filling half the barn: a homebuilt simulator — plywood, angle iron, salvaged instrument panels, a real crew couch bolted to a welded frame. Every switch is real. Every label is hand-lettered.
+A work light on a beam. Filling half the barn: a homebuilt simulator — plywood, angle iron, salvaged instrument panels, a real crew couch bolted to a welded frame, a single triangular window cut into the nose. Behind the glass, taped flat across the wall: a hand-painted backdrop, ash-gray ground and hard black sky, a crater rim in the middle distance. Every switch is real. Every label is hand-lettered.
 
 Along the back wall, shelving floor to roof: spiral notebooks, hundreds of them, spines out, each spine dated in the same hand. The first shelf starts at 1972.
 
@@ -253,7 +253,7 @@ Guidance internal. Tanks at sixty-two percent, simulated. Descent program loaded
 The barn door rolls open a foot. PEG, 77, in a house coat, sets a thermos on the workbench.
 
 PEG:
-Tell Elmore his wife wants him off by ten.
+Tell Elmore his wife wants him back from the moon by ten.
 
 Cricket lifts two fingers off the throttle without looking back. Peg pulls the door to behind her.
 
@@ -290,7 +290,7 @@ Nobody says anything about it. The checklist goes on.
 CRICKET:
 Three hundred feet. Drifting left. Correcting.
 
-Silence on the net. Only the hum and the switch clicks. His hands make small moves. The rate needle eases down. Down.
+Silence on the net. Only the hum and the switch clicks. His hands make small moves. Through the little window, the painted horizon rises to meet him. The rate needle eases down. Down.
 
 A panel lamp lights: CONTACT.
 
@@ -441,12 +441,13 @@ INT. DAWES BARN - CONTINUOUS
 
 The movers roll the door wide. Daylight falls across the simulator.
 
-MOVER #1: What is this thing?
+MOVER #1:
+What is this thing?
 
 Nobody answers him. Pell circles the rig, checking it against an inventory sheet.
 
 PELL:
-Item one. Homebuilt trainer, gyroscopic couch, panels — one altitude indicator—
+Item one. Homebuilt lunar descent trainer, gyroscopic couch, panels — one altitude indicator—
 
 CRICKET:
 Attitude.
@@ -456,13 +457,27 @@ Pell looks at the sheet. Makes a small correction with his pen.
 PELL:
 Noted.
 
-He peels a long orange sticker off a backing sheet and lays it across the main panel, smoothing it down with his thumb: FEDERAL INTEREST — SENSITIVE AEROSPACE TRAINING APPARATUS — EXCLUDED FROM PUBLIC AUCTION.
+He peels a long orange sticker off a backing sheet and lays it across the main panel, smoothing it down with his thumb: LUNAR HERITAGE NEUTRALIZATION ACCORD — ANCILLARY MATERIEL — FEDERAL INTEREST — EXCLUDED FROM PUBLIC AUCTION.
 
 CRICKET:
 Excluded from auction. So the county can't even sell it to cover the taxes. Then this isn't about the taxes.
 
 PELL:
 Everything's compliance now. It's fairer that way. Same rules for everybody.
+
+Pell moves off down the row, checking boxes. Wade lingers a half step behind, hat still in his hand.
+
+WADE:
+(low, just to Cricket)
+County was gonna auction it, Earl. Might've covered your bill, might not, but it would've been something. Federal list came down Tuesday — anything they can call aerospace, they take it whole, ahead of the county, ahead of everybody. County don't see a dime. Nobody does.
+
+CRICKET:
+Where's it go?
+
+WADE:
+Warehouse outside Lincoln, is what I hear. Same one as the rest of it.
+
+Cricket looks at him a moment. Nods once, like it's the answer he already had.
 
 The movers unbolt the crew couch. A ratchet slips; a mover barks a knuckle and swears; Cricket hands him the correct socket off the pegboard. The mover takes it and can't look at him.
 
@@ -2736,13 +2751,17 @@ INT. WHITE HOUSE, COUNSEL'S OFFICE - CONTINUOUS
 
 Four LAWYERS around a speakerphone, laptops open. One of them has a personnel file on screen: DAWES, E. — ASTRONAUT (ACTIVE). A fifty-year column of quarterly entries: $0.00. $0.00. $0.00.
 
-LAWYER #1: Tell me this is a database error.
+LAWYER #1:
+Tell me this is a database error.
 
-LAWYER #2: It's been signed off every quarter since 1972, by career staff, under four statutes. And three months ago somebody reactivated the annuity — we did — which means this administration AFFIRMED the status—
+LAWYER #2:
+It's been signed off every quarter since 1972, by career staff, under four statutes. And three months ago somebody reactivated the annuity — we did — which means this administration AFFIRMED the status—
 
-LAWYER #1: So they're not trespassers.
+LAWYER #1:
+So they're not trespassers.
 
-LAWYER #2: They're federal personnel on their duty station. If that crew removes them on camera, the crew of a foreign-flagged mission will be laying hands on serving American officers, live, on the Fourth of July.
+LAWYER #2:
+They're federal personnel on their duty station. If that crew removes them on camera, the crew of a foreign-flagged mission will be laying hands on serving American officers, live, on the Fourth of July.
 
 Silence around the speakerphone.
 
