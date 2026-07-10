@@ -63,6 +63,16 @@ on the rare occasions it moves, it moves all at once and not gradually — a swi
 not a slow burn, oversized against his controlled surface in a way that plays
 funnier and bigger than his usual register would predict (Goodman/Walter Sobchak
 register: mostly contained, and when it isn't, it's sudden and a little absurd).
+**Backstory.** He found out he wasn't flying from a typed memo on a corkboard,
+crew assignments posted like a shift schedule — no call, no handshake, no one
+in the room when he read it. He drove home, and that same evening, instead of
+getting drunk or breaking something, he ran his own simulator checklist start to
+finish, alone, on time, like nothing had happened. That's the actual origin of
+the fifty-year habit — not devotion, a same-day refusal to let the memo be the
+last word. He has told his grandkids "I almost went to the Moon" so many times
+it became the family's running joke — "Yes, Dad, the kids have heard about it" —
+and he has let them think it's just an old man's story, because the alternative
+was explaining that he never stopped being ready.
 **Voice mechanics.** Checklist grammar: short declaratives, subject-verb-object,
 numbers never rounded ("Resting's fifty-one" — not "about fifty"). States and
 readings where feelings are expected. Farm-boy plain under NASA-1970 working
@@ -99,6 +109,13 @@ Moon is why comfort, for him, is always physical and tactile and never spoken �
 "Hell. Hand me the three-eighths" is as close as this chart gets to feeling
 something out loud. Distinct from Cricket on purpose: same earth-heavy control,
 no buried Leo Moon underneath it — Dutch really is this settled, all the way down.
+**Backstory.** The termination meeting was run by someone thirty years younger
+than him, reading from a script that called it "a transition, not a loss." Dutch
+listened to the whole thing, then pointed out that the severance letter had his
+tolerance-stamp units wrong — inches where the original spec used millimeters —
+and made them reprint it before he'd sign. That was the entire event, start to
+finish, as far as he ever told anyone: a corrected document. He kept the binder.
+Nobody asked him to.
 **Voice mechanics.** Specification grammar. Longer sentences than the pilots, but
 every clause load-bearing — conditions stated then discharged ("If the purge
 holds — and it holds, I sized the bottle — you've got nine days"). Cites documents
@@ -131,6 +148,15 @@ he goes quiet and checks something with his hands instead of talking — the sam
 mechanism as Dutch's Taurus Moon, different fuel underneath it. He is the one
 member of the four who is genuinely, currently at peace; this chart should read
 settled, not suppressed — nothing buried, nothing waiting to erupt.
+**Backstory.** One of the two framed reprimands is for a barrel roll on final
+approach at Beale — nothing tactical about it, no reason for it, a beautiful and
+completely unauthorized thing he did because the air was right and nobody had
+told him not to that specific day. He got chewed out, framed the paperwork, never
+did it again in a plane he'd have to explain. When he first heard the Sky King
+story secondhand — a stranger, a stolen plane, a barrel roll over the water — he
+recognized the impulse before he recognized the ending. He's the one who kept the
+story, and he knows, better than anyone else in the crew, exactly how easy that
+particular decision is to make.
 **Voice mechanics.** East Texas drawl written in rhythm, not phonetics (no eye
 dialect). Economy in the air — shortest sentences of the crew when flying.
 On the ground, a storyteller's wind-up he cuts off himself ("Anyway."). The joke
@@ -165,6 +191,14 @@ dead near the flag: Cancer knows exactly where the sacred line is even when Mars
 in Sagittarius is running blunt and profane everywhere else. Of the four, this is
 already the biggest, warmest, most naturally Lebowski-ensemble placement — it
 doesn't need building, it needs permission to play at full size.
+**Backstory.** He taught Tito the flag fold at the warehouse on a lunch break,
+unasked, because he saw the kid handling a folded flag wrong and couldn't let it
+pass. Thirteen steps, out loud, the whole triangle, in a loading dock that smelled
+like cutting oil, and when he was done he didn't explain what any of it meant —
+just checked Tito's corners were square and walked off. That's the whole
+relationship in one afternoon: Gunny doesn't teach with words, he teaches by
+making you redo it until it's right, the same way his own grandfather likely
+taught him the deacon's cadence he still surfaces without noticing.
 **Voice mechanics.** NCO imperative softened into hospitality — commands dressed
 as courtesies ("You're gonna want to step behind that line, sir"). Addresses
 everyone by rank or role, never first names: Commander, Colonel, son. Fluent,
@@ -202,6 +236,13 @@ total control over what's revealed, comfortable holding a two-act secret without
 a single tell, strategic depth that never once needs to announce itself. Every
 line he has is exactly true and quietly aimed — that's Capricorn's honesty
 running on Scorpio's timing.
+**Backstory.** He saw the mill-closure memo four days before it was posted —
+logistics gets everything early — and spent those four days running normal
+shifts, joking with men whose lives were about to change, saying nothing,
+because it wasn't his to say and there was no version where telling them early
+helped. He has never stopped thinking about those four days. When Vess needed
+someone who could carry a devastating secret competently, without flinching,
+without a single tell, she wasn't taking a chance on him. She'd read his file.
 **Voice mechanics.** DOUBLE-WRITTEN — the hard card. Shop-floor plain with the
 men; compliance-speak fluent AT Pell (his camouflage is speaking warden). He
 never lies on the page: every line is exactly true and quietly aimed ("I lose
@@ -234,6 +275,13 @@ this whole chart of genuinely changing registers fast. Aries Moon and Mars are
 why he's never filed a flight plan: impulsive courage that hasn't yet been
 pointed at anything worth the risk, until this crew hands him one. The arc isn't
 him becoming a different person, it's Aries finally getting a real target.
+**Backstory.** He raced an unlicensed circuit heat with his father in the stands
+once, actually watching for once instead of working a headset — pushed harder
+than he should have, took a real risk, won by nothing. His dad's whole reaction
+was checking the tach afterward for redline damage. Never said good race. That's
+the lesson that stuck, the one under all the filler: risk gets you noticed for
+about four seconds and then somebody's already checking the engine. He talks fast
+so nobody has time to ask if he meant any of it.
 **Voice mechanics.** Fast, clipped, radio-brat — talks like bandwidth costs
 money, EXCEPT for generational filler ("like," "literally," "no cap") that the
 old men tax out of him scene by scene: THE FILLER BURNS OFF ACROSS THE FILM and
@@ -261,6 +309,12 @@ humility and the object-as-subject grammar — praise deflected into process
 because the WORK is what's real, not his feelings about it. Cancer Moon is Lita,
 the flag she sewed, the family-rootedness that is the only thing that ever gets
 Spanish out of him — home is the one subject his Taurus reserve can't hold.
+**Backstory.** The day the shop "restructured," a consultant ran a robotic arm
+through a weld pass at double his speed as part of the presentation, in front of
+the whole floor, meaning well, thinking it was a good pitch for automation. Tito
+watched the whole demo and clapped along with everyone else when it was over.
+Lita's Singer is older than the company that fired him. He thinks about that more
+than he'd ever say.
 **Voice mechanics.** Maker grammar — measurements in body units ("two fingers of
 clearance"), process verbs, the object always the subject ("She'll hold" — the
 crate, never himself). Praise embarrasses him; he answers praise with process.
@@ -292,6 +346,13 @@ over-explanation, detail piled on detail in place of just saying the thing. His
 arc — sentences compressing across the film toward his father's grammar — is
 literally Cancer learning to trust Capricorn-Cricket's silence instead of trying
 to fill it for him.
+**Backstory.** Third grade, a worksheet: "What does your dad do?" Danny wrote
+"backup," and the teacher circled it and wrote "backup for what?" in red pencil,
+genuinely curious, no malice in it. He didn't have an answer that fit in the box,
+so the next year he just wrote "pilot" and left it there. He has heard "I almost
+went to the Moon" at every Thanksgiving of his adult life and has always laughed
+in the right places, because the alternative is explaining to your own kids that
+grandpa isn't exaggerating, he's just never once been believed.
 **Voice mechanics.** Over-explains where his father under-explains — the
 inheritance inverted; softens hard news with logistics and weather before
 landing it. Starts the hard sentences with "Dad." and a breath. ACROSS THE FILM
@@ -319,6 +380,14 @@ Moon the same weight as a church potluck. Scorpio Moon is the ferocity
 underneath: "Fifty years I fed that simulator before it fed you anything back. It
 owes me a Moon" is a Scorpio line wearing a Taurus housecoat — total devotion,
 total control, never performed as suffering.
+**Backstory.** The day the prime crew was announced in '73, she'd already had
+supper on by five, out of habit, and it sat on the stove getting cold while
+Cricket stood by the wall phone that never rang until she finally turned the
+burner off herself, quietly, so he wouldn't hear the click and know she'd given
+up on the call before he had. She never told him she did that. She has never
+asked him to sell the simulator because taking away the wait would mean admitting
+out loud that the wait was real, and admitting it was real was never going to be
+her gift to give him — only his to survive.
 **Voice mechanics.** Fifty-year shorthand — she and Cricket speak in
 half-sentences the other completes; the audience does the math. Love expressed
 exclusively as logistics and insult ("Take the good socks. Not the gray ones,
@@ -352,6 +421,12 @@ compliance register is that fire under forced Capricorn containment, not a
 natural state; the Monitorship is functionally an external Saturn transit playing
 out on screen. The Act 3 detonation is Aries breaking back through — same man,
 voltage restored, not a personality change.
+**Backstory.** He signed the repaint order himself — Vess's idea, but his
+signature — and then left the building for the two days the painters worked,
+told his assistant he had supplier meetings that didn't exist. He has never
+watched footage of it, has had every article about it forwarded to him and read
+none of them. The physics-absolutism in his voice mechanics is partly real
+conviction and partly the only vocabulary he trusts himself not to break down in.
 **Voice mechanics.** TWO REGISTERS, the gap is the character. (1) Compliance:
 flat, affectless, reading-pace — statements in words that are visibly not his;
 the deadness is the tell. (2) Private/detonation: engineer-CEO staccato,
@@ -383,6 +458,13 @@ control, comfortable being hated for two acts because she already knows how it
 ends, Capricorn's cold competence backing every Scorpio secret. The passive/active
 agency-tell in her voice mechanics is this chart's exact signature: Scorpio hides,
 Capricorn performs.
+**Backstory.** The first "concubine COO" headline ran the morning of a board
+vote she needed unanimous. She read it once, at the kitchen table, before the
+kids were up, folded the paper, and was in the boardroom forty minutes later
+running the meeting exactly as planned — got her unanimous vote. Nobody in that
+room knew she'd seen it. She has never corrected the record on any of it, not
+because it doesn't cost her, but because a woman who defends herself has already
+told you where she's weak.
 **Voice mechanics.** DOUBLE-WRITTEN, hardest card in the deck. Low, unhurried,
 complete sentences; no contractions when enforcing ("The company will comply") —
 contractions surface only in the two private beats (the audience's subliminal
@@ -415,6 +497,13 @@ genuine at the weigh-in, genuine in the paperwork. Cancer Moon is the wounded
 neediness driving the officiousness underneath it: "nobody has ever once been
 glad to see him" is a Cancer Moon's whole tragedy in one line, and the harmony
 jargon is Cancer's need to belong somewhere, badly disguised as Virgo procedure.
+**Backstory.** His first seizure, twenty years younger, county tax office: a
+widow cried at her own kitchen table while he itemized her late husband's tractor
+for auction, and he went home that night and could not eat. By the third seizure
+he'd found the sentence that let him keep doing the job — "the process protects
+everyone" — and he has said some version of it, to himself first, before every
+seizure since. He believes it. That's what makes him dangerous instead of just
+sad.
 **Voice mechanics.** Bureaucratic menace in harmony jargon — threat wearing HR
 language ("I'm sensing non-alignment, gentlemen"). Cites the Accord by section
 number, occasionally wrongly, never corrected in time to matter. Diminutives as
