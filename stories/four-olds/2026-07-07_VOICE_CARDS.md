@@ -3,6 +3,15 @@ _Phase 2 artifact · required before any dialogue (pass #7) · the blind-attribu
 gate judges every draft against THIS document. Keys in backticks are the gate keys
 and the future Fountain cues (`CRICKET:` → `cricket`)._
 
+**2026-07-10 addendum:** the original "Natal." fields are biographical (birth
+year, hometown, family trade), not astrological — the title's "natal charts"
+claim was aspirational until now. Added a real **Chart.** field (sun/moon/mars/
+mercury/saturn placements) to every card, reasoned from what was already
+established in Voice mechanics/Tic/Never — deepening and explaining the existing
+work, never overriding it. Use Chart. as the generative layer when writing new
+dialogue for a character, the same way Sky King's own natal-chart method was
+supposed to work project-wide from the start.
+
 **Standing dialogue law on every card (from doctrine, enforced in Phase 5):**
 real speech is messy, halting, inefficient, and inarticulate about pain. Tics are
 LEASHED — a tic may surface at most twice per act, never twice in one scene. Echo
@@ -43,6 +52,17 @@ the class that never flew. Never processed out (the $0.00 ghost stub). Fifty yea
 of Tuesday-night logbooks in a homebuilt barn simulator. Broke; bank extensions;
 too proud to say so at the diner. The wound: he stopped believing anyone would
 ever ask. The pride: he stayed current anyway.
+**Chart.** Sun Virgo, Mercury Virgo, Moon Leo, Mars Aries, Saturn Capricorn. The
+Virgo Sun/Mercury is the surface everyone's seen: precise, dutiful, checklist-
+native, allergic to sloppiness — "Suit's holding four-point-one" is Virgo's whole
+worldview in four words. Saturn in Capricorn is fifty years of discipline holding
+the rest of the chart down. The load-bearing placement is the Moon in Leo, buried
+under both: a need to be *seen*, to have mattered, that he will not perform, will
+not name, will not admit to wanting — starved, not absent. Mars in Aries is why,
+on the rare occasions it moves, it moves all at once and not gradually — a switch,
+not a slow burn, oversized against his controlled surface in a way that plays
+funnier and bigger than his usual register would predict (Goodman/Walter Sobchak
+register: mostly contained, and when it isn't, it's sudden and a little absurd).
 **Voice mechanics.** Checklist grammar: short declaratives, subject-verb-object,
 numbers never rounded ("Resting's fifty-one" — not "about fifty"). States and
 readings where feelings are expected. Farm-boy plain under NASA-1970 working
@@ -69,6 +89,16 @@ document IS the truth. One of Hale's first hires when Frontier was a junkyard;
 wrote half the cargo standards including the Class-A archival spec; pushed out in
 the "safety-culture modernization." Owns the binder. The wound: watching his spec
 outlive his badge. The pride: nothing he ever signed failed.
+**Chart.** Sun Capricorn, Mercury Capricorn, Moon Taurus, Mars Virgo, Saturn
+Capricorn (home sign). Almost entirely earth — no real fire or water anywhere.
+That is the character: he processes nothing through talk, only through structure
+and hands. Capricorn Sun and Saturn in its home sign is why the document *is* the
+law to him, permanent and unbending, not a preference he holds — "I wrote it in
+1998 and nobody's improved it since" is not stubbornness, it's cosmology. Taurus
+Moon is why comfort, for him, is always physical and tactile and never spoken —
+"Hell. Hand me the three-eighths" is as close as this chart gets to feeling
+something out loud. Distinct from Cricket on purpose: same earth-heavy control,
+no buried Leo Moon underneath it — Dutch really is this settled, all the way down.
 **Voice mechanics.** Specification grammar. Longer sentences than the pilots, but
 every clause load-bearing — conditions stated then discharged ("If the purge
 holds — and it holds, I sized the bottle — you've got nine days"). Cites documents
@@ -92,6 +122,15 @@ driving. Air Force: SR-71 out of Beale, then shuttle. Flew everything, filed
 nothing — two reprimands for unlogged aerobatics, both framed in his hangar. The
 wound: nothing — that's the point of him; he genuinely left nothing on the table
 except the Moon. The pride: hands. He trains the kids' hands.
+**Chart.** Sun Sagittarius, Mercury Sagittarius, Moon Virgo, Mars Sagittarius. The
+inverse of Dutch on purpose. Sagittarius rounding a number because exactness
+isn't the point, the flight is ("call it three g's — maybe a hair more") — the
+unlogged aerobatics are risk taken for its own sake, not recklessness, a
+Sagittarian principle, not a character flaw. Virgo Moon is why, when he's moved,
+he goes quiet and checks something with his hands instead of talking — the same
+mechanism as Dutch's Taurus Moon, different fuel underneath it. He is the one
+member of the four who is genuinely, currently at peace; this chart should read
+settled, not suppressed — nothing buried, nothing waiting to erupt.
 **Voice mechanics.** East Texas drawl written in rhythm, not phonetics (no eye
 dialect). Economy in the air — shortest sentences of the crew when flying.
 On the ground, a storyteller's wind-up he cuts off himself ("Anyway."). The joke
@@ -115,6 +154,17 @@ white room while officers borrowed his machine. Owner of the flag protocol and
 the grill, both sacraments; keeper of crates five and six. The wound: none he'd
 name — but he's the one who noticed nobody teaches the flag code anymore. The
 pride: no bird he crewed ever scrubbed on his side of the line.
+**Chart.** Sun Leo, Mercury Cancer, Moon Cancer, Mars Sagittarius. Leo explains
+the natural command presence and the dignity that shows up specifically when
+ritual is being performed — a born performer, but only ever in service of
+something sacred, never for himself; that restraint is what keeps Leo from
+reading as vanity. Cancer Moon and Mercury are the deacon's-grandson
+protectiveness underneath — "commands dressed as courtesies" is Cancer nurturing
+wearing a Leo voice, and it's also the mechanism for the profanity that cuts out
+dead near the flag: Cancer knows exactly where the sacred line is even when Mars
+in Sagittarius is running blunt and profane everywhere else. Of the four, this is
+already the biggest, warmest, most naturally Lebowski-ensemble placement — it
+doesn't need building, it needs permission to play at full size.
 **Voice mechanics.** NCO imperative softened into hospitality — commands dressed
 as courtesies ("You're gonna want to step behind that line, sir"). Addresses
 everyone by rank or role, never first names: Commander, Colonel, son. Fluent,
@@ -145,6 +195,13 @@ closed his junior year; Army logistics, then twenty years of cargo integration.
 Frontier foreman — the man who knows where every kilo sits. Vess's agent (the
 audience learns in Act 3; the card is double-written NOW). The wound: watched two
 towns die by memo. The pride: nothing he loads shifts.
+**Chart.** Sun Capricorn, Mercury Capricorn, Moon Scorpio. Capricorn is the
+institutional fluency, the schedule-deflection, the plain competence that reads
+as harmless. Scorpio Moon is the whole hidden-agent mechanic in one placement:
+total control over what's revealed, comfortable holding a two-act secret without
+a single tell, strategic depth that never once needs to announce itself. Every
+line he has is exactly true and quietly aimed — that's Capricorn's honesty
+running on Scorpio's timing.
 **Voice mechanics.** DOUBLE-WRITTEN — the hard card. Shop-floor plain with the
 men; compliance-speak fluent AT Pell (his camouflage is speaking warden). He
 never lies on the page: every line is exactly true and quietly aimed ("I lose
@@ -170,6 +227,13 @@ who taught him CB radio and nothing about caution. Suborbital stunt racer
 link off his father's rig. Never filed a flight plan. The wound: his whole
 generation told him nothing is worth being sincere about. The pride: fastest
 hands on the dock and he knows it.
+**Chart.** Sun Gemini, Mercury Gemini, Moon Aries, Mars Aries. Gemini is the
+generational filler-chatter, the restless quick mind, the irony as reflex — and
+it's supposed to burn off across the film, because Gemini is the most capable of
+this whole chart of genuinely changing registers fast. Aries Moon and Mars are
+why he's never filed a flight plan: impulsive courage that hasn't yet been
+pointed at anything worth the risk, until this crew hands him one. The arc isn't
+him becoming a different person, it's Aries finally getting a real target.
 **Voice mechanics.** Fast, clipped, radio-brat — talks like bandwidth costs
 money, EXCEPT for generational filler ("like," "literally," "no cap") that the
 old men tax out of him scene by scene: THE FILLER BURNS OFF ACROSS THE FILM and
@@ -192,6 +256,11 @@ Welding cert at nineteen, fabricator prodigy in Frontier's shop until the
 "restructuring" fired all 200. Welds the crates; stencils the four-olds labels;
 smuggles three firework shells. The wound: got told his hands were a legacy
 skill. The pride: his beads. Lita's flag goes in crate five.
+**Chart.** Sun Taurus, Mercury Taurus, Moon Cancer. Taurus is the craftsman's
+humility and the object-as-subject grammar — praise deflected into process
+because the WORK is what's real, not his feelings about it. Cancer Moon is Lita,
+the flag she sewed, the family-rootedness that is the only thing that ever gets
+Spanish out of him — home is the one subject his Taurus reserve can't hold.
 **Voice mechanics.** Maker grammar — measurements in body units ("two fingers of
 clearance"), process verbs, the object always the subject ("She'll hold" — the
 crate, never himself). Praise embarrasses him; he answers praise with process.
@@ -216,6 +285,13 @@ which tells you everything. Grew up under the barn's light bill; sells ag
 equipment in Kearney; married, two kids, watches the news so his father won't
 have to. The wound: spent boyhood competing with a mission that never launched.
 The pride: he's the one who figured out the barn — and said nothing for a year.
+**Chart.** Sun Cancer, Moon Virgo. Cancer is the anxious protectiveness — softening
+hard news with weather and logistics before he'll land it, because he genuinely
+cannot bear hurting his father. Virgo Moon is that worry expressed as
+over-explanation, detail piled on detail in place of just saying the thing. His
+arc — sentences compressing across the film toward his father's grammar — is
+literally Cancer learning to trust Capricorn-Cricket's silence instead of trying
+to fill it for him.
 **Voice mechanics.** Over-explains where his father under-explains — the
 inheritance inverted; softens hard news with logistics and weather before
 landing it. Starts the hard sentences with "Dad." and a breath. ACROSS THE FILM
@@ -237,6 +313,12 @@ backup assignment, so nobody can say she signed up for the glamour. Church
 organist, county-fair pie judge, keeper of the checkbook that made fifty broke
 years balance. The wound: she watched him wait by the phone in '73. The pride:
 she never once asked him to sell the simulator.
+**Chart.** Sun Taurus, Moon Scorpio. Taurus is the fifty years of unglamorous,
+undramatic steadfastness — the checkbook, the socks, the register that gives the
+Moon the same weight as a church potluck. Scorpio Moon is the ferocity
+underneath: "Fifty years I fed that simulator before it fed you anything back. It
+owes me a Moon" is a Scorpio line wearing a Taurus housecoat — total devotion,
+total control, never performed as suffering.
 **Voice mechanics.** Fifty-year shorthand — she and Cricket speak in
 half-sentences the other completes; the audience does the math. Love expressed
 exclusively as logistics and insult ("Take the good socks. Not the gray ones,
@@ -264,6 +346,12 @@ the regime's statements like a hostage tape for two acts; the world calls him a
 sellout. Chooses not to see the plot — the audience never watches him plan. The
 wound: they made him paint over the flag on his own booster. The pride: the
 physics still works and it's still his.
+**Chart.** Sun Aries, Moon Capricorn (guarded), Mars Aries. Aries is the real
+man — blunt, first-principles, entrepreneurial fire, absolutes about physics. The
+compliance register is that fire under forced Capricorn containment, not a
+natural state; the Monitorship is functionally an external Saturn transit playing
+out on screen. The Act 3 detonation is Aries breaking back through — same man,
+voltage restored, not a personality change.
 **Voice mechanics.** TWO REGISTERS, the gap is the character. (1) Compliance:
 flat, affectless, reading-pace — statements in words that are visibly not his;
 the deadness is the tell. (2) Private/detonation: engineer-CEO staccato,
@@ -290,6 +378,11 @@ enforces compliance, paints over the flag, fires the 200, donates the relics,
 testifies against Hale. TRUTH (Act 3): the mastermind — every cruelty was load-
 bearing cover. The wound: unnameable until the safe scene. The pride: she never
 needed to be liked to be right.
+**Chart.** Sun Scorpio, Moon Capricorn. Barely needs unpacking — total strategic
+control, comfortable being hated for two acts because she already knows how it
+ends, Capricorn's cold competence backing every Scorpio secret. The passive/active
+agency-tell in her voice mechanics is this chart's exact signature: Scorpio hides,
+Capricorn performs.
 **Voice mechanics.** DOUBLE-WRITTEN, hardest card in the deck. Low, unhurried,
 complete sentences; no contractions when enforcing ("The company will comply") —
 contractions surface only in the two private beats (the audience's subliminal
@@ -317,6 +410,11 @@ personally rode the seizure of a barn simulator on a county lien. Gets ONE real
 win (the weigh-in, played dead straight) and one safe moment: he personally
 inspected and signed crate four. Twice. The wound: nobody has ever once been
 glad to see him. The pride: his signature means things. (It does. That's Act 3.)
+**Chart.** Sun Virgo, Moon Cancer. Virgo is the real, if misapplied, competence —
+genuine at the weigh-in, genuine in the paperwork. Cancer Moon is the wounded
+neediness driving the officiousness underneath it: "nobody has ever once been
+glad to see him" is a Cancer Moon's whole tragedy in one line, and the harmony
+jargon is Cancer's need to belong somewhere, badly disguised as Virgo procedure.
 **Voice mechanics.** Bureaucratic menace in harmony jargon — threat wearing HR
 language ("I'm sensing non-alignment, gentlemen"). Cites the Accord by section
 number, occasionally wrongly, never corrected in time to matter. Diminutives as
@@ -341,6 +439,11 @@ biography.) Exists in the film exclusively on screens — podiums, PSAs, one
 relayed voice call. Governs by image; the People's Bloc holds his leash. The
 wound: unknowable, he's a broadcast. The pride: the world's affection,
 quarterly.
+**Chart.** Deliberately not fully charted — the card itself says the wound is
+"unknowable, he's a broadcast," and a complete interior chart would undercut the
+one true thing about him. If anything: Sun Libra (image, consensus, applause as
+oxygen). Moon left blank on purpose. Do not fill it in later without a real
+reason; the gap is the point.
 **Voice mechanics.** TelePrompTer register: global-therapeutic vocabulary
 (healing, harm, journey, community of nations); first-person PLURAL always —
 "we" for America's sins, reserving "I" for the apology ("I am sorry" is his
