@@ -28,7 +28,7 @@ let unpath = t =>
   | Cinema_Backends.Path(s) => s
   }
 
-let doctrinePath = "/Users/dusty/Dev/brehon-law/studio/DIALOGUE_DOCTRINE.md"
+let doctrinePath = "/Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/studio/DIALOGUE_DOCTRINE.md"
 let doctrine = () => Cinema_Backends.readText(Cinema_Backends.Path(doctrinePath))
 
 /* ---- canonical forms ----------------------------------------------------- */
@@ -442,7 +442,8 @@ let emit = (sc, ~txt) => {
   let p = unpath(txt)
   let body = canonical(sc.lns)
   let header =
-    "SKY KING — " ++
+    sc.id ++
+    " — " ++
     sc.slug ++
     "\n[engine-emitted; verify against " ++
     p ++

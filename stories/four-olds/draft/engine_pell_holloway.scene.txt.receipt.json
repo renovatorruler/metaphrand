@@ -1,0 +1,10 @@
+{
+  "id": "four-olds-pell-holloway-call",
+  "slug": "INT. FEDERAL COMPLIANCE FIELD OFFICE - DAY",
+  "seedHash": "a651d6fe080b47055306bafddb6596df54d28f7b5ad28e7e4efef8fccaddbe02",
+  "sceneHash": "8ce766c0e8b59e984d618b6609d47ec5c1744c68cf79b71fb76583e3b388e11e",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}
