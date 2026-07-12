@@ -2,7 +2,6 @@ sc01_cold_open.scene.txt|HISTORY IS HEALING
 sc02_bank.scene.txt|ASTRONAUT|owe us four thousand
 sc03_barn_net.scene.txt|Contact light
 sc04_accord.scene.txt|flags of peace
-sc05_pell_holloway.scene.txt|DAWES
 sc06_seizure.scene.txt|move me, Wade
 sc07_fireworks.scene.txt|drive you home
 sc08_diner.scene.txt|I said it quiet
