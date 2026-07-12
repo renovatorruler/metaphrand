@@ -326,7 +326,7 @@ let jobs: array<job> = [
   /* ---- v22 MACK FINDS OUT + TRADECRAFT --------------------------------------------------- */
   mk(
     "v14-22-mack",
-    "sc22_mack.scene.txt",
+    "parked_sc22_fused.scene.txt",
     "INT. TRI-COUNTY AUCTION BARN - NIGHT",
     "Mack, who books the freight, knows what six empty archival boxes should weigh — and his own scale disagrees by thirty kilos, four times. He walks the shop at night, lifts one tarp, and calls the room to the plywood table: 'Nothing on this manifest breathes, gentlemen.' By midnight he's in, and the operation goes paper-and-airwaves: letters, the ham schedule, a book cipher, and cover stories for July.",
     [V14Cast.mack, V14Cast.cricket, V14Cast.gunny, V14Cast.dutch, V14Cast.stitch, V14Cast.joss, V14Cast.tito, V14Cast.danny],

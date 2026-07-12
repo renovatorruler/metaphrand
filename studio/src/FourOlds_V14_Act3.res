@@ -152,6 +152,7 @@ let jobs: array<job> = [
       },
     ],
     [
+      "TENT-POLE SEQUENCE — one of the film's major set-pieces: play it at FULL LENGTH, three to four screenplay pages. Give every required beat its complete staging, every cutaway its own beats, every held moment its air. The style stays terse per LINE (one shot per paragraph), but the SEQUENCE is long — do not compress, do not summarize, do not merge cutaways.",
       "REQUIRED cutaways in order: mission control (the standing controller); Roy's (the Earlene/Buck beat exactly as written); the Unity Day pavilion — Marwani feels the crowd's eyes go past him, turns, and the screen behind him holds the ring of flags forty feet tall; the schoolchildren in the front row see flags and lawn chairs and a cookout — and they CHEER; the Frontier training-room watch party where the Module 7 FACILITATOR stands frozen with a paper plate, reading her own four words off the crate lids; a Warsaw tram stop where strangers packed around one phone start to clap.",
       "The panelist identification beat: '— I'm being told those suits are the museum pieces. From the gift program. They're wearing the gifts.' — one line, then on.",
       "End the scene on Gunny at the grill seeing the three Harmony suits on the rise and raising the spatula, unhurried, all the way up. Hold on that.",
@@ -197,6 +198,7 @@ let jobs: array<job> = [
       },
     ],
     [
+      "TENT-POLE SEQUENCE — one of the film's major set-pieces: play it at FULL LENGTH, three to four screenplay pages. Give every required beat its complete staging, every cutaway its own beats, every held moment its air. The style stays terse per LINE (one shot per paragraph), but the SEQUENCE is long — do not compress, do not summarize, do not merge cutaways.",
       "REQUIRED: Lindqvist's blurt ('Where did you even COME from?') answered with 'We came in the mail.'; the counsel's-office INSERT of the personnel screen — DAWES, E. — ASTRONAUT (ACTIVE), the fifty-year column of $0.00 entries; Brandt's close: 'Harmony copies. Control, Harmony requests instructions.'",
       "The lawyers' scene must NOT mention any annuity reactivation or check — the shield is the fifty-year file alone, plus the recorded fact that the President personally offered this man flown status last week (one line: 'And sir — the President offered him the wings on a recorded line Tuesday. We can't call him a fraud without calling the President one.').",
       "Keep the whole scene under four pages; the standoff beats spare, the lawyer beats fast.",
@@ -370,6 +372,7 @@ let jobs: array<job> = [
       },
     ],
     [
+      "TENT-POLE SEQUENCE — one of the film's major set-pieces: play it at FULL LENGTH, three to four screenplay pages. Give every required beat its complete staging, every cutaway its own beats, every held moment its air. The style stays terse per LINE (one shot per paragraph), but the SEQUENCE is long — do not compress, do not summarize, do not merge cutaways.",
       "REQUIRED cutaways: the diner (the Cook plating burgers nobody ordered, waving off every wallet; Buck raising his cup to the TV); Warsaw howling; the Geneva coordinator's presser dying under open laughter; the White House press secretary gripping the podium through '— the situation has — evolved —'.",
       "Adams' bells line must be present and unabridged — it pays the silenced steeple, and NOBODY connects the two out loud.",
       "The shells: three, in flag order, each described in one paragraph, no sound in any of them.",
@@ -433,6 +436,7 @@ let jobs: array<job> = [
       },
     ],
     [
+      "TENT-POLE SEQUENCE — one of the film's major set-pieces: play it at FULL LENGTH, three to four screenplay pages. Give every required beat its complete staging, every cutaway its own beats, every held moment its air. The style stays terse per LINE (one shot per paragraph), but the SEQUENCE is long — do not compress, do not summarize, do not merge cutaways.",
       "THE HATCH: seed it as the bent hinge from the landing (one callback action line), play the jam and the fix in under a page, and BAN all of the following: any speech from Cricket about staying, any argument, any farewell circle, the phrase 'Three's enough,' and any line where anyone names what he just did. Brandt gets ONE protest syllable ('Dawes—') answered by 'GO.' The goodbyes are the two-two clicks through the glass, nothing else.",
       "REQUIRED coda furniture: the pay-stub INSERT — DAWES, E. — RANGER (FIRST), TRANQUILITY BASE NATIONAL HISTORIC PARK, and a number, a real one, with digits — Danny putting it under a magnet on the fridge, square; the Pell scapegoat chyron exactly one beat, no scene; the Stitch grandson-denier exchange on the net verbatim as written in beat 4 — the flag-color question stays unadjudicated forever.",
       "END: FADE OUT, then centered: THE END.",

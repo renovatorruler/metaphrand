@@ -282,6 +282,7 @@ let jobs: array<job> = [
       },
     ],
     [
+      "TENT-POLE SEQUENCE — one of the film's major set-pieces: play it at FULL LENGTH, three to four screenplay pages. Give every required beat its complete staging, every cutaway its own beats, every held moment its air. The style stays terse per LINE (one shot per paragraph), but the SEQUENCE is long — do not compress, do not summarize, do not merge cutaways.",
       "REQUIRED order: pad at night, vapor rolling down the hull; the gala (the Harmony Banner model under glass, Marwani working the room); mission control polls; crate D interior (hum → shudder); ignition — the night goes orange for a mile; THE PRIMER BURN on the climb, seen from ground cameras and the gala screen and the diner TV; staging; ONE later shot — the booster landed back on its pad, steam rising off scorched red white and blue, ground crew standing there looking up at it, NO tarp, NO dialogue, NO explanation, hold three seconds and cut; then orbit — engine cutoff, silence all at once, the bay dark, two knocks — pause — two knocks, answered from crate to crate, four amber lights burning in four sealed boxes, the Earth turning gold in the one small window.",
       "The primer burn is NEVER explained — not by an anchor, not by a character, not by an insert. It happens, the world sees it, the film moves on.",
       "Vess and Pell get one glass-row beat each at mission control, no dialogue between them.",
