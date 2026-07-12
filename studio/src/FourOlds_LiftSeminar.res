@@ -4,7 +4,7 @@ let path = Cinema_Backends.Path(
   "/Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/draft/engine_seminar_v14.scene.txt",
 )
 
-let notes = "PROTECT the four example speeches — their content and warmth are the scene's payload and are approved; only tighten fumbles that read as written-in filler rather than real speech. The Facilitator's mid-sentence self-corrections ('And it's lovely, I'm not, it's lovely') are GOOD — keep that texture. Do not add any reaction that connects the examples to any person. Do not let any line acquire rule-of-three rhythm. Keep JOSS's line and MACK's coffee line verbatim. BAY TWO MAN stays halting and plain."
+let notes = "PROTECT the vagueness — the Facilitator's examples must stay generic and a little sloppy ('they kind of blur together, it's fine' is the best line in her answer, keep it), and the pivot 'Nobody has to hand you a list. You already know what yours are.' is the scene's tooth — keep its substance intact. 'That's the work happening.' stays. Do NOT sharpen any example toward any specific character or trade. Keep JOSS's Hanoi line and MACK's coffee line verbatim. BAY TWO MAN stays halting and plain."
 
 let main = async () => {
   try {

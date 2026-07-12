@@ -9,7 +9,7 @@ let outPath = "/Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories
 let seed: Seed.sceneSeed = {
   id: "four-olds-v14-seminar",
   slug: "INT. FRONTIER AEROSPACE, TRAINING ROOM B - DAY",
-  logline: "Mandatory Cultural Alignment, Module 7: a corporate facilitator presents Mao's Four Olds as an admirable early framework; an older worker sincerely asks what the four categories actually mean, and her four cheerful, concrete, American examples describe — precisely, unknowingly — the four old men this movie is named for. Nobody in the room reacts. The audience does the math alone.",
+  logline: "Mandatory Cultural Alignment, Module 7: a corporate facilitator presents Mao's Four Olds as an admirable early framework; an older worker sincerely asks what the four categories actually mean, and her answer is cheerfully, terrifyingly vague — anything can be an old, and the beauty of the framework, she says, is that you decide what counts for you. The room goes quiet. The homework hands every man the knife and asks him to pick what to cut.",
   cast: [
     {
       name: "FACILITATOR",
@@ -42,22 +42,22 @@ let seed: Seed.sceneSeed = {
   ],
   layer: {
     peshat: "a mandatory corporate heritage-training session; a worker asks a sincere question; an administrator drops in; homework is assigned",
-    sod: "the regime can already name, precisely and warmly, the four American virtues this film's four heroes embody — the machine sees exactly what it is erasing; it just cannot see the men. The audience, who knows the four olds, watches the state describe them one by one to a silent room.",
+    sod: "the framework needs no aim because it makes every man aim at himself — the categories are elastic enough to hold any American life, and the homework outsources the targeting to the targeted. Nobody in the scene names this. The four category names will find their four men later, on the crates, without this room ever knowing them.",
   },
   beats: [
     {
       who: "FACILITATOR",
       want: "deliver Module 7 on schedule with good engagement",
       wall: "a sincere question she was not scripted for: what do the four categories actually mean",
-      turn: "she improvises four concrete examples — and they are perfect, more honest than she knows; the room goes quiet in a way she reads as breakthrough engagement and the audience reads as four portraits landing",
-      subtext: "the machine explains itself best when it is not trying",
+      turn: "her improvised answer is genuinely vague — a couple of harmless, ordinary examples, then the cheerful pivot that the beauty of the framework is you decide what counts as old for you — and the room goes quiet in a way she reads as engagement",
+      subtext: "the machine does not need to aim; it hands every man the knife and lets him choose the cut",
     },
     {
       who: "BAY TWO MAN",
       want: "genuinely understand what counts as an old idea, an old custom, an old habit",
       wall: "the categories are abstractions on a slide",
-      turn: "he gets his answer, item by item, and it is his entire life and every man's life he knows; he says nothing more for the rest of the scene",
-      subtext: "comprehension arriving as quiet loss",
+      turn: "the answer he gets could mean anything at all — which means it can mean anything of his; he lowers his hand and says nothing more for the rest of the scene",
+      subtext: "the vagueness IS the answer, and he is old enough to know it",
     },
     {
       who: "JOSS",
@@ -75,8 +75,9 @@ let seed: Seed.sceneSeed = {
     },
   ],
   rules: [
-    "THE PAYLOAD — the four examples, delivered warmly by the FACILITATOR in answer to the BAY TWO MAN's sincere question. Each must be concrete, American, and an unknowing portrait: (1) OLD IDEAS = the handshake deal — the idea that your word, or a signature on a fifty-year-old standard, still binds you today; she calls it romantic but unauditable. (2) OLD CULTURE = the tall tales — test-pilot folk heroes, the fella who could fly anything, stories nobody ever fact-checked. (3) OLD CUSTOMS = ceremony — folding a flag a particular way, standing to sing before a ball game; she asks what work the ceremony is really doing. (4) OLD HABITS = the small private discipline — the same ritual, the same day, every week, for fifty years, kept not because it serves you but because you would feel guilty stopping. She may close warmly: nobody is saying these are bad — we are saying, examine them.",
-    "NOBODY in the room connects the examples to any person. No knowing looks, no reaction shots that wink, no character recognizes anything. The mapping belongs to the audience alone. The room's response to the four examples is SILENCE, which the Facilitator misreads as engagement.",
+    "THE PAYLOAD — the BAY TWO MAN sincerely asks what the four categories actually mean, and the FACILITATOR's answer must be PLAUSIBLY GENERIC: the kind of examples a real corporate trainer improvises on the spot. Allowed register: a handshake deal instead of a proper contract; recipes nobody wrote down; taking your hat off for a parade; keeping things in the garage you never use. Two or three loose examples MAXIMUM, a little circular, cheerfully unbothered by their own vagueness — and then the pivot that is the scene's real tooth, delivered as a selling point: the beauty of the framework is that nobody has to tell you what your olds are — you know them already; each person decides what counts for them. That is what the homework then formalizes. The menace is the ELASTICITY — everything is potentially in scope and the room is being asked to aim at itself — and NOBODY names this, ever. The vagueness just sits.",
+    "HARD BANS on her examples (these would read as portraits of the film's principal characters and the audience must never feel the writer's hand): no mention of fifty years, no Tuesdays or any weekly ritual kept for decades, no test pilots or pilot tall tales, no flag-folding, no anthem singing, no signatures on old engineering standards, nothing that matches any principal character's biography or trade. Her examples must be the ordinary furniture of anyone's life, not anyone's life in particular.",
+    "NOBODY in the room connects anything to any person. No knowing looks, no reaction shots that wink. The room's response to her answer is SILENCE, which the Facilitator misreads as engagement.",
     "REQUIRED canon beats, keep these exactly: the slide sequence — a stylized Mao portrait over the words 1966 — A BOLD QUESTION: WHAT DO WE OWE THE PAST?, then a slide in clean sans-serif on harmony blue reading OLD IDEAS. OLD CULTURE. OLD CUSTOMS. OLD HABITS.; MACK in the third row copying the four category names into a pocket notebook in block letters (no explanation why); JOSS's line, not raising his hand: 'What happened to the people who liked the old stuff?' answered after a silence with: 'There were — implementation errors. In that era. Which is why today's frameworks center dialogue.'; PELL's drop-in: 'Don't mind me. This is the good work, folks. Centuries of ancient Chinese wisdom in that slide.' / FACILITATOR: 'It's from 1966—' / PELL: 'Wonderful.'; the homework slide: YOUR REFLECTION HOMEWORK — IDENTIFY ONE OLD HABIT YOU'RE READY TO RETIRE!; the chained sign-in clipboard that feeds compliance scores; the corridor button — JOSS, low: 'My grandpa's old habit was getting shot at over Hanoi.' MACK: 'Write coffee. Everybody writes coffee.'",
     "ACTION LINES per studio/SCREENPLAY_STYLE.md, strictly: one paragraph = one shot, 1-3 sentences, never more than 4 lines; verbs lead, fragments legal as shot-cuts; end a flowing beat with ' ...' and an interrupted one with ' --'; CAPS for first appearances, sounds, and the one object the frame must find, one detonation per beat max; sound on its own line; mini-slugs (AT THE DOOR --, ON THE SCREEN --) instead of prose transitions; NO similes, NO metaphors, NO aphorisms in action lines — plain facts the lens can see; at most one plain-fact editorial line in the whole scene; white space is pace.",
     "CIVILIAN LANGUAGE throughout — no insider jargon of any trade. The facilitator's corporate dialect is allowed because it translates itself.",
