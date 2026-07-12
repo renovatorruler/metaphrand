@@ -244,7 +244,7 @@ let jobs: array<job> = [
       "FULL PLAYING — this scene carries many required beats: give it two and a half to three screenplay pages. Every required beat gets its own staging and its air; per-line style stays terse; do NOT pad with invented business — length comes from playing each listed beat fully, never from filler.",
       "REQUIRED TV beat, placed mid-scene: the gift list GROWS — an anchor over a graphic of a suit on a mannequin: the Accord adds the Apollo suits to the gift program, one museum suit to accompany each flag; the first, with its flag, to the people of Iran. The olds hear this one standing still.",
       "The burrito-courier beat exactly as staged in the Earlene turn — no adult comments on it; the comedy must be dry and awful. The kid never notices anyone.",
-      "The net beat is the scene's last: barn, rig glow, the shortest net ever, the light cord. NOBODY says anything resembling 'the country's gone.' The audience assembles it.",
+      "The net beat is the scene's last: barn, rig glow, the shortest Tuesday ever: all four IN the barn, coffee poured, cards not dealt, nobody with anything to say — 'Same time Tuesday.' and the light cord. NOBODY says anything resembling 'the country's gone.' The audience assembles it.",
       "Keep the whole scene under three pages; three locations (diner, shop TV corner, barn).",
     ],
   ),
@@ -357,7 +357,7 @@ let jobs: array<job> = [
       },
     ],
     [
-      "REQUIRED tradecraft beats after Mack joins: 'From tonight, everything changes how it moves. Nothing electronic. No phones, no email, no cloud. Nothing with a battery you didn't build yourself.'; JOSS: 'Then how do two hundred guys and four states coordinate a—' / DUTCH: 'Handwritten letters. The ham net, on schedule, in code. A book cipher.'; the swollen 1971 Reader's Digest on the table; JOSS: 'That's insane. That's — that's Revolutionary War stuff.' / GUNNY: 'They've got every algorithm ever written. We've got Valley Forge.'; envelopes addressed TRI-COUNTY FEED COOPERATIVE, RE: PARTS going into rural mailboxes, little red flags up; Tito's film camera — two frames of the finished couch, the canister into a Folgers can half-full of them, the can into the bottom of his toolbox.",
+      "REQUIRED tradecraft beats after Mack joins: 'From tonight, everything changes how it moves. Nothing electronic. No phones, no email, no cloud. Nothing with a battery you didn't build yourself.'; JOSS: 'Then how do two hundred guys across four states coordinate a—' / DUTCH: 'Handwritten letters. The ham net, on schedule, in code. A book cipher.'; the swollen 1971 Reader's Digest on the table; JOSS: 'That's insane. That's — that's Revolutionary War stuff.' / GUNNY: 'They've got every algorithm ever written. We've got Valley Forge.'; envelopes addressed TRI-COUNTY FEED COOPERATIVE, RE: PARTS going into rural mailboxes, little red flags up; Tito's film camera — two frames of the finished couch, the canister into a Folgers can half-full of them, the can into the bottom of his toolbox.",
       "Mack's discovery must be shown as ARITHMETIC first (freight booking sheet, his own scale, the four heavy lines) then the tarp — no dialogue until the table.",
       "Cricket's answer to 'nothing on this manifest breathes' must be a plain, complete statement of the plan in under four sentences — no oratory, no theme, the way he'd read a checklist. This is the one place the plan is said out loud in the whole film.",
     ],

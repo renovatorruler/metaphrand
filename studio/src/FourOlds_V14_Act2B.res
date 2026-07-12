@@ -50,7 +50,7 @@ let jobs: array<job> = [
     "v14-25-suits",
     "sc25_suits.scene.txt",
     "INT. FEDERAL SURPLUS HOLDING, OUTSIDE LINCOLN - DAY",
-    "The gift program concentrated every Apollo suit in the country into one federal warehouse — and the warehouse leaks exactly where the sim test proved it would. Four crates of 'degraded textile artifacts, non-flight-rated' roll out on a disposal-contractor lot sale and arrive at Stitch's East Texas hangar, museum tags still wired to the wrists.",
+    "The gift program concentrated every Apollo suit in the country into one federal warehouse — and the warehouse leaks exactly where the sim test proved it would. Four crates of 'degraded textile artifacts, non-flight-rated' roll out on a disposal-contractor lot sale and arrive at Stitch's hangar at the county airstrip, museum tags still wired to the wrists.",
     [V14Cast.mack, V14Cast.stitch, V14Cast.gunny],
     "the warehouse trick, run at scale; a restoration bench in a Texas hangar",
     "the regime gathered the sacred objects into one room to give them away — and thereby put them all behind one leaky door; the men do not steal the suits so much as file them out; and the restoration is a resurrection nobody calls one",
@@ -208,6 +208,7 @@ let jobs: array<job> = [
     ],
     [
       "FULL PLAYING — this scene carries many required beats: give it two and a half to three screenplay pages. Every required beat gets its own staging and its air; per-line style stays terse; do NOT pad with invented business — length comes from playing each listed beat fully, never from filler.",
+      "PELL AND THE KILOGRAMS: he reads the weights with continental reverence — the metric system is his sacrament (per his card) — and the comedy is a man savoring the very numbers that should end him.",
       "REQUIRED: the six crates on cradles, stencils huge on the flanks — LOT A — OLD IDEAS. LOT B — OLD CULTURE. LOT C — OLD CUSTOMS. LOT D — OLD HABITS. LOT E — SUPPLEMENTARY CONTAINMENT. LOT F — SUPPLEMENTARY CONTAINMENT.; Pell's photographer; 'Random re-weigh. Compliance is a rhythm, folks. Random means random.'; the declared-vs-actual reads spoken flat; Mack's one offered explanation ('Could be the couch upgrade. Archival spec revision come through in March—') cut off by 'Re-run it. Cell check first.'; the hall gone quiet enough to hear the air handlers.",
       "NOBODY arranged the tech. No look passes between him and Mack — the absence of the look is the point. Play his decision entirely in the pause before the pen moves.",
       "END on the tag in the holder — INSPECTED — J. PELL — and the shutter clicking.",

@@ -66,7 +66,7 @@ let jobs: array<job> = [
         who: "MACK",
         want: "the operation off every grid tonight",
         wall: "two hundred habits of modern life",
-        turn: "'From tonight, everything changes how it moves. Nothing electronic. No phones, no email, no cloud. Nothing with a battery you didn't build yourself.' / JOSS: 'Then how do two hundred guys and four states coordinate a—' / DUTCH: 'Handwritten letters. The ham net, on schedule, in code. A book cipher.' — the swollen 1971 Reader's Digest on the table — JOSS: 'That's insane. That's — that's Revolutionary War stuff.' / GUNNY: 'They've got every algorithm ever written. We've got Valley Forge.'",
+        turn: "'From tonight, everything changes how it moves. Nothing electronic. No phones, no email, no cloud. Nothing with a battery you didn't build yourself.' / JOSS: 'Then how do two hundred guys across four states coordinate a—' / DUTCH: 'Handwritten letters. The ham net, on schedule, in code. A book cipher.' — the swollen 1971 Reader's Digest on the table — JOSS: 'That's insane. That's — that's Revolutionary War stuff.' / GUNNY: 'They've got every algorithm ever written. We've got Valley Forge.'",
         subtext: "the old skills are unconfiscatable",
       },
       {

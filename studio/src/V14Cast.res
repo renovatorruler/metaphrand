@@ -3,15 +3,15 @@
 
 let cricket: Seed.voiceCard = {
   name: "CRICKET",
-  who: "Earl 'Cricket' Dawes, 79. DEFINING STANCE: the man who never stopped believing — his country made him a promise, stood him up, forgot it ever asked, and he kept the appointment anyway, every Tuesday, for fifty years, without bitterness and without ever once considering himself released. He treats a fifty-year-old promise as current business and the Moon as a chore he is still on the hook for. The checklist manner is the COSTUME of this faith, not the character. Nebraska farmer; Apollo 18 backup commander, never flew; widower a year. Deflects every feeling into an operational fact.",
-  register: "checklist grammar — states a fact and stops; never rounds a number; a handful of words per line; almost never swears; no speeches.",
+  who: "Earl 'Cricket' Dawes, 79. DEFINING STANCE: the man who never stopped believing — his country made him a promise, stood him up, forgot it ever asked, and he kept the appointment anyway, every Tuesday, for fifty years, without bitterness and without ever once considering himself released. THE VARSITY CORE (shared by all four, his flavor QUIET AND ABSOLUTE): he knows — not hopes, KNOWS — he is among the best who ever trained for this, and the world reading him as a cute old farmer never once dented that certainty; the comedy is the gap, played dead straight. Hopeless optimism as discipline: 'we'll get it done' with zero evidence, stated like a weather report. Nebraska farmer; Apollo 18 backup commander, never flew; widower a year. Deflects every feeling into an operational fact.",
+  register: "checklist grammar — states a fact and stops; never rounds a number; a handful of words per line; almost never swears; no speeches. Plains bearing: status shown by how little he needs to say.",
   earnsEloquence: false,
   lexicon: "plain, procedural, farm-and-flight concrete. No metaphor.",
 }
 
 let dutch: Seed.voiceCard = {
   name: "DUTCH",
-  who: "Dutch Haas, 76. DEFINING STANCE: the man who notices — he pays attention when nobody else does, to a relay, a page number, a grieving friend's silence, and his corrections are how he tells you that you matter. Pedantry is the disguise; devotion is the content. The engineer's trade (wrote the '98 archival spec, keeps a binder, receipts with dates) is the COSTUME of this attention, not the character.",
+  who: "Dutch Haas, 76. DEFINING STANCE: the man who notices — he pays attention when nobody else does, to a relay, a page number, a grieving friend's silence, and his corrections are how he tells you that you matter. Pedantry is the disguise; devotion is the content. VARSITY FLAVOR — TECHNICAL PRIDE: he wrote standards the world stopped reading and holds, with total certainty, that nobody has improved on his work; he reviews modern engineering the way a retired master reviews apprentices. Local — lives in the same county as the crew; the Tuesday drill happens together at the Dawes barn.",
   register: "specification grammar — conditions and facts; zero profanity; the driest voice in any room.",
   earnsEloquence: false,
   lexicon: "engineer plain; figures spoken exactly.",
@@ -19,7 +19,7 @@ let dutch: Seed.voiceCard = {
 
 let stitch: Seed.voiceCard = {
   name: "STITCH",
-  who: "Elmore 'Stitch' McGrew, 74. DEFINING STANCE: the man who refuses to let anything be ordinary — wonder as a discipline; he still thinks all of it (flight, the Moon, a man stealing an airliner) is AMAZING, and he will not let a story end badly on his watch. The storyteller's trade (East Texas aircraft restorer, the crew's myth-keeper, backup crew with Cricket) is the COSTUME of this wonder, not the character.",
+  who: "Elmore 'Stitch' McGrew, 74. DEFINING STANCE: the man who refuses to let anything be ordinary — wonder as a discipline; he still thinks all of it (flight, the Moon, a man stealing an airliner) is AMAZING, and he will not let a story end badly on his watch. VARSITY FLAVOR — MYTHIC PRIDE: in his telling the crew's greatness is already legend, numbers rounding up as he goes, and he is its official historian. Aircraft restorer with a hangar at the COUNTY AIRSTRIP — local, same county as the crew; backup crew with Cricket.",
   register: "easy drawl, rounds every number, deadpan; tells stories plain and lets them land; teases with love.",
   earnsEloquence: false,
   lexicon: "Texan plain; hangar words only when the scene shows the thing.",
@@ -27,7 +27,7 @@ let stitch: Seed.voiceCard = {
 
 let gunny: Seed.voiceCard = {
   name: "GUNNY",
-  who: "Gunny Tibbs, 71. DEFINING STANCE: the man who still salutes — reverence in a world that holds nothing sacred; the ceremonies are how he loves, and the profanity everywhere else is how he keeps the sacred fenced. The military trade (Navy retired, two years on a missile submarine off Alaska listening for Soviet propellers; flag protocol; the grill as a sacrament) is the COSTUME of this reverence, not the character.",
+  who: "Gunny Tibbs, 71. DEFINING STANCE: the man who still salutes — reverence in a world that holds nothing sacred; the ceremonies are how he loves, and the profanity everywhere else is how he keeps the sacred fenced. VARSITY FLAVOR — INSTITUTIONAL PRIDE: this crew is a UNIT, the finest he ever served with, and he runs it to the standard the institution abandoned; the unit's honor is personal. Navy retired (two years on a missile submarine off Alaska listening for Soviet propellers); flag protocol; the grill as a sacrament. Local — his porch is twenty minutes down a section road from the Dawes barn.",
   register: "direct, spare, military cadence; fluent profanity EXCEPT near the colors, where his language goes formal.",
   earnsEloquence: false,
   lexicon: "plain Navy-and-porch; ritual words handled with care.",
@@ -67,10 +67,10 @@ let danny: Seed.voiceCard = {
 
 let pell: Seed.voiceCard = {
   name: "PELL",
-  who: "Administrator J. Pell, 50s. Federal heritage-compliance man; eleven years of clean closures; quota-anxious under Holloway; consumes the regime's language like vitamins and believes his lanyard.",
-  register: "beaming officialese, euphemism delivered warmly ('harmony is a verb'); precise with paperwork, blind to rooms.",
+  who: "Administrator J. Pell, 50s. THE EUROPHILE CONVERT: an American who did a compliance fellowship in Brussels and came home saved — he cites 'how they do it in Europe' as scripture, says 'the continent' the way other men say 'the Lord,' evangelizes the metric system with reverence, drinks espresso from a tiny cup in a Folgers county, and sincerely believes the framework is kindness. He needs to be LIKED by the people he is dispossessing. Eleven years of clean closures; believes his lanyard. The mockery lands on the convert, never on Europeans themselves.",
+  register: "beaming officialese, euphemism delivered warmly ('harmony is a verb'); precise with paperwork, blind to rooms; European affectations worn proudly among people who notice every one.",
   earnsEloquence: false,
-  lexicon: "compliance-brochure English.",
+  lexicon: "compliance-brochure English seasoned with continental reverence — kilograms said lovingly, 'in Europe they'd never,' 'this is how it's done in Rotterdam.'",
 }
 
 let holloway: Seed.voiceCard = {
@@ -131,18 +131,18 @@ let earlene: Seed.voiceCard = {
 
 let brandt: Seed.voiceCard = {
   name: "BRANDT",
-  who: "Cmdr. Brandt, ESA. Commands the Harmony crew; a professional who follows orders until an order asks him to stop being one.",
-  register: "careful, formal on the loop, economical; the pauses carry him.",
+  who: "Cmdr. Brandt, ESA. Commands the Harmony crew; a professional who follows orders until an order asks him to stop being one. THE EARNED-RESPECT EUROPEAN: his regard for the olds is won slowly, professionally, and completely — he is the decent man sent to move Cricket who, unlike Wade, refuses to.",
+  register: "careful, formal on the loop, economical; the pauses carry him; European contingency-mindedness — he worries in checklists.",
   earnsEloquence: false,
   lexicon: "mission-loop plain, taught to the audience by consequence.",
 }
 
 let lindqvist: Seed.voiceCard = {
   name: "LINDQVIST",
-  who: "Maj. Lindqvist, ESA. Second seat; blunter than his commander.",
-  register: "direct, faintly amused, says the thing Brandt won't.",
+  who: "Maj. Lindqvist, ESA. Second seat; blunter than his commander. THE FRIENDLY EUROPEAN: he falls for the Americans — delighted, against all his training, by everything Brussels taught him to disapprove of (the portions, the certainty, the wave, the grill). The first to laugh, the first to take the burger.",
+  register: "direct, faintly amused, says the thing Brandt won't; wonder leaking through professionalism.",
   earnsEloquence: false,
-  lexicon: "plain.",
+  lexicon: "plain, with the occasional European bafflement said out loud.",
 }
 
 let shen: Seed.voiceCard = {
