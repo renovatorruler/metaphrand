@@ -2,48 +2,59 @@ v14-43-fourth — EXT. TRANQUILITY BASE - LUNAR DAY
 [engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc43_fourth.scene.txt.receipt.json]
 
 @@SCENE@@
-ACTION: On the rise Brandt stands with his two crew behind him, the six flags and the little camp laid out in the dust below.
-ACTION: At the grill GUNNY, Tibbs, seventy-one, in a yellowed suit, brings a sealed press down over the grate and lifts it away.
-ACTION: A burger comes up under the glass of the press, plated and cooked, and Gunny slides it onto a paper plate.
-ACTION: Brandt watches it through his visor with the loop keyed open.
+ACTION: A grill stands on the gray flat, bolted to a strut, its lid clamped down. GUNNY TIBBS, 71, works it in a white suit with a long spatula in one glove.
+ACTION: He unclamps the lid. A burger sits on the plate, dark at the edges, whatever steam it had gone the instant it meets the vacuum.
+ACTION: Twenty feet off, Commander Brandt of the ESA stands at the row of flags with an empty retrieval bag hanging from one hand.
+ACTION: Brandt watches the burger come up off the plate on the blade. The bag lowers to his side.
+ACTION: He keys the loop.
 BRANDT: ...is that a burger?
-ACTION: In a control room a young controller claps a hand over his mouth and the sound gets past it anyway.
-ACTION: The back row of consoles goes over one after another until the whole floor is shaking with it.
-ACTION: Along the bottom of broadcasts in forty languages the same three words scroll past.
-ACTION: On the rise Brandt straightens, keys the loop, and takes his time with it.
-BRANDT: Geneva, Harmony One. Site survey complete. There is nothing at Tranquility to retrieve. There is a color guard, on station, under national colors. Harmony One stands down.
-ACTION: The loop gives back Geneva static and nothing else.
-ACTION: In Roy's Diner the cook works the flat-top with both hands, sliding out burgers faster than anybody at the counter asked for.
-ACTION: A trucker digs for his wallet and the cook waves him off without looking up from the grill.
-ACTION: BUCK, seventies, feed cap, lifts his coffee cup an inch toward the TV in the corner and holds it up there.
-ACTION: In a square in Warsaw a crowd packed around a screen comes apart, arms over their heads, howling.
-ACTION: At a lectern a Geneva coordinator tries to get through his statement while the room laughs over every word he lands.
-ACTION: In the White House briefing room the press secretary takes hold of both sides of the podium and hangs on.
-PRESS SECRETARY: We're still getting information. The situation has, it's evolved.
-ACTION: Back on the Moon Gunny turns from the grill with the plate balanced on the end of the long spatula.
-ACTION: He reaches it out across the three meters of dust between the camp and the rise and holds the blade level for Brandt.
-ACTION: Brandt looks at it a second, then lifts the burger off the blade with his glove.
-ACTION: Behind the glass Lindqvist's shoulders are going. No sound comes through.
-ACTION: Gunny looks over at Shen, standing off on his own with his arms folded.
-GUNNY: You want one or no.
-ACTION: Shen does not move.
-ACTION: Gunny plates another one anyway, carries it to the card table, and sets it down at the empty fourth chair, facing out at Shen.
-ACTION: The burger sits there in front of the empty chair.
-ACTION: Shen looks at it once and looks off the other way.
-ACTION: Gunny wipes his glove down his leg and works a folded photocopy out of a chest pocket.
-ACTION: He gets it open and reads off of it, slow, an old man with small print.
-GUNNY: It ought to be solemnized with pomp and parade, with shows, games, sports, guns, bells, bonfires and illuminations, from one end of this continent to the other, from this time forward, forevermore.
-ACTION: Stitch, still down in his chair, tips his head back at the black over them.
-STITCH: Two hundred and fifty years, and here we all are, a good bit further out than he probably figured.
-ACTION: Cricket keys the loop toward home.
-CRICKET: Tito Alvarez. You built the tubes. Count us down.
-ACTION: In a Nebraska barn TITO, twenty-four, welder's cap shoved back, leans in to a microphone clamped on a work light, the feed glowing on a laptop beside him.
-TITO: Tres. Dos. Uno.
-ACTION: The first shell rides a hard straight spark up off the surface and breaks RED, a round ball that opens and keeps opening, nothing in the vacuum to slow it, and no sound at all.
-ACTION: The second one breaks WHITE, rings opening inside of rings, silent, spreading out over the ring of flags.
-ACTION: Cricket crosses to the first flag at the center on its old pole and keys the loop out to the whole lit face of the Earth.
+ACTION: In Accord Coordination, Geneva, a young controller at a back console puts a hand over his mouth. It does not help.
+ACTION: A snort cracks across the room. The whole back row goes with it.
+ACTION: On a wall of monitors the same three words run in forty languages inside the hour.
+ACTION: Brandt straightens. He keys the loop again, and this time he takes his time with it.
+BRANDT: Geneva, Harmony One. Site survey complete. There is nothing at Tranquility to retrieve.
+BRANDT: (then) There is a color guard, on station, under national colors. Harmony One stands down.
+ACTION: Static comes back off the loop. Nothing else does.
+ACTION: At Roy's Diner in Nebraska, the cook slides plate after plate of burgers down the counter to people who never ordered them, waving off every wallet that comes up.
+ACTION: Buck, seventies, feed cap, lifts his coffee an inch toward the TV and sets it back down.
+BUCK: (not loud) Attaboy, Gunny.
+ACTION: In Warsaw a crowd fills the old town square in front of a screen and howls at it with both arms up.
+ACTION: At a lectern in Geneva the Accord coordinator reads off a card while the press seats laugh over him.
+COORDINATOR: (reading) The Accord regards the question of retrieval as one that remains fully...
+ACTION: The laughter takes the rest of it. He stops and looks at the card.
+ACTION: In the White House briefing room the press secretary grips both sides of the podium.
+PRESS SECRETARY: (reading) The situation has... evolved...
+ACTION: Back at the grill, Gunny lays a burger on the long spatula and reaches it out across three meters of vacuum, steady, to Brandt.
+GUNNY: There you go. Ketchup's on the table if you want it.
+ACTION: Brandt looks at it a second. He takes it off the blade with two fingers.
+ACTION: Major Lindqvist, second seat, reaches past his commander and takes one for himself, his shoulders going behind the glass with no sound getting out.
+LINDQVIST: (to Gunny) This is enormous. Nobody can eat this.
+ACTION: Gunny holds one out to Observer Shen, the Bloc's man on the crew. Shen keeps his arms folded and does not take it.
+ACTION: Gunny plates it anyway and sets it on the card table at the empty fourth chair, turned to face him.
+ACTION: The burger sits there. Shen looks at it once and looks away.
+ACTION: Lindqvist chews, watching the dead patch of loop where Geneva used to be.
+LINDQVIST: (to Stitch) There will be an inquiry, you understand. My commander just stood down a lawful order in front of the entire planet. They do not forget a thing like that in Brussels.
+LINDQVIST: (then) And I am on camera eating your hamburger, so. Both of us, most likely.
+ACTION: STITCH McGREW, 74, leans on the card table with a burger of his own and waves the whole thing off.
+STITCH: They'll come around. Give it a year, they'll tell everybody it was their idea.
+LINDQVIST: You cannot know that.
+STITCH: Course not. Never once slowed me down.
+ACTION: Gunny takes a folded photocopy out of a thigh pocket and opens it flat in both gloves.
+ACTION: He reads it slower than he talks.
+GUNNY: (reading) It ought to be solemnized with pomp and parade, with shows, games, sports, guns, bells, bonfires and illuminations, from one end of this continent to the other, from this time forward, forevermore.
+ACTION: Cricket stands at the center flag, visor level, and lets the reading finish.
+CRICKET: Two hundred and fifty years. And here we are.
+CRICKET: (then) One end of the continent to the other. And a little past it.
+ACTION: In the Dawes barn in Nebraska, TITO ALVAREZ, 24, stands over a steel control box with a headset on and a row of switches under his hand.
+ACTION: Cricket keys the loop to the barn.
+CRICKET: Tito. You built the tubes. Count us down.
+ACTION: Tito throws two of the switches and leans into the headset.
+TITO: Tres... dos... uno.
+ACTION: The first shell rides a hard straight spark up off the flat and breaks RED, a sphere that opens and does not slow, no air to hold it and no sound at all.
+ACTION: A second shell opens WHITE above it, rings inside of rings, going wide across the black.
+ACTION: Cricket steps forward beside the first flag and keys the loop to the whole lit face of the Earth.
 CRICKET: It's Independence Day.
-ACTION: The planet stays quiet on the loop for a beat.
+ACTION: A beat. The planet holds still.
 CRICKET: God bless America.
-ACTION: The third shell breaks BLUE-WHITE dead center over the ring and swells out until it fills the whole frame.
-ACTION: The picture goes to white and holds there, and no sound comes.
+ACTION: The third shell breaks BLUE-WHITE dead center over the ring of flags and swells until it takes the entire frame.
+ACTION: The white washes out the whole frame and holds there, and no sound comes.

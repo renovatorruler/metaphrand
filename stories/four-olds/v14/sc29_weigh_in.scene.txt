@@ -2,41 +2,47 @@ v14-29-weigh-in — INT. FRONTIER AEROSPACE, CARGO INTEGRATION HALL - DAY
 [engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc29_weigh_in.scene.txt.receipt.json]
 
 @@SCENE@@
-ACTION: Six crates ride the cradles down the center of the hall, the stencils painted black and huge on the flanks. The first four read LOT A, OLD IDEAS. LOT B, OLD CULTURE. LOT C, OLD CUSTOMS. LOT D, OLD HABITS.
-ACTION: Two more sit at the end of the row, LOT E and LOT F, both stenciled SUPPLEMENTARY CONTAINMENT.
-ACTION: ADMINISTRATOR J. PELL, fifties, gray suit, a heritage-compliance lanyard squared flat to his sternum, walks the head of the row with a clipboard and a wide, easy smile.
-ACTION: A photographer keeps a half-step behind him, camera up, working the light off the crate flanks.
-PELL: Get the whole row in the shot if you can. They like all six back at the office.
-ACTION: Pell taps his pen on the top corner of the clipboard and turns to face the floor.
-PELL: Random re-weigh. Compliance is a rhythm, folks. Random means random.
-ACTION: MACK BOONE, fifty-five, canvas jacket, a fold of invoices in his shirt pocket, stands off the first cradle with his hands loose at his sides.
-ACTION: At the console the SCALE TECH, forties, a coffee thermos sweating by his elbow, watches his gauge and says the number to nobody in particular.
-SCALE TECH: Lot A declares three-eighty. I've got four-eleven-two.
-ACTION: Pell keeps the smile and makes a small mark on the sheet.
-PELL: Little heavy. Run the next one.
-SCALE TECH: Lot B, declared three-eighty. Four-ten-eight.
-SCALE TECH: C, same declared. Four-twelve, near enough even.
-SCALE TECH: D. Four-eleven-nine.
-ACTION: Pell stops writing. He looks down the row of stencils and then back at the sheet.
-PELL: Thirty kilos over, times four crates. That's a hundred and twenty kilos of something, Mr. Boone.
-ACTION: Mack shifts his weight and looks at the console, not at Pell.
-MACK: Could be the couch upgrade. Archival spec revision come through in March --
+ACTION: Six crates sit on their cradles down the center of the integration hall, each one taller than a man.
+ACTION: Stencils run huge along the flanks. LOT A, OLD IDEAS. LOT B, OLD CULTURE. LOT C, OLD CUSTOMS. LOT D, OLD HABITS.
+ACTION: The last two crates carry the same words. LOT E and LOT F, both stenciled SUPPLEMENTARY CONTAINMENT.
+ACTION: PELL, 50s, his lanyard squared dead center on his chest, walks the row with a paper cup the size of a shot glass.
+ACTION: A PHOTOGRAPHER walks backward ahead of him with the camera already up.
+PELL: Random re-weigh, folks. Compliance is a rhythm. Random means random.
+ACTION: MACK BOONE, 55, stands off the first cradle with the manifest folded small in one hand.
+ACTION: At the floor scale a SCALE TECH, 40s, cracks the lid on a thermos and watches his readout.
+ACTION: Pell lifts the little cup toward the crane cab overhead.
+PELL: (calling up) Morning up there. Nice smooth lifts today, thank you.
+ACTION: Up in the cab, JOSS REED, 26, keys the comm without taking his eyes off the hook.
+JOSS (RADIO): Copy.
+ACTION: The first crate settles onto the scale and the number climbs and holds.
+SCALE TECH: (reading) Lot A. Declared three-eighty. Reads four hundred eleven and two.
+PELL: (savoring) Four hundred and eleven. Kilograms. (then) People here still weigh in pounds. I did a year over in Rotterdam, you don't go back from that.
+ACTION: Three more crates ride across the scale, one after the other.
+SCALE TECH: (reading) B, declared three-ninety, reads four twenty-one. (then) C, three-seventy, reads four-oh-one. (then) D, three-eighty, four eleven again.
+ACTION: Pell stops walking. He looks at the readout, then at the manifest in Mack's hand.
+PELL: Thirty kilos over. Times the four of them. (then) That's a hundred and twenty kilos of something, Mr. Boone.
+ACTION: The hall goes quiet enough to hear the air handlers.
+MACK: Could be the couch upgrade. Archival spec revision came through in March, they put mass into the—
 PELL: Re-run it. Cell check first.
-ACTION: The hall goes quiet. The air handlers hum somewhere up in the roof.
-ACTION: The scale tech reaches under the console lip and raps the number-three load cell twice with his knuckles.
-SCALE TECH: Four-eleven-nine. Four-oh-eight-two. Four-thirteen-five.
-ACTION: He looks at the crate. He looks at the gauge. He looks down at his own clipboard and holds there.
-ACTION: Up in the crane cab JOSS REED, twenty-six, dock coveralls, both hands lifted off the levers, sits without moving.
-ACTION: The tech uncaps his pen. He writes slow and says it plain as it goes down.
-SCALE TECH: Calibration drift, cell three. All four reads invalidated. Corrected tare applied. Reads within tolerance after correction.
-ACTION: He puts his initials on the line, tears the carbon copy loose, and holds it up over his shoulder.
-ACTION: Mack steps in and takes the copy. The tech is already turned back to his console, thumbing the lid off the thermos, his back to the room.
-ACTION: In the cab Joss lowers his hands to the levers, one finger at a time.
-ACTION: Pell takes the sheet from Mack and reads it. He reads it again. He lays it on the clipboard and runs his thumb along the edge until it sits square to the corner.
-PELL: Hm.
-ACTION: He walks the row once, unhurried, and stops at the LOT D cradle.
-PELL: All right. Let's get the tag.
-ACTION: Pell clicks the pen and signs the inspection tag hanging on the LOT D cradle, then fits it back into the little holder for the camera.
-PELL: Good. That's a clean one, folks. Appreciate you being patient with the re-weigh.
-ACTION: The camera finds the tag square in its holder, the word inspected stamped across the top and Pell's signature filling the line below it.
+ACTION: The tech comes off his stool and raps the scale housing under the crate with two knuckles.
+ACTION: The readout jumps, drops, jumps again.
+ACTION: ON THE READOUT -- 411.9. 408.2. 413.5.
+ACTION: In the crane cab, Joss sits with his hands off the levers and does not move.
+ACTION: The tech looks at the crate on the scale a long moment. LOT A, OLD IDEAS, painted big across the flank at his eye line.
+ACTION: He looks down at his clipboard and holds there.
+ACTION: His thermos steams on the console beside his hand.
+ACTION: He clicks the pen out and starts writing, reading it off low as he goes.
+SCALE TECH: (reading) Calibration drift, cell three. All four reads invalidated. Corrected tare applied. Within tolerance after correction.
+ACTION: He initials the bottom, tears the copy loose, and holds it up over his shoulder without turning.
+ACTION: Mack takes it. The tech is already back on his stool with the thermos, and he never once looks at Mack.
+ACTION: In the cab, Joss lowers his hands back onto the levers, one finger at a time.
+ACTION: Pell takes the sheet from Mack and reads it. Then he reads it again.
+PELL: (reading) Hm.
+ACTION: He squares the sheet to the corner of his clipboard and slides it under the clip.
+PELL: (to Mack) Eleven years I've closed these clean. (then) You keep a tidy load, Mr. Boone. They'd like you over there.
+MACK: Long as the paperwork's square.
+ACTION: The photographer steps in close and raises the camera.
+PELL: (to the photographer) Get the D crate behind me. Light's better on the D.
+ACTION: Pell uncaps his pen and signs the inspection tag wired to LOT D, then feeds it into the holder on the flank.
+ACTION: ON THE TAG -- INSPECTED, signed in Pell's own hand.
 ACTION: The shutter clicks.

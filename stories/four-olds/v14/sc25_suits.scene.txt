@@ -2,29 +2,36 @@ v14-25-suits — INT. FEDERAL SURPLUS HOLDING, OUTSIDE LINCOLN - DAY
 [engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc25_suits.scene.txt.receipt.json]
 
 @@SCENE@@
-ACTION: Shelving runs back into the dark, rack after rack, each shelf stenciled with a number.
-ACTION: An orange sticker sits on every seized thing down the aisle, a flight trainer up on blocks, crates of tooling, a high-school football trophy with a town's name across the base.
-ACTION: Four racks stand off by themselves at the end, suits hung by the shoulders, brass museum tags wired to the wrists.
-ACTION: MACK BOONE, 55, comes down the aisle with the lot sheet in one hand, checking the numbers against the tags.
-ACTION: He waves the forklift driver over to the four racks.
-MACK: The four hundred took the whole lot, the tool crates and that old trophy and all of it, and the truck's gotta be back Thursday, so let's get 'em loaded before we lose the light.
-ACTION: The forks slide under a pallet of scrap and set it down on the flatbed.
-ACTION: The suits go up after that, laid flat between two pallets, the tags hanging off the wrists.
-ACTION: ON THE SHEET -- line nine reads DEGRADED TEXTILE ARTIFACTS, NON-FLIGHT-RATED, SOLD AS SCRAP.
-ACTION: At the gate a guard runs a finger down the sheet, glances at the pallets, and waves the flatbed out.
-ACTION: The flatbed backs into a metal hangar out on the East Texas flat, and the four suits come off onto a workbench under the lights.
-ACTION: ELMORE "STITCH" McGREW, 74, bends over that bench with a length of new hose in both hands.
-STITCH: These lines have all gone stiff on me, every one of 'em, fifty years old give or take, so there's no savin' any of it, I'm just cuttin' in all new.
-ACTION: He lays the old hose beside the new and marks it off with a pencil.
-STITCH: Seals are flat too. No book anywhere tells you the size on these, so I been cuttin' 'em by hand off the old ones.
-ACTION: Stitch brushes soapy water down a seam and works a hand pump until the suit swells.
-ACTION: Bubbles crawl up along the seam, a whole line of them.
-STITCH: Every place she bubbles, that's air gettin' out on us.
-ACTION: He seats a seal, brushes the seam again, and the bubbles thin down and quit.
-STITCH: And when they quit like that, she's holdin'.
-ACTION: He lays a fresh patch over one knee and rolls it flat with his thumb.
-ACTION: The brass tag stays wired to the wrist, and Stitch leaves it be, dabbing the soapy brush careful around it.
-ACTION: GUNNY TIBBS, 71, stands at the far end of the bench and lifts a pair of white gloves off the rack, one at a time, flat on both palms.
-ACTION: He sets each glove down beside its suit, the fingers straightened, palm turned up.
-GUNNY: These go on last. And nobody sets a coffee down on this bench while I've got 'em out.
-ACTION: Four suits stand on the racks along the far wall, filled out and upright, the brass tags turning slow on their wires.
+ACTION: A roll-up door climbs and morning light falls across forty feet of ranked steel shelving.
+ACTION: Orange seizure stickers run the length of every shelf.
+ACTION: MACK BOONE, 55, a clipboard against his hip and his reading glasses shoved up in his hair, walks the main aisle and doesn't slow for any of it.
+ACTION: A cockpit trainer sits up on blocks with a sticker on its nose. Crates of tooling behind it. A glass case holds a town's Rotary banners and a Little League trophy, all of it tagged.
+ACTION: At the end of the aisle stand four rolling racks, and on them hang the SUITS, white and bulky, museum tags wired to the wrists.
+ACTION: Mack flips the clipboard and thumbs down to the lot sheet.
+ACTION: ON THE SHEET -- LOT 114. DEGRADED TEXTILE ARTIFACTS, NON-FLIGHT-RATED. SOLD AS SCRAP.
+MACK: That's the whole thing, one line. Hundred and forty for all four, and I had to take the chairs and a dishwasher along to get it.
+ACTION: A forklift noses in, lifts the first rack, then swings a pallet of dead office chairs up alongside it.
+ACTION: Out at the far end of the surplus lot the chain gate stands open in the daylight.
+ACTION: A rented flatbed idles at the gate with the four racks strapped down between the chairs and a dishwasher laid on its side.
+ACTION: A GUARD leans off his stool, takes the sheet, runs a finger partway down it, and never once looks at the load.
+GUARD: Yeah, that's your scrap lot. Go ahead.
+ACTION: Mack signs, hands it back, and pulls the flatbed out slow onto the county road.
+ACTION: Inside Stitch's hangar at the county airstrip, a work lamp burns over a bench that runs the length of one wall.
+ACTION: A single white suit lies open on the bench under the lamp.
+ACTION: STITCH, Elmore McGrew, 74, reading glasses down his nose and a coil of new hose over one shoulder, feeds a fresh line into the suit and clamps it.
+ACTION: GUNNY TIBBS, 71, his sleeves squared and a rag folded through his belt, lifts one glove off the bench with both hands and sets it down on a clean towel.
+ACTION: Stitch dips a brush in a bucket of soapy water and paints it along the seam across the chest.
+ACTION: Bubbles come up out of the seam and keep coming.
+STITCH: There she goes. Every one of those little ones is air getting out where it shouldn't.
+ACTION: He runs a hot sealing iron down the seam, holds it a while, then brushes the soapy water back across.
+ACTION: The seam sits quiet this time. No bubbles.
+STITCH: (dry) There, she quit bubbling. That one's holding now.
+ACTION: On the next suit he cuts a patch to size and works it down over a worn place on the knee, pressing it flat with his thumb.
+ACTION: He turns the museum tag right-side up on the wrist, wires it back where it hung, and leaves it there.
+GUNNY: (to Stitch) The gloves go on last. Nobody sets a coffee cup on this bench till they're back in the box.
+STITCH: (not looking up) You've wiped that same glove down four times now, Gunny.
+GUNNY: I'll do it again anyway.
+ACTION: Mack comes in the side door with the lot sheet still in his hand and looks down the row of racks.
+MACK: Paper says four textile artifacts, non-flight-rated. That's all that's on it.
+STITCH: Fifty years old, every one of them, and they'll hold air by Sunday.
+ACTION: By the far wall the four suits stand upright on their racks now, filled out, and the tags turn slow on their wires in the draft off the door.

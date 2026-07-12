@@ -2,50 +2,54 @@ v14-07-fireworks — INT. DAWES BARN - NIGHT
 [engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc07_fireworks.scene.txt.receipt.json]
 
 @@SCENE@@
-ACTION: The work light over the bench throws the only light in the barn, and the floor where the trainer stood sits bare.
-ACTION: GUNNY Tibbs, 71, Navy retired, hauls a cardboard case up onto the bench and folds the flaps back off a row of mortar tubes.
-ACTION: Cricket stands at the edge of the empty rectangle with his hands in his back pockets and watches him do it.
-GUNNY: I did two years on a missile submarine off Alaska, listening for Soviet propellers, so men like Earl could keep a barn a Russian couldn't touch. And a fella in a zip-up vest walks in with a sticker gun.
-ACTION: STITCH McGrew, 74, leans on the far end of the bench with a lighter turning over in his fingers.
-ACTION: DUTCH Haas, 76, stands off to the side with his binder shut under one arm.
-GUNNY: Commies. Don't care what flag they're flying over the building.
-ACTION: Dutch sets the binder down on the bench and leaves it closed.
-DUTCH: Seventy-five, I hauled that thing up from Houston in a borrowed horse trailer. Supply captain signed it out and said if the truck showed up empty, empty's what the truck would show. Fifty years I kept government property safe for the government. They sent a man to take it back like I stole it.
-STITCH: I still got four cases of the three-inch mortars out in the shed. Bought 'em a good two years before anybody thought to ban a firework.
-GUNNY: Compliance office locks up at five. Whole lot's empty gravel come dark. Nobody's parked in it since they poured it.
+ACTION: The barn stove ticks with heat. Three lawn chairs and a nail keg crowd up close to it, and behind them the bare rectangle on the concrete still shows its four bolt holes.
+ACTION: GUNNY TIBBS -- 71, Navy ballcap, a wooden crate open at his feet -- lifts out a cardboard tube and stands it on the floor. More of them sit packed in rows inside.
+GUNNY: Fourth of July stock. Bought it two years before they banned the good ones. Nobody wrote it down anyplace.
+ACTION: CRICKET DAWES -- 79, at the coffee pot with his back to the crate -- doesn't turn around.
+CRICKET: For what.
+ACTION: Gunny sets the tube down harder than he has to.
+GUNNY: I did two years on a missile submarine off Alaska, listening for Soviet propellers, so a man like Earl could keep a barn out here no Russian could touch. And they send a fella in a zip-up vest with a sticker gun.
+GUNNY: (then) Commies. I don't care what flag they fly over the building.
+ACTION: STITCH McGREW -- 74, feet up near the stove -- turns a tube in his hand and reads the side of it.
+STITCH: These'll go four, five hundred feet, easy.
+ACTION: DUTCH HAAS -- 76, a mug he hasn't touched -- doesn't look up.
+DUTCH: Three hundred. It's printed on the box.
+STITCH: They always look higher than that once it's good and dark.
+ACTION: Dutch sets the mug down on the floor by his boot.
+DUTCH: I hauled that trainer up from Houston in a horse trailer. Seventy-five. Signed it off a supply captain who wanted it gone off his books.
+DUTCH: (then) Fifty years I kept the government's property safe for the government. And they sent a man to take it back like I stole it.
+ACTION: Gunny nods at the crate on the floor.
+GUNNY: Office locks up at five. That gravel lot out back is empty by dark. Four cases of these up over the parking lot, and we're home before the news.
 CRICKET: That's a federal building.
 GUNNY: It's a strip mall with a flagpole, Earl.
-ACTION: Cricket picks one of the mortar tubes up off the bench, turns it over once, and sets it back down where it was.
-CRICKET: I've got a grandson who still thinks I hung the moon. Not explaining a courtroom to him. Count me out.
-ACTION: Gunny folds the flaps back down over the case and holds it shut with one hand.
+CRICKET: I've got a grandson who still thinks I hung the moon. I'm not explaining a courtroom to him. Count me out.
 GUNNY: Rest of us, then. Friday.
-ACTION: Cricket crosses to the door and stops with his hand flat on the frame.
+ACTION: Cricket sets the pot back on the burner. He looks at the crate a second, then at the three of them.
 CRICKET: Do what you're going to do. Just don't tell me about it after.
-ACTION: The compliance office sits dark behind a wide gravel lot, with one flagpole out front and no flag on it.
-ACTION: The three of them stand in the middle of the gravel in no hurry, a case open at their feet.
-ACTION: Stitch touches the lighter to the first tube and steps back.
-ACTION: The shell climbs and lights the lot red, then green, then hangs a long gold over the roofline.
-ACTION: The crack rolls back off the storefronts a second behind it.
-ACTION: A county cruiser rolls in slow with its bar lights off, and Wade gets out with his hand nowhere near his holster.
-ACTION: Wade looks up at the sky first, then back down at the three of them.
+ACTION: That night the compliance office sits dark behind its flagpole. Around the back there's gravel, a dumpster, and nothing else, and the three of them stand out in the middle of it in no hurry at all.
+ACTION: Stitch braces a tube in a length of pipe against a cinder block and touches a lighter to the fuse.
+ACTION: A shell climbs and cracks red over the lot. Then green. Then a long gold that just hangs there.
+ACTION: A county truck rolls in slow, gravel popping under the tires. WADE HALVERSEN -- mid-40s, deputy, hat already in his hand -- climbs out and looks up at the sky before he looks at them.
 WADE: Y'all want to tell me whose idea this was, or should I guess?
 GUNNY: Mine.
 DUTCH: His, but I brought the truck.
 STITCH: I just held the lighter. Following orders.
-ACTION: The county courtroom sits near empty in the morning light, and the three men stand at the front table in clean shirts.
-ACTION: JUDGE BENNING, 70s, reading glasses down his nose, looks up from the file at them.
-BENNING: How do you plead.
+ACTION: Above them a last shell lifts and pops gold. None of the three so much as flinches. Wade watches it burn down to nothing.
+WADE: Anything left in that pipe?
+GUNNY: She's cold.
+ACTION: The next morning the three of them stand at a table in the county courtroom in their pressed shirts. JUDGE BENNING -- 70s, reading glasses low on his nose -- looks over a single sheet of paper.
+ACTION: On the table in front of him lies one photograph of a scorched patch of gravel. Nobody was hurt.
+BENNING: How do you gentlemen plead.
 GUNNY: Guilty.
-DUTCH: Same.
-STITCH: Guilty, your honor.
-ACTION: The file open in front of Benning lists a scorched patch of gravel and not one person hurt.
+DUTCH: Guilty on all of it.
+STITCH: Guilty, Your Honor.
+ACTION: A young prosecutor starts to stand with a finger raised.
 BENNING: I was nine years old in my daddy's living room the night men from this state walked on the Moon. Watched it on a television the size of a bread box. Time served. Four hundred dollars each, plus the cost of the gravel. I've got real criminals on this morning's docket, gentlemen. Get on home.
-ACTION: The prosecutor comes half up out of his chair, and the gavel comes down before he gets a word out.
-ACTION: Cricket waits at the bottom of the courthouse steps with his truck at the curb behind him.
-ACTION: The three come down the steps, and Gunny reaches him first.
-GUNNY: Come to gloat?
+ACTION: The gavel cracks down before the prosecutor is all the way up out of his chair.
+ACTION: Outside, Cricket leans against the fender of his pickup at the bottom of the courthouse steps. The three come down slow, blinking in the daylight.
+GUNNY: (to Cricket) Come to gloat?
 CRICKET: Came to drive you home.
-ACTION: Stitch and Dutch go on past toward the truck, and the two of them stand there a second.
+ACTION: Nobody moves for a second. Cricket reaches back and opens the passenger door.
 GUNNY: You could've come.
 CRICKET: I know it.
-ACTION: Gunny claps him once, hard, on the shoulder and heads for the truck.
+ACTION: Cricket claps him once, hard, on the shoulder, then gets in behind the wheel.

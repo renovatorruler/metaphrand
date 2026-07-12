@@ -2,66 +2,67 @@ v14-44-coda — EXT. TRANQUILITY BASE - LUNAR DAY (DAYS LATER)
 [engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc44_coda.scene.txt.receipt.json]
 
 @@SCENE@@
-ACTION: Days later, the crew loads out below the ring of flags, the lander squatting on the pad with its cargo door hung open on the hinge the landing bent.
-ACTION: DUTCH, Haas, seventy-six, a binder open in one glove, runs a finger down a column and stops on it.
-DUTCH: Latch light's amber. Door won't seat.
-ACTION: The cargo door stands a hand's width proud of its frame. Cricket sets a shoulder into it and it gives back nothing.
-DUTCH: The ship's back overhead in eleven minutes. Miss that and we haven't got the air to wait on the next pass.
-ACTION: Dutch closes the binder and looks at the gap in the door.
-DUTCH: It has to be held shut from outside while the latches run. Somebody on the bar, with his weight on it.
-ACTION: Cricket takes the pry bar off the deck before Dutch has the sentence finished.
-ACTION: He sets the bar under the door's lip, plants his boots, and puts his whole weight down onto it.
-ACTION: The door drops the last of the way into its frame.
-ACTION: The latches walk shut along the seam, one and then the next.
-ACTION: In the cabin Brandt puts a glove flat against the window.
-BRANDT: Dawes --
-ACTION: Cricket keeps his weight on the bar and does not look up.
-CRICKET: GO.
-ACTION: The ascent engine lights under the stage, a hard white spark, and no sound comes.
-ACTION: The lander lifts off the pad and climbs, up and then over, and the dust settles back down in slow sheets.
-ACTION: Cricket stands alone at the ring of flags and holds a salute.
-ACTION: He holds it until the spark is one bright point among the stars.
-ACTION: He lowers the hand, turns, and walks back toward the flags, his boots falling in with the hundreds of prints already there.
-ACTION: In the climbing cabin Stitch reaches to the window and raps the glass with a knuckle, two, a pause, then two.
-ACTION: Down on the surface Cricket sits on the fender of the parked rover and keys his glove against it, two, a pause, then two.
-ACTION: In the cabin a foil bundle goes from glove to glove down the row, gone cold.
-ACTION: Lindqvist works one loose and holds it out to Shen, wedged in beside him.
-ACTION: Shen looks at it a moment, takes it, peels the foil back, and eats.
-ACTION: Nobody says anything about it.
-ACTION: Dutch chews and starts penciling a figure on the smoothed-out foil.
-ACTION: Months later, Roy's Diner is half full and the TV in the corner runs C-SPAN, a vote board filling in green.
-ACTION: ON THE SCREEN -- a chyron reads RESTORATION OF FLIGHT STATUS ACT PASSES 98 TO 2. BACKUP CREWS OF THE APOLLO PROGRAM ENTERED INTO THE ROLLS.
-ACTION: Buck sits at the counter with his cup and watches the board fill.
+ACTION: Dawn lies flat and white across Tranquility Base. The lander sits loaded, its cargo door standing open on a hinge the landing crimped days ago.
+ACTION: DUTCH HAAS, 76, fits a pry bar into the gap and leans his weight on it. The door rises an inch and settles back down. A light on the frame stays amber.
+ACTION: Brandt stands at the hatch with a checklist board, watching the amber light not change.
+BRANDT: We can't fly with it standing open. If it doesn't seat, we don't go home.
+ACTION: Lindqvist leans out past him and looks at the sky where the other ship went.
+LINDQVIST: And the one we ride home only comes over once every couple hours. We make this next pass, or we sit here on the air that's in the tanks, and there is not much of it.
+ACTION: Stitch stands in the hatch with a roll of tape in one glove, watching Dutch work like a man watching rain.
+STITCH: Ah, it'll close up. They always do, once you quit staring at it.
+ACTION: Dutch sets the bar again and puts his shoulder into it. The door lifts, the latches start to run, and they stop halfway. The light holds amber.
+ACTION: Dutch steps back and looks from the bent hinge to the count on the board.
+DUTCH: The latches won't catch while it stands off the frame. So somebody holds it down from outside, by hand, until they run.
+DUTCH: (then) And whoever's holding it isn't aboard when it fires.
+ACTION: CRICKET is already up out of his seat. He takes the bar out of Dutch's hands and steps down onto the surface.
+ACTION: Cricket wedges the bar under the door edge and puts his whole weight on it. The door presses flush. One latch drives home. Then the next one.
+BRANDT: Dawes—
+CRICKET: Go.
+ACTION: The last latch runs shut. The light on the board turns green.
+ACTION: The ascent engine lights without a sound. The lander lifts straight up off its legs, dust falling away from it in slow sheets.
+ACTION: Cricket stands clear and watches it climb. He brings his glove up in a salute and holds it there.
+ACTION: The lander shrinks to one bright point and folds in among the stars.
+ACTION: Cricket lowers his hand. He turns and walks back toward the ring of flags, his boots falling into the hundreds of prints already worn there.
+ACTION: Inside the climbing cabin, Stitch leans to the window and looks back down at the shrinking gray.
+ACTION: Stitch raps a knuckle on the glass. Two taps. A pause. Two more.
+ACTION: Far below on the surface, Cricket sits on the fender of the parked rover and raps the metal with his glove twice, pauses, then raps it twice again.
+ACTION: In the cabin the foil-wrapped burgers go hand to hand, cold now.
+ACTION: Lindqvist holds one out to Shen, wedged in beside him. Shen looks at it, takes it, peels the foil back, and eats. Nobody says a word about it.
+ACTION: Dutch smooths his own foil flat on his knee and starts a column of figures down it with a grease pencil.
+ACTION: Months later. The television over the counter at Roy's Diner is turned to the floor vote.
+ACTION: On the screen the board fills with green. The chyron reads RESTORATION OF FLIGHT STATUS ACT PASSES 98 TO 2, BACKUP CREWS OF THE APOLLO PROGRAM ENTERED INTO THE ROLLS.
+ACTION: Buck, feed cap, watches the board over the top of his coffee.
 BUCK: Who were the two?
-ACTION: Earlene tops off his cup without looking at him.
+ACTION: EARLENE, sixties, comes down the counter with the pot and fills him without stopping.
 EARLENE: Does it matter?
 BUCK: I'd like to know their addresses is all.
-ACTION: The screen cuts to a photo of a man with a lanyard, a chyron under it that reads ACCORD ENFORCEMENT INQUIRY NAMES SPECIAL ADMINISTRATOR, ADMINISTRATION COOPERATING FULLY.
-ACTION: On the wall behind the register, four screw holes sit empty above the gas line where a meter used to be bolted.
-ACTION: In a barn near Kearney, DANNY, Dawes, fifty, sits at a radio rig in a headset with a new spiral notebook open, his own hand on the spine.
+ACTION: The screen cuts to a man with a lanyard on a courthouse step. The chyron reads ACCORD ENFORCEMENT INQUIRY NAMES SPECIAL ADMINISTRATOR, ADMINISTRATION COOPERATING FULLY.
+ACTION: By the diner's back door the gas line runs bare. Four screw holes mark the wall where the carbon meter used to sit.
+ACTION: The Dawes barn, evening. DANNY DAWES, 50, sits at the radio rig with a headset on and a fresh spiral notebook, his own handwriting down the spine.
+ACTION: Danny keys the mic.
 DANNY: Net's open. Tuesday, nineteen-oh-two local.
+ACTION: The voices come back onto the net one at a time.
 GUNNY (RADIO): Copy.
 DUTCH (RADIO): Here.
 STITCH (RADIO): On time for once, son.
-ACTION: The rig hisses. A long pause runs out, three seconds of it, the signal gone all the way out and back.
+ACTION: A pause runs on the net, longer than the others, three seconds of the signal going up and coming back.
 CRICKET (RADIO): Tranquility. Reading you loud and clear.
 STITCH (RADIO): Boy believes we went now, mind. He just don't believe the flags kept their color. Says y'all swapped 'em.
-ACTION: The rig hisses again, three more seconds of it.
+ACTION: Three seconds go by on the net.
 CRICKET (RADIO): Hm.
 ACTION: Danny grins at the rig and writes the time down in the log.
-ACTION: ON THE FRIDGE -- Danny slides a pay stub under a magnet and squares it with his thumb. It reads DAWES, E., RANGER (FIRST), TRANQUILITY BASE NATIONAL HISTORIC PARK, and a figure of $4,017.62.
-ACTION: On the Moon a sign stands staked in the dust that reads TRANQUILITY BASE NATIONAL HISTORIC PARK, ESTABLISHED JULY 4, RANGER STATION NO. 1.
-ACTION: A small hab sits off the original site with resupply pods lined up beside it.
+ACTION: In the farmhouse kitchen an insert holds a government pay stub. It reads DAWES, E., RANGER (FIRST), TRANQUILITY BASE NATIONAL HISTORIC PARK, and a net figure of $4,217.60.
+ACTION: Danny sets it under a magnet on the fridge and squares it up with one finger.
+ACTION: A sign stands off the original site and reads TRANQUILITY BASE NATIONAL HISTORIC PARK, ESTABLISHED JULY 4, RANGER STATION ONE.
+ACTION: A small hab sits beside it with resupply pods stacked at one side. On a workshop pole over the hab hangs a flag with fifty-one stars.
 ACTION: The six flags stand in their ring, their colors lit by the light coming off the Earth.
-ACTION: Over the hab, on a workshop pole, the flag with fifty-one stars hangs still.
-ACTION: Cricket walks out to the ring in a suit patched at the knee, a park ranger's patch on his chest.
-ACTION: He goes around the ring and gives each staff one firm pull.
-ACTION: He finishes at the flag at the center on its old pole and looks up.
+ACTION: Cricket walks the ring in a suit patched at one knee, an arrowhead park patch sewn on his chest. He gives each staff one firm pull.
+ACTION: He finishes at the oldest flag, the one from 1969, and looks up.
 ACTION: The Earth hangs full above him with its night side turned his way.
 ACTION: Cricket raises one glove all the way up and waves.
-ACTION: Nothing answers for a moment.
-ACTION: Then a city flickers on the dark face of the Earth, and then another one beside it.
-ACTION: Whole coastlines come up pulsing, two and a pause and two, the wave rolling west across the night, one city into the next and one sea to the next.
-ACTION: Cricket holds his glove up, and the Earth keeps answering, and the flags hold their colors in the black.
+ACTION: A beat passes.
+ACTION: Far down on the dark of the Earth, one city flickers. Then another beside it.
+ACTION: The flicker spreads along a coastline and jumps inland, pulsing two, a pause, two, rolling west across the night from one sea toward the other.
+ACTION: Cricket holds his glove up. The Earth keeps answering him, and the flags hold their colors in the black.
 ACTION: FADE OUT.
 ACTION: THE END.

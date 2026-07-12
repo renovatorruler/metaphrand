@@ -2,32 +2,36 @@ v14-39-wall — EXT. TRANQUILITY BASE - LUNAR DAY
 [engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc39_wall.scene.txt.receipt.json]
 
 @@SCENE@@
-ACTION: A voice comes onto the open loop from Earth, thinned by the distance, calm and official.
+ACTION: Six flags stand in a row on the gray flat, stiff on their wire frames, no wind to move them.
+ACTION: Two suited figures from the Harmony lander come up over the near rise and stop. Commander Brandt of the ESA, forties, checks the plaque numbers against a card strapped to his wrist. Behind him Observer Shen waits and says nothing.
+ACTION: Between Brandt and the flags stand four old men in white suits. EARL 'CRICKET' DAWES, 79, holds the center, his visor level, his hands at his sides.
+BRANDT: (into the loop) Geneva, Harmony One. We're on the surface. I have all six in front of me.
 GENEVA (RADIO): Harmony One, this is Accord Coordination, Geneva. You are directed to proceed with retrieval of all six artifacts. Immediately, please.
-ACTION: Brandt, the ESA commander, plants his boots on the gray flat and reaches for the flag staff standing in its old base.
-ACTION: Four old men in worn white suits cross into the gap between his glove and the staff and set their shoulders together, visors level, Cricket at the center of the line.
-ACTION: His glove stops a foot short of the staff and holds there.
-ACTION: Gunny, at the end of the line, reaches up and keys the open loop, slow and even, and every living room on Earth is on the channel.
-GUNNY: You want 'em? Come through us.
-ACTION: Brandt lowers his arm and takes one step back off the line.
-BRANDT: Geneva, Harmony One. The site is… occupied by personnel asserting jurisdiction. Requesting political guidance.
-ACTION: In Houston, the flight director stands over his console, gray and in his sixties, with Washington still talking in his headset.
-ACTION: A young controller holds a slip of paper up to his face with one word printed across it in block letters, ACKNOWLEDGE.
-ACTION: The flight director reads the slip, and instead of keying it up to the crew, he lifts the headset off both ears and lays it on the desk.
-ACTION: On the Moon, the loop stays open and empty, and nothing comes back but static.
-ACTION: Gunny unfolds a card table on the flat and deals four hands across it, one card at a time, and nobody reaches for a card.
-ACTION: The static breaks, and President Marwani comes onto the loop himself, forty-one and warm and unhurried, patched straight through from Earth to every set on the planet.
-MARWANI (RADIO): Friends. I've been listening the whole time, and I hear you, I really do. But this day belongs to everybody down here, and I would like to hand it back to them whole. As your Commander in Chief, I am ordering you to stand down.
-ACTION: Static holds for a moment.
-ACTION: Cricket reaches up without hurrying and keys his mic.
-CRICKET: You're not my commander, sir. NASA's civilian. Always was. That was the whole point of it.
-ACTION: The loop goes silent, all the way back to Geneva.
-ACTION: Shen steps up to Brandt's shoulder and speaks low, off the loop.
-SHEN (WHISPER): You did not touch the flag.
-ACTION: In Roy's Diner in Nebraska, Buck sits under the mounted television in his feed cap, seventies, a cup of coffee going cold in front of him.
-ACTION: His fist comes down on the counter hard enough to jump the spoon in the cup.
+BRANDT: (into the loop) Copy, Geneva. Proceeding.
+ACTION: Brandt walks to the first staff. He plants his boots and reaches for it.
+ACTION: The four old men step together into one line, Cricket at the center. Brandt's glove stops a foot short of the wire.
+ACTION: Nobody moves. Brandt looks at the four visors. He looks at the flag.
+ACTION: GUNNY TIBBS, 71, keys his loop, slow and even, and his voice goes out to every living room on Earth.
+GUNNY: (into the loop) You want 'em? Come through us.
+ACTION: Brandt lowers his arm. He takes one step back.
+BRANDT: (into the loop) Geneva, Harmony One. The site is... occupied by personnel asserting jurisdiction. Requesting political guidance.
+ACTION: Down in Accord Mission Control in Geneva, a controller holds a slip of paper out to the Flight Director at the front console. Washington wants one word carried up. The slip reads ACKNOWLEDGE.
+ACTION: The Flight Director looks at the slip. He does not take it. He lifts his headset off, all the way off, and sets it down on the desk.
+ACTION: Back on the surface, the loop hisses and nothing comes down it.
+ACTION: Gunny turns to a card table standing in the lunar dust. He deals four hands onto it, one card at a time, in the quiet.
+CRICKET: (off the table) Deal 'em face down. Wind'll take 'em.
+GUNNY: There's no wind up here.
+CRICKET: Force of habit.
+ACTION: The loop clicks. A new voice comes on, warm and unhurried.
+MARWANI (RADIO): Gentlemen. It's Zoran. The whole planet is standing still for you right now, and every one of them wants the same thing, which is a whole day, a good day, a day we can all share. So let me help you get there.
+MARWANI (RADIO): (then) As your Commander in Chief, I am ordering you to stand down, Commander.
+ACTION: A beat of static.
+CRICKET: (into the loop) You're not my commander, sir. NASA's civilian. Always was. That was the whole point of it.
+ACTION: The loop hangs open. Nothing answers, not from the moon, not from Geneva.
+ACTION: Inside Roy's Diner back in Nebraska, Buck, seventies, feed cap, sits at the counter with the TV going over the pie case. He watches it a second and doesn't say anything.
+ACTION: His fist comes down on the counter, once.
 BUCK: U-S-A!
-ACTION: The men down the counter pick it up, and the cups rattle in their saucers.
-ACTION: At the county fair, the restored carousel keeps turning while every grown-up climbs off the benches and shouts it at a phone.
-ACTION: On a highway overpass, a bedsheet flag hangs over the rail and a hundred cars lean on their horns at once.
-ACTION: In a Brooklyn loft, a rack of UNITY DAY shirts hangs by the door, and half the people wearing them catch themselves chanting, and some of them do not stop.
+ACTION: The whole diner takes it up. Coffee cups rattle on their saucers.
+ACTION: Out at the county fairgrounds the fair is mid-swing. The restored carousel keeps turning while every grown-up in the crowd stands up and chants at a phone.
+ACTION: On a highway overpass a bedsheet flag hangs off the railing. A hundred horns go off underneath it at once.
+ACTION: Inside a Brooklyn loft half the UNITY DAY shirts in the room catch themselves chanting it too. Some of them stop. Some of them don't.

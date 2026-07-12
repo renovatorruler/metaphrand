@@ -1,8 +1,8 @@
 {
   "id": "v14-19-lights-out",
   "slug": "INT. ROY'S DINER - DAY",
-  "seedHash": "7009a2c9a749d9c7697b9278ab4983ef7a8342d4a6bdef626dc35058f8ba82a8",
-  "sceneHash": "7c00df54d90399ae5774e35880cf468ae7e1cdf32a38df099d68658245cf4622",
+  "seedHash": "117dd5324918368194803023414de0e7b613bf92601bfd062d8baaae33fa98cf",
+  "sceneHash": "704e5a05ff1f63874eaa9951a01a1af8b5335636ab933d70ac4f4701dab5dc0a",
   "gate": "PASS",
   "dialogue": "LIFTED",
   "attempts": "1",

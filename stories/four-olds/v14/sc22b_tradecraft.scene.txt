@@ -2,33 +2,36 @@ v14-22b-tradecraft — INT. TRI-COUNTY AUCTION BARN - NIGHT (LATER)
 [engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc22b_tradecraft.scene.txt.receipt.json]
 
 @@SCENE@@
-ACTION: The lamp still burns over the plywood table. Mack Boone, 55, freight-and-salvage, stands at the head of it with the crew around him and their coffee going cold.
-MACK: From tonight, everything changes how it moves. Nothing electronic. No phones, no email, no cloud. Nothing with a battery you didn't build yourself.
-ACTION: Joss Reed, 26, dock hand, sits back on a crate at the edge of the light.
-JOSS: Then how do two hundred guys and four states coordinate a--
-ACTION: Dutch Haas, 76, engineer, answers without looking up from the binder in his lap.
-DUTCH: Handwritten letters. The ham radio net, on a schedule, in code. A book cipher.
-ACTION: Dutch sets a swollen 1971 READER'S DIGEST on the plywood, the pages fat with damp.
-JOSS: That's insane. That's, that's Revolutionary War stuff.
-ACTION: Gunny Tibbs, 71, Navy retired, turns a coffee cup slow in his hands.
+ACTION: One work lamp hangs over a folding table in the dark auction barn. Eight men sit around it in caps and barn coats, coffee gone cold in foam cups.
+ACTION: MACK BOONE, 55, freight-and-salvage, lays both hands flat on the table and waits until the room settles.
+MACK: From tonight, everything changes how it moves. Nothing electronic. No phone, no email, none of that cloud stuff either. If it's got a battery you didn't build yourself, it doesn't touch this.
+ACTION: Joss Reed, 26, tips back on two legs of a folding chair.
+JOSS: Then how do two hundred guys across four states coordinate a—
+ACTION: Dutch Haas, 76, doesn't look up from the pad he's squaring against the table edge.
+DUTCH: Handwritten letters. The ham net, on its schedule, in code. And a book cipher.
+ACTION: Dutch sets one thumb on a swollen 1971 READER'S DIGEST in the middle of the table, the cover soft and curling at the corner.
+JOSS: That's insane. That's — that's Revolutionary War stuff.
+ACTION: Gunny Tibbs, 71, tips ash off a cigarette he isn't supposed to have going in here.
 GUNNY: They've got every algorithm ever written. We've got Valley Forge.
-ACTION: Morning light lies flat along a gravel road. A hand pushes an envelope into a rural mailbox and lifts the little red flag. The face of it reads TRI-COUNTY FEED COOPERATIVE, RE: PARTS.
-ACTION: Farther down the road a second flag goes up. A third stands already.
-ACTION: Inside the post office a mail carrier tosses one of the feed-cooperative envelopes into a sorting tray between two packs of grocery coupons.
-ACTION: Back in the barn under the same lamp, Tito Alvarez, 24, welder, raises a small film camera and shoots the finished couch twice.
-ACTION: The shutter clacks.
-ACTION: He winds the canister out and drops it into a Folgers can half full of them, then settles the can in the bottom of his toolbox.
-ACTION: In the Dawes kitchen, Cricket Dawes, 79, sits at the table with the same swollen Reader's Digest open under a lamp. Danny Dawes, 50, his son, reads off a folded sheet.
+ACTION: Out on a section road at dawn, a gloved hand feeds a plain envelope into a dented roadside mailbox. The address reads TRI-COUNTY FEED COOPERATIVE, RE: PARTS, and the little red flag goes up.
+ACTION: A quarter mile down the same road another red flag stands up, and past the shelterbelt a third one goes up too.
+ACTION: A mail carrier works her tray at the wheel and tosses the feed-cooperative envelope in among the coupon packs without a second look.
+ACTION: In the Dawes kitchen that night, Danny Dawes, 50, sits across the oilcloth table from his father with the Reader's Digest open between them, and Cricket Dawes, 79, holds a pencil stub over a grocery pad.
+ACTION: Danny reads off a slip in his own hand.
 DANNY: Fourteen. Two. Nine.
-ACTION: Cricket thumbs to page fourteen, runs a finger down the second column, counts nine words in, and writes one on a pad.
-ACTION: Danny turns the pad and looks at it.
+ACTION: Cricket thumbs to page fourteen, runs a finger down the second column, and counts nine words in.
+CRICKET: (reading) Milk. Eggs. Twine.
 DANNY: That's a grocery list.
 CRICKET: This week it is.
-ACTION: Back at the shop table, Elmore "Stitch" McGrew, 74, the airplane man, tips his chair back on two legs. Mack goes around the table with a nod at each.
-GUNNY: My sister's. Down in Montgomery.
-STITCH: Airplane parts, Wichita. True enough.
+ACTION: Later at the shop, the crew stands around a workbench under a caged light while Mack works down a short penciled list, checking each man off as he goes.
+MACK: Cover for July. Where's each of you, anybody in the county asks.
+GUNNY: My sister's. Montgomery.
+STITCH: Airplane parts. Wichita.
+STITCH: (then) True enough.
 DUTCH: The archival-standards conference. Dayton.
-ACTION: A beat.
-DUTCH: There is one.
-ACTION: Mack looks to Danny.
+DUTCH: (beat) There is one.
+ACTION: Mack's pencil comes to the last name and he looks up at Danny.
 DANNY: Fishing.
+ACTION: Out in his garage, Tito Alvarez, 24, raises an old film camera to his eye and shoots two frames of a finished couch, the shutter clicking twice.
+ACTION: He winds the roll out and drops the little canister into a FOLGERS can already half full of them, then thumbs the plastic lid down.
+ACTION: Tito settles the can into the bottom of his toolbox and lays a tray of sockets over the top of it.
