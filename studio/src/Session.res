@@ -37,7 +37,12 @@ let bin = switch Js.Dict.get(env, "CLAUDE_STUDIO_BIN") {
 | Some(b) => b
 | None => "claude"
 }
-let timeoutMs = 150000
+/* per-turn timeout; long scene generations can exceed the default —
+   raise via env when a run carries big seeds. */
+let timeoutMs = switch Js.Dict.get(env, "CLAUDE_STUDIO_TURN_TIMEOUT_MS") {
+| Some(s) => Belt.Int.fromString(s)->Belt.Option.getWithDefault(150000)
+| None => 150000
+}
 let calls = ref(0)
 
 /* ---- the one warm process, lazily spawned, reused for every turn ---- */
