@@ -2,60 +2,64 @@ v14-06-seizure — EXT. DAWES FARM - DAY
 [engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc06_seizure.scene.txt.receipt.json]
 
 @@SCENE@@
-ACTION: Two black SUVs and a county flatbed climb the gravel drive and stop short of the barn.
-ACTION: In the lead SUV, PELL rides shotgun, fifties, pressed shirt, a laminated badge on a lanyard, a phone propped in the dashboard mount.
-ACTION: A voice comes off the phone, tinny and bored.
-HOLLOWAY (RADIO): Saturday. And a real one, something that actually verifies, not some old shed you wrote up to pad your numbers. You miss it, they put your office under Lincoln's, and I got no reason left to pick up when you call.
+ACTION: Two black SUVs and a county flatbed climb the gravel drive toward the Dawes farmhouse and barn.
+ACTION: In the lead SUV a phone sits in a dashboard mount, a voice coming off the speaker, tinny and bored.
+BOSS (RADIO): One verified recovery on the books by Saturday, or your office rolls into Lincoln's. That's the whole conversation, Pell.
+ACTION: In the passenger seat rides PELL, 50s, his lanyard squared on a pressed shirt and a clipboard flat on his knee.
 PELL: You'll have it.
-ACTION: Pell taps the phone dark, flips down the visor, and checks his hair in the little mirror. He steps out already smiling.
-ACTION: CRICKET stands in the open barn doorway, seventy-nine, coveralls, both boots planted on porch boards still bright with new paint.
-ACTION: Off by the flatbed waits WADE, mid-forties, county tan, his hat in both hands.
-PELL: Morning. Real pretty piece of ground you got up here.
-ACTION: Cricket says nothing. Pell keeps coming, a tablet in the crook of his arm.
-PELL: Appreciate everybody's patience this morning. Truly. We'll be light on our feet, in and gone.
-ACTION: Two movers in company polos wheel a dolly up the ramp and past Cricket into the barn.
-PELL: Look at that framing. They don't put a building together like this anymore.
-ACTION: Pell thumbs the tablet and reads down a list.
-PELL: All right. One crew couch, one panel assembly, one altitude indicator--
+ACTION: He taps the phone off and checks his hair in the visor mirror, turning his chin one way, then the other.
+ACTION: He steps out of the SUV already smiling.
+ACTION: CRICKET stands square in the open barn doorway, Earl Dawes, 79, the painted Moon on the wall behind him.
+ACTION: Two movers in gloves wait at the flatbed with a dolly.
+ACTION: WADE hangs back by the porch steps, a county deputy in his forties, his hat already off and held in both hands.
+ACTION: Pell walks the length of the barn with the clipboard up, looking at the joints in the roof beams.
+PELL: Somebody framed this to last. You don't see the old peg work anymore.
+ACTION: He clicks his pen and starts down the inventory.
+PELL: (reading) One crew couch. One cradle assembly, welded. One altitude indicator—
 CRICKET: Attitude.
-ACTION: Pell clicks a pen and marks the line.
+ACTION: Pell stops, pen up.
+ACTION: He draws a neat line through the word and prints above it.
 PELL: Noted.
-ACTION: Inside, a mover cracks his knuckle on the steel cradle and hisses through his teeth.
-ACTION: Cricket lifts a socket off the pegboard and holds it out. The mover takes it and can't look at him.
 CRICKET: It was surplus. Nineteen seventy-five. Told it'd be scrapped otherwise.
-ACTION: Pell doesn't look up from the tablet.
-PELL: Paperwork says otherwise.
-ACTION: He peels an orange sticker off a sheet and smooths it flat to the panel with his thumb. The sticker reads LUNAR HERITAGE NEUTRALIZATION ACCORD, EX-NASA ASSET RECOVERY.
-ACTION: Pell drifts to the back wall and pulls one spiral notebook down. He fans three pages of grid-ruled block printing.
+PELL: (not looking up) Paperwork says otherwise.
+ACTION: A mover presses an orange sticker onto the trainer's frame and Pell smooths it flat with his thumb.
+ACTION: The sticker reads LUNAR HERITAGE NEUTRALIZATION ACCORD -- EX-NASA ASSET RECOVERY.
+ACTION: Pell drifts to the back wall and pulls down one spiral notebook, thumbs it open.
+ACTION: Three pages of grid-ruled block printing pass under his thumb.
 PELL: Personal papers.
-ACTION: He looks another second, then drops it back on the shelf crooked.
-PELL: No salvage value. Leave them.
-ACTION: The movers get the dolly under the trainer and take up the weight.
-CRICKET: Not one of you ever built a thing out here. Now it's all yours.
-ACTION: Pell stops. He sets the tablet down at his side and looks at Cricket, and the warmth goes out of his voice without any heat coming into it.
-PELL: You didn't build this either, Mr. Dawes. Nineteen seventy-five, it should've gone back to NASA and it never did, and nobody asked why for fifty years. You kept it. That's all. Long enough that theft starts to feel like inheritance.
-ACTION: Cricket doesn't answer that.
-ACTION: The dolly rolls the trainer down the ramp and out into the daylight. A clean rectangle shows on the floor where it stood, four bolt holes at the corners.
-ACTION: Cricket steps into the empty doorway and sets his boots.
-CRICKET: You'll have to move me, Wade.
-ACTION: Wade comes up the ramp, hat still in one hand.
+PELL: (then) No salvage value. Leave them.
+ACTION: He pushes the notebook back onto the shelf crooked and moves on.
+ACTION: At the dolly a mover cracks his knuckle on a bolt head and shakes out his hand.
+ACTION: Cricket reaches to the pegboard, takes down a socket, and holds it out.
+ACTION: The mover takes it without looking at him and fits it to the bolt.
+ACTION: The two movers track back and forth across the porch, their boots on boards painted only a few days back.
+ACTION: Cricket watches the dolly take the weight of the couch.
+CRICKET: (quiet, hard) Not one of you ever built a thing out here. Now it's all yours.
+ACTION: Pell stops writing and looks at him for the first time.
+PELL: You didn't build this either, Mr. Dawes. Nineteen seventy-five it should've gone back to NASA, and it never did, and nobody asked why for fifty years. It was never yours. Paperwork just took its time getting here.
+ACTION: Cricket says nothing.
+ACTION: The dolly turns for the open doors, and Cricket steps into the gap and sets his feet.
+CRICKET: (to Wade) You'll have to move me, Wade.
+ACTION: Wade sets his hat on the porch rail and comes down the steps slow.
 WADE: Earl.
-ACTION: He takes Cricket by both arms, gentle, and walks him a few steps to the side. Cricket lets him. Neither says anything more.
-ACTION: Wade keeps his voice low, close to Cricket, his back to Pell.
-WADE: Federal list came down Tuesday. County don't see a dime off it. Nobody does.
+ACTION: He takes Cricket by both arms, gentle, and walks him three steps to the side, and Cricket lets him.
+ACTION: The dolly rolls past the two of them and out into the daylight.
+ACTION: Wade stays in close at his shoulder, voice down, while the movers load.
+WADE: (low) Federal list came down Tuesday. County don't see a dime off it. Nobody does.
 CRICKET: Where's it go.
 WADE: Warehouse outside Lincoln, is what I hear. Same one as the rest of it.
-ACTION: Wade turns the hat over in his hands.
-WADE: There's a window to put in an appeal on it. It's open till four, if you want the number.
-ACTION: The movers slide the trainer onto the flatbed and throw a strap over it. Pell signs the tablet and tucks his pen away.
-PELL: Folks, I know change feels sudden. But like the Accord reminds us, harmony is a verb.
-ACTION: He gives the doorway a small nod, climbs into the SUV, and the two trucks pull off down the drive with the flatbed behind.
-ACTION: The dust settles over the yard. Cricket walks back in and stops at the edge of the bare rectangle.
+WADE: (then) There's a window to put in an appeal. It's open till four.
+ACTION: Inside the barn a clean rectangle of floor shows where the trainer stood, four bolt holes at its corners.
+ACTION: Cricket steps to the edge of the rectangle and stops.
 ACTION: He presses one hand hard to the back of his neck, takes one breath, and straightens.
-ACTION: On the workbench sits a small radio the movers left behind. Cricket thumbs it on.
+ACTION: Pell pulls the SUV door open and turns back with a smile for the whole yard.
+PELL: Folks, I know change feels sudden. But as the Accord reminds us -- harmony is a verb.
+ACTION: The SUVs and the flatbed pull out and head down the drive.
+ACTION: On the workbench the old field radio sits where they left it, still wired in.
+ACTION: Cricket crosses to it, lowers himself onto the stool, and thumbs the microphone.
 CRICKET: Net's open. Wednesday.
-ACTION: The speaker crackles and three voices come back over each other, fast.
-STITCH (RADIO): We're here, Earl.
+ACTION: Three voices come back fast, one climbing over the other.
+STITCH (RADIO): Here.
+DUTCH (RADIO): Present.
 GUNNY (RADIO): Standing by.
-DUTCH (RADIO): Copy. Go ahead when you're set.
-ACTION: Cricket reaches up and pulls the work light on over the empty floor.
+ACTION: Cricket reaches up and pulls the work light on over the empty rectangle.

@@ -2,94 +2,90 @@ v14-03-barn-net — INT. DAWES BARN - NIGHT
 [engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/v14/sc03_barn_net.scene.txt.receipt.json]
 
 @@SCENE@@
-ACTION: A pull-cord CLICKS and a work light comes up over the APOLLO PROCEDURES TRAINER.
-ACTION: Hand-machined gauges sit in a plywood panel, every needle painted white at the zero mark.
-ACTION: A crew couch rides in a welded steel cradle, bolted to the barn floor.
-ACTION: The triangular window looks out on nothing but a Moon painted on the barn wall, gray and cratered and eight feet across.
-ACTION: Along the back wall the spiral notebooks climb floor to roof, every spine dated in the same block hand, the bottom shelf starting in 1972.
-ACTION: CRICKET lowers himself into the couch, seventy-nine, coveralls, reading glasses pushed up on his forehead.
-ACTION: He sets a stopwatch on the panel ledge and squares a clipboard on his knee.
-ACTION: A radio speaker on the shelf hisses, then a voice comes through it.
-GUNNY (RADIO): Net's open. Tuesday, nineteen-oh-two local.
+ACTION: In the dark of the barn a hand finds a starter cord and pulls it hard.
+ACTION: A sharp CLICK carries across the dark barn.
+ACTION: A single work light warms up over the APOLLO PROCEDURES TRAINER, a plywood-and-steel cockpit standing on blocks in the middle of the barn.
+ACTION: The gauges are hand-machined, every dial cut and inked and numbered by somebody at a bench.
+ACTION: A crew couch sits bolted into a welded cradle, tipped back the way a man lies down to land.
+ACTION: A triangular window looks out on a Moon painted straight onto the barn wall, gray and cratered and flaking a little at the edges.
+ACTION: ALONG THE BACK WALL -- spiral notebooks stand floor to roof, hundreds of them, each spine dated in the same block hand.
+ACTION: The bottom shelf starts in 1972.
+ACTION: CRICKET -- Earl Dawes, 79, a barn coat pulled over his pajamas, lowers himself into the couch and settles his back against it without looking.
+ACTION: He thumbs a microphone clipped to the frame and clears his throat.
+CRICKET: Net's open. Tuesday, nineteen-oh-two local.
+ACTION: Static rolls up out of an old field radio wired into the trainer's frame.
+ACTION: A drawl comes back first, slow and easy, off somewhere in East Texas.
+STITCH (RADIO): Evenin', Earl.
+ACTION: A dry, flat voice follows it, a man reading off a page.
+DUTCH (RADIO): Present.
+ACTION: The third voice lands square and clipped, an old Navy voice.
+GUNNY (RADIO): Stand by for roll.
+ACTION: In the barn Cricket reaches up and starts setting a row of toggle switches, one at a time.
 GUNNY (RADIO): Apollo Eighteen. Lunar descent rehearsal. Number two thousand, eight hundred and six.
-ACTION: Cricket clicks the transmit key twice and lets it go.
-CRICKET: Copy. Panel's up.
-STITCH (RADIO): Copy, copy. You hear about Roy Alderson's place, they had the auction Saturday.
-DUTCH (RADIO): Stand by on the auction. I show us thirty seconds to ignition.
-STITCH (RADIO): They had a crowd out there, Dutch, I'm telling you, three hundred people easy on that lawn.
-DUTCH (RADIO): There were not three hundred people at Roy Alderson's.
-STITCH (RADIO): Well it was a lot.
-CRICKET: Twenty seconds.
-GUNNY (RADIO): Everybody clean it up. We're descending.
-STITCH (RADIO): So they get the tractor out front, the good green one, and a fella from over in Beatrice buys it sight unseen.
-CRICKET: Ignition. Throttle up.
-ACTION: Cricket's thumb walks a hand-machined lever forward and holds it.
-DUTCH (RADIO): Good ignition. Rates are nominal.
-STITCH (RADIO): Sight unseen, Gunny. Never turned it over. Man's got money to burn.
-GUNNY (RADIO): The auction is not on the net, Stitch.
-STITCH (RADIO): Everything goes on the net, Gunny. Always did.
-CRICKET: Seven thousand feet. Coming down.
-DUTCH (RADIO): I want it on the record I'm watching Bus B.
-GUNNY (RADIO): Dutch, we are aware.
-DUTCH (RADIO): It's a forty-year-old relay. I wrote it up in the binder, June of '09.
-STITCH (RADIO): Yeah, you wrote it up. We all read the binder.
-CRICKET: Five thousand.
-DUTCH (RADIO): I'm allowed to say it. It's my relay to say.
-STITCH (RADIO): So anyway the widow Alderson, she's stood there in the driveway and she says to me, Elmore, she says.
-GUNNY (RADIO): You did not talk to the widow.
-STITCH (RADIO): I talked to the widow.
-CRICKET: Three thousand feet. Rate of descent good.
-DUTCH (RADIO): Which is another thing. You missed the net that whole month, October two years back.
-STITCH (RADIO): I had my hip done.
-DUTCH (RADIO): October the fourth through the twenty-fifth. I got it logged.
-STITCH (RADIO): I had my hip done, Dutch, they cut the whole thing out and put a new one in.
-GUNNY (RADIO): The hip is not on the net either.
-CRICKET: Two thousand.
-STITCH (RADIO): Point is a man gets a new hip and the Moon waits right where it was. Fifty years of Tuesdays. It is not going to jump out at anybody.
-DUTCH (RADIO): It could. That's the whole reason for the drill.
-STITCH (RADIO): In fifty years it never once jumped out.
-CRICKET: One thousand feet.
-ACTION: A needle on the left panel twitches, slides half a mark toward zero, and hangs there.
-CRICKET: Got a walk on Bus B.
-ACTION: Dutch's voice comes back fast, then catches itself and slows.
-DUTCH (RADIO): Steady or does it stutter?
-ACTION: Cricket leans to the gauge, watches the needle tremble at the low edge.
+ACTION: Nobody laughs. Cricket just finishes his switches.
+CRICKET: Crew's aboard. Comm check, three by three.
+STITCH (RADIO): Loud and ugly, same as you.
+DUTCH (RADIO): Loud and clear.
+CRICKET: Coming up on the burn. Program's running.
+DUTCH (RADIO): Confirm, guidance is nominal on my copy.
+STITCH (RADIO): Y'all hear they put Harlan Voss in the ground Saturday.
+GUNNY (RADIO): Can the estate sale, Stitch. We're descending.
+STITCH (RADIO): I'm gettin' to it. They had damn near two hundred people out at that church, Dutch, and every last one of 'em stood up for the box, and that box — I want you to hear me — that box was veneer.
+CRICKET: Ten thousand feet. Rate looks good.
+DUTCH (RADIO): There were not two hundred. The church on County Road nine seats a hundred and ten. I measured it in oh-four for the fire panel.
+STITCH (RADIO): Hundred and ten seated. They was standin' in the vestibule and hangin' off the steps.
+DUTCH (RADIO): Then say a hundred and ten and standing room. Don't say two hundred.
+CRICKET: Three thousand. Throttle down on schedule.
+STITCH (RADIO): Man's serious his whole life, and they lay him in a box that's mostly glue anyhow. I want oak. Real oak. Put it in your book, Dutch.
+DUTCH (RADIO): Noted. Oak.
+DUTCH (RADIO): While I've got the book open. That Bus B relay is going to open on somebody one of these Tuesdays. I logged it November of eighty-nine and I have logged it every November since.
+STITCH (RADIO): Here he goes.
+DUTCH (RADIO): I'm allowed to say it. It is written down thirty-some times.
+GUNNY (RADIO): Nobody's stopping you, Dutch. We're at three thousand feet.
+ACTION: On the panel a needle sags off its peg and starts to drift down.
+CRICKET: Bus B's moving.
+DUTCH (RADIO): Say again.
+CRICKET: Voltage. Walking down.
+DUTCH (RADIO): (off it) Steady, or does it stutter?
+ACTION: Cricket watches the needle bounce and fall, bounce and fall.
 CRICKET: Stutters.
-DUTCH (RADIO): Kick it. Low left corner. Heel of your hand.
-ACTION: Cricket raises a boot and raps the plywood panel down in the left corner, one flat knock.
-ACTION: The needle jumps, climbs back up the dial, and settles white on the zero.
+DUTCH (RADIO): Kick it. Low left corner, up under the panel.
+ACTION: Cricket brings his heel up and raps the underside of the panel, hard, low on the left.
+ACTION: The needle jumps, hangs a second, and climbs back up to its peg.
 CRICKET: Back up.
-ACTION: A long hiss on the speaker. Nobody says anything for a moment.
-DUTCH (RADIO): Well.
-GUNNY (RADIO): Don't.
-DUTCH (RADIO): June of '09.
-GUNNY (RADIO): Dutch.
-STITCH (RADIO): Aw, let him have it. He's been waiting on that a long while.
-CRICKET: Five hundred feet.
-STITCH (RADIO): So the casket, that's the part. They open it up at the front and it's veneer. The whole box. Veneer.
-DUTCH (RADIO): You cannot know it was veneer.
-STITCH (RADIO): My cousin does the finish work over there. It's veneer, I'm telling you, it's a quarter inch of walnut over the cheap stuff.
-CRICKET: Four hundred feet. Coming down nice.
-ACTION: The speaker goes quiet. No one calls for it. The three voices simply stop.
-ACTION: Cricket's thumb rides the throttle down, easy, watching the painted Moon fill the triangular window.
+ACTION: The radio holds quiet a beat.
+DUTCH (RADIO): November of eighty-nine.
+GUNNY (RADIO): Let it go, Dutch.
+DUTCH (RADIO): I did. I let it go thirty-seven years.
+CRICKET: Two thousand feet. Looking good.
+STITCH (RADIO): Anyhow. Oak. And I'll tell you what else, they had the wrong hymn. Had the funeral hymn for a Methodist and Harlan was Baptist his whole —
+DUTCH (RADIO): You'd know about missing a service. You missed a net. March of last year. I have you down as an absence.
+STITCH (RADIO): I had a hip put in me, Dutch. They had me on the good drugs. I called Earl from the bed.
+CRICKET: You did. You sang.
+STITCH (RADIO): (dry) So take the absence off, Dutch. I was right there on the line.
+CRICKET: One thousand feet.
+GUNNY (RADIO): Quiet down, both of you, we're coming in.
+STITCH (RADIO): Comin' in where, Gunny. It's the same Moon it was last Tuesday. After fifty years of Tuesdays that Moon is not gonna jump out from behind nothin'.
+CRICKET: Five hundred.
 CRICKET: Three hundred.
-ACTION: The barn is silent except for the hiss of the open channel.
-ACTION: A small green bulb on the panel lights.
+ACTION: The chatter stops. Nobody calls for it and nobody says why.
+ACTION: Cricket's eyes stay on the painted Moon in the window.
+CRICKET: A hundred feet. Kicking up a little dust.
+CRICKET: Forty feet.
+CRICKET: Drifting forward a hair.
+ACTION: A small blue bulb on the panel comes on.
 CRICKET: Contact light. Engine stop.
-ACTION: Cricket lifts his thumb off the lever and sets both hands flat on the clipboard.
-ACTION: One beat. The work light hums. Nobody keys a mic.
-STITCH (RADIO): You came in hot on the throttle there at the end.
-CRICKET: I did not.
+ACTION: The barn holds dead still. The work light hums over the couch.
+STITCH (RADIO): You come in a touch hot on the throttle there at the end, Earl.
 GUNNY (RADIO): The man is on the ground, Colonel.
-DUTCH (RADIO): Contact, nineteen forty-one local. I've got it down.
+CRICKET: Crew's down. Safe and sound.
+DUTCH (RADIO): Logged. Contact, nineteen forty-one.
 GUNNY (RADIO): Net closed. Same time Tuesday.
-STITCH (RADIO): God willing.
-ACTION: Cricket clicks the transmit key twice.
-ACTION: Two clicks answer back from the speaker. Then two more. Then two more, fainter, from farther off.
-ACTION: The speaker cuts to dead air.
-ACTION: Cricket pulls a spiral notebook off the shelf and opens it flat to a fresh page.
-ACTION: He writes in ballpoint block letters, slow, and the words fill the top line. T+2,806. BUS B CORRECTED. CONTACT 19:41. CREW PRESENT BY RADIO.
-ACTION: He runs his thumb down the dated spines on his way to the door, top shelf to bottom.
-ACTION: He kills the work light and steps out. A padlock hangs on the hasp.
-ACTION: He tests it with one pull, and it holds.
-ACTION: Beyond the barn stands the farmhouse, and no lights are on inside it.
+CRICKET: God willing.
+ACTION: Two clicks of dead-key static come across the radio.
+ACTION: Cricket keys the mic twice in answer, and one after another the others key back, two clicks each, until the field radio drops to hiss.
+ACTION: He reaches over to the workbench, lifts down a fresh spiral notebook, and clicks a ballpoint.
+ACTION: He prints it out slow in block letters that read T+2,806. BUS B CORRECTED. CONTACT 19:41. CREW PRESENT BY RADIO.
+ACTION: He slides the notebook onto the back-wall shelf and runs his thumb down the dated spines, from this year back toward the bottom.
+ACTION: He kills the work light and hooks a padlock through the door hasp, then gives it one pull to be sure.
+ACTION: Across the yard the farmhouse stands dark, not one light on inside it.
