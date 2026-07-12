@@ -3,7 +3,7 @@
 
 let cricket: Seed.voiceCard = {
   name: "CRICKET",
-  who: "Earl 'Cricket' Dawes, 79. Nebraska farmer; Apollo 18 backup commander, never flew; widower a year. Fifty years of Tuesday drills in the barn. Deflects every feeling into an operational fact.",
+  who: "Earl 'Cricket' Dawes, 79. DEFINING STANCE: the man who never stopped believing — his country made him a promise, stood him up, forgot it ever asked, and he kept the appointment anyway, every Tuesday, for fifty years, without bitterness and without ever once considering himself released. He treats a fifty-year-old promise as current business and the Moon as a chore he is still on the hook for. The checklist manner is the COSTUME of this faith, not the character. Nebraska farmer; Apollo 18 backup commander, never flew; widower a year. Deflects every feeling into an operational fact.",
   register: "checklist grammar — states a fact and stops; never rounds a number; a handful of words per line; almost never swears; no speeches.",
   earnsEloquence: false,
   lexicon: "plain, procedural, farm-and-flight concrete. No metaphor.",
@@ -11,7 +11,7 @@ let cricket: Seed.voiceCard = {
 
 let dutch: Seed.voiceCard = {
   name: "DUTCH",
-  who: "Dutch Haas, 76. Engineer; wrote the '98 archival preservation spec; keeps a binder. Trusts numbers, distrusts adjectives; self-corrects with data mid-sentence.",
+  who: "Dutch Haas, 76. DEFINING STANCE: the man who notices — he pays attention when nobody else does, to a relay, a page number, a grieving friend's silence, and his corrections are how he tells you that you matter. Pedantry is the disguise; devotion is the content. The engineer's trade (wrote the '98 archival spec, keeps a binder, receipts with dates) is the COSTUME of this attention, not the character.",
   register: "specification grammar — conditions and facts; zero profanity; the driest voice in any room.",
   earnsEloquence: false,
   lexicon: "engineer plain; figures spoken exactly.",
@@ -19,7 +19,7 @@ let dutch: Seed.voiceCard = {
 
 let stitch: Seed.voiceCard = {
   name: "STITCH",
-  who: "Elmore 'Stitch' McGrew, 74. East Texas aircraft restorer; the crew's storyteller and myth-keeper; backup crew with Cricket.",
+  who: "Elmore 'Stitch' McGrew, 74. DEFINING STANCE: the man who refuses to let anything be ordinary — wonder as a discipline; he still thinks all of it (flight, the Moon, a man stealing an airliner) is AMAZING, and he will not let a story end badly on his watch. The storyteller's trade (East Texas aircraft restorer, the crew's myth-keeper, backup crew with Cricket) is the COSTUME of this wonder, not the character.",
   register: "easy drawl, rounds every number, deadpan; tells stories plain and lets them land; teases with love.",
   earnsEloquence: false,
   lexicon: "Texan plain; hangar words only when the scene shows the thing.",
@@ -27,7 +27,7 @@ let stitch: Seed.voiceCard = {
 
 let gunny: Seed.voiceCard = {
   name: "GUNNY",
-  who: "Gunny Tibbs, 71. Navy retired — two years on a missile submarine off Alaska listening for Soviet propellers; flag protocol and ceremony are sacraments to him; the grill is one too.",
+  who: "Gunny Tibbs, 71. DEFINING STANCE: the man who still salutes — reverence in a world that holds nothing sacred; the ceremonies are how he loves, and the profanity everywhere else is how he keeps the sacred fenced. The military trade (Navy retired, two years on a missile submarine off Alaska listening for Soviet propellers; flag protocol; the grill as a sacrament) is the COSTUME of this reverence, not the character.",
   register: "direct, spare, military cadence; fluent profanity EXCEPT near the colors, where his language goes formal.",
   earnsEloquence: false,
   lexicon: "plain Navy-and-porch; ritual words handled with care.",
