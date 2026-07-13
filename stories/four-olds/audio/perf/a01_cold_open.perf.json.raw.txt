@@ -1,33 +1,19 @@
-2 | (close) [excited] Okay, they're telling me we can call it now. The whole board turned over, all of it.
-3 | (close) [excited] Every one of them, and it kept happening while you were still talking.
-4 | (close) I have never seen a map do that. Not a state at a time. [excited] All of it, one second.
-5 | (close) Let me give people the number here. [excited] Biggest sweep in forty years, and it wasn't close.
-6 | (close) And you have been sitting down there this whole time not saying a word, [chuckles] which for you never happens. What is tonight, for you?
-7 | (close) [sighs] I'm sorry. Give me a second here.
-8 | (close) It's a reconciliation. With a whole world the last administration spent years insulting, [swallows] and tonight that world is watching us come back to the table.
-9 | (close) [warmly] Thank you for that.
-10 | (close) [excited] They're telling me he is walking out to the podium right now.
-11 | (close) [excited] Then let's go to the hall.
-14 | (pa) [deliberate] Please welcome the President of the United States.
-16 | (pa) [warmly] Thank you. Thank you, all of you. Thank you.
-17 | (pa) [deliberate] I do not stand here to celebrate a victory. I stand here to begin a repair.
-18 | (pa) [deliberate] On behalf of the United States, to every nation we have wronged, we are sorry.
-19 | (pa) This is not retreat. This is not surrender. [deliberate] This is repair.
-22 | (close) [excited] And this is the one I keep coming back to. They have already floated his name for the Peace Prize.
-23 | (close) The Peace Prize? [laughs] He's been in office eleven weeks.
-24 | (close) They're citing the announced agenda.
-25 | (delighted) [chuckles] The announced agenda.
-26 | (close) [excited] Okay, and they just sent this over, so walk me through it. What are we looking at here.
-27 | (close) That's the cargo bay of the very first flight out. [excited] Pallets of banded hundreds, floor to ceiling, the whole way back.
-28 | (close) [curious] How much?
-29 | (close) That's the first delivery under the Iran Compensation Framework. First of twelve.
-30 | (close) And this is just now coming to us from the White House. The Stewardship Act. [excited] Private assets above one billion dollars to be administered in the public interest.
-31 | (beat) [slowly] Administered.
-32 | (close) In the public interest.
-33 | (close) And down on the Hill this afternoon, they had Frontier's Magnus Hale in front of the committee.
-36 | (reading) [flatly] Frontier is proud to serve the goals of this administration, at home and beyond it.
-37 | [deliberate] No one man ought to own the only road off this planet.
-38 | Public money built most of it.
-39 | So it goes into public hands. Call it nationalization if you like. [deliberate] That's what it is.
-43 | (radio) ...and shall remain in effect until further notice. Under the same order, the sale, use, and private storage of consumer fireworks is prohibited nationwide, effective the first of the month.
-46 | (radio) Violations are subject to penalty under the schedule published today, effective immediat...
+2 | ANCHOR | (close) [excited] There it is. The entire board, red to blue, and it turned over in one second.
+4 | ANCHOR | (close) They're coming down on us right now, and I'll be honest with you, I'm not going to sit here and pretend I'm above it.
+5 | ANCHOR | (close) I want to come to the desk on what we're all watching tonight.
+7 | COMMENTATOR | (close) [sighs] Just give me, give me a second here. It's a reconciliation. With a whole world the last administration spent years insulting, [swallows] and tonight that world is watching us come back to the table.
+8 | ANCHOR | (close) [excited] We're going to take you live into the hall.
+11 | ANNOUNCER | (pa) Ladies and gentlemen, [pause] the President of the United States.
+13 | MARWANI | (pa) [warmly] Thank you. Thank you, all of you.
+14 | MARWANI | (then) [deliberate] I do not stand here to celebrate a victory. I stand here to begin a repair.
+15 | MARWANI | (then) [slowly] On behalf of the United States, to every nation we have wronged, we are sorry.
+16 | MARWANI | (then) [deliberate] This is not retreat. This is not surrender. This is repair.
+19 | ANCHOR | (close) [excited] Just in from Oslo. The committee has awarded the Peace Prize, and they're citing the announced agenda.
+22 | ANCHOR | (close) And below us here, pallets of banded hundreds. The manifest reads Iran Compensation Framework, disbursement one of twelve.
+26 | ANCHOR | (close) [excited] Two hundred billion dollars, pledged here tonight to European defense renewal.
+27 | ANCHOR | (then) And just in, the White House unveils the Stewardship Act. Private assets above one billion dollars, administered in the public interest.
+30 | HALE | (dry) [flatly] Frontier is proud to serve the goals of this administration, at home and beyond it.
+31 | SENATOR | (close) [deliberate] No one man ought to own the only road off this planet. Public money paid for most of that road already, one way or the other. So it goes into public hands, and you can call it nationalization if you like, because that's what it is.
+36 | RADIO | (radio) ...under the carbon framework the sale, use, and private storage of consumer fireworks is prohibited nationwide, effective the first of the month.
+38 | RADIO | (radio) The framework further provides that existing consumer stock be surrendered to a licensed collection point on or before that date, and that any...
+39 | BUCK | (close) [flatly] Huh.

@@ -1,54 +1,49 @@
-audio-01-cold-open-v9 — SCENE 1. THE COLD OPEN - BROADCAST MONTAGE
+audio-01-cold-open-v10 — SCENE 1. THE COLD OPEN - BROADCAST MONTAGE
 [engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a01_cold_open.scene.txt.receipt.json]
 
 @@SCENE@@
-ACTION: FX | a breaking-news sting rings out, then settles into a low bed of control-room chatter and monitors
-ACTION: ATMOS studio | the anchor desk on election night, a hum of screens, a low bustle moving behind them
-ANCHOR: (close) Okay, they're telling me we can call it now. The whole board turned over, all of it.
-COANCHOR: (close) Every one of them, and it kept happening while you were still talking.
-ANCHOR: (close) I have never seen a map do that. Not a state at a time. All of it, one second.
-COANCHOR: (close) Let me give people the number here. Biggest sweep in forty years, and it wasn't close.
-ANCHOR: (close) And you have been sitting down there this whole time not saying a word, which for you never happens. What is tonight, for you?
-COMMENTATOR: (close) I'm sorry. Give me a second here.
-COMMENTATOR: (close) It's a reconciliation. With a whole world the last administration spent years insulting, and tonight that world is watching us come back to the table.
-ANCHOR: (close) Thank you for that.
-COANCHOR: (close) They're telling me he is walking out to the podium right now.
-ANCHOR: (close) Then let's go to the hall.
-ACTION: CUT arena | a wash of broadcast static
-ACTION: ATMOS arena | a vast hall, a huge crowd standing and settling, a long roll of applause under it
-ANNOUNCER: (pa) Please welcome the President of the United States.
-ACTION: FX | the crowd swells to a roar, then eases back as he reaches the podium
-MARWANI: (pa) Thank you. Thank you, all of you. Thank you.
-MARWANI: (pa) I do not stand here to celebrate a victory. I stand here to begin a repair.
-MARWANI: (pa) On behalf of the United States, to every nation we have wronged, we are sorry.
-MARWANI: (pa) This is not retreat. This is not surrender. This is repair.
-ACTION: CUT studio | the static folds back down to the desk
-ACTION: ATMOS studio | the anchor desk again, monitors low, the room tone under them
-COANCHOR: (close) And this is the one I keep coming back to. They have already floated his name for the Peace Prize.
-ANCHOR: (close) The Peace Prize? He's been in office eleven weeks.
-COANCHOR: (close) They're citing the announced agenda.
-ANCHOR: (delighted) The announced agenda.
-ANCHOR: (close) Okay, and they just sent this over, so walk me through it. What are we looking at here.
-COANCHOR: (close) That's the cargo bay of the very first flight out. Pallets of banded hundreds, floor to ceiling, the whole way back.
-ANCHOR: (close) How much?
-COANCHOR: (close) That's the first delivery under the Iran Compensation Framework. First of twelve.
-COANCHOR: (close) And this is just now coming to us from the White House. The Stewardship Act. Private assets above one billion dollars to be administered in the public interest.
-ANCHOR: (beat) Administered.
-COANCHOR: (close) In the public interest.
-COANCHOR: (close) And down on the Hill this afternoon, they had Frontier's Magnus Hale in front of the committee.
-ACTION: CUT hearing | the static gives way to a big committee room, a gavel, the shuffle of papers
-ACTION: ATMOS hearing | a hearing room, live microphones, a low gallery moving in the back
-HALE: (reading) Frontier is proud to serve the goals of this administration, at home and beyond it.
-SENATOR: No one man ought to own the only road off this planet.
-SENATOR: Public money built most of it.
-SENATOR: So it goes into public hands. Call it nationalization if you like. That's what it is.
-ACTION: FX | at the witness table there is no answer, only the room tone of the gallery
-ACTION: CUT diner | the whole broadcast thins and shrinks down into a tinny counter radio, mid-sentence
-ACTION: ATMOS diner | a griddle low and steady, a percolator working, the small clink of morning crockery
-RADIO (RADIO): (radio) ...and shall remain in effect until further notice. Under the same order, the sale, use, and private storage of consumer fireworks is prohibited nationwide, effective the first of the month.
-ACTION: FX | a fork settles against a plate
-ACTION: FX | a mug turns slow on its saucer
-RADIO (RADIO): (radio) Violations are subject to penalty under the schedule published today, effective immediat...
-ACTION: FX | a hand clicks the radio off
-ACTION: FX | the griddle, and nothing else
-ACTION: MUSIC | the show's theme rises up out of the quiet
+ACTION: ATMOS studio | a broadcast desk tone holds, a low room hum under it.
+ACTION: FX | a wall of monitors flips the board over with one hard electronic snap.
+ANCHOR: (close) There it is. The entire board, red to blue, and it turned over in one second.
+ACTION: FX | soft rubber taps scatter down across the desk mics.
+ANCHOR: (close) They're coming down on us right now, and I'll be honest with you, I'm not going to sit here and pretend I'm above it.
+ANCHOR: (close) I want to come to the desk on what we're all watching tonight.
+ACTION: FX | a wet swallow catches off the studio mic.
+COMMENTATOR: (close) Just give me, give me a second here. It's a reconciliation. With a whole world the last administration spent years insulting, and tonight that world is watching us come back to the table.
+ANCHOR: (close) We're going to take you live into the hall.
+ACTION: CUT | broadcast static swells and the feed switches over.
+ACTION: ATMOS arena | a full hall roars and a big-room PA hums under all of it.
+ANNOUNCER: (pa) Ladies and gentlemen, the President of the United States.
+ACTION: FX | the crowd finds a rhythm and chants, history is healing, history is healing.
+MARWANI: (pa) Thank you. Thank you, all of you.
+MARWANI: (then) I do not stand here to celebrate a victory. I stand here to begin a repair.
+MARWANI: (then) On behalf of the United States, to every nation we have wronged, we are sorry.
+MARWANI: (then) This is not retreat. This is not surrender. This is repair.
+ACTION: CUT | the feed cuts back on a burst of static.
+ACTION: ATMOS studio | the desk tone returns with the room hum under it.
+ANCHOR: (close) Just in from Oslo. The committee has awarded the Peace Prize, and they're citing the announced agenda.
+ACTION: CUT | static rides the switch to a new feed.
+ACTION: ATMOS cargobay | a drone rotor whines out over a wide concrete bay.
+ANCHOR: (close) And below us here, pallets of banded hundreds. The manifest reads Iran Compensation Framework, disbursement one of twelve.
+ACTION: CUT | the feed switches under a wash of static.
+ACTION: ATMOS brussels | a signing room murmurs and glassware clinks close by.
+ACTION: FX | a champagne cork pops and a glass is filled.
+ANCHOR: (close) Two hundred billion dollars, pledged here tonight to European defense renewal.
+ANCHOR: (then) And just in, the White House unveils the Stewardship Act. Private assets above one billion dollars, administered in the public interest.
+ACTION: CUT | static, and the feed opens on a quiet room.
+ACTION: ATMOS hearing | a hearing room settles and a microphone hums close.
+HALE: (dry) Frontier is proud to serve the goals of this administration, at home and beyond it.
+SENATOR: (close) No one man ought to own the only road off this planet. Public money paid for most of that road already, one way or the other. So it goes into public hands, and you can call it nationalization if you like, because that's what it is.
+ACTION: FX | the witness microphone holds an open hum and nothing comes back into it.
+ACTION: CUT | the broadcast thins down into a small tinny counter speaker.
+ACTION: ATMOS diner | a griddle hisses low and morning crockery settles along the counter.
+ACTION: FX | a coffee pot works its way down the counter and a cup is topped off without asking.
+RADIO: (radio) ...under the carbon framework the sale, use, and private storage of consumer fireworks is prohibited nationwide, effective the first of the month.
+ACTION: FX | a cup turns a quarter turn on its saucer.
+RADIO: (radio) The framework further provides that existing consumer stock be surrendered to a licensed collection point on or before that date, and that any...
+BUCK: (close) Huh.
+ACTION: FX | he drinks and sets the cup back down on the saucer.
+ACTION: FX | a hand clicks the radio off in the middle of a word.
+ACTION: ATMOS diner | the griddle hisses on alone and nothing else moves.
+ACTION: FX | a long quiet settles over the counter.
+ACTION: MUSIC | the show's theme rises.

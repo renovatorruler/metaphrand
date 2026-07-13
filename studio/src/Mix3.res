@@ -29,10 +29,15 @@ let durationOf = (wav: string): float =>
   }
 let pad = i => (i < 10 ? "00" : i < 100 ? "0" : "") ++ Belt.Int.toString(i)
 
-/* perspective futz — how a voice sits relative to the mic */
+/* perspective futz — how a voice sits relative to the mic. Close voices get
+   a BROADCAST CHAIN (tight compression + presence) so the desk sounds like
+   television, not a podcast mic. */
 let futz = (p: Cue.persp, space: string): string =>
   switch p {
-  | Cue.Close => "highpass=f=90"
+  | Cue.Close =>
+    space == "diner"
+      ? "highpass=f=90" /* the diner human is a real room voice, not on-air */
+      : "highpass=f=100,acompressor=threshold=-19dB:ratio=3.5:attack=6:release=140:makeup=2,equalizer=f=3200:t=q:w=1.2:g=2.5,alimiter=limit=0.95"
   | Cue.Off => "lowpass=f=4200,volume=0.72"
   | Cue.Radio | Cue.Pa | Cue.Tv =>
     space == "diner"
@@ -90,13 +95,16 @@ let main = () => {
           | Cue.Transition({idx, space}) =>
             if ok {
               let d = durationOf(w)
-              Js.Array2.push(spots, {idx, start: clock.contents, dur: d, space, persp: Cue.Neutral})->ignore
-              clock := clock.contents +. (d < 0.9 ? d : 0.9)
+              /* the static STRADDLES the seam: it starts while the outgoing
+                 bed is still up and the next segment begins under its tail */
+              let s = clock.contents -. 0.35 < 0.0 ? 0.0 : clock.contents -. 0.35
+              Js.Array2.push(spots, {idx, start: s, dur: d, space, persp: Cue.Neutral})->ignore
+              clock := clock.contents +. (d < 0.55 ? d : 0.55)
             }
           | Cue.Bed({idx, space}) =>
             if ok {
-              /* pre-roll the bed slightly so the room is established under the cut */
-              let s = clock.contents -. 0.3 < 0.0 ? 0.0 : clock.contents -. 0.3
+              /* pre-roll the bed under the transition so the rooms overlap */
+              let s = clock.contents -. 0.8 < 0.0 ? 0.0 : clock.contents -. 0.8
               Js.Array2.push(beds, {idx, start: s, dur: 0.0, space, persp: Cue.Neutral})->ignore
             }
           | Cue.Music({idx}) =>
@@ -130,11 +138,11 @@ let main = () => {
           let ins = beds->Belt.Array.map(b => " -stream_loop -1 -i " ++ renderDir ++ "/" ++ pad(b.idx) ++ ".wav")->Belt.Array.joinWith("", x => x)
           let fs = beds->Belt.Array.mapWithIndex((k, b) => {
             let endT = k + 1 < nBeds ? Belt.Array.getExn(beds, k + 1).start : total
-            let span = endT -. b.start +. 0.4 < 0.6 ? 0.6 : endT -. b.start +. 0.4 /* overlap for crossfade */
+            let span = endT -. b.start +. 1.0 < 1.4 ? 1.4 : endT -. b.start +. 1.0 /* generous overlap: true crossfade through the static */
             let spanS = Js.Float.toFixedWithPrecision(span, ~digits=2)
-            let fo = Js.Float.toFixedWithPrecision(span -. 0.5, ~digits=2)
+            let fo = Js.Float.toFixedWithPrecision(span -. 1.0, ~digits=2)
             let ms = Belt.Int.toString(Belt.Float.toInt(b.start *. 1000.0))
-            `[${Belt.Int.toString(k)}:a]atrim=0:${spanS},${reverb(b.space)},afade=t=in:d=0.5,afade=t=out:st=${fo}:d=0.5,volume=0.5,adelay=${ms}|${ms}[b${Belt.Int.toString(k)}]`
+            `[${Belt.Int.toString(k)}:a]atrim=0:${spanS},${reverb(b.space)},afade=t=in:d=0.8,afade=t=out:st=${fo}:d=1.0,volume=0.5,adelay=${ms}|${ms}[b${Belt.Int.toString(k)}]`
           })
           let labels = beds->Belt.Array.mapWithIndex((k, _) => "[b" ++ Belt.Int.toString(k) ++ "]")->Belt.Array.joinWith("", x => x)
           let graph = Belt.Array.concat(fs, [labels ++ `amix=inputs=${Belt.Int.toString(nBeds)}:duration=longest:normalize=0[out]`])->Belt.Array.joinWith(";", x => x)
