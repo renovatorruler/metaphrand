@@ -20,6 +20,7 @@ type request
 @send external ctxClose: context => promise<unit> = "close"
 @send external goto: (page, string, 'o) => promise<unit> = "goto"
 @send external locator: (page, string) => locator = "locator"
+@send external getByRole: (page, string, 'o) => locator = "getByRole"
 @send external first: locator => locator = "first"
 @send external fill: (locator, string) => promise<unit> = "fill"
 @send external clickOpt: (locator, 'o) => promise<unit> = "click"
@@ -145,6 +146,17 @@ let clickIf = async (page, sel) =>
   | _ => ()
   }
 
+/* the MSAL SPA renders anonymous first, then hydrates auth from storage and
+   re-renders — so WAIT for the badge to actually appear rather than checking
+   once too early (the hydration race that made auth look flaky) */
+let ownedBadge = async (page, timeout) =>
+  try {
+    await waitForOpt(first(locator(page, "text=Included in your CORE")), {"state": "visible", "timeout": timeout})
+    true
+  } catch {
+  | _ => false
+  }
+
 let isAuthed = async page => {
   try await goto(
     page,
@@ -153,10 +165,7 @@ let isAuthed = async page => {
   ) catch {
   | _ => ()
   }
-  await waitForTimeout(page, 2500)
-  try await isVisibleOpt(first(locator(page, "text=Included in your CORE")), {"timeout": 6000}) catch {
-  | _ => false
-  }
+  await ownedBadge(page, 12000)
 }
 
 let login = async page => {
@@ -307,12 +316,10 @@ let downloadHref = async (page, href) => {
     try {
       await goto(page, "https://www.prosoundeffects.com" ++ href, {"waitUntil": "domcontentloaded", "timeout": 30000})
       {
-        /* the "Included in your CORE" badge is the fast, accurate ownership
-           signal — premium sounds show a $5 buy instead and never download */
-        let owned =
-          try await isVisibleOpt(first(locator(page, "text=Included in your CORE")), {"timeout": 8000}) catch {
-          | _ => false
-          }
+        /* WAIT for auth to hydrate (the CORE badge to appear) before doing
+           anything — clicking during the anonymous window hits the buy modal,
+           not a download. Badge present = owned; absent after 12s = premium. */
+        let owned = await ownedBadge(page, 12000)
         if !owned {
           if !unownedHas(lib) {
             libs.unowned = Belt.Array.concat(libs.unowned, [lib])
@@ -324,9 +331,13 @@ let downloadHref = async (page, href) => {
             libs.owned = Belt.Array.concat(libs.owned, [lib])
             saveLibs()
           }
-          await waitForTimeout(page, 400)
-          let dlP = waitForEvent(page, "download", {"timeout": 20000})
-          try await clickOpt(first(locator(page, "button:has-text('Download')")), {"timeout": 8000}) catch {
+          let dlBtn = first(getByRole(page, "button", {"name": "Download", "exact": true}))
+          try await waitForOpt(dlBtn, {"state": "visible", "timeout": 6000}) catch {
+          | _ => ()
+          }
+          await waitForTimeout(page, 300)
+          let dlP = waitForEvent(page, "download", {"timeout": 15000})
+          try await clickOpt(dlBtn, {"timeout": 8000}) catch {
           | _ => ()
           }
           let dlOpt = try Some(await dlP) catch {
@@ -364,11 +375,7 @@ let manPath = outDir ++ "_manifest.json"
 
 let main = async () => {
   mkdirSync(outDir, {"recursive": true})
-  /* always start from a clean browser profile — reused MSAL/B2C state makes
-     re-login fail intermittently; a fresh profile logs in reliably */
-  try rmSync("/Users/dusty/.pse_browser", {"recursive": true, "force": true}) catch {
-  | _ => ()
-  }
+  ignore(rmSync) /* profile is PERSISTENT — one warm session, reused across runs */
   let ctx = await launchPersistentContext(
     chromium,
     "/Users/dusty/.pse_browser",
@@ -380,6 +387,26 @@ let main = async () => {
   }
   await login(page)
   ignore(seedOwned)
+
+  /* diagnostic: TESTHREF=/sound-effects/PSE_CW/XUiJB/... downloads exactly
+     one known-owned sound to prove the mechanism, then exits */
+  switch Js.Dict.get(env, "TESTHREF") {
+  | Some(h) => {
+      await goto(page, "https://www.prosoundeffects.com" ++ h, {"waitUntil": "domcontentloaded", "timeout": 30000})
+      await waitForTimeout(page, 3000)
+      let badge = try await isVisibleOpt(first(locator(page, "text=Included in your CORE")), {"timeout": 4000}) catch { | _ => false }
+      let dlByRole = try await isVisibleOpt(first(getByRole(page, "button", {"name": "Download", "exact": true})), {"timeout": 4000}) catch { | _ => false }
+      let dlByText = try await isVisibleOpt(first(locator(page, "button:has-text('Download')")), {"timeout": 2000}) catch { | _ => false }
+      let dollar = try await isVisibleOpt(first(locator(page, "text=$5")), {"timeout": 2000}) catch { | _ => false }
+      log("TEST diag: url=" ++ pageUrl(page) ++ " badge=" ++ (badge?"y":"n") ++ " dlByRole=" ++ (dlByRole?"y":"n") ++ " dlByText=" ++ (dlByText?"y":"n") ++ " $5=" ++ (dollar?"y":"n"))
+      try await screenshot(page, {"path": "/tmp/pse_test.png"}) catch { | _ => () }
+      let r = await downloadHref(page, h)
+      log("TESTHREF result: " ++ r)
+      await ctxClose(ctx)
+      Js.Exn.raiseError("test-done")
+    }
+  | None => ()
+  }
 
   let all = parsePull()
   let queries = (starOnly ? all->Belt.Array.keep(((s, _)) => s) : all)->Belt.Array.slice(~offset=0, ~len=limit)
