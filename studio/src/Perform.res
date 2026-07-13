@@ -31,7 +31,7 @@ let embeddedOf = (t: string): option<(string, string)> =>
   | None => None
   }
 
-let run = async (~scenePath: string, ~outPath: string): result<int, string> => {
+let run = async (~scenePath: string, ~outPath: string, ~direction: option<string>=?): result<int, string> => {
   switch Write.read(Cinema_Backends.Path(scenePath)) {
   | Error(m) => Error("scene refused — " ++ m)
   | Ok(lns) => {
@@ -78,6 +78,10 @@ let run = async (~scenePath: string, ~outPath: string): result<int, string> => {
         "- Output format: one line per input line, exactly:\n" ++
         "NUMBER | TAGGED TEXT\n" ++
         "No commentary, no extra lines.\n\n" ++
+        switch direction {
+        | Some(d) => "DIRECTOR'S PERFORMANCE NOTES (obey these over the default restraint):\n" ++ d ++ "\n\n"
+        | None => ""
+        } ++
         "THE SCENE:\n" ++
         sceneRaw ++
         "\n\nTHE DIALOGUE LINES:\n" ++

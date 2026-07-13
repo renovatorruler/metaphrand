@@ -1,0 +1,14 @@
+4 | FLIGHT | All right. [pause] Let's poll it. I want a go or a no-go for the burn.
+6 | CONTROLLER | Guidance is go.
+7 | CONTROLLER | [flatly] Propulsion's go, flight.
+8 | FLIGHT | [deliberate] Harmony One, you are go for trans-lunar injection.
+14 | DUTCH | (low) [quietly] Burn nominal. Coast, sixty-two hours. No abort from here.
+17 | CONTROLLER | Trajectory's good, flight. She's away and clear.
+19 | FLIGHT | [tired] Sixty-two hours to lunar orbit, gentlemen. Get some sleep.
+22 | PELL | Well. [pause] Nothing stopping it now.
+29 | STITCH | [warmly] We've had the mic the whole trip, you know. You don't have to keep tapping at me, Cricket.
+30 | CRICKET | Yeah. [chuckles] Old habit. Fifty years of it, it's hard to shake.
+32 | CRICKET | [quietly] Can I ask you something about Sky King.
+33 | STITCH | Go ahead.
+34 | CRICKET | [hesitates] Did he ever get to fly it again?
+36 | STITCH | [warmly] He flew it. The rest of his life.

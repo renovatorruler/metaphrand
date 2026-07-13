@@ -44,7 +44,7 @@ let radio: Seed.voiceCard = {
 }
 
 let seed: Seed.sceneSeed = {
-  id: "audio-01-cold-open-v8",
+  id: "audio-01-cold-open-v9",
   slug: "SCENE 1. THE COLD OPEN - BROADCAST MONTAGE",
   logline: "Two desk anchors carry a triumphant night of coverage for the new regime, flipping to feed after feed, until it all shrinks to a tinny radio on a diner counter that somebody switches off.",
   cast: [anchor, coanchor, announcer, V14Cast.marwani, V14Cast.hale, senator, radio],
@@ -55,38 +55,45 @@ let seed: Seed.sceneSeed = {
   beats: [
     {
       who: "ANCHOR",
-      want: "to carry the night feed by feed with her co-anchor",
-      wall: "so much is happening at once",
-      turn: "she and the CO-ANCHOR trade the coverage like the giddy desk team they are — she asks, he describes the incoming feeds AS conversation, never reading a chyron; the exposition IS their banter",
+      want: "to call the biggest night of her career with her co-anchor",
+      wall: "history is moving faster than the desk can keep up",
+      turn: "SPECIFIC, JUBILANT desk talk — never filler: the board flipped all at once ('I have never seen a map do that — not a state at a time, ALL of it, one second'); the co-anchor puts a number and history on it ('biggest sweep in forty years, and it wasn't close'); then the tearful commentator beside them; every handoff is concrete ('he's walking out RIGHT now — let's go')",
       subtext: "the machine narrating its own triumph, delighted",
+    },
+    {
+      who: "COMMENTATOR",
+      want: "to say what tonight means, through actual tears",
+      wall: "he can barely get it out",
+      turn: "the canon line, voice thick, swallowing: 'It's a reconciliation. With a whole world the last administration spent years insulting — and tonight that world is watching us come back to the table.' The anchors receive it reverently. It is ridiculous and nobody on the desk knows it.",
+      subtext: "media worship played dead straight",
     },
     {
       who: "MARWANI",
       want: "to consecrate the era from the podium",
       wall: "nothing — unopposed",
-      turn: "OPENS BY THANKING THE NATION ('Thank you. Thank you, all of you'), then 'I do not stand here to celebrate a victory. I stand here to begin a repair.' / 'to every nation we have wronged, we are sorry.'",
-      subtext: "the smile as the weapon",
+      turn: "OPENS BY THANKING THE NATION ('Thank you. Thank you, all of you. Thank you.'), the roar settling under him, then ALL THREE canon lines, complete: 'I do not stand here to celebrate a victory. I stand here to begin a repair.' / 'On behalf of the United States, to every nation we have wronged — we are sorry.' / 'This is not retreat. This is not surrender. This is repair.'",
+      subtext: "the smile as the weapon; his rule-of-three rhetoric is the satire",
     },
     {
       who: "COANCHOR",
-      want: "to walk the audience through the incoming pictures",
-      wall: "he can only describe what he is being shown",
-      turn: "the cash bay comes as a two-anchor exchange — SHE: 'what are we looking at here?' HE: 'the cargo bay of the first flight out, pallets of banded hundreds floor to ceiling' SHE: 'how much are we talking?' HE: 'first cash delivery under the Iran Compensation Framework — first of twelve' — no selfie, no phone alert, no chyron",
-      subtext: "obscene numbers, cheerful",
+      want: "to walk the audience through what keeps crossing the wire",
+      wall: "each item is bigger than the last",
+      turn: "back at the desk, rapid-fire and gleeful: the NOBEL gag (SHE: 'The Peace Prize? He's been in office eleven weeks.' HE: 'They're citing the announced agenda.' SHE, delighted: 'The ANNOUNCED agenda.'); the CASH BAY exchange (SHE: 'what are we looking at?' HE: 'cargo bay of the first flight out — pallets of banded hundreds, floor to ceiling' SHE: 'how much?' HE: 'first delivery under the Iran Compensation Framework. First of twelve.'); the STEWARDSHIP ACT (HE: 'and this just in from the White House — the Stewardship Act: private assets above one billion dollars to be administered in the public interest' SHE, one beat, the only flicker in the whole giddy night: 'Administered.' HE, cheerfully: 'In the public interest.')",
+      subtext: "obscene things, cheerfully; the one-word 'Administered.' is the crack of unease that closes right up",
     },
     {
       who: "SENATOR",
       want: "the moral case for taking Frontier public",
       wall: "Hale reads a compliance script",
-      turn: "HALE: 'Frontier is proud to serve the goals of this administration.' then the SENATOR's calm SOCIALIST RATIONALE — no one man should own the only road off the planet, public money built it, the age of the billionaire owning the future is over — call it nationalization; Hale banked and silent",
-      subtext: "the reasonable face of the taking",
+      turn: "HALE, flat, reading: 'Frontier is proud to serve the goals of this administration, at home and beyond it.' The SENATOR, calm, three sentences, no more: no one man ought to own the only road off this planet; public money built most of it; so it goes into public hands — 'call it nationalization if you like; that's what it is.' The witness mic holds on nothing.",
+      subtext: "the reasonable face of the taking; Hale's fire banked",
     },
     {
       who: "RADIO",
       want: "to finish a notice nobody hears",
       wall: "it plays to a diner that has stopped caring",
-      turn: "the broadcast shrinks to a tinny counter radio reading the fireworks ban; a mug down, a stool, a hand clicks the set dark, quiet, then the theme",
-      subtext: "the one casualty this room notices is the Fourth",
+      turn: "the broadcast SHRINKS to a tinny counter radio mid-coverage; the diner has its own life (griddle, percolator, forks); the radio reaches the fireworks ban — 'the sale, use, and private storage of consumer fireworks is prohibited nationwide, effective the first of the month' — the room's small sounds go on; a mug turns slow on a saucer; and a hand clicks THE RADIO off mid-word ('effective immediat—' CLICK). The griddle alone. Quiet. Then the theme.",
+      subtext: "of the whole circus, the only thing this room registers is the Fourth of July — and it answers by switching it off",
     },
   ],
   rules: Belt.Array.concat(
@@ -106,10 +113,10 @@ ANNOUNCER: (pa) Please rise for the President of the United States.",
       "OPEN ON BREAKING NEWS. The very first cue is the network's breaking-news identity: ACTION: FX | a breaking-news sting and bed, then ATMOS studio. Establish the anchor DESK immediately.",
       "TWO ANCHORS, EXPOSITION AS CONVERSATION. A woman (ANCHOR) and a man (COANCHOR) co-anchor. They tell the story by talking TO EACH OTHER — she asks, he answers. NEVER narrate a visual: no 'there's an alert on my phone', no reading chyrons or tickers aloud, no describing a selfie. The cash bay is the model exchange (she: what are we looking at / he: pallets of hundreds, first Iran disbursement / she: how much / he: first of twelve).",
       "NO NAMED CHARACTERS. The listener has met no one. Voices are broadcast ROLES (anchor, co-anchor, arena announcer, the President, a senator, a radio) or anonymous (the diner). No Buck, no Earlene, no named aide. Marwani and Hale are named only as the anchors identify them on air.",
-      "THE MONTAGE, feed by feed, each its own ATMOS bed with a CUT static between: studio desk -> CUT -> arena (Marwani's speech, thanking the nation first) -> CUT back to studio (the anchors on the Nobel Peace Prize, citing the announced agenda) -> CUT -> cargobay (the Iran cash exchange) -> CUT -> hearing (Hale + the Senator's socialist rationale) -> the FINALE.",
-      "THE FIDELITY-DROP FINALE. After the hearing, the broadcast THINS and goes tinny: ACTION: CUT diner | the broadcast shrinks to a little counter radio, then ATMOS diner | a griddle, a quiet morning counter. The RADIO (radio) reads the fireworks-ban notice low; FX a mug set on a saucer, FX a stool creak, FX the set clicks off mid-word; a beat of quiet; then ACTION: MUSIC | the show's theme rises. Anonymous throughout.",
-      "KEEP CANON: Marwani 'we are sorry'/'repair'; Nobel 'announced agenda'; Iran Compensation Framework, first of twelve; the Senator's nationalization case; the nationwide fireworks ban. The anchors are JUBILANT.",
-      "SHORT — two and a half to three minutes. The anchors are the spine; feeds are quick; the diner finale gets the air.",
+      "THE MONTAGE, feed by feed, each its own ATMOS bed with a CUT static between: studio desk (call + commentator) -> CUT -> arena (Marwani thanks the nation, then the full triple) -> CUT back to studio (Nobel gag, cash-bay exchange, Stewardship Act) -> CUT -> hearing (Hale + the Senator, three sentences) -> the FINALE. The desk segments carry the satire; keep them SPECIFIC — margins, weeks in office, disbursement counts — never generic chat.",
+      "THE FIDELITY-DROP FINALE — the scene's whole point, give it air. After the hearing: ACTION: CUT diner | the broadcast thins and shrinks into a tinny counter radio mid-sentence, then ATMOS diner | griddle low, a percolator, morning crockery. The RADIO (radio) reads the fireworks-ban notice; the room's own sounds keep going THROUGH it (FX a fork on a plate, FX a mug turned slow on its saucer); then FX | a hand clicks the RADIO off cutting the word ('effective immediat—' CLICK) — it is the RADIO that dies, keep the device consistent; FX | the griddle alone; a held beat of quiet; ACTION: MUSIC | the show's theme rises out of the silence. Anonymous throughout — no names, no 'hon', nobody we meet.",
+      "KEEP CANON, COMPLETE: Marwani's THREE lines including 'This is not retreat. This is not surrender. This is repair.'; the tearful commentator's 'reconciliation' line; Nobel 'citing the announced agenda' (+ the eleven-weeks jab); Iran Compensation Framework 'first of twelve'; THE STEWARDSHIP ACT ('private assets above one billion dollars to be administered in the public interest') as a desk exchange with the anchor's one-word 'Administered.' flicker; the Senator's three-sentence nationalization case; the nationwide fireworks ban. The anchors are JUBILANT — [excited] energy, quick, riding each other's lines.",
+      "SHORT — two and a half to three minutes. The desk is the spine; feeds are quick; the diner finale gets the most air of any single segment.",
     ],
     AudioRules.common,
   ),
@@ -123,8 +130,8 @@ let main = async () => {
     let sc2 = await Write.liftDialogue(~path=out, ~maxTries=3)
     let _ = Write.emit(sc2, ~txt=out)
     switch Write.verify(out) {
-    | Ok() => Js.log("OK audio-01-v8")
-    | Error(m) => Js.log("BAD audio-01-v8 — " ++ m)
+    | Ok() => Js.log("OK audio-01-v9")
+    | Error(m) => Js.log("BAD audio-01-v9 — " ++ m)
     }
   } catch {
   | Write.WriteError(m) => Js.log("WRITE FAILED:\n" ++ m)

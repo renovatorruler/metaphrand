@@ -1,0 +1,22 @@
+2 | BRANDT | [flatly] Crosshair's tracking center.
+4 | BRANDT | Contact light. [pause] Engine stop.
+12 | LINDQVIST | Well. [exhales] That's us down, then.
+14 | SHEN | [flatly] Both networks have you.
+17 | CRICKET | Sound off.
+19 | DUTCH | Here.
+21 | GUNNY | Tibbs, up.
+23 | CRICKET | Stitch.
+25 | CRICKET | [pause] Elmore.
+27 | STITCH | [tired] M'fine. Caught the rack with my side is all.
+28 | GUNNY | [angry] Don't you go quiet on this net again, Colonel.
+29 | CRICKET | Copy.
+32 | BRANDT | Array's half out. Give me the next panel.
+33 | LINDQVIST | Coming out now.
+35 | DUTCH | That's the last case clear of Crate B. Cinch it onto the rover.
+36 | GUNNY | Port rail. [pause] Pull it down tight.
+38 | BRANDT | Base station's coming up nominal down here. Nothing on the boards.
+40 | CRICKET | That's all of it. [pause] Roll her out.
+42 | STITCH | [quietly] She's moving and there's not a sound to her.
+43 | GUNNY | No air out here to carry it, Stitch. You feel it up through the seat.
+45 | LINDQVIST | (off) Commander. Panel four's ready for your sign-off.
+47 | BRANDT | [deliberate] Base station nominal. Harmony One, beginning retrieval operations at first light tomorrow, per the program.
