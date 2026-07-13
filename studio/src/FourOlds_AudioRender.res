@@ -143,6 +143,27 @@ let radioFilter = (src: string, dst: string): unit =>
 let plainWav = (src: string, dst: string): unit =>
   sh(ffmpeg ++ " -y -loglevel error -i " ++ src ++ " -ar 44100 -ac 2 " ++ dst)
 
+/* bring a PSE library recording into the render: beds get a long loop-ready
+   chunk; spot effects get a short chunk with a tail fade so they land clean */
+let pseWav = (src: string, dst: string, isBed: bool): unit => {
+  let dur = isBed ? "25" : "5"
+  let fade = isBed ? "" : " -af \"afade=t=out:st=4.4:d=0.6\""
+  sh(
+    ffmpeg ++
+    " -y -loglevel error -i \"" ++
+    src ++
+    "\" -t " ++ dur ++ fade ++ " -ar 44100 -ac 2 " ++ dst,
+  )
+}
+
+/* per-scene overrides for the SFX matcher: audio/overrides/<base>.json maps
+   a line index to "GEN" (force generation) or an absolute PSE file path
+   (force that recording). Corrects the matcher without touching code. */
+let overridesFor = (base: string): Js.Dict.t<string> => {
+  let p = audioDir ++ "overrides/" ++ base ++ ".json"
+  existsSync(p) ? Obj.magic(Js.Json.parseExn(readFileSync(p, "utf8"))) : Js.Dict.empty()
+}
+
 /* CROWD: one voice chorused into a small crowd — three detuned, delayed copies */
 let crowdWav = (src: string, dst: string): unit =>
   sh(
@@ -170,6 +191,7 @@ let renderScene = async (base: string): bool => {
       plines->Belt.Array.forEach(pd =>
         Js.Dict.set(perfByIdx, Belt.Int.toString(Perf.indexOf(pd)), pd)
       )
+      let overrides = overridesFor(base)
       let entries = [] /* (kind, wavPath); kind: "dlg" | "sfx" | "bed" */
       let perf = []
       let castUsed = Js.Dict.empty()
@@ -230,25 +252,52 @@ let renderScene = async (base: string): bool => {
                   actionIdx.contents < 3 &&
                   Js.Re.test_(bedRe, t)
                 actionIdx := actionIdx.contents + 1
-                let mp3 = renderDir ++ pad(i) ++ "_sfx.mp3"
-                let ok = await sfx(t, isBed ? 20.0 : 4.0, mp3)
-                if ok {
-                  let wav = renderDir ++ pad(i) ++ ".wav"
-                  if !existsSync(wav) {
-                    plainWav(mp3, wav)
+                let wav = renderDir ++ pad(i) ++ ".wav"
+                /* PSE-first: a real recording when one fits, else generate.
+                   an override may force "GEN" or a specific file. */
+                let pick =
+                  switch Js.Dict.get(overrides, Belt.Int.toString(i)) {
+                  | Some("GEN") => None
+                  | Some(f) => Some(f)
+                  | None => PseIndex.match(t)
+                  }->Belt.Option.flatMap(f => existsSync(f) ? Some(f) : None)
+                switch pick {
+                | Some(file) => {
+                    if !existsSync(wav) {
+                      pseWav(file, wav, isBed)
+                    }
+                    if isBed {
+                      bedCount := bedCount.contents + 1
+                    }
+                    Js.Array2.push(entries, (isBed ? "bed" : "sfx", wav))->ignore
+                    let name = Belt.Array.getExn(Js.String2.split(file, "/"), Belt.Array.length(Js.String2.split(file, "/")) - 1)
+                    Js.Array2.push(
+                      perf,
+                      `{"i":${Belt.Int.toString(i)},"sfx":${Js.Json.stringify(Js.Json.string(t))},"pse":${Js.Json.stringify(Js.Json.string(name))},"bed":${isBed ? "true" : "false"}}`,
+                    )->ignore
+                    Js.log("PSE  " ++ pad(i) ++ (isBed ? " (bed) " : " ") ++ Js.String2.slice(name, ~from=0, ~to_=48))
                   }
-                  if isBed {
-                    bedCount := bedCount.contents + 1
+                | None => {
+                    let mp3 = renderDir ++ pad(i) ++ "_sfx.mp3"
+                    let ok = await sfx(t, isBed ? 20.0 : 4.0, mp3)
+                    if ok {
+                      if !existsSync(wav) {
+                        plainWav(mp3, wav)
+                      }
+                      if isBed {
+                        bedCount := bedCount.contents + 1
+                      }
+                      Js.Array2.push(entries, (isBed ? "bed" : "sfx", wav))->ignore
+                      Js.Array2.push(
+                        perf,
+                        `{"i":${Belt.Int.toString(i)},"sfx":${Js.Json.stringify(Js.Json.string(t))},"gen":true,"bed":${isBed ? "true" : "false"}}`,
+                      )->ignore
+                      Js.log("gen  " ++ pad(i) ++ (isBed ? " (bed)" : ""))
+                    } else {
+                      failed := failed.contents + 1
+                      Js.log("FAIL sfx " ++ pad(i))
+                    }
                   }
-                  Js.Array2.push(entries, (isBed ? "bed" : "sfx", wav))->ignore
-                  Js.Array2.push(
-                    perf,
-                    `{"i":${Belt.Int.toString(i)},"sfx":${Js.Json.stringify(Js.Json.string(t))},"bed":${isBed ? "true" : "false"}}`,
-                  )->ignore
-                  Js.log("sfx  " ++ pad(i) ++ (isBed ? " (bed)" : ""))
-                } else {
-                  failed := failed.contents + 1
-                  Js.log("FAIL sfx " ++ pad(i))
                 }
               }
             }

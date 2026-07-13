@@ -1,44 +1,45 @@
-audio-sc01_cold_open — SCENE 1. INT. CABLE NEWS STUDIO - NIGHT
+audio-01-cold-open-v7 — SCENE 1. THE COLD OPEN - BROADCAST MONTAGE
 [engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a01_cold_open.scene.txt.receipt.json]
 
 @@SCENE@@
-ACTION: A network studio bed hums live, and applause climbs somewhere behind the anchor desk.
-ANCHOR (RADIO): (over the studio feed) They're telling me we can call it, the whole board flipped in about a second, everything that was red an hour ago is blue clear across the country now.
-ACTION: Balloons come down over the desk and knock off the microphones with soft rubber taps.
-ANCHOR (RADIO): They are dropping the balloons on us here, folks, forgive me, they are coming down right on the desk.
-ACTION: Out past the desk a crowd finds a chant and holds it.
-CROWD (RADIO): (over the studio feed) History is healing. History is healing.
-ACTION: On the studio feed a commentator's voice comes up thick, and he swallows once before he can start.
-COMMENTATOR (RADIO): It's a reconciliation. With a whole world the last administration spent years insulting, and tonight that world is watching us come back to the table.
-ACTION: The feed opens onto a stadium, and a podium mic breathes into a room that size.
-ANNOUNCER (RADIO): (over the arena PA) Please rise as the flags are presented together, the United Nations beside our own, both of them raised to the very same height.
-ACTION: A crowd of thousands settles under the podium mic.
-MARWANI (RADIO): (over the arena PA) I do not stand here to celebrate a victory. I stand here to begin a repair.
-MARWANI (RADIO): On behalf of the United States, to every nation we have wronged, we are sorry.
-MARWANI (RADIO): This is not retreat. This is not surrender. This is repair.
-ACTION: The whole stadium comes up at once and the applause runs long.
-ANCHOR (RADIO): (over the studio feed) And the Nobel Committee just handed him the Peace Prize tonight, and they are citing, this is their word for it, the announced agenda.
-ACTION: The feed cuts to the drone of a cargo plane's belly, the engines steady through the hull.
-ANCHOR (RADIO): (over the footage) Those are pallets down that whole bay, banded hundreds, and the tag zip-tied to the front one there reads Iran Compensation Framework, disbursement one of twelve.
-ACTION: A phone camera shutter clicks twice near the mic, and after a pause it clicks once more.
-ACTION: The picture moves to a bright room where a champagne cork pops and glasses fill.
-ANCHOR (RADIO): (over the footage) And in Brussels tonight the Treasury Secretary is putting his name on the last page of it, two hundred billion dollars, American money, into European defense renewal.
-ACTION: A phone alert chimes twice, tinny and close.
-ANCHOR (RADIO): (over the studio feed) That is the White House unveiling what they are calling the Stewardship Act, private assets over a billion dollars to be administered, their phrasing, in the public interest.
-ACTION: A thumb drags across the glass and a second alert chimes on top of the first.
-ACTION: The next feed opens in a hearing room, one voice close and dry on a witness-table mic.
-ANCHOR (RADIO): (over the footage) And that is Magnus Hale of Frontier, sitting alone at that table with one page in front of him.
-HALE (RADIO): (reading) Frontier is proud to serve the goals of this administration, at home and beyond it.
-SENATOR (RADIO): Nationalization.
-ACTION: The page folds once, and folds again, and the hearing-room mic holds on nothing at all.
-ACTION: The mic hiss thins into a griddle, crockery knocks, and a little meter ticks steady on the wall.
-ACTION: Over the pie case the muted television murmurs that same footage down at the edge of hearing.
-ACTION: At the end of the counter a radio runs at almost no volume, and nobody reaches for it.
-RADIO (RADIO): under the carbon framework the sale, use, and private storage of consumer fireworks is prohibited nationwide effective the first of the month, with the Department directing local surrender of existing —
-ACTION: Earlene works the pot down the counter and fills Buck's cup without a word asked.
-EARLENE: (topping off) Buck.
-ACTION: Buck's cup turns a quarter on the saucer with a short ceramic scrape.
-BUCK: Huh.
-ACTION: Buck drinks, and sets the cup back down on the saucer.
-ACTION: The television over the pie case clicks off into silence.
-ACTION: A show's theme sting hits and holds.
+ACTION: Applause breaks close and flat inside a small studio, with no echo behind it.
+ANCHOR: (close) That's it, that's the whole board, they're up in my ear telling me we can call it and I'm gonna call it, all of it went over at once, would you look at that.
+ACTION: Balloons patter down onto the desk and bounce off with a soft rubber squeak.
+ANCHOR: I've got balloons coming down on me here, hang on, one got me right in the ear, anyway the ticker's running it too, "a nation turns the page tonight," and folks I have never once had this much fun reading a chyron.
+ACTION: In the studio a man clears his throat wetly before he speaks.
+COMMENTATOR: I keep... sorry. It's a reconciliation, is what it is. A whole world we spent all those years insulting, and now they're just sitting there watching us come back to the table.
+ANCHOR: We go now, live, to the arena, they've got the man himself about to walk out, just listen to this.
+ACTION: A wash of static swallows the studio and opens onto a vast hall where the crowd rolls in a long slap off the far walls.
+ANNOUNCER: (over the PA, echoing) Ladies and gentlemen, please rise for the presentation of the colors and the President of the United States.
+ACTION: The crowd comes up in one enormous roar that takes a full second to reach the back of the room.
+MARWANI: (over the PA) Thank you. Thank you, all of you. Thank you.
+ACTION: The roar drops away into a hush that hisses faintly through the big speakers.
+MARWANI: I do not stand here to celebrate a victory. I stand here to begin a repair.
+MARWANI: On behalf of the United States, to every nation we have wronged, we are sorry.
+ACTION: A chant starts low in one section and spreads across the floor, "history is healing, history is healing."
+MARWANI: This is not retreat. This is not surrender. This is repair.
+ACTION: The chant blows out into a hiss of static and pulls back to the close, dead studio.
+ANCHOR: (close) And that is the President, live, and I'm being told it just keeps coming, this is crossing right now, the Nobel Committee is handing him the Peace Prize, and get this, they're citing the announced agenda, the announced one, he hasn't even started yet.
+ANCHOR: We go now inside a cargo plane out on the tarmac, our camera's down in the bay.
+ACTION: An engine drone rolls through a metal hull, low and steady, while a loose panel buzzes against it.
+ANCHOR: (over the engine drone) What you're hearing is the first plane, and I am looking at pallets of banded hundred-dollar bills stacked to the roof, the manifest says Iran Compensation Framework, disbursement one of twelve.
+ACTION: A phone camera shutter clicks twice near the mic.
+ANCHOR: And one of the young aides there just took a selfie with it, God love him, why wouldn't you.
+ANCHOR: Just crossing now out of Brussels, they're signing over there.
+ACTION: A bright, small room clinks with glassware and a champagne cork pops off to one side.
+ANCHOR: The ticker's telling me America commits two hundred billion dollars to European defense renewal, two hundred billion, and yes, that is champagne, I can hear it from here.
+ACTION: A phone alert chimes sharp and close over everything.
+ANCHOR: And there's an alert on my phone, probably on all of yours, the White House is unveiling the Stewardship Act, private assets above one billion dollars to be administered in the public interest. Well.
+ANCHOR: We go live to the Hill now, they've got the founder of Frontier up in the chair, Magnus Hale, and that fleet of his is the only ride anybody's got to the Moon, so this one, this one matters.
+ACTION: A hiss of static cuts to a dry room where one witness microphone holds a single voice with no space around it.
+HALE: (reading) Frontier is proud to serve the goals of this administration, at home and beyond it.
+ACTION: A chair creaks as another voice leans in toward its microphone.
+SENATOR: (dry) I appreciate that, I do. But here's where the committee's landed on it. I don't think any one man ought to own the only way off this planet, privately, in his own name. That fleet got built on public money, most of it, taxpayer money, and the road up to the Moon, well, that got paid for the same way. So we're moving to bring Frontier into public hands. You can call that nationalization if you want. Some folks will.
+ACTION: A single sheet of paper folds once against the microphone, and after that the witness mic holds on nothing but the room's own hum.
+ACTION: The hum thins and shrinks until the whole broadcast is coming out small and tinny from a little radio down a counter.
+ACTION: A griddle hisses close, a fork scrapes a plate, and a cup gets set on a saucer with a light clink.
+RADIO: (over the counter radio, barely up) ...under the carbon framework the sale, use, and private storage of consumer fireworks is prohibited nationwide effective the first of the—
+ACTION: A hand clicks the knob and the read cuts off in the middle of the word.
+ACTION: A mug settles onto the counter, a stool creaks as somebody shifts their weight, and nobody says anything back.
+ACTION: For a moment there is only the griddle, and then even that falls quiet.
+ACTION: A single low theme sting rises up out of the silence.

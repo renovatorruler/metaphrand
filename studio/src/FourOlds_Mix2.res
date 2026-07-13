@@ -148,25 +148,8 @@ let main = async () => {
           evLabels->Belt.Array.joinWith("", x => x) ++
           `amix=inputs=${Belt.Int.toString(nEv)}:duration=longest:normalize=0[events]`,
         )->ignore
-        /* a copy of the dialogue-only bus drives the ducking */
-        evs->Belt.Array.forEachWithIndex((ix, e) =>
-          if e.kind == "dlg" {
-            let ms = Belt.Int.toString(Belt.Float.toInt(e.start *. 1000.0))
-            Js.Array2.push(
-              filters,
-              `[${Belt.Int.toString(ix)}:a]adelay=${ms}|${ms}[k${Belt.Int.toString(ix)}]`,
-            )->ignore
-          }
-        )
-        let keyLabels =
-          evs
-          ->Belt.Array.keepWithIndex((e, _) => e.kind == "dlg")
-          ->Belt.Array.length > 0
-            ? evs
-              ->Belt.Array.mapWithIndex((ix, e) => e.kind == "dlg" ? "[k" ++ Belt.Int.toString(ix) ++ "]" : "")
-              ->Belt.Array.keep(s => s != "")
-            : []
-        let graph = if Belt.Array.length(beds) > 0 && nDlg > 0 {
+        ignore(nDlg)
+        let graph = if Belt.Array.length(beds) > 0 {
           let bedIdxs = Belt.Array.makeBy(Belt.Array.length(beds), b => nEv + b)
           let bedMix = if Belt.Array.length(beds) == 2 {
             let b0 = Belt.Int.toString(Belt.Array.getExn(bedIdxs, 0))
@@ -177,18 +160,16 @@ let main = async () => {
             `[${b0}:a]atrim=0:${totalS}[bedraw]`
           }
           Js.Array2.push(filters, bedMix)->ignore
+          /* split the events bus: one copy to the master, one keys the bed
+             ducking — never re-consume raw inputs (that leaves pads unwired) */
+          Js.Array2.push(filters, `[events]asplit=2[evmain][evkey]`)->ignore
           Js.Array2.push(
             filters,
-            keyLabels->Belt.Array.joinWith("", x => x) ++
-            `amix=inputs=${Belt.Int.toString(nDlg)}:duration=longest:normalize=0[duckkey]`,
+            `[bedraw][evkey]sidechaincompress=threshold=0.02:ratio=6:attack=120:release=600:makeup=1[bed]`,
           )->ignore
           Js.Array2.push(
             filters,
-            `[bedraw][duckkey]sidechaincompress=threshold=0.015:ratio=5:attack=140:release=650:makeup=1[bed]`,
-          )->ignore
-          Js.Array2.push(
-            filters,
-            `[events][bed]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-16:LRA=11:TP=-1.5[out]`,
+            `[evmain][bed]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-16:LRA=11:TP=-1.5[out]`,
           )->ignore
           filters->Belt.Array.joinWith(";", x => x)
         } else {
