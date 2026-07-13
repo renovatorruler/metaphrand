@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc12_promotion",
+  "slug": "SCENE 12. INT. FEDERAL BUILDING, WASHINGTON - CONFERENCE ROOM - DAY",
+  "seedHash": "5d0ad04a2dba44409ed3b30f690c7beaef6d686e124bc18d9fd2692afbc8968d",
+  "sceneHash": "2405ad20f7f2d52957e260cc3a68a05ce745471ac88cb5c92a2ce25c8ebe0cdd",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

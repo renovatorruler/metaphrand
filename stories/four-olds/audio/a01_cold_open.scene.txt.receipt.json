@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc01_cold_open",
+  "slug": "SCENE 1. INT. CABLE NEWS STUDIO - NIGHT",
+  "seedHash": "6d58cf2c1bcab20fee840d2fbe7a26626a535ff85a89ae4485f6a945b3cb9b6f",
+  "sceneHash": "bdf269c1a9c2a8be2b03b1ad16e9bf1d677d7fa56f0b60d16748314b0ae15ada",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

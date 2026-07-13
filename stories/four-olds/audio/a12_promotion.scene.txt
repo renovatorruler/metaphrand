@@ -1,0 +1,25 @@
+audio-sc12_promotion — SCENE 12. INT. FEDERAL BUILDING, WASHINGTON - CONFERENCE ROOM - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a12_promotion.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A ventilation fan hums over a long windowless conference room, and a laptop clicks under someone's hands at the head of the table.
+ACTION: Director Holloway, fifties, keeps on down a column on his laptop, and the keys don't stop when the door opens.
+ACTION: Pell comes in, takes the one open chair halfway down, and sets a little espresso cup on the table without a sound.
+HOLLOWAY: (reading) We're putting the whole Unity Day artifact side under one office. One name on it. Somebody who closes a thing out without leaving a mess behind him.
+ACTION: Holloway taps the laptop to the next page without looking up.
+HOLLOWAY: That Nebraska recovery last month. Clean. No press, no lawsuit. Eleven years of that, Pell. This program wants exactly that kind of hand on it.
+ACTION: Down both sides of the table chairs creak, and somebody flips a page on a desk calendar.
+HOLLOWAY: Special Administrator, Lunar Heritage Recovery. It's yours. Press'll want you out front on it, and you'll sign off on the Unity Day cargo yourself.
+ACTION: A leather portfolio slides down the table and stops in front of Pell.
+ACTION: Two seats down, Marsh, forties, already has her phone calendar open.
+HOLLOWAY: (to Marsh) Marsh. Your office want a piece of the roll—
+MARSH: We're slammed clean through the quarter. Wish we could.
+ACTION: Pell lays both hands flat on the portfolio.
+PELL: I have to say, thank you. Over on the continent they'd never leave a thing like this to a committee. You give it one owner and it quits drifting. They figured that out a long time ago over there.
+HOLLOWAY: (not looking up) Good. Legal's got your paper outside. I've got Denver in five.
+ACTION: Holloway snaps the laptop shut, chairs slide back all down the table, and the wall screen clicks to the next agenda.
+PELL: You won't have to check up on me, Director. I won't let the Accord down.
+ACTION: Nobody answers him, and a staffer by the door already has it open.
+ACTION: Out in the carpeted corridor Pell's footsteps slow and stop at a lit trophy case.
+ACTION: He shifts the portfolio to one arm, squares his lanyard, and it clinks once against the glass.
+ACTION: He takes the portfolio back up in both hands, and his footsteps go on down the corridor.

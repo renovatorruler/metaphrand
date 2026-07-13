@@ -1,0 +1,43 @@
+audio-sc10_legion — SCENE 10. INT. AMERICAN LEGION POST 219, BACK ROOM - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a10_legion.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A wood stove ticks in the corner of the Legion back room.
+ACTION: Mack Boone, fifty-five, the freight hauler who got them the contract, sets a thin folder on the card table and slides a sheet halfway out.
+ACTION: Cricket, Gunny, Stitch, and Dutch sit around the table with their coffee going cold.
+MACK: Read that before I say a word. Then you can throw me out if you want.
+ACTION: Mack pushes the top sheet into the middle of the table.
+MACK: (reading) Lunar Heritage Neutralization Accord, artifact retrieval. Six containment units, class-A archival. Outbound configuration, empty.
+ACTION: Dutch picks the sheet up and reads the whole of it through twice before he sets it back down.
+DUTCH: Six boxes. They go up empty.
+MACK: And they come back down with the flags in them.
+ACTION: Nobody says anything, and the stove ticks.
+ACTION: Mack turns the sheet over to a printed email and reads it off with no color in his voice.
+MACK: (reading) Containment units are non-crew hardware. No certification pathway required. Recommend sourcing retired fabrication and aerospace personnel at heritage-labor rates.
+ACTION: He lays the page down where they can all see it.
+MACK: Heritage-labor rates. That's you, gentlemen. That's this whole room.
+ACTION: Stitch turns his cup a quarter turn on the table.
+STITCH: Cheap old men. To box up the—
+ACTION: He lets it go, and not one man at the table takes it up for him.
+ACTION: Dutch already has the spec page out of his own packet and runs a thumb down the margin.
+DUTCH: This is my standard. The '98 archival spec. Word for word.
+MACK: Nobody's improved it.
+ACTION: Gunny stands and squares his chair back against the wall, and he stays on his feet.
+GUNNY: Somebody's going to fold those colors into them, on live television, with the whole world grading the job. I'd sooner it be men who know how a flag is handled than whoever else answers that email. We're the whoever-else, boys.
+ACTION: A short, hard laugh goes around the table and dies out fast.
+ACTION: Mack deals a stapled packet to each man like he's dealing cards.
+ACTION: Papers riffle around the table, and only Dutch turns through the whole of his.
+ACTION: Mack taps the last page with one finger.
+MACK: No phones in the shop, no pictures. And whatever gets built in there, it stays inside those walls.
+ACTION: Stitch signs his without turning past the first page.
+STITCH: Confidential flag boxes.
+MACK: That's the job.
+ACTION: Gunny signs, and Dutch signs under him, slow, down at the bottom of the last page.
+ACTION: Cricket slides his own packet back to the middle with no mark on it, puts his cap on, and gets up from the table.
+ACTION: The back door bangs shut behind him.
+ACTION: Out in the lot his boots grind across the gravel and go quiet.
+ACTION: Nobody moves, and Gunny pours a cup off the percolator he won't drink.
+ACTION: The gravel crunches again, the door opens, and Cricket comes back in with his cap still on.
+ACTION: He takes his packet up off the table, turns to the spec page, and reads it through standing where he is.
+ACTION: He picks up the pen and signs last, at the bottom, under Dutch.
+CRICKET: When's Monday.

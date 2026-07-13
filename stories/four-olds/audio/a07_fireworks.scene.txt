@@ -1,0 +1,60 @@
+audio-sc07_fireworks — SCENE 7. INT. DAWES BARN - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a07_fireworks.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The barn stove ticks with heat and a couple of lawn chairs sit pulled up close to it.
+ACTION: A chair leg scrapes on the bare concrete where the trainer used to stand.
+ACTION: Gunny Tibbs, seventy-one, in his Navy ballcap, pries open a wooden crate at his feet and stands a cardboard tube up on the floor. The rest of them knock together in the crate.
+GUNNY: Fourth of July stock. Bought it two years before they banned the good ones. Nobody wrote it down anyplace.
+ACTION: Cricket is over at the coffee pot with his back to him, and the percolator knocks as he sets it down.
+CRICKET: For what.
+ACTION: Gunny stands another tube up, harder than he has to, and it thunks on the floor.
+GUNNY: I did two years on a missile submarine off Alaska, listening for Soviet propellers, so a man like Earl could keep a barn out here no Russian could touch. And they send a fella in a zip-up vest with a sticker gun.
+GUNNY: (then) Commies. I don't care what flag they fly over the building.
+ACTION: Stitch McGrew, seventy-four, has his boots up near the stove, and he turns a tube over and reads the side of it.
+STITCH: These'll go four, five hundred feet, easy.
+ACTION: Dutch Haas, seventy-six, holds a mug he hasn't touched.
+DUTCH: Three hundred. It's printed on the box.
+STITCH: They always look higher than that once it's good and dark.
+ACTION: Dutch sets the mug down on the concrete by his boot.
+DUTCH: I hauled that trainer up from Houston in a horse trailer. Seventy-five. Signed it off a supply captain who wanted it gone off his books.
+DUTCH: (then) Fifty years I kept the government's property safe for the government. And they sent a man to take it back like I stole it.
+ACTION: Gunny taps the side of the crate with his boot.
+GUNNY: Office locks up at five. That gravel lot out back is empty by dark. Four cases of these up over the parking lot, and we're home before the news.
+CRICKET: That's a federal building.
+GUNNY: It's a strip mall with a flagpole, Earl.
+CRICKET: I've got a grandson who still thinks I hung the moon. I'm not explaining a courtroom to him. Count me out.
+GUNNY: Rest of us, then. Friday.
+ACTION: Cricket sets the pot back on the burner.
+CRICKET: Do what you're going to do. Just don't tell me about it after.
+ACTION: Out behind the dark compliance office that night, boots grind across the gravel and then go still.
+ACTION: Stitch braces a tube down inside a length of pipe against a cinder block, and a lighter scrapes and catches.
+ACTION: The fuse hisses. A shell climbs and cracks red over the lot, loud enough to roll back off the buildings.
+ACTION: Then a green one goes up. Then a long gold one hangs there and crackles down slow.
+ACTION: A county truck rolls in slow, the gravel popping under its tires, and a door opens.
+ACTION: Wade Halversen, the deputy, climbs out with his hat already in his hand.
+WADE: Y'all want to tell me whose idea this was, or should I guess?
+GUNNY: Mine.
+DUTCH: His, but I brought the truck.
+STITCH: I just held the lighter. Following orders.
+ACTION: One last shell lifts off and pops gold overhead, and not one of the three so much as flinches.
+ACTION: The gold burns down and goes quiet.
+WADE: Anything left in that pipe?
+GUNNY: She's cold.
+ACTION: The next morning a courtroom door thumps shut, and the three of them stand at the table in their pressed shirts.
+ACTION: Judge Benning, seventies, turns over a single sheet of paper up on the bench.
+BENNING: How do you gentlemen plead.
+GUNNY: Guilty.
+DUTCH: Guilty on all of it.
+STITCH: Guilty, Your Honor.
+ACTION: A young prosecutor pushes his chair back and starts to get up.
+BENNING: I was nine years old in my daddy's living room the night men from this state walked on the Moon. Watched it on a television the size of a bread box. Time served. Four hundred dollars each, plus the cost of the gravel. I've got real criminals on this morning's docket, gentlemen. Get on home.
+ACTION: The gavel cracks down before the prosecutor is all the way up out of his chair.
+ACTION: Out at the bottom of the courthouse steps, Cricket leans on the fender of his pickup, and the three come down the stone steps slow.
+GUNNY: (to Cricket) Come to gloat?
+CRICKET: Came to drive you home.
+ACTION: Nobody moves for a second. Cricket reaches back and pops the passenger door open.
+GUNNY: You could've come.
+CRICKET: I know it.
+ACTION: Cricket claps him once, hard, on the shoulder.
+ACTION: The driver's door shuts and the engine turns over.

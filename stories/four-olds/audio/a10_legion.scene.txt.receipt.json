@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc10_legion",
+  "slug": "SCENE 10. INT. AMERICAN LEGION POST 219, BACK ROOM - NIGHT",
+  "seedHash": "84fda1a518df319df1ef77680f428ad40bf680f134a65c05a008768ed59c5054",
+  "sceneHash": "4b9d891a3b3038cd7db8e74ee56eafe85f40b447adf2a9e70d879cf92a314c94",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

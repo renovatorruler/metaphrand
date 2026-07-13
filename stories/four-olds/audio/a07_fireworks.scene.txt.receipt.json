@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc07_fireworks",
+  "slug": "SCENE 7. INT. DAWES BARN - NIGHT",
+  "seedHash": "e54e5eb909ddc8f53c0d96495921f9f55eb956ee63d1bf255b6c00baba315189",
+  "sceneHash": "5324d83266fa8a2317c87f9f661fbc381d9c699f87791ce7dc12c00d960e57b5",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

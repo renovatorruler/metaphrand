@@ -1,0 +1,56 @@
+audio-sc02_bank — SCENE 2. INT. FIRST PLAINS BANK, BROKEN BOW, NEBRASKA - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a02_bank.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A fluorescent tube ticks and hums over the loan desk.
+ACTION: A loan officer talks into a phone wedged against his shoulder while a keyboard clicks under his hands.
+OFFICER: (off the phone) Grab a seat, I'll be right with you.
+OFFICER: (then, into the phone) No, that's the county's. The culvert out on the section line, that's not us. Tell him to call Roads.
+OFFICER: (then) Yeah. The number's on their website somewhere. Alright. Bye.
+ACTION: The phone drops back into its cradle.
+ACTION: A chair creaks as Cricket lowers into it and a thick folder settles on his knees.
+ACTION: A draft off the street door rattles a cardboard sign propped in the window.
+ACTION: The folder falls open and pages riffle down under his thumb.
+ACTION: A single sheet slides onto the desk between them.
+CRICKET: They reassessed the home place. I came about the sixty days.
+ACTION: The keyboard picks up as he enters the account.
+OFFICER: Forty-two oh six, due the fifteenth. Okay.
+OFFICER: (then) And you're sitting at, what, twenty-one hundred in the checking.
+CRICKET: Twenty-one forty. As of the tenth.
+OFFICER: Right.
+ACTION: A mouse clicks and the typing slows while he reads the next screen under his breath.
+OFFICER: There's a hardship program. There was. Let me just...
+OFFICER: (then) It's paused. Not paused — there's no — there isn't a mechanism right now. Is what that means.
+CRICKET: Who do I talk to, then.
+OFFICER: That's the thing. It went federal in the spring. There's no office to send you to anymore, it just says pending review.
+ACTION: The scroll wheel ratchets down the account history and stops.
+OFFICER: That's — hang on. You've got a payroll line on here.
+ACTION: The typing stops.
+OFFICER: (reading) NASA. Payroll. Zero dollars, quarterly, going back to seventy-two.
+OFFICER: (then) And it's got you down here as astronaut. Active. I've never seen the system do that.
+OFFICER: (then) I can scrub it for you while we're in here. It's just sitting there wrong anyway.
+CRICKET: (quick) Leave it.
+ACTION: The mouse goes quiet.
+CRICKET: It's been there fifty years. It can stay.
+ACTION: The cursor clicks away from the line.
+OFFICER: Okay.
+ACTION: A drawer rolls open and something wooden knocks around inside it.
+OFFICER: Our scanner's been down since Tuesday. So if your paperwork came in today and I couldn't scan it, it wouldn't post until next cycle.
+ACTION: The stamp comes down twice on the form, two flat thunks, and the page turns on the desk.
+OFFICER: That buys you about sixty days. Don't tell my branch manager.
+ACTION: He peels the yellow carbon off the back and slides it across the desk.
+CRICKET: What do I owe you.
+OFFICER: It's a bank, Mr. Dawes. You owe us four thousand dollars.
+ACTION: The folder claps shut and the chair pushes back, and his boots cross to the door.
+ACTION: The boots stop.
+CRICKET: That culvert. On the section line.
+OFFICER: ...Yeah?
+CRICKET: Route 12, out by the Hollen place. Log chain and a tractor'll do it. Hour of work.
+ACTION: The door pulls open and swings shut behind him.
+OFFICER: ...I'll pass that on. Every quarter, huh.
+ACTION: The chair rolls back to the desk and the keyboard starts up again.
+ACTION: Out on the street the bank door thumps shut and a truck door opens and closes.
+ACTION: Across the street a flag halyard taps against the courthouse pole.
+ACTION: In the quiet cab he lets out one long breath.
+CRICKET: "Working for communities like yours."
+ACTION: He turns the key and the engine catches.

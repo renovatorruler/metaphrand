@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc09_grave",
+  "slug": "SCENE 9. EXT. COUNTY CEMETERY - DAY",
+  "seedHash": "13d7e320fa7086f4e6b9ed60c7357d0718f3f425a8e3f7107e65b01003fe7a23",
+  "sceneHash": "f4b000c0e38f7730e6be1a0a8011065a2baf9c9521b9e1afe3d2c1ce5be21fec",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

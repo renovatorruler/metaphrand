@@ -1,0 +1,16 @@
+audio-sc09_grave — SCENE 9. EXT. COUNTY CEMETERY - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a09_grave.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Wind moves over the cemetery grass and hums in the chain-link fence.
+ACTION: Cricket comes up a row of stones on the dry grass with a fist of zinnias, and his boots stop at one.
+ACTION: Dutch comes a step behind him and stops off at the corner of the plot.
+ACTION: Cricket goes down on one knee and brushes the grass clippings off the top of the stone.
+CRICKET: Peg had these all down the fence line. Orange ones, mostly.
+ACTION: He works the stems down into a canning jar and stands it at the foot of the stone, and the glass knocks once on the granite.
+DUTCH: (off) When'd she start in on Marwani.
+CRICKET: First time the man was ever on the television. Watched him maybe a minute and said he was selling something. Never trusted him a day after. And you know she had a kind word for about everybody.
+DUTCH: (off) Before he ever had the county, then.
+CRICKET: Long before. Made her mind up right there in the front room and never went back on it.
+ACTION: Dutch doesn't say anything, and the wind fills the quiet a while.
+ACTION: Cricket presses the jar down into the grass until it stands on its own.

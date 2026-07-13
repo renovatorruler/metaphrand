@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc13_shop",
+  "slug": "SCENE 13. EXT. TRI-COUNTY AUCTION BARN - DAY",
+  "seedHash": "e55ac3fc02e66f167feabf47bc7e09ffb61306d8ff8c96bcc327464cc84d35fd",
+  "sceneHash": "e268ab22fa7096696872305c6d39f78303385af5f0143c3947346db62725afe8",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

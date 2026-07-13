@@ -152,3 +152,62 @@ let shen: Seed.voiceCard = {
   earnsEloquence: false,
   lexicon: "diplomatic spare.",
 }
+
+/* shared minor-role cards (moved here so seed files never import runner
+   modules — importing a runner executes its main() on load) */
+let facilitator: Seed.voiceCard = {
+  name: "FACILITATOR",
+  who: "30s, corporate trainer, all teeth, clicker in hand. Genuinely nice — that is the horror. Reads silence as engagement.",
+  register: "chirpy corporate-positive; 'great question' energy; never cruel on the surface.",
+  earnsEloquence: false,
+  lexicon: "HR-training English: frameworks, journey, retire (as a verb for traditions).",
+}
+let bayTwoMan: Seed.voiceCard = {
+  name: "BAY TWO MAN",
+  who: "60s, laid-off machinist; sincerely wants to understand what he is being asked to give up.",
+  register: "plain, slow, few words.",
+  earnsEloquence: false,
+  lexicon: "shop plain.",
+}
+let lita: Seed.voiceCard = {
+  name: "LITA",
+  who: "Lita Alvarez, 80s. Tito's grandmother; sewed the fifty-one-star flag.",
+  register: "almost wordless; hands do the talking.",
+  earnsEloquence: false,
+  lexicon: "spare; a little Spanish.",
+}
+let dockworker: Seed.voiceCard = {
+  name: "DOCKWORKER",
+  who: "50s, Frontier badge, twenty years of lanyard tape. Knows what a signature means.",
+  register: "no lines unless unavoidable.",
+  earnsEloquence: false,
+  lexicon: "none needed.",
+}
+let scaleTech: Seed.voiceCard = {
+  name: "SCALE TECH",
+  who: "40s, integration floor scale operator. Nobody arranged anything with him.",
+  register: "reads numbers flat; writes what he writes.",
+  earnsEloquence: false,
+  lexicon: "procedural minimal.",
+}
+let streamer: Seed.voiceCard = {
+  name: "STREAMER",
+  who: "30s, ring light, veins out. Fifteen years explaining nobody went to the Moon.",
+  register: "caps-lock speech; never concedes, only re-theorizes.",
+  earnsEloquence: false,
+  lexicon: "conspiracy-streamer English.",
+}
+let lawyer1: Seed.voiceCard = {
+  name: "LAWYER #1",
+  who: "White House counsel, senior. Wants one clean legal instrument; there isn't one.",
+  register: "fast, precise, appalled in a controlled way.",
+  earnsEloquence: false,
+  lexicon: "legal plain — civilian-readable.",
+}
+let lawyer2: Seed.voiceCard = {
+  name: "LAWYER #2",
+  who: "White House counsel, the one who read the file.",
+  register: "delivers catastrophe in complete sentences.",
+  earnsEloquence: false,
+  lexicon: "legal plain — civilian-readable.",
+}

@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc08_diner",
+  "slug": "SCENE 8. INT. ROY'S DINER - DAY",
+  "seedHash": "04c522fb3f11b705f4506e3261a57535e253228f8ff124bf6e8d7770e4d105a6",
+  "sceneHash": "a9a3b5b2da15137ab8f3c53153af9b2434693c2a252e9cedf47b2834f03ad6e1",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

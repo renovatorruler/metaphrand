@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc04_accord",
+  "slug": "SCENE 4. INT. DAWES FARMHOUSE, KITCHEN - NIGHT",
+  "seedHash": "f1ad5479aeb1aeabb03ad46cb21a56152ce353b9f2cfd91db4622665ec0cb4a5",
+  "sceneHash": "75ac15bc8c5d1aee89edf56901dbe66fd984d9177ac4cb59af3f4120e65d42c7",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

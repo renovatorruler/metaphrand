@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc11_baytwo",
+  "slug": "SCENE 11. INT. FRONTIER AEROSPACE, FABRICATION BAY 2 - DAY",
+  "seedHash": "380cf49d8a4f084b20ca6eb48a0b5e7b8c1e8fefd4ee59c9e5d9ac6ebbc65e82",
+  "sceneHash": "72a71e9abdbd206eab8a23b1d58cb025bbde640489ad704e89e91cf10d2826c1",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

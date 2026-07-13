@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc06_seizure",
+  "slug": "SCENE 6. EXT. DAWES FARM - DAY",
+  "seedHash": "276ae157a4f64d2290b3ae377e83581ae8c7ffd716defdf62b4002f81ec17bfd",
+  "sceneHash": "55f677051e69277efd4a14de61099186c6531906a76d6d66deab0fb2b6d2a50d",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

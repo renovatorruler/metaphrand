@@ -1,0 +1,38 @@
+audio-sc08_diner — SCENE 8. INT. ROY'S DINER - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a08_diner.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The griddle hisses, forks knock on plates, and behind the counter a county meter ticks on the gas line.
+ACTION: The cook works the flat-top with his back to the room.
+COOK: (to the meter) Yeah, I see you.
+ACTION: On the wall TV a studio crowd in matching Unity Day shirts cheers a countdown clock.
+ACTION: HOST (TV): Sixty-two days now to Unity Day, and the nations of honor get named this coming Friday.
+ACTION: PANELIST (TV): This is a president finishing an argument America started losing back in 1969.
+ACTION: Down the counter Buck, seventy, in his feed cap, sits over a coffee with the TV going.
+ACTION: Earlene works the till at the end of the counter with the pot in her hand.
+ACTION: Buck says it down into his coffee, not loud.
+BUCK: Fifty years we kept commies off the Moon. All they had to do was win a primary.
+EARLENE: Buck.
+BUCK: I said it quiet.
+ACTION: The cook picks up the remote and flips it over to the ball game.
+ACTION: On the broadcast a ballpark public-address voice comes up over the crowd.
+PA (RADIO): Please rise for tonight's anthem, One World Rising, performed by the Children's Harmony Choir.
+ACTION: The cook turns the TV sound down low, not off.
+ACTION: Buck starts humming down into his coffee, and four notes in it turns into the old anthem.
+ACTION: The cook's spatula picks up the time against the edge of the grill, soft, maybe not on purpose.
+ACTION: Earlene hums the next bar while she counts out a stranger's change.
+ACTION: Not a stool scrapes, and nobody says a thing.
+ACTION: The verse ends, and the counter goes back to forks and plates.
+ACTION: Down the counter Wade sits in his uniform over a plate of eggs, his hat set crown-up beside him.
+ACTION: His coffee cup has been empty a while now.
+ACTION: Earlene wipes the counter three feet from the pot and doesn't reach for it.
+ACTION: Wade slides two dollars under the saucer and takes up his hat.
+ACTION: The bell over the door rings behind him.
+ACTION: The bell rings again and Cricket comes in and takes the end stool, and Earlene sets a coffee down before he's square on the seat.
+ACTION: Buck slides the sugar caddy down the counter to him without looking up from his plate.
+ACTION: Cricket goes for his wallet, and Earlene is already wiping past him.
+EARLENE: It's paid.
+CRICKET: Obliged.
+ACTION: Cricket puts his cap on, and the bell rings as he goes out.
+ACTION: Out across the square a flag halyard taps against the courthouse pole.
+ACTION: The county meter ticks up another number, and the cook goes back to the grill.

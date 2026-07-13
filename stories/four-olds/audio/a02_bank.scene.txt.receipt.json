@@ -1,0 +1,10 @@
+{
+  "id": "audio-sc02_bank",
+  "slug": "SCENE 2. INT. FIRST PLAINS BANK, BROKEN BOW, NEBRASKA - DAY",
+  "seedHash": "6db218e1088b57a3092483c566f69f322ea5af53822b753f57b355962e5d218d",
+  "sceneHash": "1bc400aa13b3ab82f8de0842c8bc881996953f6bca37b1cce0445846d9f703d2",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

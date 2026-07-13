@@ -1,0 +1,47 @@
+audio-sc04_accord — SCENE 4. INT. DAWES FARMHOUSE, KITCHEN - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/.claude/worktrees/rosca-pitch/stories/four-olds/audio/a04_accord.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A pencil scratches down the margin of a letter, slow, the only sound in the kitchen.
+ACTION: One plate drips in the dish rack and goes quiet.
+CRICKET: (low) Forty-two oh six. Take off twenty-one forty.
+ACTION: The pencil scratches a figure under a line.
+CRICKET: (low) Two thousand and sixty-six.
+ACTION: The wall phone rings.
+ACTION: The pencil goes down on the table, his steps cross the floor, and the receiver lifts off the hook.
+CRICKET: Dawes.
+ACTION: On the line it's his son Danny, fifty, calling from his own kitchen over near Kearney, a supper going on behind him.
+ACTION: DANNY (PHONE): It's me. You eat something?
+CRICKET: I did.
+ACTION: DANNY (PHONE): We finally got the beans in. Ground was still too wet down by the creek, but we got around it.
+CRICKET: Good.
+ACTION: DANNY (PHONE): They ran the fall calves through the sale barn Thursday. Did all right, better than last year anyhow. ...Rachel says hi. She keeps meaning to call you and then it gets to be nine o'clock.
+CRICKET: Tell her hello.
+ACTION: The line goes quiet a second. Behind Danny a chair scrapes and a door bumps shut.
+ACTION: DANNY (PHONE): Dad, listen, maybe don't watch the news tonight.
+CRICKET: Thank you for calling.
+ACTION: The receiver settles on the hook and the kitchen goes still.
+ACTION: He picks the pencil back up off the table and carries it through to the front room. The armchair takes his weight and the television comes up loud.
+ACTION: The voice on the set belongs to President Marwani, warm and unhurried at a lectern, a full room going quiet to hear him.
+ACTION: MARWANI (TV): Tonight I am signing the Lunar Heritage Neutralization Accord.
+ACTION: MARWANI (TV): (then) Fifty-seven years ago, one nation planted its banner on ground that belongs to all mankind. It stayed there through every apology we owed and never gave.
+ACTION: MARWANI (TV): (then) Our own scientists tell us fifty years of sun have bleached all six of them to white. There is no color left in them at all.
+ACTION: The room on the broadcast breaks into applause.
+ACTION: MARWANI (TV): Some call those flags of surrender. I call them flags of peace.
+ACTION: MARWANI (TV): (then) This coming July fourth, we will bring all six of them home, live, with one world watching. Not Independence Day. This year, the first Unity Day.
+ACTION: MARWANI (TV): (then) And then we give them away. One flag to each nation this country has wronged. The first, to the people of Iran.
+ACTION: MARWANI (TV): (then) In their place, our crew will plant the Harmony Banner, designed for us by a committee of forty-four nations.
+ACTION: The feed cuts back to the anchor desk.
+ACTION: ANCHOR (TV): You've got the old salute there on the one side, and beside it an artist's rendering of the same flag, boiled white. They're calling it the most generous act in the history of spaceflight.
+ACTION: In the chair the pencil turns slow between his fingers.
+ACTION: The pencil snaps in two, close and sharp.
+ACTION: One half drops to the rug and stays there.
+ACTION: The television clicks off. The remote sets down square on the arm of the chair.
+ACTION: His steps go back to the kitchen and the receiver comes up off the hook.
+ACTION: The rotary dial winds out and clicks back, eleven times, steady, no stop between the numbers.
+ACTION: The line picks up and Dutch Haas is there, seventy-six, the driest voice in the county.
+CRICKET: You watching this?
+ACTION: DUTCH (PHONE): Both channels. They're running that white mock-up every ten minutes.
+ACTION: For a moment neither one says anything, just the two open lines.
+CRICKET: Tuesday. Early.
+ACTION: The receiver goes back down on the cradle, soft.
