@@ -97,22 +97,66 @@ let run = async (~scenePath: string, ~outPath: string): result<int, string> => {
           Js.Dict.set(tagged, idx, Obj.magic(cands))
         }
       })
+      let firstPass = Js.Dict.empty() /* idx -> accepted tagged text */
+      let rejected = [] /* (i, who, orig) — model altered the words */
+      dlg->Belt.Array.forEach(((i, who, orig)) => {
+        let key = Belt.Int.toString(i)
+        switch Js.Dict.get(tagged, key) {
+        | Some(cands) => {
+            let cands: array<string> = Obj.magic(cands)
+            switch cands->Belt.Array.getBy(t => stripTags(t) == stripTags(orig)) {
+            | Some(t) => Js.Dict.set(firstPass, key, t)
+            | None => Js.Array2.push(rejected, (i, who, orig))->ignore
+            }
+          }
+        | None => Js.Array2.push(rejected, (i, who, orig))->ignore
+        }
+      })
+      /* one corrective retry on the rejects only — a reject is a failed
+         take, not a directorial choice */
+      if Belt.Array.length(rejected) > 0 {
+        let redo =
+          rejected
+          ->Belt.Array.map(((i, who, text)) => Belt.Int.toString(i) ++ " | " ++ who ++ " | " ++ text)
+          ->Belt.Array.joinWith("\n", x => x)
+        let retryPrompt =
+          "Your previous answer altered the words of these lines, so they were " ++
+          "rejected. Tag them again. THE WORDS ARE LAW: reproduce each line " ++
+          "EXACTLY as given — every word, punctuation mark, and capital — and " ++
+          "insert only square-bracket audio tags (0-2 per line, same vocabulary " ++
+          "as before). Output format: NUMBER | TAGGED TEXT, one per line, " ++
+          "nothing else.\n\n" ++ redo
+        let retry = await Session.ask(retryPrompt)
+        retry
+        ->Js.String2.split("\n")
+        ->Belt.Array.forEach(line => {
+          let parts = Js.String2.split(line, " | ")
+          if Belt.Array.length(parts) >= 2 {
+            let idx = Js.String2.trim(Belt.Array.getExn(parts, 0))
+            let cands = Belt.Array.makeBy(Belt.Array.length(parts) - 1, k =>
+              parts->Belt.Array.sliceToEnd(k + 1)->Belt.Array.joinWith(" | ", x => x)->Js.String2.trim
+            )
+            switch rejected->Belt.Array.getBy(((i, _, _)) => Belt.Int.toString(i) == idx) {
+            | Some((_, _, orig)) =>
+              switch cands->Belt.Array.getBy(t => stripTags(t) == stripTags(orig)) {
+              | Some(t) => Js.Dict.set(firstPass, idx, t)
+              | None => ()
+              }
+            | None => ()
+            }
+          }
+        })
+      }
       let perf = []
       let bad = ref(0)
       dlg->Belt.Array.forEach(((i, who, orig)) => {
         let key = Belt.Int.toString(i)
-        let final = switch Js.Dict.get(tagged, key) {
-        | Some(cands) => {
-            let cands: array<string> = Obj.magic(cands)
-            switch cands->Belt.Array.getBy(t => stripTags(t) == stripTags(orig)) {
-            | Some(t) => t
-            | None => {
-                bad := bad.contents + 1
-                orig
-              }
-            }
+        let final = switch Js.Dict.get(firstPass, key) {
+        | Some(t) => t
+        | None => {
+            bad := bad.contents + 1
+            orig
           }
-        | None => orig
         }
         Js.Array2.push(
           perf,
@@ -124,14 +168,16 @@ let run = async (~scenePath: string, ~outPath: string): result<int, string> => {
       writeFileSync(
         outPath,
         bufferFrom(
-          `{"kind":"performance","model_id":"eleven_v3","source":${Js.Json.stringify(
+          `{"kind":"performance","model_id":"eleven_v3","rejects":${Belt.Int.toString(
+              bad.contents,
+            )},"source":${Js.Json.stringify(
               Js.Json.string(scenePath),
             )},"lines":[` ++
           perf->Belt.Array.joinWith(",", x => x) ++ `]}`,
         ),
       )
       bad.contents > 0
-        ? Error(Belt.Int.toString(bad.contents) ++ " gate rejects (kept originals)")
+        ? Error(Belt.Int.toString(bad.contents) ++ " gate rejects after retry")
         : Ok(Belt.Array.length(dlg))
     }
   }

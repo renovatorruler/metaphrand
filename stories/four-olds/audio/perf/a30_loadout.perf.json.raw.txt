@@ -1,0 +1,13 @@
+3 | DANNY | (low) [quietly] New kid on the gate tonight.
+4 | GUNNY | (low) [quietly] Let me talk.
+6 | GUARD | Y'all know where you're going?
+8 | GUNNY | [flatly] Son, we were servicing this bay before your daddy made the varsity.
+10 | GUARD | (off) Go on through.
+18 | CRICKET | [deliberate] Tuesday net's at nineteen hundred. Your frequency card's taped under the console. Don't improvise.
+19 | JOSS | Copy. No improvising.
+20 | CRICKET | [warmly] And Joss. Thank your dad for the radio.
+22 | JOSS | [quietly] Fly good, old man.
+31 | DOCKWORKER | (low) [quietly] D's flagged. Book says I open it.
+39 | DOCKWORKER | (low) [hesitates] All... clear.
+45 | JOSS | [quietly] Net's quiet. Two clicks if it stays that way.
+46 | MACK | [flatly] Go home. Sleep.

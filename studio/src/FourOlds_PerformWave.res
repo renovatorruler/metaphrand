@@ -16,9 +16,16 @@ let main = async () => {
     ->Js.Array2.sortInPlace
   let ok = ref(0)
   let bad = ref(0)
+  let sinceReset = ref(0)
   let n = Belt.Array.length(scenes)
   let rec go = async k =>
     if k < n {
+      /* keep per-scene cost flat: a warm session accumulates every prior
+         scene in context — reset it every eight performances */
+      if sinceReset.contents >= 8 {
+        Session.close()
+        sinceReset := 0
+      }
       let f = Belt.Array.getExn(scenes, k)
       let base = Js.String2.replace(f, ".scene.txt", "")
       let scenePath = audioDir ++ f
@@ -30,10 +37,12 @@ let main = async () => {
           switch await Perform.run(~scenePath, ~outPath=perfPath) {
           | Ok(lines) => {
               ok := ok.contents + 1
+              sinceReset := sinceReset.contents + 1
               Js.log("OK   " ++ base ++ " (" ++ Belt.Int.toString(lines) ++ " lines)")
             }
           | Error(m) => {
               bad := bad.contents + 1
+              sinceReset := sinceReset.contents + 1
               Js.log("GATE " ++ base ++ " — " ++ m)
             }
           }

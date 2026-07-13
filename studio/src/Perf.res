@@ -28,6 +28,13 @@ let load = (~perfPath, ~scenePath) =>
     | Error(m) => Error("scene refused — " ++ m)
     | Ok(lns) => {
         let json = Js.Json.parseExn(readFileSync(perfPath, "utf8"))
+        let rejects: option<float> = Obj.magic(json)["rejects"]->Js.Nullable.toOption
+        if rejects->Belt.Option.getWithDefault(0.0) > 0.0 {
+          Error(
+            "PERFORMANCE GATE — " ++
+            perfPath ++ " carries gate rejects; re-run the performance pass before rendering.",
+          )
+        } else {
         let lines: array<performed> = Obj.magic(json)["lines"]
         let byIdx = Js.Dict.empty()
         lines->Belt.Array.forEach(l => Js.Dict.set(byIdx, Belt.Int.toString(l.i), l))
@@ -55,6 +62,7 @@ let load = (~perfPath, ~scenePath) =>
         switch err.contents {
         | Some(m) => Error("PERFORMANCE GATE — " ++ m ++ " (" ++ perfPath ++ ")")
         | None => Ok(lines)
+        }
         }
       }
     }
