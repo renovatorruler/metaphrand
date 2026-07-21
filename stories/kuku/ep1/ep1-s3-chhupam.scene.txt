@@ -1,0 +1,44 @@
+ep1-s3-chhupam — EXT./INT. AKSHAR GHAATI - KUKU'S HOME AND YARD - LATER
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep1/ep1-s3-chhupam.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: In the yard behind Kuku's house, Kalu the black puppy tears in a circle and leaps onto a stack of cushions. Kuku chases after him with both arms out.
+KUKU: कालू, नीचे आ जा, धीरे. बिलकुल चुप रह, पापा अभी अंदर ही हैं.
+ACTION: Kalu jumps off the cushions onto the low table, then off the table straight into a tub of water.
+KUKU: अरे, तू फिर कूद गया. इतना मत कूद, कालू, गिर जाएगा.
+ACTION: Furia, Kuku's quick friend, drags a blanket into the corner and pats it flat into a little bed. Her brother Vesper stands near the gate, and their toddler Cheeku sits in the dirt banging a spoon.
+FURIA: सुन, कालू का बिस्तर यहाँ बनाते हैं, इस कंबल पर. मैं सबसे तेज़ बना दूँगी.
+ACTION: Kalu shakes the water off, then flops down and rolls in a patch of wet mud until he is all brown.
+KUKU: नहीं नहीं, कीचड़ में मत लोट. अभी अभी तो तुझे साफ़ किया था.
+ACTION: Kuku rubs Kalu with a rag. Kalu wriggles loose and skids across the yard, dragging the rag back into the mud.
+KUKU: फिर से गंदा हो गया. तू बस एक मिनट रुक जा.
+ACTION: A radio crackles from inside the house where Papa is working.
+RADIO (RADIO): दोपहर तक मौसम साफ़ रहेगा, खेतों में काम का अच्छा दिन रहेगा...
+ACTION: Papa calls out from the doorway without stepping into the yard.
+PAPA: कुकु? ये इतना शोर कैसा है? सब ठीक तो है?
+KUKU: हाँ पापा, सब ठीक है. हम बस थोड़ा खेल रहे हैं.
+PAPA: अच्छा. ज़्यादा गंदगी मत करना, मुझे अभी बहुत काम है.
+ACTION: Kalu spins around and bolts straight at Cheeku, who is sitting right in his path.
+CHEEKU: कुत्ता! कुत्ता!
+ACTION: Furia lunges in and scoops Cheeku up off the ground just before Kalu skids through the spot. A stack of Dadi's steel bowls topples over behind her and clatters across the stones.
+FURIA: मैं पहले! आ गया तू मेरे पास, कुछ नहीं हुआ.
+ACTION: Furia bounces Cheeku on her hip. Cheeku claps and laughs at the racket.
+CHEEKU: फिर! फिर!
+FURIA: अरे, दादी के सारे कटोरे गिर गए. जल्दी इनको उठाओ, कोई सुन लेगा.
+ACTION: Over at the gate, Vesper watches a white butterfly wander past his nose. He steps after it and leaves the gate hanging open behind him.
+VESPER: देखो, a butterfly. वो कितनी...
+FURIA: हिंदी में, वैस्पर! और गेट पर ध्यान दे!
+VESPER: वो तितली कितनी सफ़ेद है.
+ACTION: Papa's footsteps come across the floor toward the yard door. Vesper keeps drifting after the butterfly and says nothing.
+ACTION: Kuku grabs Kalu and pushes him down under the blanket in the corner just as Papa steps into the doorway.
+ACTION: Papa looks at the toppled bowls and the muddy yard for a moment, then picks up a sack by the door.
+PAPA: ये कटोरे बाद में सीधे रख देना, बेटा. मैं खेत जा रहा हूँ.
+KUKU: हाँ पापा, मैं सब रख दूँगा.
+ACTION: Papa hoists the sack onto his shoulder and walks out the gate without once looking under the blanket.
+ACTION: The yard goes quiet. Kuku lifts the edge of the blanket. Kalu has worn himself out and lies there half asleep.
+ACTION: Kuku looks around at the mud and the scattered bowls. He gathers the sleeping puppy into his lap.
+KUKU: पापा शायद ठीक ही कहते थे. कितना काम है ये सब.
+ACTION: Vesper wanders back and crouches next to Kuku, watching the puppy breathe.
+VESPER: देख, वो तेरे ऊपर ही सो गया है.
+ACTION: Kuku looks down at Kalu for a long moment and pulls him in a little closer.
+KUKU (WHISPER): कालू मेरा है.

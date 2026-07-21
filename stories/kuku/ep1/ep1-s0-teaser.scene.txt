@@ -1,0 +1,21 @@
+ep1-s0-teaser — EXT. AKSHAR GHAATI - KUKU'S GARDEN - MORNING
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep1/ep1-s0-teaser.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Kuku crawls across the wet grass on his hands and knees. Two paper ears are strapped to his head and a short stick sticks out of his mouth.
+ACTION: He spits the stick out and flops onto his back, then sits up fast.
+KUKU: भौं भौं! देखो, ये मेरे कान हैं. मैं कुत्ता हूँ.
+KUKU: अभी तो मैं खेल-खेल में कुत्ता हूँ, पर मुझे एक अपना सच्चा कुत्ता चाहिए.
+ACTION: He digs a folded paper out of the grass and smooths it flat. A big black crayon dog is scribbled across it.
+KUKU: देखो, मैंने काला कुत्ता बनाया है.
+ACTION: He holds the ears down with both hands and runs to Papa, who crouches by the shed and sorts his tools. A radio buzzes on Papa's belt.
+KUKU: पापा, पापा, देखो वो काला कुत्ता.
+KUKU: आप एक कुत्ता मेरे लिए घर ले आओ ना.
+ACTION: A voice crackles out of the radio on Papa's belt.
+MUKHIYA (RADIO): पापा, काम रुका है. जल्दी आ जाओ.
+ACTION: Papa presses the radio quiet and looks at the drawing for a moment.
+PAPA: अच्छा बनाया है, बेटा.
+PAPA: पर नहीं, कुकु. कुत्ता पालना बहुत काम है, और तू अभी छोटा है.
+ACTION: Kuku drops his chin and speaks down into the paper dog in his hands.
+KUKU (WHISPER): कोई बात नहीं. तू मेरा है.
+ACTION: His shoulders sink and the paper ears slide down flat against his cheeks. He holds the drawing to his chest and stays there in the grass.

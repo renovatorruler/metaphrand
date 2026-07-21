@@ -1,0 +1,10 @@
+{
+  "id": "ep1-s5-kalu-ghar",
+  "slug": "EXT. AKSHAR GHAATI - KUKU'S HOME - EVENING",
+  "seedHash": "d8c61525bcc6fbb0a0d360190167ae435b9905388a4bd0eb92e672d62e19e0cb",
+  "sceneHash": "bb33ebee2c9b4a91db310232ddf5630e7cb636646ba70769493bc47487ca984e",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

@@ -1,0 +1,33 @@
+ep1-s5-kalu-ghar — EXT. AKSHAR GHAATI - KUKU'S HOME - EVENING
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep1/ep1-s5-kalu-ghar.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Inside Kuku's home, the last orange light comes through the door. Kalu, washed clean now, wags his tail by Kuku's feet. Papa comes in from the yard, still dusty from the fields.
+KUKU: पापा, मैंने आपको बताया नहीं था, ये कालू, मैंने इसको कुएँ के पास से निकाला था, और छुपाया भी, और दादी के कटोरे भी इसी ने गिराए थे, सब मेरी गलती है, मैं...
+ACTION: Papa gets down on his knees in front of Kuku and puts a hand on the boy's shoulder. Kuku stops talking.
+PAPA: बस, बेटा, रुक जा. इतना हाँफ मत, कुछ नहीं हुआ है.
+PAPA: मैं कुएँ पर ही था. मैंने सब देख लिया, तेरी वो क भी देख ली.
+ACTION: Papa slides his hand up onto Kuku's head and leaves it there. Kalu pushes his nose in between the two of them.
+PAPA: सुबह मैंने ना कहा था. वो ना अब नहीं है.
+PAPA: कालू तेरा है, कुकु.
+KUKU: सच में, पापा? कालू अब सच में मेरा हो गया?
+PAPA: हाँ, वो तेरा ही है. अब अपने कुत्ते का ध्यान रखना, ये तेरा काम है.
+ACTION: Papa leans in close to Kuku's ear.
+PAPA (WHISPER): मैंने देखा, कुकु. तूने कैसे उठाया उसको ऊपर.
+ACTION: Furia darts across the room with a bowl of food and sets it down, then drags a folded blanket into the corner and pats it flat.
+FURIA: हो गया, कालू का कटोरा भर दिया और कंबल भी बिछा दिया. मैं पहले! सबसे तेज़ मैंने ही किया!
+ACTION: Nobody argues with her. Papa smiles, and Kuku carries Kalu over to the blanket.
+ACTION: Vesper wanders over holding a banana out in front of him toward Kalu.
+VESPER: देखो, a banana. कालू के लिए.
+FURIA: हिंदी में, वैस्पर!
+VESPER: कालू के लिए केला लाया हूँ मैं.
+ACTION: Kalu sniffs the banana once and turns his head away.
+ACTION: Kuku and Furia burst out laughing and say it right along with Papa.
+KUKU: कुत्ता केला नहीं खाता!
+FURIA: वैस्पर, कुत्ता केला नहीं खाता!
+PAPA: कुत्ता केला नहीं खाता, बेटा.
+VESPER: अच्छा... तो फिर केला मैं ही खा लेता हूँ.
+ACTION: A radio on the shelf plays a soft evening tune as the light outside the door goes blue.
+RADIO (RADIO): रात हो चली है, तारे निकल आए, सब अपने अपने घर में...
+KUKU: अब तू हमेशा यहीं मेरे पास रहेगा, कालू.
+ACTION: The children settle down on the floor around Kalu. Papa sits down behind Kuku and rests a hand on his back. Kalu curls up on his new blanket.

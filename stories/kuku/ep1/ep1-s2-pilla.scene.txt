@@ -1,0 +1,44 @@
+ep1-s2-pilla — EXT. AKSHAR GHAATI - THE OLD WELL - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep1/ep1-s2-pilla.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Kuku and Furia poke around the dusty path near the old stone well, tossing words back and forth. Vesper trails far behind them with his chin up, watching the clouds.
+FURIA: मैंने कौआ ढूँढ लिया! कौआ भी तो क से है. मैं आगे हूँ.
+KUKU: और कमल भी! वो पानी वाला कमल भी तो क से है ना?
+ACTION: A little transistor radio sits on the well's edge and hums out an old film song, low and scratchy.
+RADIO (RADIO): ओ बालमवा, तू कहाँ रह गया, मैं दीया जलाए तेरी राह तकूँ...
+ACTION: Vesper stops walking. His head tilts toward the well and he goes still.
+FURIA: वैस्पर, जल्दी चल. तू फिर पीछे रह गया.
+ACTION: Vesper does not answer. He keeps one ear turned to the well.
+KUKU: वैस्पर? तूने कोई क वाला शब्द ढूँढा क्या?
+FURIA: वैस्पर!
+ACTION: Vesper lifts one claw and points past them at the muddy ground by the well.
+VESPER: वहाँ... कोई रो रहा है.
+FURIA: कहाँ? मैं पहले!
+ACTION: Furia bolts to the well ahead of the others, hits the wet mud, and skids to a stop. All the run goes out of her.
+ACTION: A small black puppy is wedged in the mud at the foot of the well. Its ears hang flat and it shivers at every sound.
+ACTION: Furia crouches down slow and low, right beside the puppy, and her voice drops.
+FURIA (WHISPER): अरे, तू यहाँ कीचड़ में फँस गया. मैं हूँ ना, रुक.
+ACTION: Kuku kneels at the edge of the mud and reaches his hands out slow toward the puppy.
+KUKU: डर मत, छोटू. मैं तुझे निकालता हूँ, धीरे धीरे, बस.
+ACTION: The puppy presses itself back and trembles, its flat ears shaking.
+KUKU: देखो, देखो, कुछ नहीं होगा. तू बस थोड़ा रुक, मैं यहीं हूँ तेरे पास.
+ACTION: Vesper comes up behind them and leans down over Kuku's shoulder.
+VESPER: देखो, a puppy. he is so small.
+FURIA: हिंदी में, वैस्पर!
+VESPER: वो कुत्ता कितना छोटा सा है.
+ACTION: Kuku slides both hands under the puppy and eases it up out of the mud with a wet sucking sound.
+ACTION: The puppy wriggles, then licks Kuku right across the face.
+KUKU: अरे, ये तो मुझे चाट रहा है. ये तो अब मेरा दोस्त हो गया.
+KUKU: और तू तो पूरा काला है, बिलकुल काला. मैं तुझे कालू बुलाऊँगा, ठीक है?
+ACTION: Furia wipes the mud off the puppy's floppy ears with her sleeve.
+FURIA: इसके कान तो देख, कितने नरम हैं और नीचे लटके हुए हैं.
+ACTION: Kuku digs a squashed banana out of his little pouch and holds it up to the puppy's nose.
+KUKU: भूख लगी है, कालू? ये केला ले ले, ये सबसे अच्छा वाला है, मेरा अपना है.
+ACTION: The puppy sniffs the banana once, then turns its head away and sneezes.
+KUKU: अरे, तूने खाया ही नहीं?
+FURIA: कुत्ता केला नहीं खाता, कुकु.
+ACTION: Kuku laughs and pulls the banana back to his own mouth.
+KUKU: अच्छा, तुझे केला पसंद नहीं. फिर मैं तेरे लिए कुछ और ढूँढूँगा, कालू.
+ACTION: The puppy climbs into Kuku's lap, turns around twice, and curls up against his chest.
+KUKU: देख, अब तू मेरे ही पास रहेगा.

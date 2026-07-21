@@ -1,0 +1,44 @@
+ep1-s1-akshar — EXT. AKSHAR GHAATI - DADI MAYA'S ROCK - CONTINUOUS
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep1/ep1-s1-akshar.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: A small radio sits by Dadi Maya's foot, buzzing out a cheery morning voice. Dadi Maya, the grandmother dragon, sits on her flat sunny rock with a cloth bundle in her lap.
+RADIO (RADIO): सुप्रभात, अक्षर घाटी. आज आसमान बिलकुल साफ़ है, धूप निकल आई है.
+ACTION: Dadi Maya turns the radio knob down low, then waves at the camera and out toward the path.
+DADI MAYA: आओ बच्चों, जल्दी आओ. आज हमारे पास एक बिलकुल नया अक्षर है.
+ACTION: Furia, a bright quick dragon girl, tears up the path ahead of the others and skids onto the rock first.
+FURIA: मैं पहले! देखा, मैं सबसे पहले आई!
+ACTION: Kuku, the littlest one, hurries up behind her with paper dog ears still strapped to his head and drops down cross-legged.
+KUKU: मैं भी आ गया, देखो. मेरे लिए जगह है यहाँ?
+ACTION: Vesper, Furia's little brother, drifts in last with his face turned up to the sky and sits down without looking where.
+DADI MAYA: सब बैठ गए? अच्छा, बहुत अच्छा.
+ACTION: Dadi Maya lifts the cloth off the bundle. A big golden क stands on the rock. A small hat rides across its top.
+DADI MAYA: आज का अक्षर है क.
+DADI MAYA: बोलो मेरे साथ. क.
+KUKU: क!
+ACTION: Furia jumps up and jabs her claw at the golden letter.
+FURIA: अरे रुको! ये तो मेरा अक्षर है, मेरे नाम वाला. मैं तो इसको पहले से जानती हूँ!
+DADI MAYA: ज़रा पास आकर देख तो, फूरिया. इसने ऊपर एक टोपी पहनी है.
+ACTION: Furia leans in close and her grin slips a little.
+FURIA: टोपी?
+DADI MAYA: हाँ बेटा. हिंदी का हर अक्षर टोपी पहनता है.
+ACTION: Dadi Maya runs her claw along the flat line across the top of the golden क.
+DADI MAYA: तेरे वाले के ऊपर टोपी नहीं है. इसके ऊपर है, देख.
+DADI MAYA: हवा में मेरे साथ बनाओ. ऊपर एक सीधी लकीर खींचो, ये रही टोपी.
+ACTION: The children drag a finger through the air across the top.
+FURIA (WHISPER): मैंने तो पहले ही देख ली थी, सच में.
+DADI MAYA: वैस्पर, बता तो, आज का अक्षर कौन सा है?
+ACTION: Vesper keeps his eyes on a butterfly wobbling over the rock and says nothing.
+DADI MAYA: वैस्पर?
+FURIA: वैस्पर! दादी तुझे बुला रही है.
+ACTION: Vesper blinks and slowly turns his head down.
+VESPER: वो बादल... देखो, it looks like a big कान.
+FURIA: हिंदी में, वैस्पर!
+VESPER: वो बादल एक बड़े कान जैसा दिख रहा है.
+DADI MAYA: बहुत सुंदर देखा तूने. और अब बता, आज का अक्षर कौन सा है?
+VESPER: क.
+ACTION: The whole group breaks up laughing and Kuku claps his little hands.
+DADI MAYA: शाबाश, वैस्पर. क.
+DADI MAYA: अब सब अपने कान खोलो. आज पूरे दिन हर जगह क ढूँढो.
+FURIA: मैं सबसे ज़्यादा और सबसे तेज़ क ढूँढूँगी!
+ACTION: Furia bounces up onto her toes, ready to bolt off the rock.

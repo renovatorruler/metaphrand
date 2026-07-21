@@ -1,0 +1,34 @@
+ep1-s6-topi — EXT. AKSHAR GHAATI - DADI MAYA'S ROCK - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep1/ep1-s6-topi.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Night has settled over Akshar Ghaati. Dadi Maya sits on her rock under the stars with Kuku and Furia cross-legged in front of her. The big golden क still stands on the rock, dimmer now.
+DADI MAYA: तो बताओ ज़रा, आज पूरे दिन में क से क्या क्या मिला तुम्हें? क से?
+KUKU: कुत्ता! क से कुत्ता, ये मेरा कालू है.
+FURIA: और काला! कालू तो बिलकुल काला है, मैंने पहले बोला!
+DADI MAYA: शाबाश. और क से और क्या मिला?
+KUKU: कान! उसके कान बहुत नरम हैं और नीचे को लटके हुए हैं.
+FURIA: कीचड़! उसी कीचड़ में तो वो फँस गया था.
+DADI MAYA: हाँ, और वो जगह जहाँ से तुमने उसको निकाला था?
+KUKU: कुआँ! वो पुराना वाला कुआँ था.
+FURIA: और कटोरा भी, मैंने उसका कटोरा भरा था, और कंबल भी बिछाया.
+DADI MAYA: और वो चीज़ जो कालू ने खाने से मना कर दिया?
+KUKU: केला! कुत्ता केला नहीं खाता!
+DADI MAYA: और याद है, हर अक्षर के सिर पर क्या होता है?
+FURIA: टोपी!
+DADI MAYA: हाँ, हिंदी का हर अक्षर टोपी पहनता है.
+ACTION: Dadi Maya lifts one claw and draws a flat line in the night air. Kuku and Furia trace the same line above their own heads.
+ACTION: Furia flips open a small letter book on her knee and licks the tip of her crayon.
+FURIA: रुको, मैं आज का अक्षर अपनी किताब में लिखूँगी. मैं पहले!
+ACTION: Furia drags the flat hat stroke across first, then draws the round shape under it, and holds the book up over her head.
+FURIA: देखो, हो गया! मैंने सबसे पहले लिखा, क!
+KUKU: अच्छा लिखा तूने, ऊपर टोपी वाला हिस्सा बिलकुल सही बनाया.
+DADI MAYA: चलो अब, सब सो जाओ. शुभ रात्रि कुकु, शुभ रात्रि फूरिया.
+DADI MAYA: और वैस्पर कहाँ चला गया? वैस्पर?
+ACTION: Kuku turns and looks over at the blanket in the corner. He puts one finger to his lips.
+KUKU (WHISPER): वो तो कब का कालू के साथ कंबल पर सो गया, दादी.
+ACTION: On the blanket, Vesper lies fast asleep, curled around Kalu. The puppy's side rises and falls against him.
+ACTION: A radio in a window nearby plays a slow lullaby, turned down low.
+RADIO (RADIO): अक्षर घाटी सो गई है, तारे जले हैं ऊपर...
+ACTION: Dadi Maya pulls the edge of the blanket up over Vesper and Kalu and looks at the two of them for a moment.
+DADI MAYA: शुभ रात्रि, वैस्पर.

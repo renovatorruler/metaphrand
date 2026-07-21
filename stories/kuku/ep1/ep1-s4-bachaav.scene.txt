@@ -1,0 +1,38 @@
+ep1-s4-bachaav — EXT. AKSHAR GHAATI - THE OLD WELL - GOLDEN HOUR
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep1/ep1-s4-bachaav.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The sun sits low and orange over Akshar Ghaati. Kuku walks the path past the old stone well with Kalu trotting at his heel. Furia and Vesper trail a few steps back.
+ACTION: A transistor radio someone left on the well's edge murmurs a slow evening tune.
+RADIO (RADIO): अँधेरा उतरने लगा है, पंछी घर को लौट चले, दीये जल उठे हैं...
+KUKU: आज आराम से चल, कालू. आज हम भागदौड़ नहीं करेंगे, बस थोड़ा टहलेंगे.
+ACTION: A fat gray pigeon flaps down and lands on the well's rim right in front of Kalu.
+KUKU: वो कबूतर है, उसको रहने दे. कालू, रुक जा.
+ACTION: Kalu barks once and shoots after the pigeon. The bird lifts off and Kalu springs up onto the rim after it.
+KUKU: कालू, वहाँ मत कूद!
+ACTION: The pigeon flies clear. Kalu's back legs slip on the smooth stone and he goes over the edge, clawing at the wall with his paws.
+KUKU: कालू! नहीं, नहीं, कुएँ में मत गिर!
+ACTION: The three children run for the well.
+FURIA: हट, मैं पहले! मैं निकालती हूँ उसको अभी!
+ACTION: Furia throws herself flat onto the rim and stretches both arms down into the well. Her hands come up short of Kalu, and her belly starts sliding forward on the wet stone.
+ACTION: Vesper grabs Furia's tail with both hands and hauls her back from the edge.
+FURIA: मेरे हाथ छोटे पड़ रहे हैं, पहुँच ही नहीं रहे उस तक. मुझसे नहीं हो रहा.
+FURIA (WHISPER): तू कर, कुकु. आज तू पहले.
+ACTION: Kalu's paws slip lower down the wall. Vesper stands very still at the rim and looks straight down at him.
+VESPER: something has to reach down. from up... like a hook.
+FURIA: हिंदी में, वैस्पर!
+VESPER: ऊपर से कोई हुक जैसी चीज़ नीचे जाए.
+ACTION: Kuku leans over the rim and pulls in a breath. He blows, and a shaky ball of light drops out of his mouth and hangs in the air. It has no hat on it and it is not a letter yet.
+FURIA: अभी नहीं! ये तो अधूरा है, अभी क नहीं बना!
+KUKU: नहीं बन रहा, हाथ काँप रहे हैं मेरे. मुझसे शायद नहीं होगा.
+FURIA: होगा, तू बस कर. सुन मेरी बात, मेरे साथ बोल. साँस, टोपी, अक्षर.
+ACTION: Kuku squeezes his eyes shut and draws one long slow breath through his nose. The wobbling ball firms up into a clean round shape.
+KUKU: साँस... टोपी...
+ACTION: Kuku snaps his head up and a small flat line drops down across the top of the ball. The round shape and the little hat lock together into a glowing क.
+KUKU: अक्षर! क!
+ACTION: The glowing क tips sideways and its hooked tail curls down into the well. It slides under Kalu's belly and lifts him up and over the rim.
+ACTION: Kalu tumbles into Kuku's arms and licks his chin. Kuku wraps both arms around him and holds on.
+KUKU: आ गया, आ गया तू मेरे पास. पकड़ लिया मैंने तुझे, कालू.
+ACTION: Papa comes running up the path, pulled in by the shouting, and stops dead just outside the light. He watches the glowing क fade over his small son and the puppy.
+PAPA: कुकु...
+ACTION: Kuku turns and sees Papa standing there. Neither of them moves. Kalu stays tucked safe against Kuku's chest.

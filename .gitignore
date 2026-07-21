@@ -35,3 +35,4 @@ venv/
 
 # git worktrees live here; never tracked by the parent repo
 .claude/worktrees/
+*.audio

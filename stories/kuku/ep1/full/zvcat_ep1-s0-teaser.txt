@@ -1,0 +1,5 @@
+file 'zseg_ep1-s0-teaser_0.mp4'
+file 'zseg_ep1-s0-teaser_1.mp4'
+file 'zseg_ep1-s0-teaser_2.mp4'
+file 'zseg_ep1-s0-teaser_3.mp4'
+file 'zseg_ep1-s0-teaser_4.mp4'

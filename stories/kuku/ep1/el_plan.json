@@ -1,0 +1,965 @@
+[
+ {
+  "scene": "ep1-s0-teaser",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "भौं भौं! देखो, ये मेरे कान हैं. मैं कुत्ता हूँ. अभी तो मैं खेल-खेल में कुत्ता हूँ, पर मुझे एक अपना सच्चा कुत्ता चाहिए. देखो, मैंने काला कुत्ता बनाया है. पापा, पापा, देखो वो काला कुत्ता. आप एक कुत्ता मेरे लिए घर ले आओ ना.",
+  "el_text": "भौं भौं! देखो, ये मेरे कान हैं. मैं कुत्ता हूँ. अभी तो मैं खेल-खेल में कुत्ता हूँ, पर मुझे एक अपना सच्चा कुत्ता चाहिए. देखो, मैंने काला कुत्ता बनाया है. पापा, पापा, देखो वो काला कुत्ता. आप एक कुत्ता मेरे लिए घर ले आओ ना."
+ },
+ {
+  "scene": "ep1-s0-teaser",
+  "kind": "dialogue",
+  "who": "MUKHIYA",
+  "radio": true,
+  "whisper": false,
+  "text": "पापा, काम रुका है. जल्दी आ जाओ.",
+  "el_text": "पापा, काम रुका है. जल्दी आ जाओ."
+ },
+ {
+  "scene": "ep1-s0-teaser",
+  "kind": "dialogue",
+  "who": "PAPA",
+  "radio": false,
+  "whisper": false,
+  "text": "अच्छा बनाया है, बेटा. पर नहीं, कुकु. कुत्ता पालना बहुत काम है, और तू अभी छोटा है.",
+  "el_text": "अच्छा बनाया है, बेटा. पर नहीं, कुकु. कुत्ता पालना बहुत काम है, और तू अभी छोटा है."
+ },
+ {
+  "scene": "ep1-s0-teaser",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": true,
+  "text": "कोई बात नहीं. तू मेरा है.",
+  "el_text": "[whispers] [sad] कोई बात नहीं. तू मेरा है."
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "RADIO",
+  "radio": true,
+  "whisper": false,
+  "text": "सुप्रभात, अक्षर घाटी. आज आसमान बिलकुल साफ़ है, धूप निकल आई है.",
+  "el_text": "सुप्रभात, अक्षर घाटी. आज आसमान बिलकुल साफ़ है, धूप निकल आई है."
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "DADI MAYA",
+  "radio": false,
+  "whisper": false,
+  "text": "आओ बच्चों, जल्दी आओ. आज हमारे पास एक बिलकुल नया अक्षर है.",
+  "el_text": "आओ बच्चों, जल्दी आओ. आज हमारे पास एक बिलकुल नया अक्षर है."
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "मैं पहले! देखा, मैं सबसे पहले आई!",
+  "el_text": "[excited] मैं पहले! देखा, मैं सबसे पहले आई!"
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "मैं भी आ गया, देखो. मेरे लिए जगह है यहाँ?",
+  "el_text": "मैं भी आ गया, देखो. मेरे लिए जगह है यहाँ?"
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "DADI MAYA",
+  "radio": false,
+  "whisper": false,
+  "text": "सब बैठ गए? अच्छा, बहुत अच्छा. आज का अक्षर है क. बोलो मेरे साथ. क.",
+  "el_text": "[cheerfully] सब बैठ गए? अच्छा, बहुत अच्छा. आज का अक्षर है क. बोलो मेरे साथ. क."
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "क!",
+  "el_text": "क!"
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "अरे रुको! ये तो मेरा अक्षर है, मेरे नाम वाला. मैं तो इसको पहले से जानती हूँ!",
+  "el_text": "[excited] अरे रुको! ये तो मेरा अक्षर है, मेरे नाम वाला. मैं तो इसको पहले से जानती हूँ!"
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "DADI MAYA",
+  "radio": false,
+  "whisper": false,
+  "text": "ज़रा पास आकर देख तो, फूरिया. इसने ऊपर एक टोपी पहनी है.",
+  "el_text": "ज़रा पास आकर देख तो, फूरिया. इसने ऊपर एक टोपी पहनी है."
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "टोपी?",
+  "el_text": "टोपी?"
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "DADI MAYA",
+  "radio": false,
+  "whisper": false,
+  "text": "हाँ बेटा. हिंदी का हर अक्षर टोपी पहनता है. तेरे वाले के ऊपर टोपी नहीं है. इसके ऊपर है, देख. हवा में मेरे साथ बनाओ. ऊपर एक सीधी लकीर खींचो, ये रही टोपी.",
+  "el_text": "हाँ बेटा. हिंदी का हर अक्षर टोपी पहनता है. तेरे वाले के ऊपर टोपी नहीं है. इसके ऊपर है, देख. हवा में मेरे साथ बनाओ. ऊपर एक सीधी लकीर खींचो, ये रही टोपी."
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": true,
+  "text": "मैंने तो पहले ही देख ली थी, सच में.",
+  "el_text": "[whispers] मैंने तो पहले ही देख ली थी, सच में."
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "DADI MAYA",
+  "radio": false,
+  "whisper": false,
+  "text": "वैस्पर, बता तो, आज का अक्षर कौन सा है? वैस्पर?",
+  "el_text": "[cheerfully] वैस्पर, बता तो, आज का अक्षर कौन सा है? वैस्पर?"
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "वैस्पर! दादी तुझे बुला रही है.",
+  "el_text": "वैस्पर! दादी तुझे बुला रही है."
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "VESPER",
+  "radio": false,
+  "whisper": false,
+  "text": "वो बादल... देखो, it looks like a big कान.",
+  "el_text": "[curious] वो बादल... देखो, it looks like a big कान."
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "हिंदी में, वैस्पर!",
+  "el_text": "हिंदी में, वैस्पर!"
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "VESPER",
+  "radio": false,
+  "whisper": false,
+  "text": "वो बादल एक बड़े कान जैसा दिख रहा है.",
+  "el_text": "[curious] वो बादल एक बड़े कान जैसा दिख रहा है."
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "DADI MAYA",
+  "radio": false,
+  "whisper": false,
+  "text": "बहुत सुंदर देखा तूने. और अब बता, आज का अक्षर कौन सा है?",
+  "el_text": "[cheerfully] बहुत सुंदर देखा तूने. और अब बता, आज का अक्षर कौन सा है?"
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "VESPER",
+  "radio": false,
+  "whisper": false,
+  "text": "क.",
+  "el_text": "[curious] क."
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "DADI MAYA",
+  "radio": false,
+  "whisper": false,
+  "text": "शाबाश, वैस्पर. क. अब सब अपने कान खोलो. आज पूरे दिन हर जगह क ढूँढो.",
+  "el_text": "[cheerfully] शाबाश, वैस्पर. क. अब सब अपने कान खोलो. आज पूरे दिन हर जगह क ढूँढो."
+ },
+ {
+  "scene": "ep1-s1-akshar",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "मैं सबसे ज़्यादा और सबसे तेज़ क ढूँढूँगी!",
+  "el_text": "मैं सबसे ज़्यादा और सबसे तेज़ क ढूँढूँगी!"
+ },
+ {
+  "scene": "ep1-s2-pilla",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "मैंने कौआ ढूँढ लिया! कौआ भी तो क से है. मैं आगे हूँ.",
+  "el_text": "मैंने कौआ ढूँढ लिया! कौआ भी तो क से है. मैं आगे हूँ."
+ },
+ {
+  "scene": "ep1-s2-pilla",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "और कमल भी! वो पानी वाला कमल भी तो क से है ना?",
+  "el_text": "और कमल भी! वो पानी वाला कमल भी तो क से है ना?"
+ },
+ {
+  "scene": "ep1-s2-pilla",
+  "kind": "dialogue",
+  "who": "RADIO",
+  "radio": true,
+  "whisper": false,
+  "text": "ओ बालमवा, तू कहाँ रह गया, मैं दीया जलाए तेरी राह तकूँ...",
+  "el_text": "[softly] ओ बालमवा, तू कहाँ रह गया, मैं दीया जलाए तेरी राह तकूँ..."
+ },
+ {
+  "scene": "ep1-s2-pilla",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "वैस्पर, जल्दी चल. तू फिर पीछे रह गया.",
+  "el_text": "वैस्पर, जल्दी चल. तू फिर पीछे रह गया."
+ },
+ {
+  "scene": "ep1-s2-pilla",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "वैस्पर? तूने कोई क वाला शब्द ढूँढा क्या?",
+  "el_text": "वैस्पर? तूने कोई क वाला शब्द ढूँढा क्या?"
+ },
+ {
+  "scene": "ep1-s2-pilla",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "वैस्पर!",
+  "el_text": "वैस्पर!"
+ },
+ {
+  "scene": "ep1-s2-pilla",
+  "kind": "dialogue",
+  "who": "VESPER",
+  "radio": false,
+  "whisper": false,
+  "text": "वहाँ... कोई रो रहा है.",
+  "el_text": "[softly] वहाँ... कोई रो रहा है."
+ },
+ {
+  "scene": "ep1-s2-pilla",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "कहाँ? मैं पहले!",
+  "el_text": "कहाँ? मैं पहले!"
+ },
+ {
+  "scene": "ep1-s2-pilla",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": true,
+  "text": "अरे, तू यहाँ कीचड़ में फँस गया. मैं हूँ ना, रुक.",
+  "el_text": "[whispers] अरे, तू यहाँ कीचड़ में फँस गया. मैं हूँ ना, रुक."
+ },
+ {
+  "scene": "ep1-s2-pilla",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "डर मत, छोटू. मैं तुझे निकालता हूँ, धीरे धीरे, बस. देखो, देखो, कुछ नहीं होगा. तू बस थोड़ा रुक, मैं यहीं हूँ तेरे पास.",
+  "el_text": "डर मत, छोटू. मैं तुझे निकालता हूँ, धीरे धीरे, बस. देखो, देखो, कुछ नहीं होगा. तू बस थोड़ा रुक, मैं यहीं हूँ तेरे पास."
+ },
+ {
+  "scene": "ep1-s2-pilla",
+  "kind": "dialogue",
+  "who": "VESPER",
+  "radio": false,
+  "whisper": false,
+  "text": "देखो, a puppy. he is so small.",
+  "el_text": "[curious] देखो, a puppy. he is so small."
+ },
+ {
+  "scene": "ep1-s2-pilla",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "हिंदी में, वैस्पर!",
+  "el_text": "हिंदी में, वैस्पर!"
+ },
+ {
+  "scene": "ep1-s2-pilla",
+  "kind": "dialogue",
+  "who": "VESPER",
+  "radio": false,
+  "whisper": false,
+  "text": "वो कुत्ता कितना छोटा सा है.",
+  "el_text": "[curious] वो कुत्ता कितना छोटा सा है."
+ },
+ {
+  "scene": "ep1-s2-pilla",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "अरे, ये तो मुझे चाट रहा है. ये तो अब मेरा दोस्त हो गया. और तू तो पूरा काला है, बिलकुल काला. मैं तुझे कालू बुलाऊँगा, ठीक है?",
+  "el_text": "अरे, ये तो मुझे चाट रहा है. ये तो अब मेरा दोस्त हो गया. और तू तो पूरा काला है, बिलकुल काला. मैं तुझे कालू बुलाऊँगा, ठीक है?"
+ },
+ {
+  "scene": "ep1-s2-pilla",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "इसके कान तो देख, कितने नरम हैं और नीचे लटके हुए हैं.",
+  "el_text": "इसके कान तो देख, कितने नरम हैं और नीचे लटके हुए हैं."
+ },
+ {
+  "scene": "ep1-s2-pilla",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "भूख लगी है, कालू? ये केला ले ले, ये सबसे अच्छा वाला है, मेरा अपना है. अरे, तूने खाया ही नहीं?",
+  "el_text": "भूख लगी है, कालू? ये केला ले ले, ये सबसे अच्छा वाला है, मेरा अपना है. अरे, तूने खाया ही नहीं?"
+ },
+ {
+  "scene": "ep1-s2-pilla",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "कुत्ता केला नहीं खाता, कुकु.",
+  "el_text": "कुत्ता केला नहीं खाता, कुकु."
+ },
+ {
+  "scene": "ep1-s2-pilla",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "अच्छा, तुझे केला पसंद नहीं. फिर मैं तेरे लिए कुछ और ढूँढूँगा, कालू. देख, अब तू मेरे ही पास रहेगा.",
+  "el_text": "अच्छा, तुझे केला पसंद नहीं. फिर मैं तेरे लिए कुछ और ढूँढूँगा, कालू. देख, अब तू मेरे ही पास रहेगा."
+ },
+ {
+  "scene": "ep1-s3-chhupam",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "कालू, नीचे आ जा, धीरे. बिलकुल चुप रह, पापा अभी अंदर ही हैं. अरे, तू फिर कूद गया. इतना मत कूद, कालू, गिर जाएगा.",
+  "el_text": "कालू, नीचे आ जा, धीरे. बिलकुल चुप रह, पापा अभी अंदर ही हैं. अरे, तू फिर कूद गया. इतना मत कूद, कालू, गिर जाएगा."
+ },
+ {
+  "scene": "ep1-s3-chhupam",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "सुन, कालू का बिस्तर यहाँ बनाते हैं, इस कंबल पर. मैं सबसे तेज़ बना दूँगी.",
+  "el_text": "सुन, कालू का बिस्तर यहाँ बनाते हैं, इस कंबल पर. मैं सबसे तेज़ बना दूँगी."
+ },
+ {
+  "scene": "ep1-s3-chhupam",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "नहीं नहीं, कीचड़ में मत लोट. अभी अभी तो तुझे साफ़ किया था. फिर से गंदा हो गया. तू बस एक मिनट रुक जा.",
+  "el_text": "नहीं नहीं, कीचड़ में मत लोट. अभी अभी तो तुझे साफ़ किया था. फिर से गंदा हो गया. तू बस एक मिनट रुक जा."
+ },
+ {
+  "scene": "ep1-s3-chhupam",
+  "kind": "dialogue",
+  "who": "RADIO",
+  "radio": true,
+  "whisper": false,
+  "text": "दोपहर तक मौसम साफ़ रहेगा, खेतों में काम का अच्छा दिन रहेगा...",
+  "el_text": "दोपहर तक मौसम साफ़ रहेगा, खेतों में काम का अच्छा दिन रहेगा..."
+ },
+ {
+  "scene": "ep1-s3-chhupam",
+  "kind": "dialogue",
+  "who": "PAPA",
+  "radio": false,
+  "whisper": false,
+  "text": "कुकु? ये इतना शोर कैसा है? सब ठीक तो है?",
+  "el_text": "कुकु? ये इतना शोर कैसा है? सब ठीक तो है?"
+ },
+ {
+  "scene": "ep1-s3-chhupam",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "हाँ पापा, सब ठीक है. हम बस थोड़ा खेल रहे हैं.",
+  "el_text": "हाँ पापा, सब ठीक है. हम बस थोड़ा खेल रहे हैं."
+ },
+ {
+  "scene": "ep1-s3-chhupam",
+  "kind": "dialogue",
+  "who": "PAPA",
+  "radio": false,
+  "whisper": false,
+  "text": "अच्छा. ज़्यादा गंदगी मत करना, मुझे अभी बहुत काम है.",
+  "el_text": "अच्छा. ज़्यादा गंदगी मत करना, मुझे अभी बहुत काम है."
+ },
+ {
+  "scene": "ep1-s3-chhupam",
+  "kind": "dialogue",
+  "who": "CHEEKU",
+  "radio": false,
+  "whisper": false,
+  "text": "कुत्ता! कुत्ता!",
+  "el_text": "[giggling] [excited] कुत्ता! कुत्ता!"
+ },
+ {
+  "scene": "ep1-s3-chhupam",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "मैं पहले! आ गया तू मेरे पास, कुछ नहीं हुआ.",
+  "el_text": "मैं पहले! आ गया तू मेरे पास, कुछ नहीं हुआ."
+ },
+ {
+  "scene": "ep1-s3-chhupam",
+  "kind": "dialogue",
+  "who": "CHEEKU",
+  "radio": false,
+  "whisper": false,
+  "text": "फिर! फिर!",
+  "el_text": "[giggling] [excited] फिर! फिर!"
+ },
+ {
+  "scene": "ep1-s3-chhupam",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "अरे, दादी के सारे कटोरे गिर गए. जल्दी इनको उठाओ, कोई सुन लेगा.",
+  "el_text": "अरे, दादी के सारे कटोरे गिर गए. जल्दी इनको उठाओ, कोई सुन लेगा."
+ },
+ {
+  "scene": "ep1-s3-chhupam",
+  "kind": "dialogue",
+  "who": "VESPER",
+  "radio": false,
+  "whisper": false,
+  "text": "देखो, a butterfly. वो कितनी...",
+  "el_text": "[curious] देखो, a butterfly. वो कितनी..."
+ },
+ {
+  "scene": "ep1-s3-chhupam",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "हिंदी में, वैस्पर! और गेट पर ध्यान दे!",
+  "el_text": "[excited] हिंदी में, वैस्पर! और गेट पर ध्यान दे!"
+ },
+ {
+  "scene": "ep1-s3-chhupam",
+  "kind": "dialogue",
+  "who": "VESPER",
+  "radio": false,
+  "whisper": false,
+  "text": "वो तितली कितनी सफ़ेद है.",
+  "el_text": "[curious] वो तितली कितनी सफ़ेद है."
+ },
+ {
+  "scene": "ep1-s3-chhupam",
+  "kind": "dialogue",
+  "who": "PAPA",
+  "radio": false,
+  "whisper": false,
+  "text": "ये कटोरे बाद में सीधे रख देना, बेटा. मैं खेत जा रहा हूँ.",
+  "el_text": "ये कटोरे बाद में सीधे रख देना, बेटा. मैं खेत जा रहा हूँ."
+ },
+ {
+  "scene": "ep1-s3-chhupam",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "हाँ पापा, मैं सब रख दूँगा. पापा शायद ठीक ही कहते थे. कितना काम है ये सब.",
+  "el_text": "[sad] हाँ पापा, मैं सब रख दूँगा. पापा शायद ठीक ही कहते थे. कितना काम है ये सब."
+ },
+ {
+  "scene": "ep1-s3-chhupam",
+  "kind": "dialogue",
+  "who": "VESPER",
+  "radio": false,
+  "whisper": false,
+  "text": "देख, वो तेरे ऊपर ही सो गया है.",
+  "el_text": "[curious] देख, वो तेरे ऊपर ही सो गया है."
+ },
+ {
+  "scene": "ep1-s3-chhupam",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": true,
+  "text": "कालू मेरा है.",
+  "el_text": "[whispers] कालू मेरा है."
+ },
+ {
+  "scene": "ep1-s4-bachaav",
+  "kind": "dialogue",
+  "who": "RADIO",
+  "radio": true,
+  "whisper": false,
+  "text": "अँधेरा उतरने लगा है, पंछी घर को लौट चले, दीये जल उठे हैं...",
+  "el_text": "[softly] अँधेरा उतरने लगा है, पंछी घर को लौट चले, दीये जल उठे हैं..."
+ },
+ {
+  "scene": "ep1-s4-bachaav",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "आज आराम से चल, कालू. आज हम भागदौड़ नहीं करेंगे, बस थोड़ा टहलेंगे. वो कबूतर है, उसको रहने दे. कालू, रुक जा. कालू, वहाँ मत कूद! कालू! नहीं, नहीं, कुएँ में मत गिर!",
+  "el_text": "[shouting] आज आराम से चल, कालू. आज हम भागदौड़ नहीं करेंगे, बस थोड़ा टहलेंगे. वो कबूतर है, उसको रहने दे. कालू, रुक जा. कालू, वहाँ मत कूद! कालू! नहीं, नहीं, कुएँ में मत गिर!"
+ },
+ {
+  "scene": "ep1-s4-bachaav",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "हट, मैं पहले! मैं निकालती हूँ उसको अभी! मेरे हाथ छोटे पड़ रहे हैं, पहुँच ही नहीं रहे उस तक. मुझसे नहीं हो रहा.",
+  "el_text": "[shouting] हट, मैं पहले! मैं निकालती हूँ उसको अभी! मेरे हाथ छोटे पड़ रहे हैं, पहुँच ही नहीं रहे उस तक. मुझसे नहीं हो रहा."
+ },
+ {
+  "scene": "ep1-s4-bachaav",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": true,
+  "text": "तू कर, कुकु. आज तू पहले.",
+  "el_text": "[whispers] तू कर, कुकु. आज तू पहले."
+ },
+ {
+  "scene": "ep1-s4-bachaav",
+  "kind": "dialogue",
+  "who": "VESPER",
+  "radio": false,
+  "whisper": false,
+  "text": "something has to reach down. from up... like a hook.",
+  "el_text": "[curious] something has to reach down. from up... like a hook."
+ },
+ {
+  "scene": "ep1-s4-bachaav",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "हिंदी में, वैस्पर!",
+  "el_text": "हिंदी में, वैस्पर!"
+ },
+ {
+  "scene": "ep1-s4-bachaav",
+  "kind": "dialogue",
+  "who": "VESPER",
+  "radio": false,
+  "whisper": false,
+  "text": "ऊपर से कोई हुक जैसी चीज़ नीचे जाए.",
+  "el_text": "[curious] ऊपर से कोई हुक जैसी चीज़ नीचे जाए."
+ },
+ {
+  "scene": "ep1-s4-bachaav",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "अभी नहीं! ये तो अधूरा है, अभी क नहीं बना!",
+  "el_text": "[excited] अभी नहीं! ये तो अधूरा है, अभी क नहीं बना!"
+ },
+ {
+  "scene": "ep1-s4-bachaav",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "नहीं बन रहा, हाथ काँप रहे हैं मेरे. मुझसे शायद नहीं होगा.",
+  "el_text": "[scared] नहीं बन रहा, हाथ काँप रहे हैं मेरे. मुझसे शायद नहीं होगा."
+ },
+ {
+  "scene": "ep1-s4-bachaav",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "होगा, तू बस कर. सुन मेरी बात, मेरे साथ बोल. साँस, टोपी, अक्षर.",
+  "el_text": "[determined] होगा, तू बस कर. सुन मेरी बात, मेरे साथ बोल. साँस, टोपी, अक्षर."
+ },
+ {
+  "scene": "ep1-s4-bachaav",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "साँस... टोपी... अक्षर! क! आ गया, आ गया तू मेरे पास. पकड़ लिया मैंने तुझे, कालू.",
+  "el_text": "[excited] [shouting] साँस... टोपी... अक्षर! क! आ गया, आ गया तू मेरे पास. पकड़ लिया मैंने तुझे, कालू."
+ },
+ {
+  "scene": "ep1-s4-bachaav",
+  "kind": "dialogue",
+  "who": "PAPA",
+  "radio": false,
+  "whisper": false,
+  "text": "कुकु...",
+  "el_text": "कुकु..."
+ },
+ {
+  "scene": "ep1-s5-kalu-ghar",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "पापा, मैंने आपको बताया नहीं था, ये कालू, मैंने इसको कुएँ के पास से निकाला था, और छुपाया भी, और दादी के कटोरे भी इसी ने गिराए थे, सब मेरी गलती है, मैं...",
+  "el_text": "पापा, मैंने आपको बताया नहीं था, ये कालू, मैंने इसको कुएँ के पास से निकाला था, और छुपाया भी, और दादी के कटोरे भी इसी ने गिराए थे, सब मेरी गलती है, मैं..."
+ },
+ {
+  "scene": "ep1-s5-kalu-ghar",
+  "kind": "dialogue",
+  "who": "PAPA",
+  "radio": false,
+  "whisper": false,
+  "text": "बस, बेटा, रुक जा. इतना हाँफ मत, कुछ नहीं हुआ है. मैं कुएँ पर ही था. मैंने सब देख लिया, तेरी वो क भी देख ली. सुबह मैंने ना कहा था. वो ना अब नहीं है. कालू तेरा है, कुकु.",
+  "el_text": "[gently] बस, बेटा, रुक जा. इतना हाँफ मत, कुछ नहीं हुआ है. मैं कुएँ पर ही था. मैंने सब देख लिया, तेरी वो क भी देख ली. सुबह मैंने ना कहा था. वो ना अब नहीं है. कालू तेरा है, कुकु."
+ },
+ {
+  "scene": "ep1-s5-kalu-ghar",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "सच में, पापा? कालू अब सच में मेरा हो गया?",
+  "el_text": "[excited] सच में, पापा? कालू अब सच में मेरा हो गया?"
+ },
+ {
+  "scene": "ep1-s5-kalu-ghar",
+  "kind": "dialogue",
+  "who": "PAPA",
+  "radio": false,
+  "whisper": false,
+  "text": "हाँ, वो तेरा ही है. अब अपने कुत्ते का ध्यान रखना, ये तेरा काम है.",
+  "el_text": "[gently] हाँ, वो तेरा ही है. अब अपने कुत्ते का ध्यान रखना, ये तेरा काम है."
+ },
+ {
+  "scene": "ep1-s5-kalu-ghar",
+  "kind": "dialogue",
+  "who": "PAPA",
+  "radio": false,
+  "whisper": true,
+  "text": "मैंने देखा, कुकु. तूने कैसे उठाया उसको ऊपर.",
+  "el_text": "[gently] मैंने देखा, कुकु. तूने कैसे उठाया उसको ऊपर."
+ },
+ {
+  "scene": "ep1-s5-kalu-ghar",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "हो गया, कालू का कटोरा भर दिया और कंबल भी बिछा दिया. मैं पहले! सबसे तेज़ मैंने ही किया!",
+  "el_text": "[excited] हो गया, कालू का कटोरा भर दिया और कंबल भी बिछा दिया. मैं पहले! सबसे तेज़ मैंने ही किया!"
+ },
+ {
+  "scene": "ep1-s5-kalu-ghar",
+  "kind": "dialogue",
+  "who": "VESPER",
+  "radio": false,
+  "whisper": false,
+  "text": "देखो, a banana. कालू के लिए.",
+  "el_text": "[curious] देखो, a banana. कालू के लिए."
+ },
+ {
+  "scene": "ep1-s5-kalu-ghar",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "हिंदी में, वैस्पर!",
+  "el_text": "हिंदी में, वैस्पर!"
+ },
+ {
+  "scene": "ep1-s5-kalu-ghar",
+  "kind": "dialogue",
+  "who": "VESPER",
+  "radio": false,
+  "whisper": false,
+  "text": "कालू के लिए केला लाया हूँ मैं.",
+  "el_text": "[curious] कालू के लिए केला लाया हूँ मैं."
+ },
+ {
+  "scene": "ep1-s5-kalu-ghar",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "कुत्ता केला नहीं खाता!",
+  "el_text": "कुत्ता केला नहीं खाता!"
+ },
+ {
+  "scene": "ep1-s5-kalu-ghar",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "वैस्पर, कुत्ता केला नहीं खाता!",
+  "el_text": "वैस्पर, कुत्ता केला नहीं खाता!"
+ },
+ {
+  "scene": "ep1-s5-kalu-ghar",
+  "kind": "dialogue",
+  "who": "PAPA",
+  "radio": false,
+  "whisper": false,
+  "text": "कुत्ता केला नहीं खाता, बेटा.",
+  "el_text": "[gently] कुत्ता केला नहीं खाता, बेटा."
+ },
+ {
+  "scene": "ep1-s5-kalu-ghar",
+  "kind": "dialogue",
+  "who": "VESPER",
+  "radio": false,
+  "whisper": false,
+  "text": "अच्छा... तो फिर केला मैं ही खा लेता हूँ.",
+  "el_text": "[curious] अच्छा... तो फिर केला मैं ही खा लेता हूँ."
+ },
+ {
+  "scene": "ep1-s5-kalu-ghar",
+  "kind": "dialogue",
+  "who": "RADIO",
+  "radio": true,
+  "whisper": false,
+  "text": "रात हो चली है, तारे निकल आए, सब अपने अपने घर में...",
+  "el_text": "[softly] रात हो चली है, तारे निकल आए, सब अपने अपने घर में..."
+ },
+ {
+  "scene": "ep1-s5-kalu-ghar",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "अब तू हमेशा यहीं मेरे पास रहेगा, कालू.",
+  "el_text": "अब तू हमेशा यहीं मेरे पास रहेगा, कालू."
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "DADI MAYA",
+  "radio": false,
+  "whisper": false,
+  "text": "तो बताओ ज़रा, आज पूरे दिन में क से क्या क्या मिला तुम्हें? क से?",
+  "el_text": "तो बताओ ज़रा, आज पूरे दिन में क से क्या क्या मिला तुम्हें? क से?"
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "कुत्ता! क से कुत्ता, ये मेरा कालू है.",
+  "el_text": "कुत्ता! क से कुत्ता, ये मेरा कालू है."
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "और काला! कालू तो बिलकुल काला है, मैंने पहले बोला!",
+  "el_text": "[excited] और काला! कालू तो बिलकुल काला है, मैंने पहले बोला!"
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "DADI MAYA",
+  "radio": false,
+  "whisper": false,
+  "text": "शाबाश. और क से और क्या मिला?",
+  "el_text": "[cheerfully] शाबाश. और क से और क्या मिला?"
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "कान! उसके कान बहुत नरम हैं और नीचे को लटके हुए हैं.",
+  "el_text": "कान! उसके कान बहुत नरम हैं और नीचे को लटके हुए हैं."
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "कीचड़! उसी कीचड़ में तो वो फँस गया था.",
+  "el_text": "कीचड़! उसी कीचड़ में तो वो फँस गया था."
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "DADI MAYA",
+  "radio": false,
+  "whisper": false,
+  "text": "हाँ, और वो जगह जहाँ से तुमने उसको निकाला था?",
+  "el_text": "हाँ, और वो जगह जहाँ से तुमने उसको निकाला था?"
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "कुआँ! वो पुराना वाला कुआँ था.",
+  "el_text": "कुआँ! वो पुराना वाला कुआँ था."
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "और कटोरा भी, मैंने उसका कटोरा भरा था, और कंबल भी बिछाया.",
+  "el_text": "और कटोरा भी, मैंने उसका कटोरा भरा था, और कंबल भी बिछाया."
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "DADI MAYA",
+  "radio": false,
+  "whisper": false,
+  "text": "और वो चीज़ जो कालू ने खाने से मना कर दिया?",
+  "el_text": "और वो चीज़ जो कालू ने खाने से मना कर दिया?"
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "केला! कुत्ता केला नहीं खाता!",
+  "el_text": "[excited] केला! कुत्ता केला नहीं खाता!"
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "DADI MAYA",
+  "radio": false,
+  "whisper": false,
+  "text": "और याद है, हर अक्षर के सिर पर क्या होता है?",
+  "el_text": "और याद है, हर अक्षर के सिर पर क्या होता है?"
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "टोपी!",
+  "el_text": "टोपी!"
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "DADI MAYA",
+  "radio": false,
+  "whisper": false,
+  "text": "हाँ, हिंदी का हर अक्षर टोपी पहनता है.",
+  "el_text": "हाँ, हिंदी का हर अक्षर टोपी पहनता है."
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "FURIA",
+  "radio": false,
+  "whisper": false,
+  "text": "रुको, मैं आज का अक्षर अपनी किताब में लिखूँगी. मैं पहले! देखो, हो गया! मैंने सबसे पहले लिखा, क!",
+  "el_text": "[excited] रुको, मैं आज का अक्षर अपनी किताब में लिखूँगी. मैं पहले! देखो, हो गया! मैंने सबसे पहले लिखा, क!"
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": false,
+  "text": "अच्छा लिखा तूने, ऊपर टोपी वाला हिस्सा बिलकुल सही बनाया.",
+  "el_text": "अच्छा लिखा तूने, ऊपर टोपी वाला हिस्सा बिलकुल सही बनाया."
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "DADI MAYA",
+  "radio": false,
+  "whisper": false,
+  "text": "चलो अब, सब सो जाओ. शुभ रात्रि कुकु, शुभ रात्रि फूरिया. और वैस्पर कहाँ चला गया? वैस्पर?",
+  "el_text": "[softly] चलो अब, सब सो जाओ. शुभ रात्रि कुकु, शुभ रात्रि फूरिया. और वैस्पर कहाँ चला गया? वैस्पर?"
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "KUKU",
+  "radio": false,
+  "whisper": true,
+  "text": "वो तो कब का कालू के साथ कंबल पर सो गया, दादी.",
+  "el_text": "[whispers] वो तो कब का कालू के साथ कंबल पर सो गया, दादी."
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "RADIO",
+  "radio": true,
+  "whisper": false,
+  "text": "अक्षर घाटी सो गई है, तारे जले हैं ऊपर...",
+  "el_text": "[softly] अक्षर घाटी सो गई है, तारे जले हैं ऊपर..."
+ },
+ {
+  "scene": "ep1-s6-topi",
+  "kind": "dialogue",
+  "who": "DADI MAYA",
+  "radio": false,
+  "whisper": false,
+  "text": "शुभ रात्रि, वैस्पर.",
+  "el_text": "[softly] शुभ रात्रि, वैस्पर."
+ }
+]

@@ -1,0 +1,10 @@
+{
+  "id": "ep1-s2-pilla",
+  "slug": "EXT. AKSHAR GHAATI - THE OLD WELL - DAY",
+  "seedHash": "35f8a5f2175d926cc8e5c05c85467514125fae379b0217a06229e4995020820d",
+  "sceneHash": "08fe5ccb4c864fc0fbc85fe51637f3ae3755c5aa30d51f81ab36d06cf5a03dd3",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}

@@ -1,0 +1,7 @@
+file 'dadi_gungun_v3.mp3'
+file 'gap2.mp3'
+file 'kuku_A_amit.mp3'
+file 'gap2.mp3'
+file 'kuku_B_mini.mp3'
+file 'gap2.mp3'
+file 'kuku_C_vardan.mp3'

@@ -1,0 +1,41 @@
+kuku-ep1-k — EXT. AKSHAR GHAATI (LETTER VALLEY) - MORNING
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep1-k.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The sun comes up over the green valley. Dadi Maya, an old dragon with soft grey scales, sets a small clay lamp on a flat rock and waves Kuku over.
+DADI MAYA: कुकु, आ जा।
+ACTION: Kuku, a round little dragon barely knee-high, runs up to the lamp. Cheeku, a skinny fast dragonling, tumbles into the grass behind him.
+KUKU: दादी, आग!
+DADI MAYA: हाँ, आग। दीया जला दे।
+ACTION: Kuku puffs out his cheeks and blows hard at the lamp. Only a thin curl of grey smoke drifts out.
+KUKU: फिर से।
+ACTION: He blows again, and again just a little cough of smoke comes out. The lamp stays dark and cold.
+CHEEKU: कुकु! धुआँ! धुआँ!
+ACTION: Cheeku giggles and rolls over in the grass, kicking his short legs in the air.
+KUKU: मेरी आग नहीं आती।
+ACTION: Kuku sits down on the rock and looks at his own two feet.
+KUKU: कुकु आग नहीं।
+DADI MAYA: कुकु, इधर देख।
+DADI MAYA: आग रहने दे।
+DADI MAYA: तुझे क्या अच्छा लगता है?
+KUKU: दोस्त। चीकू। माँ।
+DADI MAYA: दोस्त? बहुत अच्छा।
+DADI MAYA: अब वही सोच, कुकु।
+DADI MAYA: फिर से कोशिश कर।
+ACTION: Dadi Maya leans her big head down close to Kuku, so Cheeku out in the grass can't hear.
+DADI MAYA (WHISPER): तू कर सकता है, कुकु।
+ACTION: Kuku looks over at Cheeku. He shuts his eyes and pulls in one big, slow breath that puffs his whole round belly out.
+KUKU: कुकु... फिर से।
+ACTION: He breathes out toward the sky. No fire comes. A glowing golden shape floats up out of his mouth and hangs in the air over the rock.
+CHEEKU: देखो! देखो!
+ACTION: Cheeku scrambles up and points at the shape in the sky.
+KUKU: मेरा? मेरा है?
+DADI MAYA: हाँ कुकु, तेरा है।
+DADI MAYA: ये अक्षर है। ये "क" है।
+KUKU: क?
+DADI MAYA: क। कुकु का क।
+ACTION: The glowing क drifts down low over the little clay lamp and fills the whole rock with warm golden light.
+KUKU: देखो! क! मेरा क!
+CHEEKU: फिर से कुकु! फिर से!
+DADI MAYA: शाबाश कुकु।
+KUKU: कुकु का क!
