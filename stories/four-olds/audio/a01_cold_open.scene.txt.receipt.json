@@ -1,8 +1,8 @@
 {
-  "id": "audio-sc01_cold_open",
-  "slug": "SCENE 1. INT. CABLE NEWS STUDIO - NIGHT",
-  "seedHash": "6d58cf2c1bcab20fee840d2fbe7a26626a535ff85a89ae4485f6a945b3cb9b6f",
-  "sceneHash": "bdf269c1a9c2a8be2b03b1ad16e9bf1d677d7fa56f0b60d16748314b0ae15ada",
+  "id": "audio-01-cold-open-v10",
+  "slug": "SCENE 1. THE COLD OPEN - BROADCAST MONTAGE",
+  "seedHash": "33743dcabc84470523fa2559c394c21c29dbc930916faf5ea76e22f296e61d2c",
+  "sceneHash": "bcb78a3e5717dfba321356bb4abdfd586ad569ce7d011b3e748d013d90fff2f5",
   "gate": "PASS",
   "dialogue": "LIFTED",
   "attempts": "1",

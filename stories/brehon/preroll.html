@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brehon — cold open cards</title>
+<style>
+/* natively sized for the 960x2000 capture viewport — no zoom tricks */
+* { margin:0; padding:0; box-sizing:border-box; }
+html,body { height:100%; overflow:hidden; }
+body { background:#000; color:#EDEDEA; }
+.stage { position:relative; width:100%; max-width:780px; height:100dvh; margin:0 auto; }
+.card { position:absolute; inset:0; display:flex; flex-direction:column; justify-content:center;
+        padding:0 72px; opacity:0; transition:opacity .8s ease; }
+.card.on { opacity:1; }
+.kicker { font-family:Helvetica,sans-serif; font-size:18px; letter-spacing:.22em; font-weight:700;
+          opacity:.55; margin-bottom:36px; }
+.big { font-family:Palatino,Georgia,serif; font-size:54px; line-height:1.25; }
+.big .mark { border-bottom:5px solid #EDEDEA; padding-bottom:2px; }
+.huge { font-family:Palatino,Georgia,serif; font-size:88px; line-height:1.1; }
+.sub { font-family:Helvetica,sans-serif; font-size:22px; letter-spacing:.08em; opacity:.7; margin-top:40px; }
+.quiet { font-family:Palatino,Georgia,serif; font-style:italic; font-size:42px; line-height:1.45; }
+.rule { width:88px; border-top:2px solid #EDEDEA; opacity:.4; margin:44px 0 0; }
+</style></head>
+<body>
+<div class="stage">
+  <div class="card" id="c1">
+    <div class="kicker">DECEMBER 2012 · WIKIPEDIA</div>
+    <div class="big">Star Trek <span class="mark">I</span>nto Darkness</div>
+    <div class="rule"></div>
+    <div class="sub">capital I, or small i?</div>
+  </div>
+  <div class="card" id="c2">
+    <div class="huge">40,000<br>words</div>
+    <div class="rule"></div>
+    <div class="sub">TWO MONTHS · ONE LETTER</div>
+  </div>
+  <div class="card" id="c3">
+    <div class="kicker">NOT LONG AGO · A MAJOR ART FORUM</div>
+    <div class="big">A moderator banned an artist. The protest took down every moderator.</div>
+    <div class="rule"></div>
+    <div class="sub">NO REASONS ON THE RECORD</div>
+  </div>
+  <div class="card" id="c4">
+    <div class="quiet">What if a disagreement online could end the way disputes over real things do?</div>
+  </div>
+</div>
+<script>
+function showCard(n){
+  for (var i=1;i<=4;i++){ document.getElementById('c'+i).classList.remove('on'); }
+  document.getElementById('c'+n).classList.add('on');
+}
+</script>
+</body></html>

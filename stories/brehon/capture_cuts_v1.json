@@ -1,0 +1,21 @@
+[
+  {"beat":"b0_c1","startMs":500,"holdMs":16000},
+  {"beat":"b0_c2","startMs":16500,"holdMs":14000},
+  {"beat":"b0_c3","startMs":30500,"holdMs":16000},
+  {"beat":"b0_c4","startMs":46500,"holdMs":14000},
+  {"beat":"b1_record","startMs":60900,"holdMs":24000},
+  {"beat":"b2_signin","startMs":84900,"holdMs":6000},
+  {"beat":"b3_game","startMs":90900,"holdMs":4000},
+  {"beat":"b3_rule","startMs":94900,"holdMs":13000},
+  {"beat":"b4_jaws","startMs":107900,"holdMs":26000},
+  {"beat":"b5_rate","startMs":133900,"holdMs":10000},
+  {"beat":"b6_reveal","startMs":143900,"holdMs":20000},
+  {"beat":"b7_mark","startMs":163900,"holdMs":12000},
+  {"beat":"b7_wand","startMs":175900,"holdMs":11000},
+  {"beat":"b8_thread","startMs":186900,"holdMs":18000},
+  {"beat":"b9_demand","startMs":204900,"holdMs":18000},
+  {"beat":"b10_bond","startMs":222900,"holdMs":20000},
+  {"beat":"b11_transcript","startMs":242900,"holdMs":16000},
+  {"beat":"b12_ruling","startMs":258900,"holdMs":36000},
+  {"beat":"b13_return","startMs":294900,"holdMs":26000}
+]

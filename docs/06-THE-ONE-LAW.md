@@ -32,10 +32,12 @@ makes a line elegant is the same instinct that makes it false. Plainness over el
 
 ## How it is enforced (two layers)
 
-1. **craftlint** (`metaphrand/craftlint.py`) — the **mechanical floor**. Deterministic detection of
-   the enumerable tells (em-dash density, banned phrases, obvious two-word punches in narration).
+1. **craftlint** (`studio/src/Gate.res` — violation kinds live in the type system; the output stage
+   only accepts proven-clean text via `Pipeline.res`; device regexes in `Craft.res`) — the
+   **mechanical floor**. Deterministic detection of the enumerable tells (em-dash density, banned
+   phrases, obvious two-word punches in narration).
    Necessary, never sufficient. **Do not keep growing it** to chase the tail; that is the mistake.
-2. **the naturalness gate** (`metaphrand/naturalness.py`) — the **ceiling**. A model running as a
+2. **the naturalness gate** (`studio/src/Judge.res`) — the **ceiling**. A model running as a
    *harsh editor, not a generator* applies the Law to every line and flags whatever is arranged for
    effect, writing a per-line audit to `<story>/.passes/`. This is the layer that catches the tail.
 

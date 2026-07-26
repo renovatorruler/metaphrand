@@ -1,9 +1,10 @@
 # Scene Craft — The Mercurio Rubric
 
-*The structured scene gate. Where `drama.py` (Mamet) asks "is this scene a fight?" and `showing.py` /
+*The structured scene gate. Where the drama gate (Mamet — `DramaGate` at conception, the Drama judge in
+`Judge.res` on written scenes) asks "is this scene a fight?" and `Showing.res` /
 clear-pane ask "is it shown, not told?", this asks Jim Mercurio's question: **is each scene a complete
 story that changes both the plot and a person?** Grounded in Mercurio, not paraphrase. Enforced by
-`metaphrand/scene_craft.py` — a fixed rubric run by the local model, per-criterion, so a clean scene is
+`studio/src/SceneCraft.res` — a fixed rubric run per criterion, so a clean scene is
 shown, not claimed.*
 
 ## The thesis (grounded)
@@ -47,15 +48,15 @@ The local model judges each scene against these. CORE criteria fail the gate; th
    mounting pressure; the hero gets it for free.
 
 **Not in this gate (handled elsewhere — do not duplicate):** the fight — want / wall / cost / clock —
-is `drama.py` (Mamet, `drama-enhancer`). Subtext / on-the-nose / talking-heads is `showing.py` + the
+is the drama gate (Mamet, `drama-enhancer`). Subtext / on-the-nose / talking-heads is `Showing.res` + the
 clear-pane skill. Mercurio's own subtext and "write cinematically" chapters live there; this gate stays on
 his distinct contribution — the two changes, the set-up reversal, the beats.
 
 ## How it runs
 
-`metaphrand/scene_craft.py` (`audit / report / gate`, like `naturalness.py`): split a script into scenes,
+`studio/src/SceneCraft.res` (`audit / report / gate`, like `Judge.res`): split a script into scenes,
 run the rubric per scene, emit a per-criterion verdict. A scene passes when all CORE criteria pass; the
-flags feed the editor (`editor.py`) or the human, who is the stop.
+flags feed the stateful editor (the warm `Session`) or the human, who is the stop.
 
 ## Credit & sources
 

@@ -4,7 +4,9 @@ Every distinct writing problem the system gates against, deduped and grouped the
 
 Tag on each item: **[code]** = a regex/parser catches it deterministically · **[judge]** = needs an LLM critic · **[code+judge]** = both.
 
-Sources swept: `metaphrand/` (passes, craftlint, naturalness, showing, concreteness, embodiment, density, heart, dossier, blind_attribution, cinema, drama, scene_craft, weave, world, doorways, kishotenketsu, arrangement, canon, editor), `examples/prose_gates.py`, `docs/01–07`, and the skills (humanizer, clear-pane, drama-enhancer, screenplay-humanizer, writing-style) + memory.
+Sources swept: the old `metaphrand/` Python package (deleted 2026-07-10), `examples/prose_gates.py` (deleted), `docs/01–07`, and the skills (humanizer, clear-pane, drama-enhancer, screenplay-humanizer, writing-style) + memory.
+
+**Runner mapping (2026-07-15 — the Python enforcers this doc cites now live in `studio/src/`):** craftlint → `Gate.res` (+`Craft.res` devices, `Pipeline.res` proven-clean output) · naturalness → `Judge.res` · showing/concreteness → `Showing.res` / `Concreteness.res` · density → `Density.res` · heart → `Heart.res` · drama → `DramaGate.res` (conception) + the Drama judge in `Judge.res` (written scenes) · scene_craft → `SceneCraft.res` · preflight → `Preflight.res` · blind_attribution → `BlindAttribution.res` · expository tells → `Tells.res`/`TellsGate.res`. Still unported: doorways, weave/world, dossier, arrangement, canon runners (laws hold in docs; conception-level coverage via `DramaGate`). A `[code: X.py]` tag below reads as the mapped `.res` module.
 
 The six you keep coming back to most: **punchy/staccato prose**, **the telling narrator (show-not-tell)**, **shrink-wrap**, **the appended fact**, **every character sounding the same**, and **presenting things to you that aren't self-contained.**
 

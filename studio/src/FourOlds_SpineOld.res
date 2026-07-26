@@ -1,0 +1,216 @@
+/* THE FOUR OLDS - the SAFE outline (2026-07-14), encoded honestly as the
+   proving case for DramaGate. This is the spine the author tore apart:
+   buddies parked on a radio, a reasonable man inside the regime, the want
+   shrunk to a ritual, no opposition at the climax. Where the outline had no
+   ground truth, the field is empty - it was never written, and that is the
+   finding. Where a beat pair's only honest label was AND THEN, the type
+   forced a lie; those are marked. */
+
+let spine: DramaCards.spine = {
+  story: "FOUR OLDS - safe outline (pre-audit)",
+  truth: {
+    premise: {
+      x: "A ritual kept faithfully for fifty years",
+      leadsTo: "leads to",
+      y: "the real flight arriving as a reward",
+    },
+    argument: {
+      claim: "The old America deserves keeping",
+      antithesis: "Optics.", /* the regime's whole inner life was one aide flinching */
+    },
+    designingPrinciple: "", /* never written */
+    lighthouse: "", /* never written */
+    authorialStake: "", /* never declared */
+    contestedObject: {
+      object_: "None shared - the regime wants the flags down; the four want a private appointment kept.",
+      whyBothCannotHave: "", /* never written, because both could */
+    },
+    opponentPlan: [
+      "Announce the flag removal as healing",
+      "Manage the public-relations fallout",
+    ],
+  },
+  opening: {
+    id: "a01_mandate",
+    summary: "Marwani mandates the Moon-flag removal as national healing; a compliance man argues the optics.",
+    povWant: "Marwani wants the removal framed as healing before the cameras",
+    obstacle: "his own compliance man balks at enraging the heartland",
+    fortune: 0,
+    stakes: 3,
+    question: "Will anyone out there actually care?",
+  },
+  beats: [
+    {
+      id: "a02_appointment",
+      edge: But,
+      cause: ThirdParty,
+      summary: "Danny presses his father to sign the farm sale and quit the barn; Cricket answers the mic instead.",
+      povWant: "Danny wants his father to sign the papers and come inside",
+      obstacle: "Cricket will not break the rehearsal to have it out",
+      fortune: 0,
+      stakes: 3,
+      antagonistAction: None,
+      question: "How long can a man keep an appointment nobody else remembers?",
+    },
+    {
+      id: "a03_news",
+      edge: Therefore,
+      cause: ThirdParty,
+      summary: "The removal news reaches the barn net; Cricket says the word: then we go.",
+      povWant: "Gunny wants Cricket to treat the removal as the call",
+      obstacle: "Dutch's list of impossibilities; their age; the law",
+      fortune: -1,
+      stakes: 4,
+      antagonistAction: None,
+      question: "How do four old men reach the Moon?",
+    },
+    {
+      id: "a04_recruit",
+      edge: Therefore,
+      cause: Protagonist,
+      summary: "The four talk Mack into the flag-return crates; Tito signs on to watch them fail.",
+      povWant: "The four want Mack to slip them aboard in the crates",
+      obstacle: "Mack stands to lose everything; Tito thinks they are a joke",
+      fortune: 1,
+      stakes: 4,
+      antagonistAction: None,
+      question: "Can they actually get sealed in before the doors close?",
+    },
+    {
+      id: "a05_launch",
+      edge: Therefore,
+      cause: Protagonist,
+      summary: "Sealed in the crates, nearly caught at pre-flight, one falters - and the rocket lifts.",
+      povWant: "Get aboard and off the ground before anyone opens a crate",
+      obstacle: "a pre-flight check one row away; an old body failing at the worst moment",
+      fortune: 2,
+      stakes: 5,
+      antagonistAction: None,
+      question: "What happens when somebody finds four stowaways in deep space?",
+    },
+    {
+      id: "a06_hidden",
+      edge: But,
+      cause: Coincidence,
+      summary: "Hidden aboard, Dutch nearly betrays them by correcting the crew's checklist; a discrepancy passes them by.",
+      povWant: "Stay hidden and breathing until the flags are in reach",
+      obstacle: "a ship with no room for four extra bodies; Dutch's mouth",
+      fortune: 1,
+      stakes: 5,
+      antagonistAction: None,
+      question: "How long until the air math stops closing?",
+    },
+    {
+      id: "a07_world_below",
+      /* honest label: AND THEN - the cutaway makes no causal claim on the
+         heroes' line; the type forced Therefore. This beat is the lie the
+         compiler caught. */
+      edge: Therefore,
+      cause: Antagonist,
+      summary: "Below, Vess spins the removal while the public sours; the regime doubles down on message control.",
+      povWant: "Vess wants the removal clean enough to keep the contract",
+      obstacle: "the public is not buying the healing frame",
+      fortune: 1,
+      stakes: 5,
+      antagonistAction: Some("the machinery of suppression gets armed"),
+      question: "What happens when that machinery meets the old men?",
+    },
+    {
+      id: "a08_found",
+      edge: But,
+      cause: Protagonist,
+      summary: "Discovered mid-flight and ordered contained, Cricket opens an open channel and tells the world the what, never the why.",
+      povWant: "The regime wants them erased quietly; Cricket wants the world watching",
+      obstacle: "cornered in a can with nowhere to hide and nothing but a radio",
+      fortune: 2,
+      stakes: 6,
+      antagonistAction: Some("orders to contain and return them quietly"),
+      question: "Now the world is watching - what does the regime do in daylight?",
+    },
+    {
+      id: "a09_witness",
+      edge: Therefore,
+      cause: ThirdParty,
+      summary: "Tito stops watching ironically, gets Lita's flag story out, and the crowd turns.",
+      povWant: "Tito wants to keep his ironic distance as it goes global",
+      obstacle: "the regime moving to shut it down forces his hand",
+      fortune: 3,
+      stakes: 6,
+      antagonistAction: None,
+      question: "Whose side is the country actually on?",
+    },
+    {
+      id: "a10_order",
+      edge: But,
+      cause: Antagonist,
+      summary: "Marwani orders the mission aborted and the men branded dangerous; Brandt slow-walks the order.",
+      povWant: "Marwani wants them stopped before the cookout can exist",
+      obstacle: "his only instrument is Brandt, who is wavering on camera",
+      fortune: 2,
+      stakes: 7,
+      antagonistAction: Some("the abort order is issued"),
+      question: "Will Brandt actually pull the trigger on old men?",
+    },
+    {
+      id: "a11_math",
+      edge: But,
+      cause: ThirdParty,
+      summary: "The oxygen arithmetic lands: one seat down, one-way. It becomes Cricket; the crew chooses the radio.",
+      povWant: "Each of the four wants to be the one who lands",
+      obstacle: "the arithmetic, and their love for each other",
+      fortune: -2,
+      stakes: 8,
+      antagonistAction: None,
+      question: "Does Cricket land alone or die alone?",
+    },
+    {
+      id: "a12_descent",
+      edge: Therefore,
+      cause: Protagonist,
+      summary: "Cricket flies the real descent, the rehearsed fix costs him air, and the contact light comes on.",
+      povWant: "Land it - for real, this once, after 2,806 rehearsals",
+      obstacle: "a real Bus B failure with no barn around it",
+      fortune: 1,
+      stakes: 8,
+      antagonistAction: None,
+      question: "He is down - can anyone make him leave?",
+    },
+    {
+      id: "a13_brandt",
+      edge: But,
+      cause: ThirdParty,
+      summary: "Ordered to finish the removal with Cricket standing at the flags, Brandt stands down on camera.",
+      povWant: "Brandt is ordered to pull the flags with Cricket standing there",
+      obstacle: "the man in front of him; the watching planet; his own conscience",
+      fortune: 4,
+      stakes: 7, /* the threat evaporates BEFORE the climax - honest number */
+      antagonistAction: Some("the removal order, given to a man who refuses it"),
+      question: "With nobody left to stop it, what is the cookout now?",
+    },
+    {
+      id: "a14_cookout",
+      edge: Therefore,
+      cause: Protagonist,
+      summary: "Cricket plants the bright flag, lights the grill, and the planet stands up; nobody opposes any of it.",
+      povWant: "Keep the appointment all the way - the cookout they came for",
+      obstacle: "the air and the clock; the sheer absurdity of the act",
+      fortune: 5,
+      stakes: 7,
+      antagonistAction: None, /* Brandt already converted; the regime is a TV set */
+      question: "What did it cost him?",
+    },
+    {
+      id: "a15_alone",
+      edge: Therefore,
+      cause: Protagonist,
+      summary: "M83 rises over one old man, a grill, and a bright flag; the feed holds; the why is never said.",
+      povWant: "Cricket wants nothing anymore; the appointment is kept",
+      obstacle: "only the air running out, softly, off camera",
+      fortune: 5,
+      stakes: 6, /* another retreat - the ending relaxes */
+      antagonistAction: None,
+      question: "What was the why he never said?",
+    },
+  ],
+  climaxId: "a14_cookout",
+}

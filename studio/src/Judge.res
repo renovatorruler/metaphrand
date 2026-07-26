@@ -34,7 +34,17 @@ let conceptPrompt = (gate: Process.conceptGate, text: string): option<string> =>
       "Example: \"Ray and Sam are brothers who run a garage and worry about money\" -> FLAG (nobody is doing anything). \"Ray blocks the door and demands the keys; Sam throws them out the window\" -> PASS.\n\n" ++
       "Reply with exactly PASS, or: FLAG: <one short reason>.\n\nSCENE:\n" ++ text,
     )
-  | HumanReaction | Heart | Structure | SecretsBuried | Cultural => None
+  | HumanReaction =>
+    Some(
+      "You are an ordinary viewer, not a critic. Read the scene once, fast, the way you would actually watch it.\n" ++
+      "Then answer honestly: did you FEEL anything - a laugh, a wince, an ache, real curiosity about a PERSON? " ++
+      "Is anyone here a specific human being you could describe to a friend afterward (a want, a grain, a way of talking that is theirs), " ++
+      "or are these functions wearing costumes? Would you keep watching for the PEOPLE, not the plot machinery?\n" ++
+      "FLAG if the scene is emotionally inert or its people are cardboard. PASS only if at least one beat lands as felt, " ++
+      "recognizable human behavior. THIS GATE IS STRICT: on a genuine close call, FLAG - a scene that maybe moves nobody, moves nobody.\n" ++
+      "Reply with exactly PASS, or: FLAG: <one short reason naming what failed to land>.\n\nSCENE:\n" ++ text,
+    )
+  | Heart | Structure | SecretsBuried | Cultural => None
   }
 
 let concept = async (gate: Process.conceptGate, text: string): option<Process.reasonText> =>

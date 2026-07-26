@@ -1,0 +1,4 @@
+1 | BRANDT | [curious] Where did you come from?
+2 | STITCH | [deliberate] Left us up here in sixty-seven. Somebody had to see to the sites.
+3 | DUTCH | [flatly] Seventy-two.
+4 | STITCH | [flatly] Rounding.

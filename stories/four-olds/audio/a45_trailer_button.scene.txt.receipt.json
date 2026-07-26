@@ -1,0 +1,10 @@
+{
+  "id": "audio-45-trailer-button",
+  "slug": "TRAILER BUTTON. TRANQUILITY BASE - SUIT RADIO",
+  "seedHash": "b28d8ad2bff17e8af69c483874a5e19bbb0b5fc00bbfe2b5e469b5ad71ab6bf8",
+  "sceneHash": "c4095fb73cda147e7ddb87ffd61455af2c2f2c409b8ddfa343cfb775ec20011d",
+  "gate": "PASS",
+  "dialogue": "LIFTED",
+  "attempts": "1",
+  "emittedBy": "studio/Write.writeScene"
+}
