@@ -1,0 +1,973 @@
+{
+ "scenes": [
+  {
+   "name": "s0_card",
+   "cue": "../ep2prod/score/cue3_lesson.mp3",
+   "score_vol": 0.4,
+   "segments": [
+    {
+     "src": "card:n1",
+     "dur": 3.2
+    }
+   ]
+  },
+  {
+   "name": "s1_play",
+   "cue": "score/cueF_play_70.mp3",
+   "segments": [
+    {
+     "src": "clip:c41_play",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 1,
+       "at": 1.0
+      },
+      {
+       "i": 2
+      },
+      {
+       "sfx": "kalu_happy",
+       "at": 7.6
+      }
+     ]
+    },
+    {
+     "src": "still:e4_toddlers_play",
+     "takes": [
+      {
+       "i": 4,
+       "at": 0.5
+      },
+      {
+       "i": 5
+      }
+     ]
+    },
+    {
+     "src": "still:e4_fyuria_notice",
+     "takes": [
+      {
+       "sfx": "door_open",
+       "at": 0.2,
+       "duck": false
+      },
+      {
+       "i": 6,
+       "at": 0.9
+      }
+     ]
+    },
+    {
+     "src": "still:e4_play_kids",
+     "takes": [
+      {
+       "i": 7,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e4_fyuria_notice",
+     "takes": [
+      {
+       "i": 8,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e4_play_kids",
+     "takes": [
+      {
+       "i": 9,
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "still:e4_fyuria_notice",
+     "takes": [
+      {
+       "i": 10,
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "clip:c42_dreamwalk",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 11,
+       "at": 2.0
+      },
+      {
+       "sfx": "drip_slow",
+       "at": 6.5,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e4_nal_old",
+     "takes": [
+      {
+       "i": 12,
+       "at": 0.6
+      },
+      {
+       "sfx": "drip_slow",
+       "at": 9.0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e4_play_kids",
+     "takes": [
+      {
+       "i": 13,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e4_house_ext",
+     "dur": 3.6,
+     "takes": [
+      {
+       "sfx": "drip_slow",
+       "at": 0.4,
+       "duck": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s2_sick",
+   "cue": "score/cueB_night_reuse.mp3",
+   "segments": [
+    {
+     "src": "still:e4_vesper_sick",
+     "takes": [
+      {
+       "i": 14,
+       "at": 0.6
+      }
+     ]
+    },
+    {
+     "src": "still:e4_fyuria_worried",
+     "takes": [
+      {
+       "i": 15,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "clip:c43_sneeze",
+     "in": 0.0,
+     "dur": 5.2,
+     "takes": [
+      {
+       "sfx": "sneeze_blast",
+       "at": 0.8
+      },
+      {
+       "sfx": "windows_rattle",
+       "at": 1.7,
+       "duck": false
+      },
+      {
+       "sfx": "birds_scatter",
+       "at": 2.3,
+       "duck": false
+      },
+      {
+       "sfx": "kalu_scared",
+       "at": 3.1,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e4_kuku_worried",
+     "takes": [
+      {
+       "i": 17,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e4_fyuria_worried",
+     "takes": [
+      {
+       "i": 18,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e4_vesper_sick",
+     "takes": [
+      {
+       "i": 19,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e4_kuku_worried",
+     "takes": [
+      {
+       "i": 20,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e4_vesper_sick",
+     "takes": [
+      {
+       "i": 21,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e4_fyuria_worried",
+     "takes": [
+      {
+       "i": 22,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e4_house_ext",
+     "dur": 3.8,
+     "takes": [
+      {
+       "sfx": "kalu_call",
+       "at": 0.5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s3a_dadi",
+   "cue": "score/cueG_worry_75.mp3",
+   "segments": [
+    {
+     "src": "clip:c44_dadi_arrive",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "sfx": "stick_steps",
+       "at": 0.3,
+       "duck": false
+      },
+      {
+       "sfx": "door_open",
+       "at": 5.6,
+       "duck": false
+      },
+      {
+       "i": 24,
+       "at": 6.2
+      }
+     ]
+    },
+    {
+     "src": "still:e4_vesper_sick",
+     "takes": [
+      {
+       "i": 25,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e4_fyuria_worried",
+     "takes": [
+      {
+       "i": 26,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e4_vesper_sick",
+     "takes": [
+      {
+       "i": 27,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e4_dadi_bedside",
+     "takes": [
+      {
+       "i": 28,
+       "at": 0.6
+      }
+     ]
+    },
+    {
+     "src": "still:e4_vesper_sick",
+     "takes": [
+      {
+       "i": 29,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e4_dadi_bedside",
+     "takes": [
+      {
+       "i": 30,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e4_toddlers_play",
+     "takes": [
+      {
+       "i": 31,
+       "at": 0.4
+      },
+      {
+       "i": 32
+      }
+     ]
+    },
+    {
+     "src": "still:e4_dadi_bedside",
+     "dur": 8.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 33,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e4_nal_old",
+     "takes": [
+      {
+       "sfx": "drip_slow",
+       "at": 8.2,
+       "duck": false
+      }
+     ],
+     "dur": 11.0
+    },
+    {
+     "src": "still:e4_kuku_worried",
+     "takes": [
+      {
+       "i": 34,
+       "at": 0.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s3b_pivot",
+   "cue": "../ep2prod/score/cue3_lesson.mp3",
+   "segments": [
+    {
+     "src": "still:e4_dadi_teach",
+     "takes": [
+      {
+       "i": 35,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e4_nal_old",
+     "takes": [
+      {
+       "sfx": "tap_creak",
+       "at": 0.9,
+       "duck": false
+      },
+      {
+       "i": 36,
+       "at": 2.4
+      }
+     ]
+    },
+    {
+     "src": "still:e4_dadi_teach",
+     "takes": [
+      {
+       "i": 37,
+       "at": 0.5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s4a_lesson",
+   "cue": "score/cueE_lesson_80_reuse.mp3",
+   "segments": [
+    {
+     "src": "still:e4_dadi_teach",
+     "takes": [
+      {
+       "i": 38,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e4_wash_line",
+     "takes": [
+      {
+       "i": 39,
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "still:e4_dadi_teach",
+     "takes": [
+      {
+       "i": 40,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e4_wash_line",
+     "takes": [
+      {
+       "i": 41,
+       "at": 0.3
+      },
+      {
+       "i": 42
+      },
+      {
+       "i": 43
+      }
+     ]
+    },
+    {
+     "src": "still:e4_dadi_teach",
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 44,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e4_nal_old",
+     "takes": [
+      {
+       "i": 45,
+       "at": 11.0
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_n.png",
+       "at": 0.4,
+       "scale": 0.26,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e4_dadi_teach",
+     "takes": [
+      {
+       "i": 46,
+       "at": 0.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s4b_forge",
+   "cue": "score/cueC_chase_reuse.mp3",
+   "cue_in": 55.0,
+   "segments": [
+    {
+     "src": "clip:c45_forge_n",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 47,
+       "at": 0.8
+      },
+      {
+       "i": 48
+      },
+      {
+       "i": 49
+      },
+      {
+       "sfx": "magic_chime",
+       "at": 8.6
+      }
+     ]
+    },
+    {
+     "src": "clip:c46_water_burst",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "sfx": "water_pour",
+       "at": 0.4,
+       "duck": false
+      },
+      {
+       "i": 50,
+       "at": 1.2
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_n.png",
+       "at": 0.2,
+       "scale": 0.2,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e4_wash_line",
+     "takes": [
+      {
+       "i": 51,
+       "at": 0.4
+      },
+      {
+       "sfx": "kalu_happy",
+       "at": 5.2,
+       "duck": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s5a_game",
+   "cue": "score/cueH_wash_75.mp3",
+   "segments": [
+    {
+     "src": "still:e4_dadi_teach",
+     "takes": [
+      {
+       "i": 53,
+       "at": 0.6
+      }
+     ]
+    },
+    {
+     "src": "still:e4_wash_line",
+     "takes": [
+      {
+       "i": 54,
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "still:e4_dadi_teach",
+     "takes": [
+      {
+       "i": 55,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "clip:c47_wash_game",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "sfx": "soap_bubbles",
+       "at": 0.3,
+       "duck": false
+      },
+      {
+       "i": 56,
+       "at": 0.8
+      },
+      {
+       "i": 57
+      },
+      {
+       "i": 58
+      },
+      {
+       "sfx": "splash_play",
+       "at": 8.0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e4_wash_line",
+     "takes": [
+      {
+       "i": 59,
+       "at": 0.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s5b_guests",
+   "cue": "../ep2prod/score/cue1_mela.mp3",
+   "segments": [
+    {
+     "src": "still:e4_reechh_wash",
+     "takes": [
+      {
+       "sfx": "growl_question",
+       "at": 0.5
+      }
+     ],
+     "dur": 3.4
+    },
+    {
+     "src": "still:e4_wash_line",
+     "takes": [
+      {
+       "i": 61,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e4_reechh_wash",
+     "takes": [
+      {
+       "sfx": "splash_play",
+       "at": 0.3,
+       "duck": false
+      },
+      {
+       "sfx": "growl_happy",
+       "at": 2.4
+      }
+     ],
+     "dur": 6.2
+    },
+    {
+     "src": "clip:c48_foam",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 62,
+       "at": 1.0
+      },
+      {
+       "sfx": "sponge_lather",
+       "at": 5.4,
+       "duck": false
+      },
+      {
+       "i": 63,
+       "at": 6.2
+      }
+     ]
+    },
+    {
+     "src": "still:e4_mitasur_proud",
+     "takes": [
+      {
+       "i": 64,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e4_wash_line",
+     "takes": [
+      {
+       "i": 65,
+       "at": 0.5
+      },
+      {
+       "sfx": "towel_soft",
+       "at": 6.6,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e4_dadi_teach",
+     "takes": [
+      {
+       "i": 66,
+       "at": 0.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s6_hush",
+   "cue": "../ep2prod/score/cue7_night.mp3",
+   "segments": [
+    {
+     "src": "clip:c49_hush",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 67,
+       "at": 0.7
+      },
+      {
+       "sfx": "soup_slurp",
+       "at": 8.8,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e4_hush_frame",
+     "takes": [
+      {
+       "i": 68,
+       "at": 6.6
+      }
+     ]
+    },
+    {
+     "src": "still:e4_fyuria_worried",
+     "takes": [
+      {
+       "i": 69,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e4_dadi_bedside",
+     "takes": [
+      {
+       "i": 70,
+       "at": 0.4
+      },
+      {
+       "sfx": "snore_soft",
+       "at": 4.2,
+       "duck": false
+      }
+     ],
+     "dur": 9.0
+    }
+   ]
+  },
+  {
+   "name": "s7a_recap",
+   "cue": "score/cueE_lesson_80_reuse2.mp3",
+   "segments": [
+    {
+     "src": "card:n2",
+     "takes": [
+      {
+       "i": 71,
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "card:n3",
+     "dur": 5.5,
+     "takes": [
+      {
+       "i": 72,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "seq",
+     "cards": [
+      "n4",
+      "n5",
+      "n6"
+     ],
+     "takes": [
+      {
+       "i": 73,
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "still:e4_vesper_vow",
+     "takes": [
+      {
+       "i": 74,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "seq",
+     "cards": [
+      "n7",
+      "n8"
+     ],
+     "takes": [
+      {
+       "i": 75,
+       "at": 0.3
+      },
+      {
+       "i": 76
+      }
+     ]
+    },
+    {
+     "src": "card:n9",
+     "dur": 3.0
+    }
+   ]
+  },
+  {
+   "name": "s7b_neeti",
+   "cue": "../ep2prod/score/cue3_lesson.mp3",
+   "cue_in": 6.0,
+   "segments": [
+    {
+     "src": "still:s_dadi_night_e4",
+     "dur": 7.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 77,
+       "at": 0.6
+      }
+     ]
+    },
+    {
+     "src": "still:e3_reechh_grass",
+     "dur": 4.0
+    },
+    {
+     "src": "file:../ep3prod/clips/c33_rolling.mp4",
+     "in": 5.0,
+     "dur": 4.0
+    },
+    {
+     "src": "clip:c47_wash_game",
+     "in": 2.0,
+     "dur": 4.5
+    },
+    {
+     "src": "still:s_dadi_night_e4",
+     "dur": 4.2
+    },
+    {
+     "src": "still:s_fyuria_kitab_e4",
+     "takes": [
+      {
+       "i": 78,
+       "at": 0.5
+      },
+      {
+       "sfx": "pencil",
+       "at": 4.0,
+       "duck": false
+      }
+     ],
+     "dur": 6.4
+    },
+    {
+     "src": "still:s_dadi_night_e4",
+     "takes": [
+      {
+       "i": 79,
+       "at": 0.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s7c_goodnight",
+   "cue": "../ep2prod/score/cue7_night.mp3",
+   "cue_in": 20.0,
+   "segments": [
+    {
+     "src": "clip:c50_end",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 80,
+       "at": 0.5
+      },
+      {
+       "sfx": "growl_snore",
+       "at": 8.0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e4_sleep_bear",
+     "fadeout": 1.2,
+     "takes": [
+      {
+       "i": 82,
+       "at": 5.2
+      },
+      {
+       "i": 83,
+       "at": 7.2
+      },
+      {
+       "sfx": "crickets_eve",
+       "at": 12.0,
+       "duck": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
