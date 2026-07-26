@@ -16,6 +16,24 @@ Never write: домовой, домовёнок, house spirit, brownie, goblin, 
 
 Write instead: knitted toy character, felted wool doll, soft handmade plush, yarn loops, embroidered stitch, button eyes, mitten hands, cozy, clean, soft.
 
+## REFERENCE BOARD (gather these before drawing)
+
+THE CULTURAL ANCESTOR — «ВАРЕЖКА», Союзмультфильм 1967, dir. Roman Kachanov, production design by Leonid Shvartsman (the designer of Cheburashka), animation including Yuri Norstein; first prize at Annecy 1967. A lonely girl's knitted red mitten becomes a living puppy. This is the single most useful reference we have: a knitted thing brought to life by love, made by the greatest Soviet animation team, and beloved by exactly the generation of Russian parents who will watch this show. It gives the yarn identity a native lineage — the same recognition-bonus Кузя would have given, without the clone problem. https://ru.wikipedia.org/wiki/Варежка_(мультфильм)
+
+THE UNRAVELLING PROOF — YARNY, from the game «Unravel» (Coldwood/EA, 2016). A small creature made entirely of red yarn who UNRAVELS as he moves away from what he loves, growing visibly thinner and weaker; players read the symbolism instantly. This validates РЫК: a yarn character coming undone is legible to anyone, needs no explanation, and is sad rather than frightening. Study his construction (wire-and-yarn doll, eyes threaded in, no mouth or nose). https://unravel.fandom.com/wiki/Yarny and the designer's account: https://www.gamedeveloper.com/art/how-i-unravel-s-i-memorable-protagonist-yarny-was-woven-together
+
+KNITTED CHARACTERS CARRYING A WHOLE SERIES — THE CLANGERS (BBC, 1969, Smallfilms; characters designed by Peter Firmin and knitted by Joan Firmin). Proof that knitted creatures sustain a series and read as warm, not creepy. https://en.wikipedia.org/wiki/Clangers
+
+WORN-AND-LOVED CLOTH — BAGPUSS (Smallfilms, 1974), the saggy old cloth cat, loose at the seams and adored. The exact emotional register we want for a house of handmade beings.
+
+THE 2D TRANSLATION — KIRBY'S EPIC YARN (Nintendo, 2010): a whole world rendered as fabric, felt, and thread in flat 2D, with characters unravelling and re-knitting. The best study for how to keep yarn readable when it is DRAWN rather than photographed.
+
+FABRIC EXPRESSIVENESS — SACKBOY / LittleBigPlanet: how much emotion button eyes and stitched features can carry.
+
+SHAPE LANGUAGE — amigurumi pattern books (Japan Amigurumi Association's «Complete Guide to Crochet Dolls and Animals», Miya's doll books): the actual craft — round heads, cord limbs, mitten hands. Use for proportions.
+
+THE ILLUSTRATION REGISTER (locked) — Lina Žutautė's «Kakė Makė» books. https://english.lithuanianculture.lt/lithuanian-culture-guide/illustrators/2015/07/13/lina-zutaute/
+
 ## THE SHARED STYLE BLOCK (prepend to every illustration prompt)
 
 Hand-drawn 2D children's book illustration, warm and cozy, in the Kakė Makė register: soft hand-inked outlines, watercolor and crayon texture with the strokes visible, occasional paper-collage bits, warm hearth palette (honey, ochre, rust, plum, deep brown) in candle-warm light. The characters are tiny KNITTED AND FELTED TOY CREATURES the size of a matchbox — soft round felt bodies, knitted-cord arms and legs, mitten hands, button eyes, stitched thread mouths, loose yarn loops for hair. Every one is knitted to a different pattern, so no two look alike. They live behind a stove in a house of lost things: spool tables, matchbox beds, a Christmas-bulb lamp. Clean, soft, huggable, sweet-natured. NOT 3D, NOT clean vector lines, NOT Pixar/DreamWorks, NOT anime, no plastic smoothness — drawn by a warm human hand, slightly crooked on purpose.
