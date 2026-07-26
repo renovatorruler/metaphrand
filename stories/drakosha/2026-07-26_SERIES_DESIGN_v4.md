@@ -131,7 +131,7 @@ Hand-drawn 2D whimsy: wobbly ink lines, crayon and watercolor texture, collage b
 
 ## OPEN CALLS (the author's; family vote welcome where fun)
 
-1. TITLE: «Фуся и Веся» / «Фрося и Веся» / «Фрося и Веспик» / «Вжух и Фрося» — or name it fresh. («Скажи — и стань!» stays the chant regardless.)
+1. TITLE — RESOLVED (author, 2026-07-26): «ФРОСЯ И ВЕСЯ». Фуся rejected: the stressed ФУ́- syllable is the disgust word, a pre-installed playground taunt. Фрося carries no фу, is a warm folk diminutive (Ефросинья; the Фрося Бурлакова shadow is a parents-layer bonus), and holds the rolled Р in her own name — the sound she lends her brother all season. («Скажи — и стань!» stays the in-show chant.)
 2. Мама-домовушка voiced by / modeled on the author (recommended: yes).
 3. The finale word: «БРАТ» recommended; «ДОБРО» / «ПОДАРОК» alternates.
 4. Episode length target: 9 vs 11 minutes.
