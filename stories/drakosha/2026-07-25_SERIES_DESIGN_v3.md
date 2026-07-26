@@ -1,8 +1,8 @@
 # «Скажи — и стань!» — Russian letter series, design v3 (species, world, and becomings locked)
 
-Status: v3 supersedes v2 (same day). Locked by dad on 2026-07-25: the heroes are ДОМОВЯТА drawn as чудики; the world is the HOMESTEAD; every episode carries a full becoming; Vesper's rolled-Р limitation is confirmed real and is honored, never cured. Working title stays «Скажи — и стань!» until the breakfast-table vote (ballot at the bottom).
+Status: v3 supersedes v2 (same day). NOTE ON AUTHORSHIP: the author of this show is the kids' MOTHER — she teaches them Russian herself, and every call marked "author's" in this doc is hers, made directly; there is no separate review loop. Locked by the author on 2026-07-25: the heroes are ДОМОВЯТА drawn as чудики; the world is the HOMESTEAD; every episode carries a full becoming; Vesper's rolled-Р limitation is confirmed real and is honored, never cured. Working title stays «Скажи — и стань!» until the breakfast-table vote (ballot at the bottom).
 
-AGE CALIBRATION (dad's correction, 2026-07-25): Vesper is almost five and a half, not four. The READING curriculum stays at bukvar level — that is his real decoding level, and bukvar age in Russia is 5–7. But the STORY pitches at 5.5–6: multi-step plots, real suspense, dramatic irony, jokes with a twist, running arcs — never toddler beats. Benchmark the plot complexity against shows for 5–7 (Octonauts-grade missions), not preschool shows. If a mission would bore him, the mission is wrong, not the letter.
+AGE CALIBRATION (author's correction, 2026-07-25): Vesper is almost five and a half, not four. The READING curriculum stays at bukvar level — that is his real decoding level, and bukvar age in Russia is 5–7. But the STORY pitches at 5.5–6: multi-step plots, real suspense, dramatic irony, jokes with a twist, running arcs — never toddler beats. Benchmark the plot complexity against shows for 5–7 (Octonauts-grade missions), not preschool shows. If a mission would bore him, the mission is wrong, not the letter.
 
 ## THE CORE FUSION (why this show is one idea, not three)
 
@@ -18,13 +18,13 @@ ESTABLISH-FIRST RULE (hard law): the kids watching have never heard of домо�
 
 NATIVE-RUSSIAN LAW (hard rule, the mirror of the Hindi track's pure-Hindi law): every word the show teaches or hands the kids as a tool must be native Russian — no anglicisms, even naturalized ones («стоп» is banned; the boundary-word is «Хватит!», with «Не надо!» and «Перестань!» as siblings). Loanwords may exist only as in-character drift that gets corrected, if we ever want that gag.
 
-THREE AUDIENCE LAYERS (the dual-audience design, now symmetric): the pre-reader gets the plot; the reading child gets Furia's hidden written layer; the parents get the folklore layer (mom recognizing the Домовёнок Кузя lineage and the old spirit-names). Each layer is a bonus, never a prerequisite.
+THREE AUDIENCE LAYERS (the dual-audience design, now symmetric): the pre-reader gets the plot; the reading child gets Furia's hidden written layer; the parents get the folklore layer (the Домовёнок Кузя lineage, the old spirit-names). Each layer is a bonus, never a prerequisite.
 
 ## РЫК — THE WILD FORM (redesigned for the hand-drawn world)
 
 In a world of scribble-creatures, the wild form is not a separate monster. РЫК is Vesper's OWN OUTLINE COMING UNDONE. When the feelings go unspoken — held in, held in, held in — his lines go wild: the crayon scrawls past his edges, the strokes storm, he becomes a whirl of his own unraveling drawing. Saying the word is literally what holds his shape together. The valley whispers it: «Когда Веспер молчит-молчит-молчит — приходит РЫК.» РЫК is not a villain; he is what unspoken feelings turn into. Across the season Vesper learns to send words ahead of the storm.
 
-(This resolves the old shown-vs-whispered question: РЫК is inherently VISIBLE — it is Vesper's own drawing scribbling itself apart, shown softly and kindly. Mom's veto standing.)
+(This resolves the old shown-vs-whispered question: РЫК is inherently VISIBLE — it is Vesper's own drawing scribbling itself apart, shown softly and kindly. Author's veto standing.)
 
 ## THE WORLD — THE HOMESTEAD (home base, not a cage)
 
@@ -48,13 +48,13 @@ THE GRIEF GUARD (hard rule): the droopy-voice comedy applies only to whine-as-ha
 
 ВЕСПЕР is the hero, first-person — the therapy is his seat, not a mascot's. Everyday name Веся; when he transforms he announces his power-name: ВЖУХ! He is the only домовёнок who can BECOME, but only what he can read, and he is just learning letters. HARD RULE — DISPLACED TRIGGERS: his on-screen frustrations are never reenactments of real home incidents. The feelings are his; the situations are the show's (a stuck jar, a race lost to a squirrel, a tower that falls). He must recognize the fire, never the scene of the crime.
 
-CONFIRMED LIMITATION (dad's field test, 2026-07-25): Vesper cannot roll the Russian Р. This is canon and load-bearing: episode 7 is built on it, the finale is built on it, and the show HONORS it — no magic ever fixes his tongue. Р comes last for many little домовята; it comes when it comes.
+CONFIRMED LIMITATION (author's field test, 2026-07-25): Vesper cannot roll the Russian Р. This is canon and load-bearing: episode 7 is built on it, the finale is built on it, and the show HONORS it — no magic ever fixes his tongue. Р comes last for many little домовята; it comes when it comes.
 
 ФУРИЯ is the Scribe. She already reads and writes (like the real Furia). What she WRITES becomes real — she draws a word in the air with her claw-pen and it appears. In leader mode she announces: «Я — ФУРИЯ». Everyday name for the title vote: Фуся or Фрося (Фифи is flagged off the ballot — to Russian ears it lands as a poodle's name). The reader-writer and the becomer: she can write the word he cannot read yet; he can become the thing she cannot become. Neither completes a mission alone — the cooperation is structural, not polite.
 
 Furia's own arc, so she is never decoration: the leader's lesson. Her brother reads slowly and her speed can silence him; she learns to make room — proudest when she helped someone else be first. And the READER'S SECRET LAYER built just for her: every episode hides written words in the world (signs, notes, jam-jar labels) that only a reading child can catch, including one secret word per episode that predicts the ending. The pre-reader gets the plot; the reader gets prophecy.
 
-МАМА-ДОМОВУШКА is the mentor (the real mom teaches Russian; in-world the mother spirit holds the letter lessons). Warm, unhurried. When words are used properly, she ALWAYS responds — the show models that words WORK: speak early, get heard. This is the assertiveness payoff loop, and gently, a model for the grown-ups too.
+МАМА-ДОМОВУШКА is the mentor (the author teaches the kids Russian in real life; in-world the mother spirit holds the letter lessons). Warm, unhurried. When words are used properly, she ALWAYS responds — the show models that words WORK: speak early, get heard. This is the assertiveness payoff loop, and gently, a model for the grown-ups too.
 
 ## THE RECURRING FORCE — БУЯН-ВЕТЕР, THE ANTI-VOICE
 
@@ -68,7 +68,7 @@ Mid-episode, Vesper's struggle mirrors real life: the word will not come, the wh
 
 His clarity grows — and the garble grows faster. Words get longer and phonetically harder up the Zhukova ladder; Буян gets bolder in both channels; the emotional load climbs; the stakes climb; the missions range farther from the hearth. AT LEAST TWO real on-screen failures per season — episodes where the word genuinely does not come in time and the cost is real (small, kind, but real). Episode 7 is failure one by design; the second lives in episode 10. Mastery that never fails is not mastery; it is decoration.
 
-## PEDAGOGY SPINE (real Russian primer order — Zhukova's БУКВАРЬ, the standard home bukvar; mom will recognize it, and mom's veto is standing)
+## PEDAGOGY SPINE (real Russian primer order — Zhukova's БУКВАРЬ, the standard home bukvar; the ladder the author already teaches from, and her veto is standing)
 
 Season 1 = the first ten letters: А У О М С Х Р Ш Ы Л. Cumulative by design: each episode's magic words use ONLY letters already taught. The word-pool grows: АУ → МАМА → САМ → УРА → ШУМ → МЫ → СЛОМАЛ. Vesper's readable forms grow with it — progress is visible as power. The day's letter is ALWAYS the missing key to the climax word: the one letter he could not read yesterday is the one the ending turns on today.
 
@@ -79,7 +79,7 @@ Every episode has at least one full ВЖУХ becoming, and the becomings grow up
 1. А — «А-А-А!» — NOTICE THE STORM + the roar-release: when it rises, roar it into the sky, not at people. Voice out, fists never. THE BECOMING: at first he can only become the letters themselves — the А-shaped slide that rescues a toy from behind the stove. Tiny power, honestly tiny. (Also the establish-the-world episode: who домовята are, from zero.)
 2. У — «АУ!» — ASKING FOR HELP IS BRAVE. A little one wanders to the birch fence line; АУ! read off the carved trail-mark is how you are found. THE BECOMING: the У-shaped horn that carries his call across the wood.
 3. О — «О!» — WONDER: big feelings are not only anger — and panic and awe are the same size, so which one you feel depends on what you understand. Mission: the moon FALLS INTO THE POND — the little ones see it in the water and raise the alarm, the homestead spirals toward panic, and the episode turns on figuring out what is actually true (a reflection) before fear decides for everyone. The «О!» of terror becomes the «О!» of wonder on the same breath. THE BECOMING: the О-hoop — the only shape that can roll out across the water for a closer look.
-4. М — «МАМА» «АМ» — THE COMFORT WORD. His first full decoded word — and Furia helps him WRITE it as a surprise card FOR МАМА. Made by their mother, his first read word being МАМА as a gift back to her — the meta-payoff is the point. THE BECOMING: «АМ» — the great friendly CHOMP that eats the problem.
+4. М — «МАМА» «АМ» — THE FIRST FULL WORD. The learning milestone episode: МА-МА is the canonical first syllable-blend in Zhukova, so this is where decoding becomes READING — two syllables snapping together into a word for the first time. And the episode closes the loop with his first act of WRITING: he needs the word to exist somewhere so the magic can read it back, so he writes М-А-М-А himself (Furia coaching, not doing) — writing gets a reason, not a worksheet. THE BECOMING: «АМ» — the great friendly CHOMP that eats the problem.
 5. С — «САМ!» — MYSELF: autonomy as the good channel of assertiveness. He wants to do it himself; the world makes room. THE BECOMING: the misread catfish returns — he reads СОМ ON PURPOSE this time, because a catfish is exactly what the flooded kitchen needs. The mistake becomes the tool. (ОСА complicates the kitchen.)
 6. Х — «ХА-ХА» «УХО» — LAUGHTER AND TEASING: laughed WITH vs laughed AT (a real trigger); the tools: «Мне не смешно. Хватит.» — and УХО, the listening ear, for the other side. THE BECOMING: МУХА — a fly, tiny enough for the keyhole.
 7. Р — «Р-Р-Р» «УРА!» — THE HONEST FAILURE (failure one of two). The growl-letter — the storm's own letter — is the one his tongue cannot do. The becoming FAILS ON SCREEN: the Р won't roll, the word won't take. The day is saved with an OLD word — proof that what you have already learned does not abandon you — and mama names the truth without fixing it: Р comes last for many little домовята; it comes when it comes. (The УРА/УХА soup gag rides along.) Plants the finale.
@@ -89,7 +89,7 @@ Every episode has at least one full ВЖУХ becoming, and the becomings grow up
 
 ## THE FINALE (the storm at maximum, at the most roofless point)
 
-Буян at his loudest and loneliest, out in the open field — both channels of garble at full strength, letters flying, sounds shredded. The climax word is the season's longest and hardest, and Vesper's letters are NECESSARY BUT NOT SUFFICIENT: he physically cannot deliver it alone — the rolled Р sits in the middle of it. He and Furia say it TOGETHER — she rolls the Р he cannot, he carries the rest (МЫ made literal, not stated). The word lands, the wind gets his first word — «МЫ» — and the howl that could only spin alone stops spinning alone. Vesper's own mastery arrives quietly in the tag, offhand, no fanfare: he reads something small without noticing he did it. His Р is NOT fixed — that is the point. Finale-word candidate from taught letters: «ХОРОШО» (Х-О-Р-О-Ш-О — the growl-letter right in the middle, and it is what you say when the storm ends); final choice with mom, constrained to taught letters.
+Буян at his loudest and loneliest, out in the open field — both channels of garble at full strength, letters flying, sounds shredded. The climax word is the season's longest and hardest, and Vesper's letters are NECESSARY BUT NOT SUFFICIENT: he physically cannot deliver it alone — the rolled Р sits in the middle of it. He and Furia say it TOGETHER — she rolls the Р he cannot, he carries the rest (МЫ made literal, not stated). The word lands, the wind gets his first word — «МЫ» — and the howl that could only spin alone stops spinning alone. Vesper's own mastery arrives quietly in the tag, offhand, no fanfare: he reads something small without noticing he did it. His Р is NOT fixed — that is the point. Finale-word candidate from taught letters: «ХОРОШО» (Х-О-Р-О-Ш-О — the growl-letter right in the middle, and it is what you say when the storm ends); author's final choice, constrained to taught letters.
 
 ## EPISODE TEMPLATE (~9–11 min, mission rhythm)
 
@@ -115,11 +115,11 @@ Hand-drawn 2D whimsy: wobbly ink lines, crayon and watercolor texture, collage b
 
 The cycle to break: suppress → suppress → explode. The show's answer, in order, across the season: (1) the storm is REAL and honored — it gets its own letter, its own roar-space; never "don't be angry." (2) Voice beats fists — the roar-to-sky, the growl-letter. (3) Words beat the storm — small words said early («Я злюсь», «Хватит», «САМ», «Помоги») get results on screen every single time, and saying the word is literally what holds your shape. (4) Calm is a skill with a letter of its own (Ш). (5) A clean do-over is always available and costs nothing («Перемотка!»). (6) Repair, not shame, after the slip (СЛОМАЛ). (7) You are not alone (МЫ). Adults in-show always reward the early small word — the world proves that speaking early works better than exploding late.
 
-## THE BREAKFAST-TABLE BALLOT (open for mom and the family)
+## OPEN CALLS (the author's; family vote welcome where fun)
 
-1. TITLE VOTE: «Фуся и Веся» / «Фрося и Веся» / «Фрося и Веспик» / «Вжух и Фрося» — or hers to name. («Скажи — и стань!» stays the in-show chant regardless.)
-2. Mama-домовушка literally voiced by / modeled on mom (recommended: yes).
-3. РЫК: now designed as Vesper's own outline unraveling, shown softly (the shown-vs-whispered question is resolved by the design; mom's veto standing).
+1. TITLE: «Фуся и Веся» / «Фрося и Веся» / «Фрося и Веспик» / «Вжух и Фрося» — or name it fresh. («Скажи — и стань!» stays the in-show chant regardless.)
+2. Мама-домовушка voiced by / modeled on the author (recommended: yes).
+3. РЫК: designed as Vesper's own outline unraveling, shown softly (the shown-vs-whispered question is resolved by the design; author's veto standing).
 4. Episode length target: 9 vs 11 minutes.
-5. Furia's secret-word layer: single-episode payoffs only, or a season-long cipher — ten secret words assembling into the finale's sentence (recommended: the cipher; exact words with mom, constrained to taught letters).
-6. The finale word: «ХОРОШО» recommended; mom's call.
+5. Furia's secret-word layer: single-episode payoffs only, or a season-long cipher — ten secret words assembling into the finale's sentence (recommended: the cipher; exact words the author's call, constrained to taught letters).
+6. The finale word: «ХОРОШО» recommended; author's call.
