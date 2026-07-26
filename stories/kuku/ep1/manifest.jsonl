@@ -11,7 +11,7 @@
 {"scene":"ep1-s0-teaser","kind":"dialogue","who":"MUKHIYA","radio":true,"whisper":false,"text":"पापा, काम रुका है. जल्दी आ जाओ."}
 {"scene":"ep1-s0-teaser","kind":"action","who":"NARRATOR","radio":false,"whisper":false,"text":"Papa presses the radio quiet and looks at the drawing for a moment."}
 {"scene":"ep1-s0-teaser","kind":"dialogue","who":"PAPA","radio":false,"whisper":false,"text":"अच्छा बनाया है, बेटा."}
-{"scene":"ep1-s0-teaser","kind":"dialogue","who":"PAPA","radio":false,"whisper":false,"text":"पर नहीं, कुकु. कुत्ता पालना बहुत काम है, और तू अभी छोटा है."}
+{"scene":"ep1-s0-teaser","kind":"dialogue","who":"PAPA","radio":false,"whisper":false,"text":"पर नहीं, कुकु. कुत्ता पालना बहुत काम है, और तुम अभी छोटे हो."}
 {"scene":"ep1-s0-teaser","kind":"action","who":"NARRATOR","radio":false,"whisper":false,"text":"Kuku drops his chin and speaks down into the paper dog in his hands."}
 {"scene":"ep1-s0-teaser","kind":"dialogue","who":"KUKU","radio":false,"whisper":true,"text":"कोई बात नहीं. तू मेरा है."}
 {"scene":"ep1-s0-teaser","kind":"action","who":"NARRATOR","radio":false,"whisper":false,"text":"His shoulders sink and the paper ears slide down flat against his cheeks. He holds the drawing to his chest and stays there in the grass."}
@@ -172,15 +172,15 @@
 {"scene":"ep1-s5-kalu-ghar","kind":"action","who":"NARRATOR","radio":false,"whisper":false,"text":"Inside Kuku's home, the last orange light comes through the door. Kalu, washed clean now, wags his tail by Kuku's feet. Papa comes in from the yard, still dusty from the fields."}
 {"scene":"ep1-s5-kalu-ghar","kind":"dialogue","who":"KUKU","radio":false,"whisper":false,"text":"पापा, मैंने आपको बताया नहीं था, ये कालू, मैंने इसको कुएँ के पास से निकाला था, और छुपाया भी, और दादी के कटोरे भी इसी ने गिराए थे, सब मेरी गलती है, मैं..."}
 {"scene":"ep1-s5-kalu-ghar","kind":"action","who":"NARRATOR","radio":false,"whisper":false,"text":"Papa gets down on his knees in front of Kuku and puts a hand on the boy's shoulder. Kuku stops talking."}
-{"scene":"ep1-s5-kalu-ghar","kind":"dialogue","who":"PAPA","radio":false,"whisper":false,"text":"बस, बेटा, रुक जा. इतना हाँफ मत, कुछ नहीं हुआ है."}
-{"scene":"ep1-s5-kalu-ghar","kind":"dialogue","who":"PAPA","radio":false,"whisper":false,"text":"मैं कुएँ पर ही था. मैंने सब देख लिया, तेरी वो क भी देख ली."}
+{"scene":"ep1-s5-kalu-ghar","kind":"dialogue","who":"PAPA","radio":false,"whisper":false,"text":"बस, बेटा, रुको. इतना हाँफो मत, कुछ नहीं हुआ है."}
+{"scene":"ep1-s5-kalu-ghar","kind":"dialogue","who":"PAPA","radio":false,"whisper":false,"text":"मैं कुएँ पर ही था. मैंने सब देख लिया, तुम्हारी वो क भी देख ली."}
 {"scene":"ep1-s5-kalu-ghar","kind":"action","who":"NARRATOR","radio":false,"whisper":false,"text":"Papa slides his hand up onto Kuku's head and leaves it there. Kalu pushes his nose in between the two of them."}
 {"scene":"ep1-s5-kalu-ghar","kind":"dialogue","who":"PAPA","radio":false,"whisper":false,"text":"सुबह मैंने ना कहा था. वो ना अब नहीं है."}
-{"scene":"ep1-s5-kalu-ghar","kind":"dialogue","who":"PAPA","radio":false,"whisper":false,"text":"कालू तेरा है, कुकु."}
+{"scene":"ep1-s5-kalu-ghar","kind":"dialogue","who":"PAPA","radio":false,"whisper":false,"text":"कालू तुम्हारा है, कुकु."}
 {"scene":"ep1-s5-kalu-ghar","kind":"dialogue","who":"KUKU","radio":false,"whisper":false,"text":"सच में, पापा? कालू अब सच में मेरा हो गया?"}
-{"scene":"ep1-s5-kalu-ghar","kind":"dialogue","who":"PAPA","radio":false,"whisper":false,"text":"हाँ, वो तेरा ही है. अब अपने कुत्ते का ध्यान रखना, ये तेरा काम है."}
+{"scene":"ep1-s5-kalu-ghar","kind":"dialogue","who":"PAPA","radio":false,"whisper":false,"text":"हाँ, वो तुम्हारा ही है. अब अपने कुत्ते का ध्यान रखना, ये तुम्हारा काम है."}
 {"scene":"ep1-s5-kalu-ghar","kind":"action","who":"NARRATOR","radio":false,"whisper":false,"text":"Papa leans in close to Kuku's ear."}
-{"scene":"ep1-s5-kalu-ghar","kind":"dialogue","who":"PAPA","radio":false,"whisper":true,"text":"मैंने देखा, कुकु. तूने कैसे उठाया उसको ऊपर."}
+{"scene":"ep1-s5-kalu-ghar","kind":"dialogue","who":"PAPA","radio":false,"whisper":true,"text":"मैंने देखा, कुकु. तुमने कैसे उठाया उसको ऊपर."}
 {"scene":"ep1-s5-kalu-ghar","kind":"action","who":"NARRATOR","radio":false,"whisper":false,"text":"Furia darts across the room with a bowl of food and sets it down, then drags a folded blanket into the corner and pats it flat."}
 {"scene":"ep1-s5-kalu-ghar","kind":"dialogue","who":"FURIA","radio":false,"whisper":false,"text":"हो गया, कालू का कटोरा भर दिया और कंबल भी बिछा दिया. मैं पहले! सबसे तेज़ मैंने ही किया!"}
 {"scene":"ep1-s5-kalu-ghar","kind":"action","who":"NARRATOR","radio":false,"whisper":false,"text":"Nobody argues with her. Papa smiles, and Kuku carries Kalu over to the blanket."}

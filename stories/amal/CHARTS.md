@@ -172,3 +172,9 @@ this is ever spoken on screen; it is a hidden scaffolding, like the Jungian fram
 - **Dasha:** Ketu mahadasha — the blind, backward-seeing, moksha-ward elder.
 - **→ voice:** rolling, mythic, archaic; sings/recites; the lineage and the Jhujhar. The one voice that
   earns beauty — *because the chart built it for oratory* — so it must be stripped from everyone else.
+
+## 2026-07-16 ADDENDUM — the fall lock (Ratan's chart deepened; the father enters)
+
+**RATAN (chart addendum).** The generative layer gains the locked engine: Saturn's weight is the FATHER, living — the argument conducted in silence for twenty-five years. Corruption as rebellion (an accusation, not a surrender); the unnameable hunger = glory, grounded as THE LOOK (the ex-dacoit who looks through him; the song he pays for and is not in). Write his scenes with the eyes: where Ratan looks during other men's ceremonies is the character. Never let him name the want.
+
+**THE FATHER — new principal (name OPEN, chart pending the author).** The belt's dacoit-hunter legend, paralyzed by a duty bullet; garlanded and abandoned; proves he is alive to the pension office once a year. Register: the rule of silence — care as tea poured, forms signed, a wheel oiled; the creed never spoken until the one hinge conversation where he begs his son to bend. His voice card and natal chart must exist before any father scene is drafted (preflight law).

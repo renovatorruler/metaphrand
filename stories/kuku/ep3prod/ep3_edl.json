@@ -1,0 +1,1115 @@
+{
+ "scenes": [
+  {
+   "name": "s0_card",
+   "cue": "../ep2prod/score/cue3_lesson.mp3",
+   "score_vol": 0.4,
+   "segments": [
+    {
+     "src": "card:r01",
+     "dur": 3.2
+    }
+   ]
+  },
+  {
+   "name": "s1a_paint",
+   "cue": "score/cueA_evening_75.mp3",
+   "segments": [
+    {
+     "src": "clip:c31_paint",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "sfx": "brush_strokes",
+       "at": 0.3,
+       "duck": false
+      },
+      {
+       "i": 1,
+       "at": 1.2
+      },
+      {
+       "i": 2,
+       "at": 7.9
+      }
+     ]
+    },
+    {
+     "src": "still:e3_mitasur_paint",
+     "takes": [
+      {
+       "i": 3,
+       "at": 1.0
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/naam1.png",
+       "at": 2.2,
+       "scale": 0.42,
+       "pos": "bc"
+      }
+     ]
+    },
+    {
+     "src": "still:e3_mitasur_stuck",
+     "takes": [
+      {
+       "i": 4,
+       "at": 0.5
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/naam1.png",
+       "at": 0.3,
+       "scale": 0.42,
+       "pos": "bc"
+      }
+     ]
+    },
+    {
+     "src": "still:e3_fyuria_evening",
+     "takes": [
+      {
+       "i": 5,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e3_mitasur_stuck",
+     "takes": [
+      {
+       "i": 6,
+       "at": 0.5
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/naam1.png",
+       "at": 0.3,
+       "scale": 0.42,
+       "pos": "bc"
+      }
+     ]
+    },
+    {
+     "src": "still:e3_vesper_evening",
+     "takes": [
+      {
+       "i": 7,
+       "at": 0.6
+      }
+     ]
+    },
+    {
+     "src": "still:e3_fyuria_evening",
+     "takes": [
+      {
+       "i": 8,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e3_kuku_evening",
+     "takes": [
+      {
+       "i": 9,
+       "at": 0.5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s1b_utsav",
+   "cue": "../ep2prod/score/cue6_heart.mp3",
+   "segments": [
+    {
+     "src": "still:e3_toddlers",
+     "takes": [
+      {
+       "i": 10,
+       "at": 0.5
+      },
+      {
+       "i": 11
+      }
+     ]
+    },
+    {
+     "src": "still:e3_fyuria_evening",
+     "takes": [
+      {
+       "i": 12,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e3_mitasur_paint",
+     "takes": [
+      {
+       "i": 13,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e3_kuku_evening",
+     "takes": [
+      {
+       "i": 14,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e3_vesper_evening",
+     "dur": 4.2,
+     "takes": [
+      {
+       "sfx": "walkoff",
+       "at": 0.4,
+       "duck": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s2a_lesson",
+   "cue": "score/cueE_lesson_80.mp3",
+   "segments": [
+    {
+     "src": "still:s_dadi_rock",
+     "takes": [
+      {
+       "i": 15,
+       "at": 0.6
+      }
+     ]
+    },
+    {
+     "src": "still:e3_mitasur_rock",
+     "takes": [
+      {
+       "i": 16,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:s_dadi_rock",
+     "takes": [
+      {
+       "i": 17,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e3_kids_rock",
+     "takes": [
+      {
+       "i": 18,
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "still:s_dadi_rock",
+     "takes": [
+      {
+       "i": 19,
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "still:e3_kids_rock",
+     "takes": [
+      {
+       "i": 20,
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "still:s_dadi_rock",
+     "takes": [
+      {
+       "i": 21,
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "still:e3_kids_rock",
+     "takes": [
+      {
+       "i": 22,
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "still:s_dadi_rock",
+     "takes": [
+      {
+       "i": 23,
+       "at": 0.5
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_r.png",
+       "at": 1.5,
+       "scale": 0.3,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:s_vesper_rock",
+     "takes": [
+      {
+       "i": 24,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:s_fyuria_rock",
+     "takes": [
+      {
+       "i": 25,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:s_vesper_rock",
+     "takes": [
+      {
+       "i": 26,
+       "at": 0.4
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_r.png",
+       "at": 0.3,
+       "scale": 0.18,
+       "pos": "tc"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s2b_game",
+   "cue": "../ep2prod/score/cue3_lesson.mp3",
+   "segments": [
+    {
+     "src": "still:s_dadi_rock",
+     "takes": [
+      {
+       "i": 27,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e3_kuku_rock",
+     "takes": [
+      {
+       "i": 28,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:s_fyuria_rock",
+     "takes": [
+      {
+       "i": 29,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e3_mitasur_rock",
+     "takes": [
+      {
+       "i": 30,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:s_fyuria_rock",
+     "takes": [
+      {
+       "i": 31,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e3_mitasur_rock",
+     "takes": [
+      {
+       "i": 32,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e3_kalu_cu",
+     "dur": 4.5,
+     "takes": [
+      {
+       "sfx": "kalu_rrr",
+       "at": 0.5
+      },
+      {
+       "sfx": "kalu_bark",
+       "at": 3.1,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e3_kuku_rock",
+     "takes": [
+      {
+       "i": 34,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:s_dadi_rock",
+     "takes": [
+      {
+       "i": 35,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e3_mitasur_rock",
+     "dur": 4.5
+    }
+   ]
+  },
+  {
+   "name": "s3_night",
+   "cue": "score/cueB_night.mp3",
+   "segments": [
+    {
+     "src": "clip:c32_break",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 36,
+       "at": 0.4
+      },
+      {
+       "sfx": "sniff_steps",
+       "at": 3.4,
+       "duck": false
+      },
+      {
+       "sfx": "creak_strain",
+       "at": 6.6,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "clip:c33_rolling",
+     "in": 0.0,
+     "dur": 4.4,
+     "takes": [
+      {
+       "sfx": "rope_snap",
+       "at": 0.05
+      },
+      {
+       "sfx": "wheels_roll",
+       "at": 0.8,
+       "duck": false
+      },
+      {
+       "sfx": "growl_hungry",
+       "at": 1.7
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s4_wake",
+   "cue": "score/cueB_night.mp3",
+   "cue_in": 14.5,
+   "segments": [
+    {
+     "src": "still:e3_kids_night",
+     "takes": [
+      {
+       "i": 38,
+       "at": 0.5
+      },
+      {
+       "i": 39
+      },
+      {
+       "i": 40
+      },
+      {
+       "i": 41
+      }
+     ]
+    },
+    {
+     "src": "clip:c33_rolling",
+     "in": 5.0,
+     "dur": 5.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 42,
+       "at": 0.4
+      },
+      {
+       "sfx": "wheels_fast",
+       "at": 0.1,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e3_kids_night",
+     "takes": [
+      {
+       "i": 43,
+       "at": 0.5
+      },
+      {
+       "i": 44
+      }
+     ]
+    },
+    {
+     "src": "still:e3_mitasur_night",
+     "takes": [
+      {
+       "i": 45,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e3_kids_night",
+     "takes": [
+      {
+       "i": 46,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "clip:c34_chasefail",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 47,
+       "at": 0.8
+      },
+      {
+       "sfx": "wheels_fast",
+       "at": 0.1,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e3_kids_night",
+     "takes": [
+      {
+       "i": 48,
+       "at": 0.5
+      },
+      {
+       "i": 49
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s5a_rescue",
+   "cue": "score/cueC_chase.mp3",
+   "segments": [
+    {
+     "src": "still:e3_slope_vesper",
+     "takes": [
+      {
+       "i": 50,
+       "at": 0.8
+      }
+     ]
+    },
+    {
+     "src": "clip:c35_meadow",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 51,
+       "at": 1.5
+      },
+      {
+       "i": 52
+      }
+     ]
+    },
+    {
+     "src": "clip:c36_forge",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 53,
+       "at": 0.7
+      },
+      {
+       "i": 54
+      },
+      {
+       "i": 55
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_r.png",
+       "at": 7.4,
+       "scale": 0.4,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e3_forge_frame",
+     "takes": [
+      {
+       "i": 56,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e3_rope_team",
+     "takes": [
+      {
+       "i": 57,
+       "at": 0.5
+      },
+      {
+       "i": 58
+      }
+     ]
+    },
+    {
+     "src": "clip:c37_stop",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "sfx": "wheels_fast",
+       "at": 0.1,
+       "duck": false
+      },
+      {
+       "i": 59,
+       "at": 0.6
+      },
+      {
+       "i": 60
+      },
+      {
+       "i": 61
+      },
+      {
+       "sfx": "rope_catch",
+       "at": 7.8
+      },
+      {
+       "i": 62,
+       "at": 8.3
+      },
+      {
+       "sfx": "stop_splash",
+       "at": 8.6,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e3_rope_team",
+     "takes": [
+      {
+       "sfx": "soft_tumble",
+       "at": 5.6,
+       "duck": false
+      },
+      {
+       "i": 63,
+       "at": 6.5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s5b_bhookh",
+   "cue": "../ep2prod/score/cue6_heart.mp3",
+   "cue_in": 16.0,
+   "segments": [
+    {
+     "src": "still:e3_forge_frame",
+     "takes": [
+      {
+       "i": 64,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e3_mitasur_night",
+     "takes": [
+      {
+       "i": 65,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e3_reechh_grass",
+     "dur": 3.8,
+     "takes": [
+      {
+       "sfx": "tummy_hungry",
+       "at": 0.6
+      }
+     ]
+    },
+    {
+     "src": "still:e3_forge_frame",
+     "takes": [
+      {
+       "i": 66,
+       "at": 0.5
+      },
+      {
+       "i": 67
+      },
+      {
+       "i": 68
+      }
+     ]
+    },
+    {
+     "src": "still:e3_reechh_grass",
+     "dur": 3.0,
+     "takes": [
+      {
+       "sfx": "growl_question",
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e3_forge_frame",
+     "takes": [
+      {
+       "i": 70,
+       "at": 0.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s6a_feast",
+   "cue": "../ep2prod/score/cue1_mela.mp3",
+   "segments": [
+    {
+     "src": "clip:c38_feast",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 71,
+       "at": 0.7
+      }
+     ]
+    },
+    {
+     "src": "still:e3_fyuria_feast",
+     "takes": [
+      {
+       "i": 72,
+       "at": 0.5
+      },
+      {
+       "sfx": "growl_shy",
+       "at": 6.4
+      }
+     ]
+    },
+    {
+     "src": "still:e3_feast_dadi",
+     "takes": [
+      {
+       "i": 74,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "clip:c39_eat",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "sfx": "big_bite",
+       "at": 1.0,
+       "duck": false
+      },
+      {
+       "sfx": "tummy_happy",
+       "at": 4.3
+      },
+      {
+       "i": 75,
+       "at": 6.2
+      }
+     ]
+    },
+    {
+     "src": "file:clips/c38_f2.mp4",
+     "in": 0.0,
+     "dur": 6.0,
+     "takes": [
+      {
+       "sfx": "growl_happy",
+       "at": 0.2,
+       "duck": false
+      },
+      {
+       "i": 76,
+       "at": 1.7
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s6b_naam",
+   "cue": "../ep2prod/score/cue6_heart.mp3",
+   "segments": [
+    {
+     "src": "still:e3_feast_dadi",
+     "takes": [
+      {
+       "i": 77,
+       "at": 0.6
+      }
+     ]
+    },
+    {
+     "src": "still:e3_mitasur_name",
+     "takes": [
+      {
+       "i": 78,
+       "at": 0.8
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/naam1.png",
+       "at": 0.5,
+       "scale": 0.5,
+       "pos": "bc"
+      }
+     ]
+    },
+    {
+     "src": "clip:c31_paint",
+     "in": 2.5,
+     "dur": 4.5,
+     "takes": [
+      {
+       "sfx": "brush_three",
+       "at": 0.4,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e3_mitasur_name",
+     "takes": [
+      {
+       "i": 79,
+       "at": 0.5
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/naam2.png",
+       "at": 0.4,
+       "scale": 0.5,
+       "pos": "bc"
+      }
+     ]
+    },
+    {
+     "src": "file:clips/c38_f2.mp4",
+     "in": 5.5,
+     "dur": 3.8,
+     "takes": [
+      {
+       "sfx": "cheer_clap",
+       "at": 0.2,
+       "duck": false
+      },
+      {
+       "i": 80,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e3_fyuria_roti",
+     "takes": [
+      {
+       "i": 81,
+       "at": 0.5
+      },
+      {
+       "i": 82
+      },
+      {
+       "i": 83
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s7a_recap",
+   "cue": "score/cueE_lesson_80.mp3",
+   "segments": [
+    {
+     "src": "card:r02",
+     "takes": [
+      {
+       "i": 84,
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "card:r03",
+     "dur": 5.5,
+     "takes": [
+      {
+       "i": 85,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "card:r04",
+     "dur": 5.2,
+     "takes": [
+      {
+       "i": 100,
+       "at": 0.8
+      }
+     ]
+    },
+    {
+     "src": "card:r05",
+     "dur": 5.2,
+     "takes": [
+      {
+       "i": 101,
+       "at": 0.8
+      }
+     ]
+    },
+    {
+     "src": "card:r06",
+     "dur": 5.2,
+     "takes": [
+      {
+       "i": 102,
+       "at": 0.8
+      }
+     ]
+    },
+    {
+     "src": "card:r07",
+     "dur": 5.2,
+     "takes": [
+      {
+       "i": 103,
+       "at": 0.8
+      }
+     ]
+    },
+    {
+     "src": "card:r08",
+     "takes": [
+      {
+       "i": 104,
+       "at": 0.8
+      },
+      {
+       "i": 87
+      }
+     ]
+    },
+    {
+     "src": "card:r09",
+     "takes": [
+      {
+       "i": 88,
+       "at": 0.4
+      },
+      {
+       "i": 89
+      }
+     ]
+    },
+    {
+     "src": "card:r10",
+     "dur": 3.4
+    }
+   ]
+  },
+  {
+   "name": "s7b_neeti",
+   "cue": "../ep2prod/score/cue3_lesson.mp3",
+   "cue_in": 6.0,
+   "segments": [
+    {
+     "src": "still:s_dadi_night",
+     "dur": 8.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 90,
+       "at": 0.6
+      }
+     ]
+    },
+    {
+     "src": "clip:c34_chasefail",
+     "in": 2.5,
+     "dur": 6.0
+    },
+    {
+     "src": "still:e3_rope_team",
+     "dur": 6.0
+    },
+    {
+     "src": "clip:c37_stop",
+     "in": 4.0,
+     "dur": 6.0
+    },
+    {
+     "src": "still:s_dadi_night",
+     "dur": 8.6
+    },
+    {
+     "src": "still:s_fyuria_kitab",
+     "takes": [
+      {
+       "i": 91,
+       "at": 0.5
+      },
+      {
+       "sfx": "pencil",
+       "at": 3.4,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:s_dadi_night",
+     "takes": [
+      {
+       "i": 92,
+       "at": 0.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s7c_goodnight",
+   "cue": "../ep2prod/score/cue7_night.mp3",
+   "cue_in": 20.0,
+   "segments": [
+    {
+     "src": "clip:c40_end",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 93,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e3_toddlers_sleep",
+     "dur": 4.5
+    },
+    {
+     "src": "still:e3_reechh_sleep",
+     "fadeout": 1.2,
+     "takes": [
+      {
+       "sfx": "growl_snore",
+       "at": 0.3
+      },
+      {
+       "i": 95,
+       "at": 4.4
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

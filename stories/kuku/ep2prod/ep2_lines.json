@@ -1,0 +1,282 @@
+[
+ {
+  "scene": 1,
+  "who": "KUKU",
+  "paren": "reading, delighted",
+  "text": "माशा का ख़त! वो बड़े शहर के मेले में है!",
+  "idx": 0
+ },
+ {
+  "scene": 1,
+  "who": "FYURIA",
+  "paren": null,
+  "text": "और हमारा मेला — आज है!",
+  "idx": 1
+ },
+ {
+  "scene": 1,
+  "who": "VESPER",
+  "paren": "startled colossal scream",
+  "text": "SHRIEK",
+  "idx": 2
+ },
+ {
+  "scene": 1,
+  "who": "FYURIA",
+  "paren": "ears ringing",
+  "text": "वैस्पर!",
+  "idx": 3
+ },
+ {
+  "scene": 1,
+  "who": "DADI",
+  "paren": "chuckling, to camera",
+  "text": "हमारा वैस्पर — सबसे शांत, और सबसे ज़ोरदार।",
+  "idx": 4
+ },
+ {
+  "scene": 2,
+  "who": "MITASUR",
+  "paren": "quiet, to himself",
+  "text": "सबका मेला। सबके दोस्त। और मेरा? मेरे पास... कुछ नहीं।",
+  "idx": 5
+ },
+ {
+  "scene": 2,
+  "who": "MITASUR",
+  "paren": null,
+  "text": "जो मैं बना नहीं सकता... वो मैं मिटा सकता हूँ।",
+  "idx": 6
+ },
+ {
+  "scene": 4,
+  "who": "DADI",
+  "paren": null,
+  "text": "बच्चों — म चोरी हो गया। उसे वापस लाने के लिए, हमें म सीखना होगा।",
+  "idx": 7
+ },
+ {
+  "scene": 4,
+  "who": "DADI",
+  "paren": null,
+  "text": "'माया' में म है। म से — मैं!",
+  "idx": 8
+ },
+ {
+  "scene": 4,
+  "who": "FYURIA",
+  "paren": null,
+  "text": "हिंदी में, वैस्पर!",
+  "idx": 9
+ },
+ {
+  "scene": 3,
+  "who": "VESPER",
+  "paren": "soft, in English",
+  "text": "that's... M.",
+  "idx": 10
+ },
+ {
+  "scene": 4,
+  "who": "VESPER",
+  "paren": "reaching, finding it",
+  "text": "...म।",
+  "idx": 11
+ },
+ {
+  "scene": 4,
+  "who": "DADI",
+  "paren": "to camera, warm",
+  "text": "देखो — English का M टोपी नहीं पहनता। पर हिंदी का म — टोपी पहनता है! बोलो मेरे साथ — म!",
+  "idx": 12
+ },
+ {
+  "scene": 4,
+  "who": "CHORUS3",
+  "paren": null,
+  "text": "म!",
+  "idx": 13
+ },
+ {
+  "scene": 4,
+  "who": "DADI",
+  "paren": null,
+  "text": "अब जाओ — अपना अक्षर वापस लाओ।",
+  "idx": 14
+ },
+ {
+  "scene": 5,
+  "who": "KUKU",
+  "paren": "planting his little feet",
+  "text": "अक्षर वीर — तैयार?!",
+  "idx": 15
+ },
+ {
+  "scene": 5,
+  "who": "CHORUS2",
+  "paren": null,
+  "text": "तैयार!",
+  "idx": 16
+ },
+ {
+  "scene": 5,
+  "who": "FYURIA",
+  "paren": null,
+  "text": "मैं पहले!",
+  "idx": 17
+ },
+ {
+  "scene": 5,
+  "who": "VESPER",
+  "paren": "soft",
+  "text": "...वहाँ। मटके में।",
+  "idx": 18
+ },
+ {
+  "scene": 5,
+  "who": "VESPER",
+  "paren": "a little louder, still gentle",
+  "text": "...मटके में...",
+  "idx": 19
+ },
+ {
+  "scene": 5,
+  "who": "VESPER",
+  "paren": "colossal scream to be heard",
+  "text": "SHRIEK",
+  "idx": 20
+ },
+ {
+  "scene": 5,
+  "who": "VESPER",
+  "paren": null,
+  "text": "मटके में।",
+  "idx": 21
+ },
+ {
+  "scene": 5,
+  "who": "MITASUR",
+  "paren": null,
+  "text": "नहीं! ये मेरा है! मेरे पास अपना कुछ नहीं है!",
+  "idx": 22
+ },
+ {
+  "scene": 6,
+  "who": "FYURIA",
+  "paren": "alarm",
+  "text": "मदद करो! वो गिर जाएगा!",
+  "idx": 23
+ },
+ {
+  "scene": 6,
+  "who": "KUKU",
+  "paren": null,
+  "text": "अक्षर वीर — तैयार!",
+  "idx": 24
+ },
+ {
+  "scene": 6,
+  "who": "CHORUS3",
+  "paren": null,
+  "text": "साँस… टोपी… अक्षर!",
+  "idx": 25
+ },
+ {
+  "scene": 8,
+  "who": "FYURIA",
+  "paren": null,
+  "text": "हम जीत गए! चलो!",
+  "idx": 26
+ },
+ {
+  "scene": 8,
+  "who": "KUKU",
+  "paren": null,
+  "text": "रुको। अगर हम ऐसे ही चले गए... वो कल फिर चुरा लेगा।",
+  "idx": 27
+ },
+ {
+  "scene": 8,
+  "who": "KUKU",
+  "paren": null,
+  "text": "तुम चुराते हो क्योंकि तुम बना नहीं सकते। पर तुम बना सकते हो। मैं सिखाऊँगा।",
+  "idx": 28
+ },
+ {
+  "scene": 8,
+  "who": "MITASUR",
+  "paren": "small",
+  "text": "मैं? नहीं... मेरे हाथ तो सिर्फ़ मिटाते हैं।",
+  "idx": 29
+ },
+ {
+  "scene": 8,
+  "who": "KUKU",
+  "paren": null,
+  "text": "साँस लो।",
+  "idx": 30
+ },
+ {
+  "scene": 8,
+  "who": "KUKU",
+  "paren": null,
+  "text": "साँस… टोपी… अक्षर…",
+  "idx": 31
+ },
+ {
+  "scene": 8,
+  "who": "MITASUR",
+  "paren": "a whisper of wonder",
+  "text": "मैंने... बनाया।",
+  "idx": 32
+ },
+ {
+  "scene": 8,
+  "who": "FYURIA",
+  "paren": null,
+  "text": "चलो — मेले में!",
+  "idx": 33
+ },
+ {
+  "scene": 8,
+  "who": "KUKU",
+  "paren": null,
+  "text": "दादी... क्या आपकी भी माँ थीं?",
+  "idx": 34
+ },
+ {
+  "scene": 8,
+  "who": "PAPA",
+  "paren": null,
+  "text": "हाँ, बेटा। ये मेरी माँ हैं।",
+  "idx": 35
+ },
+ {
+  "scene": 9,
+  "who": "DADI",
+  "paren": null,
+  "text": "आज हमने बचाया — म से: माँ! मेला! मिठाई! मोर! मछली! मदद! और — माया!",
+  "idx": 36
+ },
+ {
+  "scene": 9,
+  "who": "DADI",
+  "paren": null,
+  "text": "हिंदी का हर अक्षर टोपी पहनता है — English M नहीं!",
+  "idx": 37
+ },
+ {
+  "scene": 9,
+  "who": "DADI",
+  "paren": null,
+  "text": "और एक बात, बच्चों। तुमने अक्षर सिर्फ़ वापस नहीं लिया — तुमने चोरी की वजह छीन ली। दुश्मन को दोस्त बना लो, तो वो दोबारा नहीं लूटता।",
+  "idx": 38
+ },
+ {
+  "scene": 9,
+  "who": "FYURIA",
+  "paren": "grinning",
+  "text": "मैं पहले!",
+  "idx": 39
+ }
+]

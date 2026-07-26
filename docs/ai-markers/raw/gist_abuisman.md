@@ -1,0 +1,3 @@
+A rewrite of [tropes.fyi](https://tropes.fyi/tropes-md) addressed directly to the AI rather than to the human reader. The original explains AI writing patterns from the outside; this version gives the AI direct prohibitions, cuts the explanatory framing, adds positive guidance ("show it — don't signal it"), and avoids the irony of describing bad patterns in prose that demonstrates them.
+
+Full credit goes to tropes.fyi, I just had Claude rewrite the file according to [my comment about the site on HN](https://news.ycombinator.com/item?id=47295908)

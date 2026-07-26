@@ -1,0 +1,3 @@
+file 'mitasur_A_vardan.mp3'
+file 'gapm.mp3'
+file 'mitasur_B_bittu.mp3'

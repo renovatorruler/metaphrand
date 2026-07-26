@@ -22,25 +22,24 @@
 - **Never:** lectures, explains the moral, uses a scary or complex word, shames Kuku.
 - **Sample:** «शाबाश, कुकु। फिर से बोलो — क!»
 
-### फ़ूरिया (Furia) — `furia` · *the spark; first at everything* (mirrors the author's daughter)
-- **Sentence:** fast, exclamatory, declarative; races to answer before anyone else.
-- **Emotion/reason:** kind but fiercely competitive — especially against her brother Vesper; elbows in first, then immediately shares the prize. Instantly maternal with anything small (कालू, Cheeku).
-- **Vocabulary:** simple + racing words (पहले, जल्दी, मैं); dreams aloud of her shiny red कार.
-- **Directness:** total; announces her victories ("मैंने पहले देखा!").
-- **Pace/warmth/tics:** quick, bright; catchphrase **«मैं पहले!»**; recurring letter gag: sees the day's letter → «अरे, ये तो मेरा Ф है!» → learns the टोपी rule; writes each day's letter in her **किताब** — first, obviously.
-- **earnsEloquence:** false.
-- **Never:** mean or gloating (competitive, never cruel); never slow.
-- **Sample:** «मैं पहले! मैंने पहले देखा!»
+### फ्यूरिया (Fyuria) — `furia` · *the big-hearted spark* (mirrors the author's daughter)
+- **The person (this is the point, not the tic):** a leader who feels EVERYTHING at full volume — joy, worry, fierce love. Her "first!" isn't vanity; it's generosity in a hurry — she wants to be first to *help*, first to *protect*. She's the group's emotional radar: she clocks when someone's sad before they say it. Brave on the outside, and just brave enough to admit fear on the inside (she charged the well, failed, and *gave her "first" away* — that yielding is her real growth). She has real interests: fast things (dreams of a red कार), and she writes — keeps a किताब of her days.
+- **The contradiction (richness):** wants to be first, but the thing she's proudest of is when she helped someone ELSE be first.
+- **Sentence:** fast, bright, warm; a full grammatical sentence, never chopped.
+- **TIC BUDGET (seasoning, not the meal):** «मैं पहले!» + the Ф→टोपी gag are her signatures — **use at most once or twice an episode, at a beat that EARNS it.** Most of her lines are just a warm, quick, feeling girl — noticing, comforting, deciding, wondering. If every scene has «मैं पहले!», the card is being written wrong.
+- **Register:** आप to elders; **तुम / तुम्हारा** to the other kids and to कालू (never तू).
+- **earnsEloquence:** false. **Never:** mean, gloating, or one-note.
+- **Sample (range, not the tic):** «अरे, तुम रो क्यों रहे हो? इधर आओ.» / «रुको, ये मुझे थोड़ा अजीब लग रहा है.»
 
-### वैस्पर (Vesper) — `vesper` · *the dreamer; hears what others miss* (mirrors the author's son)
-- **Sentence:** slow, soft, wandering; often answers a question from three lines ago.
-- **Emotion/reason:** very kind and sweet; gentle with little ones; lives half in his own imagination — must be called 4–5 times («वैस्पर… वैस्पर… वैस्पर!») before he responds; but BECAUSE he's dreaming, he notices what everyone else misses (he hears कालू first).
-- **Vocabulary:** simple Hindi — but he **drifts into English mid-sentence** and must be reminded: «हिंदी में, वैस्पर!» → he repeats it in Hindi. (This is the show's in-character translation device — the English gloss comes from Vesper, not a narrator.)
-- **Directness:** indirect, delayed, dreamy.
-- **Pace/warmth/tics:** unhurried; signature: **falls asleep before everyone, anywhere** — every episode ends on where Vesper fell asleep this time.
-- **earnsEloquence:** false.
-- **Never:** loud, fast, or first; never unkind.
-- **Sample:** «…hmm? Look, a puppy — …अरे हाँ — कुत्ता!»
+### वैस्पर (Vesper) — `vesper` · *the tender seer & little inventor* (mirrors the author's son)
+- **The person (this is the point, not the tic):** he seems the least present and is the most deeply attuned — slow outside, vast inside. His "dreaminess" is really deep PERCEPTION and imagination: he notices beauty, connections, and hidden things others miss (he heard कालू first; he saw the "hook" solution). He's a maker — builds and invents in his head, offers the sideways idea. Profoundly gentle and empathetic: the one who comforts, who asks the surprising, almost-wise question. When something truly matters, he snaps into focus first.
+- **The contradiction (richness):** the one who wanders off is the one who sees clearest.
+- **Sentence:** soft, unhurried, but COMPLETE and often quietly insightful — not vacant.
+- **THE SHRIEK (his standout trait, author-added Ep2):** the quietest dragon unleashes a COLOSSAL, ear-splitting «AAAAAAAA—!!!» when startled or when he *needs* to be heard — it freezes the whole valley, then he calmly carries on. Comedy AND a plot tool (in Ep2 he shrieks the crowd silent, then quietly points to the clue). This is now his signature over the old "needs 4–5 calls."
+- **TIC BUDGET (seasoning, not the meal):** the 4–5 name-calls, the English-drift-then-«हिंदी में, वैस्पर!», and falling-asleep-anywhere are his signatures — **use at most once or twice an episode.** The English-drift should be *charming* (he reaches for a word he doesn't have yet), not a repeated gag; the goodnight button is once, at the very end. Most of his lines are gentle noticing, comforting, and clever ideas.
+- **Register:** आप to elders; **तुम / तुम्हारा** to the other kids and to कालू (never तू).
+- **earnsEloquence:** false. **Never:** loud, fast, first, unkind — or merely spacey (he's perceptive, not absent).
+- **Sample (range, not the tic):** «देखो, अगर हम ऊपर से पकड़ें तो? आराम से आ जाएगा.» / «वो डर गया है. उसे बस थोड़ा प्यार चाहिए.»
 
 ### पापा (Papa) — `papa` · *Kuku's father: big, busy, kind-but-firm*
 - **Sentence:** short, warm, decisive; a father's plain "no" that never feels cold.

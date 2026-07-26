@@ -1,0 +1,29 @@
+ep2-s1-chori — EXT. AKSHAR GHAATI - ABOVE THE FAIR - CONTINUOUS
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep2/ep2-s1-chori.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: High above the fairground, MITASUR, a roly-poly purple goblin with soft sponge-hands and a bulging sack on his back, sits on the edge of a low cloud and looks down at the crowd.
+ANNOUNCER (RADIO): आइए आइए, मेले में मिठाई खाइए, तालाब में मछली देखिए।
+ACTION: Mitasur leans over the cloud and watches the children move between the stalls below.
+MITASUR: नीचे सबके पास अपना मेला है, और मेरे पास तो कुछ भी नहीं है।
+MITASUR: किसी ने आज तक मुझे अपने मेले में कभी नहीं बुलाया।
+ACTION: Mitasur pulls the sack around into his lap and pats it with one sponge-hand.
+MITASUR: मेरे पास बस यह थैला है, और इसमें मेरे अपने अक्षर रहते हैं।
+ACTION: Mitasur reaches a sponge-hand down toward the fair and rubs slowly at the air.
+MITASUR: एक काम मैं अच्छा कर लेता हूँ, मैं म को मिटा देता हूँ।
+ACTION: On Dadi's tray the मिठाई goes dull and grey, and the shine drains out of every piece.
+ACTION: In the pond the मछली stop moving all together, and their bright colours fade away to grey.
+ACTION: The मोर lifts its tail to open, but the feathers stay flat and will not fan out.
+ACTION: A tiny chick opens its beak to call माँ, and nothing comes out at all.
+ACTION: Glowing म letters float up out of the sweets and the pond and drift toward Mitasur.
+MITASUR: आओ आओ, अब तुम सब मेरे हो, सारे के सारे मेरे हो।
+ACTION: Mitasur pulls the sack wide open and sweeps the floating letters inside with both hands.
+MITASUR: ये अक्षर ही मेरे अपने हैं, और मैं इन्हें किसी को नहीं दूँगा।
+MITASUR (WHISPER): तुम मेरे पास रहोगे, तो मैं इतना अकेला नहीं रहूँगा।
+ACTION: Mitasur laughs to himself, and the little laugh bounces back off the empty cloud.
+ACTION: MORNI, the chick's mother peahen, rushes across the frozen fairground and turns her head this way and that.
+MORNI: मेरा बच्चा कहीं खो गया है, कोई मेरी मदद करो।
+ACTION: The chick opens its beak toward Morni again, but the word for its mother is gone and only quiet comes.
+MORNI: मेरे छोटे, तुम मुझे पुकारो, मैं तुम्हें ढूँढ रही हूँ।
+ACTION: Mitasur swings the heavy sack up onto his back and waddles off along the cloud.
+ACTION: Behind him the fair sits still and grey, the sweets dull and the fish frozen, and the little chick stands with its beak open and no word.

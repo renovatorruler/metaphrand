@@ -1,0 +1,39 @@
+[
+  {
+    "created_at": "2026-07-20T15:17:56.472317Z",
+    "display_name": "Kling v3.0",
+    "id": "88b280ca-0933-42a4-b72b-81681abc295d",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "16:9",
+      "cfg_scale": 0.5,
+      "duration": 5,
+      "enhance_prompt": false,
+      "height": 720,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "e5371b3f-c480-4118-8c3b-191760f106f2",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/e5371b3f-c480-4118-8c3b-191760f106f2.png"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "Medium close-up, night, rural Indian police outpost, 1990s. The officer in khaki at his desk, lit by a kerosene lantern, looks directly into the camera and speaks one short weary sentence in Hindi, his lips and jaw moving naturally with the words, then falls silent and holds the look. Kerosene lantern flame flickers. Static camera, subtle handheld breath, cinematic, no cuts.",
+      "reference_elements": [],
+      "sound": "off",
+      "width": 1280
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260720_151756_88b280ca-0933-42a4-b72b-81681abc295d.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260720_151756_88b280ca-0933-42a4-b72b-81681abc295d_thumbnail.webp"
+  }
+]

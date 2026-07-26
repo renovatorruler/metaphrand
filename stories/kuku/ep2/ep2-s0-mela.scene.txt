@@ -1,0 +1,33 @@
+ep2-s0-mela — EXT. AKSHAR GHAATI - THE FAIRGROUND - MORNING
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep2/ep2-s0-mela.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Morning light spreads across the fairground at Akshar Ghaati, and paper flags flutter over the stalls.
+ACTION: FURIA, a tall dragon-girl with bright wings and a runner's build, hurries between the tables with a postcard held up in one claw.
+FURIA: सुनो सब लोग, माशा ने मुझे एक चिट्ठी भेजी है, और मैं तुम्हें अभी पढ़कर सुनाना चाहती हूँ।
+ACTION: KUKU, the smallest dragon, sits at the edge of a sweets tray with his eyes going from one plate to the next.
+KUKU: रुको फुरिया, मैं अभी सारी मिठाई देख रहा हूँ, एक मिनट रुको।
+ACTION: VESPER, Furia's younger brother, drifts along the stalls with his head tilted, looking up at the flags.
+VESPER: फुरिया, यहाँ इतना कुछ है कि मुझे समझ नहीं आ रहा कहाँ देखूँ।
+FURIA: बस एक पल दे दो, यह चिट्ठी बहुत अच्छी है, सुनो।
+ACTION: Furia holds the postcard flat and reads from it out loud.
+FURIA: माशा लिखती है कि वह अपने शहर के एक बहुत बड़े मेले में गई थी।
+FURIA: और देखो, मज़े की बात यह है कि हमारा अपना मेला भी आज ही लगा है।
+ANNOUNCER (RADIO): आइए आइए, अक्षर घाटी का मेला आज खुला है, सब लोग आइए।
+ACTION: DADI MAYA, the grandmother dragon, stands behind a small stall stacked with sweets and waves the children over.
+DADI MAYA: आओ बच्चों, पहले मेरी मिठाई की दुकान पर आओ, और एक एक टुकड़ा चखो।
+ACTION: Kuku takes a piece from Dadi's tray and bites into it.
+KUKU: दादी, आपकी मिठाई सच में बहुत मीठी है।
+FURIA: दादी, मैं आपकी बाकी मिठाई सजाने में मदद कर देती हूँ, आप बस बैठिए।
+DADI MAYA: बहुत अच्छा, तुम बड़ी मदद करती हो।
+ACTION: Vesper leans over a small pond where fish dart back and forth in quick bright flashes.
+VESPER: देखो, तालाब में मछलियाँ कैसे इधर से उधर तैर रही हैं।
+KUKU: मुझे तो सब कुछ एक साथ देखना है, पर यहाँ इतना कुछ है कि मैं थक जाता हूँ।
+ACTION: A peahen walks past the pond with her chicks stepping along behind her.
+DADI MAYA: उधर देखो, मोर का पूरा परिवार आज घूमने निकला है।
+VESPER: इतने शोर में मैं बस एक छोटी सी चीज़ को देखना चाहता हूँ।
+ACTION: Vesper crouches low and watches one small peachick press in close to its mother.
+VESPER: वह छोटा मोर अपनी माँ के पास ही रहता है, कहीं नहीं जाता।
+VESPER (WHISPER): फुरिया, वह अपनी माँ को एक पल के लिए भी नहीं छोड़ता।
+ACTION: Vesper smiles and stays crouched by the family.
+ACTION: Across the fairground the sweets shine on Dadi's tray and the fish flash in the pond, and the little peachick tucks itself in against its mother.

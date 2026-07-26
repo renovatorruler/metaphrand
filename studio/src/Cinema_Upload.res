@@ -117,13 +117,24 @@ let authStart = async (): pending => {
   }
 }
 
+/* a transient network blip mid-poll must not kill a 30-minute wait: treat a failed
+   poll request as "still pending" and keep polling until the code's own deadline. */
+let postFormOrPending = async (url: string, fields: array<(string, string)>): Js.Json.t =>
+  try {await postForm(url, fields)} catch {
+  | _ => {
+      let d = Js.Dict.empty()
+      Js.Dict.set(d, "error", str("authorization_pending"))
+      Js.Json.object_(d)
+    }
+  }
+
 /* poll until the user approves (or the code expires). On success, cache tokens. */
 let rec pollLoop = async (cid: string, csec: string, device: string, interval: int, deadline: float): unit =>
   if now() > deadline {
     raise(UploadError("device code expired before approval"))
   } else {
     await sleep(interval * 1000)
-    let t = await postForm("https://oauth2.googleapis.com/token", [
+    let t = await postFormOrPending("https://oauth2.googleapis.com/token", [
       ("client_id", cid),
       ("client_secret", csec),
       ("device_code", device),

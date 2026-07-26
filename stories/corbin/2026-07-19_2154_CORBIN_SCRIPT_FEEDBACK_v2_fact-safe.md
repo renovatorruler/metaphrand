@@ -1,0 +1,63 @@
+# Feedback on the Margaret Corbin script — fact-safe edition
+
+This is story feedback for a documentary, so it follows one hard rule throughout: nothing suggested here is invented. Every example line comes either from your own script or from a cited source, and each new fact names its source. Where the record is thin, that is said plainly instead of papered over.
+
+## What already works — keep it
+
+Opening at the fort with a promise instead of a birth certificate is the right instinct. The gun mechanics are concrete and well explained (the water for swabbing, the matross defined in passing). And the raw material you found is exceptional: the wrong body under the monument, the rum-ration dispute, the "offensive person" letter, and the Congressional resolution. The problem is never the material. The script just doesn't let the material be a story.
+
+## The core problem
+
+As written, this is a report: events happen to Margaret in date order. A story needs a thread, and the thread is already sitting in your facts. Look at them together: in life she was paid half a soldier's wage; in legend her fame fused with another woman's (Molly Pitcher); in death her honors went to an unknown man's bones. The recognition kept going to the wrong place. So organize the video as a question rather than a chronology: how does a country lose its first woman veteran? Her whole life becomes the answer, the pension years stop sagging because they are now part of the case, and the ending stops being a footnote because the whole video was walking toward it. This costs no invention. It is arrangement only.
+
+## Fix 1 — the open makes a promise; don't refund it
+
+Right now the cold open promises the gun, and then the script retreats to "Margaret Cochran was born on November 12th, 1751..." Attention bought, then spent on census data. Two options, both fact-safe. Keep your battle open but cut straight from the promise into aimed backstory. Or, bolder: open at the grave. Everything needed for that open is sourced: the monument, the honors, the October 2016 excavator, the forensic dig, the male remains (Army Times, Dec. 5, 2017; DAR "Discovery at West Point"). Then one plain line of promise: "She was the first woman in American history to be paid as a soldier. This is how she earned that monument, and how the country lost her."
+
+## Fix 2 — aim the biography
+
+Keep the backstory, but make every early fact a reason she doesn't run on November 16. Sample, using only facts already in your script, reordered:
+
+"To understand why she didn't run, go back twenty years, to a farm on the Pennsylvania frontier. Margaret Cochran was five when the raid came. Her father was killed. Her mother was carried off. Margaret and her brother lived only because they were away from the house that day. An uncle raised her on that same frontier — a place with no walls and no soldiers nearby, where little stood between a family and the border's violence."
+
+Note what is NOT there: no claim about what she felt or learned (no source for her inner life), and nothing about the mother beyond "carried off," because the record you cite says no more. One bonus fact that is pure arithmetic on dates already in your script: she turned twenty-five on November 12, 1776 — four days before the assault.
+
+## Fix 3 — character through behavior, not adjectives
+
+"Gruff, loud, and comfortable among the men" tells; the pipe, the soldier's talk, and sitting with the gun crews instead of the other women show. All three behaviors are already in your script. Deliver those and cut the adjective list. The same move works everywhere: wherever the script announces a quality, replace it with the recorded behavior.
+
+## Fix 4 — the turn is the reason the video exists; give it beats
+
+The hinge currently gets four words ("However, Margaret did not run"). Build the sequence from your own facts plus one sourced upgrade: the crewman beside John is hit; John is killed at his post — in the words Congress itself wrote three years later, "killed by her side" (Journals of the Continental Congress, July 6, 1779, via DAR); she had watched him work that gun for months; she knew exactly what to do; she stepped into his place, loading, aiming, firing; the men who survived spoke of her steady hand and accurate fire. No invented buckets, distances, or crew counts — the sequence itself carries the choice.
+
+## Fix 5 — the back half is one fight, not a list
+
+After the wound, tell it as a single continuing war: the fight to be counted. The beats, all sourced: Pennsylvania's $30 (June 29, 1779) and then the resolution — put the July 6, 1779 text on screen and read it aloud; the document outwrites any narration ("...whilst she heroically filled the post of her husband who was killed by her side serving a piece of artillery..."). After it, one fact, no adjectives: a wounded man drew full pay. Then the rum, which is better than your version: it was Washington's aide Tench Tilghman who confirmed her ration, while adding that it might not be "prudent to give them to her all in liquor" (American Revolution Institute; Papers of the War Department via 18thcenturycommon.org). Then a fact your script is missing entirely: in 1782 she remarried — another wounded soldier — and within a year he was dead too (Fort Tryon Park Trust; National Women's History Museum). Then the Invalid Corps, West Point, discharge, staying because there was nowhere else to go.
+
+And don't soften the bitter years — pair the letters instead. William Price to Secretary of War Knox, January 31, 1786: "such an offensive Person that People are unwilling to take her in Charge." Price again, October 7, 1786, moving her from a household where she was "not so well treated as she ought to be" (Papers of the War Department via 18thcenturycommon.org). The same man wrote both. Read both. That is a truer and harder beat than one insult quoted alone.
+
+## Fix 6 — "Captain Molly" must be earned or cut
+
+The nickname currently appears once, unexplained, at 10:10. It has documented provenance: Price's own 1786 correspondence calls her "Captain Molly" — the nickname is in official War Department paperwork. Plant it there. And the related tangle is a gift, not a hazard: Molly Pitcher's Monmouth story is from 1778, two years AFTER Corbin's gun, and by the 1920s newspapers had fused the two women into "Captain Molly Pitcher" (National Archives, Prologue, Summer 1999; New-York Historical Society). Even her fame went to somebody else — which rhymes exactly with your ending.
+
+## Fix 7 — build the ending; don't append it
+
+The wrong-remains reveal is your best fact and it arrives as a footnote. Build it: give the 1926 reburial its full weight first — the DAR working through Knox's papers, the believed grave on J.P. Morgan's riverside estate near a cedar stump, opened March 16, 1926, with West Point officials present (DAR "1926 DAR Efforts"; Army Times, Apr. 2018) — then the 2016 excavator, the forensic team (Elizabeth DiGangi, Binghamton University; Michael Trimble, Army Corps of Engineers), the tall middle-aged man, his reburial elsewhere in the cemetery, still nameless, and the 2018 rededication of the monument as a memorial (Army Times, Dec. 2017; army.mil, 2018). Add the hardest sourced fact: the believed original gravesite was lost — in the 1970s Highland Falls built a sewage plant where many think it lay (Army Times, Apr. 2018). Phrase it exactly that carefully: "where many think it lay."
+
+Then close on a verified image instead of a moral: the park she defended still carries the royal governor's name, Fort Tryon — and the plaza at its entrance and the road that climbs the ridge have carried hers since 1977: Margaret Corbin Circle, Margaret Corbin Drive (NYC Parks; Fort Tryon Park Trust). End plain: "Her grave is still missing. Her name is on the hill." Cut the "smoke of time" outro poetry; after that last line, silence works harder.
+
+## Fix 8 — cut the lines that tell the audience what to conclude
+
+"It was a landmark moment, even if the country barely noticed." "The recognition, like everything else in her life, came with hard edges." "The frontier had not been gentle with her, and she did not pretend otherwise." Delete all three and replace them with nothing. The facts around them already do the work, and the documents (the resolution, the letters) say it better than any adjective.
+
+## Errata for the narrator
+
+Consistency and pronunciation, since these get read aloud: it's Corbin throughout (the script says "Corbett" once, at 0:30). "Lexington and Concord." The commander was Colonel Robert Magaw. "Ferried across the Hudson," not "fed." "Ninety miles." "Re-interred." "Take charge of her." "Dawn's early light." Two of these corrections (Magaw, Concord) come from the historical record rather than your transcript, so verify them independently rather than taking my word. Also: the "close to 5'8" and unusually tall" claim — keep it only if you have its source in hand; it isn't among the documents I verified.
+
+## The rule that governed all of this
+
+For a documentary, the storytelling levers that are always legal: selection, order, aiming facts at a destination, juxtaposition, withholding a sourced fact for a designed reveal, and plain verbs for actions the record states. Illegal without a source: invented staging (distances, props, ceremony details), invented inner life ("she learned," "she believed"), invented mechanisms, arithmetic presented as record, and any nickname or detail without provenance. When the script feels thin, the cure is research, not imagination — this feedback added a dozen usable facts and not one invented detail, and the primary documents (the resolution, the Tilghman note, the two Price letters) turned out to be the best writing in the piece.
+
+## Sources
+
+DAR: dar.org/national-society/who-margaret-cochran-corbin, /1926-dar-efforts, /discovery-west-point. National Archives, Prologue (Summer 1999): "Will the Real Molly Pitcher Please Stand Up?" Army Times: Dec. 5, 2017 and Apr. 30, 2018. army.mil article 204658 (2018 rededication). American Revolution Institute: "Margaret Corbin, Revolutionary." 18thcenturycommon.org/corbin (Papers of the War Department). NYC Parks: Fort Tryon Park highlights, Margaret Corbin Circle. Fort Tryon Park Trust: Margaret Corbin Circle. Wikipedia: Margaret Corbin; Battle of Fort Washington. Historical Society of Pennsylvania: "A Forgotten Female Patriot." New-York Historical Society: "Revolutionary Myth Making and Myth Breaking, Part 1." National Women's History Museum: Margaret Cochran Corbin.

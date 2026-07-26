@@ -22,7 +22,7 @@ Chant: **«साँस… टोपी… अक्षर!»** (Breath… Hat�
 कुआँ (well) · कटोरा (bowl) · कंबल (blanket) · केला (banana — running gag).
 
 ## Cast this episode — THE TRIO (locked 2026-07-21)
-**कुकु** (hero, letter-breath) · **फ़ूरिया / Furia** (sister — first at everything, kind-competitive,
+**कुकु** (hero, letter-breath) · **फ्यूरिया / Furia** (sister — first at everything, kind-competitive,
 dreams of a red कार, writes letters in her किताब; the Ф gag is hers) · **वैस्पर / Vesper**
 (her younger brother — dreamy, called 4–5 times before answering, drifts into English and is
 reminded «हिंदी में, वैस्पर!», falls asleep anywhere; hears कालू first) · **पापा** (Kuku's dad,

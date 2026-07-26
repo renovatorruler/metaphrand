@@ -36,3 +36,11 @@ venv/
 # git worktrees live here; never tracked by the parent repo
 .claude/worktrees/
 *.audio
+
+# binary working assets / local databases / archives — regenerable, never versioned
+*.blend
+*.blend1
+*.db
+*.sqlite
+*.zip
+*.tsv.gz

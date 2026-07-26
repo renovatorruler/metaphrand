@@ -1,0 +1,32 @@
+ep2-s4-shakti — EXT. AKSHAR GHAATI - THE STREAM - GOLDEN HOUR
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep2/ep2-s4-shakti.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The stream runs gold in the low sun, and on the far bank a tiny peachick totters right at the edge of the water.
+ACTION: MORNI, the mother peahen, hurries along the near bank and cranes her neck toward the little one across the water.
+ACTION: KUKU, the smallest dragon, splashes down to the bank and looks from the chick to the wide stream.
+KUKU: उस छोटे बच्चे को उसकी माँ तक पहुँचाना है, पर चोरी हुए अक्षर खोलने का अब समय नहीं है।
+ACTION: Kuku leans close to Furia and drops his voice.
+KUKU (WHISPER): फुरिया, मुझे सच में नहीं पता कि मैं इसे बना पाऊँगा।
+ACTION: FURIA, the tall dragon-girl, puts her hand flat on Kuku's back.
+FURIA: तुम अकेले नहीं हो, हम सब यहीं तुम्हारे साथ खड़े हैं।
+ACTION: VESPER, Furia's younger brother, crouches by the water and traces a little curl in the air with one claw.
+VESPER: अगर पुराने अक्षर बंद पड़े हैं, तो तुम एक बिलकुल नया म बना दो।
+ACTION: DADI MAYA, the old green dragon, plants her stick in the mud and lifts her chin.
+DADI MAYA: अक्षर वीर, तैयार!
+FURIA: अक्षर वीर, तैयार!
+ACTION: Kuku digs his feet into the wet bank and pulls in one long breath.
+KUKU: साँस, टोपी, अक्षर!
+ACTION: A round glowing ball rises off Kuku's breath, and then a little hat snaps down onto its top, and a brand-new म blazes to life over the stream.
+DADI MAYA: मिटासुर सिर्फ मिटा सकता है, पर जो बनाया जाता है उसे कोई मिटा नहीं सकता।
+ACTION: The new म flares white, and across the bank MITASUR's sack bursts open and flops empty in his hands.
+ACTION: In the pond the मछली flash back to full colour and dart every which way.
+ACTION: The मोर spreads its tail wide and fans out every feather.
+ACTION: On the stalls the मिठाई turns bright and sweet again.
+ACTION: The loop of the new म unrolls itself into a small curved boat and settles down on the water.
+ACTION: The chick climbs into the curl of the म, and it carries him slowly across the golden stream.
+ANNOUNCER (RADIO): मेला फिर से खुल गया है, आप सब लोग वापस आ जाइए।
+ACTION: On the far bank the chick tumbles out and pushes himself in under his mother's wing.
+FURIA: देखो, बच्चे ने फिर से अपनी माँ को पुकार लिया।
+ACTION: The little chick lifts his head and chirps माँ, and Morni tucks him in against her side.
+ACTION: The children stand knee-deep in the stream, dripping and cheering, while Mitasur turns his empty sack over in his hands.

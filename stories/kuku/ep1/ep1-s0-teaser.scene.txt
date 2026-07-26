@@ -15,7 +15,7 @@ ACTION: A voice crackles out of the radio on Papa's belt.
 MUKHIYA (RADIO): पापा, काम रुका है. जल्दी आ जाओ.
 ACTION: Papa presses the radio quiet and looks at the drawing for a moment.
 PAPA: अच्छा बनाया है, बेटा.
-PAPA: पर नहीं, कुकु. कुत्ता पालना बहुत काम है, और तू अभी छोटा है.
+PAPA: पर नहीं, कुकु. कुत्ता पालना बहुत काम है, और तुम अभी छोटे हो.
 ACTION: Kuku drops his chin and speaks down into the paper dog in his hands.
-KUKU (WHISPER): कोई बात नहीं. तू मेरा है.
+KUKU (WHISPER): कोई बात नहीं. तुम मेरे हो.
 ACTION: His shoulders sink and the paper ears slide down flat against his cheeks. He holds the drawing to his chest and stays there in the grass.

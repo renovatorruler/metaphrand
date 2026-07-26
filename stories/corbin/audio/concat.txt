@@ -1,0 +1,7 @@
+file '/Users/dusty/Dev/metaphrand/stories/corbin/audio/s1_coldopen.mp3'
+file '/Users/dusty/Dev/metaphrand/stories/corbin/audio/s2_act1.mp3'
+file '/Users/dusty/Dev/metaphrand/stories/corbin/audio/s3_act2.mp3'
+file '/Users/dusty/Dev/metaphrand/stories/corbin/audio/s4_act3a.mp3'
+file '/Users/dusty/Dev/metaphrand/stories/corbin/audio/s5_act3b.mp3'
+file '/Users/dusty/Dev/metaphrand/stories/corbin/audio/s6_act4a.mp3'
+file '/Users/dusty/Dev/metaphrand/stories/corbin/audio/s7_act4b.mp3'

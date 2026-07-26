@@ -1,103 +1,71 @@
-# अमल — SEASON 1 — ARC (the series design; the authority every episode derives from)
+# अमल — SEASON 1 — ARC v2.1 — ⚠️ SUPERSEDED 2026-07-17
 
-*This is the lock Ep1 was missing. It maps the whole season so no episode has to be invented ad-hoc:
-the spine, the single case, the held-card reveal schedule, the escalation of each force, the two
-doorways, and the ending. Ground every episode breakdown here. Held cards stay buried on the page; they
-are named here because this is the design.*
+**⚠️ THIS DOCUMENT IS NO LONGER THE AUTHORITY.** The author locked a ground-up redesign on 2026-07-17 (the honest-coward axis + the anti-Harishchandra father). Current authority pair: **2026-07-17_REQUIREMENTS.md** (the constraints checklist) + **2026-07-17_SEASON_REDESIGN_COWARD_v1.md** (the bound spine, the father pivot LOCKED, the dharma ammunition, the Rana speech). The corrupt-Ratan design below is dead: Ratan is now the coward who hides behind honesty; the father is the dishonest-but-moral anti-Harishchandra (loved, vs Rana feared, vs Ratan invisible). Kept for the record only.
 
-## The shape — one case, six episodes (Delhi-Crime register, not anthology)
+# अमल — SEASON 1 — ARC v2.1 (superseded; fall mechanism was locked 2026-07-16)
 
-A single murder — **Leela's death** — is the season-long keyhole into the patta economy. Six episodes,
-~45–50 min each. The mystery is the engine; the belt is revealed only as Ratan pulls the thread. Ratan is
-the **Jhujhar**: bought and finished (decapitated 25 years ago), the corpse that lifts the sword, fights
-on though it should have fallen, and falls at last — the saka. The cold-open saka image is his own death.
+*Consolidates FINALE.md (Jun 23), EP2_SPINE.md / EP2_REARCH_MAP.md (Jun 25), and the author's locks of 2026-07-16: the living father, the rebellion creed, the glory engine, Sugna sold at Leela's age, the closing line in the father's mouth. Standing rule: any session that changes canon ends by updating THIS document. Remaining OPEN items are marked and belong to the author.*
 
-## The spine, and its inversion (the thematic heart)
+## The shape
 
-**Spine (bible):** *the patta is bigger than a son.* The season proves it — and inverts it:
-- **Bherulal OBEYS the saying** — sells his daughters to fund the son's patta. The patta over the child.
-- **Sugna DEFIES it at the ultimate price** — she kills Leela rather than let her be sold into the life
-  that destroyed Sugna herself. The child over the patta — by killing the child. Mercy and despair, one act.
-Both are "the patta is bigger than a son." One man pays with his daughter; one mother pays with her soul.
+One murder — Leela's death — is the season-long keyhole into the patta economy. Six episodes, one case, Delhi-Crime shape, Paatal-Lok register. The cold open of episode one is the 1305 saka — the beheaded Jhujhar who fights on — and it is Ratan's own death, told in advance.
 
-**Ratan's tragedy (the Dostoevsky cut):** he keeps ONE word — he forces the truth out — and the truth is
-his own sister's mercy-killing. Keeping his word damns the one person left who loved. He dies (the machine
-kills the stirring) for a truth that helps no one, that the paper still calls a fall. *"You destroyed
-yourself. And not even for anything."* — and worse, he destroyed Sugna too.
+## The core: the girl is a stranger
 
-## Held-card reveal schedule (the spine of the season's suspense)
+Leela is NOTHING to Ratan by blood. Sugna is not his sister; Leela is not his niece. A man fighting for his own blood teaches us nothing; a man who never once fought for his own family, and finally stands and dies for a girl who is nothing to him, tells us everything. His stake is the awakening plus his complicity in the paper chain: a bought man who has signed a hundred identical lies finally cannot sign this one — the same-day stamp, the slipper too far up the furrow, the body at the wrong angle.
 
-| ep | what the audience learns | what stays buried |
-|---|---|---|
-| 1 | Leela is Ratan's niece (his estranged sister Sugna's girl); he signed her away unseen, then crossed | who killed her; Sugna's hand; that the saka is his own death |
-| 2 | it was **murder**, not a fall (the real postmortem) | who |
-| 3 | the world's case against **Bherulal** builds — motive (he sold her), opportunity | that Bherulal is the *wrong* suspect |
-| 4 | the Ratan–Sugna **wound** (the train, her infant son dead packed with opium, Ratan's first cut) | Sugna's hand; the crack in the Bherulal case |
-| 5 | **THE REVEAL — Sugna killed Leela**, to spare her the sale to old Dhanraj, out of her own ruined life | what Ratan will do with it |
-| 6 | the choice, and the saka — Ratan dies having forced a truth the paper denies | — |
+## Ratan — the fall, LOCKED (replaces the hostage mechanism entirely)
 
-## Escalation schedule (the machine tightens as Ratan refuses to stop)
+THE FATHER IS ALIVE. He was the belt's legend — the cop who fought the dacoits — and he is in a wheelchair: a bullet to the spine, taken on duty. The world's payment for his honesty was ceremonial: they garlanded the paralyzed man and left him to his own devices. Garlands are the world's way of NOT paying — five rupees of flowers settling the debt forever. The state that gave him a medal requires him, once a year, to prove to the pension office that he is still alive (the life-certificate ritual). The family lived poor because he refused every note, and the bullet finished it: years of treatment ate whatever there was. NOTHING dramatic was done to them — no conspiracy, no revenge. The world simply did not pay him, and that is the entire point: a robbed family is a crime story with a villain; an unpaid family is honesty's true price. (CORRECTED 2026-07-17, author's catch: the earlier weld — the rigged weighing taking the family land — is DELETED. A government servant's family cannot hold a patta or agricultural land, and the mechanism was a needless insert. दो किलो कम belongs ONLY to the farmers' world, Bherulal's economy.) The signet went to the pawnshop for the hospital bills; young Ratan stood in that pawnshop watching his father's principles get weighed on a different scale.
 
-- **Mishra** (the smooth local machine) — pressure from Ep1; gives up on persuasion by Ep3.
-- **Rana** (the MLA, the apex — the man whose father engineered the short weight that cancelled the Pawar
-  patta and broke Ratan's father) — comes **on-page in Ep2, which builds him into a person**, not a
-  position: genial, generous, the laundered king who owns the district. His move is **velvet, not threat**
-  — he offers to *restore the Pawar patta* (heal the very wound his bloodline made; redeem the pawned
-  signet) if Leela stays a fall. The man who broke the fort offers to rebuild it for one more look-away.
-  Ratan — who looked away 25 years for far less — can't, and now the saka's apex has a face he has sat
-  across from and refused. The personal-political wound is live from here.
-- **Bherulal** (the empire, the brother-in-law) — the wall throughout; the wrong suspect Ep3–4.
-- **The cost to Ratan** rises every episode: Ep2 suspended / pension dangled; Ep3 the "bike that slipped"
-  becomes a real near-miss; Ep4 a casualty near him (a witness, or the doda-addict truth-teller); Ep5 he's
-  alone, off every channel; Ep6 they kill him.
+THE CREED (the fall's engine — no hostage threat was ever needed; childhood pre-taught him): integrity is a tax paid by the people who love you. Ratan's corruption is REBELLION — an argument with the living father, conducted in silence for twenty-five years. The first note he ever took was aimed at the creed: your honesty fed nobody. The notes under the blotter, the small comforts, the son's better life — every one an exhibit in the argument. And the machine loved him for it: a bought legend's son signs beautifully.
 
-## The two doorways (season level)
+THE TRAIN (held card, never dialogue): his first cut drew blood — an anonymous mother, a stranger, her dead infant packed with opium; the young officer buried the network's role and took the money. The rebellion stopped being clean and he stopped looking at what he signed.
 
-- **Door 1 (end of Ep1, done):** Ratan signs the real postmortem in his own name. The corpse lifts the sword.
-- **Midpoint (end of Ep3 / into Ep4):** the case against Bherulal seems made — and a crack opens (a detail
-  that doesn't fit), turning the investigation *home*, toward the impossible answer.
-- **Door 2 (end of Ep5):** the truth — Sugna. From here the ending is unavoidable: he cannot un-know it,
-  and he cannot keep it without destroying her, or bury it without betraying the one word he kept.
+THE GLORY ENGINE (the deepest held card beside the train — NEVER stated on the page): Ratan has everything money buys and discovers he is missing something he cannot name. The encounters name it: glory — grounded always as THE LOOK, a human currency, never abstract fame. The ex-dacoit who comes yearly to touch the paralyzed cop's feet and looks through the son. The child who asks the father for a story. Charan singing the old deed at a festival while Ratan pays the bard's fee and is not in the song. Ratan is invisible in exact proportion to his comfort — or seen as a purchased thing (the doctor's knowing tea, Rana's taunts). What the father has that money cannot buy is the way people look at him. THIS is what inspires the saka — as design truth only. On the page, the proximate cause of everything remains the file his hand refuses; the hunger lives in where his eyes go during the garland scenes. If Ratan ever names the want, the saka curdles to vanity.
 
-## The finale, fixed — the saka form (locked; only the staging of the kill stays open)
+THE ARC IN ONE LINE: he chose corruption because he did the math on his father's life; he hated the ideals; but he is his father's son, and he becomes him — twenty-five corrupt years were one long failing attempt not to be, and the awakening is a return.
 
-The cold-open saka (1305, the Parmar fort falling to Khilji) **is Ratan's own death** — A → A′. The
-finale is a real, dramatised scene; Ratan falls on the page. Fixed:
-- **He has been the Jhujhar — the headless one — for 25 years** already (bought, finished, dead inside).
-  The saka is not him *becoming* headless; it is the headless man finally fighting and falling like the
-  Jhujhar of **Charan's song** — the dishonoured corpse transfigured into the legend. The dead man
-  becomes the one the bard sings.
-- **The sword is the signature, not a gun.** The machine intends a *deniable* end — an "accident" on
-  paper, the exact death Ratan certified a hundred times (the "bike that slipped"). He turns it into a
-  saka by putting the truth **public and on the record** before they reach him: the postmortem signed in
-  his own name (Door 1) is the blade that keeps swinging after the head is off. He dies having put a
-  truth where it cannot be unsigned.
-- **It damns Sugna and saves no one** (the tragic cut): the truth he forces leads home; Bherulal still
-  buries Leela as a fall and never learns his wife's hand. *"You destroyed yourself. And not even for
-  anything."*
-- **Open knob:** the exact staging of the kill — where, by whose hand, how frontal — decide near Ep5–6.
+## The father — the living wound
 
-## The weave (B-story, every episode)
+Alive, paralyzed, garlanded, abandoned. The RULE OF SILENCE: father and son do not speak of the argument — their scenes are tea, the squeaking wheel, pension forms, who fixes the roof, the argument entirely underneath. ONE direct conversation, at the Ep5→Ep6 hinge: Ratan, carrying the impossible truth about Sugna, goes to the only man who ever stood where he stands — and the father, who paid everything and owns the one thing money cannot buy, BEGS his son to bend. The creed's owner abandons it at the exact moment the son picks it up. They trade places; the argument changes hands; nobody wins it. OPEN (author): the father's name.
 
-**Deva & Manju** — the junior's sister married across into Rajasthan, the marriage-machine smiling. Deva is
-the fork the show watches: across the season he either becomes Ratan (learns to look away) or breaks the
-wheel. His arc rhymes with Leela's, unspoken — and pays off at the finale (he is the witness to the saka,
-and the one who will carry, or bury, what Ratan died for).
+## Sugna — the mother, the killer, the mirror (LOCKED)
 
-## Episode map (each = a keyhole + the season-line tightening + a door)
+Sugna is Bherulal's wife and Leela's mother, a stranger to Ratan. Her ruin is the marriage itself: SHE WAS SOLD AT EXACTLY LEELA'S AGE, to seal a patta alliance — handed over as the transaction this world calls a wedding. She kills her daughter rather than watch the precise transaction of her own life repeat — Leela was being married into Daulatram's route to seal the next alliance. Mercy and despair in one act; the proverb proven from underneath. Her clock: the route reaching for her SECOND daughter — she does not fear the gallows; she fears being late. On screen she is edge-presence: the dry eyes at the funeral we misread for a season, the steel glass cooling.
 
-- **Ep1 — तौल / The Weighing** *(done)* — the bought man; the crossing. Door 1.
-- **Ep2 — चीरा / The Incision** — the second postmortem (Ep1's signed order — the HQ hospital 200 km out
-  of reach) fought through against the machine → **murder confirmed**; **Rana built into a person** via
-  the velvet offer to restore the patta; Ratan's footing goes. *Keyhole: the held body, the bought
-  doctor's clean paper, the apex.*
-- **Ep3 — पट्टा / The Licence** — the case against Bherulal builds; the trade's machinery shown (the
-  weighment, the skim, the amal manuhar of the sale); the threat turns real. *Midpoint crack at the end.*
-- **Ep4 — रेल / The Line** — the wound: the train, Sugna's dead son, Ratan's first cut, the estrangement;
-  the Bherulal case wobbles; a casualty near Ratan. *The investigation turns home.*
-- **Ep5 — माँ / The Mother** — the reveal: Sugna. The mercy, the despair, the inversion of the spine. Door 2.
-- **Ep6 — साका / Saka** — the impossible choice; the machine closes; Ratan keeps his one word and dies for
-  it. The cold-open saka, paid (**form fixed above — the signature is the sword; the headless man becomes
-  Charan's Jhujhar**). *"And not even for anything."*
+## The ring — four stations
 
-*(Episode count and titles are the season-level decision; everything below them derives from this doc.)*
+Pawned (for the father's treatment — the bill his honesty could not pay; Ratan wears the pale band). Dangled (Ep2, the kasumba scene: Rana offers the father's honour back, the ring freed). Revealed (near the end: Rana HAS it, wears it — he owned it before he offered to free it; the sight is THE TRIGGER that breaks twenty-five years of bending: the ancestor's ring on the thief's hand). Returned (Ratan dies wearing it at the saka).
+
+## The garland — the counter-object (NEW, locked with the glory engine)
+
+Garlands run the season as glory's counterfeit currency. The father's garlands: paid in spine, worth nothing at the pension office. THE TWO GARLANDS scene (Ep3–4 candidate): the machine felicitates Ratan — Rana's bought ceremony, shawl and microphone — and he stands wearing the same object that hangs in his father's house, knowing what each one cost. The machine can counterfeit every part of glory except the price. The final garland is the saka's — the one that means something at last.
+
+## The cast around them
+
+Bherulal: the empire; funds the son's licence by marrying off daughters; mid-season's wrong suspect; quietly hunts his daughter's killer himself, which looks exactly like guilt — he wants the answer QUIET while Rana wants the question DEAD. Rana: the MLA apex, son of the scale-rigger; velvet first, iron after — the early-retirement file dressed as a kindness; he guards obedience, not the girl: if one tame officer goes feral and wins, every clerk learns the machine can be beaten. Mishra: the smooth local pressure. Dr. Bhanwar: the tea and the same-day "fall." The Amli (Ganga): the wrecked man with the sharpest eyes — saw Bherulal's men on the field first. Charan: the bard; the Jhujhar song carries the myth layer and, at the end, answers the father. Jorawar: Deva's foil — the Brahmin son of a Chambal baaghi, named "forceful," owning only borrowed force. Deva & Manju: Deva is the fork the show watches — become Ratan or break the wheel; Manju's warm modern match curdles under the dowry squeeze; Ep2 ends on the pregnancy; Ep3 detonates it (the car, the breaking girl, the first dirty rupee reaching Deva's hand). Deva witnesses the saka and inherits what Ratan died holding.
+
+## Held cards
+
+Sugna did it; the train (the anonymous mother); the glory engine (never stated); the ring's true owner; the saka being Ratan's own death; the father's one late mercy.
+
+## Episode map
+
+Ep1 — तौल / The Weighing (produced; predates the engine — battery notes + the father plant land in the queued redo). The bought man, the awakening, the crossing: he signs the true postmortem in his own name. Redo adds: one quiet scene of the father's house — the chair, the garland on the wall, the rule of silence; candidate slot for the life-certificate scene.
+
+Ep2 — चीरा / The Incision (produced per the reshaped spine). The hook in ten minutes; he STEALS the body; the night Run (the boss on the phone, the convoy or the tajiya out of Jaora); the phone-torch autopsy — murder; the kasumba velvet (the ring dangled); the early-retirement file; the double doorway — Ratan's proof with his ground gone, Deva's pregnancy discovery. If the father wasn't retrofitted into Ep1, his first scene opens Ep3.
+
+Ep3 — पट्टा / The Licence. The world's case against Bherulal builds; the trade shown whole (the weighment, the skim, the sale's ceremony); the Manju detonation and Jorawar's rise; candidate slot for THE TWO GARLANDS (the machine felicitates Ratan). Midpoint crack at the end: one detail refuses to fit.
+
+Ep4 — रेल / The Line. The second engine is the father thread (LOCKED): the pawnshop memory, the creed's origin, the garlanded abandonment — braided with the train (the anonymous mother, the first cut, the first blood on the rebellion). The Bherulal case wobbles; a casualty lands near Ratan; the investigation turns home.
+
+Ep5 — माँ / The Mother. The reveal: Sugna — sold at Leela's age, killing to prevent the transaction of her own life from repeating. Ratan's devastation: the machine's full cost landing at once, his own signature in the chain that priced her. Door two: he cannot un-know it, cannot expose the one person who acted out of love, cannot bury the one honest thing he has done.
+
+Ep5→Ep6 hinge — THE CONVERSATION (locked): the rule of silence breaks once; the father begs him to bend; the son goes and does the honest thing anyway.
+
+Ep6 — साका / Saka. The machine closes with the deniable accident he spent a career certifying; the truth already signed and public converts the erasure into a saka. The ring comes home to a dead man's hand. The saka SAVES THE LIVING GIRL — Sugna's second daughter never goes to the route. THE CLOSING LINE (locked): the FATHER speaks it over his son — "You destroyed yourself. And not even for anything." — and Charan's ballad answers him; the audience holds both. STAGING DIRECTION LOCKED (2026-07-16): the saka happens INSIDE RANA'S COMPOUND — Ratan walks in (the Chambal walk repeated, bookending his life). In the courtyard stands an old JHUJHAR SHRINE — somebody's forgotten warrior, the name worn off the stone, sung daily by rote by a BLIND BHAAT, the house's hereditary singer. When Ratan falls, the blind bard sings — and this time he sings for Ratan: the man unseen by every sighted eye all season is witnessed by the one man who cannot see, and receives, instead of the look, the song. The machine stages the accident AFTERWARD (the bike arranged on the road): the paper says the bike slipped, the ballad says saka — the season's two records, and the belt knows which to believe (rhymes with Leela staying "a fall" in the paper). Charan takes the song up and spreads it through the belt as the final sound. OPEN at the Ep6 break: why Ratan walks in (leading candidate: the ring reveal lands here — he sees the signet on Rana's hand in this room, trigger and saka minutes apart); Deva's witness position (likely the aftermath — the first person the blind bard sings to, which is how the inheritance physically happens); the physicality of the fight. The blind bard: CHARAN HIMSELF, blind, recommended on merits (author law 2026-07-16: produced-footage cost is never a creative input) — the bard-for-hire who sang for whoever paid all season (Rana's shrine included, Ratan's fee taken at the festival) sings unpaid for the first time at the saka; if his voice also sang the 1305 cold open, the frame closes on the same voice. Pending the author's confirmation alongside the walk-in decision.
+
+## The spine, restated
+
+The proverb — the patta is bigger than a son — is proven twice: Bherulal obeys it and sells his daughters; Sugna defies it by the most terrible means a mother has. Ratan, who built a creed out of watching honesty pay in garlands, finally stands for a stranger's child, and the machine kills him for the standing. What survives: a signed truth, a saved girl, a witness at a fork, a father holding the argument he no longer wants to have won, and a song.

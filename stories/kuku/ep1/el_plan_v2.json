@@ -1,0 +1,477 @@
+{
+ "0": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[playfully] भौं भौं! देखो, ये मेरे कान हैं. मैं कुत्ता हूँ. अभी तो मैं खेल-खेल में कुत्ता हूँ, [wistfully] पर मुझे एक अपना सच्चा कुत्ता चाहिए. [excited] देखो, मैंने काला कुत्ता बनाया है. [pleading] पापा, पापा, देखो वो काला कुत्ता. आप एक कुत्ता मेरे लिए घर ले आओ ना."
+ },
+ "1": {
+  "who": "MUKHIYA",
+  "whisper": false,
+  "text": "[briskly] पापा, काम रुका है. जल्दी आ जाओ."
+ },
+ "2": {
+  "who": "PAPA",
+  "whisper": false,
+  "text": "[warmly] अच्छा बनाया है, बेटा. [gently] पर नहीं, कुकु. कुत्ता पालना बहुत काम है, और तुम अभी छोटे हो."
+ },
+ "3": {
+  "who": "KUKU",
+  "whisper": true,
+  "text": "[whispers] [sad] कोई बात नहीं. तू मेरा है."
+ },
+ "4": {
+  "who": "RADIO",
+  "whisper": false,
+  "text": "[cheerfully] सुप्रभात, अक्षर घाटी. आज आसमान बिलकुल साफ़ है, धूप निकल आई है."
+ },
+ "5": {
+  "who": "DADI MAYA",
+  "whisper": false,
+  "text": "[cheerfully] आओ बच्चों, जल्दी आओ. आज हमारे पास एक बिलकुल नया अक्षर है."
+ },
+ "6": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[excited] मैं पहले! देखा, मैं सबसे पहले आई!"
+ },
+ "7": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[eagerly] मैं भी आ गया, देखो. मेरे लिए जगह है यहाँ?"
+ },
+ "8": {
+  "who": "DADI MAYA",
+  "whisper": false,
+  "text": "सब बैठ गए? [warmly] अच्छा, बहुत अच्छा. [brightly] आज का अक्षर है क. बोलो मेरे साथ. क."
+ },
+ "9": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[excited] क!"
+ },
+ "10": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[confidently] अरे रुको! ये तो मेरा अक्षर है, मेरे नाम वाला. मैं तो इसको पहले से जानती हूँ!"
+ },
+ "11": {
+  "who": "DADI MAYA",
+  "whisper": false,
+  "text": "[gently] ज़रा पास आकर देख तो, फूरिया. इसने ऊपर एक टोपी पहनी है."
+ },
+ "12": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[puzzled] टोपी?"
+ },
+ "13": {
+  "who": "DADI MAYA",
+  "whisper": false,
+  "text": "[warmly] हाँ बेटा. हिंदी का हर अक्षर टोपी पहनता है. तेरे वाले के ऊपर टोपी नहीं है. इसके ऊपर है, देख. हवा में मेरे साथ बनाओ. ऊपर एक सीधी लकीर खींचो, ये रही टोपी."
+ },
+ "14": {
+  "who": "FURIA",
+  "whisper": true,
+  "text": "[whispers] [sheepishly] मैंने तो पहले ही देख ली थी, सच में."
+ },
+ "15": {
+  "who": "DADI MAYA",
+  "whisper": false,
+  "text": "[warmly] वैस्पर, बता तो, आज का अक्षर कौन सा है? [calling out] वैस्पर?"
+ },
+ "16": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[urgently] वैस्पर! दादी तुझे बुला रही है."
+ },
+ "17": {
+  "who": "VESPER",
+  "whisper": false,
+  "text": "[dreamily] वो बादल... देखो, it looks like a big कान."
+ },
+ "18": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[exasperated] हिंदी में, वैस्पर!"
+ },
+ "19": {
+  "who": "VESPER",
+  "whisper": false,
+  "text": "[dreamily] वो बादल एक बड़े कान जैसा दिख रहा है."
+ },
+ "20": {
+  "who": "DADI MAYA",
+  "whisper": false,
+  "text": "[warmly] बहुत सुंदर देखा तूने. और अब बता, आज का अक्षर कौन सा है?"
+ },
+ "21": {
+  "who": "VESPER",
+  "whisper": false,
+  "text": "[softly] क."
+ },
+ "22": {
+  "who": "DADI MAYA",
+  "whisper": false,
+  "text": "[proudly] शाबाश, वैस्पर. क. [encouraging] अब सब अपने कान खोलो. आज पूरे दिन हर जगह क ढूँढो."
+ },
+ "23": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[excitedly] मैं सबसे ज़्यादा और सबसे तेज़ क ढूँढूँगी!"
+ },
+ "24": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[excited] मैंने कौआ ढूँढ लिया! कौआ भी तो क से है. मैं आगे हूँ."
+ },
+ "25": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[excited] और कमल भी! वो पानी वाला कमल भी तो क से है ना?"
+ },
+ "26": {
+  "who": "RADIO",
+  "whisper": false,
+  "text": "[wistfully] ओ बालमवा, तू कहाँ रह गया, मैं दीया जलाए तेरी राह तकूँ..."
+ },
+ "27": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[calling out] वैस्पर, जल्दी चल. तू फिर पीछे रह गया."
+ },
+ "28": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[curious] वैस्पर? तूने कोई क वाला शब्द ढूँढा क्या?"
+ },
+ "29": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[calling out] वैस्पर!"
+ },
+ "30": {
+  "who": "VESPER",
+  "whisper": false,
+  "text": "[with concern] वहाँ... कोई रो रहा है."
+ },
+ "31": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[excited] कहाँ? मैं पहले!"
+ },
+ "32": {
+  "who": "FURIA",
+  "whisper": true,
+  "text": "[whispers] [gently] अरे, तू यहाँ कीचड़ में फँस गया. मैं हूँ ना, रुक."
+ },
+ "33": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[gently] डर मत, छोटू. मैं तुझे निकालता हूँ, धीरे धीरे, बस. [reassuring] देखो, देखो, कुछ नहीं होगा. तू बस थोड़ा रुक, मैं यहीं हूँ तेरे पास."
+ },
+ "34": {
+  "who": "VESPER",
+  "whisper": false,
+  "text": "[dreamily] देखो, a puppy. he is so small."
+ },
+ "35": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[exasperated] हिंदी में, वैस्पर!"
+ },
+ "36": {
+  "who": "VESPER",
+  "whisper": false,
+  "text": "[dreamily] वो कुत्ता कितना छोटा सा है."
+ },
+ "37": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[laughs] अरे, ये तो मुझे चाट रहा है. [happily] ये तो अब मेरा दोस्त हो गया. और तू तो पूरा काला है, बिलकुल काला. मैं तुझे कालू बुलाऊँगा, ठीक है?"
+ },
+ "38": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[warmly] इसके कान तो देख, कितने नरम हैं और नीचे लटके हुए हैं."
+ },
+ "39": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "भूख लगी है, कालू? ये केला ले ले, ये सबसे अच्छा वाला है, मेरा अपना है. [puzzled] अरे, तूने खाया ही नहीं?"
+ },
+ "40": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[amused] कुत्ता केला नहीं खाता, कुकु."
+ },
+ "41": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[warmly] अच्छा, तुझे केला पसंद नहीं. फिर मैं तेरे लिए कुछ और ढूँढूँगा, कालू. देख, अब तू मेरे ही पास रहेगा."
+ },
+ "42": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[whispering] कालू, नीचे आ जा, धीरे. बिलकुल चुप रह, पापा अभी अंदर ही हैं. [exasperated] अरे, तू फिर कूद गया. इतना मत कूद, कालू, गिर जाएगा."
+ },
+ "43": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[briskly] सुन, कालू का बिस्तर यहाँ बनाते हैं, इस कंबल पर. मैं सबसे तेज़ बना दूँगी."
+ },
+ "44": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[exasperated] नहीं नहीं, कीचड़ में मत लोट. अभी अभी तो तुझे साफ़ किया था. [sighs] फिर से गंदा हो गया. तू बस एक मिनट रुक जा."
+ },
+ "45": {
+  "who": "RADIO",
+  "whisper": false,
+  "text": "[calmly] दोपहर तक मौसम साफ़ रहेगा, खेतों में काम का अच्छा दिन रहेगा..."
+ },
+ "46": {
+  "who": "PAPA",
+  "whisper": false,
+  "text": "[calling out] कुकु? ये इतना शोर कैसा है? सब ठीक तो है?"
+ },
+ "47": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[nervously] हाँ पापा, सब ठीक है. हम बस थोड़ा खेल रहे हैं."
+ },
+ "48": {
+  "who": "PAPA",
+  "whisper": false,
+  "text": "[firmly] अच्छा. ज़्यादा गंदगी मत करना, मुझे अभी बहुत काम है."
+ },
+ "49": {
+  "who": "CHEEKU",
+  "whisper": false,
+  "text": "[excited] कुत्ता! कुत्ता!"
+ },
+ "50": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[urgently] मैं पहले! आ गया तू मेरे पास, कुछ नहीं हुआ."
+ },
+ "51": {
+  "who": "CHEEKU",
+  "whisper": false,
+  "text": "[giggles] फिर! फिर!"
+ },
+ "52": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[urgently] अरे, दादी के सारे कटोरे गिर गए. जल्दी इनको उठाओ, कोई सुन लेगा."
+ },
+ "53": {
+  "who": "VESPER",
+  "whisper": false,
+  "text": "[dreamily] देखो, a butterfly. वो कितनी..."
+ },
+ "54": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[exasperated] हिंदी में, वैस्पर! और गेट पर ध्यान दे!"
+ },
+ "55": {
+  "who": "VESPER",
+  "whisper": false,
+  "text": "[dreamily] वो तितली कितनी सफ़ेद है."
+ },
+ "56": {
+  "who": "PAPA",
+  "whisper": false,
+  "text": "[warmly] ये कटोरे बाद में सीधे रख देना, बेटा. मैं खेत जा रहा हूँ."
+ },
+ "57": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[relieved] हाँ पापा, मैं सब रख दूँगा. [worried] पापा शायद ठीक ही कहते थे. कितना काम है ये सब."
+ },
+ "58": {
+  "who": "VESPER",
+  "whisper": false,
+  "text": "[softly] देख, वो तेरे ऊपर ही सो गया है."
+ },
+ "59": {
+  "who": "KUKU",
+  "whisper": true,
+  "text": "[whispers] [tenderly] कालू मेरा है."
+ },
+ "72": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[nervously] पापा, मैंने आपको बताया नहीं था, ये कालू, मैंने इसको कुएँ के पास से निकाला था, और छुपाया भी, और दादी के कटोरे भी इसी ने गिराए थे, सब मेरी गलती है, मैं..."
+ },
+ "73": {
+  "who": "PAPA",
+  "whisper": false,
+  "text": "[gently] बस, बेटा, रुको. इतना हाँफो मत, कुछ नहीं हुआ है. मैं कुएँ पर ही था. मैंने सब देख लिया, तुम्हारी वो क भी देख ली. [warmly] सुबह मैंने ना कहा था. वो ना अब नहीं है. [tenderly] कालू तुम्हारा है, कुकु."
+ },
+ "74": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[hopefully] सच में, पापा? कालू अब सच में मेरा हो गया?"
+ },
+ "75": {
+  "who": "PAPA",
+  "whisper": false,
+  "text": "[warmly] हाँ, वो तुम्हारा ही है. अब अपने कुत्ते का ध्यान रखना, ये तुम्हारा काम है."
+ },
+ "76": {
+  "who": "PAPA",
+  "whisper": true,
+  "text": "[whispers] [proudly] मैंने देखा, कुकु. तुमने कैसे उठाया उसको ऊपर."
+ },
+ "77": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[proudly] हो गया, कालू का कटोरा भर दिया और कंबल भी बिछा दिया. मैं पहले! सबसे तेज़ मैंने ही किया!"
+ },
+ "78": {
+  "who": "VESPER",
+  "whisper": false,
+  "text": "[dreamily] देखो, a banana. कालू के लिए."
+ },
+ "79": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[giggles] हिंदी में, वैस्पर!"
+ },
+ "80": {
+  "who": "VESPER",
+  "whisper": false,
+  "text": "[dreamily] कालू के लिए केला लाया हूँ मैं."
+ },
+ "81": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[laughs] कुत्ता केला नहीं खाता!"
+ },
+ "82": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[giggles] वैस्पर, कुत्ता केला नहीं खाता!"
+ },
+ "83": {
+  "who": "PAPA",
+  "whisper": false,
+  "text": "[with a warm chuckle] कुत्ता केला नहीं खाता, बेटा."
+ },
+ "84": {
+  "who": "VESPER",
+  "whisper": false,
+  "text": "[casually] अच्छा... तो फिर केला मैं ही खा लेता हूँ."
+ },
+ "85": {
+  "who": "RADIO",
+  "whisper": false,
+  "text": "[wistfully] रात हो चली है, तारे निकल आए, सब अपने अपने घर में..."
+ },
+ "86": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[tenderly] अब तू हमेशा यहीं मेरे पास रहेगा, कालू."
+ },
+ "87": {
+  "who": "DADI MAYA",
+  "whisper": false,
+  "text": "[warmly] तो बताओ ज़रा, आज पूरे दिन में क से क्या क्या मिला तुम्हें? क से?"
+ },
+ "88": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[proudly] कुत्ता! क से कुत्ता, ये मेरा कालू है."
+ },
+ "89": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[excited] और काला! कालू तो बिलकुल काला है, मैंने पहले बोला!"
+ },
+ "90": {
+  "who": "DADI MAYA",
+  "whisper": false,
+  "text": "[warmly] शाबाश. और क से और क्या मिला?"
+ },
+ "91": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[happily] कान! उसके कान बहुत नरम हैं और नीचे को लटके हुए हैं."
+ },
+ "92": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[excited] कीचड़! उसी कीचड़ में तो वो फँस गया था."
+ },
+ "93": {
+  "who": "DADI MAYA",
+  "whisper": false,
+  "text": "[warmly] हाँ, और वो जगह जहाँ से तुमने उसको निकाला था?"
+ },
+ "94": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[brightly] कुआँ! वो पुराना वाला कुआँ था."
+ },
+ "95": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[proudly] और कटोरा भी, मैंने उसका कटोरा भरा था, और कंबल भी बिछाया."
+ },
+ "96": {
+  "who": "DADI MAYA",
+  "whisper": false,
+  "text": "[warmly] और वो चीज़ जो कालू ने खाने से मना कर दिया?"
+ },
+ "97": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[laughs] केला! कुत्ता केला नहीं खाता!"
+ },
+ "98": {
+  "who": "DADI MAYA",
+  "whisper": false,
+  "text": "[warmly] और याद है, हर अक्षर के सिर पर क्या होता है?"
+ },
+ "99": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[excited] टोपी!"
+ },
+ "100": {
+  "who": "DADI MAYA",
+  "whisper": false,
+  "text": "[warmly] हाँ, हिंदी का हर अक्षर टोपी पहनता है."
+ },
+ "101": {
+  "who": "FURIA",
+  "whisper": false,
+  "text": "[excited] रुको, मैं आज का अक्षर अपनी किताब में लिखूँगी. मैं पहले! [proudly] देखो, हो गया! मैंने सबसे पहले लिखा, क!"
+ },
+ "102": {
+  "who": "KUKU",
+  "whisper": false,
+  "text": "[warmly] अच्छा लिखा तूने, ऊपर टोपी वाला हिस्सा बिलकुल सही बनाया."
+ },
+ "103": {
+  "who": "DADI MAYA",
+  "whisper": false,
+  "text": "[gently] चलो अब, सब सो जाओ. शुभ रात्रि कुकु, शुभ रात्रि फूरिया. [softly] और वैस्पर कहाँ चला गया? वैस्पर?"
+ },
+ "104": {
+  "who": "KUKU",
+  "whisper": true,
+  "text": "[whispers] [tenderly] वो तो कब का कालू के साथ कंबल पर सो गया, दादी."
+ },
+ "105": {
+  "who": "RADIO",
+  "whisper": false,
+  "text": "[softly] अक्षर घाटी सो गई है, तारे जले हैं ऊपर..."
+ },
+ "106": {
+  "who": "DADI MAYA",
+  "whisper": false,
+  "text": "[tenderly] शुभ रात्रि, वैस्पर."
+ }
+}

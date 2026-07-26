@@ -1,0 +1,33 @@
+ep2-s5-pehla-akshar — EXT. AKSHAR GHAATI - THE FAIRGROUND - EVENING
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep2/ep2-s5-pehla-akshar.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Evening lanterns come on over the mended fairground, and the sweet stalls glow again with fresh मिठाई.
+ANNOUNCER (RADIO): शाम का मेला फिर से सज गया है, आप सब मिठाई खाने आइए।
+ACTION: MITASUR, the roly-poly purple goblin, sits on an upturned crate at the edge of the lights with his empty sack sagging in his lap.
+ACTION: KUKU, the smallest dragon, walks over and climbs up onto the crate next to him.
+MITASUR: तुमने वह म बना लिया, और मुझसे तो कभी कुछ बनता ही नहीं है।
+KUKU: पहले मैं भी अपनी आग नहीं बना पाता था, और फिर मैंने धीरे धीरे बनाना सीख लिया।
+KUKU: मैं तुम्हें भी सिखा देता हूँ, यह इतना मुश्किल भी नहीं है।
+ACTION: Mitasur leans in close to Kuku and drops his voice.
+MITASUR (WHISPER): मुझसे यह कभी नहीं होगा, मैं तो बस मिटाना ही जानता हूँ।
+KUKU: तुम बस मेरे साथ बोलो, साँस, टोपी, अक्षर।
+ACTION: FURIA, the tall dragon-girl, crouches down in front of the crate and gives Mitasur a small nod.
+FURIA: मिटासुर, तुम ज़रूर बना लोगे, बस एक बार दिल से कोशिश करो।
+ACTION: Mitasur shuts his eyes and pushes a shaky breath out through his sponge-hands.
+MITASUR: साँस, टोपी, अक्षर।
+ACTION: A small lopsided म wobbles up off his breath with its little hat sitting crooked on one side.
+ACTION: Mitasur catches the little letter in both hands and holds it up close to his face.
+MITASUR: देखो, यह मैंने खुद बनाया है, यह तो बिलकुल मेरा अपना म है।
+KUKU: अब तुम्हारे पास तुम्हारी अपनी बनाई हुई एक चीज़ है।
+ACTION: Furia picks a piece of मिठाई off the nearest tray and puts it into Mitasur's free hand.
+FURIA: यह मिठाई तुम्हारे लिए है, अब तुम हमारे दोस्त हो।
+ACTION: Kuku turns around on the crate toward DADI MAYA, the old green dragon, who stands nearby leaning on her stick.
+KUKU: दादी, क्या आपकी भी कोई माँ है, जैसे उस छोटे मोर की माँ है?
+DADI MAYA: मैं खुद भी किसी की माँ हूँ, बेटा।
+ACTION: PAPA, a big warm dragon, walks in out of the evening and stops close beside Dadi Maya.
+PAPA: हाँ बेटा, ये मेरी माँ हैं।
+ACTION: Papa bends down and kisses Dadi Maya on the top of her head.
+KUKU: मतलब दादी माया मेरी दादी भी हैं और आपकी माँ भी हैं।
+PAPA: हाँ बेटा, हम सब एक ही घर के हैं।
+ACTION: The whole group crowds in together under the lanterns, and Mitasur holds his crooked little म up for everyone to see.

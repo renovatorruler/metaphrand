@@ -71,7 +71,8 @@ let shared = [
   "Heavy INTENTIONAL repetition of the letter क and this episode's क words is REQUIRED pedagogy, not a flaw.",
   "ONLY VESPER may drift into English mid-line; when he does, another character says हिंदी में, वैस्पर! and he repeats the line simply in Hindi. No other character ever speaks English.",
   "PROPER HINDI LAW: every dialogue line is a COMPLETE, grammatically correct Hindi sentence, short and simple but never a chopped fragment; model line: पापा, पापा, देखो वो काला कुत्ता. आप एक कुत्ता मेरे लिए घर ले आओ ना. Exceptions: toddler babble, and the single letter क in call-response.",
-  "PRONOUN LAW: children say आप to elders (Papa, Dadi), never तुम or तू; elders say तू/तुम to children; kids among themselves and to the puppy say तू. Everyone is warm; Papa is firm but never cold; nobody is a villain.",
+  "PRONOUN LAW: children say आप to elders (Papa, Dadi); among the kids and to the puppy Kalu they say तुम / तुम्हारा (NOT the very-informal तू/तेरा); elders say तुम to children. Everyone is warm; Papa is firm but never cold; nobody is a villain.",
+  "CHARACTER RICHNESS: signature tics (Fyuria's मैं पहले!, Vesper's English-drift/name-calls/sleepiness) fire at most once or twice, only at an earned beat — most lines carry the scene through real want and feeling, not catchphrases.",
   "One line per paragraph. No em-dashes and no emoji anywhere.",
   "Never state the buried theme; no one says different, gift, special, brave, or responsibility; it lives only in what happens.",
 ]

@@ -1,0 +1,28 @@
+ep2-s3-peecha — EXT. AKSHAR GHAATI - THROUGH THE FROZEN FAIR - DAY
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep2/ep2-s3-peecha.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: The team runs into the frozen fairground, where the मिठाई sits dull and grey on the trays and the मछली hang still in the flat pond.
+ANNOUNCER (RADIO): मेला अभी बंद है, आप सब कृपया अपनी जगह पर रुके रहें।
+ACTION: KUKU, the smallest dragon, scrambles up onto an empty bench to see over the stalls.
+KUKU: हमें जल्दी से पता लगाना है कि मिटासुर ने म को कहाँ छिपाया है।
+ACTION: FURIA, the tall dragon-girl, skids to a stop beside the bench and looks down the long row of stalls.
+FURIA: वह हमसे काफ़ी आगे निकल गया है, पर मैं पूरे मेले में दौड़ लगा सकती हूँ।
+ACTION: KALU, the team's scruffy brown dog, drops his nose to the ground and barks twice at a chalky white smear running past the sweet stall.
+KUKU: कालू को कुछ मिल गया है, तुम आगे चलो और हमें रास्ता दिखाओ।
+ACTION: Kalu tears off along the white smudges, and Furia races at his shoulder.
+FURIA: तुम सूँघते रहो, मैं हर दुकान के पीछे झाँकती चलती हूँ।
+ACTION: VESPER, Furia's younger brother, stops walking while the others rush and shout to each other across the stalls.
+VESPER: तुम लोग इतना शोर मत मचाओ, मुझे थोड़ा ठीक से देखने दो।
+ACTION: Vesper turns himself slowly and looks along the row of still, grey stalls.
+VESPER: उस मिठाई की दुकान के पीछे कुछ हल्का सा चमक रहा है।
+ACTION: Vesper waves the others back to him and drops his voice.
+VESPER (WHISPER): वह वहीं छिपा बैठा है, तुम सब धीरे से पीछे से आओ।
+ACTION: The team creeps around the back of the sweet stall, where MITASUR, the roly-poly purple goblin, sits hunched over his bulging sack.
+MITASUR: तुम सब वापस चले जाओ, यह थैला तो मेरा है।
+FURIA: हम तुमसे लड़ने नहीं आए हैं, हमें बस वह म वापस चाहिए।
+KUKU: तुमने इतने सारे अक्षर आख़िर छिपा क्यों रखे हैं?
+ACTION: Mitasur pulls the sack in hard against his chest and backs into the corner of the stall.
+MITASUR: मैं तो कभी कुछ बना ही नहीं पाता, मैं बस अक्षर मिटा सकता हूँ।
+MITASUR: ये अक्षर ही तो मेरे अपने हैं, इनके सिवा मेरा कोई नहीं है।
+ACTION: The children stop where they stand, and nobody reaches for the sack.

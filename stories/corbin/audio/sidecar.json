@@ -1,0 +1,21 @@
+{
+  "voice": "Rachel 21m00Tcm4TlvDq8ikWAM",
+  "model": "eleven_v3",
+  "respells": [
+    "Knyphausen -> Nip-howzen",
+    "Magaw -> muh-GAW",
+    "Tilghman -> Tillman",
+    "DiGangi -> dee-GAHN-jee",
+    "matross -> muh-tross",
+    "[pause] -> ..."
+  ],
+  "segments": [
+    "s1_coldopen",
+    "s2_act1",
+    "s3_act2",
+    "s4_act3a",
+    "s5_act3b",
+    "s6_act4a",
+    "s7_act4b"
+  ]
+}

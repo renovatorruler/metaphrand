@@ -1,0 +1,644 @@
+{
+ "takes_dir": "takes_v5",
+ "durs": "take_durs_v5.json",
+ "build": "build_v5",
+ "out": "out_v5",
+ "pending": "none — Leda beat live (voice=Mini; Castor voice now TBD for future eps)",
+ "scenes": [
+  {
+   "name": "s0_letter",
+   "cue": "score/cue3_lesson.mp3",
+   "score_vol": 0.4,
+   "segments": [
+    {
+     "src": "card:card01",
+     "dur": 3.2
+    }
+   ]
+  },
+  {
+   "name": "s1_mela",
+   "cue": "score/cue1_mela.mp3",
+   "segments": [
+    {
+     "src": "file:clips/vfx_bustle.mp4",
+     "in": 0.0,
+     "dur": 8.0
+    },
+    {
+     "src": "still:s_kuku_fair",
+     "takes": [
+      {
+       "i": 1
+      }
+     ]
+    },
+    {
+     "src": "still:s_fyuria_fair",
+     "takes": [
+      {
+       "i": 2
+      }
+     ]
+    },
+    {
+     "src": "still:s_dadi_fair",
+     "takes": [
+      {
+       "i": 3
+      }
+     ],
+     "fx": [
+      {
+       "png": "../talktest/fx_m.png",
+       "at": 1.2,
+       "scale": 0.26,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "clip:c2_popper",
+     "in": 0.0,
+     "dur": 10.0,
+     "takes": [
+      {
+       "i": 4,
+       "at": 4.9
+      }
+     ]
+    },
+    {
+     "src": "still:s_fyuria_fair",
+     "takes": [
+      {
+       "i": 5
+      }
+     ]
+    },
+    {
+     "src": "still:s_dadi_fair",
+     "takes": [
+      {
+       "i": 6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s2_theft",
+   "cue": "score/cue2_theft.mp3",
+   "segments": [
+    {
+     "src": "file:clips/vfx_pov.mp4",
+     "in": 0.0,
+     "dur": 6.3,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 7,
+       "at": 0.8
+      }
+     ]
+    },
+    {
+     "src": "still:s_mitasur_hill",
+     "takes": [
+      {
+       "i": 8
+      }
+     ]
+    },
+    {
+     "src": "file:clips/vfx_w2.mp4",
+     "in": 0.3,
+     "takes": [
+      {
+       "i": 9,
+       "at": 0.8
+      }
+     ]
+    },
+    {
+     "src": "file:../talktest/w5_scoop_exit.mp4",
+     "in": 1.0,
+     "takes": [
+      {
+       "i": 10,
+       "at": 0.5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s3_broken",
+   "cue": "score/cue2_theft.mp3",
+   "cue_in": 8.0,
+   "segments": [
+    {
+     "src": "still:s_kuku_taste",
+     "takes": [
+      {
+       "i": 11
+      }
+     ]
+    },
+    {
+     "src": "file:../talktest/w3_fx.mp4",
+     "in": 0.5,
+     "dur": 5.5,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 12,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "file:../talktest/w3_droop.mp4",
+     "in": 1.0,
+     "takes": [
+      {
+       "i": 13,
+       "at": 4.2
+      }
+     ]
+    },
+    {
+     "src": "file:../talktest/w4_fx.mp4",
+     "in": 0.5,
+     "dur": 5.5,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 14,
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:s_dadi_grey",
+     "takes": [
+      {
+       "i": 15,
+       "at": 2.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s4_lesson",
+   "cue": "score/cue3_lesson.mp3",
+   "segments": [
+    {
+     "src": "still:s_dadi_rock",
+     "takes": [
+      {
+       "i": 16
+      }
+     ]
+    },
+    {
+     "src": "still:s_dadi_rock",
+     "takes": [
+      {
+       "i": 17
+      }
+     ],
+     "fx": [
+      {
+       "png": "../talktest/fx_m.png",
+       "at": 1.0,
+       "scale": 0.3,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:s_vesper_rock",
+     "takes": [
+      {
+       "i": 18
+      }
+     ]
+    },
+    {
+     "src": "still:s_fyuria_rock",
+     "takes": [
+      {
+       "i": 19
+      }
+     ]
+    },
+    {
+     "src": "still:s_vesper_rock",
+     "takes": [
+      {
+       "i": 20
+      }
+     ],
+     "fx": [
+      {
+       "png": "../talktest/fx_m.png",
+       "at": 0.3,
+       "scale": 0.2,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:s_dadi_rock",
+     "takes": [
+      {
+       "i": 21
+      }
+     ],
+     "fx": [
+      {
+       "png": "../talktest/fx_m.png",
+       "at": 0.5,
+       "scale": 0.3,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:s_team_hunt",
+     "takes": [
+      {
+       "i": 22
+      }
+     ]
+    },
+    {
+     "src": "still:s_leda_cu",
+     "takes": [
+      {
+       "i": 23
+      }
+     ]
+    },
+    {
+     "src": "still:s_dadi_rock",
+     "takes": [
+      {
+       "i": 24
+      }
+     ]
+    },
+    {
+     "src": "still:s_dadi_rock",
+     "takes": [
+      {
+       "i": 25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s5_hunt",
+   "cue": "score/cue4_chase.mp3",
+   "segments": [
+    {
+     "src": "still:s_team_hunt",
+     "takes": [
+      {
+       "i": 26
+      },
+      {
+       "i": 27
+      }
+     ]
+    },
+    {
+     "src": "clip:c12_sniff",
+     "in": 0.0,
+     "takes": [
+      {
+       "i": 28,
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "clip:c4_chase",
+     "in": 0.0,
+     "dur": 10.0,
+     "takes": [
+      {
+       "i": 29,
+       "at": 0.5
+      },
+      {
+       "i": 30,
+       "at": 7.6
+      }
+     ]
+    },
+    {
+     "src": "clip:c13_unheard",
+     "in": 0.0,
+     "takes": [
+      {
+       "i": 31,
+       "at": 0.3
+      },
+      {
+       "i": 32
+      },
+      {
+       "i": 33
+      }
+     ]
+    },
+    {
+     "src": "clip:c15_shriek",
+     "in": 3.0,
+     "dur": 6.6,
+     "takes": [
+      {
+       "i": 34,
+       "at": 2.7
+      }
+     ]
+    },
+    {
+     "src": "clip:c6_freeze",
+     "in": 0.0,
+     "takes": [
+      {
+       "i": 35,
+       "at": 1.0
+      }
+     ]
+    },
+    {
+     "src": "clip:c5_matka",
+     "in": 0.0,
+     "dur": 3.2
+    },
+    {
+     "src": "still:s_mitasur_cornered",
+     "takes": [
+      {
+       "i": 36
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s6_climax",
+   "cue": "score/cue5_climax.mp3",
+   "segments": [
+    {
+     "src": "file:../talktest/w4_fx.mp4",
+     "in": 0.8,
+     "dur": 3.4,
+     "takes": [
+      {
+       "i": 60,
+       "at": 0.6
+      }
+     ]
+    },
+    {
+     "src": "still:s_fyuria_alarm",
+     "takes": [
+      {
+       "i": 37
+      }
+     ]
+    },
+    {
+     "src": "still:s_kuku_brave",
+     "takes": [
+      {
+       "i": 38
+      }
+     ]
+    },
+    {
+     "src": "clip:c7_forge",
+     "in": 0.0,
+     "dur": 10.0,
+     "takes": [
+      {
+       "i": 39,
+       "at": 0.8
+      }
+     ],
+     "fx": [
+      {
+       "png": "../talktest/fx_m.png",
+       "at": 7.0,
+       "scale": 0.45,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "file:clips/c14_burst.mp4",
+     "in": 0.0,
+     "dur": 1.9,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 40,
+       "at": 0.6
+      }
+     ]
+    },
+    {
+     "src": "file:clips/vfx_return.mp4",
+     "in": 0.0,
+     "dur": 6.2
+    },
+    {
+     "src": "clip:c8_boat",
+     "in": 0.0,
+     "takes": [
+      {
+       "i": 41,
+       "at": 0.8
+      }
+     ]
+    },
+    {
+     "src": "clip:c9_heal",
+     "in": 0.0,
+     "takes": [
+      {
+       "i": 42,
+       "at": 0.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s7_heart",
+   "cue": "score/cue6_heart.mp3",
+   "segments": [
+    {
+     "src": "still:s_fyuria_fair",
+     "takes": [
+      {
+       "i": 43
+      }
+     ]
+    },
+    {
+     "src": "still:s_kuku_brave",
+     "takes": [
+      {
+       "i": 44
+      }
+     ]
+    },
+    {
+     "src": "still:s_kuku_kneel",
+     "takes": [
+      {
+       "i": 45
+      }
+     ]
+    },
+    {
+     "src": "still:s_mitasur_cornered",
+     "takes": [
+      {
+       "i": 46
+      }
+     ]
+    },
+    {
+     "src": "still:s_kuku_kneel",
+     "takes": [
+      {
+       "i": 47
+      },
+      {
+       "i": 48
+      }
+     ]
+    },
+    {
+     "src": "clip:c10_firstm",
+     "in": 0.0,
+     "dur": 10.0,
+     "takes": [
+      {
+       "i": 49,
+       "at": 4.0
+      }
+     ],
+     "fx": [
+      {
+       "png": "../talktest/fx_m.png",
+       "at": 4.6,
+       "scale": 0.16,
+       "pos": "c"
+      }
+     ]
+    },
+    {
+     "src": "still:s_mitasur_wonder",
+     "takes": [
+      {
+       "i": 50
+      }
+     ]
+    },
+    {
+     "src": "still:s_fyuria_fair",
+     "takes": [
+      {
+       "i": 51
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s8_maa",
+   "cue": "score/cue6_heart.mp3",
+   "cue_in": 38.0,
+   "segments": [
+    {
+     "src": "still:s_papa_dadi",
+     "takes": [
+      {
+       "i": 52
+      }
+     ]
+    },
+    {
+     "src": "still:s_papa_dadi",
+     "takes": [
+      {
+       "i": 53
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s9_night",
+   "cue": "score/cue7_night.mp3",
+   "segments": [
+    {
+     "src": "seq",
+     "takes": [
+      {
+       "i": 54,
+       "at": 0.15
+      }
+     ]
+    },
+    {
+     "src": "card:card11",
+     "dur": 2.4
+    },
+    {
+     "src": "still:s_dadi_night",
+     "takes": [
+      {
+       "i": 55
+      }
+     ]
+    },
+    {
+     "src": "still:s_fyuria_kitab",
+     "takes": [
+      {
+       "i": 56
+      }
+     ]
+    },
+    {
+     "src": "clip:c11_night",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "fadeout": 1.2,
+     "takes": [
+      {
+       "i": 57,
+       "at": 0.3
+      },
+      {
+       "i": 58,
+       "at": 6.2
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

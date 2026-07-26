@@ -1,3 +1,5 @@
+> CANON NOTE (2026-07-16): §1 "the 25-year break" and §2 are superseded in part — the fall mechanism is now the LOCKED rebellion+glory design (living paralyzed father, no hostage mechanism; Sugna sold at Leela's age; closing line in the father's mouth). SEASON_ARC.md v2.1 is the authority.
+
 # AMAL — Finale architecture (the साका) — working doc
 
 Spine for the last episode. Built in conversation; refine freely. Hindi phrasings here are *intent drafts* —

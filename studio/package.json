@@ -15,5 +15,8 @@
   },
   "devDependencies": {
     "rescript": "^11.1.4"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.1"
   }
 }

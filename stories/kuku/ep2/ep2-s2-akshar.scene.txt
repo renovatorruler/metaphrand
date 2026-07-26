@@ -1,0 +1,37 @@
+ep2-s2-akshar — EXT. AKSHAR GHAATI - DADI MAYA'S ROCK - CONTINUOUS
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep2/ep2-s2-akshar.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: On a wide flat rock above the valley, DADI MAYA, an old green dragon with a teaching stick tucked under one arm, stands with the children pressed in close around her.
+ANNOUNCER (RADIO): नीचे मेला अचानक बंद हो गया है, सब लोग घर लौट जाइए।
+ACTION: MORNI, the peahen from the fair, scrambles up onto the rock with her feathers all pushed the wrong way.
+MORNI: कोई मेरी मदद करो, मेरा बच्चा नीचे बिलकुल अकेला रह गया है।
+MORNI: वह मुझे पुकारना चाहता है, पर अब उसके पास कोई शब्द ही नहीं बचा।
+ACTION: FURIA, the tall dragon-girl, steps around in front of the others and lays a hand on Morni's wing.
+FURIA: आप इतना घबराइए मत, हम आपके बच्चे को ज़रूर ढूँढ लेंगे।
+FURIA (WHISPER): मैं आपको यहाँ अकेला नहीं छोड़ूँगी।
+ACTION: KUKU, the smallest dragon, hops up onto a lower ledge of the rock to get closer to Dadi.
+KUKU: दादी, हम सब मदद करना चाहते हैं, पर हमें करना क्या होगा?
+DADI MAYA: मिटासुर जिस अक्षर को ले गया है, वह अक्षर म है।
+ACTION: Dadi taps her stick twice on the rock, and a big golden letter rises up with a little hat sitting on its top.
+DADI MAYA: इसे वापस लाने का बस एक ही रास्ता है, पहले तुम इसे ठीक से सीखो।
+DADI MAYA: बोलो मेरे साथ, म।
+ACTION: The children lean toward the glowing letter and say it back after her.
+KUKU: म।
+ACTION: VESPER, Furia's younger brother, tilts his head and looks up at the little hat on the letter.
+VESPER: दादी, ऊपर से इसकी टोपी बहुत सुंदर लगती है।
+VESPER: अरे, मुझे पता है, यह तो M है।
+FURIA: हिंदी में बोलो, वैस्पर।
+VESPER: अच्छा, हिंदी में यह म है।
+DADI MAYA: अंग्रेज़ी का M टोपी नहीं पहनता, पर हमारा म टोपी पहनता है।
+DADI MAYA: और सुनो, मेरे नाम में भी म है, माया में म है।
+ACTION: Furia glances back down the slope toward the frozen fair, then turns to Dadi.
+FURIA: दादी, माँ यहाँ रो रही है, और मुझे यहाँ बैठकर सीखना अच्छा नहीं लग रहा।
+DADI MAYA: तुम अक्षर सीख लोगे, तभी तुम उसे दोबारा बना पाओगे।
+KUKU: मैं इस म को फिर से बना सकता हूँ, मुझे बस एक अच्छी साँस चाहिए।
+ACTION: Furia comes back around to Morni and holds up her fist.
+FURIA: आप बिलकुल चिंता मत कीजिए, हम आपकी और आपके बच्चे की मदद करेंगे।
+ACTION: The children line up shoulder to shoulder along the edge of the rock.
+DADI MAYA: अक्षर वीर, तैयार!
+KUKU: अक्षर वीर, तैयार!
+FURIA: हम सब मिलकर मदद करेंगे।

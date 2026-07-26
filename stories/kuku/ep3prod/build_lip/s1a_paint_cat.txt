@@ -1,0 +1,8 @@
+file 's1a_paint_00.mp4'
+file 's1a_paint_01.mp4'
+file 's1a_paint_02.mp4'
+file 's1a_paint_03.mp4'
+file 's1a_paint_04.mp4'
+file 's1a_paint_05.mp4'
+file 's1a_paint_06.mp4'
+file 's1a_paint_07.mp4'

@@ -1,0 +1,99 @@
+{
+  "scenes": [
+    {
+      "name": "s0_letter",
+      "cue": "score/cue3_lesson.mp3",
+      "score_vol": 0.4,
+      "segments": [
+        {"src": "card:card01", "dur": 3.2}
+      ]
+    },
+    {
+      "name": "s1_mela",
+      "cue": "score/cue1_mela.mp3",
+      "segments": [
+        {"src": "clip:c1_bustle", "in": 0.0, "dur": 8.0},
+        {"src": "still:s_kuku_fair", "takes": [{"i": 0}]},
+        {"src": "still:s_fyuria_fair", "takes": [{"i": 1}]},
+        {"src": "still:s_vesper_fair", "dur": 2.6},
+        {"src": "clip:c2_popper", "in": 0.8, "takes": [{"i": 2, "at": 1.3}]},
+        {"src": "still:s_fyuria_fair", "takes": [{"i": 3}]},
+        {"src": "still:s_dadi_fair", "takes": [{"i": 4}]}
+      ]
+    },
+    {
+      "name": "s2_theft",
+      "cue": "score/cue2_theft.mp3",
+      "segments": [
+        {"src": "file:../talktest/w1_pov.mp4", "in": 0.0, "takes": [{"i": 5, "at": 1.2}]},
+        {"src": "still:s_mitasur_hill", "takes": [{"i": 6}]},
+        {"src": "file:../talktest/w2_fx.mp4", "in": 0.5, "dur": 7.0},
+        {"src": "file:../talktest/w3_fx.mp4", "in": 0.5, "dur": 5.5},
+        {"src": "file:../talktest/w3_droop.mp4", "in": 1.0, "dur": 4.5},
+        {"src": "file:../talktest/w4_fx.mp4", "in": 0.5, "dur": 5.5},
+        {"src": "file:../talktest/w5_scoop_exit.mp4", "in": 1.0, "dur": 6.0}
+      ]
+    },
+    {
+      "name": "s3_lesson",
+      "cue": "score/cue3_lesson.mp3",
+      "segments": [
+        {"src": "still:s_dadi_rock", "takes": [{"i": 7}]},
+        {"src": "still:s_dadi_rock", "takes": [{"i": 8}], "fx": [{"png": "../talktest/fx_m.png", "at": 1.0, "scale": 0.30, "pos": "tc"}]},
+        {"src": "still:s_vesper_rock", "takes": [{"i": 10}]},
+        {"src": "still:s_fyuria_rock", "takes": [{"i": 9}]},
+        {"src": "still:s_vesper_rock", "takes": [{"i": 11}], "fx": [{"png": "../talktest/fx_m.png", "at": 0.4, "scale": 0.22, "pos": "tc"}]},
+        {"src": "card:card02", "takes": [{"i": 12}, {"i": 13}]},
+        {"src": "still:s_dadi_rock", "takes": [{"i": 14}]}
+      ]
+    },
+    {
+      "name": "s5_hunt",
+      "cue": "score/cue4_chase.mp3",
+      "segments": [
+        {"src": "still:s_team_hunt", "takes": [{"i": 15}, {"i": 16}]},
+        {"src": "clip:c4_chase", "in": 0.0, "takes": [{"i": 17, "at": 6.8}]},
+        {"src": "clip:c5_matka", "in": 0.0, "takes": [{"i": 18, "at": 4.2}, {"i": 19}]},
+        {"src": "clip:c6_freeze", "in": 0.0, "takes": [{"i": 20, "at": 2.0}, {"i": 21, "at": 4.8}]},
+        {"src": "still:s_mitasur_cornered", "takes": [{"i": 22}]}
+      ]
+    },
+    {
+      "name": "s6_climax",
+      "cue": "score/cue5_climax.mp3",
+      "segments": [
+        {"src": "still:s_fyuria_alarm", "takes": [{"i": 23}]},
+        {"src": "still:s_kuku_brave", "takes": [{"i": 24}]},
+        {"src": "clip:c7_forge", "in": 0.0, "dur": 10.0, "takes": [{"i": 25, "at": 1.0}], "fx": [{"png": "../talktest/fx_m.png", "at": 7.0, "scale": 0.45, "pos": "tc"}]},
+        {"src": "clip:c8_boat", "in": 0.0, "dur": 8.0},
+        {"src": "clip:c9_heal", "in": 0.0, "dur": 9.0}
+      ]
+    },
+    {
+      "name": "s8_heart",
+      "cue": "score/cue6_heart.mp3",
+      "segments": [
+        {"src": "still:s_fyuria_fair", "takes": [{"i": 26}]},
+        {"src": "still:s_kuku_brave", "takes": [{"i": 27}]},
+        {"src": "still:s_kuku_kneel", "takes": [{"i": 28}]},
+        {"src": "still:s_mitasur_cornered", "takes": [{"i": 29}]},
+        {"src": "still:s_kuku_kneel", "takes": [{"i": 30}, {"i": 31}]},
+        {"src": "clip:c10_firstm", "in": 0.0, "takes": [{"i": 32, "at": 6.0}], "fx": [{"png": "../talktest/fx_m.png", "at": 4.6, "scale": 0.16, "pos": "c"}]},
+        {"src": "still:s_fyuria_fair", "takes": [{"i": 33}]},
+        {"src": "still:s_papa_dadi", "takes": [{"i": 34}, {"i": 35}]}
+      ]
+    },
+    {
+      "name": "s9_night",
+      "cue": "score/cue7_night.mp3",
+      "segments": [
+        {"src": "seq", "takes": [{"i": 36, "at": 0.15}]},
+        {"src": "card:card02", "takes": [{"i": 37}]},
+        {"src": "still:s_dadi_night", "takes": [{"i": 38}]},
+        {"src": "still:s_fyuria_kitab", "takes": [{"i": 39}]},
+        {"src": "card:card11", "dur": 2.4},
+        {"src": "clip:c11_night", "in": 0.0, "dur": 9.0, "fadeout": 1.2}
+      ]
+    }
+  ]
+}

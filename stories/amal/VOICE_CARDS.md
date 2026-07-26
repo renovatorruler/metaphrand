@@ -154,3 +154,9 @@ read the Hindi cold, name the speaker — any line that fits two people gets re-
 - **Pace/warmth/tics:** slow, incantatory; the blind eye; recites and half-sings.
 - **Never:** speaks plainly or briefly; *and no one else is allowed his eloquence.*
 - **Sample:** «सिर कटा, पर तलवार न रुकी — वो पँवार का रकत है, बेटा।»
+
+## 2026-07-16 ADDENDUM — the fall lock
+
+**RATAN — register note:** donor = DSP Rajesh Tomar (Black Warrant; see CASTING_DONORS.md) — housekeeping corruption, care as irritation; UNDER it, the locked engine: the silent argument with the living father, the glory-hunger carried only in where his eyes go. The eloquence ledger holds: plain always; the earned breaks stay earned.
+
+**THE FATHER — placeholder card (name OPEN; full card required before drafting his scenes):** anti-eloquent like his son but from the opposite cause — the creed needs no rhetoric. Short declaratives, procedural warmth (the Tomar inversion: an HONEST man whose care also arrives as instruction). One rule: he never once says the creed aloud until the hinge conversation — and there, what he says is the creed's surrender.

@@ -22,7 +22,7 @@
 **Cast → letter payoff (why the order helps):** क→कुकु (ep1), म→माया (ep2), च→चीकू (ep7), भ→भोलू (ep10), द→दादी (ep11). Each of these episodes gets the strongest possible memory hook — the letter is *the name of a friend the child already loves.*
 
 **UPDATE 2026-07-21 — the kids' own letters (spotlight episodes, slot into the order above):**
-- **फ → फ़ूरिया (Furia)** — her episode. Words: फल (fruit) · फूल (flower) · फ़ोन (phone). Payoff of
+- **फ → फ्यूरिया (Furia)** — her episode. Words: फल (fruit) · फूल (flower) · फ़ोन (phone). Payoff of
   her Ф arc: *her Hindi letter फ wears the टोपी; her Russian Ф doesn't.*
 - **व → वैस्पर (Vesper)** — his episode. Words: वन (forest) · वर्षा (rain) · वायलिन (violin, TBD).
 - Proposed placement: फ at ep5–6, व at ep7–8 (final order = author's call).

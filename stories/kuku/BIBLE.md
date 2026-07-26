@@ -27,7 +27,7 @@ Under the fun, a real spine for the viewer: recognize the shape → make the sou
 The core is a **trio** (Super-Kitties team shape) — every episode's problem needs all three gifts:
 
 - **कुकु** — hero, the heart + the power; breathes letters; wants to be a "real" fire-dragon.
-- **फ़ूरिया (Furia)** — the spark. First at everything (catchphrase «मैं पहले!»), kind but fiercely
+- **फ्यूरिया (Furia)** — the spark. First at everything (catchphrase «मैं पहले!»), kind but fiercely
   competitive with her brother; mothers anything small; dreams of a shiny red कार; writes each
   day's letter in her किताब; owns the recurring Ф→टोपी gag. *(Mirrors the author's daughter.)*
 - **वैस्पर (Vesper)** — the dreamer, Furia's younger brother. Kind, sweet, lost in imagination
@@ -60,14 +60,25 @@ The core is a **trio** (Super-Kitties team shape) — every episode's problem ne
    is the megalist's Tier-3.6 fragment-drama tell AND bad pedagogy — banned). Model line:
    «पापा, पापा, देखो वो काला कुत्ता। आप एक कुत्ता मेरे लिए घर ले आओ ना।» Warm colloquial, not
    stiff formal. Exceptions: toddler Cheeku's babble; single-letter call-response («क!»).
-2b. **Pronoun register (author's law).** Children address elders (Papa, Dadi, any grown-up) with
-   **आप** — never तुम or तू. Elders → children use तू/तुम. Kids among themselves and to the puppy
+2b. **Pronoun register (author's law, revised 2026-07-22).** Children address elders (Papa, Dadi,
+   any grown-up) with **आप**. Among the kids, and to कालू, use **तुम / तुम्हारा** — NOT the very-
+   informal तू/तेरा (too rough for the show). Elders → children: **Papa addresses Kuku with तुम, never तू** (author's note 2026-07-21: «कालू तुम्हारा है», not «तेरा»); Dadi's affectionate तू stays. Kids among themselves and to the puppy
    use तू. (आप + warm imperative «ले आओ ना» is the house register, per the author's example.)
 3. **Repetition is required, not a smell.** Call-and-response, the recurring "कुकु का क" button, the same ritual each episode — all intentional. (The mechanical Craft gate is English-token-based and will not fight this on Hindi lines; the model-judged lift is steered by director's notes to *preserve* the simplicity — see below.)
 4. **The letter is earned by a beat, never announced cold.** Story first, then the breath, then the lesson.
 5. **No fear.** No villain, no peril, no shaming Kuku. Failure is gentle and brief and turns into wonder.
 6. **The Sod is never stated.** No character explains the moral. It lives only in what happens.
 7. **Native-speaker check before any episode ships.** Register/spelling/idiom verified by a Hindi native.
+
+## Part VI.6 — Character richness (author's law, 2026-07-22)
+
+**Tics are seasoning, not the meal.** Fyuria is NOT «मैं पहले!» in every scene; Vesper is NOT
+"always drifting off" in every scene. Each signature (Fyuria's «मैं पहले!»/Ф-gag, Vesper's
+name-calls/English-drift/falling-asleep) may fire **at most once or twice per episode, at a beat
+that earns it.** The rest of their lines carry the scene through real want, feeling, and their
+underlying person (see VOICE_CARDS: Fyuria = big-hearted leader whose racing is generosity in a
+hurry; Vesper = tender seer/inventor who sees clearest by wandering). A character who only ever
+says their catchphrase is written wrong. Write the person; deploy the tic like a spice.
 
 ## Part VI.5 — The टोपी (hat) principle — the disambiguation engine
 

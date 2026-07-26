@@ -85,6 +85,7 @@ let falSeedance2: (
 /* OmniHuman (ByteDance) — audio-driven talking avatar: a still image + OUR audio
    (< 30s) -> lip-synced talking video in our own voice (base64 data URIs accepted). */
 let falOmnihuman: (~image: path, ~audio: path) => promise<blob>
+let falOmnihumanUrl: (~imageUrl: string, ~audioUrl: string) => promise<blob>
 
 /* ---- ElevenLabs ---------------------------------------------------------- */
 /* One continuous multi-speaker take: the lines in order, each with its voice. */

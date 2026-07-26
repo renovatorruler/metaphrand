@@ -646,6 +646,15 @@ let falOmnihuman = async (~image: path, ~audio: path): blob => {
   await falVideo(~endpoint="fal-ai/bytedance/omnihuman", ~input=Js.Json.object_(input))
 }
 
+/* fal now rejects data-URI audio (file_download_error, 2026-07) — URL variant:
+   pass publicly fetchable URLs (e.g. the funnel path) instead of base64. */
+let falOmnihumanUrl = async (~imageUrl: string, ~audioUrl: string): blob => {
+  let input = Js.Dict.empty()
+  Js.Dict.set(input, "image_url", Js.Json.string(imageUrl))
+  Js.Dict.set(input, "audio_url", Js.Json.string(audioUrl))
+  await falVideo(~endpoint="fal-ai/bytedance/omnihuman", ~input=Js.Json.object_(input))
+}
+
 /* ---- ElevenLabs ---------------------------------------------------------- */
 let dialogue = async (lines: array<(text, voiceId)>): blob => {
   let k = key("ELEVENLABS_API_KEY")

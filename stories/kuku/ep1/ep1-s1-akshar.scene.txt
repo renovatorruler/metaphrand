@@ -18,24 +18,24 @@ DADI MAYA: बोलो मेरे साथ. क.
 KUKU: क!
 ACTION: Furia jumps up and jabs her claw at the golden letter.
 FURIA: अरे रुको! ये तो मेरा अक्षर है, मेरे नाम वाला. मैं तो इसको पहले से जानती हूँ!
-DADI MAYA: ज़रा पास आकर देख तो, फूरिया. इसने ऊपर एक टोपी पहनी है.
+DADI MAYA: ज़रा पास आकर देखो तो, फ्यूरिया. इसने ऊपर एक टोपी पहनी है.
 ACTION: Furia leans in close and her grin slips a little.
 FURIA: टोपी?
 DADI MAYA: हाँ बेटा. हिंदी का हर अक्षर टोपी पहनता है.
 ACTION: Dadi Maya runs her claw along the flat line across the top of the golden क.
-DADI MAYA: तेरे वाले के ऊपर टोपी नहीं है. इसके ऊपर है, देख.
+DADI MAYA: तुम्हारे वाले के ऊपर टोपी नहीं है. इसके ऊपर है, देखो.
 DADI MAYA: हवा में मेरे साथ बनाओ. ऊपर एक सीधी लकीर खींचो, ये रही टोपी.
 ACTION: The children drag a finger through the air across the top.
 FURIA (WHISPER): मैंने तो पहले ही देख ली थी, सच में.
-DADI MAYA: वैस्पर, बता तो, आज का अक्षर कौन सा है?
+DADI MAYA: वैस्पर, बताओ तो, आज का अक्षर कौन सा है?
 ACTION: Vesper keeps his eyes on a butterfly wobbling over the rock and says nothing.
 DADI MAYA: वैस्पर?
-FURIA: वैस्पर! दादी तुझे बुला रही है.
+FURIA: वैस्पर! दादी तुम्हें बुला रही है.
 ACTION: Vesper blinks and slowly turns his head down.
 VESPER: वो बादल... देखो, it looks like a big कान.
 FURIA: हिंदी में, वैस्पर!
 VESPER: वो बादल एक बड़े कान जैसा दिख रहा है.
-DADI MAYA: बहुत सुंदर देखा तूने. और अब बता, आज का अक्षर कौन सा है?
+DADI MAYA: बहुत सुंदर देखा तुमने. और अब बताओ, आज का अक्षर कौन सा है?
 VESPER: क.
 ACTION: The whole group breaks up laughing and Kuku claps his little hands.
 DADI MAYA: शाबाश, वैस्पर. क.

@@ -1,0 +1,29 @@
+ep2-s6-topi — EXT. AKSHAR GHAATI - DADI MAYA'S ROCK - NIGHT
+[engine-emitted; verify against /Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep2/ep2-s6-topi.scene.txt.receipt.json]
+
+@@SCENE@@
+ACTION: Stars come out over Dadi Maya's rock, and the warm stone still holds the heat of the long day.
+ACTION: DADI MAYA, the old green dragon, sits with her stick across her knees, and KUKU, the smallest dragon, and FURIA, the tall dragon-girl, lie back against the stone beside her.
+ANNOUNCER (RADIO): मेला अब रात के लिए बंद हो रहा है, आप सब लोग आराम कीजिए।
+DADI MAYA: चलो बच्चों, आज हमने म से जो जो बचाया, उसे एक बार साथ में गिन लेते हैं।
+DADI MAYA: म से क्या, बोलो मेरे साथ।
+KUKU: म से माँ, जो अपने बच्चे से फिर मिल गई।
+FURIA: म से मेला, जो शाम को फिर से सज गया।
+KUKU: म से मिठाई, जो फिर से मीठी हो गई।
+FURIA: म से मोर, जिसने अपने सारे पंख खोल दिए।
+KUKU: म से मछली, जो फिर से रंग में तैरने लगी।
+FURIA: म से मदद, जो हम सबने मिलकर की।
+DADI MAYA: और म से माया, यानी मेरा अपना नाम।
+DADI MAYA: एक बात याद रखना, हिंदी का हर अक्षर अपनी टोपी पहनता है।
+DADI MAYA: पर अंग्रेज़ी का M कोई टोपी नहीं पहनता।
+ACTION: The children lift their fingers and draw a little hat in the air over a letter no one can see.
+KUKU: देखिए दादी, मैंने हवा में म की टोपी लगा दी।
+ACTION: Furia pulls a small किताब out from under her arm and flips it open on the stone.
+FURIA: मैं पहले लिखूँगी, आज का म मेरी किताब में जाएगा।
+ACTION: Furia draws a big म with its hat on top and turns the किताब around so everyone can see it.
+DADI MAYA: बहुत प्यारा म बनाया है तुमने, बेटा।
+ACTION: Furia looks over at the empty मिठाई basket and leans in toward Dadi.
+FURIA (WHISPER): दादी, वैस्पर तो कब का सो चुका है।
+ACTION: The camera finds VESPER curled up fast asleep inside the empty मिठाई basket.
+ACTION: Close by, MITASUR lies on his back and snores with a मिठाई in one hand and his crooked little म in the other.
+DADI MAYA: अच्छा, अब सब आँखें बंद करो, शुभ रात्रि।
