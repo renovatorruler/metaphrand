@@ -52,6 +52,8 @@ One big old wooden house and everything the homestead holds: stove country and t
 
 ## THE MECHANIC (the world's physics, exactly)
 
+TWO MODES, AND THE SWITCH IS ВЖУХ (author-prompted codification, 2026-07-26): (1) a written word READ ALOUD becomes REAL in the world — the summoning mode, the living picture-dictionary (abstract words like САМ or МЫ have nothing to summon and safely fizzle, which makes them the "safe practice words"); (2) read aloud PLUS your power-cry — «ВЖУХ!» — aims the magic at yourself: you BECOME the word. Only Веся has a power-name, which is exactly why he is the only домовёнок who can become. Фрося's Scribe power is the mirror: what she WRITES becomes real. «Скажи — и стань!» is the family motto describing the whole magic — never a trigger. HELD IN RESERVE (do not spend early): a misread WITH ВЖУХ = becoming the wrong creature — a future episode engine (МИШКА/МЫШКА, season 2).
+
 Gate one, DECODE: the word must be read correctly off real writing — a sign, a label, a note, a word Furia writes in the air. Misread it and the WRONG thing appears; every gag is a phonics-plus-vocabulary lesson in disguise (САМ read as СОМ floods the kitchen with catfish — and now both kids know what a сом is, forever, because it was funny).
 
 Gate two, DELIVER: the word must be said clearly. A whined, mumbled, or swallowed word produces the droopy comic version of the thing. The world never punishes; it visibly gives exactly as much as it was given. Say it like you mean it and get the real one.
