@@ -1,20 +1,30 @@
-# «Фрося и Вася» — character sheets for illustration (v2 — yarn identity)
+# «Фрося и Вася» — character sheets for illustration (v3 — the chosen look: painted patchwork children)
 
 Author's physical canon baked in: none of the kids are neat — Фрося's hair is permanently unkempt; Вася gets off easier only because his hair is short; all the kids are skinny EXCEPT Муся, who is the one round baby.
 
-## THE MATERIAL IDENTITY — READ THIS FIRST (v2, 2026-07-26)
+## THE CHOSEN LOOK — READ THIS FIRST (v3, 2026-07-27, author-approved art in hand)
 
-The v1 sheets had no answer to "what are they MADE of," so generators defaulted to folklore and produced either Домовёнок Кузя clones or dirty, grabby, faintly scary gremlin-children. The fix is a material, exactly as the Hindi show is anchored by papercraft:
+The author generated and APPROVED the design direction: painted Kakė Makė-register children — soft digitally-painted rendering, big warm faces, freckles, rosy cheeks, gap-toothed grins, small round black button noses, huge expressive eyes, and CLOTHES SEWN FROM THE HOUSE'S OWN PATCHWORK SCRAPS (mismatched printed squares, visible stitching, real buttons, a stitched shoulder pouch). Вася: short spiky brown hair, patchwork tunic and patch trousers, a pouch of letter-chips. Фрося: a big unkempt curly mane with her pencil stuck in it, floral-patchwork dress, the CHORE LIST pouch. This look is LOCKED — it is fresh, it is unmistakably in the Kakė Makė register, and the faces are the win. Do not redesign the faces.
 
-**THEY ARE MADE OF YARN.** Knitted and felted little creatures — the house's own lost wool, thread, and scraps come alive. Soft round felt bodies, limbs of thick knitted cord, hands like little mittens, button eyes, a nose that is one embroidered stitch, a mouth of stitched thread. They look like beloved handmade toys that a grandmother knitted and someone's love brought to life — clean, soft, huggable.
+The earlier yarn/felt experiment (v2, below in spirit) is SUPERSEDED as the character material. Keep the yarn IDEA only where it still pays: the patchwork clothing, and the unravelling imagery available for РЫК as loose threads at a cuff or hem (never a full knitted body).
 
-Why this works: felt cannot have fangs, claws, or grime, so "creepy" becomes impossible; nobody's Кузя is a knitted toy, so the reference collapses; messy hair becomes loose YARN LOOPS (adorable, not unwashed); skinny becomes thread-thin knitted limbs; and the lore improves — spirits who keep a house being made of that house's lost wool is more folk-true than a generic hairy gnome. Bonus: РЫК becomes literal — when feelings go unspoken, a thread pulls loose and Вася starts to UNRAVEL; saying the word knits him back together.
+### THE HOUSE-SPIRIT LAYER — how to make painted children read as домовята (cheap moves only)
+
+The approved art reads as human children until you add context. These are ranked by bang-for-buck; the top one requires NO change to the characters at all.
+
+1. SCALE, THE DECISIVE MOVE: never draw them floating on white. Always put one household object in frame at THEIR scale — a wooden thread spool taller than Вася, a matchbox to sleep in, a thimble as a bucket, a button the size of a dinner plate, a sewing needle carried like a spear, a walnut-shell bowl. Same drawing, entirely different creature. Scale alone converts "child" to "house spirit."
+2. BARE FEET: no shoes, ever. Folklore домовые are barefoot and it reads instantly as "belongs to the house, never goes outside." Optional: little knitted socks with a hole in the toe.
+3. EARS, ONE BRUSHSTROKE: slightly larger and leaf-pointed at the top. The cheapest possible "not quite a human child" signal.
+4. HOUSE-LINT: a wisp of lint, a small feather, or a strand of cobweb caught in the hair — satisfies the never-neat canon AND says "lives behind the stove" in one stroke.
+5. FOUND-OBJECT TOOLS: a bent pin at the belt, a matchstick over the shoulder, a thimble on a string, a spool-lid shield.
+
+NEVER, to make them "more spirit": tails, glowing eyes, beards, pointed hats, hairy bodies, animal features, or anything folklorically shaggy. That road leads straight back to the Кузя clone and to the creepy gremlin versions. These are house spirits by CONTEXT AND SCALE, never by monster features.
 
 ### BANNED WORDS in image prompts (they summon the failures)
 
 Never write: домовой, домовёнок, house spirit, brownie, goblin, gnome, elf, imp, creature-of-folklore; fur, furry, shaggy, unkempt, matted, wild hair, dirty, grubby, ragged, feral, mischievous-looking; scribble-edged, sketchy, scratchy.
 
-Write instead: knitted toy character, felted wool doll, soft handmade plush, yarn loops, embroidered stitch, button eyes, mitten hands, cozy, clean, soft.
+Write instead: painted children's book character, patchwork clothes sewn from fabric scraps, visible stitching, freckles, rosy cheeks, gap-toothed smile, tiny — the size of a thread spool, barefoot, warm, clean, sweet-natured.
 
 ## REFERENCE BOARD (gather these before drawing)
 
@@ -36,9 +46,9 @@ THE ILLUSTRATION REGISTER (locked) — Lina Žutautė's «Kakė Makė» books. h
 
 ## THE SHARED STYLE BLOCK (prepend to every illustration prompt)
 
-Hand-drawn 2D children's book illustration, warm and cozy, in the Kakė Makė register: soft hand-inked outlines, watercolor and crayon texture with the strokes visible, occasional paper-collage bits, warm hearth palette (honey, ochre, rust, plum, deep brown) in candle-warm light. The characters are tiny KNITTED AND FELTED TOY CREATURES the size of a matchbox — soft round felt bodies, knitted-cord arms and legs, mitten hands, button eyes, stitched thread mouths, loose yarn loops for hair. Every one is knitted to a different pattern, so no two look alike. They live behind a stove in a house of lost things: spool tables, matchbox beds, a Christmas-bulb lamp. Clean, soft, huggable, sweet-natured. NOT 3D, NOT clean vector lines, NOT Pixar/DreamWorks, NOT anime, no plastic smoothness — drawn by a warm human hand, slightly crooked on purpose.
+Soft digitally-painted children's book illustration in the Kakė Makė register: warm painterly rendering with visible brush texture, big expressive faces, freckles, rosy cheeks, gap-toothed grins, small round black button noses, large bright eyes, slightly oversized heads on small bodies. The characters wear PATCHWORK clothing sewn from mismatched fabric scraps with visible stitching and real buttons, and a stitched shoulder pouch. Warm hearth palette (honey, ochre, rust, plum, deep brown) in candle-warm light, on a soft off-white paper ground. They are TINY — the size of a wooden thread spool — and BAREFOOT, living behind a stove in a house furnished from lost things: spool tables, matchbox beds, a thimble bucket, a Christmas-bulb lamp. NOT 3D, NOT clean vector lines, NOT Pixar/DreamWorks, NOT anime, no plastic smoothness.
 
-Scale anchor: each one stands about as tall as a matchbox. The house cat is a mountain. A milk jug is a tower.
+MANDATORY SCALE ANCHOR in every illustration: at least one ordinary household object drawn at their scale (spool, matchbox, button, thimble, needle, walnut shell). Never draw them without one — scale is what makes them house spirits instead of children. The house cat is a mountain. A milk jug is a tower.
 
 ## ВАСЯ — the hero (boy, ~5)
 
