@@ -14,9 +14,10 @@ The approved art reads as human children until you add context. These are ranked
 
 1. SCALE, THE DECISIVE MOVE: never draw them floating on white. Always put one household object in frame at THEIR scale — a wooden thread spool taller than Вася, a matchbox to sleep in, a thimble as a bucket, a button the size of a dinner plate, a sewing needle carried like a spear, a walnut-shell bowl. Same drawing, entirely different creature. Scale alone converts "child" to "house spirit."
 2. BARE FEET: no shoes, ever. Folklore домовые are barefoot and it reads instantly as "belongs to the house, never goes outside." Optional: little knitted socks with a hole in the toe.
-3. EARS, ONE BRUSHSTROKE: slightly larger and leaf-pointed at the top. The cheapest possible "not quite a human child" signal.
-4. HOUSE-LINT: a wisp of lint, a small feather, or a strand of cobweb caught in the hair — satisfies the never-neat canon AND says "lives behind the stove" in one stroke.
-5. FOUND-OBJECT TOOLS: a bent pin at the belt, a matchstick over the shoulder, a thimble on a string, a spool-lid shield.
+3. HOUSE-LINT: one pale soft thing caught on them — a pillow down-feather (best), a dust bunny, a cobweb strand, a fleck of flour. Satisfies the never-neat canon AND says "lives behind the stove" in one stroke. Pale = cosy; dark smears = neglect.
+4. FOUND-OBJECT TOOLS: two or three per character, never more (see the FOUND-OBJECT KIT doc for exact specs). Папа's giant iron house key is the strongest single prop in the show.
+
+DROPPED — POINTED EARS (author's call, 2026-07-27): they read as ELF, which is generic fantasy and flattens what is fresh about the approved art. If a non-human tell is ever wanted, use slightly LARGER ROUND ears (Вася already has them) — never pointed. Low priority; scale does this job better.
 
 NEVER, to make them "more spirit": tails, glowing eyes, beards, pointed hats, hairy bodies, animal features, or anything folklorically shaggy. That road leads straight back to the Кузя clone and to the creepy gremlin versions. These are house spirits by CONTEXT AND SCALE, never by monster features.
 
