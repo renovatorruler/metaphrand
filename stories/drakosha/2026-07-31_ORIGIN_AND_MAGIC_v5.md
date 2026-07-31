@@ -42,7 +42,9 @@ He reads a written word aloud AND CRIES «ВЖУХ!» — and becomes it (the cr
 
 TOOL SPLIT (author, 2026-07-31): the PENCIL is Фрося's — everything is materialized ONLY by her pencil-writing; the CHIPS are Вася's — he reads and becomes by them. Фрося may borrow the chips only to CHECK the spelling of a long word (САМОКАТ, МАШИНА), then writes it clean with the pencil — even the big sister checks her spelling, and that is itself the lesson. CREATURES ONLY — living things; never objects (objects are hers; the world's one clean line).
 
-THE EYES LAW: whatever he becomes keeps HIS OWN EYES — cat, wasp, anything. (РЫК's tangle already obeys this.) Person-becomings are therefore allowed but USELESS for tricks: a wobbly, slightly-wrong copy with Вася's unmistakable eyes that fools nobody — except the twins. Мама always knows her son in any form: «Глаза-то твои, Вася.» Impersonation plots are impossible by construction.
+THE EYEBROWS LAW (author's correction, 2026-07-31 — eyes were too hard to draw recognizably): whatever he becomes wears HIS SIGNATURE BUSHY EYEBROWS — cat, wasp, anything. Instantly drawable, instantly recognizable, and funny every single time it appears (a wasp with enormous brows). Person-becomings are therefore allowed but USELESS for tricks: a wobbly, slightly-wrong copy under Вася's unmistakable brows that fools nobody — except the twins. Мама always knows her son in any form: «Брови-то твои, Вася.»
+
+SCALE & GEOGRAPHY LAW (author, 2026-07-31): the home behind the stove has NO WINDOWS — looking outside means the лаз by the threshold. Бегемот is a giant; he physically cannot be inside the домовята home, ever — he exists only at giant scale, in the giants' rooms and the yard. And below the домовята's own floor there is a deeper down — the подпечье, reached through knot-holes (дырки от сучков) in their boards. Every scene must survive a scale-and-location check before writing: where is this, at whose scale, and can everyone present actually fit.
 
 CHIP SUPPLY: a learned letter comes as SEVERAL chips (the chest holds plenty of each) — МАМА, САМОКАТ, МОЛОКО all repeat letters.
 
