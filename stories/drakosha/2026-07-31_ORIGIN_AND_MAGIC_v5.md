@@ -38,7 +38,11 @@ THE CONSEQUENCE THAT DRIVES THE SERIES: her magic's ceiling is his learning pace
 She draws a thing, writes its NAME on it in pool letters, and it becomes real — and her things WORK: a motor turns, a helicopter flies, a lamp lights. Everything she makes carries its own written name on its side, like a labeled toy; rub the name off and the thing unmakes. Her limits: she can only make THINGS — never anything alive — and she cannot transform herself into anything. She makes the world's equipment; she never gets to be the creature in the story.
 
 ### ВАСЯ — THE ВЖУХ
-He reads a written word aloud and BECOMES it. One word at a time; while he is the word, he is the word; break the written word (wipe it, scatter the chips) and he comes back. He can only read words built from letters he has learned.
+He reads a written word aloud and BECOMES it. One word at a time; while he is the word, he is the word; break the written word (wipe it, scatter the chips) and he comes back. He can only read words built from letters he has learned. CREATURES ONLY — living things; never objects (objects are hers; the world's one clean line).
+
+THE EYES LAW: whatever he becomes keeps HIS OWN EYES — cat, wasp, anything. (РЫК's tangle already obeys this.) Person-becomings are therefore allowed but USELESS for tricks: a wobbly, slightly-wrong copy with Вася's unmistakable eyes that fools nobody — except the twins. Мама always knows her son in any form: «Глаза-то твои, Вася.» Impersonation plots are impossible by construction.
+
+CHIP SUPPLY: a learned letter comes as SEVERAL chips (the chest holds plenty of each) — МАМА, САМОКАТ, МОЛОКО all repeat letters.
 
 ### МАМА — THE СУНДУК
 The letter-chest sets the pace. Only dispensed letters exist for the magic: Фрося may write with them (her full literacy does not widen the magic — the chest does), Вася must additionally LEARN each one to read it. A dispensed letter becomes a wooden chip; his pouch holds his earned set. At the granting, мама dispenses his first eight on the spot — А О М С К Т Л Б, the ones he has already earned — so the show starts with his true inventory. New letters arrive at her pace, which is the curriculum, in the author's real teaching order.
