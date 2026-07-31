@@ -30,7 +30,7 @@ THEN МАМА GETS THE FINAL WORD (the Sleeping-Beauty structure — the last gi
 ## THE MAGIC (final rules)
 
 ### ФРОСЯ — THE PENCIL
-She draws a thing, writes its NAME on it in dispensed letters, and it becomes real. The drawing is the joy; the written name is what brings it to life — so her power is letter-limited exactly like his. Everything she makes carries its own written name on its side, like a labeled toy; rub the name off and the thing unmakes. She can only make THINGS — never anything alive.
+She draws a thing, writes its NAME on it in dispensed letters, and it becomes real. The drawing is the joy; the written name is what makes it real — so her power is letter-limited exactly like his. Everything she makes carries its own written name on its side, like a labeled toy; rub the name off and the thing unmakes. She can only make THINGS — never anything alive — and THE HARD RULE THAT FORCES THE INTERLOCK: NOTHING SHE MAKES MOVES BY ITSELF. No will, no motor, no life in it. Her sword is perfect and lies there; her helicopter is perfect and sits there until someone flies it (she may pilot it herself — her things work in hands; they just never act alone).
 
 ### ВАСЯ — THE ВЖУХ
 He reads a written word aloud and BECOMES it. One word at a time; while he is the word, he is the word; break the written word (wipe it, scatter the chips) and he comes back. He can only read words built from letters he has learned.
@@ -41,8 +41,13 @@ The letter-chest sets the pace. Only dispensed letters exist for the magic: Фр
 ### ВАСЯ'S STATE IS HIS FUEL
 The quality of what he becomes depends on the boy doing the becoming. Skipped breakfast, whining, impatience, storming — the transformation comes out weak, droopy, small, lame. Fed, calm, patient — magnificent. Food, sleep, patience, and honest asking are literally power-ups. The show never says this; it just always works this way.
 
-### THE COOPERATION CLAUSE IN PRACTICE
-He becomes the knight — but a knight needs a sword, and only she can make one. She makes the little helicopter — but someone has to fly the mission. Every serious challenge requires an interlock: his self plus her things. Grandmother built it that way on purpose.
+### WHY THE GIFTS ONLY WORK TOGETHER — A MECHANISM, NOT A CLAUSE (fixed 2026-07-31)
+There is NO linking spell. The dependency is built into what each power cannot do:
+- HE NEEDS HER because becoming requires a WRITTEN word, and he cannot write. (His chips buy him baby words alone — his slow road to independence; everything past his letters means: sister.)
+- SHE NEEDS HIM because her magic stops at the border of life: any thing, but nothing that moves by itself. The moment a problem needs a DOER — something strong, something alive, someone to wear the armor or be the horse — her pencil is useless, and the only living magic in the family is her brother.
+Her magic makes things without life; his makes life without things. An adventure needs an actor AND equipment, so every real challenge forces the interlock the way a lock needs both the key and the hand. Яга's «Порознь — никак. Вдвоём — как угодно» is not an enchantment — it is a sharp old woman looking at the two gifts she chose and LAUGHING, because she knows exactly what she has done. Grandmother's mischief was choosing gifts that would force her grandchildren to need each other.
+
+RETIRED (author, 2026-07-31): «Скажи — и стань!» — no longer the chant, the mechanic, or anything else. The title song already carries the show.
 
 ### THE LETTER GAME (standing ritual segment — author's addition, 2026-07-31)
 
