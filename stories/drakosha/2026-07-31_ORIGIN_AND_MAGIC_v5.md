@@ -29,8 +29,13 @@ THEN МАМА GETS THE FINAL WORD (the Sleeping-Beauty structure — the last gi
 
 ## THE MAGIC (final rules)
 
+### ONE SHARED LETTER POOL (author's correction, 2026-07-31)
+Both powers draw on the SAME set of letters — the family pool, which is exactly the letters ВАСЯ HAS LEARNED. Мама dispenses a chip only when Вася has truly learned the letter (she wants readers, and this is her lever). Фрося's own full literacy unlocks nothing: whatever can be built from the chips is precisely what she can write-and-materialize AND what he can read-and-become. Nobody writes FOR anybody — the pool is the boundary for both.
+
+THE CONSEQUENCE THAT DRIVES THE SERIES: her magic's ceiling is his learning pace. Фрося — who always wants things — can only want them THROUGH her brother's alphabet. She is permanently impatient for Вася to learn the next letter, which makes her his most motivated, most pushy, most invested tutor for entirely selfish reasons that happen to be perfect ones.
+
 ### ФРОСЯ — THE PENCIL
-She draws a thing, writes its NAME on it in dispensed letters, and it becomes real. The drawing is the joy; the written name is what makes it real — so her power is letter-limited exactly like his. Everything she makes carries its own written name on its side, like a labeled toy; rub the name off and the thing unmakes. She can only make THINGS — never anything alive — and THE HARD RULE THAT FORCES THE INTERLOCK: NOTHING SHE MAKES MOVES BY ITSELF. No will, no motor, no life in it. Her sword is perfect and lies there; her helicopter is perfect and sits there until someone flies it (she may pilot it herself — her things work in hands; they just never act alone).
+She draws a thing, writes its NAME on it in pool letters, and it becomes real — and her things WORK: a motor turns, a helicopter flies, a lamp lights. Everything she makes carries its own written name on its side, like a labeled toy; rub the name off and the thing unmakes. Her limits: she can only make THINGS — never anything alive — and she cannot transform herself into anything. She makes the world's equipment; she never gets to be the creature in the story.
 
 ### ВАСЯ — THE ВЖУХ
 He reads a written word aloud and BECOMES it. One word at a time; while he is the word, he is the word; break the written word (wipe it, scatter the chips) and he comes back. He can only read words built from letters he has learned.
@@ -41,11 +46,15 @@ The letter-chest sets the pace. Only dispensed letters exist for the magic: Фр
 ### ВАСЯ'S STATE IS HIS FUEL
 The quality of what he becomes depends on the boy doing the becoming. Skipped breakfast, whining, impatience, storming — the transformation comes out weak, droopy, small, lame. Fed, calm, patient — magnificent. Food, sleep, patience, and honest asking are literally power-ups. The show never says this; it just always works this way.
 
-### WHY THE GIFTS ONLY WORK TOGETHER — A MECHANISM, NOT A CLAUSE (fixed 2026-07-31)
-There is NO linking spell. The dependency is built into what each power cannot do:
-- HE NEEDS HER because becoming requires a WRITTEN word, and he cannot write. (His chips buy him baby words alone — his slow road to independence; everything past his letters means: sister.)
-- SHE NEEDS HIM because her magic stops at the border of life: any thing, but nothing that moves by itself. The moment a problem needs a DOER — something strong, something alive, someone to wear the armor or be the horse — her pencil is useless, and the only living magic in the family is her brother.
-Her magic makes things without life; his makes life without things. An adventure needs an actor AND equipment, so every real challenge forces the interlock the way a lock needs both the key and the hand. Яга's «Порознь — никак. Вдвоём — как угодно» is not an enchantment — it is a sharp old woman looking at the two gifts she chose and LAUGHING, because she knows exactly what she has done. Grandmother's mischief was choosing gifts that would force her grandchildren to need each other.
+### WHY THEY ALWAYS WORK TOGETHER (final form, author's correction 2026-07-31)
+Two dependencies, one per direction, neither a spell:
+- SHE CANNOT BE ANYONE. Her pencil makes any equipment, but the moment the challenge needs a living doer — a knight, a wolf, someone strong, someone small enough, someone brave enough — that is only Вася.
+- HIS BECOMING IS BARE. A knight without a sword, a pilot without a plane. Whatever he turns into arrives without equipment, and equipment is only Фрося.
+- AND ONE SHARED CEILING: both powers stop at the same letter-pool, which grows only as Вася learns.
+
+PLUS THE WRITERS' LAW: EVERY CHALLENGE IS DESIGNED TO NEED BOTH — a materialized thing AND a becoming, interlocked (the knight and his sword; the helicopter and its pilot mission). This is a story-construction rule, checked on every episode before writing.
+
+Яга's «Порознь — никак. Вдвоём — как угодно» is not an enchantment — it is a sharp old woman looking at the two gifts she chose and LAUGHING, because she knows exactly what she has done. Grandmother's mischief was choosing gifts that would force her grandchildren to need each other.
 
 RETIRED (author, 2026-07-31): «Скажи — и стань!» — no longer the chant, the mechanic, or anything else. The title song already carries the show.
 
