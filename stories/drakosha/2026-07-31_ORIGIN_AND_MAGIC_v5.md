@@ -69,10 +69,14 @@ A recurring bit in (nearly) every episode: the kids tip the chips out of the pou
 
 ## THE STANDING LAWS THIS ADDS
 
+EARLY-WORD READABILITY LAW (author, 2026-07-31): early-season magic words favor OPEN SYLLABLES (ла-ма, са-мо-кат) and clean consonant-vowel-consonant (КОТ, ТАМ); consonant clusters (СТОЛ, МОСТ — СТ to open or close a word) are hard for a beginning blender and WAIT until his blending strengthens mid-season. Word length matters less than syllable shape: САМОКАТ is easier to read than СТОЛ.
+
+ФРОСЯ'S DREAM OBJECT — LOCKED (author, 2026-07-31): МАШИНА — the motorized ride-on car the giants' children have (true to life, high-frequency vocabulary, and the showcase of her working-motors power). He owns М and А; the dream needs Ш, И, Н — a three-letter season arc. THE HIDDEN GIFT (never stated on screen until the season is ready): the missing letters plus А spell ШИНА — what stands between her and the car is literally the tires. Save the delight-beat for when only they remain.
+
 NO SIMILAR-WORDS LAW (author, 2026-07-31): for children who do not yet own these words, similar-sounding words taught near each other do not make two words — they make one blurry word. Therefore: NO minimal pairs, ever — no САМ/СОМ, no КОТ/КИТ, no МИШКА/МЫШКА, no episode built on misreading into a neighbor word. One new word at a time, each learned clearly, spaced far apart. Вася's failure mode is STATE (weak/droopy versions of the right thing), never a wrong word.
 
 LETTER-SCARCITY ENGINES (use across the season):
-- Фрося's season dream: the one great thing she spied on that she cannot yet name in letters — the drawing pinned above her bed, waiting. (Candidate: ВЕЛОСИПЕД — the giants' children's bicycle; nine letters, reaching deep into the season. Author's call.)
+- Фрося's season dream: МАШИНА (locked above) — the drawing pinned above her bed, waiting for Ш, И, Н.
 - The missing-one-letter episode: the thing they need is one letter short, and the episode is the campaign for it.
 - THE HEIST (banked for mid-season): they steal letters from the сундук — too many unknown letters at once — and wreck something properly. The all-is-lost episode; the argument for мама's pacing, made by events, never by мама.
 
@@ -87,7 +91,7 @@ WHAT DIES WITH v5: the two-mode read magic (summon vs become), the air-written g
 5. THE GRANTING — the pencil to Фрося, the ВЖУХ to Вася, with the catch delivered like a blessing: «порознь — никак. Только вдвоём.» Nobody understands the catch yet.
 6. МАМА'S FINAL WORD — the Sleeping-Beauty beat. Яга produces the сундук and hands it to her daughter. Мама sets the rule: only letters from the chest. She dispenses his earned eight, one chip at a time, into his pouch — the first count.
 7. FIRST DRUNK-ON-POWER ATTEMPTS — the FIRST LETTER GAME, born on the spot: chips dumped on the floorboard, what can eight letters make?! She materializes down the list, he becomes down the list, fast and giddy — until Фрося reaches for THE dream toy and cannot name it (too many missing letters; the pencil waits), and Вася, too excited to have eaten all morning, comes out of КОТ as a saggy, pocket-sized, droopy cat. Бегемот regards this insult to catkind. (The frontier and the state-rule, both planted as gags, neither explained.)
-8. THE SMALL REAL CHALLENGE — birthday-scale, near-hearth, forcing the first interlock (candidate: the spool-table collapses under the birthday cake mid-party; Фрося draws and names СТОЛ — her first real make, the letters all his eight — while a properly-fed, properly-calm Вася becomes МОСТ to carry the cake across the gap; the two words are distinct, both from the eight, both lived). The clause makes sense to them now, and to nobody watching is it explained.
+8. THE BIRTHDAY RIDE — the first interlock (replaces the cake-table; СТОЛ/МОСТ cut as cluster-words too hard for episode 1). Фрося hunts the chips for her dream — МАШИНА will not build, three letters short; the ache lands. The best vehicle eight letters CAN build: САМОКАТ (са-мо-кат, all open syllables — the easiest long word in the set). She materializes it — her first real make, a VEHICLE, visibly not-yet-the-dream. But a scooter needs pulling power on floorboard terrain — and a properly-fed, properly-calm Вася becomes ЛАМА (ла-ма, the easiest creature word the letters allow) and tows the birthday girl at full gallop down the hallway floorboard, hair coming apart behind her. Her vehicle + his creature: the interlock lived, never explained. (САМ hides inside САМОКАТ for the reading child.)
 9. THE QUIET PLANT — Фрося pins the unnamed dream-drawing above her bed. Someday.
 10. BUTTON — бабушка leaves through the stove promising to look in; the hut stalks off across the field; far away, once, the wind howls — lonely, unexplained. Family, candles, папа's toast. Тише… слышишь?
 
