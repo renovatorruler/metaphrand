@@ -44,6 +44,15 @@ The quality of what he becomes depends on the boy doing the becoming. Skipped br
 ### THE COOPERATION CLAUSE IN PRACTICE
 He becomes the knight — but a knight needs a sword, and only she can make one. She makes the little helicopter — but someone has to fly the mission. Every serious challenge requires an interlock: his self plus her things. Grandmother built it that way on purpose.
 
+### THE LETTER GAME (standing ritual segment — author's addition, 2026-07-31)
+
+A recurring bit in (nearly) every episode: the kids tip the chips out of the pouch and see WHAT THE LETTERS CAN MAKE. She materializes down the list, he becomes down the list — КОТ! СТОЛ! МОСТ! — fast, playful, montage energy, 30–60 seconds. Rules that make it work:
+
+- IT REPLAYS ONLY OWNED WORDS. New words arrive one per episode, elsewhere, taught properly; the game is where OLD words get relived. This is the show's spaced-repetition organ — the same job the recap serves on the Hindi track, but played as a game the kids on screen genuinely love.
+- IT ALWAYS ENDS AT THE FRONTIER. Every session eventually hits a word they CANNOT build — one letter missing. The game itself produces the longing that drives the beg-мама-for-a-letter engine. The fun runs out exactly at the edge of the alphabet, every time.
+- IT FEEDS THE STATE RULE. Вася chain-becoming five things in a minute is hilarious and then he is EXHAUSTED and the last one comes out droopy — the fuel rule taught by comedy, never by words.
+- IT IS THE HOME ACTIVITY, MODELED. A child watching this segment with letter tiles on the floor will copy it. That is the point.
+
 ## THE STANDING LAWS THIS ADDS
 
 NO SIMILAR-WORDS LAW (author, 2026-07-31): for children who do not yet own these words, similar-sounding words taught near each other do not make two words — they make one blurry word. Therefore: NO minimal pairs, ever — no САМ/СОМ, no КОТ/КИТ, no МИШКА/МЫШКА, no episode built on misreading into a neighbor word. One new word at a time, each learned clearly, spaced far apart. Вася's failure mode is STATE (weak/droopy versions of the right thing), never a wrong word.
@@ -63,7 +72,7 @@ WHAT DIES WITH v5: the two-mode read magic (summon vs become), the air-written g
 4. GRANDMA ASKS THE FATAL QUESTION: what do you want, именинница? The begging duet performs at full power. МАМА objects — and is overriden the way only a grandmother can: «А почему бы и нет?»
 5. THE GRANTING — the pencil to Фрося, the ВЖУХ to Вася, with the catch delivered like a blessing: «порознь — никак. Только вдвоём.» Nobody understands the catch yet.
 6. МАМА'S FINAL WORD — the Sleeping-Beauty beat. Яга produces the сундук and hands it to her daughter. Мама sets the rule: only letters from the chest. She dispenses his earned eight, one chip at a time, into his pouch — the first count.
-7. FIRST DRUNK-ON-POWER ATTEMPTS, comedy: Фрося immediately draws THE dream toy — and cannot name it; too many missing letters; the pencil waits. Вася, too excited to have eaten anything all morning, reads КОТ off a chip-word and becomes a saggy, pocket-sized, droopy cat. Бегемот regards this insult to catkind. (The state-rule, planted as a gag, never explained.)
+7. FIRST DRUNK-ON-POWER ATTEMPTS — the FIRST LETTER GAME, born on the spot: chips dumped on the floorboard, what can eight letters make?! She materializes down the list, he becomes down the list, fast and giddy — until Фрося reaches for THE dream toy and cannot name it (too many missing letters; the pencil waits), and Вася, too excited to have eaten all morning, comes out of КОТ as a saggy, pocket-sized, droopy cat. Бегемот regards this insult to catkind. (The frontier and the state-rule, both planted as gags, neither explained.)
 8. THE SMALL REAL CHALLENGE — birthday-scale, near-hearth, forcing the first interlock (candidate: the spool-table collapses under the birthday cake mid-party; Фрося draws and names СТОЛ — her first real make, the letters all his eight — while a properly-fed, properly-calm Вася becomes МОСТ to carry the cake across the gap; the two words are distinct, both from the eight, both lived). The clause makes sense to them now, and to nobody watching is it explained.
 9. THE QUIET PLANT — Фрося pins the unnamed dream-drawing above her bed. Someday.
 10. BUTTON — бабушка leaves through the stove promising to look in; the hut stalks off across the field; far away, once, the wind howls — lonely, unexplained. Family, candles, папа's toast. Тише… слышишь?
