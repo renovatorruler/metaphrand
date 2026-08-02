@@ -1,5 +1,10 @@
 # cinema — the production engine (SPEC)
 
+> Historical design note (2026-08): the Python implementation described below was
+> retired. The active story-agnostic production layer is the ReScript
+> `studio/src/Cinema_*.res` family; current Kuku orchestration is in `Kuku_*.res`.
+> Keep this document as design history, not as executable setup instructions.
+
 A **story-agnostic** film-production engine. The discipline: the **ENGINE** (reusable steps)
 is separate from the **DATA** (one project). The test of "solid" is brutal — *a completely
 different story and cast runs through the same engine with only a new project file.* If the

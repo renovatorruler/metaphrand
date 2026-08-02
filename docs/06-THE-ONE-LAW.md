@@ -1,5 +1,9 @@
 # The One Law
 
+> Implementation note (2026-08): this doctrine still governs the work. References
+> to `metaphrand/*.py` below describe the removed prototype; the active mechanical
+> floor is `studio/src/Craft.res` and the typed gate example is `Gate.res`.
+
 **Every line must read exactly as a real person would say or write it, in that moment. Nothing
 may be arranged for effect.**
 

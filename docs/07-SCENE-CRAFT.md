@@ -1,5 +1,9 @@
 # Scene Craft — The Mercurio Rubric
 
+> Implementation note (2026-08): this rubric remains writing doctrine, but the
+> Python module names below are historical. Active scene generation and gating are
+> implemented by `studio/src/Seed.res`, `Write.res`, `Craft.res`, and `Judge.res`.
+
 *The structured scene gate. Where `drama.py` (Mamet) asks "is this scene a fight?" and `showing.py` /
 clear-pane ask "is it shown, not told?", this asks Jim Mercurio's question: **is each scene a complete
 story that changes both the plot and a person?** Grounded in Mercurio, not paraphrase. Enforced by

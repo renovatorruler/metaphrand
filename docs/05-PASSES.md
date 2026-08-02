@@ -1,5 +1,9 @@
 # The Pass Manifest — every sweep a chapter must survive
 
+> Implementation note (2026-08): the craft laws in this document remain active,
+> but `metaphrand/*.py` references name the removed prototype. Current enforcement
+> lives in `studio/src/` (`Seed`, `Write`, `Craft`, `Judge`, and project preflights).
+
 The canonical checklist. Loop prompts BIND to this file instead of half-remembering it;
 when a pass evolves, it evolves here. Detail lives in the cited docs/modules; this page
 is the law in one line each. Order matters: structure → flesh → feeling → surface.

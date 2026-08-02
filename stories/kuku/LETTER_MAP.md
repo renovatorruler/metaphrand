@@ -11,7 +11,7 @@
 | 3 | **र** | **र**ंग (colors) | रोटी · रस्सी · रात | bread · rope · night |
 | 4 | **न** | **ना**क (nose) | नाक · नाव · नौ | nose · boat · nine |
 | 5 | **प** | **पा**नी (water) · **पा**पा | पानी · पत्ता · पापा | water · leaf · dad |
-| 6 | **त** | **ता**रा (star) | तितली · तारा · तीन | butterfly · star · three |
+| 6 | **त** | **तो**ता — तानसेन (joins the cast!) | तोता · तालाब · तना · तीन · ताली · तानसेन | parrot · pond · trunk · three · clap · Tansen |
 | 7 | **च** | **ची**कू (the friend!) | चाँद · चिड़िया · चम्मच | moon · bird · spoon |
 | 8 | **ब** | **ब**च्चा (child) | बिल्ली · बादल · बकरी | cat · cloud · goat |
 | 9 | **ग** | **गा**य (cow) | गाय · गुब्बारा · गमला | cow · balloon · flowerpot |
@@ -19,7 +19,20 @@
 | 11 | **द** | **दा**दी (grandmother) | दादी · दीया · दाँत | grandma · lamp · tooth |
 | 12 | **ल** | **ल**ड्डू (sweet) | लड्डू · लोटा · लाल | sweet · pot · red |
 
-**Cast → letter payoff (why the order helps):** क→कुकु (ep1), म→माया (ep2), च→चीकू (ep7), भ→भोलू (ep10), द→दादी (ep11). Each of these episodes gets the strongest possible memory hook — the letter is *the name of a friend the child already loves.*
+**Cast → letter payoff (why the order helps):** क→कुकु (ep1), म→माया (ep2), **त→तानसेन (ep6)**, भ→भोलू (ep10), द→दादी (ep11). Each of these episodes gets the strongest possible memory hook — the letter is *the name of a friend the child already loves.*
+
+> **ep7's «च» has lost its anchor — OPEN (2026-07-30).** The plan hung «च» on **चीकू**, but that
+> toddler was renamed **कैस्टर** back in Ep3 and चीकू is retired. So «च» keeps its picture-words
+> (चाँद · चिड़िया · चम्मच) but no longer names anyone the children love, which is the whole reason
+> this ordering exists. Note also that **कैस्टर starts with क**, already spent on Ep1, so he has no
+> letter of his own to look forward to.
+>
+> Ep6 accidentally repaired part of this: **तानसेन** is a त name, so Ep6 got the cast-name payoff
+> «च» was supposed to provide.
+>
+> Options for ep7, author's call: keep **च** on its picture-words alone · bring forward **फ → फ्यूरिया**
+> or **व → वैस्पर** (both already planned as spotlight episodes, and both name a child the audience
+> IS) · or give **कैस्टर** a name-adjacent letter later. **Not decided.**
 
 **UPDATE 2026-07-21 — the kids' own letters (spotlight episodes, slot into the order above):**
 - **फ → फ्यूरिया (Furia)** — her episode. Words: फल (fruit) · फूल (flower) · फ़ोन (phone). Payoff of
@@ -52,9 +65,33 @@ breath!) · ब/भ. Nasals (ङ ञ ण) deferred far out, taught in words only
 the end of its episode. Kids acquire in our utility order but internalize the school order
 visually — when they meet the वर्णमाला in a book, it's a map they've been filling in all along.
 
-## The vowel / मात्रा track (OPEN — author's call)
+## The vowel / मात्रा track (DECIDED 2026-07-29 — no मात्राएँ in the consonant run)
 
-Consonants come first (author's brief). But real words need vowels and मात्राएँ, and several anchor words above already carry them (केला, पानी, तारा). Proposal: **from ~episode 6, weave in one मात्रा per episode as the words demand it** (आ-मात्रा first: का, मा, रा…), taught as "the letter puts on its shoes and walks" — a gentle add-on to the day's consonant, not a separate drill. Alternative: a short dedicated vowel mini-run (अ आ इ ई उ ऊ) before ep 1. **Flagged for the author to choose.**
+**Episodes stay consonant-pure. No episode in this run teaches a मात्रा.** The earlier proposal —
+weave one मात्रा per episode from about ep6, "the letter puts on its shoes and walks" — is
+**rejected**.
+
+The reason is shelf life, not difficulty. These episodes get rewatched: a child who comes back a
+year later to firm up their consonants must find a clean consonant lesson, not a मात्रा lesson they
+have to sit through to get to the letter. Every episode has to stay usable as the drill it was built
+to be, on its own, forever.
+
+**This does not restrict the words.** Anchor words that carry मात्राएँ (केला, पानी, तारा, तितली, तीन)
+are still spoken freely and still earn recap cards. They are *said and used* — never spelled out,
+never decomposed, and दादी never separates a मात्रा from its consonant on screen.
+
+मात्राएँ and the vowels get their own treatment later, outside this run.
+
+## Shape-teaching decisions already made (do not re-raise)
+
+- **ep6, दादी's न-vs-त contrast (line 84) — REVIEWED AND KEPT AS WRITTEN, 2026-07-30.**
+  An audit flagged «न की बाईं तरफ़ बीच से ऊपर उठती है» as describing न's shape wrongly:
+  rendered in the show's own font (Kohinoor Devanagari) both letters' left limbs
+  descend from the headline, and the real difference is depth — न ends in a short hook
+  at mid-height, त sweeps to the baseline and curls into the कटोरी. It also sits against
+  Ep4, which taught न as a downward टोंटी («घुमाव नीचे झुक गया — टोंटी बन गया»).
+  **The showrunner reviewed this and chose to keep the line.** It is a deliberate call,
+  not an oversight — do not re-flag it, and do not "fix" it in a later pass.
 
 ## Notes
 - Words are **candidates**; native-speaker check locks spelling/idiom before each episode ships.

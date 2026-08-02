@@ -2,8 +2,7 @@
    line-notes from the author (2026-07-21). Goes through liftDialogue so the
    receipt chain stays intact; hand-editing the scene file would fail verify.
 
-   Run from inside studio/:
-     CLAUDE_STUDIO_BUDGET=5 node src/Kuku_ReliftS1.res.mjs
+   Native worker run: follow studio/NATIVE_WORKERS.md with this driver.
 */
 
 @val @scope("process") external cwd: unit => string = "cwd"

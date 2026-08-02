@@ -2,7 +2,7 @@
    register (adventure tier, simple learnable Hindi), the तुम register, the character-
    richness law (tics sparingly), and the fused mechanic / recurring lines.
 
-   Run from studio/ (after Kuku_WriteEp2): CLAUDE_STUDIO_BUDGET=16 node src/Kuku_LiftEp2.res.mjs
+   Native worker run after Kuku_WriteEp2: follow studio/NATIVE_WORKERS.md.
 */
 
 @val @scope("process") external cwd: unit => string = "cwd"

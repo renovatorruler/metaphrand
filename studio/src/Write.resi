@@ -1,14 +1,14 @@
 /* ============================================================================
    Write — the writing STAGE of the pipeline. Seed in, gated scene out.
 
-   writeScene is the only door from a Seed to prose: it asks the warm Session to
+   writeScene is the only door from a Seed to prose: it asks the native worker to
    write the scene, runs every line through the Craft gate, and regenerates
    (feeding the violations back) until the gate is clean or it gives up. The
    result `scene` is opaque — there is no constructor that takes raw strings, so
    a hand-typed line cannot become a `scene`.
 
-   emit writes the scene AND a receipt (seed hash, scene hash, gate=PASS, model,
-   attempts). verify recomputes from the file and the receipt: if I hand-edit the
+   emit writes the scene AND a receipt (seed hash, scene hash, gate=PASS, worker
+   provider, attempts). verify recomputes from the file and the receipt: if I hand-edit the
    scene, or hand-author one with no real generation behind it, verify FAILS.
 
    The honest limit (same as Session's own): this is enforcement you can VERIFY,
@@ -24,6 +24,10 @@ type spoken =
   | Dialogue({who: string, radio: bool, whisper: bool, text: string})
 
 type scene // opaque — only writeScene mints it
+
+/* Stable fingerprint of every prompt-affecting seed field. Exposed so project
+   tooling and tests can audit whether two seeds are truly the same input. */
+let fingerprintSeed: Seed.sceneSeed => string
 
 /* generate -> gate -> regenerate, up to maxTries; raises WriteError if never clean. */
 let writeScene: (~seed: Seed.sceneSeed, ~maxTries: int) => promise<scene>
@@ -60,6 +64,10 @@ let emit: (scene, ~txt: Cinema_Backends.path) => Cinema_Backends.path
 /* recompute from the file + receipt. Ok if the chain holds; Error(reason) if the
    text was changed, the gate would now fail, or there is no receipt. */
 let verify: Cinema_Backends.path => result<unit, string>
+
+/* Receipt/hash/gate integrity only. Unlike `verify`, this accepts a PENDING
+   scene so a lift can validate its source before making it production-ready. */
+let verifyIntegrity: Cinema_Backends.path => result<unit, string>
 
 /* the door production uses: verify FIRST, then hand back the gated lines. A scene
    that fails verify cannot be produced. */

@@ -3,11 +3,8 @@
    stories/kuku/EP1_K_PLOT_v1.md); the engine writes every sentence; emit leaves a
    receipt per scene. Continue-on-error: one failed scene does not kill the batch.
 
-   Run from inside studio/:
-     npm run build && CLAUDE_STUDIO_BUDGET=24 node src/Kuku_WriteEp1Full.res.mjs
-   Zero-spend structural smoke:
-     CLAUDE_STUDIO_BIN="$(pwd)/scripts/fake-claude.mjs" CLAUDE_STUDIO_BUDGET=25 \
-       node src/Kuku_WriteEp1Full.res.mjs
+   Native worker run: follow studio/NATIVE_WORKERS.md with this driver.
+   Zero-spend structural checks are defined in package.json.
 */
 
 @val @scope("process") external cwd: unit => string = "cwd"

@@ -39,12 +39,31 @@ let ffmpegCapture = (args: array<string>): spawnResult =>
 
 let orEmpty = (n: Js.Nullable.t<string>): string => Js.Nullable.toOption(n)->Belt.Option.getWithDefault("")
 
+/* The general command runner. ffmpeg is not the only binary the production line
+   drives — the image/clip generators shell out to the `higgsfield` CLI, and the
+   guards call `ffprobe`. Everything goes through here so there is exactly ONE
+   place that spawns a process, and callers get the exit code instead of steering
+   on exceptions. No shell: argv is passed through, so nothing needs quoting and
+   a filename with a space cannot become two arguments. */
+type runResult = {code: int, stdout: string, stderr: string}
+
+let run = (~cmd: string, ~args: array<string>): runResult => {
+  let r = spawnSync(cmd, args, {encoding: "utf8", maxBuffer: 67108864})
+  {
+    code: Js.Nullable.toOption(r.status)->Belt.Option.getWithDefault(-1),
+    stdout: orEmpty(r.stdout),
+    stderr: orEmpty(r.stderr),
+  }
+}
+
 /* ---- fs ------------------------------------------------------------------ */
 @module("fs") external existsSync: string => bool = "existsSync"
 @module("fs") external readFileBuf: string => buffer = "readFileSync"
 @module("fs") external readFileText: (string, string) => string = "readFileSync"
 @module("fs") external writeFileBuf: (string, buffer) => unit = "writeFileSync"
 @module("fs") external writeFileText: (string, string) => unit = "writeFileSync"
+@module("fs") external readdirSync: string => array<string> = "readdirSync"
+@module("fs") external unlinkSync: string => unit = "unlinkSync"
 type mkdirOpts = {recursive: bool}
 @module("fs") external mkdirSync: (string, mkdirOpts) => unit = "mkdirSync"
 @module("fs") external mkdtempSync: string => string = "mkdtempSync"
@@ -145,6 +164,47 @@ let writeText = (Path(p), s: string): unit => {
 /* a fresh scratch directory (for the assembler's intermediate clips). */
 let tempDir = (prefix: string): path => Path(mkdtempSync(tmpdir() ++ "/" ++ prefix))
 let fileSizeMb = (Path(p)): float => statSync(p).size /. 1.0e6
+
+/* mkdir -p on a DIRECTORY (ensureDir above takes a file and makes its parent).
+   The production line needs build/ and out/ to exist before anything is written
+   into them by an external process like ffmpeg, which will not create them. */
+let ensureDirPath = (Path(p)): unit =>
+  if p != "" && !existsSync(p) {
+    mkdirSync(p, {recursive: true})
+  }
+
+let readDir = (Path(p)): array<string> => existsSync(p) ? readdirSync(p) : []
+
+let removeFile = (Path(p)): unit =>
+  if existsSync(p) {
+    unlinkSync(p)
+  }
+
+/* A byte-for-byte copy. Deliberately NOT an ffmpeg remux: re-muxing a finished
+   title card rewrites its container and can shift its duration by a frame, which
+   then moves every scene after it in the concatenated episode. */
+let copyFile = (Path(src), Path(dst)): unit => {
+  ensureDir(dst)
+  writeFileBuf(dst, readFileBuf(src))
+}
+
+/* Exact container duration via ffprobe. `durationSec` below decodes the whole
+   file with `-f null -` and scrapes the last time= off stderr, which is both slow
+   and only as precise as ffmpeg's progress print. The overflow guard compares a
+   clip's real length against what the cut demands, so it needs the real number. */
+let probeDuration = (Path(p)): seconds => {
+  let r = run(
+    ~cmd="ffprobe",
+    ~args=["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p],
+  )
+  if r.code != 0 {
+    raise(BackendError("ffprobe failed on " ++ p ++ ": " ++ Js.String2.slice(r.stderr, ~from=0, ~to_=300)))
+  }
+  switch Belt.Float.fromString(Js.String2.trim(r.stdout)) {
+  | Some(f) => Seconds(f)
+  | None => raise(BackendError("ffprobe gave no duration for " ++ p ++ " (got '" ++ Js.String2.trim(r.stdout) ++ "')"))
+  }
+}
 
 /* a data URI for a reference image, read straight off disk and base64'd. */
 let dataUri = (Path(p)): string => {
@@ -522,37 +582,6 @@ let imageToVideo = async (
   await getBytes(outputUrl(fld(pred, "output")))
 }
 
-/* ---- Replicate TEXT-to-video (seedance-1-pro, image omitted) -------------- */
-/* Feed the full filled Seedance template as the prompt; no first frame. */
-let videoText = async (~prompt: prompt, ~seconds: int, ~aspect: string): blob => {
-  let Prompt(p) = prompt
-  let token = key("REPLICATE_API_KEY")
-  let input = Js.Dict.empty()
-  Js.Dict.set(input, "prompt", Js.Json.string(p))
-  Js.Dict.set(input, "duration", Js.Json.number(Belt.Int.toFloat(seconds)))
-  Js.Dict.set(input, "resolution", Js.Json.string("1080p"))
-  Js.Dict.set(input, "aspect_ratio", Js.Json.string(aspect))
-  Js.Dict.set(input, "fps", Js.Json.number(24.0))
-  Js.Dict.set(input, "camera_fixed", Js.Json.boolean(false))
-  let body = Js.Dict.empty()
-  Js.Dict.set(body, "version", Js.Json.string(seedance))
-  Js.Dict.set(body, "input", Js.Json.object_(input))
-  let resp = await fetch(
-    "https://api.replicate.com/v1/predictions",
-    postOpts(
-      ~headers=[("Authorization", "Bearer " ++ token), ("Content-Type", "application/json")],
-      ~body=Js.Json.object_(body),
-    ),
-  )
-  let pred0 = await jsonBody(resp)
-  let pred = await poll(token, pred0)
-  let st = fld(pred, "status")->asStr->Belt.Option.getWithDefault("")
-  if st != "succeeded" {
-    raise(BackendError("seedance-text " ++ st))
-  }
-  await getBytes(outputUrl(fld(pred, "output")))
-}
-
 /* ---- fal.ai video (queue API) -------------------------------------------- */
 /* Shared plumbing for every fal video model: submit the input to the queue, poll
    status_url until COMPLETED, GET response_url, download video.url. Every fal model
@@ -762,6 +791,37 @@ let tts = async (~text: text, ~voice: voiceId, ~settings: option<Js.Json.t>=?): 
   if !ok(resp) {
     let tb = await textBody(resp)
     raise(BackendError("tts HTTP " ++ Belt.Int.toString(status(resp)) ++ ": " ++ Js.String2.slice(tb, ~from=0, ~to_=200)))
+  }
+  let ab = await arrayBuffer(resp)
+  Blob(bufferFrom(ab))
+}
+
+/* One sound effect from a text description. `influence` (0..1) trades literal
+   obedience to the prompt against sounding like a real recording — 0.55 is what the
+   shipped episodes used. Separate from `music`: different endpoint, different
+   length units (seconds, not ms), and effects must NOT be musical. */
+let soundEffect = async (~prompt: prompt, ~seconds: float, ~influence: float): blob => {
+  let Prompt(p) = prompt
+  let k = key("ELEVENLABS_API_KEY")
+  let body = Js.Dict.empty()
+  Js.Dict.set(body, "text", Js.Json.string(p))
+  Js.Dict.set(body, "duration_seconds", Js.Json.number(seconds))
+  Js.Dict.set(body, "prompt_influence", Js.Json.number(influence))
+  let resp = await fetch(
+    "https://api.elevenlabs.io/v1/sound-generation?output_format=mp3_44100_128",
+    postOpts(
+      ~headers=[("xi-api-key", k), ("Content-Type", "application/json")],
+      ~body=Js.Json.object_(body),
+    ),
+  )
+  if !ok(resp) {
+    let t = await textBody(resp)
+    raise(
+      BackendError(
+        "sound-generation HTTP " ++
+        Belt.Int.toString(status(resp)) ++ ": " ++ Js.String2.slice(t, ~from=0, ~to_=200),
+      ),
+    )
   }
   let ab = await arrayBuffer(resp)
   Blob(bufferFrom(ab))

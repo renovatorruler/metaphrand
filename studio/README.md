@@ -1,38 +1,73 @@
 # studio
 
-The story engine, built as **software** — a typed, tested ReScript project — instead of a pile of documents and throwaway scripts.
+`studio/` is Metaphrand's active ReScript story and audiovisual production engine.
+It uses types for structure, deterministic checks for the mechanical floor, and
+small, explicitly budgeted model calls for work that requires judgment.
 
-## The umbrella rule
+## Active scene path
 
-Every assumption lives in the **types**, where the compiler enforces it. Not in a doc I might not open, not in a memory I might ignore, not in a comment. If a rule matters, it becomes a type, and breaking it is a **build error**, not a bad habit.
+1. `Seed.res` describes a scene without containing finished prose.
+2. `Session.res` prepares a provider-bound job for the host's native worker and
+   consumes its response one turn at a time.
+3. `Write.writeScene` generates and mechanically gates the scene.
+4. `Write.emit` writes the scene and a receipt with seed and scene hashes.
+5. `Write.liftDialogue` first verifies its source receipt, then runs the required
+   dialogue-doctrine pass and records the parent scene hash.
+6. `Write.verify` accepts only an untampered, gated, dialogue-lifted scene.
+7. Cinema and project-specific production modules call `Write.read`, which verifies
+   before returning lines for voices or rendering.
 
-## The four principles
+`Write.extendScene` follows the same rule: it accepts only a verified, lifted scene,
+preserves the existing lines, adds a beat, and returns the scene to `PENDING` until
+the dialogue lift runs again.
 
-1. **Distinct concepts, distinct types.** A city is not a country; a rule name is not a snippet. Each gets its own `@unboxed` newtype — zero runtime cost, but the compiler refuses to let them be swapped (`u.city = u.country` won't typecheck).
-2. **Impossible states impossible.** Encode dependencies as *sum types*, not optional fields on a flat record. If a country has no states, an address there structurally cannot carry one — at the granularity that matters (the dependency), not max precision.
-3. **No defaults.** Never a sentinel (`""`, `-1`, a zero-value). Use `option` only for *independent, reasonless* absence; use `result` when a failure carries a cause that `None` would throw away.
-4. **No escape hatches.** `Obj.magic`, `%raw`, `%identity` — banned, because an escape hatch is exactly how the three above get routed around. **The build refuses them** (`npm run lint:hatches`), so it isn't a matter of trust. If one is ever genuinely needed, stop and ask.
+## Other engine areas
 
-## The contract — `src/Gate.resi`
+- `Cinema_Backends` is the external boundary for files, processes, Replicate,
+  fal.ai, ElevenLabs, and ffmpeg.
+- `Cinema_Audio`, `Cinema_Frames`, and `Cinema_Assemble` are reusable production
+  building blocks.
+- `Kuku_*` modules implement the current preschool-episode pipeline: parsing,
+  generation, EDL checking, preflight, assembly, verification, and upload.
+- `Trope*`, `EntropyDeck`, and SQLite maintain a local trope corpus and steer new
+  stories away from repeated model habits.
+- `Gate` / `Pipeline` / `Process` / `Runner` are the earlier generic pipeline.
+  They remain useful as typed examples and for `npm run flow`, but new scene work
+  should use `Seed` / `Write`.
 
-`Gate.clean` is an **abstract type**: no constructor outside the `Gate` module. The only way to hold a `clean` is to run `craftlint` and pass. So:
+## Type and safety rules
 
-- **Ungated text cannot reach the output.** `Pipeline.ship` demands a `clean`; hand it `rawText` and it won't compile. (Proven — try uncommenting the cheat in `Pipeline.res`.)
-- **A passed gate is never re-run.** Clean text has the wrong type to go back into `craftlint`. The proof rides in the type, so no model call is wasted re-checking what's proven.
+- Distinct concepts use distinct types.
+- Impossible states should be represented with variants instead of loose optional
+  fields.
+- `Obj.magic`, `%raw`, and `%identity` are banned.
+- Native worker turns require an explicit host provider, unique job directory,
+  and positive `STUDIO_WORKER_BUDGET`; there is no default provider.
+- A budget alone cannot start a model process. The legacy Claude CLI adapter is
+  disabled unless explicitly allowed for that task.
+- Fake or explicitly opted-in process timeouts cannot answer a later request.
+- Production prose must carry a valid receipt.
 
-This is *parse, don't validate*: a gate returns a value that proves it passed, not a boolean you can ignore.
+See `NATIVE_WORKERS.md` for the native Codex and Claude handoff procedure.
 
-## Build & test
+## Commands
 
-```sh
-cd studio
-npm install
-npm test      # escape-hatch gate, then compile, then the contract tests
+```bash
+npm ci
+npm test
+npm run build
+npm run flow
+npm run smoke
+npm run audit:workspace
 ```
 
-The build is the first gate. The escape-hatch gate runs before it. Tests must pass.
+All normal tests are zero-cost. They use the explicit fake-worker mode, temporary
+scene files, and no external network calls. They also prove that a native job can
+be resumed from its response file and that Session cannot select a provider
+implicitly.
 
-## Next (not yet built)
-
-- **The brake before the engine:** a budgeted, capped model caller — the in-code governor — before any pass touches a model. The hard wall (no credential on this machine) is a deployment concern; this is the in-code half.
-- The full pipeline pass-state in the type, so a scene carries exactly which passes it has cleared.
+The tracked-language check is currently a migration ratchet: 66 known Python
+invocations in 41 legacy production files are recorded exactly. A new invocation
+fails the build; completing a port requires lowering the baseline. The strict
+workspace audit continues to report ignored and untracked Python until migration
+reaches zero.

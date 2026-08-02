@@ -5,6 +5,7 @@ type spoken =
   | Dialogue({who: string, radio: bool, whisper: bool, text: string})
 
 type stage = Written | Lifted
+type operation = Generated | DialogueLifted | Extended
 
 type scene = {
   id: string,
@@ -14,6 +15,9 @@ type scene = {
   sceneHash: string,
   attempts: int,
   stage: stage, // Written = raw from the seed; Lifted = passed the dialogue doctrine
+  operation: operation,
+  parentSceneHash: option<string>,
+  workerProvider: string,
 }
 
 /* ---- content hash (Node crypto; an external, not an escape hatch) --------- */
@@ -46,22 +50,51 @@ let canonOf = sp =>
   }
 let canonical = lns => Belt.Array.joinWith(lns, "\n", canonOf)
 
-let seedCanon = (s: Seed.sceneSeed) =>
-  s.id ++
-  "|" ++
-  s.slug ++
-  "|" ++
-  s.logline ++
-  "|" ++
-  Belt.Array.joinWith(s.cast, ";", c => c.name ++ ":" ++ c.who ++ ":" ++ c.register) ++
-  "|" ++
-  s.layer.peshat ++
-  "|" ++
-  s.layer.sod ++
-  "|" ++
-  Belt.Array.joinWith(s.beats, ";", b => b.who ++ ">" ++ b.want ++ ">" ++ b.wall ++ ">" ++ b.turn) ++
-  "|" ++
-  Belt.Array.joinWith(s.rules, ";", r => r)
+/* Canonical JSON, not delimiter-joined text: every field that can change the
+   model prompt participates in the fingerprint, including optional fields. */
+let optionJson = o =>
+  switch o {
+  | None => Js.Json.array([Js.Json.string("none")])
+  | Some(v) => Js.Json.array([Js.Json.string("some"), Js.Json.string(v)])
+  }
+
+let voiceJson = (c: Seed.voiceCard): Js.Json.t => {
+  let o = Js.Dict.empty()
+  Js.Dict.set(o, "name", Js.Json.string(c.name))
+  Js.Dict.set(o, "who", Js.Json.string(c.who))
+  Js.Dict.set(o, "register", Js.Json.string(c.register))
+  Js.Dict.set(o, "earnsEloquence", Js.Json.boolean(c.earnsEloquence))
+  Js.Dict.set(o, "lexicon", optionJson(c.lexicon))
+  Js.Json.object_(o)
+}
+
+let beatJson = (b: Seed.beat): Js.Json.t => {
+  let o = Js.Dict.empty()
+  Js.Dict.set(o, "who", Js.Json.string(b.who))
+  Js.Dict.set(o, "want", Js.Json.string(b.want))
+  Js.Dict.set(o, "wall", Js.Json.string(b.wall))
+  Js.Dict.set(o, "turn", Js.Json.string(b.turn))
+  Js.Dict.set(o, "subtext", optionJson(b.subtext))
+  Js.Json.object_(o)
+}
+
+let seedCanon = (s: Seed.sceneSeed) => {
+  let layer = Js.Dict.empty()
+  Js.Dict.set(layer, "peshat", Js.Json.string(s.layer.peshat))
+  Js.Dict.set(layer, "sod", Js.Json.string(s.layer.sod))
+
+  let root = Js.Dict.empty()
+  Js.Dict.set(root, "id", Js.Json.string(s.id))
+  Js.Dict.set(root, "slug", Js.Json.string(s.slug))
+  Js.Dict.set(root, "logline", Js.Json.string(s.logline))
+  Js.Dict.set(root, "cast", Js.Json.array(Belt.Array.map(s.cast, voiceJson)))
+  Js.Dict.set(root, "layer", Js.Json.object_(layer))
+  Js.Dict.set(root, "beats", Js.Json.array(Belt.Array.map(s.beats, beatJson)))
+  Js.Dict.set(root, "rules", Js.Json.array(Belt.Array.map(s.rules, Js.Json.string)))
+  Js.Json.stringify(Js.Json.object_(root))
+}
+
+let fingerprintSeed = s => sha256(seedCanon(s))
 
 /* ---- prompt assembly from the seed --------------------------------------- */
 let card = (c: Seed.voiceCard) =>
@@ -226,10 +259,13 @@ let writeScene = async (~seed: Seed.sceneSeed, ~maxTries: int): scene => {
     id: seed.id,
     slug: seed.slug,
     lns,
-    seedHash: sha256(seedCanon(seed)),
+    seedHash: fingerprintSeed(seed),
     sceneHash: sha256(canonical(lns)),
     attempts,
     stage: Written,
+    operation: Generated,
+    parentSceneHash: None,
+    workerProvider: Session.workerProvider(),
   }
 }
 
@@ -250,12 +286,140 @@ let updateText = (sp, t) =>
   | Dialogue({who, radio, whisper}) => Dialogue({who, radio, whisper, text: t})
   }
 
-let receiptField = (path, k) =>
-  Js.Json.parseExn(Cinema_Backends.readText(Cinema_Backends.Path(unpath(path) ++ ".receipt.json")))
-  ->Js.Json.decodeObject
-  ->Belt.Option.flatMap(o => Js.Dict.get(o, k))
-  ->Belt.Option.flatMap(Js.Json.decodeString)
-  ->Belt.Option.getWithDefault("")
+type receiptStage = ReceiptPending | ReceiptLifted
+type receipt = {
+  id: string,
+  slug: string,
+  seedHash: string,
+  sceneHash: string,
+  gate: string,
+  dialogue: receiptStage,
+  operation: string,
+  parentSceneHash: option<string>,
+}
+
+type verifiedInput = {receipt: receipt, body: string, lns: array<spoken>}
+
+let receiptPath = path => Cinema_Backends.Path(unpath(path) ++ ".receipt.json")
+
+let parseReceipt = path => {
+  try {
+    switch Js.Json.parseExn(Cinema_Backends.readText(receiptPath(path)))->Js.Json.decodeObject {
+    | None => Error("receipt root is not a JSON object")
+    | Some(o) => {
+        let field = k =>
+          Js.Dict.get(o, k)->Belt.Option.flatMap(Js.Json.decodeString)->Belt.Option.getWithDefault("")
+        let numberField = k =>
+          Js.Dict.get(o, k)->Belt.Option.flatMap(Js.Json.decodeNumber)->Belt.Option.getWithDefault(0.0)
+        let id = field("id")
+        let slug = field("slug")
+        let seedHash = field("seedHash")
+        let sceneHash = field("sceneHash")
+        let gate = field("gate")
+        let dialogue = field("dialogue")
+        let workerProvider = field("workerProvider")
+        let validWorkerProvider = switch workerProvider {
+        | "codex" | "claude" | "fake" | "claude-cli" => true
+        | _ => false
+        }
+        if id == "" {
+          Error("receipt is missing id")
+        } else if slug == "" {
+          Error("receipt is missing slug")
+        } else if seedHash == "" {
+          Error("receipt is missing seedHash")
+        } else if sceneHash == "" {
+          Error("receipt is missing sceneHash")
+        } else if numberField("schemaVersion") >= 3.0 && !validWorkerProvider {
+          Error("receipt schema 3 has a missing or invalid workerProvider")
+        } else {
+          switch dialogue {
+          | "PENDING" =>
+            Ok({
+              id,
+              slug,
+              seedHash,
+              sceneHash,
+              gate,
+              dialogue: ReceiptPending,
+              operation: field("operation") == "" ? "LEGACY" : field("operation"),
+              parentSceneHash: switch field("parentSceneHash") {
+              | "" => None
+              | h => Some(h)
+              },
+            })
+          | "LIFTED" =>
+            Ok({
+              id,
+              slug,
+              seedHash,
+              sceneHash,
+              gate,
+              dialogue: ReceiptLifted,
+              operation: field("operation") == "" ? "LEGACY" : field("operation"),
+              parentSceneHash: switch field("parentSceneHash") {
+              | "" => None
+              | h => Some(h)
+              },
+            })
+          | _ => Error("receipt dialogue must be PENDING or LIFTED")
+          }
+        }
+      }
+    }
+  } catch {
+  | _ => Error("receipt is not valid JSON")
+  }
+}
+
+/* The reusable half of verification: it proves the current file still matches
+   the receipt it arrived with. Edit operations MUST call this before asking a
+   model or minting a replacement receipt. */
+let checkedInput = (path): result<verifiedInput, string> => {
+  let p = unpath(path)
+  let rp = receiptPath(path)
+  if !Cinema_Backends.exists(path) {
+    Error("no scene file at " ++ p)
+  } else if !Cinema_Backends.exists(rp) {
+    Error("NO RECEIPT — this scene did not come from the engine")
+  } else {
+    switch bodyOf(Cinema_Backends.readText(path)) {
+    | None => Error("no " ++ sentinel ++ " body in the file")
+    | Some(body) =>
+      switch parseReceipt(path) {
+      | Error(m) => Error(m)
+      | Ok(receipt) =>
+        if receipt.sceneHash != sha256(body) {
+          Error("TAMPERED — scene text does not match its receipt hash (hand-edited)")
+        } else if receipt.gate != "PASS" {
+          Error("receipt does not record a PASS")
+        } else {
+          let lns = parse(body)
+          if Belt.Array.length(lns) == 0 {
+            Error("scene body contains no parseable lines")
+          } else {
+            let viols = gateAll(lns)
+            Belt.Array.length(viols) == 0
+              ? Ok({receipt, body, lns})
+              : Error("GATE WOULD FAIL on emitted text:\n" ++ Belt.Array.joinWith(viols, "\n", x => x))
+          }
+        }
+      }
+    }
+  }
+}
+
+let verifyIntegrity = path =>
+  switch checkedInput(path) {
+  | Ok(_) => Ok()
+  | Error(m) => Error(m)
+  }
+
+let checkedOrRaise = path =>
+  switch checkedInput(path) {
+  | Ok(v) => v
+  | Error(m) => raise(WriteError("source integrity failed: " ++ m))
+  }
 
 let numberedScene = lns =>
   lns
@@ -329,17 +493,14 @@ let applyEdits = (lns, raw) => {
 }
 
 let liftDialogue = async (~path, ~notes: option<string>=?, ~maxTries: int): scene => {
-  let body = switch bodyOf(Cinema_Backends.readText(path)) {
-  | Some(b) => b
-  | None => raise(WriteError("no scene body at " ++ unpath(path)))
-  }
+  let source = checkedOrRaise(path)
   let doctrine = Cinema_Backends.readText(Cinema_Backends.Path(doctrinePath()))
   let rec round = async (n, lns) => {
     let raw = await Session.ask(liftPrompt(doctrine, lns, gateAll(lns), notes))
     let lns2 = Js.String2.trim(raw) == "NONE" ? lns : applyEdits(lns, raw)
     let v2 = gateAll(lns2)
     if Belt.Array.length(v2) == 0 {
-      lns2
+      (lns2, n)
     } else if n >= maxTries {
       raise(
         WriteError(
@@ -353,15 +514,18 @@ let liftDialogue = async (~path, ~notes: option<string>=?, ~maxTries: int): scen
       await round(n + 1, lns2)
     }
   }
-  let lns = await round(1, parse(body))
+  let (lns, attempts) = await round(1, source.lns)
   {
-    id: receiptField(path, "id"),
-    slug: receiptField(path, "slug"),
+    id: source.receipt.id,
+    slug: source.receipt.slug,
     lns,
-    seedHash: receiptField(path, "seedHash"),
+    seedHash: source.receipt.seedHash,
     sceneHash: sha256(canonical(lns)),
-    attempts: 1,
+    attempts,
     stage: Lifted,
+    operation: DialogueLifted,
+    parentSceneHash: Some(source.receipt.sceneHash),
+    workerProvider: Session.workerProvider(),
   }
 }
 
@@ -372,11 +536,12 @@ let liftDialogue = async (~path, ~notes: option<string>=?, ~maxTries: int): scen
    the doctrine lift must run again before anything renders. Approved lines are
    preserved verbatim by construction. --------------------------------------- */
 let extendScene = async (~path, ~afterLine: int, ~brief: string, ~maxTries: int): scene => {
-  let body = switch bodyOf(Cinema_Backends.readText(path)) {
-  | Some(b) => b
-  | None => raise(WriteError("no scene body at " ++ unpath(path)))
+  let source = checkedOrRaise(path)
+  switch source.receipt.dialogue {
+  | ReceiptPending => raise(WriteError("source integrity failed: scene must be LIFTED before it can be extended"))
+  | ReceiptLifted => ()
   }
-  let lns = parse(body)
+  let lns = source.lns
   let n = Belt.Array.length(lns)
   if afterLine < 0 || afterLine >= n {
     raise(WriteError("afterLine out of range: " ++ Belt.Int.toString(afterLine)))
@@ -410,7 +575,7 @@ let extendScene = async (~path, ~afterLine: int, ~brief: string, ~maxTries: int)
     ])
     let viols = gateAll(spliced)
     if Belt.Array.length(viols) == 0 {
-      spliced
+      (spliced, k)
     } else if k >= maxTries {
       raise(
         WriteError(
@@ -429,22 +594,39 @@ let extendScene = async (~path, ~afterLine: int, ~brief: string, ~maxTries: int)
       )
     }
   }
-  let spliced = await attempt(1, basePrompt)
+  let (spliced, attempts) = await attempt(1, basePrompt)
   {
-    id: receiptField(path, "id"),
-    slug: receiptField(path, "slug"),
+    id: source.receipt.id,
+    slug: source.receipt.slug,
     lns: spliced,
-    seedHash: receiptField(path, "seedHash"),
+    seedHash: source.receipt.seedHash,
     sceneHash: sha256(canonical(spliced)),
-    attempts: 1,
+    attempts,
     stage: Written,
+    operation: Extended,
+    parentSceneHash: Some(source.receipt.sceneHash),
+    workerProvider: Session.workerProvider(),
   }
 }
 
-let lines = sc => sc.lns
+let lines = (sc: scene) => sc.lns
+
+let operationName = op =>
+  switch op {
+  | Generated => "GENERATED"
+  | DialogueLifted => "DIALOGUE_LIFTED"
+  | Extended => "EXTENDED"
+  }
+
+let emittedBy = op =>
+  switch op {
+  | Generated => "studio/Write.writeScene"
+  | DialogueLifted => "studio/Write.liftDialogue"
+  | Extended => "studio/Write.extendScene"
+  }
 
 /* ---- emit + receipt ------------------------------------------------------ */
-let emit = (sc, ~txt) => {
+let emit = (sc: scene, ~txt) => {
   let p = unpath(txt)
   let body = canonical(sc.lns)
   let header =
@@ -458,10 +640,17 @@ let emit = (sc, ~txt) => {
   Cinema_Backends.writeText(txt, header ++ body)
 
   let d = Js.Dict.empty()
+  Js.Dict.set(d, "schemaVersion", Js.Json.number(3.0))
   Js.Dict.set(d, "id", Js.Json.string(sc.id))
   Js.Dict.set(d, "slug", Js.Json.string(sc.slug))
   Js.Dict.set(d, "seedHash", Js.Json.string(sc.seedHash))
   Js.Dict.set(d, "sceneHash", Js.Json.string(sc.sceneHash))
+  Js.Dict.set(d, "operation", Js.Json.string(operationName(sc.operation)))
+  Js.Dict.set(d, "workerProvider", Js.Json.string(sc.workerProvider))
+  switch sc.parentSceneHash {
+  | Some(h) => Js.Dict.set(d, "parentSceneHash", Js.Json.string(h))
+  | None => ()
+  }
   Js.Dict.set(d, "gate", Js.Json.string("PASS"))
   Js.Dict.set(
     d,
@@ -474,7 +663,7 @@ let emit = (sc, ~txt) => {
     ),
   )
   Js.Dict.set(d, "attempts", Js.Json.string(Belt.Int.toString(sc.attempts)))
-  Js.Dict.set(d, "emittedBy", Js.Json.string("studio/Write.writeScene"))
+  Js.Dict.set(d, "emittedBy", Js.Json.string(emittedBy(sc.operation)))
   Cinema_Backends.writeText(
     Cinema_Backends.Path(p ++ ".receipt.json"),
     Js.Json.stringifyWithSpace(Js.Json.object_(d), 2),
@@ -484,39 +673,15 @@ let emit = (sc, ~txt) => {
 
 /* ---- verify: the wall you can check -------------------------------------- */
 let verify = txt => {
-  let p = unpath(txt)
-  let receipt = Cinema_Backends.Path(p ++ ".receipt.json")
-  if !Cinema_Backends.exists(txt) {
-    Error("no scene file at " ++ p)
-  } else if !Cinema_Backends.exists(receipt) {
-    Error("NO RECEIPT — this scene did not come from the engine")
-  } else {
-    switch bodyOf(Cinema_Backends.readText(txt)) {
-    | None => Error("no " ++ sentinel ++ " body in the file")
-    | Some(body) =>
-      let recv = Js.Json.parseExn(Cinema_Backends.readText(receipt))
-      let field = k =>
-        recv
-        ->Js.Json.decodeObject
-        ->Belt.Option.flatMap(o => Js.Dict.get(o, k))
-        ->Belt.Option.flatMap(Js.Json.decodeString)
-        ->Belt.Option.getWithDefault("")
-      if field("sceneHash") != sha256(body) {
-        Error("TAMPERED — scene text does not match its receipt hash (hand-edited)")
-      } else if field("gate") != "PASS" {
-        Error("receipt does not record a PASS")
-      } else {
-        let viols = gateAll(parse(body))
-        if Belt.Array.length(viols) != 0 {
-          Error("GATE WOULD FAIL on emitted text:\n" ++ Belt.Array.joinWith(viols, "\n", x => x))
-        } else if field("dialogue") != "LIFTED" {
-          Error(
-            "DIALOGUE DOCTRINE NOT RUN — scene is not production-ready. Run the lift pass (SkyKing_Lift) before rendering.",
-          )
-        } else {
-          Ok()
-        }
-      }
+  switch checkedInput(txt) {
+  | Error(m) => Error(m)
+  | Ok(v) =>
+    switch v.receipt.dialogue {
+    | ReceiptPending =>
+      Error(
+        "DIALOGUE DOCTRINE NOT RUN — scene is not production-ready. Run the lift pass before rendering.",
+      )
+    | ReceiptLifted => Ok()
     }
   }
 }

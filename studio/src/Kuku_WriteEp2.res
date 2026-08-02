@@ -3,9 +3,8 @@
    Enriched cast (tics sparingly), तुम register, letter-hero adventure with मिटासुर.
    I author STRUCTURE only; the engine writes the sentences; emit leaves a receipt.
 
-   Run from studio/:
-     npm run build && CLAUDE_STUDIO_BUDGET=24 node src/Kuku_WriteEp2.res.mjs
-   Smoke: CLAUDE_STUDIO_BIN="$(pwd)/scripts/fake-claude.mjs" CLAUDE_STUDIO_BUDGET=25 node src/Kuku_WriteEp2.res.mjs
+   Native worker run: follow studio/NATIVE_WORKERS.md with this driver.
+   Zero-spend structural checks are defined in package.json.
 */
 
 @val @scope("process") external cwd: unit => string = "cwd"

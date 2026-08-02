@@ -134,6 +134,11 @@ for sc in EDL['scenes']:
         clock += dur
     S = round(clock, 3)
 
+    sp = sorted([e for e in events if e['path'].startswith('takes/')], key=lambda x: x['abs'])
+    for a, b in zip(sp, sp[1:]):
+        if b['abs'] < a['end'] - 0.05:
+            raise SystemExit(f"SPEECH OVERLAP in {name}: {a['path']} ends {a['end']:.2f} but {b['path']} starts {b['abs']:.2f} — fix the EDL 'at'")
+
     with open(f'{BUILD}/{name}_cat.txt','w') as f:
         for s in segs: f.write(f"file '{os.path.basename(s)}'\n")
     run(['ffmpeg','-y','-f','concat','-safe','0','-i',f'{BUILD}/{name}_cat.txt','-c','copy',f'{BUILD}/{name}_v.mp4'])

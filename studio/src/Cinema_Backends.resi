@@ -38,6 +38,17 @@ let readText: path => string
 let writeText: (path, string) => unit
 let tempDir: string => path          // a fresh scratch dir under the OS temp root
 let fileSizeMb: path => float
+let ensureDirPath: path => unit      // mkdir -p on a DIRECTORY (writeText does files)
+let readDir: path => array<string>   // entry names; [] when the dir does not exist
+let removeFile: path => unit         // unlink if present; a no-op otherwise
+let copyFile: (path, path) => unit   // byte-for-byte; never an ffmpeg remux
+
+/* ---- processes ----------------------------------------------------------- */
+/* The one place a process is spawned. No shell, so argv needs no quoting.
+   Returns the exit code rather than raising, because several callers (the
+   ownership probe, the overflow guard) treat a nonzero exit as data. */
+type runResult = {code: int, stdout: string, stderr: string}
+let run: (~cmd: string, ~args: array<string>) => runResult
 
 /* ---- ffmpeg / ffprobe (child_process) ------------------------------------ */
 /* Run ffmpeg with a fully-formed argv (no shell). Raises BackendError nonzero. */
@@ -47,6 +58,9 @@ let ffmpeg: array<string> => unit
 let pango: (~markup: string, ~width: int, ~background: string, ~out: path) => path
 /* Exact decoded duration of an audio/video file (ffmpeg -f null, parsed). */
 let durationSec: path => seconds
+/* Container duration via ffprobe: fast and exact where durationSec is neither.
+   Prefer this for guards that compare a source's real length against the cut. */
+let probeDuration: path => seconds
 /* A cached mono mp3 of `ms` of digital silence in `cacheDir`; returns its path. */
 let silence: (millis, path) => path
 /* Concatenate mp3 parts (ffmpeg concat demuxer) into one mono mp3 at `path`. */
@@ -97,3 +111,6 @@ let dialogueTimed: array<(text, voiceId)> => promise<(blob, array<(float, float)
 let tts: (~text: text, ~voice: voiceId, ~settings: Js.Json.t=?) => promise<blob>
 /* Instrumental score bed (ElevenLabs Music). Naming a real artist -> 400. */
 let music: (~prompt: prompt, ~ms: millis, ~instrumental: bool) => promise<blob>
+/* One sound effect from a description. influence 0..1 (0.55 = the shipped setting):
+   higher obeys the prompt more literally, lower sounds more like a real recording. */
+let soundEffect: (~prompt: prompt, ~seconds: float, ~influence: float) => promise<blob>

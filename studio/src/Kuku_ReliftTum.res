@@ -2,7 +2,7 @@
    and to the dog, तू/तेरा → तुम/तुम्हारा; and फूरिया → फ्यूरिया. Nothing else changes.
    Through the engine so every receipt stays valid.
 
-   Run from studio/: CLAUDE_STUDIO_BUDGET=16 node src/Kuku_ReliftTum.res.mjs
+   Native worker run: follow studio/NATIVE_WORKERS.md with this driver.
 */
 
 @val @scope("process") external cwd: unit => string = "cwd"

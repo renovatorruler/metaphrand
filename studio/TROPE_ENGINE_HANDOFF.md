@@ -35,11 +35,11 @@ Existing modules (do not break them): src/Sqlite.res (better-sqlite3 bindings), 
 
 Build command: `npx rescript` in the studio dir. It must finish clean (one pre-existing unused-value warning in Cinema_Backends.res is normal). `npm run lint:hatches` must pass — the project BANS escape hatches (no Obj.magic, no %raw). Write external bindings instead.
 
-## MODEL-CALL RULES (hard laws; violations have burned real money)
+## MODEL-WORK RULES (hard laws; violations have burned real money)
 
-- ALL model calls go through the existing warm Session chokepoint. READ src/Session.resi first and use its API. Never shell out to `claude -p` per item.
-- Budget: respect CLAUDE_STUDIO_BUDGET (env, human-set). Refuse to run tagging if it is unset.
-- Test without spend: CLAUDE_STUDIO_BIN=scripts/fake-claude.mjs (see the "smoke" script in package.json) lets you exercise the pipeline with a fake model.
+- ALL model work goes through `Session.ask`. READ `src/Session.resi` and follow `NATIVE_WORKERS.md`. Session prepares a provider-bound job; the trusted host delegates it through a same-provider native worker. Never shell out to `claude -p`, `codex exec`, or a provider API per item.
+- Budget: respect `STUDIO_WORKER_BUDGET` (environment, human-set). Refuse to run tagging if it is unset.
+- Test without spend: `STUDIO_FAKE_WORKER=1 STUDIO_FAKE_WORKER_BIN=scripts/fake-claude.mjs` (see the `smoke` script in `package.json`) exercises the pipeline with a local fake worker.
 - Cache everything: skip work whose output already exists (key on content hashes). Re-runs must be ~free.
 
 ## STEP 1 — CANDIDATE TABLE (pure SQL, no model)

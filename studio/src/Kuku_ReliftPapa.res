@@ -3,7 +3,7 @@
    तुम-forms (तेरा→तुम्हारा, तू→तुम, तूने→तुमने, imperatives to तुम-forms), nothing
    else changed. Receipts stay valid.
 
-   Run from studio/: CLAUDE_STUDIO_BUDGET=8 node src/Kuku_ReliftPapa.res.mjs
+   Native worker run: follow studio/NATIVE_WORKERS.md with this driver.
 */
 
 @val @scope("process") external cwd: unit => string = "cwd"

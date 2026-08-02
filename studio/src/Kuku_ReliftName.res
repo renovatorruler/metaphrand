@@ -2,8 +2,7 @@
    वेस्पर (े) must become वैस्पर (ै) in every dialogue line, nothing else changed.
    Goes through liftDialogue so every receipt stays valid.
 
-   Run from inside studio/:
-     CLAUDE_STUDIO_BUDGET=14 node src/Kuku_ReliftName.res.mjs
+   Native worker run: follow studio/NATIVE_WORKERS.md with this driver.
 */
 
 @val @scope("process") external cwd: unit => string = "cwd"

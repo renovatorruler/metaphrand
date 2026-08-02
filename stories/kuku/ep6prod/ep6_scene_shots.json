@@ -1,0 +1,165 @@
+{
+ "1": {
+  "dialogue": [
+   "e6_d1_leda",
+   "e6_d1_castor",
+   "e6_d1_fyuria",
+   "e6_d1_vesper",
+   "e6_d1_kuku",
+   "e6_d1_dadi"
+  ],
+  "story": [
+   "e6_vesper_mahacheekh",
+   "e6_talab_subah_wide",
+   "e6_teen_battakhein",
+   "e6_tansen_pehli_jhalak",
+   "e6_sab_upar_dekhte",
+   "e6_dadi_dana_lene_jaati",
+   "e6_kuku_apne_pankh",
+   "e6_talab_chuppi"
+  ],
+  "clips": [
+   "c6_tansen_dal_se_dal"
+  ]
+ },
+ "2": {
+  "dialogue": [
+   "e6_d2_fyuria",
+   "e6_d2_vesper",
+   "e6_d2_papa",
+   "e6_d2_kuku",
+   "e6_d2_dadi",
+   "e6_d2_leda",
+   "e6_d2_castor"
+  ],
+  "story": [
+   "e6_tansen_maidan_pravesh",
+   "e6_maidan_subah_sab",
+   "e6_tansen_naam_dohrata",
+   "e6_do_papa",
+   "e6_dana_chugta_tansen",
+   "e6_maha_cheekh_kaan"
+  ],
+  "clips": [
+   "c6_maha_cheekh_udaan"
+  ]
+ },
+ "3": {
+  "dialogue": [
+   "e6_d3_kuku",
+   "e6_d3_fyuria",
+   "e6_d3_mitasur",
+   "e6_d3_castor"
+  ],
+  "story": [
+   "e6_race_start",
+   "e6_race_mitasur_behind",
+   "e6_race_finish_splash",
+   "e6_mitasur_lost_head_down",
+   "e6_fyuria_alone_reeds",
+   "e6_tansen_reed_listening"
+  ],
+  "clips": [
+   "c6_race",
+   "c6_tansen_drops_into_reeds"
+  ]
+ },
+ "4": {
+  "dialogue": [
+   "e6_d4_mitasur",
+   "e6_d4_kuku",
+   "e6_d4_fyuria",
+   "e6_d4_vesper"
+  ],
+  "story": [
+   "e6_mitasur_door_midday",
+   "e6_tansen_lintel_hush",
+   "e6_fyuria_arrives",
+   "e6_door_left_open"
+  ],
+  "clips": [
+   "c6_tansen_lands_on_door",
+   "c6_mitasur_walks_away"
+  ]
+ },
+ "5": {
+  "dialogue": [
+   "e6_d5_fyuria",
+   "e6_d5_kuku",
+   "e6_d5_vesper",
+   "e6_d5_dadi",
+   "e6_d5_leda",
+   "e6_d5_castor",
+   "e6_d5_group"
+  ],
+  "story": [
+   "e6_lesson_circle_under_tana",
+   "e6_branch_perch_rhyme",
+   "e6_kuku_breath_forge",
+   "e6_t_perch_finished_empty",
+   "e6_empty_perch_watched"
+  ],
+  "clips": [
+   "c6_t_settles_into_mud",
+   "c6_tansen_flyby_refusal"
+  ]
+ },
+ "6": {
+  "dialogue": [
+   "e6_d6_fyuria",
+   "e6_d6_vesper",
+   "e6_d6_leda",
+   "e6_d6_dadi",
+   "e6_d6_castor",
+   "e6_d6_kuku",
+   "e6_d6_group"
+  ],
+  "story": [
+   "e6_taali_lehar",
+   "e6_taalab_khaali_thikana",
+   "e6_leda_daana_katori",
+   "e6_tansen_baitha_katori",
+   "e6_sannata_bina_taali",
+   "e6_fyuria_shaam_mod"
+  ],
+  "clips": [
+   "c6_tansen_utarta"
+  ]
+ },
+ "7": {
+  "dialogue": [
+   "e6_d7_fyuria",
+   "e6_d7_mitasur"
+  ],
+  "story": [
+   "e6_tansen_lands_rope",
+   "e6_bridge_evening_wide",
+   "e6_mitasur_checks_planks",
+   "e6_apology_twoshot",
+   "e6_tansen_rope_close",
+   "e6_three_dusk_wide"
+  ],
+  "clips": [
+   "c6_saathi_handclasp"
+  ]
+ },
+ "8": {
+  "dialogue": [
+   "e6_d8_kuku",
+   "e6_d8_dadi",
+   "e6_d8_papa",
+   "e6_d8_leda",
+   "e6_d8_fyuria"
+  ],
+  "story": [
+   "e6_tansen_tucks_in",
+   "e6_tansen_settling_dusk",
+   "e6_pond_family_hush",
+   "e6_vesper_asleep_under_letter",
+   "e6_pond_night_last"
+  ],
+  "clips": [
+   "c6_two_sleepers_breathe"
+  ]
+ }
+}

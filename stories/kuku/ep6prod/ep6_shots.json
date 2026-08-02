@@ -1,0 +1,992 @@
+{
+ "stills": [
+  {
+   "name": "e6_d1_leda",
+   "kind": "dialogue",
+   "refs": [
+    "leda",
+    "tansen"
+   ],
+   "prompt": "The tiniest soft pink-lilac baby dragon sits back on her round haunches right at the water's edge of the pond, stubby wings half lifted, one small paw stretched out over the water as she counts, huge shining eyes, mouth gently closed in a pleased little smile; behind her the flat morning pond with pale ducks drifting in a line and a stand of tall reeds, thin mist on the far bank, and high in the softly blurred tree over her shoulder a small bright green parrot with a red beak sits unnoticed on a branch; medium close framing at her eye level, low golden sunrise light warming one side of her face, dew on the grass."
+  },
+  {
+   "name": "e6_d1_castor",
+   "kind": "dialogue",
+   "refs": [
+    "castor",
+    "tansen"
+   ],
+   "prompt": "The very tiny yellow toddler dragon leans forward on his toes at the pond bank, both stubby arms flung out and one paw jabbing toward the reeds where a duck is hiding, huge round eyes wide with excitement, mouth gently closed in a bursting grin; behind him the calm morning pond, reeds catching low gold light, mist lying on the water, and above and behind him, small and soft-focused in the tree, a bright green parrot with a red beak on a high branch; medium close framing, crouched low to toddler height, warm sunrise light from the side."
+  },
+  {
+   "name": "e6_d1_fyuria",
+   "kind": "dialogue",
+   "refs": [
+    "furia",
+    "tansen"
+   ],
+   "prompt": "The bright pink-red dragon girl stands squarely on the pond bank with her hands on her hips and her chin lifted, crest of spikes raised, long eyelashes, eyes narrowed and searching the treetops, mouth firmly and gently closed, protective rather than angry; the great tree trunk rises behind her at the left with layered leaves, reeds and the flat morning pond behind her at the right, mist and pale gold sunrise light; small and half hidden among the blurred leaves above her shoulder sits a bright green parrot with a red beak, watching her; medium shot from slightly below, warm low sunlight on her face."
+  },
+  {
+   "name": "e6_d1_vesper",
+   "kind": "dialogue",
+   "refs": [
+    "vesper",
+    "tansen"
+   ],
+   "prompt": "The soft light-blue dragon boy stands on the pond bank with his head tipped far back, his usually half-lidded dreamy eyes now wide open and fixed upward in quiet wonder, small wings hanging loose, mouth gently closed in a soft awed smile; the morning pond and reeds sit behind him and the base of the big tree fills the left of the frame, its layered leaves lit gold from behind; on a branch high above and behind him the bright green parrot with the red beak and pale neck ring is clearly visible, small in the upper corner; medium close framing from a low angle, warm sunrise light, thin mist over the water."
+  },
+  {
+   "name": "e6_d1_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku",
+    "tansen"
+   ],
+   "prompt": "The small round moss-green baby dragon stands on the grassy pond bank with his cream belly forward, one tiny paw raised and pointing up past the camera, tiny paper wings lifted, big round eyes bright with discovery, mouth gently closed in an eager smile; behind him the still morning pond with reeds and drifting ducks and the trunk of the big tree at the frame's edge, mist on the water; higher in the frame, softly out of focus on a branch, the bright green parrot with the red beak; medium close framing at his height, low golden sunrise light across his face."
+  },
+  {
+   "name": "e6_d1_dadi",
+   "kind": "dialogue",
+   "refs": [
+    "dadi",
+    "tansen"
+   ],
+   "prompt": "The elderly grey dragon grandmother stands on the reed path at the pond's edge, leaning on a plain wooden walking stick, her long dragon snout and small round spectacles turned up toward the tree, folded wings and a knitted shawl over her shoulders, tail curled behind her, crinkled kind eyes and a warm mouth gently closed in a knowing smile; the morning pond and reeds glow behind her and the big tree trunk rises at the right, its leaves lit gold; on a branch above her, small but sharp, the bright green parrot with the red beak and pale neck ring; medium shot from slightly below, soft sunrise light and mist."
+  },
+  {
+   "name": "e6_talab_subah_wide",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "furia",
+    "vesper",
+    "castor",
+    "leda",
+    "tansen"
+   ],
+   "prompt": "A wide establishing view of the pond at sunrise: flat pale water with mist lying across it, a thick bed of tall reeds along the near bank, and the great old tree trunk rising up the left side of the frame with broad layered leaves; five little dragons stand small together on the grassy bank at the water's edge, the moss-green baby dragon and the pink-red girl and the light-blue boy with the tiny yellow toddler and the tinier pink-lilac toddler clustered near the reeds, all facing the water; a few pale ducks drift in the shallows; on the highest branch of the tree, tiny and bright against the gold morning sky, a green parrot with a red beak; long soft shadows, low warm sun coming in from the left, dew and cool blue shade in the reeds."
+  },
+  {
+   "name": "e6_teen_battakhein",
+   "kind": "story",
+   "refs": [
+    "tansen"
+   ],
+   "prompt": "A low camera almost at water level on the morning pond: three pale ducks drift in a loose row across the flat gold-lit water leaving soft wakes, and a fourth duck sits tucked and half hidden deep among the tall reeds at the right, only its head and back showing through the stems; mist hangs in a thin sheet over the far water, the reflection of the big tree lies across the surface, and at the very top of the frame a branch crosses with the bright green parrot with the red beak and pale neck ring perched on it, looking down at the ducks; warm low sunrise light, dew beading on the reed stems."
+  },
+  {
+   "name": "e6_tansen_pehli_jhalak",
+   "kind": "story",
+   "refs": [
+    "tansen"
+   ],
+   "prompt": "A steep low angle looking up the trunk of the big tree from the pond bank: the trunk's ridged bark climbs through layers of broad leaves toward a pale gold morning sky, and on the highest branch the bright green parrot sits side-on and unmistakable, red beak, pale cream ring around his neck, long tapering green tail hanging below the branch, one round eye turned down toward the camera; the rising sun sits just behind the leaves and rims his feathers with light, a few leaves glowing translucent; the very top of the reeds and a sliver of misted pond show at the bottom edge."
+  },
+  {
+   "name": "e6_sab_upar_dekhte",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "furia",
+    "vesper",
+    "castor",
+    "leda",
+    "tansen"
+   ],
+   "prompt": "The five little dragons crowded shoulder to shoulder on the pond bank, all with their heads tipped back and faces turned up toward the treetop in shared wonder, mouths gently closed, the moss-green baby dragon at the center with one paw still half raised, the pink-red girl and the light-blue boy flanking him, the tiny yellow toddler on the pink-red girl's far side and the tinier pink-lilac toddler sitting on the grass in front; warm gold sunrise light falls across all their upturned faces from the left; behind them the misted pond and reeds, and at the top right of the frame the branch with the small bright green parrot with the red beak; medium wide shot from slightly below."
+  },
+  {
+   "name": "e6_dadi_dana_lene_jaati",
+   "kind": "story",
+   "refs": [
+    "dadi",
+    "kuku",
+    "leda",
+    "tansen"
+   ],
+   "prompt": "The elderly grey dragon grandmother walks away from the pond along a narrow path between the reeds, seen from behind and slightly to the side, her shawl over her folded wings, tail swaying, wooden walking stick planted mid-step, her spectacles just catching the light as she glances back over her shoulder; in the mid-ground on the bank the small moss-green baby dragon and the tiny pink-lilac toddler stand watching her go, and beyond them the misted morning pond; the big tree fills the right of the frame with the bright green parrot with the red beak perched on a branch above the path; long soft shadows, low warm sunrise light down the length of the path."
+  },
+  {
+   "name": "e6_kuku_apne_pankh",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "tansen"
+   ],
+   "prompt": "The small moss-green baby dragon sits alone on the grassy pond bank with his cream belly forward, one tiny paper wing stretched out to the side and twisted so he can look at it, his head craned back over his shoulder to compare it with the sky, expression thoughtful and a little wistful, mouth closed; above and behind him, sharp against the pale gold morning sky, the bright green parrot with the red beak sits on a branch with his own broad wings folded, much bigger than the dragon's; misted pond and reeds fill the background, warm low sunrise light throws a long shadow of the little dragon across the grass toward the camera; medium shot from slightly behind and below him."
+  },
+  {
+   "name": "e6_talab_chuppi",
+   "kind": "story",
+   "refs": [
+    "tansen"
+   ],
+   "prompt": "A quiet held view of the pond in the seconds when nobody is speaking: the water lies perfectly mirror-flat, mist drifting in a low band across it, reeds standing motionless along the near edge, one duck feather resting on the surface; the tall tree and its branch are reflected whole in the water, and in the reflection and again at the top of the frame sits the bright green parrot with the red beak, perfectly still; the empty grassy bank runs along the bottom with two small dragon footprints in the dew; soft gold morning light, cool blue shade in the reeds, no movement anywhere."
+  },
+  {
+   "name": "e6_d2_fyuria",
+   "kind": "dialogue",
+   "refs": [
+    "furia",
+    "tansen"
+   ],
+   "prompt": "Medium close-up of फ्यूरिया, the bright pink-red cut-paper dragon girl with long paper eyelashes, a small crest of paper spikes and a cream belly, standing in the valley meadow with one hand planted on her hip, chin lifted, chest out in bright unmistakable pride, eyes shining, mouth gently closed in a pleased confident smile; just beside her head a bright green cut-paper parrot with a red beak and a pale ring around his neck grips a bent grass stalk, head cocked toward her as if answering; behind them layered paper grass blades and small paper wildflowers roll away to soft green hills, early morning sun low and warm from the left, long soft shadows across the dewy meadow and a thin ribbon of mist along the far tree line."
+  },
+  {
+   "name": "e6_d2_vesper",
+   "kind": "dialogue",
+   "refs": [
+    "vesper",
+    "tansen"
+   ],
+   "prompt": "Medium close-up of वैस्पर, the soft light-blue cut-paper dragon boy with dreamy half-lidded gentle eyes and small paper wings, standing loose-shouldered in the morning meadow and tilting his head slowly upward in quiet astonishment, mouth gently closed in a small wondering smile, one hand half-raised and forgotten in the air; a hand's width above him on a low leafy branch sits the bright green parrot with a red beak and pale neck ring, tilted at exactly the same angle as the boy, mirroring him; behind them tall cut-paper meadow grass, scattered white paper blossoms and layered green hills, low golden morning light raking in from the side, dew glinting, cool blue shadows in the grass."
+  },
+  {
+   "name": "e6_d2_papa",
+   "kind": "dialogue",
+   "refs": [
+    "papa",
+    "tansen"
+   ],
+   "prompt": "Medium shot of पापा, the big broad dark-green cut-paper dragon father with wide shoulders, kind tired eyes, sturdy folded wings and a simple work strap across his chest with a tiny paper radio clipped to it, standing in the meadow mid-laugh with his head tipped back and one big hand pressed to his chest, eyes crinkled to happy slits, mouth gently closed in a deep warm grin, shoulders shaking; perched on a weathered paper fence post at his shoulder height sits the bright green parrot with a red beak and pale neck ring, chest puffed in the same broad stance as the father; morning meadow behind them with layered paper grass, a distant big tree trunk and stacked green paper hills, warm low sun from behind camera-left, long soft shadows and light haze."
+  },
+  {
+   "name": "e6_d2_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku",
+    "tansen"
+   ],
+   "prompt": "Medium close-up of कुकु, the small round moss-green cut-paper baby dragon with big friendly round eyes, a chubby cream belly, tiny paper wings and small rounded horns, standing on tiptoe in the morning meadow with both little arms flung out in excited explanation, eyebrows high, mouth gently closed in an eager delighted smile, looking slightly up and off to one side as if telling a grown-up something urgent; the bright green parrot with a red beak and pale neck ring hangs in the sunlit air just behind his shoulder with wings spread, caught mid-flutter; soft cut-paper meadow grass, tiny wildflowers and rolling green hills behind, low warm morning sun, long soft shadows, faint mist at the meadow edge."
+  },
+  {
+   "name": "e6_d2_dadi",
+   "kind": "dialogue",
+   "refs": [
+    "dadi",
+    "tansen"
+   ],
+   "prompt": "Medium shot of दादी माया, the elderly grey dragon grandmother with a full dragon snout, dragon horns, folded paper wings and a long tail, small round spectacles perched on her muzzle and a soft knitted paper shawl over her stooped shoulders, standing in the morning meadow holding out a shallow paper bowl of pale seed in both hands, her walking stick tucked under one arm, kind crinkled eyes warm and amused, mouth gently closed in a fond knowing smile; the bright green parrot with a red beak and a pale neck ring hovers just above the bowl with wings beating, looking straight down at the seed; layered cut-paper meadow grass and small flowers behind, distant green paper hills, low golden morning sunlight from the side, long soft shadows and dew sparkle."
+  },
+  {
+   "name": "e6_d2_leda",
+   "kind": "dialogue",
+   "refs": [
+    "leda",
+    "tansen"
+   ],
+   "prompt": "Close shot, camera low at toddler height, of लेडा, the tiniest soft pink-lilac cut-paper toddler dragon with round baby proportions and huge shining eyes, sitting back on her heels in the morning meadow grass with a few pale seeds cupped in her two little open palms held out at arm's length, whole face lit with careful delight, mouth gently closed in a tiny beaming smile; one step in front of her on the ground stands the bright green parrot with a red beak and pale neck ring, head lowered toward her hands; blades of cut-paper grass rise around them, wildflowers and soft green hills blurred behind, low warm morning sun from the left putting a long shadow behind the little parrot and warm rim light on the toddler's cheek."
+  },
+  {
+   "name": "e6_d2_castor",
+   "kind": "dialogue",
+   "refs": [
+    "castor",
+    "tansen"
+   ],
+   "prompt": "Close shot of कैस्टर, the very tiny yellow cut-paper toddler dragon with round baby proportions, huge curious eyes and stubby little wings, standing in the morning meadow grass with both stubby arms thrown straight up in triumphant recognition, cheeks bunched, eyes squeezed happy, mouth gently closed in a bursting closed-lip giggle, a little paper spoon still gripped in one fist; behind him and slightly higher the bright green parrot with a red beak and a pale neck ring sits on a leaning grass stalk, wings half-lifted; soft layered paper meadow, small wildflowers and green hills beyond, low warm morning sunlight, long soft shadows, gentle haze."
+  },
+  {
+   "name": "e6_maidan_subah_sab",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "furia",
+    "vesper",
+    "castor",
+    "leda",
+    "tansen"
+   ],
+   "prompt": "Wide establishing shot from a low camera inside the valley meadow at early morning: कुकु the small moss-green baby dragon, फ्यूरिया the bright pink-red dragon girl striding ahead with hands on hips, वैस्पर the light-blue dreamy dragon boy trailing a step behind, and the two toddlers कैस्टर in yellow and लेडा in pink-lilac toddling at the back, all walking out into an open sweep of layered cut-paper grass and small white and yellow paper wildflowers, all of them looking up; high above and slightly ahead of them the bright green parrot with a red beak and a pale neck ring banks in flight with wings fully spread against a pale gold and blue morning sky; rolling stacked paper hills behind, a big tree trunk at the far left edge of the meadow, a glint of pond water beyond, long low morning shadows stretching across the grass and mist lying in the dips."
+  },
+  {
+   "name": "e6_tansen_naam_dohrata",
+   "kind": "story",
+   "refs": [
+    "tansen"
+   ],
+   "prompt": "Tight close-up of the bright green cut-paper parrot alone, perched on a tall bending grass stalk in the morning meadow, gripping it with red-orange paper claws so the stalk bows under him, wings tucked, chest puffed and thrown forward, red beak open in a call and head turned in sharp profile, the pale ring around his neck catching the light and one bright round eye fixed on something off frame; behind him the meadow falls away into creamy bokeh of paper grass and soft green hills, low golden morning sun coming from behind and rimming every cut-paper feather edge in gold, tiny motes of pollen floating in the beam."
+  },
+  {
+   "name": "e6_do_papa",
+   "kind": "story",
+   "refs": [
+    "papa",
+    "tansen",
+    "kuku"
+   ],
+   "prompt": "Wide-ish two-shot in the morning meadow: on the left पापा, the big broad dark-green cut-paper dragon father with a work strap and tiny paper radio across his chest, stands with both hands on his hips, chest out, head tipped in surprised amusement; on a low paper fence post directly beside him at exactly the same height, the bright green parrot with a red beak and pale neck ring holds an identical puffed-chest pose with both wings cocked out like little hands on hips, mirroring the father precisely; on the right कुकु, the small moss-green baby dragon, is doubled over laughing with one hand on his belly and the other pointing between the two; layered cut-paper grass and wildflowers underfoot, green paper hills and a distant tree trunk behind, warm low morning sun from the left casting two long parallel shadows across the grass."
+  },
+  {
+   "name": "e6_dana_chugta_tansen",
+   "kind": "story",
+   "refs": [
+    "dadi",
+    "tansen",
+    "leda",
+    "castor"
+   ],
+   "prompt": "Low camera close to the meadow floor: दादी माया, the elderly grey dragon grandmother with spectacles on her snout, knitted paper shawl and folded wings, kneels stiffly on the left and tips a shallow paper bowl so pale seed spills onto a flat sun-warmed stone; in the centre the bright green parrot with a red beak and a pale neck ring stands on the stone with his tail feathers fanned for balance, head down, red beak touching the scattered seed; on the right the two toddlers, tiny yellow कैस्टर and tinier pink-lilac लेडा, crouch shoulder to shoulder with their small hands on their knees, faces rapt and inches too close; cut-paper grass blades frame the edges of the frame, morning dew on the stone, low golden side light throwing long soft shadows and warm haze in the background hills."
+  },
+  {
+   "name": "e6_maha_cheekh_kaan",
+   "kind": "story",
+   "refs": [
+    "furia",
+    "kuku",
+    "tansen",
+    "vesper"
+   ],
+   "prompt": "Medium-wide comic freeze in the sunlit morning meadow: on the flat stone in the centre the bright green parrot with a red beak and a pale neck ring is thrown back on his claws with both wings flung wide and beak open in an enormous call, seed husks scattering off the stone around him; to the left फ्यूरिया the pink-red dragon girl has both hands clapped over her ears with her eyes screwed shut and her crest spikes blown flat backwards; beside her कुकु the little moss-green dragon has toppled onto his cream belly in the grass, laughing, ears pinned; on the right वैस्पर the light-blue dragon boy stands perfectly still and unbothered with his hands at his sides, blinking, the only one not covering his ears; the paper grass all around lies flattened outward in a ring, petals and paper leaves lifting into the air, a scatter of tiny paper birds rising from the far hedgerow; low warm morning sun, long shadows, everything bright and funny rather than alarming."
+  },
+  {
+   "name": "e6_d3_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku",
+    "tansen"
+   ],
+   "prompt": "Medium close-up of Kuku, the small round moss-green baby dragon with a cream belly, tiny paper wings and small rounded horns, standing on the short trampled grass at the pond's edge; his chest is lifted and one stubby arm is flung out to the side toward the far tree trunk, his round eyes wide and shining with game-excitement, mouth gently closed in an eager smile; behind him the flat blue-green pond throws hard midday sparkle and a bank of tall pale reeds leans to one side, with the huge tree trunk small in the far background across the meadow; the bright green red-beaked parrot Tansen perches on a bent reed just past his shoulder, slightly soft in focus; high noon sun overhead, short shadows, hot bright summer greens."
+  },
+  {
+   "name": "e6_d3_fyuria",
+   "kind": "dialogue",
+   "refs": [
+    "furia",
+    "tansen"
+   ],
+   "prompt": "Medium shot of Fyuria, the bright pink-red dragon girl with long eyelashes, a small crest of paper spikes, cream belly and medium wings, standing a head taller than a baby dragon on the grassy pond bank with both hands on her hips and one foot forward; her chin is up and her gaze is level and steady, brows confident rather than gloating, mouth gently closed; behind her the sunlit pond and reed line stretch away with the big tree trunk in the distance, and the bright green red-beaked parrot Tansen sits on a low branch stub at the frame edge behind her, head cocked; blazing overhead midday light, crisp short shadow under her feet, warm dry meadow colours."
+  },
+  {
+   "name": "e6_d3_mitasur",
+   "kind": "dialogue",
+   "refs": [
+    "mitasur",
+    "tansen"
+   ],
+   "prompt": "Medium close-up of Mitasur, the roly-poly dusty grey-purple goblin with soft smudgy edges, big googly eyes and two fat pink-purple sponge hands, standing on the pond bank with both sponge hands pressed flat against his own chest and his shoulders drawn up in disbelieving delight; his eyes are huge and glossy, brows lifted high, mouth gently closed in a small shy smile, a plain empty burlap sack hanging flat from one shoulder; behind him the midday pond, pale reeds and a strip of bright meadow with the tree trunk far off; the bright green red-beaked parrot Tansen perches on a reed top behind his ear; strong overhead noon light, warm dusty greens and lilacs."
+  },
+  {
+   "name": "e6_d3_castor",
+   "kind": "dialogue",
+   "refs": [
+    "castor",
+    "tansen"
+   ],
+   "prompt": "Medium close-up of Castor, the very tiny yellow toddler dragon with round baby proportions, huge curious eyes and stubby little wings, standing on the wet grass at the water's edge with both short arms thrown straight up over his head and his heels lifted off the ground; his eyes are squeezed into happy crescents and his mouth is gently closed in a beaming grin, his little paper spoon dropped in the grass beside his feet; behind him the pond edge shows a fresh ring of splashed cut-paper water and dark wet bank, reeds beyond, and the bright green red-beaked parrot Tansen has just landed on a leaning reed at his shoulder with wings half folded; high midday sun, bright bouncing light off the water."
+  },
+  {
+   "name": "e6_race_start",
+   "kind": "story",
+   "refs": [
+    "furia",
+    "mitasur",
+    "kuku",
+    "vesper",
+    "tansen"
+   ],
+   "prompt": "Wide low shot looking along a shallow straight groove scratched into the meadow grass beside the pond, four racers crouched behind it in a row: Fyuria the bright pink-red dragon girl leaning far forward on her toes with her wings back, Mitasur the roly-poly dusty grey-purple goblin beside her rocking awkwardly on his wide flat feet with his sponge hands raised, and on the other half of the line the small moss-green Kuku braced low next to the soft light-blue Vesper standing loosely upright with sleepy half-lidded eyes; far across the sunbaked meadow stands the huge tree trunk they must run to and touch, the pond glinting behind the camera side of the frame; the bright green red-beaked parrot Tansen banks in the air above the starting line; hard noon sun, crisp short shadows pooled under each racer, dry pale-gold grass."
+  },
+  {
+   "name": "e6_race_mitasur_behind",
+   "kind": "story",
+   "refs": [
+    "furia",
+    "mitasur",
+    "tansen"
+   ],
+   "prompt": "Wide shot across the open meadow between the tree trunk and the pond: Fyuria the bright pink-red dragon girl is well ahead in the foreground at full stride, twisting her head back over her shoulder toward the distance with her mouth set and one arm reaching forward; far behind her Mitasur the dusty grey-purple goblin lumbers along, body tipped forward, both fat pink-purple sponge hands swinging wide, his flat sponge feet splayed and squashing the grass, the empty burlap sack flopping against his side; a long stretch of trampled grass separates them; the bright green red-beaked parrot Tansen flies level between the two of them at head height; high midday sun bleaching the meadow, hard little shadows directly beneath both runners."
+  },
+  {
+   "name": "e6_race_finish_splash",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "vesper",
+    "castor",
+    "leda",
+    "tansen"
+   ],
+   "prompt": "Low shot at the shallow edge of the pond as Kuku, the small moss-green dragon, and Vesper, the soft light-blue dragon boy, arrive together and stamp into the water, throwing up a burst of curved cut-paper water shapes and droplets around their feet; Kuku's arms are up and Vesper is half a step behind with his usual unhurried sleepy smile; on the grassy bank just beside them the tiny yellow toddler Castor jumps with both arms raised and the even tinier pink-lilac toddler Leda stands watching with her paws pressed together; tall reeds crowd the right of frame and the bright green red-beaked parrot Tansen drops onto one of the reed heads with wings still open; brilliant overhead noon light, sun flashing off the disturbed water."
+  },
+  {
+   "name": "e6_mitasur_lost_head_down",
+   "kind": "story",
+   "refs": [
+    "mitasur",
+    "furia",
+    "tansen"
+   ],
+   "prompt": "Medium wide shot on the trampled grass a few steps back from the water: Mitasur the roly-poly dusty grey-purple goblin stands alone with his round shoulders dropped, both fat pink-purple sponge hands hanging limp at his sides, chest still heaving, his big googly eyes lowered to his own flat feet and his mouth gently closed; a few paces behind him and softly out of focus, Fyuria the bright pink-red dragon girl stands very straight with her arms at her sides, watching him; the pond and pale reeds fill the background, the far tree trunk small on the horizon; the bright green red-beaked parrot Tansen sits on a low reed above and between them with his head tilted; heavy hot midday light, shadows tight under both of them, colours slightly bleached."
+  },
+  {
+   "name": "e6_fyuria_alone_reeds",
+   "kind": "story",
+   "refs": [
+    "furia",
+    "tansen"
+   ],
+   "prompt": "Fyuria, the bright pink-red dragon girl, stands alone deep in a stand of tall pale reeds at the pond's edge, three-quarters turned away from camera so only the edge of her face and one long eyelash catch the light; her head is lowered, her crest of paper spikes flattened, one hand closed tight at her side, her wings hanging slack and her mouth gently closed; flat noon glare lies hard on the water beyond the reeds and the reed stalks cut vertical stripes across the frame; higher up and small in the composition, the bright green red-beaked parrot Tansen sits perfectly still on a reed stalk behind and above her, one round eye turned down toward her, entirely unnoticed; still air, no ripples, hot bright midday."
+  },
+  {
+   "name": "e6_tansen_reed_listening",
+   "kind": "story",
+   "refs": [
+    "tansen",
+    "furia"
+   ],
+   "prompt": "Tight shot on the bright green red-beaked parrot Tansen gripping a single pale reed stalk among a screen of vertical reeds, his pale cream neck ring and red beak clear against the green, wings tightly folded, head cocked hard to one side with one round eye angled downward, absolutely motionless as if listening; the stems around him are sharp and the background falls away into soft blur where a small patch of bright pink-red shows far below between the reeds; midday sun striking the tops of the reeds, the water a flat bright glare behind; a couple of loose paper seed tufts hanging in the still air."
+  },
+  {
+   "name": "e6_d4_mitasur",
+   "kind": "dialogue",
+   "refs": [
+    "mitasur",
+    "tansen"
+   ],
+   "prompt": "Medium close shot of मिटासुर, the roly-poly dusty grey-purple cut-paper goblin with big googly eyes and two fat pink sponge hands, standing in the low arched doorway of his little burrow home, one sponge hand loosely cradling a small clay cup of water against his round belly, shoulders settled and slightly rounded, chin tipped a little down, mouth gently closed with the single tooth just hidden, eyes soft and steady and not angry, holding a quiet dignity; directly above and behind his head, on the weathered wooden lintel beam of the doorway, the bright green cut-paper parrot तानसेन perches side-on with his red beak and pale cream neck ring, feathers folded; the doorframe is set into a mossy paper hillock with tufts of cut grass and a few round stones at the threshold, the valley path and layered green paper hills falling away behind, high midday sun making short crisp shadows and bright warm light on the paper surfaces, camera at his eye height, shallow depth of field softening the hills."
+  },
+  {
+   "name": "e6_d4_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku",
+    "tansen"
+   ],
+   "prompt": "Medium shot of कुकु, the small round moss-green cut-paper baby dragon with a cream belly, tiny paper wings and small rounded horns, standing on the dirt path a few steps from a low wooden door set in a grassy hillock, his tiny wings half-lifted and stiff, one small clawed hand raised partway toward the doorway as if to stop something already said, big round eyes wide and worried and flicking upward, brow lifted, mouth gently closed; behind and above him on the door's wooden lintel beam sits the bright green cut-paper parrot तानसेन with his red beak and pale cream neck ring, slightly soft in the background; midday sun overhead, short hard-edged shadows on the pale dirt path, warm bright greens, layered paper hills and a flat blue paper sky behind, camera low at the little dragon's height."
+  },
+  {
+   "name": "e6_d4_fyuria",
+   "kind": "dialogue",
+   "refs": [
+    "furia",
+    "tansen"
+   ],
+   "prompt": "Medium close shot of फ्यूरिया, the bright pink-red cut-paper dragon girl with long eyelashes, a small crest of paper spikes and a cream belly, standing on the dirt path just outside a low wooden door in a grassy hillock, chest still lifted from running, her hands fallen away from her hips and hanging at her sides, crest spikes flattened back, eyelashes lowered, gaze dropped to the ground in front of her feet, mouth gently closed, the whole posture caught between out-of-breath and ashamed; over her shoulder in soft focus the bright green cut-paper parrot तानसेन sits on the door's wooden lintel with his red beak and pale cream neck ring; high midday light, short crisp shadows, warm dusty path, green paper hills and a scatter of small stones behind her, camera at her eye height."
+  },
+  {
+   "name": "e6_d4_vesper",
+   "kind": "dialogue",
+   "refs": [
+    "vesper",
+    "tansen"
+   ],
+   "prompt": "Medium shot of वैस्पर, the soft light-blue cut-paper dragon boy with dreamy half-lidded eyes, small paper wings and a cream belly, standing very still on the dirt path outside a low closed wooden door in a grassy hillock, his usual loose posture gone quiet and attentive, head turned to look off down the path where someone has walked away, eyes half-lidded but clearly focused, mouth gently closed, one wing tucked; behind him on the wooden lintel above the little door the bright green cut-paper parrot तानसेन perches with red beak and pale cream neck ring, head cocked; midday sun high overhead, short shadows, warm bright valley greens and a pale dirt path curving out of frame, camera at his eye height, background hills softly out of focus."
+  },
+  {
+   "name": "e6_mitasur_door_midday",
+   "kind": "story",
+   "refs": [
+    "mitasur",
+    "kuku",
+    "vesper",
+    "tansen"
+   ],
+   "prompt": "Wide establishing shot of मिटासुर's little home in the valley: a small round-topped wooden plank door set into a mossy green paper hillock, a plain burlap sack leaning beside the threshold, flat stepping stones and tufts of cut-paper grass leading to a pale dirt path; मिटासुर, the roly-poly dusty grey-purple goblin with big googly eyes and fat pink sponge hands, has just stepped out and stands in the doorway holding a small clay cup of water, looking pleasantly up at the sky; on the path a few steps away कुकु, the little moss-green dragon with a cream belly, and वैस्पर, the soft light-blue dragon boy, stand together looking up; above the doorway, on the weathered wooden lintel beam, the bright green cut-paper parrot तानसेन has just settled, wings still half-open, red beak and pale cream neck ring bright against the grey door; high midday sun, short crisp shadows, layered green paper hills and a flat blue paper sky behind, full-bleed wide framing with the camera standing on the path."
+  },
+  {
+   "name": "e6_tansen_lintel_hush",
+   "kind": "story",
+   "refs": [
+    "tansen",
+    "mitasur",
+    "kuku",
+    "vesper"
+   ],
+   "prompt": "A held, silent moment shot slightly low from the dirt path: the bright green cut-paper parrot तानसेन sits alone and calm on the weathered wooden lintel of a small round-topped door in a mossy hillock, feathers freshly settled, red beak closed, pale cream neck ring catching the light, one round eye turned toward the camera with no understanding in it; below and behind him, smaller in frame and completely motionless, मिटासुर the dusty grey-purple goblin stands in his doorway with the clay cup halfway to his mouth and his big eyes gone still, while कुकु the little moss-green dragon and वैस्पर the light-blue dragon boy stand frozen on the path with their wings tucked; hard high midday sun, short black-edged shadows, a few loose paper grass blades caught mid-drift in the wind, no other movement, warm valley greens, shallow focus on the parrot with the three figures softly blurred."
+  },
+  {
+   "name": "e6_fyuria_arrives",
+   "kind": "story",
+   "refs": [
+    "furia",
+    "tansen",
+    "mitasur",
+    "kuku",
+    "vesper"
+   ],
+   "prompt": "Wide shot down the dirt path outside मिटासुर's little door: फ्यूरिया, the bright pink-red cut-paper dragon girl with long eyelashes and a crest of paper spikes, comes bounding up the path toward the doorway in the near foreground, one foot skidding in the dust, wings flared back, cheeks lifted in an eager open-eyed grin, mouth gently closed, still happy and not yet aware; ahead of her the bright green cut-paper parrot तानसेन sits on the wooden lintel with red beak and pale cream neck ring, head turned toward her; in the doorway मिटासुर the grey-purple goblin stands very still with his clay cup, and to one side कुकु the moss-green dragon and वैस्पर the light-blue dragon boy look back over their shoulders at her; midday sun high and bright, a small puff of pale dust at her feet, short crisp shadows, mossy hillock and layered green paper hills behind, camera low near the path."
+  },
+  {
+   "name": "e6_door_left_open",
+   "kind": "story",
+   "refs": [
+    "tansen",
+    "kuku",
+    "furia",
+    "vesper"
+   ],
+   "prompt": "Quiet aftermath shot: the small round-topped wooden door in the mossy hillock now pulled shut, its plank surface plain, the burlap sack slumped beside the threshold, the clay cup left standing on a flat stone; above the door on the weathered lintel beam the bright green cut-paper parrot तानसेन preens one wing, red beak tucked into green feathers, pale cream neck ring showing, entirely unbothered; further down the pale dirt path, small in the mid-ground and turned away from camera, कुकु the moss-green dragon, फ्यूरिया the pink-red dragon girl and वैस्पर the light-blue dragon boy stand in a loose little group watching a set of heavy footprints lead off toward the far reeds; midday light beginning to lean, shadows a touch longer, warm greens and dust, wide full-bleed framing with the camera behind the children."
+  },
+  {
+   "name": "e6_d5_fyuria",
+   "kind": "dialogue",
+   "refs": [
+    "furia",
+    "tansen"
+   ],
+   "prompt": "Medium close shot of फ्यूरिया, the bright pink-red dragon girl with long eyelashes and a small crest of paper spikes, standing at the base of a huge tree trunk beside the pond, filling the left two thirds of the frame; her chin is lifted and her eyes are steady and level straight at camera, but her crest spikes are dropped flat and one shoulder is turned slightly inward, an admitting-it face, mouth gently closed; her hands hang open at her sides instead of on her hips; behind her the deep ridged bark of the trunk rises out of focus and a strip of pond water glints beyond it, and high on a branch in the upper right corner, small and softly blurred, sits a bright green parrot with a red beak and a pale ring around his neck, watching; late-afternoon light slants low and warm gold through the paper leaves, dappling her shoulders, long soft shadows across the leaf litter behind her.",
+   "why": null
+  },
+  {
+   "name": "e6_d5_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku",
+    "tansen"
+   ],
+   "prompt": "Medium close shot of कुकु, the small round moss-green baby dragon with a cream belly, tiny paper wings and small rounded horns, standing on the leaf litter at the foot of the big tree trunk by the pond; he is turned three-quarters toward camera with his head tilted up and slightly to one side, eyes wide and bright with a rising idea, a warm eager close-mouthed smile, both little hands pressed together at his chest; behind him the trunk's bark rises in soft focus and the pond throws a band of bright reflected light across the background reeds, and a bright green parrot with a red beak and pale neck ring perches high on a branch at the top edge of the frame, small and blurred; late-afternoon sun slants low and warm gold through the paper leaves, dappled highlights on his horns and belly, long soft shadows on the ground.",
+   "why": null
+  },
+  {
+   "name": "e6_d5_vesper",
+   "kind": "dialogue",
+   "refs": [
+    "vesper",
+    "tansen"
+   ],
+   "prompt": "Medium close shot of वैस्पर, the soft light-blue dragon boy with dreamy half-lidded eyes and a cream belly, leaning back against the huge tree trunk beside the pond with his head tipped back and his gaze angled up into the branches, mouth gently closed in a small thoughtful line, one hand loosely holding the strap of bark beside him, shoulders relaxed and slouched; the trunk fills the frame behind him in soft focus with pond light rippling across it, and above and behind his head a bright green parrot with a red beak and pale neck ring shifts along a branch, small and out of focus at the top of the frame; late-afternoon light comes low and warm gold through the leaves, dappling his blue paper scales, long soft shadows underneath him.",
+   "why": null
+  },
+  {
+   "name": "e6_d5_dadi",
+   "kind": "dialogue",
+   "refs": [
+    "dadi",
+    "tansen"
+   ],
+   "prompt": "Medium close shot of दादी माया, the elderly grey dragon grandmother with a full dragon snout, horns, folded paper wings and a knitted paper shawl over her shoulders, small round spectacles perched on her muzzle, standing under the big tree trunk by the pond leaning on her walking stick with both hands; she is angled three-quarters to camera, her crinkled eyes warm and half-smiling behind the glasses, mouth gently closed, her head lowered a little as if speaking down to small listeners just off frame; behind her the trunk and a wash of reeds and pond water sit in soft focus, and a bright green parrot with a red beak and pale neck ring is a small blurred shape on a high branch at the upper edge of the frame; late-afternoon sun slants low and warm gold, catching the silvery sheen on her scales and the edge of her shawl, long soft shadows across the leaf litter.",
+   "why": null
+  },
+  {
+   "name": "e6_d5_leda",
+   "kind": "dialogue",
+   "refs": [
+    "leda",
+    "tansen"
+   ],
+   "prompt": "Close shot of लेडा, the tiniest soft pink-lilac cut-paper toddler dragon, round and small, sitting on the leaf litter at the base of the huge tree trunk beside the pond, framed low so the camera is down at her height; her face is tipped up and her huge eyes are shining with delight, tiny stubby wings lifted, cheeks round, mouth gently closed in a proud little smile; behind her the bark of the trunk and a soft blur of green reeds and glinting pond water, and high above at the top corner of the frame a bright green parrot with a red beak and pale neck ring sits small and out of focus on a branch; late-afternoon light slants low and warm gold across her lilac paper scales, long soft shadows on the ground around her.",
+   "why": null
+  },
+  {
+   "name": "e6_d5_castor",
+   "kind": "dialogue",
+   "refs": [
+    "castor",
+    "tansen"
+   ],
+   "prompt": "Close shot of कैस्टर, the very tiny yellow cut-paper toddler dragon with round baby proportions, huge curious eyes and stubby little wings, standing up on his toes on the leaf litter at the foot of the big tree trunk by the pond, camera low at his height; his whole body is leaning forward with excitement, both little arms flung up and one finger pointing off past the camera, eyes huge, cheeks bunched in a scrunched delighted grin with his mouth gently closed; behind him the ridged trunk and a soft-focus band of reeds and bright pond water, and a bright green parrot with a red beak and pale neck ring sits small and blurred on a high branch at the top of the frame; late-afternoon light slants low and warm gold across his yellow paper scales, long soft shadows behind him.",
+   "why": null
+  },
+  {
+   "name": "e6_d5_group",
+   "kind": "dialogue",
+   "refs": [
+    "furia",
+    "kuku",
+    "vesper",
+    "castor",
+    "leda",
+    "tansen"
+   ],
+   "prompt": "Medium shot of five little dragons pressed shoulder to shoulder in a row facing camera at the base of the huge tree trunk beside the pond, all of them with their faces lifted and their eyes shining at something above and behind the camera, every mouth gently closed in a bright expectant smile: on the left the bright pink-red फ्यूरिया with her crest of paper spikes, then the small round moss-green कुकु with his cream belly, then the light-blue वैस्पर with half-lidded dreamy eyes, then the very tiny yellow कैस्टर up on his toes, and at the right end the tiniest pink-lilac लेडा looking up between the bigger shoulders; behind them the deep bark of the trunk and a soft-focus wash of reeds and glittering pond water, and a bright green parrot with a red beak and pale neck ring perched small and blurred on a branch high at the top of the frame; late-afternoon sun slants low and warm gold through the paper leaves, dappling all five, long soft shadows stretching back across the leaf litter.",
+   "why": null
+  },
+  {
+   "name": "e6_lesson_circle_under_tana",
+   "kind": "story",
+   "refs": [
+    "dadi",
+    "kuku",
+    "furia",
+    "vesper",
+    "castor",
+    "leda",
+    "tansen"
+   ],
+   "prompt": "Wide shot from just above the leaf litter at the foot of an enormous cut-paper tree trunk on the pond bank: दादी माया, the grey dragon grandmother in her knitted paper shawl and round spectacles, stands at the left leaning on her stick with her free hand raised and one finger lifted upward, and gathered on the right in a loose half circle on the ground sit the children looking up at her and then along her raised hand into the branches, कुकु nearest her, then फ्यूरिया sitting cross-legged, वैस्पर sprawled back on his elbows, and the two toddlers कैस्टर and लेडा tucked in front; behind and above them the trunk climbs out of frame and one long straight horizontal branch crosses the upper third of the picture with a bright green parrot with a red beak and pale neck ring gripping it, wings half open; the pond and its reeds glitter beyond the trunk on the right; late-afternoon sun comes low and warm gold through the paper leaves, throwing dappled coins of light over the whole group and long soft shadows across the ground.",
+   "why": null
+  },
+  {
+   "name": "e6_branch_perch_rhyme",
+   "kind": "story",
+   "refs": [
+    "tansen"
+   ],
+   "prompt": "Low upward-looking shot from the ground at the base of the tree, close on one long dead-straight horizontal paper branch that crosses the frame high above, with the bright green parrot तानसेन gripping it in the middle, red beak in profile, pale ring showing at his neck, tail hanging down, his weight bowing the branch a fraction; layers of cut-paper leaves fan out behind him and bright late-afternoon sky glows warm gold between them, sun flaring past the branch edge; the top of the huge ridged trunk enters at the left of the frame, and far below at the bottom edge a soft blur of reeds and pond water catches the light.",
+   "why": null
+  },
+  {
+   "name": "e6_kuku_breath_forge",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "tansen"
+   ],
+   "prompt": "Three-quarter shot of कुकु standing braced at the muddy edge of the pond among the reeds, feet planted wide, tiny paper wings flared out stiff, chest swelled and eyes squeezed shut with effort, chin lifted, a broad stream of glowing golden light and sparks pouring up and out from his muzzle into the air above the water; the light has no defined form yet, just a soft brilliant golden cloud with sparks drifting off it, throwing warm reflections across his moss-green scales, across the wet mud and across the pond surface; reeds lean back from the rush of air, a duck lifts off in the far background, and high overhead a bright green parrot with a red beak and pale neck ring circles small against the sky; late-afternoon sun low and warm gold behind the reeds, long shadows on the water.",
+   "why": null
+  },
+  {
+   "name": "e6_t_perch_finished_empty",
+   "kind": "story",
+   "refs": [
+    "dadi",
+    "kuku",
+    "furia",
+    "tansen"
+   ],
+   "prompt": "Wide shot along the pond bank in late-afternoon light: a tall column of glowing golden light stands planted at the water's edge among the reeds, its edges soft and indistinct, brightest where it meets the wet mud, throwing a long shimmering reflection out across the pond and gilding the reed stems around it; on the left दादी माया leans on her stick watching, in the centre कुकु stands back a pace with his little hands raised in wonder, and at the right फ्यूरिया stands with her hands on her hips, all three faces lit gold from the side; nothing is perched on the glow, it stands alone and untouched; far above them a bright green parrot with a red beak and pale neck ring is a small shape wheeling against the warm sky; low slanting sun behind the reeds, long soft shadows drawn back across the mud toward camera.",
+   "why": null
+  },
+  {
+   "name": "e6_empty_perch_watched",
+   "kind": "story",
+   "refs": [
+    "castor",
+    "leda",
+    "kuku",
+    "furia",
+    "tansen"
+   ],
+   "prompt": "Wide shot from behind and slightly above four little dragons standing on the muddy pond bank in a loose cluster, seen mostly from the back with their heads tipped up: the very tiny yellow कैस्टर and the tiniest pink-lilac लेडा close to camera in the foreground, कुकु and फ्यूरिया a step ahead of them, फ्यूरिया's shoulders dropped; in front of them the tall column of glowing golden light stands alone and empty at the water's edge among the reeds, its soft glow reflected in the pond; their eyeline goes past it and up to the top of the huge tree trunk on the right, where a bright green parrot with a red beak and pale neck ring sits far away on a high branch, small against a deepening amber sky; the late-afternoon sun is low and orange behind the far paper hills, very long soft shadows reaching back toward camera across the mud.",
+   "why": null
+  },
+  {
+   "name": "e6_d6_fyuria",
+   "kind": "dialogue",
+   "refs": [
+    "furia",
+    "tansen"
+   ],
+   "prompt": "Medium close on फ्यूरिया, the bright pink-red cut-paper dragon girl with long eyelashes and a small crest of paper spikes, standing on the muddy grass at the pond's edge in three-quarter view; her chin is lifted, one open paw pressed flat against her cream belly as if claiming a job for herself, mouth gently closed, eyes steady and serious with a warm sparkle, shoulders squared; low orange early-evening sun rakes across her from the left and edges her crest, and behind her, softly out of focus, the tall glowing golden perch structure planted at the water's edge with तानसेन the bright green paper parrot with the red beak and pale cream neck ring sitting on its horizontal glowing bar; reed clumps and amber-mirrored pond water fill the background, sky warm apricot going lilac at the top."
+  },
+  {
+   "name": "e6_d6_vesper",
+   "kind": "dialogue",
+   "refs": [
+    "vesper",
+    "tansen"
+   ],
+   "prompt": "Medium close on वैस्पर, the soft light-blue cut-paper dragon boy with dreamy half-lidded eyes and small paper wings, sitting loosely in the grass at the pond bank with his tail curled beside him, one paw slack in his lap and the other rubbing one eye just after a long yawn, mouth gently closed, eyelids heavy, gaze drifting upward and slightly off-camera; warm low evening sun from the side glows through his ear edges, and behind him, blurred, the glowing golden perch stands at the waterline with तानसेन the green paper parrot with the red beak and pale cream neck ring gripping its horizontal bar; tall reeds, still amber pond water, and a deep gold sky behind."
+  },
+  {
+   "name": "e6_d6_leda",
+   "kind": "dialogue",
+   "refs": [
+    "leda",
+    "tansen"
+   ],
+   "prompt": "Close medium on लेडा, the tiniest soft pink-lilac cut-paper toddler dragon, standing very small in the wet mud at the base of the glowing golden perch and holding a little cupped handful of seed against her round belly; her head is tipped all the way back, huge soft eyes wide and hopeful, mouth gently closed, tiny wings held still at her sides; the small glowing golden bowl hangs on its short arm just above her head and lights her face from above, and higher up on the horizontal glowing bar तानसेन the bright green paper parrot with the red beak and pale cream neck ring leans down toward her; reeds and orange evening water behind, camera low at her own height."
+  },
+  {
+   "name": "e6_d6_dadi",
+   "kind": "dialogue",
+   "refs": [
+    "dadi",
+    "tansen"
+   ],
+   "prompt": "Medium close on दादी माया, the elderly grey dragon grandmother with a full dragon snout, small round spectacles perched on it, dragon horns, folded paper wings and a knitted paper shawl over her stooped shoulders, standing a little back from the water with her walking stick planted in the grass; she holds one clawed finger upright in front of her closed mouth in a gentle hush, her crinkled eyes smiling and calm, head tilted toward the perch; warm low evening light from the left catches her silvery scales and the rims of her spectacles, and behind her, softly out of focus, the glowing golden perch at the pond's edge with तानसेन the green paper parrot with the red beak and pale cream neck ring on its horizontal bar; reeds, amber water, lilac-gold sky."
+  },
+  {
+   "name": "e6_d6_castor",
+   "kind": "dialogue",
+   "refs": [
+    "castor",
+    "tansen"
+   ],
+   "prompt": "Close on कैस्टर, the very tiny yellow cut-paper toddler dragon with huge curious eyes and stubby little wings, crouched down low behind a clump of pond reeds with both stubby paws clapped over his own closed mouth to keep a whisper in; his eyes are enormous and delighted, shoulders bunched up to his ears, one stubby wing lifted with excitement, tail rigid behind him; the low orange evening sun comes through the reed blades and stripes his face with warm light; just past the reeds, softly out of focus, the glowing golden perch stands in the mud with तानसेन the green paper parrot with the red beak and pale cream neck ring settled on its horizontal bar; still amber pond water behind."
+  },
+  {
+   "name": "e6_d6_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku",
+    "tansen"
+   ],
+   "prompt": "Medium close on कुकु, the small round moss-green cut-paper baby dragon with a chubby cream belly, tiny paper wings and small rounded horns, crouched down low on the grassy pond bank in a careful hushed posture with both paws resting on his knees; his mouth is gently closed in a small proud smile, eyes shining, head turned sideways and slightly up toward the perch off-frame; warm low evening sun glows across his cheek and belly, and behind him, softly out of focus, the glowing golden perch structure at the waterline with तानसेन the bright green paper parrot with the red beak and pale cream neck ring gripping its horizontal bar; reeds, orange-mirrored pond, deep gold sky."
+  },
+  {
+   "name": "e6_d6_group",
+   "kind": "dialogue",
+   "refs": [
+    "leda",
+    "castor",
+    "kuku",
+    "furia",
+    "vesper",
+    "tansen"
+   ],
+   "prompt": "Medium group shot at kid height of the five young dragons standing shoulder to shoulder in a loose arc on the grassy pond bank, facing the camera slightly turned inward: tiny pink-lilac लेडा at the far left with her paws pressed together under her chin, tiny yellow कैस्टर next to her bouncing on his toes with both stubby paws up, round moss-green कुकु in the middle with his paws raised mid-clap, tall pink-red फ्यूरिया beside him with one fist punched up and her crest bright, and sleepy light-blue वैस्पर at the right with his paws softly together; every mouth is gently closed, all eyes bright and happy, wings fluttering; warm low orange evening sun rakes across all five and throws long shadows toward the camera, and at the right edge of the frame the glowing golden perch rises out of the mud with तानसेन the green paper parrot with the red beak and pale cream neck ring on its horizontal bar; reeds and amber pond water behind."
+  },
+  {
+   "name": "e6_taalab_khaali_thikana",
+   "kind": "story",
+   "refs": [
+    "tansen"
+   ],
+   "prompt": "Wide low shot from the muddy shore of the pond at the start of evening: tall reed clumps crowd the left of the frame, the still water stretches away mirroring an apricot-and-lilac sky, and planted firmly in the wet mud at the waterline stands a tall glowing golden papercraft structure — a smooth horizontal glowing bar carried on a straight glowing upright post pushed deep into the mud, a small round glowing golden bowl hanging from a short arm on its left side; the perch is empty, its warm light spilling onto the mud and the shallow water; high above and small against the sky तानसेन the bright green paper parrot with the red beak and pale cream neck ring wheels restlessly with his wings spread, far from the perch; the big paper tree trunk stands at the far right, ducks drift on the distant water, long shadows stretch across the bank."
+  },
+  {
+   "name": "e6_leda_daana_katori",
+   "refs": [
+    "leda",
+    "tansen"
+   ],
+   "kind": "story",
+   "prompt": "Low three-quarter shot at the pond's edge: लेडा, the tiniest pink-lilac paper toddler dragon, stands on her tiptoes in the soft mud with her tail lifted for balance, both paws stretched up to tip a small handful of pale golden seed into the little glowing golden bowl that hangs from the tall glowing golden perch structure; a few seed grains hang in the air mid-fall catching the light; just above her on the perch's horizontal glowing bar तानसेन the bright green paper parrot with the red beak and pale cream neck ring leans down with his head cocked, one foot lifted, watching the seed; far behind them, small and hushed, the other young dragons wait in a cluster near the big paper tree trunk; reeds, still amber water, low orange evening sun."
+  },
+  {
+   "name": "e6_tansen_baitha_katori",
+   "kind": "story",
+   "refs": [
+    "tansen"
+   ],
+   "prompt": "Close shot of तानसेन the bright green cut-paper parrot finally settled and still, both grey feet gripping the smooth horizontal glowing golden bar of the perch, long layered green tail hanging straight down past the upright post, wings folded neatly, his red beak dipped into the small glowing golden bowl hanging beside him as he picks up seed; the golden glow underlights his layered paper feathers and his pale cream neck ring; behind him the pond is a soft amber blur with reed silhouettes and the tiny out-of-focus shapes of watching children on the bank; warm early-evening light, camera just below his perch looking slightly up."
+  },
+  {
+   "name": "e6_sannata_bina_taali",
+   "kind": "story",
+   "refs": [
+    "leda",
+    "castor",
+    "kuku",
+    "furia",
+    "vesper",
+    "dadi",
+    "tansen"
+   ],
+   "prompt": "Medium wide at kid height: the group stands in a half circle on the pond bank around the tall glowing golden perch and everyone has gone completely still — pink-red फ्यूरिया closest to the perch with her paws stopped apart, not touching, her face open and caught; moss-green कुकु frozen crouched beside her; light-blue वैस्पर motionless with his paws half-raised; tiny yellow कैस्टर and tiny pink-lilac लेडा stopped mid-bounce at the left; elderly grey दादी माया at the right with her spectacles catching the light and one finger raised at her closed mouth; nobody is clapping, all mouths gently closed, all eyes on the perch, where तानसेन the green paper parrot with the red beak and pale cream neck ring sits on the horizontal glowing bar with his head turned; the pond surface is glassy and unbroken, reeds unmoving, the light deepened to amber going lilac, long soft shadows."
+  },
+  {
+   "name": "e6_fyuria_shaam_mod",
+   "kind": "story",
+   "refs": [
+    "furia",
+    "tansen"
+   ],
+   "prompt": "Three-quarter rear shot of फ्यूरिया standing a few steps apart from the others at the edge of the reeds, her weight settled on one leg, shoulders just dropping after a long breath out, head turned to look away across the darkening valley toward a faint path leading off between the hills; her crest and one cheek catch the last orange light, the rest of her in warm shadow; behind her and lower in the frame the glowing golden perch throws its warm pool of light across the mud with तानसेन the bright green paper parrot with the red beak and pale cream neck ring sitting on the horizontal bar, and the small cluster of the other children clapping around it; deep amber sky fading to lilac overhead with the first faint stars, still pond water, reeds in silhouette."
+  },
+  {
+   "name": "e6_d7_fyuria",
+   "kind": "dialogue",
+   "refs": [
+    "furia",
+    "tansen"
+   ],
+   "prompt": "Medium close-up of फ्यूरिया, the bright pink-red cut-paper dragon girl with long eyelashes, a small crest of paper spikes and a cream belly, standing at the near end of a wooden footbridge over a shallow paper stream, turned three-quarters toward camera and looking slightly up at someone off-frame; her mouth is gently closed, her chin level, her brows soft and earnest, front paws held together in front of her chest — steady and honest rather than sad; behind her the bridge runs out of focus across the water, smooth honey-golden planks with twisted rope handrails strung between short posts, and तानसेन the bright green cut-paper parrot with a red beak and a pale cream neck ring sits small and soft-focused on the far handrail rope; low evening sun rakes in from the left, warm orange light on her cheek, long soft shadows on the planks, peach and lilac sky above the green paper hills.",
+   "refs_note": null
+  },
+  {
+   "name": "e6_d7_mitasur",
+   "kind": "dialogue",
+   "refs": [
+    "mitasur",
+    "tansen"
+   ],
+   "prompt": "Medium close-up of मिटासुर, the roly-poly dusty grey-purple cut-paper goblin with big googly eyes, soft smudgy edges and two fat pink-purple sponge hands, standing in the middle of a wooden footbridge over a shallow stream; he is turned three-quarters toward camera, head slightly tilted, his big eyes shining and lifted as if someone just said something kind to him, mouth gently closed in a small warm smile, one sponge hand resting on the rope handrail beside him; the closed burlap sack tied shut on his shoulder, nothing poking out of it; behind him the honey-golden plank deck and rope handrails blur away toward the far bank with its big leafy paper tree, and तानसेन the bright green paper parrot with a red beak and pale cream neck ring perches small and out of focus on the rope behind his shoulder; low evening sunlight from the left, warm orange rim on his round head, cool violet shadow on the water below, soft peach sky.",
+   "refs_note": null
+  },
+  {
+   "name": "e6_bridge_evening_wide",
+   "kind": "story",
+   "refs": [
+    "mitasur",
+    "tansen"
+   ],
+   "prompt": "Wide establishing view of the little footbridge in the valley at evening: a broad deck of smooth honey-golden planks resting on two thick pillars standing on flat stones in a fast shallow paper stream, twisted rope handrails strung between short posts on both sides, round mossy stones along both banks and a big leafy paper tree on the far bank; मिटासुर, the roly-poly dusty grey-purple goblin with big googly eyes and fat pink-purple sponge hands, walks slowly along the deck alone with his closed burlap sack on his shoulder, small in the frame, looking down at the planks under his feet; तानसेन the bright green paper parrot with a red beak and pale cream neck ring glides low over the water toward the bridge, wings spread, catching the light; the sun is almost down behind the green paper hills, long orange light along the stream, sky going from peach to soft violet, first crickets-evening calm, water in gentle motion.",
+   "refs_note": null
+  },
+  {
+   "name": "e6_mitasur_checks_planks",
+   "kind": "story",
+   "refs": [
+    "mitasur",
+    "tansen"
+   ],
+   "prompt": "Low three-quarter shot from the deck level: मिटासुर the dusty grey-purple cut-paper goblin crouches on the footbridge with one fat pink-purple sponge hand pressed flat on a honey-golden plank, testing it, his other sponge hand steadying himself on the twisted rope handrail; his big googly eyes are lowered and careful, his closed burlap sack slipped around to his back; the plank grain and paper fibres are close to camera, the shallow stream running calmly between round mossy stones far below and behind him; on the tall handrail post at the far end of the bridge तानसेन the bright green paper parrot with a red beak and pale cream neck ring sits watching him, small and sharp against the sky; warm low evening sunlight from the side, long shadows of the rope across the planks, peach-and-violet sky over the green hills.",
+   "refs_note": null
+  },
+  {
+   "name": "e6_apology_twoshot",
+   "kind": "story",
+   "refs": [
+    "furia",
+    "mitasur",
+    "tansen"
+   ],
+   "prompt": "Two-shot on the footbridge at evening, camera at their height and slightly to the side: फ्यूरिया the bright pink-red cut-paper dragon girl stands on the left facing मिटासुर the round dusty grey-purple goblin on the right, a step of golden plank deck between them; her wings are folded down, her front paws held together, her head tipped just slightly forward as she speaks to him plainly; he stands still and listens, big googly eyes wide and soft, one sponge hand on the rope handrail; the twisted rope handrails run out of the sides of the shot, the shallow stream glittering below and behind them; तानसेن the bright green paper parrot with a red beak and pale cream neck ring perches quietly on the far handrail rope behind them, small and soft-focused; last low sun from behind the far hills, warm orange edges on both characters, long cool shadows on the planks, peach sky deepening to violet.",
+   "refs_note": null
+  },
+  {
+   "name": "e6_tansen_rope_close",
+   "kind": "story",
+   "refs": [
+    "tansen",
+    "furia",
+    "mitasur"
+   ],
+   "prompt": "Close shot of तानसेन the bright green cut-paper parrot with a red beak and pale cream neck ring gripping a twisted rope handrail with his grey paper feet, the rope dipping a little under his weight, his long green tail hanging down over the stream, head cocked toward the two figures behind him; softly out of focus beyond him stand फ्यूरिया the pink-red dragon girl and मिटासुर the round grey-purple goblin on the honey-golden plank deck, both turned toward the bird; the shallow stream glitters far below in the background; warm low evening sunlight comes from behind the parrot, lighting the edges of every paper feather, sky in peach and soft violet, gentle depth of field.",
+   "refs_note": null
+  },
+  {
+   "name": "e6_three_dusk_wide",
+   "kind": "story",
+   "refs": [
+    "furia",
+    "mitasur",
+    "tansen"
+   ],
+   "prompt": "Wide shot of the whole footbridge from the near bank at the very end of the day: फ्यूरिया the bright pink-red dragon girl and मिटासुर the roly-poly grey-purple goblin stand together in the middle of the honey-golden plank deck, both laughing, heads tipped back, her wing half-raised in delight and his round belly shaking, standing close side by side; तानसेन the bright green paper parrot with a red beak and pale cream neck ring bobs on the twisted rope handrail right beside them, wings half-lifted; the shallow stream runs bright below between round mossy stones, the big leafy paper tree dark against the sky on the far bank; the sun has just gone behind the green paper hills, warm gold along the water, the sky peach fading into deep violet, small paper stars beginning at the top of the sky.",
+   "refs_note": null
+  },
+  {
+   "name": "e6_d8_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku",
+    "tansen"
+   ],
+   "prompt": "कुकु, the small round moss-green baby dragon with a cream belly and tiny paper wings, standing on the grassy pond bank in medium close-up, head tilted back and chin lifted as he looks up and off past the camera, big round eyes soft and content, mouth gently closed in a small satisfied smile, shoulders relaxed and one hand resting on his chest; just behind and above his shoulder, slightly soft in the background, तानसेन the bright green parrot with a red beak and pale neck ring sits on the top edge of a tall warm golden glow that rises out of the mud at the water's edge, feathers fluffed for the night; beyond them the pond is flat slate-blue with the last thin orange band of sunset along the far bank and black reed silhouettes, a few early stars overhead; deep blue dusk air, the only warm light spilling upward from the golden glow onto कुकु's face and the underside of the parrot."
+  },
+  {
+   "name": "e6_d8_dadi",
+   "kind": "dialogue",
+   "refs": [
+    "dadi",
+    "tansen"
+   ],
+   "prompt": "दादी माया, the elderly grey dragon grandmother with a full dragon snout, horns, folded paper wings, small round spectacles on her muzzle and a knitted shawl over her shoulders, in a warm medium shot on the pond bank, gently stooped over her walking stick, kind crinkled eyes turned toward the parrot beside her, mouth gently closed in a knowing affectionate smile; at her eye level on the right, तानसेन the bright green red-beaked parrot with a pale neck ring perches on the top edge of a tall soft-edged golden glow planted in the mud at the water's edge, settled and round; behind them the darkening pond, reeds standing still, the far hills a flat violet band under a deep blue sky with first stars; her spectacles catch two small warm sparks of the golden light, the rest of the frame cool evening blue."
+  },
+  {
+   "name": "e6_d8_papa",
+   "kind": "dialogue",
+   "refs": [
+    "papa",
+    "tansen"
+   ],
+   "prompt": "पापा, the big broad dark-green dragon father with wide shoulders, kind tired eyes, sturdy folded wings and a simple work strap across his chest with a tiny paper radio clipped to it, in medium shot crouched on one knee at the pond bank so his head is near the perch, eyes crinkled with amusement and eyebrows up, mouth gently closed in a warm suppressed grin, one big hand loosely on his knee; directly in front of him and slightly higher, तानसेन the bright green parrot with a red beak and pale neck ring sits on the top edge of a tall warm golden glow rising from the mud at the water's edge, head cocked toward पापा; behind them the still evening pond, dark reeds, a low orange strip of leftover sunset on the far bank and a deepening blue sky; the golden glow lights the underside of पापा's jaw and the parrot's chest."
+  },
+  {
+   "name": "e6_d8_leda",
+   "kind": "dialogue",
+   "refs": [
+    "leda",
+    "tansen"
+   ],
+   "prompt": "लेडा, the tiniest soft pink-lilac toddler dragon with round baby proportions and huge eyes, in close-up standing in the grass at the foot of the perch, tipped right back to look almost straight up, eyes enormous with delighted surprise, cheeks lifted, mouth gently closed, both stubby arms half-raised in astonishment; above her and leaning down toward her, तानसेन the bright green parrot with a red beak and pale neck ring grips the top edge of a tall warm golden glow that rises out of the mud at the pond's edge, head bent low and turned to one eye as if answering her; the pond behind is dark blue with a thin last band of orange along the far bank, black reeds, early stars; warm golden light from the glow pours down onto her upturned face while the rest of the frame sits in cool evening blue."
+  },
+  {
+   "name": "e6_d8_fyuria",
+   "kind": "dialogue",
+   "refs": [
+    "furia",
+    "tansen"
+   ],
+   "prompt": "फ्यूरिया, the bright pink-red dragon girl with long eyelashes, a small crest of paper spikes, cream belly and medium wings, in medium close-up on the pond bank at night-fall, turned three-quarters and glancing down toward something low and off-frame at her side, eyes bright and crinkled with barely-held laughter, mouth gently closed in a pressed-lip smile, one hand lifted near her muzzle to stifle it, shoulders slightly hunched with the effort; behind her shoulder, softly out of focus, तानसेन the bright green parrot with a red beak and pale neck ring is a round settled ball of feathers on the top edge of a tall warm golden glow rooted in the mud at the water's edge; beyond, the dark pond, reed silhouettes and a deep blue star-flecked sky; the golden glow rims her back and cheek."
+  },
+  {
+   "name": "e6_tansen_settling_dusk",
+   "kind": "story",
+   "refs": [
+    "tansen"
+   ],
+   "prompt": "तानसेन the bright green parrot with a red beak and pale neck ring, alone in the frame, perched on the top edge of a tall warm golden glow that rises out of the mud at the pond's edge, wings half-lifted and shaken out mid-settle, tail feathers fanned, head turned toward the darkening water; camera low among the reeds looking up at him against a deep blue sky with the last narrow orange band of sunset along the far bank and a scatter of early stars; the pond below him lies flat and glassy, carrying a long wobbling reflection of the golden light; tall reeds stand black in the foreground on both sides, dew on their edges; warm gold only where the glow reaches, everything else cool blue evening."
+  },
+  {
+   "name": "e6_pond_family_hush",
+   "kind": "story",
+   "refs": [
+    "dadi",
+    "papa",
+    "kuku",
+    "furia",
+    "leda",
+    "tansen"
+   ],
+   "prompt": "A wide evening shot of the pond bank with the whole family standing very still in a loose open half-circle facing the water: दादी माया the grey dragon grandmother with spectacles, shawl and walking stick at the left; पापा the big dark-green dragon father behind her with a hand on कुकु's shoulder; कुकु the small moss-green dragon in the middle, chin up; फ्यूरिया the pink-red dragon girl beside him with her arms down and still for once; and tiny lavender-pink लेडा sitting in the grass at the front; every face is turned up toward तानसेन the bright green red-beaked parrot with a pale neck ring, who sits high and quiet on the top edge of a tall warm golden glow planted in the mud at the water's edge; nobody is moving, nobody is clapping, hands are down; the pond behind is dark blue and mirror-flat with reed silhouettes, the far hills a violet band, the sky deep blue with early stars; the golden glow is the only warm light, throwing soft light onto the upturned faces and a long ripple of gold across the water."
+  },
+  {
+   "name": "e6_vesper_asleep_under_letter",
+   "kind": "story",
+   "refs": [
+    "vesper",
+    "tansen"
+   ],
+   "prompt": "वैस्पर the soft light-blue dragon boy curled up fast asleep in the grass directly at the foot of a tall warm golden glow that rises out of the mud at the pond's edge, lying on his side with his cream belly rounded, one small wing pulled over his eyes like a blanket, tail curled around his feet, a completely peaceful sleeping smile; directly above him, small in the upper third of the frame, तानसेन the bright green parrot with a red beak and pale neck ring is a round puffed ball of feathers on the top edge of the glow with his beak already buried in his back feathers, asleep in the same posture; medium-wide from a low angle, the dark pond and black reeds behind, deep blue night sky with stars; the golden glow lays a warm pool of light over the sleeping dragon and rims the parrot's silhouette."
+  },
+  {
+   "name": "e6_pond_night_last",
+   "kind": "story",
+   "refs": [
+    "furia",
+    "papa",
+    "vesper",
+    "tansen"
+   ],
+   "prompt": "Night has fully arrived at the pond; in the near foreground वैस्पर the soft light-blue dragon boy sleeps curled in the grass at the base of a tall warm golden glow rooted in the mud at the water's edge, with तानसेन the bright green red-beaked parrot with a pale neck ring roosting directly above him as a round ball of feathers, beak tucked into his wing; a few steps back and to the right, पापा the big dark-green dragon father stands with फ्यूरिया the pink-red dragon girl leaning against his leg, both looking down at the two sleepers with soft fond faces, पापा's big hand raised in a small quiet gesture meaning leave them be; the pond stretches out flat and black-blue behind, doubling the golden glow in a long shimmering reflection, reeds motionless, the sky a deep starry blue with the sunset entirely gone; the golden glow is the single warm source in an otherwise cool blue night."
+  },
+  {
+   "name": "e6_vesper_mahacheekh",
+   "kind": "story",
+   "refs": [
+    "vesper",
+    "castor",
+    "furia",
+    "tansen"
+   ],
+   "prompt": "The small light-blue dragon boy plants his feet on the pond bank, throws his head back and lets out an enormous shout, tiny wings flung wide, cheeks puffed; the flat morning water in front of him ripples outward and a scatter of pale ducks beats up off the surface in a spray of droplets, the tall reeds bow away from him in a wave, and the leaves of the big tree shudder; beside him the tiny yellow toddler dragon claps both paws over his ears and laughs, and the pink-red dragon girl doubles over grinning with her crest flattened by the blast; high in the shaking leaves the bright green parrot with the red beak grips his branch and half-opens his wings, ruffled; wide medium shot from the water side, low golden sunrise light, mist tearing loose above the pond, everything comic and delighted. A single held moment, no motion blur."
+  },
+  {
+   "name": "e6_tansen_maidan_pravesh",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "furia",
+    "vesper",
+    "tansen"
+   ],
+   "prompt": "Camera tracks smoothly sideways alongside the children  A single held moment, no motion blur."
+  },
+  {
+   "name": "e6_taali_lehar",
+   "kind": "story",
+   "refs": [
+    "leda",
+    "castor",
+    "kuku",
+    "furia",
+    "vesper",
+    "tansen"
+   ],
+   "prompt": "Camera at kid height on the pond bank,  A single held moment, no motion blur."
+  },
+  {
+   "name": "e6_tansen_lands_rope",
+   "kind": "story",
+   "refs": [
+    "tansen",
+    "furia",
+    "mitasur"
+   ],
+   "prompt": "तानसेन the bright green cut-paper parrot with a red beak and pale cream neck ring drops down from above the frame in a short glide, wings spread wide, and settles onto the twisted rope handrail of the wooden footbridge, wings folding neatly against his back and his long green tail swinging  A single held moment, no motion blur."
+  },
+  {
+   "name": "e6_tansen_tucks_in",
+   "kind": "story",
+   "refs": [
+    "tansen"
+   ],
+   "prompt": "तानसेन the bright green parrot with a red beak and pale neck ring settling in for the night on the top edge of a tall warm golden glow that rises out of the mud at the pond's edge: he shuffles a few small sideways steps along the perch, gives one brisk shake that fluffs his whole body out into a round ball of feathers, folds his wings down flush,  A single held moment, no motion blur."
+  }
+ ],
+ "clips": [
+  {
+   "name": "c6_tansen_dal_se_dal",
+   "refs": [
+    "tansen",
+    "kuku"
+   ],
+   "prompt": "The bright green parrot with the red beak and pale cream neck ring crouches on the topmost branch of a tall tree at the pond's edge, then pushes off and flaps across open air in a shallow arc, long green tail streaming behind him, and grips a branch on the next trunk, where the leaves bounce and settle from his weight; the camera holds a wide, slightly low view of the two trunks with the golden morning sky and thin mist between them, reeds and still pond water along the bottom of the frame, and the small moss-green baby dragon stands far below on the bank in soft focus, head tipped back, turning to follow the flight; low warm sunrise light rakes through the layered leaves and flickers across the parrot's wings as he crosses.",
+   "why": "The whole beat is that he will not stay put — Kuku's line is literally about the parrot flying trunk to trunk and never settling, which is the problem the letter solves later. A still cannot show 'he keeps moving'."
+  },
+  {
+   "name": "c6_maha_cheekh_udaan",
+   "refs": [
+    "tansen",
+    "kuku",
+    "furia"
+   ],
+   "prompt": "Locked-off medium shot on the flat seed stone in the sunlit morning meadow: the bright green parrot with a red beak and pale neck ring is calmly pecking scattered seed, head bobbing down twice, and then explodes upward off the stone in a single burst, wings snapping to full spread, seed husks and paper petals blasting outward in a ring and hanging in the air; the shockwave rolls out through the meadow so the cut-paper grass flattens away from the stone in an expanding circle; behind, कुकु the little moss-green dragon tumbles backwards onto his cream belly laughing and फ्यूरिया the pink-red dragon girl whips around with both hands slapping over her ears and her crest spikes blown flat; a scatter of tiny paper birds lifts from the far hedgerow; low golden morning light, dust and pollen swirling in the beam, everything comic and bright.",
+   "why": "The pivot of the scene is an instantaneous sonic event — the burst off the stone, the ring of flattened grass and the flung seed only exist as movement; a still would just be a bird sitting."
+  },
+  {
+   "name": "c6_race",
+   "refs": [
+    "furia",
+    "mitasur",
+    "kuku",
+    "vesper",
+    "tansen"
+   ],
+   "prompt": "Camera tracks sideways alongside four running dragons crossing the sunlit valley meadow between the big tree trunk and the pond: Fyuria, the bright pink-red dragon girl with a crest of paper spikes, pulls ahead with quick light strides and her medium wings flared for balance; the small moss-green Kuku and the soft light-blue Vesper run close together just behind her; Mitasur, the roly-poly dusty grey-purple goblin with fat pink-purple sponge hands and a plain flat burlap sack bouncing on his shoulder, wobbles well back on wide flat feet, arms pumping, cheeks puffed; dry grass blades and torn-paper leaves flick past the lens, the huge tree trunk swings by in the background and the pond glitters ahead, while the bright green red-beaked parrot Tansen sweeps low over their heads and overtakes them all; hard high noon sun, short shadows racing along the ground.",
+   "why": "The entire beat is the gap opening between the fast and the slow runner; a still can show positions but not the widening distance, the effort, or the parrot skimming over them, which is what makes the loss land."
+  },
+  {
+   "name": "c6_tansen_drops_into_reeds",
+   "refs": [
+    "tansen",
+    "furia"
+   ],
+   "prompt": "Camera low inside a stand of tall pale reeds at the pond's edge at midday, looking up through the vertical stems; the bright green red-beaked parrot Tansen glides down in three quiet wingbeats and settles onto a reed stalk directly above Fyuria, the stalk dipping deep under his weight then springing back and swaying, neighbouring reed tops nodding and slowly stilling; he folds his wings, cocks his head and holds completely motionless with one round eye turned downward; below him the bright pink-red dragon girl stands with her back turned and her head lowered, unmoving, never looking up; flat noon light on the water beyond, small rings spreading where a reed touched the surface.",
+   "why": "This is the loaded-gun moment of the whole episode: the parrot must arrive silently and she must visibly fail to notice. The dip and settle of the reeds and the wingbeats are the entire information, and a still cannot say 'she did not hear it'."
+  },
+  {
+   "name": "c6_tansen_lands_on_door",
+   "refs": [
+    "tansen",
+    "mitasur"
+   ],
+   "prompt": "Locked-off medium wide on the low round-topped wooden door set in a mossy paper hillock: मिटासुर, the roly-poly dusty grey-purple goblin with big googly eyes and fat pink sponge hands, steps out of the doorway with a small clay cup of water and pauses; the bright green cut-paper parrot तानसेन drops into frame from above, wings spread wide and beating twice, tail fanning, grey feet reaching, and settles onto the weathered wooden lintel beam directly over the door, wings folding down against his back, red beak and pale cream neck ring bright in the sun, tail feathers still swinging as he grips the beam; below him मिटासुर tips his head back and looks up, a slow pleased blink; a few cut-paper grass tufts sway in the downdraft; high midday sun, short crisp shadows, warm valley greens and a flat blue paper sky.",
+   "why": "The parrot's arrival at this particular door is the trap closing; the wing-beat and the settle are what make the audience feel he has landed somewhere he should not have."
+  },
+  {
+   "name": "c6_mitasur_walks_away",
+   "refs": [
+    "mitasur",
+    "furia",
+    "tansen"
+   ],
+   "prompt": "Slow static wide from behind, camera standing on the pale dirt path: मिटासुर, the roly-poly dusty grey-purple goblin, turns away from his little wooden door and walks off down the path toward the distant reeds, his round back to camera, fat pink sponge hands swinging low, each heavy step pressing a soft print into the dust and each step a little slower than the last; behind him the small round-topped door swings gently closed on its own weight; फ्यूरिया, the bright pink-red cut-paper dragon girl, stands motionless in the mid-ground on the path watching him go, wings drooped, making no move to follow; above the closed door the bright green cut-paper parrot तानसेन shifts his grey feet along the wooden lintel and turns his head to follow him too; midday light, long warm greens, drifting paper dust, gentle breeze in the grass tufts.",
+   "why": "The scene's closing line is about his walk getting slower, so the beat only exists as motion — a still cannot show a step decelerating or the door easing shut behind him."
+  },
+  {
+   "name": "c6_t_settles_into_mud",
+   "refs": [
+    "kuku",
+    "tansen"
+   ],
+   "prompt": "Camera low at the waterline among the reeds: a heavy mass of glowing golden light descends slowly out of the air above the pond edge, softly formless and brilliant, growing brighter as it comes down; the reeds bend outward and flatten away from it as it passes, rings of ripples push out across the pond surface, a pair of ducks skitters off across the water, and the glow drives down into the wet mud and stops dead, settling firm with a small spray of mud and a pulse of gold light that washes over the bank; कुकु stands to one side in frame, small, wings still flared from the effort, his moss-green scales and wide eyes lit gold as the light steadies; late-afternoon sun low and warm behind the reeds, the settled glow throwing a long steady shimmer out over the water.",
+   "why": "The whole beat is the arrival and the arrest — heavy weight coming down out of the air and locking into the mud so that nothing can move it again. A still can show the glow standing there but not that it dropped, not the reeds and water reacting to its weight, and not the hard stop that makes the perch trustworthy."
+  },
+  {
+   "name": "c6_tansen_flyby_refusal",
+   "refs": [
+    "tansen",
+    "kuku",
+    "furia"
+   ],
+   "prompt": "The bright green parrot with a red beak and pale neck ring drops out of the high branches of the tree trunk with his wings spread wide and glides down toward the pond bank, sweeping low and fast past the tall column of glowing golden light standing in the reeds without ever touching it, the gold light flashing across his green paper feathers as he passes; he banks hard over the water, climbs away over the reeds and shrinks up into the warm sky toward the top of the trunk; below him कुकु and फ्यूरिया turn their heads to follow his line, फ्यूरिया's raised welcoming hand slowly lowering as he goes; camera pans with the bird from the branch down across the empty glowing perch and back up after him; late-afternoon sun low and gold, long shadows over the mud and glitter on the pond.",
+   "why": "The scene ends on a refusal, and a refusal only exists as movement: he comes near enough that everyone expects him to land, then leaves. A still can show either an empty perch or a flying bird, but only motion carries the near-miss and the disappointment of the hand coming back down."
+  },
+  {
+   "name": "c6_tansen_utarta",
+   "refs": [
+    "tansen",
+    "leda"
+   ],
+   "prompt": "Low camera set close beside the tall glowing golden perch at the pond's edge, looking up past its horizontal glowing bar into an apricot evening sky: तानसेन the bright green cut-paper parrot drops out of the high air in a long slow curving glide, wings spread wide so the layered green paper feathers fan out, banks once around the perch, then flares his wings, tail spread, and settles with a small hop onto the smooth glowing bar, grey feet closing on it, tail dipping and steadying, wings folding down one last time; below him in the bottom of the frame tiny pink-lilac लेडा stands very still in the mud looking up with seed still cupped in her paws; reeds sway gently at the edges, the amber pond glints, warm early-evening light.",
+   "why": "The entire scene turns on the parrot choosing to come down and sit — the glide, the flare, the landing hop and the wings folding are the beat itself, and a still can only show him already perched, which throws away the decision."
+  },
+  {
+   "name": "c6_saathi_handclasp",
+   "refs": [
+    "furia",
+    "mitasur",
+    "tansen"
+   ],
+   "why": "The reconciliation is a physical offer and its acceptance — she has to reach and he has to let her take his hand, and the small delay between the two is the whole emotional beat; frozen it reads as a pose rather than a decision.",
+   "prompt": "On the honey-golden plank deck of the footbridge, फ्यूरिया the bright pink-red cut-paper dragon girl takes one step forward and reaches out to take मिटासुर's big pink-purple sponge hand in both of her front paws; the round dusty grey-purple goblin looks down at their joined hands, then lifts his big googly eyes to her face, his shoulders loosening and a wide closed-mouth smile spreading as his eyes shine; her wings lift slightly as she holds on; on the twisted rope handrail just beside them तानसेन the bright green paper parrot with a red beak and pale cream neck ring hops a step closer along the rope, feathers ruffling; the stream moves below, the ropes sway gently, camera slowly pushing in at their height; warm last orange sunlight from the left, long soft shadows across the planks, peach-violet evening sky.",
+   "refs_note": null
+  },
+  {
+   "name": "c6_two_sleepers_breathe",
+   "refs": [
+    "vesper",
+    "tansen"
+   ],
+   "prompt": "A quiet locked-off night shot: वैस्पर the soft light-blue dragon boy asleep curled in the grass at the foot of a tall warm golden glow at the pond's edge, his cream belly rising and falling slowly with each breath, one wing slipping a little further over his eyes; directly above him तानसेन the bright green red-beaked parrot with a pale neck ring, a round ball of feathers on the top edge of the glow, puffs up and deflates in exactly the same rhythm, one eye opening lazily, blinking, and closing again as his beak sinks back into his wing; behind them the black-blue pond holds a gently shimmering reflection of the golden light, reeds barely stirring, stars steady in a deep blue sky.",
+   "why": "The joke and the closing button are entirely in the sync — two bodies breathing in the same rhythm — which only exists over time; a still just shows two sleepers."
+  }
+ ]
+}

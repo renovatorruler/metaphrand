@@ -11,7 +11,7 @@ type job = {img: string, aud: string, out: string}
 @scope("JSON") @val external parseJobs: string => array<job> = "parse"
 
 let main = async () => {
-  let jobs = parseJobs(readFileText(cwd() ++ "/../stories/kuku/ep3prod/lip_jobs.json", "utf8"))
+  let jobs = parseJobs(readFileText(cwd() ++ "/../stories/kuku/ep4prod/lip_jobs.json", "utf8"))
   let done_ = ref(0)
   for i in 0 to Belt.Array.length(jobs) - 1 {
     switch Belt.Array.get(jobs, i) {

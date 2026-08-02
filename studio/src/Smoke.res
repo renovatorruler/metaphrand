@@ -1,5 +1,5 @@
-/* Zero-spend smoke test of the warm Session. Point CLAUDE_STUDIO_BIN at the fake
-   model and run: `node src/Smoke.res.mjs`. Proves: one boot, two turns over the
+/* Zero-spend smoke test of the explicit fake-process Session mode. See
+   package.json for its test-only environment. Proves: one boot, two turns over the
    same process, serialization (despite the fake replying to turn 1 slowly), the
    usage telemetry, and a clean shutdown. */
 

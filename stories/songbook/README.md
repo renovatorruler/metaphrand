@@ -1,0 +1,28 @@
+# THE SONGBOOK — the songwriting project (folder opened 2026-08-02)
+
+All standalone songwriting lives here: song files, their Suno delivery packages, and the craft laws that govern them. One exception by design: the «माटी माँगे» album document stays at `stories/amal/2026-07-22_ALBUM_maati-maange.md`, because it is coupled to the AMAL show and under active work by a parallel session — this README indexes it rather than moving it.
+
+## The delivery spec (author's law)
+
+A song is not delivered until it has ALL of: (1) lyrics with performance/section tags, (2) the Suno STYLE field, (3) the Suno EXCLUDE field, (4) where continuity matters, the Persona note. Translation/gloss only when asked.
+
+## The craft laws (hard-won, in order of learning)
+
+1. LYRICS ARE DRAMA — the singer wants something from an addressee (address / command / question / vow). No inventory ("there was a man…").
+2. THE DEEPER LAYER (2026-08-02, the uncle song): fixing grammar is not enough — SCENE-DESCRIPTION VERSE is still inventory. Never narrate a routine and rhyme the stage directions ("he ties the turban, strokes the moustache" = «तुम सिर्फ बकवास का वर्णन कर रहे हो»). Real poems are ONE GOVERNING FIGURE THAT ARGUES, with a TURN the poem discovers (Kabir's clay addressing the potter; «उड़ जाएगा हंस अकेला»; «केसरिया बालम आओ नी»). Choose one image; let the image make the argument.
+3. EPIGRAM BUDGET — a real song mints ONE quotable line (the टेक) plus at most one earned turn. Five aphorisms in a song is the AI fingerprint. Folk verse breathes through redundancy and padding (रे, जी, repeated half-lines); density-without-meter is the machine signature.
+4. VALUES AUDIT (varna check, 2026-08-02): imagery must carry the RIGHT culture's values — «बोले कम, तौले पूरा» (weigh your words) is a merchant's virtue; the scale is the bania's organ (and तौल is the AMAL corruption image). Rajput speech-values: वचन (said once, stands — «बात का धणी»), दान (the open hand — the opposite of weighing), शरण (the frightened leave unafraid). Run every song's imagery against WHOSE values it encodes.
+5. HONORIFIC GRAMMAR (2026-08-02): I default to तू because bhakti/film corpora are तू-heavy and तू is metrically cheap. WRONG for court/elder registers: हुकुम + तुझे is a register collision. तू is legitimate for: bhakti-intimacy with God, kinship-diminutives (चंदा मामा), and contempt. The metric solution the tradition built: VERB-BORNE RESPECT — drop the pronoun, let पधारो-class verbs and जी/हुकुम vocatives carry आप-ness. The courtesy map of a song is part of its meaning (आप to the sun, तू dropped on the night = hierarchy in pure grammar).
+6. NO ARTIST NAMES in Suno style fields — describe the manner instead (see the Kumar-Gandharva-manner block in the uncle song file).
+7. AGING A VOICE — timbre words and framing, never "old": tremor/thin/reedy/cracked-at-phrase-ends/breath-audible + ARCHIVAL FRAMING ("archival live recording from decades ago, faint tape warmth"). Gravel is a different old than quaver — choose deliberately.
+8. FOR A LIVING LISTENER (the uncle-song constraint set): a dedication song a dying man will hear = no illness, no departure staging, no goodbye furniture; present-habitual tense; the adversary generic and dismissible; the listener's dignity is the design constraint. "Living elegy," never farewell.
+9. PERSONA LAW — one voice across an album: save the best take of track 1 as a Suno Persona, reuse for every track. A persona born from a sung take pulls toward singing; for spoken tracks add "the singer sets down his instrument and recites."
+10. SPOKEN-WORD RECIPE — tag every section [Spoken Word], style = "recitation, kavita paath, not singing," exclude = singing/melody/melisma/rap/beat/percussion. Expect 2–3 takes; discard drifting takes rather than hoping.
+
+## Index of cycles
+
+- «माटी माँगे» (Malwa album, AMAL-coupled) → `stories/amal/2026-07-22_ALBUM_maati-maange.md`. Tracks on paper: उठ रे जुझार (canonical sung text; the author's take exists), «बोल दे», «ले, नाग जी» (Tejaji), «बैठ जा» (Mahakal), and now «धीरे पधारो, हुकुम» (below; author-assigned to this album, dedicated to his uncle).
+- THE UNCLE SONG → `2026-08-02_SONG_dheere-padharo-hukum.md` — the full file: final lyrics, three rendering packages (folk ballad / spoken recitation / Malwa-Kabir nirgun with aged voice), and the complete craft trail of rejected versions.
+- BHOPAL CYCLE → `2026-07-29_SONG_dastak_bhopal.md` («दस्तक», the protection song) and `2026-07-29_SONG_tune-pukara-tha_bhopal.md» («तूने पुकारा था», the water/name song — author lukewarm; kept as material).
+- ODESSA / FAMILY → `2026-07-26_SONG_ne-s-nebes_odessa.md` (the airman's instructions, comic register — delivered) + the GRANDMOTHER LIVING-SONG design (concept converged, two open answers pending: war-silence vs one sideways line; first heard in a room vs alone).
+- Malwa glory shortlist (undrafted concepts, from the 2026-07-29 session): the proverb answered (कहाँ राजा भोज…), Kalidasa's cloud over Malwa, Roopmati's condition, the Sondani stone, «पग-पग रोटी» as a losing argument, Bhartrihari's refusal. Bhoj/Gangu development exists in chat history only — pull before writing.

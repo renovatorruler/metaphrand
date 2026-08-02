@@ -1,5 +1,8 @@
-/* See Session.resi for the contract. This is the warm-session implementation:
-   ONE long-lived `claude` process, booted once, fed many turns over a pipe. */
+/* See Session.resi for the contract. The default integration is now a
+   provider-neutral native-worker handoff. A host agent prepares a job here,
+   delegates it through its own native subagent mechanism, and places the
+   response at the job's declared responsePath. The legacy Claude process is
+   available only behind an explicit legacy opt-in; tests use an explicit fake. */
 
 type childProcess
 type writable
@@ -25,24 +28,90 @@ type spawnOpts = {stdio: array<string>}
 @val external clearTimeout: timerId => unit = "clearTimeout"
 @val @scope("process") external env: Js.Dict.t<string> = "env"
 
+type hash
+@module("crypto") external createHash: string => hash = "createHash"
+@send external hUpdate: (hash, string) => hash = "update"
+@send external hDigest: (hash, string) => string = "digest"
+
 exception SessionError(string)
 
-/* the hard call cap, read from the environment so YOU own it. Low default. */
-let cap = switch Js.Dict.get(env, "CLAUDE_STUDIO_BUDGET") {
-| Some(s) => Belt.Int.fromString(s)->Belt.Option.getWithDefault(8)
-| None => 8
+type nativeMode = {provider: string, jobDir: string}
+type executionMode =
+  | Native(nativeMode)
+  | FakeProcess(string)
+  | LegacyClaudeProcess(string)
+  | RefuseProcess(string)
+
+let envIs = (key, expected) => Js.Dict.get(env, key) == Some(expected)
+
+/* Provider identity is asserted by the trusted host/orchestrator and recorded
+   in the handoff. This module validates the closed set but never selects a
+   different provider on the host's behalf. */
+let executionMode = switch Js.Dict.get(env, "STUDIO_NATIVE_WORKER_PROVIDER") {
+| Some(provider) if provider == "codex" || provider == "claude" =>
+  switch Js.Dict.get(env, "STUDIO_NATIVE_JOB_DIR") {
+  | Some(jobDir) if Js.String2.trim(jobDir) != "" => Native({provider, jobDir})
+  | _ => RefuseProcess("STUDIO_NATIVE_JOB_DIR is required for native-worker handoff")
+  }
+| Some(provider) =>
+  RefuseProcess(
+    "STUDIO_NATIVE_WORKER_PROVIDER must be 'codex' or 'claude'; got '" ++ provider ++ "'",
+  )
+| None if envIs("STUDIO_FAKE_WORKER", "1") =>
+  switch Js.Dict.get(env, "STUDIO_FAKE_WORKER_BIN") {
+  | Some(bin) if Js.String2.trim(bin) != "" => FakeProcess(bin)
+  | _ => RefuseProcess("STUDIO_FAKE_WORKER=1 requires STUDIO_FAKE_WORKER_BIN")
+  }
+| None if envIs("STUDIO_ALLOW_CLAUDE_CLI", "1") =>
+  LegacyClaudeProcess(Js.Dict.get(env, "CLAUDE_STUDIO_BIN")->Belt.Option.getWithDefault("claude"))
+| None =>
+  RefuseProcess(
+    "no native worker handoff is configured; refusing to choose or spawn a model provider",
+  )
 }
-/* the binary; overridable only so tests can point at a fake model (zero spend). */
-let bin = switch Js.Dict.get(env, "CLAUDE_STUDIO_BIN") {
-| Some(b) => b
-| None => "claude"
+
+let budgetName = switch executionMode {
+| Native(_) | FakeProcess(_) | RefuseProcess(_) => "STUDIO_WORKER_BUDGET"
+| LegacyClaudeProcess(_) => "CLAUDE_STUDIO_BUDGET"
 }
-let timeoutMs = 150000
+
+/* The hard call cap is deliberately NOT defaulted. A run without a human-held
+   budget refuses before it emits a native job or starts an opted-in process. */
+let cap: result<int, string> = switch Js.Dict.get(env, budgetName) {
+| None => Error(budgetName ++ " is not set; refusing a model call")
+| Some(s) =>
+  switch Belt.Int.fromString(s) {
+  | Some(n) if n > 0 => Ok(n)
+  | _ => Error(budgetName ++ " must be a positive integer; got '" ++ s ++ "'")
+  }
+}
+
+let processBin = switch executionMode {
+| FakeProcess(bin) | LegacyClaudeProcess(bin) => bin
+| Native(_) | RefuseProcess(_) => ""
+}
+/* Overridable so the fake-process tests can prove timeout isolation in
+   milliseconds rather than waiting two and a half minutes. */
+let timeoutSetting = switch Js.Dict.get(env, "STUDIO_WORKER_TIMEOUT_MS") {
+| Some(s) => Some(s)
+| None => Js.Dict.get(env, "CLAUDE_STUDIO_TIMEOUT_MS")
+}
+let timeoutMs = switch timeoutSetting {
+| Some(s) =>
+  switch Belt.Int.fromString(s) {
+  | Some(n) if n > 0 => n
+  | _ => 150000
+  }
+| None => 150000
+}
 let calls = ref(0)
 
 /* ---- the one warm process, lazily spawned, reused for every turn ---- */
 let child: ref<option<childProcess>> = ref(None)
 let buf = ref("")
+/* Each spawned process gets a generation. Callbacks from a killed/timed-out
+   generation are ignored, so a late result can never settle the next turn. */
+let generation = ref(0)
 /* there is only ever ONE turn in flight (serialized below), so a single slot
    for its resolver/rejecter/timeout is all that's needed. */
 let pending: ref<option<string => unit>> = ref(None)
@@ -149,8 +218,10 @@ let ensureChild = (): childProcess =>
   switch child.contents {
   | Some(c) => c
   | None =>
+    generation := generation.contents + 1
+    let mine = generation.contents
     let c = spawn(
-      bin,
+      processBin,
       [
         "-p",
         "--input-format",
@@ -171,10 +242,17 @@ let ensureChild = (): childProcess =>
       {stdio: ["pipe", "pipe", "inherit"]},
     )
     setEncoding(stdoutOf(c), "utf8")
-    onData(stdoutOf(c), onChunk)
+    onData(stdoutOf(c), chunk => {
+      if generation.contents == mine {
+        onChunk(chunk)
+      }
+    })
     onProcExit(c, _ => {
-      child := None
-      settleErr("the claude process exited before answering")
+      if generation.contents == mine {
+        child := None
+        buf := ""
+        settleErr("the claude process exited before answering")
+      }
     })
     /* unref so a forgotten `close` can't hang the run forever; an in-flight
        turn is kept alive by its own timeout timer, so events still arrive. */
@@ -184,6 +262,18 @@ let ensureChild = (): childProcess =>
     child := Some(c)
     c
   }
+
+/* Invalidate before killing: the process can emit more data, or its exit event
+   can arrive after a replacement has already started. Both callbacks then carry
+   an old generation and are harmless. */
+let abortChild = (c: childProcess, mine: int): unit => {
+  if generation.contents == mine {
+    child := None
+    buf := ""
+    generation := generation.contents + 1
+    kill(c)->ignore
+  }
+}
 
 /* one user message in -> one result line out. */
 let userMsg = (prompt: string): string => {
@@ -201,26 +291,116 @@ let userMsg = (prompt: string): string => {
 
 let waitForResult = (prompt: string): promise<string> =>
   Js.Promise.make((~resolve, ~reject) => {
+    let c = ensureChild()
+    let mine = generation.contents
     pending := Some(text => resolve(. text))
     pendingErr := Some(e => reject(. e))
-    pendingTimer := Some(setTimeout(() => settleErr("model turn timed out"), timeoutMs))
-    let c = ensureChild()
+    pendingTimer := Some(
+      setTimeout(() => {
+        abortChild(c, mine)
+        settleErr("model turn timed out")
+      }, timeoutMs),
+    )
     write(stdinOf(c), userMsg(prompt))->ignore
   })
+
+let sha256 = s => createHash("sha256")->hUpdate(s)->hDigest("hex")
+
+let unresolvedJobOtherThan = (~jobDir, ~currentName): option<string> => {
+  let jobSuffix = ".job.json"
+  Cinema_Backends.readDir(Cinema_Backends.Path(jobDir))->Belt.Array.getBy(name => {
+    if name == currentName || !Js.String2.endsWith(name, jobSuffix) {
+      false
+    } else {
+      let stem = Js.String2.slice(
+        name,
+        ~from=0,
+        ~to_=Js.String2.length(name) - Js.String2.length(jobSuffix),
+      )
+      !Cinema_Backends.exists(Cinema_Backends.Path(jobDir ++ "/" ++ stem ++ ".response.txt"))
+    }
+  })
+}
+
+let nativeResult = ({provider, jobDir}: nativeMode, prompt: string, turn: int): string => {
+  let promptHash = sha256(prompt)
+  let shortHash = Js.String2.slice(promptHash, ~from=0, ~to_=12)
+  let stem = "turn-" ++ Belt.Int.toString(turn) ++ "-" ++ shortHash
+  let jobName = stem ++ ".job.json"
+  let jobPath = jobDir ++ "/" ++ jobName
+  let responsePath = jobDir ++ "/" ++ stem ++ ".response.txt"
+  let response = Cinema_Backends.Path(responsePath)
+  if Cinema_Backends.exists(response) {
+    let text = Cinema_Backends.readText(response)->Js.String2.trim
+    if text == "" {
+      raise(SessionError("native worker response is empty: " ++ responsePath))
+    }
+    text
+  } else {
+    Cinema_Backends.ensureDirPath(Cinema_Backends.Path(jobDir))
+    switch unresolvedJobOtherThan(~jobDir, ~currentName=jobName) {
+    | Some(pendingJob) =>
+      raise(
+        SessionError(
+          "NATIVE_WORKER_PENDING — complete " ++
+          jobDir ++ "/" ++ pendingJob ++ " before requesting another worker job",
+        ),
+      )
+    | None =>
+      if !Cinema_Backends.exists(Cinema_Backends.Path(jobPath)) {
+        let job = Js.Dict.empty()
+        Js.Dict.set(job, "schemaVersion", Js.Json.number(1.0))
+        Js.Dict.set(job, "provider", Js.Json.string(provider))
+        Js.Dict.set(job, "turn", Js.Json.number(Belt.Int.toFloat(turn)))
+        Js.Dict.set(job, "promptHash", Js.Json.string(promptHash))
+        Js.Dict.set(job, "prompt", Js.Json.string(prompt))
+        Js.Dict.set(job, "responsePath", Js.Json.string(responsePath))
+        Js.Dict.set(
+          job,
+          "instruction",
+          Js.Json.string(
+            "Use one native " ++
+            provider ++
+            " worker for this bounded job. Write only its final response to responsePath; do not use another provider or a command-line model worker.",
+          ),
+        )
+        Cinema_Backends.writeText(
+          Cinema_Backends.Path(jobPath),
+          Js.Json.stringifyWithSpace(Js.Json.object_(job), 2),
+        )
+      }
+      raise(
+        SessionError(
+          "NATIVE_WORKER_REQUIRED — delegate " ++
+          jobPath ++ " through a native " ++ provider ++ " worker, then retry this turn",
+        ),
+      )
+    }
+  }
+}
 
 /* the actual work of one turn; runs only when its place in the queue comes up,
    so the cap is counted against turns that truly execute, in order. */
 let doTurn = async (prompt: string): string => {
-  if calls.contents + 1 > cap {
-    raise(
-      SessionError(
-        "model cap reached (" ++
-        Belt.Int.toString(cap) ++ "); set CLAUDE_STUDIO_BUDGET to allow more",
-      ),
-    )
+  let limit = switch cap {
+  | Error(m) => raise(SessionError(m))
+  | Ok(n) => n
   }
-  calls := calls.contents + 1 /* count only turns that actually reach the model */
-  await waitForResult(prompt)
+  if calls.contents + 1 > limit {
+    raise(SessionError("model cap reached (" ++ Belt.Int.toString(limit) ++ ")"))
+  }
+  switch executionMode {
+  | Native(mode) => {
+      let answer = nativeResult(mode, prompt, calls.contents + 1)
+      calls := calls.contents + 1
+      answer
+    }
+  | FakeProcess(_) | LegacyClaudeProcess(_) => {
+      calls := calls.contents + 1 /* count only turns that actually reach the model */
+      await waitForResult(prompt)
+    }
+  | RefuseProcess(reason) => raise(SessionError(reason))
+  }
 }
 
 /* the serialization queue. `gate` resolves when the previous turn is fully
@@ -251,11 +431,21 @@ let ask = (prompt: string): promise<string> => {
 
 let callsMade = () => calls.contents
 
+let workerProvider = () =>
+  switch executionMode {
+  | Native({provider}) => provider
+  | FakeProcess(_) => "fake"
+  | LegacyClaudeProcess(_) => "claude-cli"
+  | RefuseProcess(_) => "none"
+  }
+
 let close = () =>
   switch child.contents {
   | None => ()
   | Some(c) =>
+    child := None
+    buf := ""
+    generation := generation.contents + 1
     endStream(stdinOf(c))
     kill(c)->ignore
-    child := None
   }

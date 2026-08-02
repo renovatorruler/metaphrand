@@ -1,0 +1,313 @@
+{
+ "rate_usd_per_sec": 0.14,
+ "eligible_shots": 86,
+ "eligible_secs": 464.2,
+ "chosen_shots": 27,
+ "chosen_secs": 177.1,
+ "cost_usd": 24.8,
+ "beats_forced": 9,
+ "shots": [
+  {
+   "scene": "s1",
+   "seg": 1,
+   "who": "FYURIA",
+   "still": "e5_d1_fyuria",
+   "takes": [
+    2
+   ],
+   "secs": 4.72,
+   "beat": null
+  },
+  {
+   "scene": "s1",
+   "seg": 8,
+   "who": "FYURIA",
+   "still": "e5_d1_fyuria",
+   "takes": [
+    13
+   ],
+   "secs": 4.08,
+   "beat": null
+  },
+  {
+   "scene": "s2",
+   "seg": 2,
+   "who": "DADI",
+   "still": "e5_d2_dadi",
+   "takes": [
+    22
+   ],
+   "secs": 5.2,
+   "beat": null
+  },
+  {
+   "scene": "s3",
+   "seg": 1,
+   "who": "KUKU",
+   "still": "e5_d3_kuku",
+   "takes": [
+    33
+   ],
+   "secs": 4.32,
+   "beat": null
+  },
+  {
+   "scene": "s3",
+   "seg": 6,
+   "who": "VESPER",
+   "still": "e5_d3_vesper",
+   "takes": [
+    38
+   ],
+   "secs": 2.48,
+   "beat": null
+  },
+  {
+   "scene": "s4",
+   "seg": 1,
+   "who": "KUKU",
+   "still": "e5_d4_kuku",
+   "takes": [
+    45
+   ],
+   "secs": 3.12,
+   "beat": null
+  },
+  {
+   "scene": "s4",
+   "seg": 6,
+   "who": "DADI",
+   "still": "e5_d4_dadi",
+   "takes": [
+    54
+   ],
+   "secs": 18.4,
+   "beat": "Dadi: the three parts of P (the lesson)"
+  },
+  {
+   "scene": "s4",
+   "seg": 10,
+   "who": "DADI",
+   "still": "e5_d4_dadi",
+   "takes": [
+    52
+   ],
+   "secs": 4.96,
+   "beat": null
+  },
+  {
+   "scene": "s4",
+   "seg": 14,
+   "who": "DADI",
+   "still": "e5_d4_dadi",
+   "takes": [
+    59,
+    61,
+    62
+   ],
+   "secs": 18.32,
+   "beat": null
+  },
+  {
+   "scene": "s5",
+   "seg": 5,
+   "who": "KUKU",
+   "still": "e5_d5_kuku",
+   "takes": [
+    71
+   ],
+   "secs": 7.76,
+   "beat": "Kuku: maybe I am small, so my letter..."
+  },
+  {
+   "scene": "s5",
+   "seg": 6,
+   "who": "DADI",
+   "still": "e5_d5_dadi",
+   "takes": [
+    72
+   ],
+   "secs": 6.0,
+   "beat": "Dadi: the letter is not weak, the place is wrong"
+  },
+  {
+   "scene": "s5",
+   "seg": 7,
+   "who": "KUKU",
+   "still": "e5_d5_kuku",
+   "takes": [
+    73
+   ],
+   "secs": 1.84,
+   "beat": null
+  },
+  {
+   "scene": "s6",
+   "seg": 1,
+   "who": "KUKU",
+   "still": "e5_d6_kuku",
+   "takes": [
+    77
+   ],
+   "secs": 7.68,
+   "beat": null
+  },
+  {
+   "scene": "s6",
+   "seg": 6,
+   "who": "FYURIA",
+   "still": "e5_d6_fyuria",
+   "takes": [
+    83
+   ],
+   "secs": 2.48,
+   "beat": null
+  },
+  {
+   "scene": "s6",
+   "seg": 15,
+   "who": "DADI",
+   "still": "e5_d6_dadi",
+   "takes": [
+    92
+   ],
+   "secs": 3.6,
+   "beat": null
+  },
+  {
+   "scene": "s6",
+   "seg": 20,
+   "who": "VESPER",
+   "still": "e5_d6_vesper",
+   "takes": [
+    98
+   ],
+   "secs": 3.36,
+   "beat": null
+  },
+  {
+   "scene": "s6",
+   "seg": 21,
+   "who": "KUKU",
+   "still": "e5_d6_kuku",
+   "takes": [
+    99
+   ],
+   "secs": 3.52,
+   "beat": "Kuku: my letter itself is weak"
+  },
+  {
+   "scene": "s6",
+   "seg": 24,
+   "who": "FYURIA",
+   "still": "e5_d6_fyuria",
+   "takes": [
+    102,
+    103,
+    104
+   ],
+   "secs": 26.8,
+   "beat": "Fyuria: I broke the bridge"
+  },
+  {
+   "scene": "s6",
+   "seg": 26,
+   "who": "PAPA",
+   "still": "e5_d6_papa",
+   "takes": [
+    106
+   ],
+   "secs": 4.48,
+   "beat": null
+  },
+  {
+   "scene": "s7",
+   "seg": 2,
+   "who": "MITASUR",
+   "still": "e5_d7_mitasur",
+   "takes": [
+    110
+   ],
+   "secs": 2.8,
+   "beat": null
+  },
+  {
+   "scene": "s7",
+   "seg": 6,
+   "who": "PAPA",
+   "still": "e5_d7_papa",
+   "takes": [
+    114
+   ],
+   "secs": 3.76,
+   "beat": "Papa: I built this bridge"
+  },
+  {
+   "scene": "s7",
+   "seg": 8,
+   "who": "PAPA",
+   "still": "e5_d7_papa",
+   "takes": [
+    116
+   ],
+   "secs": 8.48,
+   "beat": "Papa: I set the middle pier on sand"
+  },
+  {
+   "scene": "s7",
+   "seg": 9,
+   "who": "FYURIA",
+   "still": "e5_d7_fyuria",
+   "takes": [
+    117
+   ],
+   "secs": 0.96,
+   "beat": null
+  },
+  {
+   "scene": "s7",
+   "seg": 10,
+   "who": "PAPA",
+   "still": "e5_d7_papa",
+   "takes": [
+    118,
+    119
+   ],
+   "secs": 14.88,
+   "beat": "Papa: I put it off because telling was hard"
+  },
+  {
+   "scene": "s7",
+   "seg": 14,
+   "who": "MITASUR",
+   "still": "e5_d7_mitasur",
+   "takes": [
+    123
+   ],
+   "secs": 3.76,
+   "beat": null
+  },
+  {
+   "scene": "s8",
+   "seg": 8,
+   "who": "MITASUR",
+   "still": "e5_d8_mitasur",
+   "takes": [
+    138
+   ],
+   "secs": 4.24,
+   "beat": null
+  },
+  {
+   "scene": "s8",
+   "seg": 12,
+   "who": "DADI",
+   "still": "e5_d8_dadi",
+   "takes": [
+    142
+   ],
+   "secs": 5.12,
+   "beat": "Dadi: the mistake was small, hiding made it big"
+  }
+ ]
+}

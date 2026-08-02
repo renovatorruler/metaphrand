@@ -61,7 +61,7 @@
      ]
     },
     {
-     "src": "still:e4_play_kids",
+     "src": "still:e4_kuku_house",
      "takes": [
       {
        "i": 7,
@@ -79,7 +79,7 @@
      ]
     },
     {
-     "src": "still:e4_play_kids",
+     "src": "still:e4_kuku_house",
      "takes": [
       {
        "i": 9,
@@ -128,7 +128,7 @@
      ]
     },
     {
-     "src": "still:e4_play_kids",
+     "src": "still:e4_kuku_house",
      "takes": [
       {
        "i": 13,
@@ -142,10 +142,11 @@
      "takes": [
       {
        "sfx": "drip_slow",
-       "at": 0.4,
+       "at": 0.3,
        "duck": false
       }
-     ]
+     ],
+     "bridge": true
     }
    ]
   },
@@ -344,7 +345,7 @@
      ]
     },
     {
-     "src": "still:e4_toddlers_play",
+     "src": "still:e4_toddlers_bedside",
      "takes": [
       {
        "i": 31,
@@ -367,15 +368,11 @@
      ]
     },
     {
-     "src": "still:e4_nal_old",
-     "takes": [
-      {
-       "sfx": "drip_slow",
-       "at": 8.2,
-       "duck": false
-      }
-     ],
-     "dur": 11.0
+     "src": "clip:c51_germs",
+     "in": 0.0,
+     "dur": 9.5,
+     "takes": [],
+     "bridge": true
     },
     {
      "src": "still:e4_kuku_worried",
@@ -536,6 +533,14 @@
        "sfx": "magic_chime",
        "at": 8.6
       }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_n.png",
+       "at": 7.9,
+       "scale": 0.3,
+       "pos": "c"
+      }
      ]
     },
     {
@@ -545,7 +550,7 @@
      "bridge": true,
      "takes": [
       {
-       "sfx": "water_pour",
+       "sfx": "water_run_long",
        "at": 0.4,
        "duck": false
       },
@@ -553,26 +558,18 @@
        "i": 50,
        "at": 1.2
       }
-     ],
-     "fx": [
-      {
-       "png": "glyphs/fx_n.png",
-       "at": 0.2,
-       "scale": 0.2,
-       "pos": "tc"
-      }
      ]
     },
     {
-     "src": "still:e4_wash_line",
+     "src": "still:e4_nal_new",
      "takes": [
       {
        "i": 51,
-       "at": 0.4
+       "at": 2.3
       },
       {
        "sfx": "kalu_happy",
-       "at": 5.2,
+       "at": 7.4,
        "duck": false
       }
      ]
@@ -639,6 +636,18 @@
      ]
     },
     {
+     "src": "clip:c52_washed",
+     "in": 0.0,
+     "dur": 4.6,
+     "takes": [
+      {
+       "sfx": "splash_play",
+       "at": 0.3,
+       "duck": false
+      }
+     ]
+    },
+    {
      "src": "still:e4_wash_line",
      "takes": [
       {
@@ -695,16 +704,21 @@
      "takes": [
       {
        "i": 62,
-       "at": 1.0
+       "at": 0.7
       },
       {
        "sfx": "sponge_lather",
-       "at": 5.4,
+       "at": 7.6,
        "duck": false
-      },
+      }
+     ]
+    },
+    {
+     "src": "still:e4_wash_line",
+     "takes": [
       {
        "i": 63,
-       "at": 6.2
+       "at": 0.4
       }
      ]
     },
@@ -773,16 +787,20 @@
      ]
     },
     {
-     "src": "still:e4_fyuria_worried",
+     "src": "clip:c49_hush",
+     "in": 3.0,
+     "dur": 7.0,
      "takes": [
       {
        "i": 69,
        "at": 0.4
       }
-     ]
+     ],
+     "bridge": true
     },
     {
-     "src": "still:e4_dadi_bedside",
+     "src": "still:e4_dadi_night_bedside",
+     "dur": 9.0,
      "takes": [
       {
        "i": 70,
@@ -793,8 +811,7 @@
        "at": 4.2,
        "duck": false
       }
-     ],
-     "dur": 9.0
+     ]
     }
    ]
   },
@@ -873,7 +890,7 @@
    "segments": [
     {
      "src": "still:s_dadi_night_e4",
-     "dur": 7.0,
+     "dur": 5.4,
      "bridge": true,
      "takes": [
       {
@@ -884,21 +901,21 @@
     },
     {
      "src": "still:e3_reechh_grass",
-     "dur": 4.0
+     "dur": 2.9
     },
     {
      "src": "file:../ep3prod/clips/c33_rolling.mp4",
      "in": 5.0,
-     "dur": 4.0
+     "dur": 2.9
     },
     {
-     "src": "clip:c47_wash_game",
-     "in": 2.0,
-     "dur": 4.5
+     "src": "clip:c51_germs",
+     "in": 0.5,
+     "dur": 4.2
     },
     {
      "src": "still:s_dadi_night_e4",
-     "dur": 4.2
+     "dur": 6.4
     },
     {
      "src": "still:s_fyuria_kitab_e4",

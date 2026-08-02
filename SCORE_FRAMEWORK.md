@@ -81,8 +81,9 @@ Each theme is defined by (a) a recognisable melodic/timbral seed, and (b) its **
 
 ## 5. Realization — brief → cue
 
-- **Tooling:** ElevenLabs Music API (`force_instrumental`) as primary; MusicGen as fallback (the INDIVISIBLE
-  score path, `examples/score.py`).
+- **Tooling:** ElevenLabs Music API (`force_instrumental`) through
+  `studio/src/Cinema_Backends.res`; project cue drivers such as `Kuku_ScoreEp6.res`
+  hold the spotting data.
 - **Brief → prompt:** the mood brief becomes the generation prompt — instrumentation + mood-arc + the
   named leitmotif/state as the melodic intent. Keep the Lynch language; it generates better moods than
   technical terms.

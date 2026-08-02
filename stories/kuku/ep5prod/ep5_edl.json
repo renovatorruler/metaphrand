@@ -1,0 +1,1424 @@
+{
+ "scenes": [
+  {
+   "name": "s0_card",
+   "cue": "score/cueP3_teach.mp3",
+   "score_vol": 0.4,
+   "segments": [
+    {
+     "src": "card:p1",
+     "dur": 3.2,
+     "takes": []
+    }
+   ]
+  },
+  {
+   "name": "s1",
+   "cue": "score/cueP1_kite.mp3",
+   "segments": [
+    {
+     "src": "clip:c51_kite_fly",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 1,
+       "at": 0.9
+      },
+      {
+       "i": 3,
+       "at": 4.93
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s1_01.mp4",
+     "takes": [
+      {
+       "i": 2
+      }
+     ],
+     "still_was": "e5_d1_fyuria"
+    },
+    {
+     "src": "still:e5_d1_toddlers",
+     "takes": [
+      {
+       "i": 4
+      },
+      {
+       "i": 5
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d1_vesper",
+     "takes": [
+      {
+       "sfx": "wind_gust",
+       "at": 0.27,
+       "duck": false
+      },
+      {
+       "i": 6
+      }
+     ]
+    },
+    {
+     "src": "clip:c52_kite_snap",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 7,
+       "at": 0.9
+      },
+      {
+       "i": 9,
+       "at": 6.29
+      },
+      {
+       "sfx": "string_snap",
+       "at": 2.0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d1_kuku",
+     "takes": [
+      {
+       "i": 8
+      }
+     ]
+    },
+    {
+     "src": "clip:c53_fyuria_cross",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 10,
+       "at": 0.9
+      },
+      {
+       "i": 11,
+       "at": 2.93
+      },
+      {
+       "i": 14,
+       "at": 5.76
+      },
+      {
+       "sfx": "run_planks",
+       "at": 0.4,
+       "duck": false
+      },
+      {
+       "sfx": "two_foot_thud",
+       "at": 4.4,
+       "duck": false
+      },
+      {
+       "sfx": "crack_kadak",
+       "at": 4.75,
+       "duck": false
+      },
+      {
+       "sfx": "run_planks",
+       "at": 0.4,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d1_vesper",
+     "takes": [
+      {
+       "sfx": "stream_loud",
+       "at": 0.02,
+       "duck": false
+      },
+      {
+       "i": 12
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s1_08.mp4",
+     "takes": [
+      {
+       "i": 13
+      }
+     ],
+     "still_was": "e5_d1_fyuria"
+    },
+    {
+     "src": "still:e5_d1_vesper",
+     "takes": [
+      {
+       "i": 15
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d1_kuku",
+     "takes": [
+      {
+       "i": 16
+      },
+      {
+       "sfx": "kalu_scared_bark",
+       "duck": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s2",
+   "cue": "score/cueP2_break.mp3",
+   "segments": [
+    {
+     "src": "clip:c54_group_cross",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 19,
+       "at": 0.9
+      },
+      {
+       "i": 20,
+       "at": 2.85
+      },
+      {
+       "i": 25,
+       "at": 4.72
+      },
+      {
+       "i": 28,
+       "at": 7.55
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d2_dadi",
+     "takes": [
+      {
+       "sfx": "evening_crickets",
+       "at": 0.52,
+       "duck": false
+      },
+      {
+       "sfx": "stone_knock",
+       "at": 0.27,
+       "duck": false
+      },
+      {
+       "sfx": "stick_taps",
+       "at": 0.02,
+       "duck": false
+      },
+      {
+       "sfx": "rope_creak",
+       "at": 0.27,
+       "duck": false
+      },
+      {
+       "sfx": "run_planks",
+       "at": 0.02,
+       "duck": false
+      },
+      {
+       "i": 18
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s2_02.mp4",
+     "takes": [
+      {
+       "i": 22
+      }
+     ],
+     "still_was": "e5_d2_dadi"
+    },
+    {
+     "src": "still:e5_d2_vesper",
+     "takes": [
+      {
+       "i": 23
+      }
+     ]
+    },
+    {
+     "src": "still:e5_bridge_wide",
+     "takes": [
+      {
+       "i": 24
+      }
+     ]
+    },
+    {
+     "src": "still:e5_fyuria_claim",
+     "takes": [
+      {
+       "i": 26
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d2_dadi",
+     "takes": [
+      {
+       "sfx": "rope_creak",
+       "at": 0.27,
+       "duck": false
+      },
+      {
+       "sfx": "run_planks",
+       "at": 0.02,
+       "duck": false
+      },
+      {
+       "i": 27
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d2_fyuria",
+     "takes": [
+      {
+       "i": 29
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s3",
+   "cue": "score/cueP2_break.mp3",
+   "segments": [
+    {
+     "src": "clip:c55_collapse",
+     "in": 0.0,
+     "dur": 10.0,
+     "takes": [
+      {
+       "sfx": "bridge_collapse",
+       "at": 5.0,
+       "duck": false
+      },
+      {
+       "i": 31,
+       "at": 0.9
+      },
+      {
+       "i": 32,
+       "at": 6.05
+      },
+      {
+       "i": 44,
+       "at": 8.32
+      }
+     ],
+     "bridge": true
+    },
+    {
+     "src": "file:lipclips/s3_01.mp4",
+     "takes": [
+      {
+       "i": 33
+      }
+     ],
+     "still_was": "e5_d3_kuku"
+    },
+    {
+     "src": "still:e5_d3_dadi",
+     "takes": [
+      {
+       "i": 34
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d3_kuku",
+     "takes": [
+      {
+       "i": 35
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d3_fyuria",
+     "takes": [
+      {
+       "i": 36
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d3_dadi",
+     "takes": [
+      {
+       "i": 37
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s3_06.mp4",
+     "takes": [
+      {
+       "i": 38
+      }
+     ],
+     "still_was": "e5_d3_vesper"
+    },
+    {
+     "src": "still:e5_d3_dadi",
+     "takes": [
+      {
+       "sfx": "stream_loud",
+       "at": 0.27,
+       "duck": false
+      },
+      {
+       "sfx": "birds_scatter2",
+       "at": 0.02,
+       "duck": false
+      },
+      {
+       "i": 39
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d3_toddlers",
+     "takes": [
+      {
+       "i": 40
+      },
+      {
+       "i": 41
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d3_vesper",
+     "takes": [
+      {
+       "i": 42
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d3_kuku",
+     "takes": [
+      {
+       "i": 43
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s4",
+   "cue": "score/cueP3_teach.mp3",
+   "segments": [
+    {
+     "src": "still:e5_dadi_far",
+     "dur": 2.52,
+     "takes": []
+    },
+    {
+     "src": "file:lipclips/s4_01.mp4",
+     "takes": [
+      {
+       "i": 45
+      }
+     ],
+     "still_was": "e5_d4_kuku"
+    },
+    {
+     "src": "still:e5_d4_dadi",
+     "takes": [
+      {
+       "i": 46
+      }
+     ]
+    },
+    {
+     "src": "card:p1",
+     "dur": 7.22,
+     "takes": [
+      {
+       "i": 47,
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "card:p1",
+     "dur": 3.14,
+     "takes": [
+      {
+       "i": 48,
+       "at": 0.2
+      }
+     ]
+    },
+    {
+     "src": "seq",
+     "cards": [
+      "p3",
+      "p4",
+      "p5",
+      "p6"
+     ],
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 49,
+       "at": 0.25
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s4_06.mp4",
+     "takes": [
+      {
+       "i": 54,
+       "at": 0.3
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_p.png",
+       "at": 0.5,
+       "scale": 0.24,
+       "pos": "tc"
+      }
+     ],
+     "still_was": "e5_d4_dadi"
+    },
+    {
+     "src": "still:e5_d4_dadi",
+     "takes": [
+      {
+       "i": 56,
+       "at": 0.3
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_p.png",
+       "at": 0.3,
+       "scale": 0.24,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d4_dadi",
+     "takes": [
+      {
+       "i": 57,
+       "at": 0.3
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_p.png",
+       "at": 0.3,
+       "scale": 0.24,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d4_toddlers",
+     "takes": [
+      {
+       "i": 50
+      },
+      {
+       "i": 51
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s4_10.mp4",
+     "takes": [
+      {
+       "i": 52
+      }
+     ],
+     "still_was": "e5_d4_dadi"
+    },
+    {
+     "src": "still:e5_d4_kuku",
+     "takes": [
+      {
+       "i": 53
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d4_kuku",
+     "takes": [
+      {
+       "i": 55
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d4_kuku",
+     "takes": [
+      {
+       "i": 58
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s4_14.mp4",
+     "takes": [
+      {
+       "i": 59
+      },
+      {
+       "i": 61
+      },
+      {
+       "i": 62
+      }
+     ],
+     "still_was": "e5_d4_dadi"
+    },
+    {
+     "src": "clip:c56_bear_slip",
+     "in": 0.0,
+     "dur": 8.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 63,
+       "at": 0.9
+      },
+      {
+       "sfx": "bear_wade_slip",
+       "at": 4.2,
+       "duck": false
+      },
+      {
+       "sfx": "splash_bear",
+       "at": 5.0,
+       "duck": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s5",
+   "cue": "score/cueP4_search.mp3",
+   "segments": [
+    {
+     "src": "clip:c57_forge_fail",
+     "in": 0.0,
+     "dur": 10.0,
+     "fx": [
+      {
+       "png": "glyphs/fx_p.png",
+       "at": 2.25,
+       "scale": 0.3,
+       "pos": "tc"
+      }
+     ],
+     "bridge": true,
+     "takes": [
+      {
+       "i": 64,
+       "at": 0.9
+      },
+      {
+       "i": 65,
+       "at": 2.85
+      },
+      {
+       "i": 66,
+       "at": 5.28
+      },
+      {
+       "sfx": "letter_land_sink",
+       "at": 6.4,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d5_kuku",
+     "takes": [
+      {
+       "i": 67
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d5_vesper",
+     "takes": [
+      {
+       "i": 68
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d5_kuku",
+     "takes": [
+      {
+       "sfx": "stream_loud",
+       "at": 0.27,
+       "duck": false
+      },
+      {
+       "i": 69
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d5_vesper",
+     "takes": [
+      {
+       "sfx": "letter_bump",
+       "at": 0.02,
+       "duck": false
+      },
+      {
+       "i": 70
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s5_05.mp4",
+     "takes": [
+      {
+       "i": 71
+      }
+     ],
+     "still_was": "e5_d5_kuku"
+    },
+    {
+     "src": "file:lipclips/s5_06.mp4",
+     "takes": [
+      {
+       "i": 72
+      }
+     ],
+     "still_was": "e5_d5_dadi"
+    },
+    {
+     "src": "file:lipclips/s5_07.mp4",
+     "takes": [
+      {
+       "i": 73
+      }
+     ],
+     "still_was": "e5_d5_kuku"
+    },
+    {
+     "src": "still:e5_d5_dadi",
+     "takes": [
+      {
+       "i": 74
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d5_fyuria",
+     "takes": [
+      {
+       "i": 75
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s6",
+   "cue": "score/cueP4_search.mp3",
+   "segments": [
+    {
+     "src": "still:e5_d6_mitasur",
+     "takes": [
+      {
+       "i": 76,
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s6_01.mp4",
+     "takes": [
+      {
+       "i": 77,
+       "at": 0.3
+      }
+     ],
+     "still_was": "e5_d6_kuku"
+    },
+    {
+     "src": "clip:c58_search",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "sfx": "hands_in_water",
+       "at": 0.2,
+       "duck": false
+      },
+      {
+       "i": 78,
+       "at": 1.2
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d6_kuku",
+     "takes": [
+      {
+       "i": 79,
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d6_mitasur",
+     "takes": [
+      {
+       "i": 80,
+       "at": 0.3
+      },
+      {
+       "i": 82
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d6_kuku",
+     "takes": [
+      {
+       "i": 81,
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s6_06.mp4",
+     "takes": [
+      {
+       "i": 83
+      }
+     ],
+     "still_was": "e5_d6_fyuria"
+    },
+    {
+     "src": "still:e5_d6_dadi",
+     "takes": [
+      {
+       "i": 84
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d6_toddlers",
+     "takes": [
+      {
+       "i": 85
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d6_dadi",
+     "takes": [
+      {
+       "i": 86
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d6_toddlers",
+     "takes": [
+      {
+       "i": 87
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d6_dadi",
+     "takes": [
+      {
+       "i": 88
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d6_vesper",
+     "takes": [
+      {
+       "i": 89
+      }
+     ]
+    },
+    {
+     "src": "still:e5_bridge_broken",
+     "takes": [
+      {
+       "i": 90
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d6_mitasur",
+     "takes": [
+      {
+       "i": 91
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s6_15.mp4",
+     "takes": [
+      {
+       "i": 92
+      }
+     ],
+     "still_was": "e5_d6_dadi"
+    },
+    {
+     "src": "still:e5_d6_mitasur",
+     "takes": [
+      {
+       "i": 93
+      },
+      {
+       "sfx": "kalu_scared_bark",
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d6_toddlers",
+     "takes": [
+      {
+       "sfx": "kalu_scared_bark",
+       "at": 0.02,
+       "duck": false
+      },
+      {
+       "i": 95
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d6_vesper",
+     "takes": [
+      {
+       "sfx": "hands_in_water",
+       "at": 0.02,
+       "duck": false
+      },
+      {
+       "i": 96
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d6_fyuria",
+     "takes": [
+      {
+       "i": 97
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s6_20.mp4",
+     "takes": [
+      {
+       "i": 98
+      }
+     ],
+     "still_was": "e5_d6_vesper"
+    },
+    {
+     "src": "file:lipclips/s6_21.mp4",
+     "takes": [
+      {
+       "i": 99
+      }
+     ],
+     "still_was": "e5_d6_kuku"
+    },
+    {
+     "src": "still:e5_d6_fyuria",
+     "takes": [
+      {
+       "i": 100
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d6_kuku",
+     "takes": [
+      {
+       "i": 101
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s6_24.mp4",
+     "takes": [
+      {
+       "i": 102
+      },
+      {
+       "i": 103
+      },
+      {
+       "i": 104
+      }
+     ],
+     "still_was": "e5_d6_fyuria"
+    },
+    {
+     "src": "still:e5_d6_mitasur",
+     "takes": [
+      {
+       "i": 105
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s6_26.mp4",
+     "takes": [
+      {
+       "sfx": "heavy_steps_bridge",
+       "at": 0.02,
+       "duck": false
+      },
+      {
+       "i": 106
+      }
+     ],
+     "still_was": "e5_d6_papa"
+    },
+    {
+     "src": "still:e5_d6_fyuria",
+     "takes": [
+      {
+       "i": 107
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d6_papa",
+     "takes": [
+      {
+       "i": 108
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s7",
+   "cue": "score/cueP4_search.mp3",
+   "segments": [
+    {
+     "src": "still:e5_papa_tells",
+     "dur": 2.52,
+     "takes": []
+    },
+    {
+     "src": "still:e5_d7_kuku",
+     "takes": [
+      {
+       "sfx": "hands_in_water",
+       "at": 0.02,
+       "duck": false
+      },
+      {
+       "i": 109
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s7_02.mp4",
+     "takes": [
+      {
+       "i": 110
+      }
+     ],
+     "still_was": "e5_d7_mitasur"
+    },
+    {
+     "src": "still:e5_d7_papa",
+     "takes": [
+      {
+       "i": 111
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d7_mitasur",
+     "takes": [
+      {
+       "sfx": "stone_knock",
+       "at": 0.02,
+       "duck": false
+      },
+      {
+       "i": 112
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d7_kuku",
+     "takes": [
+      {
+       "i": 113
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s7_06.mp4",
+     "takes": [
+      {
+       "i": 114
+      }
+     ],
+     "still_was": "e5_d7_papa"
+    },
+    {
+     "src": "still:e5_d7_kuku",
+     "takes": [
+      {
+       "i": 115
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s7_08.mp4",
+     "takes": [
+      {
+       "i": 116
+      }
+     ],
+     "still_was": "e5_d7_papa"
+    },
+    {
+     "src": "file:lipclips/s7_09.mp4",
+     "takes": [
+      {
+       "i": 117
+      }
+     ],
+     "still_was": "e5_d7_fyuria"
+    },
+    {
+     "src": "file:lipclips/s7_10.mp4",
+     "takes": [
+      {
+       "i": 118
+      },
+      {
+       "i": 119
+      }
+     ],
+     "still_was": "e5_d7_papa"
+    },
+    {
+     "src": "still:e5_d7_fyuria",
+     "takes": [
+      {
+       "i": 120
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d7_dadi",
+     "takes": [
+      {
+       "i": 121
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d7_kuku",
+     "takes": [
+      {
+       "i": 122
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s7_14.mp4",
+     "takes": [
+      {
+       "i": 123
+      }
+     ],
+     "still_was": "e5_d7_mitasur"
+    }
+   ]
+  },
+  {
+   "name": "s8",
+   "cue": "score/cueP5_bridge.mp3",
+   "segments": [
+    {
+     "src": "still:e5_bridge_p",
+     "dur": 3.24,
+     "takes": []
+    },
+    {
+     "src": "still:e5_kuku_forge",
+     "takes": [
+      {
+       "i": 124
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d8_kuku",
+     "takes": [
+      {
+       "sfx": "stone_knock",
+       "at": 0.02,
+       "duck": false
+      },
+      {
+       "sfx": "stone_knock",
+       "at": 0.02,
+       "duck": false
+      },
+      {
+       "i": 125
+      },
+      {
+       "i": 126
+      },
+      {
+       "i": 127
+      },
+      {
+       "i": 128
+      }
+     ]
+    },
+    {
+     "src": "clip:c59_forge_hold",
+     "in": 0.0,
+     "dur": 10.0,
+     "fx": [
+      {
+       "png": "glyphs/fx_p.png",
+       "at": 2.25,
+       "scale": 0.3,
+       "pos": "tc"
+      }
+     ],
+     "bridge": true,
+     "takes": [
+      {
+       "i": 129,
+       "at": 0.9
+      },
+      {
+       "i": 131,
+       "at": 7.65
+      },
+      {
+       "sfx": "deck_tighten",
+       "at": 7.9,
+       "duck": false
+      },
+      {
+       "sfx": "letter_lock_stone",
+       "at": 7.0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d8_papa",
+     "takes": [
+      {
+       "i": 130
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d8_papa",
+     "takes": [
+      {
+       "i": 132
+      }
+     ]
+    },
+    {
+     "src": "clip:c60_cross_home",
+     "in": 0.0,
+     "dur": 10.0,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 133,
+       "at": 0.9
+      },
+      {
+       "i": 134,
+       "at": 3.09
+      },
+      {
+       "i": 143,
+       "at": 7.52
+      },
+      {
+       "sfx": "heavy_steps_bridge",
+       "at": 1.0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e5_all_cross",
+     "takes": [
+      {
+       "i": 135
+      },
+      {
+       "sfx": "kalu_scared_bark",
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s8_08.mp4",
+     "takes": [
+      {
+       "sfx": "kalu_scared_bark",
+       "at": 0.02,
+       "duck": false
+      },
+      {
+       "i": 138
+      }
+     ],
+     "still_was": "e5_d8_mitasur"
+    },
+    {
+     "src": "still:e5_d8_vesper",
+     "takes": [
+      {
+       "sfx": "kalu_relief",
+       "at": 0.02,
+       "duck": false
+      },
+      {
+       "i": 139
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d8_papa",
+     "takes": [
+      {
+       "i": 140
+      }
+     ]
+    },
+    {
+     "src": "still:e5_d8_mitasur",
+     "takes": [
+      {
+       "i": 141
+      }
+     ]
+    },
+    {
+     "src": "file:lipclips/s8_12.mp4",
+     "takes": [
+      {
+       "i": 142
+      }
+     ],
+     "still_was": "e5_d8_dadi"
+    },
+    {
+     "src": "still:e5_d8_dadi",
+     "takes": [
+      {
+       "i": 144,
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "seq",
+     "cards": [
+      "p3",
+      "p4",
+      "p5",
+      "p6",
+      "p7",
+      "p8"
+     ],
+     "dur": 17.44,
+     "bridge": true,
+     "takes": [
+      {
+       "i": 145,
+       "at": 0.6
+      }
+     ]
+    },
+    {
+     "src": "card:p9",
+     "dur": 3.0
+    },
+    {
+     "src": "still:e5_vesper_asleep",
+     "dur": 9.16,
+     "bridge": true,
+     "fadeout": 1.4,
+     "takes": [
+      {
+       "sfx": "snore_soft_boy",
+       "at": 0.3,
+       "duck": false
+      },
+      {
+       "i": 146,
+       "at": 1.0
+      },
+      {
+       "i": 147,
+       "at": 4.3
+      },
+      {
+       "sfx": "evening_crickets",
+       "at": 7.36,
+       "duck": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

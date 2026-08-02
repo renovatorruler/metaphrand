@@ -4,7 +4,7 @@
    but COHERENT alternatives (a category-swap, not noise) - so the director can
    knock variables off-center BEFORE anything is generated: perturb high, execute
    normal. Domain-agnostic; the caller supplies the task (a scene, an image, audio).
-   Run: CLAUDE_STUDIO_BUDGET=2 node src/Entropy.res.mjs "<task>" */
+   Native worker run: follow studio/NATIVE_WORKERS.md with this driver. */
 
 @val @scope("process") external argv: array<string> = "argv"
 

@@ -7,7 +7,7 @@ single teaching element. Applies from Ep2 onward (Ep1's fate TBD after this outl
 
 ## What stays (every pedagogy law survives)
 Sesame-forward letter reveal · the टोपी/hat disambiguation · «साँस… टोपी… अक्षर!» power-up ·
-proper-Hindi 2a/2b (complete sentences, आप to elders) · «मैं पहले!» / «हिंदी में, वैस्पर!» /
+proper-Hindi 2a/2b (complete sentences, आप to elders) · «पहले मैं!» / «हिंदी में, वैस्पर!» /
 Vesper-asleep button · the to-camera word-harvest RECAP (added Ep1 v7) · character-sheet
 production + filler-take + no-stretch edit laws.
 

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1420" height="900" viewBox="0 0 1420 900" font-family="Helvetica,Arial,sans-serif">
+<rect width="1420" height="900" fill="#f7f5f0"/>
+<text x="40" y="44" font-size="24" font-weight="bold" fill="#1a1a1a">AMAL — THE TRAIN, one bay: SHOT PLAN (auto-generated from the blocking data)</text>
+<text x="40" y="68" font-size="14" fill="#555">Every figure at its seat. Every camera drawn where the compiler solved it, with its cone of view. Dashed red = the eyeline the shot is built on.</text>
+<rect x="90.0" y="80" width="1250.0" height="762.5" fill="#fff" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="90.0" y1="80" x2="1340.0" y2="80" stroke="#2b6ca3" stroke-width="6"/>
+<line x1="90.0" y1="842.5" x2="1340.0" y2="842.5" stroke="#2b6ca3" stroke-width="6"/>
+<rect x="90.0" y="542.5" width="1250.0" height="137.5" fill="#ece7dc"/>
+<text x="1077.5" y="620.0" font-size="15" fill="#8a7f6a" letter-spacing="2">PASSAGEWAY</text>
+<rect x="490.0" y="105.0" width="180.0" height="437.5" rx="6" fill="#cfd9e8" stroke="#1a1a1a" stroke-width="2"/>
+<text x="580.0" y="95.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">BENCH A</text>
+<rect x="797.5" y="105.0" width="180.0" height="437.5" rx="6" fill="#cfd9e8" stroke="#1a1a1a" stroke-width="2"/>
+<text x="887.5000000000001" y="95.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">BENCH B</text>
+<rect x="520.0" y="685.0" width="200.0" height="145.0" rx="6" fill="#cfd9e8" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="745.0" y="685.0" width="200.0" height="145.0" rx="6" fill="#cfd9e8" stroke="#1a1a1a" stroke-width="2"/>
+<text x="620.0" y="675.0" font-size="12" text-anchor="middle" fill="#555">SIDE C</text>
+<text x="845.0" y="675.0" font-size="12" text-anchor="middle" fill="#555">SIDE D</text>
+<rect x="180.00000000000003" y="105.0" width="180.0" height="437.5" rx="6" fill="#eee" stroke="#c9c9c9"/>
+<rect x="977.5000000000001" y="105.0" width="180.0" height="437.5" rx="6" fill="#eee" stroke="#c9c9c9"/>
+<text x="270.0" y="330.0" font-size="12" text-anchor="middle" fill="#aaa">next bay</text>
+<text x="1067.5" y="330.0" font-size="12" text-anchor="middle" fill="#aaa">next bay</text>
+<circle cx="580.0" cy="185.0" r="30" fill="#7d9c74" stroke="#1a1a1a" stroke-width="2"/>
+<text x="580.0" y="189.0" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">WOMAN</text>
+<circle cx="580.0" cy="325.0" r="30" fill="#c0392b" stroke="#1a1a1a" stroke-width="2"/>
+<text x="580.0" y="329.0" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">KAMLA</text>
+<circle cx="580.0" cy="460.0" r="30" fill="#7f9cb5" stroke="#1a1a1a" stroke-width="2"/>
+<text x="580.0" y="464.0" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">SURESH</text>
+<circle cx="887.5000000000001" cy="185.0" r="26" fill="#c9c2b4" stroke="#1a1a1a" stroke-width="2"/>
+<text x="887.5000000000001" y="189.0" font-size="11" font-weight="bold" text-anchor="middle" fill="#fff">passenger</text>
+<circle cx="887.5000000000001" cy="325.0" r="30" fill="#c99a3c" stroke="#1a1a1a" stroke-width="2"/>
+<text x="887.5000000000001" y="329.0" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">RAJESH</text>
+<circle cx="887.5000000000001" cy="460.0" r="26" fill="#c9c2b4" stroke="#1a1a1a" stroke-width="2"/>
+<text x="887.5000000000001" y="464.0" font-size="11" font-weight="bold" text-anchor="middle" fill="#fff">passenger</text>
+<circle cx="620.0" cy="760.0" r="26" fill="#c9c2b4" stroke="#1a1a1a" stroke-width="2"/>
+<text x="620.0" y="764.0" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">old man</text>
+<circle cx="845.0" cy="760.0" r="26" fill="#c9c2b4" stroke="#1a1a1a" stroke-width="2"/>
+<text x="845.0" y="764.0" font-size="11" font-weight="bold" text-anchor="middle" fill="#fff">passenger</text>
+<circle cx="665.0" cy="610.0" r="26" fill="#ded5c2" stroke="#1a1a1a" stroke-width="2"/>
+<text x="665.0" y="614.0" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">standee</text>
+<circle cx="895.0" cy="610.0" r="26" fill="#ded5c2" stroke="#1a1a1a" stroke-width="2"/>
+<text x="895.0" y="614.0" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">standee</text>
+<circle cx="565.0" cy="195.0" r="11" fill="#b8cbb0" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="1090.0" y1="735.0" x2="997.8484878449441" y2="516.1065354846414" stroke="#3a6ea5" stroke-width="2" opacity="0.75"/>
+<line x1="1090.0" y1="735.0" x2="882.619344158025" y2="619.243731994538" stroke="#3a6ea5" stroke-width="2" opacity="0.75"/>
+<line x1="1090.0" y1="735.0" x2="727.5" y2="330.0" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="7 5" opacity="0.85"/>
+<circle cx="1090.0" cy="735.0" r="17" fill="#1a3a5c" stroke="#fff" stroke-width="2"/>
+<text x="1090.0" y="740.0" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">1</text>
+<line x1="989.75" y1="211.75" x2="752.7056867498411" y2="197.04477794249675" stroke="#3a6ea5" stroke-width="2" opacity="0.75"/>
+<line x1="989.75" y1="211.75" x2="793.9030933706405" y2="346.10117849766294" stroke="#3a6ea5" stroke-width="2" opacity="0.75"/>
+<line x1="989.75" y1="211.75" x2="580.0" y2="325.0" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="7 5" opacity="0.85"/>
+<circle cx="989.75" cy="211.75" r="17" fill="#1a3a5c" stroke="#fff" stroke-width="2"/>
+<text x="989.75" y="216.75" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">2</text>
+<line x1="988.0" y1="150.0" x2="757.6522910166143" y2="92.15379903480778" stroke="#3a6ea5" stroke-width="2" opacity="0.75"/>
+<line x1="988.0" y1="150.0" x2="770.8698508242056" y2="246.2327819347298" stroke="#3a6ea5" stroke-width="2" opacity="0.75"/>
+<line x1="988.0" y1="150.0" x2="580.0" y2="185.0" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="7 5" opacity="0.85"/>
+<circle cx="988.0" cy="150.0" r="17" fill="#1a3a5c" stroke="#fff" stroke-width="2"/>
+<text x="988.0" y="155.0" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">3</text>
+<line x1="747.75" y1="152.5" x2="511.51153759340997" y2="128.0533462459555" stroke="#3a6ea5" stroke-width="2" opacity="0.75"/>
+<line x1="747.75" y1="152.5" x2="546.5406882910993" y2="278.6786942460192" stroke="#3a6ea5" stroke-width="2" opacity="0.75"/>
+<line x1="747.75" y1="152.5" x2="565.0" y2="195.0" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="7 5" opacity="0.85"/>
+<circle cx="747.75" cy="152.5" r="17" fill="#1a3a5c" stroke="#fff" stroke-width="2"/>
+<text x="747.75" y="157.5" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">4</text>
+<line x1="786.25" y1="276.75" x2="567.0204102934456" y2="368.09898465279065" stroke="#3a6ea5" stroke-width="2" opacity="0.75"/>
+<line x1="786.25" y1="276.75" x2="669.7347764632837" y2="483.70519487123056" stroke="#3a6ea5" stroke-width="2" opacity="0.75"/>
+<line x1="786.25" y1="276.75" x2="580.0" y2="460.0" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="7 5" opacity="0.85"/>
+<circle cx="786.25" cy="276.75" r="17" fill="#1a3a5c" stroke="#fff" stroke-width="2"/>
+<text x="786.25" y="281.75" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">5</text>
+<line x1="997.75" y1="150.0" x2="766.3963407788118" y2="96.31821198053962" stroke="#3a6ea5" stroke-width="2" opacity="0.75"/>
+<line x1="997.75" y1="150.0" x2="782.3910198372585" y2="250.133708925935" stroke="#3a6ea5" stroke-width="2" opacity="0.75"/>
+<line x1="997.75" y1="150.0" x2="565.0" y2="195.0" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="7 5" opacity="0.85"/>
+<circle cx="997.75" cy="150.0" r="17" fill="#1a3a5c" stroke="#fff" stroke-width="2"/>
+<text x="997.75" y="155.0" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">6</text>
+<line x1="990.75" y1="150.0" x2="760.4353102895464" y2="92.02247242614246" stroke="#3a6ea5" stroke-width="2" opacity="0.75"/>
+<line x1="990.75" y1="150.0" x2="773.5650176327119" y2="246.10896646057927" stroke="#3a6ea5" stroke-width="2" opacity="0.75"/>
+<line x1="990.75" y1="150.0" x2="580.0" y2="185.0" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="7 5" opacity="0.85"/>
+<circle cx="990.75" cy="150.0" r="17" fill="#1a3a5c" stroke="#fff" stroke-width="2"/>
+<text x="990.75" y="155.0" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">7</text>
+<line x1="532.5" y1="573.75" x2="760.7778272683538" y2="508.2100612020453" stroke="#3a6ea5" stroke-width="2" opacity="0.75"/>
+<line x1="532.5" y1="573.75" x2="672.0349672843383" y2="381.5619595163148" stroke="#3a6ea5" stroke-width="2" opacity="0.75"/>
+<line x1="532.5" y1="573.75" x2="887.5000000000001" y2="325.0" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="7 5" opacity="0.85"/>
+<circle cx="532.5" cy="573.75" r="17" fill="#1a3a5c" stroke="#fff" stroke-width="2"/>
+<text x="532.5" y="578.75" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">8</text>
+<line x1="152.5" y1="615.0" x2="377.06066170483774" y2="692.3224366835748" stroke="#3a6ea5" stroke-width="2" opacity="0.75"/>
+<line x1="152.5" y1="615.0" x2="377.06066170483774" y2="537.6775633164252" stroke="#3a6ea5" stroke-width="2" opacity="0.75"/>
+<line x1="152.5" y1="615.0" x2="727.5" y2="615.0" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="7 5" opacity="0.85"/>
+<circle cx="152.5" cy="615.0" r="17" fill="#1a3a5c" stroke="#fff" stroke-width="2"/>
+<text x="152.5" y="620.0" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">9</text>
+<text x="40" y="700" font-size="15" font-weight="bold" fill="#1a1a1a">SHOTS</text>
+<circle cx="52" cy="718" r="10" fill="#1a3a5c"/>
+<text x="52" y="722" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">1</text>
+<text x="72" y="722" font-size="13" fill="#222"><tspan font-weight="bold">1-01</tspan>  WIDE on BAY — the crowded bay, everyone in place <tspan fill="#888">(20mm)</tspan></text>
+<circle cx="52" cy="738" r="10" fill="#1a3a5c"/>
+<text x="52" y="742" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">2</text>
+<text x="72" y="742" font-size="13" fill="#222"><tspan font-weight="bold">1-02</tspan>  MED on KAMLA — Kamla talking at the woman’s shoulder <tspan fill="#888">(42mm)</tspan></text>
+<circle cx="52" cy="758" r="10" fill="#1a3a5c"/>
+<text x="52" y="762" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">3</text>
+<text x="72" y="762" font-size="13" fill="#222"><tspan font-weight="bold">1-03</tspan>  CU on WOMAN — her face turned to the glass <tspan fill="#888">(62mm)</tspan></text>
+<circle cx="52" cy="778" r="10" fill="#1a3a5c"/>
+<text x="52" y="782" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">4</text>
+<text x="72" y="782" font-size="13" fill="#222"><tspan font-weight="bold">1-04</tspan>  INSERT on BUNDLE · along SURESH's eyeline — the green cloth, two flies <tspan fill="#888">(80mm)</tspan></text>
+<circle cx="52" cy="798" r="10" fill="#1a3a5c"/>
+<text x="52" y="802" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">5</text>
+<text x="72" y="802" font-size="13" fill="#222"><tspan font-weight="bold">1-07</tspan>  CU on SURESH · along RAJESH's eyeline — he has stopped listening <tspan fill="#888">(62mm)</tspan></text>
+<circle cx="52" cy="818" r="10" fill="#1a3a5c"/>
+<text x="52" y="822" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">6</text>
+<text x="72" y="822" font-size="13" fill="#222"><tspan font-weight="bold">1-08</tspan>  MED on BUNDLE · along SURESH's eyeline — Suresh’s POV, slow push <tspan fill="#888">(42mm)</tspan></text>
+<circle cx="52" cy="838" r="10" fill="#1a3a5c"/>
+<text x="52" y="842" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">7</text>
+<text x="72" y="842" font-size="13" fill="#222"><tspan font-weight="bold">1-09</tspan>  CU on WOMAN · along SURESH's eyeline — she feels his eyes, turns away <tspan fill="#888">(62mm)</tspan></text>
+<circle cx="52" cy="858" r="10" fill="#1a3a5c"/>
+<text x="52" y="862" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">8</text>
+<text x="72" y="862" font-size="13" fill="#222"><tspan font-weight="bold">1-11</tspan>  MED on RAJESH · along SURESH's eyeline — the brothers, low voices <tspan fill="#888">(42mm)</tspan></text>
+<circle cx="52" cy="878" r="10" fill="#1a3a5c"/>
+<text x="52" y="882" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">9</text>
+<text x="72" y="882" font-size="13" fill="#222"><tspan font-weight="bold">4-05</tspan>  WIDE on AISLE — she pushes down the passageway <tspan fill="#888">(20mm)</tspan></text>
+</svg>

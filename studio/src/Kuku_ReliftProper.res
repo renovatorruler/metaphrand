@@ -2,8 +2,7 @@
    rights-critical radio replacements from EP1_AI_AUDIT_v1.md (H1). All seven
    scenes, one warm session, receipts kept valid.
 
-   Run from inside studio/:
-     CLAUDE_STUDIO_BUDGET=20 node src/Kuku_ReliftProper.res.mjs
+   Native worker run: follow studio/NATIVE_WORKERS.md with this driver.
 */
 
 @val @scope("process") external cwd: unit => string = "cwd"

@@ -73,7 +73,7 @@ teaches one Devanagari letter, Sesame-Street-meets-Miniforce style.*
   designs should read as lovable, specific, and a little bit like real children in dragon form.
 - **Existing approved reference art:** full-body character sheets already exist for the core cast
   (papercraft, plain background) at `stories/kuku/charsheets/{kuku,furia,vesper,dadi,papa,kalu,
-  cheeku}.png` — treat those as the current visual canon to match/refine; **मिटासुर is not yet
+  castor,leda}.png` — treat those as the current visual canon to match/refine; **मिटासुर is not yet
   designed** (this brief is partly to design him).
 
 ---
@@ -109,7 +109,12 @@ teaches one Devanagari letter, Sesame-Street-meets-Miniforce style.*
   kind but competitive with her younger brother, mothers the babies, dreams of buying a
   **Lamborghini** (→ in-show she dreams of a shiny red **कार**), loves **writing letters** (→ keeps
   a किताब where she writes each day's letter).
-- **Signature tic (USE SPARINGLY — at most once or twice an episode):** «**मैं पहले!**» ("Me first!").
+- **Signature tic (USE SPARINGLY — at most once or twice an episode):** «**पहले मैं!**» ("Me first!")
+  — **always this word order.** *(Corrected 2026-07-30: this line read «मैं पहले!», contradicting
+  SERIES LAW 7 above. The law is right; every shipped episode uses «पहले मैं!».)* Best used **twice
+  in one episode with opposite meanings** — once to claim a prize, once to claim the blame, the
+  frightening job or the dull one. Ep5: she claims the errand, then claims the blame. Ep6: she claims
+  first pick of teams, then claims the repair.
 - **Voice/register:** fast, bright, warm, complete sentences; आप to elders, तुम to the other kids.
 
 ## 3. वैस्पर — VESPER (the dreamer-seer) · "VES-per" · *(mirrors the author's son)*
@@ -166,14 +171,29 @@ teaches one Devanagari letter, Sesame-Street-meets-Miniforce style.*
   **floppy ears**, big shiny adoring eyes, a little wagging tail, often head-tilted. Adorable.
 - **Personality:** devoted, playful, bouncy; imprints hard on Kuku.
 
-## 7. चीकू — CHEEKU (the toddler) · "CHEE-koo"
+## 7. कैस्टर — CASTOR and लेडा — LEDA (the two toddlers)
 
-- **Role:** the littlest one, the **baby the big kids look after** (mirrors the author's kids
-  caring for their baby siblings). Comic, giggly.
-- **Physical:** a **very tiny yellow** cut-paper **toddler dragon**, the smallest of all — round
-  baby proportions, huge curious eyes, stubby little wings, often sitting holding a little paper
-  spoon, one tooth showing when he giggles.
-- **Personality:** toddler babble (one or two repeated words), pure delight, giggles.
+> **RENAME (author, Ep3):** the toddler originally designed as **चीकू** is now **कैस्टर**. The name
+> चीकू is retired and must never appear. A second toddler, **लेडा**, was added alongside him.
+> *(Consequence for the letter plan: LETTER_MAP's ep7 «च» was anchored on चीकू and that anchor no
+> longer exists — flagged there, still open.)*
+
+- **कैस्टर — Role:** the **baby the big kids look after** (mirrors the author's kids caring for
+  their baby siblings). Comic, giggly, the louder of the two.
+- **कैस्टर — Physical:** a **very tiny yellow** cut-paper **toddler dragon** — round baby
+  proportions, huge curious eyes, stubby little wings, often holding a little paper spoon, one tooth
+  showing when he giggles.
+- **लेडा — Role:** the **littlest of everyone**, and the series' running payoff: **the smallest one
+  says the day's letter first**, before any of the big kids. दादी always marks it — «सबसे नन्ही, और
+  सबसे पहले!»
+- **लेडा — Physical:** the tiniest of all, **soft pink-lilac** cut-paper toddler dragon, rounder and
+  smaller than कैस्टर.
+- **Speech — CHANGED at Ep6 (author's decision):** through Ep5 both toddlers spoke only in babble —
+  one or two repeated words, tagged *(तुतलाते हुए)* / *(नन्ही किलकारी से)*: «प! प!», «पत्! पत्!».
+  **From Ep6, लेडा is deliberately promoted to short simple sentences** («मैं बुलाऊँ?», «तानसेन…
+  आओ। बैठो।») — she is growing up in step with the real children. कैस्टर stays in babble and short
+  exclamations for now. Keep लेडा's sentences **short, present-tense and concrete**; she is speaking,
+  not explaining.
 
 ## 8. मिटासुर — MITASUR (villain → ally) · "mi-TAA-sur" · **DESIGN LOCKED (author, Ep2)**
 
@@ -190,7 +210,27 @@ teaches one Devanagari letter, Sesame-Street-meets-Miniforce style.*
   poking out. Bumbling, huggable, pitiable. **Zero horror** — comic, never a monster. Must support
   the "cradles a tiny lopsided glowing म and lights up" beat.
 
-## 9. Supporting / minor
+## 9. तानसेन — TANSEN (the parrot) · **JOINS THE CAST PERMANENTLY IN Ep6**
+
+- **Role:** a green parrot who **repeats what he hears, in the exact आवाज़ of whoever said it.**
+  दादी names him after the historical singer तानसेन, because he sings in everybody's voice. At the
+  end of Ep6 he stays: «अब ये यहीं रहेगा। घाटी का नया साथी — और घाटी की नई गूँज।» **He is a
+  resident from Ep6 onward and should appear or be accounted for in later episodes.**
+- **Physical:** bright green cut-paper parrot, **red beak**, roosts on the golden **त** कुकु forged
+  for him at the तालाब's edge — the letter is his perch, its कटोरी holds his दाना और जल.
+- **The one rule that governs him:** he invents nothing. He only ever gives back what he was given
+  — «तोता अपने से कुछ नहीं बनाता।» Any line he speaks must have been said aloud, on screen,
+  earlier. This is not a quirk; the whole Ep6 नीति rests on it («वो वही लौटाता है, जो हम उसे देते
+  हैं»), and breaking it breaks the character.
+- **How he is written:** his lines are **sound cues**, not dialogue — `(ध्वनि: तानसेन — हूबहू
+  फ्यूरिया की आवाज़: «…»)` — because the performance is an imitation of another cast member's take.
+- **Use him for:** comedy (stealing पापा's voice, वैस्पर's snore), and as the valley's memory — he
+  can bring back a line from earlier in an episode, or from an earlier episode, at the worst
+  possible moment. Careful: he is a loaded gun. Anything unkind said aloud can come back.
+- **Never:** he does not understand, advise, warn on purpose, or have opinions. He is not a
+  sidekick with wisdom; he is an echo with feathers.
+
+## 10. Supporting / minor
 
 - **भोलू — BHOLU** (recurring, optional): a **big, gentle, clumsy older-brother dragon** who makes
   huge flames (contrast to Kuku); kind, never a bully, never teases Kuku about the fire.
@@ -201,7 +241,7 @@ teaches one Devanagari letter, Sesame-Street-meets-Miniforce style.*
 
 ---
 
-## 10. Cross-cutting design laws
+## 11. Cross-cutting design laws
 
 - **Consistency:** each character has ONE locked design (colors, proportions, features) held across
   every shot/episode — use the existing character sheets as reference.
@@ -209,5 +249,5 @@ teaches one Devanagari letter, Sesame-Street-meets-Miniforce style.*
   hero team; their power-up chant is «साँस… टोपी… अक्षर!» — design should support a light
   "suit-up / power-up" energy without literal costumes (they're dragons, not robots).
 - **Names & spellings (Devanagari canon):** कुकु · **फ्यूरिया** · वैस्पर · दादी माया · पापा · कालू ·
-  चीकू · मिटासुर · भोलू · मोरनी · अन्ना · माशा.
+  कैस्टर · लेडा · तानसेन · मिटासुर · रीछ · भोलू · मोरनी · अन्ना · माशा. *(चीकू is retired — never use it.)*
 - **Never scary. Never a human-looking Dadi. Never a mean/gloating kid. Tics are seasoning.**

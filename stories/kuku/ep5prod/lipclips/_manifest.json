@@ -1,0 +1,137 @@
+{
+ "s1_01": {
+  "still": "e5_d1_fyuria",
+  "who": "FYURIA",
+  "secs": 5.4
+ },
+ "s1_08": {
+  "still": "e5_d1_fyuria",
+  "who": "FYURIA",
+  "secs": 4.76
+ },
+ "s2_02": {
+  "still": "e5_d2_dadi",
+  "who": "DADI",
+  "secs": 5.88
+ },
+ "s3_01": {
+  "still": "e5_d3_kuku",
+  "who": "KUKU",
+  "secs": 5
+ },
+ "s3_06": {
+  "still": "e5_d3_vesper",
+  "who": "VESPER",
+  "secs": 3.16
+ },
+ "s4_01": {
+  "still": "e5_d4_kuku",
+  "who": "KUKU",
+  "secs": 3.8
+ },
+ "s4_06": {
+  "still": "e5_d4_dadi",
+  "who": "DADI",
+  "secs": 19.08
+ },
+ "s4_10": {
+  "still": "e5_d4_dadi",
+  "who": "DADI",
+  "secs": 5.64
+ },
+ "s4_14": {
+  "still": "e5_d4_dadi",
+  "who": "DADI",
+  "secs": 19.56
+ },
+ "s5_05": {
+  "still": "e5_d5_kuku",
+  "who": "KUKU",
+  "secs": 8.44
+ },
+ "s5_06": {
+  "still": "e5_d5_dadi",
+  "who": "DADI",
+  "secs": 6.68
+ },
+ "s5_07": {
+  "still": "e5_d5_kuku",
+  "who": "KUKU",
+  "secs": 2.52
+ },
+ "s6_01": {
+  "still": "e5_d6_kuku",
+  "who": "KUKU",
+  "secs": 8.36
+ },
+ "s6_06": {
+  "still": "e5_d6_fyuria",
+  "who": "FYURIA",
+  "secs": 3.16
+ },
+ "s6_15": {
+  "still": "e5_d6_dadi",
+  "who": "DADI",
+  "secs": 4.28
+ },
+ "s6_20": {
+  "still": "e5_d6_vesper",
+  "who": "VESPER",
+  "secs": 4.04
+ },
+ "s6_21": {
+  "still": "e5_d6_kuku",
+  "who": "KUKU",
+  "secs": 4.2
+ },
+ "s6_24": {
+  "still": "e5_d6_fyuria",
+  "who": "FYURIA",
+  "secs": 28.04
+ },
+ "s6_26": {
+  "still": "e5_d6_papa",
+  "who": "PAPA",
+  "secs": 5.16
+ },
+ "s7_02": {
+  "still": "e5_d7_mitasur",
+  "who": "MITASUR",
+  "secs": 3.48
+ },
+ "s7_06": {
+  "still": "e5_d7_papa",
+  "who": "PAPA",
+  "secs": 4.44
+ },
+ "s7_08": {
+  "still": "e5_d7_papa",
+  "who": "PAPA",
+  "secs": 9.16
+ },
+ "s7_09": {
+  "still": "e5_d7_fyuria",
+  "who": "FYURIA",
+  "secs": 1.64
+ },
+ "s7_10": {
+  "still": "e5_d7_papa",
+  "who": "PAPA",
+  "secs": 15.84
+ },
+ "s7_14": {
+  "still": "e5_d7_mitasur",
+  "who": "MITASUR",
+  "secs": 4.44
+ },
+ "s8_08": {
+  "still": "e5_d8_mitasur",
+  "who": "MITASUR",
+  "secs": 4.92
+ },
+ "s8_12": {
+  "still": "e5_d8_dadi",
+  "who": "DADI",
+  "secs": 5.8
+ }
+}

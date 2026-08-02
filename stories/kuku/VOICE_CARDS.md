@@ -26,7 +26,7 @@
 - **The person (this is the point, not the tic):** a leader who feels EVERYTHING at full volume — joy, worry, fierce love. Her "first!" isn't vanity; it's generosity in a hurry — she wants to be first to *help*, first to *protect*. She's the group's emotional radar: she clocks when someone's sad before they say it. Brave on the outside, and just brave enough to admit fear on the inside (she charged the well, failed, and *gave her "first" away* — that yielding is her real growth). She has real interests: fast things (dreams of a red कार), and she writes — keeps a किताब of her days.
 - **The contradiction (richness):** wants to be first, but the thing she's proudest of is when she helped someone ELSE be first.
 - **Sentence:** fast, bright, warm; a full grammatical sentence, never chopped.
-- **TIC BUDGET (seasoning, not the meal):** «मैं पहले!» + the Ф→टोपी gag are her signatures — **use at most once or twice an episode, at a beat that EARNS it.** Most of her lines are just a warm, quick, feeling girl — noticing, comforting, deciding, wondering. If every scene has «मैं पहले!», the card is being written wrong.
+- **TIC BUDGET (seasoning, not the meal):** «पहले मैं!» + the Ф→टोपी gag are her signatures — **use at most once or twice an episode, at a beat that EARNS it.** Most of her lines are just a warm, quick, feeling girl — noticing, comforting, deciding, wondering. If every scene has «पहले मैं!», the card is being written wrong.
 - **Register:** आप to elders; **तुम / तुम्हारा** to the other kids and to कालू (never तू).
 - **earnsEloquence:** false. **Never:** mean, gloating, or one-note.
 - **Sample (range, not the tic):** «अरे, तुम रो क्यों रहे हो? इधर आओ.» / «रुको, ये मुझे थोड़ा अजीब लग रहा है.»
@@ -50,12 +50,34 @@
 - **Never:** yells, mocks, or shames; never a villain.
 - **Sample:** «नहीं, कुकु। कुत्ता बहुत काम है।»
 
-### चीकू (Cheeku) — `cheeku` · *the toddler the big kids look after*
-- **Role shift (2026-07-21):** now the little baby dragon that Furia and Vesper take care of (mirrors the author's kids caring for their baby brothers). Toddling, giggly, repeats single words.
+### कैस्टर (Castor) — `castor` · *the toddler the big kids look after*
+> **RENAMED (author, Ep3): was चीकू. That name is retired and must never appear.** The voice id and
+> charsheet are `castor`.
+- **Role shift (2026-07-21):** the little baby dragon that Furia and Vesper take care of (mirrors the author's kids caring for their baby brothers). Toddling, giggly, repeats single words.
 - **Sentence:** one or two words, repeated ("फिर से! फिर से!", "मज़ा!").
 - **earnsEloquence:** false.
 - **Never:** complex speech; anything mean.
 - **Sample:** «फिर से! फिर से!»
+
+### लेडा (Leda) — `leda` · *the littlest of everyone*
+> Added alongside कैस्टर in Ep3. Her running bit: **the smallest one says the day's letter first**,
+> before any of the big kids — दादी marks it every time («सबसे नन्ही, और सबसे पहले!»).
+- **Sentence:** babble through Ep5 — single syllables, repeated («प! प!», «पत्! पत्!»).
+  **From Ep6 she is deliberately promoted to short, simple, present-tense sentences** («मैं बुलाऊँ?»,
+  «तानसेन… आओ। बैठो।») — she is growing up in step with the real children. Keep them short and
+  concrete; she is speaking, not explaining.
+- **earnsEloquence:** false.
+- **Never:** long sentences; explaining; anything mean.
+- **Sample:** «त! त!» · «मैं बुलाऊँ?»
+
+### तानसेन (Tansen) — `tansen` · *the parrot — an echo with feathers*
+> Joins the cast permanently in Ep6 and stays in the valley.
+- **He invents nothing.** Every line he says was said aloud, on screen, by someone else first —
+  «तोता अपने से कुछ नहीं बनाता।» Breaking that breaks the character and the Ep6 नीति.
+- **How to write him:** his lines are **sound cues, not dialogue** — `(ध्वनि: तानसेन — हूबहू फ्यूरिया
+  की आवाज़: «…»)`. At recording he is another cast member's take, reused.
+- **Never:** understanding, advising, warning on purpose, or having an opinion.
+- **Sample:** `(ध्वनि: तानसेन — हूबहू पापा की गहरी, भारी आवाज़: «…»)`
 
 ### भोलू (Bholu) — `bholu` · *the big gentle older-brother dragon* (recurring/optional)
 - **Sentence:** slow, warm, simple; a big soft voice.

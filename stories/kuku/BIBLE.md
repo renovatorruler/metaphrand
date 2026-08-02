@@ -27,7 +27,7 @@ Under the fun, a real spine for the viewer: recognize the shape → make the sou
 The core is a **trio** (Super-Kitties team shape) — every episode's problem needs all three gifts:
 
 - **कुकु** — hero, the heart + the power; breathes letters; wants to be a "real" fire-dragon.
-- **फ्यूरिया (Furia)** — the spark. First at everything (catchphrase «मैं पहले!»), kind but fiercely
+- **फ्यूरिया (Furia)** — the spark. First at everything (catchphrase «पहले मैं!»), kind but fiercely
   competitive with her brother; mothers anything small; dreams of a shiny red कार; writes each
   day's letter in her किताब; owns the recurring Ф→टोपी gag. *(Mirrors the author's daughter.)*
 - **वैस्पर (Vesper)** — the dreamer, Furia's younger brother. Kind, sweet, lost in imagination
@@ -36,7 +36,9 @@ The core is a **trio** (Super-Kitties team shape) — every episode's problem ne
   anywhere — every episode ends on where.** *(Mirrors the author's son.)*
 - **पापा** — Kuku's father; kind-but-firm; never a villain.
 - **दादी माया** — grandmother, mentor, bilingual host; leads the lesson.
-- **चीकू** — the toddler dragon Furia & Vesper look after (their real-life caretaking, in-show).
+- **कैस्टर** — the toddler dragon Furia & Vesper look after (their real-life caretaking, in-show). *(Was चीकू; that name is retired.)*
+- **लेडा** — the littlest of all; her running bit is that the smallest one says the day's letter first.
+- **तानसेन** — a green parrot who repeats what he hears in the exact आवाज़ of whoever said it; joins the valley permanently in Ep6.
 - **भोलू** — big gentle older dragon (recurring, optional).
 - **सूत्रधार / Narrator** — offscreen bilingual framing (lighter now — Vesper carries most English).
 - **Friends-of-the-show:** अन्ना & माशा (the kids' real best friends) — referenced from Ep2 (माशा's
@@ -72,8 +74,8 @@ The core is a **trio** (Super-Kitties team shape) — every episode's problem ne
 
 ## Part VI.6 — Character richness (author's law, 2026-07-22)
 
-**Tics are seasoning, not the meal.** Fyuria is NOT «मैं पहले!» in every scene; Vesper is NOT
-"always drifting off" in every scene. Each signature (Fyuria's «मैं पहले!»/Ф-gag, Vesper's
+**Tics are seasoning, not the meal.** Fyuria is NOT «पहले मैं!» in every scene; Vesper is NOT
+"always drifting off" in every scene. Each signature (Fyuria's «पहले मैं!»/Ф-gag, Vesper's
 name-calls/English-drift/falling-asleep) may fire **at most once or twice per episode, at a beat
 that earns it.** The rest of their lines carry the scene through real want, feeling, and their
 underlying person (see VOICE_CARDS: Fyuria = big-hearted leader whose racing is generosity in a

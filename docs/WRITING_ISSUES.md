@@ -1,5 +1,9 @@
 # The writing-issues catalogue
 
+> Implementation note (2026-08): the catalogue is still useful; its Python source
+> inventory records the removed prototype. Active checks live in
+> `studio/src/Gate.res`, `Craft.res`, `Judge.res`, and `Write.res`.
+
 Every distinct writing problem the system gates against, deduped and grouped the way a writer thinks about them (not the way the code files them). The same tell is often enforced in two or three places — once by deterministic code, once by an LLM critic, once in a doc — those are merged here into one entry.
 
 Tag on each item: **[code]** = a regex/parser catches it deterministically · **[judge]** = needs an LLM critic · **[code+judge]** = both.

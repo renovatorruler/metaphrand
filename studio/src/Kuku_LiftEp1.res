@@ -3,8 +3,7 @@
    PROTECT this show's register: the default doctrine pushes adult subtext, and a
    kids' letter-teaching show needs the opposite kept intact.
 
-   Run from inside studio/ (after Kuku_WriteEp1Full):
-     CLAUDE_STUDIO_BUDGET=16 node src/Kuku_LiftEp1.res.mjs
+   Native worker run after Kuku_WriteEp1Full: follow studio/NATIVE_WORKERS.md.
 */
 
 @val @scope("process") external cwd: unit => string = "cwd"

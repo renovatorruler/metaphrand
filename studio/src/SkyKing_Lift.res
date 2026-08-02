@@ -2,7 +2,7 @@
    (DIALOGUE_DOCTRINE.md): subtext / tactic / lexicon / earned truth, re-gates on
    the Craft floor, and stamps it LIFTED so it can be produced. A scene that has
    NOT been lifted is refused at the render door (verify fails).
-   Run: CLAUDE_STUDIO_BUDGET=4 node src/SkyKing_Lift.res.mjs <scene-id> */
+   Native worker run: follow studio/NATIVE_WORKERS.md with this driver. */
 let dir = "/Users/dusty/dev/brehon-law/stories/sky-king"
 
 @val @scope("process") external argv: array<string> = "argv"

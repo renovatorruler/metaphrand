@@ -1,10 +1,10 @@
 /* KUKU picture-book PROTOTYPE — narration lines for two sample spreads, generated
    by the engine from the RECEIPTED Ep1 scenes (s0 + s1). Honest note: the book
    pipeline has no receipt machinery yet (writeScene is screenplay-shaped); this
-   driver uses the warm Session directly, budget-capped, sources = verified scenes.
+   driver uses the native-worker Session boundary, budget-capped, sources = verified scenes.
    Building real book receipts is future work if the book becomes a product.
 
-   Run from studio/: CLAUDE_STUDIO_BUDGET=3 node src/Kuku_BookProto.res.mjs
+   Native worker run: follow studio/NATIVE_WORKERS.md with this driver.
 */
 
 @val @scope("process") external cwd: unit => string = "cwd"

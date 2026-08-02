@@ -1,14 +1,11 @@
 /* KUKU aur AKSHAR — Episode 1 (letter क), STORY scene, written by the ENGINE from
    a seed I author. I supply structure only — wants, walls, turns, voice cards, the
-   buried layer, the rules. The warm Session writes the sentences (English action,
+   buried layer, the rules. The native worker writes the sentences (English action,
    Devanagari dialogue); the gate judges them; emit leaves a receipt. Nothing here
    is a line of dialogue or action typed by me.
 
-   Run from inside studio/ (path is computed from process.cwd(), not hardcoded):
-     npm run build && CLAUDE_STUDIO_BUDGET=12 node src/Kuku_WriteEp1.res.mjs
-   Zero-spend structural smoke:
-     CLAUDE_STUDIO_BIN="$(pwd)/scripts/fake-claude.mjs" CLAUDE_STUDIO_BUDGET=5 \
-       node src/Kuku_WriteEp1.res.mjs
+   Native worker run: follow studio/NATIVE_WORKERS.md with this driver.
+   Zero-spend structural checks are defined in package.json.
 */
 
 @val @scope("process") external cwd: unit => string = "cwd"

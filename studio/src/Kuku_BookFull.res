@@ -2,7 +2,7 @@
    14-spread book text out (Hindi, storybook register, laws 2a/2b). Session-driven,
    budget-capped; source = verified scenes. Receipted-book machinery = future work.
 
-   Run from studio/: CLAUDE_STUDIO_BUDGET=6 node src/Kuku_BookFull.res.mjs
+   Native worker run: follow studio/NATIVE_WORKERS.md with this driver.
 */
 
 @val @scope("process") external cwd: unit => string = "cwd"

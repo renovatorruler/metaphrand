@@ -1,0 +1,17 @@
+{
+ "stills": [
+  {"name":"wp_tota","kind":"story","refs":["tansen"],
+   "prompt":"SINGLE CLEAR SUBJECT, centered, filling most of the frame: the bright green cut-paper parrot with his red beak perched on a bare wooden branch, seen side-on so his whole shape reads instantly, against a simple soft blue sky with two flat paper clouds. Nothing else in the picture. Bright even daylight."},
+  {"name":"wp_talab","kind":"story","refs":[],
+   "prompt":"SINGLE CLEAR SUBJECT, centered: a small calm papercraft pond seen from the bank, still blue-green water with soft concentric paper ripples, a fringe of green reeds along the near edge, a few flat lily pads. No animals, no characters. Bright even daylight, simple and readable."},
+  {"name":"wp_tana","kind":"story","refs":[],
+   "prompt":"SINGLE CLEAR SUBJECT, centered: the thick trunk of one big old papercraft tree, seen straight on from the ground up, layered brown paper bark with visible folds, a few green paper leaves at the very top edge of frame. No characters, no other trees. Bright even daylight."},
+  {"name":"wp_teen","kind":"story","refs":[],
+   "prompt":"SINGLE CLEAR SUBJECT: exactly THREE identical small yellow papercraft ducks swimming in a neat row on calm pond water, side-on, evenly spaced, clearly countable as three and nothing more. Simple background of flat blue-green water. Bright even daylight."},
+  {"name":"wp_taali","kind":"story","refs":["kuku","furia"],
+   "prompt":"SINGLE CLEAR ACTION, close on hands only: two small cut-paper dragon hands caught mid-clap, palms almost touching, with small soft motion marks of cut paper around them to show the clap. Warm cream paper background, no faces, no bodies, nothing else."},
+  {"name":"wp_tansen","kind":"story","refs":["tansen"],
+   "prompt":"SINGLE CLEAR SUBJECT, centered: the same bright green cut-paper parrot with the red beak, sitting proudly on a smooth plain wooden perch beside a small wooden bowl of seed, at the edge of a calm pond in warm evening light. He fills the frame. Nothing else."}
+ ],
+ "clips": []
+}

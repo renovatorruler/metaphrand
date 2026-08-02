@@ -1,0 +1,173 @@
+# THE MALL — Ross (real-world) short
+
+*Title: THE MALL*
+
+*Credit: a short film*
+
+*Draft date: 2026-07-22*
+
+*Notes: Ross (real-world). Action voice = Taylor Sheridan register. Lines marked >>SL<< are Sheridan-license authorial/interiority (unfilmable by the strict gate) — kept for the requested voice; cut or keep per taste.*
+
+*FADE IN:*
+
+### INT. ROSS UNDERWOOD — OFFICE — DAY
+
+A converted storefront off an access road. One desk. One file cabinet. A coffee maker somebody loves more than the work.
+
+ROSS UNDERWOOD, late 50s, ex-cop, sits with his hands folded like a man who learned a long time ago how to wait.
+
+Across the desk, FRANK KESSLER, early 60s. >>SL<< A big man the years have softened everywhere but the hands. He turns his wedding ring around, and around.
+
+**FRANK**  
+> Thirty-one years. She's never lied to me. Not once.  
+
+**ROSS**  
+> And now.  
+
+**FRANK**  
+> Tuesdays and Thursdays. Two o'clock. Puts on lipstick to do it. I ask where she's been, she says the mall.  
+
+> *(beat)*  
+> Ellen hates the mall.  
+
+**ROSS**  
+> Maybe she's buying you a present.  
+
+**FRANK**  
+> My birthday's in March.  
+
+Frank stops turning the ring. Looks up. >>SL<< The softness is gone out of the eyes now.
+
+**FRANK (CONT'D)**  
+> I'm not a stupid man. I know what it is. I just want to know who.  
+
+Ross has heard this a hundred times. He knows what the man is really asking — to be told he's wrong. He knows he probably can't.
+
+**ROSS**  
+> Two hundred a day. I'll have something Friday.  
+
+### EXT. KESSLER HOUSE — STREET — DAY
+
+Ross's sedan at the curb, half a block down. Beyond the windshield: a tidy house, a porch, a life.
+
+The front door opens. ELLEN KESSLER, 60. Blue coat. A scarf she took her time with. She stops at the storm door, checks her face in the glass, fixes nothing, goes.
+
+Ross watches her back the Camry down the drive. Says nothing. Pulls out after her.
+
+### EXT. MEADOWBROOK — VISITORS' LOT — DAY
+
+The Camry noses in. Ross rolls past, parks three rows back.
+
+Ellen crosses toward a low brick building. A sign at the doors: MEADOWBROOK — HOSPICE.
+
+Ross reads it. Sits back. Whatever he drove out here expecting, it wasn't that.
+
+**LATER**  
+
+Ellen comes out. Ninety minutes older. She walks slower than she went in.
+
+She gets in the Camry. Doesn't start it. Sits with both hands in her lap and comes apart — quiet, contained, >>SL<< the way people cry when they've saved it all day for the car.
+
+Ross watches from three rows back and doesn't write anything down.
+
+### INT. MEADOWBROOK — LOBBY — DAY
+
+A fish tank. A VOLUNTEER, 70s, at the desk. Ross signs the guest book, and reads the line above his own.
+
+INSERT — THE BOOK: ELLEN KESSLER — 2:05 — DIANE POVICH.
+
+**ROSS**  
+> Diane Povich. She get many people in to see her?  
+
+The VOLUNTEER softens. The face people make about someone near the end.
+
+**VOLUNTEER**  
+> Just the one lady. Tuesdays and Thursdays. Since the spring.  
+
+### EXT. OLD NEIGHBORHOOD — PORCH — DAY
+
+A row-house block gone gray. MARIE, 70s, housecoat, cigarette, holds court from the top step. Ross stands below her.
+
+**MARIE**  
+> Diane and Ellen? Thick as thieves. Forty years, those two.  
+
+**ROSS**  
+> So what happened.  
+
+Marie draws on the cigarette. Decides how much of it to hand over.
+
+**MARIE**  
+> Twenty-some years back, Diane said a thing about Ellen's husband. Said it to Ellen's face.  
+
+**ROSS**  
+> What'd she say?  
+
+**MARIE**  
+> Now that's the part nobody ever got told. Whatever it was — Ellen picked Frank. Called her oldest friend a liar in front of the whole block and shut the door.  
+
+> *(taps ash)*  
+> Twenty-two years. Eight miles apart. Not one word.  
+
+### INT. DINER — DAY
+
+A back booth. Two coffees. Ross across from Frank.
+
+**ROSS**  
+> She's not seeing a man, Frank.  
+
+Frank waits.
+
+**ROSS (CONT'D)**  
+> Tuesdays and Thursdays she drives across town to a hospice. She sits with a woman named Diane Povich. Holds her hand. Povich is dying. Weeks, they figure.  
+
+Ross has handed men relief a hundred times. He knows the look that comes — the shoulders letting down. He waits for it.
+
+It doesn't come.
+
+Frank sits dead still. The blood climbs up into his face. >>SL<< When he speaks the voice has gone flat and careful, a man stepping around something on the floor.
+
+**FRANK**  
+> You're sure it's Povich.  
+
+**ROSS**  
+> I'm sure.  
+
+Frank studies the table a long moment. Takes out his wallet. Lays a twenty beside a coffee he never touched.
+
+**FRANK**  
+> I'd rather it was a man.  
+
+Ross doesn't answer. Not certain he heard it.
+
+**FRANK (CONT'D)**  
+> Right now. This afternoon. I'd rather she was in some motel with a fella off the treadmill.  
+
+He stands. Pulls on his coat.
+
+**FRANK (CONT'D)**  
+> You did the job. Send the bill.  
+
+He goes. Ross sits with two cold coffees and the feeling of having handed a man something worse than the thing he walked in afraid of.
+
+### EXT. MEADOWBROOK — VISITORS' LOT — DAY
+
+Ross's sedan, off to the side. He isn't working now. He came to see.
+
+Across the lot — the silver Camry. And three spaces down, nosed in: a pickup. A gas-company sticker peeling off the back glass.
+
+Frank's truck. Frank behind the wheel. Engine off. Watching the doors.
+
+Ross watches Frank watch the doors.
+
+The hospice doors open. Ellen comes out, wrecked, working a tissue she's done needing.
+
+She never looks at the truck. She gets in the Camry.
+
+Frank doesn't get out. Doesn't wave. Doesn't start the engine.
+
+>>SL<< He just sits and watches his wife grieve the woman who was right about him.
+
+Hold on Frank's face — >>SL<< a man taking the verdict, twice a week, from across a parking lot.
+
+*CUT TO BLACK.*
+

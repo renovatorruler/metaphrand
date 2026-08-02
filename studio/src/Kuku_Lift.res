@@ -5,9 +5,8 @@
    sophistication. This is a PRESCHOOL teaching show — we want the opposite. So we
    hand the lift baked director's notes that PROTECT the simple, repetitive register.
 
-   Run from inside studio/:
-     CLAUDE_STUDIO_BUDGET=6 node src/Kuku_Lift.res.mjs           # defaults to kuku-ep1-k
-     CLAUDE_STUDIO_BUDGET=6 node src/Kuku_Lift.res.mjs <scene-id>
+   Native worker run: follow studio/NATIVE_WORKERS.md. The optional argument is
+   a scene id; without one this defaults to kuku-ep1-k.
 */
 
 @val @scope("process") external cwd: unit => string = "cwd"

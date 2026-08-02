@@ -1,0 +1,1626 @@
+{
+ "scenes": [
+  {
+   "name": "s0_card",
+   "cue": "score/cueT1_morning.mp3",
+   "score_vol": 0.4,
+   "segments": [
+    {
+     "src": "card:t1",
+     "dur": 3.2,
+     "bridge": true,
+     "takes": []
+    }
+   ]
+  },
+  {
+   "name": "s1",
+   "cue": "score/cueT1_morning.mp3",
+   "score_vol": 0.45,
+   "segments": [
+    {
+     "src": "still:e6_vesper_mahacheekh",
+     "takes": [
+      {
+       "i": 1
+      },
+      {
+       "sfx": "morning_birds_pond",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d1_castor",
+     "takes": [
+      {
+       "i": 2
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_pehli_jhalak",
+     "dur": 3.1279579999999996,
+     "takes": [
+      {
+       "sfx": "mimic_02_LEDA",
+       "at": 0.3,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d1_leda",
+     "takes": [
+      {
+       "i": 3
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d1_fyuria",
+     "takes": [
+      {
+       "i": 4
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_pehli_jhalak",
+     "dur": 2.5926669999999996,
+     "takes": [
+      {
+       "sfx": "mimic_04_FYURIA",
+       "at": 0.3,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d1_vesper",
+     "takes": [
+      {
+       "i": 5
+      },
+      {
+       "sfx": "valley_echo_scatter",
+       "at": 5.109999999999999,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d1_castor",
+     "takes": [
+      {
+       "i": 6
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d1_fyuria",
+     "takes": [
+      {
+       "i": 7
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d1_kuku",
+     "takes": [
+      {
+       "i": 8
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d1_vesper",
+     "takes": [
+      {
+       "i": 9
+      },
+      {
+       "sfx": "parrot_wingbeat",
+       "at": 4.47,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "clip:c6_tansen_dal_se_dal",
+     "takes": [
+      {
+       "i": 10
+      },
+      {
+       "sfx": "dadi_stick_steps",
+       "at": 6.069999999999999,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d1_dadi",
+     "takes": [
+      {
+       "i": 11
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d1_castor",
+     "takes": [
+      {
+       "i": 12
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_pehli_jhalak",
+     "dur": 2.5078129999999996,
+     "takes": [
+      {
+       "sfx": "mimic_12_CASTOR",
+       "at": 0.3,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d1_castor",
+     "takes": [
+      {
+       "i": 13
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d1_dadi",
+     "takes": [
+      {
+       "i": 14
+      },
+      {
+       "sfx": "dadi_stick_steps",
+       "at": 9.270000000000001,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d1_kuku",
+     "takes": [
+      {
+       "i": 15
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d1_vesper",
+     "takes": [
+      {
+       "i": 16
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d1_kuku",
+     "takes": [
+      {
+       "i": 17
+      },
+      {
+       "sfx": "wind_only_silence",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d1_fyuria",
+     "takes": [
+      {
+       "i": 18
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d1_fyuria",
+     "takes": [
+      {
+       "i": 19
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s2",
+   "cue": "score/cueT2_play.mp3",
+   "score_vol": 0.45,
+   "segments": [
+    {
+     "src": "still:e6_maidan_subah_sab",
+     "takes": [
+      {
+       "i": 20
+      },
+      {
+       "sfx": "group_steps_field",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_maidan_pravesh",
+     "dur": 4.019125,
+     "takes": [
+      {
+       "sfx": "mimic_20_FYURIA",
+       "at": 0.3,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d2_fyuria",
+     "takes": [
+      {
+       "i": 21
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d2_vesper",
+     "takes": [
+      {
+       "i": 22
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_maidan_pravesh",
+     "dur": 3.0584789999999997,
+     "takes": [
+      {
+       "sfx": "mimic_22_VESPER",
+       "at": 0.3,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d2_vesper",
+     "takes": [
+      {
+       "i": 23
+      },
+      {
+       "sfx": "papa_heavy_steps",
+       "at": 5.109999999999999,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d2_papa",
+     "takes": [
+      {
+       "i": 24
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d2_kuku",
+     "takes": [
+      {
+       "i": 25
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d2_papa",
+     "takes": [
+      {
+       "i": 26
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_maidan_pravesh",
+     "dur": 2.506875,
+     "takes": [
+      {
+       "sfx": "mimic_26_PAPA",
+       "at": 0.3,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d2_papa",
+     "takes": [
+      {
+       "i": 27
+      },
+      {
+       "sfx": "group_laugh",
+       "at": 7.27,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d2_dadi",
+     "takes": [
+      {
+       "i": 28
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d2_leda",
+     "takes": [
+      {
+       "i": 29
+      },
+      {
+       "sfx": "seed_peck",
+       "at": 4.31,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_maidan_pravesh",
+     "dur": 2.8117289999999997,
+     "takes": [
+      {
+       "sfx": "mimic_29_VESPER",
+       "at": 0.3,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "clip:c6_maha_cheekh_udaan",
+     "takes": [
+      {
+       "i": 30
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d2_kuku",
+     "takes": [
+      {
+       "i": 31
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d2_vesper",
+     "takes": [
+      {
+       "i": 32
+      },
+      {
+       "sfx": "valley_echo_scatter",
+       "at": 3.19,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d2_castor",
+     "takes": [
+      {
+       "i": 33
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d2_kuku",
+     "takes": [
+      {
+       "i": 34
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d2_vesper",
+     "takes": [
+      {
+       "i": 35
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d2_dadi",
+     "takes": [
+      {
+       "i": 36
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s2_break",
+   "cue": "score/cueT3_race.mp3",
+   "score_vol": 0.3,
+   "segments": [
+    {
+     "src": "card:tsep",
+     "dur": 2.4,
+     "bridge": true,
+     "takes": [
+      {
+       "sfx": "chime_act",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s3",
+   "cue": "score/cueT3_race.mp3",
+   "score_vol": 0.45,
+   "segments": [
+    {
+     "src": "still:e6_race_start",
+     "takes": [
+      {
+       "i": 37
+      },
+      {
+       "sfx": "line_drawn_dirt",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d3_fyuria",
+     "takes": [
+      {
+       "i": 38
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d3_mitasur",
+     "takes": [
+      {
+       "i": 39
+      }
+     ]
+    },
+    {
+     "src": "clip:c6_race",
+     "takes": [
+      {
+       "i": 40
+      },
+      {
+       "sfx": "race_footsteps",
+       "at": 6.1499999999999995,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d3_fyuria",
+     "takes": [
+      {
+       "i": 41
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d3_mitasur",
+     "takes": [
+      {
+       "i": 42
+      },
+      {
+       "sfx": "splash_arrive",
+       "at": 6.71,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d3_castor",
+     "takes": [
+      {
+       "i": 43
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d3_mitasur",
+     "takes": [
+      {
+       "i": 44
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d3_fyuria",
+     "takes": [
+      {
+       "i": 45
+      },
+      {
+       "sfx": "reeds_wind",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d3_fyuria",
+     "takes": [
+      {
+       "i": 46
+      }
+     ]
+    },
+    {
+     "src": "clip:c6_tansen_drops_into_reeds",
+     "takes": [
+      {
+       "i": 47
+      },
+      {
+       "sfx": "reeds_wind",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s3_break",
+   "cue": "score/cueT4_hurt.mp3",
+   "score_vol": 0.3,
+   "segments": [
+    {
+     "src": "card:tsep",
+     "dur": 2.4,
+     "bridge": true,
+     "takes": [
+      {
+       "sfx": "chime_act",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s4",
+   "cue": "score/cueT4_hurt.mp3",
+   "score_vol": 0.45,
+   "segments": [
+    {
+     "src": "still:e6_mitasur_door_midday",
+     "takes": [
+      {
+       "i": 48
+      },
+      {
+       "sfx": "door_creak_small",
+       "at": 0,
+       "duck": false
+      },
+      {
+       "sfx": "door_creak_small",
+       "at": 3.03,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "clip:c6_tansen_lands_on_door",
+     "takes": [
+      {
+       "i": 49
+      },
+      {
+       "sfx": "wind_only_silence",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_lintel_hush",
+     "dur": 5.147291999999999,
+     "takes": [
+      {
+       "sfx": "mimic_49_FYURIA",
+       "at": 0.3,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d4_mitasur",
+     "takes": [
+      {
+       "i": 50
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d4_kuku",
+     "takes": [
+      {
+       "i": 51
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d4_mitasur",
+     "takes": [
+      {
+       "i": 52
+      },
+      {
+       "sfx": "running_steps_arrive",
+       "at": 7.67,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d4_fyuria",
+     "takes": [
+      {
+       "i": 53
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_lintel_hush",
+     "dur": 4.352979,
+     "takes": [
+      {
+       "sfx": "mimic_53_FYURIA",
+       "at": 0.3,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d4_fyuria",
+     "takes": [
+      {
+       "i": 54
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d4_mitasur",
+     "takes": [
+      {
+       "i": 55
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d4_fyuria",
+     "takes": [
+      {
+       "i": 56
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d4_mitasur",
+     "takes": [
+      {
+       "i": 57
+      },
+      {
+       "sfx": "door_close_soft",
+       "at": 6.1499999999999995,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "clip:c6_mitasur_walks_away",
+     "takes": [
+      {
+       "i": 58
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s5",
+   "cue": "score/cueT5_teach.mp3",
+   "score_vol": 0.45,
+   "segments": [
+    {
+     "src": "still:e6_lesson_circle_under_tana",
+     "takes": [
+      {
+       "i": 59
+      },
+      {
+       "sfx": "parrot_wingbeat",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_kuku",
+     "takes": [
+      {
+       "i": 60
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_vesper",
+     "takes": [
+      {
+       "i": 61
+      },
+      {
+       "sfx": "dadi_stick_steps",
+       "at": 8.07,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_dadi",
+     "takes": [
+      {
+       "i": 62
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_fyuria",
+     "takes": [
+      {
+       "i": 63
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_dadi",
+     "takes": [
+      {
+       "i": 64
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_kuku",
+     "takes": [
+      {
+       "i": 65
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_dadi",
+     "takes": [
+      {
+       "i": 66
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_vesper",
+     "takes": [
+      {
+       "i": 67
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_kuku",
+     "fx": [
+      {
+       "png": "glyphs/fx_t.png",
+       "at": 0.6,
+       "scale": 0.3,
+       "pos": "tc"
+      }
+     ],
+     "takes": [
+      {
+       "i": 68
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_dadi",
+     "takes": [
+      {
+       "i": 69
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_group",
+     "fx": [
+      {
+       "png": "glyphs/fx_t.png",
+       "at": 0.15,
+       "scale": 0.3,
+       "pos": "tc"
+      }
+     ],
+     "takes": [
+      {
+       "i": 70
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_dadi",
+     "takes": [
+      {
+       "i": 71
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_leda",
+     "fx": [
+      {
+       "png": "glyphs/fx_t.png",
+       "at": 0.1,
+       "scale": 0.16,
+       "pos": "tl"
+      },
+      {
+       "png": "glyphs/pic_tota.png",
+       "at": 0.1,
+       "scale": 0.3,
+       "pos": "tr"
+      }
+     ],
+     "takes": [
+      {
+       "i": 72
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_dadi",
+     "takes": [
+      {
+       "i": 73
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_castor",
+     "fx": [
+      {
+       "png": "glyphs/fx_t.png",
+       "at": 0.1,
+       "scale": 0.16,
+       "pos": "tl"
+      },
+      {
+       "png": "glyphs/pic_talab.png",
+       "at": 0.1,
+       "scale": 0.3,
+       "pos": "tr"
+      }
+     ],
+     "takes": [
+      {
+       "i": 74
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_dadi",
+     "takes": [
+      {
+       "i": 75
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_vesper",
+     "fx": [
+      {
+       "png": "glyphs/fx_t.png",
+       "at": 0.1,
+       "scale": 0.16,
+       "pos": "tl"
+      },
+      {
+       "png": "glyphs/pic_tana.png",
+       "at": 0.1,
+       "scale": 0.3,
+       "pos": "tr"
+      }
+     ],
+     "takes": [
+      {
+       "i": 76
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_dadi",
+     "takes": [
+      {
+       "i": 77
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_group",
+     "takes": [
+      {
+       "i": 87
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_kuku",
+     "takes": [
+      {
+       "i": 88
+      },
+      {
+       "sfx": "forge_whoosh_land",
+       "at": 2.0700000000000003,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "clip:c6_t_settles_into_mud",
+     "fx": [
+      {
+       "png": "glyphs/fx_t.png",
+       "at": 0.2,
+       "scale": 0.34,
+       "pos": "tc"
+      }
+     ],
+     "takes": [
+      {
+       "i": 90
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_fyuria",
+     "takes": [
+      {
+       "i": 91
+      },
+      {
+       "sfx": "parrot_flutter_away",
+       "at": 4.15,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_castor",
+     "takes": [
+      {
+       "i": 92
+      }
+     ]
+    },
+    {
+     "src": "clip:c6_tansen_flyby_refusal",
+     "takes": [
+      {
+       "i": 93
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d5_kuku",
+     "takes": [
+      {
+       "i": 94
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s6",
+   "cue": "score/cueT6_words.mp3",
+   "score_vol": 0.45,
+   "segments": [
+    {
+     "src": "still:e6_taali_lehar",
+     "takes": [
+      {
+       "i": 95
+      },
+      {
+       "sfx": "parrot_wingbeat",
+       "at": 0,
+       "duck": false
+      },
+      {
+       "sfx": "parrot_flutter_away",
+       "at": 3.67,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_vesper",
+     "takes": [
+      {
+       "i": 96
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_leda",
+     "takes": [
+      {
+       "i": 97
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_dadi",
+     "takes": [
+      {
+       "i": 98
+      },
+      {
+       "sfx": "leda_small_steps",
+       "at": 5.75,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_leda",
+     "takes": [
+      {
+       "i": 99
+      },
+      {
+       "sfx": "parrot_land_perch",
+       "at": 4.63,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "clip:c6_tansen_utarta",
+     "fx": [
+      {
+       "png": "glyphs/fx_t.png",
+       "at": 0.3,
+       "scale": 0.26,
+       "pos": "tc"
+      }
+     ],
+     "takes": [
+      {
+       "i": 100
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_kuku",
+     "takes": [
+      {
+       "i": 101
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_dadi",
+     "takes": [
+      {
+       "i": 102
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_fyuria",
+     "takes": [
+      {
+       "i": 103
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_dadi",
+     "takes": [
+      {
+       "i": 104
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_fyuria",
+     "takes": [
+      {
+       "i": 105
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_baitha_katori",
+     "dur": 2.3503749999999997,
+     "takes": [
+      {
+       "sfx": "mimic_105_FYURIA",
+       "at": 0.3,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_group",
+     "takes": [
+      {
+       "i": 106
+      },
+      {
+       "sfx": "clap_group",
+       "at": 1.83,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_dadi",
+     "takes": [
+      {
+       "i": 107
+      },
+      {
+       "sfx": "yawn_boy",
+       "at": 6.55,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_vesper",
+     "takes": [
+      {
+       "i": 108
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_fyuria",
+     "takes": [
+      {
+       "i": 109
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_vesper",
+     "takes": [
+      {
+       "i": 110
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_baitha_katori",
+     "dur": 3.7824169999999997,
+     "takes": [
+      {
+       "sfx": "mimic_110_VESPER",
+       "at": 0.3,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_group",
+     "takes": [
+      {
+       "i": 111
+      },
+      {
+       "sfx": "clap_group",
+       "at": 2.4699999999999998,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_kuku",
+     "takes": [
+      {
+       "i": 112
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_baitha_katori",
+     "dur": 1.767521,
+     "takes": [
+      {
+       "sfx": "mimic_112_KUKU",
+       "at": 0.3,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_group",
+     "takes": [
+      {
+       "i": 113
+      },
+      {
+       "sfx": "clap_big",
+       "at": 3.03,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_baitha_katori",
+     "dur": 2.1791039999999997,
+     "takes": [
+      {
+       "sfx": "mimic_113_FYURIA",
+       "at": 0.3,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_dadi",
+     "takes": [
+      {
+       "i": 114
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_baitha_katori",
+     "dur": 2.658604,
+     "takes": [
+      {
+       "sfx": "mimic_114_FYURIA",
+       "at": 0.3,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_group",
+     "takes": [
+      {
+       "i": 115
+      },
+      {
+       "sfx": "clap_big",
+       "at": 2.8699999999999997,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d6_fyuria",
+     "takes": [
+      {
+       "i": 116
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s7",
+   "cue": "score/cueT7_night.mp3",
+   "score_vol": 0.45,
+   "segments": [
+    {
+     "src": "still:e6_bridge_evening_wide",
+     "takes": [
+      {
+       "i": 117
+      },
+      {
+       "sfx": "stream_bridge_ropes",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d7_mitasur",
+     "takes": [
+      {
+       "i": 118
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d7_fyuria",
+     "takes": [
+      {
+       "i": 119
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d7_mitasur",
+     "takes": [
+      {
+       "i": 120
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d7_fyuria",
+     "takes": [
+      {
+       "i": 121
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d7_mitasur",
+     "takes": [
+      {
+       "i": 122
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d7_fyuria",
+     "takes": [
+      {
+       "i": 123
+      }
+     ]
+    },
+    {
+     "src": "clip:c6_saathi_handclasp",
+     "takes": [
+      {
+       "i": 124
+      },
+      {
+       "sfx": "stream_bridge_ropes",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_lands_rope",
+     "dur": 4.353708,
+     "takes": [
+      {
+       "sfx": "mimic_124_FYURIA",
+       "at": 0.3,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d7_mitasur",
+     "takes": [
+      {
+       "i": 125
+      },
+      {
+       "sfx": "stream_bridge_ropes",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s8",
+   "cue": "score/cueT7_night.mp3",
+   "score_vol": 0.45,
+   "segments": [
+    {
+     "src": "still:e6_pond_family_hush",
+     "takes": [
+      {
+       "i": 126
+      },
+      {
+       "sfx": "evening_crickets",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d8_dadi",
+     "takes": [
+      {
+       "i": 127
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d8_papa",
+     "takes": [
+      {
+       "i": 128
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_tucks_in",
+     "dur": 2.101979,
+     "takes": [
+      {
+       "sfx": "mimic_128_PAPA",
+       "at": 0.3,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d8_leda",
+     "takes": [
+      {
+       "i": 129
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_tucks_in",
+     "dur": 1.9492079999999996,
+     "takes": [
+      {
+       "sfx": "mimic_129_LEDA",
+       "at": 0.3,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d8_leda",
+     "takes": [
+      {
+       "i": 130
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d8_dadi",
+     "takes": [
+      {
+       "i": 131
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d8_dadi",
+     "takes": [
+      {
+       "i": 132
+      },
+      {
+       "sfx": "wind_only_silence",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_tucks_in",
+     "dur": 3.544667,
+     "takes": [
+      {
+       "sfx": "mimic_132_VESPER",
+       "at": 0.3,
+       "duck": true
+      },
+      {
+       "sfx": "mimic_132_FYURIA",
+       "at": 1.42075,
+       "duck": true
+      },
+      {
+       "sfx": "mimic_132_KUKU",
+       "at": 2.534354,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d8_dadi",
+     "takes": [
+      {
+       "i": 133
+      }
+     ]
+    },
+    {
+     "src": "seq",
+     "cards": [
+      "t3",
+      "t4",
+      "t5",
+      "t6",
+      "t7",
+      "t8"
+     ],
+     "takes": [
+      {
+       "i": 134
+      },
+      {
+       "sfx": "snore_soft_boy",
+       "at": 16.55,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d8_fyuria",
+     "takes": [
+      {
+       "i": 135
+      }
+     ]
+    },
+    {
+     "src": "still:e6_tansen_tucks_in",
+     "dur": 2.014208,
+     "takes": [
+      {
+       "sfx": "mimic_135_VESPER",
+       "at": 0.3,
+       "duck": true
+      }
+     ]
+    },
+    {
+     "src": "still:e6_d8_papa",
+     "dur": 9.89,
+     "takes": [
+      {
+       "i": 136
+      },
+      {
+       "sfx": "snore_soft_boy",
+       "at": 5.59,
+       "duck": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

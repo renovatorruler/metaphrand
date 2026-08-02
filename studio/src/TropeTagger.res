@@ -1,4 +1,4 @@
-// Step 3 — the tagger. Reads a corpus story, asks the warm Session which candidate
+// Step 3 — the tagger. Reads a corpus story, asks a native worker which candidate
 // tropes appear, VERIFIES each claimed quote exists in the text (code, not trust),
 // and stores only verified tags. Two stages: shortlist (A), then verify+mode (B).
 //
@@ -224,10 +224,10 @@ let runStory = async (~ask: string => promise<string>, db, runId, storyId) => {
 // ---- CLI -----------------------------------------------------------------
 
 let requireBudget = () =>
-  switch Js.Dict.get(env, "CLAUDE_STUDIO_BUDGET") {
+  switch Js.Dict.get(env, "STUDIO_WORKER_BUDGET") {
   | Some(v) if v != "" => ()
   | _ => {
-      Js.log("REFUSING: CLAUDE_STUDIO_BUDGET is not set. Real tagging spends model budget; set the cap first.")
+      Js.log("REFUSING: STUDIO_WORKER_BUDGET is not set. Native tagging spends worker budget; set the cap first.")
       exit(1)
     }
   }
@@ -237,7 +237,7 @@ let realRun = async (db, storyIds) => {
   let runId = "run_" ++ Js.Float.toString(Js.Date.now())
   Sqlite.runArray(
     Sqlite.prepare(db, "INSERT INTO runs(run_id, started_at, model, calls, notes) VALUES (?,?,?,?,?)"),
-    [runId, Js.Date.make()->Js.Date.toISOString, "warm-session", "0", "tagger"],
+    [runId, Js.Date.make()->Js.Date.toISOString, Session.workerProvider(), "0", "tagger"],
   )
   for i in 0 to Js.Array2.length(storyIds) - 1 {
     // one story failing must not abort the others
@@ -261,7 +261,7 @@ let plan = db => {
   }->Belt.Float.toInt
   Js.log("stories: " ++ Belt.Int.toString(n))
   Js.log("turns per story: 2 (tag + recall)")
-  Js.log("EST TOTAL warm-session turns: " ++ Belt.Int.toString(2 * n))
+  Js.log("EST TOTAL native-worker turns: " ++ Belt.Int.toString(2 * n))
 }
 
 let selftest = () => {

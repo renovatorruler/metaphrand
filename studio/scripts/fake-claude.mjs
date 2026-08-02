@@ -22,16 +22,23 @@ process.stdin.on("data", (c) => {
     } catch {}
     n += 1;
     const idx = n;
-    process.stderr.write(`[fake] recv #${idx}: ${text}\n`);
-    // First turn replies SLOWLY, second quickly: if anything but the queue were
-    // ordering us, replies would come back out of order.
-    const delay = idx === 1 ? 200 : 10;
+    const preview = text.length > 96 ? text.slice(0, 96) + "..." : text;
+    process.stderr.write(`[fake] recv #${idx}: ${preview.replaceAll("\n", " ")}\n`);
+    // The smoke test sends "hello" (slow) then "world" (fast) to prove queueing.
+    // The timeout test sends "slow", kills this process, then sends "fast" to a
+    // fresh process; prompt-based delay keeps that second process fast too.
+    const delay = text === "slow" ? 1000 : text === "hello" ? 200 : 10;
     setTimeout(() => {
+      const reply = text.includes("You are lifting the DIALOGUE")
+        ? "NONE"
+        : text.includes("You are ADDING one short beat")
+          ? "ACTION: The door opens."
+          : "echo:" + text;
       const out = {
         type: "result",
         subtype: "success",
         is_error: false,
-        result: "echo:" + text,
+        result: reply,
         usage: {
           input_tokens: 3,
           output_tokens: 4,

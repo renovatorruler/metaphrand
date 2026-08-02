@@ -2,7 +2,7 @@
    in ONE warm-Session call, authors an ElevenLabs v3 delivery tag for each DIALOGUE
    line (how it's performed, from the subtext), stored as <id>.performance.json —
    the maintained artifact the video reader applies. Only a verified scene is
-   performed. Run: CLAUDE_STUDIO_BUDGET=2 node src/Cinema_SkyPerform.res.mjs <id> */
+   performed. Native worker run: follow studio/NATIVE_WORKERS.md. */
 open Cinema_Backends
 
 let dir = "/Users/dusty/dev/brehon-law/stories/sky-king"

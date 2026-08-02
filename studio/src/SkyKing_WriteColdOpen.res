@@ -1,6 +1,6 @@
 /* The SKY KING cold open, written by the ENGINE from a seed I author. I supply
    structure — wants, walls, turns, voice cards, the buried layer, the rules. The
-   warm Session writes the sentences; the gate judges them; emit leaves a receipt.
+   native worker writes the sentences; the gate judges them; emit leaves a receipt.
    Nothing here is a line of dialogue or a line of action typed by me. */
 
 let outPath = "/Users/dusty/dev/brehon-law/stories/sky-king/sky-king-cold-open.scene.txt"

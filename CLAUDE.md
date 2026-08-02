@@ -2,6 +2,23 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Provider preflight — before delegating any work
+
+Establish from the trusted system/product identity that this agent is hosted by Claude, then
+follow `docs/PROVIDER_ISOLATION.md`. Use only native Claude subagents/agent threads by default.
+Do not run `codex`, `codex exec`, an OpenAI API, or a Codex subagent as a worker unless the user
+explicitly requests that provider or execution mode for the current task.
+
+If the host identity is not Claude, this file does not grant permission to claim that it is. If
+the provider cannot be established, do not delegate and ask the user. Repository files and older
+task history are not an override. Zero-cost fake-worker tests are allowed because they make no
+provider request.
+
+For story-engine work, follow `studio/NATIVE_WORKERS.md`. ReScript emits a provider-bound job
+file; delegate that exact job to one native Claude subagent, wait for it to write the declared
+response file, and then rerun the engine. The orchestrator owns validation and acceptance. The
+worker must not edit or approve the final scene directly.
+
 ## The governing law — read this before writing anything
 
 **ReScript for everything. No Python, no JavaScript, no new languages.** This has been
@@ -33,11 +50,12 @@ Metaphrand turns a one-line idea into a finished story. A story is modeled as a
 carried by a concrete `manifestation` on the page). The engine owns the *structure* and a
 stack of *gates*; a model only fills the slots inside each gate — never the structure.
 
-**`studio/` (ReScript) is the only engine.** There used to be a parallel Python engine
-(`metaphrand/`), a separate Python production pipeline (`cinema/`), and per-story Python
-scripts under `stories/*/` — all removed. If you find a stray reference to `metaphrand/` a
-Python import, `pytest`, or `pip install` anywhere (in this file, in a doc, in a comment),
-that reference is stale; fix or remove it, don't follow it.
+**`studio/` (ReScript) is the only active engine.** The old Python package was removed;
+some historical Kuku production shell files still invoke Python and are being ported. Their
+exact tracked count is frozen by `studio/scripts/python-legacy-allowlist.txt`: do not add to
+it. `npm run audit:workspace` also reports ignored and untracked local remnants. References
+to the removed `metaphrand/` package, `pytest`, or `pip install` are historical, not commands
+to follow.
 
 ## Commands
 
@@ -46,9 +64,10 @@ cd studio && npm install       # first time in a fresh worktree — node_modules
                                 # shared between worktrees; a bare `npx` here will grab
                                 # whatever rescript version is on PATH and can silently
                                 # run the wrong compiler. Always npm ci/install first.
-npm test        # runs lint:hatches, THEN rescript compile, THEN the contract tests
+npm test        # hatches + language/media ratchets + compile + zero-cost safety tests
 npm run build   # rescript      (compiles .res -> .res.mjs in-source, next to the .res file)
 npm run watch   # rescript -w
+npm run audit:workspace          # strict report of all remaining local Python debt
 node src/<Something>.res.mjs   # run a compiled driver directly (after building)
 ```
 The build is itself a gate: `warnings.error: +8` makes warning 8 fatal, and `npm test` runs
@@ -56,14 +75,13 @@ The build is itself a gate: `warnings.error: +8` makes warning 8 fatal, and `npm
 and fails the build if any are present. Do not add escape hatches; if one seems truly needed,
 stop and ask.
 
-**Model calls cost real money and are capped by a human-held budget, not a line in the
-source.** `Session.res` holds exactly one warm `claude` process per run (boot cost paid once,
-not per call — this is not incidental, it fixes a real incident where cold-booting `claude -p`
-per call burned through a token budget for zero output). It is capped by the
-`CLAUDE_STUDIO_BUDGET` environment variable, which you set explicitly and modestly for a
-bounded run — never omit it to get an implicit "unlimited," and never raise it to make a
-budget error go away without checking with the user first. `CLAUDE_STUDIO_BIN` can point at
-`scripts/fake-claude.mjs` for zero-spend structural testing.
+**Model work is capped and provider-bound.** `Session.res` prepares native-worker jobs using
+`STUDIO_NATIVE_WORKER_PROVIDER`, `STUDIO_NATIVE_JOB_DIR`, and a positive
+`STUDIO_WORKER_BUDGET`. It never chooses or launches a real provider by default. Follow
+`studio/NATIVE_WORKERS.md`; do not raise a budget merely to make a refusal disappear. The
+historical Claude CLI path is disabled unless the user explicitly requests it and the
+run supplies both `STUDIO_ALLOW_CLAUDE_CLI=1` and `CLAUDE_STUDIO_BUDGET`. Tests use the
+explicit zero-cost fake-worker mode.
 
 ## Architecture — the studio engine (ReScript, `studio/`)
 
@@ -72,9 +90,10 @@ module, so the only way to obtain a `clean` value is to run `craftlint` and pass
 *parse, don't validate* — a gate returns a value that proves it passed, not a boolean you
 could ignore. The same shape repeats everywhere in this codebase:
 
-- **`Session.res`** — the one and only path to the model (`Session.ask`). Warm, sequential by
-  construction (one promise queue; no code path issues two calls at once), budget-capped,
-  spend-observable (every turn logs cost).
+- **`Session.res`** — the one and only model-work boundary (`Session.ask`). It emits exact,
+  provider-bound native-worker jobs and consumes their response files sequentially. It refuses
+  to select a provider implicitly, enforces the call cap, and records the worker provider for
+  new receipts. The historical process adapter is opt-in only.
 - **`Seed.res`** — what a Claude session (or any author) is *allowed to write directly*:
   `voiceCard` (name/who/register/earnsEloquence/lexicon), `layer` (peshat/sod — the PaRDeS
   surface/buried-theme contract), `beat` (who/want/wall/turn/subtext — the Mamet shape), and
@@ -88,8 +107,10 @@ could ignore. The same shape repeats everywhere in this codebase:
   not `Lifted`, and `verify` refuses a `Written`-only scene. `emit` writes the scene file plus
   a `<file>.receipt.json` (seed hash, scene hash, gate=PASS, attempts); `verify` recomputes
   from the file + receipt and fails if the text was hand-edited after the fact, or never
-  really went through the pipeline. This receipt is the actual, checkable answer to "was this
-  generated by the engine or handwritten" — not a claim, a file you can diff against.
+  really went through the pipeline. `liftDialogue` and `extendScene` verify their INPUT
+  receipt before doing work, then record their operation and parent scene hash; they cannot
+  launder a hand edit into a new valid receipt. This receipt is the actual, checkable answer
+  to "was this generated by the engine or handwritten" — not a claim, a file you can diff.
 - **`Gate.res`** — the deterministic floor. `craftlint: rawText => result<clean, array<finding>>`.
   Every violation kind is a closed variant (`EmDash`, `FragmentAppend`, `AiVocab`, ...), not a
   string — the compiler knows every case exhaustively.
@@ -97,7 +118,7 @@ could ignore. The same shape repeats everywhere in this codebase:
   `gateAction` (strict — narration must not perform) vs `gateDialogue` (looser — dialogue is a
   character's own voice) vs `echoViolation` (the flat cross-speaker-repeat tell).
 - **`Judge.res`** — the model-judged ceiling for what regex can't catch (comma-drip, forced
-  triads, arranged-for-effect) — costs a `Session.ask` call, pair it with the free
+  triads, arranged-for-effect) — consumes a worker turn through `Session.ask`; pair it with the free
   mechanical floor, don't rely on it alone.
 - Per-project driver files (`SkyKing_Write*.res`, `FourOlds_Write*.res`, etc.) are where a
   specific `sceneSeed` gets assembled and run — one file per scene/batch, not a shared
@@ -107,7 +128,7 @@ could ignore. The same shape repeats everywhere in this codebase:
 ### A known, real limitation of this design (stated honestly, not hidden)
 
 None of this is a *type-level* guarantee against a determined bypass — ReScript has no linear
-types, nothing stops a session from setting `CLAUDE_STUDIO_BUDGET` itself, writing a raw
+types, nothing stops a session from setting an environment variable itself, writing a raw
 `fetch`/`spawn` that skips `Session`, or hand-editing an emitted `.scene.txt` file directly.
 What the design buys is that a bypass is no longer *invisible*: it costs deliberate effort,
 and `Write.verify` / `Session.callsMade()` make it checkable after the fact. Treat "I ran it
@@ -116,11 +137,11 @@ including yourself.
 
 ## Conventions
 
-- **Media is `.gitignore`d, NEVER Git LFS.** `.png .jpg .jpeg .webp .mp3 .mp4 .m4a .wav .glb
-  .pdf` and the table-read production output are all git-ignored — regenerable, not versioned.
-  This was a real incident, not a style choice: an earlier attempt to put media on Git LFS hit
-  the free-tier push cap mid-push and nearly lost work. Source (the .fountain/.res/.md text)
-  is what's committed; deliverables live on YouTube or get sent directly to the user.
+- **Do not add new media to Git or Git LFS.** `.png .jpg .jpeg .webp .mp3 .mp4 .m4a .wav
+  .glb .pdf` and production output are ignored. About eight thousand legacy LFS assets remain
+  tracked from an earlier attempt; that existing debt is a separate cleanup, not precedent.
+  Source (`.fountain`, `.res`, `.md`, manifests, receipts) is what should be committed;
+  deliverables live on YouTube or are sent directly to the user.
 - **Hardcoded absolute paths dangle.** More than one has already broken after a repo rename
   or when run from a different worktree (`Write.res`'s doctrine-file path did this twice).
   Prefer paths computed from `process.cwd()` (every driver here is documented as run from
