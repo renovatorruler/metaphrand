@@ -1,5 +1,7 @@
 # «धीरे पधारो, हुकुम» — the uncle's song (माटी माँगे track; dedicated)
 
+**STATUS: SUPERSEDED AS THE ACTIVE LYRIC DIRECTION (2026-08-02).** Retained as craft history only; do not render. The author rejected «धीरे पधारो, हुकुम» as the song's hook and then set aside the complete sunset iteration. Current exploration: [the uncle-song requirements and theme bank](2026-08-02_UNCLE_SONG_THEMES.md).
+
 For the author's uncle: Rajput, patriarch of the family, from Jhabua, living in Bhopal, dying of cancer. He WILL hear the song, and the dedication is public — therefore the strictest indirection: the song never refers to him, his illness, or death. It is a LIVING ELEGY, not a farewell. Album: «माटी माँगे» (author's assignment); a private second song remains an open option.
 
 ## The governing figure (the whole method)
