@@ -188,12 +188,12 @@ teaches one Devanagari letter, Sesame-Street-meets-Miniforce style.*
   सबसे पहले!»
 - **लेडा — Physical:** the tiniest of all, **soft pink-lilac** cut-paper toddler dragon, rounder and
   smaller than कैस्टर.
-- **Speech — CHANGED at Ep6 (author's decision):** through Ep5 both toddlers spoke only in babble —
-  one or two repeated words, tagged *(तुतलाते हुए)* / *(नन्ही किलकारी से)*: «प! प!», «पत्! पत्!».
-  **From Ep6, लेडा is deliberately promoted to short simple sentences** («मैं बुलाऊँ?», «तानसेन…
-  आओ। बैठो।») — she is growing up in step with the real children. कैस्टर stays in babble and short
-  exclamations for now. Keep लेडा's sentences **short, present-tense and concrete**; she is speaking,
-  not explaining.
+- **Speech — CHANGED at Ep6 and Ep7 (author's decisions):** through Ep5 both toddlers spoke only in
+  babble — one or two repeated words, tagged *(तुतलाते हुए)* / *(नन्ही किलकारी से)*: «प! प!»,
+  «पत्! पत्!». **From Ep6, लेडा is deliberately promoted to short simple sentences** («मैं बुलाऊँ?»,
+  «तानसेन… आओ। बैठो।»). **From Ep7, कैस्टर is promoted too** («शब्द? उपहार होता है?», «मात्रा?
+  वो क्या होती है?») — both are growing up in step with the real children. Keep their sentences
+  **short, present-tense and concrete**; they are speaking, not explaining.
 
 ## 8. मिटासुर — MITASUR (villain → ally) · "mi-TAA-sur" · **DESIGN LOCKED (author, Ep2)**
 
