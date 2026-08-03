@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Проверка букв — карточки (оба раунда)</title>
+<!--
+  Placement test for Vesper. Print landscape A4.
+  Round 1 = the 10 season letters + 5 probes (RUN 2026-07-26 — results in RESULTS.md).
+  Round 2 = the remaining 16 (only half-run; Ъ/Ь excluded, no sound of their own).
+  Ask for the SOUND, not the letter name. Stop at the first sign of tiredness.
+  Render to PDF: Playwright page.pdf(landscape=True, format='A4', print_background=True, margins 0).
+-->
+<style>
+  @page { size: A4 landscape; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: "Helvetica Neue", Arial, sans-serif; }
+  .sheet {
+    width: 297mm; height: 210mm;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    page-break-after: always;
+  }
+  .card {
+    border: 1.2px dashed #999;
+    display: flex; align-items: center; justify-content: center;
+    position: relative;
+  }
+  .letter { font-size: 200px; font-weight: 700; color: #111; line-height: 1; }
+  .num { position: absolute; top: 4mm; right: 5mm; font-size: 13px; color: #bbb; }
+  .score { width: 297mm; height: 210mm; padding: 8mm 18mm; page-break-after: always; }
+  .score h1 { font-size: 20px; margin-bottom: 2mm; }
+  .score p { font-size: 12px; color: #444; margin-bottom: 3mm; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1.2px solid #333; padding: 1.4mm 4mm; text-align: center; font-size: 14px; }
+  th { background: #f0f0f0; font-size: 13px; }
+  td.l { font-size: 17px; font-weight: 700; width: 16mm; }
+  .hint { color: #999; font-size: 11px; }
+</style>
+</head>
+<body>
+
+<!-- ================= ROUND 1 ================= -->
+<div class="sheet">
+  <div class="card"><div class="num">1</div><div class="letter">А</div></div>
+  <div class="card"><div class="num">2</div><div class="letter">О</div></div>
+  <div class="card"><div class="num">3</div><div class="letter">М</div></div>
+  <div class="card"><div class="num">4</div><div class="letter">Т</div></div>
+  <div class="card"><div class="num">5</div><div class="letter">У</div></div>
+  <div class="card"><div class="num">6</div><div class="letter">К</div></div>
+  <div class="card"><div class="num">7</div><div class="letter">С</div></div>
+  <div class="card"><div class="num">8</div><div class="letter">В</div></div>
+</div>
+<div class="sheet">
+  <div class="card"><div class="num">9</div><div class="letter">Х</div></div>
+  <div class="card"><div class="num">10</div><div class="letter">Н</div></div>
+  <div class="card"><div class="num">11</div><div class="letter">Р</div></div>
+  <div class="card"><div class="num">12</div><div class="letter">Б</div></div>
+  <div class="card"><div class="num">13</div><div class="letter">Ш</div></div>
+  <div class="card"><div class="num">14</div><div class="letter">Ы</div></div>
+  <div class="card"><div class="num">15</div><div class="letter">Л</div></div>
+  <div class="card"></div>
+</div>
+<div class="score">
+  <h1>Лист результатов — раунд 1 — «Какой звук?»</h1>
+  <p>Спрашивайте ЗВУК, не название буквы. Первые три — разминка на победу. Игра, не экзамен: остановитесь при первой усталости.</p>
+  <table>
+    <tr><th>Буква</th><th>Знает русский звук ✓</th><th>Даёт английский/испанский звук (какой?)</th><th>Не знает ✗</th></tr>
+    <tr><td class="l">А</td><td></td><td></td><td></td></tr>
+    <tr><td class="l">О</td><td></td><td></td><td></td></tr>
+    <tr><td class="l">М</td><td></td><td></td><td></td></tr>
+    <tr><td class="l">Т</td><td></td><td></td><td></td></tr>
+    <tr><td class="l">У</td><td></td><td class="hint">похожа на Y</td><td></td></tr>
+    <tr><td class="l">К</td><td></td><td></td><td></td></tr>
+    <tr><td class="l">С</td><td></td><td class="hint">похожа на C</td><td></td></tr>
+    <tr><td class="l">В</td><td></td><td class="hint">похожа на B</td><td></td></tr>
+    <tr><td class="l">Х</td><td></td><td class="hint">похожа на X</td><td></td></tr>
+    <tr><td class="l">Н</td><td></td><td class="hint">похожа на H</td><td></td></tr>
+    <tr><td class="l">Р</td><td></td><td class="hint">похожа на P</td><td></td></tr>
+    <tr><td class="l">Б</td><td></td><td></td><td></td></tr>
+    <tr><td class="l">Ш</td><td></td><td></td><td></td></tr>
+    <tr><td class="l">Ы</td><td></td><td></td><td></td></tr>
+    <tr><td class="l">Л</td><td></td><td></td><td></td></tr>
+  </table>
+</div>
+
+<!-- ================= ROUND 2 ================= -->
+<div class="sheet">
+  <div class="card"><div class="num">1</div><div class="letter">Е</div></div>
+  <div class="card"><div class="num">2</div><div class="letter">И</div></div>
+  <div class="card"><div class="num">3</div><div class="letter">Д</div></div>
+  <div class="card"><div class="num">4</div><div class="letter">П</div></div>
+  <div class="card"><div class="num">5</div><div class="letter">Г</div></div>
+  <div class="card"><div class="num">6</div><div class="letter">З</div></div>
+  <div class="card"><div class="num">7</div><div class="letter">Ж</div></div>
+  <div class="card"><div class="num">8</div><div class="letter">Ч</div></div>
+</div>
+<div class="sheet">
+  <div class="card"><div class="num">9</div><div class="letter">Ц</div></div>
+  <div class="card"><div class="num">10</div><div class="letter">Щ</div></div>
+  <div class="card"><div class="num">11</div><div class="letter">Я</div></div>
+  <div class="card"><div class="num">12</div><div class="letter">Ю</div></div>
+  <div class="card"><div class="num">13</div><div class="letter">Э</div></div>
+  <div class="card"><div class="num">14</div><div class="letter">Й</div></div>
+  <div class="card"><div class="num">15</div><div class="letter">Ф</div></div>
+  <div class="card"><div class="num">16</div><div class="letter">Ё</div></div>
+</div>
+<div class="score">
+  <h1>Лист результатов — раунд 2</h1>
+  <p>Спрашивайте ЗВУК, не название буквы. Ъ и Ь не тестируем — у них нет своего звука. Игра, не экзамен: остановитесь при первой усталости.</p>
+  <table>
+    <tr><th>Буква</th><th>Знает русский звук ✓</th><th>Даёт английский/испанский звук (какой?)</th><th>Не знает ✗</th></tr>
+    <tr><td class="l">Е</td><td></td><td class="hint">похожа на E</td><td></td></tr>
+    <tr><td class="l">И</td><td></td><td class="hint">похожа на N наоборот</td><td></td></tr>
+    <tr><td class="l">Д</td><td></td><td></td><td></td></tr>
+    <tr><td class="l">П</td><td></td><td></td><td></td></tr>
+    <tr><td class="l">Г</td><td></td><td></td><td></td></tr>
+    <tr><td class="l">З</td><td></td><td class="hint">похожа на 3</td><td></td></tr>
+    <tr><td class="l">Ж</td><td></td><td></td><td></td></tr>
+    <tr><td class="l">Ч</td><td></td><td></td><td></td></tr>
+    <tr><td class="l">Ц</td><td></td><td></td><td></td></tr>
+    <tr><td class="l">Щ</td><td></td><td></td><td></td></tr>
+    <tr><td class="l">Я</td><td></td><td class="hint">похожа на R наоборот</td><td></td></tr>
+    <tr><td class="l">Ю</td><td></td><td></td><td></td></tr>
+    <tr><td class="l">Э</td><td></td><td class="hint">похожа на E наоборот / на 3</td><td></td></tr>
+    <tr><td class="l">Й</td><td></td><td></td><td></td></tr>
+    <tr><td class="l">Ф</td><td></td><td></td><td></td></tr>
+    <tr><td class="l">Ё</td><td></td><td class="hint">E с точками</td><td></td></tr>
+  </table>
+</div>
+
+</body>
+</html>
