@@ -172,6 +172,35 @@ rim-light), exact patch layout, and nose darkness drift shot to shot. Mitigate b
 "consistent medium brown hair, no blond" as an anchor in every prompt. Parent has accepted
 this level.
 
+## МАМА REDESIGN — IN PROGRESS (2026-08-02…04, awaiting parent go)
+
+The approved-and-shot Мама (`charsheets/mama_lowpoly_v1.png`, the round dumpling) reads as
+"an adult woman", not as the kids' species — parent wants her REDERIVED FROM ФРОСЯ:
+same creature, aged. Findings so far:
+
+- **Derivation works for the FACE**: generating "her mother, the same creature aged 30 years"
+  with Фрося's sheet attached carries the exact face geometry (nose/eyes/brows). Candidates
+  `mama_v2_a/b/c.png`; parent picked **A** as the base face.
+- **Structural edits DO NOT take** (re-proven): the 9-point iteration on A (head +10%, shorter
+  neck, narrower shoulders, rounder cheeks, bigger ears) changed ONLY the face in both an edit
+  (`mama_v2_a_edit.png`) and a reference-heavy regen (`mama_v2_a_regen.png`). Bodies came back
+  near-copies. Structure needs numeric proportions in a FRESH generation, not percentages, not
+  edits.
+- **Aging vocabulary overshoots**: "laugh-lines / silver strands / tired eyelids" produced 50+.
+  Target is ≤40. State the age as a target and FORBID the symptoms ("about forty, face still
+  smooth and fresh, NO wrinkles, NO grey hair").
+
+### THE FAMILY HEAD LAW (agreed with parent, pending visual proof)
+**Every домовой in the family has the SAME absolute head size; age changes only the body.**
+Kids stand 2.5 of their own head-heights; **Мама stands ~3** (parent's +30% head instinct —
+the math agrees: it puts her at ~2.9 vs candidate A's human-ish ~3.7). Plus: near-invisible
+neck, narrow sloping shoulders, round full cheeks, fuller middle. Papa later gets the same
+head. One-line check for every future sheet: adult = LONGER BODY, never a smaller head.
+
+Next step (needs explicit go): 2–3 fresh derivations from Фрося's sheet with the numeric
+formulation. After lock: regenerate canonical with Руся+Муся riding, then reshoot Мама's
+shots in Scenes 2–3 (~4 lip-synced stills + 2 clips ≈ 100 credits + fal passes).
+
 ## STYLE — DECISION PENDING
 
 Two forks, both viable:
@@ -203,3 +232,18 @@ Narrator **Anna Zub** `deqzqEZ3ngCdcOl0jF1F` · **Вася = Leonid** `bg9LrEYQk
 - **Opening titles** — 35-panel storyboard done. Introduces the HOUSE, not the characters:
   no faces, only eyes in the dark; title emerges from the floorboard light.
 - **EP1 «Я САМ»** — screenplay complete. Magic words САМ / СОМ / КОТ.
+
+### EP1 PRODUCTION STATUS (2026-08-04)
+| Scene | State | Deliverable (ep1prod/, media unversioned) |
+|---|---|---|
+| 1 подпол, sock haul | **DONE** | `SCENE1_FINAL20_mobile.mp4` (20s) |
+| 2 за печкой, letter game | **DONE**, lip-synced | `SCENE2_FINAL.mp4` (stills) / `SCENE2_LIPSYNC.mp4` (27.5s) |
+| 3 там же, «Я — сам?» | **DONE**, lip-synced | `SCENE3_LIPSYNC.mp4` (52.8s), cut list in `SCENE3_CUTLIST.md` |
+| 1–3 combined | delivered | `EP1_SCENES_1-3.mp4` (1:40) |
+| 4 погреб | next | needs new set plate (cold stone, first non-hearth light) + кувшин prop |
+
+Scene-3 audio: 7 lines recorded (`audio/s3_*.mp3`); Фрося's grumble plays over the closing
+clip unsynced (she's small in frame — no fal pass needed for far shots).
+SFX all from PSE now (`sfx/pse/`): tuk1–4 domino taps, hearth beds, unroll/fray crinkles.
+Мама's voice is still the Anna Zub PLACEHOLDER; real casting pending.
+Scenes 2–3 will need Мама reshoots once the redesign locks (see МАМА REDESIGN above).
