@@ -1,0 +1,1390 @@
+{
+ "title": "Frosya and Vasya - Episode 1: The Birthday - Native US English narrated read",
+ "model_id": "eleven_v3",
+ "output_format": "mp3_44100_128",
+ "gaps_ms": {
+  "group": 450
+ },
+ "cast": {
+  "NARRATOR": {
+   "voice": "Bella - Professional, Bright, Warm (US)",
+   "voice_id": "hpp4J3VqNfWAUOO0d1Us"
+  },
+  "FROSYA": {
+   "voice": "Cherry Twinkle - Bubbly Cartoon Girl (US)",
+   "voice_id": "XJ2fW4ybq7HouelYYGcL"
+  },
+  "VASYA": {
+   "voice": "Teddy Twinkle - Cute Cartoon Boy (US)",
+   "voice_id": "XjGYkUkzth8BPs29fmcV"
+  },
+  "MAMA": {
+   "voice": "Sarah - Mature, Reassuring, Confident (US)",
+   "voice_id": "EXAVITQu4vr4xnSDxMaL"
+  },
+  "PAPA": {
+   "voice": "Brian - Deep, Resonant and Comforting (US)",
+   "voice_id": "nPczCjzI2devNBz1zQrb"
+  },
+  "BABA_YAGA": {
+   "voice": "Doris - Mora gritty elderly",
+   "voice_id": "YHcCpa6SBWnKDaCPZJQR"
+  },
+  "GIANT_CHILD": {
+   "voice": "Jessica - Playful, Bright, Warm (US)",
+   "voice_id": "cgSgspJ2msm6clMCkdW9"
+  }
+ },
+ "segments": [
+  {
+   "scene": "title_take_1",
+   "frame": "title_take_1",
+   "speaker": "NARRATOR",
+   "text": "[warmly] “Frosya and Vasya.” Episode One: “The Birthday.”"
+  },
+  {
+   "scene": "scene_01_take_2",
+   "frame": "scene_01_take_2",
+   "speaker": "NARRATOR",
+   "text": "[storytelling] SCENE 1 — THE GIANTS’ ROOM, BEHIND THE DRESSER — MORNING"
+  },
+  {
+   "scene": "scene_01_take_2",
+   "frame": "scene_01_take_2",
+   "speaker": "NARRATOR",
+   "text": "a large clock ticks. One of the giants’ floorboards creaks. Panting comes from a gap by the baseboard.)"
+  },
+  {
+   "scene": "scene_01_take_2",
+   "frame": "scene_01_take_2",
+   "speaker": "NARRATOR",
+   "text": "FROSYA and VASYA emerge from a gap hidden behind the dresser. Together they drag an enormous striped sock, bigger than both of them combined."
+  },
+  {
+   "scene": "scene_01_take_2",
+   "frame": "scene_01_take_2",
+   "speaker": "VASYA",
+   "text": "[out of breath] Why do the giants keep losing their socks?"
+  },
+  {
+   "scene": "scene_01_take_2",
+   "frame": "scene_01_take_2",
+   "speaker": "FROSYA",
+   "text": "[matter-of-fact] Because they don’t keep count. I keep track of everything. Hold tight."
+  },
+  {
+   "scene": "scene_01_take_2",
+   "frame": "scene_01_take_2",
+   "speaker": "NARRATOR",
+   "text": "Risking being seen, Frosya and Vasya return the sock to a place where the giants will find it, then immediately hide behind the dresser. rapid footsteps and a soft flop.)"
+  },
+  {
+   "scene": "scene_01_take_2",
+   "frame": "scene_01_take_2",
+   "speaker": "VASYA",
+   "text": "[puzzled] Why do we put things back?"
+  },
+  {
+   "scene": "scene_01_take_2",
+   "frame": "scene_01_take_2",
+   "speaker": "FROSYA",
+   "text": "That’s how a house works."
+  },
+  {
+   "scene": "scene_01_take_2",
+   "frame": "scene_01_take_2",
+   "speaker": "NARRATOR",
+   "text": "an electric vrrr, the rattle of little wheels, and a child’s laughter.) Frosya and Vasya drop to the floor at the same time and peer out from beneath the dresser."
+  },
+  {
+   "scene": "scene_01_take_2",
+   "frame": "scene_01_take_2",
+   "speaker": "NARRATOR",
+   "text": "A small red toy car with shining headlights races across the enormous room. From their hiding place, Frosya and Vasya can see the car and the giant child’s feet, but not the remote in the child’s hands. To them, the car is moving by itself."
+  },
+  {
+   "scene": "scene_01_take_2",
+   "frame": "scene_01_take_2",
+   "speaker": "VASYA",
+   "text": "[awed] Wow! It moves all by itself!"
+  },
+  {
+   "scene": "scene_01_take_2",
+   "frame": "scene_01_take_2",
+   "speaker": "FROSYA",
+   "text": "[whispering] Look how cool it is—red, with headlights! I wish I had one like that…"
+  },
+  {
+   "scene": "scene_01_take_2",
+   "frame": "scene_01_take_2",
+   "speaker": "GIANT_CHILD",
+   "text": "[surprised] Oh! Where did it go?"
+  },
+  {
+   "scene": "scene_01_take_2",
+   "frame": "scene_01_take_2",
+   "speaker": "NARRATOR",
+   "text": "The little car drives beneath the dresser and gets stuck. the motor whirs helplessly.) An enormous child’s hand reaches beneath the dresser after it."
+  },
+  {
+   "scene": "scene_01_take_2",
+   "frame": "scene_01_take_2",
+   "speaker": "FROSYA",
+   "text": "[whispering] Back!"
+  },
+  {
+   "scene": "scene_01_take_2",
+   "frame": "scene_01_take_2",
+   "speaker": "NARRATOR",
+   "text": "hurried footsteps; the hand searches very close by.) Frosya and Vasya dive into the gap by the baseboard. As she disappears, Frosya manages one last look at the red car."
+  },
+  {
+   "scene": "scene_02_take_3",
+   "frame": "scene_02_take_3",
+   "speaker": "NARRATOR",
+   "text": "[storytelling] SCENE 2 — THE HOME BEHIND THE STOVE — MORNING"
+  },
+  {
+   "scene": "scene_02_take_3",
+   "frame": "scene_02_take_3",
+   "speaker": "NARRATOR",
+   "text": "The family home is hidden inside an old fireplace recess behind a large cast-iron stove. It contains a spool table, box beds, and a lamp made from a Christmas-tree bulb, with a route leading to the underfloor road. the stove crackles, a thimble kettle bubbles, and the babies snuffle.)"
+  },
+  {
+   "scene": "scene_02_take_3",
+   "frame": "scene_02_take_3",
+   "speaker": "NARRATOR",
+   "text": "Frosya and Vasya run home. MAMA holds RUSYA and carries MUSYA on her back. PAPA, large and broad, with sawdust in his fur, stands in front of something covered with cloth."
+  },
+  {
+   "scene": "scene_02_take_3",
+   "frame": "scene_02_take_3",
+   "speaker": "PAPA",
+   "text": "Frosya, come here. Happy birthday, sweetheart. Look what I made for you."
+  },
+  {
+   "scene": "scene_02_take_3",
+   "frame": "scene_02_take_3",
+   "speaker": "NARRATOR",
+   "text": "Papa removes the cloth. Beneath it is a giant-sized spinning top, repaired and transformed into a little two-seat carousel."
+  },
+  {
+   "scene": "scene_02_take_3",
+   "frame": "scene_02_take_3",
+   "speaker": "FROSYA",
+   "text": "Papa! What a spinning top! It’s beautiful! Thank you!"
+  },
+  {
+   "scene": "scene_02_take_3",
+   "frame": "scene_02_take_3",
+   "speaker": "PAPA",
+   "text": "[cheerfully] Both of you, climb on. I’ll give it a spin!"
+  },
+  {
+   "scene": "scene_02_take_3",
+   "frame": "scene_02_take_3",
+   "speaker": "NARRATOR",
+   "text": "Frosya and Vasya take their places opposite each other. Papa spins the top."
+  },
+  {
+   "scene": "scene_02_take_3",
+   "frame": "scene_02_take_3",
+   "speaker": "NARRATOR",
+   "text": "whoooosh!) The carousel gathers speed. Frosya and Vasya squeal and laugh while the babies join in."
+  },
+  {
+   "scene": "scene_02_take_4",
+   "frame": "scene_02_take_4",
+   "speaker": "MAMA",
+   "text": "And I’ve been collecting this for you all year."
+  },
+  {
+   "scene": "scene_02_take_4",
+   "frame": "scene_02_take_4",
+   "speaker": "NARRATOR",
+   "text": "The box holds short colored-pencil cores from the giants’ pencils, each carefully sharpened like a tiny crayon."
+  },
+  {
+   "scene": "scene_02_take_4",
+   "frame": "scene_02_take_4",
+   "speaker": "FROSYA",
+   "text": "[cheerfully] Colors! And there’s a red one!"
+  },
+  {
+   "scene": "scene_02_take_4",
+   "frame": "scene_02_take_4",
+   "speaker": "MAMA",
+   "text": "For all your drawings."
+  },
+  {
+   "scene": "scene_02_take_4",
+   "frame": "scene_02_take_4",
+   "speaker": "FROSYA",
+   "text": "Thank you, Mama! I’ll draw everything!"
+  },
+  {
+   "scene": "scene_02_take_4",
+   "frame": "scene_02_take_4",
+   "speaker": "NARRATOR",
+   "text": "Frosya draws a bright red line on a scrap of paper and carefully returns the core to the box."
+  },
+  {
+   "scene": "scene_03_take_5",
+   "frame": "scene_03_take_5",
+   "speaker": "NARRATOR",
+   "text": "[storytelling] SCENE 3 — ABOVE THE GIANTS’ HOUSE — MORNING"
+  },
+  {
+   "scene": "scene_03_take_5",
+   "frame": "scene_03_take_5",
+   "speaker": "NARRATOR",
+   "text": "wind whistles; a mortar cuts through the air, a pestle knocks, and a broom rustles.) BABA YAGA flies above the roof, full-sized in the giants’ world. She stands in her mortar; the pestle rests across the rim, and the broom guides the flight. Bundles of gifts travel with her."
+  },
+  {
+   "scene": "scene_03_take_5",
+   "frame": "scene_03_take_5",
+   "speaker": "NARRATOR",
+   "text": "The stove chimney appears below. Baba Yaga steers the mortar toward it."
+  },
+  {
+   "scene": "scene_03_take_5",
+   "frame": "scene_03_take_5",
+   "speaker": "BABA_YAGA",
+   "text": "All right, my trusty ones—spin!"
+  },
+  {
+   "scene": "scene_03_take_5",
+   "frame": "scene_03_take_5",
+   "speaker": "NARRATOR",
+   "text": "the wind twists into a spiral.) Baba Yaga, the mortar, the pestle, the broom, and the bundles spin together, rapidly shrink, and dive down the chimney."
+  },
+  {
+   "scene": "scene_04_take_6",
+   "frame": "scene_04_take_6",
+   "speaker": "NARRATOR",
+   "text": "[storytelling] SCENE 4 — THE HOME BEHIND THE STOVE — CONTINUOUS"
+  },
+  {
+   "scene": "scene_04_take_6",
+   "frame": "scene_04_take_6",
+   "speaker": "NARRATOR",
+   "text": "a rumble descends through the flue. The stove’s rear cleanout hatch rattles. Thimbles chime inside the home.) Everyone freezes. Even the babies stop snuffling."
+  },
+  {
+   "scene": "scene_04_take_6",
+   "frame": "scene_04_take_6",
+   "speaker": "PAPA",
+   "text": "Oh. That must be…"
+  },
+  {
+   "scene": "scene_04_take_6",
+   "frame": "scene_04_take_6",
+   "speaker": "NARRATOR",
+   "text": "the hatch flies open—boom!) Now miniature, Baba Yaga emerges into the home from the stove passage with her mortar, pestle, broom, and bundles. The hatch snaps shut behind them. Baba Yaga brushes soot from her shoulders."
+  },
+  {
+   "scene": "scene_04_take_6",
+   "frame": "scene_04_take_6",
+   "speaker": "BABA_YAGA",
+   "text": "[raspy] [fondly] Well? Which one of you is the birthday girl?"
+  },
+  {
+   "scene": "scene_04_take_6",
+   "frame": "scene_04_take_6",
+   "speaker": "FROSYA",
+   "text": "[cheerfully] Grandma!"
+  },
+  {
+   "scene": "scene_04_take_6",
+   "frame": "scene_04_take_6",
+   "speaker": "NARRATOR",
+   "text": "running, hugs, and laughter.) Frosya flies into Baba Yaga’s arms. Rusya and Musya race-crawl toward their guest."
+  },
+  {
+   "scene": "scene_04_take_7",
+   "frame": "scene_04_take_7",
+   "speaker": "MAMA",
+   "text": "Mama, you said you wouldn’t be able to make it this year."
+  },
+  {
+   "scene": "scene_04_take_7",
+   "frame": "scene_04_take_7",
+   "speaker": "BABA_YAGA",
+   "text": "Miss my eldest granddaughter’s seventh birthday? For a day like this, I’d squeeze through a far worse chimney than that."
+  },
+  {
+   "scene": "scene_04_take_8",
+   "frame": "scene_04_take_8",
+   "speaker": "PAPA",
+   "text": "[cheerfully] Dear mother-in-law! Long time no see!"
+  },
+  {
+   "scene": "scene_04_take_8",
+   "frame": "scene_04_take_8",
+   "speaker": "BABA_YAGA",
+   "text": "[dryly] He still talks as if he’s chopping firewood."
+  },
+  {
+   "scene": "scene_04_take_8",
+   "frame": "scene_04_take_8",
+   "speaker": "PAPA",
+   "text": "[calmly] At least everyone can hear that I’m happy."
+  },
+  {
+   "scene": "scene_04_take_8",
+   "frame": "scene_04_take_8",
+   "speaker": "BABA_YAGA",
+   "text": "You can hear it. Through three walls."
+  },
+  {
+   "scene": "scene_04_take_8",
+   "frame": "scene_04_take_8",
+   "speaker": "NARRATOR",
+   "text": "Mama hides a smile. Baba Yaga takes a little box from one bundle and places it on the table."
+  },
+  {
+   "scene": "scene_04_take_8",
+   "frame": "scene_04_take_8",
+   "speaker": "BABA_YAGA",
+   "text": "[cheerfully] And these are for the cake. Seven candles, just as there should be."
+  },
+  {
+   "scene": "scene_04_take_8",
+   "frame": "scene_04_take_8",
+   "speaker": "NARRATOR",
+   "text": "Inside lie seven thin wax candles, miniaturized along with Baba Yaga."
+  },
+  {
+   "scene": "scene_05_take_9",
+   "frame": "scene_05_take_9",
+   "speaker": "NARRATOR",
+   "text": "[storytelling] SCENE 5 — THE HOME BEHIND THE STOVE — A LITTLE LATER"
+  },
+  {
+   "scene": "scene_05_take_9",
+   "frame": "scene_05_take_9",
+   "speaker": "NARRATOR",
+   "text": "tea is poured into thimbles.) Baba Yaga peers at Frosya over her tea."
+  },
+  {
+   "scene": "scene_05_take_9",
+   "frame": "scene_05_take_9",
+   "speaker": "BABA_YAGA",
+   "text": "[mischievously] Well, birthday girl. What do you dream of?"
+  },
+  {
+   "scene": "scene_05_take_9",
+   "frame": "scene_05_take_9",
+   "speaker": "NARRATOR",
+   "text": "Mama looks up, suddenly alert."
+  },
+  {
+   "scene": "scene_05_take_9",
+   "frame": "scene_05_take_9",
+   "speaker": "MAMA",
+   "text": "[warningly] Mama…"
+  },
+  {
+   "scene": "scene_05_take_9",
+   "frame": "scene_05_take_9",
+   "speaker": "FROSYA",
+   "text": "I wish I had a red car with headlights that moves all by itself!"
+  },
+  {
+   "scene": "scene_05_take_9",
+   "frame": "scene_05_take_9",
+   "speaker": "VASYA",
+   "text": "And I want to turn into any creature I want—even a dinosaur or a dragon!"
+  },
+  {
+   "scene": "scene_05_take_9",
+   "frame": "scene_05_take_9",
+   "speaker": "MAMA",
+   "text": "[firmly] Mama, no. They already never give each other a moment’s peace, and if you also give them…"
+  },
+  {
+   "scene": "scene_05_take_9",
+   "frame": "scene_05_take_9",
+   "speaker": "BABA_YAGA",
+   "text": "And why not?"
+  },
+  {
+   "scene": "scene_05_take_9",
+   "frame": "scene_05_take_9",
+   "speaker": "NARRATOR",
+   "text": "[quietly] Silence. Mama closes her eyes. Papa gives a quiet, respectful whistle."
+  },
+  {
+   "scene": "scene_06_take_10",
+   "frame": "scene_06_take_10",
+   "speaker": "NARRATOR",
+   "text": "[storytelling] SCENE 6 — THE HOME BEHIND THE STOVE — CONTINUOUS"
+  },
+  {
+   "scene": "scene_06_take_10",
+   "frame": "scene_06_take_10",
+   "speaker": "NARRATOR",
+   "text": "Baba Yaga searches a pocket in her skirt and takes out a small, worn-down pencil that looks perfectly ordinary."
+  },
+  {
+   "scene": "scene_06_take_10",
+   "frame": "scene_06_take_10",
+   "speaker": "BABA_YAGA",
+   "text": "Whatever little thing in all the world your heart desires—write its name, and it will appear."
+  },
+  {
+   "scene": "scene_06_take_10",
+   "frame": "scene_06_take_10",
+   "speaker": "FROSYA",
+   "text": "[awed] Even a car?"
+  },
+  {
+   "scene": "scene_06_take_10",
+   "frame": "scene_06_take_10",
+   "speaker": "BABA_YAGA",
+   "text": "[mischievously] If you can write its name, you’ll have your car."
+  },
+  {
+   "scene": "scene_06_take_10",
+   "frame": "scene_06_take_10",
+   "speaker": "NARRATOR",
+   "text": "Frosya hugs the pencil to her chest. Baba Yaga crooks a finger at Vasya."
+  },
+  {
+   "scene": "scene_06_take_10",
+   "frame": "scene_06_take_10",
+   "speaker": "BABA_YAGA",
+   "text": "[grandly] And you, young gentleman, come here."
+  },
+  {
+   "scene": "scene_06_take_10",
+   "frame": "scene_06_take_10",
+   "speaker": "NARRATOR",
+   "text": "Vasya steps forward. Baba Yaga bends down and blows on the top of his head. a short, warm ВЖУХ, like wind turning a page.)"
+  },
+  {
+   "scene": "scene_06_take_10",
+   "frame": "scene_06_take_10",
+   "speaker": "VASYA",
+   "text": "Is that all?"
+  },
+  {
+   "scene": "scene_06_take_10",
+   "frame": "scene_06_take_10",
+   "speaker": "BABA_YAGA",
+   "text": "[mischievously] Read a word aloud and shout “ВЖУХ!”—then you’ll turn into whoever it names. Say ВЖУХ a second time, and you’ll become Vasya again."
+  },
+  {
+   "scene": "scene_06_take_10",
+   "frame": "scene_06_take_10",
+   "speaker": "BABA_YAGA",
+   "text": "[mischievously] Your gifts are different, but they share one secret between them."
+  },
+  {
+   "scene": "scene_06_take_10",
+   "frame": "scene_06_take_10",
+   "speaker": "FROSYA",
+   "text": "[puzzled] What secret?"
+  },
+  {
+   "scene": "scene_06_take_10",
+   "frame": "scene_06_take_10",
+   "speaker": "BABA_YAGA",
+   "text": "[cheerfully] You’ll find out for yourselves."
+  },
+  {
+   "scene": "scene_06_take_10",
+   "frame": "scene_06_take_10",
+   "speaker": "NARRATOR",
+   "text": "Baba Yaga chuckles softly. Frosya and Vasya exchange a puzzled look. Mama keeps her eyes fixed on the two gifts."
+  },
+  {
+   "scene": "scene_07_take_11",
+   "frame": "scene_07_take_11",
+   "speaker": "NARRATOR",
+   "text": "[storytelling] SCENE 7 — THE HOME BEHIND THE STOVE, BY THE HIDDEN NICHE — CONTINUOUS"
+  },
+  {
+   "scene": "scene_07_take_11",
+   "frame": "scene_07_take_11",
+   "speaker": "NARRATOR",
+   "text": "Mama opens a magically locked niche and takes out her own small iron-bound chest of wooden letter tiles."
+  },
+  {
+   "scene": "scene_07_take_11",
+   "frame": "scene_07_take_11",
+   "speaker": "MAMA",
+   "text": "[firmly] Frosya, put the pencil on the lid. Vasya, place your hand beside it."
+  },
+  {
+   "scene": "scene_07_take_11",
+   "frame": "scene_07_take_11",
+   "speaker": "NARRATOR",
+   "text": "Frosya reluctantly lays the pencil on the lid. Vasya presses his palm to the wood. Mama covers them with her hands. the chest snaps like a lock; light runs across the pencil and Vasya’s palm.)"
+  },
+  {
+   "scene": "scene_07_take_11",
+   "frame": "scene_07_take_11",
+   "speaker": "MAMA",
+   "text": "[firmly] Only the letters I give you can be used to make your magic words."
+  },
+  {
+   "scene": "scene_07_take_11",
+   "frame": "scene_07_take_11",
+   "speaker": "NARRATOR",
+   "text": "Mama opens the chest, selects eight tiles, and lays them in a row."
+  },
+  {
+   "scene": "scene_07_take_11",
+   "frame": "scene_07_take_11",
+   "speaker": "MAMA",
+   "text": "Name them."
+  },
+  {
+   "scene": "scene_07_take_11",
+   "frame": "scene_07_take_11",
+   "speaker": "VASYA",
+   "text": "А. О. М. С. К. Т. Л. Б."
+  },
+  {
+   "scene": "scene_07_take_11",
+   "frame": "scene_07_take_11",
+   "speaker": "MAMA",
+   "text": "You already know these eight letters. From now on, I’ll give you one new letter at a time. Once you learn it, the two of you will receive the next one."
+  },
+  {
+   "scene": "scene_07_take_11",
+   "frame": "scene_07_take_11",
+   "speaker": "FROSYA",
+   "text": "But I know all the letters!"
+  },
+  {
+   "scene": "scene_07_take_11",
+   "frame": "scene_07_take_11",
+   "speaker": "MAMA",
+   "text": "[calmly] You do. But your brother only knows eight so far."
+  },
+  {
+   "scene": "scene_07_take_11",
+   "frame": "scene_07_take_11",
+   "speaker": "NARRATOR",
+   "text": "Mama gathers several ordinary copies of every authorized letter from the chest, pours them into a small pouch, and ties it to Vasya’s belt."
+  },
+  {
+   "scene": "scene_07_take_11",
+   "frame": "scene_07_take_11",
+   "speaker": "VASYA",
+   "text": "[proudly] These are mine."
+  },
+  {
+   "scene": "scene_07_take_11",
+   "frame": "scene_07_take_11",
+   "speaker": "FROSYA",
+   "text": "Eight letters… Then learn faster! One letter a day—no, two a day!"
+  },
+  {
+   "scene": "scene_07_take_11",
+   "frame": "scene_07_take_11",
+   "speaker": "NARRATOR",
+   "text": "Baba Yaga laughs quietly again. Mama locks the chest and returns it to the hidden niche."
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "NARRATOR",
+   "text": "[storytelling] SCENE 8 — THE HOME BEHIND THE STOVE, MAIN ROOM — DAY"
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "NARRATOR",
+   "text": "letter tiles spill onto the floor—clack-clack-clack.) Frosya sits with the magic pencil while Vasya bends over the tiles. Nearby, Mama, Papa, and Baba Yaga drink tea and try not to interfere."
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "FROSYA",
+   "text": "[matter-of-fact] All right. Let’s try it. What can we write? С-О-К. СОК!"
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "NARRATOR",
+   "text": "The written word flashes. a quiet chime.) One thimble filled with juice appears beside it."
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "FROSYA",
+   "text": "[grandly] Would you care for some juice?"
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "VASYA",
+   "text": "[surprised] Can you do that whenever you want now?!"
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "FROSYA",
+   "text": "[matter-of-fact] С-А-Л-А-Т. САЛАТ!"
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "NARRATOR",
+   "text": "a chime and the rustle of leaves.) A little bowl of salad appears beside the word."
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "VASYA",
+   "text": "Ewww! Vegetables!"
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "NARRATOR",
+   "text": "Rusya crawls over at the sound of the chime, studies the salad, then silently turns around and crawls away."
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "FROSYA",
+   "text": "М-А-К. МАК!"
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "NARRATOR",
+   "text": "a delicate chime.) An already-cut scarlet poppy with a long stem appears."
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "FROSYA",
+   "text": "[shyly] Mama, this is for you."
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "MAMA",
+   "text": "[softly] Oh… Thank you, sweetheart."
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "NARRATOR",
+   "text": "Baba Yaga gives an approving hum. After three words, the pencil is just perceptibly shorter. Frosya tucks it behind her ear."
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "VASYA",
+   "text": "What about me? I want to do it too! Give me a word! An easy one!"
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "FROSYA",
+   "text": "Then put one together yourself. You’re the one who has to read it."
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "NARRATOR",
+   "text": "Vasya slowly lays down four tiles: М… А… М… А."
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "VASYA",
+   "text": "[cheerfully] МА… МА. МАМА! ВЖУХ!"
+  },
+  {
+   "scene": "scene_08_take_12",
+   "frame": "scene_08_take_12",
+   "speaker": "NARRATOR",
+   "text": "ВЖУХ!) Vasya turns into a second MAMA, exactly the same height and wearing the same headscarf and apron. Only her voice is Vasya’s, and enormous shaggy Vasya eyebrows sit above her eyes."
+  },
+  {
+   "scene": "scene_08_take_13",
+   "frame": "scene_08_take_13",
+   "speaker": "NARRATOR",
+   "text": "Everyone stares at the two identical mamas. The real Mama instinctively touches her own eyebrows."
+  },
+  {
+   "scene": "scene_08_take_13",
+   "frame": "scene_08_take_13",
+   "speaker": "NARRATOR",
+   "text": "ecstatic baby squeals.) Rusya and Musya race-crawl toward Vasya-Mama, grab him from both sides, and Musya begins chewing his apron."
+  },
+  {
+   "scene": "scene_08_take_13",
+   "frame": "scene_08_take_13",
+   "speaker": "VASYA",
+   "text": "[panicked] Ow! Frosya! They’re eating me! Why are they eating me?!"
+  },
+  {
+   "scene": "scene_08_take_13",
+   "frame": "scene_08_take_13",
+   "speaker": "VASYA",
+   "text": "I’m not Mama! I’m Vasya! Get them off meee!"
+  },
+  {
+   "scene": "scene_08_take_13",
+   "frame": "scene_08_take_13",
+   "speaker": "NARRATOR",
+   "text": "Mama calmly removes the babies from him, one at a time."
+  },
+  {
+   "scene": "scene_08_take_13",
+   "frame": "scene_08_take_13",
+   "speaker": "MAMA",
+   "text": "[dryly] The eyebrows are still yours, Vasya."
+  },
+  {
+   "scene": "scene_08_take_13",
+   "frame": "scene_08_take_13",
+   "speaker": "VASYA",
+   "text": "[upset] ВЖУХ!"
+  },
+  {
+   "scene": "scene_08_take_13",
+   "frame": "scene_08_take_13",
+   "speaker": "NARRATOR",
+   "text": "ВЖУХ!) Vasya becomes a boy again, and the pouch returns to his belt. Frosya collapses onto the floor laughing."
+  },
+  {
+   "scene": "scene_09_take_14",
+   "frame": "scene_09_take_14",
+   "speaker": "NARRATOR",
+   "text": "[storytelling] SCENE 9 — THE HOME BEHIND THE STOVE, MAIN ROOM — CONTINUOUS"
+  },
+  {
+   "scene": "scene_09_take_14",
+   "frame": "scene_09_take_14",
+   "speaker": "NARRATOR",
+   "text": "letter tiles slide across the floor.) Frosya begins checking a word she has known for a long time."
+  },
+  {
+   "scene": "scene_09_take_14",
+   "frame": "scene_09_take_14",
+   "speaker": "FROSYA",
+   "text": "М-А-Ш-И-Н-А… There’s no Ш. No И. No Н."
+  },
+  {
+   "scene": "scene_09_take_14",
+   "frame": "scene_09_take_14",
+   "speaker": "NARRATOR",
+   "text": "Only the authorized М and А lie before her. Three different letters are missing between them."
+  },
+  {
+   "scene": "scene_09_take_14",
+   "frame": "scene_09_take_14",
+   "speaker": "FROSYA",
+   "text": "[softly] We’re missing three letters."
+  },
+  {
+   "scene": "scene_09_take_14",
+   "frame": "scene_09_take_14",
+   "speaker": "VASYA",
+   "text": "[puzzled] What do we do now?"
+  },
+  {
+   "scene": "scene_09_take_14",
+   "frame": "scene_09_take_14",
+   "speaker": "FROSYA",
+   "text": "You learn them, and I’ll write the car. Deal?"
+  },
+  {
+   "scene": "scene_09_take_14",
+   "frame": "scene_09_take_14",
+   "speaker": "VASYA",
+   "text": "Deal."
+  },
+  {
+   "scene": "scene_09_take_14",
+   "frame": "scene_09_take_14",
+   "speaker": "NARRATOR",
+   "text": "Frosya quickly builds another long word from the tiles, checks every letter, and copies it with the magic pencil."
+  },
+  {
+   "scene": "scene_09_take_14",
+   "frame": "scene_09_take_14",
+   "speaker": "FROSYA",
+   "text": "С-А-М-О-К-А-Т. САМОКАТ!"
+  },
+  {
+   "scene": "scene_09_take_14",
+   "frame": "scene_09_take_14",
+   "speaker": "NARRATOR",
+   "text": "the loudest chime of the day.) A gleaming kick scooter appears, sized to suit Frosya."
+  },
+  {
+   "scene": "scene_09_take_14",
+   "frame": "scene_09_take_14",
+   "speaker": "VASYA",
+   "text": "Let me ride it too!"
+  },
+  {
+   "scene": "scene_09_take_14",
+   "frame": "scene_09_take_14",
+   "speaker": "FROSYA",
+   "text": "Me first! One lap, then you."
+  },
+  {
+   "scene": "scene_09_take_14",
+   "frame": "scene_09_take_14",
+   "speaker": "NARRATOR",
+   "text": "Frosya tucks the pencil behind her ear, pushes off, and steers the scooter toward the warped board leading down to the underfloor road. Vasya runs after her."
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "NARRATOR",
+   "text": "[storytelling] SCENE 10 — THE UNDERFLOOR ROAD — CONTINUOUS"
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "NARRATOR",
+   "text": "the wheels go zzip-zzip.) Frosya rides down the warped board and shoots onto the long plank road beneath the giants’ floor. Vasya catches up with her."
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "VASYA",
+   "text": "[loudly] That’s it! My turn now!"
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "FROSYA",
+   "text": "One more lap!"
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "NARRATOR",
+   "text": "the scooter recedes, turns, and approaches again.) Frosya returns even faster."
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "VASYA",
+   "text": "[upset] You already said “one more”!"
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "FROSYA",
+   "text": "This one is the last one!"
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "NARRATOR",
+   "text": "Vasya angrily spills tiles from his pouch and builds a word."
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "VASYA",
+   "text": "[angrily] К… О… Т. КОТ! ВЖУХ!"
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "NARRATOR",
+   "text": "ВЖУХ!) Vasya turns into a small ginger cat with enormous shaggy eyebrows, large enough to block the road."
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "NARRATOR",
+   "text": "Vasya-Cat lies down across the road. His tail blocks the remaining space."
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "FROSYA",
+   "text": "[angrily] Vasya, get out of the way."
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "VASYA",
+   "text": "Meow."
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "NARRATOR",
+   "text": "Frosya tries to pass on one side, then the other. The cat blocks her each time."
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "FROSYA",
+   "text": "[angrily] Oh, so that’s how it is… Б-А-К. БАК!"
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "NARRATOR",
+   "text": "Frosya writes the word on the road and points the pencil at the cat. The letters flash, and a round shadow grows above him."
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "VASYA",
+   "text": "Meeeo—"
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "NARRATOR",
+   "text": "a chime and a deafening WHOMP!) An inverted metal container appears directly above the cat, drops, and covers him. Indignant meowing and thudding paws come from beneath it."
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "FROSYA",
+   "text": "[upset] Let’s go."
+  },
+  {
+   "scene": "scene_10_take_15",
+   "frame": "scene_10_take_15",
+   "speaker": "NARRATOR",
+   "text": "a muffled ВЖУХ, followed by panting.) Beneath the container, the cat becomes a boy again. Vasya lifts the rim, crawls out, and snatches three more tiles from his pouch."
+  },
+  {
+   "scene": "scene_10_take_16",
+   "frame": "scene_10_take_16",
+   "speaker": "VASYA",
+   "text": "[angrily] О… С… А. ОСА́! ВЖУХ!"
+  },
+  {
+   "scene": "scene_10_take_16",
+   "frame": "scene_10_take_16",
+   "speaker": "NARRATOR",
+   "text": "ВЖУХ and a sharp, angry bzzzz.) Vasya turns into a striped wasp with his enormous eyebrows and flies straight at Frosya."
+  },
+  {
+   "scene": "scene_10_take_16",
+   "frame": "scene_10_take_16",
+   "speaker": "FROSYA",
+   "text": "Vasya! Don’t you dare! I’m telling Mama!"
+  },
+  {
+   "scene": "scene_10_take_16",
+   "frame": "scene_10_take_16",
+   "speaker": "NARRATOR",
+   "text": "angry buzzing and running footsteps.) Frosya tucks the pencil behind her ear as she races back into the home. Vasya-Wasp dives after her."
+  },
+  {
+   "scene": "scene_11_take_17",
+   "frame": "scene_11_take_17",
+   "speaker": "NARRATOR",
+   "text": "[storytelling] SCENE 11 — THE HOME BEHIND THE STOVE, MAIN ROOM — CONTINUOUS"
+  },
+  {
+   "scene": "scene_11_take_17",
+   "frame": "scene_11_take_17",
+   "speaker": "NARRATOR",
+   "text": "While the children were below, Mama, Papa, and Baba Yaga began preparing the birthday table. A cake made from crumbs and berries sits on the table; the little box of seven thin candles lies open beside it."
+  },
+  {
+   "scene": "scene_11_take_17",
+   "frame": "scene_11_take_17",
+   "speaker": "NARRATOR",
+   "text": "rapid footsteps approach from below, followed by an angry bzzzz.) Frosya bursts into the room, swatting at the wasp. The adults spring up, but the chase is already racing among them."
+  },
+  {
+   "scene": "scene_11_take_17",
+   "frame": "scene_11_take_17",
+   "speaker": "FROSYA",
+   "text": "[panicked] Vasya, stop it! Whoa!"
+  },
+  {
+   "scene": "scene_11_take_17",
+   "frame": "scene_11_take_17",
+   "speaker": "NARRATOR",
+   "text": "Backing away from the diving wasp, Frosya crashes into the table. an impact; the table tilts; the little box jumps.) One candle rolls onto the floor."
+  },
+  {
+   "scene": "scene_11_take_17",
+   "frame": "scene_11_take_17",
+   "speaker": "NARRATOR",
+   "text": "The miniature candle enters a narrow opening in the floor and falls through. tap… tap… followed by a faint, distant knock far below.)"
+  },
+  {
+   "scene": "scene_11_take_17",
+   "frame": "scene_11_take_17",
+   "speaker": "NARRATOR",
+   "text": "[quietly] Silence falls. Vasya-Wasp lands beside the opening."
+  },
+  {
+   "scene": "scene_11_take_17",
+   "frame": "scene_11_take_17",
+   "speaker": "VASYA",
+   "text": "[softly] ВЖУХ."
+  },
+  {
+   "scene": "scene_11_take_17",
+   "frame": "scene_11_take_17",
+   "speaker": "NARRATOR",
+   "text": "a soft ВЖУХ.) Vasya becomes a boy again. Frosya stands with her hands still raised. Both stare into the dark opening."
+  },
+  {
+   "scene": "scene_11_take_17",
+   "frame": "scene_11_take_17",
+   "speaker": "VASYA",
+   "text": "[whispering] It wasn’t me."
+  },
+  {
+   "scene": "scene_11_take_17",
+   "frame": "scene_11_take_17",
+   "speaker": "FROSYA",
+   "text": "[whispering] It was us."
+  },
+  {
+   "scene": "scene_11_take_17",
+   "frame": "scene_11_take_17",
+   "speaker": "NARRATOR",
+   "text": "Mama takes a step toward them, then stops. The children lie down beside the opening on their own. Baba Yaga watches in silence."
+  },
+  {
+   "scene": "scene_11_take_17",
+   "frame": "scene_11_take_17",
+   "speaker": "VASYA",
+   "text": "[seriously] You can’t have six candles when you’re turning seven. It’ll make you six."
+  },
+  {
+   "scene": "scene_11_take_17",
+   "frame": "scene_11_take_17",
+   "speaker": "FROSYA",
+   "text": "[horrified] I don’t want to go back to being six!"
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "NARRATOR",
+   "text": "[storytelling] SCENE 12 — BY THE OPENING IN THE FLOOR — CONTINUOUS"
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "NARRATOR",
+   "text": "The candle lies deep inside a sealed pocket with no other way in."
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "NARRATOR",
+   "text": "Frosya pushes her arm into the opening and stretches as far as she can, but the candle is too far away."
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "FROSYA",
+   "text": "[out of breath] I can’t reach it… It’s too deep."
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "FROSYA",
+   "text": "[puzzled] What are we going to do?"
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "NARRATOR",
+   "text": "Vasya looks at the opening, then at his pouch, then down again."
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "VASYA",
+   "text": "I can fit through as a wasp."
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "FROSYA",
+   "text": "A wasp can’t lift the candle. It’s heavy, and you’ll be small."
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "VASYA",
+   "text": "[stubbornly] Then you think of something. You always think of everything."
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "NARRATOR",
+   "text": "Frosya looks at Vasya, at the opening, and at the pencil behind her ear. Her eyes light up."
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "FROSYA",
+   "text": "Thread! You need thread! You’ll tie it around the candle, and I’ll pull it up. М-О-Т-О-К. МОТОК!"
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "NARRATOR",
+   "text": "The written word flashes. a chime.) A ball of thread appears beside it. Frosya finds the loose end."
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "FROSYA",
+   "text": "[softly] Vasya. Just don’t rush down there. All right?"
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "NARRATOR",
+   "text": "Vasya nods, takes a slow breath in and out, and uses other tiles to build a new wasp word."
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "VASYA",
+   "text": "[calmly] О… С… А. ОСА́. ВЖУХ."
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "NARRATOR",
+   "text": "a soft, even ВЖУХ; calm buzzing.) Vasya turns into a wasp, takes hold of the end of the thread, and squeezes through the opening."
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "NARRATOR",
+   "text": "The thread feeds downward. the buzzing grows fainter and fainter.) Frosya lies with her ear to the floor and holds the ball of thread."
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "FROSYA",
+   "text": "[whispering] What’s happening down there?"
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "NARRATOR",
+   "text": "Deep below, Vasya-Wasp loops the thread around the candle and tightens a triple knot."
+  },
+  {
+   "scene": "scene_12_take_18",
+   "frame": "scene_12_take_18",
+   "speaker": "MAMA",
+   "text": "[softly] Let them do it themselves."
+  },
+  {
+   "scene": "scene_12_take_19",
+   "frame": "scene_12_take_19",
+   "speaker": "NARRATOR",
+   "text": "The thread tugs three times in Frosya’s hands."
+  },
+  {
+   "scene": "scene_12_take_19",
+   "frame": "scene_12_take_19",
+   "speaker": "FROSYA",
+   "text": "I’m pulling!"
+  },
+  {
+   "scene": "scene_12_take_19",
+   "frame": "scene_12_take_19",
+   "speaker": "NARRATOR",
+   "text": "the thread draws taut.) Frosya pulls slowly. Vasya-Wasp guides the candle from below. The candle emerges first, neatly tied with thread; the dusty wasp flies out after it."
+  },
+  {
+   "scene": "scene_12_take_19",
+   "frame": "scene_12_take_19",
+   "speaker": "VASYA",
+   "text": "ВЖУХ."
+  },
+  {
+   "scene": "scene_12_take_19",
+   "frame": "scene_12_take_19",
+   "speaker": "NARRATOR",
+   "text": "ВЖУХ.) Vasya becomes a boy again—dusty, rumpled, and glowing with pride."
+  },
+  {
+   "scene": "scene_12_take_19",
+   "frame": "scene_12_take_19",
+   "speaker": "VASYA",
+   "text": "[proudly] I tied it. By myself. With a triple knot!"
+  },
+  {
+   "scene": "scene_12_take_19",
+   "frame": "scene_12_take_19",
+   "speaker": "MAMA",
+   "text": "[calmly] All right."
+  },
+  {
+   "scene": "scene_12_take_19",
+   "frame": "scene_12_take_19",
+   "speaker": "FROSYA",
+   "text": "We fixed everything!"
+  },
+  {
+   "scene": "scene_12_take_19",
+   "frame": "scene_12_take_19",
+   "speaker": "MAMA",
+   "text": "I can see that. Get the metal container off the road."
+  },
+  {
+   "scene": "scene_12_take_19",
+   "frame": "scene_12_take_19",
+   "speaker": "NARRATOR",
+   "text": "Frosya and Vasya race each other to put away the metal container.) Mama allows herself a smile. Baba Yaga has long since stopped hiding hers."
+  },
+  {
+   "scene": "scene_13_take_20",
+   "frame": "scene_13_take_20",
+   "speaker": "NARRATOR",
+   "text": "[storytelling] SCENE 13 — THE HOME BEHIND THE STOVE — EVENING"
+  },
+  {
+   "scene": "scene_13_take_20",
+   "frame": "scene_13_take_20",
+   "speaker": "NARRATOR",
+   "text": "everyone settles around the table; thimbles chime softly.) All seven of Baba Yaga’s candles burn on a cake made from crumbs and berries."
+  },
+  {
+   "scene": "scene_13_take_20",
+   "frame": "scene_13_take_20",
+   "speaker": "BABA_YAGA",
+   "text": "[softly] Make a wish, granddaughter. Keep it to yourself, or it won’t come true."
+  },
+  {
+   "scene": "scene_13_take_20",
+   "frame": "scene_13_take_20",
+   "speaker": "NARRATOR",
+   "text": "Frosya closes her eyes. In the candlelight, her lips move slightly, but no sound can be heard."
+  },
+  {
+   "scene": "scene_13_take_20",
+   "frame": "scene_13_take_20",
+   "speaker": "NARRATOR",
+   "text": "fooosh—all seven candles go out in one breath. Applause and baby squeals.)"
+  },
+  {
+   "scene": "scene_13_take_20",
+   "frame": "scene_13_take_20",
+   "speaker": "PAPA",
+   "text": "[cheerfully] Hooray!"
+  },
+  {
+   "scene": "scene_13_take_20",
+   "frame": "scene_13_take_20",
+   "speaker": "BABA_YAGA",
+   "text": "[gruffly] Time for me to go. It’s a long flight back to the forest."
+  },
+  {
+   "scene": "scene_13_take_20",
+   "frame": "scene_13_take_20",
+   "speaker": "NARRATOR",
+   "text": "Baba Yaga hugs everyone in turn. She holds Mama the longest."
+  },
+  {
+   "scene": "scene_13_take_20",
+   "frame": "scene_13_take_20",
+   "speaker": "BABA_YAGA",
+   "text": "[softly] Be strict with them. They’re both little firecrackers. [pause] [mischievously] They take after me."
+  },
+  {
+   "scene": "scene_13_take_20",
+   "frame": "scene_13_take_20",
+   "speaker": "FROSYA",
+   "text": "Goodbye, Grandma!"
+  },
+  {
+   "scene": "scene_13_take_20",
+   "frame": "scene_13_take_20",
+   "speaker": "NARRATOR",
+   "text": "Baba Yaga climbs into the miniature mortar. The cleanout hatch opens. Baba, the mortar, the pestle, and the broom spin together, pass into the stove route, and spiral up the chimney. The hatch snaps shut behind them."
+  },
+  {
+   "scene": "scene_13_take_20",
+   "frame": "scene_13_take_20",
+   "speaker": "NARRATOR",
+   "text": "Above the roof, a tiny whirlwind shoots from the chimney and instantly grows to full size. the mortar rumbles away into the night sky; the broom’s rustle fades.)"
+  },
+  {
+   "scene": "scene_14_take_21",
+   "frame": "scene_14_take_21",
+   "speaker": "NARRATOR",
+   "text": "[storytelling] SCENE 14 — THE HOME BEHIND THE STOVE — NIGHT"
+  },
+  {
+   "scene": "scene_14_take_21",
+   "frame": "scene_14_take_21",
+   "speaker": "NARRATOR",
+   "text": "the stove crackles quietly. The large clock in the giants’ house strikes once, muffled as if through a blanket.)"
+  },
+  {
+   "scene": "scene_14_take_21",
+   "frame": "scene_14_take_21",
+   "speaker": "NARRATOR",
+   "text": "[quietly] Everyone is asleep. Rusya and Musya are curled up on Mama. Vasya lies sideways across his box bed; the tile pouch is still tied to his belt. Only Frosya is awake."
+  },
+  {
+   "scene": "scene_14_take_21",
+   "frame": "scene_14_take_21",
+   "speaker": "NARRATOR",
+   "text": "Frosya opens Mama’s box, takes out the red colored-pencil core, and draws a red car with headlights. Beneath the drawing, she marks six boxes for letters."
+  },
+  {
+   "scene": "scene_14_take_21",
+   "frame": "scene_14_take_21",
+   "speaker": "NARRATOR",
+   "text": "Frosya returns the red core to the box. Then she takes the magic pencil from behind her ear and fills in the available letters: М, А, three empty boxes, and the final А."
+  },
+  {
+   "scene": "scene_14_take_21",
+   "frame": "scene_14_take_21",
+   "speaker": "NARRATOR",
+   "text": "Beneath the car it reads: М, А, three blank spaces, А. The pencil scratches across the paper, and nothing else happens. The word is incomplete, so no car appears."
+  },
+  {
+   "scene": "scene_14_take_21",
+   "frame": "scene_14_take_21",
+   "speaker": "NARRATOR",
+   "text": "Frosya pins the drawing above her bed, looks at it, then looks at her sleeping brother."
+  },
+  {
+   "scene": "scene_14_take_21",
+   "frame": "scene_14_take_21",
+   "speaker": "FROSYA",
+   "text": "[whispering] Learn your letters, Vasya."
+  },
+  {
+   "scene": "scene_14_take_21",
+   "frame": "scene_14_take_21",
+   "speaker": "NARRATOR",
+   "text": "[quietly] the stove crackles. The end.)"
+  },
+  {
+   "scene": "final_card_take_22",
+   "frame": "final_card_take_22",
+   "speaker": "NARRATOR",
+   "text": "[storytelling] FINAL TITLE CARD"
+  },
+  {
+   "scene": "final_card_take_22",
+   "frame": "final_card_take_22",
+   "speaker": "NARRATOR",
+   "text": "An illustrated hand scatters the letters across the screen. They form the episode words: juice, salad, poppy, Mama, cat, wasp, metal container, kick scooter, and ball of thread."
+  }
+ ]
+}

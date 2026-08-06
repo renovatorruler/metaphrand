@@ -1,0 +1,38 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "sceneId": "EP1-S01",
+  "inputManifestRevision": 3,
+  "inputManifestSha256": "93224b13fae36ef8126dd386e1eb0a3bdaf9075d61380fef668a4007b0d78f5a",
+  "stage": "refs",
+  "subjectId": "RED_CAR",
+  "model": "nano_banana_pro",
+  "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+  "promptSha256": "d539a85cb01a620e82435d3631250fa70c217e0df6c6ba7717818013c7fc1078",
+  "requestSha256": "56b618f1b28c22fb24822664a2ff8d67b3fb08ecb120c87ad1632408e028fe5b",
+  "referenceAssets": [
+    {
+      "assetId": "FROSYA_PREGIFT",
+      "path": "stories/drakosha/ep1prod/scene1/references/frosya_pregift_lowpoly.png",
+      "sha256": "a611fbdd3354133cb26b053e50222bccd1357d03dbb65ce70a4b363792dfadc3",
+      "declaredSha256": "a611fbdd3354133cb26b053e50222bccd1357d03dbb65ce70a4b363792dfadc3"
+    }
+  ],
+  "externalReferences": [
+    "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+  ],
+  "providerArgs": [
+    "--aspect_ratio",
+    "16:9",
+    "--resolution",
+    "2k",
+    "--wait",
+    "--json"
+  ],
+  "attempt": 1,
+  "status": "succeeded",
+  "readiness": "PASS",
+  "outputPath": "stories/drakosha/ep1prod/scene1/references/red_hero_car_candidate_v1.png",
+  "outputSha256": "d7207b93975057d8c04f8b98b41dcf21920e7ae31bc9ba60444c9b73ec1cf7d2",
+  "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260805_201922_d99b8841-2ce5-4ee6-8c42-76d1ad11c0df.png",
+  "recordedAt": "2026-08-05T20:19:56.306Z"
+}

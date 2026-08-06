@@ -1,0 +1,56 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "sceneId": "EP1-S01",
+  "inputManifestRevision": 11,
+  "inputManifestSha256": "aed92448e37fe5b0cf6aeef4aec703017cbb64584140108a926553470fa49899",
+  "stage": "storyboard",
+  "subjectId": "C04_hoist_wide",
+  "model": "nano_banana_pro",
+  "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+  "promptSha256": "f0db855f05053c103edd8a2568c266b2cbf42235e40c550d2784f8ba39e8e41f",
+  "requestSha256": "a9813a9c959a679e16b154f5127d31c43d497f07828e5d7b6270e3bcbd70fe19",
+  "referenceAssets": [
+    {
+      "assetId": "DRAWER_SIDE_INTERIOR",
+      "path": "stories/drakosha/ep1prod/scene1/references/drawer_side_interior_candidate_v1.png",
+      "sha256": "da3e27a240741d14c4578c88b44eb89f345c8b462e1be3c589fe7dc7fa0ca9a0",
+      "declaredSha256": "da3e27a240741d14c4578c88b44eb89f345c8b462e1be3c589fe7dc7fa0ca9a0"
+    },
+    {
+      "assetId": "FROSYA_PREGIFT",
+      "path": "stories/drakosha/ep1prod/scene1/references/frosya_pregift_lowpoly.png",
+      "sha256": "a611fbdd3354133cb26b053e50222bccd1357d03dbb65ce70a4b363792dfadc3",
+      "declaredSha256": "a611fbdd3354133cb26b053e50222bccd1357d03dbb65ce70a4b363792dfadc3"
+    },
+    {
+      "assetId": "VASYA",
+      "path": "stories/drakosha/ep1prod/scene1/references/vasya_lowpoly_cutout.png",
+      "sha256": "545174c3cd252e363d27a8d97a11b5d2089ead4f8dd9eb6b9dd169c8ecbc042a",
+      "declaredSha256": "545174c3cd252e363d27a8d97a11b5d2089ead4f8dd9eb6b9dd169c8ecbc042a"
+    },
+    {
+      "assetId": "SOCK",
+      "path": "stories/frosya-vasya/ep1prod/plates/prop_sock.png",
+      "sha256": "88a1c998c346c0e762543f7b3fbb9607a7c60d2bd01b74f729e4987881ef20c1",
+      "declaredSha256": "88a1c998c346c0e762543f7b3fbb9607a7c60d2bd01b74f729e4987881ef20c1"
+    }
+  ],
+  "externalReferences": [
+    "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+  ],
+  "providerArgs": [
+    "--aspect_ratio",
+    "16:9",
+    "--resolution",
+    "2k",
+    "--wait",
+    "--json"
+  ],
+  "attempt": 1,
+  "status": "succeeded",
+  "readiness": "PASS",
+  "outputPath": "stories/drakosha/ep1prod/scene1/storyboard/C04_hoist_wide.png",
+  "outputSha256": "b0c0746b0dec6d3fe78f8f1be8c2e8b6a5b6a6031d55f8ef2def7398031cf11c",
+  "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260805_222750_952587e9-8fed-454a-816a-49017162d9df.png",
+  "recordedAt": "2026-08-05T22:33:15.658Z"
+}

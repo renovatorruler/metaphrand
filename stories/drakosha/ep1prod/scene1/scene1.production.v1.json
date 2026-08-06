@@ -1,0 +1,820 @@
+{
+  "schema": "frosya.scene-production/v1",
+  "sceneId": "EP1-S01",
+  "revision": 29,
+  "updated": "2026-08-05",
+  "status": "reference_review",
+  "workspaceRoot": "../../../..",
+  "authority": {
+    "humanState": "stories/drakosha/ep1prod/scene1/CURRENT.md",
+    "storySource": "stories/drakosha/2026-08-04_EP1_den-rozhdeniya_SPEC_numbered_bilingual.md#SP004-SP019",
+    "supersedesForGeneration": [
+      "stories/drakosha/ep1prod/scene1/SCENE1_SIMPLIFIED_SHOOTING_PROPOSAL.md",
+      "stories/drakosha/ep1prod/scene1/production/SCENE1_VISUAL_BATCH.md",
+      "stories/drakosha/2026-08-04_EP1_den-rozhdeniya_SHOOTING_numbered_bilingual.md#SH001-SH017"
+    ]
+  },
+  "storySpine": [
+    "The siblings cooperate to return the sock.",
+    "The house rule is established: Так дом устроен.",
+    "They discover a cool red car with headlights that appears to move by itself.",
+    "Near-discovery forces retreat; Frosya looks back at the car."
+  ],
+  "approvals": {
+    "compactCut": "approved",
+    "referenceBoard": "approved",
+    "storyboard": "approved",
+    "animatic": "approved",
+    "finalAssembly": "pending"
+  },
+  "generationPolicy": {
+    "canonicalRunner": "studio/src/Drakosha_SceneFlowCli.res.mjs",
+    "maxPaidAttemptsPerTarget": 2,
+    "receiptSchema": "frosya.generation-receipt/v1",
+    "unreceiptedOutputs": "blocked"
+  },
+  "continuity": {
+    "passageOrientation": "camera at room-facing end looking toward rear; dresser left; plaster wall right; children approach camera",
+    "charactersNeverUnderDresser": true,
+    "carNeverUnderDresser": true,
+    "remoteVisible": false,
+    "frosya": {
+      "heightIn": 3.5,
+      "state": "pre_gift",
+      "required": [
+        "orange_hair_flower",
+        "floral_patchwork_dress",
+        "large_safety_pin_pouch",
+        "bare_feet"
+      ],
+      "forbidden": [
+        "magic_pencil",
+        "pencil_behind_ear"
+      ]
+    },
+    "vasya": {
+      "heightIn": 3.15,
+      "required": [
+        "giant_shoelace_belt",
+        "patchwork_outfit",
+        "large_shaggy_eyebrows",
+        "bare_feet"
+      ],
+      "forbidden": [
+        "letter_tile_pouch"
+      ]
+    },
+    "generationRules": [
+      "low_poly_3d_children_animation",
+      "one_principal_action_per_motion_clip",
+      "no_long_continuous_choreography",
+      "no_generated_letters_or_text",
+      "use_declared_references_only",
+      "prefer_editorial_ellipsis_and_sound"
+    ]
+  },
+  "assets": [
+    {
+      "id": "ROOM_MASTER",
+      "path": "stories/drakosha/ep1prod/scene1/previs/plates/s1_dresser_room_anchor_locked.jpg",
+      "sha256": "97e3de8870743b997761d494d07f0b243c979ae52a6e12196541419ac8d1661c",
+      "status": "approved",
+      "provenance": "legacy_approved",
+      "role": "room_and_dresser_anchor",
+      "requiredForStages": [
+        "reference_board",
+        "storyboard",
+        "motion",
+        "lipsync",
+        "delivery"
+      ]
+    },
+    {
+      "id": "PASSAGE_WORKING",
+      "path": "stories/drakosha/ep1prod/scene1/previs/plates/s1_side_passage_anchor_working.jpg",
+      "sha256": "f6e386c20669c47502d533e7affd3a3ee7644dde4304831fc16f0ef55a8f3708",
+      "status": "approved",
+      "provenance": "user_supplied",
+      "role": "passage_location_anchor_author_final",
+      "requiredForStages": [
+        "storyboard",
+        "motion",
+        "delivery"
+      ]
+    },
+    {
+      "id": "SOCK_DRAG_START_WORKING",
+      "path": "stories/drakosha/ep1prod/scene1/previs/stills/s1_sock_drag_start_working.jpg",
+      "sha256": "7307dffe9e7aa22003ae46ae430ed11f42d1d74d5b1c5b15520b9f77e218b270",
+      "status": "working_reference",
+      "provenance": "user_supplied",
+      "role": "superseded_by_author_final_start_frame",
+      "requiredForStages": []
+    },
+    {
+      "id": "FROSYA_PREGIFT",
+      "path": "stories/drakosha/ep1prod/scene1/references/frosya_pregift_lowpoly.png",
+      "sha256": "a611fbdd3354133cb26b053e50222bccd1357d03dbb65ce70a4b363792dfadc3",
+      "status": "approved",
+      "provenance": "legacy_approved",
+      "role": "canonical_character",
+      "requiredForStages": [
+        "reference_board",
+        "storyboard",
+        "motion",
+        "lipsync",
+        "delivery"
+      ]
+    },
+    {
+      "id": "VASYA",
+      "path": "stories/drakosha/ep1prod/scene1/references/vasya_lowpoly_cutout.png",
+      "sha256": "545174c3cd252e363d27a8d97a11b5d2089ead4f8dd9eb6b9dd169c8ecbc042a",
+      "status": "approved",
+      "provenance": "legacy_approved",
+      "role": "canonical_character",
+      "requiredForStages": [
+        "reference_board",
+        "storyboard",
+        "motion",
+        "lipsync",
+        "delivery"
+      ]
+    },
+    {
+      "id": "SOCK",
+      "path": "stories/frosya-vasya/ep1prod/plates/prop_sock.png",
+      "sha256": "88a1c998c346c0e762543f7b3fbb9607a7c60d2bd01b74f729e4987881ef20c1",
+      "status": "approved",
+      "provenance": "legacy_approved",
+      "role": "canonical_prop",
+      "requiredForStages": [
+        "reference_board",
+        "storyboard",
+        "motion",
+        "delivery"
+      ]
+    },
+    {
+      "id": "FROSYA_PEEK_REUSE",
+      "path": "stories/drakosha/ep1prod/scene1/previs/stills/sh002a_frosya_peek_end_v1.png",
+      "sha256": "b15806ad3121d734d29edf9c11afaf08adf39b29c486b09259b0381d4fbafacf",
+      "status": "approved_reuse",
+      "provenance": "legacy_approved",
+      "role": "room_facing_passage_peek",
+      "requiredForStages": [
+        "reference_board",
+        "storyboard",
+        "motion",
+        "lipsync",
+        "delivery"
+      ]
+    },
+    {
+      "id": "DRAWER_SIDE_INTERIOR",
+      "status": "approved",
+      "provenance": "guarded_generation",
+      "generationSpec": {
+        "stage": "refs",
+        "subjectId": "DRAWER_SIDE_INTERIOR",
+        "model": "nano_banana_pro",
+        "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+        "promptSha256": "d0acae13facbfa40d89f4181c2f206d36c68b9f236b91a817805fb1014c87984",
+        "requestSha256": "f5577e736e4bab92c6c99952a3875ce81b92341c420963ba6ba6cc97cc37e8a0",
+        "referenceAssetIds": [
+          "ROOM_MASTER"
+        ],
+        "externalReferences": [
+          "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+        ],
+        "providerArgs": [
+          "--aspect_ratio",
+          "16:9",
+          "--resolution",
+          "2k",
+          "--wait",
+          "--json"
+        ],
+        "outputPath": "stories/drakosha/ep1prod/scene1/references/drawer_side_interior_candidate_v1.png"
+      },
+      "candidate": {
+        "path": "stories/drakosha/ep1prod/scene1/references/drawer_side_interior_candidate_v1.png",
+        "sha256": "da3e27a240741d14c4578c88b44eb89f345c8b462e1be3c589fe7dc7fa0ca9a0",
+        "receiptPath": "stories/drakosha/ep1prod/scene1/references/drawer_side_interior_candidate_v1.png.receipt.json",
+        "receiptSha256": "4b7d0763ff1d646bfa44cafa57e33435ce755712be092da8f8e3c89cba455a28",
+        "attempt": 2,
+        "reviewStatus": "approved"
+      },
+      "role": "C04_C05_geometry_and_set_anchor",
+      "requiredForStages": [
+        "storyboard",
+        "motion",
+        "delivery"
+      ],
+      "path": "stories/drakosha/ep1prod/scene1/references/drawer_side_interior_candidate_v1.png",
+      "sha256": "da3e27a240741d14c4578c88b44eb89f345c8b462e1be3c589fe7dc7fa0ca9a0",
+      "receiptPath": "stories/drakosha/ep1prod/scene1/references/drawer_side_interior_candidate_v1.png.receipt.json",
+      "receiptSha256": "4b7d0763ff1d646bfa44cafa57e33435ce755712be092da8f8e3c89cba455a28"
+    },
+    {
+      "id": "RED_CAR",
+      "status": "approved",
+      "provenance": "guarded_generation",
+      "generationSpec": {
+        "stage": "refs",
+        "subjectId": "RED_CAR",
+        "model": "nano_banana_pro",
+        "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+        "promptSha256": "d539a85cb01a620e82435d3631250fa70c217e0df6c6ba7717818013c7fc1078",
+        "requestSha256": "56b618f1b28c22fb24822664a2ff8d67b3fb08ecb120c87ad1632408e028fe5b",
+        "referenceAssetIds": [
+          "FROSYA_PREGIFT"
+        ],
+        "externalReferences": [
+          "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+        ],
+        "providerArgs": [
+          "--aspect_ratio",
+          "16:9",
+          "--resolution",
+          "2k",
+          "--wait",
+          "--json"
+        ],
+        "outputPath": "stories/drakosha/ep1prod/scene1/references/red_hero_car_candidate_v1.png"
+      },
+      "candidate": {
+        "path": "stories/drakosha/ep1prod/scene1/references/red_hero_car_candidate_v1.png",
+        "sha256": "d7207b93975057d8c04f8b98b41dcf21920e7ae31bc9ba60444c9b73ec1cf7d2",
+        "receiptPath": "stories/drakosha/ep1prod/scene1/references/red_hero_car_candidate_v1.png.receipt.json",
+        "receiptSha256": "00664830b7637cf3245f0101cc93bbcccdfc5e1f128bda19491fcf0fc242b433",
+        "attempt": 1,
+        "reviewStatus": "approved"
+      },
+      "role": "C08_C09_C10_hero_prop",
+      "requiredForStages": [
+        "storyboard",
+        "motion",
+        "delivery"
+      ],
+      "path": "stories/drakosha/ep1prod/scene1/references/red_hero_car_candidate_v1.png",
+      "sha256": "d7207b93975057d8c04f8b98b41dcf21920e7ae31bc9ba60444c9b73ec1cf7d2",
+      "receiptPath": "stories/drakosha/ep1prod/scene1/references/red_hero_car_candidate_v1.png.receipt.json",
+      "receiptSha256": "00664830b7637cf3245f0101cc93bbcccdfc5e1f128bda19491fcf0fc242b433"
+    },
+    {
+      "id": "RUSSIAN_DIALOGUE_AUDIO",
+      "status": "approved",
+      "provenance": "user_supplied",
+      "role": "timing_and_lipsync",
+      "requiredForStages": [
+        "motion",
+        "lipsync",
+        "delivery"
+      ],
+      "path": "stories/drakosha/ep1prod/scene1/audio/ru_timing.v1.json",
+      "sha256": "0015cc44887ce7339f0a5603f3773a105d6de0a68c12a251816d9f23d40dbaa6"
+    },
+    {
+      "id": "C03_frosya_dostavay",
+      "status": "approved",
+      "provenance": "guarded_generation",
+      "generationSpec": {
+        "stage": "storyboard",
+        "subjectId": "C03_frosya_dostavay",
+        "model": "nano_banana_pro",
+        "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+        "promptSha256": "a2909fc54b38dc48fc82021c5d2e25085205a30ca53ceb704e05cac29b93f770",
+        "requestSha256": "2b71890bbb6d4627a9b1d25d3dd28c7a66824705db51b1406e3b175694f0ea45",
+        "referenceAssetIds": [
+          "PASSAGE_WORKING",
+          "FROSYA_PREGIFT",
+          "VASYA",
+          "SOCK"
+        ],
+        "externalReferences": [
+          "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+        ],
+        "providerArgs": [
+          "--aspect_ratio",
+          "16:9",
+          "--resolution",
+          "2k",
+          "--wait",
+          "--json"
+        ],
+        "outputPath": "stories/drakosha/ep1prod/scene1/storyboard/C03_frosya_dostavay.png"
+      },
+      "role": "storyboard_still_C03",
+      "requiredForStages": [
+        "motion",
+        "lipsync",
+        "delivery"
+      ],
+      "path": "stories/drakosha/ep1prod/scene1/storyboard/C03_frosya_dostavay.png",
+      "sha256": "30547de93887e2ac6f037c0cbd4e5b148c6eb4a3b8999a2dff9d88665bf6c9ea",
+      "receiptPath": "stories/drakosha/ep1prod/scene1/storyboard/C03_frosya_dostavay.png.receipt.json",
+      "receiptSha256": "d93985aeb0d69388137cee39e61597268627b42f600de9c4a535e328715f49d6"
+    },
+    {
+      "id": "C04_hoist_wide",
+      "status": "approved",
+      "provenance": "guarded_generation",
+      "generationSpec": {
+        "stage": "storyboard",
+        "subjectId": "C04_hoist_wide",
+        "model": "nano_banana_pro",
+        "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+        "promptSha256": "ef76c660cf359214f1c5c98bf4b688e65d0efe72640d57b857998ca4cd0c40a7",
+        "requestSha256": "bd0acebbc7f223f9f0bcd97efd15ac772dad743af140c7d3c0d6451392245fec",
+        "referenceAssetIds": [
+          "DRAWER_SIDE_INTERIOR",
+          "FROSYA_PREGIFT",
+          "VASYA",
+          "SOCK"
+        ],
+        "externalReferences": [
+          "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+        ],
+        "providerArgs": [
+          "--aspect_ratio",
+          "16:9",
+          "--resolution",
+          "2k",
+          "--wait",
+          "--json"
+        ],
+        "outputPath": "stories/drakosha/ep1prod/scene1/storyboard/C04_hoist_wide.png"
+      },
+      "role": "storyboard_still_C04",
+      "requiredForStages": [
+        "motion",
+        "delivery"
+      ],
+      "path": "stories/drakosha/ep1prod/scene1/storyboard/C04_hoist_wide.png",
+      "sha256": "34909c7bb479654a34a176259ffd1ae047cf53a5690beee32f9bfe013a7877b2",
+      "receiptPath": "stories/drakosha/ep1prod/scene1/storyboard/C04_hoist_wide.png.receipt.json",
+      "receiptSha256": "9132c476e32b8d183b93409884d952ca6cc9a18f49aa88169869d5c0fda3ab31"
+    },
+    {
+      "id": "C05_sock_na_meste",
+      "status": "approved",
+      "provenance": "guarded_generation",
+      "generationSpec": {
+        "stage": "storyboard",
+        "subjectId": "C05_sock_na_meste",
+        "model": "nano_banana_pro",
+        "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+        "promptSha256": "b6aa43369db42a757a7637e5f5d1c4288ff035ae1d02e683e0fc9a44e89c0f8d",
+        "requestSha256": "3a42f55238c05a2f8065a1eab2305abf19cfe2d5a0cd7ff91ec33ac94a55a789",
+        "referenceAssetIds": [
+          "DRAWER_SIDE_INTERIOR",
+          "SOCK"
+        ],
+        "externalReferences": [
+          "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+        ],
+        "providerArgs": [
+          "--aspect_ratio",
+          "16:9",
+          "--resolution",
+          "2k",
+          "--wait",
+          "--json"
+        ],
+        "outputPath": "stories/drakosha/ep1prod/scene1/storyboard/C05_sock_na_meste.png"
+      },
+      "role": "storyboard_still_C05",
+      "requiredForStages": [
+        "motion",
+        "delivery"
+      ],
+      "path": "stories/drakosha/ep1prod/scene1/storyboard/C05_sock_na_meste.png",
+      "sha256": "897dbc72734fa149884f110caab770aabfe19bab902f708ffbd7aae9fb83d09f",
+      "receiptPath": "stories/drakosha/ep1prod/scene1/storyboard/C05_sock_na_meste.png.receipt.json",
+      "receiptSha256": "f98a749a041ac7f53f1891af8a450513881d169fed32ad390296ef7ac5aa724b"
+    },
+    {
+      "id": "C06_tak_dom_ustroen",
+      "status": "approved",
+      "provenance": "user_supplied",
+      "role": "C06_still_author_final_true_scale",
+      "requiredForStages": [
+        "motion",
+        "lipsync",
+        "delivery"
+      ],
+      "path": "stories/drakosha/ep1prod/scene1/previs/stills/s1_c06_frosya_scan_author_final.png",
+      "sha256": "b0ab75ba8cc0de35b3d8b3b9bddb198488815fdd78654c386d8bfc4a222f29ba"
+    },
+    {
+      "id": "C07_peek",
+      "status": "approved",
+      "provenance": "guarded_generation",
+      "generationSpec": {
+        "stage": "storyboard",
+        "subjectId": "C07_peek",
+        "model": "nano_banana_pro",
+        "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+        "promptSha256": "d59d70e52b5ff583dcc65f59f56cf3eeeefccf65b8dcd5134ea0bb7d1c5fec42",
+        "requestSha256": "be9533ef94d61d9d910536e1f0065379bedfda15f34ac29258be4975435310b6",
+        "referenceAssetIds": [
+          "PASSAGE_WORKING",
+          "FROSYA_PREGIFT",
+          "VASYA"
+        ],
+        "externalReferences": [
+          "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+        ],
+        "providerArgs": [
+          "--aspect_ratio",
+          "16:9",
+          "--resolution",
+          "2k",
+          "--wait",
+          "--json"
+        ],
+        "outputPath": "stories/drakosha/ep1prod/scene1/storyboard/C07_peek.png"
+      },
+      "role": "storyboard_still_C07",
+      "requiredForStages": [
+        "motion",
+        "delivery"
+      ],
+      "path": "stories/drakosha/ep1prod/scene1/storyboard/C07_peek.png",
+      "sha256": "3738d3e6107a2c62a7bd7d223fbcfd9adf1341eeacdbf2acc6f8ec03bd95519f",
+      "receiptPath": "stories/drakosha/ep1prod/scene1/storyboard/C07_peek.png.receipt.json",
+      "receiptSha256": "8ed5a06d82525e2fd3351d243df265562f22a06ed4225beb07d79b341de5629c"
+    },
+    {
+      "id": "C09_danger",
+      "status": "approved",
+      "provenance": "guarded_generation",
+      "generationSpec": {
+        "stage": "storyboard",
+        "subjectId": "C09_danger",
+        "model": "nano_banana_pro",
+        "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+        "promptSha256": "fd469ed969bd648d8519eea7ee5db5d6124cba4cfe3fcfc4f3a9bb57e9de2d07",
+        "requestSha256": "3c3b16f9ba845ef96eb224fbd3ec8bdb62f5afbf1dff39f0a1770cbc5918a5f6",
+        "referenceAssetIds": [
+          "PASSAGE_WORKING",
+          "FROSYA_PREGIFT",
+          "VASYA"
+        ],
+        "externalReferences": [
+          "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+        ],
+        "providerArgs": [
+          "--aspect_ratio",
+          "16:9",
+          "--resolution",
+          "2k",
+          "--wait",
+          "--json"
+        ],
+        "outputPath": "stories/drakosha/ep1prod/scene1/storyboard/C09_danger.png"
+      },
+      "role": "storyboard_still_C09",
+      "requiredForStages": [
+        "motion",
+        "delivery"
+      ],
+      "path": "stories/drakosha/ep1prod/scene1/storyboard/C09_danger.png",
+      "sha256": "af43d88211782d2f161f2cd17bdfb34d88e14ccc110613a260a9bde60940317d",
+      "receiptPath": "stories/drakosha/ep1prod/scene1/storyboard/C09_danger.png.receipt.json",
+      "receiptSha256": "39f279fc5fac1eca220fdf482382f872a831b2b45bc6d8e958f6126af2d53502"
+    },
+    {
+      "id": "C10_last_look",
+      "status": "approved",
+      "provenance": "guarded_generation",
+      "generationSpec": {
+        "stage": "storyboard",
+        "subjectId": "C10_last_look",
+        "model": "nano_banana_pro",
+        "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+        "promptSha256": "6ca8f3ddb852ffd101a3258b06acb7f8d2b91e17a60ba118a61db629275ca021",
+        "requestSha256": "546aac954dbffe529a118adbd4f47a589f7fee18c901fb55f4278b2a773a31cb",
+        "referenceAssetIds": [
+          "PASSAGE_WORKING",
+          "FROSYA_PREGIFT",
+          "VASYA",
+          "RED_CAR"
+        ],
+        "externalReferences": [
+          "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+        ],
+        "providerArgs": [
+          "--aspect_ratio",
+          "16:9",
+          "--resolution",
+          "2k",
+          "--wait",
+          "--json"
+        ],
+        "outputPath": "stories/drakosha/ep1prod/scene1/storyboard/C10_last_look.png"
+      },
+      "role": "storyboard_still_C10",
+      "requiredForStages": [
+        "motion",
+        "delivery"
+      ],
+      "path": "stories/drakosha/ep1prod/scene1/storyboard/C10_last_look.png",
+      "sha256": "639b8bbc524dec8a519a62d2972f14b1507d6993b70ec1f840de043d44a32c9a",
+      "receiptPath": "stories/drakosha/ep1prod/scene1/storyboard/C10_last_look.png.receipt.json",
+      "receiptSha256": "e97ee44f26ec2e93a7fff9d9a1e9f4cf306065a56a98e88c1ceae658b3c37af3"
+    },
+    {
+      "id": "SOCK_DRAG_START",
+      "status": "approved",
+      "provenance": "user_supplied",
+      "role": "C02_start_frame_author_final",
+      "requiredForStages": [
+        "motion",
+        "delivery"
+      ],
+      "path": "stories/drakosha/ep1prod/scene1/previs/stills/s1_sock_drag_start_author_final.png",
+      "sha256": "ee3c55e6bb1a392556adaf0ea27516cab6f9e6b925e4fbd453fb5c1272be3fbf"
+    },
+    {
+      "id": "MOTION_MAP",
+      "status": "approved",
+      "provenance": "user_supplied",
+      "path": "stories/drakosha/ep1prod/scene1/SCENE1_MOTION_MAP_v4.png",
+      "sha256": "63cece8b0043952e74332d148ecd7ec10d943bc576ec3bcc5ddfe3e285e6ee32",
+      "role": "direction_authority_overhead_map",
+      "requiredForStages": []
+    },
+    {
+      "id": "C02",
+      "status": "missing_blocker",
+      "provenance": "guarded_generation",
+      "generationSpec": {
+        "stage": "motion",
+        "subjectId": "C02",
+        "model": "gemini_omni",
+        "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+        "promptSha256": "c7ec8252c5bdd9f3c68a172c443a648d38b15e79eb2b879df20aaa39e46f03d6",
+        "requestSha256": "49f6445f6aad0745a736ef2fe3eeb1bb5aaacad3bc997be5dd0e6c7392528e4e",
+        "referenceAssetIds": [
+          "SOCK_DRAG_START",
+          "SOCK",
+          "FROSYA_PREGIFT",
+          "VASYA"
+        ],
+        "externalReferences": [
+          "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+        ],
+        "providerArgs": [
+          "--duration",
+          "10",
+          "--aspect_ratio",
+          "16:9",
+          "--resolution",
+          "720p",
+          "--wait",
+          "--wait-timeout",
+          "12m",
+          "--json"
+        ],
+        "outputPath": "stories/drakosha/ep1prod/scene1/clips/C02_sock_drag_v1.mp4"
+      },
+      "role": "motion_clip_C02",
+      "requiredForStages": [
+        "delivery"
+      ],
+      "path": "stories/drakosha/ep1prod/scene1/clips/C02_sock_drag_v1.mp4",
+      "sha256": "5b29d9e3c4aaf0191f49c7963b8171196138bfc3809c2f1bfa22cbe4ac9ba742",
+      "receiptPath": "stories/drakosha/ep1prod/scene1/clips/C02_sock_drag_v1.mp4.receipt.json",
+      "receiptSha256": "5a5ab9dde117062311ddf283501cac2d4d69144f8ff7cfd61d80906d59f0af83",
+      "candidate": {
+        "path": "stories/drakosha/ep1prod/scene1/clips/C02_sock_drag_v1.mp4",
+        "sha256": "5b29d9e3c4aaf0191f49c7963b8171196138bfc3809c2f1bfa22cbe4ac9ba742",
+        "receiptPath": "stories/drakosha/ep1prod/scene1/clips/C02_sock_drag_v1.mp4.receipt.json",
+        "receiptSha256": "5a5ab9dde117062311ddf283501cac2d4d69144f8ff7cfd61d80906d59f0af83",
+        "attempt": 1,
+        "reviewStatus": "pending_author_review"
+      }
+    },
+    {
+      "id": "C08",
+      "status": "missing_blocker",
+      "provenance": "guarded_generation",
+      "generationSpec": {
+        "stage": "motion",
+        "subjectId": "C08",
+        "model": "gemini_omni",
+        "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+        "promptSha256": "59b158c8e66691b62a2588ea6271176c09f375d37a41627276f96cbe81554a52",
+        "requestSha256": "8e85a51dfb024ab1aabd129b2eb9d815d6a36392172d1eb70c6489c150cef2f8",
+        "referenceAssetIds": [
+          "ROOM_MASTER",
+          "RED_CAR"
+        ],
+        "externalReferences": [
+          "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+        ],
+        "providerArgs": [
+          "--duration",
+          "10",
+          "--aspect_ratio",
+          "16:9",
+          "--resolution",
+          "720p",
+          "--wait",
+          "--wait-timeout",
+          "12m",
+          "--json"
+        ],
+        "outputPath": "stories/drakosha/ep1prod/scene1/clips/C08_car_cross_v1.mp4"
+      },
+      "role": "motion_clip_C08",
+      "requiredForStages": [
+        "delivery"
+      ],
+      "path": "stories/drakosha/ep1prod/scene1/clips/C08_car_cross_v1.mp4",
+      "sha256": "39c58feb642aa32c16815375bffb757ba7faa7c43065ac8228d68681bcded011",
+      "receiptPath": "stories/drakosha/ep1prod/scene1/clips/C08_car_cross_v1.mp4.receipt.json",
+      "receiptSha256": "77bb17934727c78dcc6b55c258370b41396b0260f546be2e0f83f026edf27648",
+      "candidate": {
+        "path": "stories/drakosha/ep1prod/scene1/clips/C08_car_cross_v1.mp4",
+        "sha256": "39c58feb642aa32c16815375bffb757ba7faa7c43065ac8228d68681bcded011",
+        "receiptPath": "stories/drakosha/ep1prod/scene1/clips/C08_car_cross_v1.mp4.receipt.json",
+        "receiptSha256": "77bb17934727c78dcc6b55c258370b41396b0260f546be2e0f83f026edf27648",
+        "attempt": 1,
+        "reviewStatus": "pending_author_review"
+      }
+    }
+  ],
+  "shots": [
+    {
+      "id": "C01",
+      "workingDurationSec": 2,
+      "method": "still_slow_push",
+      "references": [
+        "ROOM_MASTER"
+      ],
+      "status": "source_ready"
+    },
+    {
+      "id": "C02",
+      "workingDurationSec": 5,
+      "method": "motion_clip",
+      "principalAction": "siblings drag sock toward camera",
+      "references": [
+        "PASSAGE_WORKING",
+        "SOCK_DRAG_START_WORKING",
+        "FROSYA_PREGIFT",
+        "VASYA",
+        "SOCK"
+      ],
+      "status": "references_and_audio_ready"
+    },
+    {
+      "id": "C03",
+      "workingDurationSec": 4.5,
+      "method": "dialogue_still_lipsync",
+      "references": [
+        "PASSAGE_WORKING",
+        "FROSYA_PREGIFT",
+        "VASYA",
+        "SOCK",
+        "RUSSIAN_DIALOGUE_AUDIO"
+      ],
+      "status": "still_and_audio_ready"
+    },
+    {
+      "id": "C04",
+      "workingDurationSec": 4,
+      "method": "wide_still_sound",
+      "principalAction": "sock operation already underway",
+      "references": [
+        "ROOM_MASTER",
+        "DRAWER_SIDE_INTERIOR",
+        "FROSYA_PREGIFT",
+        "VASYA",
+        "SOCK"
+      ],
+      "forbiddenActions": [
+        "tie_knot_onscreen",
+        "cast_hook_onscreen",
+        "climb_onscreen",
+        "continuous_cloth_haul"
+      ],
+      "status": "still_ready"
+    },
+    {
+      "id": "C05",
+      "workingDurationSec": 3.5,
+      "method": "payoff_still_audio_only",
+      "references": [
+        "DRAWER_SIDE_INTERIOR",
+        "VASYA",
+        "SOCK",
+        "RUSSIAN_DIALOGUE_AUDIO"
+      ],
+      "status": "still_and_audio_ready"
+    },
+    {
+      "id": "C06",
+      "workingDurationSec": 5,
+      "method": "dialogue_still_lipsync",
+      "references": [
+        "PASSAGE_WORKING",
+        "FROSYA_PREGIFT",
+        "VASYA",
+        "FROSYA_PEEK_REUSE",
+        "RUSSIAN_DIALOGUE_AUDIO"
+      ],
+      "status": "still_and_audio_ready"
+    },
+    {
+      "id": "C07",
+      "workingDurationSec": 2,
+      "method": "reaction_still",
+      "references": [
+        "PASSAGE_WORKING",
+        "FROSYA_PREGIFT",
+        "VASYA"
+      ],
+      "status": "still_ready"
+    },
+    {
+      "id": "C08",
+      "workingDurationSec": 9,
+      "method": "motion_clip_dialogue_over",
+      "principalAction": "red car drives once across open room",
+      "references": [
+        "ROOM_MASTER",
+        "RED_CAR",
+        "RUSSIAN_DIALOGUE_AUDIO"
+      ],
+      "forbidden": [
+        "remote_control",
+        "children_in_car_shot",
+        "car_under_dresser"
+      ],
+      "status": "references_and_audio_ready"
+    },
+    {
+      "id": "C09",
+      "workingDurationSec": 3,
+      "method": "danger_still_vfx_audio",
+      "references": [
+        "PASSAGE_WORKING",
+        "FROSYA_PREGIFT",
+        "VASYA",
+        "RED_CAR",
+        "RUSSIAN_DIALOGUE_AUDIO"
+      ],
+      "forbidden": [
+        "car_hand_and_children_in_same_generated_image"
+      ],
+      "status": "still_and_audio_ready"
+    },
+    {
+      "id": "C10",
+      "workingDurationSec": 3.5,
+      "method": "final_still_sound",
+      "references": [
+        "PASSAGE_WORKING",
+        "FROSYA_PREGIFT",
+        "VASYA",
+        "RED_CAR"
+      ],
+      "status": "still_ready"
+    }
+  ],
+  "openBlockers": [
+    {
+      "id": "B01_DRAWER_REFERENCE",
+      "requiredFor": [
+        "C04",
+        "C05"
+      ],
+      "remedy": "Review the receipted attempt-1 drawer candidate; promote it only if its geometry and continuity are acceptable."
+    },
+    {
+      "id": "B02_RED_CAR_REFERENCE",
+      "requiredFor": [
+        "C08",
+        "C09",
+        "C10"
+      ],
+      "remedy": "Review the receipted attempt-1 red-car candidate; promote it only if its design and scale intent are acceptable."
+    },
+    {
+      "id": "B03_DIALOGUE_AUDIO",
+      "requiredFor": [
+        "C03",
+        "C05",
+        "C06",
+        "C08",
+        "C09"
+      ],
+      "remedy": "Import approved Russian voices and measure final line durations."
+    }
+  ],
+  "nextAction": "Author reviews the two receipted reference candidates. Promote accepted assets with their receipts before producing the compact-storyboard contact sheet."
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "sceneId": "EP1-S01",
+  "inputManifestRevision": 9,
+  "inputManifestSha256": "74534b9eb061d9c8bf56573efb605bdc94b7d5e912156beb1344bec6acb4228c",
+  "stage": "refs",
+  "subjectId": "DRAWER_SIDE_INTERIOR",
+  "model": "nano_banana_pro",
+  "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+  "promptSha256": "d0acae13facbfa40d89f4181c2f206d36c68b9f236b91a817805fb1014c87984",
+  "requestSha256": "f5577e736e4bab92c6c99952a3875ce81b92341c420963ba6ba6cc97cc37e8a0",
+  "referenceAssets": [
+    {
+      "assetId": "ROOM_MASTER",
+      "path": "stories/drakosha/ep1prod/scene1/previs/plates/s1_dresser_room_anchor_locked.jpg",
+      "sha256": "97e3de8870743b997761d494d07f0b243c979ae52a6e12196541419ac8d1661c",
+      "declaredSha256": "97e3de8870743b997761d494d07f0b243c979ae52a6e12196541419ac8d1661c"
+    }
+  ],
+  "externalReferences": [
+    "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+  ],
+  "providerArgs": [
+    "--aspect_ratio",
+    "16:9",
+    "--resolution",
+    "2k",
+    "--wait",
+    "--json"
+  ],
+  "attempt": 2,
+  "status": "succeeded",
+  "readiness": "PASS",
+  "outputPath": "stories/drakosha/ep1prod/scene1/references/drawer_side_interior_candidate_v1.png",
+  "outputSha256": "da3e27a240741d14c4578c88b44eb89f345c8b462e1be3c589fe7dc7fa0ca9a0",
+  "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260805_215852_61b52352-4202-475d-a34c-33b6760f543b.png",
+  "recordedAt": "2026-08-05T22:00:08.293Z"
+}

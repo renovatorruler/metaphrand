@@ -1,0 +1,56 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "sceneId": "EP1-S01",
+  "inputManifestRevision": 19,
+  "inputManifestSha256": "28868314f394d3d11c41085200bd1c81c229a7f844c8ba9243fb6156ebcd978f",
+  "stage": "refs",
+  "subjectId": "SOCK_DRAG_START_R2",
+  "model": "nano_banana_pro",
+  "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+  "promptSha256": "91aa9e0ee61488bf609c2cca742b4d4745db7869034ee9175168788fbb9f05ae",
+  "requestSha256": "3ec26d77f2c3c0e2d34d3b7414b601ee39311a22e573de93662b9adf3605eef8",
+  "referenceAssets": [
+    {
+      "assetId": "PASSAGE_ANCHOR",
+      "path": "stories/drakosha/ep1prod/scene1/references/passage_anchor_candidate_v1.png",
+      "sha256": "1c1ea14c047f28af8e5ab5d2af37be3c087772a5c98b72d6bf16e9aeb4fcbed8",
+      "declaredSha256": "1c1ea14c047f28af8e5ab5d2af37be3c087772a5c98b72d6bf16e9aeb4fcbed8"
+    },
+    {
+      "assetId": "FROSYA_PREGIFT",
+      "path": "stories/drakosha/ep1prod/scene1/references/frosya_pregift_lowpoly.png",
+      "sha256": "a611fbdd3354133cb26b053e50222bccd1357d03dbb65ce70a4b363792dfadc3",
+      "declaredSha256": "a611fbdd3354133cb26b053e50222bccd1357d03dbb65ce70a4b363792dfadc3"
+    },
+    {
+      "assetId": "VASYA",
+      "path": "stories/drakosha/ep1prod/scene1/references/vasya_lowpoly_cutout.png",
+      "sha256": "545174c3cd252e363d27a8d97a11b5d2089ead4f8dd9eb6b9dd169c8ecbc042a",
+      "declaredSha256": "545174c3cd252e363d27a8d97a11b5d2089ead4f8dd9eb6b9dd169c8ecbc042a"
+    },
+    {
+      "assetId": "SOCK",
+      "path": "stories/frosya-vasya/ep1prod/plates/prop_sock.png",
+      "sha256": "88a1c998c346c0e762543f7b3fbb9607a7c60d2bd01b74f729e4987881ef20c1",
+      "declaredSha256": "88a1c998c346c0e762543f7b3fbb9607a7c60d2bd01b74f729e4987881ef20c1"
+    }
+  ],
+  "externalReferences": [
+    "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+  ],
+  "providerArgs": [
+    "--aspect_ratio",
+    "16:9",
+    "--resolution",
+    "2k",
+    "--wait",
+    "--json"
+  ],
+  "attempt": 1,
+  "status": "succeeded",
+  "readiness": "PASS",
+  "outputPath": "stories/drakosha/ep1prod/scene1/references/sock_drag_start_r2_candidate_v1.png",
+  "outputSha256": "4c3a05aafcf2d689e85e9b3c9fe84cc797d49115ade637bd009df8a4a3aa96e3",
+  "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260806_000016_056908f7-eb50-4b43-8f74-bb4c81c61b22.png",
+  "recordedAt": "2026-08-06T00:01:01.046Z"
+}

@@ -1,0 +1,122 @@
+{
+  "schema": "drakosha.physical-manifest/v1",
+  "profile": "shooting_release",
+  "source": {
+    "path": "../../2026-08-04_EP1_den-rozhdeniya_SHOOTING_numbered_bilingual.md",
+    "sha256": "3f71be94d267bb732048b9e8259457d1f54849bac508c710ec25dfa4afb330ee",
+    "expectedShotCount": 297
+  },
+  "physicalBacklog": {
+    "path": "ep1_physical_backlog.v1.json",
+    "sha256": "f080f880643c8e1ba6d41770779977be497c1ce6de0ef2f2fb3a55b613388f1c",
+    "openItemIds": [
+      "PHYQ-01-SOCK-PASSAGE",
+      "PHYQ-02-SOCK-DRAWER",
+      "PHYQ-03-DRESSER-ESCAPE",
+      "PHYQ-04-TOP-CAROUSEL",
+      "PHYQ-05-MAGIC-WORK-ZONE",
+      "PHYQ-06-MAMA-TRANSFORM",
+      "PHYQ-07-SCOOTER-SPAWN-MOUNT",
+      "PHYQ-08-SCOOTER-RAMP-TURNS",
+      "PHYQ-09-CAT-BLOCK",
+      "PHYQ-10-TANK-DROP-FIT",
+      "PHYQ-11-CHASE-TO-CANDLE",
+      "PHYQ-12-MAMA-SIGHTLINE",
+      "PHYQ-13-HOLE-REACH",
+      "PHYQ-14-WASP-THREAD-PASSAGE",
+      "PHYQ-15-TRIPLE-KNOT",
+      "PHYQ-16-CANDLE-PULL",
+      "PHYQ-17-TANK-CLEANUP",
+      "PHYQ-18-BABA-TRANSIT"
+    ]
+  },
+  "output": {
+    "reportPath": "ep1_physical_preflight.md",
+    "proofDir": "proofs",
+    "indexPath": "ep1_physical_preflight.index.json"
+  },
+  "decisions": [
+    {
+      "id": "DEC-RETURN-LOST-SOCK",
+      "status": "author_approved",
+      "note": "The siblings return lost household things without explaining their nature."
+    },
+    {
+      "id": "DEC-SOCK-IN-DRAWER",
+      "status": "rejected",
+      "note": "The author rejected the old exposed chest-high two-child heave after the scale contradiction became clear. This decision does not reject the later hook-and-shoelace replacement."
+    },
+    {
+      "id": "DEC-SOCK-SIDE-PASSAGE",
+      "status": "author_approved",
+      "note": "The dresser stands near a room corner, leaving a concealed passage between its right side and the wall. The children come around the rear corner with the loose sock already in their possession and drag it forward through this passage. No on-screen dogleg squeeze is required. Final set and textile proof remains a production requirement."
+    },
+    {
+      "id": "DEC-SOCK-DISCOVERY-ZONE",
+      "status": "rejected",
+      "note": "The alternative of merely leaving the sock in a discovery zone was not selected. The approved destination remains the slightly open drawer."
+    },
+    {
+      "id": "DEC-SOCK-HOOK-HAUL",
+      "status": "author_approved",
+      "note": "Inside the concealed right-side passage, with the drawer front shielding the children from the room, Vasya uses a cached blunted hook temporarily tied to his permanent shoelace. He anchors to and climbs the real top edge of the drawer's right side panel, lowers the hook for Frosya to attach beneath the sock cuff, and hauls the loose sock. When almost all the cloth is inside, a caught heel releases and sends him backward under the sock. He returns the line, then hangs and drops the remaining short distance. Every complex state change is split across independent short clips."
+    }
+  ],
+  "coverage": [
+    {
+      "shotId": "SH001",
+      "blockSha256": "6a8ff2fe34d76ea81f16fbdfb13edacd19232ac517484aa8b8246ac578ac11d7",
+      "classification": "pending",
+      "interactionIds": []
+    },
+    {
+      "shotId": "SH002",
+      "blockSha256": "646ffbcff2b37dbcf44d46ae75abf14ee7e2dae32bcd15134da47d92c7dd4f03",
+      "classification": "pending",
+      "interactionIds": []
+    },
+    {
+      "shotId": "SH003",
+      "blockSha256": "30852a3e9ce2ee956fd4ebd468fcfc904c01127b5beaa107ae1a2d2c2e851320",
+      "classification": "pending",
+      "interactionIds": []
+    },
+    {
+      "shotId": "SH004",
+      "blockSha256": "3deacb0551f5ca4eeb66b3db9b897bd4f3d05c0b0725607a865520155cd60289",
+      "classification": "pending",
+      "interactionIds": []
+    },
+    {
+      "shotId": "SH005",
+      "blockSha256": "f5d08d2f6c10b937c2ccaa493b62bd76d68ea62749f86339338337b460dbd0ac",
+      "classification": "pending",
+      "interactionIds": []
+    },
+    {
+      "shotId": "SH006",
+      "blockSha256": "785dee0f28f1703e1606d5ca4a13660cea0da4a3d5282929968159e61a520b7f",
+      "classification": "pending",
+      "interactionIds": []
+    },
+    {
+      "shotId": "SH007",
+      "blockSha256": "6ac93fe6e3165d0f9e964662def9a752bd9954b516caf939be75b12a1024da1c",
+      "classification": "pending",
+      "interactionIds": []
+    },
+    {
+      "shotId": "SH008",
+      "blockSha256": "720c3d5ae35c8be6465a70b1895d34ac9e2a8af9edf822267c2facd77be26453",
+      "classification": "pending",
+      "interactionIds": []
+    },
+    {
+      "shotId": "SH009",
+      "blockSha256": "da26724a032a7d2d6fad758b9f225a08ae2b5a273a0bec33fcab1df12f2f1f2e",
+      "classification": "pending",
+      "interactionIds": []
+    }
+  ],
+  "interactions": []
+}

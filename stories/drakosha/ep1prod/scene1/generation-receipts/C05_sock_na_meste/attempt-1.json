@@ -1,0 +1,44 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "sceneId": "EP1-S01",
+  "inputManifestRevision": 11,
+  "inputManifestSha256": "aed92448e37fe5b0cf6aeef4aec703017cbb64584140108a926553470fa49899",
+  "stage": "storyboard",
+  "subjectId": "C05_sock_na_meste",
+  "model": "nano_banana_pro",
+  "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+  "promptSha256": "b6aa43369db42a757a7637e5f5d1c4288ff035ae1d02e683e0fc9a44e89c0f8d",
+  "requestSha256": "3a42f55238c05a2f8065a1eab2305abf19cfe2d5a0cd7ff91ec33ac94a55a789",
+  "referenceAssets": [
+    {
+      "assetId": "DRAWER_SIDE_INTERIOR",
+      "path": "stories/drakosha/ep1prod/scene1/references/drawer_side_interior_candidate_v1.png",
+      "sha256": "da3e27a240741d14c4578c88b44eb89f345c8b462e1be3c589fe7dc7fa0ca9a0",
+      "declaredSha256": "da3e27a240741d14c4578c88b44eb89f345c8b462e1be3c589fe7dc7fa0ca9a0"
+    },
+    {
+      "assetId": "SOCK",
+      "path": "stories/frosya-vasya/ep1prod/plates/prop_sock.png",
+      "sha256": "88a1c998c346c0e762543f7b3fbb9607a7c60d2bd01b74f729e4987881ef20c1",
+      "declaredSha256": "88a1c998c346c0e762543f7b3fbb9607a7c60d2bd01b74f729e4987881ef20c1"
+    }
+  ],
+  "externalReferences": [
+    "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+  ],
+  "providerArgs": [
+    "--aspect_ratio",
+    "16:9",
+    "--resolution",
+    "2k",
+    "--wait",
+    "--json"
+  ],
+  "attempt": 1,
+  "status": "succeeded",
+  "readiness": "PASS",
+  "outputPath": "stories/drakosha/ep1prod/scene1/storyboard/C05_sock_na_meste.png",
+  "outputSha256": "897dbc72734fa149884f110caab770aabfe19bab902f708ffbd7aae9fb83d09f",
+  "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260805_223346_9326fc28-26b7-40c3-bf44-a37651f0d365.png",
+  "recordedAt": "2026-08-05T22:34:31.365Z"
+}

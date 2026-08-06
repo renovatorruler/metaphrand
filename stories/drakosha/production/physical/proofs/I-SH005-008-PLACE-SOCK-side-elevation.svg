@@ -1,0 +1,15 @@
+<!-- screenplay-sha256: 87fc39fbfb212fa9a3d9ef21c15714e0f124897e07b2f88bf27def82a035d62d; registry-sha256: 88286f67251e3771cf0b84734464281cdb1ce936147dc89423c8669d3c043e77; manifest-sha256: bddecea677ae1ceca82ca52dc4804d099747497206b812eecdb594bc5a1597e8; backlog-sha256: f90821a4e5b20ed926994e57243b5f6ddfae1bb9cfa0f32d13db86b0f11eec1a -->
+<svg xmlns='http://www.w3.org/2000/svg' width='1040' height='600' viewBox='0 0 1040 600'>
+<style>.title{font:700 22px system-ui,sans-serif}.label{font:600 15px system-ui,sans-serif}.small{font:13px system-ui,sans-serif}.status{fill:#a61b1b;font:700 15px system-ui,sans-serif}</style>
+<rect width='1040' height='600' fill='#fbfaf6'/>
+<text x='40' y='38' class='title'>I-SH005-008-PLACE-SOCK — SIDE ELEVATION — FAIL</text>
+<text x='40' y='64' class='small'>Vertical z coordinates are registry-derived and to scale; horizontal spacing and widths are schematic.</text>
+<line x1='40' y1='510' x2='1000' y2='510' stroke='#342f2a' stroke-width='4'/><text x='42' y='495' class='small'>registered support plane z=0</text>
+<rect x='90.00' y='377.00' width='78' height='133.00' rx='20' fill='#75a7d8' opacity='0.82'/><line x1='78.00' y1='388.40' x2='192.00' y2='388.40' stroke='#24679e' stroke-width='3' stroke-dasharray='7 5'/><text x='90.00' y='540' class='label'>Frosya z=0.00..3.50 in</text><text x='90.00' y='380.40' class='small'>loaded hand max 3.20 in; support z=0.00</text>
+<rect x='260.00' y='390.30' width='78' height='119.70' rx='20' fill='#75a7d8' opacity='0.82'/><line x1='248.00' y1='399.80' x2='362.00' y2='399.80' stroke='#24679e' stroke-width='3' stroke-dasharray='7 5'/><text x='260.00' y='540' class='label'>Vasya z=0.00..3.15 in</text><text x='260.00' y='391.80' class='small'>loaded hand max 2.90 in; support z=0.00</text>
+<rect x='700' y='54.00' width='260' height='456.00' fill='#8a6042' opacity='0.88'/><path d='M700 66.00 l18 -12 l18 12 l18 -12 l18 12' fill='none' stroke='#fbfaf6' stroke-width='5'/><text x='716' y='94' class='small'>human dresser planning proxy registered z=0.00..30.00 in (top clipped)</text>
+<line x1='455' y1='234.50' x2='975' y2='234.50' stroke='#a61b1b' stroke-width='4'/><text x='715' y='224.50' class='status'>barrier low_drawer.front_rim_top at 7.25 in</text>
+<rect x='535.00' y='188.90' width='110' height='41.80' rx='18' fill='#d1a759' stroke='#7f5a17' stroke-width='3'/><text x='535.00' y='179.90' class='small'>striped child sock required pose</text>
+<line x1='430' y1='209.80' x2='680' y2='209.80' stroke='#a61b1b' stroke-width='3' stroke-dasharray='9 5'/><text x='432' y='200.80' class='status'>required grip 7.90 in</text>
+<rect x='40' y='555' width='960' height='30' rx='6' fill='#fee8e6'/><text x='54' y='576' class='status'>BLOCKED: one or more registered interaction checks failed.</text>
+</svg>

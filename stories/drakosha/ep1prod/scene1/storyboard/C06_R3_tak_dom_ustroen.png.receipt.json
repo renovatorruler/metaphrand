@@ -1,0 +1,44 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "sceneId": "EP1-S01",
+  "inputManifestRevision": 26,
+  "inputManifestSha256": "f7aa192e404cf36a1689ca832a921733daf114026bdbe07a828b48d7030a9833",
+  "stage": "storyboard",
+  "subjectId": "C06_R3_tak_dom_ustroen",
+  "model": "nano_banana_pro",
+  "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+  "promptSha256": "82d1150109a7bc5fe2a4f4cdde052dce44b849361454f554dbee7fa45632290a",
+  "requestSha256": "6a27a4b6f0f3c1047f362b3d330b60eb305917431dc50c317b62483753c49c9d",
+  "referenceAssets": [
+    {
+      "assetId": "SOCK_DRAG_START",
+      "path": "stories/drakosha/ep1prod/scene1/previs/stills/s1_sock_drag_start_author_final.png",
+      "sha256": "ee3c55e6bb1a392556adaf0ea27516cab6f9e6b925e4fbd453fb5c1272be3fbf",
+      "declaredSha256": "ee3c55e6bb1a392556adaf0ea27516cab6f9e6b925e4fbd453fb5c1272be3fbf"
+    },
+    {
+      "assetId": "FROSYA_PREGIFT",
+      "path": "stories/drakosha/ep1prod/scene1/references/frosya_pregift_lowpoly.png",
+      "sha256": "a611fbdd3354133cb26b053e50222bccd1357d03dbb65ce70a4b363792dfadc3",
+      "declaredSha256": "a611fbdd3354133cb26b053e50222bccd1357d03dbb65ce70a4b363792dfadc3"
+    }
+  ],
+  "externalReferences": [
+    "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+  ],
+  "providerArgs": [
+    "--aspect_ratio",
+    "16:9",
+    "--resolution",
+    "2k",
+    "--wait",
+    "--json"
+  ],
+  "attempt": 1,
+  "status": "succeeded",
+  "readiness": "PASS",
+  "outputPath": "stories/drakosha/ep1prod/scene1/storyboard/C06_R3_tak_dom_ustroen.png",
+  "outputSha256": "5c5ecc1f604392af2384467e0884ef1a349bc548fd7b050ccd8fe6c0de7edc08",
+  "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260806_012036_548fa2fe-0aab-4eb0-b94d-9e395595b347.png",
+  "recordedAt": "2026-08-06T01:21:17.945Z"
+}

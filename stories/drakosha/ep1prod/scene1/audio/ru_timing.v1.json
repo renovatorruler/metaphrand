@@ -1,0 +1,101 @@
+{
+ "schema": "frosya.dialogue-timing/v1",
+ "sceneId": "EP1-S01",
+ "approvedBy": "author, rev 7 review",
+ "voiceNote": "giant child = PLACEHOLDER pending casting",
+ "slotStarts": {
+  "C01": 0.0,
+  "C02": 2.0,
+  "C03": 7.0,
+  "C04": 11.5,
+  "C05": 15.5,
+  "C06": 19.0,
+  "C07": 24.0,
+  "C08": 26.0,
+  "C09": 35.0,
+  "C10": 38.0
+ },
+ "runtime": 41.5,
+ "lines": [
+  {
+   "id": "c02_vasya_noski",
+   "slot": "C02",
+   "file": "audio/ru/c02_vasya_noski.mp3",
+   "sha256": "83086720fb2707b83197a41c0e43b42ca18f12b3a585315b81f6d81daca98621",
+   "startSec": 3.4,
+   "durationSec": 2.8
+  },
+  {
+   "id": "c03_frosya_poschitano",
+   "slot": "C03",
+   "file": "audio/ru/c03_frosya_poschitano.mp3",
+   "sha256": "798e5d06573c034888904063c7484c8502ee9f7d51978189dcff0e40170780c9",
+   "startSec": 7.2,
+   "durationSec": 4.24
+  },
+  {
+   "id": "c05_frosya_vas",
+   "slot": "C05",
+   "file": "audio/ru/c05_frosya_vas.mp3",
+   "sha256": "4eff71fb744cb4d00605207bcb427c5a0d45ffec2c3241af47c9e20f89490a33",
+   "startSec": 15.8,
+   "durationSec": 1.44
+  },
+  {
+   "id": "c05_vasya_na_meste",
+   "slot": "C05",
+   "file": "audio/ru/c05_vasya_na_meste.mp3",
+   "sha256": "c22b49f2eec85a406cd4bf3a815dccde96b21c33bf1719e6145d7680542ddb74",
+   "startSec": 17.4,
+   "durationSec": 1.6
+  },
+  {
+   "id": "c06_vasya_pochemu",
+   "slot": "C06",
+   "file": "audio/ru/c06_vasya_pochemu.mp3",
+   "sha256": "7b629ec8954f491034e6a4316ff66a5d279aa0242fed2b6f4fc5d4ce5e72dd17",
+   "startSec": 19.2,
+   "durationSec": 2.0
+  },
+  {
+   "id": "c06_frosya_dom",
+   "slot": "C06",
+   "file": "audio/ru/c06_frosya_dom.mp3",
+   "sha256": "9df5197db32d707810e94f8105838eced9571f84373d96160281897e06af9261",
+   "startSec": 21.6,
+   "durationSec": 1.52
+  },
+  {
+   "id": "c08_vasya_uh_ty",
+   "slot": "C08",
+   "file": "audio/ru/c08_vasya_uh_ty.mp3",
+   "sha256": "c9130709fada3e87fb2f185795f9f5059c416e282b66021374e1983606695d1c",
+   "startSec": 26.2,
+   "durationSec": 2.4
+  },
+  {
+   "id": "c08_frosya_fary",
+   "slot": "C08",
+   "file": "audio/ru/c08_frosya_fary.mp3",
+   "sha256": "ae3e69aa444f103b331a190790a8893266269553975384f5092b436414a0f2c0",
+   "startSec": 28.8,
+   "durationSec": 6.32
+  },
+  {
+   "id": "c09_giant_zastryala",
+   "slot": "C09",
+   "file": "audio/ru/c09_giant_zastryala.mp3",
+   "sha256": "3451cdf2a8820771619d2fd133cd63bb1a717faa5fbd4c27e9ae0806a89401ab",
+   "startSec": 35.2,
+   "durationSec": 2.24
+  },
+  {
+   "id": "c09_frosya_nazad",
+   "slot": "C09",
+   "file": "audio/ru/c09_frosya_nazad.mp3",
+   "sha256": "6d99b38377811e7a420e668e985e1a3609d613a6b129d5dcb0d4ebe10db14f3a",
+   "startSec": 37.5,
+   "durationSec": 1.28
+  }
+ ]
+}

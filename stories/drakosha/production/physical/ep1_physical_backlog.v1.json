@@ -1,0 +1,168 @@
+{
+  "schema": "drakosha.physical-backlog/v1",
+  "purpose": "Consolidated action-critical modeling queue. These are production gates, not requests for line-by-line author decisions.",
+  "items": [
+    {
+      "id": "PHYQ-01-SOCK-PASSAGE",
+      "shots": "SH002-SH004",
+      "status": "blocking",
+      "action": "Two children come around the dresser's rear-right corner with a loose human sock and drag it forward through the sheltered passage between the dresser's right side and the wall.",
+      "entities": ["C-FRO", "C-VAS", "G-EP1-SOCK-01", "SET-DRESSER-PASSAGE-01"],
+      "requiredGeometry": ["right-side passage width", "rear-corner turn radius", "two-child drag envelopes", "hero-cloth flexible swept envelope", "toe and cuff grips", "friction", "measured textile mass", "drawer-front cover volume"],
+      "knownFailure": "The selected dresser position, side-gap width, rear-corner clearance, and hero sock have not yet been measured together. The main script no longer asks the sock to squeeze through an unseen dogleg."
+    },
+    {
+      "id": "PHYQ-02-SOCK-DRAWER",
+      "shots": "SH004-SH009",
+      "status": "blocking_until_proxy",
+      "action": "Using a cached blunted hook temporarily tied to his shoelace belt, Vasya anchors to the real top edge of the slightly open drawer's right side panel, climbs that panel in short stages, removes and lowers the hook, hauls the loose sock by its cuff, lands inside under the sock, returns the line, then hangs and drops the remaining short distance.",
+      "entities": ["C-FRO", "C-VAS", "R-VAS-BELT-01", "R-EP1-SOCK-HOOK-01", "G-EP1-SOCK-01", "G-EP1-DRESSER-01"],
+      "requiredGeometry": ["concealed right-side passage", "wide front-panel cover from the room", "real top edge of the right drawer side panel", "slightly open drawer and interior landing zone", "hook throat and side-edge engagement", "aglet-to-hook knot take-up", "minimum usable belt length from seated hook eye to floor", "belt working load", "low/mid/top side-panel climb poses", "side-rim transfer and braced haul pose", "sock cuff attachment", "floor/mid-haul/almost-inside cloth states", "heel snag and release", "hook return path", "full-arm hang pose", "remaining drop height", "clear landing zone", "hook cache opening"],
+      "knownFailure": "The blocking is author-approved and the old chest-high shared heave is gone. The working proxy now encodes a 6.75-in rim and 1.75-in pullout, but those are not selected-asset measurements. The 7.5-in lace must retain enough usable length after knot take-up and the hook-eye offset. Registry v1 does not yet certify anchors, rope climbing, deformable-cloth hauling, or controlled drops."
+    },
+    {
+      "id": "PHYQ-03-DRESSER-ESCAPE",
+      "shots": "SH010-SH017",
+      "status": "needs_proxy",
+      "action": "Two prone children watch from beneath the dresser, evade the car and searching hand, and reach the baseboard gap's protected inner turn.",
+      "entities": ["C-FRO", "C-VAS", "G-EP1-DRESSER-01", "G-EP1-RCCAR-01", "G-EP1-CHILDHAND-01", "SET-DRESSER-PASSAGE-01"],
+      "requiredGeometry": ["underbody footprint", "two-child prone layout", "car swept path", "articulated hand envelope", "reach depth", "baseboard-gap inner-turn collision path"],
+      "knownFailure": "A single 1.40-in height value does not prove shoulder-to-shoulder fit or exclusion of a turning hand."
+    },
+    {
+      "id": "PHYQ-04-TOP-CAROUSEL",
+      "shots": "SH021-SH026",
+      "status": "needs_proxy",
+      "action": "Frosya and Vasya mount opposite stations while Papa starts the spinning-top carousel.",
+      "entities": ["C-FRO", "C-VAS", "C-PAP", "R-EP1-TOP-01", "R-VAS-BELT-01"],
+      "requiredGeometry": ["spin axis", "floor contact", "two rider stations", "footholds", "handholds", "mount heights", "Papa grip", "swept envelope", "belt-tail stow"],
+      "knownFailure": "Outer dimensions do not prove rider support, balance, or clearance."
+    },
+    {
+      "id": "PHYQ-05-MAGIC-WORK-ZONE",
+      "shots": "SH103-SH120",
+      "status": "needs_layout",
+      "action": "Persistent juice, salad, poppy, written words, tiles, and characters occupy one work zone without overlap.",
+      "entities": ["C-FRO", "C-VAS", "D-EP1-JUICE-01", "D-EP1-SALAD-01", "D-EP1-POPPY-01"],
+      "requiredGeometry": ["work-zone polygon", "spawn footprints", "support surface", "object destinations", "persistent occupancy timeline"],
+      "knownFailure": "The prose repeatedly says a free place exists but no persistent occupancy map proves it."
+    },
+    {
+      "id": "PHYQ-06-MAMA-TRANSFORM",
+      "shots": "SH122-SH135",
+      "status": "needs_layout",
+      "action": "Vasya expands into a Mama-sized copy and the babies approach and cling before Mama removes them.",
+      "entities": ["C-VAS", "T-VAS-MAMA-01", "C-MAM", "C-RUS", "C-MUS"],
+      "requiredGeometry": ["transformation exclusion zone", "matching origin", "both-form footprints", "baby paths", "cling contacts", "Mama removal grips"],
+      "knownFailure": "Mama-size equality is locked, but the clear growth zone and supported baby poses are not."
+    },
+    {
+      "id": "PHYQ-07-SCOOTER-SPAWN-MOUNT",
+      "shots": "SH137-SH151",
+      "status": "blocking_until_proxy",
+      "action": "The scooter materializes in the occupied work area; Frosya mounts and launches toward the ramp.",
+      "entities": ["C-FRO", "D-EP1-SCOOTER-01"],
+      "requiredGeometry": ["full scooter collider", "handlebar width", "wheelbase", "grips", "deck foot marks", "rider center of mass", "spawn zone", "mount zone", "launch centerline"],
+      "knownFailure": "Deck length and handle height alone do not prove rider fit or clearance from persistent objects."
+    },
+    {
+      "id": "PHYQ-08-SCOOTER-RAMP-TURNS",
+      "shots": "SH152-SH159",
+      "status": "blocking",
+      "action": "Frosya descends the ramp, makes laps, and reverses at both ends of the road.",
+      "entities": ["C-FRO", "D-EP1-SCOOTER-01", "SET-HOME-RAMP-01", "SET-ROAD-01"],
+      "requiredGeometry": ["ramp endpoints", "wheel-contact path", "rider swept envelope", "minimum turn radius", "two turnaround pockets"],
+      "knownFailure": "The registry has no turnaround pockets; a 3-in road width does not prove reversal."
+    },
+    {
+      "id": "PHYQ-09-CAT-BLOCK",
+      "shots": "SH160-SH170",
+      "status": "blocking",
+      "action": "Vasya-cat blocks the road and closes each attempted scooter gap.",
+      "entities": ["T-VAS-CAT-01", "D-EP1-SCOOTER-01", "SET-ROAD-01"],
+      "requiredGeometry": ["lying and rolling colliders", "tail poses", "road edges", "remaining gaps", "scooter stopping distance", "safe tile patch"],
+      "knownFailure": "Length plus road width does not prove complete blocking, rolling closures, or safe braking."
+    },
+    {
+      "id": "PHYQ-10-TANK-DROP-FIT",
+      "shots": "SH171-SH180",
+      "status": "blocking",
+      "action": "The tank drops over curled cat-Vasya; boy-Vasya then fits, lifts a rim, and crawls out.",
+      "entities": ["T-VAS-CAT-01", "C-VAS", "D-EP1-TANK-01", "SET-ROAD-01"],
+      "requiredGeometry": ["curled cat collider", "tank interior", "spawn/fall height", "road ceiling", "boy crouch/crawl envelope", "rim grip gap", "tank mass", "exit corridor"],
+      "knownFailure": "A 3.15-in boy under a 2.00-in interior and his ability to lift the tank are not proved."
+    },
+    {
+      "id": "PHYQ-11-CHASE-TO-CANDLE",
+      "shots": "SH181-SH201",
+      "status": "blocking",
+      "action": "Wasp chase returns through the ramp; Frosya collides with the table; exactly one candle leaves the box and falls through the hole while the cake remains.",
+      "entities": ["C-FRO", "T-VAS-WASP-01", "D-EP1-SCOOTER-01", "R-HOME-TABLE-01", "D-EP1-FEASTBOARD-01", "D-EP1-CANDLEBOX-01", "D-EP1-CANDLE-01", "SET-CANDLE-HOLE-01"],
+      "requiredGeometry": ["pedestrian and parked-scooter lanes", "table pivot and center of mass", "board attachment", "all tabletop coordinates", "friction/retention states", "candle trajectory", "hole coordinates"],
+      "knownFailure": "The selective result is currently prose, not a proved layout or deterministic animation path."
+    },
+    {
+      "id": "PHYQ-12-MAMA-SIGHTLINE",
+      "shots": "SH192",
+      "status": "needs_plan",
+      "action": "Mama sees the parked scooter and distant tank from the main room.",
+      "entities": ["C-MAM", "D-EP1-SCOOTER-01", "D-EP1-TANK-01", "SET-HOME-RAMP-01", "SET-ROAD-01"],
+      "requiredGeometry": ["Mama eye point", "ramp aperture", "road centerline", "prop positions", "occluder geometry"],
+      "knownFailure": "The information path was added in prose but no plan proves the sightline."
+    },
+    {
+      "id": "PHYQ-13-HOLE-REACH",
+      "shots": "SH210,SH214-SH216",
+      "status": "needs_proxy",
+      "action": "The children lie around the opening and Frosya reaches down without passing her shoulders.",
+      "entities": ["C-FRO", "C-VAS", "SET-CANDLE-HOLE-01", "SET-CANDLE-POCKET-01"],
+      "requiredGeometry": ["prone layouts", "arm cross-section", "loaded/unloaded reach", "shoulder stop", "candle depth"],
+      "knownFailure": "Hand fit is plausible, but forearm fit and reach are not registered."
+    },
+    {
+      "id": "PHYQ-14-WASP-THREAD-PASSAGE",
+      "shots": "SH223-SH234",
+      "status": "blocking",
+      "action": "Vasya-wasp carries the visible thread end and crawls through the floor opening with folded wings.",
+      "entities": ["T-VAS-WASP-01", "D-EP1-THREAD-01", "SET-CANDLE-HOLE-01"],
+      "requiredGeometry": ["thread diameter and mass", "bend radius", "feed friction", "loose-end anchor", "folded wasp collider including legs", "hole wall profile"],
+      "knownFailure": "A 0.40-in body in a 0.45-in opening leaves almost no allowance for legs and thread; width alone cannot certify the motion."
+    },
+    {
+      "id": "PHYQ-15-TRIPLE-KNOT",
+      "shots": "SH237-SH240",
+      "status": "blocking",
+      "action": "The wasp braces the candle, makes three readable knotting passes, tightens the knot, and sends three tugs.",
+      "entities": ["T-VAS-WASP-01", "D-EP1-THREAD-01", "D-EP1-CANDLE-01", "SET-CANDLE-POCKET-01"],
+      "requiredGeometry": ["jaw and leg contacts", "candle brace", "thread thickness", "three knot states", "post-knot signal force path"],
+      "knownFailure": "Dexterity, bracing, and a genuine triple-knot state sequence are unproved."
+    },
+    {
+      "id": "PHYQ-16-CANDLE-PULL",
+      "shots": "SH241-SH249",
+      "status": "blocking",
+      "action": "Frosya braces and pulls the candle to the rim while wasp-Vasya guides it, exits, lands, and returns to boy form.",
+      "entities": ["C-FRO", "C-VAS", "T-VAS-WASP-01", "D-EP1-THREAD-01", "D-EP1-CANDLE-01", "SET-CANDLE-HOLE-01", "SET-CANDLE-POCKET-01"],
+      "requiredGeometry": ["real foot brace", "pull capacity", "candle mass", "edge friction", "clear ascent corridor", "guide contacts", "hand clearance", "boy-form exclusion zone"],
+      "knownFailure": "A wood seam is not automatically a brace; force, friction, ascent path, and clear transformation patch are absent."
+    },
+    {
+      "id": "PHYQ-17-TANK-CLEANUP",
+      "shots": "SH254",
+      "status": "blocking",
+      "action": "The children remove the tank from the road after the rescue.",
+      "entities": ["C-FRO", "C-VAS", "D-EP1-TANK-01", "SET-ROAD-01"],
+      "requiredGeometry": ["two-person grips", "drag or roll method", "tank mass", "clear path", "storage destination"],
+      "knownFailure": "Offscreen action still has to be physically feasible and land the prop somewhere."
+    },
+    {
+      "id": "PHYQ-18-BABA-TRANSIT",
+      "shots": "SH033-SH044,SH273-SH278",
+      "status": "needs_proxy",
+      "action": "Full-size Baba Yaga, mortar, pestle, broom, bundles, and gifts fly to the chimney, normalize together inside the opaque pipe vortex, pass through the cleanout and plaster opening at home scale, then complete the exact reverse route at departure.",
+      "entities": ["C-YAG-FULL", "C-YAG-MINI", "R-YAG-MORTAR-01", "R-YAG-PESTLE-01", "R-YAG-BROOM-01", "SET-HOUSE-ROOF-01", "SET-STOVE-FLUE-01", "SET-STOVE-CLEANOUT-01", "SET-YAGA-SOOT-PASSAGE-01", "SET-YAGA-PLASTER-OPENING-01"],
+      "requiredGeometry": ["full-size ensemble envelope", "miniature ensemble envelope", "secured bundle sockets", "chimney mouth", "opaque transition volume", "cleanout aperture and swing", "soot-passage turns", "plaster opening", "home landing zone", "closure states", "reverse-flight clearances"],
+      "knownFailure": "The screenplay names the complete route, but none of the transport or flue/hatch/opening assets has a machine collider or a proved full-to-miniature ensemble transition."
+    }
+  ]
+}

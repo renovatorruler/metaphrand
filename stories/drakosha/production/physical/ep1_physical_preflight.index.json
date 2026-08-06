@@ -1,0 +1,14 @@
+{
+  "schema": "drakosha.diagnostic-set/v1",
+  "verdict": "FAIL",
+  "screenplaySha256": "3f71be94d267bb732048b9e8259457d1f54849bac508c710ec25dfa4afb330ee",
+  "registrySha256": "05ef4fff48a83c0ce8843b6fd21281ecc04dfeeae75a5ae69b92c338c7d99731",
+  "manifestSha256": "2a0215922a58993569042a0c369d970671dcb57fb86053a28a6a14122f277144",
+  "backlogSha256": "f080f880643c8e1ba6d41770779977be497c1ce6de0ef2f2fb3a55b613388f1c",
+  "files": [
+    {
+      "path": "ep1_physical_preflight.md",
+      "sha256": "cd06458c5018c1c78bd4394979cb43dd22a0938fd049195556b73540638f6df3"
+    }
+  ]
+}

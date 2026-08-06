@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "episode": "EP1_den-rozhdeniya",
+  "source_script": "stories/drakosha/2026-08-04_EP1_den-rozhdeniya_SHOOTING_numbered_bilingual.md",
+  "rules": [
+    {
+      "id": "FROSYA_PRE_MAGIC_PENCIL",
+      "shots": {
+        "from": "SH001",
+        "through": "SH066"
+      },
+      "required_present": [
+        "orange_hair_flower",
+        "floral_patchwork_dress",
+        "large_safety_pin",
+        "pouch",
+        "bare_feet"
+      ],
+      "required_absent": [
+        "magic_pencil",
+        "pencil_behind_ear"
+      ],
+      "reference": "stories/drakosha/ep1prod/scene1/references/frosya_pregift_lowpoly.png"
+    },
+    {
+      "id": "FROSYA_MAGIC_PENCIL_HANDHELD",
+      "shots": {
+        "from": "SH067",
+        "through": "SH118"
+      },
+      "required_absent": [
+        "pencil_behind_ear"
+      ],
+      "notes": "The magic pencil exists after Baba Yaga places it in Frosya's hand, but its placement is shot-specific until SH119."
+    },
+    {
+      "id": "FROSYA_MAGIC_PENCIL_EAR_CARRY",
+      "shots": {
+        "from": "SH119",
+        "through": "SH289"
+      },
+      "default_present": [
+        "magic_pencil_behind_ear"
+      ],
+      "notes": "Individual shots override the default while Frosya is holding, writing with, or setting down the pencil."
+    },
+    {
+      "id": "VASYA_SCENE1_BASE",
+      "shots": {
+        "from": "SH001",
+        "through": "SH017"
+      },
+      "required_present": [
+        "patchwork_outfit",
+        "shoelace_belt",
+        "bare_feet",
+        "large_shaggy_eyebrows"
+      ],
+      "required_absent": [
+        "letter_tile_pouch",
+        "fishing_hook_on_body"
+      ],
+      "notes": "The blunted fishing hook remains in the wall cache until SH004B."
+    }
+  ],
+  "render_gate": {
+    "scene1": {
+      "frosya_reference": "stories/drakosha/ep1prod/scene1/references/frosya_pregift_lowpoly.png",
+      "forbidden_reference_as_primary": "stories/frosya-vasya/charsheets/frosya_lowpoly_v2.png",
+      "reject_if_visible": [
+        "magic_pencil",
+        "pencil_behind_ear",
+        "letter_tile_pouch"
+      ]
+    }
+  }
+}

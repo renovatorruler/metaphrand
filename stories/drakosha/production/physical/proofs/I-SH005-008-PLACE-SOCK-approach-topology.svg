@@ -1,0 +1,16 @@
+<!-- screenplay-sha256: 87fc39fbfb212fa9a3d9ef21c15714e0f124897e07b2f88bf27def82a035d62d; registry-sha256: 88286f67251e3771cf0b84734464281cdb1ce936147dc89423c8669d3c043e77; manifest-sha256: bddecea677ae1ceca82ca52dc4804d099747497206b812eecdb594bc5a1597e8; backlog-sha256: f90821a4e5b20ed926994e57243b5f6ddfae1bb9cfa0f32d13db86b0f11eec1a -->
+<svg xmlns='http://www.w3.org/2000/svg' width='1040' height='650' viewBox='0 0 1040 650'>
+<style>.title{font:700 22px system-ui,sans-serif}.label{font:600 15px system-ui,sans-serif}.small{font:13px system-ui,sans-serif}.status{fill:#a61b1b;font:700 15px system-ui,sans-serif}</style>
+<rect width='1040' height='650' fill='#fbfaf6'/>
+<text x='40' y='38' class='title'>I-SH005-008-PLACE-SOCK — APPROACH FACTS — FAIL</text>
+<text x='40' y='64' class='small'>Only registered target geometry and affordances are drawn. Their evidence may still be noncertifying; no route or cover location is invented.</text>
+<rect x='80.00' y='160.00' width='520.00' height='260.00' fill='#8a6042' opacity='0.88' stroke='#342f2a' stroke-width='3'/>
+<text x='40' y='500' class='label'>human dresser planning proxy footprint: 36.00 x 18.00 in</text>
+<text x='40' y='526' class='small'>Handled subject: striped child sock</text>
+<rect x='690' y='120' width='310' height='250' rx='12' fill='#f0eee8' stroke='#b6ada2' stroke-width='2'/>
+<text x='714' y='158' class='label'>Access requirement</text><text x='714' y='188' class='small'>protected approach: required</text>
+<text x='714' y='226' class='label' fill='#a61b1b'>protected_approach: tag absent</text>
+<text x='714' y='266' class='small'>Registered affordances:</text><text x='714' y='292' class='small'>front_access_only, underbody_hiding</text>
+<text x='714' y='336' class='small'>Route geometry: not depicted</text>
+<rect x='40' y='580' width='960' height='50' rx='6' fill='#fee8e6'/><text x='54' y='604' class='status'>BLOCKED: one or more interaction checks failed.</text><text x='54' y='622' class='small'>This artifact cannot certify an unregistered path by appearance.</text>
+</svg>

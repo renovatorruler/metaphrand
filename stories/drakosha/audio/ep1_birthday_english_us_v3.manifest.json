@@ -1,0 +1,178 @@
+[
+ {
+  "group": 0,
+  "scene": "title_take_1",
+  "frame": "title_take_1",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_8ba456d43bb8ca05.mp3",
+  "duration": 5.76,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 1,
+  "scene": "scene_01_take_2",
+  "frame": "scene_01_take_2",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_22cb3f6419cd196a.mp3",
+  "duration": 109.75999999999999,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 2,
+  "scene": "scene_02_take_3",
+  "frame": "scene_02_take_3",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_b7f9cb69891b629d.mp3",
+  "duration": 75.6,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 3,
+  "scene": "scene_02_take_4",
+  "frame": "scene_02_take_4",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_6567cbae62c47276.mp3",
+  "duration": 22.48,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 4,
+  "scene": "scene_03_take_5",
+  "frame": "scene_03_take_5",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_5a6c24eee3ff4d98.mp3",
+  "duration": 43.2,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 5,
+  "scene": "scene_04_take_6",
+  "frame": "scene_04_take_6",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_a0188404780623d8.mp3",
+  "duration": 48.72,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 6,
+  "scene": "scene_04_take_7",
+  "frame": "scene_04_take_7",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_ab9744795dc94d53.mp3",
+  "duration": 11.2,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 7,
+  "scene": "scene_04_take_8",
+  "frame": "scene_04_take_8",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_d8f6f035dfc0e551.mp3",
+  "duration": 30.72,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 8,
+  "scene": "scene_05_take_9",
+  "frame": "scene_05_take_9",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_8c8b5214dc909e15.mp3",
+  "duration": 44.16,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 9,
+  "scene": "scene_06_take_10",
+  "frame": "scene_06_take_10",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_2222379d24126134.mp3",
+  "duration": 76.24,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 10,
+  "scene": "scene_07_take_11",
+  "frame": "scene_07_take_11",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_b422453f373b356e.mp3",
+  "duration": 84.64,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 11,
+  "scene": "scene_08_take_12",
+  "frame": "scene_08_take_12",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_837be145d2465e83.mp3",
+  "duration": 116.24000000000001,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 12,
+  "scene": "scene_08_take_13",
+  "frame": "scene_08_take_13",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_dac43735044735a0.mp3",
+  "duration": 43.52,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 13,
+  "scene": "scene_09_take_14",
+  "frame": "scene_09_take_14",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_3ab073766a78f0d2.mp3",
+  "duration": 70.24,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 14,
+  "scene": "scene_10_take_15",
+  "frame": "scene_10_take_15",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_7db3c8600eaa777e.mp3",
+  "duration": 102.88,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 15,
+  "scene": "scene_10_take_16",
+  "frame": "scene_10_take_16",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_8f30f307a6c43a2d.mp3",
+  "duration": 29.68,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 16,
+  "scene": "scene_11_take_17",
+  "frame": "scene_11_take_17",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_dcba384dc755721a.mp3",
+  "duration": 92.47999999999999,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 17,
+  "scene": "scene_12_take_18",
+  "frame": "scene_12_take_18",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_d99bd5d8f2e9268b.mp3",
+  "duration": 104.4,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 18,
+  "scene": "scene_12_take_19",
+  "frame": "scene_12_take_19",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_558f6942a98cacee.mp3",
+  "duration": 48,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 19,
+  "scene": "scene_13_take_20",
+  "frame": "scene_13_take_20",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_083a29ddfc22c798.mp3",
+  "duration": 79.6,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 20,
+  "scene": "scene_14_take_21",
+  "frame": "scene_14_take_21",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_b65d694930641e57.mp3",
+  "duration": 73.44,
+  "gap_after_ms": 450
+ },
+ {
+  "group": 21,
+  "scene": "final_card_take_22",
+  "frame": "final_card_take_22",
+  "path": "/Users/dusty/Dev/metaphrand/stories/drakosha/audio/segments/grp_573eeaf95a66c466.mp3",
+  "duration": 16.24,
+  "gap_after_ms": 0
+ }
+]

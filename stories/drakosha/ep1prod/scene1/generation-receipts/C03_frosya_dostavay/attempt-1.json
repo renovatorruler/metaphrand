@@ -1,0 +1,56 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "sceneId": "EP1-S01",
+  "inputManifestRevision": 11,
+  "inputManifestSha256": "aed92448e37fe5b0cf6aeef4aec703017cbb64584140108a926553470fa49899",
+  "stage": "storyboard",
+  "subjectId": "C03_frosya_dostavay",
+  "model": "nano_banana_pro",
+  "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+  "promptSha256": "a2909fc54b38dc48fc82021c5d2e25085205a30ca53ceb704e05cac29b93f770",
+  "requestSha256": "2b71890bbb6d4627a9b1d25d3dd28c7a66824705db51b1406e3b175694f0ea45",
+  "referenceAssets": [
+    {
+      "assetId": "PASSAGE_WORKING",
+      "path": "stories/drakosha/ep1prod/scene1/previs/plates/s1_side_passage_anchor_working.jpg",
+      "sha256": "f6e386c20669c47502d533e7affd3a3ee7644dde4304831fc16f0ef55a8f3708",
+      "declaredSha256": "f6e386c20669c47502d533e7affd3a3ee7644dde4304831fc16f0ef55a8f3708"
+    },
+    {
+      "assetId": "FROSYA_PREGIFT",
+      "path": "stories/drakosha/ep1prod/scene1/references/frosya_pregift_lowpoly.png",
+      "sha256": "a611fbdd3354133cb26b053e50222bccd1357d03dbb65ce70a4b363792dfadc3",
+      "declaredSha256": "a611fbdd3354133cb26b053e50222bccd1357d03dbb65ce70a4b363792dfadc3"
+    },
+    {
+      "assetId": "VASYA",
+      "path": "stories/drakosha/ep1prod/scene1/references/vasya_lowpoly_cutout.png",
+      "sha256": "545174c3cd252e363d27a8d97a11b5d2089ead4f8dd9eb6b9dd169c8ecbc042a",
+      "declaredSha256": "545174c3cd252e363d27a8d97a11b5d2089ead4f8dd9eb6b9dd169c8ecbc042a"
+    },
+    {
+      "assetId": "SOCK",
+      "path": "stories/frosya-vasya/ep1prod/plates/prop_sock.png",
+      "sha256": "88a1c998c346c0e762543f7b3fbb9607a7c60d2bd01b74f729e4987881ef20c1",
+      "declaredSha256": "88a1c998c346c0e762543f7b3fbb9607a7c60d2bd01b74f729e4987881ef20c1"
+    }
+  ],
+  "externalReferences": [
+    "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+  ],
+  "providerArgs": [
+    "--aspect_ratio",
+    "16:9",
+    "--resolution",
+    "2k",
+    "--wait",
+    "--json"
+  ],
+  "attempt": 1,
+  "status": "succeeded",
+  "readiness": "PASS",
+  "outputPath": "stories/drakosha/ep1prod/scene1/storyboard/C03_frosya_dostavay.png",
+  "outputSha256": "30547de93887e2ac6f037c0cbd4e5b148c6eb4a3b8999a2dff9d88665bf6c9ea",
+  "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260805_222519_af1e5ede-0a58-49bc-ae1e-176da00ef898.png",
+  "recordedAt": "2026-08-05T22:27:00.125Z"
+}

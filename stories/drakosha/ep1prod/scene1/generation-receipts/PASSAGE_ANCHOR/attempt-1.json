@@ -1,0 +1,38 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "sceneId": "EP1-S01",
+  "inputManifestRevision": 15,
+  "inputManifestSha256": "a9fcd69745e6582dad0c9956e061ce091368271ef22b446ac4b68fd6c03b1d9b",
+  "stage": "refs",
+  "subjectId": "PASSAGE_ANCHOR",
+  "model": "nano_banana_pro",
+  "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+  "promptSha256": "f8fc224174d5e2b78b2774f7ebfcbda18db8baf06567717c3e34f85b08fb7de7",
+  "requestSha256": "fdc6269e08fddc5d2c5f192f2007550e49782ae637fed6d943980295eb9378f8",
+  "referenceAssets": [
+    {
+      "assetId": "ROOM_MASTER",
+      "path": "stories/drakosha/ep1prod/scene1/previs/plates/s1_dresser_room_anchor_locked.jpg",
+      "sha256": "97e3de8870743b997761d494d07f0b243c979ae52a6e12196541419ac8d1661c",
+      "declaredSha256": "97e3de8870743b997761d494d07f0b243c979ae52a6e12196541419ac8d1661c"
+    }
+  ],
+  "externalReferences": [
+    "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+  ],
+  "providerArgs": [
+    "--aspect_ratio",
+    "16:9",
+    "--resolution",
+    "2k",
+    "--wait",
+    "--json"
+  ],
+  "attempt": 1,
+  "status": "succeeded",
+  "readiness": "PASS",
+  "outputPath": "stories/drakosha/ep1prod/scene1/references/passage_anchor_candidate_v1.png",
+  "outputSha256": "1c1ea14c047f28af8e5ab5d2af37be3c087772a5c98b72d6bf16e9aeb4fcbed8",
+  "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260805_231022_41fe6adc-335e-49d5-a208-41c226c6a5a5.png",
+  "recordedAt": "2026-08-05T23:11:14.644Z"
+}

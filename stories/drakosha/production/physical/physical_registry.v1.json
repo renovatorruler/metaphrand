@@ -1,0 +1,654 @@
+{
+  "schema": "drakosha.physical-registry/v1",
+  "units": {
+    "length": "in",
+    "mass": "g",
+    "time": "s",
+    "axes": "x=left-right,y=front-back,z=up"
+  },
+  "evidence": [
+    {
+      "id": "EV-FRO-HEIGHT",
+      "kind": "author_locked",
+      "note": "Frosya standing height is author-locked at 3.50 in."
+    },
+    {
+      "id": "EV-FRO-POSE-WORKING",
+      "kind": "estimate",
+      "note": "Working body envelope and loaded reach derived from the current character design; requires an approved lineup measurement."
+    },
+    {
+      "id": "EV-VAS-POSE-WORKING",
+      "kind": "estimate",
+      "note": "Working Vasya scale and capability; not yet measured from an approved lineup."
+    },
+    {
+      "id": "EV-FAMILY-WORKING",
+      "kind": "estimate",
+      "note": "Working family lineup values from Object and Scale Registry v1."
+    },
+    {
+      "id": "EV-YAGA-WORKING",
+      "kind": "estimate",
+      "note": "Working full-size and normalized Baba Yaga envelopes."
+    },
+    {
+      "id": "EV-DRESSER-PROXY",
+      "kind": "estimate",
+      "note": "Conservative standard-dresser planning proxy only. No final dresser asset has been selected or measured."
+    },
+    {
+      "id": "EV-SOCK-PROXY",
+      "kind": "estimate",
+      "note": "Working flat dimensions for a deliberately light, loose human child's sock. The final hero textile, mass, friction, and deformable swept states have not been measured."
+    },
+    {
+      "id": "EV-SOCK-HOOK-PROXY",
+      "kind": "estimate",
+      "note": "Approved use of a cached blunted fishing hook with Vasya's shoelace at the real top edge of the drawer's right side panel; final hook asset, knot, working load, and edge engagement have not been measured."
+    },
+    {
+      "id": "EV-DRESSER-PASSAGE-STORY",
+      "kind": "story_required",
+      "note": "The story requires a narrow sheltered passage between the dresser's right side and the wall, continuing around the rear corner toward the home route. It must admit both children and the loose sock; no final plan/collider proof exists."
+    },
+    {
+      "id": "EV-GIANT-PROPS-WORKING",
+      "kind": "estimate",
+      "note": "Working human-world prop dimensions from Registry v1."
+    },
+    {
+      "id": "EV-HOME-SET-WORKING",
+      "kind": "estimate",
+      "note": "Working home and route dimensions; no approved set proxy or sockets yet."
+    },
+    {
+      "id": "EV-EP1-PROPS-WORKING",
+      "kind": "estimate",
+      "note": "Working episode prop envelopes from Registry v1; not measured assets."
+    },
+    {
+      "id": "EV-TRANSFORMS-WORKING",
+      "kind": "estimate",
+      "note": "Working transformation envelopes from Registry v1; require model-sheet measurements."
+    },
+    {
+      "id": "EV-MAMA-COPY-LOCKED",
+      "kind": "derived",
+      "note": "The equality rule is locked, but this numeric copy remains dependent on Mama's uncertified working lineup measurement.",
+      "inputs": ["EV-FAMILY-WORKING"]
+    }
+  ],
+  "entities": [
+    {
+      "id": "C-FRO",
+      "label": "Frosya",
+      "kind": "character",
+      "states": [
+        {
+          "id": "standing",
+          "evidence": "EV-FRO-POSE-WORKING",
+          "aabb": {"min": [-0.55, -0.35, 0.0], "max": [0.55, 0.35, 3.5]},
+          "anchors": {
+            "feet.center": {"value": [0.0, 0.0, 0.0], "evidence": "EV-FRO-HEIGHT"},
+            "shoulder.center": {"value": [0.0, 0.0, 2.65], "evidence": "EV-FRO-POSE-WORKING"}
+          }
+        },
+        {
+          "id": "prone",
+          "evidence": "EV-FRO-POSE-WORKING",
+          "aabb": {"min": [-0.45, -1.45, 0.0], "max": [0.45, 1.45, 0.95]},
+          "anchors": {"shoulder.center": {"value": [0.0, 0.0, 0.65]}}
+        }
+      ],
+      "capabilities": {
+        "standing_loaded": {
+          "evidence": "EV-FRO-POSE-WORKING",
+          "states": ["standing"],
+          "maxHandHeightLoaded": 3.2,
+          "armReachLoaded": 0.82,
+          "maxLiftMassG": 8.0,
+          "maxCarryMassG": 6.0,
+          "maxDragMassG": 25.0
+        },
+        "crawl_drag": {
+          "evidence": "EV-FRO-POSE-WORKING",
+          "states": ["prone"],
+          "maxHandHeightLoaded": 0.7,
+          "armReachLoaded": 0.65,
+          "maxLiftMassG": 4.0,
+          "maxCarryMassG": 4.0,
+          "maxDragMassG": 25.0
+        }
+      }
+    },
+    {
+      "id": "C-VAS",
+      "label": "Vasya",
+      "kind": "character",
+      "states": [
+        {
+          "id": "standing",
+          "evidence": "EV-VAS-POSE-WORKING",
+          "aabb": {"min": [-0.5, -0.34, 0.0], "max": [0.5, 0.34, 3.15]},
+          "anchors": {
+            "feet.center": {"value": [0.0, 0.0, 0.0]},
+            "shoulder.center": {"value": [0.0, 0.0, 2.35]}
+          }
+        },
+        {
+          "id": "prone",
+          "evidence": "EV-VAS-POSE-WORKING",
+          "aabb": {"min": [-0.42, -1.3, 0.0], "max": [0.42, 1.3, 0.9]},
+          "anchors": {"shoulder.center": {"value": [0.0, 0.0, 0.6]}}
+        }
+      ],
+      "capabilities": {
+        "standing_loaded": {
+          "evidence": "EV-VAS-POSE-WORKING",
+          "states": ["standing"],
+          "maxHandHeightLoaded": 2.9,
+          "armReachLoaded": 0.74,
+          "maxLiftMassG": 7.0,
+          "maxCarryMassG": 5.0,
+          "maxDragMassG": 22.0
+        },
+        "crawl_drag": {
+          "evidence": "EV-VAS-POSE-WORKING",
+          "states": ["prone"],
+          "maxHandHeightLoaded": 0.65,
+          "armReachLoaded": 0.6,
+          "maxLiftMassG": 3.5,
+          "maxCarryMassG": 3.5,
+          "maxDragMassG": 22.0
+        }
+      }
+    },
+    {
+      "id": "C-MAM",
+      "label": "Mama",
+      "kind": "character",
+      "states": [
+        {
+          "id": "standing",
+          "evidence": "EV-FAMILY-WORKING",
+          "aabb": {"min": [-0.7, -0.45, 0.0], "max": [0.7, 0.45, 3.9]}
+        }
+      ],
+      "capabilities": {}
+    },
+    {
+      "id": "C-PAP",
+      "label": "Papa",
+      "kind": "character",
+      "states": [
+        {
+          "id": "standing",
+          "evidence": "EV-FAMILY-WORKING",
+          "aabb": {"min": [-0.9, -0.55, 0.0], "max": [0.9, 0.55, 4.5]}
+        }
+      ],
+      "capabilities": {}
+    },
+    {
+      "id": "C-RUS",
+      "label": "Rusya",
+      "kind": "character",
+      "states": [
+        {
+          "id": "standing",
+          "evidence": "EV-FAMILY-WORKING",
+          "aabb": {"min": [-0.32, -0.25, 0.0], "max": [0.32, 0.25, 1.7]}
+        }
+      ],
+      "capabilities": {}
+    },
+    {
+      "id": "C-MUS",
+      "label": "Musya",
+      "kind": "character",
+      "states": [
+        {
+          "id": "standing",
+          "evidence": "EV-FAMILY-WORKING",
+          "aabb": {"min": [-0.38, -0.3, 0.0], "max": [0.38, 0.3, 1.7]}
+        }
+      ],
+      "capabilities": {}
+    },
+    {
+      "id": "C-YAG-MINI",
+      "label": "Baba Yaga, home scale",
+      "kind": "character",
+      "states": [
+        {
+          "id": "standing",
+          "evidence": "EV-YAGA-WORKING",
+          "aabb": {"min": [-0.72, -0.48, 0.0], "max": [0.72, 0.48, 3.85]}
+        }
+      ],
+      "capabilities": {}
+    },
+    {
+      "id": "C-YAG-FULL",
+      "label": "Baba Yaga, flight scale",
+      "kind": "character",
+      "states": [
+        {
+          "id": "standing",
+          "evidence": "EV-YAGA-WORKING",
+          "aabb": {"min": [-10.0, -7.0, 0.0], "max": [10.0, 7.0, 60.0]}
+        }
+      ],
+      "capabilities": {}
+    },
+    {
+      "id": "G-EP1-DRESSER-01",
+      "label": "human dresser planning proxy",
+      "kind": "giant_object",
+      "states": [
+        {
+          "id": "low_drawer_open",
+          "evidence": "EV-DRESSER-PROXY",
+          "visibilityRisk": "exposed_to_giants",
+          "aabb": {"min": [-18.0, -9.0, 0.0], "max": [18.0, 9.0, 30.0]},
+          "anchors": {
+            "low_drawer.floor_front": {"value": [0.0, -9.0, 2.25]},
+            "low_drawer.floor_right_side": {"value": [15.0, -8.125, 2.25]},
+            "low_drawer.front_rim_top": {"value": [0.0, -9.0, 6.75]},
+            "low_drawer.right_side_rim_top": {"value": [15.0, -8.125, 6.75]},
+            "dresser.underside": {"value": [0.0, 0.0, 1.4]}
+          },
+          "openings": {
+            "low_drawer.mouth": {"plane": "xy", "center": [0.0, -8.125, 6.75], "clearSpanU": 30.0, "clearSpanV": 1.75}
+          },
+          "volumes": {
+            "low_drawer.interior": {"aabb": {"min": [-15.0, -9.0, 2.25], "max": [15.0, 5.0, 6.75]}}
+          },
+          "destinations": {
+            "low_drawer.drop": {"barrierAnchor": "low_drawer.right_side_rim_top", "floorAnchor": "low_drawer.floor_right_side", "supportAnchor": "dresser.underside", "opening": "low_drawer.mouth", "barrierEdge": "u_max", "volume": "low_drawer.interior"}
+          },
+          "affordances": ["right_side_access", "front_panel_cover", "underbody_hiding"]
+        }
+      ],
+      "handlingMethods": []
+    },
+    {
+      "id": "G-EP1-SOCK-01",
+      "label": "striped child sock",
+      "kind": "giant_object",
+      "states": [
+        {
+          "id": "flat",
+          "evidence": "EV-SOCK-PROXY",
+          "aabb": {"min": [-4.5, -1.625, 0.0], "max": [4.5, 1.625, 0.25]},
+          "grips": {
+            "toe": {"value": [-4.0, 0.0, 0.12]},
+            "cuff": {"value": [4.0, 0.0, 0.12]}
+          },
+          "allowedOrientations": ["yxz"]
+        }
+      ],
+      "handlingMethods": [
+        {"kind": "two_person_drag", "states": ["flat"]}
+      ]
+    },
+    {
+      "id": "SET-DRESSER-PASSAGE-01",
+      "label": "concealed right-side passage beside dresser",
+      "kind": "set",
+      "states": [
+        {
+          "id": "right_side_passage",
+          "evidence": "EV-DRESSER-PASSAGE-STORY",
+          "visibilityRisk": "exposed_to_giants",
+          "aabb": {"min": [-0.7, -1.5, 0.0], "max": [0.7, 1.5, 1.25]},
+          "affordances": ["protected_approach", "rear_corner_turn", "drawer_front_cover"]
+        }
+      ],
+      "handlingMethods": []
+    },
+    {
+      "id": "G-EP1-RCCAR-01",
+      "label": "red remote-controlled toy car",
+      "kind": "giant_object",
+      "states": [
+        {
+          "id": "driving",
+          "evidence": "EV-GIANT-PROPS-WORKING",
+          "aabb": {"min": [-2.75, -1.2, 0.0], "max": [2.75, 1.2, 1.2]}
+        }
+      ],
+      "handlingMethods": []
+    },
+    {
+      "id": "G-EP1-CHILDHAND-01",
+      "label": "giant child's searching hand",
+      "kind": "giant_object",
+      "states": [
+        {
+          "id": "extended",
+          "evidence": "EV-GIANT-PROPS-WORKING",
+          "aabb": {"min": [-2.75, -1.2, 0.0], "max": [2.75, 1.2, 1.0]}
+        }
+      ],
+      "handlingMethods": []
+    },
+    {
+      "id": "R-EP1-TOP-01",
+      "label": "two-rider spinning-top carousel",
+      "kind": "repurposed_giant_object",
+      "states": [
+        {
+          "id": "ride_ready",
+          "evidence": "EV-EP1-PROPS-WORKING",
+          "aabb": {"min": [-1.625, -1.625, 0.0], "max": [1.625, 1.625, 3.5]},
+          "affordances": ["two_opposed_rider_stations_requested"]
+        }
+      ],
+      "handlingMethods": [{"kind": "papa_spin", "states": ["ride_ready"]}]
+    },
+    {
+      "id": "R-HOME-TABLE-01",
+      "label": "thread-spool table",
+      "kind": "repurposed_giant_object",
+      "states": [
+        {
+          "id": "upright",
+          "evidence": "EV-HOME-SET-WORKING",
+          "aabb": {"min": [-0.825, -0.825, 0.0], "max": [0.825, 0.825, 1.75]},
+          "anchors": {"top.center": {"value": [0.0, 0.0, 1.75]}}
+        }
+      ],
+      "handlingMethods": []
+    },
+    {
+      "id": "D-EP1-FEASTBOARD-01",
+      "label": "feast board",
+      "kind": "domovoy_object",
+      "states": [
+        {
+          "id": "mounted",
+          "evidence": "EV-EP1-PROPS-WORKING",
+          "aabb": {"min": [-1.8, -1.3, 0.0], "max": [1.8, 1.3, 0.1]}
+        }
+      ],
+      "handlingMethods": []
+    },
+    {
+      "id": "D-EP1-CANDLE-01",
+      "label": "miniature birthday candle",
+      "kind": "domovoy_object",
+      "states": [
+        {
+          "id": "lengthwise",
+          "evidence": "EV-EP1-PROPS-WORKING",
+          "aabb": {"min": [-0.04, -0.04, 0.0], "max": [0.04, 0.04, 0.75]}
+        }
+      ],
+      "handlingMethods": [{"kind": "thread_pull", "states": ["lengthwise"]}]
+    },
+    {
+      "id": "D-EP1-CANDLEBOX-01",
+      "label": "candle box",
+      "kind": "domovoy_object",
+      "states": [
+        {
+          "id": "open",
+          "evidence": "EV-EP1-PROPS-WORKING",
+          "aabb": {"min": [-0.55, -0.4, 0.0], "max": [0.55, 0.4, 0.22]}
+        }
+      ],
+      "handlingMethods": []
+    },
+    {
+      "id": "D-EP1-SCOOTER-01",
+      "label": "Frosya's kick scooter",
+      "kind": "domovoy_object",
+      "states": [
+        {
+          "id": "upright",
+          "evidence": "EV-EP1-PROPS-WORKING",
+          "aabb": {"min": [-1.0, -0.225, 0.0], "max": [1.0, 0.225, 2.25]},
+          "anchors": {
+            "deck.center": {"value": [0.0, 0.0, 0.42]},
+            "handlebar.center": {"value": [0.8, 0.0, 2.25]}
+          }
+        }
+      ],
+      "handlingMethods": [
+        {"kind": "ride", "states": ["upright"]},
+        {"kind": "push_by_hand", "states": ["upright"]}
+      ]
+    },
+    {
+      "id": "SET-HOME-RAMP-01",
+      "label": "warped-board ramp",
+      "kind": "set",
+      "states": [
+        {
+          "id": "clear",
+          "evidence": "EV-HOME-SET-WORKING",
+          "aabb": {"min": [-1.5, -4.0, 0.0], "max": [1.5, 4.0, 5.0]},
+          "affordances": ["home_to_road"]
+        }
+      ],
+      "handlingMethods": []
+    },
+    {
+      "id": "SET-ROAD-01",
+      "label": "underfloor plank road",
+      "kind": "set",
+      "states": [
+        {
+          "id": "clear",
+          "evidence": "EV-HOME-SET-WORKING",
+          "aabb": {"min": [-1.5, -12.0, 0.0], "max": [1.5, 12.0, 5.0]},
+          "affordances": ["travel_lane"]
+        }
+      ],
+      "handlingMethods": []
+    },
+    {
+      "id": "T-VAS-MAMA-01",
+      "label": "Vasya transformed into Mama",
+      "kind": "transformation",
+      "states": [
+        {
+          "id": "standing",
+          "evidence": "EV-MAMA-COPY-LOCKED",
+          "aabb": {"min": [-0.7, -0.45, 0.0], "max": [0.7, 0.45, 3.9]}
+        }
+      ],
+      "handlingMethods": []
+    },
+    {
+      "id": "T-VAS-CAT-01",
+      "label": "Vasya transformed into a ginger cat",
+      "kind": "transformation",
+      "states": [
+        {
+          "id": "road_block",
+          "evidence": "EV-TRANSFORMS-WORKING",
+          "aabb": {"min": [-1.575, -0.5, 0.0], "max": [1.575, 0.5, 0.85]}
+        },
+        {
+          "id": "curled",
+          "evidence": "EV-TRANSFORMS-WORKING",
+          "aabb": {"min": [-0.95, -0.85, 0.0], "max": [0.95, 0.85, 1.15]}
+        }
+      ],
+      "handlingMethods": []
+    },
+    {
+      "id": "D-EP1-TANK-01",
+      "label": "materialized metal tank",
+      "kind": "domovoy_object",
+      "states": [
+        {
+          "id": "inverted",
+          "evidence": "EV-EP1-PROPS-WORKING",
+          "aabb": {"min": [-1.2, -1.2, 0.0], "max": [1.2, 1.2, 2.2]},
+      "openings": {
+        "inside": {"plane": "xy", "center": [0.0, 0.0, 0.0], "clearSpanU": 2.15, "clearSpanV": 2.15}
+      },
+      "volumes": {
+        "inside": {"aabb": {"min": [-1.075, -1.075, 0.0], "max": [1.075, 1.075, 2.0]}}
+          }
+        }
+      ],
+      "handlingMethods": [{"kind": "two_person_drag", "states": ["inverted"]}]
+    },
+    {
+      "id": "T-VAS-WASP-01",
+      "label": "Vasya transformed into a wasp",
+      "kind": "transformation",
+      "states": [
+        {
+          "id": "wings_open",
+          "evidence": "EV-TRANSFORMS-WORKING",
+          "aabb": {"min": [-0.21, -0.35, 0.0], "max": [0.21, 0.35, 0.22]}
+        },
+        {
+          "id": "wings_folded_with_thread",
+          "evidence": "EV-TRANSFORMS-WORKING",
+          "aabb": {"min": [-0.2, -0.16, 0.0], "max": [0.2, 0.16, 0.28]}
+        }
+      ],
+      "handlingMethods": [
+        {"kind": "carry_thread_in_jaws", "states": ["wings_open"]},
+        {"kind": "crawl_with_folded_wings", "states": ["wings_folded_with_thread"]}
+      ]
+    },
+    {
+      "id": "SET-CANDLE-HOLE-01",
+      "label": "irregular opening in home floor",
+      "kind": "set",
+      "states": [
+        {
+          "id": "open",
+          "evidence": "EV-HOME-SET-WORKING",
+          "aabb": {"min": [-0.225, -0.275, 0.0], "max": [0.225, 0.275, 0.75]},
+      "openings": {
+        "floor_aperture": {"plane": "xy", "center": [0.0, 0.0, 0.75], "clearSpanU": 0.45, "clearSpanV": 0.55}
+      }
+        }
+      ],
+      "handlingMethods": []
+    },
+    {
+      "id": "SET-CANDLE-POCKET-01",
+      "label": "sealed candle pocket",
+      "kind": "set",
+      "states": [
+        {
+          "id": "empty",
+          "evidence": "EV-HOME-SET-WORKING",
+          "aabb": {"min": [-1.5, -1.5, -5.5], "max": [1.5, 1.5, 0.0]},
+          "anchors": {"landing.center": {"value": [0.0, 0.0, -5.5]}}
+        }
+      ],
+      "handlingMethods": []
+    },
+    {
+      "id": "D-EP1-THREAD-01",
+      "label": "ball of thread",
+      "kind": "domovoy_object",
+      "states": [
+        {
+          "id": "ball_with_12in_live_end",
+          "evidence": "EV-EP1-PROPS-WORKING",
+          "aabb": {"min": [-0.35, -0.35, 0.0], "max": [0.35, 0.35, 0.7]},
+          "anchors": {"free_end": {"value": [0.0, 0.0, 0.35]}}
+        }
+      ],
+      "handlingMethods": [
+        {"kind": "pay_out", "states": ["ball_with_12in_live_end"]},
+        {"kind": "hand_over_hand_pull", "states": ["ball_with_12in_live_end"]}
+      ]
+    },
+    {
+      "id": "R-FRO-PIN-01",
+      "label": "Frosya's permanent safety pin",
+      "kind": "repurposed_giant_object",
+      "states": [
+        {
+          "id": "worn_closed",
+          "evidence": "EV-EP1-PROPS-WORKING",
+          "aabb": {"min": [-1.0, -0.1, 0.0], "max": [1.0, 0.1, 0.55]}
+        }
+      ],
+      "handlingMethods": []
+    },
+    {
+      "id": "R-VAS-BELT-01",
+      "label": "Vasya's permanent shoelace belt",
+      "kind": "repurposed_giant_object",
+      "states": [
+        {
+          "id": "worn_with_trailing_tail",
+          "evidence": "EV-EP1-PROPS-WORKING",
+          "aabb": {"min": [-1.2, -3.5, 0.0], "max": [1.2, 0.2, 0.18]}
+        },
+        {
+          "id": "deployed_as_line",
+          "evidence": "EV-SOCK-HOOK-PROXY",
+          "aabb": {"min": [-0.09, -0.09, 0.0], "max": [0.09, 0.09, 7.5]}
+        }
+      ],
+      "handlingMethods": []
+    },
+    {
+      "id": "R-EP1-SOCK-HOOK-01",
+      "label": "cached blunted fishing hook",
+      "kind": "repurposed_giant_object",
+      "states": [
+        {
+          "id": "rigged_to_aglet",
+          "evidence": "EV-SOCK-HOOK-PROXY",
+          "aabb": {"min": [-0.75, -0.12, 0.0], "max": [0.75, 0.12, 0.35]}
+        }
+      ],
+      "handlingMethods": []
+    },
+    {
+      "id": "R-HOME-BED-FRO-01",
+      "label": "Frosya's matchbox bed",
+      "kind": "repurposed_giant_object",
+      "states": [
+        {
+          "id": "made",
+          "evidence": "EV-HOME-SET-WORKING",
+          "aabb": {"min": [-2.15, -1.0, 0.0], "max": [2.15, 1.0, 0.8]}
+        }
+      ],
+      "handlingMethods": []
+    },
+    {
+      "id": "R-HOME-BED-VAS-01",
+      "label": "Vasya's matchbox bed",
+      "kind": "repurposed_giant_object",
+      "states": [
+        {
+          "id": "made",
+          "evidence": "EV-HOME-SET-WORKING",
+          "aabb": {"min": [-1.9, -0.85, 0.0], "max": [1.9, 0.85, 0.7]}
+        }
+      ],
+      "handlingMethods": []
+    },
+    {
+      "id": "R-HOME-BED-PARENTS-01",
+      "label": "parents' fireplace-matchbox bed",
+      "kind": "repurposed_giant_object",
+      "states": [
+        {
+          "id": "made",
+          "evidence": "EV-HOME-SET-WORKING",
+          "aabb": {"min": [-3.0, -1.8, 0.0], "max": [3.0, 1.8, 1.25]}
+        }
+      ],
+      "handlingMethods": []
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "sceneId": "EP1-S01",
+  "inputManifestRevision": 11,
+  "inputManifestSha256": "aed92448e37fe5b0cf6aeef4aec703017cbb64584140108a926553470fa49899",
+  "stage": "storyboard",
+  "subjectId": "C06_tak_dom_ustroen",
+  "model": "nano_banana_pro",
+  "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+  "promptSha256": "96b9370a878ee97f407a8320a698aa5811257ead7e3371a899971f180e6cf26f",
+  "requestSha256": "e428fb452f78344e4711ba3951248cc0ad8517ed8269bcd90f70ef67b87585ae",
+  "referenceAssets": [
+    {
+      "assetId": "ROOM_MASTER",
+      "path": "stories/drakosha/ep1prod/scene1/previs/plates/s1_dresser_room_anchor_locked.jpg",
+      "sha256": "97e3de8870743b997761d494d07f0b243c979ae52a6e12196541419ac8d1661c",
+      "declaredSha256": "97e3de8870743b997761d494d07f0b243c979ae52a6e12196541419ac8d1661c"
+    },
+    {
+      "assetId": "FROSYA_PREGIFT",
+      "path": "stories/drakosha/ep1prod/scene1/references/frosya_pregift_lowpoly.png",
+      "sha256": "a611fbdd3354133cb26b053e50222bccd1357d03dbb65ce70a4b363792dfadc3",
+      "declaredSha256": "a611fbdd3354133cb26b053e50222bccd1357d03dbb65ce70a4b363792dfadc3"
+    }
+  ],
+  "externalReferences": [
+    "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+  ],
+  "providerArgs": [
+    "--aspect_ratio",
+    "16:9",
+    "--resolution",
+    "2k",
+    "--wait",
+    "--json"
+  ],
+  "attempt": 1,
+  "status": "succeeded",
+  "readiness": "PASS",
+  "outputPath": "stories/drakosha/ep1prod/scene1/storyboard/C06_tak_dom_ustroen.png",
+  "outputSha256": "8a3a8fa1ac5c096f630a1b8786e82150920c6e561b4f153c842872732ee5f9bd",
+  "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260805_223457_76bb6341-f4b8-4e71-bcd5-224a28735d1a.png",
+  "recordedAt": "2026-08-05T22:38:18.322Z"
+}

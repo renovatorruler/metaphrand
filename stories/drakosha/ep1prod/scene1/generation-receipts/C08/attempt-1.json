@@ -1,0 +1,48 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "sceneId": "EP1-S01",
+  "inputManifestRevision": 28,
+  "inputManifestSha256": "75dffbd815072b3f959e232f127fe6329ca5733dc8b6ec086aa8b90e3281c9ae",
+  "stage": "motion",
+  "subjectId": "C08",
+  "model": "gemini_omni",
+  "styleKey": "856a99ee-5cc9-4fad-ad8d-998d79edb4f4",
+  "promptSha256": "59b158c8e66691b62a2588ea6271176c09f375d37a41627276f96cbe81554a52",
+  "requestSha256": "8e85a51dfb024ab1aabd129b2eb9d815d6a36392172d1eb70c6489c150cef2f8",
+  "referenceAssets": [
+    {
+      "assetId": "ROOM_MASTER",
+      "path": "stories/drakosha/ep1prod/scene1/previs/plates/s1_dresser_room_anchor_locked.jpg",
+      "sha256": "97e3de8870743b997761d494d07f0b243c979ae52a6e12196541419ac8d1661c",
+      "declaredSha256": "97e3de8870743b997761d494d07f0b243c979ae52a6e12196541419ac8d1661c"
+    },
+    {
+      "assetId": "RED_CAR",
+      "path": "stories/drakosha/ep1prod/scene1/references/red_hero_car_candidate_v1.png",
+      "sha256": "d7207b93975057d8c04f8b98b41dcf21920e7ae31bc9ba60444c9b73ec1cf7d2",
+      "declaredSha256": "d7207b93975057d8c04f8b98b41dcf21920e7ae31bc9ba60444c9b73ec1cf7d2"
+    }
+  ],
+  "externalReferences": [
+    "856a99ee-5cc9-4fad-ad8d-998d79edb4f4"
+  ],
+  "providerArgs": [
+    "--duration",
+    "10",
+    "--aspect_ratio",
+    "16:9",
+    "--resolution",
+    "720p",
+    "--wait",
+    "--wait-timeout",
+    "12m",
+    "--json"
+  ],
+  "attempt": 1,
+  "status": "succeeded",
+  "readiness": "PASS",
+  "outputPath": "stories/drakosha/ep1prod/scene1/clips/C08_car_cross_v1.mp4",
+  "outputSha256": "39c58feb642aa32c16815375bffb757ba7faa7c43065ac8228d68681bcded011",
+  "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260806_013406_1e1cc112-3e03-4c56-a910-22f8f844e345.mp4",
+  "recordedAt": "2026-08-06T01:35:06.966Z"
+}
