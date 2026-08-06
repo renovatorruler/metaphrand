@@ -172,7 +172,105 @@ rim-light), exact patch layout, and nose darkness drift shot to shot. Mitigate b
 "consistent medium brown hair, no blond" as an anchor in every prompt. Parent has accepted
 this level.
 
-## МАМА REDESIGN — IN PROGRESS (2026-08-02…04, awaiting parent go)
+## МАМА — LOCKED FINAL (2026-08-06): `charsheets/mama_v7_match.png` (v6 + apron match enlarged to real-object scale at author's direction)
+Head-law compliant (head = family band, verified on the true-scale chart v9). Produced by the
+now-canonical proportion pipeline: **author pixels → arithmetic (deterministic +27% head
+enlargement of the approved mock) → scale-chart proof → surface-only edit to heal seams →
+chart re-proof.** Generation was never allowed to touch proportions or identity. Design:
+golden-blonde side braid, red-gold candy-wrapper kerchief, green-hazel eyes, mustard blouse,
+cream whip-stitched apron with blank-tile pocket, russet skirt, barefoot. LAW LESSONS BANKED:
+(1) an edit CANNOT move structure — use arithmetic for structure, edits only for surfaces;
+(2) a reference teaches everything visible INCLUDING its flaws — never hand a flawed mock to
+a regeneration; (3) verify proportions on the true-scale chart (background-remover cutouts,
+feet on one line, 1.4in head bands) before locking anything.
+
+## ПАПА — LOCKED FINAL (2026-08-06): `charsheets/papa_v6_fuzz2.png`
+Derived from Вася (bushy winged brows, button nose, warm eyes carried through). Bear expressed
+per the family construction amendment: **bulk lives in torso silhouette and fur texture, NEVER
+in limbs** — thin spindly arms with dark fuzz, round belly under wide suspenders, very dark
+shaggy hair, dense dark beard as a RUFF hugging the round dome (the beard never stretches the
+skull). Face aged the Мама way — smaller calmer settled eyes, zero wrinkles, late twenties.
+Visible head unit sized to the family band (author-approved 0.82× shrink of the first bear
+build). Costume: slate-blue work shirt, fabric suspenders, brown canvas trousers with one
+patch, barefoot. **KEY CANON (author, 2026-08-06): the key stays SMALL (~1 inch — a human
+mailbox/clock/music-box key, a real found object), worn at the hip on the twine strap as the
+хозяин's badge and his all-purpose tool. The Codex registry's 5.25in giant key is REJECTED
+(author: real keys are ~3in max, and a body-length prop is an animation liability). Open story
+option: it's the key that winds the giants' clock — Papa's evening ritual = the tick that opens
+Scene 1.** Failed giant-key edits archived in ep1prod/build/. Forearm fuzz restored at the ORIGINAL v3 density by attaching v3's arms as the calibration reference — density/amount survives in pictures, not adjectives (the word 'fuzzy' produced fur sleeves). 
+
+## БАБА ЯГА — LOCKED FINAL (2026-08-06): `charsheets/baba_v9_gold.png` (author-approved on the v2 chart)
+Derived from Мама's sheet (option D staff pose), then family-fitted: **+30% head** (deterministic
+chin-anchored enlarge, approved on-chart before any styling), hunched at **3.6in registry height**
+— taller than Фрося, shorter than Мама. Aging stays in the family language: eyes/posture/hair,
+max 2–3 facet creases, no wrinkle vocabulary. Canon marks: **light GREEN-HAZEL sly hooded eyes**
+(author reverted the dark-eye experiment — the pale iris against the lid shadow is what reads
+"хитрая"; also quietly makes her Мама's мама), **two little teeth — white one hanging OVER the
+lip (full 3D volume), GOLD one inside the mouth shadow** (deterministic recolor preserving facet
+shading; the gleam moment is an ANIMATION beat — 2–3 frame star sparkle + PSE ding when she
+grins, not baked into the sheet), **мухомор kerchief** — deep red, solid white dots that DIM with
+the fabric shading (dots in shadow ~55% white), knot tails fully red, **birch БЕРЁЗКА broom**
+leaned on as her staff, bristles UP, bare handle planted; **no shawl pin/hook** (removed —
+babies will ride her shoulders; nothing sharp lives there). Barefoot indoors is canon — her
+ЛАПТИ (birch-bast shoes) are an OUTDOOR/arrival costume layer + doorway gag, not yet designed.
+White-teeth variant kept at `charsheets/baba_v9_white.png`. Build lesson banked: after multiple
+failed mask-composite passes, the final sheet IS the nano recolor output taken WHOLESALE (it had
+preserved eyes/mouth/broom/hook-removal pixel-perfectly) with only dot-shading + gold applied on
+top — when a surface edit is clean, taking it whole beats carving it up. Prop library ideas
+approved-in-principle, NOT on the sheet: ступа+пестик (her vehicle), herb/mushroom garland,
+belt pouches, broom-perching crow.
+
+## БАБА ЯГА — HUMAN FORM, LOCKED (2026-08-06): `charsheets/baba_human_lapti.png`
+(`baba_human_lowpoly.png` is the same sheet pre-лапти, kept as source.) **She wears ЛАПТИ in
+the human/flight form** — woven tan bast slippers, cords cross-laced over gray ОНУЧИ wraps —
+and is BAREFOOT only in the домовой form: the shrink-at-the-door beat includes stepping out of
+her лапти (they stay by the door, human-sized). Cutout: `ep1prod/build/cutouts/baba_human_cut.png`
+(remover only — a DIY corner-color alpha ate her foot and dragged a bg patch; the beige-on-beige
+lesson applies to EVERY cutout, no exceptions).
+Her sky-flight form: TRUE HUMAN PROPORTIONS (~6 heads hunched, wiry village-бабушка build) for
+scenes at people-scale — she flies in at human size, then shrinks through the ДЫМОХОД into the
+3.6in домовой form. Same identity marks as the small form: мухомор kerchief, green patched
+shawl, patched plum/mauve/olive skirt, white wisps, sly hooded green-hazel eyes, round button
+nose, TWO teeth — **GOLD tooth on HER RIGHT (viewer-left), tucked inside the mouth; WHITE tooth
+on her left (viewer-right), hanging over the lip** — tooth sides are canon, spell them out in
+every prompt. One prop only: the tied birch besom, bristles up. Pair reference:
+`charsheets/BABA_TRANSFORMATION_PAIR.jpg` — **TRUE SCALE** (author law: never show the two forms
+same-size): human form ~147 см (proposed canon, author may adjust) vs 3.6in/9 см = **≈1:16
+after the дымоход**; the sheet carries a zoom inset for the small form. Build lessons banked: (1) attaching the small-form
+sheet as reference FORCES its proportions — proportion changes must be TEXT-ONLY prompts with
+the head ratio stated numerically; (2) the model prints caption text at the bottom despite
+negatives — crop deterministically (this sheet is the cropped `baba_human_g_clean`).
+**PRESENTATION RITUAL (author, 2026-08-06): stamp the option LETTER on every option image** —
+the author reviews images, not filenames.
+
+## СТУПА + ПОМЕЛО — LOCKED (2026-08-06): `charsheets/baba_stupa_flight.png` (flight canon)
+Яга flies IN THE СТУПА at human scale: a carved wooden mortar (folk rosette band), tilted
+mid-air with a wind swirl beneath, her legs hidden below the rim. Tool grammar, canonical:
+the tied birch BESOM stays in her hand (bristles up), and the ПОМЕЛО — long pole with a
+SHAGGY RAG head, visually distinct from the besom — trails out of the ступа behind her
+(помелом след заметает). Neutral prop reference for the vessel itself (grounded goblet
+silhouette, full base visible): `charsheets/stupa_prop_ref.png`. Compositing cutout:
+`ep1prod/build/cutouts/baba_stupa_flight_cut.png`.
+
+## FAMILY SCALE AUTHORITY v2: `charsheets/FAMILY_SCALE_AUTHORITY_v2.jpg` (all five locked sheets)
+Supersedes v1. Registry heights (В 3.15 / Ф 3.5 / **Яга 3.6 hunched** / М 3.9 / П 4.5in), heads
+all ≈ one 1.4in family band, **heels on the ground line** (align by heel contact — the toe tip
+sits ~2% of body height lower in these ¾ renders; never align by lowest pixel). Cutouts via
+`image_background_remover` (own color-heuristic masks fail on beige-on-beige — banked lesson).
+Яга's crown is measured in head columns only (left 62% of her bbox) — the upright broom must
+never count as her height (same per-character crown-override lesson as the staff mock).
+
+## МАМА v3 — superseded design pass (2026-08-06): `charsheets/mama_v3_final.png`
+Derived from Фрося (candidate A face), then made DISTINCT by author direction:
+**golden-blonde thick SIDE BRAID + the red-gold candy-wrapper kerchief over it; GREEN-HAZEL
+eyes; mustard blouse, cream whip-stitched apron with the blank-tile pocket, plain russet skirt
+with one patch; barefoot.** No florals, no pinks/teals — zero overlap with Фрося's palette.
+Face = candidate A unchanged (reads under 40). `mama_lowpoly_v1.png` (dumpling) is RETIRED —
+it appears in shot «Я САМ» Scenes 2–3; reshoot decision pending. STILL OPEN on v3: the family
+head-law proportion pass (head same absolute size as the kids, body ≈3 head-heights) — the
+sheet inherits A's proportions and needs that check before heavy scene use.
+
+## МАМА REDESIGN — history (2026-08-02…04)
 
 The approved-and-shot Мама (`charsheets/mama_lowpoly_v1.png`, the round dumpling) reads as
 "an adult woman", not as the kids' species — parent wants her REDERIVED FROM ФРОСЯ:
