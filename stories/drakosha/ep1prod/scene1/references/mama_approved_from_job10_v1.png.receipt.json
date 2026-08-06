@@ -1,0 +1,10 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "sceneId": "EP1-S02",
+  "stage": "refs",
+  "subjectId": "MAMA_APPROVED",
+  "provenance": "frame extracted from Seedance clip job10 (SH018-SH020), t=4.5s, rnd/seedance_test/skill_run2/clip10.mp4",
+  "approvedBy": "author",
+  "approvedOn": "2026-08-06",
+  "note": "Author decision: the mama rendition in SH018-020 (job 10) IS the canonical mama. No regeneration of job 10. All future mama shots must attach this reference. Long brown hair, simple tan dress, thin baby boy (Rusya) on arm, round baby girl (Musya) held close."
+}
