@@ -1,0 +1,10 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "sceneId": "EP1-S02",
+  "stage": "refs",
+  "subjectId": "PAPA_APPROVED",
+  "provenance": "frame extracted from Seedance clip job10 (SH018-SH020), t=9.0s, rnd/seedance_test/skill_run2/clip10.mp4",
+  "approvedBy": "author",
+  "approvedOn": "2026-08-06",
+  "note": "Author decision: the papa rendition in SH018-020 (job 10) IS the canonical papa. Spiky brown hair, thick brows, freckles, short full beard, gap in front teeth, warm khaki/olive work shirt; grey-blue patched trousers rolled at the cuff, barefoot (visible in the same clip's foreground). All future papa shots must attach this reference. Other scenes' papa renditions are off-model."
+}
