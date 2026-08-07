@@ -1,0 +1,18 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "stage": "refs",
+  "approvedBy": "author",
+  "approvedOn": "2026-08-06",
+  "model": "nano_banana_pro",
+  "subjects": {
+    "T-VAS-CAT-01": "T-VAS-CAT-01_approved.png — v1, approved as-is",
+    "T-VAS-MAMA-01": "T-VAS-MAMA-01_approved.png — v1 side-by-side sheet, approved as-is",
+    "T-VAS-WASP-01": "T-VAS-WASP-01_approved.png — v1 (the original slim wasp) chosen over v2/v3/v4: biggest head-to-body ratio = most face per inch, decisive for the candle-hole squeeze"
+  },
+  "scaleAmendments": {
+    "T-VAS-WASP-01": "body 0.60 in (half a head, clearly bigger than the 0.43 in hand), wingspan ~0.95 in, folded travel width <= 0.55 in",
+    "SET-CANDLE-HOLE-01": "widened to ~0.70 x 0.80 in clear",
+    "newLaw": "HEAD-BLOCK REACH LAW (author): domovyata cannot reach into floor holes because their oversized heads hit the floor before the shoulder gets close — this justifies the wider hole, keeps children from slipping through (heads ~1.2 in wide), and plays as physical comedy (Frosya cheek-down, arm scrabbling, head thunk)."
+  },
+  "note": "Vasya's transformation forms all wear his signature bushy eyebrows. Wasp appears EP1 only."
+}
