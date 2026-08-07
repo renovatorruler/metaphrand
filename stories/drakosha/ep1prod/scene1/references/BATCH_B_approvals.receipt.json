@@ -1,0 +1,14 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "stage": "refs",
+  "approvedBy": "author",
+  "approvedOn": "2026-08-07",
+  "subjects": {
+    "D-FRO-ARTBOX-01": "D-FRO-ARTBOX-01_approved_tin.png — AUTHOR-SUPPLIED final asset (round vintage candy tin, two states, five wax cores in a stitched tool-roll band). Author ruling: core count and stripe hue as shown are canon; no one counts cores.",
+    "D-FRO-PENCIL-01": "D-FRO-PENCIL-01_approved.png — v3, low-poly, constant length in EP1. SAME OBJECT as the pencil on Frosya's locked packet sheet (behind her ear after the granting) — one asset, two placements; do not redesign the packet sheet.",
+    "D-MAM-CHEST-01": "D-MAM-CHEST-01_approved.png — v1 bird-clasp chest, approved as-is."
+  },
+  "designAmendments": {
+    "D-VAS-POUCH-01": "SINGLE-PIECE CLOTH (author law): at домовята scale a pouch is cut from ONE found scrap with a drawstring — never patchwork; patchwork is for garments assembled from many scraps, not for palm-sized objects. FIELD-KIT CONTENTS: one tile per learned letter + spares of А, О, М (~11 tiles); the dispensed fistfuls live in the chest at home. Tiles visible at/in the pouch in any shot must come only from the episode's learned set."
+  }
+}
