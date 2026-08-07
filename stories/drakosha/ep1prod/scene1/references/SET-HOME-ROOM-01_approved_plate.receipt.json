@@ -1,0 +1,9 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "stage": "refs",
+  "subjectId": "SET-HOME-ROOM-01",
+  "approvedBy": "author (implicit via job-10 canon rulings)",
+  "approvedOn": "2026-08-07",
+  "provenance": "frame t=0.5s from rnd/seedance_test/skill_run2/clip10.mp4 — the same clip whose мама and папа renditions the author locked as canon",
+  "use": "LOCATION REFERENCE ONLY: geography, materials, lighting, props (fireplace right, samovar dresser left, string lights, window, beds, spool table center, herringbone floorboards, round rug). Ignore the characters in the plate per the location-reference law. The cloth-covered юла in frame is superseded by R-EP1-TOP-01_approved.png."
+}
