@@ -9,7 +9,7 @@ Updated 2026-08-07. Statuses: ✅ APPROVED (registered with receipt) · 🔄 IN 
 - ✅ [S5+] T-VAS-WASP-01 (slim v1, 0.6in author-locked, head-block law)
 
 ## GIFTS & MAGIC KIT — approved
-- ✅ [S2-4] R-EP1-TOP-01 юла v2 (closed seams; PULL-CORD start canon)
+- ✅ [S2-4] R-EP1-TOP-01 юла — AUTHOR-SUPPLIED final (integrated pull-cord: wound rope, guide hole, toggle handle)
 - ✅ [S2-4] D-FRO-ARTBOX-01 the candy tin (AUTHOR-SUPPLIED asset)
 - ✅ [S2-4] D-FRO-PENCIL-01 v3 (low-poly, constant length in EP1; same object as on Фрося's sheet)
 - ✅ [S2-4] D-MAM-CHEST-01 bird-clasp сундук
@@ -22,6 +22,7 @@ Updated 2026-08-07. Statuses: ✅ APPROVED (registered with receipt) · 🔄 IN 
 - ⬜ [S2-4] SET-STOVE-HATCH-01 soot route (job 18) — same decision as roof.
 - 🔄 [S1] G-EP1-SOCK-01 four cloth states (rendering)
 - ✅ [S1] Dresser passage / drawer interior / red car — existing approved candidates
+- 🔄 [S1] G-EP1-CHILDHAND-01 + car SCALE PAIR (hand = car length; fixes clip 9's adult-giant paw) — generating
 - ⬜ [S1] G-EP1-DRESSER-01 final dresser asset — registry flags current staging "pending certification"
 - ⬜ [S5+] SET-HOME-RAMP-01, SET-ROAD-01, SET-CANDLE-HOLE-01 (@0.70×0.80in per head-block law), SET-CANDLE-POCKET-01, SET-MOM-NICHE-01
 
