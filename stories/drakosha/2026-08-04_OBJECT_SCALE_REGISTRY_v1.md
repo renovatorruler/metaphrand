@@ -82,7 +82,7 @@ These hand figures are layout guides, not permission to enlarge her hands from s
 | `R-FRO-PIN-01` | Large safety pin / `английская булавка` | R | **LOCKED identity and presence; WORKING size** | 2.00 × 0.55 in / 5.08 × 1.40 cm when closed | 0.57 F long. Permanently visible from Scene 1 onward. It crosses her torso and fastens her purse. It is never an optional accessory. |
 | `D-FRO-PURSE-01` | Stitched purse | D | **LOCKED identity** | 0.80 × 0.65 × 0.28 in / 2.03 × 1.65 × 0.71 cm | Attached to the lower part of the closed safety pin. Holds neatly folded paper and small ordinary supplies, not the stationary colored-core box. |
 | `R-FRO-PAPER-01` | Cut human-paper drawing scraps | R | WORKING | About 2.40 × 1.80 in / 6.10 × 4.57 cm open | Stored neatly folded in Frosya's purse and unfolded before use. Large enough when open for the final car and six letter boxes while remaining manageable on the home floor. |
-| `D-FRO-PENCIL-01` | Baba Yaga's magical pencil | D | WORKING | Initial length 1.15 in / 2.92 cm; diameter 0.09 in / 2.3 mm | About one-third of Frosya's height. Fits behind her ear after Baba gives it to her. It is absent before the birthday gift and shortens with use. |
+| `D-FRO-PENCIL-01` | Baba Yaga's magical pencil | D | **AUTHOR-LOCKED 2026-08-06** | Constant length 1.15 in / 2.92 cm throughout EP1; diameter 0.09 in / 2.3 mm | About one-third of Frosya's height. Fits behind her ear after Baba gives it to her. Absent before the birthday gift. THE PENCIL DOES NOT VISIBLY SHORTEN IN EP1 (author: three or four written words would not shrink any real pencil; wear-with-use is a series mechanic reserved for later episodes, where finite magic can carry story weight). |
 | `R-FRO-CORE-SET-01` | Colored-pencil core fragments | R | WORKING | Each 0.75–1.00 in long × about 0.12 in thick / 1.9–2.5 cm × 3 mm | Human pencil cores used as Frosya-scale crayons. They stay in the home art box. |
 | `D-FRO-ARTBOX-01` | Handmade slotted art box | D | WORKING | 2.00 × 1.25 × 0.30 in / 5.08 × 3.18 × 0.76 cm | Stationary home object. Holds the colored cores individually so their colors remain visible. |
 
@@ -94,7 +94,7 @@ Use keyed models rather than allowing the pencil to drift between generated shot
 
 | State | Story position | Working visible length |
 |---|---|---:|
-| `P0` | Gifted by Baba Yaga; before any magic words | 1.15 in / 2.92 cm |
+| `P0` | The ONLY EP1 state — constant through the whole episode (author-locked 2026-08-06; P1–P3 below are RETIRED for EP1 and reserved as a later-season wear mechanic) | 1.15 in / 2.92 cm |
 | `P1` | After `СОК`, `САЛАТ`, and `МАК` | about 1.08 in / 2.74 cm |
 | `P2` | After `САМОКАТ`, `БАК`, and `МОТОК` | about 0.98 in / 2.49 cm |
 | `P3` | After writing the available letters in final `МА□□□А` | about 0.95 in / 2.41 cm |
