@@ -48,3 +48,13 @@ venv/
 # nothing is hard-deleted — removed files move here, structured by original path;
 # reclaiming space is a manual per-project sweep (see studio/scripts/trash.sh --report)
 .trash/
+
+# binaries — never commit, never LFS
+*.jar
+
+# built artefacts — regenerable, never commit
+game_dist_mac/
+tools/*.jar
+*.jar
+# generated storyboards — regenerable from production/tools/panels*.py
+stories/drakosha/production/kuku_flow/boards/*_v*.jpg
