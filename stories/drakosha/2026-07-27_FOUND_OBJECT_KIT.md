@@ -74,7 +74,7 @@ I described the chairs at the far wall as "kilim tub chairs". They are **sock ch
 
 > They're sock chairs around the low tea table, but I do not know what you're describing.
 
-"Tub chair" and "kilim" are furniture-catalogue words. Nothing in this house comes from a catalogue — every object is a found human thing repurposed, and its name should say what it was before. A sock chair is a sock: the foot makes the seat, the folded cuff makes the back and arms, and the patterned knit is the sock's own pattern. Calling it a tub chair describes the silhouette and throws away the joke.
+"Tub chair" and "kilim" are furniture-catalogue words. Nothing in this house comes from a catalogue — every object is a found human thing repurposed, and its name should say what it was before. A sock chair is a sock and **it has no arms**. The cuff is rolled down into a fat round drum that is the seat; the rest of the sock stands up behind it and leans back, and that is the whole chair. The knit is the sock's own — cream ground with bands of red, dark green and navy, diamonds around the drum and a single large star on the back. One continuous soft object, no frame, no arms, nothing built.
 
 **The rule: name an object by the human thing it used to be.** Not "a low round side table" but the **spool table**. Not "a small metal cup" but a **thimble cup**. Not "a woven basket bassinet" but the **tyre cradle**. Not "storage crates with bedding" but the **matchbox beds**. If a name for something has not been established yet, describe the human object plainly — "a sock", "a walnut shell" — and never reach for a design term to cover the gap.
 
@@ -82,13 +82,22 @@ I described the chairs at the far wall as "kilim tub chairs". They are **sock ch
 
 `ep1prod/scene1/references/SET-HOME-ROOM-02_author_far_wall_v2.png`
 
-- **two sock chairs** around a **low tea table** (its base a coil of yarn), the tea things set out on it
+- **two sock chairs** around a **low tea table**. The table is a wooden thread spool standing on an eight-sided wooden foot, with green yarn wound thick around its waist and a plain round wooden top; on it a metal pot and two cups on saucers
 - the little **stove** with its fire lit and its flue pipe running up
 - a shelf of **thimble cups** in a row above the counter
 - ladles, a whisk and a spatula hung on the wall; kettles and teapots along the counter
-- **spools of coloured thread** stacked underneath the counter — the household's stock, and the reason the room reads as a working home rather than a set
+- a row of **big thread spools** standing under the counter, wound in green, red, orange, blue and purple — the household's stock, and the reason the room reads as a working home rather than a set. The tea table is one of these spools put to use, which is the whole vocabulary in one object.
 - a bench along the right with a **floral shawl** thrown over it
 - a rug with a **ball of green yarn** on it, a basket of nuts, a small inlaid box
 - low on the right, the **niche panel with its iron ring** — where the letter chest lives
 
 The plate is the authority for all of it; this list is a convenience and loses to the picture.
+
+
+### A note on how the last two errors happened
+
+"Kilim tub chairs" was a catalogue word for the silhouette. Correcting it, I then wrote that the cuff makes "the back and arms" — inventing arms for a chair I still had not looked at closely. The author:
+
+> The chair doesn't have any arms. Have you looked at the plate?
+
+Reading a thumbnail is not looking. **Crop into the object at full resolution before describing it.** A description written from a glance will confidently supply the parts a chair is supposed to have rather than the parts this chair has.
