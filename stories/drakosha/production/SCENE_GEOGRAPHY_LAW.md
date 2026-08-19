@@ -75,3 +75,27 @@ s7jobC and s7jobD both say "STRAIGHT DOWN ONTO THE PLANK FLOOR". Both came back 
 This is the same defect as the unnamed background, one level down. A wall was named and the shot still floated, because the shots that lost the room were the ones with no wall in them at all — and I told those shots what they were looking at instead of showing them.
 
 Without it a detail shot is a texture, and a texture belongs nowhere.
+
+
+---
+
+## ADDENDUM 2 — THE PLATE IS THE AUTHORITY, NOT THIS DOCUMENT (2026-08-19)
+
+I labelled a room map from the table above instead of from the approved plate, and put the niche and the chest on the left wall. The left wall is the **matchbox beds**, the arched cleanout door and the tyre cradle. The author:
+
+> The niche and the chest — you're supposed to have the matchstick beds there. You should not be making mistakes like that. You have to look at these images.
+
+**THE RULE: before any wall, prop or position is named in a map, a board, a creative or a prompt, open the approved plate and look at it.** The plate is `ep1prod/scene1/references/SET-HOME-ROOM-01_author_master_v4_hatch_cradle-clear.png`, plus the shot footage for anything the plate does not show. Where this document and the plate disagree, **the plate wins and this document gets corrected.**
+
+### What the plate actually shows
+
+| where | what is there |
+|---|---|
+| **left wall** | matchbox beds in a row (crates with pillows and plaid), the small arched cleanout door with its glowing seam, the tyre-and-rope cradle on its sled |
+| **upstage centre** | the riveted iron stove FRONT, warm light leaking round its edges, hanging lantern, the plank-on-spools table in front of it — **and this is where the birthday cake sits, candles along the edge** |
+| **right / kitchen end** | shelf of thimble cups and canisters, the small shelf with a bowl, the red stool, the rope railing and the ramp down to the underfloor road — and the niche with the chest, a low block in the boulder wall |
+| **floor** | wide planks, macaron cushions, the round floor disc |
+
+The niche as actually shot in scene 7 is a **low** hinged block in a boulder-block wall that swings out; the chest is pulled out onto the floor at the children's height. It is not a tall alcove.
+
+This addendum exists because the failure was not a guess, it was a citation — I trusted a table I had written earlier over the picture in front of me. A table describing a picture is a summary, and summaries lose things.

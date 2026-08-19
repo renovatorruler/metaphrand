@@ -8,8 +8,8 @@ im=Image.new('RGB',(W,H),BG); d=ImageDraw.Draw(im)
 F_H=ImageFont.truetype(FONT,34); F=ImageFont.truetype(FONT,19); FS=ImageFont.truetype(FONT,15); FB=ImageFont.truetype(FONT,22)
 
 d.text((30,24),'СЦЕНА 8 · КТО ГДЕ СТОИТ  (исходные позиции)',font=F_H,fill=INK)
-d.text((30,68),'По уточнению автора: Мама сидит на своём обычном месте, Руся и Муся играют на коврике перед столом рядом с ней.',font=F,fill=DIM)
-d.text((30,92),'Это и есть их стартовая точка — оттуда они и рванут к Васе-Маме.',font=F,fill=DIM)
+d.text((30,68),'Стены подписаны ПО ПЛЕЙТУ, а не по документу: слева кроватки-спичечники и арочная дверца, ниша с сундуком — на кухонном конце.',font=F,fill=DIM)
+d.text((30,92),'Мама на своём месте за столом; Руся и Муся на коврике перед столом рядом с ней — оттуда они и рванут к Васе-Маме.',font=F,fill=DIM)
 
 X0,Y0,X1,Y1=60,140,960,880
 d.rounded_rectangle([X0,Y0,X1,Y1],14,fill=(44,36,30),outline=(120,100,78),width=3)
@@ -32,15 +32,28 @@ d.text((X1-190,Y0+142),'торт',font=FS,fill=(255,214,150),anchor='mm')
 d.text(((X0+X1)//2,Y0+40),'ФРОНТ-ПЛЕЙТ  ·  плита (клёпаная)',font=FB,fill=(248,228,206),anchor='mm')
 d.text(((X0+X1)//2,Y0+66),'здесь ТОРТ со свечами по краю',font=FS,fill=(255,214,150),anchor='mm')
 
-# --- niche with the chest (left wall)
-d.rounded_rectangle([X0+10,Y0+150,X0+64,Y0+270],6,fill=(96,74,58),outline=(140,112,84),width=3)
-d.text((X0+80,Y0+196),'ниша · сундук',font=FS,fill=(196,182,158))
-# --- hatch (left wall lower)
-d.rounded_rectangle([X0+10,Y0+430,X0+58,Y0+520],6,fill=(70,60,52),outline=(130,110,86),width=3)
-d.text((X0+72,Y0+468),'прочистная дверца',font=FS,fill=(196,182,158))
+# --- LEFT WALL: matchbox beds, arched cleanout door, tyre cradle  (from the approved plate)
+for i in range(4):
+    yb=Y0+140+i*66
+    d.rounded_rectangle([X0+12,yb,X0+74,yb+50],5,fill=(150,120,86),outline=(196,166,120),width=2)
+    d.rounded_rectangle([X0+18,yb+6,X0+40,yb+22],3,fill=(232,228,216))
+d.text((X0+88,Y0+118),'КРОВАТКИ-СПИЧЕЧНИКИ',font=FS,fill=(226,206,168))
+d.text((X0+88,Y0+140),'(вдоль всей левой стены)',font=FS,fill=(176,164,146))
+d.rounded_rectangle([X0+12,Y0+424,X0+68,Y0+512],6,fill=(74,66,58),outline=(150,128,100),width=3)
+d.arc([X0+12,Y0+404,X0+68,Y0+460],180,360,fill=(150,128,100),width=3)
+d.text((X0+84,Y0+468),'арочная прочистная дверца',font=FS,fill=(196,182,158))
+d.ellipse([X0+16,Y0+560,X0+72,Y0+616],outline=(178,172,166),width=5)
+d.text((X0+88,Y0+588),'люлька-покрышка',font=FS,fill=(176,164,146))
+# --- NICHE with the chest: kitchen side, LOW block in the boulder wall (scene 7 footage)
+d.rounded_rectangle([X1-72,Y0+300,X1-12,Y0+388],6,fill=(58,50,44),outline=(210,170,110),width=4)
+d.line([(X1-72,Y0+300),(X1-104,Y0+286)],fill=(210,170,110),width=4)
+d.line([(X1-72,Y0+388),(X1-104,Y0+402)],fill=(210,170,110),width=4)
+d.text((X1-116,Y0+330),'ниша · сундук',font=FS,fill=(226,196,140),anchor='rm')
+d.text((X1-116,Y0+354),'полка с напёрстками',font=FS,fill=(176,164,146),anchor='rm')
 # --- ramp / floor opening (right)
 d.polygon([(X1-16,Y0+300),(X1-16,Y0+560),(X1-150,Y0+498),(X1-150,Y0+360)],fill=(72,62,52),outline=(150,126,96),width=3)
 d.text((X1-160,Y0+430),'рампа · люк в полу',font=FS,fill=(196,182,158),anchor='rm')
+d.text((X1-160,Y0+452),'КУХОННЫЙ КОНЕЦ',font=FS,fill=(226,206,168),anchor='rm')
 
 def person(cx,cy,r,col,label,sub=None,ring=False):
     if ring:
