@@ -99,3 +99,19 @@ I labelled a room map from the table above instead of from the approved plate, a
 The niche as actually shot in scene 7 is a **low** hinged block in a boulder-block wall that swings out; the chest is pulled out onto the floor at the children's height. It is not a tall alcove.
 
 This addendum exists because the failure was not a guess, it was a citation — I trusted a table I had written earlier over the picture in front of me. A table describing a picture is a summary, and summaries lose things.
+
+
+---
+
+## ADDENDUM 3 — THE TWO PLATES, NAMED (2026-08-19)
+
+The room has **two** author plates, shot in opposite directions, and every shot in the house sits against one of them.
+
+| plate | file | what is in it |
+|---|---|---|
+| **FRONT** | `SET-HOME-ROOM-01_author_master_v4_hatch_cradle-clear.png` | the riveted iron stove face upstage with light leaking round it, the plank-on-spools table in front of it, the matchbox beds and the arched cleanout door along the left, the tyre cradle, the rope railing and the ramp down to the underfloor road on the right. **The birthday cake sits here, candles along the edge — behind Бабушка-Яга.** |
+| **BACK** | `SET-HOME-ROOM-02_author_far_wall_v2.png` | the far wall, the kitchen end: the little stove with its fire lit and its flue, the shelf of thimble cups, hanging ladles and teapots, spools of coloured thread beneath the counter, two kilim tub chairs and a spool table with the tea things, the bench with the floral shawl, the rug with the ball of yarn — **and the niche panel with its iron ring, low on the right.** This is what stands behind Фрося. |
+
+So the niche is **in the back plate**, not on a side wall — and shot 3 of the author's СОК sequence needs nothing generated, because the plate for it already exists.
+
+**How this was got wrong:** I had printed a directory listing that contained `SET-HOME-ROOM-02_author_far_wall_v2.png`, opened only ROOM-01, and then asked the author which wall the back plate was. The evidence was on my own screen. Addendum 2 says open the plate; this one adds: **open ALL of them, and treat a file you have not opened as a question you have not answered.**

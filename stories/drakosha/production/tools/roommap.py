@@ -8,7 +8,7 @@ im=Image.new('RGB',(W,H),BG); d=ImageDraw.Draw(im)
 F_H=ImageFont.truetype(FONT,34); F=ImageFont.truetype(FONT,19); FS=ImageFont.truetype(FONT,15); FB=ImageFont.truetype(FONT,22)
 
 d.text((30,24),'СЦЕНА 8 · КТО ГДЕ СТОИТ  (исходные позиции)',font=F_H,fill=INK)
-d.text((30,68),'Стены подписаны ПО ПЛЕЙТУ, а не по документу: слева кроватки-спичечники и арочная дверца, ниша с сундуком — на кухонном конце.',font=F,fill=DIM)
+d.text((30,68),'Два плейта одной комнаты: ФРОНТ (ROOM-01, клёпаная плита, стол, торт) и БЭК (ROOM-02, дальняя кухонная стена с нишей).',font=F,fill=DIM)
 d.text((30,92),'Мама на своём месте за столом; Руся и Муся на коврике перед столом рядом с ней — оттуда они и рванут к Васе-Маме.',font=F,fill=DIM)
 
 X0,Y0,X1,Y1=60,140,960,880
@@ -44,16 +44,10 @@ d.arc([X0+12,Y0+404,X0+68,Y0+460],180,360,fill=(150,128,100),width=3)
 d.text((X0+84,Y0+468),'арочная прочистная дверца',font=FS,fill=(196,182,158))
 d.ellipse([X0+16,Y0+560,X0+72,Y0+616],outline=(178,172,166),width=5)
 d.text((X0+88,Y0+588),'люлька-покрышка',font=FS,fill=(176,164,146))
-# --- NICHE with the chest: kitchen side, LOW block in the boulder wall (scene 7 footage)
-d.rounded_rectangle([X1-72,Y0+300,X1-12,Y0+388],6,fill=(58,50,44),outline=(210,170,110),width=4)
-d.line([(X1-72,Y0+300),(X1-104,Y0+286)],fill=(210,170,110),width=4)
-d.line([(X1-72,Y0+388),(X1-104,Y0+402)],fill=(210,170,110),width=4)
-d.text((X1-116,Y0+330),'ниша · сундук',font=FS,fill=(226,196,140),anchor='rm')
-d.text((X1-116,Y0+354),'полка с напёрстками',font=FS,fill=(176,164,146),anchor='rm')
 # --- ramp / floor opening (right)
 d.polygon([(X1-16,Y0+300),(X1-16,Y0+560),(X1-150,Y0+498),(X1-150,Y0+360)],fill=(72,62,52),outline=(150,126,96),width=3)
 d.text((X1-160,Y0+430),'рампа · люк в полу',font=FS,fill=(196,182,158),anchor='rm')
-d.text((X1-160,Y0+452),'КУХОННЫЙ КОНЕЦ',font=FS,fill=(226,206,168),anchor='rm')
+
 
 def person(cx,cy,r,col,label,sub=None,ring=False):
     if ring:
@@ -99,9 +93,10 @@ def cam(cx,cy,ang,lab):
     d.polygon([(cx-9,cy-9),(cx+9,cy-9),(cx+9,cy+9),(cx-9,cy+9)],fill=(255,206,110))
     d.text((cx,cy+24),lab,font=FS,fill=(255,214,130),anchor='mm')
 cam(WX-40,Y1-30,-90,'кадры 1-2-4 (сверху)')
-cam(TX-60,TY+120,96,'кадр 3 — смотрим НА Фросю')
-d.rounded_rectangle([X0+150,Y1-104,X0+560,Y1-46],8,outline=(240,130,120),width=3)
-d.text((X0+355,Y1-75),'BACK PLATE — за Фросей.  КАКАЯ СТЕНА?',font=F,fill=(240,130,120),anchor='mm')
+cam(TX-120,TY+96,100,'кадр 3 — от стола НА Фросю (за ней back plate)')
+d.rounded_rectangle([X0+10,Y1-96,X1-10,Y1-14],8,fill=(96,72,54),outline=(210,170,110),width=3)
+d.text(((X0+X1)//2,Y1-70),'BACK PLATE  ·  дальняя стена, кухонный конец   (SET-HOME-ROOM-02)',font=FB,fill=(248,224,190),anchor='mm')
+d.text(((X0+X1)//2,Y1-42),'печурка с огнём · полка с напёрстками · два кресла и столик · лавка с платком · НИША С КОЛЬЦОМ',font=FS,fill=(226,200,160),anchor='mm')
 cam(WX+330,WY+70,-158,'кадры 6-7')
 
 # --- the two moves that happen in this scene
@@ -125,7 +120,9 @@ notes=[('Малыши сидят рядом с настоящей мамой.',
        ('Мама встаёт со своего места дважды.',
         'За маком (кадр 117) и снимать малышей (132-133).\nОба раза — от стола к детям, один и тот же путь.'),
        ('За Ягой — ФРОНТ-плейт, и там торт.',
-        'Плита клёпаная, стол прямо перед ней. Торт со\nсвечами по краю — фон для всех кадров со столом.')]
+        'Плита клёпаная, стол прямо перед ней. Торт со\nсвечами по краю — фон для всех кадров со столом.'),
+       ('За Фросей — БЭК-плейт, он у нас ЕСТЬ.',
+        'SET-HOME-ROOM-02_author_far_wall_v2.png. Ничего\nгенерировать под кадр 3 не нужно.')]
 y=190
 for t,b in notes:
     d.text((CX,y),'•  '+t,font=F,fill=(240,214,180)); y+=26
@@ -133,8 +130,8 @@ for t,b in notes:
         d.text((CX+18,y),ln,font=FS,fill=DIM); y+=20
     y+=16
 d.rounded_rectangle([CX-10,y+6,W-30,y+120],10,outline=(226,116,92),width=2)
-d.text((CX+6,y+22),'ОТКРЫТО',font=FS,fill=(226,116,92))
-d.text((CX+6,y+46),'Какая стена — back plate за Фросей?',font=FS,fill=(232,220,200))
-d.text((CX+6,y+66),'См. отдельную картинку с A / B / C / D.',font=FS,fill=(232,220,200))
+d.text((CX+6,y+22),'НА ПОДТВЕРЖДЕНИЕ',font=FS,fill=(226,116,92))
+d.text((CX+6,y+46),'Порядок кадров 1-7 и деление реплики 52.',font=FS,fill=(232,220,200))
+d.text((CX+6,y+66),'Всё остальное по сцене 8 — закрыто.',font=FS,fill=(232,220,200))
 d.text((CX+6,y+92),'Сборка СОК из фишек — решено: целиком, но МОЛЧА.',font=FS,fill=(178,168,150))
 im.save('/tmp/SCENE8_ROOM_MAP.jpg',quality=94); print('ok',im.size)
