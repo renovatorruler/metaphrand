@@ -58,3 +58,6 @@ tools/*.jar
 *.jar
 # generated storyboards — regenerable from production/tools/panels*.py
 stories/drakosha/production/kuku_flow/boards/*_v*.jpg
+
+# 3D models — regenerable from the receipt, never commit
+stories/drakosha/production/tripo3d/**/*.glb
