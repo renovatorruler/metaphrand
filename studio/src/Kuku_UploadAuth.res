@@ -3,6 +3,9 @@
    Run from studio/: node src/Kuku_UploadAuth.res.mjs */
 let main = async () => {
   let pending = await Cinema_Upload.authStart()
-  await Cinema_Upload.authPoll(pending)
+  switch await Cinema_Upload.authPoll(pending) {
+  | () => ()
+  | exception Cinema_Upload.UploadError(m) => Js.log("AUTH FAILED: " ++ m)
+  }
 }
 main()->ignore

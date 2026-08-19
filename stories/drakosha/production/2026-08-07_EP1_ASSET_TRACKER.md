@@ -3,7 +3,7 @@
 Updated 2026-08-07. Statuses: ✅ APPROVED (registered with receipt) · 🔄 IN FLIGHT (generating/awaiting author verdict) · ⬜ NOT STARTED · 🚫 BLOCKED. Scope tags: [S1] scene 1 · [S2-4] the current re-render (jobs 10–19, SH018–046) · [S5+] later scenes.
 
 ## CHARACTERS — all approved
-- ✅ Фрося, Вася, Мама, Папа, Яга (both forms + 1:16 pair), Ступа, Руся+Муся pose library, family scale lineup — the author's packet, 2026-08-06.
+- ✅ PACKET v2 (2026-08-09, 16pp) = SOLE CANON, fully rasterized to references/packet_v2/ (no selection step). Supersedes v1 (2026-08-06, 15pp; only 8/15 pages were ever rasterized — папа's page among the missed, cause of the crop workaround). packet_pages/ = provenance only. Registry (Drakosha_SeedanceBatch.res) reads packet_v2 exclusively; папа's iron key now in his tag line.
 - ✅ [S2-4] T-VAS-MAMA-01 (Вася-as-мама gag sheet)
 - ✅ [S5+] T-VAS-CAT-01 (ginger cat, brows)
 - ✅ [S5+] T-VAS-WASP-01 (slim v1, 0.6in author-locked, head-block law)
@@ -17,9 +17,9 @@ Updated 2026-08-07. Statuses: ✅ APPROVED (registered with receipt) · 🔄 IN 
 - ✅ [S2-4] D-VAS-POUCH-01 — single-cloth law + field-kit contents in registry; visual = the pouch on the tile sheet
 
 ## SETS & ROUTES
-- ✅ [S2-4] SET-HOME-ROOM-01 — job-10 canon plate registered (location-reference-only receipt)
+- ✅ [S2-4] SET-HOME-ROOM-01 — AUTHOR FINAL master locked 2026-08-07 (`SET-HOME-ROOM-01_author_master_FINAL.png`): boulder-scale red-brown brick, iron plate wall + glow seams, 4 matchbox beds + cradle, matchstick-twine railing, deep brick-walled pit to cement foundation. A/B = canon source, dark deep-hall variant = secondary angle plate. v2–v8 + job-10 plate all retired.
+- ✅ [S2-4] SET-YAGA-DOOR-01 — two-state sheet approved (closed / burst-open with soot); kid-logic route law in registry; SH018+SH042 script lines conformed.
 - ⬜ [S2-4] Roof + chimney exterior (jobs 15–16, Яга's flight) — extract from batch-2 clips IF author blesses their look, else generate. DECISION PENDING.
-- ⬜ [S2-4] SET-STOVE-HATCH-01 soot route (job 18) — same decision as roof.
 - 🔄 [S1] G-EP1-SOCK-01 four cloth states (rendering)
 - ✅ [S1] Dresser passage / drawer interior / red car — existing approved candidates
 - 🔄 [S1] G-EP1-CHILDHAND-01 + car SCALE PAIR (hand = car length; fixes clip 9's adult-giant paw) — generating

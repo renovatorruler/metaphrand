@@ -1,12 +1,20 @@
-# कुकु और अक्षर — ADVENTURE MODE (series evolution, 2026-07-21)
+# कुकु और अक्षर — ADVENTURE MODE (historical transition plan, 2026-07-21)
 ### "अक्षर वीर" — the Letter Heroes
+
+> **STATUS UPDATE, 2026-08-11:** This file records the first move away from the gentle Episode 1
+> model. Its proposed recurring chant, trio-plus-Kalu team, and Mitasur theft loop were superseded
+> by delivered episodes and the active Gurukul phase. For Episode 9 onward use
+> `AKSHAR_GURUKUL_CANON.md`, `CHARACTER_BIBLE.md`, and `TEAM_CHARTER_PROPOSED.md`. Mitasur is a
+> reformed ally; Cheel is the continuing nemesis; the five equal trainees are Kuku, Fyuria, Vesper,
+> Castor, and Leda. Do not copy the obsolete chant or engine below into a new draft.
 
 *Author's note: the kids are more mature than Ep1's gentle tier — they love Miniforce, Go-Go
 Dino, Super Kitties. This is the frame that levels the show up to that tier WITHOUT dropping a
 single teaching element. Applies from Ep2 onward (Ep1's fate TBD after this outline lands).*
 
-## What stays (every pedagogy law survives)
-Sesame-forward letter reveal · the टोपी/hat disambiguation · «साँस… टोपी… अक्षर!» power-up ·
+## What this historical proposal tried to preserve
+Sesame-forward letter reveal · a proposed टोपी disambiguation · a proposed
+«साँस… टोपी… अक्षर!» power-up **now retired** ·
 proper-Hindi 2a/2b (complete sentences, आप to elders) · «पहले मैं!» / «हिंदी में, वैस्पर!» /
 Vesper-asleep button · the to-camera word-harvest RECAP (added Ep1 v7) · character-sheet
 production + filler-take + no-stretch edit laws.
@@ -20,7 +28,8 @@ The trio + Kalu are the valley's protectors. Each gift is now LOAD-BEARING in ac
 - **वैस्पर** — सब देखता है: dreamy sight; spots what's hidden (his Ep1 "hears the puppy" gift, weaponized).
 - **कालू** — सूँघता है: tracks by nose.
 Base = Dadi Maya's rock (the अक्षर rock — she's mentor/handler, Sesame host). Call-up:
-**«अक्षर वीर, तैयार?!»** → the chant «साँस… टोपी… अक्षर!» is now the suit-up/transformation.
+**Historical proposal only:** «अक्षर वीर, तैयार?!» → «साँस… टोपी… अक्षर!». Both are retired as a
+transformation chant.
 
 ### 2. The villain: मिटासुर (Mitasur, "the Eraser")
 A roly-poly comic goblin with sponge-hands / a big eraser-tail who **rubs out letters** for
@@ -38,12 +47,15 @@ and foil him. Letter of the day = objective = weapon.
 ### 4. The repeatable episode engine (mature)
 1. **Ordinary open** — valley life + the kids' dynamic (a माशा letter can open it).
 2. **THE THEFT** — मिटासुर strikes; the day's letter vanishes; something breaks (stakes visible).
-3. **आज का अक्षर** — Dadi: to fix it we must learn this letter! (reveal + टोपी, now motivated).
+3. **आज का अक्षर** — Dadi: to fix it we must learn this letter! (historical recurring टोपी proposal,
+   now retired).
 4. **THE HUNT** — team set-piece: gifts track/chase मिटासुर and find the stolen letter.
-5. **THE POWER-UP** — «अक्षर वीर, तैयार!» + «साँस… टोपी… अक्षर!» → Kuku forges the letter.
+5. **THE POWER-UP (retired form)** — «अक्षर वीर, तैयार!» + «साँस… टोपी… अक्षर!» → Kuku forges the
+   letter. Do not reuse this cadence.
 6. **THE FIX + FOIL** — reforged letter restores the words, foils मिटासुर (comic).
 7. **HEART** — the emotional core beat (Ep2: chick + माँ; the दादी reveal).
-8. **RECAP** — Dadi to camera, the day's words RESTORED + टोपी rule; goodnight button.
+8. **RECAP** — Dadi to camera, the day's words restored + the then-proposed टोपी rule; goodnight
+   button. The recurring टोपी rule is not current canon.
 
 Runtime target ~11 min (Ep1 length). Story sophistication UP (villain, stakes, mission, team);
 the teachable Hindi stays SIMPLE (Miniforce dialogue isn't complex — the PLOTS are).

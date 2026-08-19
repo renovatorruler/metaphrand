@@ -33,7 +33,7 @@ The script layer stays pure Hindi (series law). At recording, the pipeline trans
 | रोता-हँसता | [laughing through tears] |
 | गर्व से | [proud] |
 | शाबाशी से | [encouraging] |
-| प्यार से / नरमी से / बिना डाँटे | [gently] |
+| प्यार से / नरमी से / फिर नरमी से / बिना डाँटे | [gently] |
 | राहत से | [relieved] |
 | गंभीर होकर / सीधे, साफ़ आवाज़ में | [serious and clear] |
 | धीमी, सयानी आवाज़ में | [slow and wise] |

@@ -1,0 +1,44 @@
+SCENE CONTEXT
+Evening at home. The grandmother, settled in with the children, asks the birthday girl what she dreams of. The mother tries to head it off. The girl explodes with her answer and shows the drawing she has already made.
+
+START FRAME
+The sequence begins on the supplied start image and continues from it. That image is the truth for the set, the characters, their positions, the lighting and the lens.
+
+LOCATION MAP
+One room, walls of ENORMOUS pale sandstone boulder-blocks — each block bigger than a character's whole body. This is the scale-tell of the show; it must NEVER become small brick or normal masonry. Left: a small iron stove with a lit fire, a work counter, and two knitted armchairs round a low table on a thread-spool base. Right: a carpeted bench and a low wooden stool. Between them a floral rug with a huge ball of green yarn. Coloured bulbs strung overhead.
+
+ALL DIALOGUE IS IN RUSSIAN. Speak exactly these lines, in Russian, and nothing else. No English anywhere.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Two shots, two camera positions. HARD CUTS only.
+
+Shot A, 0:00 to 0:05 — the WIDE, exactly the supplied start frame, same camera. The grandmother in the red polka-dot kerchief sits on the low wooden stool at the right, watching the children. She turns her head toward the girl on the rug and speaks, fondly and with a sly glint, narrowing her eyes:
+БАБУШКА-ЯГА: «Ну, имени́нница. О чём мечта́ешь?»
+Around her nothing stops — the boy keeps rolling the ball of yarn toward the smallest toddler, the father works at the stove with his back turned. The girl is lying on her front on the rug drawing and is NOT paying attention when the question begins — but the words reach her: partway through the line her pencil stops, her head comes up off the paper and she turns to look at the grandmother, eyes widening. The question has landed and she has heard it. She does not get up yet.
+HARD CUT.
+Shot B, 0:05 to 0:08 — CLOSE ON THE MOTHER in her knitted armchair, sleeping infant against her shoulder. Her hand stops halfway. She looks across the room at the grandmother and speaks low, warning, careful not to wake the baby:
+МАМА: «Ма́ма…»
+OPTICS
+Shot A: 47° standard normal, whole room readable, deep focus, rectilinear.
+Shot B: 29° short telephoto, razor focus on her face, stove glow to warm bokeh behind.
+No lens drift inside a shot. Plain full-frame image: no vignette, no dark oval, no iris.
+
+PROPS — CRITICAL
+The scrap of paper carries a child's drawing of a RED CAR: red body, round wheels, two round headlights. It is a CAR and must stay a car in every frame — never a face, never a scribble, never anything else.
+
+PHYSICS
+Real weight. The yarn ball is heavy and rolls slowly. The girl pushes off the floor with both hands. The paper bends and flaps as she waves it.
+
+LIGHTING
+Warm light from the coloured bulbs overhead and the open door of the little stove. No other source, no daylight, no windows.
+
+AUDIO
+Russian speech only. Room tone, the stove, the yarn rolling, quick light footsteps on the boards. No music, no subtitles.
+
+SHOT RULES
+Exactly six characters, no others, no duplicates: grandmother, elder girl, younger boy, mother, father, two very small ones.
+Every character is stylised low-poly with a LARGE head on a SHORT body — head nearly half the standing height, almost no neck. NEVER realistically proportioned or taller.
+The wall stays giant sandstone boulder-blocks in every frame.
+NOBODY faces the camera or lines up facing the lens.
+The two shots must not share a camera position.
+Dialogue lock: only the grandmother speaks in shot A, only the mother in shot B, no one else speaks. No overlap, no invented lines, no English.

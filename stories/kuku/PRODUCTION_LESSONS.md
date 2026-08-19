@@ -191,3 +191,33 @@ Look at these yourself before publishing:
 - whether the नीति is earned and plain
 - whether the letter's shape is actually taught, and distinguished from the letter it
   is most confusable with
+
+### 20. A reference sheet is only as good as its ANGLES
+**Ep8:** the author reported "a lack of consistency" across characters. The cause was
+not a missing mechanism — every shot already attaches the style key plus each
+character's sheet. It was that all ten legacy sheets were a **single 3/4 portrait**
+(1792×2400, one pose, one expression). Ask for a character looking up, in profile,
+from behind, or mid-run and the model has no reference for that view, so it invents
+one — and invents a different one every time.
+**Now:** every main-cast sheet is a three-view model sheet (side profile, front, head
+close-up), generated WITH THE OLD SHEET ATTACHED as reference so the locked design is
+preserved and only the missing angles are added — never a redesign. Originals kept in
+`charsheets/v1_single_pose/`.
+**Rule:** a new character's sheet is a turnaround from the start (चील's was, and she
+held across seven shots without drifting).
+
+### 21. Soul training is not the consistency tool for THIS show
+**Tested 2026-08-07, empirically, not assumed.** Higgsfield `soul-id` trains a custom
+character model. Findings on one real train (`KukuDragon`, soul_2):
+1. It DOES train on a papercraft dragon — no `face_not_found` (an earlier account
+   train, `GnomeTwo`, had failed that way, so this was a genuine risk).
+2. Likeness held well.
+3. **But the soul models accept at most ONE image reference**, and the soul occupies
+   it — so the STYLE KEY cannot be attached. The test frame came back as a pop-up-book
+   diorama with visible white studio backing: a straight violation of the show's
+   full-bleed / no-frame-within-frame rule.
+4. It ignored an explicit camera instruction ("from behind, head turned back").
+5. One `custom_reference_id` per generation makes ensemble shots impossible; the show's
+   frames routinely carry दादी plus four children.
+**Conclusion:** stay on `nano_banana_pro` (14 reference slots) with turnaround sheets.
+Revisit only if a soul-capable model ever accepts multiple references.

@@ -1,0 +1,43 @@
+SCENE CONTEXT
+The boy reads the eight letters aloud, one at a time, and each one answers him.
+
+ALL DIALOGUE IS IN RUSSIAN. Speak exactly the line below, in Russian, and nothing else. No English anywhere.
+
+WHERE WE ARE
+The back corner of the hall, the row of eight letter tiles lying on the planks in front of the play mat. Nobody changes position.
+
+REACTIONS — WHAT THE FACES DO
+A reference sheet fixes who a character IS, not what a face does. Describe the muscles, not the mood.
+Вася: he starts with his brows drawn together and his lips pressed shut, working at it. As the tiles begin answering him his brows climb and his mouth opens wider on each letter, and by the last one his cheeks are up and his eyes are creased — he is grinning with his whole face. This is the one thing in the episode he is better at than his sister, and his face finds that out during the shot.
+
+WHO IS IN EACH SHOT — AND NOBODY ELSE
+Вася is the ONLY character in this job. Мама, Фрося, Бабушка-Яга, Папа, Руся and Муся do not appear — not in the background, not at the frame edge, not out of focus, not as a hand.
+
+HANDS — WHAT EVERY PAIR IS DOING
+Вася: his right index finger rests on the plank floor just below the first tile and slides along the row, stopping under each one as he names it and moving on. His left hand is planted flat on the mat beside him, holding his weight as he leans over the row. He picks nothing up and touches no tile.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE, two shots, ONE HARD CUT, no fades.
+
+Shot A, 0:00–0:05.5 — STRAIGHT DOWN ONTO THE ROW OF EIGHT TILES on the plank floor, filling the frame. Small square pale-wood tiles, each carved with one Cyrillic letter, reading left to right: А О М С К Т Л Б. ВАСЯ'S FINGER slides along beneath them. As each letter is spoken, THAT TILE and only that tile lights up warm from inside for about half a second and goes out again, in strict left-to-right order. His face is not in frame; his voice is offscreen:
+ВАСЯ (OFFSCREEN): «А. О. М. С. К. Т. Л. Б.»
+HARD CUT.
+
+Shot B, 0:05.5–0:10 — CLOSE ON ВАСЯ, low, at the children's height, the blurred row of tiles across the bottom of frame. He is looking down at the letters, finishing the last of them, and the warm light of the tiles comes up onto his face from below. He does not speak in this shot and his lips do not move.
+
+OPTICS
+Shot A looks straight down, 29° short telephoto, the row filling the frame edge to edge. Shot B is 29° short telephoto at floor height, razor focus on his eyes. Rectilinear, no fisheye, no vignette, no iris.
+
+BACKGROUNDS
+Behind ВАСЯ in Shot B: the room running away from him toward the table end — strung coloured bulbs overhead and the rope railing of the ramp at the frame edge, soft. He has his back to the room and is facing the back wall.
+Shot A looks straight down and shows only plank floor and tiles. That framing shows no wall, deliberately.
+
+SOUND
+Low room tone. His eight letters, spaced, with a small warm chime under each tile as it lights. No music, no subtitles, no narrator.
+
+SHOT RULES
+Only Вася speaks and only in Shot A, where he is NOT in frame. In Shot B nobody's lips move.
+The letters are CYRILLIC — the row is А О М С К Т Л Б and contains no Latin letters, no numbers and nothing else.
+EXACTLY EIGHT TILES. Not seven, not nine, and none of them blank.
+Only ONE tile is lit at any moment, and they light strictly left to right in the order named.
+NO chest, NO pencil, NO pouch and no other objects in frame.

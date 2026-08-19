@@ -1,0 +1,42 @@
+SCENE CONTEXT
+Two house-spirit children run home up the plank ramp from the road below, where their mother stands with the two little ones and their father waits beside his covered birthday present.
+
+LOCATION MAP
+The hall inside the old bricked-up fireplace. Fix the geography and keep it for all three shots. The FAR END of the hall is the huge dark riveted iron plate that seals the old fireplace mouth: it is a SOLID WALL. It has no opening, no door, no hearth and no fire in it; nothing burns there and nobody ever passes through it. Warm light seeps only around its rim. The LEFT wall carries the small dark iron cleanout hatch, low in the brick, shut — it is not a door and nobody uses it. The RIGHT side of the hall has the railed floor opening where a warped plank ramp tilts down through the boards to the road below — THIS is the only way in and out for the family, and it is where the children arrive from. The plank-on-spools table stands mid-hall, matchbox beds along the left wall, a shelf of thimble canisters high on the right, a garland of coloured bulbs overhead.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Shot A opens on the adults mid-task, already busy before anything happens — the children are not home yet. Папа is crouched in the near foreground at frame left with his back half to camera, fussing over the cloth he has thrown across the юла́: he tugs one corner straight, pats it down, steps back to judge whether the shape still gives the surprise away, and keeps glancing over his shoulder toward the ramp in case they arrive early. He never lifts the cloth. The юла́ stands on its own on the floorboards; the cloth lies over the юла́ and over nothing else, and its silhouette is unmistakable — a broad rounded cone as tall as Фрося, widest at the shoulders, tapering to a point on the boards, two bumps where the chairs are and a narrow stalk lifting the cloth at the top. Deeper in frame at the right, Мама is working at the plank table one-handed, holding her two smallest arranged exactly as in the carrying reference while she sets cups down, and breaking off to listen toward the ramp. Neither adult is waiting for the camera; both are occupied and turned into the room.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Three shots, three DIFFERENT camera positions. HARD CUTS only.
+Shot A, 0:00 to 0:04: the camera stands LOW at the FAR END of the hall, down near the floorboards, with the sealed iron plate behind it, looking back down the length of the room toward the ramp opening at the right. Папа's crouched shoulder and the draped юла́ fill the NEAR FOREGROUND at frame left, large and partly cropped by the edge of frame, with the depth of the hall running away past them to Мама at the table and the ramp beyond. The bulbs glow; a thimble kettle bubbles; the little ones make small sounds. No dialogue.
+HARD CUT.
+Shot B, 0:04 to 0:08: the camera has moved to the RIGHT side of the hall, low and close to the floorboards beside the railed opening, looking along the rail. Фрося and Вася come UP THE PLANK RAMP and step onto the boards, breathless and talking over each other, entering frame from the lower right — they arrive from below the floor, never through the little iron hatch in the left wall, which is Бабушка-Яга's alone and stays shut, and never through the far wall. They pass close by the camera and turn into the room, Вася shoving ahead of Фрося. Мама looks up from the table to meet them. Папа scrambles up and plants himself between the children and the covered юла́, arms a little wide, and does not quite manage it — one corner of cloth stays plainly visible past his leg, and Фрося's eyes go straight to it.
+HARD CUT.
+Shot C, 0:08 to 0:12: the camera sits LOW, about a hand's width above the floorboards, tilted upward at Папа, who fills the frame from the waist up against the giant sandstone boulder-brick wall behind him. The covered юла́ stands on the floor behind his shoulder. He looks down toward the camera, holding back a grin, and speaks in Russian, warm and delighted: «Фро́ся, иди́ сюда́. С днём рожде́ния, до́ченька. Смотри́, что я для тебя́ сде́лал.» His torso squares toward the lens; his eyes stay down on the child he is speaking to.
+
+OPTICS
+Shot A: 84° classic wide, deep readable room, straight rectilinear lines, the full length of the hall in frame.
+Shot B: 47° standard normal, low to the floorboards.
+Shot C: 47° standard normal, low and angled up. A plain full-frame image: NO vignette, NO dark oval, NO iris, NO keyhole or porthole shape, NO circular mask, NO looking-through-anything. The frame is a normal rectangle, lit corner to corner.
+No lens drift inside any shot.
+
+CAMERA
+Three static locked frames from three different positions in the room. No movement within a shot.
+
+PHYSICS
+The children arrive up the ramp with real momentum and settle onto the boards. The cloth over the юла́ shifts as Папа moves but never lifts. Мама shifts her stance under the weight she is carrying.
+
+LIGHTING
+Warm light from the bulb garland overhead and a low glow seeping around the rim of the sealed iron plate at the far end. Soft shadows, cosy contrast. No flat front light. No firelight source anywhere in frame.
+
+AUDIO
+The bubbling thimble kettle, small sounds from the little ones, running footsteps on the boards in shot B; Папа speaks his Russian line in shot C, warm, barely containing a smile. No music, no subtitles.
+
+SHOT RULES
+Exactly six characters: Фрося, Вася, Мама, Папа, Руся and Муся — no others, no duplicates. Руся and Муся are two different children, never a matching pair.
+The far wall is SEALED IRON. There is no fire, no flames, no glowing hearth and no opening in it in any frame, and nobody enters or leaves through it.
+The children enter ONLY up the plank ramp from the road below, at the right of the hall.
+The юла́ stays covered in every frame, and the cloth touches nothing but the юла́.
+NOBODY stands in a row facing the camera. In shots A and B the characters are turned toward each other or toward the ramp, seen in three-quarter or from behind, the way people stand in a room they live in.
+Dialogue lock: only the lips of Папа move, and only during his line in shot C. Everyone else is silent. No offscreen voices.

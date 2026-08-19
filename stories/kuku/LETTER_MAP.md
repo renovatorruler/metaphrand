@@ -2,51 +2,55 @@
 
 *The pedagogical spine. Order = **most-useful-first**: letters that (a) name the cast and (b) start the highest-frequency **picturable** preschool words — family, body, animals, food — so a from-scratch 3–5-year-old builds real words from episode one. Not the traditional वर्णमाला order (that's vowels-first, school-primer style); this is utility-first, opening on **क** per the author's brief.*
 
-**Rule for each episode's three words:** concrete, picturable, in a preschooler's world, ideally with a body-part / animal / family / food they can point at or love. The letter's sound sits at the **start** of each word.
+**Default rule for an episode's recap words:** concrete, picturable, lived in the story, and in a
+young child's world. For consonant episodes, the focus sound sits at the start of each recap word.
 
-| Ep | Letter | Anchor (name/beloved word) | 3 picture-words | English gloss |
-|----|--------|----------------------------|-----------------|---------------|
-| 1 | **क** | **कु**कु (the hero!) | कुत्ता · कान · केला | dog · ear · banana |
-| 2 | **म** | **माँ** (mother) · दादी **मा**या | माँ · मछली · मोर | mother · fish · peacock |
-| 3 | **र** | **र**ंग (colors) | रोटी · रस्सी · रात | bread · rope · night |
-| 4 | **न** | **ना**क (nose) | नाक · नाव · नौ | nose · boat · nine |
-| 5 | **प** | **पा**नी (water) · **पा**पा | पानी · पत्ता · पापा | water · leaf · dad |
-| 6 | **त** | **तो**ता — तानसेन (joins the cast!) | तोता · तालाब · तना · तीन · ताली · तानसेन | parrot · pond · trunk · three · clap · Tansen |
-| 7 | **च** | **ची**कू (the friend!) | चाँद · चिड़िया · चम्मच | moon · bird · spoon |
-| 8 | **ब** | **ब**च्चा (child) | बिल्ली · बादल · बकरी | cat · cloud · goat |
-| 9 | **ग** | **गा**य (cow) | गाय · गुब्बारा · गमला | cow · balloon · flowerpot |
-| 10 | **भ** | **भो**लू (the big friend!) | भालू · भात · भँवरा | bear · rice · bumblebee |
-| 11 | **द** | **दा**दी (grandmother) | दादी · दीया · दाँत | grandma · lamp · tooth |
-| 12 | **ल** | **ल**ड्डू (sweet) | लड्डू · लोटा · लाल | sweet · pot · red |
+## Actual chronology — binding through the approved Episode 9
 
-**Cast → letter payoff (why the order helps):** क→कुकु (ep1), म→माया (ep2), **त→तानसेन (ep6)**, भ→भोलू (ep10), द→दादी (ep11). Each of these episodes gets the strongest possible memory hook — the letter is *the name of a friend the child already loves.*
+| Ep | Focus | Anchor / story | Lived recap words |
+|----|-------|----------------|--------------------|
+| 1 | **क** | कुकु rescues कालू | कुत्ता · काला · कान · कीचड़ · कुआँ · कटोरा · कंबल · केला |
+| 2 | **म** | `म से माँ` · दादी माया | माँ · मेला · मिठाई · मोर · मछली · मदद · माया |
+| 3 | **र** | `र से रीछ` | रीछ · रथ · रस्सी · रास्ता · रोटी · रुको |
+| 4 | **न** | `न से नल` | नल · नाक · नींद · नहीं · नन्हा · नौ |
+| 5 | **प** | `प से पुल` | पुल · पत्थर · पैर · पतंग · पेड़ · पापा |
+| 6 | **त** | **तो**ता — तानसेन joins | तोता · तालाब · तना · तीन · ताली · तानसेन |
+| 7 | **आ / ा** | `आ की रात` — first delivered मात्रा story | आम · तारा · रात · नाम · काम · पापा · माता |
+| 8 | **च** | चालाक **चील** — continuing nemesis | चील · चाल · चक्कर · चुप · चाँद · चम्मच |
+| 9 | **ब** | `ब से बड़ा` — first Gurukul transformation | बच्चा · बादल · बकरी |
 
-> **ep7's «च» has lost its anchor — OPEN (2026-07-30).** The plan hung «च» on **चीकू**, but that
-> toddler was renamed **कैस्टर** back in Ep3 and चीकू is retired. So «च» keeps its picture-words
-> (चाँद · चिड़िया · चम्मच) but no longer names anyone the children love, which is the whole reason
-> this ordering exists. Note also that **कैस्टर starts with क**, already spent on Ep1, so he has no
-> letter of his own to look forward to.
->
-> Ep6 accidentally repaired part of this: **तानसेन** is a त name, so Ep6 got the cast-name payoff
-> «च» was supposed to provide.
->
-> Options for ep7, author's call: keep **च** on its picture-words alone · bring forward **फ → फ्यूरिया**
-> or **व → वैस्पर** (both already planned as spotlight episodes, and both name a child the audience
-> IS) · or give **कैस्टर** a name-adjacent letter later. **Not decided.**
+Episode 9 also lives **बड़ा** and **बचाना** in action; they are not additional recap cards.
 
-**UPDATE 2026-07-21 — the kids' own letters (spotlight episodes, slot into the order above):**
+The earlier plan that put `च` in Episode 7 and `ब` in Episode 8 is superseded by delivered work.
+The retired name चीकू never returns as a `च` anchor.
+
+## Working future sequence — letters retained, episode numbers not yet locked
+
+| Focus | Anchor | Candidate picture-words |
+|---|---|---|
+| **ग** | **गा**य | गाय · गुब्बारा · गमला |
+| **भ** | **भो**लू | भालू · भात · भँवरा |
+| **द** | **दा**दी | दादी · दीया · दाँत |
+| **ल** | **ल**ड्डू | लड्डू · लोटा · लाल |
+
+Cast-name payoffs remain useful, but story causality and the Gurukul progression now determine the
+final slot. Do not renumber future episodes until the next story is approved.
+
+**Future child spotlights — episode numbers not yet locked:**
 - **फ → फ्यूरिया (Furia)** — her episode. Words: फल (fruit) · फूल (flower) · फ़ोन (phone). Payoff of
   her Ф arc: *her Hindi letter फ wears the टोपी; her Russian Ф doesn't.*
 - **व → वैस्पर (Vesper)** — his episode. Words: वन (forest) · वर्षा (rain) · वायलिन (violin, TBD).
-- Proposed placement: फ at ep5–6, व at ep7–8 (final order = author's call).
+- Their old proposed placements have passed; place them only after the Gurukul story arc for each
+  is approved.
 - **Ep2 (म) hook:** a letter arrives from **माशा** (Masha — the kids' real best friend; म word!).
   Reference only; Anna & Masha guest appearance in a later episode. (अ→अन्ना is a future vowel hook.)
 
 ## The letter-family strategy (LOCKED 2026-07-21 — how क/ख and all aspirate pairs work)
 
-**Phase 1 (the current run):** base letters only, chosen for MAXIMUM contrast in shape and sound
+**Phase 1 (the current run):** primarily base letters, chosen for maximum contrast in shape and sound
 (never two confusable letters near each other — the b/d principle). English-dominant ears can't
-initially hear aspiration at all, so क→ख back-to-back would poison both.
+initially hear aspiration at all, so क→ख back-to-back would poison both. Delivered Episode 7 is the
+approved `आ / ा` exception recorded below.
 
 **Phase 2 — FAMILY EPISODES:** once a base letter is mastered, its aspirated sibling arrives as
 **its big brother from the same house in अक्षर घाटी** (the वर्णमाला row = a letter family).
@@ -61,26 +65,23 @@ Family episodes re-teach the base letter every time (spaced repetition built in)
 breath!) · ब/भ. Nasals (ङ ञ ण) deferred far out, taught in words only.
 
 **THE वर्णमाला MAP (recurring set-piece):** a paper "letter neighborhood" — the full traditional
-वर्णमाला laid out as little houses. Each learned letter LIGHTS UP in its canonical position at
-the end of its episode. Kids acquire in our utility order but internalize the school order
-visually — when they meet the वर्णमाला in a book, it's a map they've been filling in all along.
+वर्णमाला laid out as little houses. Each learned independent letter lights in its canonical
+position. A dependent मात्रा such as `ा` never receives its own house; it appears attached to a
+consonant on a practice panel.
 
-## The vowel / मात्रा track (DECIDED 2026-07-29 — no मात्राएँ in the consonant run)
+## The vowel / मात्रा track — updated by delivered Episode 7
 
-**Episodes stay consonant-pure. No episode in this run teaches a मात्रा.** The earlier proposal —
-weave one मात्रा per episode from about ep6, "the letter puts on its shoes and walks" — is
-**rejected**.
+The 2026-07-29 plan for a consonant-only run was superseded when Episode 7, `आ की रात`, was written
+and delivered as a focused `आ / ा` story. Preserve that history rather than pretending the episode
+did not happen.
 
-The reason is shelf life, not difficulty. These episodes get rewatched: a child who comes back a
-year later to firm up their consonants must find a clean consonant lesson, not a मात्रा lesson they
-have to sit through to get to the letter. Every episode has to stay usable as the drill it was built
-to be, on its own, forever.
+Episode 7 distinguishes standalone `आ` from dependent `ा`. In later maps and Gurukul architecture:
 
-**This does not restrict the words.** Anchor words that carry मात्राएँ (केला, पानी, तारा, तितली, तीन)
-are still spoken freely and still earn recap cards. They are *said and used* — never spelled out,
-never decomposed, and दादी never separates a मात्रा from its consonant on screen.
-
-मात्राएँ and the vowels get their own treatment later, outside this run.
+- `आ` may stand in its own अक्षर position;
+- `ा` must stay attached to a consonant when shown as a मात्रा;
+- no isolated `ा` door, landing marker, or वर्णमाला house is allowed; and
+- future vowel or मात्रा episodes require their own approved story plan rather than being inserted
+  casually into a consonant lesson.
 
 ## Shape-teaching decisions already made (do not re-raise)
 

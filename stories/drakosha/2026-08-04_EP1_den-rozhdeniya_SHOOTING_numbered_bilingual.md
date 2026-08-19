@@ -300,9 +300,9 @@
 
 ### SH018 · 4 сек · SP021
 
-Камера стоит в дальнем углу главной комнаты домовят. Видны тёмная сторона большой чугунной плиты, стол-катушка, кровати-коробки и лампа из ёлочной лампочки. Слева находится скрытый вход, справа покоробленная доска спускается в подпольный проход.
+Камера стоит в дальнем углу главной комнаты домовят. Переднюю стену занимает огромный железный лист, которым люди закрыли старое устье камина: по его краям сочится тёплый свет. Видны стол-катушка, кровати-коробки и гирлянда из ёлочных лампочек. Слева в кирпичной стене маленькая ржавая железная дверца, справа покоробленная доска спускается в подпольный проход.
 
-> <small>The camera is in the far corner of the house-folk’s main room. We see the dark side of the large cast-iron stove, the spool table, the matchbox beds, and the Christmas-bulb lamp. The concealed entrance is on the left, and a warped board descends into the underfloor passage on the right.</small>
+> <small>The camera is in the far corner of the house-folk’s main room. The front wall is the huge iron plate the humans used to close the old fireplace mouth: warm light seeps around its edges. We see the spool table, the matchbox beds, and the string of Christmas-bulb lamps. A small rusty iron door sits in the brick wall on the left, and a warped board descends into the underfloor passage on the right.</small>
 
 **ЗВУК:** плита потрескивает; чайник-напёрсток булькает; малыши сопят.
 
@@ -512,9 +512,9 @@
 
 ### SH042 · 2 сек · SP043
 
-Камера теперь внутри короткого закопчённого хода и смотрит на металлическую прочистную дверцу в его дальнем конце. Дверца распахивается, и сажа летит к камере, закрывая весь кадр.
+Камера теперь внутри короткого закопчённого хода и смотрит на маленькую железную дверцу в его дальнем конце. Дверца распахивается, и сажа летит к камере, закрывая весь кадр.
 
-> <small>The camera is now inside the short soot-dark passage, facing the metal cleanout hatch at its far end. The hatch bursts open, and soot rushes toward the camera until it fills the frame.</small>
+> <small>The camera is now inside the short soot-dark passage, facing the little iron door at its far end. The door bursts open, and soot rushes toward the camera until it fills the frame.</small>
 
 **ЗВУК:** гулкий «БУМ!»
 
@@ -768,13 +768,13 @@
 
 ### SH068 · 3 сек · SP068 · ФРОСИНА ЛАДОНЬ
 
-Крупно Фросина ладонь. Карандаш лежит поперёк неё и почти достаёт до локтя.
+Крупно Фросина ладонь. Короткий стёсанный карандаш лежит у неё в ладони — Бабушка-Яга уменьшает всё, что приносит, под того, кому дарит.
 
-> <small>Close on Frosya’s palm. The pencil lies across it and almost reaches her elbow.</small>
+> <small>Close on Frosya’s palm. The short worn-down pencil sits in her hand — Baba Yaga sizes everything she brings to whoever receives it.</small>
 
-**БАБУШКА-ЯГА (ЗК):** *(продолжая)* имя её напишешь, она и явится.
+**БАБУШКА-ЯГА (ЗК):** *(продолжая)* напишешь имя, поставишь точку, и будет по-твоему.
 
-> <small>**BABA YAGA (O.S.):** *(continuing)* write its name, and it will appear.</small>
+> <small>**BABA YAGA (O.S.):** *(continuing)* write its name, put a full stop, and it will be as you wish.</small>
 
 ### SH069 · 3 сек · SP069 · ФРОСЯ
 

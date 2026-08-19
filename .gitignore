@@ -44,3 +44,7 @@ venv/
 *.sqlite
 *.zip
 *.tsv.gz
+
+# nothing is hard-deleted — removed files move here, structured by original path;
+# reclaiming space is a manual per-project sweep (see studio/scripts/trash.sh --report)
+.trash/

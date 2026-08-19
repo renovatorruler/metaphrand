@@ -29,6 +29,11 @@ let speakerKey = (name: string): option<string> =>
   | "कैस्टर" => Some("CASTOR")
   | "लेडा" => Some("LEDA")
   | "सब" | "सब बच्चे" => Some("CHORUS_ALL")
+  /* Ep8: the nemesis and the two storybook voices of the cold open */
+  | "चील" => Some("CHEEL")
+  | "सूत्रधार" => Some("SUTRADHAR")
+  | "ऋषि" => Some("RISHI")
+  | "नगर-रक्षक" => Some("NAGAR_RAKSHAK")
   | "कालू" => Some("KALU_SFX")
   | "रीछ" => Some("REECHH_SFX")
   /* तानसेन never gets his own take — every line of his is another cast member's
@@ -39,30 +44,37 @@ let speakerKey = (name: string): option<string> =>
 
 let trim = Js.String2.trim
 
-/* «दृश्य 7 — …» -> 7 */
+/* «दृश्य 7 — …» or Markdown «## दृश्य 7 — …» -> 7 */
 let sceneNumber = (line: string): option<int> =>
-  if Js.String2.startsWith(line, "दृश्य") {
-    let rest = trim(Js.String2.sliceToEnd(line, ~from=Js.String2.length("दृश्य")))
-    let digits = Js.Array2.joinWith(
-      Js.String2.split(rest, "")->Belt.Array.keep(c => c >= "0" && c <= "9"),
-      "",
-    )
-    Belt.Int.fromString(digits)
-  } else {
-    None
+  {
+    let bare = trim(line->Js.String2.replaceByRe(%re("/^#+[ \t]*/"), ""))
+    if Js.String2.startsWith(bare, "दृश्य") {
+      let rest = trim(Js.String2.sliceToEnd(bare, ~from=Js.String2.length("दृश्य")))
+      let digits = Js.Array2.joinWith(
+        Js.String2.split(rest, "")->Belt.Array.keep(c => c >= "0" && c <= "9"),
+        "",
+      )
+      Belt.Int.fromString(digits)
+    } else {
+      None
+    }
   }
 
 /* a spoken line is «SPEAKER: (parenthetical) text» — the parenthetical is optional
    in the source but the series law requires one, so its absence is reported. */
 let splitSpeaker = (line: string): option<(string, string)> =>
-  switch Js.String2.indexOf(line, ":") {
-  | -1 => None
-  | i => {
-      let name = trim(Js.String2.slice(line, ~from=0, ~to_=i))
-      let rest = trim(Js.String2.sliceToEnd(line, ~from=i + 1))
-      /* a name is short and has no sentence punctuation — guards against a colon
-         appearing inside dialogue */
-      Js.String2.length(name) > 0 && Js.String2.length(name) <= 12 ? Some((name, rest)) : None
+  if Js.String2.startsWith(line, "#") || Js.String2.startsWith(line, "*") {
+    None
+  } else {
+    switch Js.String2.indexOf(line, ":") {
+    | -1 => None
+    | i => {
+        let name = trim(Js.String2.slice(line, ~from=0, ~to_=i))
+        let rest = trim(Js.String2.sliceToEnd(line, ~from=i + 1))
+        /* a name is short and has no sentence punctuation — guards against a colon
+           appearing inside dialogue */
+        Js.String2.length(name) > 0 && Js.String2.length(name) <= 12 ? Some((name, rest)) : None
+      }
     }
   }
 

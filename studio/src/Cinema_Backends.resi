@@ -36,12 +36,21 @@ let exists: path => bool
 let writeBytes: (path, blob) => path // makes parent dirs; returns the path written
 let readText: path => string
 let writeText: (path, string) => unit
+/* Create a text file atomically and fail closed when the path already exists.
+   Used for paid-attempt claims and generation leases. */
+let writeTextExclusive: (path, string) => bool
 let tempDir: string => path          // a fresh scratch dir under the OS temp root
 let fileSizeMb: path => float
 let ensureDirPath: path => unit      // mkdir -p on a DIRECTORY (writeText does files)
 let readDir: path => array<string>   // entry names; [] when the dir does not exist
-let removeFile: path => unit         // unlink if present; a no-op otherwise
+let removeFile: path => unit         // MOVE to <repo>/.trash/<relative-path> (never unlinks);
+                                     // a no-op if absent. Reclaiming space is a manual,
+                                     // per-project sweep of .trash — the author's call only.
 let copyFile: (path, path) => unit   // byte-for-byte; never an ffmpeg remux
+/* Atomically publish a completed file and fail if the destination exists. */
+let publishFileExclusive: (path, path) => bool
+let sha256File: path => string       // SHA-256 of exact file bytes
+let sha256Text: string => string     // SHA-256 of exact UTF-8 text
 
 /* ---- processes ----------------------------------------------------------- */
 /* The one place a process is spawned. No shell, so argv needs no quoting.
@@ -107,6 +116,14 @@ let dialogue: array<(text, voiceId)> => promise<blob>
 /* Same continuous take, PLUS each input line's (start,end) seconds in input order
    (from voice_segments) — for landing name+line captions on a continuous take. */
 let dialogueTimed: array<(text, voiceId)> => promise<(blob, array<(float, float)>)>
+/* Align an existing audio file to its exact plain-text transcript. This endpoint
+   is billed like speech-to-text, so callers must gate it as a paid operation. */
+type forcedAlignmentCharacter = {text: string, start: float, end_: float}
+type forcedAlignment = {
+  characters: array<forcedAlignmentCharacter>,
+  loss: float,
+}
+let forcedAlignment: (~audio: path, ~text: text) => promise<forcedAlignment>
 /* Single-voice take (one narrator performs everything, v3 expression tags). */
 let tts: (~text: text, ~voice: voiceId, ~settings: Js.Json.t=?) => promise<blob>
 /* Instrumental score bed (ElevenLabs Music). Naming a real artist -> 400. */

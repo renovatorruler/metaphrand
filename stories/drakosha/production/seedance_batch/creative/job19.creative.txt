@@ -1,0 +1,43 @@
+SCENE CONTEXT
+The old woman brushes the soot off herself and asks who the birthday girl is. Фрося realises who has arrived and runs the length of the hall into her arms.
+
+LOCATION MAP
+The hall inside the old bricked-up fireplace. Яга stands by the left wall just below the now-shut iron hatch, her ступа settled on the boards beside her, broom in one hand and rag помело in the other, the knitted cradle near her in the corner. The family are out in the room facing her: Мама with the two little ones, Папа, and the two children. The far end is the sealed riveted iron plate; the rope-railed floor opening is at the right; the bulb garland is strung overhead.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The distance between them is the point of the scene — she arrives at one end of the hall and Фрося is at the other. Keep that gap readable so the run has somewhere to happen. Three shots from three different places in the room; no two share a camera position.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Three shots, three camera positions. HARD CUTS only.
+Shot A, 0:00 to 0:03: CAMERA BEHIND AND JUST BESIDE Яга, close to the left wall, over her shoulder from slightly below, so we see the back of her shawl large in the near foreground and the family small and sharp beyond her, down the length of the hall. She beats the soot off her sleeve with two quick practical slaps, straightens, and says in Russian, creaky and tender: «Ну? Кто тут у нас имени́нница?» The family are still frozen from the noise, turned toward her but not moving.
+HARD CUT.
+Shot B, 0:03 to 0:05: CAMERA CLOSE ON Фрося, at her own height out in the middle of the room, the others soft behind her. Her eyes fly wide and a grin breaks across her whole face. She squeals in Russian, pure delight: «Ба́бушка!» and is already turning to run before the word is finished.
+HARD CUT.
+Shot C, 0:05 to 0:08: CAMERA DOWN AT FLOOR LEVEL side-on to the room, boards filling the lower frame, the length of the hall running across the shot left to right. Фрося sprints across the boards from one side of frame toward Яга on the other, arms out. The old woman drops the broom and opens her arms, and the catch lands solidly — she rocks back half a step and holds. A small puff of leftover soot rises off both of them on impact and drifts. Beyond them the rest of the family are just beginning to move toward the pair.
+
+OPTICS
+Shot A: 29° short telephoto over her shoulder, her back soft and large at the edge of frame, the family razor-sharp beyond.
+Shot B: 29° short telephoto portrait, razor focus on her face, the room dissolved behind.
+Shot C: 84° classic wide from floor level, deep focus, straight rectilinear lines, the whole run readable in one frame.
+No lens drift inside any shot. A plain full-frame image throughout: no vignette, no dark oval, no iris, no circular mask.
+
+CAMERA
+Three static locked frames from three different positions. The run crosses the fixed frame in shot C; the camera does not follow her.
+
+PHYSICS
+The soot comes off her in small dry puffs that hang and settle. Фрося runs like a real child — quick short strides, arms out, leaning ahead of herself. The catch has real impact: the old woman takes the weight, rocks back, and holds.
+
+LIGHTING
+Warm light from the bulb garland and the glow around the rim of the sealed plate. The soot dust hanging around Яга catches it and makes a haze in her corner. No flat front light, and no fire anywhere in frame.
+
+AUDIO
+Her creaky tender Russian line; the two dry slaps of soot off her sleeve; Фрося's squealed «Ба́бушка!»; quick small footsteps across the boards; the soft thump of the catch. No music, no subtitles.
+
+SHOT RULES
+Exactly seven characters: Яга, Фрося, Вася, Мама, Папа, Руся and Муся — no others, no duplicates.
+Яга is warm and fierce, never frightening — no cackle, no menace, and her gold tooth shows when she smiles. She is domovoi-sized, the same height as the family, and never towers over them.
+The hatch stays SHUT behind her in every frame and is never used again.
+NOBODY lines up facing the camera. In shot A we are behind her; in shot C we are side-on to the room. The family are turned toward her, not toward the lens.
+The three shots must not share a camera position or a framing.
+The hug lands in the final two seconds and holds.
+Dialogue lock: only the lips of Яга move in shot A; only the lips of Фрося move in shot B. No overlap, no offscreen voices.

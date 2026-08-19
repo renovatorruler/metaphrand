@@ -28,36 +28,10 @@ open Cinema_Backends
 
 exception Failed(string)
 
-/* Locked cast voices — these are the identities the children already know from
-   five episodes. Never regenerate a character with a different id. */
-let voiceOf = (who: string): option<string> =>
-  switch who {
-  | "KUKU" => Some("NbvR1eY6Q8ivACdEO8PV")
-  | "FYURIA" => Some("FFmp1h1BMl0iVHA0JxrI")
-  | "VESPER" => Some("subIZc6skATBQ1Rbqpi7")
-  | "DADI" => Some("nfMYisZqs1GOjTFllho3")
-  | "MITASUR" => Some("bBG9wwa23659EgIkMbc1")
-  | "CASTOR" => Some("4iqKdEXMW8NRF8USiS3Q")
-  | "LEDA" => Some("nUX4UWK0Tf1qh5zvFZWR")
-  | "PAPA" => Some("5ycO0zpSCEkvR4Ri6gk9")
-  | _ => None
-  }
-
-let chorusMembers = ["KUKU", "FYURIA", "VESPER", "MITASUR"]
-
-/* Devanagari name inside a mimicry cue -> whose voice performs it */
-let mimicVoiceKey = (name: string): option<string> =>
-  switch name {
-  | "कुकु" => Some("KUKU")
-  | "फ्यूरिया" => Some("FYURIA")
-  | "वैस्पर" => Some("VESPER")
-  | "दादी" => Some("DADI")
-  | "पापा" => Some("PAPA")
-  | "मिटासुर" => Some("MITASUR")
-  | "कैस्टर" => Some("CASTOR")
-  | "लेडा" => Some("LEDA")
-  | _ => None
-  }
+/* Locked identities live in one registry so production and table reads cannot
+   silently recast the same character. */
+let voiceOf = Kuku_Cast.voiceOf
+let mimicVoiceKey = Kuku_Cast.mimicVoiceKey
 
 let pad2 = (i: int) => i < 10 ? "0" ++ Belt.Int.toString(i) : Belt.Int.toString(i)
 
@@ -82,13 +56,52 @@ let parrotPitch = 1.15
    * the closing, where he returns each child's own gift in that child's own voice:
      धन्यवाद was वैस्पर's word, शाबाश was फ्यूरिया's, साथी was कुकु's
 
-   `after` is the dialogue index the cue follows; it must match the manifest. */
-let extraMimics: array<(int, string, string)> = [
-  (114, "FYURIA", "…शाबाश। शाबाश!"),
-  (132, "VESPER", "धन्यवाद…"),
-  (132, "FYURIA", "शाबाश…"),
-  (132, "KUKU", "साथी…"),
-]
+   `after` is the dialogue index the cue follows; it must match the manifest.
+
+   PER-EPISODE, because these are story payoffs, i.e. DATA. The first version was
+   one flat list, which meant an Ep7 run would have re-bought Ep6's four takes at
+   Ep7 indices they do not belong to (132 > Ep7's own 115 lines). Keyed on the
+   episode directory so the wrong show cannot be declared into an episode.
+
+   File names are mimic_<after>_<voice>.mp3 — within one cue, a voice may appear
+   at most ONCE, or the second take overwrites the first and is paid for twice. */
+let extraMimicsFor = (dir: string): array<(int, string, string)> =>
+  if Js.String2.includes(dir, "ep6prod") {
+    [
+      (114, "FYURIA", "…शाबाश। शाबाश!"),
+      (132, "VESPER", "धन्यवाद…"),
+      (132, "FYURIA", "शाबाश…"),
+      (132, "KUKU", "साथी…"),
+    ]
+  } else if Js.String2.includes(dir, "ep7prod") {
+    [
+      /* after 65: «बारी-बारी बच्चों की आवाज़ में: का! ना! मा! ता! रा!» — the parrot
+         returns the five new matra syllables, one child's voice each. */
+      (65, "KUKU", "का!"),
+      (65, "FYURIA", "ना!"),
+      (65, "VESPER", "मा!"),
+      (65, "MITASUR", "ता!"),
+      (65, "CASTOR", "रा!"),
+      /* after 95: «बारी-बारी सबकी आवाज़ में: बधाई! बधाई!» — two turns of the round. */
+      (95, "PAPA", "बधाई!"),
+      (95, "LEDA", "बधाई!"),
+    ]
+  } else if Js.String2.includes(dir, "ep8prod") {
+    [
+      /* दृश्य 1: the strange borrowed cry nobody recognises */
+      (12, "CHEEL", "क्रीऽऽऽ!"),
+      /* दृश्य 5: the delivery — he replays what he heard, voice by voice */
+      (56, "KUKU", "मदद! दादीऽ!"),
+      (56, "CHEEL", "क्रीऽऽऽ!"),
+      (56, "LEDA", "मुझे डर लग रहा है…"),
+      /* दृश्य 6: mocking the beaten queen in her own voice */
+      (65, "CHEEL", "मेरी चाल! मेरी चाल!"),
+      /* दृश्य 9: the button, softly */
+      (92, "CHEEL", "मेरी चाल…"),
+    ]
+  } else {
+    []
+  }
 
 /* ---- TAG_MAP: Hindi parenthetical -> engine tag -------------------------- */
 
@@ -176,6 +189,7 @@ let main = async () => {
   switch (Belt.Array.get(argv, 2), Belt.Array.get(argv, 3), Belt.Array.get(argv, 4)) {
   | (Some(dir), Some(manifestPath), Some(dursPath)) => {
       let dry = envDry == Some("1")
+      let chorusMembers = Kuku_Cast.chorusMembersFor(dir)
       let tm = loadTagmap(dir ++ "/../ep5prod/tagmap.json")
       let mj = Js.Json.parseExn(readText(Path(dir ++ "/" ++ manifestPath)))
 
@@ -225,7 +239,80 @@ let main = async () => {
          re-derives the take from the old audio and silently undoes the edit. */
       let renderCount = ref(0)
       let adopted = ref(0)
+      let recycled = ref(0)
       let redone = []
+
+      /* CONTENT INDEX: every take already on disk, keyed by the exact words it says.
+         Take FILES are named by position (07.mp3), because the EDL and assembler
+         address them that way — but position is exactly what an edit moves. Insert
+         one line into scene 4 and every later index shifts, and a purely positional
+         check would re-buy ~85 unchanged performances (lesson 8, in its most
+         expensive form).
+
+         So before buying anything, look for the same voice saying the same words
+         under ANY name and copy it into place. Voice is part of the key because the
+         same sentence in two mouths is two different performances. */
+      let contentKey = (~voice: string, ~text: string) => voice ++ "|" ++ text
+      let speakerOfIdx: Js.Dict.t<string> = Js.Dict.empty()
+      lines->Belt.Array.forEach(l => Js.Dict.set(speakerOfIdx, pad2(l.idx), l.who))
+      /* VOICE IS PART OF THE KEY. The word बधाई! is spoken twice this episode —
+         once as पापा, once as लेडा — so keying on words alone would copy one
+         dragon's performance into the other's mouth. The voice is recovered from
+         the file's own name, the convention the whole line already uses:
+           NN.mp3            the speaker of line NN in the manifest
+           NN_WHO.mp3        chorus member WHO
+           mimic_NN_WHO.mp3  the parrot in WHO's voice
+         A name fitting none of these is never indexed, so it is never reused. */
+      let voiceOfFileName = (mp3: string): option<string> => {
+        /* NEVER infer the voice from the CURRENT manifest: the files on disk were
+           recorded against the PREVIOUS one, and an inserted line shifts every later
+           index. Index 36 may have been दादी yesterday and कुकु today — inferring
+           would splice one dragon's recording into another's mouth. The voice a take
+           was actually bought in is recorded in a .voice sidecar at purchase time;
+           a take without one is simply not reusable. */
+        let sidecar = Path(dir ++ "/takes/." ++ mp3 ++ ".voice")
+        exists(sidecar) ? Some(readText(sidecar)) : None
+      }
+      let _ = speakerOfIdx
+      /* THE BANK: every performance ever bought for this episode. It is the reuse
+         source, so an index shift costs nothing and a stale file at a reused index
+         can never be mistaken for the line that now lives there.
+
+         CONTENT-ADDRESSED, NOT NAME-ADDRESSED. The first bank stored deposits under
+         their positional filename (bank/36.mp3) — and a later script edit put a NEW
+         line at index 36, whose deposit OVERWROTE the banked original before the
+         shifted old line was reused from it. Result, measured on 2026-08-06:
+         17 takes on disk carrying one line's audio under another line's text, and
+         17 original performances destroyed and re-bought. A deposit named by the
+         hash of (voice, words) cannot collide with a different performance by
+         construction — same name means same content, so overwriting is harmless. */
+      let bank = dir ++ "/takes/.bank"
+      ensureDirPath(Path(bank))
+      let bankName = (~voice: string, ~text: string): string =>
+        sha256Text(contentKey(~voice, ~text)) ++ ".mp3"
+      let byContent: Js.Dict.t<string> = Js.Dict.empty()
+      /* ONLY the bank is indexed. It is content-addressed and immutable, so a
+         key can never point at bytes that change mid-run. The first version also
+         indexed top-level takes/ — mutable files — and an index-shifted rerun
+         copied one freshly-recorded line into SIX other slots before it was
+         caught by ear (Ep8, 2026-08-09). Same staleness family as lesson 9. */
+      [bank]->Belt.Array.forEach(root =>
+        readDir(Path(root))
+        ->Belt.Array.keep(f => Js.String2.startsWith(f, ".") && Js.String2.endsWith(f, ".said"))
+        ->Belt.Array.forEach(sidecar => {
+          let mp3 = Js.String2.slice(sidecar, ~from=1, ~to_=Js.String2.length(sidecar) - 5)
+          let voiceStamp = Path(root ++ "/." ++ mp3 ++ ".voice")
+          if exists(Path(root ++ "/" ++ mp3)) && exists(voiceStamp) {
+            Js.Dict.set(
+              byContent,
+              contentKey(~voice=readText(voiceStamp), ~text=readText(Path(root ++ "/" ++ sidecar))),
+              root ++ "/" ++ mp3,
+            )
+          }
+        })
+      )
+      let _ = voiceOfFileName
+
       let render = async (~file: string, ~voice: string, ~text: string, ~what: string): unit => {
         let p = Path(dir ++ "/takes/" ++ file)
         let said = Path(dir ++ "/takes/." ++ file ++ ".said")
@@ -235,8 +322,38 @@ let main = async () => {
           writeText(said, text)
           adopted := adopted.contents + 1
         }
-        if present && readText(said) == text {
+        let voiceStamp = Path(dir ++ "/takes/." ++ file ++ ".voice")
+        let key = contentKey(~voice, ~text)
+        /* a take is current only if it says the right WORDS in the right VOICE —
+           a recast (सूत्रधार, Ep8) with unchanged text must re-record, not skip.
+           Takes from before .voice stamps existed are trusted on text alone. */
+        let voiceMatches = !exists(voiceStamp) || readText(voiceStamp) == voice
+        if present && readText(said) == text && voiceMatches {
+          writeText(voiceStamp, voice)
           skipped := skipped.contents + 1
+        } else if (
+          /* the same words already bought in this same voice, under another name */
+          switch Js.Dict.get(byContent, key) {
+          | Some(src) => src != dir ++ "/takes/" ++ file && exists(Path(src))
+          | None => false
+          }
+        ) {
+          switch Js.Dict.get(byContent, key) {
+          | Some(src) => {
+              if !dry {
+                copyFile(Path(src), p)
+                writeText(said, text)
+                writeText(voiceStamp, voice)
+                /* derived artefacts belong to the OLD file, never to this copy */
+                removeFile(Path(dir ++ "/takes/." ++ file ++ ".leveled"))
+                removeFile(Path(dir ++ "/takes/." ++ file ++ ".parrot"))
+                removeFile(Path(dir ++ "/takes/.pristine/" ++ file))
+              }
+              recycled := recycled.contents + 1
+              Js.log("  reuse " ++ file ++ " <- " ++ src ++ "  " ++ what)
+            }
+          | None => ()
+          }
         } else if dry {
           Js.log("  would record " ++ file ++ "  " ++ what ++ (present ? "  (TEXT CHANGED)" : ""))
         } else {
@@ -247,12 +364,20 @@ let main = async () => {
           | blob => {
               let _ = writeBytes(p, blob)
               writeText(said, text)
+              writeText(voiceStamp, voice)
+              /* deposit in the bank so no later edit can ever re-buy this line */
+              let bf = bankName(~voice, ~text)
+              copyFile(p, Path(bank ++ "/" ++ bf))
+              writeText(Path(bank ++ "/." ++ bf ++ ".said"), text)
+              writeText(Path(bank ++ "/." ++ bf ++ ".voice"), voice)
               /* every artefact derived from the old audio is now a lie */
               removeFile(Path(dir ++ "/takes/." ++ file ++ ".leveled"))
               removeFile(Path(dir ++ "/takes/." ++ file ++ ".parrot"))
               removeFile(Path(dir ++ "/takes/.pristine/" ++ file))
               made := made.contents + 1
               renderCount := renderCount.contents + 1
+              /* a newly bought performance is itself reusable by later lines */
+              Js.Dict.set(byContent, key, bank ++ "/" ++ bankName(~voice, ~text))
               Js.log("  OK " ++ file ++ "  " ++ what)
             }
           | exception BackendError(m) => {
@@ -325,6 +450,7 @@ let main = async () => {
       }
 
       /* the declared ones the parser cannot see */
+      let extraMimics = extraMimicsFor(dir)
       for i in 0 to Belt.Array.length(extraMimics) - 1 {
         switch Belt.Array.get(extraMimics, i) {
         | None => ()
@@ -562,6 +688,8 @@ let main = async () => {
         Belt.Int.toString(made.contents) ++
         " skipped=" ++
         Belt.Int.toString(skipped.contents) ++
+        " reused=" ++
+        Belt.Int.toString(recycled.contents) ++
         " failed=" ++
         Belt.Int.toString(failed.contents),
       )

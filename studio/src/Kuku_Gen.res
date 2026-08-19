@@ -20,6 +20,45 @@ open Cinema_Backends
 @val @scope("process") external argv: array<string> = "argv"
 @val @scope(("process", "env")) external envDry: option<string> = "DRY"
 @val @scope(("process", "env")) external envOnly: option<string> = "ONLY"
+@module("path") external resolvePath: string => string = "resolve"
+@module("fs") external realpathSync: string => string = "realpathSync"
+
+/* This legacy generator is deliberately Kuku-only. Without this runtime
+   boundary its arbitrary <episode-dir> argument could be pointed at Drakosha
+   Scene 1 and evade that show's manifest/readiness/receipt gate. */
+let isKukuPath = path =>
+  Js.String2.includes(path, "/stories/kuku/") || Js.String2.endsWith(path, "/stories/kuku")
+
+let requireRealKukuPath = (path: string, label: string): string => {
+  let absolute = resolvePath(path)
+  let real = try realpathSync(absolute) catch {
+  | Js.Exn.Error(error) =>
+    raise(
+      BackendError(
+        "cannot resolve " ++ label ++ ": " ++
+        Js.Exn.message(error)->Belt.Option.getWithDefault("unknown filesystem error"),
+      ),
+    )
+  }
+  if !isKukuPath(absolute) || !isKukuPath(real) {
+    raise(
+      BackendError(
+        "Kuku_Gen may write only inside stories/kuku; Drakosha Scene 1 must use Drakosha_SceneFlowCli",
+      ),
+    )
+  }
+  real
+}
+
+let requireKukuEpisodeDir = dir => requireRealKukuPath(dir, "Kuku episode directory")
+
+let safeShotName = (name: string): string => {
+  if name == "" || Js.String2.includes(name, "/") || Js.String2.includes(name, "\\") ||
+    Js.String2.includes(name, "..") {
+    raise(BackendError("unsafe Kuku shot name: " ++ name))
+  }
+  name
+}
 
 /* SHARD=i/n renders only every n-th shot starting at i, so several processes can
    run at once without duplicating work. Generation is billed per image, not per
@@ -45,12 +84,29 @@ let sheetDir = "/Users/dusty/Dev/metaphrand/stories/kuku/charsheets"
 
 let stylePreamble = "STYLE REFERENCE: the FIRST attached image is the art style; match it EXACTLY. CHARACTER REFERENCES: every other attached image is a locked character design; match each EXACTLY. 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, warm storybook palette, soft lighting, non-photorealistic, illustrated, not a photo. LANDSCAPE 16:9 SHOT."
 
-let negative = "Full-bleed scene, the camera is INSIDE the world. NEGATIVE: no theater curtains, no stage, no proscenium, no frame-within-frame, no decorative border, no vignette, no readable text, no letters, no numbers, no glyphs, no captions, no watermark, no logos, no photorealism, no duplicate characters, no extra characters, nothing scary."
+/* "no humans" was added 2026-08-06 after two shipped stills grew human children —
+   a prompt said "the children" without "dragon" and the model filled in people.
+   EVERY being in अक्षर घाटी is a dragon, a goblin, a parrot or a dog; a human on
+   screen breaks the world. The ban lives HERE, in the always-appended block,
+   because lesson 14 is that a trimmed negative lets the defect return. */
+let negativeCore = "Full-bleed scene, the camera is INSIDE the world. NEGATIVE: no humans, no people, no human children, no human faces, no human shadows, no theater curtains, no stage, no proscenium, no frame-within-frame, no decorative border, no vignette, no readable text, no letters, no numbers, no glyphs, no captions, no watermark, no logos, no photorealism, no duplicate characters, no extra characters"
+
+/* Ep8 introduces the series' first antagonist, and the author asked for a
+   thrilling, "scary" feel. "nothing scary" therefore cannot be unconditional any
+   more — but it must not simply be deleted either, or every shot in the show
+   drifts darker. A shot opts in with `"menace": true`, which trades the blanket
+   ban for a NARROW one: the fear is scale, shadow and stillness — a predator's
+   calm — never gore, teeth, blood, wounds, or horror lighting. Everything not
+   opted in keeps the original rail exactly as it was. */
+let negativeSafe = negativeCore ++ ", nothing scary."
+let negativeMenace =
+  negativeCore ++
+  ", no blood, no wounds, no gore, no bared fangs, no drooling, no red glowing eyes, no skulls, no horror lighting, no jump-scare framing. The menace is SCALE, SHADOW and STILLNESS — a calm predator who is enjoying herself — suitable for a four-year-old who should lean in, not look away."
 
 /* dialogue stills hold under a spoken line, so the mouth must not contradict it */
 let mouthClosed = "Mouth gently closed, clear readable expression."
 
-type shot = {name: string, kind: string, refs: array<string>, prompt: string}
+type shot = {name: string, kind: string, refs: array<string>, prompt: string, menace: bool, startFrom: string}
 
 let fld = (j, k) => j->Js.Json.decodeObject->Belt.Option.flatMap(o => Js.Dict.get(o, k))
 let asStr = o => o->Belt.Option.flatMap(Js.Json.decodeString)->Belt.Option.getWithDefault("")
@@ -64,6 +120,12 @@ let decodeShots = (j: Js.Json.t, key: string, kind: string): array<shot> =>
     kind: fld(s, "kind")->asStr == "" ? kind : fld(s, "kind")->asStr,
     refs: fld(s, "refs")->asArr->Belt.Array.map(r => Js.Json.decodeString(r)->Belt.Option.getWithDefault("")),
     prompt: fld(s, "prompt")->asStr,
+    menace: fld(s, "menace")->Belt.Option.flatMap(Js.Json.decodeBoolean)->Belt.Option.getWithDefault(false),
+    /* an APPROVED still to animate. Empty means pure text-to-video, which for a
+       show with locked designs is a last resort: 2026-08-10 the text-to-video
+       clips came back with two फ्यूरियाs and a toddler rendered adult-sized,
+       because prose cannot hold cast, count or scale against pixels. */
+    startFrom: fld(s, "startFrom")->asStr,
   })
 
 /* the CLI answers with either a bare object or a one-element array */
@@ -89,6 +151,7 @@ let sleepSync = (seconds: int): unit => {
 let main = () => {
   switch (Belt.Array.get(argv, 2), Belt.Array.get(argv, 3)) {
   | (Some(dir), Some(shotsFile)) => {
+      let dir = requireKukuEpisodeDir(dir)
       let dry = envDry == Some("1")
       let only = envOnly
       let j = Js.Json.parseExn(readText(Path(dir ++ "/" ++ shotsFile)))
@@ -107,8 +170,13 @@ let main = () => {
       let skipped = ref(0)
       let failed = ref(0)
 
-      let render = (~name: string, ~refs: array<string>, ~prompt: string, ~isClip: bool) => {
-        let out = isClip ? dir ++ "/clips/" ++ name ++ ".mp4" : dir ++ "/stills/" ++ name ++ ".png"
+      let render = (~name: string, ~refs: array<string>, ~prompt: string, ~isClip: bool, ~menace: bool, ~startFrom: string) => {
+        let name = safeShotName(name)
+        let outputDir = requireRealKukuPath(
+          isClip ? dir ++ "/clips" : dir ++ "/stills",
+          "Kuku output directory",
+        )
+        let out = outputDir ++ "/" ++ name ++ (isClip ? ".mp4" : ".png")
         let minBytes = isClip ? 100000.0 : 20000.0
         if exists(Path(out)) && fileSizeMb(Path(out)) *. 1.0e6 > minBytes {
           skipped := skipped.contents + 1
@@ -116,27 +184,82 @@ let main = () => {
           Js.log("  would render " ++ name ++ "  refs=[" ++ Js.Array2.joinWith(refs, ",") ++ "]")
         } else {
           /* style key FIRST, then the character sheets in frame order */
-          let refArgs = Belt.Array.concatMany(
-            refs
-            ->Belt.Array.keep(r => r != "" && exists(Path(sheetDir ++ "/" ++ r ++ ".png")))
-            ->Belt.Array.map(r => ["--image", sheetDir ++ "/" ++ r ++ ".png"]),
-          )
+          let refArgs = isClip && startFrom != ""
+            ? []
+            : Belt.Array.concatMany(
+                refs
+                ->Belt.Array.keep(r => r != "" && exists(Path(sheetDir ++ "/" ++ r ++ ".png")))
+                ->Belt.Array.map(r => ["--image", sheetDir ++ "/" ++ r ++ ".png"]),
+              )
           let body =
             stylePreamble ++
             " " ++
             prompt ++
             " " ++
             (isClip ? "" : mouthClosed ++ " ") ++
-            negative
-          let base = isClip
-            ? [
-                "generate", "create", "gemini_omni", "--prompt", body,
-                "--image", styleKey,
-              ]
-            : ["generate", "create", "nano_banana_pro", "--prompt", body, "--image", styleKey]
-          let tail = isClip
-            ? ["--duration", "10", "--aspect_ratio", "16:9", "--resolution", "720p", "--wait", "--json"]
-            : ["--aspect_ratio", "16:9", "--resolution", "2k", "--wait", "--json"]
+            (menace ? negativeMenace : negativeSafe)
+          /* ANCHORED CLIP: the approved still IS frame one, so the model supplies
+             motion only. No style key and no character sheets are attached — the
+             frame already fixes design, cast, count, scale, staging and light,
+             and extra references only give it room to disagree with itself.
+             generate_audio is off: this show's sound is designed, not generated. */
+          let anchored = isClip && startFrom != ""
+          let startPath = dir ++ "/stills/" ++ startFrom ++ ".png"
+          let base = if anchored {
+            [
+              /* mode=omni_reference is REQUIRED by the API whenever a start or end
+                 image is supplied — without it the job is rejected outright. */
+              "generate", "create", "seedance_2_5", "--mode", "omni_reference",
+              "--prompt", prompt, "--start-image", startPath,
+            ]
+          } else if isClip {
+            ["generate", "create", "gemini_omni", "--prompt", body, "--image", styleKey]
+          } else {
+            ["generate", "create", "nano_banana_pro", "--prompt", body, "--image", styleKey]
+          }
+          let tail = if anchored {
+            [
+              "--duration", "5", "--aspect_ratio", "16:9", "--resolution", "720p",
+              "--generate_audio", "false", "--wait", "--json",
+            ]
+          } else if isClip {
+            ["--duration", "10", "--aspect_ratio", "16:9", "--resolution", "720p", "--wait", "--json"]
+          } else {
+            ["--aspect_ratio", "16:9", "--resolution", "2k", "--wait", "--json"]
+          }
+
+          /* A DOWNLOAD FAILURE MUST NOT RE-GENERATE. The generation is already
+             paid for the moment the API returns a URL; re-running the whole
+             command to recover from a dropped curl buys the same clip twice (up
+             to 3x for one network blip). Download retries loop on the URL alone. */
+          let rec fetchTo = (url: string, k: int): bool =>
+            if k > 3 {
+              false
+            } else {
+              let d = run(~cmd="curl", ~args=["-sL", "--retry", "2", "-o", out, url])
+              if d.code == 0 && exists(Path(out)) && fileSizeMb(Path(out)) *. 1.0e6 > minBytes {
+                true
+              } else {
+                Js.log("  re-download " ++ Belt.Int.toString(k) ++ " " ++ name ++ " (NOT re-generating)")
+                sleepSync(6)
+                fetchTo(url, k + 1)
+              }
+            }
+
+          /* A REJECTED REQUEST IS NOT TRANSIENT. Retrying a validation error just
+             burns wall-clock and hides the cause: on 2026-08-10 nine clips retried
+             three times each against "start_image ... only allowed for mode
+             'omni_reference'", and the log said only "FAIL after 3 tries" — the
+             real message had to be reproduced by hand. Print what the server said,
+             and stop immediately when it cannot succeed on a repeat. */
+          let permanent = (s: string): bool =>
+            Js.String2.includes(s, "only allowed") ||
+            Js.String2.includes(s, "not allowed") ||
+            Js.String2.includes(s, "Invalid") ||
+            Js.String2.includes(s, "invalid") ||
+            Js.String2.includes(s, "required") ||
+            Js.String2.includes(s, "unauthorized") ||
+            Js.String2.includes(s, "missing the permission")
 
           let rec attempt = (n: int): unit =>
             if n > 3 {
@@ -148,22 +271,26 @@ let main = () => {
                 ~args=Belt.Array.concatMany([base, refArgs, tail]),
               )
               switch r.code == 0 ? resultUrl(r.stdout) : None {
-              | Some(url) => {
-                  let d = run(~cmd="curl", ~args=["-s", "-o", out, url])
-                  if d.code == 0 && exists(Path(out)) && fileSizeMb(Path(out)) *. 1.0e6 > minBytes {
-                    made := made.contents + 1
-                    Js.log("  OK " ++ name)
-                    sleepSync(4)
-                  } else {
-                    Js.log("  retry " ++ Belt.Int.toString(n) ++ " " ++ name ++ " (download)")
-                    sleepSync(10)
-                    attempt(n + 1)
-                  }
+              | Some(url) =>
+                if fetchTo(url, 1) {
+                  made := made.contents + 1
+                  Js.log("  OK " ++ name)
+                  sleepSync(4)
+                } else {
+                  failed := failed.contents + 1
+                  Js.log("  FAIL " ++ name ++ ": generated but could not download " ++ url)
                 }
               | None => {
-                  Js.log("  retry " ++ Belt.Int.toString(n) ++ " " ++ name)
-                  sleepSync(12)
-                  attempt(n + 1)
+                  let msg = Js.String2.trim(r.stderr ++ " " ++ r.stdout)
+                  let short = Js.String2.slice(msg, ~from=0, ~to_=300)
+                  if permanent(msg) {
+                    failed := failed.contents + 1
+                    Js.log("  FAIL " ++ name ++ " — request rejected, not retrying: " ++ short)
+                  } else {
+                    Js.log("  retry " ++ Belt.Int.toString(n) ++ " " ++ name ++ ": " ++ short)
+                    sleepSync(12)
+                    attempt(n + 1)
+                  }
                 }
               }
             }
@@ -187,14 +314,14 @@ let main = () => {
       ->Belt.Array.keep(s => wanted(s.name))
       ->Belt.Array.forEachWithIndex((i, s) =>
         if mine(i) {
-          render(~name=s.name, ~refs=s.refs, ~prompt=s.prompt, ~isClip=false)
+          render(~name=s.name, ~refs=s.refs, ~prompt=s.prompt, ~isClip=false, ~menace=s.menace, ~startFrom="")
         }
       )
       clips
       ->Belt.Array.keep(c => wanted(c.name))
       ->Belt.Array.forEachWithIndex((i, c) =>
         if mine(i) {
-          render(~name=c.name, ~refs=c.refs, ~prompt=c.prompt, ~isClip=true)
+          render(~name=c.name, ~refs=c.refs, ~prompt=c.prompt, ~isClip=true, ~menace=c.menace, ~startFrom=c.startFrom)
         }
       )
 

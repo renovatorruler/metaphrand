@@ -1,0 +1,45 @@
+SCENE CONTEXT
+The family are going about the evening when the room itself begins to react to something coming down behind the wall. Nobody knows where it is coming from until the very end, when the little iron hatch starts to move.
+
+LOCATION MAP
+The hall inside the old bricked-up fireplace. Keep the geography fixed across all four shots. The FAR END is the huge dark riveted iron plate that seals the old fireplace mouth — a solid wall, no opening, nothing burning in it, warm light seeping only around its rim. The LEFT wall carries the four matchbox beds, the knitted cradle standing forward of them near the corner, and low in the brick beyond the cradle the small dark iron cleanout hatch, shut. The RIGHT side has the shelf of thimble canisters, and the rope-railed floor opening where the plank ramp goes down to the road. A garland of coloured bulbs is strung high across the room, with one bulb hanging low over the plank-on-spools table.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Nobody is waiting for anything. This is a few minutes after Мама's presents, so the children are still with them: Фрося is lying on her front on the boards drawing on her paper scrap with one of her new coloured cores, and Вася is leaning over her shoulder telling her what to draw. Мама is at the table with her two smallest. Папа is crouched over something he is mending. The юла́ stands parked and still against the wall, already ridden, not being played with. Each shot below is taken from a DIFFERENT position in the room; do not repeat a camera setup.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Four shots, four different camera positions. HARD CUTS only.
+Shot A, 0:00 to 0:02: CAMERA ON THE FLOOR at the far end of the hall, lens almost touching the boards, looking back down the room with the sealed iron plate behind the camera. A plank fills the bottom third of frame, enormous and out of focus. Fine dust sifts down from a high mortar seam in the left wall and lands on the wood in front of the lens, grain by grain. Deep in the background, small and soft, the family carry on without noticing. No dialogue.
+HARD CUT.
+Shot B, 0:02 to 0:04: CAMERA HIGH, up level with the bulb garland, angled down across the whole room. A swinging bulb passes close by the lens in the near foreground, throwing its light across the shot as it goes. Below, the light on the floor rocks slowly back and forth. Мама straightens up from the table and looks around for the cause; Папа's head comes up from his work; the two children stop and look at each other, not at the camera. Nobody looks up at the same moment — the room notices in ones.
+HARD CUT.
+Shot C, 0:04 to 0:06: CAMERA CLOSE ON ПАПА, at his own height across the table from him, the warm room soft behind. He has stopped mending. He lifts his head, sniffs the air twice — deliberate, testing — and his eyebrows go up as he works out what it is. A grin starts at one corner of his mouth. He says in Russian, low and delighted rather than afraid: «Ох. Э́то же…» — and the line stops there, unfinished.
+HARD CUT.
+Shot D, 0:06 to 0:08: CAMERA LOW AND OBLIQUE beside the left wall, close to the brick, looking along the wall at a shallow angle so the hatch is seen almost edge-on. The rim of the knitted cradle crosses the near foreground, large and dark. The hatch judders once against its latch, then again, and breathes a thin line of soot from its edges.
+
+OPTICS
+Shot A: 29° detail lens character, lying on the floor, razor focus on the falling dust with the room dissolved behind it.
+Shot B: 84° classic wide from above, the whole hall readable, straight rectilinear lines, no fisheye curve.
+Shot C: 29° short telephoto portrait on Папа, razor focus on his face, the room dissolved behind him.
+Shot D: 47° standard normal, low and oblique along the wall.
+No lens drift inside any shot. A plain full-frame image throughout: no vignette, no dark oval, no iris, no circular mask.
+
+CAMERA
+Four static locked frames from four different places in the room. No movement inside a shot.
+
+PHYSICS
+The dust falls with real weight and settles. The bulb swings on its wire like a pendulum losing energy, and every shadow in the room swings with it. The hatch moves only as far as its latch allows — a hard, short knock, not a swing.
+
+LIGHTING
+Warm light from the bulb garland and the low bulb over the table, plus the thin glow around the rim of the sealed plate at the far end. When the garland swings, the light on the floor and walls swings with it. No flat front light. No fire anywhere in frame.
+
+AUDIO
+A low rumble descending behind the wall, growing across all four shots; grit falling on wood in shot A; the creak of the swinging wire in shot B; Папа's two audible sniffs and his unfinished line in shot C; the iron knock of the hatch against its latch and a soft hiss of soot in shot D. No music, no subtitles.
+
+SHOT RULES
+Exactly six characters: Фрося, Вася, Мама, Папа, Руся and Муся — no others, no duplicates.
+The hatch stays SHUT in every frame of this sequence — it does not open yet. It is a cleanout hatch, never a door, and must not read as an entrance.
+The far wall is SEALED IRON: no fire, no flames, no opening, nobody passes through it.
+NOBODY faces the camera or lines up facing the lens. They are turned to their work and then to each other, seen from three-quarter, from behind, or from above.
+The four shots must not share a camera position or a framing. The юла́ is parked and motionless throughout — nobody is playing with it.
+Dialogue lock: only Папа speaks, on camera, in shot C. Everyone else is silent. No offscreen voices otherwise.

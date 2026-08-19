@@ -141,6 +141,7 @@ let segDuration = (seg: Kuku_Edl.segment, durs: Kuku_Edl.durs): (float, array<pl
 let overlayPos = (pos: string): string =>
   switch pos {
   | "c" => "(W-w)/2:(H-h)/2"
+  | "shield" => "(W-w)/2:(H-h)/2-H*0.10"
   | "bc" => "(W-w)/2:H*0.58"
   | "tr" => "W-w-W*0.05:H*0.07"
   | "br" => "W-w-W*0.05:H-h-H*0.07"
@@ -196,7 +197,27 @@ let renderSegment = (
      changes (zoompan -> drift). Without it, a recipe change reuses every cached
      segment and the "fix" changes nothing on screen. */
   /* r3: stills static + image inputs forced to 24fps + frame-aligned durations */
-  let key = Js.Json.stringify(Kuku_Edl.encodeSegment(seg)) ++ "|" ++ f3(dur) ++ "|r3"
+  /* r4: the key carries the CONTENT HASH of the source image/clip and every fx
+     overlay. Lesson 9 returned in a new disguise on 2026-08-06: two stills were
+     re-rendered under their existing names (human children removed), the spec
+     didn't change, every segment cache-hit, and the "fixed" episode shipped the
+     old pixels to the review cut. The name is a claim; the bytes are the truth. */
+  /* r5: shield-position glyph overlays have an explicit story-timed visibility
+     window, so the exact अक्षर stays on the shield plate instead of floating
+     across transitional frames. */
+  let contentHash = (rel: string): string =>
+    exists(Path(dir ++ "/" ++ rel)) ? sha256File(Path(dir ++ "/" ++ rel)) : "absent"
+  let srcHash = switch Kuku_Edl.sourcePath(seg.src) {
+  | Some(rel) => contentHash(rel)
+  | None => "seq"
+  }
+  let fxHash =
+    seg.fx
+    ->Belt.Array.map(x => contentHash(x.png))
+    ->Js.Array2.joinWith(",")
+  let key =
+    Js.Json.stringify(Kuku_Edl.encodeSegment(seg)) ++
+    "|" ++ f3(dur) ++ "|r5|" ++ srcHash ++ "|" ++ fxHash
   let fresh = exists(stamp) && readText(stamp) == key
   if !fresh {
     removeFile(Path(out))
@@ -304,9 +325,12 @@ let renderSegment = (
         "[" ++ i2s(k + 1) ++ ":v]format=rgba,scale=" ++ i2s(px) ++ ":-1,fade=t=in:st=" ++ f(x.at) ++ ":d=0.5:alpha=1[f" ++ i2s(k) ++ "]",
       )
       let lbl = "a" ++ i2s(k)
+      let overlayEnable = x.pos == "shield"
+        ? ":enable='between(t,2.0,2.9)+between(t,5.0,7.0)'"
+        : ""
       let _ = Js.Array2.push(
         parts,
-        "[" ++ prev.contents ++ "][f" ++ i2s(k) ++ "]overlay=" ++ overlayPos(x.pos) ++ ":shortest=1[" ++ lbl ++ "]",
+        "[" ++ prev.contents ++ "][f" ++ i2s(k) ++ "]overlay=" ++ overlayPos(x.pos) ++ ":shortest=1" ++ overlayEnable ++ "[" ++ lbl ++ "]",
       )
       prev := lbl
     })
@@ -564,7 +588,13 @@ let buildScene = (~dir: string, ~scene: Kuku_Edl.scene, ~durs: Kuku_Edl.durs): (
 
 /* ---- the episode --------------------------------------------------------- */
 
-let assembleEpisode = (~dir: string, ~edlFile: string, ~dursFile: string, ~outName: string): unit => {
+let assembleEpisode = (
+  ~dir: string,
+  ~edlFile: string,
+  ~dursFile: string,
+  ~outName: string,
+  ~titleAfter: option<string>=?,
+): unit => {
   /* PREFLIGHT IS NOT OPTIONAL. Every check it runs exists because that defect
      shipped or nearly shipped on a previous episode (stories/kuku/PRODUCTION_LESSONS.md).
      Assembling past a blocking failure is how an episode gets built on a missing
@@ -631,14 +661,34 @@ let assembleEpisode = (~dir: string, ~edlFile: string, ~dursFile: string, ~outNa
     }
   })
 
-  let lines = Belt.Array.concatMany([
-    ["file 'title24.mp4'"],
-    sceneFiles->Belt.Array.map(s => {
-      let parts = Js.String2.split(s, "/")
-      "file '" ++ Belt.Array.getExn(parts, Belt.Array.length(parts) - 1) ++ "'"
-    }),
-    ["file 'credits24.mp4'"],
-  ])
+  /* ~titleAfter names the scene AFTER which the title song plays — for an
+     episode with a cold open, the title belongs after it, not before. Omitted,
+     the title leads as before. */
+  let sceneLines = sceneFiles->Belt.Array.map(s => {
+    let parts = Js.String2.split(s, "/")
+    "file '" ++ Belt.Array.getExn(parts, Belt.Array.length(parts) - 1) ++ "'"
+  })
+  let titleLine = "file 'title24.mp4'"
+  let bodyLines = switch titleAfter {
+  | Some(after) => {
+      let out = []
+      sceneFiles->Belt.Array.forEachWithIndex((i, s) => {
+        let _ = Js.Array2.push(out, Belt.Array.getExn(sceneLines, i))
+        if Js.String2.includes(s, "/" ++ after ++ ".mp4") {
+          let _ = Js.Array2.push(out, titleLine)
+        }
+      })
+      /* if the named scene was skipped (missing assets), the title must not
+         silently vanish from the episode — fall back to title-first */
+      if Js.Array2.includes(out, titleLine) {
+        out
+      } else {
+        Belt.Array.concat([titleLine], sceneLines)
+      }
+    }
+  | None => Belt.Array.concat([titleLine], sceneLines)
+  }
+  let lines = Belt.Array.concat(bodyLines, ["file 'credits24.mp4'"])
   let cat = dir ++ "/out/ep_cat.txt"
   writeText(Path(cat), Js.Array2.joinWith(lines, "\n") ++ "\n")
   let final = dir ++ "/out/" ++ outName

@@ -1,8 +1,8 @@
 # Episode 1, Scene 1 — current production state
 
 **Operational authority:** this file and [`scene1.production.v1.json`](./scene1.production.v1.json).  
-**Revision:** 29 — 2026-08-05.  
-**Manifest SHA-256:** `b48f35172ee0781f1a60ba2c8dd400a0a918b6339525c865c1822f642ac3e574`.  
+**Revision:** 30 — 2026-08-06.  
+**Manifest SHA-256:** `024e9c1dba55bede540b2a5be582226cc775c8c5ceaa26b29765877d2936af18`.  
 **Status:** storyboard APPROVED (all 7 stills, first-try, incl. C04/C07 framing deviations accepted by the author); animatic in review; motion still gated.
 
 **Rev 29 (2026-08-05):** motion clips generated first-try (receipted, pending author review in the assembled cut: C02 direction law HOLDS, but late-clip drift — wall knobs, shrinking sock, faces — only first 5s used; C08 excellent incl. the foot-toe on the stuck car, one drift: a bed replaces the master's window wall). SCENE1_CUT_v1.mp4 assembled: 41.5s, approved stills + clips on the rev-14 animatic timing, approved RU voices, PSE foley (birds/motor-buzz/steps/flop), mobile encode. Awaiting the author's CUT review; lip-sync (C03 + C06) only after approval per the standing gate.
@@ -76,6 +76,8 @@ submission, sends immutable content-addressed copies of approved references, and
 pre-submit stop or post-submit authority change. The older Kuku generator is filesystem-confined
 to real `stories/kuku` paths and cannot be redirected into this scene through arguments, traversal,
 or symlinks.
+
+**Rev 30 — THE AUTHOR-FRAME LAW (2026-08-06, supersedes prior shot approvals for USE):** only material built from AUTHOR-SUPPLIED frames (or deterministic derivations of them: crops, patches, upscales) is production canon. Approved-and-kept: the Kling sock-drag (author start frame → C03 arrival) and the 18s peek sequence (author corner frame family). Everything else — generated standalone stills used as shots, the omni clips, cuts v1/v2 — is retired to garbage/ as reference history; earlier storyboard approvals stand as HISTORY but no longer authorize USE. Production method from here: author keyframes → two-keyframe Kling → deterministic camera moves; per-shot keyframe plans go to the author for approval BEFORE any motion. Approved voices/audio remain canon.
 
 This document is the mandatory rehydration packet after a new session or context compression. Do not reconstruct Scene 1 from conversation history.
 

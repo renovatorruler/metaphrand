@@ -21,7 +21,16 @@ worker must not edit or approve the final scene directly.
 
 ## The governing law — read this before writing anything
 
-**ReScript for everything. No Python, no JavaScript, no new languages.** This has been
+**ReScript for everything. No Python, no JavaScript, no new languages.**
+
+> AUTHOR-APPROVED EXCEPTION (2026-08-13) — the Defold game runtime.
+> The literacy game is built on the Defold engine, which is Lua-only. The split the
+> author confirmed: **ReScript owns all episode data and its validation**; the typed
+> plan in `studio/` EMITS the Lua data tables and the asset manifest the game loads.
+> Hand-written Lua is permitted ONLY for engine glue — input, the stroke scorer,
+> screen transitions. No episode content, no letter/word data, no asset paths are
+> ever authored in Lua. This exception covers `game/` and nothing else.
+ This has been
 stated before and violated before — including by a Claude session that reached for Python
 "just to run one gate," then kept building Python tooling for an entire conversation before
 being caught. If you are about to write a `.py` file, or use `python`/`pip` for anything
@@ -136,6 +145,12 @@ through the engine" as a claim that must be backed by a receipt on disk, from an
 including yourself.
 
 ## Conventions
+
+- **Nothing is ever hard-deleted.** `Cinema_Backends.removeFile` MOVES files to
+  `<repo>/.trash/<original-relative-path>` (collisions get a timestamp suffix), and the
+  shell-side twin is `studio/scripts/trash.sh <paths...>`. Never use `rm` on repo content.
+  Reclaiming space is the author's manual, per-project decision: `scripts/trash.sh --report`
+  shows what a sweep would free; only the author deletes from `.trash/`.
 
 - **Do not add new media to Git or Git LFS.** `.png .jpg .jpeg .webp .mp3 .mp4 .m4a .wav
   .glb .pdf` and production output are ignored. About eight thousand legacy LFS assets remain

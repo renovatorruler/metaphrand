@@ -62,17 +62,30 @@ let run = (~cmd: string, ~args: array<string>): runResult => {
 @module("fs") external readFileText: (string, string) => string = "readFileSync"
 @module("fs") external writeFileBuf: (string, buffer) => unit = "writeFileSync"
 @module("fs") external writeFileText: (string, string) => unit = "writeFileSync"
+type exclusiveWriteOpts = {encoding: string, flag: string}
+@module("fs")
+external writeFileTextWithOpts: (string, string, exclusiveWriteOpts) => unit = "writeFileSync"
 @module("fs") external readdirSync: string => array<string> = "readdirSync"
 @module("fs") external unlinkSync: string => unit = "unlinkSync"
+@module("fs") external renameSync: (string, string) => unit = "renameSync"
+@module("fs") external linkSync: (string, string) => unit = "linkSync"
 type mkdirOpts = {recursive: bool}
 @module("fs") external mkdirSync: (string, mkdirOpts) => unit = "mkdirSync"
 @module("fs") external mkdtempSync: string => string = "mkdtempSync"
 type stats = {size: float}
 @module("fs") external statSync: string => stats = "statSync"
+@get external fsErrorCodeNullable: Js.Exn.t => Js.Nullable.t<string> = "code"
+
+type hash
+@module("crypto") external createHash: string => hash = "createHash"
+@send external hashUpdateBuffer: (hash, buffer) => hash = "update"
+@send external hashDigest: (hash, string) => string = "digest"
 
 /* ---- path / os ----------------------------------------------------------- */
 @module("path") external dirname: string => string = "dirname"
 @module("path") external resolvePath: string => string = "resolve"
+@module("path") external dirnamePath: string => string = "dirname"
+@module("path") external basenamePath: string => string = "basename"
 @module("os") external tmpdir: unit => string = "tmpdir"
 @val @scope("process") external cwd: unit => string = "cwd"
 
@@ -84,6 +97,17 @@ type response
 @send external arrayBuffer: response => promise<Js.TypedArray2.ArrayBuffer.t> = "arrayBuffer"
 @send external textBody: response => promise<string> = "text"
 @send external jsonBody: response => promise<Js.Json.t> = "json"
+
+/* Node's native multipart types. Keeping these bindings here preserves the
+   backend boundary: callers pass a typed path and never construct HTTP bodies. */
+type formData
+type fileBlob
+type formPostOpts = {method: string, headers: Js.Json.t, body: formData}
+@new external newFormData: unit => formData = "FormData"
+@val external fetchForm: (string, formPostOpts) => promise<response> = "fetch"
+@module("fs") external openAsBlob: string => promise<fileBlob> = "openAsBlob"
+@send external appendFormFile: (formData, string, fileBlob, string) => unit = "append"
+@send external appendFormText: (formData, string, string) => unit = "append"
 
 /* ---- timers (poll backoff) ----------------------------------------------- */
 @val external setTimeout: (unit => unit, int) => unit = "setTimeout"
@@ -160,6 +184,27 @@ let writeText = (Path(p), s: string): unit => {
   ensureDir(p)
   writeFileText(p, s)
 }
+let writeTextExclusive = (Path(p), s: string): bool => {
+  ensureDir(p)
+  try {
+    writeFileTextWithOpts(p, s, {encoding: "utf8", flag: "wx"})
+    true
+  } catch {
+  | Js.Exn.Error(error) =>
+    switch fsErrorCodeNullable(error)->Js.Nullable.toOption {
+    | Some("EEXIST") => false
+    | Some(code) =>
+      raise(BackendError("exclusive write failed for " ++ p ++ ": " ++ code))
+    | None =>
+      raise(
+        BackendError(
+          "exclusive write failed for " ++ p ++ ": " ++
+          Js.Exn.message(error)->Belt.Option.getWithDefault("unknown filesystem error"),
+        ),
+      )
+    }
+  }
+}
 
 /* a fresh scratch directory (for the assembler's intermediate clips). */
 let tempDir = (prefix: string): path => Path(mkdtempSync(tmpdir() ++ "/" ++ prefix))
@@ -175,9 +220,41 @@ let ensureDirPath = (Path(p)): unit =>
 
 let readDir = (Path(p)): array<string> => existsSync(p) ? readdirSync(p) : []
 
+/* NOTHING IS EVER HARD-DELETED (author's law, 2026-08-06). A "removed" file is
+   MOVED to <repo>/.trash/, keeping its repo-relative path, so recovery is a `mv`
+   back and reclaiming space is the author's manual, per-project decision
+   (`rm -rf .trash/stories/<project>`). This exists because a paid asset was once
+   rm'd on a hunch and had to be recovered from a provider's CDN history.
+
+   The repo root is found by walking up from cwd to the directory holding .git —
+   never hardcoded (hardcoded absolute paths have dangled twice before). A path
+   outside the repo goes under .trash/_external/. A name collision in the trash
+   gets a millisecond suffix rather than overwriting what is already there:
+   the trash must never itself destroy data. */
+let repoRoot: unit => string = () => {
+  let rec up = (d: string, fuel: int): string =>
+    fuel == 0 || existsSync(d ++ "/.git")
+      ? d
+      : {
+          let parent = dirnamePath(d)
+          parent == d ? d : up(parent, fuel - 1)
+        }
+  up(cwd(), 10)
+}
+
 let removeFile = (Path(p)): unit =>
   if existsSync(p) {
-    unlinkSync(p)
+    let root = repoRoot()
+    let abs = resolvePath(p)
+    let rel = Js.String2.startsWith(abs, root ++ "/")
+      ? Js.String2.sliceToEnd(abs, ~from=Js.String2.length(root) + 1)
+      : "_external/" ++ basenamePath(abs)
+    let dest0 = root ++ "/.trash/" ++ rel
+    let dest = existsSync(dest0)
+      ? dest0 ++ "." ++ Js.Float.toString(Js.Date.now())
+      : dest0
+    ensureDir(dest)
+    renameSync(abs, dest)
   }
 
 /* A byte-for-byte copy. Deliberately NOT an ffmpeg remux: re-muxing a finished
@@ -187,6 +264,32 @@ let copyFile = (Path(src), Path(dst)): unit => {
   ensureDir(dst)
   writeFileBuf(dst, readFileBuf(src))
 }
+
+/* A hard-link publication is atomic and refuses an existing destination. The
+   temp source remains available for diagnostics until its OS temp directory is
+   reclaimed; no partially encoded file can ever appear at the public path. */
+let publishFileExclusive = (Path(src), Path(dst)): bool => {
+  ensureDir(dst)
+  try {
+    linkSync(src, dst)
+    true
+  } catch {
+  | Js.Exn.Error(error) =>
+    switch fsErrorCodeNullable(error)->Js.Nullable.toOption {
+    | Some("EEXIST") => false
+    | Some(code) => raise(BackendError("exclusive publish failed for " ++ dst ++ ": " ++ code))
+    | None => raise(BackendError("exclusive publish failed for " ++ dst))
+    }
+  }
+}
+
+let sha256File = (Path(p)): string =>
+  createHash("sha256")->hashUpdateBuffer(readFileBuf(p))->hashDigest("hex")
+
+@send external hashUpdateText: (hash, string, string) => hash = "update"
+
+let sha256Text = (value: string): string =>
+  createHash("sha256")->hashUpdateText(value, "utf8")->hashDigest("hex")
 
 /* Exact container duration via ffprobe. `durationSec` below decodes the whole
    file with `-f null -` and scrapes the last time= off stderr, which is both slow
@@ -770,6 +873,61 @@ let dialogueTimed = async (lines: array<(text, voiceId)>): (blob, array<(float, 
   (audio, times)
 }
 
+type forcedAlignmentCharacter = {text: string, start: float, end_: float}
+type forcedAlignment = {
+  characters: array<forcedAlignmentCharacter>,
+  loss: float,
+}
+
+/* ElevenLabs forced alignment returns one timing row per transcript character.
+   The public type intentionally omits word rows: character offsets let a caller
+   derive exact block boundaries even when adjacent blocks contain punctuation
+   or repeated words. */
+let forcedAlignment = async (~audio: path, ~text: text): forcedAlignment => {
+  let Path(audioPath) = audio
+  let Text(transcript) = text
+  let form = newFormData()
+  let file = await openAsBlob(audioPath)
+  appendFormFile(form, "file", file, basenamePath(audioPath))
+  appendFormText(form, "text", transcript)
+  let resp = await fetchForm(
+    "https://api.elevenlabs.io/v1/forced-alignment",
+    {
+      method: "POST",
+      headers: headerObj([("xi-api-key", key("ELEVENLABS_API_KEY"))]),
+      body: form,
+    },
+  )
+  if !ok(resp) {
+    let tb = await textBody(resp)
+    raise(
+      BackendError(
+        "forcedAlignment HTTP " ++ Belt.Int.toString(status(resp)) ++ ": " ++
+        Js.String2.slice(tb, ~from=0, ~to_=200),
+      ),
+    )
+  }
+  let result = await jsonBody(resp)
+  let obj = result->Js.Json.decodeObject->Belt.Option.getExn
+  let characters =
+    Js.Dict.get(obj, "characters")
+    ->Belt.Option.flatMap(Js.Json.decodeArray)
+    ->Belt.Option.getWithDefault([])
+    ->Belt.Array.map(row => {
+      let d = Js.Json.decodeObject(row)->Belt.Option.getExn
+      {
+        text: Js.Dict.get(d, "text")->Belt.Option.flatMap(Js.Json.decodeString)->Belt.Option.getExn,
+        start: Js.Dict.get(d, "start")->Belt.Option.flatMap(Js.Json.decodeNumber)->Belt.Option.getExn,
+        end_: Js.Dict.get(d, "end")->Belt.Option.flatMap(Js.Json.decodeNumber)->Belt.Option.getExn,
+      }
+    })
+  let loss =
+    Js.Dict.get(obj, "loss")
+    ->Belt.Option.flatMap(Js.Json.decodeNumber)
+    ->Belt.Option.getWithDefault(0.0)
+  {characters, loss}
+}
+
 let tts = async (~text: text, ~voice: voiceId, ~settings: option<Js.Json.t>=?): blob => {
   let Text(t) = text
   let VoiceId(v) = voice
@@ -834,7 +992,10 @@ let music = async (~prompt: prompt, ~ms: millis, ~instrumental: bool): blob => {
   let body = Js.Dict.empty()
   Js.Dict.set(body, "prompt", Js.Json.string(p))
   Js.Dict.set(body, "music_length_ms", Js.Json.number(Belt.Int.toFloat(len)))
-  Js.Dict.set(body, "model_id", Js.Json.string("music_v1"))
+  /* music_v2 verified live 2026-08-17 (POST /v1/music returned 200 with a real MP3 on this
+     key). Standing instruction from the user: use the latest available API. Music has no
+     voice-continuity concern, so unlike the cast TTS pins it upgrades freely. */
+  Js.Dict.set(body, "model_id", Js.Json.string("music_v2"))
   Js.Dict.set(body, "force_instrumental", Js.Json.boolean(instrumental))
   let resp = await fetch(
     "https://api.elevenlabs.io/v1/music?output_format=mp3_44100_128",

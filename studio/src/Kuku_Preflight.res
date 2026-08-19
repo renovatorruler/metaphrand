@@ -23,13 +23,24 @@ let asStr = o => o->Belt.Option.flatMap(Js.Json.decodeString)->Belt.Option.getWi
 let asNum = o => o->Belt.Option.flatMap(Js.Json.decodeNumber)->Belt.Option.getWithDefault(0.0)
 let asArr = o => o->Belt.Option.flatMap(Js.Json.decodeArray)->Belt.Option.getWithDefault([])
 
-type severity = Blocking | Warning
+/* Pending = the input this check reads does not exist yet, so the check could not
+   run. It is NOT a pass and NOT a blocker: lesson 1 says the first, mandatory run
+   happens BEFORE anything is generated, when takes/, stills/ and the EDL cannot
+   exist. Reporting absence explicitly is what keeps that run honest — a guard that
+   silently passes on a missing input is the lesson-10 failure ("a guard that can
+   only pass is worthless") wearing a different hat. */
+type severity = Blocking | Warning | Pending
 type finding = {check: string, severity: severity, detail: string}
 
 let findings: array<finding> = []
 let add = (check, severity, detail) => {
   let _ = Js.Array2.push(findings, {check, severity, detail})
 }
+let pending = (check, detail) => add(check, Pending, detail)
+
+/* A missing directory means "nothing generated yet", not a crash — the gate has to
+   be runnable on a fresh episode. Callers still report the absence as Pending. */
+let readDirSafe = (p: path): array<string> => exists(p) ? readDir(p) : []
 let passed: array<string> = []
 let pass = (c: string) => {
   let _ = Js.Array2.push(passed, c)
@@ -60,6 +71,9 @@ let slugOf = (who: string): string =>
   | "MITASUR" => "mitasur"
   | "CASTOR" => "castor"
   | "LEDA" => "leda"
+  | "CHEEL" => "cheel"
+  | "RISHI" => "rishi"
+  | "SUTRADHAR" => "sutradhar"
   | _ => "group"
   }
 
@@ -75,6 +89,10 @@ let sheetOf = (who: string): option<string> =>
   | "MITASUR" => Some("mitasur")
   | "CASTOR" => Some("castor")
   | "LEDA" => Some("leda")
+  | "CHEEL" => Some("cheel")
+  | "RISHI" => Some("rishi")
+  /* सूत्रधार is an offscreen storyteller: a voice with no body and no sheet */
+  | "SUTRADHAR" => Some("")
   | _ => None
   }
 
@@ -84,7 +102,8 @@ let main = () => {
       let manifest = Js.Json.parseExn(readText(Path(dir ++ "/" ++ prefix ++ "_manifest.json")))
       let events = fld(manifest, "events")->asArr
       let cues = fld(manifest, "sfx")->asArr
-      let durs = Kuku_Edl.loadDurs(Path(dir ++ "/" ++ prefix ++ "_durs.json"))
+      let dursPath = Path(dir ++ "/" ++ prefix ++ "_durs.json")
+      let durs = exists(dursPath) ? Some(Kuku_Edl.loadDurs(dursPath)) : None
 
       let edlPath = Path(dir ++ "/" ++ prefix ++ "_edl.json")
       let edl = exists(edlPath) ? Some(Kuku_Edl.load(edlPath)) : None
@@ -112,30 +131,49 @@ let main = () => {
       }
 
       /* ---- 2. every take exists and has a duration ------------------------- */
-      let missingTakes =
-        events
-        ->Belt.Array.keep(e => !Js.String2.endsWith(fld(e, "who")->asStr, "_SFX"))
-        ->Belt.Array.keep(e => {
-          let i = fld(e, "idx")->asNum->Belt.Float.toInt
-          Js.Dict.get(durs.takes, Belt.Int.toString(i)) == None
-        })
-        ->Belt.Array.map(e => Belt.Int.toString(fld(e, "idx")->asNum->Belt.Float.toInt))
-      if Belt.Array.length(missingTakes) > 0 {
-        add("all-takes-recorded", Blocking, Belt.Int.toString(Belt.Array.length(missingTakes)) ++ " missing: " ++ Js.Array2.joinWith(Belt.Array.slice(missingTakes, ~offset=0, ~len=12), ","))
-      } else {
-        pass("all-takes-recorded")
+      switch durs {
+      | None =>
+        pending(
+          "all-takes-recorded",
+          "no " ++ prefix ++ "_durs.json yet — " ++
+          Belt.Int.toString(
+            Belt.Array.length(
+              events->Belt.Array.keep(e => !Js.String2.endsWith(fld(e, "who")->asStr, "_SFX")),
+            ),
+          ) ++ " takes still to record",
+        )
+      | Some(d) => {
+          let missingTakes =
+            events
+            ->Belt.Array.keep(e => !Js.String2.endsWith(fld(e, "who")->asStr, "_SFX"))
+            ->Belt.Array.keep(e => {
+              let i = fld(e, "idx")->asNum->Belt.Float.toInt
+              Js.Dict.get(d.takes, Belt.Int.toString(i)) == None
+            })
+            ->Belt.Array.map(e => Belt.Int.toString(fld(e, "idx")->asNum->Belt.Float.toInt))
+          if Belt.Array.length(missingTakes) > 0 {
+            add("all-takes-recorded", Blocking, Belt.Int.toString(Belt.Array.length(missingTakes)) ++ " missing: " ++ Js.Array2.joinWith(Belt.Array.slice(missingTakes, ~offset=0, ~len=12), ","))
+          } else {
+            pass("all-takes-recorded")
+          }
+        }
       }
 
       /* ---- 3. dialogue is levelled ----------------------------------------
          Ep5 shipped once with the stream louder than the voices. */
-      let unlevelled =
-        readDir(Path(dir ++ "/takes"))
-        ->Belt.Array.keep(f => Js.String2.endsWith(f, ".mp3"))
-        ->Belt.Array.keep(f => !exists(Path(dir ++ "/takes/." ++ f ++ ".leveled")))
-      if Belt.Array.length(unlevelled) > 0 {
-        add("dialogue-levelled", Blocking, Belt.Int.toString(Belt.Array.length(unlevelled)) ++ " takes never loudness-normalised")
+      let recorded =
+        readDirSafe(Path(dir ++ "/takes"))->Belt.Array.keep(f => Js.String2.endsWith(f, ".mp3"))
+      if Belt.Array.length(recorded) == 0 {
+        /* no mp3s at all is "not recorded yet", not "every take is levelled" */
+        pending("dialogue-levelled", "no takes recorded yet")
       } else {
-        pass("dialogue-levelled")
+        let unlevelled =
+          recorded->Belt.Array.keep(f => !exists(Path(dir ++ "/takes/." ++ f ++ ".leveled")))
+        if Belt.Array.length(unlevelled) > 0 {
+          add("dialogue-levelled", Blocking, Belt.Int.toString(Belt.Array.length(unlevelled)) ++ " takes never loudness-normalised")
+        } else {
+          pass("dialogue-levelled")
+        }
       }
 
       switch edl {
@@ -168,32 +206,38 @@ let main = () => {
              effect durations. Every file was on disk; the assembler skipped all
              eight scenes anyway, because it needs the LENGTH, not the file. Checking
              existence alone is not enough. */
-          let noDuration = []
-          e.scenes->Belt.Array.forEach(sc =>
-            sc.segments->Belt.Array.forEach(seg =>
-              seg.takes->Belt.Array.forEach(t =>
-                switch Kuku_Edl.eventDur(durs, t) {
-                | _ => ()
-                | exception _ => {
-                    let n = Kuku_Edl.eventPath(t)
-                    if !Belt.Array.some(noDuration, x => x == n) {
-                      let _ = Js.Array2.push(noDuration, n)
+          switch durs {
+          | None =>
+            pending("edl-events-have-durations", "no " ++ prefix ++ "_durs.json to resolve against")
+          | Some(d) => {
+              let noDuration = []
+              e.scenes->Belt.Array.forEach(sc =>
+                sc.segments->Belt.Array.forEach(seg =>
+                  seg.takes->Belt.Array.forEach(t =>
+                    switch Kuku_Edl.eventDur(d, t) {
+                    | _ => ()
+                    | exception _ => {
+                        let n = Kuku_Edl.eventPath(t)
+                        if !Belt.Array.some(noDuration, x => x == n) {
+                          let _ = Js.Array2.push(noDuration, n)
+                        }
+                      }
                     }
-                  }
-                }
+                  )
+                )
               )
-            )
-          )
-          if Belt.Array.length(noDuration) > 0 {
-            add(
-              "edl-events-have-durations",
-              Blocking,
-              Belt.Int.toString(Belt.Array.length(noDuration)) ++
-              " events have no duration entry (the assembler will SKIP their whole scene): " ++
-              Js.Array2.joinWith(Belt.Array.slice(noDuration, ~offset=0, ~len=6), ", "),
-            )
-          } else {
-            pass("edl-events-have-durations")
+              if Belt.Array.length(noDuration) > 0 {
+                add(
+                  "edl-events-have-durations",
+                  Blocking,
+                  Belt.Int.toString(Belt.Array.length(noDuration)) ++
+                  " events have no duration entry (the assembler will SKIP their whole scene): " ++
+                  Js.Array2.joinWith(Belt.Array.slice(noDuration, ~offset=0, ~len=6), ", "),
+                )
+              } else {
+                pass("edl-events-have-durations")
+              }
+            }
           }
 
           /* ---- 4c. every EDL event resolves to a FILE ON DISK ---------------
@@ -266,6 +310,13 @@ let main = () => {
              The rule is the principle: in a segment with speech, an effect either
              OPENS the shot (at 0.0 — ambience beds, arrival sounds) or starts
              AFTER the speech ends. Anything in between is buried under a voice. */
+          switch durs {
+          | None =>
+            pending(
+              "sfx-not-buried-under-speech",
+              "no " ++ prefix ++ "_durs.json; speech end times unknown",
+            )
+          | Some(d) => {
           let buried = []
           e.scenes->Belt.Array.forEach(sc =>
             sc.segments->Belt.Array.forEachWithIndex((gi, seg) => {
@@ -281,7 +332,7 @@ let main = () => {
                   let start = at->Belt.Option.getWithDefault(0.3)
                   let stop =
                     start +.
-                    Js.Dict.get(durs.takes, Belt.Int.toString(idx))->Belt.Option.getWithDefault(0.0)
+                    Js.Dict.get(d.takes, Belt.Int.toString(idx))->Belt.Option.getWithDefault(0.0)
                   seg.takes->Belt.Array.forEach(t =>
                     switch t {
                     | Kuku_Edl.Effect({name, at}) => {
@@ -320,6 +371,8 @@ let main = () => {
           } else {
             pass("sfx-not-buried-under-speech")
           }
+            }
+          }
 
           /* ---- 7. every sound cue in the script is placed -----------------
              Ep5 built an effects table and never consumed it; the crack the
@@ -353,11 +406,11 @@ let main = () => {
             )
           )
           let orphanStills =
-            readDir(Path(dir ++ "/stills"))
+            readDirSafe(Path(dir ++ "/stills"))
             ->Belt.Array.keep(f => Js.String2.endsWith(f, ".png") && !Js.String2.startsWith(f, "wp_"))
             ->Belt.Array.keep(f => Js.Dict.get(used, "stills/" ++ f) == None)
           let orphanClips =
-            readDir(Path(dir ++ "/clips"))
+            readDirSafe(Path(dir ++ "/clips"))
             ->Belt.Array.keep(f => Js.String2.endsWith(f, ".mp4"))
             ->Belt.Array.keep(f => Js.Dict.get(used, "clips/" ++ f) == None)
           let nOrphan = Belt.Array.length(orphanStills) + Belt.Array.length(orphanClips)
@@ -487,8 +540,11 @@ let main = () => {
       /* ---- 11. word cards must depict their words ------------------------
          Ep5 shipped five of six wrong. This can only check that a distinct
          picture EXISTS for each carded word; a human still has to look. */
-      let wordpics = readDir(Path(dir ++ "/wordpics"))->Belt.Array.keep(f => Js.String2.endsWith(f, ".png"))
-      if Belt.Array.length(wordpics) < 6 {
+      let wordpicDir = Path(dir ++ "/wordpics")
+      let wordpics = readDirSafe(wordpicDir)->Belt.Array.keep(f => Js.String2.endsWith(f, ".png"))
+      if !exists(wordpicDir) {
+        pending("word-cards-have-pictures", "no wordpics/ directory yet")
+      } else if Belt.Array.length(wordpics) < 6 {
         add("word-cards-have-pictures", Blocking, "only " ++ Belt.Int.toString(Belt.Array.length(wordpics)) ++ " word pictures; the recap needs one per carded word")
       } else {
         pass("word-cards-have-pictures")
@@ -500,6 +556,11 @@ let main = () => {
       passed->Belt.Array.forEach(p => Js.log("  ok   " ++ p))
       let blockers = findings->Belt.Array.keep(f => f.severity == Blocking)
       let warns = findings->Belt.Array.keep(f => f.severity == Warning)
+      let pend = findings->Belt.Array.keep(f => f.severity == Pending)
+      if Belt.Array.length(pend) > 0 {
+        Js.log("\nnot yet produced (check could not run):")
+        pend->Belt.Array.forEach(f => Js.log("  ....  " ++ f.check ++ ": " ++ f.detail))
+      }
       if Belt.Array.length(warns) > 0 {
         Js.log("\nwarnings:")
         warns->Belt.Array.forEach(f => Js.log("  warn " ++ f.check ++ ": " ++ f.detail))
@@ -509,6 +570,14 @@ let main = () => {
         blockers->Belt.Array.forEach(f => Js.log("  FAIL " ++ f.check ++ ": " ++ f.detail))
         Js.log("\nPREFLIGHT FAILED — " ++ Belt.Int.toString(Belt.Array.length(blockers)) ++ " blocking")
         exit(1)
+      } else if Belt.Array.length(pend) > 0 {
+        /* Nothing is wrong, but the episode is not finished either. Saying PASSED
+           here would read as "clear to assemble" on an episode with no takes. */
+        Js.log(
+          "\nPREFLIGHT CLEAR SO FAR — nothing wrong, but " ++
+          Belt.Int.toString(Belt.Array.length(pend)) ++
+          " check(s) could not run yet. Not clear to assemble.",
+        )
       } else {
         Js.log("\nPREFLIGHT PASSED")
       }

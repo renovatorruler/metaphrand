@@ -18,6 +18,7 @@ A song is not delivered until it has ALL of: (1) lyrics with performance/section
 8. FOR A LIVING LISTENER (the uncle-song constraint set): a dedication song a dying man will hear = no illness, no departure staging, no goodbye furniture; present-habitual tense; the adversary generic and dismissible; the listener's dignity is the design constraint. "Living elegy," never farewell.
 9. PERSONA LAW — one voice across an album: save the best take of track 1 as a Suno Persona, reuse for every track. A persona born from a sung take pulls toward singing; for spoken tracks add "the singer sets down his instrument and recites."
 10. SPOKEN-WORD RECIPE — tag every section [Spoken Word], style = "recitation, kavita paath, not singing," exclude = singing/melody/melisma/rap/beat/percussion. Expect 2–3 takes; discard drifting takes rather than hoping.
+11. LONG-FORM VIA EXTEND (2026-08-09, «कर्क की तांती»): a long lyric sheet pasted whole gets compressed — Suno flattens it to ~3 minutes and the build-up dies. A song with real architecture is delivered in EXTEND SEGMENTS: generate segment 1 alone (the build gets a third of the runtime to breathe), take 2–3, keep the slowest build, then Extend with each next segment's lyrics from the end of an instrumental bar — never from a fade; crop invented endings before extending. Extend inherits style and voice from the take. A planted question can then be answered a full movement later, which is what the technique is FOR.
 
 ## Index of cycles
 

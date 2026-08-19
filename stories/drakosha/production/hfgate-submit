@@ -1,0 +1,11 @@
+#!/bin/bash
+# hfgate-submit — the one path through the credential wall.
+# Installed at /usr/local/bin/hfgate-submit, run as the hfgate user via sudo.
+# It points HOME at the gate directory (so the higgsfield CLI finds the moved
+# credentials) and runs the compiled gate program, which validates, budgets,
+# ledgers, and submits. It accepts job IDs only.
+set -euo pipefail
+export HOME=/Users/hfgate/gate
+export HFGATE_HOME=/Users/hfgate/gate
+cd /Users/dusty/dev/metaphrand/studio
+exec node src/Drakosha_GateSubmit.res.mjs submit "$@"

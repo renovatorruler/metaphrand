@@ -16,3 +16,12 @@ Rules:
 - Stop before generation when a shot has an unresolved blocking asset or contradictory state.
 - Preserve rejected and superseded assets, but never treat them as current merely because they remain on disk.
 
+## Table-read preflight
+
+Before preparing or rendering any Frosya and Vasya table read, read
+`2026-08-12_TABLE_READ_LANGUAGE_AND_VOICE_POLICY.md` completely.
+
+- Ask the user whether the table read should be in Russian or English before doing any paid rendering. A bilingual screenplay does not answer this question.
+- Do not infer that a voice is suitable for a language from a provider label such as “multilingual.”
+- Do not use Anna Zub for English narration. Her heavily accented English was rejected by the user.
+- Anna Zub is not approved for Russian narration either unless the user explicitly approves her after hearing a Russian audition.

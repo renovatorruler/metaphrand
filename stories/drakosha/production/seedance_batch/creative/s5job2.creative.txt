@@ -1,0 +1,68 @@
+SCENE CONTEXT
+Dinner, a little after the grown-ups' tea. The grandmother turns to the birthday girl and asks what she dreams of, the mother tries to head it off, and both older children answer before she can.
+
+ALL DIALOGUE IS IN RUSSIAN. Speak exactly the lines below, in Russian, and nothing else. No English anywhere.
+
+START FRAME AND SEATING
+Frame one IS the supplied start image — that picture, that framing. It is the truth for the table, seating, food, walls and light; invent none of it. Мама at the left end feeding Муся; Бабушка-Яга on the far side, riveted plate behind her; Папа at the right end feeding Руся; Вася and Фрося on the near side, backs to camera, Фрося across from Бабушка-Яга. Nobody changes seats; nobody stands but Вася at the end. Бабушка-Яга has NO broom at the table — she is eating, both hands free.
+This is DINNER, NOT DESSERT: the table carries exactly the food in the start image, hot savoury bowls and plates. No cake and no sweet course anywhere.
+
+EYELINES — READ THIS BEFORE THE SHOTS
+Бабушка-Яга asks her question to ФРОСЯ and nobody else — never to Мама, never to the table at large, and she never looks back over her own shoulder. In every close shot the person being spoken to is IN FRAME as a large soft head or shoulder in the near corner, so the speaker has something real to look at. NEVER put other family members behind a speaker: with nothing in front, the eyeline goes to whoever is behind.
+
+BACKGROUND LIFE — until the question lands
+Before the question nobody is still, blank or merely blinking: Мама spoons food to Муся and hums tunelessly, Папа feeds Руся, Вася is restless and not listening, Фрося watches and waits.
+THE MOMENT THE QUESTION LANDS, ALL OF IT STOPS — but nothing ever holds for a beat: the scene keeps moving and one line follows another with no dead air. Humming cuts off, spoons stop, Папа looks up, and from then on the adults watch the children answer. Мама does NOT go back to cheerfully feeding the baby while her daughter asks for a magic car — she watches her daughter, and she is not pleased.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE, six shots, HARD CUTS only, no fades or dissolves.
+
+Shot A, 0:00–0:02 — THE WIDE, exactly the start image and the same camera. A family mid-meal, every one of them busy — spoons, bowls, two babies being fed — under a low murmur of talk with no word distinguishable. Then Бабушка-Яга lowers her cup and turns to Фрося across the table.
+HARD CUT.
+
+Shot B, 0:02–0:06 — FRONTAL ON БАБУШКА-ЯГА over Фрося's head, the back of the girl's dark hair large and soft in the near corner. Full face, riveted plate behind her and nothing else. She looks straight at that head — at Фрося — and asks it, fondly, sly, gold tooth showing:
+БАБУШКА-ЯГА: «Ну, имени́нница. О чём мечта́ешь?»
+HARD CUT.
+
+Shot C, 0:06–0:07.5 — CLOSE ON МАМА with Муся, boulder-block wall behind her. SHORT: she is already looking at Бабушка-Яга when we cut in and says the word straight away. No build-up, no business with the spoon, nothing before the line. Low, warning, never raised:
+МАМА: «Ма́ма…»
+HARD CUT.
+
+Shot D, 0:07.5–0:11 — ON ФРОСЯ, shot OVER БАБУШКА-ЯГА'S SHOULDER from across the table. Фрося sits up and leans forward, blurting it out in one breath:
+ФРОСЯ: «Хочу́ таку́ю же маши́нку, как мы сего́дня ви́дели,»
+Her line does not finish here — she is still speaking as the cut comes.
+HARD CUT.
+
+Shot E, 0:11–0:15 — FROM ПАПА'S END, looking straight down the length of the table. Бабушка-Яга in PROFILE in the near foreground — not three-quarter, not frontal — with МАМА beyond her at the far end, small and clear. Profile is the ONLY way both women fit one frame: Фрося sits directly opposite Бабушка-Яга, so any angle facing her turns Мама out of shot. Фрося keeps talking OFFSCREEN with no pause and no breath:
+ФРОСЯ (ЗК): «что́бы она́ сама́ е́здила и фа́ры у неё по-настоя́щему свети́лись!»
+Бабушка-Яга does not speak and her lips do not move at all. She listens and her smile widens. Behind her Мама has put the spoon down and is watching her daughter, and she is not pleased.
+HARD CUT.
+
+Shot F, 0:15–0:20 — ON ВАСЯ, shot OVER БАБУШКА-ЯГА'S SHOULDER. Вася shoves up out of his place onto his feet and pushes in before anyone can answer his sister:
+ВАСЯ: «А я хочу́ превраща́ться в кого́ захочу́ — хоть в диноза́вра, хоть в драко́на!»
+The shot ends on the end of that line.
+
+OPTICS
+29° diagonal field of view throughout, short telephoto portrait character, four to six metres back — close framing by lens reach, not proximity, foreground head or shoulder oversized and soft. The wide keeps the start image's lens. Rectilinear, no fisheye. No vignette, no dark oval, no iris.
+
+BACKGROUNDS — one thing behind each person, and nothing else
+Each shot has exactly ONE thing behind its subject. Never fill a background with the rest of the family.
+Behind БАБУШКА-ЯГА: the black riveted plate, and nothing else. No table, no other people.
+Behind МАМА: plain boulder-block wall. The matchbox beds are along that wall but they are LOW — in a close-up on her we see brick above them, not beds.
+Behind ФРОСЯ: the room simply continuing away from her, soft and out of focus. Do NOT put the riveted plate behind her — that is across the room, behind Бабушка-Яга — and never red brick. The hatch and the beds are on the wall at her SIDE, not at her back.
+Behind ВАСЯ: the rope railing along the edge of the ramp.
+Backgrounds are soft but real parts of this room — never blur, never void.
+
+TIMING, PHYSICS AND LIGHT
+Nobody ever speaks over anybody, but nobody waits either: each line comes straight after the one before with only a breath between. There is NO silent pause anywhere in this sequence. Вася's push up has real weight; nothing floats. The light matches the start image and rakes from one direction in every shot, never jumping sides across a cut.
+
+AUDIO
+The room is never silent. Under everything before the question: humming, spoons and bowls, two babies being fed. After the question the room quietens and only the four lines carry. No music, no subtitles, no narrator.
+
+SHOT RULES
+Exactly four characters speak, each once: Бабушка-Яга, Мама, Фрося, Вася. Папа, Руся and Муся are present and alive but say nothing.
+Бабушка-Яга is at her small домовой size, never human size, and has NO broom in any frame.
+Dialogue lock: each character's lips move ONLY for their own line in their own shot. In Shot E Фрося is heard but not seen and Бабушка-Яга's lips stay completely still.
+Speaker lock: the question is Бабушка-Яга's alone, «Ма́ма…» is Мама's alone, the car is Фрося's alone, the creatures are Вася's alone.
+NO fire in frame, NO chest, NO pencil, NO drawing, NO magic — a family talking at a table.
+The walls are ENORMOUS pale sandstone boulder-blocks, each bigger than a character's whole body — never small or normal-scale masonry.

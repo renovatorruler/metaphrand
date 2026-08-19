@@ -1,6 +1,8 @@
 # The Panel Pipeline — plan v1 (2026-07-29)
 
-Turning a screenplay into consistent graphic-novel panels and motion shots, with Blender as the geometry layer and image models as the style layer. Written for the author's approval; nothing built yet.
+Turning a screenplay into consistent graphic-novel panels and motion shots, with Blender as the geometry layer and image models as the style layer.
+
+**Implementation status:** the general Blender/panel pipeline is still planned. Its first fail-closed component is now implemented for «Фрося и Вася»: a typed ReScript physical preflight, hashed per-shot coverage, machine-readable scale/interaction data, coordinate-derived elevation proofs, clearly labeled approach-topology diagnostics, and a release wrapper that refuses to mint a cleared screenplay while blockers remain. See `stories/drakosha/production/physical/README.md`.
 
 ## The governing principle
 
@@ -24,13 +26,15 @@ Nothing on the right runs until the left is signed off. That is the whole econom
 
 ---
 
-## STAGE 0 — spec script → shooting script
+## STAGE 0 — spec script → physically cleared shooting script
 
 What we have today is a spec script: scenes, action, dialogue. What the pipeline consumes is a shooting script: numbered shots, each declaring its size, its subject, its angle, and what the audience learns in it. The AMAL train script (`2026-07-20_TRAIN_SHOOTING_SCRIPT_v2`) is already in this form and is the template — bracketed shot IDs like `[1-08]`, one line of camera intent, dialogue attached to shots rather than floating.
 
-Per shot, the record carries: shot ID · size (WIDE/MED/MCU/CU/INSERT) · subject(s) · angle or eyeline source · lens intent · what changes in it · estimated duration · still-or-motion.
+Per shot, the record carries: shot ID · size (WIDE/MED/MCU/CU/INSERT) · subject(s) · angle or eyeline source · lens intent · what changes in it · estimated duration · still-or-motion. Every shot also has a hashed coverage record classifying it as a structured physical interaction or a named nonphysical exemption.
 
-**Gate 0:** the author approves the shot list before any 3D work. Cheapest possible place to restructure a scene.
+Before a working shooting script can become a pipeline input, the physical gate resolves named entities, states, anchors, openings, paths, evidence, decisions, reach, handling, fit, and clearance. Story-required or unmeasured geometry cannot certify itself. The release wrapper writes a cleared Markdown artifact and hash receipt only on a fully passing verdict; consumers must verify that receipt and rerun the gate before use.
+
+**Gate 0:** the physical preflight passes, and then the author approves the actually feasible shot list before any 3D work. This is the cheapest possible place to restructure a scene.
 
 ## STAGE 1 — the breakdown
 
