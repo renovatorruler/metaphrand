@@ -64,3 +64,31 @@ These say "lives behind the stove" while staying pretty rather than dirty. All a
 For the mandatory scale anchor in every illustration, drawn at their size: a wooden thread spool as a table or a tower; a matchbox as a bed; a thimble as a bucket or a stool; a shirt button as a dinner plate (the four holes clearly visible); a sewing needle carried like a spear, with the eye at the butt end; a walnut half-shell as a bowl or a boat; a cork as a stool; a Christmas-tree bulb as a hanging lamp; a bottle cap as a basin; a postage stamp as a wall picture; a domino as a bench; a spoon as a slide; a teacup as a bathtub.
 
 Pick one or two per frame. The rule is the same as for costume: a few clear objects at true scale beat a cluttered dollhouse every time.
+
+
+---
+
+## NAME THINGS IN THE HOUSE'S OWN VOCABULARY (added 2026-08-19)
+
+I described the chairs at the far wall as "kilim tub chairs". They are **sock chairs**. The author:
+
+> They're sock chairs around the low tea table, but I do not know what you're describing.
+
+"Tub chair" and "kilim" are furniture-catalogue words. Nothing in this house comes from a catalogue — every object is a found human thing repurposed, and its name should say what it was before. A sock chair is a sock: the foot makes the seat, the folded cuff makes the back and arms, and the patterned knit is the sock's own pattern. Calling it a tub chair describes the silhouette and throws away the joke.
+
+**The rule: name an object by the human thing it used to be.** Not "a low round side table" but the **spool table**. Not "a small metal cup" but a **thimble cup**. Not "a woven basket bassinet" but the **tyre cradle**. Not "storage crates with bedding" but the **matchbox beds**. If a name for something has not been established yet, describe the human object plainly — "a sock", "a walnut shell" — and never reach for a design term to cover the gap.
+
+### The kitchen end, as it stands in the plate
+
+`ep1prod/scene1/references/SET-HOME-ROOM-02_author_far_wall_v2.png`
+
+- **two sock chairs** around a **low tea table** (its base a coil of yarn), the tea things set out on it
+- the little **stove** with its fire lit and its flue pipe running up
+- a shelf of **thimble cups** in a row above the counter
+- ladles, a whisk and a spatula hung on the wall; kettles and teapots along the counter
+- **spools of coloured thread** stacked underneath the counter — the household's stock, and the reason the room reads as a working home rather than a set
+- a bench along the right with a **floral shawl** thrown over it
+- a rug with a **ball of green yarn** on it, a basket of nuts, a small inlaid box
+- low on the right, the **niche panel with its iron ring** — where the letter chest lives
+
+The plate is the authority for all of it; this list is a convenience and loses to the picture.
