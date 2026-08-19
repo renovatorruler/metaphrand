@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="768" viewBox="0 0 1024 768">
+  <defs>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a86d38"/>
+      <stop offset="1" stop-color="#714220"/>
+    </linearGradient>
+    <linearGradient id="plank" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bd7a3f"/>
+      <stop offset="1" stop-color="#8b5128"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="768" fill="#302015"/>
+  <path d="M0 120H1024V768H0Z" fill="url(#floor)"/>
+  <g stroke="#543018" stroke-width="5" opacity="0.75">
+    <path d="M120 120L0 768"/>
+    <path d="M270 120L205 768"/>
+    <path d="M420 120L410 768"/>
+    <path d="M570 120L615 768"/>
+    <path d="M720 120L820 768"/>
+    <path d="M870 120L1024 768"/>
+  </g>
+  <path d="M420 150L570 150L730 720L250 720Z" fill="#17110d"/>
+  <path d="M447 150L543 150L646 650L329 650Z" fill="url(#plank)" stroke="#4a2a16" stroke-width="7"/>
+  <path d="M329 650L646 650L646 690L329 690Z" fill="#4c2b17"/>
+  <path d="M447 150L543 150" stroke="#f2b36e" stroke-width="8" opacity="0.8"/>
+  <path d="M485 175L450 610" stroke="#6b3a1b" stroke-width="4" opacity="0.45"/>
+  <path d="M515 175L545 610" stroke="#d99a59" stroke-width="3" opacity="0.35"/>
+  <path d="M420 150L447 150L329 650L250 720Z" fill="#0b0806" opacity="0.8"/>
+  <path d="M543 150L570 150L730 720L646 650Z" fill="#0b0806" opacity="0.8"/>
+  <path d="M405 120H585" stroke="#dca267" stroke-width="10"/>
+</svg>
