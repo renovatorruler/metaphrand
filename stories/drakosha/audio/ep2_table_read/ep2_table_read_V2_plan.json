@@ -1,0 +1,21 @@
+{
+ "pipeline_version": "drakosha-ep2-table-read-v2",
+ "language": "English",
+ "narrator": "Bella - Professional, Bright, Warm (US)",
+ "narrator_voice_id": "hpp4J3VqNfWAUOO0d1Us",
+ "v1_plan": "../stories/drakosha/audio/ep2_table_read/ep2_table_read_plan.json",
+ "v1_manifest": "../stories/drakosha/audio/ep2_table_read/EP2_FULL_CAST_TABLE_READ.manifest.json",
+ "v1_audio": "../stories/drakosha/audio/ep2_table_read/EP2_FULL_CAST_TABLE_READ.mp3",
+ "v2_audio": "../stories/drakosha/audio/ep2_table_read/EP2_FULL_CAST_TABLE_READ_V2.mp3",
+ "sound_effects": "not mixed in this pass",
+ "block_count": 191,
+ "chunk_count": 28,
+ "approved_narration_fix_count": 11,
+ "mixed_take_strategy": "rerender mixed chunks with Bella + existing cast via dialogueTimed",
+ "whole_v1_takes": [
+  "scene_01_chorus_5",
+  "scene_01_take_7",
+  "scene_01_take_8",
+  "scene_03_take_12"
+ ]
+}

@@ -1,0 +1,2401 @@
+{
+ "title": "Frosya and Vasya — Episode 2: The Coolest Act",
+ "screenplay": "../stories/drakosha/2026-08-11_EP2_samyi-krutoi-nomer_SPEC_numbered_bilingual.md",
+ "language_policy": "English translation layer; Russian letters, spelled words, and magic words retained in Cyrillic",
+ "model_id": "eleven_v3",
+ "audio_pipeline_version": "drakosha-ep2-table-read-v1",
+ "cast": {
+  "NARRATOR": {
+   "voice": "Anna Zub - Warm Multilingual Voice",
+   "voice_id": "deqzqEZ3ngCdcOl0jF1F",
+   "status": "established multilingual table-read narrator"
+  },
+  "FROSYA": {
+   "voice": "Cherry Twinkle - Bubbly Cartoon Girl (US)",
+   "voice_id": "XJ2fW4ybq7HouelYYGcL",
+   "status": "approved native-US English table-read cast"
+  },
+  "VASYA": {
+   "voice": "Teddy Twinkle - Cute Cartoon Boy (US)",
+   "voice_id": "XjGYkUkzth8BPs29fmcV",
+   "status": "approved native-US English table-read cast"
+  },
+  "MAMA": {
+   "voice": "Sarah - Mature, Reassuring, Confident (US)",
+   "voice_id": "EXAVITQu4vr4xnSDxMaL",
+   "status": "approved native-US English table-read cast"
+  },
+  "PAPA": {
+   "voice": "Brian - Deep, Resonant and Comforting (US)",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "status": "approved native-US English table-read cast"
+  },
+  "ROOT_CREATURE": {
+   "voice": "Bill - Provisional Root Creature (US)",
+   "voice_id": "pqHfZKP75CvOlQylNhV4",
+   "status": "provisional table-read voice; series voice not yet approved"
+  },
+  "GIANT_GIRL": {
+   "voice": "Jessica - Playful, Bright, Warm (US)",
+   "voice_id": "cgSgspJ2msm6clMCkdW9",
+   "status": "approved native-US giant-child table-read voice"
+  }
+ },
+ "segments": [
+  {
+   "order": 1,
+   "block_id": "E2SP001",
+   "scene": "title",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "[warmly]",
+   "text": "“Frosya and Vasya.” Episode Two: “The Coolest Act.”"
+  },
+  {
+   "order": 2,
+   "block_id": "E2SP004",
+   "scene": "scene_01",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "[storytelling]",
+   "text": "SCENE 1 — THE HOME BEHIND THE STOVE — MORNING"
+  },
+  {
+   "order": 3,
+   "block_id": "E2SP005",
+   "scene": "scene_01",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Wooden tiles crash down. Frosya and Vasya cry out at the same time. Yesterday’s СОК (juice), САЛАТ (salad), БАК (large metal container), and МОТОК (ball of thread) crowd the spool table. Frosya’s САМОКАТ (kick scooter) barely fits among them. FROSYA holds the magic pencil over a new word while VASYA hurriedly assembles one of his own."
+  },
+  {
+   "order": 4,
+   "block_id": "E2SP006",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "MAMA",
+   "direction": "calmly taking a tile out of Rusya’s mouth",
+   "tag": "[calmly]",
+   "text": "That’s enough. No more magic until after breakfast."
+  },
+  {
+   "order": 5,
+   "block_id": "E2SP007",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "hurriedly, without lowering the pencil",
+   "tag": "[quickly]",
+   "text": "Just one word!"
+  },
+  {
+   "order": 6,
+   "block_id": "E2SP008",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "interrupting, clutching his unfinished tiles to his chest",
+   "tag": "",
+   "text": "Me too! Just one!"
+  },
+  {
+   "order": 7,
+   "block_id": "E2SP009",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "PAPA",
+   "direction": "cheerfully peering around the metal container",
+   "tag": "[playfully]",
+   "text": "One giant metal container in the kitchen is plenty for me."
+  },
+  {
+   "order": 8,
+   "block_id": "E2SP010",
+   "scene": "scene_01",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Mama opens the magically locked niche and takes out the alphabet chest. Frosya lowers the pencil at once. Vasya pours his tiles back into his pouch."
+  },
+  {
+   "order": 9,
+   "block_id": "E2SP011",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "MAMA",
+   "direction": "evenly, setting the chest on the table",
+   "tag": "[calmly]",
+   "text": "After breakfast, you’ll get a new letter."
+  },
+  {
+   "order": 10,
+   "block_id": "E2SP012",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "instantly",
+   "tag": "",
+   "text": "Ш?"
+  },
+  {
+   "order": 11,
+   "block_id": "E2SP013",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "MAMA",
+   "direction": "unruffled",
+   "tag": "[calmly]",
+   "text": "Breakfast first."
+  },
+  {
+   "order": 12,
+   "block_id": "E2SP014",
+   "scene": "scene_01",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Spoons strike bowls faster and faster. One last gulp. Two bowls hit the table at the same time."
+  },
+  {
+   "order": 13,
+   "block_id": "E2SP015",
+   "scene": "scene_01",
+   "kind": "chorus",
+   "speaker": "CHORUS_SIBLINGS",
+   "direction": "together, impatiently",
+   "tag": "[quickly]",
+   "text": "Done!"
+  },
+  {
+   "order": 14,
+   "block_id": "E2SP016",
+   "scene": "scene_01",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Mama takes one tile from the chest and places it between the children. It bears the letter В. The magic pencil gives a brief chime. Then Mama pours several ordinary tiles bearing the same letter into Vasya’s pouch."
+  },
+  {
+   "order": 15,
+   "block_id": "E2SP017",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "MAMA",
+   "direction": "clearly giving the sound",
+   "tag": "",
+   "text": "Today’s letter is В. В-в-в."
+  },
+  {
+   "order": 16,
+   "block_id": "E2SP018",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "lighting up at once",
+   "tag": "[excitedly]",
+   "text": "В! Like Вася!"
+  },
+  {
+   "order": 17,
+   "block_id": "E2SP019",
+   "scene": "scene_01",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Frosya takes the В tile and holds it against the three empty boxes beneath her drawing of the red car: МА□□□А. It fits none of them."
+  },
+  {
+   "order": 18,
+   "block_id": "E2SP020",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "disappointed",
+   "tag": "[disappointed]",
+   "text": "В? But there isn’t even a В in the word МАШИНА!"
+  },
+  {
+   "order": 19,
+   "block_id": "E2SP021",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "MAMA",
+   "direction": "calmly",
+   "tag": "[calmly]",
+   "text": "No, there isn’t."
+  },
+  {
+   "order": 20,
+   "block_id": "E2SP022",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "pointing at the empty boxes",
+   "tag": "",
+   "text": "I need Ш, И, and Н."
+  },
+  {
+   "order": 21,
+   "block_id": "E2SP023",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "holding the В tile to his chest",
+   "tag": "",
+   "text": "I need this one."
+  },
+  {
+   "order": 22,
+   "block_id": "E2SP024",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "grumbling",
+   "tag": "[upset]",
+   "text": "Of course. It’s even in your name."
+  },
+  {
+   "order": 23,
+   "block_id": "E2SP025",
+   "scene": "scene_01",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Vasya finds three tiles in his pouch and places them before him: В, О, and Л. He moves his finger from letter to letter. Meanwhile, Frosya searches through the remaining tiles."
+  },
+  {
+   "order": 24,
+   "block_id": "E2SP026",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "sounding it out, then puzzled",
+   "tag": "[puzzled]",
+   "text": "В-О-Л. ВОЛ? What is a ВОЛ?"
+  },
+  {
+   "order": 25,
+   "block_id": "E2SP027",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "MAMA",
+   "direction": "explaining simply",
+   "tag": "[matter-of-fact]",
+   "text": "An ox is a big, strong bull. People harness it to a cart, and it pulls the cart."
+  },
+  {
+   "order": 26,
+   "block_id": "E2SP028",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "pleased",
+   "tag": "",
+   "text": "Then I’ll be strong."
+  },
+  {
+   "order": 27,
+   "block_id": "E2SP029",
+   "scene": "scene_01",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Mama suggests two more familiar words, and Vasya assembles them one at a time: first СОВА (owl), then, after taking it apart, ВОЛК (wolf). While Vasya delights in each discovery, Frosya lays out ВАТА (cotton wool) and ЛАВКА (bench). Her face falls."
+  },
+  {
+   "order": 28,
+   "block_id": "E2SP030",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "aggrieved",
+   "tag": "[upset]",
+   "text": "You get a wolf and an owl. I get cotton wool and a bench?"
+  },
+  {
+   "order": 29,
+   "block_id": "E2SP031",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "sincerely trying to help",
+   "tag": "",
+   "text": "Make me a bench. I’ll pull it like an ox."
+  },
+  {
+   "order": 30,
+   "block_id": "E2SP032",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "sharply",
+   "tag": "[angrily]",
+   "text": "No chance. Make your own bench."
+  },
+  {
+   "order": 31,
+   "block_id": "E2SP033",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "puzzled",
+   "tag": "[puzzled]",
+   "text": "But I don’t know how."
+  },
+  {
+   "order": 32,
+   "block_id": "E2SP034",
+   "scene": "scene_01",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Frosya rearranges the tiles. They now spell ЛАВА (lava). She brightens and reaches for the pencil."
+  },
+  {
+   "order": 33,
+   "block_id": "E2SP035",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "hopefully",
+   "tag": "[hopefully]",
+   "text": "At least I can make lava."
+  },
+  {
+   "order": 34,
+   "block_id": "E2SP036",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "MAMA",
+   "direction": "at once, without raising her voice",
+   "tag": "[calmly]",
+   "text": "We are not writing “lava.”"
+  },
+  {
+   "order": 35,
+   "block_id": "E2SP037",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "bargaining",
+   "tag": "[bargaining]",
+   "text": "Just a little bit."
+  },
+  {
+   "order": 36,
+   "block_id": "E2SP038",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "MAMA",
+   "direction": "precisely",
+   "tag": "[firmly]",
+   "text": "None."
+  },
+  {
+   "order": 37,
+   "block_id": "E2SP039",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "PAPA",
+   "direction": "picking up the scooter and ball of thread",
+   "tag": "",
+   "text": "And definitely not inside the house. We’re going under the porch. We’ll put on your first magic show there."
+  },
+  {
+   "order": 38,
+   "block_id": "E2SP040",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "thrilled",
+   "tag": "[excitedly]",
+   "text": "I’ll be a wolf!"
+  },
+  {
+   "order": 39,
+   "block_id": "E2SP041",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "jumping up, determined",
+   "tag": "",
+   "text": "And I’m going first."
+  },
+  {
+   "order": 40,
+   "block_id": "E2SP042",
+   "scene": "scene_02",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "[storytelling]",
+   "text": "SCENE 2 — THE UNDERFLOOR ROAD — MORNING"
+  },
+  {
+   "order": 41,
+   "block_id": "E2SP043",
+   "scene": "scene_02",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "The scooter wheels rattle along the walkway; Papa’s tools jingle. The family travels along the road between the giant floor joists. Papa carries the scooter and a short plank. Frosya carries the pencil. Vasya hugs his tile pouch. Mama carries Rusya and Musya."
+  },
+  {
+   "order": 42,
+   "block_id": "E2SP044",
+   "scene": "scene_02",
+   "kind": "dialogue",
+   "speaker": "PAPA",
+   "direction": "counting their things as they walk",
+   "tag": "[matter-of-fact]",
+   "text": "Tools—check. Scooter—check. No lava—check."
+  },
+  {
+   "order": 43,
+   "block_id": "E2SP045",
+   "scene": "scene_02",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "indignant",
+   "tag": "[upset]",
+   "text": "Papa!"
+  },
+  {
+   "order": 44,
+   "block_id": "E2SP046",
+   "scene": "scene_02",
+   "kind": "dialogue",
+   "speaker": "PAPA",
+   "direction": "innocently",
+   "tag": "[playfully]",
+   "text": "Just checking."
+  },
+  {
+   "order": 45,
+   "block_id": "E2SP047",
+   "scene": "scene_02",
+   "kind": "dialogue",
+   "speaker": "MAMA",
+   "direction": "calmly adjusting Rusya",
+   "tag": "[calmly]",
+   "text": "Good idea."
+  },
+  {
+   "order": 46,
+   "block_id": "E2SP048",
+   "scene": "scene_02",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Daylight glows at the end of the road. The family passes through a foundation vent onto a concealed masonry landing beneath the porch."
+  },
+  {
+   "order": 47,
+   "block_id": "E2SP049",
+   "scene": "scene_03",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "[storytelling]",
+   "text": "SCENE 3 — BENEATH THE PORCH, THE PRACTICE DECK — DAY"
+  },
+  {
+   "order": 48,
+   "block_id": "E2SP050",
+   "scene": "scene_03",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "There is enough room beneath the porch to stand upright. A small wooden deck Papa once built projects from the masonry landing over an earthen drainage groove. A diagonal brace supports its outer edge. Daylight from the yard is visible beyond it."
+  },
+  {
+   "order": 49,
+   "block_id": "E2SP051",
+   "scene": "scene_03",
+   "kind": "dialogue",
+   "speaker": "MAMA",
+   "direction": "marking the boundary, calm and absolute",
+   "tag": "[firmly]",
+   "text": "No one crosses the line of light. The giants could see us there."
+  },
+  {
+   "order": 50,
+   "block_id": "E2SP052",
+   "scene": "scene_03",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "impatiently",
+   "tag": "[quickly]",
+   "text": "We know."
+  },
+  {
+   "order": 51,
+   "block_id": "E2SP053",
+   "scene": "scene_03",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "at the same time",
+   "tag": "",
+   "text": "I know."
+  },
+  {
+   "order": 52,
+   "block_id": "E2SP054",
+   "scene": "scene_03",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Papa sets the short plank as a ramp on the inner side of the deck and checks its fastenings. Mama settles behind the low railing with the babies. Frosya rolls out her scooter. Vasya arranges his tiles on the stone floor."
+  },
+  {
+   "order": 53,
+   "block_id": "E2SP055",
+   "scene": "scene_03",
+   "kind": "dialogue",
+   "speaker": "PAPA",
+   "direction": "businesslike, patting the plank",
+   "tag": "[matter-of-fact]",
+   "text": "The ramp is secure. Who’s our first performer?"
+  },
+  {
+   "order": 54,
+   "block_id": "E2SP056",
+   "scene": "scene_03",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "stepping forward",
+   "tag": "",
+   "text": "Me!"
+  },
+  {
+   "order": 55,
+   "block_id": "E2SP057",
+   "scene": "scene_03",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "blocking the scooter with her body",
+   "tag": "",
+   "text": "I invented the show. I’m going first."
+  },
+  {
+   "order": 56,
+   "block_id": "E2SP058",
+   "scene": "scene_03",
+   "kind": "dialogue",
+   "speaker": "MAMA",
+   "direction": "leaving no room for argument",
+   "tag": "[firmly]",
+   "text": "Frosya goes first."
+  },
+  {
+   "order": 57,
+   "block_id": "E2SP059",
+   "scene": "scene_03",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Frosya writes on a smooth board: В-А-Т-А."
+  },
+  {
+   "order": 58,
+   "block_id": "E2SP060",
+   "scene": "scene_03",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "without much enthusiasm, finishing the word",
+   "tag": "[dryly]",
+   "text": "ВАТА!"
+  },
+  {
+   "order": 59,
+   "block_id": "E2SP061",
+   "scene": "scene_03",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "The word flashes. A soft chime rings out, followed by an airy poof. A large fluffy wad of white cotton appears beside it. Rusya immediately plunges both hands into it. Musya acquires a fluffy white mustache."
+  },
+  {
+   "order": 60,
+   "block_id": "E2SP062",
+   "scene": "scene_03",
+   "kind": "dialogue",
+   "speaker": "PAPA",
+   "direction": "grandly holding a tuft of cotton to his chin",
+   "tag": "[grandly]",
+   "text": "And I get a beard."
+  },
+  {
+   "order": 61,
+   "block_id": "E2SP063",
+   "scene": "scene_03",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "already absorbed in the task",
+   "tag": "",
+   "text": "That isn’t a beard. It’s the landing pad. Papa, put it beyond the ramp."
+  },
+  {
+   "order": 62,
+   "block_id": "E2SP064",
+   "scene": "scene_03",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Papa arranges the cotton. In the earthen darkness beneath the deck’s outer edge, a thin root turns toward the sound of the magic chime."
+  },
+  {
+   "order": 63,
+   "block_id": "E2SP065",
+   "scene": "scene_03",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Frosya writes the next word: К-А-С-К-А."
+  },
+  {
+   "order": 64,
+   "block_id": "E2SP066",
+   "scene": "scene_03",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "more confidently",
+   "tag": "",
+   "text": "КАСКА!"
+  },
+  {
+   "order": 65,
+   "block_id": "E2SP067",
+   "scene": "scene_03",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "A chime. A real helmet appears, fitted precisely to Frosya. She puts it on and checks the strap."
+  },
+  {
+   "order": 66,
+   "block_id": "E2SP068",
+   "scene": "scene_03",
+   "kind": "dialogue",
+   "speaker": "PAPA",
+   "direction": "sizing up the helmet",
+   "tag": "",
+   "text": "Does it come in Papa size?"
+  },
+  {
+   "order": 67,
+   "block_id": "E2SP069",
+   "scene": "scene_03",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Frosya writes: К-О-Л-О-К-О-Л."
+  },
+  {
+   "order": 68,
+   "block_id": "E2SP070",
+   "scene": "scene_03",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "ceremonially",
+   "tag": "[grandly]",
+   "text": "КОЛОКОЛ!"
+  },
+  {
+   "order": 69,
+   "block_id": "E2SP071",
+   "scene": "scene_03",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "A clear chime. A small brass bell appears beside the word. Frosya unwinds thread from yesterday’s МОТОК (ball of thread), and Papa hangs the bell above the end of the ramp."
+  },
+  {
+   "order": 70,
+   "block_id": "E2SP072",
+   "scene": "scene_03",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Another root silently creeps from the soil. A tiny seed-like eye opens at its tip. It watches Frosya tuck the magic pencil behind her ear."
+  },
+  {
+   "order": 71,
+   "block_id": "E2SP073",
+   "scene": "scene_04",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "[storytelling]",
+   "text": "SCENE 4 — SAME PLACE, FROSYA’S ACT — CONTINUOUS"
+  },
+  {
+   "order": 72,
+   "block_id": "E2SP074",
+   "scene": "scene_04",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "loudly, playing the master of ceremonies",
+   "tag": "[grandly]",
+   "text": "First act! Scooter over the ramp, ring the bell, and land in a cloud!"
+  },
+  {
+   "order": 73,
+   "block_id": "E2SP075",
+   "scene": "scene_04",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "correcting her",
+   "tag": "",
+   "text": "In cotton wool."
+  },
+  {
+   "order": 74,
+   "block_id": "E2SP076",
+   "scene": "scene_04",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "without looking at him",
+   "tag": "",
+   "text": "For the audience, it’s a cloud."
+  },
+  {
+   "order": 75,
+   "block_id": "E2SP077",
+   "scene": "scene_04",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Frosya pushes off. The scooter goes whizz-whizz, and its wheels thump over the plank. It flies off the end of the ramp. Frosya reaches out and strikes the bell."
+  },
+  {
+   "order": 76,
+   "block_id": "E2SP078",
+   "scene": "scene_04",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "DING! followed by a soft poof. Frosya and the scooter disappear into the cotton. Her helmet sticks out of the top."
+  },
+  {
+   "order": 77,
+   "block_id": "E2SP079",
+   "scene": "scene_04",
+   "kind": "dialogue",
+   "speaker": "PAPA",
+   "direction": "leaning toward the pile, concerned but not alarmed",
+   "tag": "",
+   "text": "Frosya?"
+  },
+  {
+   "order": 78,
+   "block_id": "E2SP080",
+   "scene": "scene_04",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Frosya bursts out of the cotton, throws up her arms, and beams."
+  },
+  {
+   "order": 79,
+   "block_id": "E2SP081",
+   "scene": "scene_04",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "triumphant",
+   "tag": "[excitedly]",
+   "text": "I’m fine! And I can go even faster!"
+  },
+  {
+   "order": 80,
+   "block_id": "E2SP082",
+   "scene": "scene_04",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Rusya claps his hands. Musya removes her cotton mustache and sticks it on Mama’s nose. Papa whistles. Mama removes the mustache, but she is smiling."
+  },
+  {
+   "order": 81,
+   "block_id": "E2SP083",
+   "scene": "scene_04",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "already gathering his tiles",
+   "tag": "",
+   "text": "My turn!"
+  },
+  {
+   "order": 82,
+   "block_id": "E2SP084",
+   "scene": "scene_04",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "still catching her breath",
+   "tag": "[out of breath]",
+   "text": "I haven’t even taken my bow yet!"
+  },
+  {
+   "order": 83,
+   "block_id": "E2SP085",
+   "scene": "scene_05",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "[storytelling]",
+   "text": "SCENE 5 — SAME PLACE, VASYA’S ACT — CONTINUOUS"
+  },
+  {
+   "order": 84,
+   "block_id": "E2SP086",
+   "scene": "scene_05",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "While Frosya climbs out of the cotton, Vasya returns from the deck to the fixed masonry landing. He clears a space and lays out only the first word: ВОЛ (ox). The remaining tiles stay in his pouch for now."
+  },
+  {
+   "order": 85,
+   "block_id": "E2SP087",
+   "scene": "scene_05",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "proudly, to everyone",
+   "tag": "[proudly]",
+   "text": "I prepared three words: ВОЛ, СОВА, and ВОЛК. I’ll show you all three!"
+  },
+  {
+   "order": 86,
+   "block_id": "E2SP088",
+   "scene": "scene_05",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "dryly, climbing out of the cotton",
+   "tag": "[dryly]",
+   "text": "All three of them in my show."
+  },
+  {
+   "order": 87,
+   "block_id": "E2SP089",
+   "scene": "scene_05",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Papa offers Vasya one end of a short, thick cord, takes the other, and steps to the far side of the cotton pile."
+  },
+  {
+   "order": 88,
+   "block_id": "E2SP090",
+   "scene": "scene_05",
+   "kind": "dialogue",
+   "speaker": "PAPA",
+   "direction": "playfully challenging him",
+   "tag": "[playfully]",
+   "text": "All right, strongman. Think you can pull Papa over?"
+  },
+  {
+   "order": 89,
+   "block_id": "E2SP091",
+   "scene": "scene_05",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Vasya stands before the first word and traces it with his finger."
+  },
+  {
+   "order": 90,
+   "block_id": "E2SP092",
+   "scene": "scene_05",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "slowly and clearly",
+   "tag": "[slowly]",
+   "text": "В-О-Л. ВОЛ! [boldly] ВЖУХ!"
+  },
+  {
+   "order": 91,
+   "block_id": "E2SP093",
+   "scene": "scene_05",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "A deep, weighty ВЖУХ. A sturdy ox, almost as tall as Papa and bearing Vasya’s enormous eyebrows, stands on the masonry landing. He grips the cord in his teeth."
+  },
+  {
+   "order": 92,
+   "block_id": "E2SP094",
+   "scene": "scene_05",
+   "kind": "dialogue",
+   "speaker": "PAPA",
+   "direction": "bracing his feet",
+   "tag": "",
+   "text": "One! Two! Pull!"
+  },
+  {
+   "order": 93,
+   "block_id": "E2SP095",
+   "scene": "scene_05",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "The cord pulls taut; hooves scrape stone. The ox gives one toss of his head. Papa loses his balance and flies into the cotton. The ox lets go of the cord."
+  },
+  {
+   "order": 94,
+   "block_id": "E2SP096",
+   "scene": "scene_05",
+   "kind": "dialogue",
+   "speaker": "MAMA",
+   "direction": "hiding a laugh",
+   "tag": "",
+   "text": "He pulled you over."
+  },
+  {
+   "order": 95,
+   "block_id": "E2SP097",
+   "scene": "scene_05",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Papa rises from the cotton with a white beard reaching his waist. Rusya squeals in delight. Musya reaches for the beard."
+  },
+  {
+   "order": 96,
+   "block_id": "E2SP098",
+   "scene": "scene_05",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "proudly, in Vasya’s voice",
+   "tag": "[proudly]",
+   "text": "I pulled Papa over!"
+  },
+  {
+   "order": 97,
+   "block_id": "E2SP099",
+   "scene": "scene_05",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "eager to begin the next act",
+   "tag": "[quickly]",
+   "text": "ВЖУХ!"
+  },
+  {
+   "order": 98,
+   "block_id": "E2SP100",
+   "scene": "scene_05",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "A reverse ВЖУХ. Vasya is back on the stone with his pouch. Using fresh tiles, he assembles СОВА (owl)."
+  },
+  {
+   "order": 99,
+   "block_id": "E2SP101",
+   "scene": "scene_05",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "sounding it out confidently",
+   "tag": "",
+   "text": "СО-ВА. СОВА! ВЖУХ!"
+  },
+  {
+   "order": 100,
+   "block_id": "E2SP102",
+   "scene": "scene_05",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "A light ВЖУХ and a flap of wings. Vasya-Owl, complete with shaggy eyebrows, rises above the deck."
+  },
+  {
+   "order": 101,
+   "block_id": "E2SP103",
+   "scene": "scene_05",
+   "kind": "dialogue",
+   "speaker": "PAPA",
+   "direction": "holding a berry above his head",
+   "tag": "",
+   "text": "Can you grab a berry in midair?"
+  },
+  {
+   "order": 102,
+   "block_id": "E2SP104",
+   "scene": "scene_05",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "The owl circles the bell, folds his wings, darts beneath it, and snatches the berry from Papa’s fingers with one talon without landing."
+  },
+  {
+   "order": 103,
+   "block_id": "E2SP105",
+   "scene": "scene_05",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "The bell rings and the babies squeal with delight. Rusya waves his arms as if he is flying too. Musya tries to catch the owl’s shadow."
+  },
+  {
+   "order": 104,
+   "block_id": "E2SP106",
+   "scene": "scene_05",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "stung, raising her voice over the noise",
+   "tag": "[upset]",
+   "text": "I’m the one who came up with all this!"
+  },
+  {
+   "order": 105,
+   "block_id": "E2SP107",
+   "scene": "scene_05",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "offended, still clutching the berry in one talon",
+   "tag": "[upset]",
+   "text": "I did the flying myself!"
+  },
+  {
+   "order": 106,
+   "block_id": "E2SP108",
+   "scene": "scene_05",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "settling onto the stone",
+   "tag": "",
+   "text": "ВЖУХ!"
+  },
+  {
+   "order": 107,
+   "block_id": "E2SP109",
+   "scene": "scene_05",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Vasya returns, finishes the berry, and immediately uses fresh tiles to assemble ВОЛК (wolf). Beneath the deck, the root-eye keeps watching the pencil behind Frosya’s ear."
+  },
+  {
+   "order": 108,
+   "block_id": "E2SP110",
+   "scene": "scene_05",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "striking a predator’s pose",
+   "tag": "",
+   "text": "And now, the coolest act. В-О-Л-К. ВОЛК! ВЖУХ!"
+  },
+  {
+   "order": 109,
+   "block_id": "E2SP111",
+   "scene": "scene_05",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "A sharp ВЖУХ and the thud of paws. A wolf with ruffled fur and Vasya’s eyebrows steps onto the deck. He stalks toward the bell, belly low to the boards."
+  },
+  {
+   "order": 110,
+   "block_id": "E2SP112",
+   "scene": "scene_05",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "interested despite herself",
+   "tag": "",
+   "text": "Then what?"
+  },
+  {
+   "order": 111,
+   "block_id": "E2SP113",
+   "scene": "scene_05",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Vasya-Wolf leaps onto the ramp, throws back his head, and howls. The small but genuine wolf howl travels beneath the porch and into the earth. When he finishes, he jumps back onto the fixed masonry landing beside Frosya."
+  },
+  {
+   "order": 112,
+   "block_id": "E2SP114",
+   "scene": "scene_06",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "[tense storytelling]",
+   "text": "SCENE 6 — SAME PLACE, THE ATTACK — CONTINUOUS"
+  },
+  {
+   "order": 113,
+   "block_id": "E2SP115",
+   "scene": "scene_06",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "A dry rustle directly behind Frosya. A thin root shoots from beneath the deck, curls around the magic pencil, and plucks it from behind Frosya’s ear."
+  },
+  {
+   "order": 114,
+   "block_id": "E2SP116",
+   "scene": "scene_06",
+   "kind": "dialogue",
+   "speaker": "ROOT_CREATURE",
+   "direction": "low and satisfied",
+   "tag": "[low] [satisfied]",
+   "text": "Found it."
+  },
+  {
+   "order": 115,
+   "block_id": "E2SP117",
+   "scene": "scene_06",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "A creature as tall as Papa rises from the earthen groove, made of tangled roots, bark, and black soil. It secures the pencil in an exposed loop of vine on its back."
+  },
+  {
+   "order": 116,
+   "block_id": "E2SP118",
+   "scene": "scene_06",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "grabbing at her empty ear",
+   "tag": "",
+   "text": "My pencil!"
+  },
+  {
+   "order": 117,
+   "block_id": "E2SP119",
+   "scene": "scene_06",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "The root creature loops a vine around the deck’s diagonal brace and jerks its lower end out of the masonry notch."
+  },
+  {
+   "order": 118,
+   "block_id": "E2SP120",
+   "scene": "scene_06",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "A loud crack. Boards groan. The babies cry out. The outer edge of the deck drops. Mama catches both babies with one arm and the railing with the other."
+  },
+  {
+   "order": 119,
+   "block_id": "E2SP121",
+   "scene": "scene_06",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Papa jumps into the groove and catches the outer crossbeam on his shoulders. The deck stops at a steep slant."
+  },
+  {
+   "order": 120,
+   "block_id": "E2SP122",
+   "scene": "scene_06",
+   "kind": "dialogue",
+   "speaker": "PAPA",
+   "direction": "straining from beneath the deck",
+   "tag": "[strained]",
+   "text": "I’ve got it! The brace came out of its notch!"
+  },
+  {
+   "order": 121,
+   "block_id": "E2SP123",
+   "scene": "scene_06",
+   "kind": "dialogue",
+   "speaker": "MAMA",
+   "direction": "firmly, holding the babies",
+   "tag": "[firmly]",
+   "text": "I have the little ones. Frosya, stay on the masonry!"
+  },
+  {
+   "order": 122,
+   "block_id": "E2SP124",
+   "scene": "scene_06",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "The bell tears free of its thread, lands on the tilted boards, and rolls toward the bright edge of the porch. It goes ding… ding… faster and faster. It slips beneath the outer railing, drops into the drainage groove, and vanishes beyond the line of daylight."
+  },
+  {
+   "order": 123,
+   "block_id": "E2SP125",
+   "scene": "scene_06",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "torn between two disasters",
+   "tag": "",
+   "text": "The bell… the pencil…"
+  },
+  {
+   "order": 124,
+   "block_id": "E2SP126",
+   "scene": "scene_06",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Vasya-Wolf growls and charges the thief. The root creature drives its roots into the earth. Two vines catch the wolf in midair."
+  },
+  {
+   "order": 125,
+   "block_id": "E2SP127",
+   "scene": "scene_06",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "suddenly upside down",
+   "tag": "",
+   "text": "Hey! Let go!"
+  },
+  {
+   "order": 126,
+   "block_id": "E2SP128",
+   "scene": "scene_06",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "The creature whips the vine around and throws Vasya-Wolf. There is a whistle and a soft poof. The wolf lands in Frosya’s cotton."
+  },
+  {
+   "order": 127,
+   "block_id": "E2SP129",
+   "scene": "scene_06",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "dazed, from inside the cotton",
+   "tag": "[dazed]",
+   "text": "ВЖУХ!"
+  },
+  {
+   "order": 128,
+   "block_id": "E2SP130",
+   "scene": "scene_06",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Ordinary Vasya tumbles out of the cotton. He scrambles up the tilted boards onto the fixed masonry landing, spots the pencil in the loop on the creature’s back, and immediately reaches into his pouch."
+  },
+  {
+   "order": 129,
+   "block_id": "E2SP131",
+   "scene": "scene_06",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "quickly assembling a fresh word",
+   "tag": "[quickly]",
+   "text": "I can’t reach it as a wolf. I can reach it as an owl."
+  },
+  {
+   "order": 130,
+   "block_id": "E2SP132",
+   "scene": "scene_06",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "carefully, without rushing",
+   "tag": "[slowly]",
+   "text": "СО-ВА. СОВА! ВЖУХ!"
+  },
+  {
+   "order": 131,
+   "block_id": "E2SP133",
+   "scene": "scene_07",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "[tense storytelling]",
+   "text": "SCENE 7 — SAME PLACE, RECOVERING THE PENCIL — CONTINUOUS"
+  },
+  {
+   "order": 132,
+   "block_id": "E2SP134",
+   "scene": "scene_07",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "ВЖУХ and a beat of wings. Vasya-Owl launches from the masonry landing. The root creature lashes long vines through the air."
+  },
+  {
+   "order": 133,
+   "block_id": "E2SP135",
+   "scene": "scene_07",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "The owl dives beneath the first vine, slips over the second, and tears the pencil from its loop with his talons in one clean pass."
+  },
+  {
+   "order": 134,
+   "block_id": "E2SP136",
+   "scene": "scene_07",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "in flight, loudly",
+   "tag": "[loudly]",
+   "text": "Frosya, catch!"
+  },
+  {
+   "order": 135,
+   "block_id": "E2SP137",
+   "scene": "scene_07",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "The pencil falls toward Frosya. She catches it in both hands and pulls it to her chest."
+  },
+  {
+   "order": 136,
+   "block_id": "E2SP138",
+   "scene": "scene_07",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "clutching the pencil to her chest",
+   "tag": "",
+   "text": "Got it!"
+  },
+  {
+   "order": 137,
+   "block_id": "E2SP139",
+   "scene": "scene_07",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Vasya-Owl lands beside her."
+  },
+  {
+   "order": 138,
+   "block_id": "E2SP140",
+   "scene": "scene_07",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "briefly, intently",
+   "tag": "[seriously]",
+   "text": "ВЖУХ!"
+  },
+  {
+   "order": 139,
+   "block_id": "E2SP141",
+   "scene": "scene_07",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Vasya returns to himself. Enraged at losing the pencil, the creature growls, loops a new vine around the outer crossbeam, and yanks it downward. The boards crack more sharply. Papa sinks lower beneath the weight."
+  },
+  {
+   "order": 140,
+   "block_id": "E2SP142",
+   "scene": "scene_07",
+   "kind": "dialogue",
+   "speaker": "PAPA",
+   "direction": "through clenched teeth",
+   "tag": "[strained]",
+   "text": "I can’t hold it much longer!"
+  },
+  {
+   "order": 141,
+   "block_id": "E2SP143",
+   "scene": "scene_08",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "[tense storytelling]",
+   "text": "SCENE 8 — SAME PLACE, THE CROWBAR AND THE OX — CONTINUOUS"
+  },
+  {
+   "order": 142,
+   "block_id": "E2SP144",
+   "scene": "scene_08",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Frosya drops to her knees beside the smooth writing board and writes: Л-О-М."
+  },
+  {
+   "order": 143,
+   "block_id": "E2SP145",
+   "scene": "scene_08",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "quickly but clearly",
+   "tag": "[quickly]",
+   "text": "ЛОМ!"
+  },
+  {
+   "order": 144,
+   "block_id": "E2SP146",
+   "scene": "scene_08",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "The word flashes. A metallic chime rings out. A short, sturdy crowbar appears on the stone."
+  },
+  {
+   "order": 145,
+   "block_id": "E2SP147",
+   "scene": "scene_08",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "solving the problem aloud",
+   "tag": "",
+   "text": "Hook under the beam. Stone under the crowbar. Now push down."
+  },
+  {
+   "order": 146,
+   "block_id": "E2SP148",
+   "scene": "scene_08",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Frosya slips the curved end beneath the sagging beam, places a stone fragment under the crowbar, and leans her full weight on the long end."
+  },
+  {
+   "order": 147,
+   "block_id": "E2SP149",
+   "scene": "scene_08",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "The crowbar creaks. Frosya grunts. The beam barely twitches. Frosya climbs onto the crowbar and hangs from it, but the beam will not rise."
+  },
+  {
+   "order": 148,
+   "block_id": "E2SP150",
+   "scene": "scene_08",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "angry at the crowbar",
+   "tag": "[angrily]",
+   "text": "Come on!"
+  },
+  {
+   "order": 149,
+   "block_id": "E2SP151",
+   "scene": "scene_08",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "realizing",
+   "tag": "[realizing]",
+   "text": "Not a wolf. An ox. He’s strong. I’ll push down."
+  },
+  {
+   "order": 150,
+   "block_id": "E2SP152",
+   "scene": "scene_08",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Frosya looks at Vasya, then at the crowbar, and jumps down at once."
+  },
+  {
+   "order": 151,
+   "block_id": "E2SP153",
+   "scene": "scene_08",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "taking command now, but not arguing",
+   "tag": "",
+   "text": "I’ll set the crowbar. You push this end. Only when I say."
+  },
+  {
+   "order": 152,
+   "block_id": "E2SP154",
+   "scene": "scene_08",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "nodding seriously",
+   "tag": "[seriously]",
+   "text": "Got it. When you say, I’ll push."
+  },
+  {
+   "order": 153,
+   "block_id": "E2SP155",
+   "scene": "scene_08",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "calling to Papa",
+   "tag": "[loudly]",
+   "text": "Papa! When the beam rises, put the brace back in the notch!"
+  },
+  {
+   "order": 154,
+   "block_id": "E2SP156",
+   "scene": "scene_08",
+   "kind": "dialogue",
+   "speaker": "PAPA",
+   "direction": "strained but clear",
+   "tag": "[strained]",
+   "text": "Got it!"
+  },
+  {
+   "order": 155,
+   "block_id": "E2SP157",
+   "scene": "scene_08",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Vasya lays out ВОЛ (ox) with fresh tiles. He keeps his finger on each letter as he reads."
+  },
+  {
+   "order": 156,
+   "block_id": "E2SP158",
+   "scene": "scene_08",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "slowly, precisely",
+   "tag": "[slowly]",
+   "text": "В-О-Л. ВОЛ. [firmly] ВЖУХ!"
+  },
+  {
+   "order": 157,
+   "block_id": "E2SP159",
+   "scene": "scene_08",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "A deep ВЖУХ. Vasya-Ox lowers his chest over the crowbar’s long end. Frosya resets the hook beneath the beam and holds the bar firmly against its stone fulcrum."
+  },
+  {
+   "order": 158,
+   "block_id": "E2SP160",
+   "scene": "scene_08",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "focused",
+   "tag": "[seriously]",
+   "text": "Wait… a little more… Now!"
+  },
+  {
+   "order": 159,
+   "block_id": "E2SP161",
+   "scene": "scene_08",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "straining",
+   "tag": "[strained]",
+   "text": "Pushing!"
+  },
+  {
+   "order": 160,
+   "block_id": "E2SP162",
+   "scene": "scene_08",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Hooves scrape stone; the crowbar creaks; the beam rises. The ox bears down with his full weight. Frosya keeps the hook from slipping. The sagging beam lifts."
+  },
+  {
+   "order": 161,
+   "block_id": "E2SP163",
+   "scene": "scene_08",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "With one hand, Papa guides the brace’s lower end toward the notch. There is a wooden thunk. The brace seats back into place."
+  },
+  {
+   "order": 162,
+   "block_id": "E2SP164",
+   "scene": "scene_08",
+   "kind": "dialogue",
+   "speaker": "PAPA",
+   "direction": "with relief",
+   "tag": "",
+   "text": "Got it! Back in the notch!"
+  },
+  {
+   "order": 163,
+   "block_id": "E2SP165",
+   "scene": "scene_08",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "The rising beam jerks the vine wrapped around it. Roots tear with a loud crack. The root creature is ripped out of the earth and tumbles into the drainage groove, scattering clods of black soil."
+  },
+  {
+   "order": 164,
+   "block_id": "E2SP166",
+   "scene": "scene_08",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "The creature scrambles up, looks back at the pencil in Frosya’s hand, and dives into a dark gap among earth and ordinary roots. Its dry rustle rapidly recedes."
+  },
+  {
+   "order": 165,
+   "block_id": "E2SP167",
+   "scene": "scene_08",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "The deck slowly settles onto its brace. Mama straightens without letting go of the babies. Papa climbs out from beneath the beam."
+  },
+  {
+   "order": 166,
+   "block_id": "E2SP168",
+   "scene": "scene_08",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "tired but satisfied",
+   "tag": "",
+   "text": "ВЖУХ."
+  },
+  {
+   "order": 167,
+   "block_id": "E2SP169",
+   "scene": "scene_08",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Vasya is Vasya again. He and Frosya sit down on the stone at the same moment, breathing hard."
+  },
+  {
+   "order": 168,
+   "block_id": "E2SP170",
+   "scene": "scene_09",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "[storytelling]",
+   "text": "SCENE 9 — BENEATH THE PORCH — A LITTLE LATER"
+  },
+  {
+   "order": 169,
+   "block_id": "E2SP171",
+   "scene": "scene_09",
+   "kind": "dialogue",
+   "speaker": "MAMA",
+   "direction": "checking all four children in turn",
+   "tag": "",
+   "text": "Frosya?"
+  },
+  {
+   "order": 170,
+   "block_id": "E2SP172",
+   "scene": "scene_09",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "catching her breath",
+   "tag": "[out of breath]",
+   "text": "I’m fine."
+  },
+  {
+   "order": 171,
+   "block_id": "E2SP173",
+   "scene": "scene_09",
+   "kind": "dialogue",
+   "speaker": "MAMA",
+   "direction": "in the same tone",
+   "tag": "",
+   "text": "Vasya?"
+  },
+  {
+   "order": 172,
+   "block_id": "E2SP174",
+   "scene": "scene_09",
+   "kind": "dialogue",
+   "speaker": "VASYA",
+   "direction": "proudly, still out of breath",
+   "tag": "[out of breath]",
+   "text": "I’m fine. And I got the pencil back."
+  },
+  {
+   "order": 173,
+   "block_id": "E2SP175",
+   "scene": "scene_09",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Mama checks Rusya. He shows her two fistfuls of cotton. Musya sits on Mama’s shoulder, still wearing her mustache."
+  },
+  {
+   "order": 174,
+   "block_id": "E2SP176",
+   "scene": "scene_09",
+   "kind": "dialogue",
+   "speaker": "PAPA",
+   "direction": "looking over the rescued deck",
+   "tag": "",
+   "text": "Now that was an act. Performers, take your bow!"
+  },
+  {
+   "order": 175,
+   "block_id": "E2SP177",
+   "scene": "scene_09",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Out of habit, Vasya steps forward alone. Frosya remains seated. Vasya looks back, returns, and offers her his hand."
+  },
+  {
+   "order": 176,
+   "block_id": "E2SP178",
+   "scene": "scene_09",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Frosya takes his hand. Vasya pulls her up beside him. They bow together. At the last moment, Frosya edges half a step closer to center."
+  },
+  {
+   "order": 177,
+   "block_id": "E2SP179",
+   "scene": "scene_09",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Papa applauds, Mama laughs, Rusya squeals, and Musya shakes her cotton mustache."
+  },
+  {
+   "order": 178,
+   "block_id": "E2SP180",
+   "scene": "scene_09",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Frosya bends to pick up the broken thread, then freezes."
+  },
+  {
+   "order": 179,
+   "block_id": "E2SP181",
+   "scene": "scene_09",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "remembering",
+   "tag": "",
+   "text": "Where’s the bell?"
+  },
+  {
+   "order": 180,
+   "block_id": "E2SP182",
+   "scene": "scene_09",
+   "kind": "dialogue",
+   "speaker": "PAPA",
+   "direction": "pointing toward the yard",
+   "tag": "",
+   "text": "It rolled outside. I saw it."
+  },
+  {
+   "order": 181,
+   "block_id": "E2SP183",
+   "scene": "scene_09",
+   "kind": "dialogue",
+   "speaker": "FROSYA",
+   "direction": "already starting toward the light",
+   "tag": "",
+   "text": "I’ll be quick!"
+  },
+  {
+   "order": 182,
+   "block_id": "E2SP184",
+   "scene": "scene_09",
+   "kind": "dialogue",
+   "speaker": "MAMA",
+   "direction": "stopping her by the shoulder",
+   "tag": "",
+   "text": "No. Hear that? Someone’s coming."
+  },
+  {
+   "order": 183,
+   "block_id": "E2SP185",
+   "scene": "scene_09",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Enormous children’s footsteps approach outside. The whole family presses against the masonry wall in the shadows beneath the porch."
+  },
+  {
+   "order": 184,
+   "block_id": "E2SP186",
+   "scene": "scene_10",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "[mysterious storytelling]",
+   "text": "SCENE 10 — AT THE EDGE OF THE PORCH — CONTINUOUS"
+  },
+  {
+   "order": 185,
+   "block_id": "E2SP187",
+   "scene": "scene_10",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "A tiny brass bell lies in the dust at the edge of the porch. A giant child’s shoes stop beside it. The child’s hand picks it up."
+  },
+  {
+   "order": 186,
+   "block_id": "E2SP188",
+   "scene": "scene_10",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "One high, delicate ding. In the shadows beneath the porch, Frosya and Vasya raise their heads at the same moment."
+  },
+  {
+   "order": 187,
+   "block_id": "E2SP189",
+   "scene": "scene_10",
+   "kind": "dialogue",
+   "speaker": "GIANT_GIRL",
+   "direction": "surprised, examining her find",
+   "tag": "[surprised]",
+   "text": "Oh, what a tiny little bell! It must belong to a doll."
+  },
+  {
+   "order": 188,
+   "block_id": "E2SP190",
+   "scene": "scene_10",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "The girl slips the bell into her pocket and walks away. With each step, the bell rings more faintly inside her pocket."
+  },
+  {
+   "order": 189,
+   "block_id": "E2SP191",
+   "scene": "scene_10",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "Frosya hugs the recovered pencil to herself. Vasya grips his tile pouch. Without speaking, they listen until the final chime disappears."
+  },
+  {
+   "order": 190,
+   "block_id": "E2SP192",
+   "scene": "final_card",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "[storytelling]",
+   "text": "Final card."
+  },
+  {
+   "order": 191,
+   "block_id": "E2SP193",
+   "scene": "final_card",
+   "kind": "narration",
+   "speaker": "NARRATOR",
+   "direction": "",
+   "tag": "",
+   "text": "The letter В appears beside the letters the children already know. They form the episode’s words: ВАТА (cotton wool). КАСКА (helmet). КОЛОКОЛ (bell). ВОЛ (ox). СОВА (owl). ВОЛК (wolf). ЛОМ (crowbar)."
+  }
+ ],
+ "chunks": [
+  {
+   "id": "title_take_1",
+   "scene": "title",
+   "kind": "dialogue",
+   "characters": 60,
+   "parent_voice_guard": "",
+   "segment_orders": [
+    1
+   ]
+  },
+  {
+   "id": "scene_01_take_2",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "characters": 497,
+   "parent_voice_guard": "MAMA",
+   "segment_orders": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "id": "scene_01_take_3",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "characters": 218,
+   "parent_voice_guard": "PAPA",
+   "segment_orders": [
+    7,
+    8
+   ]
+  },
+  {
+   "id": "scene_01_take_4",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "characters": 172,
+   "parent_voice_guard": "MAMA",
+   "segment_orders": [
+    9,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "id": "scene_01_chorus_5",
+   "scene": "scene_01",
+   "kind": "chorus",
+   "characters": 15,
+   "parent_voice_guard": "",
+   "segment_orders": [
+    13
+   ]
+  },
+  {
+   "id": "scene_01_take_6",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "characters": 1452,
+   "parent_voice_guard": "MAMA",
+   "segment_orders": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+   ]
+  },
+  {
+   "id": "scene_01_take_7",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "characters": 80,
+   "parent_voice_guard": "MAMA",
+   "segment_orders": [
+    34,
+    35,
+    36
+   ]
+  },
+  {
+   "id": "scene_01_take_8",
+   "scene": "scene_01",
+   "kind": "dialogue",
+   "characters": 154,
+   "parent_voice_guard": "PAPA",
+   "segment_orders": [
+    37,
+    38,
+    39
+   ]
+  },
+  {
+   "id": "scene_02_take_9",
+   "scene": "scene_02",
+   "kind": "dialogue",
+   "characters": 411,
+   "parent_voice_guard": "PAPA",
+   "segment_orders": [
+    40,
+    41,
+    42,
+    43,
+    44
+   ]
+  },
+  {
+   "id": "scene_02_take_10",
+   "scene": "scene_02",
+   "kind": "dialogue",
+   "characters": 153,
+   "parent_voice_guard": "MAMA",
+   "segment_orders": [
+    45,
+    46
+   ]
+  },
+  {
+   "id": "scene_03_take_11",
+   "scene": "scene_03",
+   "kind": "dialogue",
+   "characters": 631,
+   "parent_voice_guard": "MAMA",
+   "segment_orders": [
+    47,
+    48,
+    49,
+    50,
+    51,
+    52
+   ]
+  },
+  {
+   "id": "scene_03_take_12",
+   "scene": "scene_03",
+   "kind": "dialogue",
+   "characters": 103,
+   "parent_voice_guard": "PAPA",
+   "segment_orders": [
+    53,
+    54,
+    55
+   ]
+  },
+  {
+   "id": "scene_03_take_13",
+   "scene": "scene_03",
+   "kind": "dialogue",
+   "characters": 288,
+   "parent_voice_guard": "MAMA",
+   "segment_orders": [
+    56,
+    57,
+    58,
+    59
+   ]
+  },
+  {
+   "id": "scene_03_take_14",
+   "scene": "scene_03",
+   "kind": "dialogue",
+   "characters": 758,
+   "parent_voice_guard": "PAPA",
+   "segment_orders": [
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70
+   ]
+  },
+  {
+   "id": "scene_04_take_15",
+   "scene": "scene_04",
+   "kind": "dialogue",
+   "characters": 782,
+   "parent_voice_guard": "PAPA",
+   "segment_orders": [
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ]
+  },
+  {
+   "id": "scene_05_take_16",
+   "scene": "scene_05",
+   "kind": "dialogue",
+   "characters": 985,
+   "parent_voice_guard": "PAPA",
+   "segment_orders": [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93
+   ]
+  },
+  {
+   "id": "scene_05_take_17",
+   "scene": "scene_05",
+   "kind": "dialogue",
+   "characters": 400,
+   "parent_voice_guard": "MAMA",
+   "segment_orders": [
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100
+   ]
+  },
+  {
+   "id": "scene_05_take_18",
+   "scene": "scene_05",
+   "kind": "dialogue",
+   "characters": 981,
+   "parent_voice_guard": "PAPA",
+   "segment_orders": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111
+   ]
+  },
+  {
+   "id": "scene_06_take_19",
+   "scene": "scene_06",
+   "kind": "dialogue",
+   "characters": 845,
+   "parent_voice_guard": "PAPA",
+   "segment_orders": [
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120
+   ]
+  },
+  {
+   "id": "scene_06_take_20",
+   "scene": "scene_06",
+   "kind": "dialogue",
+   "characters": 910,
+   "parent_voice_guard": "MAMA",
+   "segment_orders": [
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130
+   ]
+  },
+  {
+   "id": "scene_07_take_21",
+   "scene": "scene_07",
+   "kind": "dialogue",
+   "characters": 742,
+   "parent_voice_guard": "PAPA",
+   "segment_orders": [
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140
+   ]
+  },
+  {
+   "id": "scene_08_take_22",
+   "scene": "scene_08",
+   "kind": "dialogue",
+   "characters": 1423,
+   "parent_voice_guard": "PAPA",
+   "segment_orders": [
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160
+   ]
+  },
+  {
+   "id": "scene_08_take_23",
+   "scene": "scene_08",
+   "kind": "dialogue",
+   "characters": 730,
+   "parent_voice_guard": "PAPA",
+   "segment_orders": [
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167
+   ]
+  },
+  {
+   "id": "scene_09_take_24",
+   "scene": "scene_09",
+   "kind": "dialogue",
+   "characters": 263,
+   "parent_voice_guard": "MAMA",
+   "segment_orders": [
+    168,
+    169,
+    170,
+    171,
+    172,
+    173
+   ]
+  },
+  {
+   "id": "scene_09_take_25",
+   "scene": "scene_09",
+   "kind": "dialogue",
+   "characters": 492,
+   "parent_voice_guard": "PAPA",
+   "segment_orders": [
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181
+   ]
+  },
+  {
+   "id": "scene_09_take_26",
+   "scene": "scene_09",
+   "kind": "dialogue",
+   "characters": 163,
+   "parent_voice_guard": "MAMA",
+   "segment_orders": [
+    182,
+    183
+   ]
+  },
+  {
+   "id": "scene_10_take_27",
+   "scene": "scene_10",
+   "kind": "dialogue",
+   "characters": 635,
+   "parent_voice_guard": "",
+   "segment_orders": [
+    184,
+    185,
+    186,
+    187,
+    188,
+    189
+   ]
+  },
+  {
+   "id": "final_card_take_28",
+   "scene": "final_card",
+   "kind": "dialogue",
+   "characters": 225,
+   "parent_voice_guard": "",
+   "segment_orders": [
+    190,
+    191
+   ]
+  }
+ ]
+}

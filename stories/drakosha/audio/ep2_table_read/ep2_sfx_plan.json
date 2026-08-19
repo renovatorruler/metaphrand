@@ -1,0 +1,118 @@
+{
+  "schema": "drakosha.sfx-plan/v1",
+  "title": "Frosya and Vasya — Episode 2 selective table-read SFX",
+  "policy": "Dialogue remains dominant. Effects are selective punctuation, gain-reduced, and sidechain-ducked beneath speech.",
+  "sources": [
+    {
+      "id": "tiles",
+      "file": "../../../../../../SFX/PSE/GAMEMisc_Dominoes Topple Extended Hard Impacts_PSE_GEN3_TpZHG.wav",
+      "required": true,
+      "license": "Pro Sound Effects CORE local licensed asset"
+    },
+    {
+      "id": "cotton_rustle",
+      "file": "../../../../../../SFX/PSE/CLOTHMvmt_Cloth Rustle Close Up Heavy Fabric Movement 01_PSE_GEN2_QN1BA.wav",
+      "required": true,
+      "license": "Pro Sound Effects CORE local licensed asset"
+    },
+    {
+      "id": "airy_poof",
+      "file": "../../../../../../SFX/PSE/AIRBrst_Air Burst Small Air Release_PSE_ODY2_zCJvt.wav",
+      "required": true,
+      "license": "Pro Sound Effects CORE local licensed asset"
+    },
+    {
+      "id": "giant_steps",
+      "file": "../../../../../../SFX/PSE/FOLYFeet_Heavy Footsteps on Concrete Scuffs_PSE_GEN_DiYS2.wav",
+      "required": true,
+      "license": "Pro Sound Effects CORE local licensed asset"
+    },
+    {
+      "id": "wood_crack",
+      "file": "../../../../../../SFX/PSE/WOODBrk_Wood Crack 01_PSE_ODY2_WUSXy.wav",
+      "required": true,
+      "license": "Pro Sound Effects CORE local licensed asset"
+    },
+    {
+      "id": "floorboard_rattle",
+      "file": "../../../../../../SFX/PSE/BOATMotr_Thai Long Boat Idle Floorboard Rattle_PSE_GEN_vtKBn.wav",
+      "required": true,
+      "license": "Pro Sound Effects CORE local licensed asset"
+    },
+    {
+      "id": "root_rustle",
+      "file": "../../../../../../SFX/PSE/PAPRHndl_Paper Movements Crunchy Crinkle 01_PSE_GEN2_bhHkT.wav",
+      "required": true,
+      "license": "Pro Sound Effects CORE local licensed asset"
+    },
+    {
+      "id": "root_tear",
+      "file": "../../../../../../SFX/PSE/PAPRRip_Ripping Paper Single Short Tear Quick_PSE_GEN_yF9PG.wav",
+      "required": true,
+      "license": "Pro Sound Effects CORE local licensed asset"
+    },
+    {
+      "id": "soil_debris",
+      "file": "../../../../../../SFX/PSE/ROCKCrsh_Stone Debris Small Rock Falls Dirt_PSE_GEN_8ORkP.wav",
+      "required": true,
+      "license": "Pro Sound Effects CORE local licensed asset"
+    },
+    {
+      "id": "magic_chime",
+      "file": "../../production/kuku_flow/sfx/chime.mp3",
+      "required": true,
+      "license": "Canonical Drakosha production asset"
+    },
+    {
+      "id": "bell",
+      "file": "../../../kuku/ep8prod/sfx/glint_chime.mp3",
+      "fallback_file": "../../production/kuku_flow/sfx/chime.mp3",
+      "required": true,
+      "license": "Existing local ElevenLabs-generated Kuku production asset; temporary clean bell-tone substitute"
+    },
+    {
+      "id": "bell_roll_body",
+      "file": "../../../../../../SFX/PSE/FOLYProp_Dice Roll Roll On Pavement_PSE_ODY1_VOh2m.wav",
+      "required": true,
+      "license": "Pro Sound Effects Odyssey Collection Vol. 1 local licensed asset"
+    },
+    {
+      "id": "bell_glint",
+      "file": "../../../kuku/ep8prod/sfx/glint_chime.mp3",
+      "fallback_file": "../../production/kuku_flow/sfx/chime.mp3",
+      "required": true,
+      "license": "Existing local Kuku production asset; fallback canonical Drakosha production asset"
+    }
+  ],
+  "cues": [
+    {"id":"tiles_open","block_id":"E2SP005","source_id":"tiles","offset_seconds":0.00,"trim_start_seconds":0.00,"trim_end_seconds":1.10,"gain_db":-22.0},
+    {"id":"bowls_done","block_id":"E2SP014","source_id":"tiles","offset_seconds":0.45,"trim_start_seconds":0.00,"trim_end_seconds":0.75,"gain_db":-25.0},
+    {"id":"letter_chime","block_id":"E2SP016","source_id":"magic_chime","offset_seconds":0.35,"trim_start_seconds":0.00,"trim_end_seconds":1.00,"gain_db":-25.0},
+    {"id":"underfloor_rattle","block_id":"E2SP043","source_id":"floorboard_rattle","offset_seconds":0.00,"trim_start_seconds":1.00,"trim_end_seconds":4.20,"gain_db":-29.0},
+    {"id":"cotton_magic","block_id":"E2SP061","source_id":"magic_chime","offset_seconds":0.00,"trim_start_seconds":0.00,"trim_end_seconds":0.90,"gain_db":-24.0},
+    {"id":"cotton_poof","block_id":"E2SP061","source_id":"airy_poof","offset_seconds":0.60,"trim_start_seconds":0.00,"trim_end_seconds":0.80,"gain_db":-24.0},
+    {"id":"cotton_handling","block_id":"E2SP061","source_id":"cotton_rustle","offset_seconds":1.10,"trim_start_seconds":0.00,"trim_end_seconds":1.60,"gain_db":-29.0},
+    {"id":"helmet_magic","block_id":"E2SP067","source_id":"magic_chime","offset_seconds":0.00,"trim_start_seconds":0.00,"trim_end_seconds":0.90,"gain_db":-24.0},
+    {"id":"bell_magic","block_id":"E2SP071","source_id":"magic_chime","offset_seconds":0.00,"trim_start_seconds":0.00,"trim_end_seconds":0.80,"gain_db":-25.0},
+    {"id":"bell_reveal","block_id":"E2SP071","source_id":"bell_glint","offset_seconds":0.60,"trim_start_seconds":0.00,"trim_end_seconds":0.75,"gain_db":-22.0},
+    {"id":"scooter_ramp","block_id":"E2SP077","source_id":"floorboard_rattle","offset_seconds":0.10,"trim_start_seconds":4.00,"trim_end_seconds":5.80,"gain_db":-27.0},
+    {"id":"bell_hit","block_id":"E2SP078","source_id":"bell","offset_seconds":0.00,"trim_start_seconds":0.00,"trim_end_seconds":0.65,"gain_db":-18.0},
+    {"id":"landing_poof","block_id":"E2SP078","source_id":"airy_poof","offset_seconds":0.55,"trim_start_seconds":0.00,"trim_end_seconds":0.85,"gain_db":-23.0},
+    {"id":"ox_hooves","block_id":"E2SP095","source_id":"giant_steps","offset_seconds":0.00,"trim_start_seconds":5.00,"trim_end_seconds":6.50,"gain_db":-25.0},
+    {"id":"owl_bell","block_id":"E2SP105","source_id":"bell","offset_seconds":0.00,"trim_start_seconds":0.00,"trim_end_seconds":0.65,"gain_db":-20.0},
+    {"id":"pencil_theft","block_id":"E2SP115","source_id":"root_rustle","offset_seconds":0.00,"trim_start_seconds":0.00,"trim_end_seconds":1.30,"gain_db":-24.0},
+    {"id":"deck_break","block_id":"E2SP120","source_id":"wood_crack","offset_seconds":0.00,"trim_start_seconds":0.00,"trim_end_seconds":1.30,"gain_db":-20.0},
+    {"id":"bell_roll_tone","block_id":"E2SP124","source_id":"bell","offset_seconds":0.20,"trim_start_seconds":0.00,"trim_end_seconds":0.70,"gain_db":-22.0},
+    {"id":"bell_roll_body","block_id":"E2SP124","source_id":"bell_roll_body","offset_seconds":0.20,"trim_start_seconds":0.00,"trim_end_seconds":1.40,"gain_db":-27.0},
+    {"id":"crowbar_magic","block_id":"E2SP146","source_id":"magic_chime","offset_seconds":0.00,"trim_start_seconds":0.00,"trim_end_seconds":1.00,"gain_db":-22.0},
+    {"id":"brace_thunk","block_id":"E2SP163","source_id":"floorboard_rattle","offset_seconds":0.55,"trim_start_seconds":8.00,"trim_end_seconds":8.80,"gain_db":-24.0},
+    {"id":"roots_tear","block_id":"E2SP165","source_id":"root_tear","offset_seconds":0.25,"trim_start_seconds":0.00,"trim_end_seconds":0.80,"gain_db":-18.0},
+    {"id":"soil_fall","block_id":"E2SP165","source_id":"soil_debris","offset_seconds":0.70,"trim_start_seconds":0.00,"trim_end_seconds":2.10,"gain_db":-24.0},
+    {"id":"root_retreat","block_id":"E2SP166","source_id":"root_rustle","offset_seconds":0.25,"trim_start_seconds":0.00,"trim_end_seconds":1.60,"gain_db":-27.0},
+    {"id":"giant_approach","block_id":"E2SP185","source_id":"giant_steps","offset_seconds":0.00,"trim_start_seconds":0.00,"trim_end_seconds":3.60,"gain_db":-20.0},
+    {"id":"found_bell","block_id":"E2SP188","source_id":"bell_glint","offset_seconds":0.00,"trim_start_seconds":0.00,"trim_end_seconds":0.70,"gain_db":-18.0},
+    {"id":"bell_departure_1","block_id":"E2SP190","source_id":"bell","offset_seconds":0.15,"trim_start_seconds":0.00,"trim_end_seconds":0.55,"gain_db":-22.0},
+    {"id":"bell_departure_2","block_id":"E2SP190","source_id":"bell","offset_seconds":0.95,"trim_start_seconds":0.00,"trim_end_seconds":0.55,"gain_db":-26.0},
+    {"id":"bell_departure_3","block_id":"E2SP190","source_id":"bell","offset_seconds":1.75,"trim_start_seconds":0.00,"trim_end_seconds":0.55,"gain_db":-31.0}
+  ]
+}
