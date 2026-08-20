@@ -100,3 +100,29 @@ That leaves the model doing only what it is good at: a child folded up on the fl
 - Мама's voice recast does not touch this segment
 
 **Compare:** scene 7 was 250 credits for 82 seconds of cut footage. This segment is roughly 25 seconds of screen time for **~90**.
+
+
+---
+
+## PRICE, CORRECTED (2026-08-19, same day)
+
+The ~90 figure above priced shots 1, 2 and 4 at zero by treating them as stills with an overlay. That is exactly the stiffness the author objected to, so the figure was cheap for a bad reason. See `COMPOSITE_LIVENESS_LAW.md`.
+
+**Every shot is a generated live plate.** The letters are ours in the shots that contain letters; nothing else changes.
+
+| # | shot | sec | credits |
+|---|---|---|---|
+| 1 | overhead, knees + tiles, "что можно сделать?" | 5 | 12.5 |
+| 2 | her hand turns and places the tiles | 5 | 12.5 |
+| 3 | Фрося seated, writing, back plate | 6 | 15.0 |
+| 4 | overhead on the paper, «С-О-К», «Точка!» | 6 | 15.0 |
+| 5 | the glow crosses Вася's face | 4 | 10.0 |
+| 6 | over his head, «Соку хочешь?» | 5 | 12.5 |
+| 7 | looking through the juice | 6 | 15.0 |
+| | **subtotal** | **37s** | **92.5** |
+| | retry allowance — 3 shots | 15s | 37.5 |
+| | **envelope** | | **~130** |
+
+Shots 1, 2 and 4 are shot with **blank tiles and blank paper**, or with the tiles face down. The model is never asked to spell anything, which is the whole point; it is asked to give us children moving on a floor, which it does well.
+
+Roughly 25 seconds of screen time for ~130 credits, against scene 7's 250 for 82 seconds.
