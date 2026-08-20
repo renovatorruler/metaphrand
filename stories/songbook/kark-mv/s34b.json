@@ -1,0 +1,24 @@
+[
+  {
+    "created_at": "2026-08-12T19:47:40.039426Z",
+    "display_name": "Nano Banana Pro",
+    "id": "9de21316-72fd-42f8-9b75-9e73e6953493",
+    "job_type": "nano_banana_pro",
+    "min_result_url": null,
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 768,
+      "input_image": null,
+      "input_images": [],
+      "prompt": "Cinematic 35mm documentary-realism film still, muted filmic grade. No text anywhere. Present-day North Indian village Tejaji shrine in warm rain, extreme close shot of hands only: an elderly North Indian man's weathered hand — white hospital wristband and fresh red sacred thread on his wrist — resting over a younger family member's hand at the shrine ledge, while a priest's hands tie a new red thread, raindrops splashing on the stone between them, marigold petals stuck to the wet stone, string-light glow.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1344
+    },
+    "result_url": null,
+    "status": "nsfw"
+  }
+]
+Error: job 9de21316-72fd-42f8-9b75-9e73e6953493 ended with status "nsfw"
