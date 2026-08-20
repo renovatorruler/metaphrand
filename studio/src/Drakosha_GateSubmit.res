@@ -28,7 +28,11 @@ external execFileSync: (string, array<string>, execOpts) => string = "execFileSy
 open Drakosha_SeedanceBatch
 open Drakosha_SeedanceJobs
 
+@module("crypto") external createHash: string => 'a = "createHash"
+@module("fs") external statSync: string => 'a = "statSync"
+
 let refsDir = "../stories/drakosha/ep1prod/scene1/references"
+let approvalsDir = "../stories/drakosha/production/seedance_batch/approvals"
 let kfDir = "../stories/drakosha/rnd/keyframes"
 let outDir = "../stories/drakosha/production/seedance_batch/output"
 
@@ -64,8 +68,74 @@ type prepared = {
 let problems: array<string> = []
 let flag = (m: string): unit => problems->Js.Array2.push(m)->ignore
 
+/* THE APPROVAL GATE — a correction invalidates consent, mechanically.
+
+   I said this one could not be gated, because "stop producing after a
+   correction" sounded like behaviour rather than a check. It is not. Every
+   correction the author makes arrives as an EDIT TO THE CREATIVE — she says the
+   frame is wrong, or the tongue is wrong, or the sparks are missing, and the
+   creative changes. So approval is bound to the exact bytes of the creative,
+   and any edit breaks the binding.
+
+   On 2026-08-20 the author corrected the start frame, the tongue, the sparks
+   and Точка, and each time I rewrote the creative and went straight back to
+   submitting. Under this gate every one of those rewrites would have required
+   her to look at the new text first.
+
+   An approval lives at approvals/<jobId>.approval.json and records the sha256
+   of the creative it approved, when it was given, and the author's own words.
+   The gate recomputes the hash and also refuses if the creative has been
+   touched since — so an edit invalidates consent even if the hash somehow
+   matched. */
+let sha256 = (text: string): string => {
+  let h = createHash("sha256")
+  let _ = h["update"](. text)
+  h["digest"](. "hex")
+}
+
+let mtimeMs = (path: string): float => {
+  let st = statSync(path)
+  st["mtimeMs"]
+}
+
+let assertApproved = (spec: Drakosha_SeedanceJobs.jobSpec): option<string> => {
+  let jid = spec.record.jobId
+  let path = approvalsDir ++ "/" ++ jid ++ ".approval.json"
+  if !existsSync(path) {
+    Some(
+      jid ++
+      ": no approval on file. The author has not seen the creative this job would send. Write " ++
+      path ++
+      " with the sha256 of the creative, the time, and her own words approving it — after showing her the text, not before.",
+    )
+  } else {
+    let creative = readFileSync(spec.creativeFile, "utf8")
+    let want = sha256(creative)
+    let appr = readFileSync(path, "utf8")
+    if !Js.String2.includes(appr, want) {
+      Some(
+        jid ++
+        ": the creative has CHANGED since it was approved. The approval on file is for different text, which means a correction has been made and not re-shown. Recorded hash does not contain " ++
+        Js.String2.slice(want, ~from=0, ~to_=16) ++
+        "…. Show her the new text and re-approve before spending.",
+      )
+    } else if mtimeMs(spec.creativeFile) > mtimeMs(path) +. 1000.0 {
+      Some(
+        jid ++
+        ": the creative was edited AFTER it was approved. Even if the text matches, consent was given to an older file. Re-approve.",
+      )
+    } else {
+      None
+    }
+  }
+}
+
 let prepare = (spec: Drakosha_SeedanceJobs.jobSpec): option<prepared> => {
   let jid = spec.record.jobId
+  switch assertApproved(spec) {
+  | Some(m) => flag(m)
+  | None => ()
+  }
   if !existsSync(spec.creativeFile) {
     flag(jid ++ ": missing creative " ++ spec.creativeFile)
     None

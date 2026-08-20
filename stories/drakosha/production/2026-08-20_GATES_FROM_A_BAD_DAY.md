@@ -44,6 +44,18 @@ Refuses to pass a file that is claimed to carry dialogue and has no audio stream
 
 What happened: a concatenated cut went to the author with **no audio stream at all**, described as though she would hear the line. The first input was silent, concat dropped the track, and nobody looked.
 
-## The one that cannot be gated
+## GATE 6 · A correction invalidates consent, mechanically
 
-After a correction, produce nothing until the corrected understanding has been repeated back and confirmed. On 2026-08-20 the author corrected the start frame, the tongue, the sparks and Точка, and each time I went straight back to generating. That is what turned four single mistakes into an hour of waste and 37.5 credits.
+`assertApproved` in `Drakosha_GateSubmit.res`, with approvals in `seedance_batch/approvals/<jobId>.approval.json`
+
+I first wrote that this one could not be gated — that "stop producing after a correction" was behaviour rather than a check. The author asked why not, and she was right to: it is a check.
+
+**Every correction arrives as an edit to the creative.** The author says the frame is wrong, the tongue is wrong, the sparks are missing, Точка has no recording — and the creative text changes. So approval is bound to the exact bytes of the creative. The gate recomputes the sha256 before spending and refuses if it differs from the approved one, and refuses again if the file has been touched since approval even when the hash matches.
+
+What happened: on 2026-08-20 the author corrected the start frame, the tongue, the sparks and Точка, and after each correction I rewrote the creative and went straight back to submitting. Under this gate every one of those rewrites would have required showing her the new text first. Four single mistakes became an hour of waste and 37.5 credits because nothing forced a stop between them.
+
+Verified: with no approval the job is refused; with an approval it passes; after a one-line edit to the creative it is refused again, naming the hash that no longer matches.
+
+## What still is not gated
+
+Assertions I make in conversation — calling a face "concentrating" when it is neutral, or a change "an improvement" when it is three points out of 255. Those cost the author review cycles rather than credits. The partial defence is GATE 5, which forces a dense contact strip into my hands before anything is sent, so a claim about motion has to survive contact with the motion.
