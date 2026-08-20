@@ -60,3 +60,43 @@ Split of line 52 accordingly:
 - at the paper (shot 4): «С-О-К. СОК!» then «Точка!»
 
 Note also that Фрося uses ВАСЯ'S tiles to plan the word she then writes with her own pencil. The two gifts already lean on each other in the very first game, which is Яга's whole design («порознь — никак») showing up quietly long before anyone says it.
+
+
+---
+
+## PRICE — the СОК segment (2026-08-19)
+
+All on `seedance_2_0_mini` at **2.5 credits/second**. Gate minimum is 4s. Scene 7's real per-job costs were 20 / 25 / 27.5 / 30 / 32.5 / 35 / 37.5 for 8-15s, so these numbers are the same arithmetic the ledger already recorded.
+
+### Option B — recommended: generate only the shots with a performance in them
+
+| # | shot | how | sec | credits |
+|---|---|---|---|---|
+| 1 | overhead, knees + tiles | **composite** — generated floor/knees plate with BLANK tiles, letters composited | — | 0 |
+| 2 | her hand assembles `СОК` | **composite** — same plate, hand pass, author's tile art | — | 0 |
+| 3 | Фрося seated, writing, back plate | GEN | 6 | 15.0 |
+| 4 | overhead paper: С-О-К lights, «Точка!» | **CARD** | — | 0 |
+| 5 | the glow crosses Вася's face | GEN | 4 | 10.0 |
+| 6 | over his head, «Соку хочешь?» | GEN | 5 | 12.5 |
+| 7 | looking through the juice | GEN | 6 | 15.0 |
+| | **subtotal** | | **21s** | **52.5** |
+| | retry allowance — shots 3 and 7, one each | | 12s | 30.0 |
+| | **envelope** | | | **~90** |
+
+### Option A — generate shots 1 and 2 as well
+
+Adds 5s + 5s = 10s = **25 credits**, plus a retry allowance for them, because **these are the two shots with Cyrillic letters in frame** and letters are exactly what the model gets wrong. Every letter shot in scene 7 came back with duplicated and invented characters, and fixing them cost a day of compositing. Envelope **~120**, at materially higher risk of a reshoot.
+
+### Why B is not a compromise
+
+Shots 1, 2 and 4 are all the same thing: a flat floor seen from above with wooden tiles and paper on it. There is no acting in them and no camera move that matters. Once one plate of that floor exists — with the children's knees in frame so the surface reads — all three are composites, and the author's own tile and letter art goes straight in without the model ever being asked to spell.
+
+That leaves the model doing only what it is good at: a child folded up on the floor writing, a light crossing a face, an offer of a thimble, and a boy squinting through juice.
+
+### Not credits, but required before the segment can be finished
+
+- the composable alphabet (author) — blocks shot 4 and the tile art for 1-2
+- **«Точка!» has never been recorded** — three short ElevenLabs takes, no credits
+- Мама's voice recast does not touch this segment
+
+**Compare:** scene 7 was 250 credits for 82 seconds of cut footage. This segment is roughly 25 seconds of screen time for **~90**.
