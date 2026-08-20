@@ -1,0 +1,42 @@
+SCENE CONTEXT
+Two tiny house-spirit children drag an enormous striped sock through the hidden passage beside a giant wooden dresser in a giants' bedroom.
+
+ACTIVE REFERENCES
+@FROSYA: 7yo tiny house-spirit girl, thin, huge unkempt dark curly mane with a pencil stub stuck in it, patchwork dress, barefoot. 100% matches the reference.
+@VASYA: 5yo tiny house-spirit boy, skinny, short spiky brown hair, enormous bushy eyebrows, patchwork tunic, shoelace belt at his waist, barefoot. 100% matches the reference.
+@PASSAGE: narrow gap between the right side of a giant wooden dresser and a plaster wall, floorboards below, warm morning light from the room beyond. Use for geography and materials only, not framing.
+
+LOCATION MAP
+Giants' bedroom floor level. The dresser front and its right side are visible; the narrow passage runs between the dresser's right side and the wall. The bottom drawer of the dresser is slightly open. Morning light enters from the room at screen-left; the passage interior is dimmer.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Shot A opens on the dresser alone: camera close to the floor in the giants' room, slightly left of the dresser, seeing its front, its right side, and the mouth of the narrow passage. The bottom drawer stands slightly open. No characters visible yet; their panting is heard from behind the dresser.
+Shot B and C open with both children already in frame. No delayed reveal after the first cut.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Three shots. HARD CUTS only.
+Shot A, 0:00 to 0:04: static wide of the dresser as described. Loud clock ticking, one floor creak, faint effortful panting from behind the dresser.
+HARD CUT.
+Shot B, 0:04 to 0:07: camera now inside the narrow passage at child height, looking toward the dresser's back wall. @FROSYA and @VASYA come around the rear corner together, dragging a long striped sock toward the camera. The sock is longer than both children put together. Frosya pulls the sock's toe end and walks backward toward camera; Vasya pushes and hauls the cuff end behind her.
+HARD CUT.
+Shot C, 0:07 to 0:12: camera in the same passage, now side-on to the children at their eye level. Frosya at screen-left pulls one end; Vasya at screen-right pulls the other; the striped sock sags heavily between them. Both lean their full body weight against the load, bare feet gripping the floorboard. While hauling, Vasya speaks in Russian, panting: «А почему великаны всё время носки теряют?» Frosya keeps hauling and does not answer in this shot.
+
+OPTICS
+Shot A: 84° diagonal field of view, classic wide-angle lens character, camera 1 to 1.5 meters from the dresser at floor height. Environment visible to the frame edges, deep readable spatial context, straight furniture lines stay rectilinear, no fisheye curve.
+Shots B and C: 47° diagonal field of view, standard normal lens character at child scale, natural perspective, no distortion, background readable but not exaggerated.
+LENS CHECK: no drift between lens characters inside any single shot.
+
+CAMERA
+All three shots are static locked-off frames at floor or child height. No camera movement.
+
+PHYSICS
+The sock is heavy fabric: it drags with friction, bunches, and resists in waves. The children's bodies show true effort: leaning torsos, dug-in heels, weight transfer with every pull, small stumbles of recovery. Cloth folds delay behind each tug. No floating, no weightless cloth, no gliding feet.
+
+LIGHTING
+Warm morning light from the open room reaches into the passage mouth; the passage interior falls into soft warm shadow. The children are lit by spill, not by a frontal key. No flat front light.
+
+AUDIO
+Loud clock ticking throughout, closer in shot A, muffled in the passage. Floor creak once in shot A. Effortful child panting in shots B and C. Fabric dragging over wood. Vasya's single Russian line in shot C, breathless. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two children, no other characters. Vasya's enormous bushy eyebrows visible in every shot where his face shows. Both children barefoot. The sock stays longer than both children together in every frame.

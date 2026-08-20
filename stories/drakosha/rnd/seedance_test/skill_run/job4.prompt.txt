@@ -1,0 +1,44 @@
+SCENE CONTEXT
+The tiny boy reaches the top of the drawer's side panel, sits on its edge, and lowers the hook back down to his sister, who slips it under the giant sock's elastic cuff.
+
+ACTIVE REFERENCES
+@FROSYA: 7yo tiny house-spirit girl, huge dark curly mane with a pencil stub in it, patchwork dress, barefoot. 100% matches the reference.
+@VASYA: 5yo tiny house-spirit boy, enormous bushy eyebrows, patchwork tunic, barefoot. 100% matches the reference.
+@PASSAGE: the dresser-side passage; the open drawer's wooden side panel. Geography and materials only.
+
+LOCATION MAP
+The drawer's side panel top edge is the summit; the drawer's dark interior lies inward of it. Below on the passage floor, the striped sock lies bunched with Frosya standing over it.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Each shot opens with its listed characters already in frame and in position.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Four shots. HARD CUTS only.
+Shot A, 0:00 to 0:02: close-up from above the edge: @VASYA's two small hands catch the top of the wooden side panel, fingers gripping, knuckles whitening with effort.
+HARD CUT.
+Shot B, 0:02 to 0:04: @VASYA now sits astride the panel's top edge, legs dangling inward over the drawer's dark interior, chest heaving, and looks down toward the floor. His torso faces along the edge; his head turns down toward where Frosya waits below.
+HARD CUT.
+Shot C, 0:04 to 0:06: @VASYA unhooks the blunt hook from the edge and pays the lace out downward hand over hand; the hook descends steadily toward the floor.
+HARD CUT.
+Shot D, 0:06 to 0:08: at floor level, @FROSYA catches the descending hook with both hands and slides it flat under the sock's wide elastic cuff without piercing the fabric, then seats it and looks up.
+
+OPTICS
+Shots A and C: 29° detail lens character, close on hands, hook, and lace, shallow warm background.
+Shot B: 47° standard normal at his level on the summit, natural proportions, the drawer interior falling into darkness behind him.
+Shot D: 47° standard normal at floor level, Frosya sharp, the huge sock cuff dominating the lower frame.
+No lens drift inside any shot.
+
+CAMERA
+All static locked frames. No movement.
+
+PHYSICS
+His grip and mount carry real body weight: the pull-up strains, the leg swings over with effort and settle. The lace pays out with cord friction; the hook descends at hand speed, never floats. The elastic cuff lifts and grips the hook like true thick fabric under tension.
+
+LIGHTING
+Warm spill from the room side; the drawer interior behind Vasya reads as soft warm darkness. Frosya below lit by bounce. No flat front light.
+
+AUDIO
+Effortful breath on the mount, cord sliding, one soft fabric rustle as the hook seats under the cuff. Muffled ticking under everything. No dialogue. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Only these two children exist in the sequence. Vasya's bushy eyebrows visible in shots B and C. The hook never pierces the sock; it slides under the elastic band.

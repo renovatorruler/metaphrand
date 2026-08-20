@@ -1,0 +1,17 @@
+{
+  "model": "seedance_2_5",
+  "duration": 12,
+  "startImage": "",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-05.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-04.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-07.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-08.png",
+    "../stories/drakosha/ep1prod/scene1/references/C-RUS-01_solo_from_packet_page14.png",
+    "../stories/drakosha/ep1prod/scene1/references/C-MUS-01_solo_from_packet_page14.png",
+    "../stories/drakosha/ep1prod/scene1/references/SET-HOME-ROOM-01_author_master_v4_hatch_cradle-clear.png",
+    "../stories/drakosha/ep1prod/scene1/references/C-MAM-CARRY-02_from_packet_page16.png",
+    "../stories/drakosha/ep1prod/scene1/references/R-EP1-TOP-01_approved_author.png"
+  ],
+  "promptSha256": "ae9ce6100598a40888c2851ca7157a5ff226a3536c82025b804c01ee43b03434"
+}

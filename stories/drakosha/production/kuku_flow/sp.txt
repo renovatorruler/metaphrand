@@ -1,0 +1,6 @@
+file 'seg/g12_13.mp4'
+file 'seg/cast55.mp4'
+file 'seg/cast72.mp4'
+file 'seg/cast85.mp4'
+file 'seg/cast98.mp4'
+file 'seg/cast100.mp4'

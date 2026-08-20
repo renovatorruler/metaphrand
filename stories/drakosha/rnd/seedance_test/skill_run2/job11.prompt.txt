@@ -1,0 +1,40 @@
+SCENE CONTEXT
+The tiny father unveils a repaired giant spinning top with two seats, his daughter hugs him, and he invites both children to climb on.
+
+ACTIVE REFERENCES
+@FROSYA: 7yo tiny house-spirit girl, huge dark curly mane with a pencil stub, patchwork dress, barefoot. 100% matches the reference.
+@VASYA: 5yo tiny house-spirit boy, enormous bushy eyebrows, patchwork tunic, barefoot. 100% matches the reference.
+
+LOCATION MAP
+The main room behind the stove, near the thread-spool table. The covered present stands center. PAPA (huge burly house-spirit, bark-brown shaggy coat with wood shavings, warm grin) beside it; the children face it.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Shot A opens directly on the covered present with PAPA's hands already gripping the cloth. Children off-frame for shot A only.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Three shots. HARD CUTS only.
+Shot A, 0:00 to 0:03: camera directly in front of the present: PAPA pulls the cloth away in one sweep and steps aside, revealing a lost-and-repaired giant spinning top polished to a gleam: visible mended seams, a central twist handle, and two small seats fixed opposite each other on its body.
+HARD CUT.
+Shot B, 0:03 to 0:08: beside the top, seeing @FROSYA and PAPA: she looks the top over — the seams, the seats, the shine — then throws her arms around PAPA's neck. She speaks in Russian, sincere and bright: «Пап! Вот это юла! Какая красота! Спасибо!» PAPA glows.
+HARD CUT.
+Shot C, 0:08 to 0:12: framing PAPA and both children: he points to the two seats, one and then the other, and says in Russian, pleased: «Забирайтесь оба. Сейчас закручу!» Both children's faces light up; @VASYA is already moving toward a seat.
+
+OPTICS
+Shot A: 47° standard normal, the top dominating center frame.
+Shots B and C: 47° standard normal at child height, natural proportions.
+No lens drift inside any shot.
+
+CAMERA
+Static locked frames. No movement.
+
+PHYSICS
+The cloth sweeps off with real fabric motion and drops. The top has real mass on the floorboards. Frosya's hug lands with weight; PAPA absorbs it with a small happy stagger.
+
+LIGHTING
+Warm hearth and lamp light; the polished top catches gleams. No flat front light.
+
+AUDIO
+Cloth sweep, a wooden settle of the top, Frosya's delighted Russian line, PAPA's pleased Russian line. Stove crackle under everything. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+The top has exactly two seats and one central handle. Repaired seams stay visible — it is a mended treasure, not a new toy. Vasya's eyebrows visible whenever his face shows.

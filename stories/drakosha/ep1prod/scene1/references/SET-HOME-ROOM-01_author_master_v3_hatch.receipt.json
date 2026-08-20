@@ -1,0 +1,18 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "stage": "refs",
+  "approvedBy": "author",
+  "approvedOn": "2026-08-14",
+  "subjects": {
+    "SET-HOME-ROOM-01": "SET-HOME-ROOM-01_author_master_v3_hatch.png — AUTHOR-SUPPLIED. Current bound room reference. Identical to v2 except the opening in the left wall."
+  },
+  "rulings": {
+    "hatchNotDoor": "Author ruling 2026-08-14: the opening in the left wall is restyled to read as a CLEANOUT HATCH, not a door. Reason, in her words: 'I don't want people confusing it with a possible entry to this place.' It is small, flat, dark iron, set low in the boulder brick with a simple latch, and has no door frame. The family never uses it. Only Бабушка-Яга comes through it.",
+    "bedsUnchanged": "The four matchbox beds and the knitted cradle remain on the LEFT wall in this master. The two kitchen-wall variants shown earlier were exploration for moving them to the opposite wall; that move is not canon yet.",
+    "doorGlow": "Unchanged from v2 — the opening is dark and unlit at rest. Light around it is an event."
+  },
+  "openQuestion": {
+    "bedScale": "The matchbox beds read too small for a character to lie in convincingly. To be resolved when the sleeping scene is approached, NOT now. Note: the registry specs Фрося's bed at 4.0-4.5 in against her 3.5 in height, which is proportionally correct, so this is likely a drawing or framing problem rather than a dimensional one."
+  },
+  "supersedes": "SET-HOME-ROOM-01_author_master_v2_no-door-glow.png — retained, no longer bound."
+}

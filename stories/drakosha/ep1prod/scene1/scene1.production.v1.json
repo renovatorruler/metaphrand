@@ -1,7 +1,7 @@
 {
   "schema": "frosya.scene-production/v1",
   "sceneId": "EP1-S01",
-  "revision": 29,
+  "revision": 30,
   "updated": "2026-08-05",
   "status": "reference_review",
   "workspaceRoot": "../../../..",

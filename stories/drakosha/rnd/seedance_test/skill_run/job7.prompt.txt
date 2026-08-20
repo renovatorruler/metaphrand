@@ -1,0 +1,43 @@
+SCENE CONTEXT
+The tiny boy stows the hook and re-wraps his shoelace belt; he asks his sister why they put the giants' things back, and she shrugs that this is how a house works.
+
+ACTIVE REFERENCES
+@FROSYA: 7yo tiny house-spirit girl, huge dark curly mane with a pencil stub in it, patchwork dress, barefoot. 100% matches the reference.
+@VASYA: 5yo tiny house-spirit boy, enormous bushy eyebrows, patchwork tunic, a long shoelace belt, barefoot. 100% matches the reference.
+@PASSAGE: the dresser-side passage with the knothole cache. Geography and materials only.
+
+LOCATION MAP
+The passage floor by the wall cache. The passage mouth opens to the bright room at screen-left. The drawer above is closed business now; nobody looks at it.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Each shot opens with its characters already in frame and mid-task.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Four shots. HARD CUTS only.
+Shot A, 0:00 to 0:02: @VASYA kneels at the wall and slides the blunt hook back into the dark knothole cache with both hands.
+HARD CUT.
+Shot B, 0:02 to 0:04: the shoelace is already wrapped back around his waist; @VASYA stands adjusting the long tail of it, tucking it flat.
+HARD CUT.
+Shot C, 0:04 to 0:06: @VASYA brushes dust off his tunic with two quick swipes, then looks up at @FROSYA, puzzled, and asks in Russian: «А почему мы кладём на место?» His torso and gaze face her fully.
+HARD CUT.
+Shot D, 0:06 to 0:08: @FROSYA at the passage mouth leans out for one last check of the room, pulls back in, and answers with a small shrug, in Russian, matter-of-fact: «Так дом устроен.» Her eyes meet his on the line.
+
+OPTICS
+Shots A and B: 29° detail lens character on hands, hook, and belt, shallow warm background.
+Shots C and D: 47° standard normal at child eye level, natural proportions, both faces clean and readable.
+No lens drift inside any shot.
+
+CAMERA
+Static locked frames only.
+
+PHYSICS
+The hook slides into the cache with a small wooden scrape and settles. The lace wraps flat and stays wrapped. The dust-off is two real brisk pats. Her shrug is one small honest shoulder lift, nothing theatrical.
+
+LIGHTING
+Warm room light spills across shot D from screen-left as she leans to the mouth; the rest of the passage in soft warm shadow. No flat front light.
+
+AUDIO
+Small wooden scrape, cloth pats, then the two Russian lines exactly as scripted: his puzzled, hers offhand with the shrug. Muffled clock ticking under everything. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two children. Only the scripted lines are spoken; the listener's lips stay still. Vasya's bushy eyebrows raised on his question. The hook is fully out of sight after shot A.

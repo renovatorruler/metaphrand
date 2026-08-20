@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Frosya Alphabet Style Samples</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #17120d;
+      color: #fff7e8;
+    }
+    body {
+      margin: 0;
+      padding: 24px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(24px, 4vw, 42px);
+    }
+    .instruction {
+      margin: 0 0 24px;
+      color: #d5c7b2;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 520px), 1fr));
+      gap: 28px;
+      max-width: 1800px;
+      margin: 0 auto;
+    }
+    figure {
+      margin: 0;
+      overflow: hidden;
+      border: 2px solid #6f5a3e;
+      border-radius: 14px;
+      background: #241b13;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, .35);
+    }
+    figure a {
+      position: relative;
+      display: block;
+      background: #000;
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .number {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      display: grid;
+      place-items: center;
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      background: rgba(20, 13, 8, .92);
+      border: 3px solid #fff7e8;
+      color: #fff7e8;
+      font-size: 30px;
+      font-weight: 800;
+      line-height: 1;
+    }
+    figcaption {
+      padding: 14px 18px 17px;
+      font-size: 21px;
+      font-weight: 700;
+    }
+    figcaption small {
+      display: block;
+      margin-top: 4px;
+      color: #cbbca7;
+      font-size: 15px;
+      font-weight: 400;
+    }
+  </style>
+</head>
+<body>
+  <h1>Frosya Alphabet Style Samples</h1>
+  <p class="instruction">Tap any sample to open its original full-resolution PNG.</p>
+  <main class="gallery">
+    <figure>
+      <a href="01-careful-light.png"><img src="01-careful-light.png" alt="Sample 1: careful, light graphite"><span class="number">1</span></a>
+      <figcaption>Careful, light graphite<small>Conservative and lightly drawn</small></figcaption>
+    </figure>
+    <figure>
+      <a href="02-confident-dark.png"><img src="02-confident-dark.png" alt="Sample 2: confident, dark graphite"><span class="number">2</span></a>
+      <figcaption>Confident, dark graphite<small>Stronger pressure and retraced strokes</small></figcaption>
+    </figure>
+    <figure>
+      <a href="03-tall-quirky.png"><img src="03-tall-quirky.png" alt="Sample 3: tall and quirky"><span class="number">3</span></a>
+      <figcaption>Tall and quirky<small>Includes the distinctive hooked Cyrillic Л</small></figcaption>
+    </figure>
+    <figure>
+      <a href="04-rounded-playful.png"><img src="04-rounded-playful.png" alt="Sample 4: rounded and playful"><span class="number">4</span></a>
+      <figcaption>Rounded and playful<small>Softer, friendlier construction</small></figcaption>
+    </figure>
+    <figure>
+      <a href="05-childlike-smudged.png"><img src="05-childlike-smudged.png" alt="Sample 5: childlike and smudged"><span class="number">5</span></a>
+      <figcaption>Childlike and smudged<small>Uneven pressure, corrections, crumbs, and hand smears</small></figcaption>
+    </figure>
+  </main>
+</body>
+</html>

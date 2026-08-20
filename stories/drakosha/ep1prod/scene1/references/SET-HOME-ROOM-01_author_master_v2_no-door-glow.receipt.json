@@ -1,0 +1,14 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "stage": "refs",
+  "approvedBy": "author",
+  "approvedOn": "2026-08-13",
+  "subjects": {
+    "SET-HOME-ROOM-01": "SET-HOME-ROOM-01_author_master_v2_no-door-glow.png — AUTHOR-SUPPLIED. Supersedes _author_master_FINAL.png as the bound room reference."
+  },
+  "rulings": {
+    "doorGlow": "The little iron door does NOT glow at rest. Author ruling 2026-08-13: 'the door glows only if something is happening.' The glow is an EVENT, not a property of the door. At rest the door is dark green-patinated iron in the boulder wall.",
+    "fireplacePlate": "The warm light seeping around the edges of the large riveted iron plate on the far wall is unchanged and still canon — that is the sealed fireplace mouth, not the door."
+  },
+  "supersedes": "SET-HOME-ROOM-01_author_master_FINAL.png — retained, never deleted, no longer bound."
+}

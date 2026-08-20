@@ -1,0 +1,24 @@
+{
+  "asset": "SET-HOME-ROOM-01",
+  "status": "AUTHOR-SUPPLIED CANON",
+  "date": "2026-08-07",
+  "files": [
+    "SET-HOME-ROOM-01_author_master_A.png",
+    "SET-HOME-ROOM-01_author_master_B.png",
+    "SET-HOME-ROOM-01_author_master_FINAL.png"
+  ],
+  "supersedes": [
+    "rnd/heroprops/SET-HOME-ROOM-01_master_v2_hall.png",
+    "rnd/heroprops/SET-HOME-ROOM-01_master_v3.png",
+    "rnd/heroprops/SET-HOME-ROOM-01_master_v4.png"
+  ],
+  "author_rulings": [
+    "The big riveted metal wall IS the stove side of the room: canonized as the humans' iron closure plate over the old fireplace mouth, with warm light seeping around its rim (author confirmed via the light seams).",
+    "Road descent is the warped plank ramp (NOT stairs — earlier read of steps was wrong; bricks are the pit lining).",
+    "Underfloor road floor must be PLAIN (planking/packed floor); the mini-cobble paving in these plates is off-model and gets corrected in the conforming pass.",
+    "FOUR matchbox beds (author re-locked 2026-08-07: everyone their own matchbox) + mitten cradle; no faucet/plumbing anywhere.",
+    "Little iron door (SET-YAGA-DOOR-01) low in left brick wall = Яга's entry; kid-logic law: down the chimney, out the little door.",
+    "FINAL master chosen by author 2026-08-07: boulder-scale red-brown brick (3-4 courses floor to ceiling), spacious hall, all zones intact; supersedes v5-v8 conforming attempts and the A/B masters as the primary plate (A/B stay as canon source; the darker deep-hall variant = secondary angle plate)."
+  ],
+  "conforming_pass": "brightness/warmth lift, add mitten cradle + bottle-cap basin corner, +presence on the iron door, plain road floor; everything else frozen as supplied"
+}

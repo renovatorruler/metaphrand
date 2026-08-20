@@ -47,6 +47,12 @@ let intField = (object_, key, where) =>
   | None => fail(where ++ "." ++ key ++ " must be a number")
   }
 
+let numberField = (object_, key, where) =>
+  switch field(object_, key, where)->Js.Json.decodeNumber {
+  | Some(value) => value
+  | None => fail(where ++ "." ++ key ++ " must be a number")
+  }
+
 let arrayField = (object_, key, where) =>
   switch field(object_, key, where)->Js.Json.decodeArray {
   | Some(value) => value
@@ -148,15 +154,27 @@ let loadAnchors = (~manifestDirectory, ~relativePath) => {
   anchors
 }
 
+/* Optional per-beat camera move for stills, requested by the parent shot by shot.
+   PushIn: start on the full frame and drift into a target point ("pan and zoom from the
+   full frame to the sage"). PanAcross: zoom in at one point, travel to another, then pull
+   back out ("pan from the leftmost character to the rightmost, then zoom out"). All
+   coordinates are fractions of the frame. At zoom 1 the crop is the whole frame whatever
+   the target, so both moves begin and/or end wide without special-casing. */
+type cameraMove =
+  | PushIn({zoomTo: float, cx: float, cy: float})
+  | PanAcross({zoom: float, fromCx: float, toCx: float, cy: float})
+
 type reviewOverrides = {
   sources: Js.Dict.t<source>,
   excludedAssets: Js.Dict.t<bool>,
+  cameras: Js.Dict.t<cameraMove>,
 }
 
 let emptyReviewOverrides = () => {
   let sources: Js.Dict.t<source> = Js.Dict.empty()
   let excludedAssets: Js.Dict.t<bool> = Js.Dict.empty()
-  {sources, excludedAssets}
+  let cameras: Js.Dict.t<cameraMove> = Js.Dict.empty()
+  {sources, excludedAssets, cameras}
 }
 
 let loadReviewOverrides = path => {
@@ -188,13 +206,58 @@ let loadReviewOverrides = path => {
       fail("duplicate review override for " ++ beatId)
     }
     Js.Dict.set(loaded.sources, beatId, source)
+    switch Js.Dict.get(row, "camera") {
+    | Some(cameraJson) => {
+        let camera = objectOf(cameraJson, where ++ ".camera")
+        let move = switch stringField(camera, "kind", where ++ ".camera") {
+        | "pushIn" => {
+            let zoomTo = numberField(camera, "zoomTo", where ++ ".camera")
+            if zoomTo <= 1.0 || zoomTo > 2.0 {
+              fail(where ++ ".camera.zoomTo must be in (1.0, 2.0]")
+            }
+            PushIn({
+              zoomTo,
+              cx: numberField(camera, "cx", where ++ ".camera"),
+              cy: numberField(camera, "cy", where ++ ".camera"),
+            })
+          }
+        | "panAcross" => {
+            let zoom = numberField(camera, "zoom", where ++ ".camera")
+            if zoom <= 1.0 || zoom > 2.0 {
+              fail(where ++ ".camera.zoom must be in (1.0, 2.0]")
+            }
+            PanAcross({
+              zoom,
+              fromCx: numberField(camera, "fromCx", where ++ ".camera"),
+              toCx: numberField(camera, "toCx", where ++ ".camera"),
+              cy: numberField(camera, "cy", where ++ ".camera"),
+            })
+          }
+        | unknown => fail(where ++ ".camera.kind is unsupported: " ++ unknown)
+        }
+        Js.Dict.set(loaded.cameras, beatId, move)
+      }
+    | None => ()
+    }
   })
   loaded
 }
 
+let parentIdOf = id =>
+  switch Js.String2.splitByRe(id, %re("/-L\d+$/")) {
+  | [Some(prefix), _] => prefix
+  | _ => id
+  }
+
 let sourceFor = (~anchors, ~overrides, beat): source =>
   switch Js.Dict.get(overrides.sources, beat.id) {
   | Some(source) => source
+  /* sub-shots inherit their parent beat's override unless they carry their own */
+  | None if Js.Dict.get(overrides.sources, parentIdOf(beat.id)) != None =>
+    switch Js.Dict.get(overrides.sources, parentIdOf(beat.id)) {
+    | Some(source) => source
+    | None => Placeholder
+    }
   | None => switch beat.acceptedAsset {
   | Some(path) if Js.Dict.get(overrides.excludedAssets, path) == None => AcceptedMotion(path)
   | Some(_) | None =>
@@ -233,18 +296,69 @@ let threeDigits = value =>
 let segmentName = (~index, ~beat) =>
   threeDigits(index) ++ "_" ++ beat.id ++ ".mp4"
 
-let renderCard = (~buildDirectory, ~index, ~beat, ~source) => {
-  let (label, color) = sourceLabel(source)
+/* Shot identification burned into the picture.
+ *
+ * This used to be a 1100px pango card with a 90px margin overlaid across the bottom of the
+ * frame — a slab covering a third of the picture. The user rejected it twice ("that caption
+ * panel is still covering a third of the screen", "why do you add this horrendous giant
+ * chyron"), and it kept coming back because the builder only had two modes: no label at all,
+ * or the slab. This is the third mode it should always have had.
+ *
+ * A small chip in the top-left corner: the plain shot number the parent actually speaks
+ * ("s53 shows Castor to be small"), tinted by source kind so a glance still distinguishes
+ * motion from still. n is the beat's 1-based position, exactly how
+ * ep9_simple_shot_numbers.v2.json was built. Nothing else is burned in — scene, timecode and
+ * story text live in the manifests, and putting them on the picture is what made the slab.
+ *
+ * This ffmpeg build has no drawtext filter (no libfreetype), which is why all text in this
+ * pipeline goes through pango-view and is overlaid as an image.
+ */
+let renderChip = (~buildDirectory, ~index, ~source) => {
+  let (_, color) = sourceLabel(source)
   let markup =
-    "<span font=\"Avenir Next Bold 22\" foreground=\"" ++ color ++ "\">" ++
-    escapeMarkup(label) ++ "</span>   " ++
-    "<span font=\"Avenir Next Demi Bold 22\" foreground=\"#f5f1ff\">" ++
-    escapeMarkup(beat.id ++ "  •  SCENE " ++ Belt.Int.toString(beat.scene) ++ "  •  " ++ beat.start ++ "–" ++ beat.end_) ++
-    "</span>\n<span font=\"Noto Sans Devanagari 25\" foreground=\"#ffffff\">" ++
-    escapeMarkup(beat.storyEvent) ++ "</span>"
-  let card = buildDirectory ++ "/card_" ++ threeDigits(index) ++ ".png"
-  let _ = pango(~markup, ~width=1100, ~background="#151327", ~out=Path(card))
-  card
+    "<span font=\"Avenir Next Bold 20\" foreground=\"" ++ color ++ "\">" ++
+    escapeMarkup("S" ++ Belt.Int.toString(index + 1)) ++ "</span>"
+  let chip = buildDirectory ++ "/chip_" ++ threeDigits(index) ++ ".png"
+  /* width 60 fits the longest label (S143) on one line; anything narrower wraps */
+  let _ = pango(~markup, ~width=60, ~background="#151327", ~margin=6, ~out=Path(chip))
+  chip
+}
+
+/* The still-image motion filter: an authored camera move when the beat has one, else the
+   gentle default drift every still has always had. Authored moves get a 2560x1440 canvas so
+   a 1.5x crop still lands above the 1280 output width; `in` (the looped input frame count)
+   is the clock, since with d=1 zoompan's `on` never advances. */
+let stillMotion = (~camera: option<cameraMove>, ~seconds: int) => {
+  let f = n => Js.Float.toString(n)
+  let frames = Belt.Int.toFloat(seconds * 24)
+  switch camera {
+  | None =>
+    "scale=1344:756:force_original_aspect_ratio=increase,crop=1344:756," ++
+    "zoompan=z='min(zoom+0.00008,1.05)':x='iw/2-(iw/zoom/2)':" ++
+    "y='ih/2-(ih/zoom/2)':d=1:s=1280x720:fps=24,setsar=1"
+  | Some(PushIn({zoomTo, cx, cy})) =>
+    "scale=2560:1440:force_original_aspect_ratio=increase,crop=2560:1440," ++
+    "zoompan=z='min(1+" ++ f(zoomTo -. 1.0) ++ "*in/" ++ f(frames) ++ "," ++ f(zoomTo) ++ ")':" ++
+    "x='max(min(" ++ f(cx) ++ "*iw-iw/zoom/2,iw-iw/zoom),0)':" ++
+    "y='max(min(" ++ f(cy) ++ "*ih-ih/zoom/2,ih-ih/zoom),0)':" ++
+    "d=1:s=1280x720:fps=24,setsar=1"
+  | Some(PanAcross({zoom, fromCx, toCx, cy})) => {
+      /* 20% settle in, 55% travel, 25% pull back out */
+      let f1 = f(frames *. 0.2)
+      let f2 = f(frames *. 0.75)
+      let cxExpr =
+        "if(lt(in," ++ f1 ++ ")," ++ f(fromCx) ++ ",if(lt(in," ++ f2 ++ ")," ++
+        f(fromCx) ++ "+" ++ f(toCx -. fromCx) ++ "*(in-" ++ f1 ++ ")/(" ++ f2 ++ "-" ++ f1 ++ ")," ++
+        f(toCx) ++ "))"
+      "scale=2560:1440:force_original_aspect_ratio=increase,crop=2560:1440," ++
+      "zoompan=z='if(lt(in," ++ f1 ++ "),1+" ++ f(zoom -. 1.0) ++ "*in/" ++ f1 ++
+      ",if(lt(in," ++ f2 ++ ")," ++ f(zoom) ++ ",max(1," ++ f(zoom) ++ "-" ++
+      f(zoom -. 1.0) ++ "*(in-" ++ f2 ++ ")/(" ++ f(frames) ++ "-" ++ f2 ++ "))))':" ++
+      "x='max(min((" ++ cxExpr ++ ")*iw-iw/zoom/2,iw-iw/zoom),0)':" ++
+      "y='max(min(" ++ f(cy) ++ "*ih-ih/zoom/2,ih-ih/zoom),0)':" ++
+      "d=1:s=1280x720:fps=24,setsar=1"
+    }
+  }
 }
 
 let commonOutputArgs = (~frames, ~output) => [
@@ -254,19 +368,26 @@ let commonOutputArgs = (~frames, ~output) => [
   output,
 ]
 
-let renderSegment = (~buildDirectory, ~index, ~beat, ~source, ~cleanPicture) => {
+let renderSegment = (~buildDirectory, ~index, ~beat, ~source, ~camera, ~seek, ~cleanPicture) => {
   let output = buildDirectory ++ "/" ++ segmentName(~index, ~beat)
   let frames = beat.durationSeconds * 24
   let tail = commonOutputArgs(~frames, ~output)
   if cleanPicture {
     switch source {
     | AcceptedMotion(path) =>
+      /* play ONCE and hold the last frame: -stream_loop looped short clips through long
+         beats (S19's 10s arrival played three times over its 30s dialogue window) and the
+         restart judder read as a framerate problem. tpad clones the final frame instead. */
       ffmpeg(Belt.Array.concatMany([
-        ["-nostdin", "-v", "error", "-y", "-stream_loop", "-1", "-i", path],
+        Belt.Array.concatMany([
+          ["-nostdin", "-v", "error", "-y"],
+          seek > 0.0 ? ["-ss", Js.Float.toString(seek)] : [],
+          ["-i", path],
+        ]),
         [
           "-filter_complex",
           "[0:v]fps=24,scale=1280:720:force_original_aspect_ratio=increase," ++
-          "crop=1280:720,setsar=1,format=yuv420p[out]",
+          "crop=1280:720,setsar=1,tpad=stop=-1:stop_mode=clone,format=yuv420p[out]",
         ],
         tail,
       ]))
@@ -275,10 +396,7 @@ let renderSegment = (~buildDirectory, ~index, ~beat, ~source, ~cleanPicture) => 
         ["-nostdin", "-v", "error", "-y", "-loop", "1", "-framerate", "24", "-i", path],
         [
           "-filter_complex",
-          "[0:v]scale=1344:756:force_original_aspect_ratio=increase,crop=1344:756," ++
-          "zoompan=z='min(zoom+0.00008,1.05)':x='iw/2-(iw/zoom/2)':" ++
-          "y='ih/2-(ih/zoom/2)':d=1:s=1280x720:fps=24,setsar=1," ++
-          "format=yuv420p[out]",
+          "[0:v]" ++ stillMotion(~camera, ~seconds=beat.durationSeconds) ++ ",format=yuv420p[out]",
         ],
         tail,
       ]))
@@ -298,29 +416,32 @@ let renderSegment = (~buildDirectory, ~index, ~beat, ~source, ~cleanPicture) => 
       ]))
     }
   } else {
-    let card = renderCard(~buildDirectory, ~index, ~beat, ~source)
+    let chip = renderChip(~buildDirectory, ~index, ~source)
+    /* top-left, inset, and translucent — identification without occlusion */
+    let place = "[1:v]format=rgba,colorchannelmixer=aa=0.62[chip];" ++
+      "[base][chip]overlay=18:14:shortest=0,format=yuv420p[out]"
     switch source {
   | AcceptedMotion(path) =>
     ffmpeg(Belt.Array.concatMany([
-      ["-nostdin", "-v", "error", "-y", "-stream_loop", "-1", "-i", path, "-loop", "1", "-i", card],
+      Belt.Array.concatMany([
+        ["-nostdin", "-v", "error", "-y"],
+        seek > 0.0 ? ["-ss", Js.Float.toString(seek)] : [],
+        ["-i", path, "-loop", "1", "-i", chip],
+      ]),
       [
         "-filter_complex",
         "[0:v]fps=24,scale=1280:720:force_original_aspect_ratio=increase," ++
-        "crop=1280:720,setsar=1[base];[1:v]format=rgba[card];" ++
-        "[base][card]overlay=0:H-h:shortest=0,format=yuv420p[out]",
+        "crop=1280:720,setsar=1,tpad=stop=-1:stop_mode=clone[base];" ++ place,
       ],
       tail,
     ]))
   | AcceptedStill(path)
   | ReviewStill(path) =>
     ffmpeg(Belt.Array.concatMany([
-      ["-nostdin", "-v", "error", "-y", "-loop", "1", "-framerate", "24", "-i", path, "-loop", "1", "-i", card],
+      ["-nostdin", "-v", "error", "-y", "-loop", "1", "-framerate", "24", "-i", path, "-loop", "1", "-i", chip],
       [
         "-filter_complex",
-        "[0:v]scale=1344:756:force_original_aspect_ratio=increase,crop=1344:756," ++
-        "zoompan=z='min(zoom+0.00008,1.05)':x='iw/2-(iw/zoom/2)':" ++
-        "y='ih/2-(ih/zoom/2)':d=1:s=1280x720:fps=24,setsar=1[base];" ++
-        "[1:v]format=rgba[card];[base][card]overlay=0:H-h:shortest=0,format=yuv420p[out]",
+        "[0:v]" ++ stillMotion(~camera, ~seconds=beat.durationSeconds) ++ "[base];" ++ place,
       ],
       tail,
     ]))
@@ -328,12 +449,11 @@ let renderSegment = (~buildDirectory, ~index, ~beat, ~source, ~cleanPicture) => 
     ffmpeg(Belt.Array.concatMany([
       [
         "-nostdin", "-v", "error", "-y", "-f", "lavfi", "-i",
-        "color=c=0x201a38:s=1280x720:r=24", "-loop", "1", "-i", card,
+        "color=c=0x201a38:s=1280x720:r=24", "-loop", "1", "-i", chip,
       ],
       [
         "-filter_complex",
-        "[0:v]drawbox=x=56:y=48:w=1168:h=624:color=0x6f5aa8@0.20:t=6[base];" ++
-        "[1:v]format=rgba[card];[base][card]overlay=0:(H-h)/2:shortest=0,format=yuv420p[out]",
+        "[0:v]drawbox=x=56:y=48:w=1168:h=624:color=0x6f5aa8@0.20:t=6[base];" ++ place,
       ],
       tail,
     ]))
@@ -352,19 +472,25 @@ let requireSuccess = (~label, result) =>
 
 let build = (~manifestPath, ~output, ~reviewOverridePath, ~cleanPicture): result => {
   let validation = try (
-    Kuku_Ep9FinaleAnimaticEdlV2.isV3(~manifestPath)
+    Kuku_Ep9FinaleAnimaticEdlV2.isV4(~manifestPath)
+      ? Kuku_Ep9FinaleAnimaticEdlV2.validateV4(~manifestPath)
+      : Kuku_Ep9FinaleAnimaticEdlV2.isV3(~manifestPath)
       ? Kuku_Ep9FinaleAnimaticEdlV2.validateV3(~manifestPath)
       : Kuku_Ep9FinaleAnimaticEdlV2.validate(~manifestPath)
   ) catch {
   | Kuku_Ep9FinaleAnimaticEdlV2.AnimaticEdlV2Error(message) =>
     fail("EDL validation failed: " ++ message)
   }
-  if validation.totalSeconds != 720 {
-    fail("the validated EDL is not the required 720 seconds")
-  }
+  /* The main story may exceed 12:00 so paid clips play whole. The validator's total comes
+     from the v2 identity manifest (still 12:00 by design), so the length is read from THIS
+     manifest's own timeline, which the retimer publishes. */
+  let _ = validation
 
   let manifestDirectory = dirname(manifestPath)
   let root = readObject(manifestPath, "EDL")
+  let mainSeconds =
+    intField(field(root, "timeline", "EDL")->objectOf("EDL.timeline"), "durationSeconds",
+      "EDL.timeline")
   let sourceDocuments = field(root, "sourceDocuments", "EDL")->objectOf("EDL.sourceDocuments")
   let anchors = loadAnchors(
     ~manifestDirectory,
@@ -383,6 +509,8 @@ let build = (~manifestPath, ~output, ~reviewOverridePath, ~cleanPicture): result
   ensureDirPath(Path(outputDirectory))
   ensureDirPath(Path(buildDirectory))
 
+  let lastMotionPath: ref<option<string>> = ref(None)
+  let lastMotionSeek = ref(0.0)
   let acceptedMotionBeats = ref(0)
   let acceptedStillBeats = ref(0)
   let reviewStillBeats = ref(0)
@@ -404,7 +532,29 @@ let build = (~manifestPath, ~output, ~reviewOverridePath, ~cleanPicture): result
       "[" ++ Belt.Int.toString(index + 1) ++ "/" ++ Belt.Int.toString(Belt.Array.length(beats)) ++
       "] " ++ beat.id,
     )
-    renderSegment(~buildDirectory, ~index, ~beat, ~source, ~cleanPicture)
+    /* a camera move follows the same beat-id-then-parent fallback the picture source uses */
+    let camera = switch Js.Dict.get(overrides.cameras, beat.id) {
+    | Some(move) => Some(move)
+    | None => Js.Dict.get(overrides.cameras, parentIdOf(beat.id))
+    }
+    /* Consecutive sub-shots wired to the SAME clip continue it rather than restarting: the
+       chest discovery replayed its first seconds three times before this. */
+    let seek = switch source {
+    | AcceptedMotion(path) =>
+      switch (lastMotionPath.contents, index > 0) {
+      | (Some(prev), true) if prev == path => lastMotionSeek.contents
+      | _ => 0.0
+      }
+    | _ => 0.0
+    }
+    switch source {
+    | AcceptedMotion(path) => {
+        lastMotionPath := Some(path)
+        lastMotionSeek := seek +. Belt.Int.toFloat(beat.durationSeconds)
+      }
+    | _ => lastMotionPath := None
+    }
+    renderSegment(~buildDirectory, ~index, ~beat, ~source, ~camera, ~seek, ~cleanPicture)
   })
 
   let concatPath = buildDirectory ++ "/segments.concat.txt"
@@ -426,10 +576,10 @@ let build = (~manifestPath, ~output, ~reviewOverridePath, ~cleanPicture): result
   ])
 
   let Seconds(durationSeconds) = probeDuration(Path(output))
-  if Js.Math.abs_float(durationSeconds -. 720.0) > 0.05 {
+  if Js.Math.abs_float(durationSeconds -. Belt.Int.toFloat(mainSeconds)) > 0.05 {
     fail(
       "assembled duration is " ++ Js.Float.toString(durationSeconds) ++
-      " seconds instead of 720",
+      " seconds instead of " ++ Belt.Int.toString(mainSeconds),
     )
   }
   let probe = run(

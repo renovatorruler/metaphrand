@@ -1,0 +1,8 @@
+{
+  "native": false,
+  "upscaled": true,
+  "source": "2026-08-20_1938_FROSYA_write-loop_mini-refs_4s_v4.mp4 @ 3.05s",
+  "source_region": "640x360 crop of a 1280x720 frame",
+  "output": "1280x720",
+  "note": "Blown up 2x from a crop. The model was handed 230k real pixels and told they were 920k; it invented the difference — a metal ferrule on a pencil that has never had one, and a face that is not hers."
+}

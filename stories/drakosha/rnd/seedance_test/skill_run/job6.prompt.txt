@@ -1,0 +1,50 @@
+SCENE CONTEXT
+The final tug frees the giant sock, which falls into the drawer and buries the tiny boy; he declares the job done from underneath it, hands the hook down, and drops back to the floor beside his sister.
+
+ACTIVE REFERENCES
+@FROSYA: 7yo tiny house-spirit girl, huge dark curly mane, patchwork dress, barefoot. 100% matches the reference.
+@VASYA: 5yo tiny house-spirit boy, enormous bushy eyebrows, patchwork tunic, barefoot. 100% matches the reference.
+@PASSAGE: the dresser-side passage, drawer edge, and drawer interior. Geography and materials only.
+
+LOCATION MAP
+The drawer interior is a wooden box floor where the sock now mostly lies. The top edge is the rim. The passage floor below is home base, Frosya on it, looking up.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Every shot opens mid-action with its subject already in frame. No empty frames, no re-establishing.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Seven shots. HARD CUTS only.
+Shot A1, 0:00 to 0:01: close on @VASYA at the rim giving one last full-body tug on the lace, teeth gritted; cut before he tips backward.
+HARD CUT.
+Shot A2, 0:01 to 0:02: close on the drawer edge: the sock heel slips free, the last stripe of fabric whips over and drops inside, the lace suddenly goes slack.
+HARD CUT.
+Shot B, 0:02 to 0:04: inside the drawer: @VASYA lies flat on his back on the wooden bottom; the freed sock collapses down on top of him and covers him completely, a striped heap with one small boy-shaped bulge. From below, @FROSYA's voice, quiet, in Russian: «Вась?» From under the fabric his muffled deadpan Russian reply: «Носок на месте.»
+HARD CUT.
+Shot C, 0:04 to 0:05: the sock's edge lifts; Vasya's two hands emerge beneath it and unhook the blunt hook from the elastic cuff.
+HARD CUT.
+Shot D, 0:05 to 0:07: at the rim, Vasya lowers hook and lace down the panel face; at floor level @FROSYA receives them in both arms.
+HARD CUT.
+Shot E, 0:07 to 0:08: @VASYA lies belly-down across the rim and swings his legs over to the outside face.
+HARD CUT.
+Shots F and G, 0:08 to 0:12: he hangs from the rim at straight arms against the wooden face, looks down once, releases, drops the short remaining distance, knees bending on landing, and settles softly on bare feet beside @FROSYA. She is already turning to gather the lace.
+
+OPTICS
+Shots A1, A2, C: 29° detail lens character, close and shallow, warm soft background.
+Shot B: 47° standard normal from inside the drawer, natural proportions, the striped mound dominating the frame.
+Shots D, E, F, G: 47° standard normal at rim or floor height as needed, natural proportions, no distortion.
+No lens drift inside any shot.
+
+CAMERA
+Static locked frames. Shot G camera sits at floor level.
+
+PHYSICS
+The sock falls as heavy cloth: sudden release, a soft collapsing flop, folds settling in a wave, then stillness. Under the fabric the boy-bulge shifts with real body movement. His climb-out and drop carry true weight: hang, release, brief fall, knee-bend absorption, one small thump. No floating, no bounce, no slow motion.
+
+LIGHTING
+Warm spill from the room side; drawer interior in soft warm shadow, the striped sock readable. No flat front light.
+
+AUDIO
+One strained grunt in A1; fabric whipping over the edge in A2; the sock's soft heavy flop in B; the two quiet Russian lines in B exactly as scripted, hers concerned, his muffled and deadpan; cord sounds in C and D; one small bare-foot thump in G. Muffled ticking throughout. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two children. Only the scripted lines are spoken; lips of the non-speaker stay still; his line comes from under the fabric, unseen. The sock fully covers him in shot B with only a bulge showing. Bushy eyebrows visible whenever his face shows.

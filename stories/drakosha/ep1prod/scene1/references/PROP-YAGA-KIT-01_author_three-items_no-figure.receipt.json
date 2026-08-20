@@ -1,0 +1,21 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "stage": "refs",
+  "approvedBy": "author",
+  "approvedOn": "2026-08-14",
+  "subjects": {
+    "PROP-YAGA-KIT-01": "PROP-YAGA-KIT-01_author_three-items_no-figure.png — AUTHOR-SUPPLIED group plate of Баба-Яга's three objects with NO figure present: помело at the left, the ступа standing empty in the centre, the birch broom at the right. Kept as the group/scale plate showing the three together.",
+    "PROP-STUPA-01": "PROP-STUPA-01_author_solo.png — the ступа alone on white: carved bare faceted wood, tapering in at the middle, standing on a stepped round foot, mouth open and empty.",
+    "PROP-POMELO-01": "PROP-POMELO-01_author_solo.png — the помело alone on white: long straight dark-wood stick, shaggy head of torn grey and tan rag strips with thin twigs among them.",
+    "PROP-BROOM-01": "PROP-BROOM-01_author_solo.png — the birch broom alone on white: pale notched handle, bundle of thin dark birch twigs bound with cord wrapped several times."
+  },
+  "provenance": {
+    "solos": "The three solos were cut from a single AUTHOR-SUPPLIED three-panel sheet by splitting it in equal thirds. No retouching, no recolouring, no regeneration."
+  },
+  "rulings": {
+    "supersedesPage13ForProps": "packet_v2/page-13.png remains the approved ступа DESIGN, but it shows Яга standing inside the ступа. Binding it to a shot whose rule is that she is never inside it hands the model a picture that contradicts the instruction. These plates replace it as the prop bindings.",
+    "emptyIsTheIndoorState": "Indoors the ступа stands empty and upright on its foot and she stands on the floor beside it. She rides in it; she does not stand in it in the house.",
+    "broomIsNotPomelo": "The two sticks are different objects and are now bound separately so they can never be conflated: @BROOM is a twig besom, @POMELO is a rag mop. One shared image previously left the model to guess which was which.",
+    "threeItemsTravelTogether": "All three objects arrive together and stay together. Any shot where she arrives or departs must show all three."
+  }
+}

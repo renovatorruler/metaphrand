@@ -1,0 +1,40 @@
+SCENE CONTEXT
+A tiny flying mortar carrying an old woman crosses the sky above a human house and its shadow sweeps over the chimney.
+
+ACTIVE REFERENCES
+None. All content described.
+
+LOCATION MAP
+Exterior, morning. A human-scale house roof with a brick chimney, seen from a distance. Open sky. The mortar enters from screen-left, flying toward the chimney.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Shot A opens on the roof and chimney in the distance with the flying mortar already visible entering from screen-left — a wooden mortar the size of a teacup, an old woman standing in it, a pestle across the rim, a birch broom trailing behind like a rudder, cloth bundles lashed to the sides.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Three shots. HARD CUTS only.
+Shot A, 0:00 to 0:03: distant view of the roof and chimney; the mortar approaches through the sky from screen-left, small but clear, wobbling slightly with flight.
+HARD CUT.
+Shot B, 0:03 to 0:06: static side view against open sky: the mortar crosses the frame left to right at close range. BABA YAGA — tiny wiry old woman, headscarf, sharp chin, ember eyes — stands braced inside, skirt snapping in the wind; the pestle lies across the rim; the broom steers behind; the bundles strain against their lashings.
+HARD CUT.
+Shot C, 0:06 to 0:08: from above the chimney looking straight down: the mortar's small shadow slides across the roof shingles and comes to rest covering the chimney opening.
+
+OPTICS
+Shot A: 107° wide rectilinear, big sky, deep focus, straight roofline.
+Shot B: 29° short telephoto, the mortar sharp against a softly dissolved sky.
+Shot C: 47° standard normal, straight down, deep focus on the shingles.
+No lens drift inside any shot.
+
+CAMERA
+All static locked frames; the mortar moves through them. No tracking.
+
+PHYSICS
+The mortar flies like a heavy wooden vessel, not an aircraft: it bobs, tilts into its turn, and its bundles swing with inertia. The broom trails with drag. Wind streams the old woman's headscarf and skirt. The shadow obeys the morning sun's angle.
+
+LIGHTING
+Bright cold morning sun from screen-right; long soft shadows on the roof. No flat lighting.
+
+AUDIO
+Wind; a low wooden hum from the mortar; the pestle knocking a slow rhythm against the rim; the broom's rustle. No dialogue. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly one flying mortar, one old woman, one pestle, one broom. No witch hat, no green skin, no cackling stereotype — she is a small fierce grandmother. The mortar is teacup-sized against the human roof.

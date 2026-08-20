@@ -1,0 +1,45 @@
+SCENE CONTEXT
+The tiny boy throws a hook on a lace up onto the open drawer's edge and starts climbing the drawer's side panel like a mountaineer.
+
+ACTIVE REFERENCES
+@VASYA: 5yo tiny house-spirit boy, enormous bushy eyebrows, patchwork tunic, barefoot, holding a lace tied to a blunt fishing hook. 100% matches the reference.
+@PASSAGE: the narrow dresser-side passage with the open drawer's tall wooden side panel rising above. Geography and materials only.
+
+LOCATION MAP
+The drawer's right side panel rises like a wooden cliff above the passage floor. Its top edge is the summit. The passage floor is the base. Warm room light beyond at screen-left; passage in soft shadow.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Every shot opens with Vasya already in frame and in position. No empty frames.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Five shots. HARD CUTS only.
+Shot A, 0:00 to 0:02: from the passage floor, @VASYA plants his feet, swings the hook twice on its lace like a tiny grappling line, and hurls it upward out of the top of frame. His whole body follows through; the lace whistles up after it.
+HARD CUT.
+Shot B, 0:02 to 0:03: close-up from above the drawer edge: the blunt hook lands seated over the top edge of the wooden side panel with a metallic ting; the lace hangs straight down along the wood.
+HARD CUT.
+Shot C, 0:03 to 0:04: back at floor level, @VASYA gives the hanging lace two hard test tugs; the lace goes taut twice with two short creaks; the hook holds.
+HARD CUT.
+Shot D, 0:04 to 0:06: @VASYA grips the taut lace with both hands, leans his full weight back, and plants his bare feet flat against the vertical wooden panel, body at an angle like a climber on a cliff face. He takes his first step up the wood.
+HARD CUT.
+Shot E, 0:06 to 0:08: he is halfway up the panel, hand over hand on the lace, feet walking the vertical wood, and takes one more determined step upward. His panting continues across the cut.
+
+OPTICS
+Shots A, C, D: 84° diagonal field of view, classic wide-angle at child scale, camera close and low, the wooden panel looming huge above him, deep readable context, straight wood lines stay rectilinear.
+Shot B: 29° detail lens close on the hook and edge, shallow warm background.
+Shot E: 47° standard normal from slightly below him on the wall, natural proportions.
+No lens drift inside any shot.
+
+CAMERA
+Static locked frames; shot E may hold a slow gentle tilt upward following him, nothing else.
+
+PHYSICS
+The hook has real mass in the swing and follow-through; the throw arcs, no teleporting. The lace behaves like taut cord: it creaks, stretches nothing, and vibrates once on each tug. The climb is true climbing physics: weight hangs from the hands, feet press the wood, each step is effortful, body sways slightly with each pull. No floating, no effortless glide.
+
+LIGHTING
+Warm spill from screen-left; the panel face in soft shadow with a warm edge. No flat front light.
+
+AUDIO
+Lace whistle on the throw, metallic ting on landing, two short creaks on the tugs, rhythmic child panting and the creak of taut cord through the climb. Muffled clock ticking under everything. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly one child in every frame. His enormous bushy eyebrows stay visible. Bare feet on the wood, never shoes. The hook stays blunt and rounded.

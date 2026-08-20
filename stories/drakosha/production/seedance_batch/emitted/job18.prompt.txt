@@ -1,0 +1,62 @@
+ACTIVE REFERENCES
+@YAGA — её зовут Бабушка-Яга — old grandmother house-spirit, mushroom-red polka-dot kerchief, patched skirt and shawl, birch broom in hand, gold tooth, warm sly face. 100% matches the reference.
+@STUPA: Баба-Яга's ступа — a carved wooden mortar in bare unpainted faceted wood, tapering in at the middle and standing on a stepped round foot, its mouth open and EMPTY. Indoors it stands empty and upright on the floorboards and she stands on the floor beside it, never inside it. 100% matches the reference.
+@POMELO: Баба-Яга's помело — a long straight dark-wood stick with a shaggy head of torn grey and tan rag strips and thin twigs lashed to its end. It is a rag mop, NOT a twig besom. 100% matches the reference.
+@BROOM: Баба-Яга's birch broom — a pale notched wooden handle with a bundle of thin dark-brown birch twigs bound to its end with cord wrapped several times. It is a twig besom, NOT a rag mop. 100% matches the reference.
+
+SCALE
+@YAGA at house-spirit size stands about 3.60 in / 9.1 cm — the same order as the parents, never towering over them.
+@STUPA comes up to about @YAGA's waist.
+@POMELO is a little taller than @YAGA.
+@BROOM is a little taller than @YAGA.
+
+SCENE CONTEXT
+The little iron hatch is still letting off steam. It goes quiet — then something lands hard behind it, dust bursts from every edge, and it swings open. The old woman climbs out with her ступа, her broom and her помело, beats the soot off herself, looks around the room, finds her family and asks who the birthday girl is.
+
+START FRAME
+The sequence begins on the supplied start image and continues from it without a cut. That image is the truth for the set, the wall, the hatch, the materials and the lighting. It is where the camera STARTS, not where it stays — the camera moves off it as described below.
+
+LOCATION MAP
+We are inside the hall behind the bricked-up fireplace, close to its left wall. The small arched iron cleanout hatch is low in the brick with its sill just above the floorboards, its hinges on the right edge and its handle in the middle. In the start image the camera sits slightly off to one side of it, with a blurred wooden rim crossing the near left foreground. The camera faces this wall for the whole shot, so the rest of the room — the table, the garland, the family — is behind the lens and is never seen. The room she looks out at is off to SCREEN RIGHT.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Frame one is the start image exactly: the shut hatch, a thin jet of soot escaping the seam beside its handle, the blurred wood at the near left. No person is in frame yet.
+
+FORMAT MODE
+SINGLE CONTINUOUS TAKE, one moving camera, no cuts and no second angle.
+0:00 to 0:01 — the thin jet of soot from the seam thins out and dies away, sagging down onto the boards. The camera swings round the last few degrees off the start image so that we are looking at the hatch more directly.
+0:01 to 0:02 — the camera settles square to the hatch and everything goes still. A full second of quiet: no soot, no movement, nothing but the shut iron hatch in the warm brick. Nothing happens.
+0:02 to 0:03 — a heavy THUD lands behind the wall. Dust bursts out all the way around the hatch, from every edge at once, and the hatch JUMPS hard against its latch and settles back shut.
+0:03 to 0:04 — the hatch swings open sideways on its right-hand hinges and knocks against the brick. Behind it is a plain black opening: no fire, no glow, no passage, only dark.
+0:04 to 0:07 — Яга climbs out. She can come out facing us or facing the wall, whichever moves better — it does not matter which. What matters is that all three of her things come out with her and end up on the boards beside her: the heavy carved wooden ступа, standing upright on its foot; the birch broom; and the rag помело. She ends up standing on the floorboards NEXT TO the ступа.
+0:07 to 0:09 — she beats the soot off herself: two brisk slaps at one sleeve, one at her shawl, a shake of the head that throws a small cloud into the warm light. As she does it she looks around, taking the room in, her head moving unhurriedly.
+0:09 to 0:12 — the camera has been pushing slowly in and now settles into a CLOSE-UP of her face, filling the frame, the brick and the open hatch soft behind her. Her look around stops and holds, off toward SCREEN RIGHT, where her family are standing. Her face changes when she finds them. She says in Russian, creaky and warm, with her gold tooth showing: «Ну, кто там у нас имени́нница?» The shot ends on the end of that line.
+
+OPTICS
+Start on the start image's lens: 47° diagonal field of view, standard normal character, camera low and close to the wall. Over the last four seconds the framing tightens to a 29° short telephoto portrait character on her face — razor focus on her eyes, the brick behind her dissolving into soft warm bokeh. Straight lines stay rectilinear throughout, no fisheye curve. A plain full-frame image: no vignette, no dark oval, no iris, no circular mask.
+
+CAMERA
+One continuous move: a short settling rotation onto the hatch, then a held static second, then a slow steady push in that ends in close-up on her face. The move is smooth and motivated, never whipping, never handheld chaos. The camera does not pass through the hatch and never shows the rest of the room.
+
+PHYSICS
+The thud carries real mass landing on the far side of the wall. Soot behaves as fine dry dust — it punches out under pressure from every seam at once, hangs in the warm light and settles on the boards rather than vanishing. The iron hatch has real cast-iron weight: it jumps only as far as its latch allows, then swings and knocks against the brick. The ступа is heavy carved wood and lands with a solid knock, rocking on its base before it stands. She moves like someone old and practical — nothing acrobatic, nothing weightless.
+
+LIGHTING
+Match the start image: warm bulb light raking across the brick from the upper right, the open hatch reading as a dark hole in a warm wall. Nothing shines out of the opening. What is behind her for the whole shot is that giant sandstone boulder-brick wall and the dark hatch — the camera faces the wall, so the room and the garland are behind the lens and never appear. As the camera closes in, the warm raking light falls across her face and the brick and the dark hatch mouth go soft behind her. No flat front light, no fire anywhere in frame.
+
+AUDIO
+The soot jet hissing out; a second of near silence; the heavy THUD behind the wall; the whump of dust bursting from the seams and the iron bang of the hatch jumping against its latch; the hatch knocking against the brick as it opens; the solid wooden knock of the ступа landing; the scuff of her feet on the boards; two dry slaps of soot off her sleeve; then her single spoken line. No other voices, no music, no subtitles.
+
+SHOT RULES
+Exactly one character: Яга. Nobody else appears, and no part of any other person enters the frame at any time.
+She is at her small domovoi size — the size that fits through this hatch. She is never at human size here.
+She has all three of her things with her and they are all visible on the boards by the end: ступа, birch broom, rag помело. There is NO pestle and NO bundles lashed to the ступа.
+She is NEVER standing or sitting inside the ступа. The ступа stands upright on the floorboards beside her and she stands on the floorboards next to it.
+The hatch is a cleanout hatch, never a door — no door frame, no leaf swinging into the room, and it must never read as the way the family comes and goes. It opens sideways against the brick.
+The second of stillness before the thud is required. Do not fill it with movement, dust or camera drift.
+The shot MUST end in close-up on her face, her look held off toward screen right. That final framing is the point of the shot.
+Dialogue lock: she speaks the one line, on camera, at the end. Her lips move only for that line. No offscreen voices.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @YAGA. Every character matches their reference exactly. The set and props are @STUPA, @POMELO, @BROOM, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

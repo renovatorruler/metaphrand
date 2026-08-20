@@ -1,0 +1,74 @@
+ACTIVE REFERENCES
+@VASYA — его зовут Вася — the SECOND of the family's FOUR children, younger than Фрося and older than Руся and Муся: enormous bushy eyebrows, shoelace belt. 100% matches the reference.
+@YAGA — её зовут Бабушка-Яга — old grandmother house-spirit, mushroom-red polka-dot kerchief, patched skirt and shawl, gold tooth, warm sly face. 100% matches the reference.
+@FROSYA — её зовут Фрося — the ELDEST of the family's FOUR children: orange flower in her hair, safety pin on her patchwork dress. 100% matches the reference.
+@ROOM_FRONT: the family's hall inside the old bricked-up fireplace — boulder-brick walls, a riveted iron plate as the far wall, plank floor, a garland of coloured bulbs, a plank-on-spools table, matchbox beds along the left wall, a small dark iron cleanout hatch low in the left wall, a rope-railed floor opening at the right. 100% matches the reference.
+@PENCIL: the magic pencil — a short stubby faceted wooden pencil in warm honey-toned wood, sharpened to a dark graphite point, no paint and no ferrule. 100% matches the reference.
+
+SCALE
+Вася is shorter than Фрося, about up to her eyebrows.
+@YAGA at house-spirit size stands about 3.60 in / 9.1 cm — the same order as the parents, never towering over them.
+Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.
+The furniture is lost human things at this size: matchbox beds, a plank laid on thread spools, thimbles on the shelf, fairy-light bulbs overhead.
+@PENCIL is sized for @FROSYA's own hand — it sits in her palm, she writes with it one-handed, and it fits behind her ear. It is NOT a giant human pencil and never dwarfs her.
+
+SCENE CONTEXT
+The boy checks himself over and finds nothing changed, and the grandmother stops playing and gives him the rule.
+
+ALL DIALOGUE IS IN RUSSIAN. Speak exactly the lines below, in Russian, and nothing else. No English anywhere.
+
+WHERE WE ARE
+The open plank floor of the hall, clear of the table. Nobody moves position in this job. The table and the rest of the family are behind the camera and never appear.
+
+REACTIONS — WHAT THE FACES DO
+A reference sheet fixes who a character IS, not what a face does. Nobody holds one expression.
+Вася: expectant at first, then baffled — he was blown on and nothing happened, and his face falls from hope into plain confusion; by the last shot his mouth has come open and stayed open.
+Бабушка-Яга: the smile goes out of her at the start of the rule and stays gone. This is the one moment in the whole scene she is not playing.
+Фрося: starts pleased with her own gift and stops being pleased as she listens — by the end of her shot she has gone still and is turning the pencil over in her fingers without looking at it.
+
+HANDS — WHAT EVERY PAIR IS DOING
+Бабушка-Яга: BOTH HER HANDS ARE EMPTY AND STAY EMPTY. In Shot B they are folded together low at her waist, one over the other. In Shot D her right hand comes up into the lower frame with ONE FINGER RAISED, held still, and her left hand stays folded at her waist. She is carrying nothing, she is leaning on nothing, and nothing is propped against her.
+Вася: in Shot A his right hand pats the crown of his own head twice and then drops; both hands hang empty at his sides afterward. In Shot C both hands hang loose and empty.
+Фрося: in Shot C both hands are up at chest height and she is turning the pencil over slowly between the fingers of her right hand, the left cupped beneath it. She holds nothing else.
+
+WHO IS IN EACH SHOT — AND NOBODY ELSE
+Мама, Папа, Руся and Муся do not appear anywhere in this job. Shot A: Вася alone. Shots B and D: Бабушка-Яга alone. Shot C: Фрося and Вася together, nobody else.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE, four shots, HARD CUTS only, no fades.
+
+Shot A, 0:00–0:01.8 — CLOSE ON ВАСЯ, hall soft behind him. He pats the top of his own head with one hand, then looks down at himself. Nothing about him has changed and he knows it. Baffled, not delighted:
+ВАСЯ: «И всё?»
+HARD CUT.
+
+Shot B, 0:01.8–0:06.5 — CLOSE ON БАБУШКА-ЯГА, hall soft behind her. As she begins, THE SMILE GOES OUT OF HER FACE and her mouth settles into a flat line. Slow and serious:
+БАБУШКА-ЯГА: «Сло́во вслух прочтёшь да ВЖУХ кри́кнешь —»
+HARD CUT.
+
+Shot C, 0:06.5–0:11 — ON ФРОСЯ AND ВАСЯ TOGETHER, standing side by side, the hall soft behind them. Neither of them speaks and neither one's lips move. Вася's mouth comes open as he listens. Фрося turns the pencil over slowly in her fingers, looking at nothing. БАБУШКА-ЯГА'S VOICE CONTINUES OFFSCREEN over this shot and she is NOT in frame:
+БАБУШКА-ЯГА (OFFSCREEN): «кого́ оно́ называ́ет, в того́ и обернёшься.»
+HARD CUT.
+
+Shot D, 0:11–0:17 — CLOSE ON БАБУШКА-ЯГА again, the SAME framing as Shot B. She raises ONE FINGER into the lower frame before she says it, and her face stays serious all the way through. Precise, like a condition being read out:
+БАБУШКА-ЯГА: «А второ́й раз вжу́хнешь — сно́ва Ва́сей ста́нешь.»
+
+OPTICS
+29° short telephoto throughout, close framing by lens reach not proximity, razor focus on the eyes with the room compressed behind into warm bokeh. Locked positions, no camera move during a spoken line. Shot D repeats Shot B's framing exactly so the return reads as the same camera. Rectilinear, no fisheye, no vignette, no iris.
+
+BACKGROUNDS
+Behind ВАСЯ, behind БАБУШКА-ЯГА and behind the two children: the hall running away, soft and out of focus — never red brick.
+
+SOUND
+Low room tone under everything. Вася's line, then her rule running unbroken across three shots. No music, no subtitles, no narrator.
+
+SHOT RULES
+Вася speaks once, in Shot A only. Бабушка-Яга speaks in Shots B and D. In Shot C NOBODY'S LIPS MOVE — her voice is offscreen and she is not in that frame.
+Фрося never speaks in this job.
+Бабушка-Яга is at her small домовой size and has NO broom in any frame.
+Вася holds NOTHING — he was given a breath, not an object. Фрося holds only the pencil.
+The walls are ENORMOUS pale sandstone boulder-blocks, each bigger than a character's whole body — never small or normal-scale masonry.
+NO fire, NO chest, NO table, NO food, NO transformation — nobody changes into anything in this job, and there is no glow anywhere.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @VASYA, @YAGA, @FROSYA. Every character matches their reference exactly. The set and props are @ROOM_FRONT, @PENCIL, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

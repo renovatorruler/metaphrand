@@ -1,0 +1,16 @@
+{
+  "model": "seedance_2_5",
+  "duration": 20,
+  "startImage": "../stories/drakosha/production/kuku_flow/frames/scene5/2026-08-17_SCENE5_MASTER_dinner-table_author.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-09.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-05.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-04.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-07.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-08.png",
+    "../stories/drakosha/ep1prod/scene1/references/C-RUS-01_solo_from_packet_page14.png",
+    "../stories/drakosha/ep1prod/scene1/references/C-MUS-01_solo_from_packet_page14.png",
+    "../stories/drakosha/ep1prod/scene1/references/SET-HOME-ROOM-01_author_master_v4_hatch_cradle-clear.png"
+  ],
+  "promptSha256": "f9a2ddcfa96921d644a2cae40fdca03e47244ae976cc9dca26a9776fe0b36909"
+}

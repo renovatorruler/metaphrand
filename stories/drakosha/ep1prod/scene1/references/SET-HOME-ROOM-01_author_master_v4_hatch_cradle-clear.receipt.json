@@ -1,0 +1,19 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "stage": "refs",
+  "approvedBy": "author",
+  "approvedOn": "2026-08-14",
+  "subjects": {
+    "SET-HOME-ROOM-01": "SET-HOME-ROOM-01_author_master_v4_hatch_cradle-clear.png — AUTHOR-SUPPLIED. Current bound room reference."
+  },
+  "rulings": {
+    "cradleMoved": "The knitted cradle is pulled forward and clear of the hatch so it no longer stands in the landing area. Author: 'it's a bit weird that it's alone there, but it's fine. At least it's not blocking the entrance.' The cradle sitting apart from the bed row is accepted and is not a defect.",
+    "hatchHinge": "The latch bar and ring sit on the LEFT edge of the hatch, so it hinges on the RIGHT and swings sideways, lying back against the brick toward the beds. It does NOT drop open like a ramp — that was a wrong invention in the prompt text and is corrected. Real stove and chimney cleanout doors are side-hinged.",
+    "hatchNotDoor": "Unchanged from v3. Small, set roughly a third of the way up the wall, dark and unlit at rest. Nobody uses it but Бабушка-Яга, who has to climb DOWN out of it — which is what stops it reading as an entrance, not the hinge direction.",
+    "bedsLeftWall": "Four matchbox beds remain on the left wall. Moving them opposite is still only exploration."
+  },
+  "openQuestion": {
+    "bedScale": "Matchbox beds read too small to lie in. Deferred to the sleeping scene."
+  },
+  "supersedes": "SET-HOME-ROOM-01_author_master_v3_hatch.png — retained, no longer bound."
+}

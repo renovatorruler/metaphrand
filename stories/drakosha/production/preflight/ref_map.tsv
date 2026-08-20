@@ -1,0 +1,17 @@
+# Token → prompt @TAG → reference image. Paths are relative to ep1prod/scene1/references
+# unless prefixed with KF: (relative to rnd/keyframes).
+# FROSYA uses the PRE-GIFT cutout everywhere in EP1 scenes 2–4: she has no pencil until Яга's gift.
+FROSYA	@FROSYA	frosya_pregift_lowpoly_cutout.png
+VASYA	@VASYA	vasya_lowpoly_cutout.png
+MAMA	@MAMA	mama_approved_from_job10_v1.png
+PAPA	@PAPA	KF:papa_identity_crop_from_kf12.png
+BABIES	@BABIES	packet_pages/babies-13.png
+YAGA_FLIGHT	@YAGA	packet_pages/yaga_flight-08.png
+YAGA_DOMOVOY	@YAGA	packet_pages/yaga_domovoy-07.png
+STUPA	@STUPA	packet_pages/yaga_stupa-10.png
+ROOM	@ROOM	SET-HOME-ROOM-01_author_master_FINAL.png
+ROOF	@ROOF	SET-ROOF-01_approved_plate.jpg
+DOOR	@DOOR	SET-YAGA-DOOR-01_approved_states.png
+TOP	@TOP	R-EP1-TOP-01_approved_author.png
+TOP_COVERED	@TOP	R-EP1-TOP-01_approved_author.png
+TIN	@TIN	D-FRO-ARTBOX-01_approved_tin.png

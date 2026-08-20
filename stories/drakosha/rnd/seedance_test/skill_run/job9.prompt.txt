@@ -1,0 +1,46 @@
+SCENE CONTEXT
+The red toy car noses into the narrow passage and jams; a giant hand reaches down for it, one finger passing close to the tiny girl's bare toes, and the two children bolt behind the dresser's rear corner.
+
+ACTIVE REFERENCES
+@FROSYA: 7yo tiny house-spirit girl, huge dark curly mane, patchwork dress, barefoot. 100% matches the reference.
+@VASYA: 5yo tiny house-spirit boy, enormous bushy eyebrows, patchwork tunic, barefoot. 100% matches the reference.
+@REDCAR: glossy red toy car with working white headlights, giant-child scale. 100% matches the reference.
+@PASSAGE: the narrow dresser-side passage and its rear corner. Geography and materials only.
+
+LOCATION MAP
+The passage mouth at screen-left opens to the room; the passage runs right toward the dresser's rear corner, the children's escape route. The car jams nose-first into the mouth. The giant hand comes down from above the mouth. Behind the rear corner is safe shadow the hand cannot reach.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Shot A opens with the car already turning toward the passage mouth and both children inside the passage, lit by its headlights. No empty frames.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Four shots. HARD CUTS only.
+Shot A, 0:00 to 0:02: at the passage mouth: the red car noses its front bumper into the narrow opening and jams, too wide to enter; its headlights flood the passage and light both children head-on; the motor keeps whirring against the blockage. From the room, a giant child's surprised voice, distant, in Russian: «Ой, застряла!»
+HARD CUT.
+Shot B, 0:02 to 0:04: camera low inside the passage: a huge hand descends from above into the mouth and grips the car; one giant finger squeezes in along the bumper and passes within a hand-span of @FROSYA's bare toes. She snatches her foot back.
+HARD CUT.
+Shot C, 0:04 to 0:05: close on @FROSYA: she rips her gaze off the car, whips her head toward Vasya, and hisses in Russian: «Назад!»
+HARD CUT.
+Shot D, 0:05 to 0:08: at the dresser's rear corner: @VASYA runs out of the passage first and rounds the corner into shadow; @FROSYA follows one step behind. At the corner she glances back once: at the far end of the passage the two red headlights still glow between the giant fingers. Then she is gone around the corner.
+
+OPTICS
+Shot A: 47° standard normal from inside the passage, headlight glare blooming at the mouth, children lit hard from the front by the beams for this shot only.
+Shot B: 84° classic wide, camera at floor level, the descending hand huge in frame, deep context, rectilinear lines, no fisheye.
+Shot C: 29° short telephoto portrait, her face razor-sharp, background dissolved.
+Shot D: 47° standard normal at the rear corner at child height, the bright passage behind them, the shadow zone in the foreground.
+No lens drift inside any shot.
+
+CAMERA
+Static locked frames. In shot D the children run through the fixed frame into foreground shadow.
+
+PHYSICS
+The car jams with a real bump and rocks slightly on its wheels as the motor pushes; headlight beams shake with the vibration. The giant hand moves with slow heavy mass; the finger presses with visible weight. The children's sprint is true small-body running: quick strides, arms pumping, one skid at the corner turn. No floating, no teleporting.
+
+LIGHTING
+The car's headlights are the dominant source in shots A and B, throwing long shadows down the passage. Shot D reverses: bright passage in the background, the safe foreground in warm shadow, the children becoming silhouettes as they arrive. No flat overall exposure.
+
+AUDIO
+The motor whirring against the jam, one plastic bump, the giant child's distant surprised Russian line in shot A only, the huge soft sounds of the hand and finger, her sharp whispered «Назад!», then rapid tiny footsteps and the motor still whirring helplessly behind them, fading. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two tiny children, one giant hand, no giant face ever. The finger comes close to her toes but never touches them. The headlights stay on throughout. In the final frames the two red lights glow between the giant fingers at the far end of the passage.

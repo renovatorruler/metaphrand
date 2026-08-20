@@ -1,0 +1,15 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "stage": "refs",
+  "approvedBy": "author",
+  "approvedOn": "2026-08-16",
+  "subjects": {
+    "PROP-CANDLEBOX-01": "PROP-CANDLEBOX-01_author_closed_and_open.png — AUTHOR-SUPPLIED plate of Бабушка-Яга's candle box in BOTH states on white: at the left the plain brown card box shut with its lid on; at the right the same box open, lid hinged back, holding SEVEN striped birthday candles laid flat in a row — pink, yellow, green, blue, purple, orange, blue.",
+    "PROP-TEA-01": "PROP-TEA-01_author_thimble_and_kettle.png — AUTHOR-SUPPLIED plate of the tea props on white: the dimpled metal thimble used as a drinking cup, and the small brass kettle with a wooden handle grip and wooden lid knob."
+  },
+  "rulings": {
+    "twoStatesAreTheShot": "The candle box is the object that CHANGES in the shot-7-to-shot-8 interpolation, and this plate supplies both its start state (shut) and its end state (open, candles visible). Bind it to that job as a reference alongside the two frames.",
+    "sevenCandles": "SEVEN candles, matching Фрося's seventh birthday. The count is carried by the picture; Яга's line no longer names it.",
+    "teaPropsCarryTheAction": "The kettle and the thimble-cup are the objects that move in the shot-3 interpolation — he lifts the kettle, she raises her cup. Neither had a plate before this."
+  }
+}

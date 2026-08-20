@@ -1,0 +1,15 @@
+{
+  "model": "seedance_2_5",
+  "duration": 8,
+  "startImage": "",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-09.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-05.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-04.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-07.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-08.png",
+    "../stories/drakosha/ep1prod/scene1/references/C-RUS-01_solo_from_packet_page14.png",
+    "../stories/drakosha/ep1prod/scene1/references/C-MUS-01_solo_from_packet_page14.png"
+  ],
+  "promptSha256": "267ea929efb996b9981076065d80cf4d532847096d0b39acfe4eeeb3be2df7b0"
+}

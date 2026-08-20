@@ -1,0 +1,68 @@
+ACTIVE REFERENCES
+@FROSYA — её зовут Фрося — the ELDEST of the family's FOUR children: orange flower in her hair, safety pin on her patchwork dress, no pencil. 100% matches the reference.
+@VASYA — его зовут Вася — the SECOND of the family's FOUR children, younger than Фрося and older than Руся and Муся: enormous bushy eyebrows, shoelace belt. 100% matches the reference.
+@MAMA — её зовут Мама — the mother: blonde braid, red-and-gold striped kerchief, cream apron over a dark red skirt. 100% matches the reference.
+@PAPA — его зовут Папа — the father: short and stocky, huge beard, blue work shirt with suspenders, iron key on a cord. 100% matches the reference.
+@BABIES: the two SMALLEST of the family's four children and no others — Руся, a toddler boy with an orange-brown tufted topknot, and Муся, the youngest, a baby girl with one curling wisp of hair and patched pink cloth. No others anywhere; the matchbox beds are empty. 100% matches the reference.
+@ROOM_FRONT: the family's hall inside the old bricked-up fireplace — boulder-brick walls, a riveted iron plate as the far wall, plank floor, a garland of coloured bulbs, a plank-on-spools table, matchbox beds along the left wall, a small dark iron cleanout hatch low in the left wall, a rope-railed floor opening at the right. 100% matches the reference.
+@ROOM_FRONT_LOW: the SAME hall as @ROOM_FRONT, seen from a second camera height — down near the floorboards, looking along the room, the planks filling the lower half of frame and the knitted cradle cropped large in the near left foreground. This is a second viewpoint of one room, not a second room: same walls, same beds, same hatch, same table, same railed opening. Use it whenever the camera is low.
+@ROOM_FRONT_HATCH: the SAME hall as @ROOM_FRONT, seen from a third camera position turned toward the hatch wall — the cleanout hatch reads clearly at three-quarter in the left wall, the bed row runs away beside it, the knitted cradle sits in the near left foreground, and the table and sealed iron plate fall away to the right rear. One room, a third viewpoint. Use it whenever the hatch is the subject.
+@DOOR: the small iron CLEANOUT HATCH low in the left wall of @ROOM_FRONT, exactly as it appears there — a flat dark iron plate set into the giant sandstone boulder-brick, its latch bar and ring on the left edge so it hinges on the right and swings sideways, lying back flat against the brick when open. Its sill sits about a third of the way up the wall, well off the floor. It is NOT a door and must never read as an entrance to the home: the family never uses it, and nobody comes or goes through it except Бабушка-Яга. It does NOT glow at rest — no light rim, no halo, no seam of light — it is dark, cold iron whenever nothing is happening to it, and light around it is an EVENT that appears only when something is coming through. NO APPROVED PLATE of it open yet — take the hatch itself from @ROOM_FRONT.
+
+SCALE
+Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.
+Вася is shorter than Фрося, about up to her eyebrows.
+Мама is a little taller than Фрося.
+Папа is the tallest, about a head above Мама.
+@BABIES are far smaller: РУСЯ about 1.9 in, and МУСЯ smaller still — each fits along one of @MAMA's forearms.
+The furniture is lost human things at this size: matchbox beds, a plank laid on thread spools, thimbles on the shelf, fairy-light bulbs overhead.
+
+SCENE CONTEXT
+The family are going about the evening when the room itself begins to react to something coming down behind the wall. Nobody knows where it is coming from until the very end, when the little iron hatch starts to move.
+
+LOCATION MAP
+The hall inside the old bricked-up fireplace. Keep the geography fixed across all four shots. The FAR END is the huge dark riveted iron plate that seals the old fireplace mouth — a solid wall, no opening, nothing burning in it, warm light seeping only around its rim. The LEFT wall carries the four matchbox beds, the knitted cradle standing forward of them near the corner, and low in the brick beyond the cradle the small dark iron cleanout hatch, shut. The RIGHT side has the shelf of thimble canisters, and the rope-railed floor opening where the plank ramp goes down to the road. A garland of coloured bulbs is strung high across the room, with one bulb hanging low over the plank-on-spools table.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Nobody is waiting for anything. This is a few minutes after Мама's presents, so the children are still with them: Фрося is lying on her front on the boards drawing on her paper scrap with one of her new coloured cores, and Вася is leaning over her shoulder telling her what to draw. Мама is at the table with her two smallest. Папа is crouched over something he is mending. The юла́ stands parked and still against the wall, already ridden, not being played with. Each shot below is taken from a DIFFERENT position in the room; do not repeat a camera setup.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Four shots, four different camera positions. HARD CUTS only.
+Shot A, 0:00 to 0:02: CAMERA ON THE FLOOR at the far end of the hall, lens almost touching the boards, looking back down the room with the sealed iron plate behind the camera. A plank fills the bottom third of frame, enormous and out of focus. Fine dust sifts down from a high mortar seam in the left wall and lands on the wood in front of the lens, grain by grain. Deep in the background, small and soft, the family carry on without noticing. No dialogue.
+HARD CUT.
+Shot B, 0:02 to 0:04: CAMERA HIGH, up level with the bulb garland, angled down across the whole room. A swinging bulb passes close by the lens in the near foreground, throwing its light across the shot as it goes. Below, the light on the floor rocks slowly back and forth. Мама straightens up from the table and looks around for the cause; Папа's head comes up from his work; the two children stop and look at each other, not at the camera. Nobody looks up at the same moment — the room notices in ones.
+HARD CUT.
+Shot C, 0:04 to 0:06: CAMERA CLOSE ON ПАПА, at his own height across the table from him, the warm room soft behind. He has stopped mending. He lifts his head, sniffs the air twice — deliberate, testing — and his eyebrows go up as he works out what it is. A grin starts at one corner of his mouth. He says in Russian, low and delighted rather than afraid: «Ох. Э́то же…» — and the line stops there, unfinished.
+HARD CUT.
+Shot D, 0:06 to 0:08: CAMERA LOW AND OBLIQUE beside the left wall, close to the brick, looking along the wall at a shallow angle so the hatch is seen almost edge-on. The rim of the knitted cradle crosses the near foreground, large and dark. The hatch judders once against its latch, then again, and breathes a thin line of soot from its edges.
+
+OPTICS
+Shot A: 29° detail lens character, lying on the floor, razor focus on the falling dust with the room dissolved behind it.
+Shot B: 84° classic wide from above, the whole hall readable, straight rectilinear lines, no fisheye curve.
+Shot C: 29° short telephoto portrait on Папа, razor focus on his face, the room dissolved behind him.
+Shot D: 47° standard normal, low and oblique along the wall.
+No lens drift inside any shot. A plain full-frame image throughout: no vignette, no dark oval, no iris, no circular mask.
+
+CAMERA
+Four static locked frames from four different places in the room. No movement inside a shot.
+
+PHYSICS
+The dust falls with real weight and settles. The bulb swings on its wire like a pendulum losing energy, and every shadow in the room swings with it. The hatch moves only as far as its latch allows — a hard, short knock, not a swing.
+
+LIGHTING
+Warm light from the bulb garland and the low bulb over the table, plus the thin glow around the rim of the sealed plate at the far end. When the garland swings, the light on the floor and walls swings with it. No flat front light. No fire anywhere in frame.
+
+AUDIO
+A low rumble descending behind the wall, growing across all four shots; grit falling on wood in shot A; the creak of the swinging wire in shot B; Папа's two audible sniffs and his unfinished line in shot C; the iron knock of the hatch against its latch and a soft hiss of soot in shot D. No music, no subtitles.
+
+SHOT RULES
+Exactly six characters: Фрося, Вася, Мама, Папа, Руся and Муся — no others, no duplicates.
+The hatch stays SHUT in every frame of this sequence — it does not open yet. It is a cleanout hatch, never a door, and must not read as an entrance.
+The far wall is SEALED IRON: no fire, no flames, no opening, nobody passes through it.
+NOBODY faces the camera or lines up facing the lens. They are turned to their work and then to each other, seen from three-quarter, from behind, or from above.
+The four shots must not share a camera position or a framing. The юла́ is parked and motionless throughout — nobody is playing with it.
+Dialogue lock: only Папа speaks, on camera, in shot C. Everyone else is silent. No offscreen voices otherwise.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @FROSYA, @VASYA, @MAMA, @PAPA, @BABIES. Every character matches their reference exactly. The set and props are @ROOM_FRONT, @ROOM_FRONT_LOW, @ROOM_FRONT_HATCH, @DOOR, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

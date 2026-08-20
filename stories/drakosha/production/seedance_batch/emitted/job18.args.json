@@ -1,0 +1,12 @@
+{
+  "model": "seedance_2_5",
+  "duration": 12,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-14_KF_job18_start_from-job17-lastframe_hatch-puff.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-09.png",
+    "../stories/drakosha/ep1prod/scene1/references/PROP-STUPA-01_author_solo.png",
+    "../stories/drakosha/ep1prod/scene1/references/PROP-POMELO-01_author_solo.png",
+    "../stories/drakosha/ep1prod/scene1/references/PROP-BROOM-01_author_solo.png"
+  ],
+  "promptSha256": "eb612957c0c640852cb47bc8bc1bb9d52023887ae00bc53d59ddaec98a48f23b"
+}

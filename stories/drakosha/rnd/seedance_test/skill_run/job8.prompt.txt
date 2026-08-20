@@ -1,0 +1,45 @@
+SCENE CONTEXT
+A motor sound draws the two tiny children to the mouth of their passage, where they watch a giant child's red toy car sweep past with glowing headlights, and the girl whispers that she wishes she had one.
+
+ACTIVE REFERENCES
+@FROSYA: 7yo tiny house-spirit girl, huge dark curly mane with a pencil stub in it, patchwork dress, barefoot. 100% matches the reference.
+@VASYA: 5yo tiny house-spirit boy, enormous bushy eyebrows, patchwork tunic, barefoot. 100% matches the reference.
+@REDCAR: glossy red toy car, giant-child scale, working white headlights, no remote control visible. 100% matches the reference.
+@PASSAGE: the dresser-side passage mouth opening onto the giants' bedroom floor. Geography and materials only.
+
+LOCATION MAP
+The children stand inside the passage mouth at the dresser's front-right corner. The open room floor stretches beyond, bright with morning light. The car's path crosses the open floor left to right in front of the dresser. The giant child exists only as distant feet beyond the car; no giant face, no remote.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Shot A opens with both children already at the passage mouth, bodies inside, heads leaning out: Frosya's head above, Vasya peeking beneath her. Both stay between dresser and wall for the entire sequence. Nobody steps into the open room.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Four shots. HARD CUTS only.
+Shot A, 0:00 to 0:03: from inside the passage looking out past the dresser's front-right corner: the approaching motor is heard; the children edge to the very lip of the passage; Frosya cautiously leans her head around the corner, Vasya peeks out below her.
+HARD CUT.
+Shot B, 0:03 to 0:07: camera low beside the children at the passage mouth, looking into the room: the red car drives across the open floor in front of the dresser, headlights on, wheels rattling; behind it, only the sock-clad feet and lower legs of a giant child are visible far in the background. The car exits frame right.
+HARD CUT.
+Shot C, 0:07 to 0:09: close on @VASYA's face at the passage mouth: the passing headlight beam sweeps across his wide eyes and enormous eyebrows. He breathes, in Russian, spellbound: «Ух ты! Она сама едет!»
+HARD CUT.
+Shot D, 0:09 to 0:12: close on @FROSYA: her eyes track the car; deep in the room behind her shoulder, small and defocused, the car crosses once more. She whispers in Russian, delighted: «Смотри, какая классная, у неё даже фары по-настоящему светятся! Вот бы мне такую…»
+
+OPTICS
+Shot A: 47° standard normal from inside the passage, natural proportions, the bright room beyond reading as a glowing doorway.
+Shot B: 84° classic wide, camera low at child height, the car sweeping past large and close, environment visible to frame edges, rectilinear lines, no fisheye.
+Shots C and D: 29° short telephoto portrait character, the child's face razor-sharp, background dissolving into warm soft bokeh, close framing achieved through lens reach, not proximity.
+No lens drift inside any shot.
+
+CAMERA
+Static locked frames. In shot B the camera does not pan; the car crosses through the fixed frame.
+
+PHYSICS
+The car has toy mass and speed: wheels rattle on floorboards, body vibrates slightly, headlight beams sweep realistically across surfaces as it turns. The giant feet fall with heavy soft thuds far away. The children's hair and collars do not move; the car passes at a distance.
+
+LIGHTING
+Bright warm morning light in the open room; the passage interior dimmer, so the children are lit by spill and by the passing headlight sweep in shot C. No flat front light on the faces; the headlight sweep is the key event of shot C.
+
+AUDIO
+Rising toy-motor whirr, small wheels rattling, distant giant-child laughter in shot B. The two Russian lines exactly as scripted: his breathless and awed, hers a delighted whisper. Muffled ticking gone; room tone instead. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two tiny children and one distant giant child shown only from the knees down. No giant face. No remote control anywhere. The car never enters the passage in this sequence. Vasya's enormous eyebrows lit by the sweep in shot C.

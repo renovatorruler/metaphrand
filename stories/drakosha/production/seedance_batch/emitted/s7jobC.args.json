@@ -1,0 +1,11 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 13,
+  "startImage": "",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-07.png",
+    "../stories/drakosha/ep1prod/scene1/references/SET-HOME-ROOM-02_author_far_wall_v2.png",
+    "../stories/drakosha/ep1prod/scene1/references/D-MAM-CHEST-01_approved.png"
+  ],
+  "promptSha256": "ce24957ba9d5ca97aea043288865bfe255c646c1cfd2caa2258fbb0171d13d73"
+}

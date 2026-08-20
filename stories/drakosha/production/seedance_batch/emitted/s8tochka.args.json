@@ -1,0 +1,9 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 4,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-20_FROSYA_TOCHKA_start.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-05.png"
+  ],
+  "promptSha256": "d57640fa56333a1f0eb4243c73cd044d568e301585f29cac91a043e8e7244db7"
+}

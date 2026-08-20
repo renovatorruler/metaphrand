@@ -1,0 +1,40 @@
+SCENE CONTEXT
+The old woman brushes soot from her shoulders and asks for the birthday girl; the tiny girl's face lights up and she runs into her grandmother's open arms.
+
+ACTIVE REFERENCES
+@FROSYA: 7yo tiny house-spirit girl, huge unkempt dark curly mane with a pencil stub in it, patchwork dress, barefoot. 100% matches the reference.
+
+LOCATION MAP
+The warm main room behind the stove. BABA YAGA stands just inside the now-closed plaster seam with her mortar and bundles beside her. The family faces her from the room: MAMA with both babies, PAPA, the two children.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Shot A opens close on BABA YAGA already brushing soot off her shoulders with quick practical strokes, her ember eyes sweeping the room.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Three shots. HARD CUTS only.
+Shot A, 0:00 to 0:03: close on BABA YAGA: she brushes the last soot from her shoulders, looks around the room at everyone, and says in Russian, creaky and tender: «Ну? Кто тут у нас именинница?»
+HARD CUT.
+Shot B, 0:03 to 0:05: close on @FROSYA: her eyes fly wide; a grin breaks across her whole face; she squeals in Russian, pure delight: «Бабушка!»
+HARD CUT.
+Shot C, 0:05 to 0:08: side view of the room: @FROSYA sprints across the floor and throws herself into BABA YAGA's opening arms; the old woman catches her solidly; a small puff of leftover soot rises from their clothes on impact.
+
+OPTICS
+Shot A: 29° short telephoto portrait on BABA YAGA, background softly dissolved.
+Shot B: 29° short telephoto portrait on Frosya, razor focus on her face.
+Shot C: 47° standard normal from the side, both bodies and the run fully in frame.
+No lens drift inside any shot.
+
+CAMERA
+Static locked frames; the run crosses through the fixed frame in shot C.
+
+PHYSICS
+Her brushing raises small soot puffs. Frosya's sprint is true child running — quick strides, pumping arms — and the catch has real impact: the old woman rocks back half a step and holds. The soot puff on impact drifts and settles.
+
+LIGHTING
+Warm hearth light; a little soot dust hazing the air around BABA YAGA catches it. No flat front light.
+
+AUDIO
+Her creaky tender Russian line; Frosya's squealed «Бабушка!»; quick small footsteps; the soft thump of the catch; stove crackle underneath. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Only the two scripted lines are spoken. BABA YAGA is warm and fierce, never frightening — no cackle, no menace. The hug lands in the final two seconds and holds.

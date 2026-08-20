@@ -1,0 +1,70 @@
+ACTIVE REFERENCES
+@MAMA — её зовут Мама — the mother: blonde braid, red-and-gold striped kerchief, cream apron over a dark red skirt. 100% matches the reference.
+@FROSYA — её зовут Фрося — the ELDEST of the family's FOUR children: orange flower in her hair, safety pin on her patchwork dress. 100% matches the reference.
+@VASYA — его зовут Вася — the SECOND of the family's FOUR children, younger than Фрося and older than Руся and Муся: enormous bushy eyebrows, shoelace belt. 100% matches the reference.
+@ROOM_BACK: the far end of the SAME hall, past the rope railing and the ramp down — what lies beyond Фрося and Вася whenever the camera looks down the room. Same ENORMOUS sandstone boulder-blocks, same strung bulbs, the kitchen end with its stove and counter. 100% matches the reference.
+@ROOM_FRONT: the family's hall inside the old bricked-up fireplace — boulder-brick walls, a riveted iron plate as the far wall, plank floor, a garland of coloured bulbs, a plank-on-spools table, matchbox beds along the left wall, a small dark iron cleanout hatch low in the left wall, a rope-railed floor opening at the right. 100% matches the reference.
+@CHEST: мама's letter chest — a small dark wooden chest with a domed lid, iron straps and rivets and a hasp latch, filled with small square pale-wood tiles carved with Cyrillic letters. 100% matches the reference.
+@PENCIL: the magic pencil — a short stubby faceted wooden pencil in warm honey-toned wood. ONE END ONLY is sharpened to a dark graphite point; THE OTHER END IS BLUNT, FLAT AND BARE WOOD. It is never sharpened at both ends and there is no dark tip at the blunt end. No paint and no ferrule. 100% matches the reference.
+
+SCALE
+Мама is a little taller than Фрося.
+Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.
+Вася is shorter than Фрося, about up to her eyebrows.
+The furniture is lost human things at this size: matchbox beds, a plank laid on thread spools, thimbles on the shelf, fairy-light bulbs overhead.
+@CHEST is a chest @MAMA can lift, its lid about knee height on her when it stands on the floor.
+@PENCIL is sized for @FROSYA's own hand — it sits in her palm, she writes with it one-handed, and it fits behind her ear. It is NOT a giant human pencil and never dwarfs her.
+
+SCENE CONTEXT
+The mother opens a hidden panel in the back wall, lifts out a chest, and sets it down in front of two children who have never seen it before.
+
+ALL DIALOGUE IS IN RUSSIAN. Nobody speaks in this job.
+
+WHERE WE ARE
+The back corner of the hall, past the rope railing — the kitchen end. The stove and the shelf of thimble cups are to the left, the couch with its floral rug behind, and a plain wooden panel with an iron ring is set into the boulder-blocks at the right. A woven play mat lies on the plank floor in front of it. Nobody is shown walking here.
+
+REACTIONS — WHAT THE FACES DO
+A reference sheet fixes who a character IS, not what a face does. Describe the muscles, not the mood.
+Мама: her mouth is closed and level and her brows are low and steady. She does not look at the wall while her palm is on it — she is watching the children, and by the end of Shot B one corner of her mouth has come up a few millimetres and nothing else about her has changed.
+Фрося: her brows go up and her eyes widen as the seam lights, then her eyes narrow again and her mouth flattens as she works out what she is looking at. By the end she has stopped blinking.
+Вася: his mouth falls open at the light and stays open the whole way through; his eyebrows climb and do not come down.
+
+WHO IS IN EACH SHOT — AND NOBODY ELSE
+Only Мама, Фрося and Вася. Бабушка-Яга, Папа, Руся and Муся do not appear anywhere in this job — not in the background, not at the frame edge, not out of focus.
+
+HANDS — WHAT EVERY PAIR IS DOING
+Мама: in Shot A her right palm is flat on the wooden panel, fingers spread, and stays there until the latch knocks. In Shot B both her hands take the chest by its sides, lift it out of the niche and set it down on the planks at the near edge of the play mat. She carries nothing else at any point.
+Фрося: both hands wrapped around her pencil and held flat against her chest, and they tighten on it as the panel opens. She reaches for nothing.
+Вася: both hands hang loose and empty at his sides, then both come up and grip the front of his own shirt. He touches nothing.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE, three shots, HARD CUTS only, no fades.
+
+Shot A, 0:00–0:03.5 — TIGHT ON THE WOODEN PANEL in the boulder-block wall, an iron ring set into it. МАМА'S PALM comes into frame and presses flat — her hand and forearm only, no face. A thin line of warm light runs along the seam of the panel and goes out. A latch knocks once inside the wall. No dialogue.
+HARD CUT.
+
+Shot B, 0:03.5–0:08.5 — WIDER, from the side, taking in the whole back corner. The panel has swung open into a shallow niche. МАМА lifts a small dark wooden chest out with both hands and sets it down on the plank floor at the edge of the play mat. She straightens and looks off to SCREEN LEFT at the children. No dialogue.
+HARD CUT.
+
+Shot C, 0:08.5–0:12 — ON ФРОСЯ AND ВАСЯ TOGETHER, sitting back on their heels on the play mat, facing camera-right toward the niche. They look at the chest and then at each other. Neither speaks and neither one's lips move.
+
+OPTICS
+Shot A is 29° short telephoto, tight on the panel. Shot B opens to 47° standard normal so the corner reads as a place. Shot C is 29° short telephoto at the children's height. Rectilinear, no fisheye, no vignette, no iris.
+
+BACKGROUNDS
+Behind МАМА, in Shots A and B: the BACK WALL — the open niche, and beyond her the kitchen end with its stove, counter and shelf of cups. Shot A is tight enough that only boulder-block wall and the panel are visible.
+Behind ФРОСЯ AND ВАСЯ, in Shot C: the room running away from them toward the table end — strung coloured bulbs overhead and the rope railing of the ramp at the frame edge. They have their backs to the room and are facing the back wall.
+
+SOUND
+Low room tone. One knock of the latch inside the wall, the scrape of wood on planks as the chest goes down. No dialogue anywhere in this job. No music, no subtitles, no narrator.
+
+SHOT RULES
+NOBODY SPEAKS in this job and no lips move in any shot.
+The ball of green wool stays BEHIND the children, off to the side, out of the space between them and the chest. Nothing is between the children and the chest.
+The chest is small enough for Мама to lift alone — its lid comes to about her knee when it stands on the floor.
+The walls are ENORMOUS pale sandstone boulder-blocks, each bigger than a character's whole body.
+The chest stays SHUT throughout and NO letters are visible anywhere in this job.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @MAMA, @FROSYA, @VASYA. Every character matches their reference exactly. The set and props are @ROOM_BACK, @ROOM_FRONT, @CHEST, @PENCIL, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

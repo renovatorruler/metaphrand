@@ -1,0 +1,12 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "stage": "refs",
+  "derivedFrom": "packet_v2/page-14.png (approved character packet v2, «Руся и Муся — pose library»)",
+  "derivation": "Crop only — no generation, no repaint, no credits. Figures atx110-825 y170-685, stopping short of the caption row so no text enters the reference.",
+  "subjects": {
+    "C-RUS-01": "РУСЯ alone — two approved poses (ходит, ползает). Mustard patched romper, small orange topknot.",
+    "C-MUS-01": "МУСЯ alone — three approved poses (ползает, сидит, кокон). Pink swaddle, tiny white curl clip.",
+    "C-BABY-RATIO-01": "Height-ratio chart from page-15. FILED, NOT BOUND — it is a chart on a ground line, and binding a chart invites the model to reproduce a lineup. The proportions it carries are stated in words in the SCALE block instead."
+  },
+  "packetRule": "Cross-eyes appear ONLY in РУСЯ's «ходит» pose. One face for all of МУСЯ's poses; the cocoon is smaller than the sitting pose."
+}

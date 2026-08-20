@@ -201,7 +201,8 @@ let validate = (~manifestPath): result => {
       stringField(v1Timeline, "start", "animatic EDL v1.timeline") ||
     stringField(timeline, "end", "animatic EDL v2.timeline") !=
       stringField(v1Timeline, "end", "animatic EDL v1.timeline") ||
-    intField(timeline, "durationSeconds", "animatic EDL v2.timeline") != 720 ||
+    /* the main story grows when clips must play whole; length is declared, not fixed */
+    intField(timeline, "durationSeconds", "animatic EDL v2.timeline") < 720 ||
     intField(timeline, "fps", "animatic EDL v2.timeline") != 24 ||
     stringField(timeline, "master", "animatic EDL v2.timeline") != "1280x720" {
     die("v2 timeline must preserve the validated 2:15–14:15 v1 timeline")
@@ -450,6 +451,10 @@ let validateV3 = (~manifestPath): result => {
   if stringField(root, "version", "animatic EDL v3") != "ep9-finale-animatic-edl-v3" {
     die("animatic EDL v3 version has drifted")
   }
+  /* the retimer publishes the main-story length here when clips force it past 12:00 */
+  let declaredTotal =
+    intField(field(root, "timeline", "animatic EDL v3")->objectOf("timeline"),
+      "durationSeconds", "timeline")
   /* the sibling v2 remains the identity authority and is validated in full */
   let v2Path = resolve2(manifestDirectory, "ep9_finale_animatic_edl.v2.json")
   let v2Result = validate(~manifestPath=v2Path)
@@ -476,8 +481,92 @@ let validateV3 = (~manifestPath): result => {
     }
     cursor := end_
   })
-  if cursor.contents - Kuku_Ep9FinaleAnimaticEdl.parseTimecode("2:15", "animatic EDL v3") != 720 {
-    die("v3 total is not 720 seconds")
+  if cursor.contents - Kuku_Ep9FinaleAnimaticEdl.parseTimecode("2:15", "animatic EDL v3") !=
+    declaredTotal {
+    die("v3 total does not match the declared main-story length")
+  }
+  v2Result
+}
+
+/* v4 acceptance (2026-08-18): per-line sub-shots. Ids are either an original v2 beat id or
+   "<parent>-L<k>". Sub-shots must inherit their parent's full identity (everything except
+   id/timing/parentBeat/lineOrder), parents must appear complete and in v2 order, timing must
+   be contiguous from 2:15 and total exactly 720. */
+let isV4 = (~manifestPath) => {
+  let root = parseRoot(readRaw(manifestPath, "animatic EDL"), "animatic EDL")
+  stringField(root, "version", "animatic EDL") == "ep9-finale-animatic-edl-v4"
+}
+
+let parentOf = id =>
+  switch Js.String2.splitByRe(id, %re("/-L\d+$/")) {
+  | [Some(prefix), _] => prefix
+  | _ => id
+  }
+
+let sameBeatIdentityExceptIdAndTiming = (v2, v4, where) => {
+  let sameString = key => stringField(v2, key, where ++ ".v2") == stringField(v4, key, where ++ ".v4")
+  let sameInt = key => intField(v2, key, where ++ ".v2") == intField(v4, key, where ++ ".v4")
+  if !sameInt("scene") || !sameString("scriptRef") || !sameString("storyEvent") ||
+    !sameString("acceptedAssetPath") || !sameString("acceptedAssetSha256") ||
+    !sameString("sourceClass") ||
+    optionalStringField(v2, "routeShotId", where) != optionalStringField(v4, "routeShotId", where) ||
+    optionalStringField(v2, "paidShotId", where) != optionalStringField(v4, "paidShotId", where) {
+    die(where ++ " sub-shot identity drifted from its parent beat")
+  }
+}
+
+let validateV4 = (~manifestPath): result => {
+  let manifestDirectory = dirname(manifestPath)
+  let root = parseRoot(readRaw(manifestPath, "animatic EDL v4"), "animatic EDL v4")
+  if stringField(root, "version", "animatic EDL v4") != "ep9-finale-animatic-edl-v4" {
+    die("animatic EDL v4 version has drifted")
+  }
+  /* the retimer publishes the main-story length here when clips force it past 12:00 */
+  let declaredTotal =
+    intField(field(root, "timeline", "animatic EDL v4")->objectOf("timeline"),
+      "durationSeconds", "timeline")
+  let v2Path = resolve2(manifestDirectory, "ep9_finale_animatic_edl.v2.json")
+  let v2Result = validate(~manifestPath=v2Path)
+  let v2Root = parseRoot(readRaw(v2Path, "animatic EDL v2"), "animatic EDL v2")
+  let v2Beats = arrayField(v2Root, "beats", "animatic EDL v2")
+  let v2ById: Js.Dict.t<Js.Dict.t<Js.Json.t>> = Js.Dict.empty()
+  let v2Order = v2Beats->Belt.Array.map(bj => {
+    let b = objectOf(bj, "v2 beat")
+    let id = stringField(b, "id", "v2 beat")
+    Js.Dict.set(v2ById, id, b)
+    id
+  })
+  let beats = arrayField(root, "beats", "animatic EDL v4")
+  let cursor = ref(Kuku_Ep9FinaleAnimaticEdl.parseTimecode("2:15", "animatic EDL v4"))
+  let parentSeq: array<string> = []
+  beats->Belt.Array.forEachWithIndex((index, beatJson) => {
+    let where = "animatic EDL v4 beats[" ++ Belt.Int.toString(index) ++ "]"
+    let beat = objectOf(beatJson, where)
+    let id = stringField(beat, "id", where)
+    let parent = parentOf(id)
+    let v2Beat = switch Js.Dict.get(v2ById, parent) {
+    | Some(b) => b
+    | None => die(where ++ " has unknown parent " ++ parent)
+    }
+    sameBeatIdentityExceptIdAndTiming(v2Beat, beat, where)
+    let n = Belt.Array.length(parentSeq)
+    if n == 0 || Belt.Array.getExn(parentSeq, n - 1) != parent {
+      Js.Array2.push(parentSeq, parent)->ignore
+    }
+    let start = Kuku_Ep9FinaleAnimaticEdl.parseTimecode(stringField(beat, "start", where), where)
+    let end_ = Kuku_Ep9FinaleAnimaticEdl.parseTimecode(stringField(beat, "end", where), where)
+    let duration = intField(beat, "durationSeconds", where)
+    if start != cursor.contents || end_ - start != duration || duration < 1 {
+      die(where ++ " has non-contiguous or invalid timing")
+    }
+    cursor := end_
+  })
+  if cursor.contents - Kuku_Ep9FinaleAnimaticEdl.parseTimecode("2:15", "animatic EDL v4") !=
+    declaredTotal {
+    die("v4 total does not match the declared main-story length")
+  }
+  if parentSeq != v2Order {
+    die("v4 parent order or coverage differs from the validated v2")
   }
   v2Result
 }

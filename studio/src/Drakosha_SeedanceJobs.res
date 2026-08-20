@@ -23,25 +23,44 @@ let creativeDir = "../stories/drakosha/production/seedance_batch/creative"
    two-second head for the beat before anyone speaks. `Drakosha_SeedanceDryRun`
    enforces the ceilings and prices the whole batch, so a job that quietly asks
    for 17s on mini is a red run and never a truncated clip. */
-type seedanceModel = Mini | V20 | V25
+/* KLING JOINED THE REGISTRY 2026-08-20. It is not a Seedance model and it does
+   not behave like one: it takes no image references, it charges for its own
+   sound whether or not the shot has any, and Kling 3.0 is the only model on the
+   account that accepts an END frame as well as a start frame — which is what a
+   seamless loop needs, because the loop is nothing more than a clip whose last
+   frame is its first.
+
+     kling2_6  1.0 cr/s with sound OFF (2.0 with it on), 5s or 10s only
+     kling3_0  1.5 cr/s std, sound off, arbitrary duration, START + END frames
+
+   Both are cheaper than the mini we have been shooting on at 2.5 cr/s. */
+type seedanceModel = Mini | V20 | V25 | Kling26 | Kling30 | Veo31Lite
 
 let modelName = m =>
   switch m {
   | Mini => "seedance_2_0_mini"
   | V20 => "seedance_2_0"
   | V25 => "seedance_2_5"
+  | Kling26 => "kling2_6"
+  | Kling30 => "kling3_0"
+  | Veo31Lite => "veo3_1_lite"
   }
 
 let modelMaxSec = m =>
   switch m {
   | Mini | V20 => 15
   | V25 => 30
+  | Kling26 | Kling30 => 10
+  | Veo31Lite => 8
   }
 
+/* Kling takes a start frame and nothing else. A job that hands it reference
+   images is a job that thinks it is talking to Seedance. */
 let modelMaxRefs = m =>
   switch m {
   | Mini | V20 => 9
   | V25 => 30
+  | Kling26 | Kling30 | Veo31Lite => 0
   }
 
 let modelCreditsPerSec = m =>
@@ -49,14 +68,33 @@ let modelCreditsPerSec = m =>
   | Mini => 2.5
   | V20 => 4.5
   | V25 => 6.5
+  | Kling26 => 1.0
+  | Kling30 => 1.5
+  | Veo31Lite => 1.0
   }
 
-type jobSpec = {record: shotRecord, creativeFile: string, model: seedanceModel}
+/* endImage is Kling-3.0 only and exists for one reason: a loop. Pass the same
+   frame as start and end and the clip returns to where it began, so it can be
+   cut back to itself without a seam. */
+type jobSpec = {
+  record: shotRecord,
+  creativeFile: string,
+  model: seedanceModel,
+  endImage: option<string>,
+}
 
 let job = (jobId, shots, cast, props, startImage, durationSec, model): jobSpec => {
   record: {jobId, shots, cast, props, startImage, durationSec, creative: ""},
   creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
   model,
+  endImage: None,
+}
+
+let loopJob = (jobId, shots, cast, props, frame, durationSec, model): jobSpec => {
+  record: {jobId, shots, cast, props, startImage: Some(frame), durationSec, creative: ""},
+  creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
+  model,
+  endImage: Some(frame),
 }
 
 /* JOBS 10-19 ARE ALL SHOT. Their footage is in seedance_batch/output and in the
@@ -71,6 +109,92 @@ let job = (jobId, shots, cast, props, startImage, durationSec, model): jobSpec =
    s5job2 is present in all of this footage, because none of these prompts ever
    directed a listener's face. */
 let all: array<jobSpec> = [
+  /* THE WRITING LOOP — one letter's worth of strokes and a spark at the tip,
+     ending exactly where it began so it can be cut back to itself for every
+     letter of every word. Author's own start frame; kling3_0 because it is the
+     only model on the account that takes an end frame, and a loop is nothing
+     but a clip whose last frame is its first. The paper stays blank: the
+     letters are her artwork and go on afterwards. */
+  loopJob(
+    "s8loopA",
+    "LOOP-WRITE-01",
+    [Frosya],
+    [],
+    "2026-08-20_FROSYA_WRITE_LOOP_frame.png",
+    5,
+    Kling30,
+  ),
+  /* Same loop, same start frame, but the shot is now about her FACE: concentrate
+     → surprise at the spark → a beat of thinking about the next letter → back
+     down into the starting concentration. Veo 3.1 Lite because it also takes an
+     end frame and it is the model on this account with the best claim to
+     facial performance — and at 6s it costs 6 credits against Kling's 7.5. */
+  loopJob(
+    "s8loopB",
+    "LOOP-WRITE-02-FACE",
+    [Frosya],
+    [],
+    "2026-08-20_FROSYA_WRITE_LOOP_frame.png",
+    8,
+    Veo31Lite,
+  ),
+  /* The same silent-mouth, tongue-out, eyes-roll-aside loop on Kling 3.0, so the
+     two models are judged on the one thing that failed: the mouth. Kling held
+     identity, the blank paper and the loop perfectly the first time; all it did
+     wrong was fill an unoccupied mouth with speech. */
+  loopJob(
+    "s8loopC",
+    "LOOP-WRITE-KLING-FACE",
+    [Frosya],
+    [],
+    "2026-08-20_FROSYA_WRITE_LOOP_frame.png",
+    5,
+    Kling30,
+  ),
+  /* THE AGREED LOOP, 2026-08-20. One letter at a child's pace — three seconds,
+     because at five it is too slow to read as writing and at one it is faster
+     than the model will shoot. The TRAIL is the model's job and must die out in
+     mid-air; the LETTERS are the author's and are added afterwards. The thinking
+     is one flick of the eyes, because this clip is watched three times in a row
+     and anything larger becomes a twitch. */
+  loopJob(
+    "s8loopD",
+    "LOOP-WRITE-AGREED",
+    [Frosya],
+    [],
+    "2026-08-20_FROSYA_WRITE_LOOP_frame.png",
+    3,
+    Kling30,
+  ),
+  /* THE EXPRESSION EXPERIMENT, 2026-08-20. Every expressive shot we have ever
+     cut ran on mini with the character sheets bound and NO start frame; this
+     loop ran on Kling, which takes no sheets, and came back with a blank face.
+     Mini is the only model that takes a start frame, an end frame AND
+     references at once. Four seconds because mini refuses anything shorter. */
+  loopJob(
+    "s8loopE",
+    "LOOP-WRITE-MINI-REFS",
+    [Frosya],
+    [],
+    "2026-08-20_FROSYA_WRITE_LOOP_frame.png",
+    4,
+    Mini,
+  ),
+  /* THE FINAL MARK — generated ONCE and reused in every transformation for the
+     rest of the series. This is the half of the scene that never changes; the
+     word before it changes every time and is lip-synced onto existing footage
+     instead. Generate what repeats, lip-sync what varies. No end frame: it is
+     an action, not a loop, and it has to finish somewhere new so the cut to the
+     transformation has somewhere to go. */
+  job(
+    "s8tochka",
+    "TOCHKA-MARK",
+    [Frosya],
+    [],
+    Some("2026-08-20_FROSYA_TOCHKA_start.png"),
+    4,
+    Mini,
+  ),
   /* SCENE 7 — the niche, the chest, the letters. All on mini.
 
      GEOGRAPHY, set once by the author and not re-derived per shot: Мама works at
@@ -86,13 +210,6 @@ let all: array<jobSpec> = [
      s6jobC failure — a dub that does not fit its own picture — so Мама's lines
      are budgeted at the slowest plausible pace instead. The extra seconds cost
      2.5 credits each and are cheaper than one reshoot. */
-  job("s7jobA", "SH082-083", [Mama, Frosya, Vasya], [RoomBack, RoomFront, Chest, Pencil], None, 12, Mini),
-  job("s7jobB", "SH084-086", [Mama, Frosya, Vasya], [RoomBack, Chest, Pencil], None, 13, Mini),
-  job("s7jobC", "SH087-090", [Mama], [RoomBack, Chest, Tiles], None, 13, Mini),
-  job("s7jobD", "SH091", [Vasya], [RoomFront, Tiles], None, 10, Mini),
-  job("s7jobE", "SH092-093", [Mama, Frosya, Vasya], [RoomBack, RoomFront, Chest, Tiles], None, 14, Mini),
-  job("s7jobF", "SH094-095", [Frosya, Mama], [RoomBack, RoomFront, Tiles], None, 10, Mini),
-  job("s7jobG", "SH098-101", [Vasya, Frosya, YagaDomovoy, Mama], [RoomFront, RoomBack, Pouch, Broom], None, 15, Mini),
 
 ]
 

@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "character": "Frosya",
+  "alphabet": "Russian uppercase Cyrillic",
+  "canonical_order": [
+    "А", "Б", "В", "Г", "Д", "Е", "Ё", "Ж", "З", "И", "Й",
+    "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", "У", "Ф",
+    "Х", "Ц", "Ч", "Ш", "Щ", "Ъ", "Ы", "Ь", "Э", "Ю", "Я"
+  ],
+  "canvas_size": [2048, 2048],
+  "anchor": [1024, 1430],
+  "baseline_y": 1430,
+  "transparent_safety_border_px": 307,
+  "paper_rgb": [244, 225, 192],
+  "paper_hex": "#F4E1C0",
+  "masters": {
+    "canonical_33_letter_reference": "masters/full_alphabet_reference_v1.png",
+    "episode_1_source_panel": "masters/ep1_graphite_panel_v1.png"
+  },
+  "paper": {
+    "canonical_flat": "paper/canonical_flat_paper_16x9.png",
+    "scene_plate": "paper/magical_space_paper_scene_16x9.png"
+  },
+  "production_status": {
+    "canonical_reference_sheet": "complete",
+    "individual_episode_1_assets": "complete",
+    "individual_remaining_alphabet_assets": "not_started"
+  },
+  "episode_1_letters": ["А", "О", "М", "С", "К", "Т", "Л", "Б"],
+  "states": ["graphite", "ignite_25", "ignite_50", "ignite_75", "ignite_90", "magic"],
+  "letters": {
+    "А": {
+      "graphite": "assets/graphite/А.png",
+      "ignite_25": "assets/ignite_25/А.png",
+      "ignite_50": "assets/ignite_50/А.png",
+      "ignite_75": "assets/ignite_75/А.png",
+      "ignite_90": "assets/ignite_90/А.png",
+      "magic": "assets/magic/А.png"
+    },
+    "О": {
+      "graphite": "assets/graphite/О.png",
+      "ignite_25": "assets/ignite_25/О.png",
+      "ignite_50": "assets/ignite_50/О.png",
+      "ignite_75": "assets/ignite_75/О.png",
+      "ignite_90": "assets/ignite_90/О.png",
+      "magic": "assets/magic/О.png"
+    },
+    "М": {
+      "graphite": "assets/graphite/М.png",
+      "ignite_25": "assets/ignite_25/М.png",
+      "ignite_50": "assets/ignite_50/М.png",
+      "ignite_75": "assets/ignite_75/М.png",
+      "ignite_90": "assets/ignite_90/М.png",
+      "magic": "assets/magic/М.png"
+    },
+    "С": {
+      "graphite": "assets/graphite/С.png",
+      "ignite_25": "assets/ignite_25/С.png",
+      "ignite_50": "assets/ignite_50/С.png",
+      "ignite_75": "assets/ignite_75/С.png",
+      "ignite_90": "assets/ignite_90/С.png",
+      "magic": "assets/magic/С.png"
+    },
+    "К": {
+      "graphite": "assets/graphite/К.png",
+      "ignite_25": "assets/ignite_25/К.png",
+      "ignite_50": "assets/ignite_50/К.png",
+      "ignite_75": "assets/ignite_75/К.png",
+      "ignite_90": "assets/ignite_90/К.png",
+      "magic": "assets/magic/К.png"
+    },
+    "Т": {
+      "graphite": "assets/graphite/Т.png",
+      "ignite_25": "assets/ignite_25/Т.png",
+      "ignite_50": "assets/ignite_50/Т.png",
+      "ignite_75": "assets/ignite_75/Т.png",
+      "ignite_90": "assets/ignite_90/Т.png",
+      "magic": "assets/magic/Т.png"
+    },
+    "Л": {
+      "graphite": "assets/graphite/Л.png",
+      "ignite_25": "assets/ignite_25/Л.png",
+      "ignite_50": "assets/ignite_50/Л.png",
+      "ignite_75": "assets/ignite_75/Л.png",
+      "ignite_90": "assets/ignite_90/Л.png",
+      "magic": "assets/magic/Л.png"
+    },
+    "Б": {
+      "graphite": "assets/graphite/Б.png",
+      "ignite_25": "assets/ignite_25/Б.png",
+      "ignite_50": "assets/ignite_50/Б.png",
+      "ignite_75": "assets/ignite_75/Б.png",
+      "ignite_90": "assets/ignite_90/Б.png",
+      "magic": "assets/magic/Б.png"
+    }
+  },
+  "geometry_rule": "Every ignition and magic state is procedurally derived from the corresponding graphite alpha mask without redrawing or repositioning the glyph.",
+  "particles": "Ignite 75 uses deterministic fine gold dust and localized glints. Ignite 90 adds the clean continuous core and defined gold envelope. Full magic uses four mask-driven particle scales: fine amber dust, gold motes, pale hot motes, and rare soft white flare points. All remain concentrated around the exact graphite geometry and inside the transparent safety border.",
+  "peak_magic_rule": "Full magic is a stable, reference-matched illuminated phase. The approved handwritten stroke remains fully continuous: a thin warm-white core sits inside a softly diffused gold body, broad honey-amber bloom, and surrounding particles. Deterministic low-frequency modulation changes brightness subtly but never removes a section of the stroke. The approved graphite silhouette remains the sole geometry source, and the outer 307 px transparent safety border is hard-enforced."
+}

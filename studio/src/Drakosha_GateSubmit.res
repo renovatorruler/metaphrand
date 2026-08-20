@@ -56,6 +56,9 @@ type prepared = {
      close-ups on mini costs a third of that. It also meant the duration check
      below could only be a hardcoded list. */
   model: Drakosha_SeedanceJobs.seedanceModel,
+  /* Kling 3.0 only: the frame the clip must END on. Same file as `start`
+     makes the clip a loop. */
+  endFrame: option<string>,
 }
 
 let problems: array<string> = []
@@ -69,14 +72,24 @@ let prepare = (spec: Drakosha_SeedanceJobs.jobSpec): option<prepared> => {
   } else {
     let record = {...spec.record, creative: readFileSync(spec.creativeFile, "utf8")}
     let maxSec = Drakosha_SeedanceJobs.modelMaxSec(spec.model)
-    if record.durationSec < 4 || record.durationSec > maxSec {
+    /* The 4s floor is a Seedance floor. A loop element is not a shot — one
+       letter at a child's writing pace is about three seconds, and padding it
+       to four to satisfy a check written for dialogue shots would make the
+       writing slow. Kling generates from 3s. */
+    let minSec = switch spec.model {
+    | Kling26 | Kling30 => 3
+    | Mini | V20 | V25 | Veo31Lite => 4
+    }
+    if record.durationSec < minSec || record.durationSec > maxSec {
       flag(
         jid ++
         ": duration " ++
         Belt.Int.toString(record.durationSec) ++
         "s is outside what " ++
         Drakosha_SeedanceJobs.modelName(spec.model) ++
-        " generates (4-" ++
+        " generates (" ++
+        Belt.Int.toString(minSec) ++
+        "-" ++
         Belt.Int.toString(maxSec) ++
         "s)",
       )
@@ -95,53 +108,65 @@ let prepare = (spec: Drakosha_SeedanceJobs.jobSpec): option<prepared> => {
       | Some(p) if !existsSync(p) => flag(jid ++ ": missing start image " ++ p)
       | _ => ()
       }
-      Some({record, prompt, refPaths, start, model: spec.model})
+      Some({record, prompt, refPaths, start, model: spec.model, endFrame: spec.endImage->Belt.Option.map(k => kfDir ++ "/" ++ k)})
     }
   }
 }
 
+/* Kling and Seedance take different flags for the same ideas, and mixing them
+   is not a warning, it is a rejected call. Seedance wants generate_audio and
+   image_references; Kling wants a sound switch, has no reference images at all,
+   and on 3.0 accepts an end frame. Sound is charged for whether we use it, so
+   it is switched OFF on both Kling models — this show dubs everything. */
 let providerArgs = (p: prepared): array<string> => {
-  /* seedance_2_5, and mode omni_reference is NOT optional: the API rejects t2v
-     outright when reference media is present, and start_image is only accepted
-     under omni_reference. The old "std" was never a valid mode for this model.
-     Non-media params are underscored; only the media flags are hyphenated. */
-  /* `mode` exists ONLY on seedance_2_5. On 2.0 and mini it is not a default, it
-     is not a parameter at all, and passing it fails the whole call with "Unknown
-     params: mode" — which is what killed the first scene-6 submission. The
-     smaller models take image_references directly with no mode to select. */
-  let base = Belt.Array.concat(
-    [
-    "generate",
-    "create",
-    Drakosha_SeedanceJobs.modelName(p.model),
-    ],
-    switch p.model {
-    | V25 => ["--mode", "omni_reference"]
-    | Mini | V20 => []
-    },
-  )->Belt.Array.concat([
+  let name = Drakosha_SeedanceJobs.modelName(p.model)
+  let common = [
     "--prompt",
     p.prompt,
     "--duration",
     Belt.Int.toString(p.record.durationSec),
-    "--resolution",
-    "720p",
     "--aspect_ratio",
     "16:9",
-    "--generate_audio",
-    "true",
     "--wait",
     "--wait-timeout",
     "25m",
-  ])
+  ]
+  let modelArgs = switch p.model {
+  /* mode omni_reference is NOT optional on 2.5: the API rejects t2v outright
+     when reference media is present, and start_image is only accepted under
+     omni_reference. On 2.0 and mini `mode` is not a parameter at all and
+     passing it fails the call with "Unknown params: mode". */
+  | V25 => ["--mode", "omni_reference", "--resolution", "720p", "--generate_audio", "true"]
+  | Mini | V20 => ["--resolution", "720p", "--generate_audio", "true"]
+  | Kling26 => ["--sound", "false"]
+  | Kling30 => ["--mode", "std", "--sound", "off"]
+  /* Veo 3.1 Lite: audio off (we dub), start and end frames, 4/6/8s only. */
+  | Veo31Lite => ["--generate_audio", "false"]
+  }
+  let base = Belt.Array.concatMany([["generate", "create", name], modelArgs, common])
   let withStart = switch p.start {
   | Some(s) => Belt.Array.concat(base, ["--start-image", s])
   | None => base
   }
-  Belt.Array.concat(
-    withStart,
-    Belt.Array.concatMany(p.refPaths->Belt.Array.map(r => ["--image-references", r])),
-  )
+  let withEnd = switch (p.model, p.endFrame) {
+  /* Seedance mini/2.0/2.5 take an end frame AS WELL AS references — the only
+     models on the account that do both. That combination is what a loop with a
+     performance in it needs: the frame pins the composition, the sheets carry
+     who she is. Kling can loop but has no references; that trade is why the
+     first loops came back with a blank face. */
+  | (Kling30, Some(e)) | (Veo31Lite, Some(e)) | (Mini, Some(e)) | (V20, Some(e)) | (V25, Some(e)) =>
+    Belt.Array.concat(withStart, ["--end-image", e])
+  | (Kling26, Some(_)) => withStart /* 2.6 ignores it silently; the dry run refuses it */
+  | (_, None) => withStart
+  }
+  switch p.model {
+  | Kling26 | Kling30 | Veo31Lite => withEnd
+  | Mini | V20 | V25 =>
+    Belt.Array.concat(
+      withEnd,
+      Belt.Array.concatMany(p.refPaths->Belt.Array.map(r => ["--image-references", r])),
+    )
+  }
 }
 
 let estimateCost = (p: prepared): float => {
@@ -151,7 +176,22 @@ let estimateCost = (p: prepared): float => {
        omni_reference: 2.5 rejects that combination outright and the whole batch
        refuses before a single job is submitted. Price is duration times the
        model's rate; the mode does not enter into it. */
-    ["generate", "cost", Drakosha_SeedanceJobs.modelName(p.model), "--prompt", "x", "--duration", Belt.Int.toString(p.record.durationSec), "--resolution", "720p", "--json"],
+    Belt.Array.concatMany([
+      ["generate", "cost", Drakosha_SeedanceJobs.modelName(p.model)],
+      switch p.model {
+      /* The probe passes no reference media, so it must not claim
+         omni_reference: 2.5 rejects that combination outright and the whole
+         batch refuses before a single job is submitted. On Kling the SOUND
+         switch changes the price — kling2_6 is 10 credits for 5s with sound and
+         5 without — so the probe has to carry it or it prices a different job
+         from the one we submit. */
+      | V25 | Mini | V20 => ["--resolution", "720p"]
+      | Kling26 => ["--sound", "false"]
+      | Kling30 => ["--mode", "std", "--sound", "off"]
+      | Veo31Lite => ["--generate_audio", "false"]
+      },
+      ["--prompt", "x", "--duration", Belt.Int.toString(p.record.durationSec), "--json"],
+    ]),
     {encoding: "utf8"},
   )
   switch Js.Json.parseExn(out)->Js.Json.decodeObject {
@@ -252,7 +292,26 @@ let () = {
           | text =>
             out := text
             ok := true
-          | exception _ =>
+          | exception e =>
+            /* A REJECTED CALL IS NOT A LOST CALL. On 2026-08-20 veo3_1_lite
+               refused a 6s duration ("must be 8 when both start_image and
+               end_image are set"). Nothing was submitted — but the adoption
+               path below treated it like a dropped connection, found a job with
+               a similar prompt prefix, and ledgered 6 credits that were never
+               spent. Adoption is only ever correct when the request may have
+               LANDED, so a parameter rejection must skip it entirely. */
+            let errText = switch Js.Exn.asJsExn(e)->Belt.Option.flatMap(Js.Exn.message) {
+            | Some(m) => m
+            | None => ""
+            }
+            let rejected =
+              ["must be", "Unknown params", "is required", "invalid", "Invalid", "hf model get"]
+              ->Belt.Array.some(k => Js.String2.includes(errText, k))
+            if rejected {
+              Js.log("GATE: " ++ p.record.jobId ++ " — REJECTED by the API, nothing submitted, nothing charged:")
+              Js.log("      " ++ Js.String2.slice(errText, ~from=0, ~to_=400))
+              attempts := 3
+            } else {
             /* "no response received" does NOT mean the job never reached the
                server. On 2026-08-18 one such "failure" had in fact submitted,
                the retry submitted again, and the duplicate cost 32.5 credits
@@ -279,8 +338,17 @@ let () = {
                       ->Belt.Option.flatMap(pp => Js.Dict.get(pp, "prompt"))
                       ->Belt.Option.flatMap(Js.Json.decodeString)
                       ->Belt.Option.getWithDefault("")
-                    Js.String2.slice(promptOf, ~from=0, ~to_=200) ==
-                      Js.String2.slice(p.prompt, ~from=0, ~to_=200)
+                    /* Prompt prefixes are not identities: two jobs of the same
+                       shot share their opening 200 characters, which is how a
+                       Veo job "adopted" a Kling one. Compare the whole prompt
+                       AND require the job type to be the model we called. */
+                    let typeOf =
+                      o
+                      ->Js.Dict.get("job_type")
+                      ->Belt.Option.flatMap(Js.Json.decodeString)
+                      ->Belt.Option.getWithDefault("")
+                    promptOf == p.prompt &&
+                      typeOf == Drakosha_SeedanceJobs.modelName(p.model)
                   }
                 )
               }
@@ -298,6 +366,7 @@ let () = {
                 " of 3 failed for " ++
                 p.record.jobId ++ " — verified absent on server, retrying",
               )
+            }
             }
           }
         }

@@ -1,0 +1,14 @@
+Built-in ChatGPT native image generation
+
+Use case: scientific-educational
+Asset type: grouped source panel for Episode 1 transparent glyph extraction
+Primary request: Draw exactly these eight uppercase Russian Cyrillic letters in this exact two-row layout:
+А О М С
+К Т Л Б
+Subject: capital block letters written by the same child as the approved complete alphabet master
+Style/medium: thin dark graphite pencil; slightly crooked and uneven; subtle doubled strokes; localized smudges and pencil dust; imperfect corners; fully legible; use the approved hooked Cyrillic Л
+Composition/framing: four letters per row, very large even cells, generous empty space around every glyph, common baseline, comparable cap height
+Constraints: preserve the handwriting identity of the complete master; keep smudges local to each letter; no marks connecting adjacent glyphs
+Avoid: digital font, calligraphy, marker, charcoal, clean vector geometry, general paper dirt, decorative effects, glow, shadows, labels, extra letters
+
+Production note: the returned image contained a baked checkerboard rather than real transparency. It was used only as a grouped source panel. Final production PNGs were extracted to genuine alpha canvases and verified separately.

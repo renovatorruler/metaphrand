@@ -1,0 +1,14 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "stage": "refs",
+  "approvedBy": "author",
+  "approvedOn": "2026-08-13",
+  "subjects": {
+    "SET-ROOF-01": "SET-ROOF-01_author_master.png — AUTHOR-SUPPLIED asset. The human house roof from outside: dark slate tiles with terracotta ridge caps, a red brick chimney, low-poly faceted clouds in a clear blue sky. Баба-Яга flies at upper left in her ступа with a white vortex already curling around the mortar, birch broom in one hand and the rag помело in the other."
+  },
+  "rulings": {
+    "pestleAndBundles": "SETTLED against the shooting script. This plate shows NO pestle across the rim and NO cloth bundles lashed to the mortar, matching the approved ступа sheet (packet page-13). SH034's «Пест лежит поперёк борта … свёртки крепко привязаны» is superseded.",
+    "supersedes": "SET-ROOF-01_approved_plate.jpg — a photograph that was never approved, quarantined 2026-08-13 in _unapproved/."
+  },
+  "openQuestion": "Scale in flight is not settled by this plate and must not be inferred from it."
+}

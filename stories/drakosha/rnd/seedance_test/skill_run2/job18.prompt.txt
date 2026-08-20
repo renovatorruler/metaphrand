@@ -1,0 +1,41 @@
+SCENE CONTEXT
+A soot-black hatch bursts open in a hidden passage; a tiny mortar comes through, a plaster seam opens, and an old woman with her mortar, pestle, broom, and bundles enters the tiny home before the wall closes behind her.
+
+ACTIVE REFERENCES
+None. All content described.
+
+LOCATION MAP
+A short soot-blackened passage runs between the stove's metal cleanout hatch and a hidden seam in the home's plaster wall. Beyond the seam: the warm main room of the tiny home.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Shot A opens inside the dark passage facing the closed metal cleanout hatch at its far end. Soot dust hangs in the air.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Four shots. HARD CUTS only.
+Shot A, 0:00 to 0:02: the metal hatch bursts open with a hollow boom; a cloud of black soot rushes toward the camera and fills the frame completely.
+HARD CUT.
+Shot B, 0:02 to 0:04: same passage: as the soot thins, the miniature wooden mortar glides through the open hatch — BABA YAGA aboard, pestle across the rim, broom behind, bundles lashed — and the hatch claps shut behind it.
+HARD CUT.
+Shot C, 0:04 to 0:06: at the passage's other end, facing the dark plaster seam from inside the passage: the seam splits and swings open like a hidden door, warm room light flooding in from beyond.
+HARD CUT.
+Shot D, 0:06 to 0:08: from inside the warm room, facing the open seam: BABA YAGA and her whole rig pass through into the room; behind her the opening draws closed and becomes an ordinary dark crack in the plaster again, with a soft scrape.
+
+OPTICS
+Shots A and B: 47° standard normal inside the tight passage, deep focus, soot particles readable.
+Shots C and D: 47° standard normal, warm light blooming through the opening.
+No lens drift inside any shot.
+
+CAMERA
+Static locked frames only.
+
+PHYSICS
+Soot behaves as fine black dust: it billows, hangs, and settles on surfaces. The hatch has metal weight and slams with rebound. The mortar glides at walking pace with its bundles swinging slightly. The plaster seam opens and closes as a heavy hidden mechanism, scraping softly.
+
+LIGHTING
+The passage is near-dark, lit by thin spill through the hatch; the room beyond the seam glows warm. Strong contrast between the sooty dark and the hearth light. No flat lighting.
+
+AUDIO
+The hollow BOOM of the hatch; soot hiss; the metallic clap of the hatch closing; the soft plaster scrape as the seam opens and closes. No dialogue. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+The mortar fits the passage with room to spare. No fire, no sparks — soot and air only. The seam is fully closed and ordinary-looking in the final second.

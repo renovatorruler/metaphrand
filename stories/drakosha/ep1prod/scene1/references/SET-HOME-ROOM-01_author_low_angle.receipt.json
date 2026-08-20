@@ -1,0 +1,12 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "stage": "refs",
+  "approvedBy": "author",
+  "approvedOn": "2026-08-14",
+  "subjects": {
+    "SET-HOME-ROOM-01-LOW": "SET-HOME-ROOM-01_author_low_angle.png — AUTHOR-SUPPLIED second camera height of the SAME hall. Camera near floor level looking down the room, boards filling the lower half, the cradle cropped large in the near left foreground, the table and sealed iron plate at the far end."
+  },
+  "rulings": {
+    "companionNotReplacement": "This does NOT supersede the v4 master. The two are bound together so the model learns the room from two heights instead of one. Binding a single frontal view is what made every generated shot repeat that one camera position."
+  }
+}

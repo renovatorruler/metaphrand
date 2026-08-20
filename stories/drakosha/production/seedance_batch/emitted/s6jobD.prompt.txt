@@ -1,0 +1,65 @@
+ACTIVE REFERENCES
+@YAGA — её зовут Бабушка-Яга — old grandmother house-spirit, mushroom-red polka-dot kerchief, patched skirt and shawl, gold tooth, warm sly face. 100% matches the reference.
+@FROSYA — её зовут Фрося — the ELDEST of the family's FOUR children: orange flower in her hair, safety pin on her patchwork dress. 100% matches the reference.
+@VASYA — его зовут Вася — the SECOND of the family's FOUR children, younger than Фрося and older than Руся and Муся: enormous bushy eyebrows, shoelace belt. 100% matches the reference.
+@ROOM_FRONT: the family's hall inside the old bricked-up fireplace — boulder-brick walls, a riveted iron plate as the far wall, plank floor, a garland of coloured bulbs, a plank-on-spools table, matchbox beds along the left wall, a small dark iron cleanout hatch low in the left wall, a rope-railed floor opening at the right. 100% matches the reference.
+@PENCIL: the magic pencil — a short stubby faceted wooden pencil in warm honey-toned wood, sharpened to a dark graphite point, no paint and no ferrule. 100% matches the reference.
+
+SCALE
+@YAGA at house-spirit size stands about 3.60 in / 9.1 cm — the same order as the parents, never towering over them.
+Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.
+Вася is shorter than Фрося, about up to her eyebrows.
+The furniture is lost human things at this size: matchbox beds, a plank laid on thread spools, thimbles on the shelf, fairy-light bulbs overhead.
+@PENCIL is sized for @FROSYA's own hand — it sits in her palm, she writes with it one-handed, and it fits behind her ear. It is NOT a giant human pencil and never dwarfs her.
+
+SCENE CONTEXT
+The grandmother tells them their gifts share one secret, and we turn to see it land on both children at once.
+
+ALL DIALOGUE IS IN RUSSIAN. Speak exactly the line below, in Russian, and nothing else. No English anywhere.
+
+WHERE WE ARE
+The open plank floor of the hall, clear of the table. Nobody changes position. The table and the rest of the family are behind the camera and never appear.
+
+REACTIONS — WHAT THE FACES DO
+A reference sheet fixes who a character IS, not what their faces do. Nobody holds one expression.
+Бабушка-Яга: the sly warmth has come back after the seriousness of the rule, and it widens as she says it — she is enjoying knowing something they do not.
+Фрося: delight going out of her and suspicion arriving — by the end of the shot she is frowning.
+Вася: still pleased and a beat behind, then he checks Фрося's face and copies it, the way he does everything.
+
+HANDS — WHAT EVERY PAIR IS DOING
+Бабушка-Яга: BOTH HER HANDS ARE EMPTY AND STAY EMPTY. They are folded together low at her waist, one over the other, and they do not come up. She is carrying nothing, she is leaning on nothing, and nothing is propped against her.
+Фрося: both hands wrapped around the pencil, held flat against her chest under her chin.
+Вася: both hands hang loose and empty at his sides.
+
+WHO IS IN EACH SHOT — AND NOBODY ELSE
+Мама, Папа, Руся and Муся do not appear anywhere in this job. Shot A: Бабушка-Яга alone. Shot B: Фрося and Вася, with the back of Бабушка-Яга's shoulder and kerchief as a large soft shape in the near corner — her shoulder only, never her face.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE, two shots, ONE HARD CUT, no fades.
+
+Shot A, 0:00–0:05.5 — CLOSE ON БАБУШКА-ЯГА, hall soft behind her, gold tooth showing. She looks off to SCREEN RIGHT where the two children are. Slyly, pleased with herself:
+БАБУШКА-ЯГА: «Пода́рки у вас ра́зные, а секре́т у них оди́н на двои́х.»
+HARD CUT.
+
+Shot B, 0:05.5–0:08 — ON ФРОСЯ AND ВАСЯ TOGETHER, shot OVER БАБУШКА-ЯГА'S SHOULDER from where she stands. The two of them side by side, Фрося holding the pencil against her chest. Neither speaks. We watch the word "секрет" land: Фрося's pleasure goes out and her brows come down; Вася looks at Фрося first, sees her face change, and only then loses his own.
+
+OPTICS
+29° short telephoto throughout, close framing by lens reach not proximity. Shot B carries an oversized soft shoulder in the near corner. Rectilinear, no fisheye, no vignette, no iris.
+
+BACKGROUNDS
+Behind БАБУШКА-ЯГА: the hall running away, soft and out of focus — never red brick.
+Behind ФРОСЯ AND ВАСЯ: the hall running away from them, soft and out of focus — never red brick.
+
+SOUND
+Low room tone. Her one line, then two and a half seconds carrying only the room. No music, no subtitles, no narrator.
+
+SHOT RULES
+Only Бабушка-Яга speaks. Фрося and Вася say nothing at all in this job, and in Shot B no lips move.
+Бабушка-Яга is at her small домовой size and has NO broom in any frame.
+Вася holds NOTHING. Фрося holds only the pencil.
+The walls are ENORMOUS pale sandstone boulder-blocks, each bigger than a character's whole body — never small or normal-scale masonry.
+NO fire, NO chest, NO table, NO food.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @YAGA, @FROSYA, @VASYA. Every character matches their reference exactly. The set and props are @ROOM_FRONT, @PENCIL, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

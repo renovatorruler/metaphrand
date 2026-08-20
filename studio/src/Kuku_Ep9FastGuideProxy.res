@@ -160,8 +160,12 @@ let addManualCandidates = (~repoRoot, ~manualPath, ~byOrder) => {
     let row = objectOf(json, where)
     let order = intField(row, "order", where)
     let key = Belt.Int.toString(order)
+    /* Manual candidates SUPERSEDE derived lines (story-logic delta v1, 2026-08-19: orders
+       105/106/202 were re-recorded with corrected text, so the derived timing for those
+       orders is stale by design). The retimer already resolves the same collision the same
+       way — manual wins — and the two must agree or picture and sound drift apart. */
     if Js.Dict.get(byOrder, key) != None {
-      fail("manual-review order unexpectedly duplicates derived order " ++ key)
+      Js.Console.log("  manual candidate supersedes derived order " ++ key)
     }
     Js.Dict.set(byOrder, key, {
       order,
@@ -265,7 +269,7 @@ let loadChunkWindows = edlPath => {
 }
 
 
-/* Line-level beat anchors (ep9_dialogue_beat_anchors.v1.json): order -> beat id, authored by
+/* Line-level beat anchors (ep9_dialogue_beat_anchors.v2.json): order -> beat id, authored by
    content match. Highest-precedence scheduling authority; chunk windows remain the fallback
    for any unanchored line. */
 let loadLineAnchorWindows = (~anchorPath, ~edlPath) => {
@@ -284,16 +288,39 @@ let loadLineAnchorWindows = (~anchorPath, ~edlPath) => {
   let anchors = field(anchorsRoot, "anchors", "dialogue beat anchors")
     ->objectOf("dialogue beat anchors.anchors")
   let byOrder: Js.Dict.t<sceneWindow> = Js.Dict.empty()
-  Js.Dict.entries(anchors)->Belt.Array.forEach(((order, beatJson)) =>
-    switch Js.Json.decodeString(beatJson) {
-    | Some(beatId) =>
-      switch Js.Dict.get(beatWindows, beatId) {
-      | Some(w) => Js.Dict.set(byOrder, order, w)
-      | None => fail("dialogue anchor references unknown beat " ++ beatId)
+  Js.Dict.entries(anchors)->Belt.Array.forEach(((order, beatJson)) => {
+    let (beatId, leadIn) = switch Js.Json.decodeString(beatJson) {
+    | Some(id) => (id, 0.0)
+    | None =>
+      switch Js.Json.decodeObject(beatJson) {
+      | Some(o) => {
+          let id = switch Js.Dict.get(o, "beat") {
+          | Some(v) =>
+            switch Js.Json.decodeString(v) {
+            | Some(id) => id
+            | None => fail("anchor " ++ order ++ " beat is not a string")
+            }
+          | None => fail("anchor " ++ order ++ " has no beat")
+          }
+          let lead = switch Js.Dict.get(o, "leadIn") {
+          | Some(v) =>
+            switch Js.Json.decodeNumber(v) {
+            | Some(n) => n
+            | None => 0.0
+            }
+          | None => 0.0
+          }
+          (id, lead)
+        }
+      | None => fail("dialogue anchor for order " ++ order ++ " is not a string or object")
       }
-    | None => fail("dialogue anchor for order " ++ order ++ " is not a beat id string")
     }
-  )
+    switch Js.Dict.get(beatWindows, beatId) {
+    | Some(w) =>
+      Js.Dict.set(byOrder, order, {start: w.start +. leadIn, duration: w.duration -. leadIn})
+    | None => fail("dialogue anchor references unknown beat " ++ beatId)
+    }
+  })
   byOrder
 }
 
@@ -375,11 +402,14 @@ let build = (~silentVideo, ~guide, ~proxy): result => {
   if !exists(Path(silentVideo)) {
     fail("silent animatic does not exist: " ++ silentVideo)
   }
+  /* the main story is as long as the picture — it grows when paid clips must play whole */
+  let Seconds(silentSeconds) = probeDuration(Path(silentVideo))
+  let mainSeconds = Js.Float.toString(Js.Math.round(silentSeconds))
   let finaleRoot = dirname(dirname(silentVideo))
   let repoRoot = resolve2(finaleRoot, "../../../..")
   let ep9Root = dirname(finaleRoot)
   let planPath = ep9Root ++ "/ep9_table_read_plan_v2_dream.json"
-  let edlPath = finaleRoot ++ "/manifests/ep9_finale_animatic_edl.v3.json"
+  let edlPath = finaleRoot ++ "/manifests/ep9_finale_animatic_edl.v4.json"
   let derivedDirectory = finaleRoot ++ "/audio/alignment/stem_validation/derived"
   let manualPath = finaleRoot ++
     "/audio/EP9_DIALOGUE_MANUAL_REVIEW_kuku-ep9-finale-dialogue-v5-candidate-content-bound.json"
@@ -391,22 +421,27 @@ let build = (~silentVideo, ~guide, ~proxy): result => {
   addMimic(~mimicPath, ~byOrder)
   let lines = Js.Dict.values(byOrder)
   Js.Array2.sortInPlaceWith(lines, (left, right) => left.order - right.order)->ignore
-  if Belt.Array.length(lines) != 138 {
+  /* 140 = 131 derived (3 of them superseded in place by re-recorded manual candidates)
+     + 6 original manual candidates + 2 new delta lines (orders 95, 96) + 1 mimic. */
+  if Belt.Array.length(lines) != 140 {
     fail(
-      "expected 131 derived lines, six manual candidates, and one mimic; found " ++
+      "expected 140 lines after story-logic delta v1; found " ++
       Belt.Int.toString(Belt.Array.length(lines)),
     )
   }
   let speechSeconds = lines->Belt.Array.reduce(0.0, (sum, line) => sum +. line.duration)
-  if speechSeconds < 468.0 || speechSeconds > 469.0 {
-    fail("guide source duration drifted from approximately 468.5 seconds")
+  if speechSeconds < 465.0 || speechSeconds > 495.0 {
+    fail(
+      "guide source duration drifted outside the post-delta window: " ++
+      Js.Float.toFixedWithPrecision(speechSeconds, ~digits=1),
+    )
   }
   lines->Belt.Array.forEach(line =>
     if !exists(Path(line.path)) {
       fail("guide source does not exist for order " ++ Belt.Int.toString(line.order) ++ ": " ++ line.path)
     }
   )
-  let scheduled = scheduleLines(~lines, ~windows=loadSceneWindows(edlPath), ~chunkByOrder=loadChunkByOrder(planPath), ~chunkWindows=loadChunkWindows(edlPath), ~lineWindows=loadLineAnchorWindows(~anchorPath=finaleRoot ++ "/manifests/ep9_dialogue_beat_anchors.v1.json", ~edlPath))
+  let scheduled = scheduleLines(~lines, ~windows=loadSceneWindows(edlPath), ~chunkByOrder=loadChunkByOrder(planPath), ~chunkWindows=loadChunkWindows(edlPath), ~lineWindows=loadLineAnchorWindows(~anchorPath=finaleRoot ++ "/manifests/ep9_dialogue_beat_anchors.v2.json", ~edlPath))
 
   ensureDirPath(Path(dirname(guide)))
   ensureDirPath(Path(dirname(proxy)))
@@ -428,34 +463,77 @@ let build = (~silentVideo, ~guide, ~proxy): result => {
       Belt.Int.toString(index) ++ "]",
     )->ignore
   })
-  let mixInputs = Belt.Array.range(0, Belt.Array.length(scheduled) - 1)
+  /* Sound effects ride the same mix, under the dialogue. Their timeline stores absolute
+     episode seconds; the guide track starts at 2:15, so subtract that offset. A missing
+     timeline simply means the SFX pass has not run yet — the guide still builds. */
+  let sfxPath = finaleRoot ++ "/manifests/ep9_sfx_timeline.v1.json"
+  let sfxCount = ref(0)
+  if exists(Path(sfxPath)) {
+    let sfxRoot = readObject(sfxPath, "sfx timeline")
+    arrayField(sfxRoot, "cues", "sfx timeline")->Belt.Array.forEach(cueJson => {
+      let cue = objectOf(cueJson, "sfx cue")
+      let path = resolve2(finaleRoot ++ "/manifests", stringField(cue, "path", "sfx cue"))
+      if exists(Path(path)) {
+        let startMs = Belt.Float.toInt(
+          (floatField(cue, "startSeconds", "sfx cue") -. 135.0) *. 1000.0,
+        )
+        if startMs >= 0 {
+          let index = Belt.Array.length(scheduled) + sfxCount.contents
+          Js.Array2.push(inputArgs, "-i")->ignore
+          Js.Array2.push(inputArgs, path)->ignore
+          Js.Array2.push(
+            filters,
+            "[" ++ Belt.Int.toString(index) ++ ":a]aresample=48000," ++
+            "aformat=sample_fmts=fltp:channel_layouts=stereo,asetpts=PTS-STARTPTS," ++
+            "volume=" ++ Js.Float.toString(floatField(cue, "gain", "sfx cue")) ++ "," ++
+            "adelay=delays=" ++ Belt.Int.toString(startMs) ++ ":all=1[a" ++
+            Belt.Int.toString(index) ++ "]",
+          )->ignore
+          sfxCount := sfxCount.contents + 1
+        }
+      }
+    })
+  }
+  Js.Console.log(Belt.Int.toString(sfxCount.contents) ++ " sound effects mixed under the dialogue")
+
+  let totalInputs = Belt.Array.length(scheduled) + sfxCount.contents
+  let mixInputs = Belt.Array.range(0, totalInputs - 1)
     ->Belt.Array.map(index => "[a" ++ Belt.Int.toString(index) ++ "]")
     ->Js.Array2.joinWith("")
   let filterComplex = filters->Js.Array2.joinWith(";") ++ ";" ++ mixInputs ++
-    "amix=inputs=" ++ Belt.Int.toString(Belt.Array.length(scheduled)) ++
+    "amix=inputs=" ++ Belt.Int.toString(totalInputs) ++
     ":duration=longest:dropout_transition=0:normalize=0," ++
-    "alimiter=limit=0.95,apad=whole_dur=720,atrim=0:720[aout]"
+    "alimiter=limit=0.95,apad=whole_dur=" ++ mainSeconds ++ ",atrim=0:" ++ mainSeconds ++ "[aout]"
   ffmpeg(Belt.Array.concatMany([
     inputArgs,
     [
-      "-filter_complex", filterComplex, "-map", "[aout]", "-t", "720", "-c:a", "aac",
+      "-filter_complex", filterComplex, "-map", "[aout]", "-t", mainSeconds, "-c:a", "aac",
       "-b:a", "160k", "-ar", "48000", "-ac", "2", "-movflags", "+faststart", guide,
     ],
   ]))
 
+  /* Letter-of-the-day bug: the episode's ब rides the top-right corner for the whole
+     runtime (parent's request; top-left belongs to the shot chip). Burned into the review
+     proxy here; the final-episode assembler must add the same overlay to its master. */
+  let bug = finaleRoot ++ "/local/fx/ba_bug.png"
   ffmpeg([
-    "-nostdin", "-v", "error", "-y", "-i", silentVideo, "-i", guide,
-    "-map", "0:v:0", "-map", "1:a:0", "-vf", "scale=960:540:flags=lanczos",
+    "-nostdin", "-v", "error", "-y", "-i", silentVideo, "-i", guide, "-i", bug,
+    "-filter_complex",
+    "[0:v]scale=960:540:flags=lanczos[v];" ++
+    "[2:v]format=rgba,colorchannelmixer=aa=0.55[bug];" ++
+    "[v][bug]overlay=W-w-14:12[vout]",
+    "-map", "[vout]", "-map", "1:a:0",
     "-c:v", "libx264", "-preset", "veryfast", "-crf", "27", "-pix_fmt", "yuv420p",
     "-r", "24", "-c:a", "aac", "-b:a", "128k", "-ar", "48000", "-ac", "2",
-    "-t", "720", "-movflags", "+faststart", proxy,
+    "-t", mainSeconds, "-movflags", "+faststart", proxy,
   ])
 
   let Seconds(guideDuration) = probeDuration(Path(guide))
   let Seconds(proxyDuration) = probeDuration(Path(proxy))
-  if Js.Math.abs_float(guideDuration -. 720.0) > 0.05 ||
-    Js.Math.abs_float(proxyDuration -. 720.0) > 0.05 {
-    fail("guide or proxy duration is not exactly 720 seconds")
+  let want = Belt.Float.fromString(mainSeconds)->Belt.Option.getWithDefault(720.0)
+  if Js.Math.abs_float(guideDuration -. want) > 0.05 ||
+    Js.Math.abs_float(proxyDuration -. want) > 0.05 {
+    fail("guide or proxy duration does not match the main-story length")
   }
   let probe = run(
     ~cmd="ffprobe",

@@ -1,0 +1,14 @@
+# EP1 scenes 2–4 · job → cast + props manifest. Derived from the shooting script (SH018–SH046), 2026-08-08.
+# Columns: JOB	SHOTS	CAST (comma-sep tokens)	PROPS/SETS (comma-sep tokens)	START_IMAGE
+# Tokens resolve to reference files via ref_map.tsv. This file is the SINGLE SOURCE OF TRUTH:
+# preflight.sh both verifies prompts against it and emits the --image-references bindings from it.
+10	SH018-020	FROSYA,VASYA,MAMA,PAPA,BABIES	ROOM,TOP_COVERED	kf10.png
+11	SH021-023	FROSYA,VASYA,PAPA	ROOM,TOP	kf11_r3.png
+12	SH024-027	FROSYA,VASYA,PAPA,MAMA,BABIES	ROOM,TOP	kf12.png
+13	SH028-029	MAMA,FROSYA,BABIES	ROOM,TIN,TOP	kf13_crop_v2.png
+14	SH030-032	FROSYA,MAMA,BABIES	ROOM,TIN	kf14_crop_v2.png
+15	SH033-035	YAGA_FLIGHT	ROOF,STUPA	kf15.png
+16	SH036-038	YAGA_FLIGHT	ROOF,STUPA	kf16.png
+17	SH039-041	FROSYA,VASYA,MAMA,PAPA,BABIES	ROOM,DOOR	kf17_r4.png
+18	SH042-043	YAGA_FLIGHT	DOOR,STUPA	kf18_r2.png
+19	SH044-046	YAGA_DOMOVOY,FROSYA,VASYA,MAMA,PAPA,BABIES	ROOM,DOOR,STUPA	kf19.png

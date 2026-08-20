@@ -1,0 +1,13 @@
+{
+  "model": "seedance_2_5",
+  "duration": 12,
+  "startImage": "",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-05.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-04.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-08.png",
+    "../stories/drakosha/ep1prod/scene1/references/SET-HOME-ROOM-01_author_master_v4_hatch_cradle-clear.png",
+    "../stories/drakosha/ep1prod/scene1/references/R-EP1-TOP-01_approved_author.png"
+  ],
+  "promptSha256": "aae2e23726de019ed970c62c1a3a675473389bbc7b60c34c53c31965e3dd591a"
+}

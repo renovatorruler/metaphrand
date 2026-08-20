@@ -1,0 +1,50 @@
+ACTIVE REFERENCES
+@YAGA — её зовут Бабушка-Яга — old grandmother witch in human flight form, patched skirt, streaming headscarf, standing braced in her flying wooden mortar. 100% matches the reference.
+@ROOF: the human house from outside — a long roof of dark slate tiles capped with a terracotta ridge, one red brick chimney standing up from it, clear blue sky with low-poly faceted white clouds. 100% matches the reference.
+@STUPA: Баба-Яга's ступа — a carved wooden mortar in bare unpainted faceted wood, tapering in at the middle and standing on a stepped round foot, its mouth open and EMPTY. Indoors it stands empty and upright on the floorboards and she stands on the floor beside it, never inside it. 100% matches the reference.
+
+SCALE
+@YAGA in human flight form stands about 147 cm — SIXTEEN TIMES the family's size. She is a full-grown human woman here.
+@STUPA comes up to about @YAGA's waist.
+
+SCENE CONTEXT
+The old woman commands her mortar; wind spins her whole rig into a tight spiral that shrinks it tiny, and the spiral drops into the chimney.
+
+LOCATION MAP
+The sky directly above the human house's brick chimney. Morning light from screen-right.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Shot A opens close on Яга in the hovering mortar above the chimney, still at full human size; she plants her feet wider and grips the rim with both hands.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Three shots. HARD CUTS only.
+Shot A, 0:00 to 0:02: close on her bracing in the mortar, full human size; she calls out in Russian, commanding and cheerful: «Ну, роди́мые, закрути́лись!»
+HARD CUT.
+Shot B, 0:02 to 0:06: distant view of the roof: the white curl already turning around her winds up hard and becomes a proper little tornado — a tight spinning funnel of air and leaves that swallows the mortar, the woman and her broom completely. The funnel narrows and shrinks as it turns, until what is left is small enough to fit down a chimney.
+HARD CUT.
+Shot C, 0:06 to 0:08: from above the chimney looking down: the little tornado leans over the chimney mouth and pours down into it, tail last, and is gone. The roof stands empty and quiet.
+
+OPTICS
+Shot A: 29° short telephoto portrait, her face and grip sharp, sky dissolved behind. Her gold tooth shows when she calls out.
+Shots B and C: 47° standard normal, deep focus, stable straight lines.
+No lens drift inside any shot.
+
+CAMERA
+Static locked frames. The spiral does its work inside a motionless frame.
+
+PHYSICS
+The tornado is wind made visible: it accelerates its rotation, pulls in stray leaves, and narrows as it spins, exactly as a real funnel tightens. Going down the chimney it behaves like a funnel finding a hole — it leans, narrows to fit, and pours in. Nothing explodes, nothing flashes; it is wind craft, not magic sparkle.
+
+LIGHTING
+Bright morning sun from screen-right; the spiral catches light on its edges. No flat lighting.
+
+AUDIO
+Her single commanding Russian line in shot A; then wind winding upward in pitch through shot B; a soft whoosh and sudden quiet in shot C. No music, no subtitles.
+
+SHOT RULES
+Only the scripted line is spoken. No sparkles, no glowing magic effects — wind and air only. The roof is empty in the final second. SCALE LOCK: she enters this shot at her flying size and the shrink happens ONLY inside the tornado in shot B, hidden by it. She is never seen at two sizes in one frame, and she is never seen inside the chimney.
+Dialogue lock: only the lips of Яга move, and only during her command in shot A. No offscreen voices.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @YAGA. Every character matches their reference exactly. The set and props are @ROOF, @STUPA, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

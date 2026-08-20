@@ -1,0 +1,11 @@
+{
+  "model": "seedance_2_5",
+  "duration": 8,
+  "startImage": "",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-12.png",
+    "../stories/drakosha/ep1prod/scene1/references/SET-ROOF-01_author_master.png",
+    "../stories/drakosha/ep1prod/scene1/references/PROP-STUPA-01_author_solo.png"
+  ],
+  "promptSha256": "7044c3be45c906957d79758fd132116cdcbcd0555dc33aa58da2e3b2493c55b7"
+}

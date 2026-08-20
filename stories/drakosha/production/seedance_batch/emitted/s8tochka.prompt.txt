@@ -1,0 +1,45 @@
+ACTIVE REFERENCES
+@FROSYA — её зовут Фрося — the ELDEST of the family's FOUR children: orange flower in her hair, safety pin on her patchwork dress. 100% matches the reference.
+
+SCALE
+Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.
+
+THE FINAL MARK — the beat that ends every word Фрося writes, and the one clip in the transformation that never changes. She lowers the pencil and presses a single deliberate dot, then lifts it clear. Generated once and reused in every transformation for the rest of the series.
+
+Closer framing than the writing loop: her head, both hands, the pencil and the paper. The glowing word is out of shot to the left and must not appear.
+
+DIALOGUE
+nobody speaks. Her mouth stays closed for the whole clip. The word «То́чка» is recorded separately and lip-synced onto this footage afterwards, so any mouth movement generated here would have to be undone.
+
+MOUTH
+Lips closed and pressed together from the first frame to the last. The jaw does not open. No shape belonging to a spoken word crosses her mouth at any point.
+
+CAMERA
+Locked off. No push, no drift, no reframe, no zoom.
+
+WHAT SHE DOES, IN ORDER
+She holds still for a moment with the pencil raised just clear of the paper, then lowers it in one unhurried movement and presses the point down onto the page — a single firm dot, made deliberately, the way a child ends a sentence when they know it matters. She holds the pressure for an instant, then lifts the pencil straight up and away from the paper and stops. Her eyes come up off the page at the very end.
+
+TIMING
+About a second and a half holding and lowering, the press, then the lift, and the last half second still with her eyes coming up — the frame the cut to the transformation is made on.
+
+FACES
+Фрося is concentrating and deliberate. Both eyebrows drawn down and in with a small crease between them, eyes narrowed and fixed on the point where the pencil will land, nostrils slightly flared, lips closed and pressed, cheeks still. On the press her brows tighten a fraction further. When she lifts the pencil the crease releases and her eyes come up, but her mouth stays closed and she does not smile.
+
+HANDS — Фрося: her right hand holds the pencil in a child's grip, thumb and first two fingers near the sharpened end, and it makes the whole movement — down, press, straight up. Her left hand stays flat under the paper holding it steady against her knee and does not slide or lift.
+
+BACKGROUNDS
+Behind Фрося the framing shows no wall — she kneels in an unlit warm space with nothing behind her but darkness and a soft pool of lamplight. Nothing enters the background and nothing lights up in it.
+
+GLYPHS
+NOT READABLE. The paper stays blank from the first frame to the last. No marks, no lines, no letters and no dot appear on it — not even the dot she is making. The mark and the glowing point are the author's artwork and are composited afterwards, which is what lets this one clip serve every word in the series.
+
+PROPS
+One pencil: plain faceted wood, one sharpened end with a dark graphite tip, the other end blunt, flat and bare — no paint, no metal band, no second point. One sheet of unlined blank paper on her knee, held flat.
+
+WHAT MUST NOT HAPPEN
+Her lips do not part and her jaw does not open. No mark of any kind appears on the paper. No glowing letters enter the frame. The camera does not move. Her clothes, hair, flower and safety pin do not change. She does not stand, turn, or look at the camera. The pencil grows no second point and does not change length.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @FROSYA. Every character matches their reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

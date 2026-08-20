@@ -1,0 +1,62 @@
+ACTIVE REFERENCES
+@FROSYA — её зовут Фрося — the ELDEST of the family's FOUR children: orange flower in her hair, safety pin on her patchwork dress, no pencil. 100% matches the reference.
+@VASYA — его зовут Вася — the SECOND of the family's FOUR children, younger than Фрося and older than Руся and Муся: enormous bushy eyebrows, shoelace belt. 100% matches the reference.
+@PAPA — его зовут Папа — the father: short and stocky, huge beard, blue work shirt with suspenders, iron key on a cord. 100% matches the reference.
+@MAMA — её зовут Мама — the mother: blonde braid, red-and-gold striped kerchief, cream apron over a dark red skirt. 100% matches the reference.
+@BABIES: the two SMALLEST of the family's four children and no others — Руся, a toddler boy with an orange-brown tufted topknot, and Муся, the youngest, a baby girl with one curling wisp of hair and patched pink cloth. No others anywhere; the matchbox beds are empty. 100% matches the reference.
+@ROOM_FRONT: the family's hall inside the old bricked-up fireplace — boulder-brick walls, a riveted iron plate as the far wall, plank floor, a garland of coloured bulbs, a plank-on-spools table, matchbox beds along the left wall, a small dark iron cleanout hatch low in the left wall, a rope-railed floor opening at the right. 100% matches the reference.
+@TOP: the mended юла́ — a red and cream striped wooden spinning top, metal staples and wood patches over its mends, a rope pull-toggle at the neck, and two little wooden chairs on opposite shoulders. 100% matches the reference.
+
+SCALE
+Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.
+Вася is shorter than Фрося, about up to her eyebrows.
+Папа is the tallest, about a head above Мама.
+Мама is a little taller than Фрося.
+@BABIES are far smaller: РУСЯ about 1.9 in, and МУСЯ smaller still — each fits along one of @MAMA's forearms.
+The furniture is lost human things at this size: matchbox beds, a plank laid on thread spools, thimbles on the shelf, fairy-light bulbs overhead.
+@TOP is as tall as Фрося and about three-quarters of Папа's height — a heavy, chunky object. Its two chairs are sized for these two children, one child per chair.
+
+SCENE CONTEXT
+The two tiny children ride the spinning top while their father spins it and the two babies squeal in their mother's arms.
+
+LOCATION MAP
+Center of the hall inside the old bricked-up fireplace, plank floor, giant sandstone boulder-brick walls, bulb garland overhead. Mended юла́: a wooden spinning top painted in red and cream horizontal stripes, a long crack down one side closed with a row of metal staples, square patches of mismatched wood stapled over the worn places, a tall narrow neck at the top with a knob cap, a rope wound around that neck ending in a wooden pull-toggle, and two small wooden chairs fixed on opposite shoulders — each with a slatted back, armrests, and a stitched patchwork cushion stands mid-floor with the two children seated in its two chairs on opposite sides. Папа stands at the юла́'s neck with the rope pull-toggle in his hand. Мама with both babies at the room's edge, midground.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Shot A opens with both children just settled into the two chairs on opposite shoulders of the юла́, having climbed aboard a moment earlier, each gripping their chair's armrests, the loose end of Вася's shoelace belt tucked under its loops. Папа stands at the neck holding the rope pull-toggle.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Four shots. HARD CUTS only.
+Shot A, 0:00 to 0:03: side view, the whole юла́ in frame: the children settle their grips on the armrests; the hand of Папа closes on the wooden pull-toggle and takes up the slack in the rope.
+HARD CUT.
+Shot B, 0:03 to 0:05: close on the юла́'s neck: Папа pulls the rope straight out in one strong steady haul; the rope unwinds off the neck and the юла́ starts to spin.
+HARD CUT.
+Shot C, 0:05 to 0:09: from across the room, static: the юла́ spins fast in the center of the floor, the two children a laughing blur holding on, their hair and clothes streaming with the rotation. The camera does not move or follow the spin. Both children squeal and laugh — joy, not fear.
+HARD CUT.
+Shot D, 0:09 to 0:12: close on the two babies in the arms of Мама: the thin baby boy and the round-cheeked baby girl track the spinning blur with wide eyes — a beat of silence — then both erupt in a squeal even louder than the older children's.
+
+OPTICS
+Shots A and B: 47° standard normal; shot B close on hands and handle.
+Shot C: 84° classic wide from across the room, full spatial context, rectilinear lines.
+Shot D: 29° short telephoto portrait on the babies, background softly dissolved.
+No lens drift inside any shot.
+
+CAMERA
+All static locked frames. The spin happens inside a motionless frame.
+
+PHYSICS
+The юла́ spins with true gyroscopic behavior: fast stable rotation, a slight wander across the plank floor, gradual precession. The rope leaves the hand of Папа fully unwound and hangs loose. The riders lean into the spin, hair and patchwork streaming outward with centrifugal pull. The pull carries real effort and follow-through. No impossible acceleration, no weightlessness.
+
+LIGHTING
+Warm hearth and lamp light; the spinning юла́ throws soft moving gleams around the room. No flat front light.
+
+AUDIO
+The rope hissing off the neck and a rising whoosh as the юла́ takes speed; the children's squealing laughter through shots C and D; the babies' answering squeal in shot D louder still; stove crackle underneath. No dialogue. No music, no subtitles.
+
+SHOT RULES
+Exactly two riders, one per chair. Папа lets go of the toggle after the pull and stays clear. No twist handle, no crank — the юла́ is started by a rope pull only. The camera never spins with the top. Joyful faces throughout, no fear.
+Nobody speaks in this sequence.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @FROSYA, @VASYA, @PAPA, @MAMA, @BABIES. Every character matches their reference exactly. The set and props are @ROOM_FRONT, @TOP, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

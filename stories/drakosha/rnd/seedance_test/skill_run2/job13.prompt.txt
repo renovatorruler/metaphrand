@@ -1,0 +1,37 @@
+SCENE CONTEXT
+The tiny mother gives her daughter a flat box; inside, sharpened colored pencil cores rest in neat slots.
+
+ACTIVE REFERENCES
+@FROSYA: 7yo tiny house-spirit girl, huge dark curly mane with a pencil stub in it, patchwork dress, barefoot. 100% matches the reference.
+
+LOCATION MAP
+Beside the thread-spool table. The spinning top now stands still against the far wall. MAMA (round soft house-spirit mother, candy-wrapper kerchief, patchwork apron, thin baby boy on her arm, round baby girl on her back) approaches Frosya with a small flat box.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Shot A opens with MAMA already walking the last steps toward @FROSYA, the flat box held out in her free hand, the stopped top visible against the far wall behind them.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Two shots. HARD CUTS only.
+Shot A, 0:00 to 0:05: by the table: MAMA offers the flat box and speaks in Russian, warm: «А это я для тебя весь год собирала.» Frosya takes it with both hands, eyes on the lid.
+HARD CUT.
+Shot B, 0:05 to 0:08: from directly above the opened box: short sharpened colored pencil cores lie in separate fabric slots — red, blue, green, yellow, more. Frosya's fingers hover over the whole set without touching, taking it all in.
+
+OPTICS
+Shot A: 47° standard normal at child height.
+Shot B: 29° detail lens character straight down into the box, cores razor-sharp, shallow depth, edges soft.
+No lens drift inside any shot.
+
+CAMERA
+Static locked frames only.
+
+PHYSICS
+The box has small real weight passing between hands; the lid opens on a cloth hinge; the cores sit snug in their slots and do not roll.
+
+LIGHTING
+Warm lamp light pooling on the box; the colored cores catch it. No flat front light.
+
+AUDIO
+MAMA's warm Russian line; the soft click of the lid; baby snuffles and stove crackle under everything. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+The cores are pencil LEADS only — short colored cores, no wooden pencil bodies. Both babies stay attached to MAMA. No one else in frame.

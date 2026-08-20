@@ -1,0 +1,338 @@
+[
+ {
+  "id": "C01",
+  "group": "Hero clips",
+  "gdesc": "Early standalone shots",
+  "file": "ep1prod/scene1/clips/C02_sock_drag_v1.mp4",
+  "dur": 10.0,
+  "name": "C02_sock_drag_v1"
+ },
+ {
+  "id": "C02",
+  "group": "Hero clips",
+  "gdesc": "Early standalone shots",
+  "file": "ep1prod/scene1/clips/C08_car_cross_v1.mp4",
+  "dur": 10.0,
+  "name": "C08_car_cross_v1"
+ },
+ {
+  "id": "C03",
+  "group": "Scene 1 production",
+  "gdesc": "Ten-second beats from the first production pass",
+  "file": "ep1prod/scene1/production/clips/s1a_v1.mp4",
+  "dur": 10.0,
+  "name": "s1a_v1"
+ },
+ {
+  "id": "C04",
+  "group": "Scene 1 production",
+  "gdesc": "Ten-second beats from the first production pass",
+  "file": "ep1prod/scene1/production/clips/s1c_v1.mp4",
+  "dur": 10.0,
+  "name": "s1c_v1"
+ },
+ {
+  "id": "C05",
+  "group": "Scene 1 production",
+  "gdesc": "Ten-second beats from the first production pass",
+  "file": "ep1prod/scene1/production/clips/s1d_v1.mp4",
+  "dur": 10.0,
+  "name": "s1d_v1"
+ },
+ {
+  "id": "C06",
+  "group": "Scene 1 production",
+  "gdesc": "Ten-second beats from the first production pass",
+  "file": "ep1prod/scene1/production/clips/s1e_v1.mp4",
+  "dur": 10.0,
+  "name": "s1e_v1"
+ },
+ {
+  "id": "C07",
+  "group": "Peek sequence",
+  "gdesc": "Start/end-frame experiments: the gap beside the chest",
+  "file": "ep1prod/scene1/peekseq/A_popout.mp4",
+  "dur": 5.0,
+  "name": "A_popout"
+ },
+ {
+  "id": "C08",
+  "group": "Peek sequence",
+  "gdesc": "Start/end-frame experiments: the gap beside the chest",
+  "file": "ep1prod/scene1/peekseq/B_scan.mp4",
+  "dur": 5.0,
+  "name": "B_scan"
+ },
+ {
+  "id": "C09",
+  "group": "Peek sequence",
+  "gdesc": "Start/end-frame experiments: the gap beside the chest",
+  "file": "ep1prod/scene1/peekseq/C_retreat.mp4",
+  "dur": 5.0,
+  "name": "C_retreat"
+ },
+ {
+  "id": "C10",
+  "group": "Peek sequence",
+  "gdesc": "Start/end-frame experiments: the gap beside the chest",
+  "file": "ep1prod/scene1/peekseq/D_zoomout.mp4",
+  "dur": 3.0,
+  "name": "D_zoomout"
+ },
+ {
+  "id": "C11",
+  "group": "Peek sequence",
+  "gdesc": "Start/end-frame experiments: the gap beside the chest",
+  "file": "ep1prod/scene1/peekseq/n0.mp4",
+  "dur": 5.0,
+  "name": "n0"
+ },
+ {
+  "id": "C12",
+  "group": "Peek sequence",
+  "gdesc": "Start/end-frame experiments: the gap beside the chest",
+  "file": "ep1prod/scene1/peekseq/n1.mp4",
+  "dur": 5.0,
+  "name": "n1"
+ },
+ {
+  "id": "C13",
+  "group": "Peek sequence",
+  "gdesc": "Start/end-frame experiments: the gap beside the chest",
+  "file": "ep1prod/scene1/peekseq/n2.mp4",
+  "dur": 5.0,
+  "name": "n2"
+ },
+ {
+  "id": "C14",
+  "group": "Peek sequence",
+  "gdesc": "Start/end-frame experiments: the gap beside the chest",
+  "file": "ep1prod/scene1/peekseq/n3.mp4",
+  "dur": 3.0,
+  "name": "n3"
+ },
+ {
+  "id": "C15",
+  "group": "Assembly tests",
+  "gdesc": "Early cut experiments",
+  "file": "ep1prod/scene1/assembly/p1.mp4",
+  "dur": 5.0,
+  "name": "p1"
+ },
+ {
+  "id": "C16",
+  "group": "Assembly tests",
+  "gdesc": "Early cut experiments",
+  "file": "ep1prod/scene1/assembly/s01.mp4",
+  "dur": 5.0,
+  "name": "s01"
+ },
+ {
+  "id": "C17",
+  "group": "Assembly tests",
+  "gdesc": "Early cut experiments",
+  "file": "ep1prod/scene1/assembly/s07.mp4",
+  "dur": 9.0,
+  "name": "s07"
+ },
+ {
+  "id": "C18",
+  "group": "Seedance batch 1",
+  "gdesc": "Scene 1, SH001–017 — first CINEDANCE run",
+  "file": "rnd/seedance_test/skill_run/clip1.mp4",
+  "dur": 12.1,
+  "name": "clip1"
+ },
+ {
+  "id": "C19",
+  "group": "Seedance batch 1",
+  "gdesc": "Scene 1, SH001–017 — first CINEDANCE run",
+  "file": "rnd/seedance_test/skill_run/clip2.mp4",
+  "dur": 12.1,
+  "name": "clip2"
+ },
+ {
+  "id": "C20",
+  "group": "Seedance batch 1",
+  "gdesc": "Scene 1, SH001–017 — first CINEDANCE run",
+  "file": "rnd/seedance_test/skill_run/clip3.mp4",
+  "dur": 8.1,
+  "name": "clip3"
+ },
+ {
+  "id": "C21",
+  "group": "Seedance batch 1",
+  "gdesc": "Scene 1, SH001–017 — first CINEDANCE run",
+  "file": "rnd/seedance_test/skill_run/clip4.mp4",
+  "dur": 8.1,
+  "name": "clip4"
+ },
+ {
+  "id": "C22",
+  "group": "Seedance batch 1",
+  "gdesc": "Scene 1, SH001–017 — first CINEDANCE run",
+  "file": "rnd/seedance_test/skill_run/clip5.mp4",
+  "dur": 8.1,
+  "name": "clip5"
+ },
+ {
+  "id": "C23",
+  "group": "Seedance batch 1",
+  "gdesc": "Scene 1, SH001–017 — first CINEDANCE run",
+  "file": "rnd/seedance_test/skill_run/clip6.mp4",
+  "dur": 12.1,
+  "name": "clip6"
+ },
+ {
+  "id": "C24",
+  "group": "Seedance batch 1",
+  "gdesc": "Scene 1, SH001–017 — first CINEDANCE run",
+  "file": "rnd/seedance_test/skill_run/clip7.mp4",
+  "dur": 8.1,
+  "name": "clip7"
+ },
+ {
+  "id": "C25",
+  "group": "Seedance batch 1",
+  "gdesc": "Scene 1, SH001–017 — first CINEDANCE run",
+  "file": "rnd/seedance_test/skill_run/clip8.mp4",
+  "dur": 12.1,
+  "name": "clip8"
+ },
+ {
+  "id": "C26",
+  "group": "Seedance batch 1",
+  "gdesc": "Scene 1, SH001–017 — first CINEDANCE run",
+  "file": "rnd/seedance_test/skill_run/clip9.mp4",
+  "dur": 8.1,
+  "name": "clip9"
+ },
+ {
+  "id": "C27",
+  "group": "Seedance batch 2",
+  "gdesc": "Scenes 2–4, SH018–046 — parents drift (pre-lock)",
+  "file": "rnd/seedance_test/skill_run2/clip10.mp4",
+  "dur": 12.1,
+  "name": "clip10"
+ },
+ {
+  "id": "C28",
+  "group": "Seedance batch 2",
+  "gdesc": "Scenes 2–4, SH018–046 — parents drift (pre-lock)",
+  "file": "rnd/seedance_test/skill_run2/clip11.mp4",
+  "dur": 12.1,
+  "name": "clip11"
+ },
+ {
+  "id": "C29",
+  "group": "Seedance batch 2",
+  "gdesc": "Scenes 2–4, SH018–046 — parents drift (pre-lock)",
+  "file": "rnd/seedance_test/skill_run2/clip12.mp4",
+  "dur": 12.1,
+  "name": "clip12"
+ },
+ {
+  "id": "C30",
+  "group": "Seedance batch 2",
+  "gdesc": "Scenes 2–4, SH018–046 — parents drift (pre-lock)",
+  "file": "rnd/seedance_test/skill_run2/clip13.mp4",
+  "dur": 8.1,
+  "name": "clip13"
+ },
+ {
+  "id": "C31",
+  "group": "Seedance batch 2",
+  "gdesc": "Scenes 2–4, SH018–046 — parents drift (pre-lock)",
+  "file": "rnd/seedance_test/skill_run2/clip14.mp4",
+  "dur": 12.1,
+  "name": "clip14"
+ },
+ {
+  "id": "C32",
+  "group": "Seedance batch 2",
+  "gdesc": "Scenes 2–4, SH018–046 — parents drift (pre-lock)",
+  "file": "rnd/seedance_test/skill_run2/clip15.mp4",
+  "dur": 8.1,
+  "name": "clip15"
+ },
+ {
+  "id": "C33",
+  "group": "Seedance batch 2",
+  "gdesc": "Scenes 2–4, SH018–046 — parents drift (pre-lock)",
+  "file": "rnd/seedance_test/skill_run2/clip16.mp4",
+  "dur": 8.1,
+  "name": "clip16"
+ },
+ {
+  "id": "C34",
+  "group": "Seedance batch 2",
+  "gdesc": "Scenes 2–4, SH018–046 — parents drift (pre-lock)",
+  "file": "rnd/seedance_test/skill_run2/clip17.mp4",
+  "dur": 8.1,
+  "name": "clip17"
+ },
+ {
+  "id": "C35",
+  "group": "Seedance batch 2",
+  "gdesc": "Scenes 2–4, SH018–046 — parents drift (pre-lock)",
+  "file": "rnd/seedance_test/skill_run2/clip18.mp4",
+  "dur": 8.1,
+  "name": "clip18"
+ },
+ {
+  "id": "C36",
+  "group": "Seedance batch 2",
+  "gdesc": "Scenes 2–4, SH018–046 — parents drift (pre-lock)",
+  "file": "rnd/seedance_test/skill_run2/clip19.mp4",
+  "dur": 8.1,
+  "name": "clip19"
+ },
+ {
+  "id": "C37",
+  "group": "Seedance 2.5 probe",
+  "gdesc": "Best motion we have; slight style drift",
+  "file": "rnd/seedance25_probe/probe_kf12_s25.mp4",
+  "dur": 8.1,
+  "name": "probe_kf12_s25"
+ },
+ {
+  "id": "C38",
+  "group": "Scene 2 final",
+  "gdesc": "Gated run with locked references — in the episode",
+  "file": "production/seedance_batch/output/2026-08-09_EP1_scene2_job10.mp4",
+  "dur": 12.1,
+  "name": "2026-08-09_EP1_scene2_job10"
+ },
+ {
+  "id": "C39",
+  "group": "Scene 2 final",
+  "gdesc": "Gated run with locked references — in the episode",
+  "file": "production/seedance_batch/output/2026-08-09_EP1_scene2_job11.mp4",
+  "dur": 12.1,
+  "name": "2026-08-09_EP1_scene2_job11"
+ },
+ {
+  "id": "C40",
+  "group": "Scene 2 final",
+  "gdesc": "Gated run with locked references — in the episode",
+  "file": "production/seedance_batch/output/2026-08-09_EP1_scene2_job12.mp4",
+  "dur": 12.1,
+  "name": "2026-08-09_EP1_scene2_job12"
+ },
+ {
+  "id": "C41",
+  "group": "Scene 2 final",
+  "gdesc": "Gated run with locked references — in the episode",
+  "file": "production/seedance_batch/output/2026-08-09_EP1_scene2_job13.mp4",
+  "dur": 8.1,
+  "name": "2026-08-09_EP1_scene2_job13"
+ },
+ {
+  "id": "C42",
+  "group": "Scene 2 final",
+  "gdesc": "Gated run with locked references — in the episode",
+  "file": "production/seedance_batch/output/2026-08-09_EP1_scene2_job14.mp4",
+  "dur": 12.1,
+  "name": "2026-08-09_EP1_scene2_job14"
+ }
+]

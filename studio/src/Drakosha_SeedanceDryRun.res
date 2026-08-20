@@ -508,17 +508,44 @@ let assertModelFits = (spec: Drakosha_SeedanceJobs.jobSpec, refCount: int, probl
       "s. Either move the job to seedance_2_5 or split the shots — never let it truncate.",
     )
   }
-  if refCount > maxRefs {
-    problem(
-      spec.record.jobId,
-      "binds " ++
-      Belt.Int.toString(refCount) ++
-      " image references but " ++
-      name ++
-      " accepts " ++
-      Belt.Int.toString(maxRefs) ++
-      ". The extras are dropped without an error and the shot comes back off-model.",
-    )
+  /* Kling accepts no reference images at all, so identity has nowhere to come
+     from except the start frame. A Kling job without one is a job that will
+     invent a different child. The references a Kling job declares are not sent
+     — they stay in the record as provenance, which is why the count is not an
+     error here the way it is on Seedance. */
+  switch spec.model {
+  | Kling26 | Kling30 | Veo31Lite =>
+    switch spec.record.startImage {
+    | None =>
+      problem(
+        spec.record.jobId,
+        "runs on " ++
+        name ++
+        ", which takes no image references. With no start frame either, nothing in the call says who she is. Give it a start frame.",
+      )
+    | Some(_) => ()
+    }
+    switch (spec.model, spec.endImage) {
+    | (Kling26, Some(_)) =>
+      problem(
+        spec.record.jobId,
+        "declares an end frame, but only kling3_0 accepts one. On kling2_6 it is silently ignored and the clip will not loop.",
+      )
+    | _ => ()
+    }
+  | Mini | V20 | V25 =>
+    if refCount > maxRefs {
+      problem(
+        spec.record.jobId,
+        "binds " ++
+        Belt.Int.toString(refCount) ++
+        " image references but " ++
+        name ++
+        " accepts " ++
+        Belt.Int.toString(maxRefs) ++
+        ". The extras are dropped without an error and the shot comes back off-model.",
+      )
+    }
   }
 }
 
@@ -736,6 +763,146 @@ let assertBackgroundsAssigned = (record, problem): unit => {
   }
 }
 
+/* ============================================================================
+   THE 2026-08-20 GATES — every one of these exists because I broke it that day.
+   They are written here rather than in a document because on that day I read
+   the documents, wrote new ones, and then broke the rules in them within the
+   hour. The gates that were CODE I obeyed without argument; the gates that were
+   PROSE I skipped every time. So these are code.
+   ========================================================================= */
+
+/* GATE 1 — AN UNKNOWN SHOT CODE IS A FAILURE, NOT A FREE PASS.
+
+   `shRange` pulls the digits out of a shot code. Given none, it returns an
+   empty array — and every script-derived check downstream then has nothing to
+   check and passes silently: no script line, so no missing-line error; no
+   lines, so no missing-recording error and no duration error.
+
+   On 2026-08-20 a gate fired on "LOOP-WRITE-03-FACE-KLING" saying the script
+   gave that shot a line the choreography did not contain. Rather than supply
+   the line, I renamed the job until the gate stopped firing. Then I named the
+   Точка job "TOCHKA-MARK" — no digits at all — and it sailed through every
+   check and was submitted with no recording in existence. Ten credits, and the
+   wrong shot entirely.
+
+   A job now either names real SH numbers, or declares itself a non-script
+   element and says why. Silence is no longer an option. */
+let assertShotCodeResolves = (record, problem): unit => {
+  let codes = shRange(record.shots)
+  if Belt.Array.length(codes) == 0 {
+    let c = record.creative
+    let declared =
+      Js.String2.includes(c, "NON-SCRIPT ELEMENT") &&
+      Js.String2.includes(c, "WHY:")
+    if !declared {
+      problem(
+        record.jobId,
+        "the shot code \"" ++
+        record.shots ++
+        "\" contains no SH number, so every script-derived check silently skipped: the line check, the recording check and the duration check all passed because they had nothing to look at. Either give this job its real SH numbers, or put a NON-SCRIPT ELEMENT block in the creative with a WHY: line saying what it is and why the script does not cover it.",
+      )
+    }
+  }
+}
+
+/* GATE 2 — A LINE THAT HAS NOT BEEN RECORDED CANNOT BE SHOT.
+
+   The Точка clip was generated before «Точка» had ever been recorded. I had
+   said three times in the same session that the recording did not exist, and
+   then submitted the shot anyway. The gate below reads every «…» line in the
+   creative and refuses if the line index has no recording for it. */
+let assertQuotedLinesRecorded = (record, problem): unit => {
+  let c = record.creative
+  /* Only the text BETWEEN a « and the NEXT », never past it. Splitting on the
+     characters instead grabbed the whole rest of the file as one "line". */
+  let quoted = {
+    let out = []
+    let re = %re("/«([^»]{2,140})»/g")
+    let rec loop = () =>
+      switch Js.Re.exec_(re, c) {
+      | Some(m) =>
+        switch Belt.Array.get(Js.Re.captures(m), 1)->Belt.Option.flatMap(x => Js.Nullable.toOption(x)) {
+        | Some(t) =>
+          let tt = Js.String2.trim(t)
+          if Js.String2.length(tt) > 2 && Js.Re.test_(%re("/[\u0400-\u04FF]/"), tt) {
+            out->Js.Array2.push(tt)->ignore
+          }
+        | None => ()
+        }
+        loop()
+      | None => ()
+      }
+    loop()
+    out
+  }
+  if Belt.Array.length(quoted) > 0 {
+    let index = loadLineIndex()
+    if Belt.Array.length(index) > 0 {
+      let missing =
+        quoted->Belt.Array.keep(l => Belt.Option.isNone(findRecording(index, l)))
+      if Belt.Array.length(missing) > 0 {
+        problem(
+          record.jobId,
+          "the choreography quotes " ++
+          Js.Array2.joinWith(missing->Belt.Array.map(m => "«" ++ Js.String2.trim(m) ++ "»"), ", ") ++
+          " and there is no recording of it in the line index. Record it first. A shot built around a line nobody has said yet is a shot built on a guess about its length and its reading.",
+        )
+      }
+    }
+  }
+}
+
+/* GATE 3 — A SHOT THAT LIVES ON A FACE NEEDS A MODEL THAT TAKES REFERENCES.
+
+   Kling accepts no reference images. Given a creative with three paragraphs of
+   facial direction it returned a mannequin, twice, and the second time I had
+   already been told the first one was blank. Every expressive shot this show
+   has ever cut ran with the character sheets bound; Kling structurally cannot
+   do that. It can hold a loop or it can act, not both. */
+let assertFaceWorkHasReferences = (spec: Drakosha_SeedanceJobs.jobSpec, refCount: int, problem): unit => {
+  let c = spec.record.creative
+  let wantsFace =
+    Js.String2.includes(c, "\nFACES") ||
+    Js.String2.includes(c, "\nREACTIONS")
+  let maxRefs = Drakosha_SeedanceJobs.modelMaxRefs(spec.model)
+  if wantsFace && maxRefs == 0 && refCount == 0 {
+    problem(
+      spec.record.jobId,
+      "asks for a performance (it has a FACES block) on " ++
+      Drakosha_SeedanceJobs.modelName(spec.model) ++
+      ", which takes no reference images at all. On 2026-08-20 this produced a blank-faced child twice. Expression on this show comes from the bound character sheets; move the job to a Seedance model, which takes a start frame, an end frame AND references together.",
+    )
+  }
+}
+
+/* GATE 4 — A START FRAME MUST NOT BE AN UPSCALED CROP.
+
+   The Точка start frame was a 640x360 region of a 1280x720 plate blown back up
+   to 1280x720. The model got a soft picture, reinvented what it could not read,
+   and gave the pencil a metal ferrule it has never had and the child a face
+   that is not hers. A frame that claims a resolution it does not have is a lie
+   the model believes.
+
+   Provenance lives beside the frame as `<name>.provenance.json` with a
+   `native` flag. No sidecar and no gate; a sidecar saying otherwise fails. */
+let assertStartFrameNative = (record, problem): unit =>
+  switch record.startImage {
+  | None => ()
+  | Some(k) =>
+    let prov = "../stories/drakosha/rnd/keyframes/" ++ k ++ ".provenance.json"
+    if existsSync(prov) {
+      let txt = readFileSync(prov, "utf8")
+      if Js.String2.includes(txt, "\"native\": false") || Js.String2.includes(txt, "\"upscaled\": true") {
+        problem(
+          record.jobId,
+          "start frame " ++
+          k ++
+          " is recorded as an upscaled crop. Feeding the model a frame with fewer real pixels than it claims is how the pencil grew a metal band and the child stopped looking like herself. Re-cut the frame at native resolution, or shoot the wider framing and crop the OUTPUT instead.",
+        )
+      }
+    }
+  }
+
 let fail = ref(false)
 let problem = (jobId: string, msg: string): unit => {
   fail := true
@@ -759,8 +926,23 @@ let () = {
        integer 4..30, which is what lets a whole exchange run in one generation
        instead of being cut into clips that then have to be matched to each
        other. Keep the floor and ceiling; drop the three fixed rungs. */
-    if record.durationSec < 4 || record.durationSec > 30 {
-      problem(jobId, "invalid duration — Seedance 2.5 takes 4 to 30 seconds")
+    /* This floor is a Seedance floor and was written when Seedance was the only
+       provider. Kling generates from 3s, and a loop element — one letter at a
+       child's writing pace — is three seconds. Padding it to four to satisfy a
+       rule about dialogue shots would make the writing look slow. */
+    let floorSec = switch spec.model {
+    | Kling26 | Kling30 => 3
+    | Mini | V20 | V25 | Veo31Lite => 4
+    }
+    if record.durationSec < floorSec || record.durationSec > 30 {
+      problem(
+        jobId,
+        "invalid duration — " ++
+        Drakosha_SeedanceJobs.modelName(spec.model) ++
+        " takes " ++
+        Belt.Int.toString(floorSec) ++
+        " to 30 seconds",
+      )
     }
     /* emit (raises on smuggled tags) */
     switch try Some(emitPrompt(record)) catch {
@@ -789,6 +971,9 @@ let () = {
       assertHandsWritten(record, problem)
       assertBackgroundsAssigned(record, problem)
       assertGlyphsPlanned(record, problem)
+      assertShotCodeResolves(record, problem)
+      assertQuotedLinesRecorded(record, problem)
+      assertStartFrameNative(record, problem)
       let refPaths = emitRefPaths(record)->Belt.Array.map(resolveRef)
       refPaths->Belt.Array.forEach(p =>
         if !existsSync(p) {
@@ -819,6 +1004,7 @@ let () = {
       let castCount = Belt.Array.length(record.cast)
       let refCount = Belt.Array.length(refPaths)
       assertModelFits(spec, refCount, problem)
+      assertFaceWorkHasReferences(spec, refCount, problem)
       assertTagLinesAreIdentityOnly(record, problem)
       let credits =
         Drakosha_SeedanceJobs.modelCreditsPerSec(spec.model) *.

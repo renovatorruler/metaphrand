@@ -1,0 +1,83 @@
+ACTIVE REFERENCES
+@YAGA — её зовут Бабушка-Яга — old grandmother house-spirit, mushroom-red polka-dot kerchief, patched skirt and shawl, gold tooth, warm sly face. 100% matches the reference.
+@FROSYA — её зовут Фрося — the ELDEST of the family's FOUR children: orange flower in her hair, safety pin on her patchwork dress. 100% matches the reference.
+@VASYA — его зовут Вася — the SECOND of the family's FOUR children, younger than Фрося and older than Руся and Муся: enormous bushy eyebrows, shoelace belt. 100% matches the reference.
+@MAMA — её зовут Мама — the mother: blonde braid, red-and-gold striped kerchief, cream apron over a dark red skirt. 100% matches the reference.
+@PAPA — его зовут Папа — the father: short and stocky, huge beard, blue work shirt with suspenders, iron key on a cord. 100% matches the reference.
+@RUSYA — его зовут Руся — the THIRD of the family's FOUR children, a toddler boy: an orange-brown tufted topknot standing up from a bald head, big round brown eyes, a patched ochre smock. 100% matches the reference.
+@MUSYA — её зовут Муся — the YOUNGEST of the family's FOUR children, a baby girl: one curling wisp of hair on an otherwise bald head, sleepy heavy-lidded eyes, rosy cheeks, patched pink cloth. 100% matches the reference.
+@ROOM_FRONT: the family's hall inside the old bricked-up fireplace — boulder-brick walls, a riveted iron plate as the far wall, plank floor, a garland of coloured bulbs, a plank-on-spools table, matchbox beds along the left wall, a small dark iron cleanout hatch low in the left wall, a rope-railed floor opening at the right. 100% matches the reference.
+@SEATING: who sits where at the dinner table in this scene — Мама at the left end feeding Муся, Бабушка-Яга on the far side with the black riveted plate behind her, Папа at the right end feeding Руся, Вася and Фрося on the near side with their backs to camera and Фрося directly across from Бабушка-Яга. Take every position from this picture. It is the SEATING CHART for the scene and is NOT the framing of any shot — no shot in this job looks like it. 100% matches the reference.
+
+SCALE
+@YAGA at house-spirit size stands about 3.60 in / 9.1 cm — the same order as the parents, never towering over them.
+Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.
+Вася is shorter than Фрося, about up to her eyebrows.
+Мама is a little taller than Фрося.
+Папа is the tallest, about a head above Мама.
+Руся is about half Фрося's height.
+Муся is smaller again than Руся and is carried.
+The furniture is lost human things at this size: matchbox beds, a plank laid on thread spools, thimbles on the shelf, fairy-light bulbs overhead.
+
+SCENE CONTEXT
+Straight on from the last shot. The mother refuses the gift, the grandmother overrules her without raising her voice, and the table takes in what has been decided.
+
+ALL DIALOGUE IS IN RUSSIAN. Speak exactly the lines below, in Russian, and nothing else. No English anywhere.
+
+START FRAME AND SEATING
+Frame one IS the supplied start image — Мама in close-up, exactly that framing. The seating reference is the SEATING CHART: take every position from it. Only the FINAL shot is framed like it. This is DINNER: hot savoury bowls, no cake anywhere.
+
+REACTIONS — WHAT THE FACES DO WHILE SOMEBODY ELSE TALKS
+A reference sheet fixes who a character IS, not what their face does. Nobody holds one expression through another person's line — every face starts one way and ends another, as the shots below set out.
+Фрося: hope, then out, then back all at once and bigger. Вася: oblivious, then copies Фрося a beat late, then lights up when she does. Мама: certain, then tight, then quietly exasperated, never furious. Бабушка-Яга: perfectly still through the refusal; only afterwards the sly warmth comes up. Папа: hearing every word and showing none of it until the whistle lets it out. Руся and Муся understand no words but read every face, and react to that and to their food stopping.
+
+WHO IS IN EACH SHOT — AND NOBODY ELSE
+Seven characters are referenced but only the WIDE holds them all. Every other shot is a single or a two-shot and no other family member appears in it at all — not in the background, not at the frame edge, not out of focus.
+Shots A and E: МАМА and МУСЯ, and no one else. Plain boulder-block wall behind them — the matchbox beds along it are LOW, so a close-up sees brick above them.
+Shots B and D: ФРОСЯ and ВАСЯ and no one else, except БАБУШКА-ЯГА's shoulder as a soft dark shape in the near corner — shoulder only, never her face. Behind them the room runs away, soft and out of focus, never red brick.
+Shot C: БАБУШКА-ЯГА ALONE — the riveted plate fills the background, no table and no person behind her.
+Shot F: ПАПА and РУСЯ, and no one else. The shelf and the little washstand behind them.
+Shot G: the whole family, all seven, as the seating reference has them.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE, six shots, HARD CUTS only, no fades or dissolves. Nobody waits: each line follows the one before it with only a breath.
+
+Shot A, 0:00–0:04 — CLOSE ON МАМА, continuing from the start image. She is feeding МУСЯ. She puts the spoon down in the bowl, stops feeding, and leaves her hand flat on the table. МУСЯ goes wide-eyed at the food stopping and turns her head to look off toward Бабушка-Яга. Flat, final, not raised:
+МАМА: «Ма́ма, нет. Они́ и так друг дру́гу поко́я не даю́т, а е́сли им ещё…»
+HARD CUT at 0:04, while she is still speaking.
+
+Shot B, 0:04–0:05.6 — ON ФРОСЯ AND ВАСЯ together on the near side, shot over БАБУШКА-ЯГА's shoulder. Мама finishes her line OFFSCREEN and we watch it land: Фрося's face goes out, and Вася — still grinning — catches ФРОСЯ's face changing, checks her, and only then loses his own.
+HARD CUT.
+
+Shot C, 0:05.6–0:08.6 — ON БАБУШКА-ЯГА, camera from where ФРОСЯ and ВАСЯ sit, looking across the table at her. She is ALREADY looking off to SCREEN LEFT toward МАМА when we cut in — she watched her through the whole refusal and does not turn. Three-quarter, face readable, head barely moving; what changes is the smile arriving. Slowly, with pleasure:
+БАБУШКА-ЯГА: «А почему́ бы и нет?»
+HARD CUT.
+
+Shot D, 0:08.6–0:10.4 — ON ФРОСЯ AND ВАСЯ, same camera as Shot B. It hits them. Not waiting, not suspense — the argument is over and they have WON. Фрося's whole face opens at once; Вася looks at ФРОСЯ first, takes it from her, and only then goes off like a light. Neither shouts, but both are barely containing it.
+HARD CUT.
+
+Shot E, 0:10.4–0:12 — CLOSE ON МАМА. She says nothing and her hand stays where she put it. WHAT SHE FEELS IS THE SHOT, and it is ANNOYANCE, not anger — the tired irritation of being overruled by your own mother in front of the children, having known it would go this way. Play the feeling, not a gesture. МУСЯ studies her face from close up, working out whether something is wrong.
+HARD CUT.
+
+Shot F, 0:12–0:13.8 — ON ПАПА at the right end. He has heard all of it and kept his eyes down on Руся on purpose — looking up would mean taking a side. Now it is settled he can have an opinion: he looks up and gives ONE short low whistle, ADMIRATION at the size of what has been handed out, not surprise and not mockery. A small eyebrow lift, the smallest shake of the head, and back to the child. РУСЯ, whose food also stopped, has been waiting open-mouthed and looks up at him at the sound. No words.
+HARD CUT.
+
+Shot G, 0:13.8–0:16 — PULL OUT TO THE WIDE: same camera and framing as the seating reference. Бабушка-Яга puts both hands on the table and pushes herself up onto her feet, unhurried, the way an old woman gets up, and is standing at the end of the shot while the others stay seated and watch. Nobody speaks.
+
+OPTICS
+29° diagonal field of view, short telephoto portrait character, four to six metres back — close framing by lens reach, not proximity, with an oversized soft foreground shoulder on Shots B and D. The final wide keeps the seating reference's lens. Rectilinear, no fisheye. No vignette, no dark oval, no iris.
+
+TIMING, PHYSICS AND SOUND
+After Бабушка-Яга's answer nobody speaks again — the children's delight and Папа's whistle carry it, with no dialogue or music. Her push up off the table has real weight; nothing floats. The light matches the start image and rakes from one direction throughout, never jumping sides across a cut.
+
+AUDIO
+Low room sound throughout — spoons, bowls, small children eating. A spoon laid down in a bowl, then a cup set on wood. The two spoken lines and one short whistle. No music, no subtitles, no narrator.
+
+SHOT RULES
+Only Мама and Бабушка-Яга speak, each once; Фрося, Вася, Папа, Руся and Муся say nothing. Lips move ONLY for a character's own line in her own shot — in Shots D, E, F and G no lips move at all.
+Бабушка-Яга is at her small домовой size, never human size, and has NO broom in any frame.
+NO fire, NO chest, NO pencil, NO magic. The walls are ENORMOUS pale sandstone boulder-blocks, each bigger than a character's whole body — never small or normal-scale masonry.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @YAGA, @FROSYA, @VASYA, @MAMA, @PAPA, @RUSYA, @MUSYA. Every character matches their reference exactly. The set and props are @ROOM_FRONT, @SEATING, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

@@ -1,0 +1,42 @@
+SCENE CONTEXT
+Sitting on the drawer's edge, the tiny boy hauls the giant striped sock up the side panel on a lace while his sister watches from the floor.
+
+ACTIVE REFERENCES
+@FROSYA: 7yo tiny house-spirit girl, huge dark curly mane, patchwork dress, barefoot. 100% matches the reference.
+@VASYA: 5yo tiny house-spirit boy, enormous bushy eyebrows, patchwork tunic, barefoot. 100% matches the reference.
+@PASSAGE: the dresser-side passage and drawer side panel. Geography and materials only.
+
+LOCATION MAP
+Vasya sits on the panel's top edge, hauling. The lace runs from his hands straight down the wooden face to the sock below. Frosya stands on the passage floor, clear of the rising load, watching it climb.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Every shot opens mid-action with both the load and at least one child already in frame.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Three shots. HARD CUTS only.
+Shot A, 0:00 to 0:03: from floor level, @VASYA visible small at the top edge pulling the lace hand over hand; the sock's elastic cuff peels up off the floor and rises, the long striped body still trailing on the boards. @FROSYA steps back one step, eyes locked on the rising cuff.
+HARD CUT.
+Shot B, 0:03 to 0:05: side view along the panel: the sock hangs halfway up the wooden face, swaying slightly, stripes bold against the wood, the lace taut above it, Vasya's silhouette straining at the top.
+HARD CUT.
+Shot C, 0:05 to 0:08: at the top edge: almost the entire sock is already inside the drawer; only the heel remains outside, caught on the wooden edge. Vasya keeps tension on the lace, leaning back, breathing hard.
+
+OPTICS
+Shot A: 84° classic wide from low at floor level, the panel and rising load looming, deep context to frame edges, rectilinear wood lines.
+Shot B: 47° standard normal, side-on, natural proportions.
+Shot C: 29° short telephoto detail on the edge, heel, and straining boy, background soft.
+No lens drift inside any shot.
+
+CAMERA
+Static locked frames only.
+
+PHYSICS
+The sock is a heavy dead-weight load: it rises in surges matching each hand-over-hand pull, sways as a hanging mass, and drags audibly over the wood at the edge. The lace stays taut and creaks. Vasya's body counterweights every pull. Nothing floats, nothing glides.
+
+LIGHTING
+Warm room spill from screen-left, the panel face in soft shadow, the striped sock catching warm light as it rises. No flat front light.
+
+AUDIO
+Rhythmic child panting from above, cord creak, heavy cloth sliding on wood. Muffled ticking under everything. No dialogue. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two children. The sock remains enormous relative to them in every frame. The heel visibly catches on the edge in shot C and stays caught at the cut.

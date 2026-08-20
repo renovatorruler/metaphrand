@@ -1,0 +1,10 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 11,
+  "startImage": "",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-07.png",
+    "../stories/drakosha/ep1prod/scene1/references/SET-HOME-ROOM-01_author_master_v4_hatch_cradle-clear.png"
+  ],
+  "promptSha256": "0dee7754139d3d143847ff7ff6ad3b261f1a20f05515e4b9b4eb9efc9a24ecd4"
+}

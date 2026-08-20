@@ -1,0 +1,41 @@
+SCENE CONTEXT
+Inside the tiny home behind the stove, a rumble descends the flue; the whole family freezes, and the father sniffs the air and starts to grin.
+
+ACTIVE REFERENCES
+@FROSYA: 7yo tiny house-spirit girl, huge dark curly mane, patchwork dress, barefoot. 100% matches the reference.
+@VASYA: 5yo tiny house-spirit boy, enormous bushy eyebrows, patchwork tunic, barefoot. 100% matches the reference.
+
+LOCATION MAP
+The main room behind the stove. A dark seam runs down the plaster wall beside the stove flank — an old crack, nothing more. A small shelf nearby holds two empty thimbles. The whole family is in the room: MAMA with both babies, PAPA, and the two children.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Shot A opens on the dark plaster seam with the shelf and its two thimbles in frame. No characters in shot A.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Three shots. HARD CUTS only.
+Shot A, 0:00 to 0:03: facing the dark seam in the plaster: a deep rumble descends somewhere behind the wall; a metal hatch rattles beyond it; the two empty thimbles on the shelf jump and chime with the vibration.
+HARD CUT.
+Shot B, 0:03 to 0:06: wide from the far corner: the entire family frozen mid-motion — MAMA with both babies, PAPA, @FROSYA, @VASYA — all eyes on the seam. Even the babies stop snuffling. Total stillness.
+HARD CUT.
+Shot C, 0:06 to 0:08: close on PAPA: he sniffs the air twice, deliberately; his eyebrows rise; a grin spreads. He says in Russian, with cheerful foreboding: «Ох. Это же…» — and the line hangs unfinished.
+
+OPTICS
+Shot A: 29° detail lens on the seam and thimbles, shallow warm depth.
+Shot B: 84° classic wide, the whole room and family in deep focus.
+Shot C: 29° short telephoto portrait on PAPA, background dissolved.
+No lens drift inside any shot.
+
+CAMERA
+Static locked frames only.
+
+PHYSICS
+The thimbles jump in small true hops with the vibration, ringing faintly. The freeze is a real full-body stop with held breath, not a pose. PAPA's sniffs move his chest.
+
+LIGHTING
+Warm hearth light; the seam side of the room slightly darker. No flat front light.
+
+AUDIO
+The descending rumble growing; metal rattling behind plaster; thimble chimes; then near-silence in shot B with one stove crackle; PAPA's two audible sniffs and his unfinished Russian line in shot C. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+The seam stays a dark crack in every frame of this sequence — it does not open yet. Six family members, no one else. His line cuts off exactly where scripted.

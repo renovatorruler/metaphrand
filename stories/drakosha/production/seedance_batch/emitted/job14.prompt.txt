@@ -1,0 +1,55 @@
+ACTIVE REFERENCES
+@FROSYA — её зовут Фрося — the ELDEST of the family's FOUR children: orange flower in her hair, safety pin on her patchwork dress, no pencil. 100% matches the reference.
+@MAMA — её зовут Мама — the mother: blonde braid, red-and-gold striped kerchief, cream apron over a dark red skirt. 100% matches the reference.
+@BABIES: the two SMALLEST of the family's four children and no others — Руся, a toddler boy with an orange-brown tufted topknot, and Муся, the youngest, a baby girl with one curling wisp of hair and patched pink cloth. No others anywhere; the matchbox beds are empty. 100% matches the reference.
+@ROOM_FRONT: the family's hall inside the old bricked-up fireplace — boulder-brick walls, a riveted iron plate as the far wall, plank floor, a garland of coloured bulbs, a plank-on-spools table, matchbox beds along the left wall, a small dark iron cleanout hatch low in the left wall, a rope-railed floor opening at the right. 100% matches the reference.
+@TIN: Фрося's art tin — a round shallow metal tin with a rolled rim and worn bare metal, its lid painted in parallel diagonal red and orange stripes chipped back to metal at the edges, holding EXACTLY FIVE faceted hexagonal colored cores (red, orange, yellow, green, blue) lying FLAT side by side in one straight row on a cream woven cloth liner, held down by two stitched cream cloth bands. 100% matches the reference.
+
+SCALE
+Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.
+Мама is a little taller than Фрося.
+@BABIES are far smaller: РУСЯ about 1.9 in, and МУСЯ smaller still — each fits along one of @MAMA's forearms.
+The furniture is lost human things at this size: matchbox beds, a plank laid on thread spools, thimbles on the shelf, fairy-light bulbs overhead.
+@TIN is a round tin that @FROSYA carries in both hands, about as wide as her head.
+
+SCENE CONTEXT
+The tiny girl finds a red core in her gift tin, hugs her mother, and draws one bright red line on a scrap of paper.
+
+LOCATION MAP
+Beside the plank-on-spools table in the hall inside the old bricked-up fireplace: giant boulder-brick walls, the riveted iron plate closing the old fireplace mouth as the far wall, a colored garland of bulbs overhead, plank floor. Мама with both babies faces Фрося; the open round striped tin between them, its five faceted hexagonal colored cores — red, orange, yellow, green, blue — lying FLAT side by side in one straight row on a cream woven cloth liner, all their points facing the same way, held down by two stitched cream cloth bands crossing the row; a torn scrap of pale paper lies on the table.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Shot A opens with Фрося holding the open round tin between herself and Мама, her finger already reaching toward the red core, which lies at one end of the flat row.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Three shots. HARD CUTS only.
+Shot A, 0:00 to 0:04: by the table, both in frame: Фрося touches the red core with one fingertip and says in Russian, delighted: «Цветны́е! И кра́сный есть!» Мама answers in Russian, warm: «Для всех твои́х рису́нков.»
+HARD CUT.
+Shot B, 0:04 to 0:08: Фрося sets the tin down on the table in front of her, then wraps her arms around Мама — around the babies too, a full family hug — and says in Russian: «Спаси́бо, мам! Я всё-всё нарису́ю!»
+HARD CUT.
+Shot C, 0:08 to 0:12: close on the paper scrap on the table: the red core, held in the fingers of Фрося, draws one bright confident red line across it. She lifts the core, admires the color for a beat, lays it back flat in its place in the row under the cloth band, and sets the striped lid on.
+
+OPTICS
+Shots A and B: 47° standard normal at child height.
+Shot C: 29° detail lens on the paper, the red line razor-sharp, background softly dissolved.
+No lens drift inside any shot.
+
+CAMERA
+Static locked frames only.
+
+PHYSICS
+The core drags on the paper with real pigment friction, leaving a slightly waxy bright line; the lid seats on the tin with a soft metal tap; the hug compresses cloth and squeezes one small protest-squeak from a baby.
+
+LIGHTING
+Warm bulb light pooling on the table and paper. No flat front light.
+
+AUDIO
+The three Russian lines exactly as scripted, hers delighted, Мама warm; the dry sound of the core on paper in shot C; stove crackle underneath. No music, no subtitles.
+
+SHOT RULES
+Only the scripted lines are spoken. The red line is drawn once, one stroke, no writing, no letters. The tin is a round shallow metal tin with a rolled rim, bare worn metal, its lid painted in parallel diagonal red and orange stripes chipped back to metal at the edges, and its five cores lie FLAT in one row under stitched cloth bands — never standing, never fanned. The core returns to the tin and the lid goes on in the final second.
+Dialogue lock: in shot A only the lips of Фрося move for her line, then only the lips of Мама for her answer — strictly in sequence. In shot B only the lips of Фрося move. No offscreen voices.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @FROSYA, @MAMA, @BABIES. Every character matches their reference exactly. The set and props are @ROOM_FRONT, @TIN, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

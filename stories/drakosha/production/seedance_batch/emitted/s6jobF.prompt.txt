@@ -1,0 +1,50 @@
+ACTIVE REFERENCES
+@MAMA — её зовут Мама — the mother: blonde braid, red-and-gold striped kerchief, cream apron over a dark red skirt. 100% matches the reference.
+@ROOM_FRONT: the family's hall inside the old bricked-up fireplace — boulder-brick walls, a riveted iron plate as the far wall, plank floor, a garland of coloured bulbs, a plank-on-spools table, matchbox beds along the left wall, a small dark iron cleanout hatch low in the left wall, a rope-railed floor opening at the right. 100% matches the reference.
+
+SCALE
+Мама is a little taller than Фрося.
+The furniture is lost human things at this size: matchbox beds, a plank laid on thread spools, thimbles on the shelf, fairy-light bulbs overhead.
+
+SCENE CONTEXT
+The mother answers the grandmother by naming the thing nobody else has said out loud, and turns to fetch her own gift.
+
+ALL DIALOGUE IS IN RUSSIAN. Speak exactly the line below, in Russian, and nothing else. No English anywhere.
+
+WHERE WE ARE
+The open plank floor of the hall, the boulder-block wall behind her. She does not move her feet at any point and she is never seen walking anywhere.
+
+REACTIONS — WHAT THE FACES DO
+A reference sheet fixes who a character IS, not what her face does. Describe the muscles, not the mood — a named mood loses to a smiling reference sheet, but a mouth that is told to stay closed and level stays closed and level.
+Мама: SHE DOES NOT SMILE AT ANY POINT IN THIS SHOT. Her mouth is a level line when she is not speaking and it never turns up at the corners. Her brows sit low and straight — not drawn together in anger, just down. Her eyes stay steady on Бабушка-Яга and do not soften or crease. At «Но тепе́рь нау́чатся» her chin lifts about a centimetre and her jaw sets, and that is the only change in the whole shot. She is not angry, she never raises her voice, and she is not charmed.
+
+WHO IS IN EACH SHOT — AND NOBODY ELSE
+Мама is the ONLY character in this job. Бабушка-Яга, Фрося, Вася, Папа, Руся and Муся do not appear — not in the background, not at the frame edge, not out of focus, not as a shoulder.
+
+HANDS — WHAT EVERY PAIR IS DOING
+Мама: both hands are empty. Her right hand rests flat and open on the front of her apron at her hip, fingers spread; her left hand hangs straight down at her side, open and empty. SHE IS HOLDING NOTHING AT ALL — no match, no stick, no spoon, no cup, no cloth, no bundle, no baby — and nothing is tucked into her apron or her belt. Her hands do not gesture while she speaks. On her last four words the right hand comes off the apron and drops to her side as she turns.
+
+FORMAT MODE
+SINGLE CONTINUOUS TAKE, one shot, no cuts of any kind.
+
+0:00–0:11 — CLOSE ON МАМА, chest up, the boulder-block wall behind her. She is looking off to SCREEN LEFT, at Бабушка-Яга, and she speaks to her and not to the children. Flat, level, unhurried, no edge in it:
+МАМА: «Пода́рок хоро́ший. То́лько Ва́ся чита́ть ещё не уме́ет, а Фро́ся пи́шет как слы́шит. Но тепе́рь нау́чатся. У меня́ то́же пода́рок есть.»
+On «У меня́ то́же пода́рок есть» her chin comes up, and on the last word she TURNS HER HEAD AWAY from screen left toward SCREEN RIGHT, looking off toward the rear of the room. The shot ends on that turn, holding on her profile. Her feet do not move and she does not walk.
+
+OPTICS
+29° short telephoto, close framing by lens reach not proximity, razor focus on the eyes, the wall behind her compressed into soft warm blur. One locked camera position, no camera move at all. Rectilinear, no fisheye, no vignette, no iris.
+
+BACKGROUNDS
+Plain boulder-block wall running away behind her, soft and out of focus — never red brick, and no furniture in frame.
+
+SOUND
+Low room tone under everything. Her one line, then a second of room after the turn. No music, no subtitles, no narrator.
+
+SHOT RULES
+Only Мама is in this job and only Мама speaks. There is no second voice and no offscreen line.
+The walls are ENORMOUS pale sandstone boulder-blocks, each bigger than a character's whole body — never small or normal-scale masonry.
+NO fire, NO chest, NO table, NO food, NO glow, NO magic of any kind in this shot.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @MAMA. Every character matches their reference exactly. The set and props are @ROOM_FRONT, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

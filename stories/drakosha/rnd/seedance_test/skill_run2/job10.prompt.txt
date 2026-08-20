@@ -1,0 +1,41 @@
+SCENE CONTEXT
+Two tiny children run into their warm home behind the stove, where their mother holds two babies and their father hides a covered birthday present behind his back.
+
+ACTIVE REFERENCES
+@FROSYA: 7yo tiny house-spirit girl, huge unkempt dark curly mane with a pencil stub in it, patchwork dress, barefoot. 100% matches the reference.
+@VASYA: 5yo tiny house-spirit boy, enormous bushy eyebrows, patchwork tunic, shoelace belt, barefoot. 100% matches the reference.
+
+LOCATION MAP
+The house-spirits' main room behind the stove: the dark cast-iron flank of the great stove forms one wall; a thread-spool table stands center; matchbox beds against the wall; a Christmas-bulb lamp glows overhead; the concealed entrance is at screen-left; a warped floorboard ramp descends at screen-right. Warm firelight ambience.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Shot A opens on the empty room as described, no characters at the entrance yet, MAMA and PAPA already inside: MAMA midground-right holding the thin baby boy on her arm with the round baby girl on her back; PAPA foreground-left standing squarely in front of a cloth-covered object, trying to hide it behind his body, wood shavings in his coat.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Three shots. HARD CUTS only.
+Shot A, 0:00 to 0:04: wide from the far corner: the room glows; the stove crackles; a thimble kettle bubbles; the two babies snuffle audibly. No dialogue.
+HARD CUT.
+Shot B, 0:04 to 0:08: facing the entrance: @FROSYA and @VASYA run in together, breathless from their errand. MAMA turns toward them with both babies; PAPA shifts sideways to keep the covered present hidden behind his back, not quite succeeding — one corner of the cloth peeks out.
+HARD CUT.
+Shot C, 0:08 to 0:12: at Frosya's eye height facing PAPA: he can barely hold back a grin, the covered present's edge visible over his shoulder. He speaks in Russian, warm and delighted: «Фрося, иди сюда. С днём рождения, доченька. Смотри, что я для тебя сделал.» His torso faces Frosya; his eyes stay on her.
+
+OPTICS
+Shot A: 84° classic wide, deep readable room, rectilinear lines.
+Shot B: 47° standard normal at child height.
+Shot C: 47° standard normal at Frosya's eye level, PAPA framed from her perspective, slight upward angle.
+No lens drift inside any shot.
+
+CAMERA
+Static locked frames throughout. No movement.
+
+PHYSICS
+The children arrive with real momentum and settle; the cloth over the present shifts as PAPA moves; the babies' weight visibly loads MAMA's arm and back.
+
+LIGHTING
+Warm hearth light from the stove side plus the small bulb lamp overhead; soft shadows, cozy contrast. No flat front light.
+
+AUDIO
+Stove crackle, thimble kettle bubbling, baby snuffles continuous; running footsteps in shot B; PAPA's Russian line in shot C, warm, barely containing a smile. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly six characters: two children, mother, two babies, father. The present stays covered in every frame. Vasya's bushy eyebrows visible whenever his face shows.

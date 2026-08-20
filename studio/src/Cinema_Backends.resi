@@ -64,7 +64,7 @@ let run: (~cmd: string, ~args: array<string>) => runResult
 let ffmpeg: array<string> => unit
 /* Render Pango markup to a content-sized PNG via pango-view (ffmpeg has no text
    filter on this Mac). Caller overlays the PNG on a fixed canvas. */
-let pango: (~markup: string, ~width: int, ~background: string, ~out: path) => path
+let pango: (~markup: string, ~width: int, ~background: string, ~margin: int=?, ~out: path) => path
 /* Exact decoded duration of an audio/video file (ffmpeg -f null, parsed). */
 let durationSec: path => seconds
 /* Container duration via ffprobe: fast and exact where durationSec is neither.

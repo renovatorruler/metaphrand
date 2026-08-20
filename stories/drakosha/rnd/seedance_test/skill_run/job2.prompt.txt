@@ -1,0 +1,46 @@
+SCENE CONTEXT
+The two tiny children stop beneath the open drawer's side panel; the girl checks the room is clear, and the boy retrieves an old fishing hook and ties it to his shoelace belt.
+
+ACTIVE REFERENCES
+@FROSYA: 7yo tiny house-spirit girl, huge unkempt dark curly mane with a pencil stub in it, patchwork dress, barefoot. 100% matches the reference.
+@VASYA: 5yo tiny house-spirit boy, enormous bushy eyebrows, patchwork tunic, a long shoelace wrapped around his waist as a belt, barefoot. 100% matches the reference.
+@PASSAGE: the narrow dresser-side passage. Geography and materials only.
+
+LOCATION MAP
+Inside the narrow passage. The dresser's open bottom drawer projects above: its right side panel forms a wooden wall over the children, and its wide front panel screens them from the room. The striped sock lies bunched on the floor between the children. A small dark knothole cache sits low in the wall plaster at screen-right.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first visible frame of every shot already contains its listed characters in position. No empty establishing frames.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Five shots. HARD CUTS only.
+Shot A, 0:00 to 0:03: at the front end of the passage, @FROSYA leans her head past the plaster corner and scans the room, one hand braced on the corner; satisfied, she turns back and beckons @VASYA forward with a short wave. Her body stays inside the passage the whole time.
+HARD CUT.
+Shot B, 0:03 to 0:05: both children stand under the drawer's overhanging side panel, the sock bunched at their feet. Frosya, catching her breath, speaks in Russian, businesslike: «Потому что не считают. У меня всё посчитано. Доставай крючок.» Her torso faces Vasya; Vasya already turns toward the wall cache.
+HARD CUT.
+Shot C, 0:05 to 0:07: @VASYA alone at the wall, reaching into the small knothole cache with both hands, drawing out an old blunted fishing hook as long as his forearm, dull grey metal, its point rounded and harmless.
+HARD CUT.
+Shot D1, 0:07 to 0:09: extreme close-up on the floorboard: the hook's eye lies beside the end of the shoelace, now unwrapped from Vasya's waist. Two small hands enter frame and begin threading the lace through the hook eye.
+HARD CUT.
+Shot D2, 0:09 to 0:12: same close position, the knot is already tied. Vasya's hands give the lace one sharp test tug; the hook jumps a centimeter and holds. The lace rustles; the hook gives a quiet metallic tick against the wood.
+
+OPTICS
+Shots A and B: 47° diagonal field of view, standard normal lens at child scale, natural proportions, no distortion.
+Shot C: 29° short telephoto character, subject sharp, passage background softening behind him.
+Shots D1 and D2: 29° detail lens character, macro-close on the hook and hands, shallow focus, background a soft warm blur.
+No lens drift inside any shot.
+
+CAMERA
+All shots static and locked at child height or floor level. No camera movement.
+
+PHYSICS
+The hook has real metal weight: Vasya's arms adjust to its mass as it leaves the cache. The lace bends and rustles like real cord; the knot tightens visibly under the tug; the test tug produces one small jump and settle, no bounce loop.
+
+LIGHTING
+Warm spill from the room reaches the passage mouth at screen-left; under the drawer panel the children sit in soft shadow with warm bounce. No flat front light, no beauty fill.
+
+AUDIO
+Muffled clock ticking. The lace rustling, one quiet metallic tick in D2. Frosya's Russian line in shot B, businesslike, slightly out of breath. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two children. The hook is blunt and rounded, never sharp or threatening. The shoelace belt is off Vasya's waist from shot D1 onward. Vasya's bushy eyebrows visible whenever his face shows.

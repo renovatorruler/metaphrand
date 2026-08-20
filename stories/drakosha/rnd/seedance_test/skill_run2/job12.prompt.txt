@@ -1,0 +1,43 @@
+SCENE CONTEXT
+The two tiny children ride the spinning top while their father spins it and the two babies squeal in their mother's arms.
+
+ACTIVE REFERENCES
+@FROSYA: 7yo tiny house-spirit girl, huge dark curly mane, patchwork dress, barefoot. 100% matches the reference.
+@VASYA: 5yo tiny house-spirit boy, enormous bushy eyebrows, patchwork tunic, shoelace belt with the long end tucked in, barefoot. 100% matches the reference.
+
+LOCATION MAP
+Center of the main room. The spinning top stands mid-floor with the two children seated on opposite sides. PAPA at the top's center handle. MAMA with both babies at the room's edge, midground.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Shot A opens with both children already seated on the top's opposite seats, each gripping their own handle, Vasya's belt end tucked under its loops. PAPA stands at the center handle.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Four shots. HARD CUTS only.
+Shot A, 0:00 to 0:03: side view, the whole top in frame: the children settle their grips; PAPA's hands close on the central handle.
+HARD CUT.
+Shot B, 0:03 to 0:05: close on the top's center: PAPA's hands wind the handle in one strong twist and release — the top starts to spin.
+HARD CUT.
+Shot C, 0:05 to 0:09: from across the room, static: the top spins fast in the center of the floor, the two children a laughing blur holding on, their hair and clothes streaming with the rotation. The camera does not move or follow the spin. Both children squeal and laugh — joy, not fear.
+HARD CUT.
+Shot D, 0:09 to 0:12: close on the two babies in MAMA's arms: the thin baby boy and the round-cheeked baby girl track the spinning blur with wide eyes — a beat of silence — then both erupt in a squeal even louder than the older children's.
+
+OPTICS
+Shots A and B: 47° standard normal; shot B close on hands and handle.
+Shot C: 84° classic wide from across the room, full spatial context, rectilinear lines.
+Shot D: 29° short telephoto portrait on the babies, background softly dissolved.
+No lens drift inside any shot.
+
+CAMERA
+All static locked frames. The spin happens inside a motionless frame.
+
+PHYSICS
+The top spins with true gyroscopic behavior: fast stable rotation, a slight wander across the floorboards, gradual precession. The riders lean into the spin, hair and patchwork streaming outward with centrifugal pull. PAPA's wind-up carries real effort and follow-through. No impossible acceleration, no weightlessness.
+
+LIGHTING
+Warm hearth and lamp light; the spinning top throws soft moving gleams around the room. No flat front light.
+
+AUDIO
+A rising whoosh as the top winds up; the children's squealing laughter through shots C and D; the babies' answering squeal in shot D louder still; stove crackle underneath. No dialogue. No music, no subtitles.
+
+POSITIVE CONSTRAINTS
+Exactly two riders on the top. PAPA releases after the spin and stays clear. The camera never spins with the top. Joyful faces throughout, no fear.

@@ -1,0 +1,17 @@
+Built-in ChatGPT native image generation
+
+Use case: scientific-educational
+Asset type: canonical Russian alphabet handwriting reference sheet
+Primary request: Create one complete master sheet containing all 33 uppercase Russian Cyrillic letters in this exact order and no others:
+А Б В Г Д Е
+Ё Ж З И Й К
+Л М Н О П Р
+С Т У Ф Х Ц
+Ч Ш Щ Ъ Ы Ь
+Э Ю Я
+Subject: capital block letters that look handwritten by one child
+Style/medium: thin dark graphite pencil; slightly crooked and uneven; subtle doubled strokes; localized smudges and pencil dust; imperfect corners; fully legible; approved sample 5 style, including its distinctive hooked Cyrillic Л
+Composition/framing: six clear rows, generous spacing, one consistent baseline per row, no cell borders, no labels
+Scene/backdrop: flat warm pale paper-colored field
+Constraints: all 33 letters must appear exactly once; consistent hand, tool size, graphite weight, darkness, and cap-height range; preserve natural width differences
+Avoid: digital font, calligraphy, marker, charcoal, clean vector geometry, general paper dirt, texture, grid, neighboring marks, decorative effects, glow, shadows, missing or duplicated letters

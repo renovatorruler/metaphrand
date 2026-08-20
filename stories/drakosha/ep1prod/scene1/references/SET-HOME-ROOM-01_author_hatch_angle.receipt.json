@@ -1,0 +1,12 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "stage": "refs",
+  "approvedBy": "author",
+  "approvedOn": "2026-08-14",
+  "subjects": {
+    "SET-HOME-ROOM-01-HATCH": "SET-HOME-ROOM-01_author_hatch_angle.png — AUTHOR-SUPPLIED third camera position of the SAME hall, turned toward the hatch wall. The cleanout hatch reads clearly at three-quarter on the left wall, the bed row runs away beside it, the cradle sits in the near left foreground, and the table and sealed iron plate fall to the right rear."
+  },
+  "rulings": {
+    "threeAngles": "The hall now has THREE approved camera positions: the v4 three-quarter master, the low floor-level view, and this hatch-facing angle. They are bound together. One frontal plate was what made every generated shot repeat a single camera position; three give the model somewhere else to stand."
+  }
+}

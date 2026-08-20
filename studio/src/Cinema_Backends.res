@@ -344,7 +344,9 @@ let ffmpeg = (args: array<string>): unit => {
 
 /* pango-view: render Pango markup to a (content-sized) PNG. This Mac's ffmpeg has
    no text filter, so on-screen text is rendered here and overlaid by ffmpeg. */
-let pango = (~markup: string, ~width: int, ~background: string, ~out: path): path => {
+/* ~margin defaults to 90 for the full-width story cards this was written for; small
+   corner labels pass a tight margin so they do not become slabs. */
+let pango = (~markup: string, ~width: int, ~background: string, ~margin: int=90, ~out: path): path => {
   let Path(o) = out
   let r = spawnSync(
     "pango-view",
@@ -354,7 +356,7 @@ let pango = (~markup: string, ~width: int, ~background: string, ~out: path): pat
       "--align=center",
       "--background=" ++ background,
       "--width=" ++ Belt.Int.toString(width),
-      "--margin=90",
+      "--margin=" ++ Belt.Int.toString(margin),
       "-o",
       o,
       "-t",

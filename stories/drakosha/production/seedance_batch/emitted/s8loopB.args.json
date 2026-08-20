@@ -1,0 +1,9 @@
+{
+  "model": "veo3_1_lite",
+  "duration": 8,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-20_FROSYA_WRITE_LOOP_frame.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-05.png"
+  ],
+  "promptSha256": "d9b4a27e38f1d2cc3984f3c0dbc46a9edba72bfef8193eca91323897d1257e4f"
+}

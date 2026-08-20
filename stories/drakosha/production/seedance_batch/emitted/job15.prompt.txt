@@ -1,0 +1,51 @@
+ACTIVE REFERENCES
+@YAGA — её зовут Бабушка-Яга — old grandmother witch in human flight form, patched skirt, streaming headscarf, standing braced in her flying wooden mortar. 100% matches the reference.
+@ROOF: the human house from outside — a long roof of dark slate tiles capped with a terracotta ridge, one red brick chimney standing up from it, clear blue sky with low-poly faceted white clouds. 100% matches the reference.
+@STUPA: Баба-Яга's ступа — a carved wooden mortar in bare unpainted faceted wood, tapering in at the middle and standing on a stepped round foot, its mouth open and EMPTY. Indoors it stands empty and upright on the floorboards and she stands on the floor beside it, never inside it. 100% matches the reference.
+
+SCALE
+@YAGA in human flight form stands about 147 cm — SIXTEEN TIMES the family's size. She is a full-grown human woman here.
+@STUPA comes up to about @YAGA's waist.
+
+SCENE CONTEXT
+A flying wooden mortar carrying an old woman crosses the sky above a human house and its shadow sweeps over the chimney. She is at FULL HUMAN SIZE here — she does not shrink until the spiral, later.
+
+LOCATION MAP
+Exterior, morning. A human-scale house roof with a brick chimney, seen from a distance. Open sky. The mortar enters from screen-left, flying toward the chimney.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Shot A opens on the roof and chimney in the distance with the flying mortar already visible entering from screen-left — a plain carved wooden mortar big enough for a grown woman to stand in, tapering to a stepped round foot, bare unpainted faceted wood, the old woman standing braced inside it, her birch broom held up in one hand and her rag помело in the other, a white curl of wind already turning around the mortar's body.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Three shots. HARD CUTS only.
+Shot A, 0:00 to 0:03: distant view of the roof and chimney; the mortar approaches through the sky from screen-left, small but clear, wobbling slightly with flight.
+HARD CUT.
+Shot B, 0:03 to 0:06: static side view against open sky: the mortar crosses the frame left to right at close range. Яга stands braced inside, patched skirt and the ends of her kerchief snapping in the wind, broom up in one hand and rag помело in the other, the white curl of wind winding around the mortar.
+HARD CUT.
+Shot C, 0:06 to 0:08: from above the chimney looking straight down: the mortar's small shadow slides across the roof shingles and comes to rest covering the chimney opening.
+
+OPTICS
+Shot A: 107° wide rectilinear, big sky, deep focus, straight roofline.
+Shot B: 29° short telephoto, the mortar sharp against a softly dissolved sky.
+Shot C: 47° standard normal, straight down, deep focus on the shingles.
+No lens drift inside any shot.
+
+CAMERA
+All static locked frames; the mortar moves through them. No tracking.
+
+PHYSICS
+The mortar flies like a heavy wooden vessel, not an aircraft: it bobs and tilts into its turn with real weight. The broom she holds up catches the airflow and tugs at her hand. Wind streams the old woman's headscarf and skirt. The shadow obeys the morning sun's angle.
+
+LIGHTING
+Bright cold morning sun from screen-right; long soft shadows on the roof. No flat lighting.
+
+AUDIO
+Wind; a low wooden hum from the mortar; the dry rustle of the birch broom in the airflow. No dialogue. No music, no subtitles.
+
+SHOT RULES
+Exactly one flying mortar and one old woman, carrying one birch broom and one rag помело. NO pestle across the rim and NO bundles lashed to the mortar — she travels light. No witch hat, no green skin, no cackling stereotype — she is a warm fierce grandmother with a gold tooth. SCALE LOCK: she is a full-sized human woman here, roughly 147cm, and the mortar is human-sized against the human roof — she is NOT tiny, and nothing shrinks in this shot.
+Nobody speaks in this sequence.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @YAGA. Every character matches their reference exactly. The set and props are @ROOF, @STUPA, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

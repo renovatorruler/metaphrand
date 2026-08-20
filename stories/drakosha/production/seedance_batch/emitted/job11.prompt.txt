@@ -1,0 +1,55 @@
+ACTIVE REFERENCES
+@FROSYA — её зовут Фрося — the ELDEST of the family's FOUR children: orange flower in her hair, safety pin on her patchwork dress, no pencil. 100% matches the reference.
+@VASYA — его зовут Вася — the SECOND of the family's FOUR children, younger than Фрося and older than Руся and Муся: enormous bushy eyebrows, shoelace belt. 100% matches the reference.
+@PAPA — его зовут Папа — the father: short and stocky, huge beard, blue work shirt with suspenders, iron key on a cord. 100% matches the reference.
+@ROOM_FRONT: the family's hall inside the old bricked-up fireplace — boulder-brick walls, a riveted iron plate as the far wall, plank floor, a garland of coloured bulbs, a plank-on-spools table, matchbox beds along the left wall, a small dark iron cleanout hatch low in the left wall, a rope-railed floor opening at the right. 100% matches the reference.
+@TOP: the mended юла́ — a red and cream striped wooden spinning top, metal staples and wood patches over its mends, a rope pull-toggle at the neck, and two little wooden chairs on opposite shoulders. 100% matches the reference.
+
+SCALE
+Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.
+Вася is shorter than Фрося, about up to her eyebrows.
+Папа is the tallest, about a head above Мама.
+The furniture is lost human things at this size: matchbox beds, a plank laid on thread spools, thimbles on the shelf, fairy-light bulbs overhead.
+@TOP is as tall as Фрося and about three-quarters of Папа's height — a heavy, chunky object. Its two chairs are sized for these two children, one child per chair.
+
+SCENE CONTEXT
+The tiny father unveils a repaired giant spinning top with two seats, his daughter hugs him, and he invites both children to climb on.
+
+LOCATION MAP
+The hall inside the old bricked-up fireplace: giant boulder-brick walls; the huge dark riveted iron plate closing the old fireplace mouth forms the far wall, warm light seeping around its edges; a plank-on-spools table stands center; four matchbox beds and a knitted-mitten cradle against the wall; a colored garland of bulbs glows overhead; the small dark iron cleanout hatch sits low in the left brick wall, shut and unlit; a railed floor opening with a warped plank ramp descends at the far right corner. The cloth-covered юла́ stands on the floor center-left as a separate object, and under the cloth its shape reads clearly: a rounded cone as tall as Фрося herself, widest at the shoulders and tapering to a point on the floor, with two bumps where the chairs sit and the narrow neck lifting the cloth at the very top. Папа stands beside it; the children face it.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Shot A opens directly on the covered present with the hands of Папа already gripping the cloth. Children off-frame for shot A only.
+
+FORMAT MODE
+CONTROLLED MULTI-SHOT SEQUENCE. Three shots. HARD CUTS only.
+Shot A, 0:00 to 0:03: camera directly in front of the present: Папа pulls the cloth away in one sweep and steps aside, revealing the mended юла́: a wooden spinning top painted in red and cream horizontal stripes, a long crack down one side closed with a row of metal staples, square patches of mismatched wood stapled over the worn places, a tall narrow neck at the top with a knob cap, a rope wound around that neck ending in a wooden pull-toggle, and TWO small wooden chairs fixed on opposite shoulders — each with a slatted back, armrests, and a stitched patchwork cushion.
+HARD CUT.
+Shot B, 0:03 to 0:08: beside the top, seeing Фрося and Папа: she looks the юла́ over — the staples, the wood patches, the two little chairs — then throws her arms around the neck of Папа. She speaks in Russian, sincere and bright: «Пап! Вот э́то ю-ЛА́! Кака́я красота́! Спаси́бо!» Папа glows.
+HARD CUT.
+Shot C, 0:08 to 0:12: framing Папа and both children: he points to the two chairs, one and then the other, and says in Russian, pleased: «Забира́йтесь о́ба. Сейча́с закручу́!» Both children's faces light up and they go straight for it — the seats sit high up on the юла́'s shoulders, too high to simply step onto, so each child has to climb. Вася scrambles up the striped flank, gets a knee onto the shoulder and swings himself into the far chair. Фрося hauls herself into the near one and settles back against its slatted back. Папа steadies the юла́ with one hand while they climb but does NOT lift them — they get themselves aboard, which is what he asked them to do.
+
+OPTICS
+Shot A: 47° standard normal, the top dominating center frame.
+Shots B and C: 47° standard normal at child height, natural proportions.
+No lens drift inside any shot.
+
+CAMERA
+Static locked frames. No movement.
+
+PHYSICS
+The cloth sweeps off with real fabric motion and drops. The юла́ has real mass on the plank floor. Фрося hug lands with weight; Папа absorbs it with a small happy stagger.
+
+LIGHTING
+Warm hearth and lamp light; the painted юла́ catches gleams. No flat front light.
+
+AUDIO
+Cloth sweep, a wooden settle of the top, Фрося's line in Russian, Папа's line in Russian. Stove crackle under everything. No music, no subtitles.
+
+SHOT RULES
+The юла́ has exactly two chairs and one rope pull-toggle. The staples and wood patches stay visible in every frame — it is a mended treasure, not a new toy. No twist handle, no crank. the eyebrows of Вася visible whenever his face shows.
+Dialogue lock: only the lips of Фрося move in shot B; only the lips of Папа move in shot C. No overlap, no offscreen voices.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @FROSYA, @VASYA, @PAPA. Every character matches their reference exactly. The set and props are @ROOM_FRONT, @TOP, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.
