@@ -126,3 +126,25 @@ The ~90 figure above priced shots 1, 2 and 4 at zero by treating them as stills 
 Shots 1, 2 and 4 are shot with **blank tiles and blank paper**, or with the tiles face down. The model is never asked to spell anything, which is the whole point; it is asked to give us children moving on a floor, which it does well.
 
 Roughly 25 seconds of screen time for ~130 credits, against scene 7's 250 for 82 seconds.
+
+
+---
+
+## PRICE, SETTLED (2026-08-19)
+
+The tile-scale finding removes the need to composite the tile field at all — see `COMPOSITE_LIVENESS_LAW.md`. Every shot is generated; only the paper letters in shot 4 are the author's art, which is her design and not a workaround.
+
+| # | shot | sec | credits | tiles |
+|---|---|---|---|---|
+| 1 | overhead, knees + tiles, «Что можно написать?» | 5 | 12.5 | NOT READABLE — a scatter, nobody reads it |
+| 2 | her hand assembles `СОК`, tight and locked | 5 | 12.5 | ~13% of frame height, the jobD case |
+| 3 | Фрося seated, writing, back plate behind her | 6 | 15.0 | — |
+| 4 | overhead on the paper, `С-О-К`, «Точка!» | 6 | 15.0 | author's letters over a live plate |
+| 5 | the glow crosses Вася's face | 4 | 10.0 | — |
+| 6 | over his head, «Соку хочешь?» | 5 | 12.5 | — |
+| 7 | looking through the juice | 6 | 15.0 | — |
+| | **subtotal** | **37s** | **92.5** | |
+| | retry allowance — 3 shots | 15s | 37.5 | |
+| | **envelope** | | **~130** | |
+
+Expected finishing work, not counted as credits: repainting one or two glyphs on the static tiles of shot 2, exactly as `Б`-as-`6` was repaired in scene 7.

@@ -629,6 +629,73 @@ let namedWalls = [
   "niche", "table end", "boulder-block wall", "no wall", "shows no wall",
 ]
 
+/* THE TILE-SCALE GATE — measured off our own footage, 2026-08-19.
+
+   Two shots from scene 7 settle what the model can and cannot do with the
+   letter tiles, and they disagree for exactly one reason: how big a tile is
+   on screen.
+
+   s7jobD — locked top-down, each tile about 13% of frame height. It held all
+   eight tiles for the whole beat: right count, even spacing, no drift, and
+   the only error was Б drawn as the digit 6. One glyph, repairable in post on
+   a tile that never moves.
+
+   s7jobE — the same tiles seen from across the room inside the chest, each
+   about 2% of frame height. No letters at all. Scratches.
+
+   So the rule is not "the model cannot do tiles". It is that a glyph needs
+   room to exist. Below roughly a tenth of frame height the model stops
+   drawing letters and starts drawing texture, and no prompt fixes it.
+
+   A shot that puts tiles in frame must therefore say how big they are, and
+   either give them room or state plainly that they are not meant to be read. */
+let assertTileScaleStated = (record, problem): unit => {
+  let c = record.creative
+  let lower = Js.String2.toLowerCase(c)
+  let mentionsTiles =
+    Js.String2.includes(lower, "фишк") ||
+    Js.String2.includes(lower, "tile") ||
+    Js.String2.includes(lower, "буквенн")
+  if mentionsTiles {
+    switch Js.String2.includes(c, "\nTILE SCALE") {
+    | false =>
+      problem(
+        record.jobId,
+        "the shot has tiles in it and no TILE SCALE line. State the tile height as a percentage of frame height, or say NOT READABLE if the tiles are only texture in this shot. Measured on our own footage: at ~13% of frame height the model held eight tiles with one bad glyph; at ~2% it produced no letters at all.",
+      )
+    | true =>
+      let after = Belt.Array.getExn(Js.String2.split(c, "\nTILE SCALE"), 1)
+      let line = Belt.Array.getExn(Js.String2.split(after, "\n"), 0)
+      let notReadable =
+        Js.String2.includes(Js.String2.toUpperCase(line), "NOT READABLE") ||
+        Js.String2.includes(Js.String2.toLowerCase(line), "не читаются")
+      if !notReadable {
+        let pct =
+          Js.String2.match_(line, %re("/(\d+(?:\.\d+)?)\s*%/"))
+          ->Belt.Option.flatMap(m => Belt.Array.get(m, 1))
+          ->Belt.Option.flatMap(x => x)
+          ->Belt.Option.flatMap(Belt.Float.fromString)
+        switch pct {
+        | None =>
+          problem(
+            record.jobId,
+            "the TILE SCALE line names no percentage. Write it as a number, for example: TILE SCALE — each tile is ~13% of frame height.",
+          )
+        | Some(v) =>
+          if v < 8.0 {
+            problem(
+              record.jobId,
+              "TILE SCALE is " ++
+              Js.Float.toString(v) ++
+              "% of frame height. Below 8% the model draws texture instead of letters — this is the s7jobE failure. Either frame tighter, or write NOT READABLE and keep the letters out of the story's way in this shot.",
+            )
+          }
+        }
+      }
+    }
+  }
+}
+
 let assertBackgroundsAssigned = (record, problem): unit => {
   let c = record.creative
   switch Js.String2.includes(c, "\nBACKGROUNDS") {
@@ -721,6 +788,7 @@ let () = {
       assertReactionsWritten(record, problem)
       assertHandsWritten(record, problem)
       assertBackgroundsAssigned(record, problem)
+      assertTileScaleStated(record, problem)
       let refPaths = emitRefPaths(record)->Belt.Array.map(resolveRef)
       refPaths->Belt.Array.forEach(p =>
         if !existsSync(p) {

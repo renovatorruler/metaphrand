@@ -47,15 +47,27 @@ This means **compositing does not save generation credits.** It saves reshoots. 
 
 ---
 
-## THE STORY-LEVEL FIX FOR THE TILE SHOTS — TILES ARE FACE DOWN
+## THE TILE SHOTS — WITHDRAWN PROPOSAL, AND WHAT THE FOOTAGE ACTUALLY SAYS
 
-The hardest tracking problem in the СОК segment is shot 2, where a hand slides tiles into place: a moving tile would need its letter tracked frame by frame.
+I proposed that the tiles lie face down and be turned over. The author:
 
-It disappears if **the tiles lie face down and the children turn each one over as they use it.** Then:
+> Nobody plays with letter tiles by turning them over. And I don't believe our video is capable of making sure that we have the right number of tiles, even if we were to leave them blank.
 
-- a blank tile in motion is correct, and needs nothing from us
-- the letter only ever has to be composited onto a tile that has come to rest
-- turning a tile over becomes a physical act with a sound, which is more interesting than sliding one
-- it is true to how anyone actually plays with letter tiles
+The first objection is simply right — it was a contrivance in service of a technical problem. The second sent me to the footage, and the footage disagrees with both of us in a useful way.
 
-This is a change to the action and needs the author's decision, but it converts the segment's worst technical problem into a better piece of business.
+**s7jobD**, locked top-down, each tile about 13% of frame height: eight tiles, right count, even spacing, no drift across the whole beat. The only error in the row was `Б` drawn as the digit `6` — one glyph, on a tile that never moves, repairable in post in minutes.
+
+**s7jobE**, the same tiles seen from across the room inside the chest, each about 2% of frame height: no letters at all, just scratches on wood.
+
+So the model is not incapable of holding a countable set of tiles. **A glyph needs room to exist.** Above roughly a tenth of frame height the model draws letters; below it, it draws texture, and no prompt changes that. Every letter disaster in scene 7 was a small-in-frame shot.
+
+### What follows
+
+1. **Frame tiles big or don't ask for letters.** A shot either gives a tile ~10%+ of frame height, or states that its tiles are texture and not meant to be read. Both are legitimate; the sin is asking for legible letters at 2%.
+2. **Shot 1 does not need legible tiles.** "Что можно написать?" plays on the children and the scatter. Nobody has to read the field before she picks from it.
+3. **Shot 2 is the jobD case** — tight, locked, short, tiles large. This is the model's proven zone, with single-glyph repainting as the expected finishing step rather than a rescue.
+4. **Cut on the placement.** A tile in motion never needs to carry a letter, because we cut as the hand comes down and rejoin with the tile at rest. Ordinary grammar, no tracking, no contrivance.
+
+### Enforcement
+
+`assertTileScaleStated` in `studio/src/Drakosha_SeedanceDryRun.res`. Any creative mentioning tiles must carry a `TILE SCALE` line giving the tile height as a percentage of frame height. Below 8% the dry run fails, unless the line says `NOT READABLE`, which is an admitted decision rather than an accident.
