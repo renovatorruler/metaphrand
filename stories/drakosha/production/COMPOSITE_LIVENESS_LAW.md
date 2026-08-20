@@ -47,27 +47,36 @@ This means **compositing does not save generation credits.** It saves reshoots. 
 
 ---
 
-## THE TILE SHOTS — WITHDRAWN PROPOSAL, AND WHAT THE FOOTAGE ACTUALLY SAYS
+## THE TILE SHOTS — TWO WITHDRAWN PROPOSALS, AND THE ACTUAL RECORD
 
-I proposed that the tiles lie face down and be turned over. The author:
+I proposed the tiles lie face down and be turned over. The author: nobody plays with letter tiles that way. Correct — it was a contrivance in service of a technical problem.
 
-> Nobody plays with letter tiles by turning them over. And I don't believe our video is capable of making sure that we have the right number of tiles, even if we were to leave them blank.
+I then proposed that tile size was the governing variable, citing s7jobD as a shot where the model held eight tiles. **s7jobD was thrown out.** Its glyphs were wrong and the finger pointed at the wrong tiles, and I did not know that because I sampled still frames from it and pointing is a fault that only exists in motion. The author:
 
-The first objection is simply right — it was a contrivance in service of a technical problem. The second sent me to the footage, and the footage disagrees with both of us in a useful way.
+> You are not capable of looking at things. That footage had to be thrown out and replaced with our own composite.
 
-**s7jobD**, locked top-down, each tile about 13% of frame height: eight tiles, right count, even spacing, no drift across the whole beat. The only error in the row was `Б` drawn as the digit `6` — one glyph, on a tile that never moves, repairable in post in minutes.
+### The actual record for scene 7
 
-**s7jobE**, the same tiles seen from across the room inside the chest, each about 2% of frame height: no letters at all, just scratches on wood.
+| shot | what happened |
+|---|---|
+| top-down row of eight | one tile plainly wrong; the pointing wrong as well. Discarded, replaced with our own composite. |
+| Мама laying the tiles out | wrong count, wrong letters. |
+| the small-tile row | letters wrong; covered with a plate. |
 
-So the model is not incapable of holding a countable set of tiles. **A glyph needs room to exist.** Above roughly a tenth of frame height the model draws letters; below it, it draws texture, and no prompt changes that. Every letter disaster in scene 7 was a small-in-frame shot.
+Nothing survived. Not one letter shot in the scene shipped as generated footage. **There is no tile size at which the model becomes reliable with Cyrillic**, and the earlier gate that claimed there was has been removed.
 
-### What follows
+### The rule that follows
 
-1. **Frame tiles big or don't ask for letters.** A shot either gives a tile ~10%+ of frame height, or states that its tiles are texture and not meant to be read. Both are legitimate; the sin is asking for legible letters at 2%.
-2. **Shot 1 does not need legible tiles.** "Что можно написать?" plays on the children and the scatter. Nobody has to read the field before she picks from it.
-3. **Shot 2 is the jobD case** — tight, locked, short, tiles large. This is the model's proven zone, with single-glyph repainting as the expected finishing step rather than a rescue.
-4. **Cut on the placement.** A tile in motion never needs to carry a letter, because we cut as the hand comes down and rejoin with the tile at rest. Ordinary grammar, no tracking, no contrivance.
+**Every glyph the model draws is assumed wrong.** A shot containing a letter the audience must read is planned from the start around replacing those glyphs on the moving footage: a locked or near-locked camera, the tile or paper at rest at the moment it is read, and enough pixels on the glyph to repaint cleanly.
+
+**And the labelling follows the performance.** Whatever tile the finger actually touches becomes the letter he says. We do not ask the model to point correctly at letters it cannot draw — we let it point wherever it points and assign the letters to match. The row order is ours to choose; the performance is not.
+
+This is the difference between repainting and overlaying, and it is also the answer to the stiffness. A repaint sits on tiles that are already lit, already moving, already in the plate's grain. A plate laid over a shot — the caption bar in scene 7 — is a sticker, and that is the composite that reads stiff.
 
 ### Enforcement
 
-`assertTileScaleStated` in `studio/src/Drakosha_SeedanceDryRun.res`. Any creative mentioning tiles must carry a `TILE SCALE` line giving the tile height as a percentage of frame height. Below 8% the dry run fails, unless the line says `NOT READABLE`, which is an admitted decision rather than an accident.
+`assertGlyphsPlanned` in `studio/src/Drakosha_SeedanceDryRun.res` refuses any creative mentioning letters or tiles without a GLYPHS block naming its strategy — NOT READABLE, REPAINT or PLATE — and a REPAINT shot must say when the letters come to rest.
+
+### Still open
+
+The author's own suggestion, untested: **a start frame and an end frame, both ours, with the model only interpolating between them.** It may hold the letters where a free generation cannot. It is one short shot to find out, and it should be run as an experiment with that name on it rather than folded into a plan.

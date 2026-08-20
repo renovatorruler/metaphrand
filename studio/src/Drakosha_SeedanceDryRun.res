@@ -629,68 +629,68 @@ let namedWalls = [
   "niche", "table end", "boulder-block wall", "no wall", "shows no wall",
 ]
 
-/* THE TILE-SCALE GATE — measured off our own footage, 2026-08-19.
+/* THE GLYPH GATE — no letter the model draws is ever trusted. 2026-08-20.
 
-   Two shots from scene 7 settle what the model can and cannot do with the
-   letter tiles, and they disagree for exactly one reason: how big a tile is
-   on screen.
+   I wrote a gate here yesterday claiming the model can hold a row of tiles if
+   the tiles are big enough, citing s7jobD. s7jobD was thrown out. Its glyphs
+   were wrong AND the finger pointed at the wrong tiles, which is a fault that
+   does not exist in a still frame — and still frames were all I looked at.
 
-   s7jobD — locked top-down, each tile about 13% of frame height. It held all
-   eight tiles for the whole beat: right count, even spacing, no drift, and
-   the only error was Б drawn as the digit 6. One glyph, repairable in post on
-   a tile that never moves.
+   The actual record for scene 7, from the author:
 
-   s7jobE — the same tiles seen from across the room inside the chest, each
-   about 2% of frame height. No letters at all. Scratches.
+     - the top-down row: one tile plainly wrong, and the pointing wrong on top
+       of that. Discarded and replaced with our own composite.
+     - Мама laying the tiles out: wrong count and wrong letters.
+     - the third: tiles too small, letters wrong, covered with a plate.
 
-   So the rule is not "the model cannot do tiles". It is that a glyph needs
-   room to exist. Below roughly a tenth of frame height the model stops
-   drawing letters and starts drawing texture, and no prompt fixes it.
+   Nothing survived. There is no size at which the model becomes reliable with
+   Cyrillic, and there is no prompt that fixes it. So the rule is not a
+   threshold, it is absolute.
 
-   A shot that puts tiles in frame must therefore say how big they are, and
-   either give them room or state plainly that they are not meant to be read. */
-let assertTileScaleStated = (record, problem): unit => {
+   THE RULE: any shot containing a letter that the audience must read is shot
+   on the assumption that every glyph in it will be wrong, and is designed so
+   that we can replace the glyphs afterwards on the moving footage. That means
+   a locked or near-locked camera, the tile or the paper at rest at the moment
+   it must be read, and enough pixels on the glyph to repaint cleanly.
+
+   And the labelling follows the performance, never the other way round:
+   whatever tile the finger actually touches becomes the letter he says. We do
+   not ask the model to point correctly at letters it cannot draw. */
+let assertGlyphsPlanned = (record, problem): unit => {
   let c = record.creative
   let lower = Js.String2.toLowerCase(c)
-  let mentionsTiles =
+  let hasLetters =
     Js.String2.includes(lower, "фишк") ||
     Js.String2.includes(lower, "tile") ||
-    Js.String2.includes(lower, "буквенн")
-  if mentionsTiles {
-    switch Js.String2.includes(c, "\nTILE SCALE") {
+    Js.String2.includes(lower, "букв") ||
+    Js.String2.includes(lower, "слово") ||
+    Js.String2.includes(lower, "letter")
+  if hasLetters {
+    switch Js.String2.includes(c, "\nGLYPHS") {
     | false =>
       problem(
         record.jobId,
-        "the shot has tiles in it and no TILE SCALE line. State the tile height as a percentage of frame height, or say NOT READABLE if the tiles are only texture in this shot. Measured on our own footage: at ~13% of frame height the model held eight tiles with one bad glyph; at ~2% it produced no letters at all.",
+        "this shot has letters in it and no GLYPHS block. Every glyph the model draws is assumed wrong — scene 7 lost every single letter shot. State how this shot survives that: either NOT READABLE (the letters are texture and nobody reads them), or REPAINT with the camera hold and the moment the letters are at rest, or PLATE if the letters are our art over a generated plate.",
       )
     | true =>
-      let after = Belt.Array.getExn(Js.String2.split(c, "\nTILE SCALE"), 1)
-      let line = Belt.Array.getExn(Js.String2.split(after, "\n"), 0)
-      let notReadable =
-        Js.String2.includes(Js.String2.toUpperCase(line), "NOT READABLE") ||
-        Js.String2.includes(Js.String2.toLowerCase(line), "не читаются")
-      if !notReadable {
-        let pct =
-          Js.String2.match_(line, %re("/(\d+(?:\.\d+)?)\s*%/"))
-          ->Belt.Option.flatMap(m => Belt.Array.get(m, 1))
-          ->Belt.Option.flatMap(x => x)
-          ->Belt.Option.flatMap(Belt.Float.fromString)
-        switch pct {
-        | None =>
-          problem(
-            record.jobId,
-            "the TILE SCALE line names no percentage. Write it as a number, for example: TILE SCALE — each tile is ~13% of frame height.",
-          )
-        | Some(v) =>
-          if v < 8.0 {
-            problem(
-              record.jobId,
-              "TILE SCALE is " ++
-              Js.Float.toString(v) ++
-              "% of frame height. Below 8% the model draws texture instead of letters — this is the s7jobE failure. Either frame tighter, or write NOT READABLE and keep the letters out of the story's way in this shot.",
-            )
-          }
-        }
+      let after = Belt.Array.getExn(Js.String2.split(c, "\nGLYPHS"), 1)
+      let block = Belt.Array.getExn(Js.String2.split(after, "\n\n"), 0)
+      let up = Js.String2.toUpperCase(block)
+      let planned =
+        Js.String2.includes(up, "NOT READABLE") ||
+        Js.String2.includes(up, "REPAINT") ||
+        Js.String2.includes(up, "PLATE")
+      if !planned {
+        problem(
+          record.jobId,
+          "the GLYPHS block names no strategy. It must say NOT READABLE, REPAINT or PLATE.",
+        )
+      }
+      if Js.String2.includes(up, "REPAINT") && !Js.String2.includes(up, "AT REST") {
+        problem(
+          record.jobId,
+          "a REPAINT shot must say when the letters are AT REST — glyphs can only be replaced cleanly on tiles or paper that are not moving. If they never come to rest, the shot cannot be repainted and needs a different plan.",
+        )
       }
     }
   }
@@ -788,7 +788,7 @@ let () = {
       assertReactionsWritten(record, problem)
       assertHandsWritten(record, problem)
       assertBackgroundsAssigned(record, problem)
-      assertTileScaleStated(record, problem)
+      assertGlyphsPlanned(record, problem)
       let refPaths = emitRefPaths(record)->Belt.Array.map(resolveRef)
       refPaths->Belt.Array.forEach(p =>
         if !existsSync(p) {
