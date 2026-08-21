@@ -414,7 +414,7 @@
 
 <small><em>(Sound: letter tiles spill onto the floorboard—clack-clack-clack. Shuffling.)</em> Frosya sits with the magic pencil while Vasya bends over the tiles. Nearby, Mama, Papa, and Baba Yaga drink tea and try very hard not to interfere.</small>
 
-**L101 — ФРОСЯ:** *(по-хозяйски, быстро)* Так. Пробуем. Что можно написать? С-О-К. СОК!
+**L101 — ФРОСЯ:** *(по-хозяйски, быстро)* Так. Пробуем. Что можно написать? С-О-К. СОК! *(опускает карандаш и ставит точку)* И то́чка.
 
 <small><strong>FROSYA:</strong> <em>(bossy and brisk)</em> All right. Let’s try it. What can we write? С-О-К. СОК (juice)!</small>
 
@@ -430,7 +430,7 @@
 
 <small><strong>VASYA:</strong> <em>(taking it, amazed)</em> Can you do that whenever you want now?!</small>
 
-**L105 — ФРОСЯ:** *(уже пишет дальше, деловито)* С-А-Л-А-Т. САЛАТ!
+**L105 — ФРОСЯ:** *(уже пишет дальше, деловито)* С-А-Л-А-Т. САЛАТ! *(точка)* И то́чка.
 
 <small><strong>FROSYA:</strong> <em>(already writing the next word, briskly)</em> С-А-Л-А-Т. САЛАТ (salad)!</small>
 
@@ -446,7 +446,7 @@
 
 <small>Rusya, who crawled over at the sound of the chime, studies the salad. Without a word, he turns around and crawls away.</small>
 
-**L109 — ФРОСЯ:** *(хихикая и выводя буквы)* М-А-К. МАК!
+**L109 — ФРОСЯ:** *(хихикая и выводя буквы)* М-А-К. МАК! *(точка)* И то́чка.
 
 <small><strong>FROSYA:</strong> <em>(giggling as she forms the letters)</em> М-А-К. МАК (poppy)!</small>
 
@@ -462,9 +462,9 @@
 
 <small><strong>MAMA:</strong> <em>(accepting the poppy, softly)</em> Oh… Thank you, sweetheart.</small>
 
-**L113** — Бабушка-Яга за столом одобрительно хмыкает. После трёх слов карандаш стал едва заметно короче. Фрося заправляет его за ухо.
+**L113** — Бабушка-Яга за столом одобрительно хмыкает. Фрося заправляет карандаш за ухо.
 
-<small>Baba Yaga gives an approving hum from the table. After three words, the pencil is just perceptibly shorter. Frosya tucks it behind her ear.</small>
+<small>Baba Yaga gives an approving hum from the table. Frosya tucks the pencil behind her ear.</small>
 
 **L114 — ВАСЯ:** *(роясь в мешочке, нетерпеливо)* А я? Я тоже хочу! Мне слово! Лёгкое!
 

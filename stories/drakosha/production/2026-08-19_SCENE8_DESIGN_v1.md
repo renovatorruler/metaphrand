@@ -23,7 +23,7 @@ SH102–SH140, lines 52–66. Four escalating uses of the magic: СОК works, �
 | 7 | **Руся crawls in, inspects the salad, crawls out. Silent.** | — | 1 mini job — the beat is MOTION; no still exists | GEN |
 | 8 | «Хе-хе. М-а-к. Мак!» | line57, 3.60s | **WRITE(МАК)** | CARD |
 | 9 | She carries the poppy to Мама: «Мам, это тебе.» / «Ох, спасибо, доченька.» | line58 2.24s + line59 2.40s | 1 mini job (two-shot; the ONE warm beat) | GEN |
-| 10 | Pencil visibly shorter; behind the ear (SH119B/C) | — | insert stills / detail | STILL |
+| 10 | Фрося tucks the pencil behind her ear (SH119B) | — | insert | STILL |
 | 11 | Вася: «А я? Я тоже хочу! Мне слово! Лёгкое!» | line60, 5.28s | GEN (with 4/6) | GEN |
 | 12 | Фрося: «Ну собери сам. Ты же читать будешь.» | line61, 2.48s | GEN or reuse close from sc7 style | GEN |
 | 13 | «Ма… ма. МАМА! ВЖУХ!» | line62, 4.96s | **READ-ASSEMBLE(МАМА) → TRANSFORM(МАМА)** | CARD |

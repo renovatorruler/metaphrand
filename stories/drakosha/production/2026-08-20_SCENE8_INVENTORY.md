@@ -12,7 +12,7 @@ Grouped as they actually cut:
 | СОК | SH104-108 | writes, word appears, juice, «Ты теперь всегда так можешь?!» |
 | САЛАТ | SH109-111 | writes, salad, «Фу-у-у! Овощи!» |
 | Руся | SH112-114 | crawls in, inspects, crawls out — silent |
-| МАК | SH115-119 | writes, poppy, carries it to Мама, Яга hums, the pencil is shorter |
+| МАК | SH115-119 | writes, poppy, carries it to Мама, Яга hums |
 | Вася asks | SH120-122 | «Мне слово!», she refuses to help, he lays the tiles |
 | the transformation | SH123-126 | he reads МАМА, ВЖУХ, two Мамы, she checks her brows |
 | the swarm | SH127-133 | babies launch, cling, «Они меня едят!», Мама peels them off |

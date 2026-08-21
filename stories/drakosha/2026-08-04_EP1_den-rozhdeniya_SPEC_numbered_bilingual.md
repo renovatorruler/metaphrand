@@ -410,9 +410,9 @@
 
 <small><em>(Sound: letter tiles spill onto the floor—clack-clack-clack.)</em> Frosya sits with the magic pencil while Vasya bends over the tiles. Nearby, Mama, Papa, and Baba Yaga drink tea and try not to interfere.</small>
 
-**SP097 — ФРОСЯ:** *(по-хозяйски, быстро)* Так. Пробуем. Что можно написать? С-О-К. СОК!
+**SP097 — ФРОСЯ:** *(по-хозяйски, быстро)* Так. Пробуем. Что можно написать? С-О-К. СОК! *(опускает карандаш и ставит точку)* И то́чка.
 
-<small><strong>FROSYA:</strong> <em>(bossy and brisk)</em> All right. Let’s try it. What can we write? С-О-К. СОК (juice)!</small>
+<small><strong>FROSYA:</strong> <em>(bossy and brisk)</em> All right. Let’s try it. What can we write? С-О-К. СОК (juice)! <em>(she lowers the pencil and puts the full stop)</em> And that’s that.</small>
 
 **SP098** — Написанное слово вспыхивает. *(Звук: тихий звон.)* Рядом появляется один напёрсток с соком.
 
@@ -426,9 +426,9 @@
 
 <small><strong>VASYA:</strong> <em>(taking it, amazed)</em> Can you do that whenever you want now?!</small>
 
-**SP101 — ФРОСЯ:** *(уже пишет дальше, деловито)* С-А-Л-А-Т. САЛАТ!
+**SP101 — ФРОСЯ:** *(уже пишет дальше, деловито)* С-А-Л-А-Т. САЛАТ! *(точка)* И то́чка.
 
-<small><strong>FROSYA:</strong> <em>(already writing the next word, briskly)</em> С-А-Л-А-Т. САЛАТ (salad)!</small>
+<small><strong>FROSYA:</strong> <em>(already writing the next word, briskly)</em> С-А-Л-А-Т. САЛАТ (salad)! <em>(the full stop)</em> And that’s that.</small>
 
 **SP102** — *(Звук: звон, шорох листьев.)* Рядом появляется плошка салата.
 
@@ -442,9 +442,9 @@
 
 <small>Rusya crawls over at the sound of the chime, studies the salad, then silently turns around and crawls away.</small>
 
-**SP105 — ФРОСЯ:** *(хихикая и выводя буквы)* М-А-К. МАК!
+**SP105 — ФРОСЯ:** *(хихикая и выводя буквы)* М-А-К. МАК! *(точка)* И то́чка.
 
-<small><strong>FROSYA:</strong> <em>(giggling as she forms the letters)</em> М-А-К. МАК (poppy)!</small>
+<small><strong>FROSYA:</strong> <em>(giggling as she forms the letters)</em> М-А-К. МАК (poppy)! <em>(the full stop)</em> And that’s that.</small>
 
 **SP106** — *(Звук: тонкий звон.)* Появляется уже срезанный алый мак на длинном стебле.
 
@@ -458,9 +458,9 @@
 
 <small><strong>MAMA:</strong> <em>(accepting the poppy, softly)</em> Oh… Thank you, sweetheart.</small>
 
-**SP109** — Бабушка-Яга одобрительно хмыкает. После трёх слов карандаш стал едва заметно короче. Фрося заправляет его за ухо.
+**SP109** — Бабушка-Яга одобрительно хмыкает. Фрося заправляет карандаш за ухо.
 
-<small>Baba Yaga gives an approving hum. After three words, the pencil is just perceptibly shorter. Frosya tucks it behind her ear.</small>
+<small>Baba Yaga gives an approving hum. Frosya tucks the pencil behind her ear.</small>
 
 **SP110 — ВАСЯ:** *(роясь в мешочке, нетерпеливо)* А я? Я тоже хочу! Мне слово! Лёгкое!
 

@@ -37,7 +37,7 @@ That is the joke shape: the first one is a reveal, the repeats are the punchline
 | 9 | Руся crawls in, inspects, crawls out — ONE shot | 8 | mini | was three shots; the joke is the continuous move |
 | 10 | `МАК` in graphite, mark, ignition, the poppy | 4 | mini | through her giggle |
 | 11 | she carries it to Мама; both lines | 7 | mini | Мама's voice pending recast |
-| 12 | Яга hums, the pencil is shorter, behind the ear | 5 | mini | three beats inside one frame |
+| 12 | Яга hums, Фрося tucks the pencil behind her ear | 4 | mini | two beats in one frame |
 | 13 | «А я? Мне слово!» and «Ну собери сам» — two-shot | 8 | mini | both lines in one setup |
 | 14 | **tiles: loose → `МАМА` spelled** | 4 | mini | start + end plate, hands passing through |
 | 15 | he reads МА-МА, ВЖУХ, light swallows him | 5 | mini | |
@@ -61,8 +61,26 @@ Kling 2.6 with sound off is 1.0 a second, cheaper still, but it has no end frame
 
 ## WHAT IS COMPOSITED, AND THEREFORE FREE
 
-Every letter, in every state — the alphabet has graphite through ignite_90 to magic, and the eight Ep1 letters are done. The ignitions. The «И точка» mark. The materialisation of each object out of the letters breaking apart. The pencil getting shorter.
+Every letter, in every state — the alphabet has graphite through ignite_90 to magic, and the eight Ep1 letters are done. The ignitions. The «И точка» mark. The materialisation of each object out of the letters breaking apart.
 
 ## STILL OPEN
 
 Мама's voice, which gates shot 11. Вася's chips, which have no artwork at all and gate shot 14's end plate. And whether Фрося looks at camera on «И точка» — she never does anywhere else in the show.
+
+---
+
+## TWO SCRIPT CHANGES MADE 2026-08-21
+
+**The pencil does NOT shorten in the pilot.** The author had decided this and it was never written down anywhere, so it survived in five documents and would have gone into the shot list. Removed from the SPEC (SP109), the numbered bilingual (L113), the shooting script (SH119B) and from this document. The shot is now two beats — Яга's approving hum, and Фрося tucking the pencil behind her ear — and it is four seconds instead of five.
+
+The wear rule may return in a later season as a clock. It is not part of the pilot's plot and nothing in the pilot may show it.
+
+**«И то́чка» is now in the script**, on all three of Фрося's words. It goes at the end of her line, with the mark as the action:
+
+> **SP097 — ФРОСЯ:** *(по-хозяйски, быстро)* Так. Пробуем. Что можно написать? С-О-К. СОК! *(опускает карандаш и ставит точку)* И то́чка.
+
+Added identically at SP101 (САЛАТ) and SP105 (МАК), and mirrored in the numbered bilingual at L101/L105/L109 and in the shooting script at SH104/SH109/SH115.
+
+**This gives the two children matching triggers and they are opposite in kind.** Фрося seals with «И то́чка» — quiet, deliberate, a mark pressed into paper. Вася detonates with «ВЖУХ!» — loud, thrown, done to him. Neither of them was written as a pair, but the scene now reads as one, and the difference between the two gifts is audible as well as visible.
+
+One recording serves all three, because the clip is generated once and reused: `kuku_flow/audio/tochka_FROSYA_APPROVED.mp3`.

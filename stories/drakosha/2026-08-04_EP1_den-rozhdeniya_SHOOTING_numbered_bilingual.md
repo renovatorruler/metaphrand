@@ -1096,7 +1096,7 @@
 
 > <small>The camera is close above Frosya’s hand. She finishes writing `СОК`.</small>
 
-**ФРОСЯ:** *(по-хозяйски, быстро)* Так. Пробуем. Что можно написать? С-О-К. СОК!
+**ФРОСЯ:** *(по-хозяйски, быстро)* Так. Пробуем. Что можно написать? С-О-К. СОК! *(опускает карандаш и ставит точку)* И то́чка.
 
 > <small>**FROSYA:** *(bossy and brisk)* All right. Let’s try it. What can we write? С-О-К. СОК (juice)!</small>
 
@@ -1138,7 +1138,7 @@
 
 > <small>The camera looks down at Frosya’s hand. She writes `САЛАТ` while Vasya holds the juice nearby.</small>
 
-**ФРОСЯ:** *(деловито)* С-А-Л-А-Т. САЛАТ!
+**ФРОСЯ:** *(деловито)* С-А-Л-А-Т. САЛАТ! *(точка)* И то́чка.
 
 > <small>**FROSYA:** *(briskly)* С-А-Л-А-Т. САЛАТ (salad)!</small>
 
@@ -1186,7 +1186,7 @@
 
 > <small>The camera looks down at Frosya’s hand. She giggles and writes `МАК`.</small>
 
-**ФРОСЯ:** *(хихикая)* М-А-К. МАК!
+**ФРОСЯ:** *(хихикая)* М-А-К. МАК! *(точка)* И то́чка.
 
 > <small>**FROSYA:** *(giggling)* М-А-К. МАК (poppy)!</small>
 
@@ -1218,9 +1218,9 @@
 
 ### SH119 · 4 сек · SP109 · ТРИ ОТДЕЛЬНЫХ КАДРА
 
-**SH119A:** Бабушка одобрительно хмыкает. **SH119B:** два коротких крупных вида карандаша — каким он был в Фросиной ладони и каким стал теперь; теперь он чуть короче. **SH119C:** Фрося заправляет карандаш за ухо.
+**SH119A:** Бабушка одобрительно хмыкает. **SH119B:** Фрося заправляет карандаш за ухо.
 
-> <small>**SH119A:** Baba gives an approving hum. **SH119B:** two brief close views of the pencil—when it first lay in Frosya’s palm and as it looks now; it is now slightly shorter. **SH119C:** Frosya tucks the pencil behind her ear.</small>
+> <small>**SH119A:** Baba gives an approving hum. **SH119B:** Frosya tucks the pencil behind her ear.</small>
 
 ### SH120 · 4 сек · SP110 · ВАСЯ У РАБОЧЕЙ ЗОНЫ
 
