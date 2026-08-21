@@ -148,3 +148,25 @@ The tile-scale finding removes the need to composite the tile field at all — s
 | | **envelope** | | **~130** | |
 
 Expected finishing work, not counted as credits: repainting one or two glyphs on the static tiles of shot 2, exactly as `Б`-as-`6` was repaired in scene 7.
+
+
+---
+
+## «И ТО́ЧКА» — RECORDED AND CHOSEN, 2026-08-20
+
+`kuku_flow/audio/tochka_FROSYA_APPROVED.mp3` — 1.52s, Ekaterina `GN4wbsbejSnGSa1AzjH5`, the same voice as every other Фрося line. Registered in `LINE_INDEX.json`.
+
+**The line is «И то́чка», not «Точка».** A bare one-word line has no run-up and a voice model lands it flat or turns it into a question. «И то́чка» is also idiomatic — it means *and that is that* as well as naming the mark — so the phrase she ends on is both the physical act and the seal. It answers Бабушка's rule, «поставишь точку».
+
+**One recording, not one per word.** The Точка clip is generated once and reused in every transformation, so a per-word reading would put a different mouth on the same footage. Three per-word takes were made and deleted for exactly that reason.
+
+Chosen take, as generated:
+
+```
+[a breathy delighted whisper] Ии… то́чка!
+style 1.0   stability 0.15   similarity 0.75   eleven_v3
+```
+
+**It is not actually a whisper, and that was checked rather than assumed.** Autocorrelation across all eight takes shows the four "whispered" ones are 65-84% voiced with a median f0 of 193-291 Hz — the same pitch as the spoken takes, only quieter. A true whisper has no vocal fold vibration at all. **The `[whispers]` tag on this voice lowers the level and keeps full voicing.** So the take is a hushed, breathy, delighted reading, and that is what it should be described as. It is the loudest of the four hushed takes at rms 3528, which matters because the quieter ones would have vanished under room tone.
+
+The drawn-out «Ии…» puts «точка» at 0.32s, which leaves a third of a second of run-up — that is where the pencil comes down, so the word lands **on** the mark rather than describing it afterwards.

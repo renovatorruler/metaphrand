@@ -638,5 +638,9 @@
  "line99_FROSYA.mp3": {
   "dur": 3.28,
   "text": "Вась, только не спеши там, ладно?"
+ },
+ "tochka_FROSYA_APPROVED.mp3": {
+  "dur": 1.52,
+  "text": "И точка."
  }
 }
