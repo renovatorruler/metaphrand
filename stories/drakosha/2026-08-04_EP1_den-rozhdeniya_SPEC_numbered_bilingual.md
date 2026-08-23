@@ -224,7 +224,7 @@
 
 **SP052 — БАБУШКА-ЯГА:** *(принимая напёрсток)* Слышно. Через три стены.
 
-<small><strong>BABA YAGA:</strong> <em>(accepting the thimble)</em> You can hear it. Through three walls.</small>
+<small><strong>BABA YAGA:</strong> <em>(accepting the glass)</em> You can hear it. Through three walls.</small>
 
 **SP053** — Мама прячет улыбку. Бабушка-Яга достаёт из свёртка коробочку и ставит её на стол.
 
@@ -414,13 +414,13 @@
 
 <small><strong>FROSYA:</strong> <em>(bossy and brisk)</em> All right. Let’s try it. What can we write? С-О-К. СОК (juice)! <em>(she lowers the pencil and puts the full stop)</em> And that’s that.</small>
 
-**SP098** — Написанное слово вспыхивает. *(Звук: тихий звон.)* Рядом появляется один напёрсток с соком.
+**SP098** — Написанное слово вспыхивает. *(Звук: тихий звон.)* Рядом появляется один стакан сока.
 
 <small>The written word flashes. <em>(Sound: a quiet chime.)</em> One thimble filled with juice appears beside it.</small>
 
-**SP099 — ФРОСЯ:** *(светским тоном, протягивая напёрсток)* Сока хочешь?
+**SP099 — ФРОСЯ:** *(светским тоном, протягивая стакан)* Сока хочешь?
 
-<small><strong>FROSYA:</strong> <em>(in a grand, gracious tone, offering the thimble)</em> Would you care for some juice?</small>
+<small><strong>FROSYA:</strong> <em>(in a grand, gracious tone, offering the glass)</em> Would you care for some juice?</small>
 
 **SP100 — ВАСЯ:** *(принимая его, поражённо)* Ты теперь всегда так можешь?!
 

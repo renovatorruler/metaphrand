@@ -1,7 +1,4 @@
-s8loopA  LOOP-WRITE-01  cast=1  refs=1  start=yes  model=kling3_0  cr=7.5  sha=2f2c2d8cdf3b
-s8loopB  LOOP-WRITE-02-FACE  cast=1  refs=1  start=yes  model=veo3_1_lite  cr=8.0  sha=d9b4a27e38f1
-s8loopC  LOOP-WRITE-KLING-FACE  cast=1  refs=1  start=yes  model=kling3_0  cr=7.5  sha=d9b4a27e38f1
-s8loopD  LOOP-WRITE-AGREED  cast=1  refs=1  start=yes  model=kling3_0  cr=4.5  sha=549e314b7cba
-s8loopE  LOOP-WRITE-MINI-REFS  cast=1  refs=1  start=yes  model=seedance_2_0_mini  cr=10.0  sha=549e314b7cba
-s8tochka  TOCHKA-MARK  cast=1  refs=1  start=yes  model=seedance_2_0_mini  cr=10.0  sha=d57640fa5633
-TOTAL 47.5 credits (~$2.04 at the Ultra rate) for this batch.
+s8shot2  SH103  cast=2  refs=3  start=yes  model=seedance_2_0_mini  cr=30.0  sha=15b7be4b6677
+s8tochka2  TOCHKA-SEAL  cast=1  refs=3  start=yes  model=seedance_2_0_mini  cr=10.0  sha=b5497cc9add8
+s8vasya  SH106  cast=1  refs=1  start=yes  model=seedance_2_0_mini  cr=10.0  sha=cad9f3908fd7
+TOTAL 50.0 credits (~$2.15 at the Ultra rate) for this batch.

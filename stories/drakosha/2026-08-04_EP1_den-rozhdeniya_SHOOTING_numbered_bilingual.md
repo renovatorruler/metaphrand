@@ -306,7 +306,7 @@
 
 **ЗВУК:** плита потрескивает; чайник-напёрсток булькает; малыши сопят.
 
-> <small>**SOUND:** the stove crackles; the thimble kettle bubbles; the babies snuffle.</small>
+> <small>**SOUND:** the stove crackles; the glass kettle bubbles; the babies snuffle.</small>
 
 ### SH019 · 4 сек · SP022
 
@@ -620,7 +620,7 @@
 
 Камера близко к Бабушке-Яге. Она принимает напёрсток, делает маленький глоток и выдерживает короткую паузу.
 
-> <small>The camera is close to Baba Yaga. She accepts the thimble, takes a small sip, and pauses.</small>
+> <small>The camera is close to Baba Yaga. She accepts the glass, takes a small sip, and pauses.</small>
 
 **БАБУШКА-ЯГА:** *(сухо)* Слышно. Через три стены.
 
@@ -672,7 +672,7 @@
 
 Камера близко к Маме. Её рука с напёрстком останавливается на полпути ко рту. Она переводит взгляд на Бабушку-Ягу.
 
-> <small>The camera is close to Mama. Her hand stops with the thimble halfway to her mouth. She looks toward Baba Yaga.</small>
+> <small>The camera is close to Mama. Her hand stops with the glass halfway to her mouth. She looks toward Baba Yaga.</small>
 
 ### SH059 · 2 сек · SP060
 
@@ -1108,15 +1108,15 @@
 
 ### SH106 · 3 сек · SP098 · ПОЯВЛЯЕТСЯ СОК
 
-Камера остаётся на том же месте. Когда свет гаснет, рядом со словом стоит один напёрсток с соком.
+Камера остаётся на том же месте. Когда свет гаснет, рядом со словом стоит один стакан сока.
 
-> <small>The camera remains in the same place. When the light fades, one thimble of juice stands beside the word.</small>
+> <small>The camera remains in the same place. When the light fades, one glass of juice stands beside the word.</small>
 
 ### SH107 · 4 сек · SP099 · ФРОСЯ ПОДАЁТ СОК ВАСЕ
 
-Камера сбоку от детей. Фрося поднимает напёрсток двумя пальцами и торжественно подаёт его Васе.
+Камера сбоку от детей. Фрося поднимает стакан двумя руками и торжественно подаёт его Васе.
 
-> <small>The camera is beside the children. Frosya lifts the thimble between two fingers and offers it to Vasya with great ceremony.</small>
+> <small>The camera is beside the children. Frosya lifts the glass between two fingers and offers it to Vasya with great ceremony.</small>
 
 **ФРОСЯ:** *(светским тоном)* Сока хочешь?
 
@@ -1124,9 +1124,9 @@
 
 ### SH108 · 4 сек · SP100 · ВАСЯ С СОКОМ
 
-Крупно Вася. Он принимает напёрсток обеими руками и поднимает его к свету.
+Крупно Вася. Он принимает стакан обеими руками и поднимает его к свету.
 
-> <small>Close on Vasya. He accepts the thimble with both hands and holds it up to the light.</small>
+> <small>Close on Vasya. He accepts the glass with both hands and holds it up to the light.</small>
 
 **ВАСЯ:** *(поражённо)* Ты теперь всегда так можешь?!
 
@@ -1134,7 +1134,7 @@
 
 ### SH109 · 5 сек · SP101 · ФРОСЯ ПИШЕТ `САЛАТ`
 
-Камера сверху над Фросиной рукой. Она пишет `САЛАТ`, пока Вася держит сок рядом.
+Камера сверху над Фросиной рукой. Она пишет `САЛАТ`, пока Вася держит стакан рядом.
 
 > <small>The camera looks down at Frosya’s hand. She writes `САЛАТ` while Vasya holds the juice nearby.</small>
 
@@ -1154,9 +1154,9 @@
 
 ### SH111 · 2 сек · SP103 · ВАСЯ
 
-Крупно Вася. Он отшатывается вместе с напёрстком, но не проливает сок.
+Крупно Вася. Он отшатывается вместе со стаканом, но не проливает сок.
 
-> <small>Close on Vasya. He recoils while holding the thimble but does not spill the juice.</small>
+> <small>Close on Vasya. He recoils while holding the glass but does not spill the juice.</small>
 
 **ВАСЯ:** *(с отвращением)* Фу-у-у! Овощи!
 
@@ -1224,9 +1224,9 @@
 
 ### SH120 · 4 сек · SP110 · ВАСЯ У РАБОЧЕЙ ЗОНЫ
 
-Крупно Вася у рабочей зоны. Он ставит напёрсток рядом и роется в мешочке.
+Крупно Вася у рабочей зоны. Он ставит стакан рядом и роется в мешочке.
 
-> <small>Close on Vasya at the work area. He sets the thimble beside him and searches through the pouch.</small>
+> <small>Close on Vasya at the work area. He sets the glass beside him and searches through the pouch.</small>
 
 **ВАСЯ:** *(нетерпеливо)* А я? Я тоже хочу! Мне слово! Лёгкое!
 

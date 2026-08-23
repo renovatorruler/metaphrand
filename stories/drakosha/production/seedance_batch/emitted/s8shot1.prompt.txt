@@ -1,0 +1,43 @@
+ACTIVE REFERENCES
+@PAPA — его зовут Папа — the father: short and stocky, huge beard, blue work shirt with suspenders, iron key on a cord. 100% matches the reference.
+@YAGA — её зовут Бабушка-Яга — old grandmother house-spirit, mushroom-red polka-dot kerchief, patched skirt and shawl, gold tooth, warm sly face. 100% matches the reference.
+@MAMA — её зовут Мама — the mother: blonde braid, red-and-gold striped kerchief, cream apron over a dark red skirt. 100% matches the reference.
+@RUSYA — его зовут Руся — the THIRD of the family's FOUR children, a toddler boy: an orange-brown tufted topknot standing up from a bald head, big round brown eyes, a patched ochre smock. 100% matches the reference.
+@MUSYA — её зовут Муся — the YOUNGEST of the family's FOUR children, a baby girl: one curling wisp of hair on an otherwise bald head, sleepy heavy-lidded eyes, rosy cheeks, patched pink cloth. 100% matches the reference.
+
+SCALE
+Папа is the tallest, about a head above Мама.
+@YAGA at house-spirit size stands about 3.60 in / 9.1 cm — the same order as the parents, never towering over them.
+Мама is a little taller than Фрося.
+Руся is about half Фрося's height.
+Муся is smaller again than Руся and is carried.
+
+THE ROOM AND THE BABIES — one continuous camera move from the whole table down to the two babies on their rug, while the adults' conversation carries on behind.
+
+DIALOGUE
+**ПАПА:** *(разгоняясь, с удовольствием; говорит уже с первого кадра)* «Тёща дорога́я, а вот ещё слу́чай был…»
+**БАБУШКА-ЯГА:** *(не поднимая глаз от кружки)* «Ишь ты.»
+РУСЯ and МУСЯ make noise continuously — babble, grunts of effort, a squeal when the button gets away. None of it is words. This is KEPT from the generated audio, not replaced.
+
+CAMERA
+One continuous move and nothing else: the shot opens on the whole table, and the camera glides slowly down and toward the babies' rug, ending low at the babies' height with the two of them filling the frame. No cuts, no zoom bumps — one unhurried approach.
+
+WHAT HAPPENS
+ПАПА is mid-story from the first frame: talking, gesturing with the cup in his hand, breaking off to drink, going on. БАБУШКА-ЯГА leans across the table on both elbows and answers him without looking up from her cup. МАМА listens with her cup down; when the button skids and a baby squawks, her eyes drop to them, check, and come back to Папа.
+
+РУСЯ and МУСЯ are at the wooden button on its red thread the whole time: РУСЯ shoves it, МУСЯ catches it and hauls it back by the thread, it skitters away across the rug, and both dive after it. By the time the camera reaches them, the game is all there is in the frame.
+
+REACTIONS
+ПАПА starts already animated — mouth working, brows up — and builds as the story gets going: the brows climb higher, the eyes crinkle almost shut, and he breaks into a laugh at his own telling before drinking and starting again. БАБУШКА-ЯГА starts with her eyes down on her cup and lips closed; on her line one eyebrow rises, the mouth gives a small dry twist, and then the face settles back to the cup. МАМА starts on Папа with a soft closed-mouth smile; at the baby squawk her eyes drop and her brows draw together a fraction, then release as she sees all is well and her eyes come back up to Папа, the smile a little wider than before. РУСЯ starts intent — eyes narrowed on the button, cheeks puffed — and when the button gets away his mouth falls open and his whole face lights. МУСЯ starts heavy-lidded and determined, tongue at her lip; when she wins the thread back her eyes squeeze shut with delight and the mouth opens into a squeal.
+
+HANDS — Папа: his right hand grips his cup and rides his gestures as he talks; his left hand rests planted on his knee. Бабушка-Яга: her left forearm rests flat on the plank taking her weight; her right hand grips her cup at the table edge. Мама: both hands rest closed around her own cup on the table. Руся: both hands planted on the button, shoving it away across the rug. Муся: one hand grips the red thread and hauls it back hand over hand; the other is pressed flat on the rug for balance, holding her steady.
+
+BACKGROUNDS
+Behind Папа, Бабушка-Яга and Мама is the table end: the dark riveted iron face of the stove with warm light leaking round its edge, string lights strung above, boulder-block wall at the left edge, the shelf of thimble cups and the rope railing at the right. Behind Руся and Муся the framing shows no wall — as the camera comes down to them, the woven rug and the floor planks are the whole background.
+
+HOLD
+Nobody stands, nobody turns to face the camera, nobody reacts to anything off-screen.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @PAPA, @YAGA, @MAMA, @RUSYA, @MUSYA. Every character matches their reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

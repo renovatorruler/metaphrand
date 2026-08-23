@@ -1,0 +1,11 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 12,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-22_S8_SHOT2_tiles_start.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-05.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-04.png",
+    "../stories/drakosha/ep1prod/scene1/references/SET-HOME-ROOM-02_author_far_wall_v2.png"
+  ],
+  "promptSha256": "15b7be4b66772ad1a77e589b7c4a5ac357ffaf12deaa9bd57019003d928c4672"
+}

@@ -70,26 +70,35 @@ print(','.join('%.2f-%.2f'%(a,b) for a,b in out))
 ")
 
 KEEPLIST="${KEEP#keep:}"
+# A keep window CARVES A HOLE in a mute span — it does not exempt the span.
+# The old logic skipped any span a keep intersected; with continuous audio the
+# detector returns ONE span for the whole clip, so a one-second keep silently
+# disabled all muting (caught on s8shot1, 2026-08-22). Subtraction, not veto.
 BED="[0:a]volume=0.5"
-if [ -n "$SPANS" ]; then
-  IFS=',' read -ra S <<< "$SPANS"
-  for span in "${S[@]}"; do
-    FROM="${span%%-*}"; TO="${span##*-}"
-    SKIP=0
-    if [ -n "$KEEPLIST" ] && [ "$KEEPLIST" != "$KEEP" ]; then
-      IFS=',' read -ra K <<< "$KEEPLIST"
-      for k in "${K[@]}"; do
-        KF="${k%%-*}"; KT="${k##*-}"
-        python3 -c "import sys; sys.exit(0 if (float('$FROM')<float('$KT') and float('$TO')>float('$KF')) else 1)" && SKIP=1
-      done
-    fi
-    if [ "$SKIP" = "0" ]; then
-      BED="$BED,volume=enable='between(t,$FROM,$TO)':volume=0"
-    else
-      echo "  keeping generated audio across ${FROM}-${TO}"
-    fi
-  done
-fi
+MUTES=$(python3 - "$SPANS" "$([ "$KEEPLIST" != "$KEEP" ] && echo "$KEEPLIST")" <<'PYEOF'
+import sys
+spans=[(float(a),float(b)) for a,b in (x.split('-') for x in sys.argv[1].split(',') if x)]
+keeps=[(float(a),float(b)) for a,b in (x.split('-') for x in (sys.argv[2] if len(sys.argv)>2 else '').split(',') if x)]
+out=[]
+for a,b in spans:
+    cur=[(a,b)]
+    for ka,kb in keeps:
+        nxt=[]
+        for x,y in cur:
+            if kb<=x or ka>=y: nxt.append((x,y))
+            else:
+                if x<ka: nxt.append((x,ka))
+                if kb<y: nxt.append((kb,y))
+        cur=nxt
+    out+=cur
+print(' '.join(f'{a:.2f}-{b:.2f}' for a,b in out if b-a>0.05))
+PYEOF
+)
+for m in $MUTES; do
+  FROM="${m%%-*}"; TO="${m##*-}"
+  BED="$BED,volume=enable='between(t,$FROM,$TO)':volume=0"
+done
+[ -n "$KEEPLIST" ] && [ "$KEEPLIST" != "$KEEP" ] && echo "  keep windows: $KEEPLIST   muting: $MUTES"
 BED="$BED[bed]"
 
 INPUTS=(); FILTERS=("$BED"); MIX="[bed]"; i=1

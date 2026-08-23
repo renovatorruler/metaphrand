@@ -1,0 +1,44 @@
+ACTIVE REFERENCES
+@FROSYA — её зовут Фрося — the ELDEST of the family's FOUR children: orange flower in her hair, safety pin on her patchwork dress. 100% matches the reference.
+@ROOM_BACK: the far end of the SAME hall, past the rope railing and the ramp down — what lies beyond Фрося and Вася whenever the camera looks down the room. Same ENORMOUS sandstone boulder-blocks, same strung bulbs, the kitchen end with its stove and counter. 100% matches the reference.
+@PENCIL: the magic pencil — a short stubby faceted wooden pencil in warm honey-toned wood. ONE END ONLY is sharpened to a dark graphite point; THE OTHER END IS BLUNT, FLAT AND BARE WOOD. It is never sharpened at both ends and there is no dark tip at the blunt end. No paint and no ferrule. 100% matches the reference.
+
+SCALE
+Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.
+@PENCIL is sized for @FROSYA's own hand — it sits in her palm, she writes with it one-handed, and it fits behind her ear. It is NOT a giant human pencil and never dwarfs her.
+
+«И ТО́ЧКА» — the seal. She has just made the word; now she finishes it. Close on Фрося, continuing exactly from the start image: pencil raised in her fist, eyes wide on what she has made off-frame left. She speaks, and on the stressed syllable the pencil comes down.
+
+NON-SCRIPT ELEMENT
+WHY: this beat was added in the 2026-08-21 script revision — the mark that ends every written word. It sits between SH104 and SH105 and carries the line «И то́чка», recorded and registered as the approved то́чка recording in the line index. Generated once and reused for every word in the scene.
+
+DIALOGUE
+**ФРОСЯ:** *(приглушённо, с восторгом — почти шёпотом)* «И то́чка.»
+Nobody else is in frame and nothing else is said.
+
+CAMERA
+Locked off at the start image's framing. It does not move.
+
+WHAT SHE DOES, IN ORDER
+She holds a beat exactly as the start image has her — pencil up, eyes off-frame left. Then she speaks. On the drawn-out first sound her eyes come down from the word to her paper. On the stressed syllable her fist brings the pencil down in one deliberate stroke and presses the point into the page — and only after that contact, a bloom of warm golden light swells up from where the point meets the paper, wraps her fist, lights her face from below, and grows fast until it fills the whole frame. The clip ends inside the brightness.
+
+REACTIONS
+She starts in held wonder — eyes wide on the word off-left, brows up, lips parted. As she begins to speak, delight leaks in: her cheeks lift, the start of a smile, brows still raised — she is holding in a giggle. On the press the smile presses thin for one instant, brows drawing in, chin dropping a touch, eyes fixed on the pencil point — the seal is careful even when she is delighted. As the bloom rises her brows release, her eyes widen catching the light, and the smile starts to open — the flash takes the frame before it becomes a grin. She never looks at the camera.
+
+HANDS — Фрося: her right hand grips the pencil in a child's fist, raised and still through the first beat, then drives it down in one stroke and presses it into the page, holding the pressure as the light comes. Her left hand holds the paper flat against her knee and stays planted there.
+
+PROPS
+The pencil is the magic pencil: short, stubby, faceted honey-toned wood, sharpened to a dark graphite point at the writing end only — the upper end, visible above her fist, is blunt, flat, bare wood, exactly as in the start image.
+
+BACKGROUNDS
+Behind Фрося is the back wall, the kitchen end, soft and dark as in the start image. The left of frame stays in shadow until the bloom overtakes it.
+
+GLYPHS
+NOT READABLE. The page is never visible and nothing legible appears anywhere in the frame; the glowing word lives off-frame left and is the author's artwork in the surrounding shots.
+
+HOLD
+She does not stand, does not turn, and the camera does not move. The pencil grows no second point. The bloom comes from the pencil's contact with the page and from nowhere else.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @FROSYA. Every character matches their reference exactly. The set and props are @ROOM_BACK, @PENCIL, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

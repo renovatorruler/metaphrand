@@ -642,5 +642,13 @@
  "tochka_FROSYA_APPROVED.mp3": {
   "dur": 1.52,
   "text": "И точка."
+ },
+ "s8_PAPA_tescha.mp3": {
+  "dur": 3.2,
+  "text": "Тёща дорогая, а вот ещё случай был…"
+ },
+ "s8_YAGA_ish-ty.mp3": {
+  "dur": 1.04,
+  "text": "Ишь ты."
  }
 }

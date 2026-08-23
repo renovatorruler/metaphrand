@@ -1,0 +1,9 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 4,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-23_S8_VASYA_light_start.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-04.png"
+  ],
+  "promptSha256": "cad9f3908fd753ca3b5f784d818a7f8f6aca2b8ea0192bbd3270d235262e7321"
+}

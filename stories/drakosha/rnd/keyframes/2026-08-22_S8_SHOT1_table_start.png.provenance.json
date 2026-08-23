@@ -1,0 +1,7 @@
+{
+  "native": true,
+  "upscaled": false,
+  "source": "author's generated table plate, 1536x1024",
+  "operation": "cropped bottom band to 16:9 (1536x864); no scaling in either direction",
+  "output": "1536x864"
+}

@@ -115,83 +115,69 @@ let all: array<jobSpec> = [
      only model on the account that takes an end frame, and a loop is nothing
      but a clip whose last frame is its first. The paper stays blank: the
      letters are her artwork and go on afterwards. */
-  loopJob(
-    "s8loopA",
-    "LOOP-WRITE-01",
-    [Frosya],
-    [],
-    "2026-08-20_FROSYA_WRITE_LOOP_frame.png",
-    5,
-    Kling30,
-  ),
   /* Same loop, same start frame, but the shot is now about her FACE: concentrate
      → surprise at the spark → a beat of thinking about the next letter → back
      down into the starting concentration. Veo 3.1 Lite because it also takes an
      end frame and it is the model on this account with the best claim to
      facial performance — and at 6s it costs 6 credits against Kling's 7.5. */
-  loopJob(
-    "s8loopB",
-    "LOOP-WRITE-02-FACE",
-    [Frosya],
-    [],
-    "2026-08-20_FROSYA_WRITE_LOOP_frame.png",
-    8,
-    Veo31Lite,
-  ),
   /* The same silent-mouth, tongue-out, eyes-roll-aside loop on Kling 3.0, so the
      two models are judged on the one thing that failed: the mouth. Kling held
      identity, the blank paper and the loop perfectly the first time; all it did
      wrong was fill an unoccupied mouth with speech. */
-  loopJob(
-    "s8loopC",
-    "LOOP-WRITE-KLING-FACE",
-    [Frosya],
-    [],
-    "2026-08-20_FROSYA_WRITE_LOOP_frame.png",
-    5,
-    Kling30,
-  ),
   /* THE AGREED LOOP, 2026-08-20. One letter at a child's pace — three seconds,
      because at five it is too slow to read as writing and at one it is faster
      than the model will shoot. The TRAIL is the model's job and must die out in
      mid-air; the LETTERS are the author's and are added afterwards. The thinking
      is one flick of the eyes, because this clip is watched three times in a row
      and anything larger becomes a twitch. */
-  loopJob(
-    "s8loopD",
-    "LOOP-WRITE-AGREED",
-    [Frosya],
-    [],
-    "2026-08-20_FROSYA_WRITE_LOOP_frame.png",
-    3,
-    Kling30,
-  ),
   /* THE EXPRESSION EXPERIMENT, 2026-08-20. Every expressive shot we have ever
      cut ran on mini with the character sheets bound and NO start frame; this
      loop ran on Kling, which takes no sheets, and came back with a blank face.
      Mini is the only model that takes a start frame, an end frame AND
      references at once. Four seconds because mini refuses anything shorter. */
-  loopJob(
-    "s8loopE",
-    "LOOP-WRITE-MINI-REFS",
-    [Frosya],
-    [],
-    "2026-08-20_FROSYA_WRITE_LOOP_frame.png",
-    4,
-    Mini,
-  ),
   /* THE FINAL MARK — generated ONCE and reused in every transformation for the
      rest of the series. This is the half of the scene that never changes; the
      word before it changes every time and is lip-synced onto existing footage
      instead. Generate what repeats, lip-sync what varies. No end frame: it is
      an action, not a loop, and it has to finish somewhere new so the cut to the
      transformation has somewhere to go. */
+  /* SCENE 8, SHOT 2 — the children and the spilled tiles, overhead. The
+     author's start frame carries CORRECT tiles (А×3 М×2 К С Л Т О Б — the
+     eight kinds plus the duplicates МАМА will need), so the job of the
+     generation is only the children: nobody touches a tile. Фрося is back to
+     camera, so her line needs no lip-sync. */
   job(
-    "s8tochka",
-    "TOCHKA-MARK",
+    "s8shot2",
+    "SH103",
+    [Frosya, Vasya],
+    [RoomBack],
+    Some("2026-08-22_S8_SHOT2_tiles_start.png"),
+    12,
+    Mini,
+  ),
+  /* «И ТОЧКА» — the seal, generated once and reused for every word. Seeded
+     from shot 2+3's final frame with the pencil top repainted blunt (the render
+     had grown a second point — the author caught it). Pencil prop bound so the
+     model has the real object, not its habit. */
+  job(
+    "s8tochka2",
+    "TOCHKA-SEAL",
     [Frosya],
+    [RoomBack, Pencil],
+    Some("2026-08-23_S8_TOCHKA_seed.png"),
+    4,
+    Mini,
+  ),
+  /* ВАСЯ AND THE LIGHT — the seal seen from his side. Author's start frame
+     with a deep-blurred empty background, so there is no face back there to
+     get wrong and the seed's own depth of field holds the blur. His sheet is
+     the only reference. */
+  job(
+    "s8vasya",
+    "SH106",
+    [Vasya],
     [],
-    Some("2026-08-20_FROSYA_TOCHKA_start.png"),
+    Some("2026-08-23_S8_VASYA_light_start.png"),
     4,
     Mini,
   ),

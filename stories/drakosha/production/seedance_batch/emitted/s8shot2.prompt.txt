@@ -1,0 +1,49 @@
+ACTIVE REFERENCES
+@FROSYA — её зовут Фрося — the ELDEST of the family's FOUR children: orange flower in her hair, safety pin on her patchwork dress. 100% matches the reference.
+@VASYA — его зовут Вася — the SECOND of the family's FOUR children, younger than Фрося and older than Руся and Муся: enormous bushy eyebrows, shoelace belt. 100% matches the reference.
+@ROOM_BACK: the far end of the SAME hall, past the rope railing and the ramp down — what lies beyond Фрося and Вася whenever the camera looks down the room. Same ENORMOUS sandstone boulder-blocks, same strung bulbs, the kitchen end with its stove and counter. 100% matches the reference.
+
+SCALE
+Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.
+Вася is shorter than Фрося, about up to her eyebrows.
+
+TWO SEGMENTS, ONE HARD CUT — the children over the spilled tiles, then Вася's own view of Фрося as she writes and spells. One render so that the children, the pencil and the floor carry across the cut unchanged.
+
+DIALOGUE
+**ФРОСЯ:** *(по-хозяйски, быстро)* «Так. Про́буем. Что мо́жно написа́ть? С-О-К. Сок!»
+The first half of the line — up to the question — belongs to SEGMENT 1, spoken with her back to camera. The spelling — С-О-К, then the word — belongs to SEGMENT 2, where her face is visible and her mouth forms each letter slowly and clearly, a beat between letters, the way a child sounds a word out while writing it.
+ВАСЯ says nothing in either segment. In segment 1 his lips stay pressed together; in segment 2 he is not in frame.
+
+FORMAT
+CONTROLLED MULTI-SHOT SEQUENCE: two shots, one HARD CUT at roughly the midpoint. No fades, no dissolves.
+
+SEGMENT 1 — OVERHEAD, THE TILES (about 5 seconds)
+The first frame is the start image: overhead on both children, the tiles scattered between them, the pouch lying empty at the right, her paper and pencil on the planks.
+A beat of both children studying the spilled tiles. Фрося speaks the first half of her line; as she does, her hand slides the paper closer to herself. ВАСЯ leans over the tiles, weight on his hands, eyes tracking across the letters one by one. Nobody moves a single tile.
+THE BRIDGE, and the segment's last action: ФРОСЯ's right hand closes around the pencil and lifts it off the floor. The cut lands on that lift.
+
+HARD CUT
+
+SEGMENT 2 — ВАСЯ'S OWN VIEW OF ФРОСЯ (about 7 seconds)
+The camera now stands where ВАСЯ kneels, at his eye height, looking at ФРОСЯ. She sits in the RIGHT HALF of the frame, turned three-quarters toward camera, the pencil from segment 1 in her hand. Her paper rests against her knee, tilted away from camera so the page itself is never visible. Behind her is the back wall — the kitchen end of the room. The lamp is behind her to the right, so the LEFT HALF of the frame falls into deep warm shadow: room still there, but dark.
+She writes as she spells — small careful strokes of the pencil against the unseen page, her mouth forming С… О… К… with a pause between each, then the whole word with a small lift of her head. While she writes, a thin ribbon of warm sparks rises from behind the paper's edge, drifts up and to the left, and scatters into nothing before it reaches mid-frame. It forms no shape and leaves nothing behind.
+After the word, the camera begins a slow push toward her and settles closer on her face. She is still, pencil raised, looking at what she has made — off-frame left. The last frame holds there.
+
+REACTIONS
+SEGMENT 1 — ВАСЯ starts wide-eyed, scanning the scatter; as her voice starts his brows draw together and his gaze fixes on one tile, then jumps to another. By the end his mouth presses tighter with concentration. ФРОСЯ is back to camera; she starts still, and on her second word her head drops toward the paper and her shoulders square up with intent.
+SEGMENT 2 — ФРОСЯ starts with the writing face: brows drawn down and in, a small crease between them, eyes down on the page, lips working through the letters. On the whole word her brows release and her chin lifts a little. After it, as the camera pushes in, her eyes come up and fix off-frame left, wide and still — she is looking at what she made, and the concentration gives way to held breath. She never looks at the camera.
+
+HANDS — Фрося: in segment 1 her right hand rests by the pencil, slides the paper closer, then closes around the pencil and lifts it; her left hand stays planted on the plank. In segment 2 her right hand grips the pencil in a child's grip and makes small writing strokes against the page; her left hand holds the paper steady against her knee. Вася: both hands planted on the floorboards taking his weight, fingers pressed into the wood.
+
+BACKGROUNDS
+Segment 1: overhead — behind Фрося and Вася the framing shows no wall; floorboards, tiles and the empty pouch are the whole background. Segment 2: behind Фрося is the back wall, the kitchen end, falling into shadow on the left of frame; Вася is not in frame — the camera stands in his place, so no wall applies to him.
+
+GLYPHS
+Segment 1: REPAINT — the tiles carry correct letters in the start image and remain AT REST throughout; nobody touches them and the camera holds still, so any glyph the motion drifts is repainted on the still tiles afterwards. Segment 2: NOT READABLE — the page is never visible, the sparks form no shape, and nothing legible appears anywhere in the frame; every letter the audience will see there is the author's artwork, composited into the dark left half afterwards.
+
+HOLD
+Nobody stands and nobody looks at the camera in either segment. The tiles never move. The cut is a hard cut and the only one.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @FROSYA, @VASYA. Every character matches their reference exactly. The set and props are @ROOM_BACK, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

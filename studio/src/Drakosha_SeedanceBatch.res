@@ -27,7 +27,7 @@ type castToken = Frosya | Vasya | Mama | Papa | Babies | Rusya | Musya | YagaFli
    was "reverse", which has no fixed referent — the reverse of the front is the
    back and the reverse of the back is the front — so nothing written with that
    word could be checked. Do not reintroduce it. */
-type propToken = RoomFront | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Stupa | Pomelo | Broom | Top | Tin | Chest | Tiles | Pouch | Pencil | Scooter | Road | Tank | Thread | Cake
+type propToken = RoomFront | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Stupa | Pomelo | Broom | Top | Tin | Chest | Tiles | Pouch | Pencil | Scooter | Road | Tank | Thread | Cake | Juice
 
 type shotRecord = {
   jobId: string, // "job12"
@@ -233,6 +233,16 @@ let propEntry = (t: propToken): propEntry =>
       tagLine: "@POUCH: Вася's small cloth pouch of letter tiles, tied to his shoelace belt at his hip, as shown on his character sheet. 100% matches the reference.",
       refPath: "packet_v2/page-04.png",
     })
+  /* THE JUICE — author's ruling 2026-08-23: the magic makes a GLASS, not a
+     thimble. The thimble is the family's found-object scale; magic does not
+     shop in their kitchen, and the glass is what lets Вася look at the world
+     through it. Script updated from напёрсток to стакан the same day. */
+  | Juice =>
+    Backed({
+      tag: "@JUICE",
+      tagLine: "@JUICE: a small faceted low-poly drinking glass, clear with a thick base, filled most of the way with bright orange juice. A plain glass tumbler at a child's scale. 100% matches the reference.",
+      refPath: "D-JUICE-GLASS-01_author.png",
+    })
   | Pencil =>
     Backed({
       tag: "@PENCIL",
@@ -359,7 +369,7 @@ let propScale = (t: propToken): option<string> =>
      carries the old version at SH068 ("почти достаёт до локтя" — almost reaches
      her elbow); that line is stale and must not be copied into a prompt. */
   | Pencil => Some("@PENCIL is sized for @FROSYA's own hand — it sits in her palm, she writes with it one-handed, and it fits behind her ear. It is NOT a giant human pencil and never dwarfs her.")
-  | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Tiles | Pouch | Scooter | Road | Tank | Thread | Cake => None
+  | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Tiles | Pouch | Scooter | Road | Tank | Thread | Cake | Juice => None
   }
 
 /* The creative text may not smuggle tag lines past the emitter: any "@" is a
@@ -446,16 +456,31 @@ let stressMark = `\u0301`
    dialogue in the language the prompt was written in. Every existing assertion
    about dialogue iterates over segments that were not there, so all of them
    passed vacuously. A shot that is meant to be silent says so in one word. */
+/* A THIRD STATE: SPEECH WE SEE BUT DO NOT HEAR. Added 2026-08-21.
+
+   The gate offered two options — quote the line, or declare the shot silent —
+   and a room full of adults at tea is neither. Declaring it silent gave a
+   frozen tableau: the author's note was that a room where nobody talks reads
+   as a room where nothing is happening. Quoting a line would demand a
+   recording for dialogue the audience is never meant to make out.
+
+   BACKGROUND SPEECH is the real category. The model animates mouths freely,
+   its invented audio is muted like any other shot's, and a murmur bed goes
+   under. The declaration has to be explicit so that nobody reaches this state
+   by accident — a foreground line left unquoted must still fail. */
 let assertHasDialogue = (r: shotRecord): unit => {
   let lines = dialogueSegments(r.creative)
+  let lower = Js.String2.toLowerCase(r.creative)
   let declaredSilent =
-    Js.String2.includes(Js.String2.toLowerCase(r.creative), "nobody speaks") ||
-    Js.String2.includes(Js.String2.toLowerCase(r.creative), "no dialogue in this sequence")
+    Js.String2.includes(lower, "nobody speaks") ||
+    Js.String2.includes(lower, "no dialogue in this sequence") ||
+    (Js.String2.includes(lower, "background speech") &&
+      Js.String2.includes(lower, "not intelligible"))
   if Belt.Array.length(lines) == 0 && !declaredSilent {
     raise(
       BatchError(
         r.jobId ++
-        ": choreography quotes no spoken line and is not declared silent. Quote the Russian in «» or write \"nobody speaks\" — describing that a character speaks makes the model invent its own dialogue, in English.",
+        ": choreography quotes no spoken line and is not declared silent. Quote the Russian in «», or write \"nobody speaks\", or — for a room where people talk but the audience is not meant to make out the words — declare BACKGROUND SPEECH and say it is NOT INTELLIGIBLE. Describing that a character speaks without one of these makes the model invent its own dialogue, in English.",
       ),
     )
   }

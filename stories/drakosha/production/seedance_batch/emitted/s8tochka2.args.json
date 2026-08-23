@@ -1,0 +1,11 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 4,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-23_S8_TOCHKA_seed.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-05.png",
+    "../stories/drakosha/ep1prod/scene1/references/SET-HOME-ROOM-02_author_far_wall_v2.png",
+    "../stories/drakosha/ep1prod/scene1/references/D-FRO-PENCIL-01_approved.png"
+  ],
+  "promptSha256": "b5497cc9add8130bf56629b13d81c7ce19309edc324ab47b7e34136f9efa148e"
+}
