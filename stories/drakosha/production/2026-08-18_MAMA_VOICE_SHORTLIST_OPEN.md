@@ -1,6 +1,6 @@
 # МАМА — voice decision, OPEN
 
-**Status: TABLED 2026-08-18, awaiting the author's ear. Nothing else about Мама is settled until this is.**
+**Status: DECIDED 2026-08-23 — Olga stays for the PILOT. The author: «I'm not changing mom's voice in this... I think I'm gonna change it potentially in the next episode.» The recast (takes 21-24 below) is deferred to episode 2; nothing in ep1 waits on it, and no ep1 line re-dubs.**
 
 The field is closed. **Only Kuragina and Ilinca remain**, and the choice is between the four takes listed below. Do not audition more voices, do not reopen the wider pool, and do not send anything but these four when this comes back up.
 

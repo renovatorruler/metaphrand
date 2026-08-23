@@ -1,0 +1,11 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 8,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-23_S8_POPPY_offer_start.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-05.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-07.png",
+    "../stories/drakosha/ep1prod/scene1/references/D-POPPY-01_author.png"
+  ],
+  "promptSha256": "0e94637225d49b1dfebd73a29f1260a904492f5fb4749c553d7abdc4106cc697"
+}

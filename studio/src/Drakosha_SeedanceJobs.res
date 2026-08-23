@@ -261,6 +261,17 @@ let all: array<jobSpec> = [
     13,
     Mini,
   ),
+  /* «МАМ, ЭТО ТЕБЕ» — the offer starts un-extended so the gesture happens on
+     camera. МАМА's line dubs as Olga placeholder until the recast decides. */
+  job(
+    "s8poppy",
+    "SH117-118",
+    [Frosya, Mama],
+    [Poppy],
+    Some("2026-08-23_S8_POPPY_offer_start.png"),
+    8,
+    Mini,
+  ),
   /* SCENE 7 — the niche, the chest, the letters. All on mini.
 
      GEOGRAPHY, set once by the author and not re-derived per shot: Мама works at
