@@ -1,4 +1,10 @@
 s8shot2  SH103  cast=2  refs=3  start=yes  model=seedance_2_0_mini  cr=30.0  sha=15b7be4b6677
 s8tochka2  TOCHKA-SEAL  cast=1  refs=3  start=yes  model=seedance_2_0_mini  cr=10.0  sha=b5497cc9add8
 s8vasya  SH106  cast=1  refs=1  start=yes  model=seedance_2_0_mini  cr=10.0  sha=cad9f3908fd7
-TOTAL 50.0 credits (~$2.15 at the Ultra rate) for this batch.
+s8offer  SH107  cast=1  refs=3  start=yes  model=seedance_2_0_mini  cr=12.5  sha=305a626ef34b
+s8glass  SH108  cast=1  refs=2  start=yes  model=seedance_2_0_mini  cr=12.5  sha=ba42d070e282
+s8salat  SH109  cast=1  refs=3  start=yes  model=seedance_2_0_mini  cr=27.5  sha=f3d814dfce19
+s8bowl  SH110  cast=1  refs=3  start=yes  model=seedance_2_0_mini  cr=12.5  sha=e660b4ff0a00
+s8fu  SH111  cast=1  refs=1  start=yes  model=seedance_2_0_mini  cr=12.5  sha=41e959e05f74
+s8rusya  SH112-114  cast=3  refs=6  start=yes  model=seedance_2_0_mini  cr=25.0  sha=4f3a16aa7b16
+TOTAL 152.5 credits (~$6.56 at the Ultra rate) for this batch.

@@ -1,0 +1,40 @@
+ACTIVE REFERENCES
+@FROSYA — её зовут Фрося — the ELDEST of the family's FOUR children: orange flower in her hair, safety pin on her patchwork dress. 100% matches the reference.
+@SALAD: the salad bowl — a small rounded ceramic bowl in pale clay with a painted band of red flowers and a green zigzag around it, filled with a diced salad of green and red pieces. 100% matches the reference.
+@PENCIL: the magic pencil — a short stubby faceted wooden pencil in warm honey-toned wood. ONE END ONLY is sharpened to a dark graphite point; THE OTHER END IS BLUNT, FLAT AND BARE WOOD. It is never sharpened at both ends and there is no dark tip at the blunt end. No paint and no ferrule. 100% matches the reference.
+
+SCALE
+Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.
+@PENCIL is sized for @FROSYA's own hand — it sits in her palm, she writes with it one-handed, and it fits behind her ear. It is NOT a giant human pencil and never dwarfs her.
+
+THE SALAD ARRIVES — the word has been sealed and the magic is finishing the job. Фрося kneels frame-right exactly as the start image has her, paper and pencil in hand, watching the burst of golden sparks on the floorboards to her left. Out of that light, the bowl.
+
+DIALOGUE
+nobody speaks. The thump of the bowl landing and the small rattle as it settles are kept from the generated track.
+
+CAMERA
+Locked off at the start image's framing. It does not move.
+
+WHAT HAPPENS
+The spark-burst on the floor flares brighter for a moment. Out of its centre a small ceramic bowl of salad appears, hanging just above the boards — a hand's width up — and then DROPS: it lands on the floorboards with a solid thump, rocks visibly once side to side, the diced salad shifting and a piece bobbing at the rim, and settles. The golden light around it thins and dies away, leaving the bowl sitting on ordinary planks. Фрося watches it the whole way, leaning in a little as it lands — and then her eyes come up off the bowl, toward Вася off-frame, the delight tilting into the start of a grin. The shot ends on that look.
+
+REACTIONS
+Фрося starts as the start image has her: mouth open, eyes wide on the light. As the bowl appears her brows lift higher and she leans in; when it thumps down she gives a small startle-blink, and then the open mouth curls up at the corners — delight arriving on top of surprise. Her eyes stay on the bowl until it settles; only then do they lift toward Вася off-frame. She never looks into the camera.
+
+HANDS — Фрося: her right hand holds the pencil raised and still; her left hand holds the paper against her knee. Both stay where they are — she watches, she does not reach.
+
+PROPS
+The bowl is the salad bowl: a small rounded ceramic bowl in pale clay with a painted band of red flowers and a green zigzag, filled with diced salad in green and red. The pencil in her hand keeps its one sharpened point and its blunt flat top.
+
+BACKGROUNDS
+Behind Фрося is the back wall, the kitchen end of the hall, far out of focus — the stove glow, the sock chairs, the string lights as soft discs. The floorboards run toward camera and hold the spark-burst and the bowl.
+
+GLYPHS
+NOT READABLE. Nothing legible is anywhere in the frame; the glowing word has already broken into the sparks, and the letters the audience saw are the author's artwork in the surrounding shots.
+
+HOLD
+The camera does not move and focus does not shift. She does not stand, does not reach for the bowl, and does not look into the camera. The bowl arrives out of the light on the floor and from nowhere else.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @FROSYA. Every character matches their reference exactly. The set and props are @SALAD, @PENCIL, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

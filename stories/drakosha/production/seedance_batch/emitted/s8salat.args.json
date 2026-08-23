@@ -1,0 +1,11 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 11,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-23_S8_SALAT_write_start.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-05.png",
+    "../stories/drakosha/ep1prod/scene1/references/SET-HOME-ROOM-02_author_far_wall_v2.png",
+    "../stories/drakosha/ep1prod/scene1/references/D-FRO-PENCIL-01_approved.png"
+  ],
+  "promptSha256": "f3d814dfce193af2db7eb4150abfa0159e5e7378b8eaded09d9fcf145ec175dc"
+}

@@ -37,11 +37,15 @@ let lightColumns = doing => P.Prop({what: "FIVE COLUMNS of soft golden paper lig
 let cartProp = doing => P.Prop({what: "THE CART — the wooden paper hay cart on four wooden paper wheels, loaded with paper hay", doing})
 let gaProp = doing => P.Prop({what: "THE GOLDEN SHAPE — a large solid golden-stone form: a tall curved hook opening toward the top of the lane, with a straight upright braced at its back (an abstract shape only, never writing)", doing})
 
-/* canonical settings */
-let courtyard = "the gurukul flight courtyard of paper flagstones, the large inverted stone flight ring of layered paper arcs, paper temple gateway far behind"
-let lane = "the gurukul's straight downhill flight-courtyard slope of paper flagstones, three small red paper markers set into it at intervals, a flat stretch at the bottom, a closed paper stone wall at the very end"
-let flatStone = "the flat paper stone stretch at the bottom of the lane, the paper stone wall behind it"
-let tower = "the closed paper stone tower above the gurukul"
+/* settings come from the SET BIBLE — one geography, derived, never retyped */
+module Sets = Kuku_Ep10Sets
+let courtyard = Sets.setProse(Sets.Courtyard)
+let lane = Sets.setProse(Sets.Lane)
+let flatStone = Sets.setProse(Sets.FlatStone)
+let tower = Sets.setProse(Sets.Tower)
+/* a lane plate attaches only where the shot's camera matches the survey's:
+   looking down the slope. Overheads, low angles and inserts stay plate-free. */
+let lanePlate = y => Sets.lanePlateAt(y)
 
 type entry = {id: string, spec: P.imageSpec, added: array<string>, derived: array<string>}
 
@@ -60,6 +64,7 @@ let mk = (
   ~ga: option<string>=?, /* the golden shape — render-time error before it is forged */
   ~props: array<P.subject>=[],
   ~setting: string,
+  ~plate: option<string>=?,
   ~lightingOverride: option<string>=?,
   ~extraRules: array<string>=[],
   ~added: array<string>=[],
@@ -99,6 +104,10 @@ let mk = (
     }
   | None => []
   }
+  switch plate {
+  | Some(p) => Js.Array2.push(derived, "SET PLATE attached: " ++ p)->ignore
+  | None => ()
+  }
   let lighting = switch lightingOverride {
   | Some(l) => l
   | None => {
@@ -114,6 +123,7 @@ let mk = (
       subjects: Js.Array2.concatMany(dragonSubjects, [others, gauriSubjects, cartSubjects, gaSubjects, props]),
       setting,
       lighting,
+      plate,
       extraRules,
     },
     added,
@@ -315,6 +325,8 @@ let shots: array<entry> = [
     ~cart=(true, "rolls fast down the slope, paper hay flying"),
     ~props=[redRope("loose, trailing behind the cart")],
     ~setting=lane,
+    ~plate=lanePlate(6.0),
+    
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -332,6 +344,8 @@ let shots: array<entry> = [
     ],
     ~cart=(true, "runs down the slope below them"),
     ~setting=lane,
+    ~plate=lanePlate(14.0),
+    
     ~added=["per-dragon flight positions — the prose said only \"five towering paper dragons fly alongside and above\""],
     (),
   ),
@@ -392,6 +406,8 @@ let shots: array<entry> = [
     ~dragons=[(P.Fyuria, "flies backwards ahead of the running cart, wings pushing air against it")],
     ~cart=(true, "running, its nose just behind her"),
     ~setting=lane,
+    ~plate=lanePlate(26.0),
+    
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -546,6 +562,8 @@ let shots: array<entry> = [
     ~shot=P.Wide,
     ~cart=(true, "drifting toward the left edge of the lane, one wheel near the paper kerb, dust streaming"),
     ~setting=lane,
+    ~plate=lanePlate(34.0),
+    
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -558,6 +576,8 @@ let shots: array<entry> = [
     ~cart=(true, "running below her"),
     ~props=[bell("in her talons")],
     ~setting=lane,
+    ~plate=lanePlate(38.0),
+    
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -591,6 +611,8 @@ let shots: array<entry> = [
     ~dragons=[(P.Fyuria, "holds ahead of the slowing cart, wings in one deep deliberate beat, paper dust rolling")],
     ~cart=(true, "slowing behind her"),
     ~setting=lane,
+    ~plate=lanePlate(46.0),
+    
     ~added=["lighting (none in the prose)"],
     (),
   ),

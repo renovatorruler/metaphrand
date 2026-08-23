@@ -1,0 +1,11 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 5,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-23_S8_SPARK_bowl_start.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-05.png",
+    "../stories/drakosha/ep1prod/scene1/references/D-SALAD-BOWL-01_author.png",
+    "../stories/drakosha/ep1prod/scene1/references/D-FRO-PENCIL-01_approved.png"
+  ],
+  "promptSha256": "e660b4ff0a008f3c5a84c3b184ba2ec36a9a01309c967ad343642801e346a226"
+}

@@ -29,6 +29,10 @@ type imageSpec = {
   subjects: array<subject>,
   setting: string,
   lighting: string,
+  /* the approved SET PLATE for this shot's location and camera vantage. When
+     present it is attached SECOND (after the style key, before the character
+     boards) and the set stops being re-imagined from words every generation. */
+  plate: option<string>,
   extraRules: array<string>,
 }
 
@@ -133,7 +137,12 @@ let imagePrompt = (s: imageSpec) =>
       "SHOT: " ++ shotName(s.shot) ++ ", LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.",
       "STYLE: " ++ styleLaw ++ ". The FIRST attached image is the art style; match it EXACTLY.",
       "PALETTE: " ++ paletteLaw ++ ".",
-      "CHARACTER REFERENCES: every attached image after the first is a locked character design; match each EXACTLY, including the golden bracelet.",
+      switch s.plate {
+      | Some(_) =>
+        "SET PLATE: the SECOND attached image IS this location, already built — reproduce it faithfully: the same ground, the same landmarks in the same places, the same walls, kerbs and horizon, the same camera vantage. Do not redesign the place, do not move its landmarks, do not invent new architecture. Every attached image after it is a locked character design; match each EXACTLY, including the golden bracelet."
+      | None =>
+        "CHARACTER REFERENCES: every attached image after the first is a locked character design; match each EXACTLY, including the golden bracelet."
+      },
       "SCENE: " ++ s.scene,
       "SUBJECTS:\n" ++ Js.Array2.joinWith(Js.Array2.map(s.subjects, subjectText), "\n"),
       "SETTING: " ++ s.setting,
@@ -227,6 +236,10 @@ let boardOf = s =>
   }
 
 let imageRefs = (s: imageSpec) => {
+  let head = switch s.plate {
+  | Some(p) => [styleKey, p]
+  | None => [styleKey]
+  }
   let boards = Js.Array2.reduce(
     s.subjects,
     (acc, sub) =>
@@ -236,5 +249,5 @@ let imageRefs = (s: imageSpec) => {
       },
     [],
   )
-  Js.Array2.concat([styleKey], boards)
+  Js.Array2.concat(head, boards)
 }

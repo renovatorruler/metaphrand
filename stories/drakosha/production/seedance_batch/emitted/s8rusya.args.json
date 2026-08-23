@@ -1,0 +1,14 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 10,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-23_S8_RUSYA_wide_start.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-05.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-04.png",
+    "../stories/drakosha/ep1prod/scene1/references/C-RUS-01_solo_from_packet_page14.png",
+    "../stories/drakosha/ep1prod/scene1/references/D-SALAD-BOWL-01_author.png",
+    "../stories/drakosha/ep1prod/scene1/references/D-JUICE-GLASS-01_author.png",
+    "../stories/drakosha/ep1prod/scene1/references/D-FRO-PENCIL-01_approved.png"
+  ],
+  "promptSha256": "4f3a16aa7b160fd82fff37210de427d016384044e91fb3750fee0c7868a61484"
+}

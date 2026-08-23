@@ -1,0 +1,35 @@
+ACTIVE REFERENCES
+@VASYA — его зовут Вася — the SECOND of the family's FOUR children, younger than Фрося and older than Руся and Муся: enormous bushy eyebrows, shoelace belt. 100% matches the reference.
+@JUICE: a small faceted low-poly drinking glass, clear with a thick base, filled most of the way with bright orange juice. A plain glass tumbler at a child's scale. 100% matches the reference.
+
+SCALE
+Вася is shorter than Фрося, about up to her eyebrows.
+
+THE GLASS — close on Вася with the juice in both hands, exactly as the start image has him. He looks through it, decides it is real, and asks.
+
+DIALOGUE
+**ВАСЯ:** *(поражённо)* «Ты тепе́рь всегда́ так мо́жешь?!»
+
+CAMERA
+Locked off at the start image's framing. It does not move.
+
+WHAT HAPPENS
+He holds the start pose for a beat, the glass in both hands just below his eyes. Then he raises it higher, into the light from the left, and tilts his head to look THROUGH it — the orange juice crossing in front of one eye, which shows large and warped through the glass. He holds there, turning the glass a fraction as if checking it is real. Then he lowers it a little and says his line, his eyes coming up over the rim toward Фрося — just left of the lens, where the offer came from.
+
+REACTIONS
+Вася starts in the open-mouthed О of the start image, brows up. As the juice crosses his eye the brows climb higher and the mouth closes into a small line of concentration — he is examining. As he lowers the glass the mouth opens again and the eyes widen past where they began, disbelief, and the line rides on it. He never looks into the camera.
+
+HANDS — Вася: both hands wrapped round the glass, fingers overlapping, and they stay closed around it throughout — raising it, turning it a fraction, lowering it.
+
+PROPS
+The juice glass: a small faceted clear tumbler with a thick base, bright orange juice most of the way up. The juice stays level as he moves it.
+
+BACKGROUNDS
+Behind Вася is the table end of the hall, far out of focus: the tea table and kettle as soft shapes, the string lights as soft discs, the railing's red-topped posts at the right edge. Nothing resolves.
+
+HOLD
+The camera does not move and focus does not shift. He does not stand or turn. The glass stays in both hands.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @VASYA. Every character matches their reference exactly. The set and props are @JUICE, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

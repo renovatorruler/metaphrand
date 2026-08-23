@@ -1,8 +1,9 @@
 /* Rebuild and verify Frosya's composable Episode 1 alphabet assets.
 
-   The graphite PNG is always the master geometry. Every ignition and magic
-   state below is derived from its alpha mask with ffmpeg; no state is drawn or
-   generated independently.
+   The graphite PNG is always the master geometry. Ignition states are derived
+   from its alpha mask with ffmpeg. The accepted Episode 1 full-magic set is
+   frozen in the v1 export and restored byte-for-byte during production builds;
+   later glow experiments must remain in qa/ and never overwrite that set.
 
    Usage from studio/:
      rescript && node src/Drakosha_FrosyaAlphabet.res.mjs build
@@ -21,8 +22,20 @@ open Cinema_Backends
 let root = "../stories/drakosha/production/alphabet/frosya"
 let canvas = 2048
 let safety = 307 // 15% of 2048, rounded up
+let canonicalMagicArchive = root ++ "/exports/frosya_ep1_alphabet_v1.zip"
 
 let letters = ["А", "О", "М", "С", "К", "Т", "Л", "Б"]
+
+let canonicalMagicHashes = [
+  ("А", "a26add0aaf9841f538c7df5359c229d1f59d876bc7c1931334894b853514108a"),
+  ("О", "300f0502cfb1e490aaee443991d442677f0ad4f61168a0675a2c6f0899a2c48a"),
+  ("М", "3d718c3a33aa6a497bb1deae46335b79ecf7d25820599c78aa18d4901fdd5218"),
+  ("С", "1aacd47576b21941013fd2a7c96b8fcbd663bfd0dc7cf6b57be9eeb4fcfb2a6f"),
+  ("К", "74f1db41ff1e0d98330ee683c62287acba2a05a99581039b5f4f5eb541e094a6"),
+  ("Т", "7959905b27363bf2a5ddf40d1e31814bb7e09bb0ded4ca98414c46bb16b6319a"),
+  ("Л", "d0ca1a41faa6b71fac3b8217c76f083c7d3a6cc72c6b3355a25c8df16481df9d"),
+  ("Б", "7920a4ce9aa37307b45aecd7e745a1def1309a483a36623c7a9b0a6221b2e45b"),
+]
 
 type glowState = {
   dir: string,
@@ -555,21 +568,36 @@ let buildState = (letter: string, state: glowState): unit => {
   )
 }
 
+let restoreCanonicalMagic = (entry: string): unit => {
+  if !exists(Path(canonicalMagicArchive)) {
+    fail("missing frozen Episode 1 magic archive: " ++ canonicalMagicArchive)
+  }
+  ensureDirPath(path("assets/magic"))
+  runOrFail(
+    ~cmd="bsdtar",
+    ~args=["-xf", canonicalMagicArchive, "-C", root, entry],
+    ~label="restore frozen Episode 1 magic assets",
+  )
+}
+
 let build = (): unit => {
   buildPaper()
   letters->Belt.Array.forEach(letter =>
-    states->Belt.Array.forEach(state => buildState(letter, state))
+    states->Belt.Array.forEach(state =>
+      if state.dir != "magic" {
+        buildState(letter, state)
+      }
+    )
   )
-  Js.log("Built canonical paper and 40 derived ignition/magic assets.")
+  restoreCanonicalMagic("assets/magic")
+  Js.log("Built canonical paper and 32 ignition assets; restored 8 locked full-magic assets.")
 }
 
-/* The acceptance loop deliberately works on one glyph. This prevents an
-   exploratory treatment from being propagated to the other seven letters and
-   makes every candidate cheap enough to reject without hesitation. */
+/* Production A is locked to the same accepted v1 treatment as the other seven
+   Episode 1 letters. Experimental A treatments belong in qa/glow_lab only. */
 let buildMagicA = (): unit => {
-  let magicState = states->Belt.Array.getExn(4)
-  buildState("А", magicState)
-  Js.log("Built peak-magic candidate for А only.")
+  restoreCanonicalMagic("assets/magic/А.png")
+  Js.log("Restored canonical Episode 1 full-magic А.")
 }
 
 let compareMagicA = (): unit => {
@@ -1073,13 +1101,22 @@ let verify = (): unit => {
       }
     })
   )
+  canonicalMagicHashes->Belt.Array.forEach(((letter, expected)) => {
+    let asset = root ++ "/assets/magic/" ++ letter ++ ".png"
+    if exists(Path(asset)) {
+      let result = run(~cmd="shasum", ~args=["-a", "256", asset])
+      if result.code != 0 || !Js.String2.startsWith(Js.String2.trim(result.stdout), expected) {
+        failures->Js.Array2.push(asset ++ ": differs from the locked Episode 1 full-magic asset")->ignore
+      }
+    }
+  })
   if failures->Js.Array2.length > 0 {
     failures->Belt.Array.forEach(Js.Console.error)
     fail(Belt.Int.toString(failures->Js.Array2.length) ++ " alphabet QA failure(s)")
   }
   Js.log(
-    "PASS: 48 Episode 1 alphabet assets are 2048x2048 RGBA and keep the outer " ++
-    Belt.Int.toString(safety) ++ " px fully transparent.",
+    "PASS: 48 Episode 1 alphabet assets have valid geometry, and all 8 full-magic " ++
+    "assets match the locked v1 set.",
   )
 }
 

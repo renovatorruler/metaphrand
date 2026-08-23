@@ -15,7 +15,8 @@
   "paper_hex": "#F4E1C0",
   "masters": {
     "canonical_33_letter_reference": "masters/full_alphabet_reference_v1.png",
-    "episode_1_source_panel": "masters/ep1_graphite_panel_v1.png"
+    "episode_1_source_panel": "masters/ep1_graphite_panel_v1.png",
+    "episode_1_full_magic_v1": "exports/frosya_ep1_alphabet_v1.zip"
   },
   "paper": {
     "canonical_flat": "paper/canonical_flat_paper_16x9.png",
@@ -94,7 +95,7 @@
       "magic": "assets/magic/Б.png"
     }
   },
-  "geometry_rule": "Every ignition and magic state is procedurally derived from the corresponding graphite alpha mask without redrawing or repositioning the glyph.",
+  "geometry_rule": "Every ignition state is procedurally derived from the corresponding graphite alpha mask without redrawing or repositioning the glyph. The accepted Episode 1 full-magic PNGs are locked in the v1 export and restored byte-for-byte during production builds.",
   "particles": "Ignite 75 uses deterministic fine gold dust and localized glints. Ignite 90 adds the clean continuous core and defined gold envelope. Full magic uses four mask-driven particle scales: fine amber dust, gold motes, pale hot motes, and rare soft white flare points. All remain concentrated around the exact graphite geometry and inside the transparent safety border.",
   "peak_magic_rule": "Full magic is a stable, reference-matched illuminated phase. The approved handwritten stroke remains fully continuous: a thin warm-white core sits inside a softly diffused gold body, broad honey-amber bloom, and surrounding particles. Deterministic low-frequency modulation changes brightness subtly but never removes a section of the stroke. The approved graphite silhouette remains the sole geometry source, and the outer 307 px transparent safety border is hard-enforced."
 }

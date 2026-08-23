@@ -6,7 +6,8 @@ This directory contains the locked handwriting reference for Frosya's 33-letter 
 
 - The handwriting is based on approved exploration sample 5, including its hooked, quirky `Л`.
 - All smudges and pencil dust belong to the glyph itself. There is no paper texture inside an individual letter asset.
-- The graphite letter is the master geometry. Ignition and magical states are derived from its alpha mask and are never redrawn.
+- The graphite letter is the master geometry. Ignition states are derived from its alpha mask and are never redrawn.
+- The accepted Episode 1 full-magic set is frozen in `exports/frosya_ep1_alphabet_v1.zip`; production builds restore those eight PNGs byte-for-byte so later glow experiments cannot silently replace them.
 - Every individual asset is a 2048 × 2048 transparent RGBA PNG.
 - Every asset uses anchor `(1024, 1430)` and baseline `1430`.
 - The outer 307 pixels on every side remain fully transparent.
@@ -40,7 +41,7 @@ rescript && node src/Drakosha_FrosyaAlphabet.res.mjs build
 rescript && node src/Drakosha_FrosyaAlphabet.res.mjs verify
 ```
 
-`build` recreates the exact flat paper and all 32 derived ignition/magic assets from the eight graphite masters. `verify` checks file presence, 2048 × 2048 RGBA format, and the required transparent safety border.
+`build` recreates the exact flat paper and 32 derived ignition assets from the eight graphite masters, then restores the locked full-magic set from the v1 export. `build-magic-a` restores the canonical full-magic `А` only. `verify` checks file presence, 2048 × 2048 RGBA format, the required transparent safety border, and exact hashes for all eight locked full-magic assets. Experimental glow work belongs under `qa/glow_lab` or `qa/iterations`, never in `assets/magic`.
 
 ## Useful previews
 

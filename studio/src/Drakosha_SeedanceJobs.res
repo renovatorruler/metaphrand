@@ -181,6 +181,75 @@ let all: array<jobSpec> = [
     4,
     Mini,
   ),
+  /* THE OFFER — «Сока хочешь?» from Вася's side. Author's start frame; her
+     pre-pencil sheet, the juice glass and the pencil bound. */
+  job(
+    "s8offer",
+    "SH107",
+    [Frosya],
+    [Juice, Pencil],
+    Some("2026-08-23_S8_OFFER_start.png"),
+    5,
+    Mini,
+  ),
+  /* THE GLASS — Вася looks through the juice and asks. Author's start frame;
+     his sheet and the juice glass bound. */
+  job(
+    "s8glass",
+    "SH108",
+    [Vasya],
+    [Juice],
+    Some("2026-08-23_S8_VASYA_glass_start.png"),
+    5,
+    Mini,
+  ),
+  /* САЛАТ — the second writing. Author's start frame; her sheet, the pencil
+     and the back plate bound. Eight seconds because the re-recorded spelling
+     runs 5.76s and the gate wants its two-second head. */
+  job(
+    "s8salat",
+    "SH109",
+    [Frosya],
+    [RoomBack, Pencil],
+    Some("2026-08-23_S8_SALAT_write_start.png"),
+    11,
+    Mini,
+  ),
+  /* THE SALAD ARRIVES — out of the spark, a hand's width up, drop, rock,
+     settle. Author's start frame and her bowl reference. */
+  job(
+    "s8bowl",
+    "SH110",
+    [Frosya],
+    [Salad, Pencil],
+    Some("2026-08-23_S8_SPARK_bowl_start.png"),
+    5,
+    Mini,
+  ),
+  /* «ФУ-У-У! ОВОЩИ!» — the same proven start frame as the light shot; no
+     light this time, the face itself turns from wonder to disgust. His hands
+     (and the glass) stay below frame, so nothing has to be drawn holding. */
+  job(
+    "s8fu",
+    "SH111",
+    [Vasya],
+    [],
+    Some("2026-08-23_S8_VASYA_light_start.png"),
+    5,
+    Mini,
+  ),
+  /* РУСЯ И САЛАТ — one continuous wide; the close insert cuts into its middle
+     in the edit, and the second half of the take is the zoom-out. The children
+     hear him before we see him, and their eyes carry every beat. */
+  job(
+    "s8rusya",
+    "SH112-114",
+    [Frosya, Vasya, Rusya],
+    [Salad, Juice, Pencil],
+    Some("2026-08-23_S8_RUSYA_wide_start.png"),
+    10,
+    Mini,
+  ),
   /* SCENE 7 — the niche, the chest, the letters. All on mini.
 
      GEOGRAPHY, set once by the author and not re-derived per shot: Мама works at

@@ -1,0 +1,40 @@
+ACTIVE REFERENCES
+@FROSYA — её зовут Фрося — the ELDEST of the family's FOUR children: orange flower in her hair, safety pin on her patchwork dress. 100% matches the reference.
+@JUICE: a small faceted low-poly drinking glass, clear with a thick base, filled most of the way with bright orange juice. A plain glass tumbler at a child's scale. 100% matches the reference.
+@PENCIL: the magic pencil — a short stubby faceted wooden pencil in warm honey-toned wood. ONE END ONLY is sharpened to a dark graphite point; THE OTHER END IS BLUNT, FLAT AND BARE WOOD. It is never sharpened at both ends and there is no dark tip at the blunt end. No paint and no ferrule. 100% matches the reference.
+
+SCALE
+Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.
+@PENCIL is sized for @FROSYA's own hand — it sits in her palm, she writes with it one-handed, and it fits behind her ear. It is NOT a giant human pencil and never dwarfs her.
+
+THE OFFER — the juice is real and she is giving it away. Close on Фрося from Вася's side. Вася kneels diagonally across the tiles from her, just to the LEFT of the camera — so her eyes and the glass go to a point slightly past the lens's left edge, never into the lens itself. The glass stands on her paper among the tiles; she lifts it and holds it out to him.
+
+DIALOGUE
+**ФРОСЯ:** *(светским тоном, с церемонией)* «Со́ка хо́чешь?»
+
+CAMERA
+Locked off at the start image's framing. It does not move.
+
+WHAT HAPPENS
+She holds the start pose for a beat — grinning at Вася, just left of the lens, exactly where her eyes already rest in the start image, one hand flat on the floor beside the paper. Then both hands come to the glass, close around it, and lift it off the paper in one smooth movement; she raises it and extends it toward Вася — slightly left of the camera, along her eyeline — as she says her line, offering it to Вася with mock ceremony, chin up, like a hostess. She holds it out there, arms extended, and waits. The tiles stay exactly where they lie and the pencil stays on the floor.
+
+REACTIONS
+Фрося starts with the wide proud grin of the start image, eyes on Вася just left of the lens. As she lifts the glass her brows rise and her chin lifts — the grand-lady pose. On the line her eyes narrow a touch with mischief and the grin widens further. She holds that face as she waits, eyes fixed on that same point left of the lens and never drifting into the camera.
+
+HANDS — Фрося: her right hand starts flat on the floor beside the paper, then both hands close around the glass and lift it; she holds it out at arm's length in both hands, steady, the juice level in it.
+
+PROPS
+The glass is the juice glass: a small faceted clear tumbler with a thick base, filled most of the way with bright orange juice. The pencil lies on the floor beside the paper, a short faceted wooden stub with one sharpened dark point and a blunt flat wooden top, and it does not move.
+
+BACKGROUNDS
+Behind Фрося is the table end of the hall, far out of focus: the string lights as soft discs, the warm glow of the stove face, the boulder wall — all soft shapes, nothing that resolves.
+
+GLYPHS
+REPAINT. The tiles on the floor carry correct letters in the start image and remain AT REST for the whole shot; nobody touches them and the camera holds still, so any glyph the motion drifts is repainted on the still tiles afterwards.
+
+HOLD
+She does not stand, does not turn away, and does not look into the camera. The camera does not move and focus does not shift. The tiles do not move. The pencil keeps its one point.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @FROSYA. Every character matches their reference exactly. The set and props are @JUICE, @PENCIL, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

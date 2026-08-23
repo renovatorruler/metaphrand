@@ -1,0 +1,10 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 5,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-23_S8_VASYA_glass_start.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-04.png",
+    "../stories/drakosha/ep1prod/scene1/references/D-JUICE-GLASS-01_author.png"
+  ],
+  "promptSha256": "ba42d070e282238e83be14b85f274fdf34e340886c3bfd01ce96143e978677ba"
+}

@@ -27,7 +27,7 @@ type castToken = Frosya | Vasya | Mama | Papa | Babies | Rusya | Musya | YagaFli
    was "reverse", which has no fixed referent — the reverse of the front is the
    back and the reverse of the back is the front — so nothing written with that
    word could be checked. Do not reintroduce it. */
-type propToken = RoomFront | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Stupa | Pomelo | Broom | Top | Tin | Chest | Tiles | Pouch | Pencil | Scooter | Road | Tank | Thread | Cake | Juice
+type propToken = RoomFront | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Stupa | Pomelo | Broom | Top | Tin | Chest | Tiles | Pouch | Pencil | Scooter | Road | Tank | Thread | Cake | Juice | Salad
 
 type shotRecord = {
   jobId: string, // "job12"
@@ -243,6 +243,12 @@ let propEntry = (t: propToken): propEntry =>
       tagLine: "@JUICE: a small faceted low-poly drinking glass, clear with a thick base, filled most of the way with bright orange juice. A plain glass tumbler at a child's scale. 100% matches the reference.",
       refPath: "D-JUICE-GLASS-01_author.png",
     })
+  | Salad =>
+    Backed({
+      tag: "@SALAD",
+      tagLine: "@SALAD: the salad bowl — a small rounded ceramic bowl in pale clay with a painted band of red flowers and a green zigzag around it, filled with a diced salad of green and red pieces. 100% matches the reference.",
+      refPath: "D-SALAD-BOWL-01_author.png",
+    })
   | Pencil =>
     Backed({
       tag: "@PENCIL",
@@ -369,7 +375,7 @@ let propScale = (t: propToken): option<string> =>
      carries the old version at SH068 ("почти достаёт до локтя" — almost reaches
      her elbow); that line is stale and must not be copied into a prompt. */
   | Pencil => Some("@PENCIL is sized for @FROSYA's own hand — it sits in her palm, she writes with it one-handed, and it fits behind her ear. It is NOT a giant human pencil and never dwarfs her.")
-  | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Tiles | Pouch | Scooter | Road | Tank | Thread | Cake | Juice => None
+  | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Tiles | Pouch | Scooter | Road | Tank | Thread | Cake | Juice | Salad => None
   }
 
 /* The creative text may not smuggle tag lines past the emitter: any "@" is a
