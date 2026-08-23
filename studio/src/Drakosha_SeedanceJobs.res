@@ -250,6 +250,17 @@ let all: array<jobSpec> = [
     10,
     Mini,
   ),
+  /* МАК — write, seal, and the poppy rising out of the settled light, one
+     take, no wipe: the full statement of her magic's grammar. */
+  job(
+    "s8mak",
+    "SH115",
+    [Frosya],
+    [RoomBack, Pencil, Poppy],
+    Some("2026-08-23_S8_SALAT_write_start.png"),
+    13,
+    Mini,
+  ),
   /* SCENE 7 — the niche, the chest, the letters. All on mini.
 
      GEOGRAPHY, set once by the author and not re-derived per shot: Мама works at

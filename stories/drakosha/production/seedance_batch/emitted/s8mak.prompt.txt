@@ -1,0 +1,46 @@
+ACTIVE REFERENCES
+@FROSYA — её зовут Фрося — the ELDEST of the family's FOUR children: orange flower in her hair, safety pin on her patchwork dress. 100% matches the reference.
+@ROOM_BACK: the far end of the SAME hall, past the rope railing and the ramp down — what lies beyond Фрося and Вася whenever the camera looks down the room. Same ENORMOUS sandstone boulder-blocks, same strung bulbs, the kitchen end with its stove and counter. 100% matches the reference.
+@PENCIL: the magic pencil — a short stubby faceted wooden pencil in warm honey-toned wood. ONE END ONLY is sharpened to a dark graphite point; THE OTHER END IS BLUNT, FLAT AND BARE WOOD. It is never sharpened at both ends and there is no dark tip at the blunt end. No paint and no ferrule. 100% matches the reference.
+@POPPY: the poppy — a single cut scarlet poppy on a long green stem with one serrated leaf, low-poly faceted petals around a dark seed centre. 100% matches the reference.
+
+SCALE
+Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.
+@PENCIL is sized for @FROSYA's own hand — it sits in her palm, she writes with it one-handed, and it fits behind her ear. It is NOT a giant human pencil and never dwarfs her.
+
+МАК — the third word, written for a present, and the whole magic in one take: she writes it giggling, seals it, the light settles on the boards beside her, and the poppy stands up out of it.
+
+DIALOGUE
+**ФРОСЯ:** *(хихикая)* «Хе-хе́. М. А. К. Ма́к!» «И то́чка.»
+Two lines with a clear pause between them: the giggling spelling first; then, after a look at what she made, the seal.
+
+CAMERA
+Locked off at the start image's framing. It does not move.
+
+WHAT HAPPENS
+She is already writing when the shot opens, and this time she is amused by her own idea — a small giggle escapes as she starts. She works the pencil in quick light strokes, sounding out the three letters with a beat between them, and lifts her head on the whole word with a grin. A beat — her eyes go to the open space on her left.
+
+THE SEAL. Her eyes come back to the page. She says the second line, and on its stressed syllable her fist brings the pencil down and presses the point into the page. A bloom of warm golden light rises from the contact — it lights her hands and face from below but NEVER takes the frame: it streams off the edge of the page, down onto the floorboards at her left, and gathers there into a low burning spark on the planks.
+
+Out of that spark the POPPY rises: stem first, upright in the light, the scarlet head unfolding last. Then, as the light thins and dies, gravity takes it — the flower TIPS and falls softly to the boards, the stem giving one gentle bounce, and lies there in ordinary lamplight, a cut flower on the floor. Фрося watches it rise and fall, and her grin softens into something quieter — this one is for someone.
+
+REACTIONS
+Фрося starts with the giggle in her face — cheeks up, eyes bright, the writing quick and pleased. Through the spelling the amusement stays; on the whole word the grin is wide. On the seal her face steadies for the press — one deliberate instant — and then, as the light travels and the poppy rises, her brows lift and the grin settles into a soft open-mouthed watching, and a small startle-blink as it falls, ending on a small private smile. She never looks into the camera.
+
+HANDS — Фрося: her right hand grips the pencil and makes quick light strokes through the spelling, lifts clear on the word, then drives the point down for the seal and holds the pressure as the light travels; her left hand holds the paper steady against her knee and stays planted there.
+
+PROPS
+The pencil: one sharpened dark point at the writing end, a blunt flat bare wooden top above her fist. The poppy: a single cut scarlet poppy on a long green stem with one serrated leaf, faceted petals around a dark centre — it arrives out of the light, falls, and lies on the boards.
+
+BACKGROUNDS
+Behind Фрося is the back wall, the kitchen end of the hall, far out of focus: the stove glow, the sock chairs, the string lights as soft discs. The left half of the frame is bare floorboards — empty until the light settles there and the poppy rises from it.
+
+GLYPHS
+NOT READABLE. The page is never visible and nothing legible appears anywhere in the frame; the letters the audience sees are the author's artwork, composited into the left half on her voice.
+
+HOLD
+She does not stand or turn, and does not look into the camera. The camera does not move and focus does not shift. The pencil keeps its one point. The light never fills the frame — it travels from the page to the boards and becomes the poppy, and the poppy ends LYING on the boards, not standing.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @FROSYA. Every character matches their reference exactly. The set and props are @ROOM_BACK, @PENCIL, @POPPY, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.
