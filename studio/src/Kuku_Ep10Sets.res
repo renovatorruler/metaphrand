@@ -317,3 +317,36 @@ let lanePlateAt = y =>
   } else {
     platePath(Lane, "flat_approach")
   }
+
+/* ---- progression: where a shot sits on the lane ---------------------------
+   A chase reads only if the ground moves under it. These sentences are derived
+   from the same metric table the blueprint and plates come from, so a shot
+   cannot claim a position the set does not have. */
+let markerPositions = [12.0, 24.0, 36.0]
+
+let lanePosition = (at, cartAt) => {
+  let behind = Js.Array2.length(Js.Array2.filter(markerPositions, m => m < at))
+  let ahead = Js.Array2.length(markerPositions) - behind
+  let toWall = laneLength -. at
+  let base =
+    "POSITION ON THE LANE: this shot happens " ++
+    Belt.Float.toString(at) ++
+    " metres down the " ++
+    Belt.Float.toString(laneLength) ++
+    " metre lane. Of the three red markers, " ++
+    Belt.Int.toString(behind) ++
+    " are already BEHIND this point and " ++
+    Belt.Int.toString(ahead) ++
+    " still lie AHEAD down the slope. The closed end wall is " ++
+    Belt.Float.toString(toWall) ++ " metres further on and must read that far away — no nearer, no further."
+  switch cartAt {
+  | None => base
+  | Some(c) =>
+    base ++
+    " THE CART is " ++
+    Belt.Float.toString(c) ++
+    " metres down the lane at this moment — " ++
+    Belt.Float.toString(laneLength -. c) ++
+    " metres from the wall — and is still running."
+  }
+}

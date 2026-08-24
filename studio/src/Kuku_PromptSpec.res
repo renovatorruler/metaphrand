@@ -139,7 +139,16 @@ let imagePrompt = (s: imageSpec) =>
       "PALETTE: " ++ paletteLaw ++ ".",
       switch s.plate {
       | Some(_) =>
-        "SET PLATE: the SECOND attached image IS this location, already built — reproduce it faithfully: the same ground, the same landmarks in the same places, the same walls, kerbs and horizon, the same camera vantage. Do not redesign the place, do not move its landmarks, do not invent new architecture. Every attached image after it is a locked character design; match each EXACTLY, including the golden bracelet."
+        /* a wide shot stands where the plate stands; a close shot is the same
+           place seen from nearer, so it must inherit materials and landmarks
+           without being forced back to the plate's camera */
+        (switch s.shot {
+        | Wide | WideLow | WideAction | HighWide | MediumWide | WideAbstract =>
+          "SET PLATE: the SECOND attached image IS this location, already built — reproduce it faithfully: the same ground, the same landmarks in the same places, the same walls, kerbs and horizon, the same camera vantage. Do not redesign the place, do not move its landmarks, do not invent new architecture."
+        | Medium | CloseMedium | Close | Insert | CloseAbstract =>
+          "SET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place does not: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and any landmark of it that falls inside this tighter frame sits exactly where the plate puts it. Never invent different architecture or a different kind of ground."
+        }) ++
+        " Every attached image after it is a locked character design; match each EXACTLY, including the golden bracelet."
       | None =>
         "CHARACTER REFERENCES: every attached image after the first is a locked character design; match each EXACTLY, including the golden bracelet."
       },
