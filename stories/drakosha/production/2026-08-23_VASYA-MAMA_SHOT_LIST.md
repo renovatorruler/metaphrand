@@ -19,7 +19,11 @@ The plate carries three things beyond the framing. Its scatter contains **М, А
 Refs: `page-04` Вася, `page-05` Фрося, room master.
 Risk **low**. One caution: his head is about 230px at 720p, so the mouth is around 45px — measurable, but only with the magnified pass, never the wide survey.
 
-**One note on the expression.** The plate reads as *wanting* — brows up, eyes wide, mouth small and open — rather than bright excitement. For this line that is arguably better, because he is asking for something and the excitement can arrive on *«Лёгкое!»*. But the start frame's expression carries the whole shot, so if bright is wanted, it has to be bright in the plate.
+**The performance, settled 24 August: whiny, then alight.** Not jealousy — he is not measuring himself against his sister, he simply wants something magical too and has no idea how a person starts. So the shot opens on a whine, with the mouth corners down and the body rocking back; in the middle his eyes drop to the scattered tiles and he looks at them helplessly, hand hovering, not knowing where to begin; and on *«Лёгкое!»* he catches fire and leans in.
+
+That middle glance at the tiles is what makes V02 work. He looks at the letters and cannot see a way in — so when Фрося tells him to put a word together himself, she is answering something he actually asked, not being dismissive.
+
+**Фрося is listening.** She lifts her head at his first sound and turns to him and stays turned. She is not absorbed in her paper and she is not ignoring him — she has just done magic three times in a row and her little brother is asking her for some.
 
 ## V02 · «Ну собери сам» · 4s · 10 cr · SH121 · SP111
 
@@ -32,7 +36,7 @@ She looks up at him, entirely unbothered, and hands the job back. The joke is th
 Refs: `page-05`.
 Risk **low** — her face is large and the mouth is easy to measure. This is why her line is its own shot: in V01 her back is to camera and there is nothing to match.
 
-**Small thing, her call.** One tile in this plate reads `З` (or a numeral 3). It breaks nothing — it is not in МАШИНА and it is background at shallow focus — but it is outside the eight drawn letters, so it could never be lit, and in a literacy show a stray `3` next to an `А` is a shape a child might read as a number. Swapping it for a `Т` or `О` would cost nothing.
+The `З` in the first version of this plate was replaced with an `М` on 24 August, but the author's ruling on it is the one that generalises: **in the conversation shots the tiles are background and nobody is reading them.** The audience is on the faces. Letter checking is owed to the shots where a letter is the point — V03, and Фрося's writing — not to every frame a tile happens to sit in.
 
 ## V03 · МАМА read, and nothing happens · 11s · 28 cr · SH122+123 · SP112–113
 

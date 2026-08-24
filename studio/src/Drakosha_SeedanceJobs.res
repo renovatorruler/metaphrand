@@ -272,6 +272,33 @@ let all: array<jobSpec> = [
     8,
     Mini,
   ),
+  /* «А Я, Я ТОЖЕ ХОЧУ» — the ask. Whiny, then alight: he wants magic too and
+     cannot see where a person starts. The middle beat is his eyes dropping to
+     the scattered tiles, hand hovering, not landing — which is what makes her
+     answer in the next shot a reply rather than a brush-off.
+
+     NO @TILES AND NO @POUCH REFERENCE, deliberately. The author's start plate
+     already has both exactly right: dark end-grain tiles on the floorboards and
+     the burlap pouch lying open beside him. The chest sheet backing @TILES shows
+     PALE GOLDEN tiles inside a chest — a sheet that disagrees with the plate is
+     a liability, and it would drag the tiles lighter and invite a chest into a
+     shot that has none. @POUCH is backed by page-04, which the @VASYA token
+     already attaches, and its old tagline put the pouch at his hip. Both prop
+     positions live in the shot text instead, per the ANCHOR RULE.
+
+     EIGHT SECONDS, NOT SIX. line60 is 5.28s and the gate reserves a two-second
+     head, so six would be refused. The extra two seconds are where the shot
+     actually lives: the whine lands before the words, and he is left leaning in
+     and waiting at the end, which is what motivates the cut to Фрося. */
+  job(
+    "v01ask",
+    "SH120",
+    [Frosya, Vasya],
+    [Salad, Juice, Pencil],
+    Some("2026-08-24_V01_vasya-asks_start.png"),
+    8,
+    Mini,
+  ),
   /* SCENE 7 — the niche, the chest, the letters. All on mini.
 
      GEOGRAPHY, set once by the author and not re-derived per shot: Мама works at

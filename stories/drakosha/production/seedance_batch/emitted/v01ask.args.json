@@ -1,0 +1,13 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 8,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-24_V01_vasya-asks_start.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-05.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-04.png",
+    "../stories/drakosha/ep1prod/scene1/references/D-SALAD-BOWL-01_author.png",
+    "../stories/drakosha/ep1prod/scene1/references/D-JUICE-GLASS-01_author.png",
+    "../stories/drakosha/ep1prod/scene1/references/D-FRO-PENCIL-01_approved.png"
+  ],
+  "promptSha256": "715588c0cc9286b685532a9026d762d6e7c9d1c252056350118dc95c7bfe6aec"
+}

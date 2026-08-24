@@ -50,8 +50,8 @@ let laneLandmarks = [
 ]
 
 let courtyardLandmarks = [
-  {name: "FLIGHT RING", x: 0.0, y: -18.0, z: laneDrop, note: "the large inverted stone ring of layered paper arcs, standing upright"},
-  {name: "BELL ARCH", x: 7.0, y: -14.0, z: laneDrop +. 5.0, note: "the stone arch with the bronze bell, RIGHT side, high"},
+  {name: "FLIGHT RING", x: 0.0, y: -18.0, z: laneDrop, note: "the inverted stone ring of layered paper arcs, standing upright — FOURTEEN METRES across, wide enough for an enormous dragon to fly through with wings spread; never a human-sized hoop"},
+  {name: "BELL ARCH", x: 7.0, y: -14.0, z: laneDrop +. 5.0, note: "the stone arch carrying the bronze bell, RIGHT side and high — its span is ten metres so a flying dragon can pass beneath it; the bell hangs at its crown and must be visible"},
   {name: "MARKED FLAGSTONE", x: 0.0, y: -12.0, z: laneDrop, note: "the launch mark: a circle of ringed flagstones"},
   {name: "TEMPLE GATEWAY", x: 0.0, y: -30.0, z: laneDrop, note: "far behind the ring, the paper temple gateway"},
   {name: "TOWER", x: 16.0, y: -26.0, z: laneDrop +. 14.0, note: "चील's closed stone tower, off to the RIGHT and high"},
@@ -300,6 +300,8 @@ let blueprint = s => {
 /* where an approved plate for (set, vantage) lives, relative to studio/ */
 let plateDir = "../stories/kuku/ep10prod/sets/"
 let platePath = (s, tag) => plateDir ++ setName(s) ++ "_" ++ tag ++ "_plate.png"
+/* the set's own establishing plate, with no vantage suffix */
+let masterPlate = s => plateDir ++ setName(s) ++ "_plate.png"
 
 /* which lane plate covers a point on the lane: the survey walked the centreline,
    so a shot's position along the lane picks its vantage plate deterministically */

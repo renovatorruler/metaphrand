@@ -224,13 +224,13 @@ let propEntry = (t: propToken): propEntry =>
   | Tiles =>
     Backed({
       tag: "@TILES",
-      tagLine: "@TILES: the wooden letter tiles — small square pale-wood tiles, each carved with one Cyrillic letter, as they appear filling the letter chest in the reference. 100% matches the reference.",
+      tagLine: "@TILES: the wooden letter tiles — small square wooden tiles, each carved with one Cyrillic letter. 100% matches the reference. WHERE the tiles are in this shot is stated in the shot text and nowhere else.",
       refPath: "D-MAM-CHEST-01_approved.png",
     })
   | Pouch =>
     Backed({
       tag: "@POUCH",
-      tagLine: "@POUCH: Вася's small cloth pouch of letter tiles, tied to his shoelace belt at his hip, as shown on his character sheet. 100% matches the reference.",
+      tagLine: "@POUCH: Вася's small cloth drawstring pouch for his letter tiles, as shown on his character sheet. 100% matches the reference. WHERE the pouch is in this shot — worn at his belt, or lying on the floor — is stated in the shot text and nowhere else.",
       refPath: "packet_v2/page-04.png",
     })
   /* THE JUICE — author's ruling 2026-08-23: the magic makes a GLASS, not a

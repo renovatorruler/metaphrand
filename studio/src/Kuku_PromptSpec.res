@@ -109,8 +109,8 @@ let subjectText = s =>
     colorOf(name) ++
     " paper dragon, " ++
     (form == Great
-      ? "GREAT form: a towering winged paper dragon, several times the height of a grown man"
-      : "small everyday form: a small paper dragon child") ++
+      ? "GREAT form: ENORMOUS. Do not judge this by adjectives — measure her against what is in frame: a wooden hay cart would fit between her two front claws, a grown man would reach only to her knee, and her head rides above the tops of the trees and walls around her. She must never read as a small or medium-sized creature, and never as merely animal-sized"
+      : "small everyday form: a small paper dragon child, no taller than a human child") ++
     ", wearing a golden कड़ा paper cuff on ONE forearm (mandatory, clearly visible, never on both). Exactly ONE " ++
     nameOf(name) ++
     " in frame. " ++ doing

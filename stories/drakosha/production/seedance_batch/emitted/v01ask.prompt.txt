@@ -1,0 +1,52 @@
+ACTIVE REFERENCES
+@FROSYA — её зовут Фрося — the ELDEST of the family's FOUR children: orange flower in her hair, safety pin on her patchwork dress. 100% matches the reference.
+@VASYA — его зовут Вася — the SECOND of the family's FOUR children, younger than Фрося and older than Руся and Муся: enormous bushy eyebrows, shoelace belt. 100% matches the reference.
+@SALAD: the salad bowl — a small rounded ceramic bowl in pale clay with a painted band of red flowers and a green zigzag around it, filled with a diced salad of green and red pieces. 100% matches the reference.
+@JUICE: a small faceted low-poly drinking glass, clear with a thick base, filled most of the way with bright orange juice. A plain glass tumbler at a child's scale. 100% matches the reference.
+@PENCIL: the magic pencil — a short stubby faceted wooden pencil in warm honey-toned wood. ONE END ONLY is sharpened to a dark graphite point; THE OTHER END IS BLUNT, FLAT AND BARE WOOD. It is never sharpened at both ends and there is no dark tip at the blunt end. No paint and no ferrule. 100% matches the reference.
+
+SCALE
+Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.
+Вася is shorter than Фрося, about up to her eyebrows.
+@PENCIL is sized for @FROSYA's own hand — it sits in her palm, she writes with it one-handed, and it fits behind her ear. It is NOT a giant human pencil and never dwarfs her.
+
+THE ASK. From the start image: the work area on the floorboards, seen from high three-quarter. Фрося kneels at screen left with her back to camera, bent over a sheet of paper, her right hand flat against it, her dark curly hair filling her side of the frame and the orange flower clip showing at the side of her head. Вася kneels at screen right facing her across the work area, sitting back on his heels, both hands resting on his knees, looking at her. Between them on the floor: the cream bowl of peas, the letter tiles scattered wide, the glass of juice near Вася, and his cloth pouch lying on its side on the floorboards at his right. A pencil lies on the floorboards beside Фрося's paper.
+
+DIALOGUE
+**ВАСЯ:** *(сначала ноюще, потом загораясь)* «А я, я то́же хочу́. Мне сло́во лёгкое.»
+
+Only Вася's lips move. Фрося does not speak and her mouth is not visible. No offscreen voices.
+
+CAMERA
+Locked off at the start image's framing. It does not move and focus does not shift.
+
+WHAT HAPPENS
+Вася begins whining. He rocks back on his heels, his shoulders drop, his head tips to one side and he complains up at her — a small boy who has watched three magic things happen to somebody else and has had none.
+
+Then his eyes leave her and go down to the tiles scattered on the floor between them. He looks at them for a moment, helpless — a boy who wants the magic badly and has no idea where a person is supposed to begin.
+
+And on the last words he catches fire. His head comes up, he pushes forward from the knees toward her, his back straightens, and he ends leaning in, waiting, lit up by his own idea.
+
+Фрося lifts her head from her paper as soon as he starts, and turns toward him. She stays turned to him for the rest of the shot, listening — head up, attention entirely on him. She does not go back to the paper.
+
+REACTIONS
+Вася starts whining: the inner ends of his brows push up and together, his mouth corners pull DOWN, his chin dips and his eyes come up at her from under the raised brows. In the middle, looking down at the tiles, the brows stay up and the eyes widen and go blank with not-knowing. By the end everything turns over — the chin lifts, the eyes widen bright, and the mouth opens into a broad hopeful grin with the brows high. Фрося is seen from behind and her face is never toward the camera: her performance is the lift of her head at his first sound and the turn of her shoulders toward him, and she holds that attention to the end. Nobody looks into the camera.
+
+HANDS — Вася: both hands start resting on his knees, palms down. His right hand comes up and the fingertips press the front of his own shirt — me, what about me — then that hand drifts out over the floor and hovers there, fingers spread, open and empty, a little above the scattered tiles. On the last words the same hand turns over and is raised toward Фрося, palm up and open, and stays held out that way to the end of the shot. His left hand stays flat against his knee throughout. His hands stay empty the whole shot and everything they do happens in the air above the floor.
+Фрося: her right hand stays flat against the paper on the floor and stays there while she turns her head and shoulders toward him. Her left arm hangs at her side.
+
+PROPS
+The cream bowl of green and orange peas sits on the floorboards between them and stays exactly where it is. The glass of orange juice stands on the floor near Вася's right and stays upright where it stands. His cloth pouch lies closed on its side on the floorboards at his right and stays lying exactly there for the whole shot. The pencil lies on the floorboards beside the paper and stays there. The paper stays flat on the floor under Фрося's hand. Вася wears his patchwork shirt and trousers with the rope belt and its wooden toggle; Фрося wears her floral patchwork dress and kneels at the paper.
+
+GLYPHS
+NOT READABLE. The letter tiles are small square wooden blocks lying flat and scattered on the floorboards, each carved with one dark letter. They are texture and nobody reads them — no tile is in focus and nothing in this shot asks the audience to read one. Every tile stays exactly where it lies: none slides, spins, flips or stacks, and Вася's open hand passes above them in the air without coming down on any of them.
+
+BACKGROUNDS
+There is no wall in this framing — the camera looks down and the floor fills the frame. Behind Вася, past his right shoulder at the top right, the dark floorboards run on and fall away into unlit shadow. Behind Фрося, past her left shoulder at the top left, the same dark floorboards run on and fall into the same shadow. Warm lamp light comes from the upper left and falls across the work area between them, and the far ground stays dark.
+
+HOLD
+The camera does not move. Nobody stands up. Nobody changes places. Фрося's back stays to the camera and she never speaks. The bowl, the glass, the pouch, the pencil and every tile stay where the start image puts them.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: @FROSYA, @VASYA. Every character matches their reference exactly. The set and props are @SALAD, @JUICE, @PENCIL, and each matches its reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.

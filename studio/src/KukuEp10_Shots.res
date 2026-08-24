@@ -46,6 +46,7 @@ let tower = Sets.setProse(Sets.Tower)
 /* a lane plate attaches only where the shot's camera matches the survey's:
    looking down the slope. Overheads, low angles and inserts stay plate-free. */
 let lanePlate = y => Sets.lanePlateAt(y)
+let courtyardPlate = Sets.masterPlate(Sets.Courtyard)
 
 type entry = {id: string, spec: P.imageSpec, added: array<string>, derived: array<string>}
 
@@ -148,6 +149,7 @@ let shots: array<entry> = [
     ~shot=P.Wide,
     ~dragons=allFiveRow("on the courtyard flagstones, facing the flight ring"),
     ~setting=courtyard ++ ", dusk paper clouds above",
+    ~plate=courtyardPlate,
     ~added=["the five enumerated by name, color and row order — the prose said only \"five towering paper dragon children\""],
     (),
   ),

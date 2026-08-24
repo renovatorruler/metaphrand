@@ -179,6 +179,46 @@ let doRetouch = (s, change) => {
   }
 }
 
+
+/* ---- style pass: Blender owns the geometry, nano owns the paper ----------- */
+let stylePassPrompt = s =>
+  Js.Array2.joinWith(
+    [
+      "TASK: the SECOND attached image is an untextured grey 3D BLOCKOUT of this set — the geometry and camera are already correct. Render that exact view as the finished illustration.",
+      "STYLE: " ++ P.styleLaw ++ ". The FIRST attached image is the art style; match it EXACTLY.",
+      "PALETTE: " ++ P.paletteLaw ++ ".",
+      "KEEP FROM THE BLOCKOUT, EXACTLY: the camera angle, the perspective, the horizon line, the shape and fall of the ground, the position and size of every object in frame. Do not move anything, do not add architecture, do not change the viewpoint.",
+      "THE BLOCKOUT IS THE AUTHORITY ON WHAT IS IN FRAME: render only the forms it actually shows. The set description below names landmarks that exist elsewhere in this location — any of them NOT present in the blockout is out of shot and must NOT be added.",
+      "SET: " ++ S.setProse(s),
+      "MATERIALS: flagstones become layered cut-paper slabs; kerbs become folded paper edges; the markers become blank red paper wedges; the wall becomes stacked paper stones; the ground becomes soft paper grass and hills.",
+      "LIGHTING: warm golden dusk — the last golden evening, low grazing light and long soft shadows.",
+      "HARD RULES:\n" ++
+      P.bullets(
+        Js.Array2.concat(
+          [
+            "the set is EMPTY: no dragons, no birds, no animals, no cow, no cart, no figures of any kind",
+            "no grey untextured surfaces left anywhere — every surface is finished paper",
+          ],
+          P.negatives,
+        ),
+      ),
+    ],
+    "\n",
+  )
+
+let doStylePass = (s, blockout, dst) => {
+  let args = [
+    "generate", "create", "nano_banana_pro", "--prompt", stylePassPrompt(s),
+    "--image", P.styleKey, "--image", blockout,
+    "--aspect_ratio", "16:9", "--resolution", "2k", "--wait", "--json",
+  ]
+  let raw = execFileSync("higgsfield", args, opts)
+  switch firstUrl(raw, "(png|webp|jpg)") {
+  | Some(url) => fetchTo(url, dst)
+  | None => Js.log("FAIL stylepass — " ++ Js.String2.slice(raw, ~from=0, ~to_=160))
+  }
+}
+
 let mode = Js.Array2.length(argv) > 2 ? argv[2] : "blueprint"
 let target = Js.Array2.length(argv) > 3 ? setOfName(argv[3]) : None
 
@@ -187,6 +227,14 @@ switch (mode, target) {
 | ("plate", Some(s)) => doPlate(s)
 | ("survey", Some(s)) => doSurvey(s)
 | ("prompt", Some(s)) => Js.log(platePrompt(s))
+| ("stylepass", Some(s)) => {
+    let tag = Js.Array2.length(argv) > 4 ? argv[4] : "bottom_looking_up"
+    doStylePass(
+      s,
+      dir ++ "blender/" ++ S.setName(s) ++ "_" ++ tag ++ "_blockout.png",
+      dir ++ S.setName(s) ++ "_" ++ tag ++ "_plate.png",
+    )
+  }
 | ("retouch", Some(s)) =>
   doRetouch(
     s,
