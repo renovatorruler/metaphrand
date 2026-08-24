@@ -20,3 +20,9 @@
 2026-08-23_S8_MAK_v9_letters.mp4                   # SH117 МАК written, the poppy materialises
 2026-08-23_S8_POPPY_offer_v5_dub.mp4               # SH118 the poppy given to Мама
 #
+#
+# --- the Вася-Мама block begins. SH119 (Яга's approving hum + Фрося tucking the
+#     pencil behind her ear) is NOT SHOT and belongs here, between the poppy and
+#     the ask. The cut currently goes straight from Мама's thank-you to Вася.
+2026-08-24_V01_ask_v3_dub.mp4                      # SH120 «А я, я тоже хочу. Мне слово лёгкое.»
+2026-08-24_V02_answer_v3_dub.mp4                   # SH121 «Ну собери сам, ты же читать будешь.»
