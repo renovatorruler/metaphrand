@@ -33,6 +33,9 @@ type imageSpec = {
      present it is attached SECOND (after the style key, before the character
      boards) and the set stops being re-imagined from words every generation. */
   plate: option<string>,
+  /* recurring story OBJECTS with a locked look — the forged ग, a prop that must
+     be identical every time it appears. Attached after the plate, before boards. */
+  objects: array<string>,
   extraRules: array<string>,
 }
 
@@ -148,7 +151,10 @@ let imagePrompt = (s: imageSpec) =>
         | Medium | CloseMedium | Close | Insert | CloseAbstract =>
           "SET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place does not: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and any landmark of it that falls inside this tighter frame sits exactly where the plate puts it. Never invent different architecture or a different kind of ground."
         }) ++
-        " Every attached image after it is a locked character design; match each EXACTLY, including the golden bracelet."
+        (Js.Array2.length(s.objects) > 0
+          ? " The image after the plate is a locked STORY OBJECT: the same forged shape appears in other shots and must be reproduced with identical form, proportion, colour and material — never redrawn, never restyled, never a different shape."
+          : "") ++
+        " Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet."
       | None =>
         "CHARACTER REFERENCES: every attached image after the first is a locked character design; match each EXACTLY, including the golden bracelet."
       },
@@ -246,8 +252,8 @@ let boardOf = s =>
 
 let imageRefs = (s: imageSpec) => {
   let head = switch s.plate {
-  | Some(p) => [styleKey, p]
-  | None => [styleKey]
+  | Some(p) => Js.Array2.concat([styleKey, p], s.objects)
+  | None => Js.Array2.concat([styleKey], s.objects)
   }
   let boards = Js.Array2.reduce(
     s.subjects,

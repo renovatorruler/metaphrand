@@ -344,6 +344,37 @@ let all: array<jobSpec> = [
     5,
     Mini,
   ),
+  /* HE CHOOSES THE LETTERS — the experiment that unlocks the tile beat. The
+     camera lies low enough that the tiles are edge-on and their faces never
+     turn to the lens, so THE GLYPH PROBLEM DOES NOT EXIST IN THIS SHOT. Scene 7
+     lost every letter shot to Cyrillic the model cannot draw; this one cannot
+     lose that way, because there is nothing to draw. The word gets read in the
+     next shot, off the author's legible plate.
+
+     HE SLIDES, HE NEVER LIFTS. A tile pushed flat along the boards is one
+     contact point and one direction of travel; a tile picked up, carried and
+     set down is a grip, an occlusion, a rotation and a landing — four ways to
+     break, per tile, four times over. This single choice is the largest thing
+     standing between the shot and a mess.
+
+     NEAR TO FAR, so a failure comes late. The first gather is the tile already
+     under his hand and is nearly free; the longest reach is last. If the model
+     breaks on the third or fourth, the take is trimmed at the break and what
+     survives is two clean gathers — which says everything the shot has to say.
+     Eight seconds: four gathers at about a second and a half, plus a beat.
+
+     No @TILES: the chest sheet is a whole chest, and this plate carries the
+     tiles perfectly already. No @POUCH: it is backed by page-04, which @VASYA
+     attaches anyway. */
+  job(
+    "v03gather",
+    "SH122",
+    [Vasya],
+    [],
+    Some("2026-08-24_V03_gather_start.png"),
+    8,
+    Mini,
+  ),
   /* SCENE 7 — the niche, the chest, the letters. All on mini.
 
      GEOGRAPHY, set once by the author and not re-derived per shot: Мама works at

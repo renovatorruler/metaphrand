@@ -47,6 +47,8 @@ let tower = Sets.setProse(Sets.Tower)
    looking down the slope. Overheads, low angles and inserts stay plate-free. */
 let lanePlate = y => Sets.lanePlateAt(y)
 let courtyardPlate = Sets.masterPlate(Sets.Courtyard)
+/* h29 is the shape's first appearance and therefore its reference */
+let gaRef = [Sets.plateDir->Js.String2.replace("sets/", "stills/") ++ "h29_ga_stands.png"]
 
 type entry = {id: string, spec: P.imageSpec, added: array<string>, derived: array<string>}
 
@@ -68,6 +70,7 @@ let mk = (
   ~at: option<float>=?, /* metres down the lane — supplies plate AND progression */
   ~cartAt: option<float>=?,
   ~plate: option<string>=?,
+  ~objects: array<string>=[],
   ~lightingOverride: option<string>=?,
   ~extraRules: array<string>=[],
   ~added: array<string>=[],
@@ -98,14 +101,26 @@ let mk = (
     }
   | (None, false) => []
   }
-  let gaSubjects = switch ga {
-  | Some(doing) =>
+  /* THE ग IS NEVER GENERATED. Devanagari from an image model is wrong every time
+     and differently wrong in every frame, so the letter is composited locally
+     (ep10prod/ga_composite.mjs) onto a deliberately EMPTY stone. A shot that
+     features it therefore asks for clear ground and records that it needs the
+     composite pass. */
+  let gaSubjects = []
+  let extraRules = switch ga {
+  | Some(_) =>
     if !S.gaExists(beat) {
       Js.Exn.raiseError("CONTINUITY ERROR in " ++ id ++ ": the golden ग-shape does not exist before the forging beat")
     } else {
-      [gaProp(doing)]
+      let _ = Js.Array2.push(derived, "ग COMPOSITED LOCALLY — generated frame must leave the stone empty")
+      Js.Array2.concat(
+        [
+          "THE FLAT STONE IS EMPTY: nothing has been forged on it yet. Do not place any golden shape, sculpture, hook, curve, letter, glyph or ornament anywhere on or near it — leave the stone bare and clearly lit, with room above it.",
+        ],
+        extraRules,
+      )
     }
-  | None => []
+  | None => extraRules
   }
   /* a lane position supplies its own plate and its own progression sentence */
   let plate = switch (plate, at) {
@@ -140,6 +155,7 @@ let mk = (
       setting,
       lighting,
       plate,
+      objects,
       extraRules,
     },
     added,
@@ -207,6 +223,7 @@ let shots: array<entry> = [
     ~shot=P.Close,
     ~props=[bell("hung in a paper stone arch above the courtyard, swinging once")],
     ~setting="the paper stone arch above the courtyard, dusk sky of layered paper clouds behind",
+    ~plate=courtyardPlate,
     (),
   ),
   mk(
@@ -238,6 +255,7 @@ let shots: array<entry> = [
     ~gauri="grazing calmly on paper grass, unhurried, her bell hanging still",
     ~setting="the grass verge beside the gurukul courtyard, the lane beyond",
     ~added=["ENTIRE SPEC rebuilt — the original prompt existed only in a wiped scratchpad"],
+    ~plate=Sets.masterPlate(Sets.GrassVerge),
     (),
   ),
   mk(
@@ -275,6 +293,7 @@ let shots: array<entry> = [
     ~gauri="chewing paper hay, calm, dark paper eyes",
     ~setting="beside the hay cart at the top of the lane",
     ~added=["lighting and setting (the prose was only \"CLOSE\" plus the cow)"],
+    ~plate=Sets.lanePlateAt(4.0),
     (),
   ),
   mk(
@@ -308,6 +327,7 @@ let shots: array<entry> = [
     ~shot=P.Close,
     ~props=[shards("lying on weathered paper stone, catching the last dusk light")],
     ~setting="the weathered stone of the tower parapet",
+    ~plate=Sets.masterPlate(Sets.Tower),
     (),
   ),
   /* — RopeSlips — */
@@ -319,6 +339,7 @@ let shots: array<entry> = [
     ~props=[redRope("its knot slipping loose from the weathered stone post, the rope end whipping away, fibres catching the light")],
     ~setting="the stone post at the top of the lane",
     ~added=["time-of-day (the prose said only \"fibres catching light\")"],
+    ~plate=Sets.lanePlateAt(4.0),
     (),
   ),
   mk(
@@ -329,6 +350,7 @@ let shots: array<entry> = [
     ~others=[P.Cheel({doing: "lifts from the paper stone arch with the bronze bell in her talons, its cut binding swinging, wings at full power"})],
     ~props=[bell("gripped in her talons, cord cut")],
     ~setting="the paper stone arch above the courtyard, dusk clouds behind",
+    ~plate=courtyardPlate,
     (),
   ),
   mk(
@@ -339,6 +361,7 @@ let shots: array<entry> = [
     ~dragons=[(P.Fyuria, "hovers, turned away from the open sky and looking down toward the courtyard, jaw set, wings beating")],
     ~setting="the sky over the courtyard",
     ~added=["lighting (none in the prose)"],
+    ~plate=courtyardPlate,
     (),
   ),
   /* — Runaway — */
@@ -677,6 +700,7 @@ let shots: array<entry> = [
     ~at=36.0,
     ~cartAt=36.0,
     ~added=["lighting (none in the prose)"],
+    ~objects=gaRef,
     (),
   ),
   mk(
@@ -706,6 +730,7 @@ let shots: array<entry> = [
     ~at=55.0,
     ~cartAt=54.0,
     ~added=["lighting (none in the prose)"],
+    ~objects=gaRef,
     (),
   ),
   mk(
@@ -720,6 +745,7 @@ let shots: array<entry> = [
     ~plate=Sets.masterPlate(Sets.FlatStone),
     ~at=55.0,
     ~cartAt=55.0,
+    ~objects=gaRef,
     (),
   ),
   mk(
@@ -790,6 +816,7 @@ let shots: array<entry> = [
     ~props=[doorway("open at dusk; through it a village paper courtyard"), dog("beside her")],
     ~setting="the threshold between the dragon world and the village world",
     ~added=["lighting refined from plain \"dusk\" to the cool-doorway doctrine"],
+    ~plate=Sets.masterPlate(Sets.Doorway),
     (),
   ),
   mk(
@@ -801,6 +828,7 @@ let shots: array<entry> = [
     ~props=[doorway("glowing softly beside him")],
     ~setting="beside the glowing doorway",
     ~added=["IDENTITY FIX: the original prompt attached कुकु's small sheet and said only \"a small paper dragon child\" for a वैस्पर shot; NOTE: no small Vesper sheet exists"],
+    ~plate=Sets.masterPlate(Sets.Doorway),
     (),
   ),
   /* — TowerEnd — */

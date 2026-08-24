@@ -1,0 +1,14 @@
+{
+  "fps": 24,
+  "dissolve": 0.08,
+  "duration": 4.15,
+  "voice": "line62a_VASYA_read_cut.mp3 — «Ма-ма. Мама!» cut from line62 at 0.00-4.05. Voiced: «Ма» 0.18-0.88, «ма» 1.52-2.08, «Мама!» 2.98-3.84. «Вжух!» is line62b and belongs to the NEXT shot, on his face.",
+  "states": [
+    {"file": "00_rest.png", "at": 0.00, "why": "finger approaching, nothing lit"},
+    {"file": "01_M1.png",   "at": 0.18, "why": "«Ма» begins — first М under the finger"},
+    {"file": "02_A1.png",   "at": 0.53, "why": "second half of «Ма» — the А"},
+    {"file": "03_M2.png",   "at": 1.52, "why": "«ма» begins — third tile"},
+    {"file": "04_A2.png",   "at": 1.82, "why": "second half of «ма» — the fourth"},
+    {"file": "05_ALL.png",  "at": 2.98, "why": "«Мама!» — the whole word lights at once"}
+  ]
+}
