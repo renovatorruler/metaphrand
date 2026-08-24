@@ -1,28 +1,46 @@
 # Вася-Мама block — shot list
 
-SP110–SP122 / SH120–SH136, done in ten. Nine generations and one still. **64 seconds, 160 credits ≈ $6.88.** Model is `seedance_2_0_mini` throughout (2.5 cr/s, takes start frame and references both). Every line below is already recorded except Фрося's laugh.
+SP110–SP122 / SH120–SH136, done in eleven. Ten generations and one still. **64 seconds, 160 credits ≈ $6.88.** Model is `seedance_2_0_mini` throughout (2.5 cr/s, takes start frame and references both). Every line below is already recorded except Фрося's laugh.
 
 Continuity note for the whole block: Фрося has the pencil behind her ear from SH119B onward, and the МАМА chips stay on the floor from V02 to the end of the block.
 
 ---
 
-## V01 · «Мне слово!» · 10s · 25 cr · SH120+121 · SP110–111
+## V01 · «А я, я тоже хочу!» · 6s · 15 cr · SH120 · SP110
 
-Overhead on the work area, the framing already proven in `2026-08-23_S8_RUSYA_wide_v1.mp4` — Фрося's back top-left, Вася seated right, the chip pile between them, and the salad bowl, the glass and the poppy still where the last beats left them.
+**Start plate: `2026-08-24_V01_vasya-asks_start.png` (author, 24 Aug).** High three-quarter over the work area. Фрося kneeling with her back to camera, bent over her paper. Вася kneeling opposite, hands on his knees, looking across at her. Between them the tile scatter, the pea bowl, the juice glass, his open pouch on the floor at his right.
 
-Вася sets the glass aside and digs both hands into the pouch, then looks up at her. She nods at the chips without touching them and goes back to her paper.
+**Nobody rummages.** The tiles have been on the floor since the top of the scene and the plate says so — that was the note, and a close-up of his face could not have said it. He simply asks, across the bowl, of a girl who has her back to him and does not look up.
+
+The plate carries three things beyond the framing. Its scatter contains **М, А, М, А** — two of each, thrown wide apart — so the word he needs is already on the floor and gathering it is a real action rather than a convenience. Its scatter contains **no Ш, no И and no Н**, so Фрося's later count in SP125 (*«Ш нет. И нет. Н нет.»*) still holds. And every letter in it is inside the eight the author has drawn (К А Т С О М Л Б), so any of them can be lit if a shot ever needs it.
 
 **ВАСЯ:** «А я, я тоже хочу. Мне слово лёгкое.» — `line60_VASYA.mp3` 5.28s
+
+Refs: `page-04` Вася, `page-05` Фрося, room master.
+Risk **low**. One caution: his head is about 230px at 720p, so the mouth is around 45px — measurable, but only with the magnified pass, never the wide survey.
+
+**One note on the expression.** The plate reads as *wanting* — brows up, eyes wide, mouth small and open — rather than bright excitement. For this line that is arguably better, because he is asking for something and the excitement can arrive on *«Лёгкое!»*. But the start frame's expression carries the whole shot, so if bright is wanted, it has to be bright in the plate.
+
+## V02 · «Ну собери сам» · 4s · 10 cr · SH121 · SP111
+
+**Start plate: `2026-08-24_V02_frosya-answers_start.png` (author, 24 Aug).** Close on Фрося, sitting, one hand flat on her paper, grinning with the gap in her teeth. Stone wall behind, tiles and the bowl in the near ground.
+
+She looks up at him, entirely unbothered, and hands the job back. The joke is that she does not offer to help and does not think it is a hard problem.
+
 **ФРОСЯ:** «Ну собери сам, ты же читать будешь.» — `line61_FROSYA.mp3` 2.48s
 
-Refs: `page-04` Вася, `page-05` Фрося, `D-FRO-PENCIL-01_approved`, room master. Start frame: last frame of RUSYA_wide, or a new one.
-Risk **low**. Two faces, both readable from above — measure both mouths before dubbing.
+Refs: `page-05`.
+Risk **low** — her face is large and the mouth is easy to measure. This is why her line is its own shot: in V01 her back is to camera and there is nothing to match.
 
-## V02 · МАМА read, and nothing happens · 11s · 28 cr · SH122+123 · SP112–113
+**Small thing, her call.** One tile in this plate reads `З` (or a numeral 3). It breaks nothing — it is not in МАШИНА and it is background at shallow focus — but it is outside the eight drawn letters, so it could never be lit, and in a literacy show a stray `3` next to an `А` is a shape a child might read as a number. Swapping it for a `Т` or `О` would cost nothing.
 
-Down onto the floor between him and camera, the four chips in the near ground and Вася beyond them.
+## V03 · МАМА read, and nothing happens · 11s · 28 cr · SH122+123 · SP112–113
 
-The last chip goes down. His finger moves along the four. He reads them. Then he looks up, and nothing in his face expects anything, and he tries it — *«Вжух?»* — small, half a question. **Nothing happens.** He blinks. And then the light takes him where he kneels, with no warning and no pose.
+Down onto the floor between him and camera, the four chips in a row in the near ground and Вася beyond them.
+
+**We cut in with the word already assembled and his hand still on the last tile.** He gathered М, А, М and А out of the scatter between shots; the audience does not need to watch it and an editor would not show it. If the choosing should be on screen after all, it is its own 4s shot (~10 cr) of his hand hunting over the floor and dragging the four in — the more literacy-forward version, and the author's call.
+
+His finger moves along the four. He reads them. Then he looks up, and nothing in his face expects anything, and he tries it — *«Вжух?»* — small, half a question. **Nothing happens.** He blinks. And then the light takes him where he kneels, with no warning and no pose.
 
 **ВАСЯ:** «Ма-ма. Мама! Вжух!» — `line62_VASYA.mp3` 4.96s — **listen first: the Вжух must be uncertain, and the recorded take may be too sure of itself.**
 
@@ -31,13 +49,13 @@ The wipe is **composited** onto the tail, after the Вжух and after a beat of
 Refs: `page-04`, chips artwork. Start frame: the four chips legible — **BLOCKED, see the asks.**
 Risk **high on legibility**. This is the beat where a five-year-old has to read МАМА, so the letters cannot be left to the model.
 
-## V03 · The reveal card · 1s · 0 cr · SP114
+## V04 · The reveal card · 1s · 0 cr · SP114
 
 Hard cut to `REVEAL-MAMA_author.png`, held one second, then out. A still, so it costs nothing.
 
 It also does the staging for free: he was kneeling over the chips when the light took him, and he is standing at Мама's height when it clears. The card is where that happens.
 
-## V04 · He looks at his hands · 5s · 13 cr · SH124 · SP114
+## V05 · He looks at his hands · 5s · 13 cr · SH124 · SP114
 
 The room, where Вася was — except the camera is now looking at a full-grown Мама standing where a small boy knelt.
 
@@ -46,7 +64,7 @@ He raises both hands and turns them over. He plucks at the apron, touches the ke
 Refs: `REVEAL-MAMA_author` for the design, `page-07` for the clothes, room master. Start frame: a room plate of Вася-Мама — **BLOCKED, see the asks.**
 Risk **medium**.
 
-## V05 · Мама checks her own eyebrows · 4s · 10 cr · SH126 · SP115
+## V06 · Мама checks her own eyebrows · 4s · 10 cr · SH126 · SP115
 
 Close on the real Мама at the table — reuse the poppy-shot framing, which is clean and proven.
 
@@ -55,7 +73,7 @@ She stares off at him. Her hand drifts up, touches her own eyebrows, confirms th
 Refs: `page-07`. Start frame: pull from `2026-08-23_S8_POPPY_offer_v1.mp4`.
 Risk **low**. This is the shot that tells the audience there are two of them, instead of a shot with two of them in it.
 
-## V06 · The babies notice · 4s · 10 cr · SH127 · SP116
+## V07 · The babies notice · 4s · 10 cr · SH127 · SP116
 
 Close on the two babies on the rug. **Start from the last frame of `2026-08-22_S8_SHOT1_table-to-babies_v3_dub.mp4`** — the framing is already in the cut and already works.
 
@@ -65,7 +83,7 @@ Sound: squeals and knee-thumps, foley — no recorded line.
 Refs: `C-RUS-01_solo_from_packet_page14`, `C-MUS-01_solo_from_packet_page14` — **kept separate, never one babies sheet.**
 Risk **low**.
 
-## V07 · Climbing and complaining · 13s · 33 cr · SH128+129+130+131 · SP116–118
+## V08 · Climbing and complaining · 13s · 33 cr · SH128+129+130+131 · SP116–118
 
 Low, in front of Вася-Мама, knees to head.
 
@@ -77,7 +95,7 @@ Low, in front of Вася-Мама, knees to head.
 Refs: `REVEAL-MAMA_author`, `page-07`, `C-RUS-01`, `C-MUS-01`.
 Risk **highest in the block** — two babies physically interacting with a character. Fallback if it fails: split into 7s + 7s, the second starting on the first's last frame. Do not split pre-emptively.
 
-## V08 · Мама takes them off · 7s · 18 cr · SH132+133 · SP119–120
+## V09 · Мама takes them off · 7s · 18 cr · SH132+133 · SP119–120
 
 Camera stays on Вася-Мама. **Only Мама's arms come into frame.**
 
@@ -88,18 +106,18 @@ Her arms reach in and lift Руся away, then come back for Мусю. He is lef
 Refs: `REVEAL-MAMA_author`, `page-07`, `C-RUS-01`, `C-MUS-01`.
 Risk **medium**. This is how the two Мамы interact without ever sharing a frame.
 
-## V09 · The angry ВЖУХ · 5s · 13 cr · SH134+135 · SP121–122
+## V10 · The angry ВЖУХ · 5s · 13 cr · SH134+135 · SP121–122
 
 Close on Вася-Мама, offended.
 
-He plants himself and shouts it. **This one he commands** — he knows it works now, so the light answers on the word, instantly, with none of V02's delay. When it clears the boy is back where he stood, the pouch is on his belt, and the МАМА chips are still on the floor.
+He plants himself and shouts it. **This one he commands** — he knows it works now, so the light answers on the word, instantly, with none of V03's delay. When it clears the boy is back where he stood, the pouch is on his belt, and the МАМА chips are still on the floor.
 
 **ВАСЯ-МАМА:** «Вжух!» — `line66_VASYA.mp3` 1.60s
 
-The wipe is composited again, landing **on** the word. V02 and V09 are built as a pair or the contrast is lost.
+The wipe is composited again, landing **on** the word. V03 and V10 are built as a pair or the contrast is lost.
 Risk **medium**.
 
-## V10 · Фрося on the floor · 4s · 10 cr · SH136 · SP122
+## V11 · Фрося on the floor · 4s · 10 cr · SH136 · SP122
 
 Close on Фрося. She folds up laughing and goes over sideways onto the floorboards, pencil still behind her ear.
 
@@ -111,13 +129,15 @@ Risk **low**.
 
 ## The two Вжухs
 
-V02 is a question he does not expect to be answered, and the light arrives late and unbidden. V09 is an order, and the light obeys on the word. Between them a boy finds out the thing works. They are one idea in two shots and they should be built together.
+V03 is a question he does not expect to be answered, and the light arrives late and unbidden. V10 is an order, and the light obeys on the word. Between them a boy finds out the thing works. They are one idea in two shots and they should be built together.
 
 ## Blocked on
 
-**Вася's chips.** Only Фрося's alphabet is on disk (`alphabet/frosya/assets/`, eight letters, six states). Either chip PNGs for `М` and `А` — regular and lit, per the composable-alphabet contract — which the existing voice-driven rig can then composite and light on his reading, and which serve every word he reads for the rest of the series; or one start frame with the four chips laid out legibly, which is faster and serves only this shot.
+**A start plate with МАМА assembled.** Downgraded from a blocker to an ask, because the two plates of 24 August prove the tiles render legibly and beautifully. One frame of the four in a row in front of him, his hand on the last one, and V03 can run.
 
-**A room plate of Вася-Мама.** The reveal card lives in the transformation space. V04, V07, V08 and V09 need him standing in the main room at Мама's height.
+Chip artwork (`М` and `А`, regular and lit) is now only the **fallback**: if the letters drift or morph across V03's eleven seconds, a static camera makes compositing the four tile faces over the plate trivial. Worth drawing eventually because it serves every word Вася ever reads, but it no longer blocks the shot.
+
+**A room plate of Вася-Мама.** The reveal card lives in the transformation space. V05, V08, V09 and V10 need him standing in the main room at Мама's height.
 
 **Фрося's laugh.** One take, same voice as the rest.
 
@@ -127,4 +147,6 @@ V02 is a question he does not expect to be answered, and the light arrives late 
 
 ## Still outstanding from before this block
 
-SH119 — Яга's approving hum, and Фрося tucking the pencil behind her ear. It belongs between the poppy and V01, and V01 onward assume the pencil is already there.
+SH119 — Яга's approving hum, and Фрося tucking the pencil behind her ear.
+
+**And it now needs a decision, because the plates contradict it.** In both plates of 24 August the pencil is lying on the floor beside her paper, not behind her ear. Either the tuck moves to the end of this block, where it plays better anyway as *work finished* and lands next to Фрося collapsing with laughter; or she simply takes it out again to keep checking her word, and the tuck at SP109 stands. The first is cleaner and costs nothing.
