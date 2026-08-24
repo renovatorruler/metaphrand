@@ -295,7 +295,7 @@ let all: array<jobSpec> = [
     "SH120",
     [Frosya, Vasya],
     [Salad, Juice, Pencil],
-    Some("2026-08-24_V01_vasya-asks_start.png"),
+    Some("2026-08-24_V01_vasya-asks_start_v2.png"),
     8,
     Mini,
   ),
