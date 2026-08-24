@@ -21,6 +21,7 @@ type promise<'a>
 @get external windowDpr: browserWindow => float = "devicePixelRatio"
 @send external addWindowListener: (browserWindow, string, domEvent => unit) => unit = "addEventListener"
 @send external addCanvasListener: (canvas, string, domEvent => unit) => unit = "addEventListener"
+@send external setCanvasAttribute: (canvas, string, string) => unit = "setAttribute"
 @send external preventDefault: domEvent => unit = "preventDefault"
 @get external eventCode: domEvent => string = "code"
 @get external eventRepeat: domEvent => bool = "repeat"
@@ -76,10 +77,13 @@ type promise<'a>
 
 @send external responseJson: response => promise<'a> = "json"
 @send external thenPromise: (promise<'a>, 'a => 'b) => promise<'b> = "then"
+@send external thenPromiseAsync: (promise<'a>, 'a => promise<'b>) => promise<'b> = "then"
 @send external catchPromise: (promise<'a>, domEvent => unit) => promise<unit> = "catch"
 @send external pushArray: (array<'a>, 'a) => int = "push"
 @send external shiftArray: array<'a> => 'a = "shift"
 @get external arrayLength: array<'a> => int = "length"
+@get_index external arrayGet: (array<'a>, int) => 'a = ""
+@set_index external arraySet: (array<'a>, int, 'a) => unit = ""
 @send external splitString: (string, string) => array<string> = "split"
 @val external numberString: float => string = "String"
 
@@ -469,7 +473,13 @@ let makeLayout = (width: float, height: float): layout => {
 let resize = () => {
   let width = intToFloat(windowWidth(browserWindow))
   let height = intToFloat(windowHeight(browserWindow))
-  let dpr = clamp(windowDpr(browserWindow), 1.0, 1.5)
+  let requestedDpr = queryInt("testDpr", 0)
+  let rawDpr = if queryHas("dev") && requestedDpr > 0 {
+    intToFloat(requestedDpr)
+  } else {
+    windowDpr(browserWindow)
+  }
+  let dpr = clamp(rawDpr, 1.0, 1.5)
   state.width = width
   state.height = height
   state.dpr = dpr
@@ -481,8 +491,8 @@ let resize = () => {
 let rec masteryCountAt = (id: string, index: int): int =>
   if index >= arrayLength(state.mastery) {
     0
-  } else if state.mastery[index].id == id {
-    state.mastery[index].count
+  } else if arrayGet(state.mastery, index).id == id {
+    arrayGet(state.mastery, index).count
   } else {
     masteryCountAt(id, index + 1)
   }
@@ -492,8 +502,9 @@ let masteryCount = (id: string): int => masteryCountAt(id, 0)
 let rec incrementMasteryAt = (question: question, index: int): unit =>
   if index >= arrayLength(state.mastery) {
     let _ = pushArray(state.mastery, {id: question.id, kind: question.kind, count: 1})
-  } else if state.mastery[index].id == question.id {
-    state.mastery[index].count = state.mastery[index].count + 1
+  } else if arrayGet(state.mastery, index).id == question.id {
+    let item = arrayGet(state.mastery, index)
+    item.count = item.count + 1
   } else {
     incrementMasteryAt(question, index + 1)
   }
@@ -503,7 +514,7 @@ let persist = () => storeSaved({sound: state.sound, mastery: state.mastery})
 let rec deckHas = (questionIndex: int, at: int): bool =>
   if at >= arrayLength(state.deck) {
     false
-  } else if state.deck[at] == questionIndex {
+  } else if arrayGet(state.deck, at) == questionIndex {
     true
   } else {
     deckHas(questionIndex, at + 1)
@@ -515,7 +526,7 @@ let chooseQuestionForKind = (kind: string): int => {
   let bestMastery = {contents: 1000000}
   let bestTie = {contents: 2.0}
   for index in 0 to arrayLength(questions) - 1 {
-    let question = questions[index]
+    let question = arrayGet(questions, index)
     if question.kind == kind && !deckHas(index, 0) {
       let learned = masteryCount(question.id)
       let tie = nextRandom()
@@ -534,9 +545,9 @@ let chooseQuestionForKind = (kind: string): int => {
 }
 
 let swapInts = (items: array<int>, left: int, right: int) => {
-  let held = items[left]
-  items[left] = items[right]
-  items[right] = held
+  let held = arrayGet(items, left)
+  arraySet(items, left, arrayGet(items, right))
+  arraySet(items, right, held)
 }
 
 let shuffleInts = (items: array<int>) => {
@@ -563,7 +574,7 @@ let buildDeck = () => {
     "picture",
   ]
   for index in 0 to arrayLength(kinds) - 1 {
-    let _ = pushArray(state.deck, chooseQuestionForKind(kinds[index]))
+    let _ = pushArray(state.deck, chooseQuestionForKind(arrayGet(kinds, index)))
   }
   shuffleInts(state.deck)
   state.deckCursor = 0
@@ -577,7 +588,7 @@ let shuffleChoices = () => {
 let speakQuestion = () => {
   if state.phase == 2 && state.loaded {
     let enabled = state.sound && state.speechOverride != 0
-    let available = speakNative(state.content.questions[state.currentIndex].speak, enabled)
+    let available = speakNative(arrayGet(state.content.questions, state.currentIndex).speak, enabled)
     state.speechAvailable = if state.speechOverride == 1 {true} else {available}
   }
 }
@@ -599,11 +610,11 @@ let nextQuestion = () => {
     state.phase = 4
     cancelSpeech()
   } else {
-    let useRetry = arrayLength(state.retryQueue) > 0 && state.retryQueue[0].due <= state.score
+    let useRetry = arrayLength(state.retryQueue) > 0 && arrayGet(state.retryQueue, 0).due <= state.score
     let questionIndex = if useRetry {
       shiftArray(state.retryQueue).questionIndex
     } else if state.deckCursor < arrayLength(state.deck) {
-      let next = state.deck[state.deckCursor]
+      let next = arrayGet(state.deck, state.deckCursor)
       state.deckCursor = state.deckCursor + 1
       next
     } else {
@@ -630,7 +641,7 @@ let scheduleRetry = () => {
   let current = state.currentIndex
   let alreadyQueued = {contents: false}
   for index in 0 to arrayLength(state.retryQueue) - 1 {
-    if state.retryQueue[index].questionIndex == current {
+    if arrayGet(state.retryQueue, index).questionIndex == current {
       alreadyQueued.contents = true
     }
   }
@@ -641,8 +652,8 @@ let scheduleRetry = () => {
 
 let answerChoice = (position: int) => {
   if state.phase == 2 && state.simTime >= state.inputUnlockAt && position >= 0 && position < 3 {
-    let question = state.content.questions[state.currentIndex]
-    let sourceChoice = state.choiceOrder[position]
+    let question = arrayGet(state.content.questions, state.currentIndex)
+    let sourceChoice = arrayGet(state.choiceOrder, position)
     state.focusedChoice = position
     state.selectedChoice = position
     if sourceChoice == question.answer {
@@ -808,7 +819,8 @@ let drawWrappedCentered = (
   let lineIndex = {contents: 0}
   let cursor = {contents: 0}
   while cursor.contents < arrayLength(words) && lineIndex.contents < maxLines {
-    let candidate = if line.contents == "" {words[cursor.contents]} else {line.contents ++ " " ++ words[cursor.contents]}
+    let word = arrayGet(words, cursor.contents)
+    let candidate = if line.contents == "" {word} else {line.contents ++ " " ++ word}
     let fits = textWidth(measureText(ctx, candidate)) <= maxWidth
     if fits || line.contents == "" {
       line.contents = candidate
@@ -1055,7 +1067,7 @@ let drawRepeatButton = () => {
 let answerPosition = (question: question): int => {
   let found = {contents: 0}
   for position in 0 to 2 {
-    if state.choiceOrder[position] == question.answer {
+    if arrayGet(state.choiceOrder, position) == question.answer {
       found.contents = position
     }
   }
@@ -1122,7 +1134,7 @@ let drawPrompt = (question: question) => {
 }
 
 let drawChoice = (question: question, position: int) => {
-  let base = state.layout.choices[position]
+  let base = arrayGet(state.layout.choices, position)
   let wrong = state.wrongChoice == position && state.simTime < state.wrongUntil
   let correctFeedback = state.phase == 3 && state.selectedChoice == position
   let correctPosition = answerPosition(question)
@@ -1157,10 +1169,10 @@ let drawChoice = (question: question, position: int) => {
   setTextAlign(ctx, "center")
   setTextBaseline(ctx, "middle")
   setFont(ctx, font(800, 15.0))
-  fillText(ctx, state.content.choiceKeys[position], box.x +. 26.0, box.y +. 27.0)
+  fillText(ctx, arrayGet(state.content.choiceKeys, position), box.x +. 26.0, box.y +. 27.0)
 
-  let sourceIndex = state.choiceOrder[position]
-  let choiceText = question.choices[sourceIndex]
+  let sourceIndex = arrayGet(state.choiceOrder, position)
+  let choiceText = arrayGet(question.choices, sourceIndex)
   let fontSize = if question.kind == "word" {
     clamp(box.h *. 0.40, 38.0, 58.0)
   } else {
@@ -1217,7 +1229,7 @@ let drawCorrectBreath = (question: question) => {
 }
 
 let drawPlay = () => {
-  let question = state.content.questions[state.currentIndex]
+  let question = arrayGet(state.content.questions, state.currentIndex)
   drawHeader()
   if !state.layout.portrait {
     drawDragon(state.layout.dragonX, state.layout.dragonY, state.layout.dragonScale, state.wrongChoice < 0)
@@ -1287,7 +1299,20 @@ let devMode = queryHas("dev")
 
 let drawDevOverlay = () => {
   if devMode {
-    let questionId = if state.loaded {state.content.questions[state.currentIndex].id} else {"-"}
+    let currentQuestion = if state.loaded {arrayGet(state.content.questions, state.currentIndex)} else {blankQuestion}
+    let questionId = currentQuestion.id
+    setCanvasAttribute(gameCanvas, "data-phase", numberString(intToFloat(state.phase)))
+    setCanvasAttribute(gameCanvas, "data-score", numberString(intToFloat(state.score)))
+    setCanvasAttribute(gameCanvas, "data-question", questionId)
+    setCanvasAttribute(gameCanvas, "data-answer", numberString(intToFloat(answerPosition(currentQuestion))))
+    setCanvasAttribute(gameCanvas, "data-misses", numberString(intToFloat(state.misses)))
+    setCanvasAttribute(gameCanvas, "data-retries", numberString(intToFloat(arrayLength(state.retryQueue))))
+    setCanvasAttribute(gameCanvas, "data-masteries", numberString(intToFloat(arrayLength(state.mastery))))
+    setCanvasAttribute(gameCanvas, "data-dpr", numberString(state.dpr))
+    setCanvasAttribute(gameCanvas, "data-portrait", if state.layout.portrait {"true"} else {"false"})
+    setCanvasAttribute(gameCanvas, "data-sound", if state.sound {"true"} else {"false"})
+    setCanvasAttribute(gameCanvas, "data-speech", if state.speechAvailable {"hi"} else {"visual"})
+    setCanvasAttribute(gameCanvas, "data-input", state.lastInput)
     let box = {x: 8.0, y: state.height -. 105.0, w: 260.0, h: 96.0}
     fillRounded(box, 10.0, "rgba(18,28,27,0.82)")
     setFillStyle(ctx, "#dff7df")
@@ -1340,3 +1365,299 @@ let draw = () => {
   drawPaused()
   drawDevOverlay()
 }
+
+let moveFocus = (direction: int) => {
+  if state.phase == 2 {
+    state.focusedChoice = mod(state.focusedChoice + direction + 3, 3)
+    state.lastInput = "move"
+    playCue("tap", state.sound)
+  }
+}
+
+let confirmAction = () => {
+  if state.paused || !state.loaded {
+    ()
+  } else if state.phase == 1 {
+    state.lastInput = "start"
+    startSession(state.seed)
+  } else if state.phase == 2 {
+    state.lastInput = "confirm"
+    answerChoice(state.focusedChoice)
+  } else if state.phase == 4 {
+    state.lastInput = "restart"
+    startSession(rngStep(state.seed))
+  }
+}
+
+let pointerPosition = (event: domEvent): (float, float) => {
+  let bounds = canvasRect(gameCanvas)
+  let scaleX = state.width /. rectWidth(bounds)
+  let scaleY = state.height /. rectHeight(bounds)
+  (
+    (eventClientX(event) -. rectLeft(bounds)) *. scaleX,
+    (eventClientY(event) -. rectTop(bounds)) *. scaleY,
+  )
+}
+
+let handlePointer = (event: domEvent) => {
+  preventDefault(event)
+  if !state.paused && state.loaded {
+    let (x, y) = pointerPosition(event)
+    state.lastInput = "pointer"
+    if rectContains(state.layout.sound, x, y) {
+      toggleSound()
+    } else if state.phase == 1 && rectContains(state.layout.start, x, y) {
+      startSession(state.seed)
+    } else if state.phase == 2 {
+      if rectContains(state.layout.repeat, x, y) {
+        repeatPrompt()
+      } else {
+        let hit = {contents: -1}
+        for position in 0 to 2 {
+          if rectContains(arrayGet(state.layout.choices, position), x, y) {
+            hit.contents = position
+          }
+        }
+        if hit.contents >= 0 {
+          state.focusedChoice = hit.contents
+          answerChoice(hit.contents)
+        }
+      }
+    } else if state.phase == 4 && rectContains(state.layout.restart, x, y) {
+      startSession(rngStep(state.seed))
+    }
+  }
+}
+
+let handleKey = (event: domEvent) => {
+  if !eventRepeat(event) {
+    let code = eventCode(event)
+    let handled = {contents: true}
+    state.lastInput = code
+    if code == "Enter" || code == "Space" {
+      confirmAction()
+    } else if code == "ArrowLeft" || code == "ArrowUp" {
+      moveFocus(-1)
+    } else if code == "ArrowRight" || code == "ArrowDown" {
+      moveFocus(1)
+    } else if code == "Digit1" || code == "Numpad1" {
+      answerChoice(0)
+    } else if code == "Digit2" || code == "Numpad2" {
+      answerChoice(1)
+    } else if code == "Digit3" || code == "Numpad3" {
+      answerChoice(2)
+    } else if code == "KeyR" {
+      repeatPrompt()
+    } else if code == "KeyM" {
+      toggleSound()
+    } else {
+      handled.contents = false
+    }
+    if handled.contents {
+      preventDefault(event)
+    }
+  }
+}
+
+let updateGamepad = () => {
+  let pad = pollGamepad()
+  if pad.left && !state.padLeft {
+    state.lastInput = "pad-left"
+    moveFocus(-1)
+  }
+  if pad.right && !state.padRight {
+    state.lastInput = "pad-right"
+    moveFocus(1)
+  }
+  if pad.confirm && !state.padConfirm {
+    state.lastInput = "pad-confirm"
+    confirmAction()
+  }
+  if pad.repeatPrompt && !state.padRepeat {
+    state.lastInput = "pad-repeat"
+    repeatPrompt()
+  }
+  state.padLeft = pad.left
+  state.padRight = pad.right
+  state.padConfirm = pad.confirm
+  state.padRepeat = pad.repeatPrompt
+}
+
+let updateStep = (step: float) => {
+  state.simTime = state.simTime +. step
+  updateGamepad()
+  if state.wrongChoice >= 0 && state.simTime >= state.wrongUntil {
+    state.wrongChoice = -1
+  }
+  if state.phase == 3 && state.simTime -. state.feedbackStart >= 1050.0 {
+    nextQuestion()
+  }
+}
+
+let rec frame = (now: float) => {
+  let rawFrame = if state.lastFrame <= 0.0 {16.67} else {now -. state.lastFrame}
+  state.lastFrame = now
+  let bounded = clamp(rawFrame, 0.0, 100.0)
+  state.frameMs = bounded
+  let instantFps = if bounded > 0.0 {1000.0 /. bounded} else {60.0}
+  state.fps = if state.fps <= 0.0 {instantFps} else {state.fps *. 0.92 +. instantFps *. 0.08}
+  if !state.paused {
+    state.accumulator = state.accumulator +. bounded
+    while state.accumulator >= 16.67 {
+      updateStep(16.67)
+      state.accumulator = state.accumulator -. 16.67
+    }
+  }
+  draw()
+  let _ = requestAnimationFrame(frame)
+}
+
+let onBlur = (_event: domEvent) => {
+  state.paused = true
+  cancelSpeech()
+}
+
+let onFocus = (_event: domEvent) => {
+  state.paused = false
+  state.lastFrame = 0.0
+}
+
+type testCommand = {kind: string, index: int, ms: float}
+type snapshot = {
+  phase: int,
+  score: int,
+  questionId: string,
+  choices: array<string>,
+  answerPosition: int,
+  misses: int,
+  seed: int,
+  sound: bool,
+  speechAvailable: bool,
+  width: float,
+  height: float,
+  dpr: float,
+  portrait: bool,
+  lastInput: string,
+  masteryItems: int,
+  retryItems: int,
+}
+
+type testHook = {
+  snapshot: unit => snapshot,
+  dispatch: testCommand => unit,
+  reset: int => unit,
+  forceQuestion: string => bool,
+  setSpeechAvailable: bool => unit,
+}
+
+@set external setTestHook: (browserWindow, testHook) => unit = "__KUKU_TEST__"
+
+let snapshotState = (): snapshot => {
+  let question = if state.loaded {arrayGet(state.content.questions, state.currentIndex)} else {blankQuestion}
+  let visibleChoices = [
+    arrayGet(question.choices, arrayGet(state.choiceOrder, 0)),
+    arrayGet(question.choices, arrayGet(state.choiceOrder, 1)),
+    arrayGet(question.choices, arrayGet(state.choiceOrder, 2)),
+  ]
+  {
+    phase: state.phase,
+    score: state.score,
+    questionId: question.id,
+    choices: visibleChoices,
+    answerPosition: answerPosition(question),
+    misses: state.misses,
+    seed: state.seed,
+    sound: state.sound,
+    speechAvailable: state.speechAvailable,
+    width: state.width,
+    height: state.height,
+    dpr: state.dpr,
+    portrait: state.layout.portrait,
+    lastInput: state.lastInput,
+    masteryItems: arrayLength(state.mastery),
+    retryItems: arrayLength(state.retryQueue),
+  }
+}
+
+let dispatchTest = (command: testCommand) => {
+  if command.kind == "start" {
+    startSession(state.seed)
+  } else if command.kind == "answer" {
+    state.inputUnlockAt = state.simTime
+    answerChoice(command.index)
+  } else if command.kind == "repeat" {
+    repeatPrompt()
+  } else if command.kind == "sound" {
+    toggleSound()
+  } else if command.kind == "tick" {
+    let remaining = {contents: maxFloat(0.0, command.ms)}
+    while remaining.contents > 0.0 {
+      let step = minFloat(16.67, remaining.contents)
+      updateStep(step)
+      remaining.contents = remaining.contents -. step
+    }
+  }
+  draw()
+}
+
+let forceQuestion = (id: string): bool => {
+  let found = {contents: -1}
+  for index in 0 to arrayLength(state.content.questions) - 1 {
+    if arrayGet(state.content.questions, index).id == id {
+      found.contents = index
+    }
+  }
+  if found.contents >= 0 {
+    state.phase = 2
+    startQuestion(found.contents)
+    true
+  } else {
+    false
+  }
+}
+
+let setSpeechAvailableForTest = (available: bool) => {
+  state.speechOverride = if available {1} else {0}
+  state.speechAvailable = available
+  if !available {
+    cancelSpeech()
+  }
+}
+
+let installTestHook = () => {
+  if devMode {
+    setTestHook(browserWindow, {
+      snapshot: snapshotState,
+      dispatch: dispatchTest,
+      reset: seed => startSession(seed),
+      forceQuestion,
+      setSpeechAvailable: setSpeechAvailableForTest,
+    })
+  }
+}
+
+resize()
+addWindowListener(browserWindow, "resize", _ => resize())
+addWindowListener(browserWindow, "keydown", handleKey)
+addWindowListener(browserWindow, "blur", onBlur)
+addWindowListener(browserWindow, "focus", onFocus)
+addCanvasListener(gameCanvas, "pointerdown", handlePointer)
+
+let contentRequest: promise<content> = thenPromiseAsync(
+  fetchResource("./assets/strings.json"),
+  response => responseJson(response),
+)
+let contentLoaded = thenPromise(contentRequest, (loaded: content) => {
+  state.content = loaded
+  state.loaded = true
+  state.phase = 1
+  state.speechAvailable = speakNative("", false)
+  setDocumentTitle(browserDocument, loaded.title)
+  setCanvasAttribute(gameCanvas, "aria-label", loaded.title ++ ". " ++ loaded.subtitle)
+  installTestHook()
+})
+let _ = catchPromise(contentLoaded, _error => {
+  state.loadFailed = true
+})
+
+let _ = requestAnimationFrame(frame)

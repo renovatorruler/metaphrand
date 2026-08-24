@@ -1,9 +1,9 @@
 {
   "model": "seedance_2_0_mini",
-  "duration": 8,
-  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-24_V03_gather_start.png",
+  "duration": 10,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-24_V03_gather_start_v2.png",
   "imageReferences": [
     "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-04.png"
   ],
-  "promptSha256": "5aa70a64e397fec24f3947983d98b7359deac1f291add4e6c94c0e54b41e27f3"
+  "promptSha256": "4f66bba1fc6120186a0321f102a36b5ac9506bf0ea03a467b70074fd23d8eb8e"
 }

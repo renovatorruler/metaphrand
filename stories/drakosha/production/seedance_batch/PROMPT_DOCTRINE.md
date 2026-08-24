@@ -16,3 +16,11 @@
    line in папа's voice, batch 2.)
 5. CAST/REFS ARE EMITTED, never hand-written — enforced by the emitter/gate.
    (Cost: the wrong мама, 52cr probe.)
+6. DO NOT NAME WHAT YOU ARE HIDING. If a shot's whole plan is that no glyph is
+   visible, the prompt must not call the objects letter tiles — naming them
+   letters is an instruction to draw letters, in the one shot designed so that
+   none exists. Call them wooden blocks. The same goes for binding @TILES, whose
+   tagline says "each carved with one Cyrillic letter". (Author, 2026-08-24: "make
+   sure you're not doing something stupid like telling the model that these are
+   letter tiles.") This applies only where the faces are turned away; where the
+   glyphs ARE in frame and in the plate, describing them is just concordance.

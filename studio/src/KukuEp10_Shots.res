@@ -131,6 +131,14 @@ let mk = (
   let extraRules = switch at {
   | Some(a) => {
       let _ = Js.Array2.push(derived, "lane position " ++ Belt.Float.toString(a) ++ " m — plate and progression derived")
+      let _ = Js.Array2.push(
+        derived,
+        "cart clock " ++
+        Belt.Float.toString(switch cartAt {
+        | Some(c) => c
+        | None => a
+        }) ++ " m",
+      )
       Js.Array2.concat([Sets.lanePosition(a, cartAt)], extraRules)
     }
   | None => extraRules
@@ -922,6 +930,31 @@ if Js.Array2.length(args) > 0 && args[0] == "go" {
     }
   )
 } else {
+  /* positions are exported so the assembler can enforce a monotonic run: a chase
+     is only a chase if the ground under it moves one way */
+  let posPairs = Js.Array2.map(
+    Js.Array2.filter(shots, e => Js.Array2.length(e.derived) > 0),
+    e => {
+      let at = Js.Array2.find(e.derived, d => Js.String2.startsWith(d, "cart clock "))
+      switch at {
+      | Some(d) => (e.id, Js.String2.split(d, " ")[2])
+      | None => (e.id, "")
+      }
+    },
+  )
+  writeFileSync(
+    "../stories/kuku/ep10prod/shot_positions.json",
+    Js.Json.stringify(
+      Js.Json.object_(
+        Js.Dict.fromArray(
+          Js.Array2.map(
+            Js.Array2.filter(posPairs, ((_, v)) => v != ""),
+            ((k, v)) => (k, Js.Json.string(v)),
+          ),
+        ),
+      ),
+    ),
+  )
   writeFileSync(
     "../stories/kuku/ep10prod/EP10_SHOT_PROMPTS_SPEC.md",
     header ++ Js.Array2.joinWith(Js.Array2.map(shots, entryMd), "\n"),

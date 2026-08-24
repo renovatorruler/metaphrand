@@ -357,11 +357,30 @@ let all: array<jobSpec> = [
      break, per tile, four times over. This single choice is the largest thing
      standing between the shot and a mess.
 
-     NEAR TO FAR, so a failure comes late. The first gather is the tile already
-     under his hand and is nearly free; the longest reach is last. If the model
-     breaks on the third or fourth, the take is trimmed at the break and what
-     survives is two clean gathers — which says everything the shot has to say.
-     Eight seconds: four gathers at about a second and a half, plus a beat.
+     THE PROMPT NEVER SAYS THE WORD "LETTER". Naming them letter tiles is an
+     instruction to draw letters, in the one shot built so that none exists —
+     and it is why @TILES stays unbound here too, since its tagline reads "each
+     carved with one Cyrillic letter". They are wooden blocks. Verified on the
+     emitted prompt, not just the creative: zero occurrences.
+
+     THE SHOT NOW HAS A THOUGHT IN IT (author, 2026-08-24): he looks the scatter
+     over and scratches his head with no idea; he pushes a couple of tiles about,
+     turning it over; the idea lands and he grins a crooked, up-to-something
+     grin — he has decided to spell his own mother — and only then does he
+     gather. Without that middle beat he is a boy sorting tiles; with it he is a
+     boy who has just thought of something he should probably not do.
+
+     EASY BEATS FIRST, HARD BEATS LAST, so a failure comes late. The head
+     scratch and the single fingertip touch are large, cheap gestures the model
+     does well; the
+     four slides are the fragile part and they run last. The first gather is the
+     tile already under his hand and is nearly free; the longest reach is last of
+     all. If it breaks on the third or fourth we trim at the break, and what
+     survives is the thinking, the idea and two clean gathers — which is the shot.
+
+     TEN SECONDS, NOT EIGHT. The added beats need the room, and since a failure
+     is trimmed from the end anyway, the extra two seconds buy more usable take
+     for five credits rather than more risk.
 
      No @TILES: the chest sheet is a whole chest, and this plate carries the
      tiles perfectly already. No @POUCH: it is backed by page-04, which @VASYA
@@ -371,8 +390,8 @@ let all: array<jobSpec> = [
     "SH122",
     [Vasya],
     [],
-    Some("2026-08-24_V03_gather_start.png"),
-    8,
+    Some("2026-08-24_V03_gather_start_v2.png"),
+    10,
     Mini,
   ),
   /* SCENE 7 — the niche, the chest, the letters. All on mini.
