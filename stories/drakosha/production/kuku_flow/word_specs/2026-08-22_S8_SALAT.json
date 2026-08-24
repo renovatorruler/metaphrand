@@ -1,0 +1,14 @@
+{
+  "word": "САЛАТ",
+  "clip": "2026-08-23_S8_SHOT2-3_tiles-to-pov (as rendered by the retired vfx_ignite_word.py)",
+  "height": 120,
+  "letters": [
+    {"ch": "С", "t": 0.55, "x": 60,  "y": 100},
+    {"ch": "А", "t": 1.15, "x": 196, "y": 100},
+    {"ch": "Л", "t": 2.05, "x": 332, "y": 100},
+    {"ch": "А", "t": 3.05, "x": 468, "y": 100},
+    {"ch": "Т", "t": 3.95, "x": 604, "y": 100}
+  ],
+  "pulse": [5.35, 6.20],
+  "voice": "recovered from vfx_ignite_word.py before it was parameterized; kept so the САЛАТ render is reproducible."
+}

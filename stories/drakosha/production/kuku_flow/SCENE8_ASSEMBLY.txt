@@ -1,0 +1,22 @@
+# Scene 8 assembly order — the record of what the scene IS.
+#
+# Every rebuild reads this file. It exists because on 2026-08-23 the list was
+# retyped by hand into a printf and BOWL_v1 — the salad landing — was silently
+# dropped; the cut came back 5 seconds shorter and nothing complained.
+# Shots are named here once. Version bumps are edits to this file, not to a
+# command line.
+#
+# <clip>  # <what it is>
+2026-08-22_S8_SHOT1_table-to-babies_v3_dub.mp4     # SH101-102 family wide, push to the babies
+2026-08-23_S8_SHOT2-3_tiles-to-pov_v5_letters.mp4  # SH103-107 tiles, СОК written letter by letter
+2026-08-23_S8_TOCHKA_seal_v3_dub.mp4               # SH108 «И точка» — the seal
+2026-08-23_S8_VASYA_light_v1.mp4                   # SH109 the light crosses Вася's face
+2026-08-23_S8_OFFER_v2_dub.mp4                     # SH110 «Сока, хочешь?»
+2026-08-23_S8_GLASS_v2_dub.mp4                     # SH111 his eye through the glass
+2026-08-23_S8_SALAT_write_v2_trim.mp4               # SH112-114 САЛАТ written
+2026-08-23_S8_BOWL_v1.mp4                          # SH115 the bowl lands, shakes
+2026-08-23_S8_FU_v2_dub.mp4                        # SH116 «Фу-у-у! Овощи!»
+2026-08-23_S8_RUSYA_wide_v1.mp4                    # SH116B Руся arrives, the kids turn
+2026-08-23_S8_MAK_v7_letters.mp4                   # SH117 МАК written, the poppy materialises
+2026-08-23_S8_POPPY_offer_v3_dub.mp4               # SH118 the poppy given to Мама
+#

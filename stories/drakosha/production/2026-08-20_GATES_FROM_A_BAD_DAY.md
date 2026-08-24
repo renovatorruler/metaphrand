@@ -59,3 +59,37 @@ Verified: with no approval the job is refused; with an approval it passes; after
 ## What still is not gated
 
 Assertions I make in conversation — calling a face "concentrating" when it is neutral, or a change "an improvement" when it is three points out of 255. Those cost the author review cycles rather than credits. The partial defence is GATE 5, which forces a dense contact strip into my hands before anything is sent, so a claim about motion has to survive contact with the motion.
+
+## 2026-08-23 — three failures in the dub, and what now prevents them
+
+**The measure was taken on the wrong face.** The poppy-gift shot was dubbed by
+sampling a crop every half-second and calling the result a mouth. Мама is
+back-to-camera in that shot — her face never appears — so the "mouth" being
+measured was Фрося's, and both lines were placed against it: hers 2.2 seconds
+before her lips parted, Мама's on top of Фрося's own articulation. The fix is
+procedural and comes before any placement: **extract a full-frame contact sheet
+first and find out who is actually facing the camera.** A crop cannot tell you
+whose face it holds. Sampling density matters too — half-second steps missed two
+of МАК's three mouth windows entirely; 0.1–0.2s is the floor.
+
+**The letters ran ahead of the voice.** In МАК the composited letters ignited at
+3.15 / 3.65 / 4.35 while she said them at 3.50 / 4.08 / 4.70 — a third of a
+second early, every time, which reads as the word writing itself before she
+speaks. Letter times are voice times: each `t` is the voiced onset measured from
+the recording's envelope, never the frame the pencil moves.
+
+**A word's timings existed in exactly one place: a rendered mp4.**
+`vfx_ignite_word.py` hardcoded САЛАТ in its own source. Rendering МАК meant
+editing that file in place, so САЛАТ's numbers were the only ones left on disk
+and МАК's had to be recovered by diffing frames against the undubbed plate.
+Replaced by `tools/ignite_word.py <src> <out> <spec.json>`, with the spec stored
+in `kuku_flow/word_specs/`. A word's letter times are production data and live in
+a file next to the clip.
+
+**A shot fell out of the cut in silence.** Rebuilding the assembly meant retyping
+eleven paths into a `printf`; BOWL_v1 — the salad landing — was left out, and the
+cut came back five seconds shorter with nothing to say about it. The shot list is
+now `kuku_flow/SCENE8_ASSEMBLY.txt` and builds run through
+`kuku_flow/build_assembly.sh`, which refuses a missing file, prints every shot
+with its duration and a count, and fails if the finished length disagrees with
+the sum of its parts.
