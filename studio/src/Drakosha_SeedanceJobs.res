@@ -315,6 +315,18 @@ let all: array<jobSpec> = [
      CAMERA stands, not about the character, so it is answered per shot and
      never carried over from the last one.
 
+     ФРОСЯ IS page-05, «ДО карандаша», AND THAT IS CORRECT HERE. The two Фрося
+     sheets differ in exactly one thing: page-06 «ПОСЛЕ карандаша» has the pencil
+     stub tucked in her hair. Which sheet a shot wants is decided by whether the
+     pencil is ON HER in that frame, not by where we are in the story — and in
+     this plate it lies on the floorboards. Binding page-06 would put a pencil in
+     her hair that the frame does not have. (The flower sits on her screen-right;
+     the pencil goes on her screen-left. Opposite sides.)
+
+     page-06 becomes the right sheet the moment she tucks it behind her ear —
+     SH119B, and everything after it if the author moves that tuck to the end of
+     this block.
+
      THAT FACT LIVES HERE AND NOT IN THE PROMPT. The plate shows a bare run of
      stone with no hatch in it and no hatch reference is bound, so writing
      "hatch wall" into the choreography would be an instruction to draw one —
