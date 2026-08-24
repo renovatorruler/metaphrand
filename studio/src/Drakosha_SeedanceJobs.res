@@ -310,6 +310,11 @@ let all: array<jobSpec> = [
      V01 and could not see a way in; here she nods at them — once, with the head
      alone, never touching one — and that nod is the whole performance.
 
+     THE WALL BEHIND HER IS THE HATCH WALL (author, 2026-08-24), not the kitchen
+     end. Which wall a character has behind them is a fact about where the
+     CAMERA stands, not about the character, so it is answered per shot and
+     never carried over from the last one.
+
      FIVE SECONDS, NOT FOUR. line61 is 2.48s and the gate reserves a two-second
      head, so four would be refused. */
   job(
