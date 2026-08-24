@@ -1,12 +1,13 @@
 {
   "word": "МАК",
-  "clip": "2026-08-23_S8_MAK_v6_dub.mp4",
+  "clip": "2026-08-23_S8_MAK_v8_dub.mp4",
   "height": 120,
   "letters": [
-    {"ch": "М", "t": 3.58, "x": 100, "y": 100},
-    {"ch": "А", "t": 4.18, "x": 236, "y": 100},
-    {"ch": "К", "t": 4.78, "x": 372, "y": 100}
+    {"ch": "М", "t": 1.18, "x": 100, "y": 100},
+    {"ch": "А", "t": 1.78, "x": 236, "y": 100},
+    {"ch": "К", "t": 2.38, "x": 372, "y": 100}
   ],
-  "pulse": [5.85, 6.35],
-  "voice": "line57a_FROSYA_spell_cut.mp3 @2.70 (Хе 2.90, хе 3.30, М 3.58, А 4.18, К 4.78); line57b_FROSYA_mak_cut.mp3 @5.61 (Мак! 5.85); tochka_FROSYA_APPROVED_tight_cut.mp3 @6.42 (И точ 6.54, ка 7.14). Mouth windows measured on v1: 3.30-4.85, 5.80-6.35, 6.50-7.25."
+  "pulse": [3.45, 3.95],
+  "voice": "line57a_FROSYA_spell_cut.mp3 @0.30 (Хе 0.50, хе 0.90, М 1.18, А 1.78, К 2.38); line57b_FROSYA_mak_cut.mp3 @3.21 (Мак! 3.45); tochka_FROSYA_APPROVED_tight_cut.mp3 @5.75 (И точ 5.87, ка 6.47).",
+  "mouth": "Measured on v1 at 0.1s steps with the crop magnified 2.5x — a wide crop shrinks the mouth to a few pixels and reads every open mouth as a closed smile, which is how the first pass put the spelling three seconds late. Open: 0.10-1.40, 1.80-3.00, 3.30-4.70, 5.85-6.30, 6.60-7.20. Closed: 1.50-1.70, 4.80-5.70, 6.45, 7.35-end."
 }

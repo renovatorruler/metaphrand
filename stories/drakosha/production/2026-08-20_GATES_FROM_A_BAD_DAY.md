@@ -93,3 +93,27 @@ now `kuku_flow/SCENE8_ASSEMBLY.txt` and builds run through
 `kuku_flow/build_assembly.sh`, which refuses a missing file, prints every shot
 with its duration and a count, and fails if the finished length disagrees with
 the sum of its parts.
+
+### The same day, again: magnification is part of the measurement
+
+The re-dub above was still late — badly, in МАК. The mouth map said her first
+window opened at 3.30. It opens at 0.10. She is articulating in the very first
+frame of the shot.
+
+The error was not the crop's position but its SCALE. The box used to survey the
+clip was 300x250 shown at 210x169, so the mouth occupied maybe fifteen pixels of
+the panel. At that size an open mouth with teeth and an unbroken smile line are
+the same smear, and three of МАК's five speech windows read as "closed smile."
+The spelling went in three seconds after she started spelling.
+
+**Survey wide to find the face; measure at magnification to find the mouth.** The
+mouth crop must be shown at 2x or larger — roughly 100-150 source pixels of mouth
+filling a 300px panel — at 0.1s steps. If the mouth is small enough in the panel
+that a closed smile and an open mouth could be confused, the panel is too small
+and the reading is worthless. Both passes are needed and neither substitutes for
+the other: the wide pass told me Мама was back-to-camera, the magnified pass told
+me when Фрося actually spoke.
+
+Every mouth map now goes in the clip's spec file under `mouth`, with the windows
+and the step size, so the next placement argues with a written measurement
+instead of re-deriving one.
