@@ -1,14 +1,45 @@
 {
   "fps": 24,
-  "dissolve": 0.08,
+  "dissolve": 0.1,
   "duration": 4.15,
   "voice": "line62a_VASYA_read_cut.mp3 — «Ма-ма. Мама!» cut from line62 at 0.00-4.05. Voiced: «Ма» 0.18-0.88, «ма» 1.52-2.08, «Мама!» 2.98-3.84. «Вжух!» is line62b and belongs to the NEXT shot, on his face.",
   "states": [
-    {"file": "00_rest.png", "at": 0.00, "why": "finger approaching, nothing lit"},
-    {"file": "01_M1.png",   "at": 0.18, "why": "«Ма» begins — first М under the finger"},
-    {"file": "02_A1.png",   "at": 0.53, "why": "second half of «Ма» — the А"},
-    {"file": "03_M2.png",   "at": 1.52, "why": "«ма» begins — third tile"},
-    {"file": "04_A2.png",   "at": 1.82, "why": "second half of «ма» — the fourth"},
-    {"file": "05_ALL.png",  "at": 2.98, "why": "«Мама!» — the whole word lights at once"}
-  ]
+    {
+      "file": "00_rest.png",
+      "at": 0.0,
+      "why": "finger approaching, nothing lit"
+    },
+    {
+      "file": "01_M1.png",
+      "at": 0.18,
+      "why": "«Ма» begins — first М under the finger"
+    },
+    {
+      "file": "02_A1.png",
+      "at": 0.53,
+      "why": "second half of «Ма» — the А"
+    },
+    {
+      "file": "03_M2.png",
+      "at": 1.52,
+      "why": "«ма» begins — third tile"
+    },
+    {
+      "file": "04_A2.png",
+      "at": 1.82,
+      "why": "second half of «ма» — the fourth"
+    },
+    {
+      "file": "05_ALL.png",
+      "at": 2.98,
+      "why": "«Мама!» — the whole word lights at once"
+    }
+  ],
+  "stabilise": {
+    "master": 0,
+    "threshold": 35,
+    "x0": 425,
+    "y0": 150,
+    "why": "frame 0 is the master. Change is allowed only right of x=425 and below y=150 — the tile row and the arm sweep. That boundary keeps the left hand, the top planks and the far-left floor pinned to the master, because those drift between renders by up to 29/255 and read as the whole frame jumping on every cut."
+  }
 }
