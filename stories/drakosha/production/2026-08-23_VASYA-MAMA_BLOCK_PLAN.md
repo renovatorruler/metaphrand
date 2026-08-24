@@ -8,31 +8,40 @@ Every line in this block is recorded and sitting in `kuku_flow/audio/`: line60 (
 
 **The Вася-Мама design is already drawn** — `REVEAL-MAMA_author.png`. Мама's kerchief, braid and apron, Вася's enormous shaggy eyebrows and gap-toothed grin, standing in the transformation space with МАМА in gold light at his feet. That was the single biggest risk in this block and it is not a risk, because the author drew the answer on 19 August.
 
-The transformation machinery was designed the same day and is written up in `2026-08-19_SCENE8_TRANSFORMATION_SYSTEM.md`: `C-VAS-TRANSFORM-PRE_author.png` (Вася, arms raised, serious) → `C-VAS-TRANSFORM-CHARGED_author.png` → dissolve → the reveal card. Generated once, it serves кот, оса, мама and every target after them.
+The transformation machinery was designed the same day and is written up in `2026-08-19_SCENE8_TRANSFORMATION_SYSTEM.md`: `C-VAS-TRANSFORM-PRE_author.png` (Вася, arms raised, serious) → `C-VAS-TRANSFORM-CHARGED_author.png` → dissolve → the reveal card.
+
+**The PRE and CHARGED plates do not play here, and that is the author's call of 23 August.** Arms raised, braced, waiting for the light — that is a boy who has done this before. The first time, he has not. He reads the word, he is confused, he tries the sound small and unsure, and nothing happens. Then it happens *to* him, with no warning and no pose. So the card is not generated for this block at all; it is deferred to whenever Вася next transforms on purpose, and the arms-raised stance becomes something he grows into rather than something he was born knowing.
+
+The reveal card stays, because it is doing different work: it is the show telling a five-year-old *this word did this*, and it solves a staging problem for free — Вася is kneeling over the chips when the light takes him and standing at Мама's height when it clears, and the card is where that change happens.
+
+**The wipe is composited, not generated.** Вася's magic is a wipe (Фрося's travels and settles; his covers). Compositing it means the beat between the Вжух and the light is exact, adjustable without a re-roll, and free — which matters, because that beat of nothing happening is the whole joke.
 
 ## The plan
 
 | # | shot | sec | cr | what happens |
 |---|------|-----|----|--------------|
 | 1 | «Мне слово!» | 10 | 25 | Overhead on the work area, the framing that already worked for Руся. Вася sets the glass aside and digs in the pouch — *«А я, я тоже хочу. Мне слово лёгкое.»* Фрося, across from him, nods at the chips without touching them — *«Ну собери сам, ты же читать будешь.»* Ends with his hand going into the pile. |
-| 2 | МАМА assembled and read | 8 | 20 | Down onto the floor between him and camera. The last chip lands, his finger traces the four — *«Ма-ма. Мама! Вжух!»*, the Вжух said with no confidence at all. **The letters must be legible — see the ask below.** |
-| 3 | The transformation | 5 | 13 | PRE → CHARGED → white, in the transformation space. **Generated once and reused forever.** |
-| 4 | The reveal card | 1 | 0 | Hard cut to `REVEAL-MAMA_author.png`, held one second. A still. Free. |
+| 2 | МАМА read, and nothing happens | 11 | 28 | Down onto the floor between him and camera. The last chip lands, his finger traces the four — *«Ма-ма. Мама!»* He looks up, not sure what he is supposed to do, and tries it: *«Вжух?»* — small, uncertain, half a question. **Nothing happens.** He blinks. And then, with no warning and no pose, the light takes him where he kneels. **The letters must be legible — see the ask below. The wipe is composited over the tail of this shot, so its timing is exact.** |
+| 4 | The reveal card | 1 | 0 | Hard cut to `REVEAL-MAMA_author.png`, held one second. A still. Free. Also where he goes from kneeling to standing at Мама's height. |
 | 5 | He looks at his hands | 5 | 13 | Back in the room, standing where Вася stood. He raises both hands, turns them over, touches the apron he is suddenly wearing. Not a word. |
 | 6 | Мама touches her eyebrows | 4 | 10 | Close on the real Мама at the table. She stares off, her hand drifts up, checks her own eyebrows, comes down. Silent. **This is what tells the audience there are two of them, instead of a shot with two of them in it.** |
 | 7 | The babies notice | 4 | 10 | Starts on the last frame of the shot already in the cut — both babies close on the rug. They look off toward him, squeal, and crawl out of frame. |
 | 8 | Climbing and complaining | 13 | 33 | Camera low in front of Вася-Мама, knees to head. Руся and Муся come in from both sides and grab the apron; Муся starts chewing the hem. He lifts both hands clear so as not to squash them — *«Ай, Фрося, они меня едят! Почему они меня едят?»* He tries to prise Руся off with one finger and she grips harder — *«Я не мама, я Вася. Снимите их с меня.»* |
 | 9 | Мама takes them off | 7 | 18 | Camera stays on him. **Only Мама's arms come into frame**, lifting Руся, then Мусю. Her line arrives from off-screen while we hold on his face — *«Брови-то твои, Вася.»* He deflates. |
-| 10 | The angry ВЖУХ | 5 | 13 | Close on him, offended — *«Вжух!»* White wipe, and the boy is back, pouch on his belt. |
+| 10 | The angry ВЖУХ | 5 | 13 | Close on him, offended — *«ВЖУХ!»* **This one he commands.** He knows it works now, so the sound is loud and certain and the light answers instantly, on the word, with none of the delay from shot 2. The boy is back, pouch on his belt. |
 | 11 | Фрося on the floor | 4 | 10 | She folds up laughing. Needs a laugh take. |
 
-Sixty-six seconds, ten generations, **165 credits ≈ $7.10**.
+Sixty-four seconds, nine generations plus one free card, **160 credits ≈ $6.88**.
+
+**The two Вжухs are the character arc of the block, and they cost nothing.** The first is a question he does not expect to be answered, and the light arrives late and unbidden. The last is an order, and the light obeys on the word. Between them a boy learns that the thing works. Shot 2 and shot 10 must be built as a matched pair or the joke is only a joke.
 
 ## The three simplifications, and why each is safe
 
 **The two Мамы are never in the same frame.** This is the author's call and it is the right one — two identical characters in one shot is the single thing a video model is worst at, and the joke does not need it. Shot 6 (the real Мама checking her own eyebrows) says *there are two of them* more cheaply and more funnily than a wide would. The one place they must physically interact is shot 9, and that is solved by showing only her arms.
 
 **Мама's punchline plays off-screen, on his face.** *«Брови-то твои, Вася»* lands harder on his reaction than on her delivery, and it means shot 9 never has to hold her face and his in one frame.
+
+**The transformation card is deferred, not spent.** Dropping PRE and CHARGED here saves thirteen credits, but the reason to drop them is that they are the wrong performance, not that they cost money. They are still the right card for a later transformation, and they will read better once the audience has seen him not know how.
 
 **Four tile shots become one.** The script asks for four separate overhead inserts as he lays М, А, М, А. One shot where the last chip lands and his finger traces all four does the same work, and the sounding-out is carried by his voice, which is where the literacy actually lives.
 
