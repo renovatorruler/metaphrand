@@ -650,7 +650,28 @@ let assertHandsWritten = (record, problem): unit => {
 
    So: the BACKGROUNDS block must name every character and put each of them
    against one of the four walls of the hall — or state outright that the framing
-   shows no wall, which is a decision rather than an omission. */
+   shows no wall, which is a decision rather than an omission.
+
+   BUT ONLY WHEN THERE IS NO START FRAME. 2026-08-24, the author: "why is it even
+   important when I'm giving you reference with the background?" She is right.
+   This gate was written for shots the model builds from text, where an unnamed
+   background is a blank cell it fills however it likes. When she supplies a
+   start plate, the wall is ALREADY ANSWERED — by a picture, which outranks any
+   sentence I could write about it. Demanding a canon wall name anyway made me
+   guess at a room I was looking at, put "the kitchen end" behind Фрося when it
+   is the hatch wall, and cost her a correction on a question her own frame had
+   already settled. A gate that manufactures a wrong answer is worse than no
+   gate: the wrong name then fights the plate.
+
+   So with a start image, deferring to the plate IS the decision, and saying so
+   passes. Naming a wall still passes too, and is worth doing when it is known —
+   it carries the geography forward into the shots that have no plate. What must
+   never happen is a background block that contradicts the frame it is anchored
+   to; that is the CONCORDANCE RULE's job, not this one's.
+
+   Note also that which wall sits behind a character is a fact about where the
+   CAMERA stands, not about the character. It is answered per shot and never
+   carried over from the last one. */
 let namedWalls = [
   "hatch wall", "hatch-wall", "ramp", "railing", "back wall", "kitchen end",
   "niche", "table end", "boulder-block wall", "no wall", "shows no wall",
@@ -754,10 +775,20 @@ let assertBackgroundsAssigned = (record, problem): unit => {
     }
     let lower = Js.String2.toLowerCase(block)
     let walls = namedWalls->Belt.Array.keep(w => Js.String2.includes(lower, w))
-    if Belt.Array.length(walls) == 0 {
+    /* With an author plate the wall is already answered by a picture; pointing
+       at the plate is a decision, not an omission. See the note above. */
+    let deferredToPlate =
+      Js.String2.includes(lower, "start image") ||
+      Js.String2.includes(lower, "start frame") ||
+      Js.String2.includes(lower, "the plate")
+    let hasStartImage = switch record.startImage {
+    | Some(_) => true
+    | None => false
+    }
+    if Belt.Array.length(walls) == 0 && !(hasStartImage && deferredToPlate) {
       problem(
         record.jobId,
-        "the BACKGROUNDS block names no wall of the hall. \"Soft and out of focus\" describes the lens, not the room. Name the hatch wall, the ramp and its railing, the back wall with the niche, or the table end — or say the framing shows no wall.",
+        "the BACKGROUNDS block names no wall of the hall. \"Soft and out of focus\" describes the lens, not the room. Name the hatch wall, the ramp and its railing, the back wall with the niche, or the table end — or say the framing shows no wall. This job has a start frame, so \"as the start image has it\" is also a valid answer: the plate already settles the wall and outranks anything written here.",
       )
     }
   }
