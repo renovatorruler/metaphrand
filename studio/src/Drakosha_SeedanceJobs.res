@@ -299,6 +299,28 @@ let all: array<jobSpec> = [
     8,
     Mini,
   ),
+  /* «НУ СОБЕРИ САМ» — her answer, and the reverse of V01. THE CAMERA IS ON
+     ВАСЯ'S AXIS, so she looks down the lens a touch to screen-left rather than
+     to screen-right: in a two-shot she looks toward his side of the frame, but
+     once the camera stands where he stands, his side IS the lens. Reading the
+     two-shot rule into a reverse single is how an eyeline gets called broken
+     when it is correct (2026-08-24).
+
+     Her line is a reply, not a brush-off. He looked at the scattered tiles in
+     V01 and could not see a way in; here she nods at them — once, with the head
+     alone, never touching one — and that nod is the whole performance.
+
+     FIVE SECONDS, NOT FOUR. line61 is 2.48s and the gate reserves a two-second
+     head, so four would be refused. */
+  job(
+    "v02answer",
+    "SH121",
+    [Frosya],
+    [Salad, Pencil],
+    Some("2026-08-24_V02_frosya-answers_start_v2.png"),
+    5,
+    Mini,
+  ),
   /* SCENE 7 — the niche, the chest, the letters. All on mini.
 
      GEOGRAPHY, set once by the author and not re-derived per shot: Мама works at

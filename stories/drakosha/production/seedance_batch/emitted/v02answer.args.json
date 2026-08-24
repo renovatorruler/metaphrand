@@ -1,0 +1,11 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 5,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-24_V02_frosya-answers_start_v2.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-05.png",
+    "../stories/drakosha/ep1prod/scene1/references/D-SALAD-BOWL-01_author.png",
+    "../stories/drakosha/ep1prod/scene1/references/D-FRO-PENCIL-01_approved.png"
+  ],
+  "promptSha256": "3cc92ea05061535ebc3bf8c11535bbf90cda0e5b7a991e76ceff5dfffa102e9f"
+}
