@@ -677,6 +677,83 @@ let namedWalls = [
   "niche", "table end", "boulder-block wall", "no wall", "shows no wall",
 ]
 
+/* DO NOT NAME A THING THE PICTURE DOES NOT SHOW. 2026-08-24.
+
+   Having just been told the wall behind Фрося is the hatch wall, I wrote HATCH
+   WALL into her BACKGROUNDS block — over a start frame showing a bare run of
+   stone blocks, with no hatch reference bound. The author: "giving the model
+   that there is a hatch wall and not providing the reference for it and giving
+   a start frame that doesn't have a hatch wall is just asking for trouble."
+
+   Exactly right, and it is the CONCORDANCE RULE pointing the other way. A
+   named architectural feature is an instruction to draw one. Say "hatch" and
+   something hatch-shaped appears in a frame that had none, and now the plate
+   and the prompt are fighting over the same wall.
+
+   The distinction the two of us kept collapsing: a wall's NAME is production
+   knowledge — it belongs in the job record, the shot list, the geography note,
+   so the next shot knows where it stands. What goes in the PROMPT is what the
+   frame shows. They are not the same document and they do not want the same
+   sentence.
+
+   The first version of this gate failed eight already-delivered scene 8 shots,
+   which is how I learned what it can and cannot know. It reads FILENAMES. A
+   start plate that genuinely shows the stove does not have "stove" in its name,
+   so demanding a name-match calls every good shot a bad one. A gate that cannot
+   see the picture must not pretend to.
+
+   So it checks only what is checkable:
+     - no start frame and no reference carrying the feature → FAIL. Nothing can
+       show it, so naming it is inventing it.
+     - a start frame, and the block names a feature while calling that same wall
+       bare or plain → FAIL. Both cannot be true of one frame, and that
+       contradiction is exactly the sentence that put a hatch on a blank run of
+       stone.
+     - a start frame and no contradiction → passes. The plate may well show it;
+       only a person can say, and this gate does not get a vote. */
+let wallFeatures = ["hatch", "niche", "ramp", "railing", "stove", "iron door"]
+let bareWords = ["bare run", "plain run", "bare wall", "plain wall", "blank wall", "nothing is set into", "nothing stands against"]
+
+let assertNamedFeaturesAreBacked = (record, refPaths: array<string>, problem): unit => {
+  let c = record.creative
+  switch Js.String2.includes(c, "\nBACKGROUNDS") {
+  | false => ()
+  | true =>
+    let after = Belt.Array.getExn(Js.String2.split(c, "\nBACKGROUNDS"), 1)
+    let block =
+      Belt.Array.getExn(Js.String2.splitByRe(after, %re("/\n[A-ZА-Я][A-ZА-Я ,\-]{4,}\n/")), 0)
+      ->Belt.Option.getWithDefault(after)
+    let lower = Js.String2.toLowerCase(block)
+    let backing = refPaths->Belt.Array.map(Js.String2.toLowerCase)
+    let hasStartImage = switch record.startImage {
+    | Some(_) => true
+    | None => false
+    }
+    let callsItBare = bareWords->Belt.Array.some(w => Js.String2.includes(lower, w))
+    wallFeatures->Belt.Array.forEach(f => {
+      let named = Js.String2.includes(lower, f)
+      let inRefs = backing->Belt.Array.some(b => Js.String2.includes(b, f))
+      if named && !inRefs {
+        if !hasStartImage {
+          problem(
+            record.jobId,
+            "the BACKGROUNDS block names \"" ++
+            f ++
+            "\" and there is no start frame and no bound reference that shows one. With nothing to look at, a named feature is simply an instruction to invent one.",
+          )
+        } else if callsItBare {
+          problem(
+            record.jobId,
+            "the BACKGROUNDS block names \"" ++
+            f ++
+            "\" and in the same breath calls that wall bare or plain. Both cannot be true of the frame in front of you: either the plate shows the feature, in which case describe it, or it does not, in which case do not name it. This is the sentence that put a hatch on a blank run of stone.",
+          )
+        }
+      }
+    })
+  }
+}
+
 /* THE GLYPH GATE — no letter the model draws is ever trusted. 2026-08-20.
 
    I wrote a gate here yesterday claiming the model can hold a row of tiles if
@@ -1006,6 +1083,7 @@ let () = {
       assertQuotedLinesRecorded(record, problem)
       assertStartFrameNative(record, problem)
       let refPaths = emitRefPaths(record)->Belt.Array.map(resolveRef)
+      assertNamedFeaturesAreBacked(record, refPaths, problem)
       refPaths->Belt.Array.forEach(p =>
         if !existsSync(p) {
           problem(jobId, "missing reference " ++ p)

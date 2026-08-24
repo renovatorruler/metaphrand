@@ -315,6 +315,12 @@ let all: array<jobSpec> = [
      CAMERA stands, not about the character, so it is answered per shot and
      never carried over from the last one.
 
+     THAT FACT LIVES HERE AND NOT IN THE PROMPT. The plate shows a bare run of
+     stone with no hatch in it and no hatch reference is bound, so writing
+     "hatch wall" into the choreography would be an instruction to draw one —
+     into a frame that has none. The name is production knowledge that tells the
+     NEXT shot where it stands; the prompt gets what the frame shows.
+
      FIVE SECONDS, NOT FOUR. line61 is 2.48s and the gate reserves a two-second
      head, so four would be refused. */
   job(
