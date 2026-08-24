@@ -117,3 +117,24 @@ me when Фрося actually spoke.
 Every mouth map now goes in the clip's spec file under `mouth`, with the windows
 and the step size, so the next placement argues with a written measurement
 instead of re-deriving one.
+
+### Name who is who before measuring anything
+
+In the poppy-offer shot I identified the visible face as Фрося's and measured it
+three times. It is Мама's. Фрося is the figure with her back to camera — dark
+hair, orange flower clip, patchwork skirt, the pencil pouch at her hip, exactly
+as in the author's own start frame. So both lines were placed against the wrong
+character's mouth, and I twice reported the opposite of the truth to the author:
+that Мама could not be matched because she was turned away.
+
+A mouth map is worthless until the face it belongs to has a name. **Open the
+start frame, identify every character in it by their sheet — clothing, hair,
+props — and write the names down, before any crop is taken.** A back-of-head is
+identified by wardrobe and props; it is never "probably the other one".
+
+The corollary: a character with no visible mouth is placed on ACTION, not on
+audio. Фрося's «Мам, это тебе» goes where her arm starts to extend the flower —
+the author's direction, and what SP107 says: *неся цветок Маме*.
+
+Character identification now lives in each clip's spec under `staging`, next to
+the mouth map, so the next pass reads who is in frame instead of guessing.

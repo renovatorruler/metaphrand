@@ -1,0 +1,10 @@
+{
+  "clip": "2026-08-23_S8_POPPY_offer_v5_dub.mp4",
+  "script": "SP107 ФРОСЯ (неся цветок Маме, вдруг застенчиво) «Мам, это тебе.» / SP108 МАМА (принимая мак, тихо) «Ох… Спасибо, доченька.»",
+  "staging": "ФРОСЯ IS THE ONE WITH HER BACK TO CAMERA, screen left — dark hair, orange flower clip, patchwork skirt, pencil pouch at the hip. МАМА faces camera, screen right — kerchief, blonde braid, apron, hands round a tin cup. This is the author's start frame 2026-08-23_S8_POPPY_offer_start.png and it was read backwards twice: the visible face was called Фрося's and both lines were placed against it. Open the start frame and name who is who BEFORE measuring anything.",
+  "voice": [
+    {"line": "line58_FROSYA.mp3", "at": 1.18, "why": "Фрося is back to camera — no mouth to match. Placed on the GESTURE: her arm starts extending the poppy at 1.20-1.40, so «Мам,» lands at 1.30 and «это тебе» at 2.00-2.90, finishing as Мама's hand arrives."},
+    {"line": "line59_MAMA.mp3", "at": 5.30, "why": "Author's direction 2026-08-23: Мама's line stays where it is. «Ох» 5.38, «Спасибо, доченька» 6.72-7.70."}
+  ],
+  "mouth": "МАМА (the visible face), measured at 2.5x, 0.1s steps: closed 0.10-2.50, open 2.90-5.00, closed 5.20-5.70, open 5.80-7.25, closed 7.35-end. NOTE: her mouth articulates 2.90-5.00, as she takes the flower — that is where her line would sit if placed by mouth alone. It is held at 5.30 by the author's call, so the take reads as a beat of silence before a quiet thank-you."
+}
