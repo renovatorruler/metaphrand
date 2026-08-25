@@ -11,5 +11,5 @@ s8mak  SH115  cast=1  refs=4  start=yes  model=seedance_2_0_mini  cr=32.5  sha=9
 s8poppy  SH117-118  cast=2  refs=3  start=yes  model=seedance_2_0_mini  cr=20.0  sha=0e94637225d4
 v01ask  SH120  cast=2  refs=5  start=yes  model=seedance_2_0_mini  cr=20.0  sha=851090a69815
 v02answer  SH121  cast=1  refs=3  start=yes  model=seedance_2_0_mini  cr=12.5  sha=4bc30400776e
-v03gather  SH122  cast=1  refs=1  start=yes  model=seedance_2_0_mini  cr=25.0  sha=15bbece420fc
-TOTAL 262.5 credits (~$11.29 at the Ultra rate) for this batch.
+v03gather  SH122  cast=1  refs=1  start=yes  model=seedance_2_0_mini  cr=20.0  sha=1491a94d8849
+TOTAL 257.5 credits (~$11.07 at the Ultra rate) for this batch.

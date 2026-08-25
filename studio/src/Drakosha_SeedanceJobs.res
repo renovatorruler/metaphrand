@@ -90,6 +90,24 @@ let job = (jobId, shots, cast, props, startImage, durationSec, model): jobSpec =
   endImage: None,
 }
 
+/* A shot pinned at BOTH ends: the author supplies the frame it opens on and the
+   frame it must finish on, and the model interpolates between them. Different
+   from loopJob, where the two frames are the same one.
+
+   This is what an outcome the model keeps getting wrong is for. The gather shot
+   came back with every block on the floor swept into one long line because the
+   prompt could describe "four" but could not enforce it; an end frame showing
+   four in a row and the strays untouched states the answer in the only language
+   that is not open to interpretation. Seedance mini takes an end frame AND
+   references, which is the combination this needs — the frames pin the
+   composition, the sheets carry who he is. */
+let endJob = (jobId, shots, cast, props, startFrame, endFrame, durationSec, model): jobSpec => {
+  record: {jobId, shots, cast, props, startImage: Some(startFrame), durationSec, creative: ""},
+  creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
+  model,
+  endImage: Some(endFrame),
+}
+
 let loopJob = (jobId, shots, cast, props, frame, durationSec, model): jobSpec => {
   record: {jobId, shots, cast, props, startImage: Some(frame), durationSec, creative: ""},
   creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
@@ -385,13 +403,14 @@ let all: array<jobSpec> = [
      No @TILES: the chest sheet is a whole chest, and this plate carries the
      tiles perfectly already. No @POUCH: it is backed by page-04, which @VASYA
      attaches anyway. */
-  job(
+  endJob(
     "v03gather",
     "SH122",
     [Vasya],
     [],
-    Some("2026-08-24_V03_gather_start_v2.png"),
-    10,
+    "2026-08-24_V03_gather_start_v3.png",
+    "2026-08-24_V03_gather_END_v3.png",
+    8,
     Mini,
   ),
   /* SCENE 7 — the niche, the chest, the letters. All on mini.

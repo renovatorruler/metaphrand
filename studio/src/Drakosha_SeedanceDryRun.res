@@ -1105,6 +1105,15 @@ let () = {
         Js.Dict.set(d, "model", Js.Json.string(Drakosha_SeedanceJobs.modelName(spec.model)))
         Js.Dict.set(d, "duration", Js.Json.number(Belt.Int.toFloat(record.durationSec)))
         Js.Dict.set(d, "startImage", Js.Json.string(start))
+        /* The end frame was missing from this artifact until 2026-08-24, so a job
+           pinned at both ends looked, in review, exactly like one pinned at the
+           start. The emitted args are what gets read before a submission is
+           approved; anything the gate will actually send has to appear here or
+           the review is of a different job. */
+        switch spec.endImage {
+        | Some(e) => Js.Dict.set(d, "endImage", Js.Json.string(kfDir ++ "/" ++ e))
+        | None => ()
+        }
         Js.Dict.set(d, "imageReferences", Js.Json.array(refPaths->Belt.Array.map(Js.Json.string)))
         Js.Dict.set(d, "promptSha256", Js.Json.string(sha256(prompt)))
         Js.Json.object_(d)

@@ -8,6 +8,19 @@ type domRect
 type domEvent
 type response
 type promise<'a>
+type storage
+type urlSearchParams
+type audioContext
+type oscillator
+type gainNode
+type audioParam
+type audioDestination
+type speechSynthesis
+type speechVoice
+type speechUtterance
+type gameNavigator
+type gamepad
+type gamepadButton
 
 @val external browserDocument: domDocument = "document"
 @val external browserWindow: browserWindow = "window"
@@ -85,7 +98,55 @@ type promise<'a>
 @get_index external arrayGet: (array<'a>, int) => 'a = ""
 @set_index external arraySet: (array<'a>, int, 'a) => unit = ""
 @send external splitString: (string, string) => array<string> = "split"
+@send external joinStrings: (array<string>, string) => string = "join"
+@send external startsWithString: (string, string) => bool = "startsWith"
 @val external numberString: float => string = "String"
+@val external intToFloat: int => float = "Number"
+@scope("Number") @val external parseIntNumber: (string, int) => float = "parseInt"
+@scope("Number") @val external numberIsFinite: float => bool = "isFinite"
+
+@val external browserStorage: storage = "localStorage"
+@send external storageGetItem: (storage, string) => string = "getItem"
+@send external storageSetItem: (storage, string, string) => unit = "setItem"
+
+@val @scope("location") external locationSearch: string = "search"
+@new external makeSearchParams: string => urlSearchParams = "URLSearchParams"
+@send external searchHas: (urlSearchParams, string) => bool = "has"
+@send external searchGet: (urlSearchParams, string) => string = "get"
+
+@new external makeAudioContext: unit => audioContext = "AudioContext"
+@get external audioCurrentTime: audioContext => float = "currentTime"
+@get external audioState: audioContext => string = "state"
+@get external audioOutput: audioContext => audioDestination = "destination"
+@send external resumeAudio: audioContext => promise<unit> = "resume"
+@send external makeGain: audioContext => gainNode = "createGain"
+@send external makeOscillator: audioContext => oscillator = "createOscillator"
+@get external gainValue: gainNode => audioParam = "gain"
+@get external oscillatorFrequency: oscillator => audioParam = "frequency"
+@set external setOscillatorType: (oscillator, string) => unit = "type"
+@send external setParamAt: (audioParam, float, float) => unit = "setValueAtTime"
+@send external rampParamAt: (audioParam, float, float) => unit = "exponentialRampToValueAtTime"
+@send external connectOscillator: (oscillator, gainNode) => unit = "connect"
+@send external connectGain: (gainNode, audioDestination) => unit = "connect"
+@send external startOscillator: (oscillator, float) => unit = "start"
+@send external stopOscillator: (oscillator, float) => unit = "stop"
+
+@val external browserSpeech: speechSynthesis = "speechSynthesis"
+@send external speechCancel: speechSynthesis => unit = "cancel"
+@send external speechVoices: speechSynthesis => array<speechVoice> = "getVoices"
+@send external speechSpeak: (speechSynthesis, speechUtterance) => unit = "speak"
+@get external voiceLanguage: speechVoice => string = "lang"
+@new external makeUtterance: string => speechUtterance = "SpeechSynthesisUtterance"
+@set external setUtteranceLanguage: (speechUtterance, string) => unit = "lang"
+@set external setUtteranceVoice: (speechUtterance, speechVoice) => unit = "voice"
+@set external setUtteranceRate: (speechUtterance, float) => unit = "rate"
+@set external setUtterancePitch: (speechUtterance, float) => unit = "pitch"
+
+@val external gameNavigator: gameNavigator = "navigator"
+@send external getGamepads: gameNavigator => array<gamepad> = "getGamepads"
+@get external gamepadButtons: gamepad => array<gamepadButton> = "buttons"
+@get external gamepadAxes: gamepad => array<float> = "axes"
+@get external gamepadButtonPressed: gamepadButton => bool = "pressed"
 
 @scope("Math") @val external floorFloat: float => int = "floor"
 @scope("Math") @val external minFloat: (float, float) => float = "min"
@@ -94,7 +155,6 @@ type promise<'a>
 @scope("Math") @val external cosFloat: float => float = "cos"
 @scope("Math") @val external absFloat: float => float = "abs"
 @scope("Math") @val external pi: float = "PI"
-external intToFloat: int => float = "%identity"
 
 type question = {
   id: string,
@@ -195,89 +255,188 @@ type gameState = {
   mutable lastInput: string,
 }
 
-let loadSaved: unit => saved = %raw(`function () {
+let defaultSaved = (): saved => {sound: true, mastery: []}
+
+let loadSaved = (): saved => {
   try {
-    const parsed = JSON.parse(localStorage.getItem("kuku-akshar-aangan.v1") || "null");
-    if (parsed && Array.isArray(parsed.mastery)) {
-      return {sound: parsed.sound !== false, mastery: parsed.mastery};
+    let raw = storageGetItem(browserStorage, "kuku-akshar-aangan.v1")
+    let fields = splitString(raw, "|")
+    if arrayLength(fields) < 2 || arrayGet(fields, 0) != "v1" {
+      defaultSaved()
+    } else {
+      let mastery: array<masteryItem> = []
+      if arrayLength(fields) >= 3 {
+        let rows = splitString(arrayGet(fields, 2), ",")
+        for index in 0 to arrayLength(rows) - 1 {
+          let cells = splitString(arrayGet(rows, index), "~")
+          if arrayLength(cells) == 3 {
+            let parsed = parseIntNumber(arrayGet(cells, 2), 10)
+            if numberIsFinite(parsed) {
+              let count = floorFloat(parsed)
+              if arrayGet(cells, 0) != "" && count > 0 {
+                let _ = pushArray(mastery, {
+                  id: arrayGet(cells, 0),
+                  kind: arrayGet(cells, 1),
+                  count,
+                })
+              }
+            }
+          }
+        }
+      }
+      {sound: arrayGet(fields, 1) != "0", mastery}
     }
-  } catch (_) {}
-  return {sound: true, mastery: []};
-}`)
+  } catch {
+  | _ => defaultSaved()
+  }
+}
 
-let storeSaved: saved => unit = %raw(`function (value) {
-  try { localStorage.setItem("kuku-akshar-aangan.v1", JSON.stringify(value)); } catch (_) {}
-}`)
+let storeSaved = (value: saved): unit => {
+  try {
+    let rows: array<string> = []
+    for index in 0 to arrayLength(value.mastery) - 1 {
+      let item = arrayGet(value.mastery, index)
+      let _ = pushArray(
+        rows,
+        item.id ++ "~" ++ item.kind ++ "~" ++ numberString(intToFloat(item.count)),
+      )
+    }
+    let payload = "v1|" ++ (if value.sound {"1"} else {"0"}) ++ "|" ++ joinStrings(rows, ",")
+    storageSetItem(browserStorage, "kuku-akshar-aangan.v1", payload)
+  } catch {
+  | _ => ()
+  }
+}
 
-let queryHas: string => bool = %raw(`function (name) {
-  return new URLSearchParams(location.search).has(name);
-}`)
+let queryHas = (name: string): bool => searchHas(makeSearchParams(locationSearch), name)
 
-let queryInt: (string, int) => int = %raw(`function (name, fallback) {
-  const raw = new URLSearchParams(location.search).get(name);
-  const parsed = raw === null ? NaN : Number.parseInt(raw, 10);
-  return Number.isFinite(parsed) ? parsed : fallback;
-}`)
+let queryInt = (name: string, fallback: int): int => {
+  let raw = searchGet(makeSearchParams(locationSearch), name)
+  let parsed = parseIntNumber(raw, 10)
+  if numberIsFinite(parsed) {floorFloat(parsed)} else {fallback}
+}
 
-let rngStep: int => int = %raw(`function (seed) {
-  return (Math.imul(seed, 1664525) + 1013904223) >>> 0;
-}`)
+let rngStep = (seed: int): int => {
+  let modulus = 2147483647.0
+  let base = if seed <= 0 {1947.0} else {intToFloat(seed)}
+  let normalized = base -. intToFloat(floorFloat(base /. modulus)) *. modulus
+  let product = normalized *. 48271.0
+  let next = product -. intToFloat(floorFloat(product /. modulus)) *. modulus
+  let result = floorFloat(next)
+  if result <= 0 {1} else {result}
+}
 
-let playCue: (string, bool) => unit = %raw(`(() => {
-  let audio = null;
-  return function (kind, enabled) {
-    if (!enabled) return;
-    const Audio = window.AudioContext || window.webkitAudioContext;
-    if (!Audio) return;
-    if (!audio) audio = new Audio();
-    if (audio.state === "suspended") audio.resume();
-    const now = audio.currentTime;
-    const gain = audio.createGain();
-    gain.gain.setValueAtTime(0.0001, now);
-    gain.gain.exponentialRampToValueAtTime(kind === "correct" ? 0.11 : 0.075, now + 0.012);
-    const osc = audio.createOscillator();
-    osc.type = kind === "retry" ? "triangle" : "sine";
-    const first = kind === "correct" ? 523.25 : kind === "retry" ? 196 : 330;
-    osc.frequency.setValueAtTime(first, now);
-    if (kind === "correct") osc.frequency.setValueAtTime(659.25, now + 0.16);
-    const duration = kind === "correct" ? 0.42 : kind === "retry" ? 0.22 : 0.07;
-    gain.gain.exponentialRampToValueAtTime(0.0001, now + duration);
-    osc.connect(gain); gain.connect(audio.destination);
-    osc.start(now); osc.stop(now + duration + 0.02);
-  };
-})()`)
+let audioGetter: ref<unit => audioContext> = ref(makeAudioContext)
 
-let speakNative: (string, bool) => bool = %raw(`function (text, enabled) {
-  if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) return false;
-  window.speechSynthesis.cancel();
-  const voices = window.speechSynthesis.getVoices();
-  const hindi = voices.find(v => /^hi(?:-|$)/i.test(v.lang));
-  if (!enabled || !text) return !!hindi;
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = "hi-IN";
-  if (hindi) utterance.voice = hindi;
-  utterance.rate = 0.82;
-  utterance.pitch = 1.08;
-  window.speechSynthesis.speak(utterance);
-  return !!hindi;
-}`)
+let getAudio = (): audioContext => {
+  let audio = audioGetter.contents()
+  audioGetter.contents = () => audio
+  audio
+}
 
-let cancelSpeech: unit => unit = %raw(`function () {
-  if ("speechSynthesis" in window) window.speechSynthesis.cancel();
-}`)
+let playCue = (kind: string, enabled: bool): unit => {
+  if enabled {
+    try {
+      let audio = getAudio()
+      if audioState(audio) == "suspended" {
+        let _ = resumeAudio(audio)
+      }
+      let now = audioCurrentTime(audio)
+      let gain = makeGain(audio)
+      let gainParam = gainValue(gain)
+      setParamAt(gainParam, 0.0001, now)
+      rampParamAt(gainParam, if kind == "correct" {0.11} else {0.075}, now +. 0.012)
+      let oscillator = makeOscillator(audio)
+      setOscillatorType(oscillator, if kind == "retry" {"triangle"} else {"sine"})
+      let frequency = oscillatorFrequency(oscillator)
+      let first = if kind == "correct" {523.25} else if kind == "retry" {196.0} else {330.0}
+      setParamAt(frequency, first, now)
+      if kind == "correct" {
+        setParamAt(frequency, 659.25, now +. 0.16)
+      }
+      let duration = if kind == "correct" {0.42} else if kind == "retry" {0.22} else {0.07}
+      rampParamAt(gainParam, 0.0001, now +. duration)
+      connectOscillator(oscillator, gain)
+      connectGain(gain, audioOutput(audio))
+      startOscillator(oscillator, now)
+      stopOscillator(oscillator, now +. duration +. 0.02)
+    } catch {
+    | _ => ()
+    }
+  }
+}
 
-let pollGamepad: unit => padInput = %raw(`function () {
-  const pads = navigator.getGamepads ? navigator.getGamepads() : [];
-  const pad = Array.from(pads).find(Boolean);
-  if (!pad) return {left:false, right:false, confirm:false, repeatPrompt:false};
-  const button = n => !!(pad.buttons[n] && pad.buttons[n].pressed);
-  return {
-    left: button(14) || (pad.axes[0] || 0) < -0.55,
-    right: button(15) || (pad.axes[0] || 0) > 0.55,
-    confirm: button(0),
-    repeatPrompt: button(2) || button(4)
-  };
-}`)
+let speakNative = (text: string, enabled: bool): bool => {
+  try {
+    speechCancel(browserSpeech)
+    let voices = speechVoices(browserSpeech)
+    let hindiIndex = {contents: -1}
+    for index in 0 to arrayLength(voices) - 1 {
+      if startsWithString(voiceLanguage(arrayGet(voices, index)), "hi") {
+        hindiIndex.contents = index
+      }
+    }
+    if enabled && text != "" {
+      let utterance = makeUtterance(text)
+      setUtteranceLanguage(utterance, "hi-IN")
+      setUtteranceRate(utterance, 0.82)
+      setUtterancePitch(utterance, 1.08)
+      if hindiIndex.contents >= 0 {
+        setUtteranceVoice(utterance, arrayGet(voices, hindiIndex.contents))
+      }
+      speechSpeak(browserSpeech, utterance)
+    }
+    hindiIndex.contents >= 0
+  } catch {
+  | _ => false
+  }
+}
+
+let cancelSpeech = (): unit => {
+  try {
+    speechCancel(browserSpeech)
+  } catch {
+  | _ => ()
+  }
+}
+
+let padButton = (buttons: array<gamepadButton>, index: int): bool =>
+  index >= 0 && index < arrayLength(buttons) && gamepadButtonPressed(arrayGet(buttons, index))
+
+let pollGamepad = (): padInput => {
+  try {
+    let pads = getGamepads(gameNavigator)
+    let found = {contents: -1}
+    for index in 0 to arrayLength(pads) - 1 {
+      if found.contents < 0 {
+        try {
+          let buttons = gamepadButtons(arrayGet(pads, index))
+          if arrayLength(buttons) > 0 {
+            found.contents = index
+          }
+        } catch {
+        | _ => ()
+        }
+      }
+    }
+    if found.contents < 0 {
+      {left: false, right: false, confirm: false, repeatPrompt: false}
+    } else {
+      let pad = arrayGet(pads, found.contents)
+      let buttons = gamepadButtons(pad)
+      let axes = gamepadAxes(pad)
+      let horizontal = if arrayLength(axes) > 0 {arrayGet(axes, 0)} else {0.0}
+      {
+        left: padButton(buttons, 14) || horizontal < -0.55,
+        right: padButton(buttons, 15) || horizontal > 0.55,
+        confirm: padButton(buttons, 0),
+        repeatPrompt: padButton(buttons, 2) || padButton(buttons, 4),
+      }
+    }
+  } catch {
+  | _ => {left: false, right: false, confirm: false, repeatPrompt: false}
+  }
+}
 
 let blankQuestion: question = {
   id: "",
@@ -381,7 +540,7 @@ let ctx = getCanvasContext(gameCanvas, "2d")
 
 let nextRandom = (): float => {
   state.seed = rngStep(state.seed)
-  intToFloat(state.seed) /. 4294967296.0
+  intToFloat(state.seed) /. 2147483647.0
 }
 
 let randomIndex = (limit: int): int =>

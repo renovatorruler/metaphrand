@@ -77,6 +77,14 @@ let mk = (
   (),
 ): entry => {
   let derived = []
+  let beatName = switch beat {
+  | S.RingDrill => "RingDrill" | S.Briefing => "Briefing" | S.TowerMischief => "TowerMischief"
+  | S.RopeSlips => "RopeSlips" | S.Runaway => "Runaway" | S.Braking => "Braking"
+  | S.FlatSound => "FlatSound" | S.Forging => "Forging" | S.LastApproach => "LastApproach"
+  | S.TheStop => "TheStop" | S.AfterStop => "AfterStop" | S.DoorwayNight => "DoorwayNight"
+  | S.TowerEnd => "TowerEnd"
+  }
+  let _ = Js.Array2.push(derived, "story beat " ++ beatName)
   let form = S.dragonForm(beat)
   let dragonSubjects = Js.Array2.map(dragons, ((n, doing)) => P.Dragon({name: n, form, doing}))
   if Js.Array2.length(dragons) > 0 {
@@ -383,7 +391,7 @@ let shots: array<entry> = [
     ~props=[redRope("loose, trailing behind the cart")],
     ~setting=lane,
     ~at=6.0,
-    ~cartAt=6.0,
+    ~cartAt=4.0,
     
     ~added=["lighting (none in the prose)"],
     (),
@@ -403,7 +411,7 @@ let shots: array<entry> = [
     ~cart=(true, "runs down the slope below them"),
     ~setting=lane,
     ~at=16.0,
-    ~cartAt=16.0,
+    ~cartAt=8.0,
     
     ~added=["per-dragon flight positions — the prose said only \"five towering paper dragons fly alongside and above\""],
     (),
@@ -424,7 +432,7 @@ let shots: array<entry> = [
     ~cart=(true, "its front wheels lifted while the back stay down, the cart twisting"),
     ~setting=lane,
     ~at=19.0,
-    ~cartAt=19.0,
+    ~cartAt=10.0,
     ~added=["per-dragon grip positions and lighting (the prose had neither)"],
     (),
   ),
@@ -437,7 +445,7 @@ let shots: array<entry> = [
     ~cart=(true, "tilting mid-lift"),
     ~setting=lane,
     ~at=19.0,
-    ~cartAt=19.0,
+    ~cartAt=11.0,
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -446,10 +454,12 @@ let shots: array<entry> = [
     ~beat=Runaway,
     ~scene="The lift is abandoned — wheels back down.",
     ~shot=P.Close,
-    ~cart=(false, "its four wooden wheels settling back onto the flagstone lane, dust puffing, the cart righting"),
+    /* the bed IS in shot at this framing — claiming otherwise is what let the
+       cart run empty through the middle of the chase */
+    ~cart=(true, "its four wooden wheels settling back onto the flagstone lane, dust puffing, the cart righting"),
     ~setting=lane,
     ~at=21.0,
-    ~cartAt=21.0,
+    ~cartAt=13.0,
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -461,7 +471,7 @@ let shots: array<entry> = [
     ~dragons=[(P.Leda, "flies low alongside the downhill lane, head turned down to the lane, mouth open calling instructions, one wing dipped toward the ground")],
     ~setting=lane,
     ~at=14.0,
-    ~cartAt=14.0,
+    ~cartAt=6.0,
     (),
   ),
   /* — Braking — */
@@ -474,7 +484,7 @@ let shots: array<entry> = [
     ~cart=(true, "running, its nose just behind her"),
     ~setting=lane,
     ~at=26.0,
-    ~cartAt=26.0,
+    ~cartAt=15.0,
     
     ~added=["lighting (none in the prose)"],
     (),
@@ -488,7 +498,7 @@ let shots: array<entry> = [
     ~cart=(true, "small below on the lane between the markers"),
     ~setting=lane,
     ~at=26.0,
-    ~cartAt=26.0,
+    ~cartAt=17.0,
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -502,7 +512,7 @@ let shots: array<entry> = [
     ~cart=(true, "running"),
     ~setting=lane,
     ~at=28.0,
-    ~cartAt=28.0,
+    ~cartAt=19.0,
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -526,7 +536,7 @@ let shots: array<entry> = [
     ~dragons=[(P.Kuku, "exhales a thin golden paper-cut breath that scatters and dies in the air, his expression startled")],
     ~setting=lane,
     ~at=30.0,
-    ~cartAt=30.0,
+    ~cartAt=26.0,
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -538,7 +548,7 @@ let shots: array<entry> = [
     ~dragons=[(P.Leda, "head and shoulders, wings raised behind her, expression sharp with warning, calling out")],
     ~setting=lane,
     ~at=30.0,
-    ~cartAt=30.0,
+    ~cartAt=25.0,
     ~lightingOverride="golden dusk light across her lilac paper scales",
     (),
   ),
@@ -552,7 +562,7 @@ let shots: array<entry> = [
     ~setting=flatStone,
     ~plate=Sets.masterPlate(Sets.FlatStone),
     ~at=50.0,
-    ~cartAt=32.0,
+    ~cartAt=27.0,
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -565,7 +575,7 @@ let shots: array<entry> = [
     ~setting=flatStone,
     ~plate=Sets.masterPlate(Sets.FlatStone),
     ~at=50.0,
-    ~cartAt=33.0,
+    ~cartAt=28.0,
     ~lightingOverride="deep dusk; the golden rings are the brightest thing in frame",
     (),
   ),
@@ -578,7 +588,7 @@ let shots: array<entry> = [
     ~setting=flatStone,
     ~plate=Sets.masterPlate(Sets.FlatStone),
     ~at=50.0,
-    ~cartAt=34.0,
+    ~cartAt=29.0,
     ~lightingOverride="deep dusk; the golden ting-light from below is the brightest thing on his face",
     (),
   ),
@@ -591,7 +601,7 @@ let shots: array<entry> = [
     ~setting=flatStone,
     ~plate=Sets.masterPlate(Sets.FlatStone),
     ~at=50.0,
-    ~cartAt=35.0,
+    ~cartAt=30.0,
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -611,7 +621,7 @@ let shots: array<entry> = [
     ~setting=flatStone,
     ~plate=Sets.masterPlate(Sets.FlatStone),
     ~at=52.0,
-    ~cartAt=36.0,
+    ~cartAt=31.0,
     ~added=["the four watching dragons enumerated by name (prose: \"the four other towering dragons\")"],
     (),
   ),
@@ -624,7 +634,7 @@ let shots: array<entry> = [
     ~setting=flatStone,
     ~plate=Sets.masterPlate(Sets.FlatStone),
     ~at=55.0,
-    ~cartAt=38.0,
+    ~cartAt=32.0,
     ~lightingOverride="deep dusk; the golden shape catches the last light",
     (),
   ),
@@ -638,7 +648,7 @@ let shots: array<entry> = [
     ~setting=flatStone,
     ~plate=Sets.masterPlate(Sets.FlatStone),
     ~at=55.0,
-    ~cartAt=40.0,
+    ~cartAt=32.5,
     ~lightingOverride="deep dusk; the bracelet's warm glow lights the frame",
     ~added=["whose forearm it is (prose said \"a paper dragon's forearm\")"],
     (),
@@ -652,7 +662,7 @@ let shots: array<entry> = [
     ~dragons=[(P.Vesper, "high above the lane mid-yawn, eyes half shut, wings slack for an instant")],
     ~setting=lane,
     ~at=34.0,
-    ~cartAt=34.0,
+    ~cartAt=33.0,
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -664,7 +674,7 @@ let shots: array<entry> = [
     ~cart=(true, "drifting toward the left edge of the lane, one wheel near the paper kerb, dust streaming"),
     ~setting=lane,
     ~at=35.0,
-    ~cartAt=35.0,
+    ~cartAt=34.0,
     
     ~added=["lighting (none in the prose)"],
     (),
@@ -679,7 +689,7 @@ let shots: array<entry> = [
     ~props=[bell("in her talons")],
     ~setting=lane,
     ~at=38.0,
-    ~cartAt=38.0,
+    ~cartAt=34.5,
     
     ~added=["lighting (none in the prose)"],
     (),
@@ -692,7 +702,7 @@ let shots: array<entry> = [
     ~dragons=[(P.Fyuria, "looks away from the departing eagle and back down at the cart below, jaw set, refusing")],
     ~setting=lane,
     ~at=39.0,
-    ~cartAt=39.0,
+    ~cartAt=35.0,
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -720,7 +730,7 @@ let shots: array<entry> = [
     ~cart=(true, "slowing behind her"),
     ~setting=lane,
     ~at=44.0,
-    ~cartAt=44.0,
+    ~cartAt=42.0,
     
     ~added=["lighting (none in the prose)"],
     (),
@@ -941,6 +951,17 @@ if Js.Array2.length(args) > 0 && args[0] == "go" {
       | None => (e.id, "")
       }
     },
+  )
+  let beatPairs = Js.Array2.map(shots, e => {
+    let b = Js.Array2.find(e.derived, d => Js.String2.startsWith(d, "story beat "))
+    (e.id, Js.Json.string(switch b {
+    | Some(d) => Js.String2.sliceToEnd(d, ~from=11)
+    | None => ""
+    }))
+  })
+  writeFileSync(
+    "../stories/kuku/ep10prod/shot_beats.json",
+    Js.Json.stringify(Js.Json.object_(Js.Dict.fromArray(beatPairs))),
   )
   writeFileSync(
     "../stories/kuku/ep10prod/shot_positions.json",

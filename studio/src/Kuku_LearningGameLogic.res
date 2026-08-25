@@ -15,3 +15,4 @@ let applyAction = (state: state, _action: action, _player) => state
 let isGameOver = (_state: state) => {over: false}
 
 let viewFor = (state: state, _player) => state
+
