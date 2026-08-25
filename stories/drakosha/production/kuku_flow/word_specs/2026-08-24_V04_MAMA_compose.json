@@ -5,49 +5,58 @@
   "glyphs": {
     "M": {
       "regular": "02_tile_M_regular.png",
-      "lit": "03_tile_M_lit.png"
+      "lit": "03_tile_M_lit.png",
+      "lit_offset": [
+        9,
+        -4
+      ]
     },
     "A": {
       "regular": "04_tile_A_regular.png",
-      "lit": "05_tile_A_lit.png"
+      "lit": "05_tile_A_lit.png",
+      "lit_offset": [
+        10,
+        11
+      ]
     }
   },
-  "tile_scale": 0.615,
+  "tile_scale": 0.577,
   "tiles": [
     {
       "letter": "M",
-      "x": 349,
-      "y": 221
+      "x": 411,
+      "y": 223
     },
     {
       "letter": "A",
-      "x": 495,
-      "y": 221
+      "x": 563,
+      "y": 223
     },
     {
       "letter": "M",
-      "x": 644,
-      "y": 221
+      "x": 714,
+      "y": 223
     },
     {
       "letter": "A",
-      "x": 801,
-      "y": 221
+      "x": 866,
+      "y": 223
     }
   ],
   "hand_open": {
     "file": "06_hand_open.png",
-    "x": 215,
-    "y": 590,
-    "scale": 0.615
+    "x": 173,
+    "y": 651,
+    "scale": 0.854,
+    "matched_to": "her open hand occupies x35-312, y494-720 at 1280x720 — 277 wide, top edge at 494, running off the bottom"
   },
   "point_poses": [
     "07_hand_point_1.png",
     "08_hand_point_2.png",
     "09_hand_point_3.png"
   ],
-  "point_scale": 0.615,
-  "point_tip_dy": 70,
+  "point_scale": 0.871,
+  "point_tip_dy": 69,
   "states": [
     {
       "file": "s0.png",
@@ -119,5 +128,13 @@
       }
     }
   ],
-  "note": "Built entirely from the author's transparent layers. The floor is one image that never moves; a tile not being touched is the same file in every frame. Letters stay lit once touched, so the word builds. The finger travels because she supplied three pointing poses."
+  "note": "Built entirely from the author's transparent layers. The floor is one image that never moves; a tile not being touched is the same file in every frame. Letters stay lit once touched, so the word builds. The finger travels because she supplied three pointing poses.",
+  "layout_source": "Measured off the author's own 05_ALL at 1280x720: tile centres x 411/563/714/866 (spacing 151), y 223, tile body 120px. Her pointing hand runs y 292-720 and her open hand y 494-720 — BOTH REACH THE BOTTOM EDGE. Hand layers are extended downward to the edge so an arm never ends in mid-air.",
+  "floor_grade": {
+    "gain": 0.81,
+    "vignette": 0.34,
+    "vignette_power": 1.5,
+    "tilt": 0.1,
+    "measured_against": "her 05_ALL at 1280x720 — centre 50.9, left edge 40.0, right edge 33.4, top 47.6, bottom 35.0"
+  }
 }
