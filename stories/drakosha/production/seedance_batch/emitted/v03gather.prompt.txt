@@ -4,9 +4,7 @@ ACTIVE REFERENCES
 SCALE
 Вася is shorter than Фрося, about up to her eyebrows.
 
-FOUR BLOCKS — A PICKUP. From the start image: a low camera close to the floorboards, looking at Вася. He is down on his hands and knees facing camera, arms straight, both hands flat on the boards in front of him, and he is grinning wide with his teeth showing and his eyes bright — he has just thought of something and he knows what he is going to do. Small flat wooden blocks lie scattered across the floorboards in front of him and away to both sides. His woven drawstring pouch lies on its side on the floor at the right of frame, the cord from its neck running back to the rope belt at his waist.
-
-THE END IMAGE IS WHERE THIS SHOT FINISHES. He has settled back onto his heels, upright, with both hands resting on his knees, still grinning, and FOUR BLOCKS LIE IN A NEAT ROW ON THE BOARDS DIRECTLY IN FRONT OF HIM, evenly spaced and squared up. The blocks out at the edges of the floor are exactly where the start image left them.
+FOUR BLOCKS. From the start image: a low camera close to the floorboards, looking at Вася. He is down on his hands and knees facing camera, arms straight, both hands flat on the boards, and he is grinning wide with his teeth showing and his eyes bright. Small flat wooden blocks lie scattered on the boards around him — three away to his left, two close in front of him under his hands, two out to his right, one further right, one out by his pouch. His woven drawstring pouch lies on its side on the floor at the right of frame, the cord from its neck running back to the rope belt at his waist.
 
 THE CAMERA IS LOW AND THE BLOCKS ARE SEEN ALMOST EDGE-ON. Their top faces are foreshortened nearly to nothing, so what reads is the flat wooden block and nothing on top of it. No block ever tips, lifts or turns its face toward the camera.
 
@@ -14,22 +12,31 @@ DIALOGUE
 None. Nobody speaks in this shot. No offscreen voices.
 
 SOUND
-Every time a block moves it makes a short dry wooden scrape along the floorboards, ending in a small knock as it comes to rest against the one beside it. Four scrapes and four knocks, and nothing else. No music. No voices.
+Every time a block moves it makes a short dry wooden scrape along the floorboards, ending in a small knock as it comes to rest beside the one before it. Four scrapes and four knocks, and nothing else. No music. No voices.
 
 CAMERA
 Locked off at the start image's framing. It does not move and focus does not shift.
 
 WHAT HAPPENS
-THIS SHOT IS ALREADY MOVING WHEN IT STARTS. It is a pickup: the take it joins has already given him the looking, the head-scratch and the idea landing, and the start image is the exact frame that take is on. So there is no settling-in beat and no pause to think — the grin is already there and he goes straight into it on the first frame.
+He is already delighted when the shot opens, and his face rides that down into the work.
 
-He gathers, and he does it by SLIDING each block along the floorboards, never by picking one up. Two fingertips come down on the top of a block and push it across the boards toward him, and it comes to rest in the row taking shape in front of his knees. He does this FOUR TIMES AND FOUR TIMES ONLY, quickly and without hesitating, taking the nearest block first and the farthest last, so each reach is longer than the one before. Four gathers and the settle fill the whole of this short shot; there is no idle time in it anywhere.
+Then he gathers, and he does it by SLIDING each block flat along the floorboards, never by picking one up. Two fingertips come down on the top of a block and push it toward him, and it stops in the line taking shape on the boards directly in front of his knees. FOUR BLOCKS COME IN, FROM FOUR PLACES:
 
-**EXACTLY FOUR BLOCKS ARE EVER TOUCHED IN THIS SHOT. EVERY OTHER BLOCK ON THE FLOOR IS NEVER TOUCHED AT ALL** — his hands pass above them and never come down on them, and each one of them sits in precisely the same place in the last frame as in the first. He does not sweep the floor, he does not tidy the strays, and he does not reach past the four he has chosen.
+— one from away on his LEFT, pushed a long way across the boards to become the left end of the row;
+— the one already under his left hand, needing only a short nudge into line beside it;
+— the one already under his right hand, nudged square into line beside that;
+— and one from out on his RIGHT, drawn back in to close the row at its right end.
 
-With the fourth in place he settles back onto his heels, brings both hands onto his knees, and looks down at the row of four.
+He takes them in that order, so the row grows from left to right and each block lands against the last.
+
+**EXACTLY FOUR BLOCKS ARE EVER TOUCHED. EVERY OTHER BLOCK ON THE FLOOR IS NEVER TOUCHED AT ALL** — the two far away on his left, the two out towards the camera on his right, and the one lying by the pouch all sit in precisely the same place in the last frame as in the first. His hands pass above them and never come down on them. He does not sweep the floor and he does not tidy the strays.
+
+With the fourth in place he settles back onto his heels, brings both hands up onto his knees, and looks down at the four in a row.
 
 REACTIONS
-Вася starts already lit up: brows high, eyes wide and bright, mouth open in a broad grin with the teeth showing. Through the gathering his eyes lead his hands — they find the next block before the hand goes — and his head turns a little each time to follow, the grin never leaving his face. By the end, sitting back with his hands on his knees, the grin has widened and his chin has lifted: pleased with what he has made. He does not look into the camera.
+Вася opens on the wide grin of the start image, mouth open with the teeth showing and the eyes bright. Almost at once his eyes SQUEEZE SHUT for a moment and the grin widens — a small private spasm of delight at his own idea. Then his eyes open, his mouth closes into a pleased shut-lipped smile with the corners still up, and his gaze drops from straight ahead down to the boards in front of him.
+
+That closed, pleased smile stays on him for the whole of the gathering and never leaves. Under it his brows draw down and together as he concentrates, and his eyes lead his hands — finding the next block before the hand goes — his head turning a little each time to follow. At the end, sitting back with his hands on his knees, the brows release and the smile widens again as he looks at what he has made. He does not look into the camera.
 
 HANDS — Вася: both hands start flat on the floorboards, palms down, arms straight, taking his weight. For each of the four gathers, the index and middle fingertips press down on the top face of a block and PUSH it flat along the boards — the hand stays open, the fingers stay straight, and the palm never closes. He never grips a block, never lifts one off the floor, never turns one over, and nothing is held in either hand at any point. Whichever hand is not pushing stays planted flat on the boards taking his weight. At the end both hands come up off the floor and rest palm-down on his knees, and they stay there.
 
@@ -37,7 +44,7 @@ PROPS
 The woven drawstring pouch lies on its side on the floorboards at the right of frame with its cord running to his rope belt, and it stays lying exactly there for the whole shot. Nothing comes out of it and nothing goes into it.
 
 GLYPHS
-NOT READABLE. The blocks are plain pale wood, seen from so low that their top faces are edge-on and foreshortened nearly to nothing. There is nothing legible anywhere in this frame and nothing in this shot asks the audience to read anything — what it says is that he is choosing, not what he chose. Every block that is not one of his four stays exactly where it lies: none rocks, spins, flips, stacks, vanishes, or is joined by a new one, and the number of blocks on the floor does not change.
+NOT READABLE. The blocks are plain pale wood, seen from so low that their top faces are edge-on and foreshortened nearly to nothing. There is nothing legible anywhere in this frame and nothing in this shot asks the audience to read anything. Every block that is not one of his four stays exactly where it lies: none rocks, spins, flips, stacks, vanishes, or is joined by a new one, and the number of blocks on the floor does not change.
 
 BACKGROUNDS
 Behind Вася runs the rope railing — turned wooden posts with round red finials, the rope slung between them — with the block wall behind it. Off to the left of frame, further back, are the shelf of metal canisters and the small stool with the bowl on it, and the string lights hang across the top left corner. All of it stays exactly as the start image has it and nothing there moves.
