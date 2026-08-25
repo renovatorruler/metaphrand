@@ -1,57 +1,17 @@
 {
   "fps": 24,
-  "dissolve": 0.1,
+  "dissolve": 0.14,
   "duration": 4.15,
-  "voice": "line62a_VASYA_read_cut.mp3 — «Ма-ма. Мама!» cut from line62 at 0.00-4.05. Voiced: «Ма» 0.18-0.88, «ма» 1.52-2.08, «Мама!» 2.98-3.84. «Вжух!» is line62b and belongs to the NEXT shot, on his face.",
+  "width": 1280,
+  "height": 720,
+  "source": "Every frame is built from exactly TWO of the author's renders — 00_rest and 05_ALL — which sit within 1.2px of each other. Each state takes the glow of one more tile from the all-lit frame and lays it on the rest frame. Nothing is warped and nothing is masked out, so the floor, both hands and every unlit tile are the SAME PIXELS in every frame and cannot drift. Her other four renders are not used: they differ by camera distance AND re-posed hands AND lighting, and no alignment can reconcile that. The cost is that the finger does not travel to each tile.",
+  "voice": "line62a_VASYA_read_cut.mp3 — «Ма» 0.18-0.88, «ма» 1.52-2.08, «Мама!» 2.98-3.84.",
   "states": [
-    {
-      "file": "00_rest.png",
-      "at": 0.0,
-      "why": "finger approaching, nothing lit"
-    },
-    {
-      "file": "01_M1.png",
-      "at": 0.18,
-      "why": "«Ма» begins — first М under the finger"
-    },
-    {
-      "file": "02_A1.png",
-      "at": 0.53,
-      "why": "second half of «Ма» — the А"
-    },
-    {
-      "file": "03_M2.png",
-      "at": 1.52,
-      "why": "«ма» begins — third tile"
-    },
-    {
-      "file": "04_A2.png",
-      "at": 1.82,
-      "why": "second half of «ма» — the fourth"
-    },
-    {
-      "file": "05_ALL.png",
-      "at": 2.98,
-      "why": "«Мама!» — the whole word lights at once"
-    }
-  ],
-  "stabilise_DISABLED": {
-    "master": 0,
-    "threshold": 35,
-    "x0": 425,
-    "y0": 150,
-    "why": "frame 0 is the master. Change is allowed only right of x=425 and below y=150 — the tile row and the arm sweep. That boundary keeps the left hand, the top planks and the far-left floor pinned to the master, because those drift between renders by up to 29/255 and read as the whole frame jumping on every cut.",
-    "align_row": {
-      "band": [
-        180,
-        400,
-        400,
-        1300
-      ],
-      "threshold": 115,
-      "min_size": 60,
-      "why": "Fit a uniform scale+shift on the UNLIT tile centres and warp the whole frame onto the master. The renders differ by camera distance — one state 11% closer, another 6% further — so tile spacing ran 176px to 219px across the set and the word slid and stretched on every cut. Warping the whole frame keeps the finger on the tile it touches. The lit tile is excluded from the fit because its glow drags the centroid by 10px or more."
-    },
-    "why_off": "Tried 2026-08-24 and backed out. It fixed every number I could measure — background jitter 27/255 to 0.04, tile spacing spread 32px to 10px — and wrecked the picture: warping to align the tiles dragged the floorboards out of line, and the brightness masks that kept the floor still cut the forearm off and left dark patches. A plain cut of the author's frames looks better than anything I composited from them. The real fix is upstream: six states rendered from ONE camera need no alignment at all."
-  }
+    {"file": "b0_none.png",  "at": 0.00, "why": "nothing lit"},
+    {"file": "b1_M.png",     "at": 0.18, "why": "«Ма» begins — М lights AND STAYS LIT"},
+    {"file": "b2_MA.png",    "at": 0.53, "why": "the А of «Ма» — two lit now"},
+    {"file": "b3_MAM.png",   "at": 1.52, "why": "«ма» begins — three lit"},
+    {"file": "b4_MAMA.png",  "at": 1.82, "why": "the whole word is lit and stays lit through the pause"},
+    {"file": "b5_FULL.png",  "at": 2.98, "why": "«Мама!» — the word goes to full brightness"}
+  ]
 }
