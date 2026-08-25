@@ -25,6 +25,20 @@ VIDEO="$1"; OUT="$2"; LINES="$3"; KEEP="${4:-}"
 
 VIDLEN=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$VIDEO")
 
+# A CLIP CAN ARRIVE WITH NO AUDIO AT ALL. Kling is generated with sound off, so
+# it comes back as a bare video stream — and every step below assumes there is a
+# bed to measure and mute. Without this the script died on an empty detector and
+# wrote no file. Where there is no audio, silence of the right length becomes the
+# bed and the muting has nothing to do.
+HASAUDIO=$(ffprobe -v error -select_streams a -show_entries stream=index -of csv=p=0 "$VIDEO" | head -1)
+if [ -z "$HASAUDIO" ]; then
+  SILENT=$(mktemp -t dubsil).mp4
+  ffmpeg -v error -y -i "$VIDEO" -f lavfi -t "$VIDLEN" -i anullsrc=r=48000:cl=mono \
+    -map 0:v -map 1:a -c:v copy -c:a aac -b:a 128k -shortest "$SILENT"
+  VIDEO="$SILENT"
+  echo "  source had no audio track — laying the lines over silence"
+fi
+
 # ---- refuse to truncate -------------------------------------------------------
 OVERRUN=0
 IFS=':' read -ra CHECK <<< "$LINES"

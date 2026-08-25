@@ -446,6 +446,21 @@ let nonDialogueHeadSec = 2.0
 let assertDurationHoldsAudio = (record, script: string, problem): unit => {
   let index = loadLineIndex()
   if Belt.Array.length(index) > 0 {
+    /* A job that names the recordings it carries is sized against those. Without
+       it, a shot covering half a script line is measured against the whole line
+       and padded with seconds that hold nothing. */
+    let declared =
+      record.carriesLines->Belt.Array.keepMap(f =>
+        index
+        ->Belt.Array.getBy(((name, _, _)) => name == f)
+        ->Belt.Option.map(((n, d, _)) => (n, d))
+      )
+    if Belt.Array.length(record.carriesLines) > 0 && Belt.Array.length(declared) < Belt.Array.length(record.carriesLines) {
+      problem(
+        record.jobId,
+        "names a recording in carriesLines that is not in LINE_INDEX.json. A job may only be sized against takes the index knows the length of.",
+      )
+    }
     let lines =
       shRange(record.shots)->Belt.Array.map(sh => linesForShot(script, sh))->Belt.Array.concatMany
     /* One recording can answer TWO script lines: the script splits Фрося's wish
@@ -463,6 +478,7 @@ let assertDurationHoldsAudio = (record, script: string, problem): unit => {
           true
         }
       )
+    let found = Belt.Array.length(record.carriesLines) > 0 ? declared : found
     let total = found->Belt.Array.reduce(0.0, (acc, (_, d)) => acc +. d)
     let needed =
       total +.

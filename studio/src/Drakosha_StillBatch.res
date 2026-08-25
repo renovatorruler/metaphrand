@@ -44,6 +44,7 @@ let emitStillRefs = (r: stillRecord): array<string> =>
     startImage: None,
     durationSec: 8,
     creative: "",
+    carriesLines: [],
   })
 
 

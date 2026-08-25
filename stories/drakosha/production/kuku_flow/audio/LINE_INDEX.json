@@ -650,5 +650,41 @@
  "s8_YAGA_ish-ty.mp3": {
   "dur": 1.04,
   "text": "Ишь ты."
+ },
+ "line62a_VASYA_read_cut.mp3": {
+  "dur": 3.95,
+  "text": "Ма-ма. Мама!"
+ },
+ "line62b_VASYA_vzhukh_cut.mp3": {
+  "dur": 0.91,
+  "text": "Вжух!"
+ },
+ "line60a_VASYA_aya_cut.mp3": {
+  "dur": 0.95,
+  "text": "А я,"
+ },
+ "line60b_VASYA_tozhehochu_cut.mp3": {
+  "dur": 1.65,
+  "text": "я тоже хочу."
+ },
+ "line60b_VASYA_mneslovo_cut.mp3": {
+  "dur": 1.55,
+  "text": "Мне слово"
+ },
+ "line60c_VASYA_lyogkoe_cut.mp3": {
+  "dur": 1.13,
+  "text": "лёгкое."
+ },
+ "line61_l61a_cut.mp3": {
+  "dur": 1.26,
+  "text": "Ну собери сам,"
+ },
+ "line61_l61b_cut.mp3": {
+  "dur": 0.5,
+  "text": "ты же"
+ },
+ "line61_l61c_cut.mp3": {
+  "dur": 0.72,
+  "text": "читать будешь."
  }
 }

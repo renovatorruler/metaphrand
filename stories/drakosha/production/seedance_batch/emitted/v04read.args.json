@@ -1,0 +1,8 @@
+{
+  "model": "kling3_0",
+  "duration": 6,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-25_V04_MAMA_start_unlit.png",
+  "endImage": "../stories/drakosha/rnd/keyframes/2026-08-25_V04_MAMA_END_all-lit.png",
+  "imageReferences": [],
+  "promptSha256": "e05d7ccac2bf79de022c0b661d3e9d435bbe7fa87cfc3391e127d0cba4d8ef2e"
+}

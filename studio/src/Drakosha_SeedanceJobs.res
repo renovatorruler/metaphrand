@@ -84,7 +84,7 @@ type jobSpec = {
 }
 
 let job = (jobId, shots, cast, props, startImage, durationSec, model): jobSpec => {
-  record: {jobId, shots, cast, props, startImage, durationSec, creative: ""},
+  record: {jobId, shots, cast, props, startImage, durationSec, creative: "", carriesLines: []},
   creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
   model,
   endImage: None,
@@ -102,14 +102,24 @@ let job = (jobId, shots, cast, props, startImage, durationSec, model): jobSpec =
    references, which is the combination this needs — the frames pin the
    composition, the sheets carry who he is. */
 let endJob = (jobId, shots, cast, props, startFrame, endFrame, durationSec, model): jobSpec => {
-  record: {jobId, shots, cast, props, startImage: Some(startFrame), durationSec, creative: ""},
+  record: {jobId, shots, cast, props, startImage: Some(startFrame), durationSec, creative: "", carriesLines: []},
+  creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
+  model,
+  endImage: Some(endFrame),
+}
+
+/* endJob for a shot that carries only SOME of what the script gives its SH
+   codes — name the recordings it actually holds and the duration gate sizes it
+   against those. */
+let endJobCarrying = (jobId, shots, cast, props, startFrame, endFrame, durationSec, model, carries): jobSpec => {
+  record: {jobId, shots, cast, props, startImage: Some(startFrame), durationSec, creative: "", carriesLines: carries},
   creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
   model,
   endImage: Some(endFrame),
 }
 
 let loopJob = (jobId, shots, cast, props, frame, durationSec, model): jobSpec => {
-  record: {jobId, shots, cast, props, startImage: Some(frame), durationSec, creative: ""},
+  record: {jobId, shots, cast, props, startImage: Some(frame), durationSec, creative: "", carriesLines: []},
   creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
   model,
   endImage: Some(frame),
@@ -427,6 +437,38 @@ let all: array<jobSpec> = [
     5,
     Mini,
   ),
+  /* МАМА LIGHTS UP — generated, not composited. Two of the author's own renders
+     of this overhead sit within 1.2px of each other: same camera, same hands,
+     same tiles, differing only in the glow and where the finger is. They become
+     the start and end frames and the model generates the travel between them.
+
+     KLING3_0, NOT SEEDANCE. Measured on our own write-loop footage of 2026-08-20,
+     where the same plate was pinned at both ends: kling3_0 held it at 2.88 in
+     the first frame and 3.10 in the last, and — the number that matters —
+     drifted only to 3.60 through the MIDDLE. veo3_1_lite pinned the ends at
+     2.07 but swung to 7.48 in between, which is the character turning into
+     somebody else; mini with references peaked at 6.51. Seedance mini on the
+     gather shot came back at 9.98 and 16.61. Kling is the only one on the
+     account that stays with the plate the whole way through.
+
+     Kling's flatness is a liability where a shot needs a big change and a virtue
+     here, because almost nothing changes: four blocks that must not move, one
+     hand that must not move, and a fingertip sliding sideways. The whole event
+     is a glow arriving four times.
+
+     Kling takes no image references at all, which costs nothing — no face is in
+     frame, and the author's plates carry the tiles and the letters. */
+  endJobCarrying(
+    "v04read",
+    "SH123",
+    [],
+    [],
+    "2026-08-25_V04_MAMA_start_unlit.png",
+    "2026-08-25_V04_MAMA_END_all-lit.png",
+    6,
+    Kling30,
+    ["line62a_VASYA_read_cut.mp3"],
+  ),
   /* SCENE 7 — the niche, the chest, the letters. All on mini.
 
      GEOGRAPHY, set once by the author and not re-derived per shot: Мама works at
@@ -460,7 +502,7 @@ let all: array<jobSpec> = [
 let retired: array<shotRecord> = [
   /* s6jobF — SHOT AND ACCEPTED 2026-08-18. Мама's line, reshot alone after the
      first take smiled through it. Retired with the rest of scene 6. */
-  {jobId: "s6jobF", shots: "SH081", cast: [Mama], props: [RoomFront], startImage: None, durationSec: 11, creative: ""},
+  {jobId: "s6jobF", shots: "SH081", cast: [Mama], props: [RoomFront], startImage: None, durationSec: 11, creative: "", carriesLines: []},
   /* SCENE 6, SHOT AND ACCEPTED 2026-08-18. Retired the moment the footage
      existed, which is also what frees the choreography to keep improving: these
      five creatives predate assertHandsWritten and the facial-anatomy rule, and
@@ -469,11 +511,11 @@ let retired: array<shotRecord> = [
 
      s6jobE is a PARTIAL accept: 4.45s of it is used and Мама's third shot was
      reshot as s6jobF. The record keeps the generation that actually happened. */
-  {jobId: "s6jobA", shots: "SH066-068", cast: [YagaDomovoy, Frosya], props: [RoomFront, Pencil], startImage: None, durationSec: 12, creative: ""},
-  {jobId: "s6jobB", shots: "SH069-073", cast: [Frosya, YagaDomovoy, Vasya], props: [RoomFront, Pencil], startImage: None, durationSec: 13, creative: ""},
-  {jobId: "s6jobC", shots: "SH074-077", cast: [Vasya, YagaDomovoy, Frosya], props: [RoomFront, Pencil], startImage: None, durationSec: 17, creative: ""},
-  {jobId: "s6jobD", shots: "SH078", cast: [YagaDomovoy, Frosya, Vasya], props: [RoomFront, Pencil], startImage: None, durationSec: 8, creative: ""},
-  {jobId: "s6jobE", shots: "SH079-081", cast: [Frosya, YagaDomovoy, Mama], props: [RoomFront, Pencil], startImage: None, durationSec: 13, creative: ""},
+  {jobId: "s6jobA", shots: "SH066-068", cast: [YagaDomovoy, Frosya], props: [RoomFront, Pencil], startImage: None, durationSec: 12, creative: "", carriesLines: []},
+  {jobId: "s6jobB", shots: "SH069-073", cast: [Frosya, YagaDomovoy, Vasya], props: [RoomFront, Pencil], startImage: None, durationSec: 13, creative: "", carriesLines: []},
+  {jobId: "s6jobC", shots: "SH074-077", cast: [Vasya, YagaDomovoy, Frosya], props: [RoomFront, Pencil], startImage: None, durationSec: 17, creative: "", carriesLines: []},
+  {jobId: "s6jobD", shots: "SH078", cast: [YagaDomovoy, Frosya, Vasya], props: [RoomFront, Pencil], startImage: None, durationSec: 8, creative: "", carriesLines: []},
+  {jobId: "s6jobE", shots: "SH079-081", cast: [Frosya, YagaDomovoy, Mama], props: [RoomFront, Pencil], startImage: None, durationSec: 13, creative: "", carriesLines: []},
   /* s5job3 — SHOT 2026-08-18 as 2026-08-18_EP1_s5job3_v1_seedance25_16s.mp4.
      Retired the moment its footage existed, for the reason written above: a job
      that stays in `all` after it is shot is a job the batch would pay for twice,
@@ -488,6 +530,7 @@ let retired: array<shotRecord> = [
     startImage: Some("FRAME:scene5/2026-08-18_SCENE5_job3_START_from-s5job2-mama.png"),
     durationSec: 16,
     creative: "",
+    carriesLines: [],
   },
   {
     jobId: "s5job1",
@@ -497,6 +540,7 @@ let retired: array<shotRecord> = [
     startImage: None,
     durationSec: 8,
     creative: "",
+    carriesLines: [],
   },
   {
     jobId: "s5job2",
@@ -506,19 +550,20 @@ let retired: array<shotRecord> = [
     startImage: Some("FRAME:scene5/2026-08-17_SCENE5_MASTER_dinner-table_author.png"),
     durationSec: 20,
     creative: "",
+    carriesLines: [],
   },
 ]
 
 /* the shot batch, kept for provenance and for start-frame lookups */
 let retiredBatch: array<shotRecord> = [
-  {jobId: "job10", shots: "SH018-020", cast: [Frosya, Vasya, Mama, Papa, Rusya, Musya], props: [RoomFront, Carry, Top], startImage: None, durationSec: 12, creative: ""},
-  {jobId: "job11", shots: "SH021-023", cast: [Frosya, Vasya, Papa], props: [RoomFront, Top], startImage: None, durationSec: 12, creative: ""},
-  {jobId: "job12", shots: "SH024-027", cast: [Frosya, Vasya, Papa, Mama, Babies], props: [RoomFront, Top], startImage: None, durationSec: 12, creative: ""},
-  {jobId: "job13", shots: "SH028-029", cast: [Mama, Frosya, Babies], props: [RoomFront, Tin, Top], startImage: None, durationSec: 8, creative: ""},
-  {jobId: "job14", shots: "SH030-032", cast: [Frosya, Mama, Babies], props: [RoomFront, Tin], startImage: None, durationSec: 12, creative: ""},
-  {jobId: "job15", shots: "SH033-035", cast: [YagaFlight], props: [Roof, Stupa], startImage: None, durationSec: 8, creative: ""},
-  {jobId: "job16", shots: "SH036-038", cast: [YagaFlight], props: [Roof, Stupa], startImage: None, durationSec: 8, creative: ""},
-  {jobId: "job17", shots: "SH039-041", cast: [Frosya, Vasya, Mama, Papa, Babies], props: [RoomFront, RoomFrontLow, RoomFrontHatch, Door], startImage: None, durationSec: 8, creative: ""},
-  {jobId: "job18", shots: "SH042-043", cast: [YagaDomovoy], props: [Stupa, Pomelo, Broom], startImage: Some("2026-08-14_KF_job18_start_from-job17-lastframe_hatch-puff.png"), durationSec: 12, creative: ""},
-  {jobId: "job19", shots: "SH044-046", cast: [YagaDomovoy, Frosya, Vasya, Mama, Papa, Babies], props: [RoomFront, RoomFrontLow, RoomFrontHatch, Door, Stupa], startImage: None, durationSec: 8, creative: ""},
+  {jobId: "job10", shots: "SH018-020", cast: [Frosya, Vasya, Mama, Papa, Rusya, Musya], props: [RoomFront, Carry, Top], startImage: None, durationSec: 12, creative: "", carriesLines: []},
+  {jobId: "job11", shots: "SH021-023", cast: [Frosya, Vasya, Papa], props: [RoomFront, Top], startImage: None, durationSec: 12, creative: "", carriesLines: []},
+  {jobId: "job12", shots: "SH024-027", cast: [Frosya, Vasya, Papa, Mama, Babies], props: [RoomFront, Top], startImage: None, durationSec: 12, creative: "", carriesLines: []},
+  {jobId: "job13", shots: "SH028-029", cast: [Mama, Frosya, Babies], props: [RoomFront, Tin, Top], startImage: None, durationSec: 8, creative: "", carriesLines: []},
+  {jobId: "job14", shots: "SH030-032", cast: [Frosya, Mama, Babies], props: [RoomFront, Tin], startImage: None, durationSec: 12, creative: "", carriesLines: []},
+  {jobId: "job15", shots: "SH033-035", cast: [YagaFlight], props: [Roof, Stupa], startImage: None, durationSec: 8, creative: "", carriesLines: []},
+  {jobId: "job16", shots: "SH036-038", cast: [YagaFlight], props: [Roof, Stupa], startImage: None, durationSec: 8, creative: "", carriesLines: []},
+  {jobId: "job17", shots: "SH039-041", cast: [Frosya, Vasya, Mama, Papa, Babies], props: [RoomFront, RoomFrontLow, RoomFrontHatch, Door], startImage: None, durationSec: 8, creative: "", carriesLines: []},
+  {jobId: "job18", shots: "SH042-043", cast: [YagaDomovoy], props: [Stupa, Pomelo, Broom], startImage: Some("2026-08-14_KF_job18_start_from-job17-lastframe_hatch-puff.png"), durationSec: 12, creative: "", carriesLines: []},
+  {jobId: "job19", shots: "SH044-046", cast: [YagaDomovoy, Frosya, Vasya, Mama, Papa, Babies], props: [RoomFront, RoomFrontLow, RoomFrontHatch, Door, Stupa], startImage: None, durationSec: 8, creative: "", carriesLines: []},
 ]

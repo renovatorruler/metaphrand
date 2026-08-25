@@ -37,6 +37,17 @@ type shotRecord = {
   startImage: option<string>, // relative to rnd/keyframes; None = refs+text only
   durationSec: int, // 5 | 8 | 12 (validated by the stage)
   creative: string, // CINEDANCE choreography blocks only — no @tags, no cast descriptions
+  /* WHICH RECORDINGS THIS JOB ACTUALLY CARRIES, when it carries only part of a
+     script shot. Empty means "everything the script gives these SH codes", which
+     is true of almost every job and is what the duration gate assumes.
+
+     It stopped being true once lines started being cut. SH123 is «МА… МА. МАМА!
+     ВЖУХ!» — but the reading is an overhead of the floor and the ВЖУХ has to be
+     on his face, so they are two shots. Sized against the whole line the
+     overhead needs 7s and three of them are dead. Naming the cut it carries
+     lets the gate size it against 4.05s of «Ма-ма. Мама!» instead, and still
+     refuse it if that does not fit. */
+  carriesLines: array<string>,
 }
 
 /* ---- The registry: one source of truth per token ---- */

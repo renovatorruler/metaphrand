@@ -1,0 +1,42 @@
+ACTIVE REFERENCES
+
+
+THE WORD LIGHTS UP. From the start image: the camera looks straight down at a wooden plank floor. Four square wooden blocks lie in a row across the upper middle of the frame, evenly spaced, none of them lit. At the lower left an open hand rests palm-down on the boards, fingers spread, and it does not move for the whole shot. At the lower middle a second hand is raised with the index finger pointing up toward the first block of the row, the forearm running down out of the bottom of frame.
+
+THE END IMAGE IS WHERE THIS SHOT FINISHES: all four blocks glowing warm gold at once, the pointing hand over at the right-hand end of the row, and the open hand still resting exactly where it started.
+
+CAMERA
+Locked off, straight down, at the start image's framing. It does not move, it does not rotate, and focus does not shift.
+
+DIALOGUE
+NOBODY SPEAKS ON CAMERA and no voice is generated. No face is in frame — there is nothing here but a floor, four blocks and two hands, so there is no mouth to move and nothing to say.
+
+The shot is cut to a line that is laid over it afterwards, «МА… МА. МА́-МА! ВЖУХ!» — the boy's reading, recorded separately. His four touches fall across the two sounded-out syllables and then the whole word, which is why the fingertip pauses on each block in turn. The «ВЖУХ!» belongs to the shot after this one, on his face. None of it is spoken in frame here.
+
+SOUND
+A soft warm chime as each block lights, four of them, rising a little in pitch each time. Nothing else. No music, no voices.
+
+WHAT HAPPENS
+The pointing fingertip travels along the row from left to right and touches each block in turn — first, second, third, fourth — pausing on each one.
+
+AS THE FINGERTIP TOUCHES A BLOCK THAT BLOCK LIGHTS UP: its face turns from plain wood to warm glowing gold, with the light spilling a little onto the boards around it. ONCE A BLOCK IS LIT IT STAYS LIT for the rest of the shot. So the row fills with light from left to right — one lit, then two, then three, then all four — and by the last frame the whole word is glowing at once.
+
+The hand moves only sideways along the row, staying low and close to the boards, and finishes at the right-hand end.
+
+BLOCKS
+The four blocks NEVER MOVE. They do not slide, rock, spin, flip, rise off the floor or change places, and their spacing stays exactly as the start image has it. No fifth block appears and none disappears. The only thing that changes about a block is that it lights.
+
+HANDS — the two hands in frame: the open hand at the lower left stays exactly where the start image puts it, palm down on the boards with the fingers spread, for the entire shot — it never lifts, slides, closes or leaves the frame. The pointing hand keeps one index finger extended and the other fingers curled the whole time; it does not open, grab, or pick anything up. It travels sideways from the first block to the fourth, and its forearm stays running down out of the bottom of the frame throughout, never floating free of the edge.
+
+GLYPHS
+PLATE. The letters are the author's own artwork and they are present in the start image and the end image exactly as they must appear. The blocks are motionless for the whole shot and the camera is locked, so every letter stays at rest in the same place in every frame — nothing in this shot moves a letter, reshapes one, or writes a new one. Each carved letter keeps precisely the form it has in the start image, both before it lights and after.
+
+BACKGROUNDS
+The framing shows no wall. The camera looks straight down and dark wooden floorboards fill the whole frame, running left to right across it, exactly as the start image has them. The plank seams stay where they are and nothing else enters the frame.
+
+HOLD
+The camera does not move. The blocks do not move. The open hand does not move. Nothing enters or leaves the frame except the pointing hand travelling sideways along the row.
+
+
+POSITIVE CONSTRAINTS
+Exactly these characters and no others: . Every character matches their reference exactly. No additional people, no additional babies, no duplicates. No text, no subtitles, no watermarks.
