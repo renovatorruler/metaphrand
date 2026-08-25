@@ -196,6 +196,11 @@ let editPrompt = (e: editSpec) =>
     "\n",
   )
 
+let directionLaw = [
+  "DIRECTION IS FIXED: anything travelling in this shot moves in ONE direction for the whole clip. A cart running downhill never slows to a stop and rolls back up, never reverses, and never drifts backwards relative to the ground. The camera likewise never reverses its travel or turns to look back the way it came.",
+  "the ground moves past in one consistent direction the entire time — it must never flow the other way",
+]
+
 let paperPhysics = [
   "papercraft world physics: stiff cut-paper wings flex slightly at their folds, motion has real weight",
   "the character's design and colors stay identical in every frame — no morphing, no redesign",
@@ -211,7 +216,7 @@ let videoPrompt = (v: videoSpec) =>
       "BLOCKING:\n" ++ bullets(v.blocking),
       "ACTION TIMING:\n" ++ bullets(v.beats),
       "CAMERA: " ++ v.camera,
-      "PHYSICS:\n" ++ bullets(Js.Array2.concat(paperPhysics, v.physics)),
+      "PHYSICS:\n" ++ bullets(Js.Array2.concat(Js.Array2.concat(directionLaw, paperPhysics), v.physics)),
       "LIGHTING: " ++ v.lighting,
       "AUDIO: " ++ v.audio,
       "STYLE: " ++ styleLaw ++ ". The whole clip stays in this medium — no drift to 2D animation, no photorealism.",

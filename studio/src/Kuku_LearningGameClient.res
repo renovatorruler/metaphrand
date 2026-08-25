@@ -6,6 +6,7 @@ type gradient
 type textMetrics
 type domRect
 type domEvent
+type imageElement
 type response
 type promise<'a>
 type storage
@@ -15,6 +16,8 @@ type oscillator
 type gainNode
 type audioParam
 type audioDestination
+type audioElement
+type audioSession
 type speechSynthesis
 type speechVoice
 type speechUtterance
@@ -62,6 +65,18 @@ type gamepadButton
 @send external fillRect: (context, float, float, float, float) => unit = "fillRect"
 @send external clearRect: (context, float, float, float, float) => unit = "clearRect"
 @send external fillText: (context, string, float, float) => unit = "fillText"
+@send external drawImageCrop: (
+  context,
+  imageElement,
+  float,
+  float,
+  float,
+  float,
+  float,
+  float,
+  float,
+  float,
+) => unit = "drawImage"
 @send external measureText: (context, string) => textMetrics = "measureText"
 @get external textWidth: textMetrics => float = "width"
 @send external saveContext: context => unit = "save"
@@ -72,6 +87,11 @@ type gamepadButton
 @send external setTransform: (context, float, float, float, float, float, float) => unit = "setTransform"
 @send external createLinearGradient: (context, float, float, float, float) => gradient = "createLinearGradient"
 @send external addColorStop: (gradient, float, string) => unit = "addColorStop"
+
+@new external makeImageElement: unit => imageElement = "Image"
+@set external setImageElementSrc: (imageElement, string) => unit = "src"
+@get external imageElementComplete: imageElement => bool = "complete"
+@get external imageElementNaturalWidth: imageElement => int = "naturalWidth"
 
 @set external setFillStyle: (context, string) => unit = "fillStyle"
 @set external setFillGradient: (context, gradient) => unit = "fillStyle"
@@ -131,6 +151,16 @@ type gamepadButton
 @send external startOscillator: (oscillator, float) => unit = "start"
 @send external stopOscillator: (oscillator, float) => unit = "stop"
 
+@new external makeAudioElement: string => audioElement = "Audio"
+@send external playAudioElement: audioElement => promise<unit> = "play"
+@send external pauseAudioElement: audioElement => unit = "pause"
+@send external loadAudioElement: audioElement => unit = "load"
+@set external setAudioElementSrc: (audioElement, string) => unit = "src"
+@set external setAudioElementCrossOrigin: (audioElement, string) => unit = "crossOrigin"
+
+@val @scope("navigator") external audioSessionNullable: Js.Nullable.t<audioSession> = "audioSession"
+@set external setAudioSessionType: (audioSession, string) => unit = "type"
+
 @val external browserSpeech: speechSynthesis = "speechSynthesis"
 @send external speechCancel: speechSynthesis => unit = "cancel"
 @send external speechVoices: speechSynthesis => array<speechVoice> = "getVoices"
@@ -161,6 +191,7 @@ type question = {
   kind: string,
   prompt: string,
   speak: string,
+  audio: string,
   icon: string,
   choices: array<string>,
   answer: int,
@@ -366,6 +397,23 @@ let playCue = (kind: string, enabled: bool): unit => {
   }
 }
 
+// iOS only allows later, automatic prompt playback when the same media element first
+// played from a child's tap. Keep one element for the entire session and reuse it.
+let promptAudio = makeAudioElement("")
+setAudioElementCrossOrigin(promptAudio, "anonymous")
+
+// Installed iOS web apps otherwise follow the hardware Silent switch. The parent app
+// uses the same feature-detected setting; repeating it here keeps the embedded game
+// correct when it is also served on its own.
+switch Js.Nullable.toOption(audioSessionNullable) {
+| Some(session) => setAudioSessionType(session, "playback")
+| None => ()
+}
+
+// Invalidates a late play() rejection from an older prompt, so it cannot start browser
+// speech over a newer question.
+let promptAttempt = {contents: 0}
+
 let speakNative = (text: string, enabled: bool): bool => {
   try {
     speechCancel(browserSpeech)
@@ -393,6 +441,8 @@ let speakNative = (text: string, enabled: bool): bool => {
 }
 
 let cancelSpeech = (): unit => {
+  promptAttempt.contents = promptAttempt.contents + 1
+  pauseAudioElement(promptAudio)
   try {
     speechCancel(browserSpeech)
   } catch {
@@ -443,6 +493,7 @@ let blankQuestion: question = {
   kind: "",
   prompt: "",
   speak: "",
+  audio: "",
   icon: "",
   choices: ["", "", ""],
   answer: 0,
@@ -537,6 +588,8 @@ let state: gameState = {
 
 let gameCanvas = getElementById(browserDocument, "game")
 let ctx = getCanvasContext(gameCanvas, "2d")
+let promptAtlas = makeImageElement()
+setImageElementSrc(promptAtlas, "./assets/illustrations-v2/primer-atlas.png")
 
 let nextRandom = (): float => {
   state.seed = rngStep(state.seed)
@@ -746,9 +799,35 @@ let shuffleChoices = () => {
 
 let speakQuestion = () => {
   if state.phase == 2 && state.loaded {
+    let question = arrayGet(state.content.questions, state.currentIndex)
     let enabled = state.sound && state.speechOverride != 0
-    let available = speakNative(arrayGet(state.content.questions, state.currentIndex).speak, enabled)
-    state.speechAvailable = if state.speechOverride == 1 {true} else {available}
+    if !enabled {
+      cancelSpeech()
+      state.speechAvailable = state.speechOverride == 1
+    } else if question.audio == "" {
+      let available = speakNative(question.speak, true)
+      state.speechAvailable = if state.speechOverride == 1 {true} else {available}
+    } else {
+      cancelSpeech()
+      let attempt = promptAttempt.contents
+      state.speechAvailable = true
+      try {
+        setAudioElementSrc(promptAudio, question.audio)
+        loadAudioElement(promptAudio)
+        let playing = playAudioElement(promptAudio)
+        let _ = catchPromise(playing, _error => {
+          if promptAttempt.contents == attempt && state.phase == 2 && state.sound {
+            let available = speakNative(question.speak, true)
+            state.speechAvailable = if state.speechOverride == 1 {true} else {available}
+          }
+        })
+      } catch {
+      | _ => {
+          let available = speakNative(question.speak, true)
+          state.speechAvailable = if state.speechOverride == 1 {true} else {available}
+        }
+      }
+    }
   }
 }
 
@@ -1233,6 +1312,59 @@ let answerPosition = (question: question): int => {
   found.contents
 }
 
+let atlasTile = (column: int, row: int): rect => {
+  let sourceY = if row == 0 {0.0} else if row == 1 {333.0} else {666.0}
+  let sourceHeight = if row == 2 {358.0} else {333.0}
+  {x: intToFloat(column) *. 384.0, y: sourceY, w: 384.0, h: sourceHeight}
+}
+
+let promptAtlasCrop = (question: question): rect => {
+  if question.kind == "glyph" {
+    atlasTile(0, 0)
+  } else {
+    switch question.id {
+    | "pic_kaan"
+    | "word_kaan" => atlasTile(0, 0)
+    | "pic_machhli" => atlasTile(1, 0)
+    | "pic_roti" => atlasTile(2, 0)
+    | "pic_nal" => atlasTile(3, 0)
+    | "pic_patang" => atlasTile(0, 1)
+    | "pic_tota" => atlasTile(1, 1)
+    | "pic_aam"
+    | "word_aam" => atlasTile(2, 1)
+    | "pic_chammach" => atlasTile(3, 1)
+    | "pic_bakri" => atlasTile(0, 2)
+    | "pic_gaay" => atlasTile(1, 2)
+    | "pic_naak"
+    | "word_naak" => atlasTile(2, 2)
+    | "word_taaraa" => atlasTile(3, 2)
+    | _ => emptyRect()
+    }
+  }
+}
+
+let drawPromptToken = (question: question, centerX: float, centerY: float, height: float) => {
+  let crop = promptAtlasCrop(question)
+  if crop.w > 0.0 && imageElementComplete(promptAtlas) && imageElementNaturalWidth(promptAtlas) > 0 {
+    let width = height *. crop.w /. crop.h
+    drawImageCrop(
+      ctx,
+      promptAtlas,
+      crop.x,
+      crop.y,
+      crop.w,
+      crop.h,
+      centerX -. width /. 2.0,
+      centerY -. height /. 2.0,
+      width,
+      height,
+    )
+  } else {
+    setFont(ctx, font(700, height *. 0.82))
+    fillText(ctx, question.icon, centerX, centerY)
+  }
+}
+
 let drawPrompt = (question: question) => {
   let box = state.layout.prompt
   drawPaperCard(box, "#fff9e7", "#d8c18b", true)
@@ -1245,14 +1377,22 @@ let drawPrompt = (question: question) => {
 
   if state.layout.portrait {
     drawDragon(state.layout.dragonX, state.layout.dragonY, state.layout.dragonScale, state.wrongChoice < 0)
-    setFont(ctx, font(700, clamp(box.h *. 0.30, 52.0, 76.0)))
-    fillText(ctx, question.icon, box.x +. box.w *. 0.66, box.y +. box.h *. 0.46)
+    drawPromptToken(
+      question,
+      box.x +. box.w *. 0.66,
+      box.y +. box.h *. 0.46,
+      clamp(box.h *. 0.39, 78.0, 104.0),
+    )
     setFillStyle(ctx, "#243f3b")
     setFont(ctx, font(800, clamp(state.width *. 0.060, 21.0, 28.0)))
     drawWrappedCentered(question.prompt, box.x +. box.w /. 2.0, box.y +. box.h -. 54.0, box.w -. 42.0, 31.0, 2)
   } else {
-    setFont(ctx, font(700, clamp(box.h *. 0.44, 62.0, 104.0)))
-    fillText(ctx, question.icon, box.x +. box.w *. 0.15, box.y +. box.h *. 0.56)
+    drawPromptToken(
+      question,
+      box.x +. box.w *. 0.15,
+      box.y +. box.h *. 0.56,
+      clamp(box.h *. 0.62, 86.0, 142.0),
+    )
     setFillStyle(ctx, "#243f3b")
     setFont(ctx, font(800, clamp(state.width *. 0.027, 24.0, 38.0)))
     drawWrappedCentered(

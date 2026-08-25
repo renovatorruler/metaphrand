@@ -26,3 +26,8 @@
 #     the ask. The cut currently goes straight from Мама's thank-you to Вася.
 2026-08-24_V01_ask_v3_dub.mp4                      # SH120 «А я, я тоже хочу. Мне слово лёгкое.»
 2026-08-24_V02_answer_v3_dub.mp4                   # SH121 «Ну собери сам, ты же читать будешь.»
+2026-08-25_V03_idea_only.mp4                       # SH122 he looks, scratches, and lights up with the idea — OUT ON THE GRIN.
+#     The gather is deliberately not in the cut (author, 2026-08-25): we go straight
+#     from his face to the word already assembled. The pickup exists if it is ever
+#     wanted — 2026-08-25_V03_gather_v9_landed.mp4.
+2026-08-25_V04_MAMA_read_kling_v5_kidvoice.mp4     # SH123 overhead: М-А-М-А lighting under his finger, then Ма-ма

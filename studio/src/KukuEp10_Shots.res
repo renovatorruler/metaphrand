@@ -26,7 +26,7 @@ external execFileSync: (string, array<string>, execOpts) => string = "execFileSy
 /* canonical recurring props — locked descriptions, deterministic across shots */
 let bell = doing => P.Prop({what: "THE BELL — the bronze paper bell of the flight ring on its paper cord", doing})
 let redRope = doing => P.Prop({what: "THE ROPE — the thick red paper-twine rope", doing})
-let marker = doing => P.Prop({what: "A RED MARKER — a small red paper marker set into the flagstone lane", doing})
+let marker = doing => P.Prop({what: "A RED DISTANCE MARK — a flat red paper paving stone set FLUSH into the lane, level with the surrounding flagstones; never a raised block, wedge or post, and never something the cart bumps over", doing})
 let kada = doing => P.Prop({what: "THE कड़ा — a golden paper bracelet cuff with two small blank golden medallions set into it", doing})
 let shards = doing => P.Prop({what: "GLYPH-SHARDS — small jagged black broken paper shards", doing})
 let doorway = doing => P.Prop({what: "THE DOORWAY — an open golden paper doorway standing between two worlds", doing})
@@ -147,7 +147,12 @@ let mk = (
         | None => a
         }) ++ " m",
       )
-      Js.Array2.concat([Sets.lanePosition(a, cartAt)], extraRules)
+      Js.Array2.concat(
+        Js.Array2.length(dragons) > 0 && form == P.Great
+          ? [Sets.lanePosition(a, cartAt), Sets.greatFormStaging]
+          : [Sets.lanePosition(a, cartAt)],
+        extraRules,
+      )
     }
   | None => extraRules
   }

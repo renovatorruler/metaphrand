@@ -41,9 +41,9 @@ let laneDrop = 9.0 /* metres of fall from post to flat */
 let laneLandmarks = [
   {name: "STONE POST", x: -4.6, y: 0.0, z: laneDrop, note: "the rope tie-point at the top of the slope, on the LEFT kerb"},
   {name: "CART START", x: 0.0, y: 2.0, z: laneDrop *. 0.97, note: "where the tethered cart stands"},
-  {name: "MARKER 1", x: 0.0, y: 12.0, z: laneDrop *. 0.75, note: "first red marker, centreline"},
-  {name: "MARKER 2", x: 0.0, y: 24.0, z: laneDrop *. 0.5, note: "second red marker, centreline"},
-  {name: "MARKER 3", x: 0.0, y: 36.0, z: laneDrop *. 0.25, note: "third and last red marker, centreline"},
+  {name: "MARKER 1", x: 0.0, y: 12.0, z: laneDrop *. 0.75, note: "first distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones — never a raised block, wedge or post, and never an obstacle the cart rides over"},
+  {name: "MARKER 2", x: 0.0, y: 24.0, z: laneDrop *. 0.5, note: "second distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones — never raised, never an obstacle"},
+  {name: "MARKER 3", x: 0.0, y: 36.0, z: laneDrop *. 0.25, note: "third and last distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones — never raised, never an obstacle"},
   {name: "FLAT BEGINS", x: 0.0, y: 48.0, z: 0.0, note: "the slope ends; the last 12 m is level"},
   {name: "GA-STONE", x: 0.0, y: 55.0, z: 0.0, note: "the flat stone where the golden ga-shape is forged"},
   {name: "END WALL", x: 0.0, y: 60.0, z: 0.0, note: "closed paper stone wall across the full width — the lane is a dead end"},
@@ -323,6 +323,13 @@ let lanePlateAt = y =>
    from the same metric table the blueprint and plates come from, so a shot
    cannot claim a position the set does not have. */
 let markerPositions = [12.0, 24.0, 36.0]
+
+/* A great-form dragon is wider than the lane is — but she is three times longer
+   than she is wide, so the fix is ORIENTATION, not a wider set: turned along the
+   lane she fits inside it; turned broadside she cannot, and her body goes
+   through the wall. That was the real cause of the wall-clipping, and it costs
+   nothing to fix. */
+let greatFormStaging = "ORIENTATION IN THE LANE: this dragon is far longer than she is wide, and the lane is only " ++ Belt.Float.toString(laneWidth) ++ " metres between its kerbs. She therefore lies ALONG the lane, never across it: her long axis runs parallel to the lane, nose forward in the direction of travel, body and tail trailing back up the slope behind her, so her whole length is inside the lane and her width is not. Her wings are swept back along her body or held HIGH above the kerb line, never spread out sideways at kerb height. She is never turned broadside, never side-on to the direction of travel, and no part of her — body, tail, wings or limbs — ever overlaps, touches or passes through a kerb or a wall."
 
 let lanePosition = (at, cartAt) => {
   let behind = Js.Array2.length(Js.Array2.filter(markerPositions, m => m < at))
