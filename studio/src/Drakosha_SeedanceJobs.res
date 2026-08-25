@@ -402,7 +402,21 @@ let all: array<jobSpec> = [
 
      No @TILES: the chest sheet is a whole chest, and this plate carries the
      tiles perfectly already. No @POUCH: it is backed by page-04, which @VASYA
-     attaches anyway. */
+     attaches anyway.
+
+     THIS IS A PICKUP, NOT A RESHOOT (author, 2026-08-24). The first take is good
+     up to the moment he grins, and only what follows is being reshot. The join
+     is exact rather than approximate: the author built the start plate from
+     FRAME 107 of that take — measured diff 0.00 against it, where two of her own
+     renders of the same scene differ by 10-25 — so the pickup opens on precisely
+     the frame the cut is already showing at 4.458s. Nothing has to match by eye.
+
+     The old take is used to frame 106; this one supplies 107 onward.
+
+     FIVE SECONDS. The looking, the scratch and the idea are already shot, so this
+     buys only the four gathers and the settle onto his heels. The creative says
+     so in the first line of WHAT HAPPENS — a pickup that opens with a
+     settling-in beat would stutter against the frame it is joining. */
   endJob(
     "v03gather",
     "SH122",
@@ -410,7 +424,7 @@ let all: array<jobSpec> = [
     [],
     "2026-08-24_V03_gather_start_v3.png",
     "2026-08-24_V03_gather_END_v3.png",
-    8,
+    5,
     Mini,
   ),
   /* SCENE 7 — the niche, the chest, the letters. All on mini.
