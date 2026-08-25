@@ -1,17 +1,17 @@
 {
   "fps": 24,
-  "dissolve": 0.14,
+  "dissolve": 0.09,
   "duration": 4.15,
   "width": 1280,
   "height": 720,
-  "source": "Every frame is built from exactly TWO of the author's renders — 00_rest and 05_ALL — which sit within 1.2px of each other. Each state takes the glow of one more tile from the all-lit frame and lays it on the rest frame. Nothing is warped and nothing is masked out, so the floor, both hands and every unlit tile are the SAME PIXELS in every frame and cannot drift. Her other four renders are not used: they differ by camera distance AND re-posed hands AND lighting, and no alignment can reconcile that. The cost is that the finger does not travel to each tile.",
+  "source": "Composited from the author's transparent layers by tools/compose_word.py — floor, each tile in a regular and a lit state, an open hand and three pointing hands. No frame of hers is reconciled against another, so nothing can drift: the floor is one image that never moves and an untouched tile is the same file every time. Letters STAY LIT once touched, so the word builds. The finger travels because she supplied three pointing poses.",
   "voice": "line62a_VASYA_read_cut.mp3 — «Ма» 0.18-0.88, «ма» 1.52-2.08, «Мама!» 2.98-3.84.",
   "states": [
-    {"file": "b0_none.png",  "at": 0.00, "why": "nothing lit"},
-    {"file": "b1_M.png",     "at": 0.18, "why": "«Ма» begins — М lights AND STAYS LIT"},
-    {"file": "b2_MA.png",    "at": 0.53, "why": "the А of «Ма» — two lit now"},
-    {"file": "b3_MAM.png",   "at": 1.52, "why": "«ма» begins — three lit"},
-    {"file": "b4_MAMA.png",  "at": 1.82, "why": "the whole word is lit and stays lit through the pause"},
-    {"file": "b5_FULL.png",  "at": 2.98, "why": "«Мама!» — the word goes to full brightness"}
+    {"file": "s0.png", "at": 0.00, "why": "nothing lit, finger coming in on the first tile"},
+    {"file": "s1.png", "at": 0.18, "why": "«Ма» begins — М lights under the finger"},
+    {"file": "s2.png", "at": 0.53, "why": "the А of «Ма» — finger moves on, М stays lit"},
+    {"file": "s3.png", "at": 1.52, "why": "«ма» begins — third tile"},
+    {"file": "s4.png", "at": 1.82, "why": "the fourth: the whole word is lit and holds through the pause"},
+    {"file": "s5.png", "at": 2.98, "why": "«Мама!» — he lifts his finger clear and the word stands on its own"}
   ]
 }

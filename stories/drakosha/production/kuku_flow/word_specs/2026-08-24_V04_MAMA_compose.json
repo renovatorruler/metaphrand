@@ -1,0 +1,123 @@
+{
+  "width": 1280,
+  "height": 720,
+  "floor": "01_floor_background.png",
+  "glyphs": {
+    "M": {
+      "regular": "02_tile_M_regular.png",
+      "lit": "03_tile_M_lit.png"
+    },
+    "A": {
+      "regular": "04_tile_A_regular.png",
+      "lit": "05_tile_A_lit.png"
+    }
+  },
+  "tile_scale": 0.615,
+  "tiles": [
+    {
+      "letter": "M",
+      "x": 349,
+      "y": 221
+    },
+    {
+      "letter": "A",
+      "x": 495,
+      "y": 221
+    },
+    {
+      "letter": "M",
+      "x": 644,
+      "y": 221
+    },
+    {
+      "letter": "A",
+      "x": 801,
+      "y": 221
+    }
+  ],
+  "hand_open": {
+    "file": "06_hand_open.png",
+    "x": 215,
+    "y": 590,
+    "scale": 0.615
+  },
+  "point_poses": [
+    "07_hand_point_1.png",
+    "08_hand_point_2.png",
+    "09_hand_point_3.png"
+  ],
+  "point_scale": 0.615,
+  "point_tip_dy": 70,
+  "states": [
+    {
+      "file": "s0.png",
+      "lit": [],
+      "point": {
+        "tile": 0,
+        "pose": 0,
+        "dy": 26
+      }
+    },
+    {
+      "file": "s1.png",
+      "lit": [
+        0
+      ],
+      "point": {
+        "tile": 0,
+        "pose": 0
+      }
+    },
+    {
+      "file": "s2.png",
+      "lit": [
+        0,
+        1
+      ],
+      "point": {
+        "tile": 1,
+        "pose": 1
+      }
+    },
+    {
+      "file": "s3.png",
+      "lit": [
+        0,
+        1,
+        2
+      ],
+      "point": {
+        "tile": 2,
+        "pose": 2
+      }
+    },
+    {
+      "file": "s4.png",
+      "lit": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "point": {
+        "tile": 3,
+        "pose": 0
+      }
+    },
+    {
+      "file": "s5.png",
+      "lit": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "point": {
+        "tile": 3,
+        "pose": 0,
+        "dy": 54
+      }
+    }
+  ],
+  "note": "Built entirely from the author's transparent layers. The floor is one image that never moves; a tile not being touched is the same file in every frame. Letters stay lit once touched, so the word builds. The finger travels because she supplied three pointing poses."
+}
