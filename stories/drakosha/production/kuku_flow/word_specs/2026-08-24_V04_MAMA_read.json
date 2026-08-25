@@ -35,7 +35,7 @@
       "why": "«Мама!» — the whole word lights at once"
     }
   ],
-  "stabilise": {
+  "stabilise_DISABLED": {
     "master": 0,
     "threshold": 35,
     "x0": 425,
@@ -51,6 +51,7 @@
       "threshold": 115,
       "min_size": 60,
       "why": "Fit a uniform scale+shift on the UNLIT tile centres and warp the whole frame onto the master. The renders differ by camera distance — one state 11% closer, another 6% further — so tile spacing ran 176px to 219px across the set and the word slid and stretched on every cut. Warping the whole frame keeps the finger on the tile it touches. The lit tile is excluded from the fit because its glow drags the centroid by 10px or more."
-    }
+    },
+    "why_off": "Tried 2026-08-24 and backed out. It fixed every number I could measure — background jitter 27/255 to 0.04, tile spacing spread 32px to 10px — and wrecked the picture: warping to align the tiles dragged the floorboards out of line, and the brightness masks that kept the floor still cut the forearm off and left dark patches. A plain cut of the author's frames looks better than anything I composited from them. The real fix is upstream: six states rendered from ONE camera need no alignment at all."
   }
 }
