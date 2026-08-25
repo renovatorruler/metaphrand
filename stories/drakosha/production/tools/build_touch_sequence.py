@@ -16,6 +16,7 @@ own envelope:
 import subprocess, os, sys, json
 import numpy as np
 from PIL import Image, ImageFilter
+from scipy import ndimage
 
 FRAMES, AUDIO, OUT, SPEC = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]
 spec = json.load(open(SPEC))
@@ -55,6 +56,65 @@ imgs = [im.resize((W, H), Image.LANCZOS) for im in imgs]
 # state frame shows floor, the difference is large, and the floor is taken.
 if spec.get('stabilise'):
     st = spec['stabilise']
+
+    # ---- ALIGN THE ROW ------------------------------------------------------
+    # Pinning the background was not enough: inside the working region each state
+    # still brought its own tiles, and they are not the same tiles. Measured on
+    # the МАМА set, the gap between tile centres ran 176px in one frame and 219
+    # in another, and the first tile sat 86px apart between the extremes — so the
+    # word slid and breathed on every cut, which is what the author saw after the
+    # first fix.
+    #
+    # The cause is not tiles moving independently. Fit a uniform scale and shift
+    # to the UNLIT tile centres and the residual falls under 4px, so the renders
+    # differ by camera distance and nothing else: one state is 11% closer, another
+    # 6% further. That means the whole frame can be warped by that one transform
+    # and everything — tiles, arm, finger — lands together, with the finger still
+    # on the tile it is touching. Fitting on the LIT tile too would poison it: its
+    # glow inflates the blob and drags the centroid ten pixels or more.
+    if st.get('align_row'):
+        ar = st['align_row']
+        by0, by1, bx0, bx1 = [int(v * H / H0) if i < 2 else int(v * W / W0)
+                              for i, v in enumerate(ar['band'])]
+        thr_t = float(ar.get('threshold', 115))
+        minsz = int(ar.get('min_size', 60) * W / W0)
+
+        def tiles(im):
+            a = np.asarray(im.convert('L')).astype(np.float32)[by0:by1, bx0:bx1]
+            lab, _ = ndimage.label(a > thr_t)
+            out = []
+            for sl in ndimage.find_objects(lab):
+                h_, w_ = sl[0].stop - sl[0].start, sl[1].stop - sl[1].start
+                if w_ > minsz and h_ > minsz:
+                    out.append(((sl[1].start + sl[1].stop) / 2 + bx0,
+                                (sl[0].start + sl[0].stop) / 2 + by0,
+                                float(a[sl].mean())))
+            out.sort()
+            return np.array(out)
+
+        ref = tiles(imgs[st.get('master', 0)])
+        aligned = []
+        for k, im in enumerate(imgs):
+            C = tiles(im)
+            if len(C) != len(ref) or len(ref) < 2:
+                aligned.append(im)
+                print(f'  frame {k}: found {len(C)} tiles, expected {len(ref)} — left unaligned')
+                continue
+            lit = C[:, 2] > C[:, 2].mean() + 0.5 * C[:, 2].std()
+            keep = ~lit if (~lit).sum() >= 2 else np.ones(len(C), bool)
+            P, Q = C[keep][:, :2], ref[keep][:, :2]
+            Pm, Qm = P.mean(0), Q.mean(0)
+            sc = (((P - Pm) * (Q - Qm)).sum()) / (((P - Pm) ** 2).sum())
+            tr = Qm - sc * Pm
+            if abs(sc - 1) < 1e-4 and abs(tr).max() < 0.5:
+                aligned.append(im)
+                continue
+            aligned.append(im.transform((W, H), Image.AFFINE,
+                                        (1 / sc, 0, -tr[0] / sc, 0, 1 / sc, -tr[1] / sc),
+                                        resample=Image.BICUBIC))
+            res = np.linalg.norm(sc * P + tr - Q, axis=1).max()
+            print(f'  frame {k}: scale {sc:.4f} shift ({tr[0]:+.1f},{tr[1]:+.1f}) fit residual {res:.1f}px')
+        imgs = aligned
     mi_idx = st.get('master', 0)
     T = float(st.get('threshold', 35))
     x0, y0 = int(st.get('x0', 0) * W / W0), int(st.get('y0', 0) * H / H0)

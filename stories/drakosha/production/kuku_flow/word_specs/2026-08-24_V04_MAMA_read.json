@@ -40,6 +40,17 @@
     "threshold": 35,
     "x0": 425,
     "y0": 150,
-    "why": "frame 0 is the master. Change is allowed only right of x=425 and below y=150 — the tile row and the arm sweep. That boundary keeps the left hand, the top planks and the far-left floor pinned to the master, because those drift between renders by up to 29/255 and read as the whole frame jumping on every cut."
+    "why": "frame 0 is the master. Change is allowed only right of x=425 and below y=150 — the tile row and the arm sweep. That boundary keeps the left hand, the top planks and the far-left floor pinned to the master, because those drift between renders by up to 29/255 and read as the whole frame jumping on every cut.",
+    "align_row": {
+      "band": [
+        180,
+        400,
+        400,
+        1300
+      ],
+      "threshold": 115,
+      "min_size": 60,
+      "why": "Fit a uniform scale+shift on the UNLIT tile centres and warp the whole frame onto the master. The renders differ by camera distance — one state 11% closer, another 6% further — so tile spacing ran 176px to 219px across the set and the word slid and stretched on every cut. Warping the whole frame keeps the finger on the tile it touches. The lit tile is excluded from the fit because its glow drags the centroid by 10px or more."
+    }
   }
 }
