@@ -118,6 +118,14 @@ let endJobCarrying = (jobId, shots, cast, props, startFrame, endFrame, durationS
   endImage: Some(endFrame),
 }
 
+/* job() for a shot carrying only part of what the script gives its SH codes. */
+let jobCarrying = (jobId, shots, cast, props, startFrame, durationSec, model, carries): jobSpec => {
+  record: {jobId, shots, cast, props, startImage: Some(startFrame), durationSec, creative: "", carriesLines: carries},
+  creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
+  model,
+  endImage: None,
+}
+
 let loopJob = (jobId, shots, cast, props, frame, durationSec, model): jobSpec => {
   record: {jobId, shots, cast, props, startImage: Some(frame), durationSec, creative: "", carriesLines: []},
   creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
@@ -468,6 +476,36 @@ let all: array<jobSpec> = [
     6,
     Kling30,
     ["line62a_VASYA_read_cut.mp3"],
+  ),
+  /* HE TRIES THE WORD, AND THE LIGHT ANSWERS. The author's plate has him sitting
+     with the word already lit in front of him, which is the state the overhead
+     insert leaves him in — so this shot opens on a boy who has just read
+     something and is pleased with himself, throws the word away lightly, and
+     only then tries the other one.
+
+     THE UNCERTAIN ВЖУХ, AND THE BEAT OF NOTHING. Settled 2026-08-23 and it still
+     holds: the arms-raised transformation card is a boy who has done this
+     before, and he has not. He tries the sound the way you try a light switch in
+     an unfamiliar room, nothing happens, and then it happens TO him.
+
+     THE LIGHT COMES OUT OF THE BLOCKS. The author, 2026-08-25 — the glow grows
+     and fills the screen. That is better than the wipe we had planned, because
+     it says the WORD did this rather than that he did: he read four blocks and
+     the four blocks answer. It also means the transformation needs no pose.
+
+     MINI, NOT KLING. This is a performance — a face crossing from delight to a
+     question to nothing-happened to alarm — and Kling takes no references and
+     stays flat against its plate. Kling is right where a shot is a state change;
+     this one is acting. */
+  jobCarrying(
+    "v05vzhukh",
+    "SH123",
+    [Vasya],
+    [],
+    "2026-08-25_V05_vzhukh_start.png",
+    6,
+    Mini,
+    ["line63a_VASYA_mama-vzhukh.mp3"],
   ),
   /* SCENE 7 — the niche, the chest, the letters. All on mini.
 

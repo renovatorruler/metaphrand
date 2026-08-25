@@ -9,7 +9,7 @@
    This module is pure (no IO): Drakosha_SceneFlow's seedance stage owns file
    checks, readiness, receipts, and the one sanctioned spawn point. */
 
-type castToken = Frosya | Vasya | Mama | Papa | Babies | Rusya | Musya | YagaFlight | YagaDomovoy | VasyaCat | VasyaWasp
+type castToken = Frosya | Vasya | Mama | Papa | Babies | Rusya | Musya | YagaFlight | YagaDomovoy | VasyaCat | VasyaWasp | VasyaMama
 /* THE FAMILY LIVES INSIDE THE FIREPLACE. The hall is not a room containing a
    fireplace — it is the bricked-up fireplace's own cavity, and the giant
    sandstone boulder-blocks are its masonry seen at their size. The camera is
@@ -114,6 +114,16 @@ let castEntry = (t: castToken): castEntry =>
       tag: "@VASYA_WASP",
       tagLine: "@VASYA_WASP: Вася turned into a small striped wasp — he keeps his ENORMOUS shaggy dark eyebrows above the wasp's eyes. 100% matches the reference.",
       refPath: "T-VAS-WASP-01_approved.png",
+    }
+  | VasyaMama => {
+      tag: "@VASYA_MAMA",
+      tagLine: "@VASYA_MAMA: Вася transformed into a second МАМА — the SAME height as Мама, the same red-and-gold kerchief, blonde braid, cream apron over the dark red patched skirt. But the face is his: ENORMOUS shaggy dark eyebrows, a wide gap-toothed grin, and big round startled eyes. 100% matches the reference.",
+      /* A SOLO CROP, never the two-up sheet. T-VAS-MAMA-01_approved.png shows the
+         real Мама standing beside her, and a reference holding two characters
+         lets the model take the wrong one — the same fault as one BABIES sheet
+         holding both Руся and Муся, which the author stopped on 2026-08-23. The
+         two figures are cropped apart and bound separately. */
+      refPath: "C-VASMAMA-01_solo_from_T-VAS-MAMA-01.png",
     }
   | YagaDomovoy => {
       tag: "@YAGA",
@@ -332,6 +342,7 @@ let castName = (t: castToken): string =>
   | YagaDomovoy => "YAGA_DOMOVOY"
   | VasyaCat => "VASYA_CAT"
   | VasyaWasp => "VASYA_WASP"
+  | VasyaMama => "VASYA_MAMA"
   }
 
 /* The name each character is called BY in the choreography. castName gives the
@@ -346,6 +357,7 @@ let castRuName = (t: castToken): option<string> =>
   | Rusya => Some("Руся")
   | Musya => Some("Муся")
   | YagaFlight | YagaDomovoy => Some("Яга")
+  | VasyaMama => Some("Вася-мама")
   | VasyaCat | VasyaWasp | Babies => None
   }
 
@@ -371,6 +383,7 @@ let castScale = (t: castToken): option<string> =>
   | YagaFlight => Some("@YAGA in human flight form stands about 147 cm — SIXTEEN TIMES the family's size. She is a full-grown human woman here.")
   | VasyaCat => Some("@VASYA_CAT is a cat at house-spirit scale, a little longer than @VASYA is tall.")
   | VasyaWasp => Some("@VASYA_WASP is a wasp at house-spirit scale, small enough to fly through a gap in the floorboards.")
+  | VasyaMama => Some("@VASYA_MAMA stands at МАМА's full height, not Вася's — the height IS the joke, and she is a head taller than Фрося.")
   }
 
 let propScale = (t: propToken): option<string> =>

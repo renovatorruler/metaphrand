@@ -1,0 +1,9 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 6,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-25_V05_vzhukh_start.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-04.png"
+  ],
+  "promptSha256": "ebb94f706be3588084e1c0fc4a4295f87899167696d0dac84e1d65f7c6219c1b"
+}
