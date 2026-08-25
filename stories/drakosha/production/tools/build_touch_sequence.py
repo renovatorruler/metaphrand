@@ -125,10 +125,35 @@ if spec.get('stabilise'):
     allowed = np.asarray(
         Image.fromarray((allowed * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(6))
     ).astype(np.float32) / 255.0
+    # THE FLOOR IS NEVER TAKEN FROM A STATE FRAME. Warping a frame to line the
+    # tiles up drags its floorboards along, and the planks then meet the master's
+    # planks at an angle — the author saw it immediately. But the floor is much
+    # darker than anything we actually want: measured on this set, floorboards sit
+    # at luminance ~42, the arm at 81-103, the tiles at 95 and a lit tile at 146.
+    # So a brightness floor separates them outright.
+    #
+    # A pixel is taken from the state only where it differs AND either side is
+    # bright: bright in the state means an arm or a glow arriving, bright in the
+    # master means the master's own arm has to be erased — and that erasure is why
+    # no second arm appears. Where both are dark it is floor against floor, and the
+    # master keeps it, so the planks never move.
+    # An arm carries a contact shadow, and the shadow is DARKER than the floor,
+    # so the brightness rule alone refuses to move it: erasing the master's arm
+    # left its shadow sitting on the boards like a stain. So each bright region
+    # is grown before it is used, far enough to take its own shadow with it.
+    FLOOR = float(st.get('floor_luma', 62))
+    GROW = int(st.get('shadow_grow', 31))
+    def grow(mask2d):
+        im = Image.fromarray((mask2d * 255).astype(np.uint8))
+        return np.asarray(im.filter(ImageFilter.MaxFilter(GROW))).astype(np.float32) / 255.0 > 0.5
+    mlum = master.mean(axis=2)
+    m_bright = grow(mlum > FLOOR)
     fixed = []
     for a in arr:
         d = np.abs(a - master).max(axis=2)
-        m = Image.fromarray(((d > T) * 255).astype(np.uint8))
+        alum = a.mean(axis=2)
+        keep = (d > T) & (grow(alum > FLOOR) | m_bright)
+        m = Image.fromarray((keep * 255).astype(np.uint8))
         m = m.filter(ImageFilter.MaxFilter(9)).filter(ImageFilter.GaussianBlur(4))
         al = (np.asarray(m).astype(np.float32) / 255.0) * allowed
         fixed.append(Image.fromarray((master * (1 - al[..., None]) + a * al[..., None]).astype(np.uint8)))
