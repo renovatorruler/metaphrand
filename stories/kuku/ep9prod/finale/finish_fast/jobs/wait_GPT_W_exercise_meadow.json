@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-08-17T14:00:25.396127Z",
+  "display_name": "GPT Image 2",
+  "id": "0c81462b-cdb6-4910-81dc-fa96c0341ecd",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260817_140025_0c81462b-cdb6-4910-81dc-fa96c0341ecd_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "6ebb6f95-18cc-49fa-928f-a44e36334abc",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/6ebb6f95-18cc-49fa-928f-a44e36334abc.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "a4adebee-a32f-47c3-b345-e28b34cfff06",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/a4adebee-a32f-47c3-b345-e28b34cfff06.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "5ed4b687-5c87-4e3f-92fa-f005985e039a",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/5ed4b687-5c87-4e3f-92fa-f005985e039a.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "aeb98c1c-1646-4e7d-86a6-5243de2b7796",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/aeb98c1c-1646-4e7d-86a6-5243de2b7796.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "ce1dd28c-2563-4820-a642-d77044e0501d",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/ce1dd28c-2563-4820-a642-d77044e0501d.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Wide shot: the five small child dragons from the reference images — green, crimson, blue, gold, pink — practicing in a dawn meadow: one running with tiny wings spread, one mid small hop, one watching the wind, two choosing their practice line. Tall grass, morning mist on far mountains. Exactly the characters shown in the reference images, same colors and proportions. Soft dimensional 3D render, warm sunrise light, gentle depth of field, glossy toy-like materials, children's animated film quality. Absolutely no flat 2D illustration, no paper-cutout look, no painterly outlines, no text.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260817_140025_0c81462b-cdb6-4910-81dc-fa96c0341ecd.png",
+  "status": "completed"
+}

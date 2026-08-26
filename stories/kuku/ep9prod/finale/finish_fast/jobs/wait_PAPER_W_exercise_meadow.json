@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-08-18T20:42:04.638484Z",
+  "display_name": "GPT Image 2",
+  "id": "ba1a3fcb-7a83-46af-9006-9c82220dd4bf",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_204204_ba1a3fcb-7a83-46af-9006-9c82220dd4bf_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "9aacecce-0ee4-44a1-a0b6-6ecab6e2ec5c",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/9aacecce-0ee4-44a1-a0b6-6ecab6e2ec5c_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "0e468af9-bf52-4661-b3ee-23e91fb828e7",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/0e468af9-bf52-4661-b3ee-23e91fb828e7.png"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Wide: the five small cut-paper child dragons practicing in a dawn meadow — one running, one mid small hop close to the ground, one watching the wind, two choosing their practice line; rolling paper hills, morning mist as thin translucent paper layers; none of them flying. 3D papercraft style, exactly matching the cut-paper character designs in the reference images: layered cut-paper illustration with real depth, soft matte construction-paper textures, visible paper edges, folds and creases, warm storybook palette, soft studio lighting, gentle depth of field, like a lit diorama built from card. Non-photorealistic, made of paper. NO flat single-plane 2D, NO sticker look, NO glossy plastic 3D render, NO photorealism, no text, no letters.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_204204_ba1a3fcb-7a83-46af-9006-9c82220dd4bf.png",
+  "status": "completed"
+}

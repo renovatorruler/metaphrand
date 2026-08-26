@@ -1,0 +1,171 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 4
+		},
+		"mels": 128,
+		"ftype": 8
+	},
+	"params": {
+		"model": "/private/tmp/metaphrand-whisper/ggml-large-v3-turbo-q5_0.bin",
+		"language": "hi",
+		"translate": false
+	},
+	"result": {
+		"language": "hi"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,720"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 720
+			},
+			"text": " सब्रो को",
+			"tokens": [
+				{
+					"text": "[_BEG_]",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,000"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 0
+					},
+					"id": 50365,
+					"p": 0.78666,
+					"t_dtw": -1
+				},
+				{
+					"text": " स",
+					"timestamps": {
+						"from": "00:00:00,080",
+						"to": "00:00:00,080"
+					},
+					"offsets": {
+						"from": 80,
+						"to": 80
+					},
+					"id": 49316,
+					"p": 0.818326,
+					"t_dtw": -1
+				},
+				{
+					"text": "ब",
+					"timestamps": {
+						"from": "00:00:00,110",
+						"to": "00:00:00,300"
+					},
+					"offsets": {
+						"from": 110,
+						"to": 300
+					},
+					"id": 3941,
+					"p": 0.670226,
+					"t_dtw": -1
+				},
+				{
+					"text": "्",
+					"timestamps": {
+						"from": "00:00:00,310",
+						"to": "00:00:00,370"
+					},
+					"offsets": {
+						"from": 310,
+						"to": 370
+					},
+					"id": 27099,
+					"p": 0.316381,
+					"t_dtw": -1
+				},
+				{
+					"text": "र",
+					"timestamps": {
+						"from": "00:00:00,370",
+						"to": "00:00:00,440"
+					},
+					"offsets": {
+						"from": 370,
+						"to": 440
+					},
+					"id": 25411,
+					"p": 0.903591,
+					"t_dtw": -1
+				},
+				{
+					"text": "ो",
+					"timestamps": {
+						"from": "00:00:00,440",
+						"to": "00:00:00,450"
+					},
+					"offsets": {
+						"from": 440,
+						"to": 450
+					},
+					"id": 33926,
+					"p": 0.380544,
+					"t_dtw": -1
+				},
+				{
+					"text": " क",
+					"timestamps": {
+						"from": "00:00:00,560",
+						"to": "00:00:00,590"
+					},
+					"offsets": {
+						"from": 560,
+						"to": 590
+					},
+					"id": 31970,
+					"p": 0.534866,
+					"t_dtw": -1
+				},
+				{
+					"text": "ो",
+					"timestamps": {
+						"from": "00:00:00,590",
+						"to": "00:00:00,720"
+					},
+					"offsets": {
+						"from": 590,
+						"to": 720
+					},
+					"id": 33926,
+					"p": 0.676394,
+					"t_dtw": -1
+				},
+				{
+					"text": "[_TT_36]",
+					"timestamps": {
+						"from": "00:00:00,720",
+						"to": "00:00:00,720"
+					},
+					"offsets": {
+						"from": 720,
+						"to": 720
+					},
+					"id": 50401,
+					"p": 0.315064,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

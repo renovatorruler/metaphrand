@@ -1,0 +1,647 @@
+{
+ "stills": [
+  {
+   "name": "e7_s1_master",
+   "kind": "story",
+   "refs": [
+    "papa",
+    "rath",
+    "kuku",
+    "furia",
+    "dadi"
+   ],
+   "prompt": "Wide establishing shot of the valley meadow at golden dusk: the big broad dark-green cut-paper dragon father with wide shoulders and kind tired eyes stands beside a sturdy wooden two-wheeled cart, lashing a rope over its loaded bed; around him, seen small in the wide frame, the family of paper dragons gathers on the warm grass — the small round moss-green baby dragon, the bright pink-red dragon girl, the elderly grey dragon grandmother with her plain wooden walking stick; long low amber light rakes across the meadow, the paper hills layered in deepening orange and violet bands behind, first pale stars pricking the high paper sky."
+  },
+  {
+   "name": "e7_d1_papa",
+   "kind": "dialogue",
+   "refs": [
+    "papa",
+    "rath"
+   ],
+   "prompt": "Medium shot of the big broad dark-green cut-paper dragon father with wide shoulders, kind tired eyes and sturdy folded wings, standing at the side of the loaded wooden cart with one paw resting on the rope he has just tied, his head turned back toward his family with a warm secretive smile; dusk light gilds the edge of his snout, the cart bed stacked with covered bundles behind him, layered paper hills in warm evening bands beyond."
+  },
+  {
+   "name": "e7_d1_furia",
+   "kind": "dialogue",
+   "refs": [
+    "furia"
+   ],
+   "prompt": "Medium close shot of the bright pink-red dragon girl mid-bounce on the dusk meadow grass, up on her toes with both paws clasped under her chin, crest of spikes raised, long eyelashes wide with delighted pleading curiosity; behind her the soft blur of the loaded cart and the amber evening sky, a strand of warm light catching her cheek."
+  },
+  {
+   "name": "e7_s1_tansen",
+   "kind": "story",
+   "refs": [
+    "tansen",
+    "rath"
+   ],
+   "prompt": "The small bright green parrot with the red beak and pale cream neck ring perches on the raised wooden rail of the loaded cart, chest puffed, beak open mid-mimic, head cocked cheekily; below and behind him the cart's rope-lashed bundles and the amber dusk meadow fall into soft blur, one long violet paper cloud crossing the warm sky."
+  },
+  {
+   "name": "e7_d1_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku",
+    "vesper"
+   ],
+   "prompt": "Close two-shot at child height in the dusk meadow: the small round moss-green baby dragon with the cream belly leans toward the soft light-blue dragon boy, one tiny paw half-raised to the side of his own snout as if sharing a secret, his large eyes pinched with a first small worry; the light-blue boy inclines his head to listen, half-lidded dreamy eyes gone thoughtful; behind them the family and cart glow soft and out of focus in the last amber light."
+  },
+  {
+   "name": "e7_d1_vesper",
+   "kind": "dialogue",
+   "refs": [
+    "vesper"
+   ],
+   "prompt": "Medium close shot of the soft light-blue dragon boy standing very still on the dusk meadow, head slightly bowed, half-lidded dreamy eyes gazing at nothing in the middle distance, small paws folded together, the thought visibly settling on him like a leaf; deep violet evening bands of layered paper hills behind, one thin ribbon of amber horizon left."
+  },
+  {
+   "name": "e7_d1_dadi",
+   "kind": "dialogue",
+   "refs": [
+    "dadi"
+   ],
+   "prompt": "Medium shot of the elderly grey dragon grandmother on the dusk meadow, leaning on her plain wooden walking stick, her long gentle snout turned toward the children as she gestures softly with her free paw in a warm shepherding motion, small reading glasses catching a last spark of amber; the paper grass at her feet in deep evening green, the loaded cart a warm silhouette at frame edge."
+  },
+  {
+   "name": "e7_d1_mitasur",
+   "kind": "dialogue",
+   "refs": [
+    "mitasur"
+   ],
+   "prompt": "Medium shot of the roly-poly dusty grey-purple goblin with soft smudgy edges, big googly eyes and two fat pink-purple sponge hands, standing proudly at the near end of the wooden plank bridge with his chest puffed out and one sponge fist thumped against it, chin high with fierce delighted responsibility; behind him the bridge planks recede over the dark stream into the violet dusk, first stars above."
+  },
+  {
+   "name": "e7_s1_kalu",
+   "kind": "story",
+   "refs": [
+    "kalu"
+   ],
+   "prompt": "The scruffy black paper puppy stands at the meadow's edge in the last dusk light, front paws planted wide, head thrown up in a farewell bark toward the departing cart, ears flying, little paper tail mid-wag; the wheel-ruts of the cart curve away past him toward the bridge, layered violet hills and a deep amber horizon band beyond."
+  },
+  {
+   "name": "e7_s1_wave",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "furia",
+    "vesper",
+    "dadi"
+   ],
+   "prompt": "Wide shot from behind the family at the meadow's edge in deep dusk: the small round moss-green baby dragon, the bright pink-red dragon girl and the soft light-blue dragon boy all up on their toes waving with both paws, the elderly grey grandmother beside them leaning on her stick with one paw lifted, all silhouetted warm against the last amber band of sky as the tiny cart crosses the far bridge into the violet distance, its lantern a single warm dot."
+  },
+  {
+   "name": "e7_s2_master",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "vesper",
+    "dadi",
+    "castor"
+   ],
+   "prompt": "Wide shot of the home courtyard at deep blue evening: a ring of warm lantern light on the swept paper flagstones, the small round moss-green baby dragon and the soft light-blue dragon boy sitting close together with drooping shoulders, the very tiny yellow toddler dragon sprawled on his belly nearby, the elderly grey dragon grandmother settling onto a low wooden stool with her stick across her knees; above the courtyard wall the paper sky is thick indigo with the first scatter of cut-paper stars, a cricket-quiet stillness in the air."
+  },
+  {
+   "name": "e7_d2_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku"
+   ],
+   "prompt": "Close shot of the small round moss-green baby dragon sitting on the lantern-lit courtyard flagstones, cream belly slumped, both tiny paws turned up empty in his lap, big eyes lifted with an anxious question, the warm lantern glow on one side of his face and deep indigo night on the other."
+  },
+  {
+   "name": "e7_d2_vesper",
+   "kind": "dialogue",
+   "refs": [
+    "vesper"
+   ],
+   "prompt": "Medium close shot of the soft light-blue dragon boy in the courtyard lantern glow, sitting with his chin sunk onto both paws, half-lidded eyes sloped with gentle gloom, one wing drooping off his shoulder like a slipping blanket; behind him the courtyard wall and the indigo star-scattered paper night."
+  },
+  {
+   "name": "e7_d2_dadi",
+   "kind": "dialogue",
+   "refs": [
+    "dadi"
+   ],
+   "prompt": "Medium shot of the elderly grey dragon grandmother seated on her low wooden stool in the ring of lantern light, leaning forward over her walking stick with both paws stacked on its head, her eyes crinkled wise and warm as she speaks slowly; the shadows falling across the flagstones at her feet are unmistakably BABY DRAGON silhouettes — round bodies, tiny horns, stubby wings and little tails; deep indigo night and one bright paper star above the courtyard wall."
+  },
+  {
+   "name": "e7_d2_castor",
+   "kind": "dialogue",
+   "refs": [
+    "castor"
+   ],
+   "prompt": "Close shot of the very tiny yellow toddler dragon popped up onto his knees on the courtyard flagstones, both stubby arms flung wide in enormous astonishment, mouth a small round o of wonder, eyes huge in the lantern light; soft indigo night behind him."
+  },
+  {
+   "name": "e7_d2_furia",
+   "kind": "dialogue",
+   "refs": [
+    "furia"
+   ],
+   "prompt": "Medium shot of the bright pink-red dragon girl standing in her doorway at the courtyard's edge, one paw on the door frame, caught mid enormous yawn with her crest flopping sleepily to one side, warm room light spilling from behind her onto the flagstones; the lantern-lit family circle soft in the foreground blur."
+  },
+  {
+   "name": "e7_s2_door",
+   "kind": "story",
+   "refs": [],
+   "prompt": "The bright pink-red dragon girl's wooden door stands gently closed at the courtyard's edge, a thin warm seam of room light under it going out, leaving only the blue lantern glow on the paper flagstones; above, the indigo night sky thick with cut-paper stars over the courtyard wall, everything hushed."
+  },
+  {
+   "name": "e7_s2_huddle",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "vesper",
+    "castor",
+    "dadi"
+   ],
+   "prompt": "Tight conspiratorial shot over the lantern in the courtyard: the small round moss-green baby dragon leans in with one paw cupped beside his snout mid-whisper, the soft light-blue dragon boy and the very tiny yellow toddler dragon leaning in close, the elderly grey grandmother inclining her head into the circle, all their faces lit warm from below by the lantern, the indigo starry night arched over them."
+  },
+  {
+   "name": "e7_s3_master",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "vesper",
+    "dadi",
+    "leda",
+    "castor"
+   ],
+   "prompt": "Wide shot of the courtyard at full night: the whole huddle of paper dragons — The small round moss-green baby dragon with the cream belly, The soft light-blue dragon boy with half-lidded dreamy eyes, The very tiny yellow toddler dragon and The tiniest soft pink-lilac baby dragon with stubby wings — all sitting tipped back gazing straight up, The elderly grey dragon grandmother with her plain wooden walking stick and small reading glasses among them, every face lifted to an immense deep indigo cut-paper night thick with paper stars over the courtyard, the lantern turned low so the stars carry the light; sense of hush and wonder."
+  },
+  {
+   "name": "e7_d3_vesper",
+   "kind": "dialogue",
+   "refs": [
+    "vesper"
+   ],
+   "prompt": "Medium close shot of The soft light-blue dragon boy with half-lidded dreamy eyes lying back on the courtyard flagstones with his head pillowed on his own wing, eyes wide open for once and full of reflected paper stars, lips parted in quiet awe; the deep indigo cut-paper night thick with paper stars over the courtyard fills the whole frame above him."
+  },
+  {
+   "name": "e7_d3_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku"
+   ],
+   "prompt": "Close shot of The small round moss-green baby dragon with the cream belly sitting up and craning his head far back, one tiny paw lifted toward the sky as if to touch it, big eyes fixed on a single bright cut-paper star, a small earnest question forming on his face; the lantern's low warm edge on his cheek against the deep indigo cut-paper night thick with paper stars over the courtyard."
+  },
+  {
+   "name": "e7_d3_dadi",
+   "kind": "dialogue",
+   "refs": [
+    "dadi"
+   ],
+   "prompt": "Medium shot of The elderly grey dragon grandmother with her plain wooden walking stick and small reading glasses seated on her low stool under the star-thick night, looking down gently at the small upturned face before her, one paw resting quiet on her stick and the other making a soft settling gesture — a grandmother postponing a long story with love, a small knowing smile held back at the corner of her mouth."
+  },
+  {
+   "name": "e7_d3_leda",
+   "kind": "dialogue",
+   "refs": [
+    "leda"
+   ],
+   "prompt": "Close shot of The tiniest soft pink-lilac baby dragon with stubby wings clapping her two stubby paws once in delight, mouth open in a tiny bright syllable, eyes shining in the low lantern light, sitting on the flagstones with her little tail curled; soft deep indigo cut-paper night thick with paper stars over the courtyard behind."
+  },
+  {
+   "name": "e7_d3_castor",
+   "kind": "dialogue",
+   "refs": [
+    "castor"
+   ],
+   "prompt": "Close shot of The very tiny yellow toddler dragon mid-giggle, both paws over his mouth, shoulders scrunched with laughter, leaning toward someone off frame in the lantern glow; the deep indigo cut-paper night thick with paper stars over the courtyard soft behind him."
+  },
+  {
+   "name": "e7_s3_forge",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "dadi",
+    "leda",
+    "castor"
+   ],
+   "prompt": "The courtyard huddle leans in as The small round moss-green baby dragon with the cream belly stands in the middle, chest puffed, breathing out a slow stream of tiny golden paper sparks that swirl and gather in the air above the lantern; the children's faces lit gold from the swirl, The elderly grey dragon grandmother with her plain wooden walking stick and small reading glasses watching calm behind, the deep indigo cut-paper night thick with paper stars over the courtyard arched over; the glowing swirl is abstract golden light only, no letterforms, no shapes of writing."
+  },
+  {
+   "name": "e7_s4_master",
+   "kind": "story",
+   "refs": [
+    "dadi",
+    "kuku",
+    "leda",
+    "castor"
+   ],
+   "prompt": "Wide shot of the courtyard huddle drawn in close around The elderly grey dragon grandmother with her plain wooden walking stick and small reading glasses on her stool, the lantern at the middle of the circle, The small round moss-green baby dragon with the cream belly, The tiniest soft pink-lilac baby dragon with stubby wings and The very tiny yellow toddler dragon cross-legged and leaning in like children at a secret, her paws open mid-story; the low warm light on every face, the deep indigo cut-paper night thick with paper stars over the courtyard above."
+  },
+  {
+   "name": "e7_d4_dadi",
+   "kind": "dialogue",
+   "refs": [
+    "dadi"
+   ],
+   "prompt": "Medium close shot of the elderly grey dragon grandmother with her plain wooden walking stick and small reading glasses teaching by lantern light: she holds up one finger of her paw beside her snout, eyes bright over her reading glasses, mouth gently closed in a knowing pause; the small BABY DRAGONS out of focus at the lower frame edge — tiny rounded dragon heads with little horns and stubby wings, no other kinds of creatures; warm gold on her grey paper scales, indigo night behind."
+  },
+  {
+   "name": "e7_d4_castor",
+   "kind": "dialogue",
+   "refs": [
+    "castor"
+   ],
+   "prompt": "Close shot of The very tiny yellow toddler dragon squinting doubtfully at something tiny in the air before him, head tilted almost sideways, one paw scratching his round yellow head, lips pushed out unimpressed; lantern glow and the dark courtyard behind."
+  },
+  {
+   "name": "e7_d4_leda",
+   "kind": "dialogue",
+   "refs": [
+    "leda"
+   ],
+   "prompt": "Close shot of The tiniest soft pink-lilac baby dragon with stubby wings up on her hind feet reaching both stubby paws toward a tiny golden mote of light drifting just above her, her whole face one round delighted wonder; the mote is a single small abstract spark, no letterform, lantern-warm against the indigo night."
+  },
+  {
+   "name": "e7_d4_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku"
+   ],
+   "prompt": "Close shot of The small round moss-green baby dragon with the cream belly in the lantern circle with his shoulders drooped and lower lip out, looking down at his own empty paws in glum disappointment, a tiny golden spark of light hovering ignored at his shoulder; warm low light, indigo night behind."
+  },
+  {
+   "name": "e7_s4_join",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "leda",
+    "castor"
+   ],
+   "prompt": "The huddle gasps: The small round moss-green baby dragon with the cream belly, The tiniest soft pink-lilac baby dragon with stubby wings and The very tiny yellow toddler dragon all lean toward one point in the air above the lantern where a soft golden burst of tiny paper sparks blooms — abstract light only, no letterforms — their faces lit up with sudden joy, paws half-raised; the indigo starry night above the courtyard wall."
+  },
+  {
+   "name": "e7_s4_papa_glow",
+   "kind": "story",
+   "refs": [
+    "kuku"
+   ],
+   "prompt": "Close on The small round moss-green baby dragon with the cream belly standing very still, eyes brimming and huge, both paws pressed to his own chest, gazing up at a warm golden glow hovering above frame edge — the glow is soft abstract light only, no letters; the lantern circle soft behind him, one bright paper star directly overhead."
+  },
+  {
+   "name": "e7_s5_master",
+   "kind": "story",
+   "refs": [
+    "dadi",
+    "kuku",
+    "vesper",
+    "leda",
+    "castor"
+   ],
+   "prompt": "Wide lively shot of the lantern circle at night mid-game: The elderly grey dragon grandmother with her plain wooden walking stick and small reading glasses conducting with one lifted paw like a music teacher, The small round moss-green baby dragon with the cream belly, The soft light-blue dragon boy with half-lidded dreamy eyes, The very tiny yellow toddler dragon and The tiniest soft pink-lilac baby dragon with stubby wings all leaning forward mid-answer with open happy mouths, paws raised; suppressed-laughter energy, warm gold faces, the deep indigo cut-paper night thick with paper stars over the courtyard over the courtyard wall."
+  },
+  {
+   "name": "e7_d5_dadi",
+   "kind": "dialogue",
+   "refs": [
+    "dadi"
+   ],
+   "prompt": "Medium shot of The elderly grey dragon grandmother with her plain wooden walking stick and small reading glasses in game-leader delight, leaning forward off her stool with one paw cupped behind her ear waiting for the children's answer, eyebrows high, grin warm; lantern gold on her face, dark courtyard behind."
+  },
+  {
+   "name": "e7_d5_castor",
+   "kind": "dialogue",
+   "refs": [
+    "castor"
+   ],
+   "prompt": "Close shot of The very tiny yellow toddler dragon shooting one paw straight up like the fastest child in class, bouncing on his knees, mouth open mid-shout with joy; lantern light streaking warm across him, indigo night behind."
+  },
+  {
+   "name": "e7_d5_vesper",
+   "kind": "dialogue",
+   "refs": [
+    "vesper"
+   ],
+   "prompt": "Medium close shot of The soft light-blue dragon boy with half-lidded dreamy eyes with a slow-blooming smile of realisation, sitting up straighter than we have ever seen him, one paw gesturing out at the whole night around them as if presenting it; stars thick above the courtyard wall behind him."
+  },
+  {
+   "name": "e7_d5_leda",
+   "kind": "dialogue",
+   "refs": [
+    "leda"
+   ],
+   "prompt": "Close shot of The tiniest soft pink-lilac baby dragon with stubby wings bouncing clean off the flagstones mid-answer, stubby wings flared, mouth wide in a tiny triumphant shout, paws thrown up; warm lantern underlight, the indigo starry night behind."
+  },
+  {
+   "name": "e7_d5_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku"
+   ],
+   "prompt": "Medium close shot of The small round moss-green baby dragon with the cream belly caught between laughing and thinking: head tipped, one paw at his chin, eyes sliding sideways bright with a dawning idea, the game's warmth still on his face; lantern circle soft behind, stars above."
+  },
+  {
+   "name": "e7_d5_mitasur",
+   "kind": "dialogue",
+   "refs": [
+    "mitasur"
+   ],
+   "prompt": "Wide-ish night shot of The roly-poly dusty grey-purple goblin with soft smudgy edges, big googly eyes and two fat pink-purple sponge hands far off at the plank bridge, a small warm lantern hung on the bridge post beside him, both sponge hands cupped around his mouth calling happily toward the distant courtyard glow; the dark stream under the planks catching starlight, the deep indigo cut-paper night thick with paper stars over the courtyard vast above."
+  },
+  {
+   "name": "e7_s5_tansen",
+   "kind": "story",
+   "refs": [
+    "tansen"
+   ],
+   "prompt": "Close night shot of The small bright green parrot with the red beak and pale cream neck ring perched on the courtyard lantern pole, chest puffed and beak wide mid-mimic, one foot lifted mid-bob, his green feathers rimmed warm by the lantern beneath; the indigo paper night and stars soft behind."
+  },
+  {
+   "name": "e7_s5_leda_tara",
+   "kind": "story",
+   "refs": [
+    "leda",
+    "kuku",
+    "vesper"
+   ],
+   "prompt": "The hush moment: The tiniest soft pink-lilac baby dragon with stubby wings very small and very certain in the lantern circle, both paws pointed straight up at one enormous bright cut-paper star above the courtyard, while The small round moss-green baby dragon with the cream belly and The soft light-blue dragon boy with half-lidded dreamy eyes turn to follow her point, their faces going from puzzled to lit-up; the game's laughter dropped to stillness, the star burning quiet white-gold in the indigo night."
+  },
+  {
+   "name": "e7_s5_kuku_realise",
+   "kind": "story",
+   "refs": [
+    "kuku"
+   ],
+   "prompt": "Close shot of The small round moss-green baby dragon with the cream belly with both paws flying up beside his head in the eureka moment, eyes enormous, a grin breaking open, lantern gold on his face and one bright star directly above him in the indigo paper sky."
+  },
+  {
+   "name": "wp_aam",
+   "kind": "story",
+   "refs": [
+    "rath"
+   ],
+   "prompt": "A woven basket heaped with ripe golden-orange cut-paper mangoes sitting on the wooden cart bed in soft dawn light, one mango rolled onto the boards beside it, dewy and glowing; simple clear composition, the fruit unmistakable and appetising."
+  },
+  {
+   "name": "wp_tara",
+   "kind": "story",
+   "refs": [],
+   "prompt": "One enormous bright cut-paper star, white-gold with layered paper points, hanging alone in a deep indigo paper night sky above the soft silhouette of a valley ridge; simple, radiant, unmistakable."
+  },
+  {
+   "name": "wp_raat",
+   "kind": "story",
+   "refs": [],
+   "prompt": "The valley at full night: layered indigo paper hills under a sky thick with cut-paper stars and a thin crescent moon, one tiny warm lantern glowing in a distant courtyard; hushed, beautiful, clearly night-time."
+  },
+  {
+   "name": "wp_naam",
+   "kind": "story",
+   "refs": [
+    "furia"
+   ],
+   "prompt": "The bright pink-red dragon girl's wooden door at dawn with a soft golden glowing ornament hung above the lintel — the glow abstract warm light only, no letterforms — morning light on the paper wall, clearly a gift with a place of honour above a door."
+  },
+  {
+   "name": "wp_kaam",
+   "kind": "story",
+   "refs": [
+    "mitasur"
+   ],
+   "prompt": "The roly-poly dusty grey-purple goblin with soft smudgy edges, big googly eyes and two fat pink-purple sponge hands standing guard at the middle of the wooden plank bridge at night, chest out, one sponge fist on the rail and the bridge lantern glowing beside him — a small guard proudly at his post over the dark stream."
+  },
+  {
+   "name": "wp_papa",
+   "kind": "story",
+   "refs": [
+    "papa"
+   ],
+   "prompt": "Warm medium portrait of the big broad dark-green cut-paper dragon father standing by his cart in golden dawn light, a basket under one arm, smiling wide and open-hearted straight at the camera; unmistakably a beloved father coming home."
+  },
+  {
+   "name": "wp_mata",
+   "kind": "story",
+   "refs": [
+    "dadi"
+   ],
+   "prompt": "Warm medium portrait of the elderly grey dragon grandmother with her plain wooden walking stick and small reading glasses at dawn, both paws folded over her heart, eyes soft and shining with being remembered, the first pink-gold morning light on her face; unmistakably a mother being honoured."
+  },
+  {
+   "name": "e7_s6_master",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "vesper",
+    "dadi",
+    "leda",
+    "castor"
+   ],
+   "prompt": "The tiptoe procession: The small round moss-green baby dragon with the cream belly leading The soft light-blue dragon boy with half-lidded dreamy eyes, The very tiny yellow toddler dragon and The tiniest soft pink-lilac baby dragon with stubby wings on exaggerated silent tiptoes across the dark courtyard toward a wooden door, The elderly grey dragon grandmother with her plain wooden walking stick and small reading glasses following with her stick lifted clear of the flagstones, every face scrunched in delighted hush, one paw each raised to their snouts; the deep indigo cut-paper night thick with paper stars above, the lantern left far behind them glowing small."
+  },
+  {
+   "name": "e7_s6_forge",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "vesper",
+    "leda"
+   ],
+   "prompt": "Close on The small round moss-green baby dragon with the cream belly before the dark wooden door, eyes closed in concentration, breathing out the gentlest stream of golden paper sparks — four soft motes of light rising one after another in a slow arc above him — while The soft light-blue dragon boy with half-lidded dreamy eyes and The tiniest soft pink-lilac baby dragon with stubby wings watch breath-held behind; abstract golden light only, no letterforms; the deep indigo cut-paper night thick with paper stars over the door lintel."
+  },
+  {
+   "name": "e7_s6_star_door",
+   "kind": "story",
+   "refs": [
+    "kuku"
+   ],
+   "prompt": "The dark wooden door with a soft warm golden glow settled just above its lintel, The small round moss-green baby dragon with the cream belly small beneath it looking up with quiet pride, paws clasped; the glow is pure abstract warm light with tiny drifting sparks, no letterforms; the deep indigo cut-paper night thick with paper stars arched over the courtyard wall, one real cut-paper star directly above the door's glow as if answering it."
+  },
+  {
+   "name": "e7_d6_vesper",
+   "kind": "dialogue",
+   "refs": [
+    "vesper"
+   ],
+   "prompt": "Medium close shot of The soft light-blue dragon boy with half-lidded dreamy eyes swaying on his feet half-asleep, eyelids nearly shut, a dreamy smile, head tipping slowly toward his own shoulder, one wing already wrapped around himself like a blanket; above him real paper stars and below the faint warm glow from the door out of frame; the deep indigo cut-paper night thick with paper stars everywhere."
+  },
+  {
+   "name": "e7_d6_dadi",
+   "kind": "dialogue",
+   "refs": [
+    "dadi"
+   ],
+   "prompt": "Medium shot of The elderly grey dragon grandmother with her plain wooden walking stick and small reading glasses in the near-dark, lit only faintly by the distant lantern, one paw making the softest patting motion downward — the universal go-to-sleep gesture — her eyes half closed and her smile the tenderest of the night; the sleeping courtyard and the deep indigo cut-paper night thick with paper stars behind her."
+  },
+  {
+   "name": "e7_s7_master",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "vesper",
+    "dadi"
+   ],
+   "prompt": "Wide shot of the courtyard at first light: cold clean first light, the paper sky in pale pink-gold bands over the courtyard wall, long soft shadows, the children's sleeping shapes stirring on mats near the wall, The elderly grey dragon grandmother with her plain wooden walking stick and small reading glasses already upright by the cold lantern; everything pale, quiet and expectant, dew on the paper flagstones."
+  },
+  {
+   "name": "e7_d7_vesper",
+   "kind": "dialogue",
+   "refs": [
+    "vesper"
+   ],
+   "prompt": "Close shot of The soft light-blue dragon boy with half-lidded dreamy eyes snapping upright from sleep, eyes suddenly enormous, snout lifted high and nostrils flared, sniffing hard at the dawn air, one paw pointing vaguely at the sky mid-realisation; cold clean first light, the paper sky in pale pink-gold bands over the courtyard wall behind him."
+  },
+  {
+   "name": "e7_d7_mitasur",
+   "kind": "dialogue",
+   "refs": [
+    "mitasur"
+   ],
+   "prompt": "Medium shot of The roly-poly dusty grey-purple goblin with soft smudgy edges, big googly eyes and two fat pink-purple sponge hands at the far end of the plank bridge in pale dawn light, bouncing on his toes and waving both sponge arms overhead toward the courtyard, his bridge lantern still burning tiny against the cold clean first light, the paper sky in pale pink-gold bands over the courtyard wall; joyful full-body announcement."
+  },
+  {
+   "name": "e7_d7_papa",
+   "kind": "dialogue",
+   "refs": [
+    "papa",
+    "rath"
+   ],
+   "prompt": "Medium shot of The big broad dark-green cut-paper dragon father with wide shoulders and kind tired eyes standing beside the halted cart in the courtyard gateway at dawn, a laden basket under one arm, his free paw raised with one finger to his smiling lips in a gentle hush; behind him the cart's lantern pales against the cold clean first light, the paper sky in pale pink-gold bands over the courtyard wall."
+  },
+  {
+   "name": "e7_d7_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku"
+   ],
+   "prompt": "Close shot of The small round moss-green baby dragon with the cream belly at dawn, up on his toes with excitement he is visibly forcing into a whisper — paws pressed together, shoulders hunched, eyes shining — glancing up and to the side toward something above the door out of frame; cold clean first light, the paper sky in pale pink-gold bands over the courtyard wall on his face."
+  },
+  {
+   "name": "e7_s7_star_dawn",
+   "kind": "story",
+   "refs": [
+    "papa",
+    "kuku"
+   ],
+   "prompt": "Two-shot from behind The big broad dark-green cut-paper dragon father with wide shoulders and kind tired eyes and The small round moss-green baby dragon with the cream belly standing side by side looking up at the wooden door above which a soft golden glow still burns, pale now against the cold clean first light, the paper sky in pale pink-gold bands over the courtyard wall but unmistakably alive; the father's head tilted in wonder, the little dragon's chest out with pride; abstract warm glow only, no letterforms."
+  },
+  {
+   "name": "e7_s8_master",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "vesper",
+    "dadi",
+    "leda",
+    "castor",
+    "papa"
+   ],
+   "prompt": "Wide joyful shot of the full morning courtyard: everyone — The small round moss-green baby dragon with the cream belly, The soft light-blue dragon boy with half-lidded dreamy eyes, The very tiny yellow toddler dragon, The tiniest soft pink-lilac baby dragon with stubby wings, The elderly grey dragon grandmother with her plain wooden walking stick and small reading glasses, The big broad dark-green cut-paper dragon father with wide shoulders and kind tired eyes with his basket — gathered in a warm half-circle facing a wooden door that stands open, morning gold flooding the paper flagstones, the glow above the door bright; caught mid-cheer, paws up, mouths open in delight."
+  },
+  {
+   "name": "e7_d8_furia",
+   "kind": "dialogue",
+   "refs": [
+    "furia"
+   ],
+   "prompt": "Close shot of The bright pink-red dragon girl with the crest of spikes and long eyelashes in her doorway in morning light, frozen mid-yawn-turned-gasp, both paws flying up to her cheeks, eyes enormous, looking up at the warm glow above her own door; her crest half-flattened from sleep, morning gold on her face."
+  },
+  {
+   "name": "e7_d8_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku"
+   ],
+   "prompt": "Medium close shot of The small round moss-green baby dragon with the cream belly in full morning light, standing straight and proud like a small soldier of joy, chin up, one paw pressed flat to his chest, eyes brimming with the biggest gift-giving pride of his life; the celebrating family soft behind him."
+  },
+  {
+   "name": "e7_d8_leda",
+   "kind": "dialogue",
+   "refs": [
+    "leda"
+   ],
+   "prompt": "Close shot of The tiniest soft pink-lilac baby dragon with stubby wings hopping in place in morning light, both paws thrown up on each hop, mouth wide in a chanted cheer, her stubby wings flapping uselessly with happiness; the courtyard warm and bright behind her."
+  },
+  {
+   "name": "e7_d8_papa",
+   "kind": "dialogue",
+   "refs": [
+    "papa"
+   ],
+   "prompt": "Medium shot of The big broad dark-green cut-paper dragon father with wide shoulders and kind tired eyes kneeling to one knee in the morning courtyard, tipping his big basket forward to show it heaped with ripe golden-orange paper mangoes, his grin wide and ceremonial, offering the first one on his open palm; morning gold everywhere."
+  },
+  {
+   "name": "e7_d8_dadi",
+   "kind": "dialogue",
+   "refs": [
+    "dadi"
+   ],
+   "prompt": "Close shot of The elderly grey dragon grandmother with her plain wooden walking stick and small reading glasses caught utterly off guard in the morning light: both paws risen to her chest, her mouth a small o, eyes wet and wide behind her reading glasses, the sternness of age dissolved completely; soft morning gold on her grey paper scales."
+  },
+  {
+   "name": "e7_d8_vesper",
+   "kind": "dialogue",
+   "refs": [
+    "vesper"
+   ],
+   "prompt": "Medium close shot of The soft light-blue dragon boy with half-lidded dreamy eyes standing straight and bright-eyed for once, chest out, speaking with clear careful pride, one paw raised like a small orator, a mango held in the other; morning light sharp and clean on his light-blue scales."
+  },
+  {
+   "name": "e7_s8_gift",
+   "kind": "story",
+   "refs": [
+    "furia",
+    "leda"
+   ],
+   "prompt": "Two-shot in morning light: The bright pink-red dragon girl with the crest of spikes and long eyelashes kneeling to place a ripe golden-orange paper mango into the outstretched stubby paws of The tiniest soft pink-lilac baby dragon with stubby wings, who receives it like a crown jewel, both their faces soft; behind them the family watches; the paper mango glows warm in the morning gold."
+  },
+  {
+   "name": "e7_s8_mata",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "papa",
+    "dadi"
+   ],
+   "prompt": "The quiet gift: the small round moss-green baby dragon breathes a soft stream of golden sparks that drift in a gentle arc across the morning courtyard toward the elderly grey dragon grandmother, who stands very still with her paws half-raised, while the big broad dark-green cut-paper dragon father watches beside his son with a tender smile, his paws empty, wearing nothing but his simple cloth work strap with NO objects, NO tools, NO devices attached; abstract golden light only, no letterforms; morning gold and long soft shadows."
+  },
+  {
+   "name": "e7_s8_niti",
+   "kind": "story",
+   "refs": [
+    "dadi",
+    "kuku",
+    "leda",
+    "castor"
+   ],
+   "prompt": "Medium shot of The elderly grey dragon grandmother with her plain wooden walking stick and small reading glasses seated in the morning light with The small round moss-green baby dragon with the cream belly, The tiniest soft pink-lilac baby dragon with stubby wings and The very tiny yellow toddler dragon settled cross-legged before her, her paw raised in the gentlest teaching gesture, every small face turned up to her; the open door with its warm glow soft in the background, the morning sky pale gold."
+  },
+  {
+   "name": "e7_s8_tansen",
+   "kind": "story",
+   "refs": [
+    "tansen"
+   ],
+   "prompt": "Close morning shot of The small bright green parrot with the red beak and pale cream neck ring on the courtyard wall in full daylight, wings half-spread, beak wide mid-congratulation, bobbing his whole body with enthusiasm, morning gold on his green feathers, the pale morning sky behind."
+  },
+  {
+   "name": "e7_s8_vesper_asleep",
+   "kind": "story",
+   "refs": [
+    "vesper"
+   ],
+   "prompt": "Sweet closing shot: The soft light-blue dragon boy with half-lidded dreamy eyes fast asleep in the morning sun, curled against the big basket of paper mangoes with his cheek squashed on its rim like a pillow, one mango still hugged in his arm, a tiny peaceful smile; long gold morning light, dust motes drifting; hushed and warm."
+  }
+ ],
+ "clips": [
+  {
+   "name": "c7_rath_depart",
+   "refs": [
+    "rath",
+    "papa"
+   ],
+   "prompt": "The sturdy wooden two-wheeled cart, bed lashed with covered bundles and a small warm lantern swinging from its rail, rolls steadily away from the camera along the rutted meadow track and out onto the wooden plank bridge, the big broad dark-green paper dragon father walking at its side with one paw on the rail; the wheels turn with a gentle wobble, the lantern sways, the planks dip softly under the weight, and the cart shrinks into the violet dusk between layered paper hills as the last amber band of sky fades; camera holds fixed at child height on the meadow's edge, no cuts."
+  },
+  {
+   "name": "c7_rath_return",
+   "refs": [
+    "rath",
+    "papa"
+   ],
+   "prompt": "The sturdy wooden two-wheeled cart, lantern paled by dawn, rolls toward the camera across the wooden plank bridge and up the meadow track to the courtyard gateway, The big broad dark-green cut-paper dragon father with wide shoulders and kind tired eyes walking at its side raising one arm in greeting; the wheels turn steadily, the planks dip gently, cold clean first light in pale pink-gold bands over layered paper hills, and the cart slows to a stop just before the gate; camera holds fixed at child height by the gate, no cuts."
+  }
+ ]
+}

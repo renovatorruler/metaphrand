@@ -1,0 +1,381 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 4
+		},
+		"mels": 128,
+		"ftype": 8
+	},
+	"params": {
+		"model": "/private/tmp/metaphrand-whisper/ggml-large-v3-turbo-q5_0.bin",
+		"language": "hi",
+		"translate": false
+	},
+	"result": {
+		"language": "hi"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,100"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2100
+			},
+			"text": " लेडा, तुम खुद बड़ी हो गई हो।",
+			"tokens": [
+				{
+					"text": "[_BEG_]",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,000"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 0
+					},
+					"id": 50365,
+					"p": 0.985389,
+					"t_dtw": -1
+				},
+				{
+					"text": " ल",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,130"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 130
+					},
+					"id": 8485,
+					"p": 0.987354,
+					"t_dtw": -1
+				},
+				{
+					"text": "े",
+					"timestamps": {
+						"from": "00:00:00,130",
+						"to": "00:00:00,170"
+					},
+					"offsets": {
+						"from": 130,
+						"to": 170
+					},
+					"id": 21981,
+					"p": 0.989536,
+					"t_dtw": -1
+				},
+				{
+					"text": "ड",
+					"timestamps": {
+						"from": "00:00:00,170",
+						"to": "00:00:00,300"
+					},
+					"offsets": {
+						"from": 170,
+						"to": 300
+					},
+					"id": 3941,
+					"p": 0.997706,
+					"t_dtw": -1
+				},
+				{
+					"text": "ा",
+					"timestamps": {
+						"from": "00:00:00,300",
+						"to": "00:00:00,340"
+					},
+					"offsets": {
+						"from": 300,
+						"to": 340
+					},
+					"id": 17937,
+					"p": 0.588006,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"timestamps": {
+						"from": "00:00:00,340",
+						"to": "00:00:00,430"
+					},
+					"offsets": {
+						"from": 340,
+						"to": 430
+					},
+					"id": 11,
+					"p": 0.732855,
+					"t_dtw": -1
+				},
+				{
+					"text": " त",
+					"timestamps": {
+						"from": "00:00:00,430",
+						"to": "00:00:00,560"
+					},
+					"offsets": {
+						"from": 430,
+						"to": 560
+					},
+					"id": 8485,
+					"p": 0.992785,
+					"t_dtw": -1
+				},
+				{
+					"text": "ु",
+					"timestamps": {
+						"from": "00:00:00,650",
+						"to": "00:00:00,690"
+					},
+					"offsets": {
+						"from": 650,
+						"to": 690
+					},
+					"id": 8703,
+					"p": 0.994452,
+					"t_dtw": -1
+				},
+				{
+					"text": "म",
+					"timestamps": {
+						"from": "00:00:00,730",
+						"to": "00:00:00,730"
+					},
+					"offsets": {
+						"from": 730,
+						"to": 730
+					},
+					"id": 48521,
+					"p": 0.998942,
+					"t_dtw": -1
+				},
+				{
+					"text": " ख",
+					"timestamps": {
+						"from": "00:00:00,750",
+						"to": "00:00:00,860"
+					},
+					"offsets": {
+						"from": 750,
+						"to": 860
+					},
+					"id": 8485,
+					"p": 0.962992,
+					"t_dtw": -1
+				},
+				{
+					"text": "ु",
+					"timestamps": {
+						"from": "00:00:00,860",
+						"to": "00:00:00,990"
+					},
+					"offsets": {
+						"from": 860,
+						"to": 990
+					},
+					"id": 8703,
+					"p": 0.993762,
+					"t_dtw": -1
+				},
+				{
+					"text": "द",
+					"timestamps": {
+						"from": "00:00:01,000",
+						"to": "00:00:01,120"
+					},
+					"offsets": {
+						"from": 1000,
+						"to": 1120
+					},
+					"id": 3941,
+					"p": 0.990715,
+					"t_dtw": -1
+				},
+				{
+					"text": " ब",
+					"timestamps": {
+						"from": "00:00:01,120",
+						"to": "00:00:01,250"
+					},
+					"offsets": {
+						"from": 1120,
+						"to": 1250
+					},
+					"id": 8485,
+					"p": 0.99775,
+					"t_dtw": -1
+				},
+				{
+					"text": "ड",
+					"timestamps": {
+						"from": "00:00:01,290",
+						"to": "00:00:01,370"
+					},
+					"offsets": {
+						"from": 1290,
+						"to": 1370
+					},
+					"id": 3941,
+					"p": 0.996158,
+					"t_dtw": -1
+				},
+				{
+					"text": "़",
+					"timestamps": {
+						"from": "00:00:01,380",
+						"to": "00:00:01,510"
+					},
+					"offsets": {
+						"from": 1380,
+						"to": 1510
+					},
+					"id": 3941,
+					"p": 0.986457,
+					"t_dtw": -1
+				},
+				{
+					"text": "ी",
+					"timestamps": {
+						"from": "00:00:01,510",
+						"to": "00:00:01,550"
+					},
+					"offsets": {
+						"from": 1510,
+						"to": 1550
+					},
+					"id": 31881,
+					"p": 0.998948,
+					"t_dtw": -1
+				},
+				{
+					"text": " ह",
+					"timestamps": {
+						"from": "00:00:01,550",
+						"to": "00:00:01,590"
+					},
+					"offsets": {
+						"from": 1550,
+						"to": 1590
+					},
+					"id": 37139,
+					"p": 0.998405,
+					"t_dtw": -1
+				},
+				{
+					"text": "ो",
+					"timestamps": {
+						"from": "00:00:01,590",
+						"to": "00:00:01,630"
+					},
+					"offsets": {
+						"from": 1590,
+						"to": 1630
+					},
+					"id": 33926,
+					"p": 0.999596,
+					"t_dtw": -1
+				},
+				{
+					"text": " ग",
+					"timestamps": {
+						"from": "00:00:01,630",
+						"to": "00:00:01,760"
+					},
+					"offsets": {
+						"from": 1630,
+						"to": 1760
+					},
+					"id": 8485,
+					"p": 0.994779,
+					"t_dtw": -1
+				},
+				{
+					"text": "ई",
+					"timestamps": {
+						"from": "00:00:01,760",
+						"to": "00:00:01,890"
+					},
+					"offsets": {
+						"from": 1760,
+						"to": 1890
+					},
+					"id": 3941,
+					"p": 0.949869,
+					"t_dtw": -1
+				},
+				{
+					"text": " ह",
+					"timestamps": {
+						"from": "00:00:01,890",
+						"to": "00:00:01,930"
+					},
+					"offsets": {
+						"from": 1890,
+						"to": 1930
+					},
+					"id": 37139,
+					"p": 0.996481,
+					"t_dtw": -1
+				},
+				{
+					"text": "ो",
+					"timestamps": {
+						"from": "00:00:01,930",
+						"to": "00:00:02,040"
+					},
+					"offsets": {
+						"from": 1930,
+						"to": 2040
+					},
+					"id": 33926,
+					"p": 0.998942,
+					"t_dtw": -1
+				},
+				{
+					"text": "।",
+					"timestamps": {
+						"from": "00:00:02,100",
+						"to": "00:00:02,100"
+					},
+					"offsets": {
+						"from": 2100,
+						"to": 2100
+					},
+					"id": 8703,
+					"p": 0.346251,
+					"t_dtw": -1
+				},
+				{
+					"text": "[_TT_105]",
+					"timestamps": {
+						"from": "00:00:02,100",
+						"to": "00:00:02,100"
+					},
+					"offsets": {
+						"from": 2100,
+						"to": 2100
+					},
+					"id": 50470,
+					"p": 0.372156,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

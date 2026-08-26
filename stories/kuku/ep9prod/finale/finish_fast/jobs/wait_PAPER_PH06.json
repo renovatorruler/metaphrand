@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-08-18T20:39:03.504158Z",
+  "display_name": "GPT Image 2",
+  "id": "5d59a009-599b-4021-95e7-bfb05438c9ca",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_203903_5d59a009-599b-4021-95e7-bfb05438c9ca_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "ec4d6536-d5ba-4ff6-ad28-9fdb8d94f110",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/ec4d6536-d5ba-4ff6-ad28-9fdb8d94f110_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "8f8f5903-e546-4cfb-9560-681829aaa6c9",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/8f8f5903-e546-4cfb-9560-681829aaa6c9.png"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Inside the opened wooden chest, nested in cloth, ONE empty golden circular band glows softly — plainly a circle, plainly empty; the five child dragons' faces ring the chest looking down, lit from below by its glow; behind them the cracked golden gate steadies mid-tremble. 3D papercraft style, exactly matching the cut-paper character designs in the reference images: layered cut-paper illustration with real depth, soft matte construction-paper textures, visible paper edges, folds and creases, warm storybook palette, soft studio lighting, gentle depth of field, like a lit diorama built from card. Non-photorealistic, made of paper. NO flat single-plane 2D, NO sticker look, NO glossy plastic 3D render, NO photorealism, no text, no letters.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_203903_5d59a009-599b-4021-95e7-bfb05438c9ca.png",
+  "status": "completed"
+}

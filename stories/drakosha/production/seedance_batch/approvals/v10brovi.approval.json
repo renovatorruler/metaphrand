@@ -1,0 +1,7 @@
+{
+  "job": "v10brovi",
+  "creative_sha256": "406cc4fd680aa8fb14aa3e68649cba2354b9aa12390c286da72fd7bb51feef4e",
+  "approved_at": "2026-08-26",
+  "author_words": "I am not reading it. You review it. You make sure everything is attached. You make sure it passes all the gates. Then just show me the result. Properly dubbed.",
+  "note": "Author delegated review entirely. Self-review found and fixed six static-description defects (the V09 freeze class) plus two nsfw trigger words. All gates pass; 6 refs + start frame verified on disk; both lines exist and fit."
+}

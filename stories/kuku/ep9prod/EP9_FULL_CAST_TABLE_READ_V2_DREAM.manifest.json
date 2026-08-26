@@ -1,0 +1,195 @@
+{
+ "audio": "../stories/kuku/ep9prod/EP9_FULL_CAST_TABLE_READ_V2_DREAM.mp3",
+ "duration_seconds": 2228.263771,
+ "chunks": [
+  {
+   "id": "chunk_000",
+   "scene": 0,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_55e7faffad1d99428e1c9e9e35359f7e04756855b765fd0d4f16d6924a69f116.mp3",
+   "duration_seconds": 143.84
+  },
+  {
+   "id": "chunk_001",
+   "scene": 0,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_0837e589cc59d32252619d2ef4945210c09dd53f69353a276e26e07f06ea5159.mp3",
+   "duration_seconds": 145.6
+  },
+  {
+   "id": "chunk_002",
+   "scene": 0,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_cf416944c6ca23450fb7eac7ded925975c17e023f082811b5954973b9d56ef85.mp3",
+   "duration_seconds": 136.24
+  },
+  {
+   "id": "chunk_003",
+   "scene": 0,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_61b3eabe0d7aa494b297cb8317a1b038f5f9414b2889b6ff63940d4c59750aaa.mp3",
+   "duration_seconds": 36.64
+  },
+  {
+   "id": "chunk_004",
+   "scene": 100,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_eeaa855630b976b36ac32abfc96b9288cf22cff7fd885fcc255150adc8d8243b.mp3",
+   "duration_seconds": 47.2
+  },
+  {
+   "id": "chunk_005",
+   "scene": 1000,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_52f61ac428388cceb30eedef34e675723d9c474bc61b09a64edcfbe82763aa48.mp3",
+   "duration_seconds": 1.36
+  },
+  {
+   "id": "chunk_006",
+   "scene": 1,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_55c6cfe5ec6569c7d368e45984624dbc855489e4e5c02cd2833a9dbad144c044.mp3",
+   "duration_seconds": 94.72
+  },
+  {
+   "id": "chunk_007",
+   "scene": 2,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_0acc47bab5a111a847a1ce6b29df5920f9760cf1008e4d2c168799c846e99d2d.mp3",
+   "duration_seconds": 126.16
+  },
+  {
+   "id": "chunk_008",
+   "scene": 3,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_3156d98d364a9b61f1b9d7f7d6ee08b3d3c891059f11d317f3be5b014645a8c4.mp3",
+   "duration_seconds": 126.32
+  },
+  {
+   "id": "chunk_009",
+   "scene": 3,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_cdec9dac9b290ef09241d3598ff463c50aa895a25e63005cef81c38dfb474f1b.mp3",
+   "duration_seconds": 32.16
+  },
+  {
+   "id": "chunk_010",
+   "scene": 4,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_be41c9ba6be6172513d1fe0e5ec5d9cc13dc04b3ab779b0462153692b485018b.mp3",
+   "duration_seconds": 135.28
+  },
+  {
+   "id": "chunk_011",
+   "scene": 4,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_1c5fc6d25fbdded5b6f3fa3e69f465471769c5b140c4b20caf01139a7460e46e.mp3",
+   "duration_seconds": 13.84
+  },
+  {
+   "id": "chunk_012",
+   "scene": 4,
+   "kind": "chorus",
+   "path": "../stories/kuku/ep9prod/table_read/cache/chorus_8062f28a1cf2112c0bb64e001539a83bf005119328e53251609fe9814ff4ba3a.mp3",
+   "duration_seconds": 3.76
+  },
+  {
+   "id": "chunk_013",
+   "scene": 4,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_219f8cd006fb437f48e1a2dcbf7985d1437b6283642eb4166aea64adcac61ab9.mp3",
+   "duration_seconds": 30.88
+  },
+  {
+   "id": "chunk_014",
+   "scene": 5,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_dd99bce7f10a8a74b416b4bdf1ac9396afeb033e4c066f4b6b7b6633da442da6.mp3",
+   "duration_seconds": 122.88
+  },
+  {
+   "id": "chunk_015",
+   "scene": 6,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_6202a806f66ae4fc6d7b4807c76c914b23ad1634e794af3696a94db015ba5f77.mp3",
+   "duration_seconds": 117.52
+  },
+  {
+   "id": "chunk_016",
+   "scene": 6,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_e20024c0c4f8c8fa0dcd49dac0e284d13f24f95289892b3b51b22e66fd65e03e.mp3",
+   "duration_seconds": 76.96
+  },
+  {
+   "id": "chunk_017",
+   "scene": 7,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_818ab2ef7c17276d9be285cc8d030e5bf85d6efafe5422ae70e9665df6af46ca.mp3",
+   "duration_seconds": 139.04
+  },
+  {
+   "id": "chunk_018",
+   "scene": 7,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_4a841f420f8702abf3a75f60772b42c27ea18e6621b3cf485a61898c5e579056.mp3",
+   "duration_seconds": 8
+  },
+  {
+   "id": "chunk_019",
+   "scene": 8,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_68df099baa289813adcdce5aed648de9af701d90dd5bf78bb2c41e9c455c7ce3.mp3",
+   "duration_seconds": 141.44
+  },
+  {
+   "id": "chunk_020",
+   "scene": 8,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_cd04b945bef50c7117c4596aaa793d95720066f0c5a5c2f09dcea4eb01899a22.mp3",
+   "duration_seconds": 150.08
+  },
+  {
+   "id": "chunk_021",
+   "scene": 8,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_aae2d515851a898b8783b378a5cf3636ca43e5d047f6f71ba017a12cb385dcea.mp3",
+   "duration_seconds": 17.04
+  },
+  {
+   "id": "chunk_022",
+   "scene": 9,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_c09044a5c0f23d483b560c9f52c9a311a14083508412636f8c39595e2576adc3.mp3",
+   "duration_seconds": 131.52
+  },
+  {
+   "id": "chunk_023",
+   "scene": 9,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_308ef9d1f0abb107bec36c9d21709299a88848d6f6683dd597a440fa10e56200.mp3",
+   "duration_seconds": 18.8
+  },
+  {
+   "id": "chunk_024",
+   "scene": 10,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_2f7afdacb8ccc9ec9f2b800e6434ed843927b769cf910397439ee92000bf94fe.mp3",
+   "duration_seconds": 108
+  },
+  {
+   "id": "chunk_025",
+   "scene": 10,
+   "kind": "mimic",
+   "path": "../stories/kuku/ep9prod/table_read/cache/mimic_8ef8ac789738bd302ff7577a00c11ab1d8dd7dc887d0ec110daacd30ad627631.mp3",
+   "duration_seconds": 1.032979
+  },
+  {
+   "id": "chunk_026",
+   "scene": 10,
+   "kind": "dialogue",
+   "path": "../stories/kuku/ep9prod/table_read/cache/dialogue_db9bf3f694ae7aec06417afeff6e5da05a18f19afe0c0a22739c98e993871752.mp3",
+   "duration_seconds": 103.36
+  }
+ ]
+}

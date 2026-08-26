@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-08-18T20:38:02.540243Z",
+  "display_name": "GPT Image 2",
+  "id": "46577443-67b3-4686-945d-07a9772a181d",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_203802_46577443-67b3-4686-945d-07a9772a181d_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "9ba85622-6c9d-4ce5-93b0-83e87ef968be",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/9ba85622-6c9d-4ce5-93b0-83e87ef968be_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "183ab1ce-79cc-4136-9412-881b8e225676",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/183ab1ce-79cc-4136-9412-881b8e225676_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "a88b32a0-e5f2-4525-941c-bfb669eaadab",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/a88b32a0-e5f2-4525-941c-bfb669eaadab.png"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "In a dawn paper meadow, the large silver-white winged dragon grandmother from the reference sheet stands protectively between the viewer and the open sky, her paper wing casting a long shadow over the grass; high and far behind her one small dark eagle circles; grave resolute expression; the five small child dragons watch from the frame edge. 3D papercraft style, exactly matching the cut-paper character designs in the reference images: layered cut-paper illustration with real depth, soft matte construction-paper textures, visible paper edges, folds and creases, warm storybook palette, soft studio lighting, gentle depth of field, like a lit diorama built from card. Non-photorealistic, made of paper. NO flat single-plane 2D, NO sticker look, NO glossy plastic 3D render, NO photorealism, no text, no letters.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_203802_46577443-67b3-4686-945d-07a9772a181d.png",
+  "status": "completed"
+}

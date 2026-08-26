@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1280" viewBox="0 0 1280 1280">
+  <rect width="1280" height="1280" fill="#00ff00"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M790 520 C720 430 650 330 555 205"
+          stroke="#d8e4e8" stroke-width="9" opacity="0.48"/>
+    <path d="M790 520 C760 355 735 235 585 170"
+          stroke="#cbb9dd" stroke-width="9" opacity="0.42"/>
+    <path d="M790 520 C650 610 500 570 450 470 C405 375 465 265 555 205"
+          stroke="#75d7ee" stroke-width="12" opacity="0.72"/>
+  </g>
+</svg>

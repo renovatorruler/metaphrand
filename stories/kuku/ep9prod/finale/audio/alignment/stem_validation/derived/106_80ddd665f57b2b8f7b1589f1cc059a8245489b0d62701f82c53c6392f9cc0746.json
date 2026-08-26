@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 106,
+ "chunk_id": "chunk_008",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_3156d98d364a9b61f1b9d7f7d6ee08b3d3c891059f11d317f3be5b014645a8c4.mp3",
+ "source_sha256": "8d81bd70afc0f8c6015e586c59459c703674c5c32a51fadde439029db46e01bd",
+ "source_start": 30.453840545252817,
+ "source_end": 38.502539229671896,
+ "expected_text": "यही गुरुकुल का रास्ता है। मैं इसे कुछ देर थाम सकता हूँ। इसे हमेशा के लिए केवल एक जीवित अक्षर सँभाल सकता है।",
+ "expected_text_sha256": "5b6425db97383b590a63eb3dd0f9f0cbab3559f8530f9ba816712d79ae7667b0",
+ "ctc_evidence_identity": "d65e339587e0985d91505e30ecd362b0fcfec8937c6ba898d17b3c7cdf577f3f",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/106_25633e6eb088e85a7dd1c00f611cbf6cbaa9b4bb7a9106367ba62660f3d6a409.whisper.json",
+ "raw_whisper_sha256": "f45c9f7847022675a879cdc2f663bdeeb97ce209d5d8bf2b10f426ab616c835a",
+ "quality": {
+  "expected_words": 23,
+  "observed_words": 23,
+  "matched_words": 22,
+  "coverage": 0.9565217391304348,
+  "observed_precision": 0.9565217391304348,
+  "mean_similarity": 1,
+  "sequence_score": 0.9782608695652174,
+  "average_token_probability": 0.9484168181818181,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 0.9728260869565217
+ }
+}

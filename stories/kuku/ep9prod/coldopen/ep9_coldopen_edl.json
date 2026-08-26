@@ -1,0 +1,127 @@
+{
+ "scenes": [
+  {
+   "name": "s0_future",
+   "cue": "score/coldopen_silence.mp3",
+   "score_vol": 1,
+   "segments": [
+    {
+     "src": "clip:co01_attackers_descend",
+     "dur": 7,
+     "in": 0,
+     "takes": [
+      {
+       "sfx": "coldopen_full_mix",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "clip:co02_last_bridge_saboteur",
+     "dur": 6,
+     "in": 0,
+     "takes": []
+    },
+    {
+     "src": "clip:co03_fyuria_reveal",
+     "dur": 7,
+     "in": 0,
+     "takes": []
+    },
+    {
+     "src": "clip:co04_fyuria_catches_tower",
+     "dur": 7,
+     "in": 0,
+     "takes": []
+    },
+    {
+     "src": "clip:co05_fyuria_fire_split",
+     "dur": 7,
+     "in": 0,
+     "takes": []
+    },
+    {
+     "src": "clip:co06_commander_bait",
+     "dur": 8,
+     "in": 0,
+     "takes": []
+    },
+    {
+     "src": "clip:co07_pin_pulled",
+     "dur": 8,
+     "in": 0,
+     "takes": []
+    },
+    {
+     "src": "clip:co08_fyuria_holds_bridge",
+     "dur": 6,
+     "in": 0,
+     "takes": []
+    },
+    {
+     "src": "clip:co09_vesper_fire_lure",
+     "dur": 8,
+     "in": 0,
+     "takes": []
+    },
+    {
+     "src": "clip:co10_vesper_third_current",
+     "dur": 7,
+     "in": 0,
+     "takes": []
+    },
+    {
+     "src": "clip:co11_leda_castor_arrive",
+     "dur": 7,
+     "in": 0,
+     "takes": []
+    },
+    {
+     "src": "clip:co12_castor_inside_crack",
+     "dur": 9,
+     "in": 0,
+     "takes": []
+    },
+    {
+     "src": "clip:co13_bridge_repaired",
+     "dur": 6,
+     "in": 0,
+     "takes": []
+    },
+    {
+     "src": "clip:co14_kuku_glyph_shield",
+     "dur": 7,
+     "in": 0,
+     "fx": [
+      {
+       "png": "glyphs/fx_ka.png",
+       "at": 2,
+       "scale": 0.2,
+       "pos": "shield"
+      }
+     ],
+     "takes": []
+    },
+    {
+     "src": "clip:co15_last_family_crosses",
+     "dur": 6,
+     "in": 0,
+     "takes": []
+    },
+    {
+     "src": "clip:co16_five_dragon_formation",
+     "dur": 7,
+     "in": 0,
+     "takes": []
+    },
+    {
+     "src": "clip:co17_child_fyuria_wakes",
+     "dur": 7,
+     "in": 0,
+     "takes": []
+    }
+   ]
+  }
+ ]
+}

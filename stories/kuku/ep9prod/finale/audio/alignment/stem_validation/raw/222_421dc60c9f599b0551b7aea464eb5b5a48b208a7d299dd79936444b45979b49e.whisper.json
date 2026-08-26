@@ -1,0 +1,143 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 4
+		},
+		"mels": 128,
+		"ftype": 8
+	},
+	"params": {
+		"model": "/private/tmp/metaphrand-whisper/ggml-large-v3-turbo-q5_0.bin",
+		"language": "hi",
+		"translate": false
+	},
+	"result": {
+		"language": "hi"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,720"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 720
+			},
+			"text": " सबर को",
+			"tokens": [
+				{
+					"text": "[_BEG_]",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,000"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 0
+					},
+					"id": 50365,
+					"p": 0.775005,
+					"t_dtw": -1
+				},
+				{
+					"text": " स",
+					"timestamps": {
+						"from": "00:00:00,100",
+						"to": "00:00:00,100"
+					},
+					"offsets": {
+						"from": 100,
+						"to": 100
+					},
+					"id": 49316,
+					"p": 0.849613,
+					"t_dtw": -1
+				},
+				{
+					"text": "ब",
+					"timestamps": {
+						"from": "00:00:00,110",
+						"to": "00:00:00,400"
+					},
+					"offsets": {
+						"from": 110,
+						"to": 400
+					},
+					"id": 3941,
+					"p": 0.698348,
+					"t_dtw": -1
+				},
+				{
+					"text": "र",
+					"timestamps": {
+						"from": "00:00:00,400",
+						"to": "00:00:00,460"
+					},
+					"offsets": {
+						"from": 400,
+						"to": 460
+					},
+					"id": 25411,
+					"p": 0.552614,
+					"t_dtw": -1
+				},
+				{
+					"text": " क",
+					"timestamps": {
+						"from": "00:00:00,560",
+						"to": "00:00:00,600"
+					},
+					"offsets": {
+						"from": 560,
+						"to": 600
+					},
+					"id": 31970,
+					"p": 0.263723,
+					"t_dtw": -1
+				},
+				{
+					"text": "ो",
+					"timestamps": {
+						"from": "00:00:00,600",
+						"to": "00:00:00,720"
+					},
+					"offsets": {
+						"from": 600,
+						"to": 720
+					},
+					"id": 33926,
+					"p": 0.857649,
+					"t_dtw": -1
+				},
+				{
+					"text": "[_TT_36]",
+					"timestamps": {
+						"from": "00:00:00,720",
+						"to": "00:00:00,720"
+					},
+					"offsets": {
+						"from": 720,
+						"to": 720
+					},
+					"id": 50401,
+					"p": 0.296273,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

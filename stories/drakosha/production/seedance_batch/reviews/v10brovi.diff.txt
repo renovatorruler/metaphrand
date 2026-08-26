@@ -1,0 +1,9 @@
+V10 — self-review before first submit. Six freeze defects found by me and fixed:
++ tail: everyone given continuous motion (Мама re-settling babies, Руся twisting/kicking,
+  Муся chewing and turning, Вася sagging further and blinking)   [source: V09 freeze lesson]
++ Руся/Муся: "unchanged"/"steady" replaced with continuous action  [source: same]
++ Мама: jogging the babies, blink at the flash                     [source: same]
++ Вася: chest rising, foot scuff, slow blink                       [source: same]
++ boil: staged tightening, nostrils, jaw working, head tremor      [source: same]
++ opening matched to the REAL last frame of V09, not the plate     [source: author note]
+- "boy"/"body" removed from tagline and scale                      [source: nsfw trigger history]

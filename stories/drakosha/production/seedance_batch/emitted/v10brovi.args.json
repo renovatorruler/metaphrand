@@ -1,0 +1,14 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 14,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-26_V10_brovi_start.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-07.png",
+    "../stories/drakosha/ep1prod/scene1/references/C-VASMAMA-01_solo_from_T-VAS-MAMA-01.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-04.png",
+    "../stories/drakosha/ep1prod/scene1/references/C-RUS-01_solo_from_packet_page14.png",
+    "../stories/drakosha/ep1prod/scene1/references/C-MUS-01_solo_from_packet_page14.png",
+    "../stories/drakosha/ep1prod/scene1/references/T-VAS-MAMA-01_approved.png"
+  ],
+  "promptSha256": "7efb8565fd6bff96287c906927ba6150096fcdb676711cdb4398d1f3a8edf21e"
+}

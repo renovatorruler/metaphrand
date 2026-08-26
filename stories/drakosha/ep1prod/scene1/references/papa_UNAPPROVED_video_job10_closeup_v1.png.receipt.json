@@ -1,0 +1,11 @@
+{
+  "schema": "frosya.generation-receipt/v1",
+  "sceneId": "EP1-S02",
+  "stage": "refs",
+  "subjectId": "PAPA_UNAPPROVED_VIDEO_FRAME",
+  "provenance": "frame extracted from Seedance clip job10 (SH018-SH020), t=9.0s, rnd/seedance_test/skill_run2/clip10.mp4",
+  "status": "REJECTED",
+  "rejectedBy": "author",
+  "rejectedOn": "2026-08-26",
+  "note": "This generated-video frame was never approved as a frame or as a character-design source. Preserve for provenance only. Never attach it to generation. Papa must come from the approved author character packet."
+}

@@ -1,0 +1,24 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1280" viewBox="0 0 1280 1280">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2d2552"/><stop offset="1" stop-color="#6f4b66"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a96832"/><stop offset=".45" stop-color="#6b371f"/>
+      <stop offset="1" stop-color="#3f211b"/>
+    </linearGradient>
+    <filter id="soft"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#130d1d" flood-opacity=".65"/></filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#wall)"/>
+  <path d="M0 545 Q290 500 640 530 T1280 520 V720 H0 Z" fill="#32263d"/>
+  <g opacity=".28" fill="#f8dba1"><circle cx="190" cy="180" r="5"/><circle cx="1040" cy="145" r="4"/><circle cx="1120" cy="260" r="6"/><circle cx="250" cy="330" r="3"/></g>
+  <g filter="url(#soft)" stroke="#2e1818" stroke-width="12">
+    <path d="M286 319 Q286 183 422 153 H858 Q994 183 994 319 Z" fill="url(#wood)"/>
+    <path d="M255 315 H1025 V610 Q1025 650 985 650 H295 Q255 650 255 610 Z" fill="url(#wood)"/>
+    <path d="M255 330 H1025" stroke="#d69a4f" stroke-width="18"/>
+    <path d="M304 370 H976 M304 598 H976" stroke="#b47738" stroke-width="14" opacity=".75"/>
+    <circle cx="640" cy="500" r="107" fill="#241a2d" stroke="#d9a848" stroke-width="22"/>
+    <circle cx="640" cy="500" r="87" fill="#17121f" stroke="#684731" stroke-width="8"/>
+  </g>
+</svg>

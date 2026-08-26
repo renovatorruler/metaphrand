@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-08-17T14:00:13.330623Z",
+  "display_name": "GPT Image 2",
+  "id": "459a56fb-f6c4-488f-bb41-7d21b56d3b98",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260817_140013_459a56fb-f6c4-488f-bb41-7d21b56d3b98_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "45184030-8d68-4d21-83b1-d6f9289e1842",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/45184030-8d68-4d21-83b1-d6f9289e1842.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "f3ca439e-c4e1-455b-a98e-89add1736fc4",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/f3ca439e-c4e1-455b-a98e-89add1736fc4.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Wide shot: an elderly bald HUMAN sage, Gandhi-like, thin, wingless, in simple robes with a wooden staff, stepping down off the end of a narrow cloud ramp onto a dawn meadow, greeted by the five small child dragons from the reference images and one large silver-white elderly winged dragon grandmother. The sage has absolutely NO wings and is human, not a dragon. Exactly the characters shown in the reference images, same colors and proportions. Soft dimensional 3D render, warm sunrise light, gentle depth of field, glossy toy-like materials, children's animated film quality. Absolutely no flat 2D illustration, no paper-cutout look, no painterly outlines, no text.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260817_140013_459a56fb-f6c4-488f-bb41-7d21b56d3b98.png",
+  "status": "completed"
+}

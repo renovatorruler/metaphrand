@@ -1,0 +1,16 @@
+{
+  "schema": "metaphrand-local-audio-toolchain-provenance-v1",
+  "tool": "FFmpeg",
+  "official_website": "https://ffmpeg.org/",
+  "version": "8.0.1",
+  "installation": "Homebrew ffmpeg 8.0.1_4",
+  "ffmpeg_binary_size_bytes": 442864,
+  "ffmpeg_binary_sha256": "feaee5cd168960437853cdacabe314b08c8498600177301687b9ef2ff76abc28",
+  "ffprobe_binary_sha256": "ec2933fc30fed334a43b9d260fdfb9b523a24179d89cd18c7ce7e09714483598",
+  "homebrew_sbom_filename": "FFMPEG_8.0.1_HOMEBREW_SBOM.spdx.json",
+  "homebrew_sbom_sha256": "0b151ac767b97bf5a83e43e4b738737375195bd88ce480b9fe9babedeee7df2e",
+  "homebrew_license_concluded": "GPL-2.0-or-later",
+  "license_summary_filename": "LICENSE_FFMPEG.md",
+  "license_summary_sha256": "2e1d16c72fd74e12063776371da757322f8b77589386532f4fd8634bde7de1af",
+  "production_contract": "The approved source is encoded once to the candidate MP3. That exact MP3 is decoded to 16 kHz mono PCM for independent Whisper validation. Production ReScript verifies tool, source, candidate, and validation-input hashes before and after every operation."
+}

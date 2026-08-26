@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 293,
+ "chunk_id": "chunk_023",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_308ef9d1f0abb107bec36c9d21709299a88848d6f6683dd597a440fa10e56200.mp3",
+ "source_sha256": "887eac92fbc41950db7474bc21e647506752e6356c2581e90c7f6bcb6bbae6a5",
+ "source_start": 11.171970181043664,
+ "source_end": 14.955782747603832,
+ "expected_text": "रास्ता दोनों ओर से खुलता है। अब तुम पाँचों जा सकते हो।",
+ "expected_text_sha256": "b2b0e6d3c88e2b6b4164a760aad603d7acd601bdbf46f20008326c3851a7d5bc",
+ "ctc_evidence_identity": "3a8a56bf2a1305806b25a08a2b0b4fe2a9791c2f6551b8533c67831a314472a1",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/293_d01e1f8daf27f99361a5895d90233a151b7f8ffbc0d39e8b43b906284cb04187.whisper.json",
+ "raw_whisper_sha256": "ae232c2028935490b97c56893df6d8e29174a750d957a5965e7b6a6850c804dc",
+ "quality": {
+  "expected_words": 12,
+  "observed_words": 12,
+  "matched_words": 11,
+  "coverage": 0.9166666666666666,
+  "observed_precision": 0.9166666666666666,
+  "mean_similarity": 0.9696969696969698,
+  "sequence_score": 0.9305555555555556,
+  "average_token_probability": 0.9641758181818182,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 0.9333964646464648
+ }
+}

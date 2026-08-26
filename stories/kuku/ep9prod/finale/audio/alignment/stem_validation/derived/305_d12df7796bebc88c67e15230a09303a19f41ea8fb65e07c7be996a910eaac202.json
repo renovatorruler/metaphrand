@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 305,
+ "chunk_id": "chunk_024",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_2f7afdacb8ccc9ec9f2b800e6434ed843927b769cf910397439ee92000bf94fe.mp3",
+ "source_sha256": "9309e2a481d27aa4fe3970444bbb59d3910a305842b0a7977a9ae6a434750e6a",
+ "source_start": 64.77205784204672,
+ "source_end": 67.1544827586207,
+ "expected_text": "मेरा कड़ा मेरी बात सुनता है।",
+ "expected_text_sha256": "5d85c487f729c6a6e7df47c55ee6c3d1dcb2a61c2227a2c6b5cc36015b803d8c",
+ "ctc_evidence_identity": "56e9600108c064432b67cbab24e4f1408b1a961f3472371b00f90d80d533fa37",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/305_784b69e3297ae21c91fc31f4c5e1ac5b1338bf3705bedbc635e317fc1e235fc7.whisper.json",
+ "raw_whisper_sha256": "04798711a19c3410995b513880fb5e05981dfe86bf1dc7325ebf599ff023f981",
+ "quality": {
+  "expected_words": 6,
+  "observed_words": 6,
+  "matched_words": 6,
+  "coverage": 1,
+  "observed_precision": 1,
+  "mean_similarity": 1,
+  "sequence_score": 1,
+  "average_token_probability": 0.915023,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 1
+ }
+}

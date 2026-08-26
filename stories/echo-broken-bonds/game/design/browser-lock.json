@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-08-05",
+  "controller": {
+    "name": "Playwright",
+    "version": "1.57.0",
+    "browser_revision": "1200",
+    "node": {
+      "version": "24.13.1",
+      "executable_path": "/Users/dusty/.nvm/versions/node/v24.13.1/bin/node",
+      "executable_size_bytes": 119127632,
+      "executable_sha256": "d36b3d980963d44bd2c5e844fac4cfeee26a167b744287a4e74a9575af9d0559"
+    },
+    "npm_version": "11.8.0",
+    "playwright_npm": {
+      "version": "1.57.0",
+      "dist_sha1": "74d1dacff5048dc40bf4676940b1901e18ad0f46",
+      "dist_integrity_sha512": "sha512-ilYQj1s8sr2ppEJ2YVadYBN0Mb3mdo9J0wQ+UuDhzYqURwSoW4n1Xs5vs7ORwgDGmyEh33tRMeS8KhdkMoLXQw=="
+    },
+    "playwright_core_npm": {
+      "version": "1.57.0",
+      "dist_sha1": "3dcc9a865af256fa9f0af0d67fc8dd54eecaebf5",
+      "dist_integrity_sha512": "sha512-agTcKlMw/mjBWOnD6kFZttAAGHgi/Nw0CZ2o6JqWSbMlI219lAFLZZCyqByTsvVAJq5XA5H8cA6PrvBRpBWEuQ=="
+    }
+  },
+  "browser": {
+    "product": "Google Chrome for Testing",
+    "chromium_version": "143.0.7499.4",
+    "platform": "mac-arm64",
+    "headless": false,
+    "executable_path": "/Users/dusty/Library/Caches/ms-playwright/chromium-1200/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing",
+    "executable_size_bytes": 52064,
+    "executable_sha256": "22f741f28571830090351420bae2a2f00567cb0a9bd6338060e1aaed53ff491e",
+    "core_framework_path": "/Users/dusty/Library/Caches/ms-playwright/chromium-1200/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.4/Google Chrome for Testing Framework",
+    "core_framework_size_bytes": 217418288,
+    "core_framework_sha256": "92ffa95c0ea7120850b911dc712d3335351cf1bd307bba7c99e342f9acbf8031",
+    "app_bundle_disk_kib": 332204,
+    "bundle_manifest": {
+      "entry_count": 645,
+      "directory_count": 312,
+      "regular_file_count": 328,
+      "symlink_count": 5,
+      "sha256": "d41bdb28555e925aa2b8a065827481a73662851e34a0ce62fd8e6b9dd6b1c7c7",
+      "algorithm": "Traverse without following symlinks. For every descendant, normalize its relative slash path and string fields to Unicode NFC; record type, integer POSIX mode and lstat size; add SHA-256 for regular files or raw link target for symlinks. Sort records by UTF-8 path bytes. Encode each record as sorted-key compact UTF-8 JSON plus LF and SHA-256 the concatenation. Directories, files, symlinks, modes, sizes, contents and link targets are all covered."
+    },
+    "dependency_closure": {
+      "command": "otool -L EXECUTABLE CORE_FRAMEWORK",
+      "listing_sha256": "6a2138aee1a508661ff44947696dcf19da31afde0114c95d302efa18e84d591b",
+      "system_library_binding": "External Apple system libraries are bound by the locked macOS 26.4.1 build 25E253 lane."
+    }
+  },
+  "launch": {
+    "fresh_temporary_user_data_dir_each_run": true,
+    "persistent_extensions": false,
+    "service_workers": "block",
+    "locale": "en-US",
+    "timezone_id": "America/Puerto_Rico",
+    "color_scheme": "light",
+    "reduced_motion_default": "no-preference",
+    "device_scale_factor": 1,
+    "refresh_target_hz": 60,
+    "args": [
+      "--autoplay-policy=no-user-gesture-required",
+      "--disable-background-networking",
+      "--disable-background-timer-throttling",
+      "--disable-component-update",
+      "--disable-default-apps",
+      "--disable-extensions",
+      "--disable-renderer-backgrounding",
+      "--force-device-scale-factor=1",
+      "--no-default-browser-check",
+      "--no-first-run"
+    ]
+  },
+  "viewports": [
+    {
+      "width_css_px": 1280,
+      "height_css_px": 720
+    },
+    {
+      "width_css_px": 1366,
+      "height_css_px": 768
+    }
+  ],
+  "local_lane": {
+    "cpu_slowdown_rate": 1,
+    "network_emulation": "none"
+  },
+  "constrained_lane": {
+    "cpu_slowdown_rate": 4,
+    "network": {
+      "offline": false,
+      "latency_ms": 80,
+      "download_throughput_bytes_per_second": 1250000,
+      "upload_throughput_bytes_per_second": 625000,
+      "packet_loss_percent": 0
+    },
+    "network_cdp_method": "Network.emulateNetworkConditions",
+    "cpu_cdp_method": "Emulation.setCPUThrottlingRate",
+    "browser_process_tree_peak_rss_hard_fail_bytes": 4294967296
+  },
+  "reset_rule": "Any changed browser byte, version, controller version, launch argument, context setting, viewport, throttle, network value, or test OS invalidates the lock and resets the passing streak."
+}

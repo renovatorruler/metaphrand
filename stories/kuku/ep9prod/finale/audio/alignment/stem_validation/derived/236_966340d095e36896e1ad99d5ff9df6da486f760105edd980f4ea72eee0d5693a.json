@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 236,
+ "chunk_id": "chunk_019",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_68df099baa289813adcdce5aed648de9af701d90dd5bf78bb2c41e9c455c7ce3.mp3",
+ "source_sha256": "3c2d035fd32f6585f2a5b42737bf1d59ea94e54014e3caf949748a84653f2c55",
+ "source_start": 77.79708421797595,
+ "source_end": 81.34039348903045,
+ "expected_text": "सीधी हवा बादल तोड़ेगी। हम इस मोड़ से जाएँगे।",
+ "expected_text_sha256": "0c3066e6cb925b700939d3734c139bd3da33dd98a73c041016d4388bcdfc0993",
+ "ctc_evidence_identity": "a97b4c5e7cbb289fa1c61515cfd79d9babcf158f83b9d1dce2c723683442edcd",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/236_a25be65250cd0e6671724c62109635abb6f892b714ce589421d1e17e3bb9db55.whisper.json",
+ "raw_whisper_sha256": "573689b3fd43cde8e494f661bb15c806d995295a1cf8e789084854aab85eb2cc",
+ "quality": {
+  "expected_words": 9,
+  "observed_words": 9,
+  "matched_words": 8,
+  "coverage": 0.8888888888888888,
+  "observed_precision": 0.8888888888888888,
+  "mean_similarity": 0.9791666666666666,
+  "sequence_score": 0.9259259259259259,
+  "average_token_probability": 0.9324361250000001,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 0.9207175925925926
+ }
+}

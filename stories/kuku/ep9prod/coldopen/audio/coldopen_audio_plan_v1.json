@@ -1,0 +1,858 @@
+{
+ "version": "ep9-cold-open-audio-v3",
+ "picture_duration_seconds": 120,
+ "picture_policy": "locked; audio work must not regenerate or resize video",
+ "narrator": "none",
+ "paid_gate": "PAID=1 and GENERATE=1 are both required",
+ "cast_status": "future and present-day identities use the same locked child voices; preview checks performance and timing only",
+ "voices": [
+  {
+   "key": "NAGAR_RAKSHAK",
+   "character": "नगर-रक्षक",
+   "performer": "Shyam",
+   "voice_id": "5ycO0zpSCEkvR4Ri6gk9",
+   "status": "locked-existing",
+   "reason": "Established episode casting; the guard is not Papa in story canon."
+  },
+  {
+   "key": "FUTURE_FYURIA",
+   "character": "भविष्य की फ्यूरिया",
+   "performer": "Tarini",
+   "voice_id": "FFmp1h1BMl0iVHA0JxrI",
+   "status": "locked-existing",
+   "reason": "Same Furia voice; controlled battle performance signals future mastery without changing identity."
+  },
+  {
+   "key": "FUTURE_VESPER",
+   "character": "भविष्य का वैस्पर",
+   "performer": "Mahira J",
+   "voice_id": "subIZc6skATBQ1Rbqpi7",
+   "status": "locked-existing",
+   "reason": "Same Vesper voice; calm precision replaces sleepiness during the future battle."
+  },
+  {
+   "key": "FUTURE_LEDA",
+   "character": "भविष्य की लेडा",
+   "performer": "Mini",
+   "voice_id": "nUX4UWK0Tf1qh5zvFZWR",
+   "status": "locked-existing",
+   "reason": "Same Leda voice; focused projection makes her recognizable while showing trained authority."
+  },
+  {
+   "key": "FUTURE_CASTOR",
+   "character": "भविष्य का कैस्टर",
+   "performer": "Bittu",
+   "voice_id": "4iqKdEXMW8NRF8USiS3Q",
+   "status": "locked-existing",
+   "reason": "Same Castor voice; decisive timing carries competence without an adult vocal replacement."
+  },
+  {
+   "key": "FUTURE_KUKU",
+   "character": "भविष्य का कुकु",
+   "performer": "Amit",
+   "voice_id": "NbvR1eY6Q8ivACdEO8PV",
+   "status": "locked-existing",
+   "reason": "Same Kuku voice; reassurance and command rhythm show the future leader while preserving recognition."
+  },
+  {
+   "key": "CHILD_FYURIA",
+   "character": "बच्ची फ्यूरिया",
+   "performer": "Tarini",
+   "voice_id": "FFmp1h1BMl0iVHA0JxrI",
+   "status": "locked-existing",
+   "reason": "The bedroom scene returns to the established present-day cast."
+  },
+  {
+   "key": "DADI",
+   "character": "दादी",
+   "performer": "Gungun",
+   "voice_id": "nfMYisZqs1GOjTFllho3",
+   "status": "locked-existing",
+   "reason": "Established Dadi identity."
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "L01",
+   "character": "नगर-रक्षक",
+   "voice_key": "NAGAR_RAKSHAK",
+   "at_seconds": 7.3,
+   "end_seconds": 12.2,
+   "available_seconds": 4.9,
+   "shot": "co02",
+   "expression_tags": "[urgent] [calling out loudly]",
+   "spoken_text": "आख़िरी पुल खुला है! सब लोग नदी पार कीजिए!",
+   "directed_text": "[urgent] [calling out loudly] आख़िरी पुल खुला है! सब लोग नदी पार कीजिए!",
+   "directed_characters": 71,
+   "cast_preview": false
+  },
+  {
+   "id": "L02",
+   "character": "भविष्य की फ्यूरिया",
+   "voice_key": "FUTURE_FYURIA",
+   "at_seconds": 20.5,
+   "end_seconds": 25.8,
+   "available_seconds": 5.3,
+   "shot": "co04",
+   "expression_tags": "[calm and commanding] [calling across a distance]",
+   "spoken_text": "पुल पार करते रहिए! मैं रास्ता खुला रखूँगी!",
+   "directed_text": "[calm and commanding] [calling across a distance] पुल पार करते रहिए! मैं रास्ता खुला रखूँगी!",
+   "directed_characters": 92,
+   "cast_preview": true
+  },
+  {
+   "id": "L03",
+   "character": "भविष्य की फ्यूरिया",
+   "voice_key": "FUTURE_FYURIA",
+   "at_seconds": 34.4,
+   "end_seconds": 38,
+   "available_seconds": 3.6,
+   "shot": "co06",
+   "expression_tags": "[clear and commanding]",
+   "spoken_text": "सब लोग नीचे झुक जाइए!",
+   "directed_text": "[clear and commanding] सब लोग नीचे झुक जाइए!",
+   "directed_characters": 44,
+   "cast_preview": false
+  },
+  {
+   "id": "L04",
+   "character": "भविष्य की फ्यूरिया",
+   "voice_key": "FUTURE_FYURIA",
+   "at_seconds": 50.2,
+   "end_seconds": 55.5,
+   "available_seconds": 5.3,
+   "shot": "co08",
+   "expression_tags": "[straining] [clear and commanding]",
+   "spoken_text": "रस्सियाँ पकड़े रहिए! मैं पुल थामे हुए हूँ!",
+   "directed_text": "[straining] [clear and commanding] रस्सियाँ पकड़े रहिए! मैं पुल थामे हुए हूँ!",
+   "directed_characters": 77,
+   "cast_preview": false
+  },
+  {
+   "id": "L05",
+   "character": "भविष्य की फ्यूरिया",
+   "voice_key": "FUTURE_FYURIA",
+   "at_seconds": 57,
+   "end_seconds": 61.2,
+   "available_seconds": 4.2,
+   "shot": "co09",
+   "expression_tags": "[straining] [clear and commanding]",
+   "spoken_text": "वैस्पर—बाकी आग भी शहर से बाहर!",
+   "directed_text": "[straining] [clear and commanding] वैस्पर—बाकी आग भी शहर से बाहर!",
+   "directed_characters": 65,
+   "cast_preview": false
+  },
+  {
+   "id": "L06",
+   "character": "भविष्य का वैस्पर",
+   "voice_key": "FUTURE_VESPER",
+   "at_seconds": 62.5,
+   "end_seconds": 68.5,
+   "available_seconds": 6,
+   "shot": "co09/co10",
+   "expression_tags": "[calm and precise]",
+   "spoken_text": "नीचे तीसरी धारा उठ रही है। पुल मेरे पीछे मोड़ो।",
+   "directed_text": "[calm and precise] नीचे तीसरी धारा उठ रही है। पुल मेरे पीछे मोड़ो।",
+   "directed_characters": 66,
+   "cast_preview": true
+  },
+  {
+   "id": "L07",
+   "character": "भविष्य की फ्यूरिया",
+   "voice_key": "FUTURE_FYURIA",
+   "at_seconds": 68.7,
+   "end_seconds": 70.7,
+   "available_seconds": 2,
+   "shot": "co10",
+   "expression_tags": "[decisive]",
+   "spoken_text": "मोड़ रही हूँ।",
+   "directed_text": "[decisive] मोड़ रही हूँ।",
+   "directed_characters": 24,
+   "cast_preview": false
+  },
+  {
+   "id": "L08",
+   "character": "भविष्य की लेडा",
+   "voice_key": "FUTURE_LEDA",
+   "at_seconds": 71,
+   "end_seconds": 76.6,
+   "available_seconds": 5.6,
+   "shot": "co11",
+   "expression_tags": "[focused] [calling across a distance]",
+   "spoken_text": "दायाँ बुर्ज, तीसरी दरार। जंजीर ठीक है। कुंडी निकल गई है।",
+   "directed_text": "[focused] [calling across a distance] दायाँ बुर्ज, तीसरी दरार। जंजीर ठीक है। कुंडी निकल गई है।",
+   "directed_characters": 94,
+   "cast_preview": true
+  },
+  {
+   "id": "L09",
+   "character": "भविष्य का कैस्टर",
+   "voice_key": "FUTURE_CASTOR",
+   "at_seconds": 76.7,
+   "end_seconds": 79.3,
+   "available_seconds": 2.6,
+   "shot": "co11/co12",
+   "expression_tags": "[decisive]",
+   "spoken_text": "मैं अंदर जा रहा हूँ।",
+   "directed_text": "[decisive] मैं अंदर जा रहा हूँ।",
+   "directed_characters": 31,
+   "cast_preview": true
+  },
+  {
+   "id": "L10",
+   "character": "भविष्य की लेडा",
+   "voice_key": "FUTURE_LEDA",
+   "at_seconds": 79.3,
+   "end_seconds": 83.5,
+   "available_seconds": 4.2,
+   "shot": "co12",
+   "expression_tags": "[focused]",
+   "spoken_text": "आधा पंजा नीचे। अब बाईं ओर।",
+   "directed_text": "[focused] आधा पंजा नीचे। अब बाईं ओर।",
+   "directed_characters": 36,
+   "cast_preview": false
+  },
+  {
+   "id": "L11",
+   "character": "भविष्य का कैस्टर",
+   "voice_key": "FUTURE_CASTOR",
+   "at_seconds": 83.5,
+   "end_seconds": 85.95,
+   "available_seconds": 2.45,
+   "shot": "co12",
+   "expression_tags": "[straining]",
+   "spoken_text": "कुंडी मिल गई।",
+   "directed_text": "[straining] कुंडी मिल गई।",
+   "directed_characters": 25,
+   "cast_preview": false
+  },
+  {
+   "id": "L12",
+   "character": "भविष्य की लेडा",
+   "voice_key": "FUTURE_LEDA",
+   "at_seconds": 85.95,
+   "end_seconds": 87.3,
+   "available_seconds": 1.35,
+   "shot": "co12/co13",
+   "expression_tags": "[sharply]",
+   "spoken_text": "अब!",
+   "directed_text": "[sharply] अब!",
+   "directed_characters": 13,
+   "cast_preview": false
+  },
+  {
+   "id": "L13",
+   "character": "भविष्य का कुकु",
+   "voice_key": "FUTURE_KUKU",
+   "at_seconds": 94.5,
+   "end_seconds": 100,
+   "available_seconds": 5.5,
+   "shot": "co14/co15",
+   "expression_tags": "[reassuring] [projecting over noise]",
+   "spoken_text": "रास्ता अभी खुला है! आख़िरी परिवार नदी पार कीजिए!",
+   "directed_text": "[reassuring] [projecting over noise] रास्ता अभी खुला है! आख़िरी परिवार नदी पार कीजिए!",
+   "directed_characters": 85,
+   "cast_preview": true
+  },
+  {
+   "id": "L14",
+   "character": "भविष्य की लेडा",
+   "voice_key": "FUTURE_LEDA",
+   "at_seconds": 110.5,
+   "end_seconds": 112.9,
+   "available_seconds": 2.4,
+   "shot": "co16",
+   "expression_tags": "[sharply]",
+   "spoken_text": "अब!",
+   "directed_text": "[sharply] अब!",
+   "directed_characters": 13,
+   "cast_preview": false
+  },
+  {
+   "id": "L15",
+   "character": "बच्ची फ्यूरिया",
+   "voice_key": "CHILD_FYURIA",
+   "at_seconds": 113.05,
+   "end_seconds": 114.75,
+   "available_seconds": 1.7,
+   "shot": "co17",
+   "expression_tags": "[out of breath] [quietly]",
+   "spoken_text": "दादी—",
+   "directed_text": "[out of breath] [quietly] दादी—",
+   "directed_characters": 31,
+   "cast_preview": false
+  },
+  {
+   "id": "L16",
+   "character": "दादी",
+   "voice_key": "DADI",
+   "at_seconds": 114.75,
+   "end_seconds": 120,
+   "available_seconds": 5.25,
+   "shot": "co17",
+   "expression_tags": "[softly]",
+   "spoken_text": "सपना था, बेटी। तुम घर पर हो। मैं यहीं हूँ। सो जाओ।",
+   "directed_text": "[softly] सपना था, बेटी। तुम घर पर हो। मैं यहीं हूँ। सो जाओ।",
+   "directed_characters": 59,
+   "cast_preview": false
+  }
+ ],
+ "action_markers": [
+  {
+   "id": "CITY_RAIDER_FIRE",
+   "at_seconds": 1.542,
+   "shot": "co01",
+   "visible_action": "first raider releases fire over the city"
+  },
+  {
+   "id": "CIVILIANS_RUNNING_ON_BRIDGE",
+   "at_seconds": 7,
+   "shot": "co02",
+   "visible_action": "families are visibly running across the bridge"
+  },
+  {
+   "id": "BRIDGE_RAIDER_FIRE_CHARGE",
+   "at_seconds": 10.25,
+   "shot": "co02",
+   "visible_action": "bridge raider visibly charges a violet-black blast"
+  },
+  {
+   "id": "BRIDGE_RAIDER_FIRE_RELEASE",
+   "at_seconds": 10.375,
+   "shot": "co02",
+   "visible_action": "bridge raider releases the violet-black blast"
+  },
+  {
+   "id": "RAIDER_BARRAGE_ENTERS",
+   "at_seconds": 27.1,
+   "shot": "co05",
+   "visible_action": "incoming raider fireballs enter above the bridge"
+  },
+  {
+   "id": "FYURIA_FIRE_SPLIT",
+   "at_seconds": 29.25,
+   "shot": "co05",
+   "visible_action": "Fyuria begins a controlled fire jet"
+  },
+  {
+   "id": "COMMANDER_FIRE_CLASH_ONE_CHARGE",
+   "at_seconds": 39.75,
+   "shot": "co06",
+   "visible_action": "commander's throat and cracks charge before the clash"
+  },
+  {
+   "id": "COMMANDER_FIRE_CLASH_ONE",
+   "at_seconds": 40.083,
+   "shot": "co06",
+   "visible_action": "commander releases fire at close range"
+  },
+  {
+   "id": "FYURIA_FIRE_CLASH_ONE",
+   "at_seconds": 40.292,
+   "shot": "co06",
+   "visible_action": "Fyuria releases her counter-fire"
+  },
+  {
+   "id": "FYURIA_FIRE_CLASH_TWO",
+   "at_seconds": 44,
+   "shot": "co07",
+   "visible_action": "Fyuria begins the second fire clash"
+  },
+  {
+   "id": "COMMANDER_FIRE_CLASH_TWO",
+   "at_seconds": 44.083,
+   "shot": "co07",
+   "visible_action": "commander releases purple fire into the second clash"
+  },
+  {
+   "id": "MAIN_PIN_RELEASE",
+   "at_seconds": 48.083,
+   "shot": "co07",
+   "visible_action": "the concealed support pin begins moving and debris releases"
+  },
+  {
+   "id": "RELEASED_BEAM_SPLASH",
+   "at_seconds": 49.4,
+   "shot": "co07",
+   "visible_action": "the released beam and debris strike the river"
+  },
+  {
+   "id": "FYURIA_CATCHES_BRIDGE",
+   "at_seconds": 50.417,
+   "shot": "co08",
+   "visible_action": "Fyuria takes the bridge weight and landing dust rises"
+  },
+  {
+   "id": "VESPER_CURRENT_PREREVEAL",
+   "at_seconds": 55.458,
+   "shot": "co08/co09",
+   "visible_action": "Vesper's current begins before his full city reveal"
+  },
+  {
+   "id": "VESPER_CURRENT_REVEAL",
+   "at_seconds": 56,
+   "shot": "co09",
+   "visible_action": "Vesper's blue current enters the burning city"
+  },
+  {
+   "id": "RAIDER_FIRES_AT_VESPER",
+   "at_seconds": 59.833,
+   "shot": "co09",
+   "visible_action": "a raider releases fire toward Vesper's current"
+  },
+  {
+   "id": "RAIDER_CURRENT_IMPACT",
+   "at_seconds": 60,
+   "shot": "co09",
+   "visible_action": "raider fire hits Vesper's current"
+  },
+  {
+   "id": "CURRENT_BRIDGE_LOAD_EDITORIAL",
+   "at_seconds": 70.2,
+   "shot": "co10",
+   "visible_action": "editorial bridge-load cue; no single discrete transfer frame is visible"
+  },
+  {
+   "id": "LEDA_CASTOR_ARRIVE",
+   "at_seconds": 71,
+   "shot": "co11",
+   "visible_action": "Leda and Castor enter the repair run"
+  },
+  {
+   "id": "LEDA_FINDS_PIN",
+   "at_seconds": 75,
+   "shot": "co11",
+   "visible_action": "Leda isolates the pin inside the cracked tower"
+  },
+  {
+   "id": "CASTOR_SHRINKS",
+   "at_seconds": 79.6,
+   "shot": "co12",
+   "visible_action": "Castor compresses to enter the crack"
+  },
+  {
+   "id": "CASTOR_REGROWS",
+   "at_seconds": 83.833,
+   "shot": "co12",
+   "visible_action": "Castor visibly regrows inside the mechanism"
+  },
+  {
+   "id": "CASTOR_BRACES_BAR",
+   "at_seconds": 85,
+   "shot": "co12",
+   "visible_action": "Castor braces and pushes the metal bar"
+  },
+  {
+   "id": "PIN_LOCK_EDITORIAL",
+   "at_seconds": 86.4,
+   "shot": "co12",
+   "visible_action": "editorial lock cue; the picture does not expose a single snap frame"
+  },
+  {
+   "id": "BRIDGE_RESOLVED_CUT",
+   "at_seconds": 87,
+   "shot": "co13",
+   "visible_action": "the cut reveals the bridge already restored"
+  },
+  {
+   "id": "FAMILIES_RESUME_CROSSING",
+   "at_seconds": 88.292,
+   "shot": "co13",
+   "visible_action": "the first civilian visibly resumes crossing"
+  },
+  {
+   "id": "KUKU_SHIELD_CHARGE",
+   "at_seconds": 94,
+   "shot": "co14",
+   "visible_action": "Kuku begins the golden shield breath and charge"
+  },
+  {
+   "id": "KUKU_GLYPH_APPEARS",
+   "at_seconds": 95,
+   "shot": "co14",
+   "visible_action": "the golden construct and glyph first rise"
+  },
+  {
+   "id": "KUKU_SHIELD_SOLID",
+   "at_seconds": 98.375,
+   "shot": "co14",
+   "visible_action": "the cut reveals the golden glyph shield standing solid"
+  },
+  {
+   "id": "COMMANDER_BREATHES_AT_SHIELD",
+   "at_seconds": 103.75,
+   "shot": "co15",
+   "visible_action": "the commander launches black fire at the golden shield"
+  },
+  {
+   "id": "BLACK_FIRE_HITS_SHIELD",
+   "at_seconds": 104,
+   "shot": "co15",
+   "visible_action": "black fire divides around the standing shield"
+  },
+  {
+   "id": "LARGER_ENEMY_SHADOW",
+   "at_seconds": 109.667,
+   "shot": "co16",
+   "visible_action": "the larger enemy shadow fills the formation"
+  },
+  {
+   "id": "BEDROOM_CUT",
+   "at_seconds": 113,
+   "shot": "co17",
+   "visible_action": "hard cut from battle to the bedroom"
+  }
+ ],
+ "sound_cues": [
+  {
+   "id": "S01",
+   "action_marker": "OPENING",
+   "at_seconds": 0,
+   "asset": "../stories/kuku/ep8prod/sfx/mountain_wind_high.mp3",
+   "gain": 0.18,
+   "filter": "highpass=f=90:width_type=o:width=1",
+   "bus": "ambience",
+   "purpose": "high city wind and distance"
+  },
+  {
+   "id": "S02",
+   "action_marker": "OPENING",
+   "at_seconds": 0.35,
+   "asset": "../stories/kuku/ep8prod/sfx/wingbeat_huge.mp3",
+   "gain": 0.58,
+   "filter": "lowpass=f=6500",
+   "bus": "action",
+   "purpose": "attackers descend into the siege"
+  },
+  {
+   "id": "S03",
+   "action_marker": "CITY_RAIDER_FIRE",
+   "at_seconds": 1.542,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/ash-crack-raider-black-fire.wav",
+   "gain": 0.74,
+   "filter": "atrim=start=1.10:end=3.60,asetpts=PTS-STARTPTS,highpass=f=45",
+   "bus": "fire",
+   "purpose": "release-aligned coarse raider fire over the city"
+  },
+  {
+   "id": "S04",
+   "action_marker": "BRIDGE_RAIDER_FIRE_RELEASE",
+   "at_seconds": 10.375,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/ash-crack-raider-black-fire.wav",
+   "gain": 0.68,
+   "filter": "atrim=start=1.10:end=3.60,asetpts=PTS-STARTPTS,asetrate=44100*0.94,aresample=44100,highpass=f=45,afade=t=out:st=2.35:d=0.25",
+   "bus": "fire",
+   "purpose": "release-aligned lower-pitched raider fire beside fleeing families"
+  },
+  {
+   "id": "S05",
+   "action_marker": "FYURIA_REVEAL",
+   "at_seconds": 12.65,
+   "asset": "../stories/kuku/ep8prod/sfx/wingbeat_huge.mp3",
+   "gain": 0.66,
+   "filter": "lowpass=f=7000",
+   "bus": "action",
+   "purpose": "adult Fyuria reveal"
+  },
+  {
+   "id": "S05B",
+   "action_marker": "RAIDER_BARRAGE_ENTERS",
+   "at_seconds": 27.1,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/ash-crack-raider-black-fire.wav",
+   "gain": 0.58,
+   "filter": "atrim=start=1.10:end=3.60,asetpts=PTS-STARTPTS,asetrate=44100*1.06,aresample=44100,highpass=f=55,afade=t=out:st=2.1:d=0.3",
+   "bus": "fire",
+   "purpose": "release-aligned incoming raider fireball barrage"
+  },
+  {
+   "id": "S06",
+   "action_marker": "FYURIA_FIRE_SPLIT",
+   "at_seconds": 29.25,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/fyuria-controlled-fire.wav",
+   "gain": 0.82,
+   "filter": "atrim=start=0.60:end=3.80,asetpts=PTS-STARTPTS,highpass=f=55,afade=t=out:st=2.9:d=0.3",
+   "bus": "fire",
+   "purpose": "release-aligned Fyuria controlled fire jet"
+  },
+  {
+   "id": "S07",
+   "action_marker": "COMMANDER_FIRE_CLASH_ONE",
+   "at_seconds": 40.083,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/commander-black-fire.wav",
+   "gain": 0.78,
+   "filter": "atrim=start=0.65:end=3.35,asetpts=PTS-STARTPTS,highpass=f=40,afade=t=out:st=2.4:d=0.3",
+   "bus": "fire",
+   "purpose": "release-aligned commander pressure-blast against Fyuria"
+  },
+  {
+   "id": "S08",
+   "action_marker": "FYURIA_FIRE_CLASH_ONE",
+   "at_seconds": 40.292,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/fyuria-controlled-fire.wav",
+   "gain": 0.64,
+   "filter": "atrim=start=0.60:end=3.40,asetpts=PTS-STARTPTS,highpass=f=65",
+   "bus": "fire",
+   "purpose": "release-aligned Fyuria counter-fire"
+  },
+  {
+   "id": "S09",
+   "action_marker": "COMMANDER_FIRE_CLASH_TWO",
+   "at_seconds": 44.083,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/commander-black-fire.wav",
+   "gain": 0.8,
+   "filter": "atrim=start=0.65:end=3.35,asetpts=PTS-STARTPTS,highpass=f=40,afade=t=out:st=2.4:d=0.3",
+   "bus": "fire",
+   "purpose": "release-aligned commander second blast"
+  },
+  {
+   "id": "S10",
+   "action_marker": "FYURIA_FIRE_CLASH_TWO",
+   "at_seconds": 44,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/fyuria-controlled-fire.wav",
+   "gain": 0.68,
+   "filter": "atrim=start=0.60:end=3.80,asetpts=PTS-STARTPTS,highpass=f=65",
+   "bus": "fire",
+   "purpose": "release-aligned Fyuria controlled counter-breath"
+  },
+  {
+   "id": "S11",
+   "action_marker": "MAIN_PIN_RELEASE",
+   "at_seconds": 48.083,
+   "asset": "../stories/kuku/ep5prod/sfx/crack_kadak.mp3",
+   "gain": 0.88,
+   "filter": "highpass=f=65",
+   "bus": "action",
+   "purpose": "main support pin releases"
+  },
+  {
+   "id": "S12",
+   "action_marker": "RELEASED_BEAM_SPLASH",
+   "at_seconds": 49.4,
+   "asset": "../stories/kuku/ep5prod/sfx/deck_tighten.mp3",
+   "gain": 0.54,
+   "filter": "areverse,lowpass=f=5000,atrim=0:1.5",
+   "bus": "action",
+   "purpose": "released beam and debris strike the river"
+  },
+  {
+   "id": "S13",
+   "action_marker": "FYURIA_CATCHES_BRIDGE",
+   "at_seconds": 50.417,
+   "asset": "../stories/kuku/ep5prod/sfx/rope_creak.mp3",
+   "gain": 0.68,
+   "filter": "lowpass=f=5500",
+   "bus": "action",
+   "purpose": "Fyuria catches the bridge under strain"
+  },
+  {
+   "id": "S14",
+   "action_marker": "VESPER_CURRENT_PREREVEAL",
+   "at_seconds": 55.458,
+   "asset": "../stories/kuku/ep8prod/sfx/tail_whoosh_miss.mp3",
+   "gain": 0.55,
+   "filter": "highpass=f=120",
+   "bus": "power",
+   "purpose": "Vesper's clean fast air turn leads his reveal"
+  },
+  {
+   "id": "S15",
+   "action_marker": "VESPER_CURRENT_REVEAL",
+   "at_seconds": 56.5,
+   "asset": "../stories/kuku/ep5prod/sfx/wind_gust.mp3",
+   "gain": 0.34,
+   "filter": "highpass=f=140:width_type=o:width=1,lowpass=f=6500",
+   "bus": "power",
+   "purpose": "Vesper's sustained blue current"
+  },
+  {
+   "id": "S16",
+   "action_marker": "RAIDER_FIRES_AT_VESPER",
+   "at_seconds": 59.833,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/ash-crack-raider-black-fire.wav",
+   "gain": 0.62,
+   "filter": "atrim=start=1.10:end=3.60,asetpts=PTS-STARTPTS,asetrate=44100*1.04,aresample=44100",
+   "bus": "fire",
+   "purpose": "release-aligned raider fire drawn into Vesper's current"
+  },
+  {
+   "id": "S17",
+   "action_marker": "CURRENT_BRIDGE_LOAD_EDITORIAL",
+   "at_seconds": 70.2,
+   "asset": "../stories/kuku/ep6prod/sfx/stream_bridge_ropes.mp3",
+   "gain": 0.36,
+   "filter": "highpass=f=75,lowpass=f=5500",
+   "bus": "action",
+   "purpose": "editorial air, river and bridge-load continuity cue"
+  },
+  {
+   "id": "S18",
+   "action_marker": "LEDA_CASTOR_ARRIVE",
+   "at_seconds": 71,
+   "asset": "../stories/kuku/ep8prod/sfx/wingbeat_huge.mp3",
+   "gain": 0.5,
+   "filter": "lowpass=f=6500,atrim=0:2.6",
+   "bus": "action",
+   "purpose": "Leda and Castor arrive"
+  },
+  {
+   "id": "S19",
+   "action_marker": "LEDA_FINDS_PIN",
+   "at_seconds": 75,
+   "asset": "../stories/kuku/ep8prod/sfx/glint_chime.mp3",
+   "gain": 0.38,
+   "filter": "highpass=f=450,atrim=0:1.1",
+   "bus": "power",
+   "purpose": "Leda precisely identifies the hidden pin"
+  },
+  {
+   "id": "S20",
+   "action_marker": "CASTOR_SHRINKS",
+   "at_seconds": 79.6,
+   "asset": "../stories/kuku/ep8prod/sfx/tail_whoosh_miss.mp3",
+   "gain": 0.42,
+   "filter": "areverse,atempo=1.35,highpass=f=180,atrim=0:1.5",
+   "bus": "power",
+   "purpose": "Castor compresses inward while shrinking"
+  },
+  {
+   "id": "S21",
+   "action_marker": "CASTOR_REGROWS",
+   "at_seconds": 83.833,
+   "asset": "../stories/kuku/ep5prod/sfx/two_foot_thud.mp3",
+   "gain": 0.58,
+   "filter": "lowpass=f=3500",
+   "bus": "power",
+   "purpose": "Castor regrows against the mechanism"
+  },
+  {
+   "id": "S21B",
+   "action_marker": "CASTOR_BRACES_BAR",
+   "at_seconds": 85,
+   "asset": "../stories/kuku/ep5prod/sfx/rope_creak.mp3",
+   "gain": 0.38,
+   "filter": "lowpass=f=3500,atrim=0:1.5",
+   "bus": "action",
+   "purpose": "Castor braces the bar under load"
+  },
+  {
+   "id": "S22",
+   "action_marker": "PIN_LOCK_EDITORIAL",
+   "at_seconds": 86.4,
+   "asset": "../stories/kuku/ep5prod/sfx/letter_lock_stone.mp3",
+   "gain": 0.82,
+   "filter": "highpass=f=45,atrim=0:2.1",
+   "bus": "action",
+   "purpose": "editorial metal-and-stone lock resolution"
+  },
+  {
+   "id": "S23",
+   "action_marker": "BRIDGE_RESOLVED_CUT",
+   "at_seconds": 87,
+   "asset": "../stories/kuku/ep5prod/sfx/deck_tighten.mp3",
+   "gain": 0.52,
+   "filter": "lowpass=f=6000",
+   "bus": "action",
+   "purpose": "resolved bridge deck settles on the cut"
+  },
+  {
+   "id": "S24",
+   "action_marker": "FAMILIES_RESUME_CROSSING",
+   "at_seconds": 88.292,
+   "asset": "../stories/kuku/ep5prod/sfx/run_planks.mp3",
+   "gain": 0.34,
+   "filter": "highpass=f=80",
+   "bus": "action",
+   "purpose": "families visibly resume crossing"
+  },
+  {
+   "id": "S25",
+   "action_marker": "KUKU_SHIELD_CHARGE",
+   "at_seconds": 94,
+   "asset": "../stories/kuku/ep8prod/sfx/sparks_forge.mp3",
+   "gain": 0.56,
+   "filter": "highpass=f=110",
+   "bus": "power",
+   "purpose": "Kuku's warm golden breath charges and knits the glyph"
+  },
+  {
+   "id": "S26",
+   "action_marker": "KUKU_SHIELD_SOLID",
+   "at_seconds": 98.375,
+   "asset": "../stories/kuku/ep6prod/sfx/forge_whoosh_land.mp3",
+   "gain": 0.42,
+   "filter": "atrim=0.9:4.2,asetpts=PTS-STARTPTS",
+   "bus": "power",
+   "purpose": "the golden glyph becomes a solid shield"
+  },
+  {
+   "id": "S27",
+   "action_marker": "COMMANDER_BREATHES_AT_SHIELD",
+   "at_seconds": 103.75,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/commander-black-fire.wav",
+   "gain": 0.84,
+   "filter": "atrim=start=0.65:end=3.35,asetpts=PTS-STARTPTS,highpass=f=40,afade=t=out:st=2.4:d=0.3",
+   "bus": "fire",
+   "purpose": "release-aligned commander black-fire breath at the shield"
+  },
+  {
+   "id": "S28",
+   "action_marker": "BLACK_FIRE_HITS_SHIELD",
+   "at_seconds": 104,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/black-fire-golden-shield-impact.wav",
+   "gain": 0.88,
+   "filter": "atrim=start=0:end=4.65,asetpts=PTS-STARTPTS,highpass=f=45,afade=t=out:st=4.25:d=0.40",
+   "bus": "action",
+   "purpose": "single black-fire impact splits around Kuku's golden shield"
+  },
+  {
+   "id": "S29",
+   "action_marker": "LARGER_ENEMY_SHADOW",
+   "at_seconds": 109.667,
+   "asset": "../stories/kuku/ep8prod/sfx/wingbeat_huge.mp3",
+   "gain": 0.55,
+   "filter": "asetrate=44100*0.84,aresample=44100,lowpass=f=3000",
+   "bus": "action",
+   "purpose": "larger enemy shadow displaces the air"
+  },
+  {
+   "id": "S30",
+   "action_marker": "BEDROOM_CUT",
+   "at_seconds": 113,
+   "asset": "../stories/kuku/ep4prod/sfx/hush_room.mp3",
+   "gain": 0.18,
+   "filter": "lowpass=f=7000",
+   "bus": "ambience",
+   "purpose": "hard cut to bedroom room tone"
+  },
+  {
+   "id": "S31",
+   "action_marker": "BEDROOM_CUT",
+   "at_seconds": 113.5,
+   "asset": "../stories/kuku/ep4prod/sfx/towel_soft.mp3",
+   "gain": 0.25,
+   "filter": "highpass=f=90",
+   "bus": "action",
+   "purpose": "blanket and Dadi movement"
+  },
+  {
+   "id": "S32",
+   "action_marker": "BEDROOM_CUT",
+   "at_seconds": 116,
+   "asset": "../stories/kuku/ep5prod/sfx/snore_soft_boy.mp3",
+   "gain": 0.1,
+   "filter": "lowpass=f=4500",
+   "bus": "ambience",
+   "purpose": "sleeping Vesper remains nearby"
+  }
+ ],
+ "final_directed_characters": 826,
+ "preview_directed_characters": 368,
+ "cost_note": "Character counts are request-size evidence, not a promise of provider billing or remaining quota.",
+ "score_arc": "threat; heroic promise; tactical trap; five-dragon solution; unresolved larger enemy; hard cut to a nearly silent bedroom",
+ "mix_policy": "dialogue target -17 LUFS; replacement siege score targets -23 LUFS; waveform-driven sidechain ducking preserves pressure between spoken words; decisive actions stay audible; phone and mono checks required",
+ "score_status": "replacement siege score required; old playful score is rejected and excluded by filename",
+ "approved_preflight_quote_credits": 9.9,
+ "actual_higgsfield_ledger_cost_credits": 18.1,
+ "provider_cost_quote_variance_credits": 8.2,
+ "provider_cost_note": "Higgsfield quoted 0.6 credit for each Seed Audio request before generation, but its completed transaction ledger charged 2.5/2.8/2.5/2.8 credits; no duplicate or retry was made"
+}

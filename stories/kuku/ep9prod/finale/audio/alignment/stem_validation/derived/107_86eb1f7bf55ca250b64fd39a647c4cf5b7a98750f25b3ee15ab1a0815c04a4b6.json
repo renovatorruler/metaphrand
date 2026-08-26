@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 107,
+ "chunk_id": "chunk_008",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_3156d98d364a9b61f1b9d7f7d6ee08b3d3c891059f11d317f3be5b014645a8c4.mp3",
+ "source_sha256": "8d81bd70afc0f8c6015e586c59459c703674c5c32a51fadde439029db46e01bd",
+ "source_start": 39.30364875574576,
+ "source_end": 42.687177048660644,
+ "expected_text": "कुकु, मैं तुम्हें अक्षर गुरुकुल ले जाने आया हूँ।",
+ "expected_text_sha256": "14882d4569f8e7b8576e7015217d75057321caa3ca9a0a84bf2090458b75e11e",
+ "ctc_evidence_identity": "d65e339587e0985d91505e30ecd362b0fcfec8937c6ba898d17b3c7cdf577f3f",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/107_9e8637edde4d13abb24cb73e2ef11584b96ede235cf4c49226457d63987cd4d5.whisper.json",
+ "raw_whisper_sha256": "600b6dd584e04c9f22db79d95036a8ef924e2c227ab8374802ab33ab0830a035",
+ "quality": {
+  "expected_words": 9,
+  "observed_words": 9,
+  "matched_words": 9,
+  "coverage": 1,
+  "observed_precision": 1,
+  "mean_similarity": 1,
+  "sequence_score": 1,
+  "average_token_probability": 0.9089367777777778,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 1
+ }
+}

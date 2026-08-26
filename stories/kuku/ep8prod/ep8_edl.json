@@ -1,0 +1,1208 @@
+{
+ "scenes": [
+  {
+   "name": "s0_cold",
+   "cue": "score/cueC1_tapasya.mp3",
+   "score_vol": 0.55,
+   "segments": [
+    {
+     "src": "still:e8_s0_peak",
+     "dur": 3.2,
+     "takes": [
+      {
+       "sfx": "mountain_wind_high",
+       "at": 0,
+       "duck": false
+      },
+      {
+       "sfx": "eagle_cry_far",
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s0_peak",
+     "takes": [
+      {
+       "i": 1
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_cheel.png",
+       "at": 1,
+       "scale": 0.22,
+       "pos": "tl"
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s0_snow",
+     "takes": [
+      {
+       "i": 2
+      },
+      {
+       "sfx": "snow_settle",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s0_seasons",
+     "takes": [
+      {
+       "i": 3
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s0_rishi",
+     "takes": [
+      {
+       "i": 4
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s0_rishi",
+     "takes": [
+      {
+       "i": 5
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s0_boon",
+     "takes": [
+      {
+       "i": 6
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s0_boon",
+     "takes": [
+      {
+       "i": 7
+      }
+     ]
+    },
+    {
+     "src": "clip:c8_boon_settle",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "boon_shimmer",
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "clip:c8_cheel_circle",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "wingbeat_huge",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s0_peak",
+     "takes": [
+      {
+       "i": 8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s1",
+   "cue": "score/cueC2_shadow.mp3",
+   "score_vol": 0.45,
+   "segments": [
+    {
+     "src": "still:e8_s1_master",
+     "dur": 3,
+     "takes": [
+      {
+       "sfx": "morning_birds_pond",
+       "at": 0,
+       "duck": false
+      },
+      {
+       "sfx": "morning_dishes",
+       "at": 0.5
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d1_dadi",
+     "takes": [
+      {
+       "i": 9
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_cha.png",
+       "at": 0.8,
+       "scale": 0.22,
+       "pos": "tl"
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d1_castor",
+     "takes": [
+      {
+       "i": 10
+      }
+     ]
+    },
+    {
+     "src": "clip:c8_shadow_pass",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "shadow_pass",
+       "at": 0.6
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d1_leda",
+     "takes": [
+      {
+       "i": 11
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d1_fyuria",
+     "takes": [
+      {
+       "i": 12
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s1_tansen",
+     "dur": 1.8466040000000001,
+     "takes": [
+      {
+       "sfx": "mimic_12_CHEEL",
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d1_kuku",
+     "takes": [
+      {
+       "i": 13
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d1_dadi",
+     "takes": [
+      {
+       "i": 14
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s2",
+   "cue": "score/cueC2_shadow.mp3",
+   "score_vol": 0.4,
+   "segments": [
+    {
+     "src": "still:e8_s2_spoon",
+     "takes": [
+      {
+       "i": 15
+      },
+      {
+       "sfx": "morning_birds_pond",
+       "at": 0,
+       "duck": false
+      },
+      {
+       "sfx": "glint_chime"
+      },
+      {
+       "sfx": "running_steps_arrive"
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d2_leda",
+     "takes": [
+      {
+       "i": 16
+      },
+      {
+       "sfx": "glint_chime"
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d2_vesper",
+     "takes": [
+      {
+       "i": 17
+      }
+     ]
+    },
+    {
+     "src": "clip:c8_trail_follow",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "glint_chime",
+       "at": 1
+      },
+      {
+       "sfx": "glint_chime",
+       "at": 3.2
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d2_kuku",
+     "takes": [
+      {
+       "i": 18
+      }
+     ]
+    },
+    {
+     "src": "clip:c8_climb",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "group_steps_field",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d2_castor",
+     "takes": [
+      {
+       "i": 19
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d2_fyuria",
+     "takes": [
+      {
+       "i": 20
+      }
+     ]
+    },
+    {
+     "src": "clip:c8_nest_reveal",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "wind_only_silence",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "clip:c8_plank_falls",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "plank_khat",
+       "at": 0.8
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d2_vesper",
+     "takes": [
+      {
+       "i": 21
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s3",
+   "cue": "score/cueC3_cheel.mp3",
+   "score_vol": 0.5,
+   "segments": [
+    {
+     "src": "clip:c8_cheel_land",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "cheel_land",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d3_cheel",
+     "takes": [
+      {
+       "i": 22
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_chaal.png",
+       "at": 1,
+       "scale": 0.22,
+       "pos": "tl"
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d3_kuku",
+     "takes": [
+      {
+       "i": 23
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d3_cheel",
+     "takes": [
+      {
+       "i": 24
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d3_fyuria",
+     "takes": [
+      {
+       "i": 25
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d3_cheel",
+     "takes": [
+      {
+       "i": 26
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s3_cornered",
+     "takes": [
+      {
+       "i": 27
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d3_kuku",
+     "takes": [
+      {
+       "i": 28
+      }
+     ]
+    },
+    {
+     "src": "clip:c8_lift_off",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "wingbeat_huge",
+       "at": 0.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s4",
+   "cue": "score/cueC4_fight.mp3",
+   "score_vol": 0.45,
+   "segments": [
+    {
+     "src": "still:e8_d4_castor",
+     "takes": [
+      {
+       "i": 29
+      },
+      {
+       "sfx": "running_steps_arrive"
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s3a_gap",
+     "takes": [
+      {
+       "i": 30
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s3a_gap",
+     "takes": [
+      {
+       "i": 31
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d4_leda",
+     "takes": [
+      {
+       "i": 32
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d4_vesper",
+     "takes": [
+      {
+       "i": 33
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s3a_scream",
+     "takes": [
+      {
+       "i": 34
+      },
+      {
+       "sfx": "valley_echo_scatter"
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d4_cheel",
+     "takes": [
+      {
+       "i": 35
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d4_kuku",
+     "takes": [
+      {
+       "i": 36
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d4_leda",
+     "takes": [
+      {
+       "i": 37
+      },
+      {
+       "sfx": "wind_only_silence",
+       "at": 0,
+       "duck": false
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_chakkar.png",
+       "at": 1.2,
+       "scale": 0.22,
+       "pos": "tl"
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d4_kuku",
+     "takes": [
+      {
+       "i": 38
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d4_castor",
+     "takes": [
+      {
+       "i": 39
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s4_crack",
+     "takes": [
+      {
+       "i": 40
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s4_bridge",
+     "takes": [
+      {
+       "i": 41
+      },
+      {
+       "sfx": "sparks_forge"
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s4_bridge",
+     "takes": [
+      {
+       "i": 42
+      }
+     ]
+    },
+    {
+     "src": "clip:c8_letters_scatter",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "sparks_scatter",
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d4_castor",
+     "takes": [
+      {
+       "i": 43
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d4_kuku",
+     "takes": [
+      {
+       "i": 44
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d4_cheel",
+     "takes": [
+      {
+       "i": 45
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d4_kuku",
+     "takes": [
+      {
+       "i": 46
+      },
+      {
+       "sfx": "sparks_forge"
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_chup.png",
+       "at": 1.2,
+       "scale": 0.3,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d4_cheel",
+     "takes": [
+      {
+       "i": 47
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_chup.png",
+       "at": 0.1,
+       "scale": 0.16,
+       "pos": "tl"
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d4_vesper",
+     "takes": [
+      {
+       "i": 48
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d4_kuku",
+     "takes": [
+      {
+       "i": 49
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s5",
+   "cue": "score/cueC4_fight.mp3",
+   "score_vol": 0.4,
+   "segments": [
+    {
+     "src": "still:e8_d5_kuku",
+     "takes": [
+      {
+       "i": 50
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d5_vesper",
+     "takes": [
+      {
+       "i": 51
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d4_fyuria",
+     "takes": [
+      {
+       "i": 52
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d5_leda",
+     "takes": [
+      {
+       "i": 53
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s4_counter",
+     "takes": [
+      {
+       "i": 54
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d5_fyuria",
+     "takes": [
+      {
+       "i": 55
+      }
+     ]
+    },
+    {
+     "src": "clip:c8_tansen_launch",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "parrot_wingbeat",
+       "at": 0.2
+      }
+     ]
+    },
+    {
+     "src": "clip:c8_tansen_dash",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "wind_only_silence",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s5_delivery",
+     "takes": [
+      {
+       "i": 56
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s5_delivery",
+     "dur": 5.684562999999999,
+     "takes": [
+      {
+       "sfx": "mimic_56_KUKU",
+       "at": 0.3
+      },
+      {
+       "sfx": "mimic_56_CHEEL",
+       "at": 2.216188
+      },
+      {
+       "sfx": "mimic_56_LEDA",
+       "at": 3.4127919999999996
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s5_delivery",
+     "takes": [
+      {
+       "i": 57
+      }
+     ]
+    },
+    {
+     "src": "clip:c8_kalu_dadi_climb",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "dadi_stick_steps",
+       "at": 0.2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s6",
+   "cue": "score/cueC5_rescue.mp3",
+   "score_vol": 0.5,
+   "segments": [
+    {
+     "src": "still:e8_d6_cheel",
+     "takes": [
+      {
+       "i": 58
+      }
+     ]
+    },
+    {
+     "src": "clip:c8_stoop",
+     "dur": 4.8,
+     "takes": []
+    },
+    {
+     "src": "still:e8_s6_dadi_steps",
+     "takes": [
+      {
+       "i": 59
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d6_cheel",
+     "takes": [
+      {
+       "i": 60
+      },
+      {
+       "sfx": "wingbeat_huge"
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d6_dadi",
+     "takes": [
+      {
+       "i": 61
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s6_miss",
+     "dur": 3.4799999999999995,
+     "takes": [
+      {
+       "sfx": "tail_whoosh_miss",
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d6_cheel",
+     "takes": [
+      {
+       "i": 62
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d6_kuku",
+     "takes": [
+      {
+       "i": 63
+      }
+     ]
+    },
+    {
+     "src": "clip:c8_dadi_tail",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "tail_whoosh_strike",
+       "at": 1.2
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d6_cheel",
+     "takes": [
+      {
+       "i": 64
+      }
+     ]
+    },
+    {
+     "src": "clip:c8_tumble_away",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "feathers_rain",
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d6_dadi",
+     "takes": [
+      {
+       "i": 65
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s1_tansen",
+     "dur": 2.714396,
+     "takes": [
+      {
+       "sfx": "mimic_65_CHEEL",
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d6_fyuria",
+     "takes": [
+      {
+       "i": 66
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d6_dadi",
+     "takes": [
+      {
+       "i": 67
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s7",
+   "cue": "score/cueC6_katha.mp3",
+   "score_vol": 0.4,
+   "segments": [
+    {
+     "src": "still:e8_s7_circle",
+     "dur": 3,
+     "takes": [
+      {
+       "sfx": "evening_crickets",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d7_kuku",
+     "takes": [
+      {
+       "i": 68
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d7_dadi_katha",
+     "takes": [
+      {
+       "i": 69
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d7_dadi_katha",
+     "takes": [
+      {
+       "i": 70
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s7_flash_flying",
+     "takes": [
+      {
+       "i": 71
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s7_flash_road",
+     "takes": [
+      {
+       "i": 72
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s7_flash_rath",
+     "takes": [
+      {
+       "i": 73
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d7_dadi_katha",
+     "takes": [
+      {
+       "i": 74
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d7_vesper",
+     "takes": [
+      {
+       "i": 75
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d7_leda",
+     "takes": [
+      {
+       "i": 76
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d7_dadi_katha",
+     "takes": [
+      {
+       "i": 77
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d7_kuku",
+     "takes": [
+      {
+       "i": 78
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s7_dadi_sky",
+     "takes": [
+      {
+       "i": 79
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s8",
+   "cue": "score/cueC6_katha.mp3",
+   "score_vol": 0.35,
+   "segments": [
+    {
+     "src": "clip:c8_walk_down",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "evening_crickets",
+       "at": 0,
+       "duck": false
+      },
+      {
+       "sfx": "dadi_stick_steps",
+       "at": 0.4
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d8_dadi",
+     "takes": [
+      {
+       "i": 80
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d8_fyuria",
+     "takes": [
+      {
+       "i": 81
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d8_dadi",
+     "takes": [
+      {
+       "i": 82
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d8_kuku",
+     "takes": [
+      {
+       "i": 83
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d8_dadi",
+     "takes": [
+      {
+       "i": 84
+      }
+     ]
+    },
+    {
+     "src": "still:e8_d8_leda",
+     "takes": [
+      {
+       "i": 85
+      },
+      {
+       "sfx": "group_laugh"
+      }
+     ]
+    },
+    {
+     "src": "still:e8_s8_rath_look",
+     "dur": 3.2,
+     "takes": []
+    },
+    {
+     "src": "still:e8_d8_dadi",
+     "takes": [
+      {
+       "i": 86
+      }
+     ]
+    },
+    {
+     "src": "card:r2",
+     "takes": [
+      {
+       "i": 87
+      }
+     ]
+    },
+    {
+     "src": "card:r3",
+     "takes": [
+      {
+       "i": 88
+      }
+     ]
+    },
+    {
+     "src": "card:r4",
+     "takes": [
+      {
+       "i": 89
+      }
+     ]
+    },
+    {
+     "src": "card:r5",
+     "takes": [
+      {
+       "i": 90
+      }
+     ]
+    },
+    {
+     "src": "card:r6",
+     "takes": [
+      {
+       "i": 91
+      }
+     ]
+    },
+    {
+     "src": "card:r7",
+     "takes": [
+      {
+       "i": 92
+      }
+     ]
+    },
+    {
+     "src": "card:r8",
+     "dur": 3,
+     "takes": []
+    }
+   ]
+  },
+  {
+   "name": "s9",
+   "cue": "score/cueC3_cheel.mp3",
+   "score_vol": 0.45,
+   "segments": [
+    {
+     "src": "clip:c8_ridge_button",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "wind_only_silence",
+       "at": 0,
+       "duck": false
+      },
+      {
+       "sfx": "eagle_cry_far",
+       "at": 1.4
+      }
+     ]
+    },
+    {
+     "src": "clip:c8_kalu_growl",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "evening_crickets",
+       "at": 0,
+       "duck": false
+      },
+      {
+       "sfx": "mimic_92_CHEEL",
+       "at": 0.6
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

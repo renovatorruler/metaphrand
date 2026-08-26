@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-08-18T20:39:49.102666Z",
+  "display_name": "GPT Image 2",
+  "id": "54e7c660-a264-45b1-96cb-2622cbc38f74",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_203949_54e7c660-a264-45b1-96cb-2622cbc38f74_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "f118e95c-eca8-48a1-9dbf-760e374b9bbf",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/f118e95c-eca8-48a1-9dbf-760e374b9bbf_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "d94e01ba-f3df-4ed1-b6cb-5e33e8bfaff7",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/d94e01ba-f3df-4ed1-b6cb-5e33e8bfaff7_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "928ca79e-c203-46f5-bdb8-bf749551d2a5",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/928ca79e-c203-46f5-bdb8-bf749551d2a5_resize.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Wide: the planted staff bends visibly toward the cracked golden gate, its golden rings flickering fast; the cream paper goat kid with a small bell stands firmly on the grass in the foreground, unbothered; at frame right the small pink child dragon Leda turns her head sharply, hearing something the others miss. 3D papercraft style, exactly matching the cut-paper character designs in the reference images: layered cut-paper illustration with real depth, soft matte construction-paper textures, visible paper edges, folds and creases, warm storybook palette, soft studio lighting, gentle depth of field, like a lit diorama built from card. Non-photorealistic, made of paper. NO flat single-plane 2D, NO sticker look, NO glossy plastic 3D render, NO photorealism, no text, no letters.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_203949_54e7c660-a264-45b1-96cb-2622cbc38f74.png",
+  "status": "completed"
+}

@@ -1,0 +1,9 @@
+V11 — self-review before first submit.
++ CAMERA changed from locked to a continuous PULL BACK           [source: author — "can the model just do a push out?"]
++ the widening is timed to her topple, so she always has floor    [source: the tight-plate problem]
++ pencil rolls only a few inches and stops IN SHOT                [source: it is the object scene 9 depends on]
++ every beat written as continuous motion, nothing held still     [source: the V09 freeze lesson]
+- "body" removed twice (head to foot instead)                     [source: nsfw trigger history]
+- stress marks added to «Ха-ха́-ха»                                [source: stress gate]
+PLATE: cropped from the V06 plate at 22.5% to remove Вася-мама's skirt entirely — verified by eye,
+not by the pixel sample that would have missed it.

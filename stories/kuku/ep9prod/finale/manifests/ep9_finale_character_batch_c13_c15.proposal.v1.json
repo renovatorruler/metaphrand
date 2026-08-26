@@ -1,0 +1,88 @@
+{
+  "project": "kuku-episode-9-finale",
+  "version": 1,
+  "status": "proposal_ready_zero_credit",
+  "scope": ["C13", "C14", "C15"],
+  "authority": {
+    "providerCallsMade": 0,
+    "creditsSpent": 0,
+    "liveQuoteObtained": false,
+    "submissionAuthorizedByThisProposal": false,
+    "sharedPaidShotManifestEdited": false,
+    "edlEdited": false,
+    "spendLedgerEdited": false
+  },
+  "bindingSources": [
+    "../../../2026-08-11_EP9_ba_bada_SPEC_SCREENPLAY.md",
+    "../EP9_FINALE_SHOOTING_SCRIPT.md",
+    "ep9_finale_route.v2.json",
+    "ep9_finale_paid_shots.v1.json"
+  ],
+  "shots": [
+    {
+      "id": "C13",
+      "storyTime": "8:53-9:01",
+      "modelFromRouteV2": "kling2_6",
+      "acquisitionSecondsFromRouteV2": 10,
+      "finalUseSeconds": 8,
+      "status": "inputs_ready_proposal_only",
+      "hardBlocker": null,
+      "startFrame": "../start_frames/C13.png",
+      "startFrameSha256": "d2b07357c2ea4293eb80db31f7f55b381dedfadf68c11a2647c15fafd904a417",
+      "promptFile": "../prompts/C13.txt",
+      "promptSha256": "895e324ea83570e394e8acbb08e9a87de8a79f3d1652eb98304227fa767447db",
+      "chronology": "Exact accepted B13 ending, reframed closer; goat remains inside the same airborne cloud pocket and Furia remains the only dragon.",
+      "localPostDependency": "Keep cloud rotation/deformation separable from Furia performance; do not accept a clip that lands Furia on the cloud.",
+      "provenance": [
+        {"path": "../clips/B13.mp4", "sha256": "8ec671201cbd612e8193c925a1bc894f87cec6102b1e6ec78abf439661e230af", "use": "accepted preceding-shot final state"}
+      ],
+      "qaContact": "../qa/C13_input_start_contact.png",
+      "qaContactSha256": "7895d2f540b9711d8ca52a1a39491cc081b115b8f2871a0d30a909aa612e0310"
+    },
+    {
+      "id": "C14",
+      "storyTime": "9:01-9:11",
+      "modelFromRouteV2": "kling2_6",
+      "acquisitionSecondsFromRouteV2": 10,
+      "finalUseSeconds": 10,
+      "status": "inputs_ready_proposal_only",
+      "hardBlocker": null,
+      "startFrame": "../start_frames/C14.png",
+      "startFrameSha256": "60f3052bfe179ed7b35758d07c7fb1240ecbc246bc46d8d2784ac4464d20b1d6",
+      "promptFile": "../prompts/C14.txt",
+      "promptSha256": "c4a3282947e5ab04349261651561145a9b38a1b3659ef435ac73d092720faa85",
+      "chronology": "The same physical BA created in Scene 4 is grounded below the still-broken gate; the goat remains inside the cloud and Kuku approaches alone.",
+      "localPostDependency": "The exact BA front shape is a locked local matte; preserve it if provider motion deforms the glyph.",
+      "provenance": [
+        {"path": "../references/A07_clean_delogo.png", "sha256": "3b8221758250b29ff4477f876e9c741d41f260785f3126d086ed6eaaebc87fe3", "use": "accepted broken-gate/cloud/goat geography"},
+        {"path": "../local/b14_b15/instances/kuku_1.png", "sha256": "ce859fc85999f99c899b68494b12ceb585d169e3500c6ac287fdd05d1c33531a", "use": "accepted present-day giant Kuku cutout"},
+        {"path": "../local/b14_b15/rescue_b_transport_rgba.png", "sha256": "02bec94ab939bd8f8f065d8be526ca3d3e2de0706746d3df1877e8748a4bdc36", "use": "locked single physical Devanagari BA matte"}
+      ],
+      "qaContact": "../qa/C14_input_start_contact.png",
+      "qaContactSha256": "ee57432c91b637ce0b8f73c1bd228d57b6486d7386cd731fbf6e6e89302021e0"
+    },
+    {
+      "id": "C15",
+      "storyTime": "9:35-9:43",
+      "modelFromRouteV2": "kling2_6",
+      "acquisitionSecondsFromRouteV2": 10,
+      "finalUseSeconds": 8,
+      "status": "inputs_ready_proposal_only",
+      "hardBlocker": null,
+      "startFrame": "../start_frames/C15.png",
+      "startFrameSha256": "f385a9d2b0fa11ae5cf2b23f54fe0bf84b9eaaf9ce0b51a952693b9febcf5cc8",
+      "promptFile": "../prompts/C15.txt",
+      "promptSha256": "eec74e9f6e9986f51e01d29467bc14310cc91cc230900a40a7e5c3c856c20edc",
+      "chronology": "Accepted rescue geography before the teamwork solution: exactly five giant dragons, one broken gate and one goat inside one cloud pocket; no BA has entered the aerial rescue.",
+      "agencyGuard": "Pale-lavender Leda at upper right is the sole initiator and must cross into the shared eye-line before any other dragon reacts.",
+      "provenance": [
+        {"path": "../references/A09_attempt2.png", "sha256": "eafb8baccceadc68256fa52bc8b1d813687170e87eb6755cbf0c8a3cdb1d2111", "use": "accepted five-dragon/goat/gate rescue geography"}
+      ],
+      "qaContact": "../qa/C15_input_start_contact.png",
+      "qaContactSha256": "a2b886d1b9add0ad8c3e24f616e7cb64d5ab54e7dadba9c4026a3462e768bb08"
+    }
+  ],
+  "batchQaContact": "../qa/C13_C15_start_frames_contact.png",
+  "batchQaContactSha256": "bfc15587526d193666b9bc22844f0efa61f42d330abfb27ab4b2d264c74970db",
+  "nextAuthorityStep": "Orchestrator may inspect this proposal, patch shared state separately, run the repository submission gate, obtain one exact live quote per shot and request a fresh one-use authorization before any provider call."
+}

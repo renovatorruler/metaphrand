@@ -1,0 +1,1548 @@
+{
+ "scenes": [
+  {
+   "name": "s0_card",
+   "cue": "score/cueT7_night.mp3",
+   "score_vol": 0.5,
+   "segments": [
+    {
+     "src": "card:a1",
+     "dur": 3.4,
+     "takes": [],
+     "fx": [
+      {
+       "png": "glyphs/fx_aa.png",
+       "at": 0.5,
+       "scale": 0.34,
+       "pos": "tc"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s1",
+   "cue": "score/cueT5_teach.mp3",
+   "score_vol": 0.35,
+   "segments": [
+    {
+     "src": "still:e7_s1_master",
+     "takes": [
+      {
+       "i": 1
+      },
+      {
+       "sfx": "dusk_birds",
+       "at": 0,
+       "duck": false
+      },
+      {
+       "sfx": "cart_rope_creak"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d1_furia",
+     "takes": [
+      {
+       "i": 2
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d1_papa",
+     "takes": [
+      {
+       "i": 3
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d1_furia",
+     "takes": [
+      {
+       "i": 4
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d1_papa",
+     "takes": [
+      {
+       "i": 5
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d1_furia",
+     "takes": [
+      {
+       "i": 6
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s1_tansen",
+     "dur": 5.479229,
+     "takes": [
+      {
+       "sfx": "mimic_06_PAPA",
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d1_furia",
+     "takes": [
+      {
+       "i": 7
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d1_kuku",
+     "takes": [
+      {
+       "i": 8
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d1_vesper",
+     "takes": [
+      {
+       "i": 9
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d1_dadi",
+     "takes": [
+      {
+       "i": 10
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d1_mitasur",
+     "takes": [
+      {
+       "i": 11
+      }
+     ]
+    },
+    {
+     "src": "clip:c7_rath_depart",
+     "dur": 8.4,
+     "takes": [
+      {
+       "sfx": "cart_rolls_bridge",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s1_kalu",
+     "dur": 3.08,
+     "takes": [
+      {
+       "sfx": "kalu_bark",
+       "at": 0.1
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s1_wave",
+     "takes": [
+      {
+       "i": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s2",
+   "cue": "score/cueT7_night.mp3",
+   "score_vol": 0.4,
+   "segments": [
+    {
+     "src": "still:e7_s2_master",
+     "takes": [
+      {
+       "i": 13
+      },
+      {
+       "sfx": "evening_crickets",
+       "at": 0,
+       "duck": false
+      },
+      {
+       "sfx": "dishes_clink"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d2_vesper",
+     "takes": [
+      {
+       "i": 14
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d2_dadi",
+     "takes": [
+      {
+       "i": 15
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d2_castor",
+     "takes": [
+      {
+       "i": 16
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d2_dadi",
+     "takes": [
+      {
+       "i": 17
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d2_kuku",
+     "takes": [
+      {
+       "i": 18
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d2_furia",
+     "takes": [
+      {
+       "i": 19
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d2_dadi",
+     "takes": [
+      {
+       "i": 20
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s2_door",
+     "dur": 2.48,
+     "takes": [
+      {
+       "sfx": "door_close_soft",
+       "at": 0.2
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s2_huddle",
+     "takes": [
+      {
+       "i": 21
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s3",
+   "cue": "score/cueT7_night.mp3",
+   "score_vol": 0.4,
+   "segments": [
+    {
+     "src": "still:e7_s3_master",
+     "dur": 2.8,
+     "takes": [
+      {
+       "sfx": "evening_crickets",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d3_vesper",
+     "takes": [
+      {
+       "i": 22
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d3_kuku",
+     "takes": [
+      {
+       "i": 23
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d3_dadi",
+     "takes": [
+      {
+       "i": 24
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d3_kuku",
+     "takes": [
+      {
+       "i": 25
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d3_dadi",
+     "takes": [
+      {
+       "i": 26
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d3_kuku",
+     "takes": [
+      {
+       "i": 27
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d3_dadi",
+     "takes": [
+      {
+       "i": 28
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d3_kuku",
+     "takes": [
+      {
+       "i": 29
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_pa.png",
+       "at": 0.8,
+       "scale": 0.16,
+       "pos": "tl"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s3_master",
+     "takes": [
+      {
+       "i": 30
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s3_forge",
+     "takes": [
+      {
+       "i": 31
+      },
+      {
+       "sfx": "forge_whoosh_land"
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_pa.png",
+       "at": 1.2,
+       "scale": 0.26,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s3_forge",
+     "takes": [
+      {
+       "i": 32
+      },
+      {
+       "sfx": "forge_whoosh_land"
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_pp.png",
+       "at": 1.2,
+       "scale": 0.3,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d3_leda",
+     "takes": [
+      {
+       "i": 33
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_pp.png",
+       "at": 0.1,
+       "scale": 0.22,
+       "pos": "tl"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d3_castor",
+     "takes": [
+      {
+       "i": 34
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_pp.png",
+       "at": 0.1,
+       "scale": 0.22,
+       "pos": "tl"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d3_kuku",
+     "takes": [
+      {
+       "i": 35
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_pp.png",
+       "at": 0.1,
+       "scale": 0.26,
+       "pos": "tc"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s4",
+   "cue": "score/cueT5_teach.mp3",
+   "score_vol": 0.35,
+   "segments": [
+    {
+     "src": "still:e7_s4_master",
+     "takes": [
+      {
+       "i": 36
+      },
+      {
+       "sfx": "evening_crickets",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d4_castor",
+     "takes": [
+      {
+       "i": 37
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d4_dadi",
+     "takes": [
+      {
+       "i": 38
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_paa.png",
+       "at": 0.5,
+       "scale": 0.2,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d4_leda",
+     "takes": [
+      {
+       "i": 39
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_paa.png",
+       "at": 0.1,
+       "scale": 0.18,
+       "pos": "tl"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d4_dadi",
+     "takes": [
+      {
+       "i": 40
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s4_master",
+     "takes": [
+      {
+       "i": 41
+      },
+      {
+       "sfx": "forge_whoosh_land"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d4_castor",
+     "takes": [
+      {
+       "i": 42
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_matra.png",
+       "at": 0.3,
+       "scale": 0.2,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d4_leda",
+     "takes": [
+      {
+       "i": 43
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_matra.png",
+       "at": 0.1,
+       "scale": 0.16,
+       "pos": "tl"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d4_kuku",
+     "takes": [
+      {
+       "i": 44
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_matra.png",
+       "at": 0.1,
+       "scale": 0.16,
+       "pos": "tl"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d4_dadi",
+     "takes": [
+      {
+       "i": 45
+      },
+      {
+       "sfx": "soft_tak"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s4_join",
+     "takes": [
+      {
+       "i": 46
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_paa.png",
+       "at": 0.2,
+       "scale": 0.3,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d4_kuku",
+     "takes": [
+      {
+       "i": 47
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_paa.png",
+       "at": 0.1,
+       "scale": 0.18,
+       "pos": "tl"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d4_dadi",
+     "takes": [
+      {
+       "i": 48
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s4_join",
+     "takes": [
+      {
+       "i": 49
+      },
+      {
+       "sfx": "forge_whoosh_land"
+      },
+      {
+       "sfx": "soft_tak"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s4_papa_glow",
+     "takes": [
+      {
+       "i": 50
+      },
+      {
+       "sfx": "soft_tak"
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_papa.png",
+       "at": 0.4,
+       "scale": 0.3,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s4_papa_glow",
+     "takes": [
+      {
+       "i": 51
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_papa.png",
+       "at": 0.1,
+       "scale": 0.26,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d4_dadi",
+     "takes": [
+      {
+       "i": 52
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_papa.png",
+       "at": 0.1,
+       "scale": 0.16,
+       "pos": "tl"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d4_dadi",
+     "takes": [
+      {
+       "i": 53
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_aa.png",
+       "at": 0.4,
+       "scale": 0.24,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d4_leda",
+     "takes": [
+      {
+       "i": 54
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_aa.png",
+       "at": 0.1,
+       "scale": 0.2,
+       "pos": "tl"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s4_master",
+     "takes": [
+      {
+       "i": 55
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_aa.png",
+       "at": 0.2,
+       "scale": 0.3,
+       "pos": "tc"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s5",
+   "cue": "score/cueT2_play.mp3",
+   "score_vol": 0.35,
+   "segments": [
+    {
+     "src": "still:e7_s5_master",
+     "takes": [
+      {
+       "i": 56
+      },
+      {
+       "sfx": "evening_crickets",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d5_castor",
+     "takes": [
+      {
+       "i": 57
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_ka.png",
+       "at": 0.2,
+       "scale": 0.2,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d5_dadi",
+     "takes": [
+      {
+       "i": 58
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d5_vesper",
+     "takes": [
+      {
+       "i": 59
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_na.png",
+       "at": 0.2,
+       "scale": 0.2,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d5_dadi",
+     "takes": [
+      {
+       "i": 60
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d5_leda",
+     "takes": [
+      {
+       "i": 61
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_ma.png",
+       "at": 0.2,
+       "scale": 0.2,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d5_dadi",
+     "takes": [
+      {
+       "i": 62
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d5_kuku",
+     "takes": [
+      {
+       "i": 63
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_ta.png",
+       "at": 0.2,
+       "scale": 0.2,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d5_dadi",
+     "takes": [
+      {
+       "i": 64
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s5_master",
+     "takes": [
+      {
+       "i": 65
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_ra.png",
+       "at": 0.2,
+       "scale": 0.22,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s5_tansen",
+     "dur": 6.133938000000001,
+     "takes": [
+      {
+       "sfx": "mimic_65_KUKU",
+       "at": 0.3
+      },
+      {
+       "sfx": "mimic_65_FYURIA",
+       "at": 1.084042
+      },
+      {
+       "sfx": "mimic_65_VESPER",
+       "at": 1.6781669999999997
+      },
+      {
+       "sfx": "mimic_65_MITASUR",
+       "at": 2.211667
+      },
+      {
+       "sfx": "mimic_65_CASTOR",
+       "at": 2.9803339999999996
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d5_kuku",
+     "takes": [
+      {
+       "i": 66
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d5_dadi",
+     "takes": [
+      {
+       "i": 67
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d5_vesper",
+     "takes": [
+      {
+       "i": 68
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_raat.png",
+       "at": 0.3,
+       "scale": 0.26,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d5_dadi",
+     "takes": [
+      {
+       "i": 69
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d5_kuku",
+     "takes": [
+      {
+       "i": 70
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_naam.png",
+       "at": 0.3,
+       "scale": 0.26,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d5_mitasur",
+     "takes": [
+      {
+       "i": 71
+      },
+      {
+       "sfx": "group_laugh"
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_kaam.png",
+       "at": 0.3,
+       "scale": 0.26,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d5_kuku",
+     "takes": [
+      {
+       "i": 72
+      },
+      {
+       "sfx": "wind_only_silence"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s5_leda_tara",
+     "takes": [
+      {
+       "i": 73
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d5_kuku",
+     "takes": [
+      {
+       "i": 74
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s5_leda_tara",
+     "takes": [
+      {
+       "i": 75
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_taara.png",
+       "at": 0.5,
+       "scale": 0.24,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d5_vesper",
+     "takes": [
+      {
+       "i": 76
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s5_kuku_realise",
+     "takes": [
+      {
+       "i": 77
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_taara.png",
+       "at": 0.3,
+       "scale": 0.3,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d5_dadi",
+     "takes": [
+      {
+       "i": 78
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s6",
+   "cue": "score/cueT7_night.mp3",
+   "score_vol": 0.45,
+   "segments": [
+    {
+     "src": "still:e7_s6_master",
+     "takes": [
+      {
+       "i": 79
+      },
+      {
+       "sfx": "evening_crickets",
+       "at": 0,
+       "duck": false
+      },
+      {
+       "sfx": "tiptoe_steps"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s6_forge",
+     "takes": [
+      {
+       "i": 80
+      },
+      {
+       "sfx": "forge_whoosh_land"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s6_forge",
+     "takes": [
+      {
+       "i": 81
+      },
+      {
+       "sfx": "soft_tak"
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_taara.png",
+       "at": 3,
+       "scale": 0.26,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s6_star_door",
+     "takes": [
+      {
+       "i": 82
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_taara.png",
+       "at": 0.2,
+       "scale": 0.24,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d6_vesper",
+     "takes": [
+      {
+       "i": 83
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d6_dadi",
+     "takes": [
+      {
+       "i": 84
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s7",
+   "cue": "score/cueT1_morning.mp3",
+   "score_vol": 0.35,
+   "segments": [
+    {
+     "src": "still:e7_s7_master",
+     "dur": 3.2,
+     "takes": [
+      {
+       "sfx": "first_bird",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d7_vesper",
+     "takes": [
+      {
+       "i": 85
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d7_mitasur",
+     "takes": [
+      {
+       "i": 86
+      }
+     ]
+    },
+    {
+     "src": "clip:c7_rath_return",
+     "dur": 7.6,
+     "takes": [
+      {
+       "sfx": "cart_arrives",
+       "at": 0,
+       "duck": false
+      },
+      {
+       "sfx": "kalu_bark",
+       "at": 4.5
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d7_papa",
+     "takes": [
+      {
+       "i": 87
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d7_kuku",
+     "takes": [
+      {
+       "i": 88
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s7_star_dawn",
+     "takes": [
+      {
+       "i": 89
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_taara.png",
+       "at": 0.4,
+       "scale": 0.22,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d7_kuku",
+     "takes": [
+      {
+       "i": 90
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d7_papa",
+     "takes": [
+      {
+       "i": 91
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d7_kuku",
+     "takes": [
+      {
+       "i": 92
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_aa.png",
+       "at": 0.5,
+       "scale": 0.2,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d7_papa",
+     "takes": [
+      {
+       "i": 93
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "s8",
+   "cue": "score/cueT2_play.mp3",
+   "score_vol": 0.3,
+   "segments": [
+    {
+     "src": "still:e7_d8_furia",
+     "takes": [
+      {
+       "i": 94
+      },
+      {
+       "sfx": "door_creak_small",
+       "at": 0
+      },
+      {
+       "sfx": "morning_birds_pond",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s8_master",
+     "takes": [
+      {
+       "i": 95
+      },
+      {
+       "sfx": "clap_group"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s8_tansen",
+     "dur": 5.904583000000001,
+     "takes": [
+      {
+       "sfx": "mimic_95_PAPA",
+       "at": 0.3
+      },
+      {
+       "sfx": "mimic_95_LEDA",
+       "at": 0.912
+      },
+      {
+       "sfx": "kalu_bark",
+       "at": 3.024583
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d8_furia",
+     "takes": [
+      {
+       "i": 96
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d8_kuku",
+     "takes": [
+      {
+       "i": 97
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d8_leda",
+     "takes": [
+      {
+       "i": 98
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d8_furia",
+     "takes": [
+      {
+       "i": 99
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d8_papa",
+     "takes": [
+      {
+       "i": 100
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d8_furia",
+     "takes": [
+      {
+       "i": 101
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d8_furia",
+     "takes": [
+      {
+       "i": 102
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s8_gift",
+     "takes": [
+      {
+       "i": 103
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d8_vesper",
+     "takes": [
+      {
+       "i": 104
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d8_furia",
+     "takes": [
+      {
+       "i": 105
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d8_vesper",
+     "takes": [
+      {
+       "i": 106
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d8_papa",
+     "takes": [
+      {
+       "i": 107
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s8_mata",
+     "takes": [
+      {
+       "i": 108
+      },
+      {
+       "sfx": "forge_whoosh_land"
+      },
+      {
+       "sfx": "soft_tak"
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_maata.png",
+       "at": 1.5,
+       "scale": 0.24,
+       "pos": "tc"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d8_dadi",
+     "takes": [
+      {
+       "i": 109
+      }
+     ],
+     "fx": [
+      {
+       "png": "glyphs/fx_maata.png",
+       "at": 0.1,
+       "scale": 0.16,
+       "pos": "tl"
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d8_papa",
+     "takes": [
+      {
+       "i": 110
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d8_dadi",
+     "takes": [
+      {
+       "i": 111
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s8_niti",
+     "takes": [
+      {
+       "i": 112
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s8_niti",
+     "takes": [
+      {
+       "i": 113
+      }
+     ]
+    },
+    {
+     "src": "card:r1",
+     "dur": 3,
+     "takes": []
+    },
+    {
+     "src": "card:r2",
+     "dur": 2.4,
+     "takes": []
+    },
+    {
+     "src": "card:r3",
+     "dur": 2.4,
+     "takes": []
+    },
+    {
+     "src": "card:r4",
+     "dur": 2.4,
+     "takes": []
+    },
+    {
+     "src": "card:r5",
+     "dur": 2.4,
+     "takes": []
+    },
+    {
+     "src": "card:r6",
+     "dur": 2.4,
+     "takes": []
+    },
+    {
+     "src": "card:r7",
+     "dur": 2.4,
+     "takes": []
+    },
+    {
+     "src": "card:r8",
+     "dur": 2.4,
+     "takes": []
+    },
+    {
+     "src": "still:e7_s8_vesper_asleep",
+     "dur": 4.8,
+     "takes": [
+      {
+       "sfx": "snore_soft_boy",
+       "at": 0.3
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d8_furia",
+     "takes": [
+      {
+       "i": 114
+      }
+     ]
+    },
+    {
+     "src": "still:e7_d8_papa",
+     "takes": [
+      {
+       "i": 115
+      }
+     ]
+    },
+    {
+     "src": "still:e7_s8_vesper_asleep",
+     "dur": 4,
+     "takes": [
+      {
+       "sfx": "morning_birds_pond",
+       "at": 0,
+       "duck": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

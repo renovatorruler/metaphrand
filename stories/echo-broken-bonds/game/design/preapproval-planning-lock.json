@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "status": "PREAPPROVAL_ONLY_REFERENCE_PACKET_MISSING",
+  "declared_root": "design",
+  "canonicalization": "RFC 8785 after Unicode NFC; this file does not include itself",
+  "spend_authorized": false,
+  "build_authorized": false,
+  "scored_round_authorized": false,
+  "required_before_upgrade": [
+    "evidence/reference/reference-evidence-manifest.json and every hashed reference file",
+    "explicit user approval of the exact billable batch"
+  ],
+  "files": [
+    {
+      "path": "asset-contracts.csv",
+      "size_bytes": 16713,
+      "sha256": "885883da84329322b6b50c63dbddbe951f55a49f2bbd5d8f89b103ab0a14a0fb"
+    },
+    {
+      "path": "asset-package.md",
+      "size_bytes": 3618,
+      "sha256": "f9d51d8aca9deb8dffb764e4ec33c5df6a5774f6c5876d034f1d5e74765a80c6"
+    },
+    {
+      "path": "assets.csv",
+      "size_bytes": 28346,
+      "sha256": "c4fede06b0e4a35c23615299294ccf3743dfec87dd5650c68d0a80319a3d3644"
+    },
+    {
+      "path": "audio-spec.md",
+      "size_bytes": 3095,
+      "sha256": "b93a8605096b27a5b1141fe12c064cd46e66a4cfaf9fb68a5c9bbcf948b59b15"
+    },
+    {
+      "path": "browser-lock.json",
+      "size_bytes": 4482,
+      "sha256": "85edde66aaf57607c0197aabd5b72f1626e46d801cc91775581441262d9b91dd"
+    },
+    {
+      "path": "candidate-evidence.md",
+      "size_bytes": 11035,
+      "sha256": "384aefc85eb0d648302ced356ba80fa8db86012ceea339399126c5e5a4583730"
+    },
+    {
+      "path": "canon-lock.json",
+      "size_bytes": 1774,
+      "sha256": "5af371d7429441459b00cf103eb0e35103ec36c6dd46e2ec6789f38e741d24fd"
+    },
+    {
+      "path": "lookdev-batch-01-requests.json",
+      "size_bytes": 13593,
+      "sha256": "8872891d57a84f25084ce0fd88f1379ed6c262e7ee6a720f1ac31b26ec56261a"
+    },
+    {
+      "path": "lookdev-batch-01.md",
+      "size_bytes": 4125,
+      "sha256": "6c3571e05cb4ddea04fa8f5eb5a121381cdf826b81eb3dc6bd1104cb085e79d8"
+    },
+    {
+      "path": "quality-bar.md",
+      "size_bytes": 12489,
+      "sha256": "b4031adb29548704e9630bbb3b8936a7a538632f9e9c0d1f452105d523bf7a33"
+    },
+    {
+      "path": "reference-lock.md",
+      "size_bytes": 6791,
+      "sha256": "11d9bea10cc5f19bb8bc545693fc699a9be907ad011e3ff9f528fb996f32ca3a"
+    },
+    {
+      "path": "references.csv",
+      "size_bytes": 1629,
+      "sha256": "109b80a2b2bb6881875077eb46e3a2e2768c25e2aaac0a9734a83377d5df6011"
+    },
+    {
+      "path": "rights-ledger.csv",
+      "size_bytes": 2185,
+      "sha256": "8689f2350fb66907f144f9128e456b8aa34b31cb6e112595b4f7d963af10b71d"
+    },
+    {
+      "path": "scope.md",
+      "size_bytes": 4111,
+      "sha256": "b9a9bef65ff26ec8d69f89c0d1f49a83667eb0c03e92410c9d9936c0b895d952"
+    },
+    {
+      "path": "sequence-builder-v1.md",
+      "size_bytes": 15613,
+      "sha256": "eb5a13f46b0a50d41d36fb2996bc89a905dbd9f4cd1529822e632280d5ea3b6c"
+    },
+    {
+      "path": "sequence-v2.md",
+      "size_bytes": 20481,
+      "sha256": "20f7312367e0df564ee247d5eead7895b115a58b0238eea96f75bd01f48e106d"
+    },
+    {
+      "path": "style-spec.md",
+      "size_bytes": 8141,
+      "sha256": "c5641edba89b1e8545b4cfc3c5bd6835310a90651ba467f1d47765c8d4f40887"
+    },
+    {
+      "path": "test-envelope.md",
+      "size_bytes": 8855,
+      "sha256": "bcf55ac11f9372941d4fa0a76c83ad488dfd50e495454835fce4ecccafa46682"
+    },
+    {
+      "path": "test-oracle.md",
+      "size_bytes": 16536,
+      "sha256": "ce1077f5940500e113d109162c0898d0fc72c8422574945545fd1b336d55d246"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 12,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-26_V09_mama-rescue_start.png",
+  "endImage": "../stories/drakosha/rnd/keyframes/2026-08-26_V09_rescue_END_author.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/C-VASMAMA-01_solo_from_T-VAS-MAMA-01.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-07.png",
+    "../stories/drakosha/ep1prod/scene1/references/C-RUS-01_solo_from_packet_page14.png",
+    "../stories/drakosha/ep1prod/scene1/references/C-MUS-01_solo_from_packet_page14.png",
+    "../stories/drakosha/ep1prod/scene1/references/T-VAS-MAMA-01_approved.png"
+  ],
+  "promptSha256": "d7fc53d2a2d445385e46c5ff2744821481551367c759df64e058846522d3db69"
+}

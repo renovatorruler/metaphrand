@@ -21,9 +21,13 @@
 2026-08-23_S8_POPPY_offer_v5_dub.mp4               # SH118 the poppy given to Мама
 #
 #
-# --- the Вася-Мама block begins. SH119 (Яга's approving hum + Фрося tucking the
-#     pencil behind her ear) is NOT SHOT and belongs here, between the poppy and
-#     the ask. The cut currently goes straight from Мама's thank-you to Вася.
+# --- the Вася-Мама block begins. SH119 is NOT SHOT and belongs here, between the
+#     poppy and the ask, where the cut currently changes subject with no breath.
+#     Author decision 2026-08-26: SH119 is Яга's approving hum ONLY. The pencil
+#     tuck is cut from it — it already lives in scene 9 at SP136, where she needs
+#     both hands for the handlebars, and that is where the audience must learn she
+#     carries the pencil on her person (EP2 has the beast steal it off her).
+#     V11 ends with the pencil rolled loose on the boards, so scene 9 picks it up.
 2026-08-24_V01_ask_v3_dub.mp4                      # SH120 «А я, я тоже хочу. Мне слово лёгкое.»
 2026-08-24_V02_answer_v3_dub.mp4                   # SH121 «Ну собери сам, ты же читать будешь.»
 2026-08-25_V03_idea_only.mp4                       # SH122 he looks, scratches, and lights up with the idea — OUT ON THE GRIN.
@@ -31,4 +35,13 @@
 #     from his face to the word already assembled. The pickup exists if it is ever
 #     wanted — 2026-08-25_V03_gather_v9_landed.mp4.
 2026-08-25_V04_MAMA_read_kling_v6_stress.mp4       # SH123 overhead: М-А-М-А lighting under his finger, then Ма́-ма (stress on the FIRST syllable — v5 had it on the second)
-2026-08-25_V05_single_v2_dub.mp4                   # SH123-124 «Мама! Вжух?», the light takes him, and Вася-мама arrives
+2026-08-25_V05_single_v4_sfx.mp4                   # SH123-124 «Мама! Вжух?», the light takes him, and Вася-мама arrives. SOUND PASS 2026-08-26: room tone across the whole clip (the dub sat at median 19 against 127 elsewhere in the scene — it was the dry shot), and «Ха!» in ВАСЯ's voice on the grin at 14.22s — the frame where teeth brightness steps 280→765 and holds. NO SOUND ON THE LIGHT DRAIN: a pitched chime was tried there and cut (author: "I don't know what that magic charm is, it makes no sense when looking at the hands") — it landed across the 11.0–13.5 beat where she is examining her hands, and a bell over that reads as a random charm. If the drain gets a sound later it wants a descending power-down, not a chime.
+2026-08-26_V06_frosya-reaction_v4_sfx.mp4          # SH124B Фрося sees it — grin out, disbelief, blinks. RETIMED cut (variable speed): transition sped 2.4x, static stare between blinks 3 and 4 stretched 3.3x to separate them. The raw generation is 2026-08-26_V06_frosya-reaction_v2.mp4 — do NOT use it, the blinks bunch. SOUND PASS 2026-08-26: room tone, plus Фрося's «Хах» exhale (Ekaterina GN4wbsbejSnGSa1AzjH5, take c — 245Hz, closest to her cast register of 273Hz) placed at 1.02s so it peaks on the mouth opening at 1.12s. Blink ticks on the two STARE blinks only (2.47s and 3.24s, centres measured at 2.50 and 3.27) — not on the two during the smile, which would crowd the change. Tick is clock.mp3's transient at 0.515s pitched up 1.55x; the first cut missed the transient entirely and was inaudible.
+2026-08-26_V07_table-turns_v1.mp4                  # SH125-127 the table turns, in on Мама's eyebrows, down to the babies. NOT APPROVED — staging right, performances wrong (all three adults wear the same worried face; Мама reads angry). Reshoot only if allowance remains. Defects and brief: seedance_batch/2026-08-26_V07_DEFECTS_reshoot-brief.md
+2026-08-26_V08_dubJ.mp4                            # SH128-130 «Я мама! Сработало!», the babies reach him and take hold, «Они меня едят!». Dubbed: his voice replaced ONLY across the render's own speech runs, the render's baby noises kept intact.
+2026-08-26_V09_dubJ.mp4                            # SH131-132 «Я не мама! Я Вася! Снимите их с меня!» — Мама walks in as his twin and lifts both babies off. Start AND end frames are author plates; ends on the locked tableau that V10 opens from.
+#     RE-RECORD PENDING: the renders speak ~30% longer than the recorded lines, so
+#     both shots have a tail where he mouths with no words left. Fix is longer takes
+#     cut to the measured speech runs, not a re-shoot.
+2026-08-26_V10_dub.mp4                              # SH133-135 «Брови-то твои, Вася» — the push in on his boil, «ВЖУХ!», the flash, and the pull back out to Вася standing deflated beside Мама. Dubbed: Мама on camera, his shout on the render s own shout run, render babies kept.
+2026-08-26_V11_dub.mp4                              # SH136 Фрося collapses laughing — camera pulls back as she goes over, ending helpless on her side with the pencil rolled loose beside her. Only the phrase «Ой, не могу!» is dubbed in her voice; every laugh is the model own.

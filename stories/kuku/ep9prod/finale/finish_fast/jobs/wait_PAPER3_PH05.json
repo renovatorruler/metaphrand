@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-08-18T20:56:59.765546Z",
+  "display_name": "GPT Image 2",
+  "id": "9326185c-e2ce-4e08-81ba-b3b9d1c55bce",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_205659_9326185c-e2ce-4e08-81ba-b3b9d1c55bce_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "3170ce25-7dfa-4f68-a106-f33e7fcf83ad",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/3170ce25-7dfa-4f68-a106-f33e7fcf83ad_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "69d51c9e-b4d4-4b04-817d-30cff926e6f6",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/69d51c9e-b4d4-4b04-817d-30cff926e6f6_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "d682f7b9-23b5-4355-9d56-075f23ac67d3",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/d682f7b9-23b5-4355-9d56-075f23ac67d3_resize.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Close on the planted wooden staff pulsing with three soft golden rings of light rising up its shaft; beside it the white-maned dragon sage kneels lifting the lid of a small wooden chest with brass corners; the five child dragons lean in around him, paper wings folded neatly. 3D papercraft style, exactly matching the cut-paper character designs in the reference images: layered cut-paper illustration with real depth, soft matte construction-paper textures, visible paper edges, folds and creases, warm storybook palette, soft studio lighting, gentle depth of field, like a lit diorama built from card. Non-photorealistic, made of paper. NO flat single-plane 2D, NO sticker look, NO glossy plastic 3D render, NO photorealism, no text, no letters. EXACTLY FIVE child dragons and no more: one green, one crimson-red, one light-blue, one golden-yellow, one PINK. The pink dragon Leda MUST be present. Never two dragons of the same color. No other dragons besides the five children and the white-maned sage.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_205659_9326185c-e2ce-4e08-81ba-b3b9d1c55bce.png",
+  "status": "completed"
+}

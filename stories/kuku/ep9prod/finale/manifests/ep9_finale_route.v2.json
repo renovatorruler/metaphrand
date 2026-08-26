@@ -1,0 +1,151 @@
+{
+  "version": "2.0",
+  "project": "Kuku Episode 9 Season 1 Finale",
+  "status": "authoritative_production_route",
+  "authority": {
+    "sourceAcquisitionManifest": "ep9_finale_paid_shots.v1.json",
+    "routingComesFromThisFile": true,
+    "acquisitionLifecycleComesFromSourceManifest": true,
+    "copyLifecycleFieldsIntoThisFile": false,
+    "preserveSourceManifest": true
+  },
+  "submissionHold": {
+    "id": "sound_off_continuity_rebuild_2026-08-16",
+    "active": true,
+    "scope": "all_paid_submissions",
+    "reason": "The assembled Episode 9 main-story progress reel fails sound-off continuity: key takeoff, arrival, gate-break, goat-lift, orbit, and team-regrouping causes are missing or visibly discontinuous.",
+    "releaseCondition": "Keep every paid submission blocked until a rebuilt main-story progress reel is assembled and passes a documented sound-off audit for continuity, identity, scale, staging, story causality, motion, and visual quality.",
+    "releaseAuthority": "The root production orchestrator may set active to false only after recording that the release condition passed; editing a shot lifecycle or spend ledger does not release this hold."
+  },
+  "policy": {
+    "noSeedance": true,
+    "disallowedModelTokens": ["seedance"],
+    "nativeAudioOnVideo": false,
+    "maximumAttemptsPerTarget": 2,
+    "thirdAttemptAllowed": false,
+    "quoteExactPayloadBeforeSubmission": true,
+    "acceptedPilotIds": ["B07", "B10", "C04"],
+    "localFallbackPilotIds": ["C03"],
+    "cinemaRetryPolicy": "one shared retry across H01 and H02",
+    "geminiRetryPolicy": "no direct paid retry; use local fallback"
+  },
+  "totals": {
+    "existingShotCount": 45,
+    "paidRouteCount": 28,
+    "localOrReuseRouteCount": 17,
+    "paidAcquisitionSeconds": 266,
+    "paidFinalUsageSeconds": 242,
+    "localOrReuseConversionSeconds": 128,
+    "totalMotionCoverageSeconds": 370,
+    "paidRouteFirstTakeCredits": 371,
+    "currentActualCreditsAtCalibration": 80,
+    "remainingPaidVideoFirstTakeCredits": 346,
+    "expectedAdditionalStillCredits": 25,
+    "expectedAudioCredits": 35,
+    "expectedTotalCredits": 486,
+    "revisedMaximumCredits": 769,
+    "operatingCeiling": 899,
+    "lockedEmergencyReserve": 201,
+    "absoluteCap": 1100
+  },
+  "budgetClasses": [
+    {"id": "A_STILLS", "expectedTotalCredits": 65, "revisedMaximumCredits": 102},
+    {"id": "B_WIDE_ENVIRONMENT", "expectedTotalCredits": 104, "revisedMaximumCredits": 178},
+    {"id": "C_SIMPLE_CHARACTER", "expectedTotalCredits": 110, "revisedMaximumCredits": 210},
+    {"id": "D_COMPLEX_GROUP", "expectedTotalCredits": 68, "revisedMaximumCredits": 88},
+    {"id": "E_CINEMA_HERO", "expectedTotalCredits": 104, "revisedMaximumCredits": 156},
+    {"id": "F_AUDIO", "expectedTotalCredits": 35, "revisedMaximumCredits": 35}
+  ],
+  "stopRules": [
+    {
+      "id": "attempt_limit",
+      "atActualCredits": 0,
+      "action": "Never submit a third attempt for any target; C03 is permanently local."
+    },
+    {
+      "id": "first_pass_assembly",
+      "atActualCredits": 500,
+      "action": "At completion of first passes or 500 actual credits, whichever comes first, assemble the complete rough cut before unlocking retries."
+    },
+    {
+      "id": "critical_only",
+      "atActualCredits": 650,
+      "action": "Permit retries only for missing causal or emotional information, not visual polish."
+    },
+    {
+      "id": "accepted_yield_audit",
+      "atActualCredits": 750,
+      "action": "Audit accepted yield and convert every noncritical unresolved shot to local motion or reuse."
+    },
+    {
+      "id": "revised_route_stop",
+      "atActualCredits": 769,
+      "action": "Stop this route; crossing 769 requires a named story-critical failure visible in the assembled cut."
+    },
+    {
+      "id": "operating_stop",
+      "atActualCredits": 899,
+      "action": "Stop all submissions and review the assembled cut before any emergency-reserve release."
+    },
+    {
+      "id": "premium_disable",
+      "atActualCredits": 1000,
+      "action": "Disable Cinema and Gemini; permit only one named critical fixer at a time."
+    },
+    {
+      "id": "absolute_stop",
+      "atActualCredits": 1100,
+      "action": "Absolute stop; no further provider submission is permitted."
+    }
+  ],
+  "routes": [
+    {"id":"B01","routeKind":"local","finalUseSeconds":10,"localMethod":"layered_2_5d_sound_ripple"},
+    {"id":"B02","routeKind":"local","finalUseSeconds":8,"localMethod":"deterministic_gate_bell_latch_layers"},
+    {"id":"B03","routeKind":"paid","finalUseSeconds":8,"model":"kling2_6","durationSeconds":10,"quoteGate":10,"retryPolicy":"one_retry_max"},
+    {"id":"B04","routeKind":"paid","finalUseSeconds":10,"model":"minimax_hailuo","variant":"minimax-2.3-fast","durationSeconds":10,"quoteGate":7,"retryPolicy":"one_retry_max"},
+    {"id":"B05","routeKind":"local","finalUseSeconds":8,"localMethod":"rigged_wingbeats_and_dust"},
+    {"id":"B06","routeKind":"paid","finalUseSeconds":10,"model":"veo3_1_lite","durationSeconds":8,"quoteGate":8,"retryPolicy":"one_retry_max","localDependency":"extend the accepted paid tail by two seconds without character crossing"},
+    {"id":"B07","routeKind":"paid","finalUseSeconds":8,"model":"veo3_1_lite","durationSeconds":8,"quoteGate":8,"retryPolicy":"no_further_submission_locked_asset"},
+    {"id":"B08","routeKind":"local","finalUseSeconds":8,"localMethod":"separated_furia_spline_loop"},
+    {"id":"B09","routeKind":"reuse","finalUseSeconds":4,"localMethod":"offset_and_retime_B06_B07_wing_cycles"},
+    {"id":"B10","routeKind":"paid","finalUseSeconds":8,"model":"minimax_hailuo","variant":"minimax-2.3-fast","durationSeconds":10,"quoteGate":7,"retryPolicy":"no_further_submission_locked_asset","localDependency":"apply the accepted tracked crack accent"},
+    {"id":"B11","routeKind":"paid","finalUseSeconds":6,"model":"minimax_hailuo","variant":"minimax-2.3-fast","durationSeconds":10,"quoteGate":7,"retryPolicy":"one_retry_max"},
+    {"id":"B12","routeKind":"paid","finalUseSeconds":8,"model":"kling2_6","durationSeconds":10,"quoteGate":10,"retryPolicy":"one_retry_max","localDependency":"add the orbit line locally"},
+    {"id":"B13","routeKind":"paid","finalUseSeconds":10,"model":"minimax_hailuo","variant":"minimax-2.3-fast","durationSeconds":10,"quoteGate":7,"retryPolicy":"one_retry_max"},
+    {"id":"B14","routeKind":"local","finalUseSeconds":8,"localMethod":"deterministic_competing_air_paths"},
+    {"id":"B15","routeKind":"local","finalUseSeconds":10,"localMethod":"rigid_b_glyph_and_five_character_transport_rig"},
+    {"id":"B16","routeKind":"paid","finalUseSeconds":10,"model":"kling2_6","durationSeconds":10,"quoteGate":10,"retryPolicy":"one_retry_max","localDependency":"calm the gate and fade the cloud with local overlays"},
+    {"id":"B17","routeKind":"paid","finalUseSeconds":8,"model":"veo3_1_lite","durationSeconds":8,"quoteGate":8,"retryPolicy":"one_retry_max","localDependency":"composite the foreground gate mask and walking Rishi locally"},
+    {"id":"B18","routeKind":"paid","finalUseSeconds":10,"model":"minimax_hailuo","variant":"minimax-2.3-fast","durationSeconds":10,"quoteGate":7,"retryPolicy":"one_retry_max"},
+
+    {"id":"C01","routeKind":"paid","finalUseSeconds":8,"model":"kling2_6","durationSeconds":10,"quoteGate":10,"retryPolicy":"one_retry_max","localDependency":"add the sound ripple locally"},
+    {"id":"C02","routeKind":"paid","finalUseSeconds":10,"model":"kling2_6","durationSeconds":10,"quoteGate":10,"retryPolicy":"one_retry_max"},
+    {"id":"C03","routeKind":"local","finalUseSeconds":8,"localMethod":"binding_2_5d_low_hop_fallback_after_two_refunded_safety_failures"},
+    {"id":"C04","routeKind":"paid","finalUseSeconds":10,"model":"kling2_6","durationSeconds":10,"quoteGate":10,"retryPolicy":"no_further_submission_locked_asset"},
+    {"id":"C05","routeKind":"paid","finalUseSeconds":8,"model":"kling2_6","durationSeconds":10,"quoteGate":10,"retryPolicy":"one_retry_max"},
+    {"id":"C06","routeKind":"local","finalUseSeconds":10,"localMethod":"overhead_five_paws_and_five_waves"},
+    {"id":"C07","routeKind":"paid","finalUseSeconds":8,"model":"kling2_6","durationSeconds":10,"quoteGate":10,"retryPolicy":"one_retry_max","localDependency":"add the word-picture inserts locally"},
+    {"id":"C08","routeKind":"paid","finalUseSeconds":10,"model":"kling2_6","durationSeconds":10,"quoteGate":10,"retryPolicy":"one_retry_max"},
+    {"id":"C09","routeKind":"local","finalUseSeconds":8,"localMethod":"exact_devanagari_glyph_extrusion_and_scale"},
+    {"id":"C10","routeKind":"local","finalUseSeconds":10,"localMethod":"five_bracelet_light_chain"},
+    {"id":"C11","routeKind":"reuse","finalUseSeconds":5,"localMethod":"B08_B07_close_crop_and_face_parallax"},
+    {"id":"C12","routeKind":"local","finalUseSeconds":3,"localMethod":"staff_and_wing_rhythm_overlay"},
+    {"id":"C13","routeKind":"paid","finalUseSeconds":8,"model":"kling2_6","durationSeconds":10,"quoteGate":10,"retryPolicy":"one_retry_max","localDependency":"keep cloud movement on a separate local layer"},
+    {"id":"C14","routeKind":"paid","finalUseSeconds":10,"model":"kling2_6","durationSeconds":10,"quoteGate":10,"retryPolicy":"one_retry_max","localDependency":"lock the b glyph as a local matte if required"},
+    {"id":"C15","routeKind":"paid","finalUseSeconds":8,"model":"kling2_6","durationSeconds":10,"quoteGate":10,"retryPolicy":"one_retry_max"},
+    {"id":"C16","routeKind":"paid","finalUseSeconds":10,"model":"kling2_6","durationSeconds":10,"quoteGate":10,"retryPolicy":"one_retry_max","localDependency":"keep tunnel geometry locally composited"},
+    {"id":"C17","routeKind":"local","finalUseSeconds":8,"localMethod":"deterministic_two_way_tether_and_portal_test"},
+    {"id":"C18","routeKind":"paid","finalUseSeconds":8,"model":"kling2_6","durationSeconds":10,"quoteGate":10,"retryPolicy":"one_retry_max","localDependency":"use a short local activation wipe before the accepted A11 final state"},
+
+    {"id":"D01","routeKind":"local","finalUseSeconds":8,"localMethod":"procedural_ring_split_and_later_b_imprint"},
+    {"id":"D02","routeKind":"paid","finalUseSeconds":8,"model":"gemini_omni","durationSeconds":8,"quoteGate":24,"retryPolicy":"no_direct_retry_local_fallback"},
+    {"id":"D03","routeKind":"paid","finalUseSeconds":8,"model":"kling2_6","durationSeconds":10,"quoteGate":10,"retryPolicy":"one_retry_max"},
+    {"id":"D04","routeKind":"reuse","finalUseSeconds":4,"localMethod":"offset_known_wing_cycles"},
+    {"id":"D05","routeKind":"local","finalUseSeconds":8,"localMethod":"exact_five_grip_positions_on_rigid_b_glyph"},
+    {"id":"D06","routeKind":"paid","finalUseSeconds":8,"model":"kling2_6","durationSeconds":10,"quoteGate":10,"retryPolicy":"one_retry_max"},
+    {"id":"D07","routeKind":"paid","finalUseSeconds":8,"model":"gemini_omni","durationSeconds":8,"quoteGate":24,"retryPolicy":"no_direct_retry_local_fallback"},
+
+    {"id":"H01","routeKind":"paid","finalUseSeconds":8,"model":"cinematic_studio_video_4_0","durationSeconds":8,"quoteGate":52,"retryPolicy":"one_shared_cinema_retry_total"},
+    {"id":"H02","routeKind":"paid","finalUseSeconds":8,"model":"cinematic_studio_video_4_0","durationSeconds":8,"quoteGate":52,"retryPolicy":"one_shared_cinema_retry_total"}
+  ]
+}

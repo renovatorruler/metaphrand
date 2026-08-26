@@ -1,0 +1,195 @@
+{
+ "schema": "kuku-ep9-raw-normalized-timing-equivalence/v1",
+ "status": "accepted",
+ "source_inventory": "stories/kuku/ep9prod/finale/audio/alignment/raw_provider/inventory_7e95184e4b7a95cd6646659b4ae2e1cd68370c6a057e94d52e07697de99fc5e2.json",
+ "source_inventory_sha256": "7e95184e4b7a95cd6646659b4ae2e1cd68370c6a057e94d52e07697de99fc5e2",
+ "method": "decode archived raw and normalized MP3 to mono signed 16-bit PCM at 8000 Hz; aggregate RMS in 80-sample/10ms frames; Pearson correlation of log1p RMS envelopes at lags -100ms..+100ms",
+ "acceptance": {
+  "equal_frame_count": true,
+  "best_lag_milliseconds": 0,
+  "minimum_correlation": 0.999
+ },
+ "entry_count": 18,
+ "entries": [
+  {
+   "chunk_id": "chunk_006",
+   "raw_sha256": "a64ca2e20f50b768534cf7f563ef7bc4fc3ad08d1c99e394c87b5c0df80fa587",
+   "normalized_sha256": "321458d5addcec676d14b48227c237651ba3f2dae32dd6799142afe9dbcb851f",
+   "raw_envelope_frames": 9472,
+   "normalized_envelope_frames": 9472,
+   "best_lag_milliseconds": 0,
+   "correlation": 0.9998966762515672,
+   "accepted": true
+  },
+  {
+   "chunk_id": "chunk_007",
+   "raw_sha256": "51c5234f09d275a4a25dd29c9ca326ed126b796151e7cab54b5bebf3cf781a45",
+   "normalized_sha256": "007a32cfe3fe579487aa57749bd0ff23200be5d0549be21377b57c937b6488ab",
+   "raw_envelope_frames": 12616,
+   "normalized_envelope_frames": 12616,
+   "best_lag_milliseconds": 0,
+   "correlation": 0.9998020854166857,
+   "accepted": true
+  },
+  {
+   "chunk_id": "chunk_008",
+   "raw_sha256": "15a44d0628a1972217cc6d87f6dcee280c2afb5dc318ccda68da597d4509a332",
+   "normalized_sha256": "8d81bd70afc0f8c6015e586c59459c703674c5c32a51fadde439029db46e01bd",
+   "raw_envelope_frames": 12632,
+   "normalized_envelope_frames": 12632,
+   "best_lag_milliseconds": 0,
+   "correlation": 0.9998677647637977,
+   "accepted": true
+  },
+  {
+   "chunk_id": "chunk_009",
+   "raw_sha256": "be7ba7921a891002da6cc48ca1c713a31d0580f01b52d696c73295d8c764e67b",
+   "normalized_sha256": "b27d490bcbac468521e20cbc8c2b2835d357c6c968cbce264083b13a9535de26",
+   "raw_envelope_frames": 3216,
+   "normalized_envelope_frames": 3216,
+   "best_lag_milliseconds": 0,
+   "correlation": 0.9997743217391971,
+   "accepted": true
+  },
+  {
+   "chunk_id": "chunk_010",
+   "raw_sha256": "9ce8d0ade59a36caac73871dc004a93279912eb074ae3bb9e04f50dff76b5bfb",
+   "normalized_sha256": "ead245b3df18bfb18a3fb2de7c4339c0beec8353234d7e0fbafe47c7b1f22147",
+   "raw_envelope_frames": 13528,
+   "normalized_envelope_frames": 13528,
+   "best_lag_milliseconds": 0,
+   "correlation": 0.9998856221375116,
+   "accepted": true
+  },
+  {
+   "chunk_id": "chunk_011",
+   "raw_sha256": "6462a80d9c3bda65c1730d1243e7388b524693238daaa73742a9a0529a24742a",
+   "normalized_sha256": "861608abb0150f6ebce8e78790a47a5bc7dc593f5382eb40706dd2ebe54372d1",
+   "raw_envelope_frames": 1384,
+   "normalized_envelope_frames": 1384,
+   "best_lag_milliseconds": 0,
+   "correlation": 0.9996816038812523,
+   "accepted": true
+  },
+  {
+   "chunk_id": "chunk_013",
+   "raw_sha256": "c777d6b69bb29033b668f5e946ed02efba27d3e8da5ac254cb683e0ea8e31cd3",
+   "normalized_sha256": "fd3363c7745a35aee017f53beab0ce81c63c6d023229c12ca094d420a5f9b14e",
+   "raw_envelope_frames": 3088,
+   "normalized_envelope_frames": 3088,
+   "best_lag_milliseconds": 0,
+   "correlation": 0.9999046261483148,
+   "accepted": true
+  },
+  {
+   "chunk_id": "chunk_014",
+   "raw_sha256": "0162c79fceff8c1f5f7675d428b024452e2f1551b6425f87e8ac380eb987e022",
+   "normalized_sha256": "c552853f7bf96d20308bbb81e4e7ebd1f9d4f5be3bb3c39bb0961182abde99dc",
+   "raw_envelope_frames": 12288,
+   "normalized_envelope_frames": 12288,
+   "best_lag_milliseconds": 0,
+   "correlation": 0.9998153474890552,
+   "accepted": true
+  },
+  {
+   "chunk_id": "chunk_015",
+   "raw_sha256": "868777a7e65a75996627e822a71c7dbd035ed8d39a644683687fa7bb9560116a",
+   "normalized_sha256": "d3cf973de5fbfb55a9a674ec39adccfa05cb82c765800796f8de857f148b426b",
+   "raw_envelope_frames": 11752,
+   "normalized_envelope_frames": 11752,
+   "best_lag_milliseconds": 0,
+   "correlation": 0.9998407398065502,
+   "accepted": true
+  },
+  {
+   "chunk_id": "chunk_016",
+   "raw_sha256": "194a6d893e4f024dde9dd869828f302e142323b5ee0c2718bafc70158f322ed8",
+   "normalized_sha256": "e60d52b97ef0b3d04bb81523cd6d5d8a9e1e841bd07a02ce6c9372cefce474d4",
+   "raw_envelope_frames": 7696,
+   "normalized_envelope_frames": 7696,
+   "best_lag_milliseconds": 0,
+   "correlation": 0.9996586323912264,
+   "accepted": true
+  },
+  {
+   "chunk_id": "chunk_017",
+   "raw_sha256": "341c766d8a1868f08da6ef2a2e8d0d156fc7e30b35d39a21da7221b14c2f4363",
+   "normalized_sha256": "21907b79f6995cf7804aba931d707a32c2c2f55be3477753c18824306cd0c7fb",
+   "raw_envelope_frames": 13904,
+   "normalized_envelope_frames": 13904,
+   "best_lag_milliseconds": 0,
+   "correlation": 0.9999059317631976,
+   "accepted": true
+  },
+  {
+   "chunk_id": "chunk_019",
+   "raw_sha256": "f0c079c5c84136a277d57b13d5da5c187b2f57f8ea2569a6df07650c1a989f37",
+   "normalized_sha256": "3c2d035fd32f6585f2a5b42737bf1d59ea94e54014e3caf949748a84653f2c55",
+   "raw_envelope_frames": 14144,
+   "normalized_envelope_frames": 14144,
+   "best_lag_milliseconds": 0,
+   "correlation": 0.9998819231165823,
+   "accepted": true
+  },
+  {
+   "chunk_id": "chunk_020",
+   "raw_sha256": "aad57b11c68ed73ffeb666652e56894965759ded810f2688a5d9b0ebd117fd69",
+   "normalized_sha256": "db9c37e6bb6bf082f91559d5a964663d72e959bfbdea1be67f6a4b261c463fa1",
+   "raw_envelope_frames": 15008,
+   "normalized_envelope_frames": 15008,
+   "best_lag_milliseconds": 0,
+   "correlation": 0.9996605653662942,
+   "accepted": true
+  },
+  {
+   "chunk_id": "chunk_021",
+   "raw_sha256": "f0d0ec9b2c7887721d93cc297b3b73c24543cbcc8db14102a7e12dcf2a8b76c4",
+   "normalized_sha256": "b9af891e5039e3ec829a422b617fe0f40363e8b0b18881baa6b3e61f6a7735f6",
+   "raw_envelope_frames": 1704,
+   "normalized_envelope_frames": 1704,
+   "best_lag_milliseconds": 0,
+   "correlation": 0.9999314394584324,
+   "accepted": true
+  },
+  {
+   "chunk_id": "chunk_022",
+   "raw_sha256": "1da6b65e779c89a1728f8a88ad0c177ad7d4504af4ccc50c26a1beba36fa2d33",
+   "normalized_sha256": "1b61985fff17d293408a12c646206f1e39bcd0d3e92044a111c8b4b83c778064",
+   "raw_envelope_frames": 13152,
+   "normalized_envelope_frames": 13152,
+   "best_lag_milliseconds": 0,
+   "correlation": 0.999903147081659,
+   "accepted": true
+  },
+  {
+   "chunk_id": "chunk_023",
+   "raw_sha256": "eb5bf23b3c732498dca945174175b1a9a393b4848fd85d790619896cabe38f9d",
+   "normalized_sha256": "887eac92fbc41950db7474bc21e647506752e6356c2581e90c7f6bcb6bbae6a5",
+   "raw_envelope_frames": 1880,
+   "normalized_envelope_frames": 1880,
+   "best_lag_milliseconds": 0,
+   "correlation": 0.9997766391611306,
+   "accepted": true
+  },
+  {
+   "chunk_id": "chunk_024",
+   "raw_sha256": "4a32c419dc80b8ac855a6e4abfaaf7a3e1e84f4ef5dd0d7d840af1c6bf9cd521",
+   "normalized_sha256": "9309e2a481d27aa4fe3970444bbb59d3910a305842b0a7977a9ae6a434750e6a",
+   "raw_envelope_frames": 10800,
+   "normalized_envelope_frames": 10800,
+   "best_lag_milliseconds": 0,
+   "correlation": 0.9998739343965711,
+   "accepted": true
+  },
+  {
+   "chunk_id": "chunk_026",
+   "raw_sha256": "140d018c212460f1aeb0211c5acbed865790a939a51e5b309bf1c72442d4faed",
+   "normalized_sha256": "6ce0b8bb1f9fac467e72eaebc7f9bd7caa38c9aff90bfa682c218604134c67a9",
+   "raw_envelope_frames": 10336,
+   "normalized_envelope_frames": 10336,
+   "best_lag_milliseconds": 0,
+   "correlation": 0.9998742612166915,
+   "accepted": true
+  }
+ ]
+}

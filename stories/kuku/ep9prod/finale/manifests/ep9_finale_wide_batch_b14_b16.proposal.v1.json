@@ -1,0 +1,148 @@
+{
+  "version": "ep9-finale-wide-b14-b16-proposal-v1",
+  "authority": "proposal_only_do_not_submit",
+  "routing": "binding_route_v2",
+  "spend": 0,
+  "centralManifestEdited": false,
+  "sourceReview": {
+    "acceptedB13": {
+      "path": "../clips/B13.mp4",
+      "sha256": "8ec671201cbd612e8193c925a1bc894f87cec6102b1e6ec78abf439661e230af",
+      "finding": "Valid Scene 7 continuity evidence, but too early and too narrow to serve as the Scene 8 B14 or B15 start frame. The accepted A09 Scene 8 geography is authoritative instead."
+    },
+    "acceptedC08": {
+      "path": "../clips/C08.mp4",
+      "sha256": "2e63d959414e1840fb30e32ba1942d8b4366a974db3e0da55341f1f9a2431ac1",
+      "finding": "Confirms Castor, the intact blank ring and pre-transformation chronology. It is not reused visually because its courtyard close-up would break the airborne Scene 8 geography."
+    },
+    "acceptedA09": {
+      "path": "../references/A09_attempt2.png",
+      "sha256": "eafb8baccceadc68256fa52bc8b1d813687170e87eb6755cbf0c8a3cdb1d2111",
+      "finding": "Binding Scene 8 rescue geography for the two local shots: exactly five separated giant child dragons, one goat cloud, the broken gate and a clean center reserved for the exact local glyph."
+    }
+  },
+  "visualQa": {
+    "contactSheet": "../qa/B14_B15_inputs_contact.png",
+    "contactSheetSha256": "454644096da05ff2310364b75d44431bc52506d3605372fcc1df31d2fa5dba3b",
+    "inspection": "pass",
+    "notes": "Top-left is the clean B14 plate; top-right is the three-path opening state; bottom-left is the one-path ending state; bottom-right is the B15 rigid-glyph match-cut. Every panel preserves five distinct dragons and one visible goat cloud."
+  },
+  "shots": [
+    {
+      "id": "B14",
+      "route": "local_motion",
+      "durationSeconds": 8,
+      "localMethod": "deterministic_competing_air_paths",
+      "promptFile": "../prompts/B14.txt",
+      "promptSha256": "83557967912a0fb77b902c498362cb6d296bfa70e7b756da3458dbf610c7dd17",
+      "startFrame": "../start_frames/B14.png",
+      "startFrameSha256": "5a24168f8b5ed3e7bd1fb90aa85137eae1b062555e74d518ab63718c11c149ae",
+      "startFrameSource": "../references/A09_attempt2.png",
+      "provenance": "Accepted A09 Scene 8 rescue plate, locally center-cropped and resized from 2752x1536 to 1280x720 SAR 1:1. No model or provider call.",
+      "localAssets": [
+        {
+          "path": "../local/b14_b15/air_path_direct_rgba.png",
+          "sha256": "9f9f8df6f3f0fd1f0934c6af51d84434b5e7cb7cbd26b589a356014be910bd50"
+        },
+        {
+          "path": "../local/b14_b15/air_path_high_rgba.png",
+          "sha256": "04fa0e71422a5a9374589aa2d7baa8425bf7aae81a0e597f5f317f8238df5318"
+        },
+        {
+          "path": "../local/b14_b15/air_path_chosen_rgba.png",
+          "sha256": "5b207b98ee3ddcb32ab34e5bf1865a8e0196618b4443867bb755603e44f38f7d"
+        }
+      ],
+      "localBuilder": "../../../../../studio/src/Kuku_Ep9B14Local.res",
+      "output": "../clips/B14.mp4",
+      "outputSha256": "c9ffa08d9ff65eb523b2793058cfc13586d59a3314bbb101b55ba585a4922f39",
+      "qaContact": "../qa/B14_local_contact.png",
+      "qaContactSha256": "c64d7f408526ab9d0067151e1bf87fb946ab0350b6c95e6e12fef8d1e35ea9de",
+      "acceptanceTests": [
+        "Exactly five giant dragons, five blank bracelets, one goat, one bell, one cloud pocket and one broken gate persist.",
+        "All candidate paths originate at blue Vesper and terminate at the existing gate; no path originates at yellow Castor.",
+        "The direct and high paths fade separately; the single calm blue curve remains and visibly goes around the goat cloud.",
+        "No character body, gate crack, orbit line or cloud geometry is regenerated or redesigned.",
+        "The output is exactly eight seconds, 1280x720, 24 fps and silent."
+      ],
+      "status": "local_motion_complete_visual_qa_passed"
+    },
+    {
+      "id": "B15",
+      "route": "local_motion",
+      "durationSeconds": 10,
+      "localMethod": "rigid_b_glyph_and_five_character_transport_rig",
+      "promptFile": "../prompts/B15.txt",
+      "promptSha256": "38e4d64eb99ba0e9f6123c4a62be7e03b90f941dcbb61b2873dbf3e575baa8eb",
+      "startFrame": "../start_frames/B15.png",
+      "startFrameSha256": "4732009c97bfd6a4f83155f0b5dd33188b38a062acf7f21af6cf38fe779a1437",
+      "startFrameSource": "../references/A08.png plus locally isolated accepted A09 dragon/goat foregrounds and ../local/b14_b15/rescue_b_transport_rgba.png",
+      "provenance": "The accepted A08 plate supplies the broken gate, cloud-stage and Rishi geography. The exact five giant-child dragon appearances and the one goat are locally isolated from accepted A09 without regeneration. A zero-credit keyed SVG rendered in the locked Kohinoor Devanagari font supplies one exact rigid physical ब. ReScript/ffmpeg moves all five dragon cutouts and the glyph on one shared curve while the gate and goat remain fixed. This is a deterministic editorial match-cut after D06; no provider or model call was made.",
+      "localAssets": [
+        {
+          "path": "../local/b14_b15/rescue_b_transport_rgba.png",
+          "sha256": "02bec94ab939bd8f8f065d8be526ca3d3e2de0706746d3df1877e8748a4bdc36"
+        },
+        {
+          "path": "../local/b14_b15/goat_rgba.png",
+          "sha256": "fa210cd452bf46de29383f5b0f4e6d236490f417717adbcb3ddf6fbf925dc04d"
+        },
+        {
+          "path": "../local/b14_b15/instances/furia_1.png",
+          "sha256": "b543d508aa7333e920bf3c087cd965bb53e1ca33914383354c86ecc071a3424d"
+        },
+        {
+          "path": "../local/b14_b15/instances/leda_1.png",
+          "sha256": "93a20fd2d65892e03d5530a90c5aefea73ebeea7f3311395f1f74072deb044bc"
+        },
+        {
+          "path": "../local/b14_b15/instances/castor_1.png",
+          "sha256": "ecd1100ba0d7943e8738e379bb18ef9d9562ece6941c93b91954239b92eb28b2"
+        },
+        {
+          "path": "../local/b14_b15/instances/kuku_1.png",
+          "sha256": "ce859fc85999f99c899b68494b12ceb585d169e3500c6ac287fdd05d1c33531a"
+        },
+        {
+          "path": "../local/b14_b15/instances/vesper_2.png",
+          "sha256": "d7e7d4d8095a0cee3e20efd994e2a2abe68f1ea438fd66a7f8d4ea8d767668d6"
+        }
+      ],
+      "localBuilder": "../../../../../studio/src/Kuku_Ep9B15Local.res",
+      "output": "../clips/B15.mp4",
+      "outputSha256": "cd6a1ed7df33344608b7a8f6667cfbed53f22ebfaa563e65047665aa5576c4c7",
+      "qaContact": "../qa/B15_local_contact.png",
+      "qaContactSha256": "003fdd882efcf80cb0b4eedda53f2c197cae6e576a887fabc29068d7af51f988",
+      "acceptanceTests": [
+        "The exact Devanagari ब remains a single complete rigid shape; it never bends, opens into U, mirrors, morphs or loses its headline.",
+        "Exactly five giant dragons remain separately identifiable in their A09 jobs and move with the same transport rig.",
+        "The one goat remains visibly safe inside the one hollow cloud pocket behind or through the glyph opening.",
+        "The chosen blue path is the only route used; no replacement path appears during transport.",
+        "The shot ends before Castor enters the cloud, leaving that action exclusively to C16.",
+        "The output is exactly ten seconds, 1280x720, 24 fps and silent."
+      ],
+      "status": "local_motion_complete_visual_qa_passed"
+    },
+    {
+      "id": "B16",
+      "route": "kling2_6",
+      "durationSeconds": 10,
+      "quoteCeilingCredits": 10,
+      "promptFile": "../prompts/B16.txt",
+      "promptSha256": "a22514e27da5166438006b95acd9028f024a80f55927aa0776b24c59b6e6e134",
+      "startFrame": "../start_frames/B16.png",
+      "startFrameSource": "accepted final frame of H02, not yet available",
+      "provenance": "Blocked deliberately. B16 begins after the permanent gate repair; neither A08, A09, B13 nor C08 contains that irreversible state. Its frame must be derived only from the accepted H02 end frame, then locally prepared with one Castor, one Furia, one goat and visible solid landing ground if the accepted crop requires it.",
+      "acceptanceDependency": "Do not quote, preflight, upload or submit B16 until H02 is accepted and its last clean locked-gate frame has been extracted and hashed. Route v2 requires Kling 2.6 at a ten-credit ceiling, with generated audio disabled; the legacy Hailuo fields in the paid-shot source manifest must not control submission.",
+      "acceptanceTests": [
+        "The correct physical ब and repaired gate remain rigid and readable from the accepted H02 state through the final hold.",
+        "The pull stops before the sage releases the staff.",
+        "Exactly one Castor leads exactly one goat out on its own feet; there is no teleport or duplicate.",
+        "Exactly one Furia supports the goat and places all four hooves on visible solid ground, never on cloud.",
+        "Local overlays may calm the gate and fade cloud motion but may not alter character action or the locked glyph.",
+        "The output is exactly ten seconds, 1280x720, 24 fps and silent."
+      ],
+      "status": "blocked_pending_accepted_H02_final_frame"
+    }
+  ]
+}

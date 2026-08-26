@@ -1,0 +1,128 @@
+{
+  "version": "ep9-finale-wide-b01-b06-proposal-v1",
+  "authority": "proposal_only_do_not_submit",
+  "routing": "binding_post_calibration",
+  "spend": 0,
+  "centralManifestEdited": false,
+  "shots": [
+    {
+      "id": "B01",
+      "route": "local_motion",
+      "durationSeconds": 10,
+      "promptFile": "../prompts/B01.txt",
+      "promptSha256": "ae82deecc970c92d8b9bf7153c399f7bd3cf92636a47d094fed1aa206e29972b",
+      "startFrame": "../start_frames/B01.png",
+      "startFrameSha256": "e37792a6f0354276baea116f8be9c7a14c7183e51fd5f9d8213ddd04c5234d75",
+      "startFrameSource": "../../../ep8prod/stills/e8_s2_nest.png",
+      "provenance": "Accepted Episode 8 Cheel nest, locally center-cropped and resized to 1280x720 SAR 1:1.",
+      "visualInspection": "pass",
+      "acceptanceTests": [
+        "The sound-ripple reads as two moving wave lines, never a glowing object or letter.",
+        "Nest, clouds and mountains move at visibly different parallax rates.",
+        "Cheel remains offscreen and the final pulse exits toward the Gurukul direction."
+      ],
+      "status": "local_input_ready"
+    },
+    {
+      "id": "B02",
+      "route": "local_motion",
+      "durationSeconds": 8,
+      "promptFile": "../prompts/B02.txt",
+      "promptSha256": "43b0765b977db48fbec825b7fc84713fb005111af9b753438631071484b062ee",
+      "startFrameCandidate": "../start_frames/B02.png",
+      "startFrameCandidateSha256": "993e3fb05249d728440ef91f686d42a020d31780044197f0018bca55ff061628",
+      "startFrameSource": "../start_frames/B10_edit_attempt1.png",
+      "provenance": "Accepted empty cracked-gate plate, locally resized to 1280x720 SAR 1:1.",
+      "visualInspection": "candidate_rejected_as_final",
+      "blockedReason": "The reused plate contains the later single gold tether. Remove that tether locally before this pre-Rishi scene, then build the old bell and closed-chest inserts; no provider still is required.",
+      "acceptanceTests": [
+        "The pre-Rishi gate frame contains no tether, sage, dragon or goat.",
+        "Only one existing crack opens slightly; the gate does not become a portal.",
+        "The bell swings once and the single blank ring vibrates inside a still-closed chest."
+      ],
+      "status": "blocked_local_cleanup"
+    },
+    {
+      "id": "B03",
+      "route": "kling2_6",
+      "durationSeconds": 10,
+      "quoteCeilingCredits": 10,
+      "promptFile": "../prompts/B03.txt",
+      "promptSha256": "36a37cca8272d38cb34bbf6b90b8cf3e7da0792cd8c711be84e0a9d004cb25b4",
+      "startFrame": "../start_frames/B03.png",
+      "startFrameSha256": "34c3e39751c86dbeea0144c836912f391cd9665c9c80d378f103b357f5aa3b33",
+      "startFrameSource": "../references/A02_attempt2.png",
+      "provenance": "Accepted A02 arrival composition, locally center-cropped and resized to 1280x720 SAR 1:1.",
+      "newStillRequired": false,
+      "visualInspection": "pass",
+      "acceptanceTests": [
+        "Exactly seven figures persist: wingless Rishi, winged Dadi and five small children.",
+        "Rishi takes three measured steps down the existing cloud road and stops without flying.",
+        "Leda looks first; Dadi's smile fades; no body crosses or obscures another."
+      ],
+      "status": "paid_input_ready"
+    },
+    {
+      "id": "B04",
+      "route": "minimax_hailuo_2_3_fast",
+      "durationSeconds": 10,
+      "quoteCeilingCredits": 7,
+      "promptFile": "../prompts/B04.txt",
+      "promptSha256": "efe226e59a50ef8ad03194a28802f8fa52c28ad23d9e551c4dea749e99aa4cd3",
+      "startFrame": "../start_frames/B04.png",
+      "startFrameSha256": "993e3fb05249d728440ef91f686d42a020d31780044197f0018bca55ff061628",
+      "startFrameSource": "../start_frames/B10_edit_attempt1.png",
+      "provenance": "Accepted empty cracked-gate chronology plate reused as Rishi's offscreen staff-tether view, locally resized to 1280x720 SAR 1:1.",
+      "newStillRequired": false,
+      "visualInspection": "pass",
+      "acceptanceDependency": "Keep Rishi's bodily resistance in the adjacent/local reaction coverage; this Hailuo shot performs only the single empty gate-pull event.",
+      "acceptanceTests": [
+        "No character, creature or silhouette enters the generated shot.",
+        "One cloud moves a short distance toward the gate while the single tether tightens and quivers.",
+        "The central slab stays closed and the gate gains no new crack or redesign."
+      ],
+      "status": "paid_input_ready_with_editorial_dependency"
+    },
+    {
+      "id": "B05",
+      "route": "local_motion",
+      "durationSeconds": 8,
+      "promptFile": "../prompts/B05.txt",
+      "promptSha256": "db6c996704ffe5c9c0d1896631415291ce0f9bb296921ac77d35e5fb3a17f5f6",
+      "startFrame": "../start_frames/B05.png",
+      "startFrameSha256": "6959d9dc8017cdc6a4c8aef943ccc7ab83d31e7ee9b4b63b1a4d68b86cb4d292",
+      "startFrameSource": "../references/A05_attempt2.png",
+      "provenance": "Accepted five-giant bracelet plate, locally center-cropped and resized to 1280x720 SAR 1:1.",
+      "visualInspection": "pass",
+      "acceptanceTests": [
+        "Exactly five identities and five blank bracelets persist.",
+        "Two complete shared wingbeats create two outward dust responses.",
+        "The third beat begins with an upward camera tilt but ends before liftoff."
+      ],
+      "status": "local_input_ready"
+    },
+    {
+      "id": "B06",
+      "route": "veo3_1_lite_plus_local_tail",
+      "generatedDurationSeconds": 8,
+      "localTailSeconds": 2,
+      "finalDurationSeconds": 10,
+      "quoteCeilingCredits": 8,
+      "promptFile": "../prompts/B06.txt",
+      "promptSha256": "2065eea19926642630d5e755668906160f927a7678b6d1ffaf38e05f0ef8aeab",
+      "startFrame": "../start_frames/B06.png",
+      "startFrameSha256": "75512e833a88c05b2fe3cf15b50990dce7bed90824fa61f8d97e55703fbea36f",
+      "startFrameSource": "../start_frames/B07.png",
+      "provenance": "Accepted bracelet-correct five-dragon flight frame from the Veo calibration, retained at 1280x720 SAR 1:1.",
+      "newStillRequired": false,
+      "visualInspection": "pass",
+      "acceptanceDependency": "Use the final two seconds as a local geography tail that restores the courtyard, physical ba, low cloud and distant gate direction without asking Veo to occlude or cross the five bodies.",
+      "acceptanceTests": [
+        "Exactly five dragons remain fully visible, well separated and in fixed order for all eight generated seconds.",
+        "No dragon crosses, overtakes, enters a cloud or leaves frame.",
+        "All five retain one blank gold bracelet and visibly delighted, controlled flight."
+      ],
+      "status": "paid_input_ready_with_local_tail"
+    }
+  ]
+}

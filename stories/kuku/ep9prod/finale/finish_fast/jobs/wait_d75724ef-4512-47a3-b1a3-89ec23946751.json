@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-08-16T20:31:07.62855Z",
+  "display_name": "Seedance 2.5",
+  "id": "d75724ef-4512-47a3-b1a3-89ec23946751",
+  "job_type": "seedance_2_5",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "16:9",
+    "bitrate_mode": "standard",
+    "duration": 10,
+    "extension_mode": null,
+    "generate_audio": false,
+    "genre": "auto",
+    "height": 720,
+    "medias": [
+      {
+        "data": {
+          "id": "69c5a7e9-792e-4611-a281-c399df437fdf",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/69c5a7e9-792e-4611-a281-c399df437fdf.png"
+        },
+        "role": "start_image"
+      }
+    ],
+    "model": "default",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "One continuous stable side-on rescue action. Begin exactly from the supplied frame. The existing large gold Devanagari ब is a rigid three-dimensional rescue frame: it never bends, rotates, melts or changes shape. Gold Castor alone taps his bracelet and smoothly shrinks to child size, enters through the open inner channel, reaches the same frightened goat inside the hollow cloud pocket, then backs toward the lower support path while beckoning. The goat follows on its own feet and takes at least two visible steps. The other four dragons keep the frame steady and remain separate. Gentle push-in; preserve the exact geography and one bracelet per dragon. No teleport, duplicate, new character, new letter, text, fire, injury, cut, dialogue or native audio.\n\nTRANSFORMATION RULE: becoming large means becoming OLDER — grown-up dragon proportions, longer snout, sharper features, adult bearing — never a child's body inflated to a bigger size.\nRISHI RULE: Rishi is an elderly bald HUMAN sage, Gandhi-like, thin, robed, carrying a wooden staff, absolutely NO wings of any kind. He is not an angel and not a dragon.",
+    "prompt_language": "en",
+    "reference_elements": [],
+    "resolution": "720p",
+    "speedramp": "auto",
+    "width": 1280
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_203107_d75724ef-4512-47a3-b1a3-89ec23946751.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_203107_d75724ef-4512-47a3-b1a3-89ec23946751_thumbnail.webp"
+}

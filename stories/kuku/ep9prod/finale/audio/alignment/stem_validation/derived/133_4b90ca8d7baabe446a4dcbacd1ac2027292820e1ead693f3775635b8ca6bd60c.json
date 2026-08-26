@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 133,
+ "chunk_id": "chunk_010",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_be41c9ba6be6172513d1fe0e5ec5d9cc13dc04b3ab779b0462153692b485018b.mp3",
+ "source_sha256": "ead245b3df18bfb18a3fb2de7c4339c0beec8353234d7e0fbafe47c7b1f22147",
+ "source_start": 52.73465739233387,
+ "source_end": 56.89875980464702,
+ "expected_text": "बकरी का बच्चा अभी जमीन पर सुरक्षित है। तुम उसके पास रहो।",
+ "expected_text_sha256": "e4e524b380eef649ffc0d3ff1e6a1ad0bbebfbdc01cdd26f844a18a6e226c1b6",
+ "ctc_evidence_identity": "7182ecbb22d77f33e0746328ce474907ce27a4ea29975934919d38a75a348816",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/133_aac64247fc44b0d51e578fe5a0328e47c6ceae3ba70071e54a5f401357744756.whisper.json",
+ "raw_whisper_sha256": "386bc29acdb61c7e4dbaaf3ca8b17b39b3f9d55cc9dfe569b1c17e5f5b61e7a1",
+ "quality": {
+  "expected_words": 12,
+  "observed_words": 12,
+  "matched_words": 12,
+  "coverage": 1,
+  "observed_precision": 1,
+  "mean_similarity": 1,
+  "sequence_score": 1,
+  "average_token_probability": 0.9545804999999999,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 1
+ }
+}

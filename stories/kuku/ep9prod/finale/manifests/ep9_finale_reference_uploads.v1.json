@@ -1,0 +1,116 @@
+{
+  "version": "ep9-finale-reference-uploads-v1",
+  "note": "Compact local derivatives of canonical Kuku art. Uploads are reusable and do not consume generation credits.",
+  "items": [
+    {
+      "name": "child_kuku",
+      "path": "../references/upload_proxies/child_kuku.jpg",
+      "uploadId": "0e88d7f2-5917-4489-82b5-6ee1dca3e457"
+    },
+    {
+      "name": "child_furia",
+      "path": "../references/upload_proxies/child_furia.jpg",
+      "uploadId": "c5b4e44a-89c9-44a1-ac68-f9f15b07d694"
+    },
+    {
+      "name": "child_vesper",
+      "path": "../references/upload_proxies/child_vesper.jpg",
+      "uploadId": "68800970-f367-4b6d-9722-7611bea787c2"
+    },
+    {
+      "name": "child_castor",
+      "path": "../references/upload_proxies/child_castor.jpg",
+      "uploadId": "bd4abec7-2a49-45dd-bdb4-514eea1a5baf"
+    },
+    {
+      "name": "child_leda",
+      "path": "../references/upload_proxies/child_leda.jpg",
+      "uploadId": "654450e9-146a-4bc1-bc56-583df1b19ad4"
+    },
+    {
+      "name": "dadi",
+      "path": "../references/upload_proxies/dadi.jpg",
+      "uploadId": "2ebc94d6-9986-4138-a323-61d4378722f7"
+    },
+    {
+      "name": "courtyard",
+      "path": "../references/upload_proxies/courtyard.jpg",
+      "uploadId": "ae32bf47-24ce-4535-8b43-4c8198ca84d7"
+    },
+    {
+      "name": "rishi",
+      "path": "../references/upload_proxies/rishi.jpg",
+      "uploadId": "c071a4c6-37ac-48e2-9ed8-f64be44886b0"
+    },
+    {
+      "name": "future_kuku",
+      "path": "../references/upload_proxies/future_kuku.jpg",
+      "uploadId": "d1c9a23f-5956-4f95-8bad-7524c2ad1e5e"
+    },
+    {
+      "name": "future_fyuria",
+      "path": "../references/upload_proxies/future_fyuria.jpg",
+      "uploadId": "8d759571-9c9d-4fb2-b7ef-d08cc6f110ae"
+    },
+    {
+      "name": "future_vesper",
+      "path": "../references/upload_proxies/future_vesper.jpg",
+      "uploadId": "f78895fd-1b6d-4f6a-88d4-ff34b44e5293"
+    },
+    {
+      "name": "future_castor",
+      "path": "../references/upload_proxies/future_castor.jpg",
+      "uploadId": "337c3a8b-28d3-4b67-b8fa-ce7b034b683d"
+    },
+    {
+      "name": "future_leda",
+      "path": "../references/upload_proxies/future_leda.jpg",
+      "uploadId": "ae402373-46fd-4ffd-ad2c-8a22d354085e"
+    },
+    {
+      "name": "valley",
+      "path": "../references/upload_proxies/valley.jpg",
+      "uploadId": "c858a447-1641-441e-96b1-6a0831d5b869"
+    },
+    {
+      "name": "A04_anchor",
+      "path": "../references/upload_proxies/A04_anchor.jpg",
+      "uploadId": "00775594-e3f8-49d9-bdf5-1100995d6bd1"
+    },
+    {
+      "name": "A01_anchor",
+      "path": "../references/upload_proxies/A01_anchor.jpg",
+      "uploadId": "27580d75-0924-4632-a777-f6fb8c8b18f0"
+    },
+    {
+      "name": "A05_anchor",
+      "path": "../references/upload_proxies/A05_anchor.jpg",
+      "uploadId": "fc3eab8b-92b8-4bac-b24c-6166d2add5eb"
+    },
+    {
+      "name": "A07_anchor",
+      "path": "../references/upload_proxies/A07_anchor.jpg",
+      "uploadId": "26df9838-cb6f-4e0f-acb9-8c3aad4e5d4f"
+    },
+    {
+      "name": "A08_anchor",
+      "path": "../references/upload_proxies/A08_anchor.jpg",
+      "uploadId": "7f02a8c4-af1b-4fd0-aba1-6e3ba16d5b3c"
+    },
+    {
+      "name": "A09_attempt1",
+      "path": "../references/upload_proxies/A09_attempt1.jpg",
+      "uploadId": "0fd2f170-810a-445d-a16e-343cb7d11da2"
+    },
+    {
+      "name": "A10_attempt1",
+      "path": "../references/upload_proxies/A10_attempt1.jpg",
+      "uploadId": "8c4f5575-0647-438e-b544-93b6c71cfa18"
+    },
+    {
+      "name": "A10_local_repair",
+      "path": "../references/upload_proxies/A10_local_repair.jpg",
+      "uploadId": "73c246c1-b94f-4323-93c3-fc9fba29a887"
+    }
+  ]
+}

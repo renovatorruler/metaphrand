@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 306,
+ "chunk_id": "chunk_024",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_2f7afdacb8ccc9ec9f2b800e6434ed843927b769cf910397439ee92000bf94fe.mp3",
+ "source_sha256": "9309e2a481d27aa4fe3970444bbb59d3910a305842b0a7977a9ae6a434750e6a",
+ "source_start": 67.77539488320356,
+ "source_end": 69.8775083426029,
+ "expected_text": "लेडा, तुम खुद बड़ी हो गई हो!",
+ "expected_text_sha256": "9f043010860638c015407f90d0360614d05538406f061231b8abc909215d7ece",
+ "ctc_evidence_identity": "56e9600108c064432b67cbab24e4f1408b1a961f3472371b00f90d80d533fa37",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/306_10541511ee80d242205c0bf28a6c615729ef33224b47a15f619f445bfcde9124.whisper.json",
+ "raw_whisper_sha256": "bc36dfb17c371f580033ce594bcdeaab3f8e5e92334fcf46e55ef2ee201be3e3",
+ "quality": {
+  "expected_words": 7,
+  "observed_words": 7,
+  "matched_words": 7,
+  "coverage": 1,
+  "observed_precision": 1,
+  "mean_similarity": 1,
+  "sequence_score": 1,
+  "average_token_probability": 0.9249992857142857,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 1
+ }
+}

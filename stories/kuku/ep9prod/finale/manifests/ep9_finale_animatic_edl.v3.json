@@ -1,0 +1,2185 @@
+{
+ "version": "ep9-finale-animatic-edl-v3",
+ "project": "Kuku Episode 9 Season 1 Finale",
+ "sourceDocuments": {
+  "shootingScript": "../EP9_FINALE_SHOOTING_SCRIPT.md",
+  "paidShotManifest": "ep9_finale_paid_shots.v1.json",
+  "anchorManifest": "ep9_finale_anchor_stills.v1.json",
+  "audioPlan": "../audio/EP9_MAIN_STORY_AUDIO_PLAN.md",
+  "routeManifest": "ep9_finale_route.v2.json",
+  "derivedFrom": "ep9_finale_animatic_edl.v1.json"
+ },
+ "timeline": {
+  "start": "2:15",
+  "end": "14:15",
+  "durationSeconds": 720,
+  "fps": 24,
+  "master": "1280x720",
+  "lockedBeforeMain": [
+   {
+    "start": "0:00",
+    "end": "2:00",
+    "kind": "cold_open_reuse"
+   },
+   {
+    "start": "2:00",
+    "end": "2:15",
+    "kind": "title_reuse"
+   }
+  ]
+ },
+ "policy": {
+  "sourceClasses": [
+   "paid_shot",
+   "local_motion",
+   "two_point_five_d",
+   "reuse"
+  ],
+  "approvedAssetRoots": [
+   "../clips",
+   "../references",
+   "../local",
+   "../local_motion",
+   "../two_point_five_d",
+   "../../coldopen",
+   "../../../ep8prod"
+  ],
+  "dialogueTiming": "scene_chunk_only_unaligned",
+  "acceptedAssetPlaceholder": {
+   "path": "",
+   "sha256": ""
+  },
+  "generatedAudioOnPaidShots": false,
+  "routingAuthority": "ep9_finale_route.v2.json",
+  "routeIdField": "routeShotId",
+  "nonPaidBeatsOmitPaidShotId": true,
+  "splitRouteUseIds": [
+   "D01"
+  ],
+  "paidFinalBeyondAcquisitionIds": [
+   "B06"
+  ]
+ },
+ "sceneDialogueSources": [
+  {
+   "scene": 1,
+   "refs": [
+    "chunk_006"
+   ]
+  },
+  {
+   "scene": 2,
+   "refs": [
+    "chunk_007"
+   ]
+  },
+  {
+   "scene": 3,
+   "refs": [
+    "chunk_008",
+    "chunk_009"
+   ]
+  },
+  {
+   "scene": 4,
+   "refs": [
+    "chunk_010",
+    "chunk_011",
+    "chunk_012",
+    "chunk_013"
+   ]
+  },
+  {
+   "scene": 5,
+   "refs": [
+    "chunk_014"
+   ]
+  },
+  {
+   "scene": 6,
+   "refs": [
+    "chunk_015",
+    "chunk_016"
+   ]
+  },
+  {
+   "scene": 7,
+   "refs": [
+    "chunk_017"
+   ]
+  },
+  {
+   "scene": 8,
+   "refs": [
+    "chunk_019",
+    "chunk_020",
+    "chunk_021"
+   ]
+  },
+  {
+   "scene": 9,
+   "refs": [
+    "chunk_022",
+    "chunk_023"
+   ]
+  },
+  {
+   "scene": 10,
+   "refs": [
+    "chunk_024",
+    "chunk_025",
+    "chunk_026"
+   ]
+  }
+ ],
+ "beats": [
+  {
+   "id": "S01-B01",
+   "scene": 1,
+   "start": "2:15",
+   "end": "2:20",
+   "durationSeconds": 5,
+   "sourceClass": "paid_shot",
+   "paidShotId": "C01",
+   "scriptRef": "2:15–2:23",
+   "storyEvent": "चील बुझे काले टुकड़े दबाती है; पत्थरों के बीच सुनहरी ध्वनि-लहर काँपती है।",
+   "dialogueRefs": [
+    "chunk_006"
+   ],
+   "eventRefs": [
+    "S01"
+   ],
+   "anchorRefs": [],
+   "acceptedAssetPath": "../clips/C01.mp4",
+   "acceptedAssetSha256": "94a15d0ae9fcb00cb4d7297a5a7acc5e77dd01ad32e53cbfec763988a1228684",
+   "routeShotId": "C01"
+  },
+  {
+   "id": "S01-B02",
+   "scene": 1,
+   "start": "2:20",
+   "end": "2:26",
+   "durationSeconds": 6,
+   "sourceClass": "local_motion",
+   "scriptRef": "2:23–2:33",
+   "storyEvent": "गूँज पंजे से निकलकर घोंसले, बादलों और आकाश-सीमा को पार करती है।",
+   "dialogueRefs": [
+    "chunk_006"
+   ],
+   "eventRefs": [
+    "S02"
+   ],
+   "anchorRefs": [],
+   "acceptedAssetPath": "../clips/B01.mp4",
+   "acceptedAssetSha256": "c6f22d73f1331c9f545f7ab2ce9915d8001e541bb8520643e77b4a88740da8a9",
+   "routeShotId": "B01"
+  },
+  {
+   "id": "S01-B03",
+   "scene": 1,
+   "start": "2:26",
+   "end": "2:29",
+   "durationSeconds": 3,
+   "sourceClass": "local_motion",
+   "scriptRef": "2:33–2:41",
+   "storyEvent": "गूँज टूटे गुरुकुल-द्वार, पुरानी घंटी और खाली सुनहरे घेरे को जगाती है।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S03",
+    "S04"
+   ],
+   "anchorRefs": [],
+   "acceptedAssetPath": "../clips/B02.mp4",
+   "acceptedAssetSha256": "2f1ff6f34426f26e50c5a8842985c975190f9ab6efbc8580a9b4547660ccb072",
+   "routeShotId": "B02"
+  },
+  {
+   "id": "S01-B04",
+   "scene": 1,
+   "start": "2:29",
+   "end": "2:38",
+   "durationSeconds": 9,
+   "sourceClass": "two_point_five_d",
+   "scriptRef": "2:41–2:46",
+   "storyEvent": "ऋषि जागकर द्वार का खिंचाव देखते हैं, उठते हैं और छड़ी पकड़ते हैं।",
+   "dialogueRefs": [
+    "chunk_006"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S01-B05",
+   "scene": 1,
+   "start": "2:38",
+   "end": "2:41",
+   "durationSeconds": 3,
+   "sourceClass": "reuse",
+   "scriptRef": "2:46–2:50",
+   "storyEvent": "छड़ी की ठक से बादल-राह खुलती है; ऋषि चलते हैं और चील दूर से पीछा करती है।",
+   "dialogueRefs": [
+    "chunk_006"
+   ],
+   "eventRefs": [
+    "S05"
+   ],
+   "anchorRefs": [],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S02-B01",
+   "scene": 2,
+   "start": "2:41",
+   "end": "2:57",
+   "durationSeconds": 16,
+   "sourceClass": "paid_shot",
+   "paidShotId": "C02",
+   "scriptRef": "2:50–3:00",
+   "storyEvent": "पाँच छोटे ड्रैगन जमीन पर दौड़, पंख और सुरक्षित छोटी छलाँग का अभ्यास करते हैं।",
+   "dialogueRefs": [
+    "chunk_007"
+   ],
+   "eventRefs": [
+    "S07"
+   ],
+   "anchorRefs": [
+    "A01"
+   ],
+   "acceptedAssetPath": "../clips/C02.mp4",
+   "acceptedAssetSha256": "5ab3fa1525d371c1c1aba9ae69bfdcb65c84957d9b7730254bfbfe216acfdd58",
+   "routeShotId": "C02"
+  },
+  {
+   "id": "S02-B02",
+   "scene": 2,
+   "start": "2:57",
+   "end": "3:02",
+   "durationSeconds": 5,
+   "sourceClass": "local_motion",
+   "scriptRef": "3:00–3:08",
+   "storyEvent": "फ्यूरिया पहले दौड़ती है, छोटी छलाँग लगाती है और सुरक्षित उतरती है।",
+   "dialogueRefs": [
+    "chunk_007"
+   ],
+   "eventRefs": [
+    "S07"
+   ],
+   "anchorRefs": [
+    "A01"
+   ],
+   "acceptedAssetPath": "../clips/C03.mp4",
+   "acceptedAssetSha256": "89b62a6db2447b5e391aa373e231ea4d1717001fa47e71f0ec4ea604c8eb5135",
+   "routeShotId": "C03"
+  },
+  {
+   "id": "S02-B03",
+   "scene": 2,
+   "start": "3:02",
+   "end": "3:16",
+   "durationSeconds": 14,
+   "sourceClass": "local_motion",
+   "scriptRef": "3:08–3:14",
+   "storyEvent": "वैस्पर हवा देखता है; कैस्टर और लेडा चादर छोड़कर अभ्यास-पंक्ति चुनते हैं।",
+   "dialogueRefs": [
+    "chunk_007"
+   ],
+   "eventRefs": [
+    "S07"
+   ],
+   "anchorRefs": [
+    "A01"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S02-B04",
+   "scene": 2,
+   "start": "3:16",
+   "end": "3:24",
+   "durationSeconds": 8,
+   "sourceClass": "two_point_five_d",
+   "scriptRef": "3:14–3:22",
+   "storyEvent": "कालू, ठोस जमीन पर बकरी का बच्चा और नीचा बादल एक साफ़ geography में दिखते हैं।",
+   "dialogueRefs": [
+    "chunk_007"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A01"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S02-B05",
+   "scene": 2,
+   "start": "3:24",
+   "end": "3:31",
+   "durationSeconds": 7,
+   "sourceClass": "local_motion",
+   "scriptRef": "3:22–3:29",
+   "storyEvent": "कुकु पूरी ताक़त से दौड़कर हल्का उठता और घास पर सुरक्षित फिसलता है।",
+   "dialogueRefs": [
+    "chunk_007"
+   ],
+   "eventRefs": [
+    "S07"
+   ],
+   "anchorRefs": [
+    "A01"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S02-B06",
+   "scene": 2,
+   "start": "3:31",
+   "end": "3:35",
+   "durationSeconds": 4,
+   "sourceClass": "reuse",
+   "scriptRef": "3:29–3:32",
+   "storyEvent": "हवा उलटती है और मैदान पर लंबी आने वाली shadow फैलती है।",
+   "dialogueRefs": [],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A02"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S02-B07",
+   "scene": 2,
+   "start": "3:35",
+   "end": "3:39",
+   "durationSeconds": 4,
+   "sourceClass": "paid_shot",
+   "paidShotId": "B03",
+   "scriptRef": "3:32–3:40",
+   "storyEvent": "पंखहीन ऋषि सँकरी बादल-राह से उतरते हैं; दादी की मुस्कान गायब होती है।",
+   "dialogueRefs": [
+    "chunk_007"
+   ],
+   "eventRefs": [
+    "S05"
+   ],
+   "anchorRefs": [
+    "A02"
+   ],
+   "acceptedAssetPath": "../clips/B03.mp4",
+   "acceptedAssetSha256": "a5f134fa50b692a560f5cac46af1fde9dbb3e55ed32089b8527cb4f95ffe3877",
+   "routeShotId": "B03"
+  },
+  {
+   "id": "S03-B01",
+   "scene": 3,
+   "start": "3:39",
+   "end": "3:49",
+   "durationSeconds": 10,
+   "sourceClass": "paid_shot",
+   "paidShotId": "B04",
+   "scriptRef": "3:40–3:50",
+   "storyEvent": "टूटा द्वार बादल और ऋषि की छड़ी को खींचता है; ऋषि जमीन पकड़ते हैं।",
+   "dialogueRefs": [
+    "chunk_008",
+    "chunk_009"
+   ],
+   "eventRefs": [
+    "S03"
+   ],
+   "anchorRefs": [],
+   "acceptedAssetPath": "../clips/B04.mp4",
+   "acceptedAssetSha256": "5a74ad1e13ebe4f609ffca879689d43e21a1885ec33b0b8d6f8788078a51d9bc",
+   "routeShotId": "B04"
+  },
+  {
+   "id": "S03-B02",
+   "scene": 3,
+   "start": "3:49",
+   "end": "4:10",
+   "durationSeconds": 21,
+   "sourceClass": "paid_shot",
+   "paidShotId": "C05",
+   "scriptRef": "3:50–3:58",
+   "storyEvent": "दादी बच्चों और ऋषि के बीच आती हैं जबकि ऋषि छड़ी का भार सँभालते हैं।",
+   "dialogueRefs": [
+    "chunk_008",
+    "chunk_009"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [],
+   "acceptedAssetPath": "../clips/C05.mp4",
+   "acceptedAssetSha256": "ae3a0776bdd7ad134600e0c86d439d173e1b914f8ba0d1018106ec6e6827458f",
+   "routeShotId": "C05"
+  },
+  {
+   "id": "S03-B03",
+   "scene": 3,
+   "start": "4:10",
+   "end": "4:27",
+   "durationSeconds": 17,
+   "sourceClass": "two_point_five_d",
+   "scriptRef": "3:58–4:08",
+   "storyEvent": "दादी की वरदान-जवाबदेही के साथ आकाश, पंख-shadow और दूर चील दिखते हैं।",
+   "dialogueRefs": [
+    "chunk_008",
+    "chunk_009"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S03-B04",
+   "scene": 3,
+   "start": "4:27",
+   "end": "4:35",
+   "durationSeconds": 8,
+   "sourceClass": "local_motion",
+   "scriptRef": "4:08–4:18",
+   "storyEvent": "ऋषि जिम्मेदारी स्वीकार कर छड़ी गाड़ते हैं और भार छोटे शरीर तक उतरता है।",
+   "dialogueRefs": [
+    "chunk_008",
+    "chunk_009"
+   ],
+   "eventRefs": [
+    "S05"
+   ],
+   "anchorRefs": [],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S03-B05",
+   "scene": 3,
+   "start": "4:35",
+   "end": "4:46",
+   "durationSeconds": 11,
+   "sourceClass": "local_motion",
+   "scriptRef": "4:18–4:26",
+   "storyEvent": "छड़ी की तीन-धड़कन लय चलती है; बच्चे पंख मिलाते हैं और ऋषि पेटी खोलते हैं।",
+   "dialogueRefs": [
+    "chunk_008",
+    "chunk_009"
+   ],
+   "eventRefs": [
+    "S06"
+   ],
+   "anchorRefs": [],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S03-B06",
+   "scene": 3,
+   "start": "4:46",
+   "end": "4:50",
+   "durationSeconds": 4,
+   "sourceClass": "reuse",
+   "scriptRef": "4:26–4:33",
+   "storyEvent": "हर staff pulse पर द्वार थमता है; पेटी में खाली सुनहरा घेरा खुलता है।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S13",
+    "S14"
+   ],
+   "anchorRefs": [],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S03-B07",
+   "scene": 3,
+   "start": "4:50",
+   "end": "4:58",
+   "durationSeconds": 8,
+   "sourceClass": "paid_shot",
+   "paidShotId": "C04",
+   "scriptRef": "4:33–4:43",
+   "storyEvent": "कुकु अकेले घेरे की ओर हाथ बढ़ाकर चारों को देखता और हाथ वापस खींचता है।",
+   "dialogueRefs": [
+    "chunk_008",
+    "chunk_009"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A03"
+   ],
+   "acceptedAssetPath": "../clips/C04.mp4",
+   "acceptedAssetSha256": "96ced939866fa5439696276d64d693668063d32f824bfbe5a2dd4c0fcca786a1",
+   "routeShotId": "C04"
+  },
+  {
+   "id": "S03-B08",
+   "scene": 3,
+   "start": "4:58",
+   "end": "5:06",
+   "durationSeconds": 8,
+   "sourceClass": "local_motion",
+   "scriptRef": "4:43–4:53",
+   "storyEvent": "पाँच पंजे घेरे पर बराबर जगह लेते हैं और पाँच अलग waves निकलती हैं।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S02"
+   ],
+   "anchorRefs": [
+    "A03"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "C06"
+  },
+  {
+   "id": "S03-B09",
+   "scene": 3,
+   "start": "5:06",
+   "end": "5:13",
+   "durationSeconds": 7,
+   "sourceClass": "local_motion",
+   "scriptRef": "4:53–5:00",
+   "storyEvent": "घेरा चमकता पर नहीं खुलता; दादी कोशिश की सीमा तय करती हैं।",
+   "dialogueRefs": [
+    "chunk_008",
+    "chunk_009"
+   ],
+   "eventRefs": [
+    "S14"
+   ],
+   "anchorRefs": [
+    "A03"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S04-B01",
+   "scene": 4,
+   "start": "5:13",
+   "end": "5:18",
+   "durationSeconds": 5,
+   "sourceClass": "local_motion",
+   "scriptRef": "5:00–5:07",
+   "storyEvent": "कुकु अधूरी सुनहरी साँस छोड़ता है; रोशनी पंजे तक जाकर बुझती है।",
+   "dialogueRefs": [
+    "chunk_010",
+    "chunk_011",
+    "chunk_013"
+   ],
+   "eventRefs": [
+    "S17"
+   ],
+   "anchorRefs": [],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S04-B02",
+   "scene": 4,
+   "start": "5:18",
+   "end": "5:37",
+   "durationSeconds": 19,
+   "sourceClass": "two_point_five_d",
+   "scriptRef": "5:07–5:15",
+   "storyEvent": "छड़ी का खिंचाव बढ़ता है; बकरी जमीन पर रहती है और लेडा शब्द सुनती है।",
+   "dialogueRefs": [],
+   "eventRefs": [],
+   "anchorRefs": [],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S04-B03",
+   "scene": 4,
+   "start": "5:37",
+   "end": "5:50",
+   "durationSeconds": 13,
+   "sourceClass": "paid_shot",
+   "paidShotId": "C07",
+   "scriptRef": "5:15–5:23",
+   "storyEvent": "लेडा सबको रोककर बच्चा, बड़ा, बादल और बकरी में ब पहचानती है।",
+   "dialogueRefs": [
+    "chunk_010",
+    "chunk_011",
+    "chunk_013"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "C07"
+  },
+  {
+   "id": "S04-B04",
+   "scene": 4,
+   "start": "5:50",
+   "end": "6:00",
+   "durationSeconds": 10,
+   "sourceClass": "paid_shot",
+   "paidShotId": "C08",
+   "scriptRef": "5:23–5:33",
+   "storyEvent": "कैस्टर स्वयं पेटी में जाकर तंग मोड़ की छोटी कुंडी ढूँढता है।",
+   "dialogueRefs": [
+    "chunk_010",
+    "chunk_011",
+    "chunk_013"
+   ],
+   "eventRefs": [
+    "S13"
+   ],
+   "anchorRefs": [],
+   "acceptedAssetPath": "../clips/C08.mp4",
+   "acceptedAssetSha256": "2e63d959414e1840fb30e32ba1942d8b4366a974db3e0da55341f1f9a2431ac1",
+   "routeShotId": "C08"
+  },
+  {
+   "id": "S04-B05",
+   "scene": 4,
+   "start": "6:00",
+   "end": "6:02",
+   "durationSeconds": 2,
+   "sourceClass": "local_motion",
+   "scriptRef": "5:33–5:38",
+   "storyEvent": "एक घेरा पाँच बराबर, पूरी तरह खाली कड़ों में खुलता है।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S15"
+   ],
+   "anchorRefs": [
+    "A04"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "D01"
+  },
+  {
+   "id": "S04-B06",
+   "scene": 4,
+   "start": "6:02",
+   "end": "6:07",
+   "durationSeconds": 5,
+   "sourceClass": "local_motion",
+   "scriptRef": "5:38–5:46",
+   "storyEvent": "पाँच खाली कड़े बच्चों के सामने रुकते हैं; बच्चे उन्हें पहनते और गिनते हैं।",
+   "dialogueRefs": [
+    "chunk_010",
+    "chunk_011",
+    "chunk_013"
+   ],
+   "eventRefs": [
+    "S16"
+   ],
+   "anchorRefs": [
+    "A04"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S04-B07",
+   "scene": 4,
+   "start": "6:07",
+   "end": "6:21",
+   "durationSeconds": 14,
+   "sourceClass": "two_point_five_d",
+   "scriptRef": "5:46–5:54",
+   "storyEvent": "दादी मिट्टी पर सही देवनागरी ब का आकार पूरा करती हैं।",
+   "dialogueRefs": [
+    "chunk_010",
+    "chunk_011",
+    "chunk_013"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A04"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S04-B08",
+   "scene": 4,
+   "start": "6:21",
+   "end": "6:29",
+   "durationSeconds": 8,
+   "sourceClass": "local_motion",
+   "scriptRef": "5:54–6:02",
+   "storyEvent": "कुकु सही shape पर साँस छोड़कर पूरा मोटा सुनहरा ब खड़ा करता है।",
+   "dialogueRefs": [
+    "chunk_010",
+    "chunk_011",
+    "chunk_012",
+    "chunk_013"
+   ],
+   "eventRefs": [
+    "S17",
+    "S18"
+   ],
+   "anchorRefs": [
+    "A04"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "C09"
+  },
+  {
+   "id": "S04-B09",
+   "scene": 4,
+   "start": "6:29",
+   "end": "6:31",
+   "durationSeconds": 2,
+   "sourceClass": "local_motion",
+   "scriptRef": "6:02–6:05",
+   "storyEvent": "भौतिक ब बनने के बाद उसकी रोशनी पाँच खाली कड़ों में जाती है।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S19"
+   ],
+   "anchorRefs": [
+    "A04"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "D01"
+  },
+  {
+   "id": "S04-B10",
+   "scene": 4,
+   "start": "6:31",
+   "end": "6:37",
+   "durationSeconds": 6,
+   "sourceClass": "reuse",
+   "scriptRef": "6:05–6:10",
+   "storyEvent": "बड़ा भौतिक ब जमीन पर और चमकता कड़ा foreground में साथ दिखते हैं।",
+   "dialogueRefs": [
+    "chunk_010",
+    "chunk_011",
+    "chunk_013"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A04"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S05-B01",
+   "scene": 5,
+   "start": "6:37",
+   "end": "6:40",
+   "durationSeconds": 3,
+   "sourceClass": "local_motion",
+   "scriptRef": "6:10–6:20",
+   "storyEvent": "ब की रोशनी पाँच कड़ों में क्रम से जाती है; किसी एक का रूप पूरा होने से पहले पाँचों बदलने लगते हैं।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S19"
+   ],
+   "anchorRefs": [
+    "A05"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "C10"
+  },
+  {
+   "id": "S05-B02",
+   "scene": 5,
+   "start": "6:40",
+   "end": "6:45",
+   "durationSeconds": 5,
+   "sourceClass": "paid_shot",
+   "paidShotId": "D02",
+   "scriptRef": "6:20–6:28",
+   "storyEvent": "एक जुड़ी wave पाँचों के परिचित शरीरों को एक ही वक्त बढ़ाती है; कोई अकेला पूरा giant नहीं होता।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S20"
+   ],
+   "anchorRefs": [
+    "A05"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "D02"
+  },
+  {
+   "id": "S05-B03",
+   "scene": 5,
+   "start": "6:45",
+   "end": "6:59",
+   "durationSeconds": 14,
+   "sourceClass": "local_motion",
+   "scriptRef": "6:28–6:36",
+   "storyEvent": "पाँचों के overlapping अधूरे रूपों में फ्यूरिया, वैस्पर, कैस्टर और लेडा की अलग control problems दिखती हैं।",
+   "dialogueRefs": [
+    "chunk_014"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A05"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S05-B04",
+   "scene": 5,
+   "start": "6:59",
+   "end": "7:10",
+   "durationSeconds": 11,
+   "sourceClass": "paid_shot",
+   "paidShotId": "D03",
+   "scriptRef": "6:36–6:44",
+   "storyEvent": "कुकु पहली उड़ान रोकता है; लहर घेरा पूरा करती है और पाँचों रूप एक साझी थाप पर एक साथ पूरे होते हैं।",
+   "dialogueRefs": [
+    "chunk_014"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A05"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "D03"
+  },
+  {
+   "id": "S05-B05",
+   "scene": 5,
+   "start": "7:10",
+   "end": "7:18",
+   "durationSeconds": 8,
+   "sourceClass": "two_point_five_d",
+   "scriptRef": "6:44–6:52",
+   "storyEvent": "घर, पेड़, चट्टान और ब के सामने पाँच विशाल शरीरों का scale reveal होता है।",
+   "dialogueRefs": [],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A05"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S05-B06",
+   "scene": 5,
+   "start": "7:18",
+   "end": "7:23",
+   "durationSeconds": 5,
+   "sourceClass": "local_motion",
+   "scriptRef": "6:52–7:00",
+   "storyEvent": "तीन साझा पंख-थाप धूल हटाती, शरीर हल्के करती और camera उठाती हैं।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S08"
+   ],
+   "anchorRefs": [
+    "A05"
+   ],
+   "acceptedAssetPath": "../clips/B05.mp4",
+   "acceptedAssetSha256": "abad48ae972365ee03a443addb9ea0a508cf894bb98b18978683b122e2b40b5b",
+   "routeShotId": "B05"
+  },
+  {
+   "id": "S05-B07",
+   "scene": 5,
+   "start": "7:23",
+   "end": "7:27",
+   "durationSeconds": 4,
+   "sourceClass": "paid_shot",
+   "paidShotId": "H01",
+   "scriptRef": "7:00–7:08",
+   "storyEvent": "पाँचों पूर्ण विशाल रूप season-payoff में जमीन से साफ़ lift लेते हैं।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S08",
+    "S09"
+   ],
+   "anchorRefs": [
+    "A05"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "H01"
+  },
+  {
+   "id": "S05-B08",
+   "scene": 5,
+   "start": "7:27",
+   "end": "7:29",
+   "durationSeconds": 2,
+   "sourceClass": "reuse",
+   "scriptRef": "7:08–7:15",
+   "storyEvent": "H01 का overhead tail नीचे बने ब और उठती पाँच shadows दिखाता है।",
+   "dialogueRefs": [
+    "chunk_014"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A05"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S06-B01",
+   "scene": 6,
+   "start": "7:29",
+   "end": "7:35",
+   "durationSeconds": 6,
+   "sourceClass": "reuse",
+   "scriptRef": "7:15–7:20",
+   "storyEvent": "छड़ी की सुनहरी लय और पाँच पंख match होकर सही formation बनाते हैं।",
+   "dialogueRefs": [
+    "chunk_015",
+    "chunk_016"
+   ],
+   "eventRefs": [
+    "S06",
+    "S08"
+   ],
+   "anchorRefs": [
+    "A06"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S06-B02",
+   "scene": 6,
+   "start": "7:35",
+   "end": "7:38",
+   "durationSeconds": 3,
+   "sourceClass": "paid_shot",
+   "paidShotId": "B06",
+   "scriptRef": "7:20–7:30",
+   "storyEvent": "पाँचों घाटी के ऊपर उड़ते हैं और आँगन, ब, बादल व द्वार की geography खुलती है।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S08"
+   ],
+   "anchorRefs": [
+    "A06"
+   ],
+   "acceptedAssetPath": "../clips/B06.mp4",
+   "acceptedAssetSha256": "493b05c45009017985cd71dd0e1d6635168b41c5172a8e6bf98a8c9cf4e71561",
+   "routeShotId": "B06"
+  },
+  {
+   "id": "S06-B03",
+   "scene": 6,
+   "start": "7:38",
+   "end": "7:43",
+   "durationSeconds": 5,
+   "sourceClass": "local_motion",
+   "scriptRef": "7:30–7:38",
+   "storyEvent": "फ्यूरिया तेज़ घेरा बनाकर formation में अपनी जगह लौटती है।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S09"
+   ],
+   "anchorRefs": [
+    "A06"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "B08"
+  },
+  {
+   "id": "S06-B04",
+   "scene": 6,
+   "start": "7:43",
+   "end": "7:45",
+   "durationSeconds": 2,
+   "sourceClass": "reuse",
+   "scriptRef": "7:38–7:43",
+   "storyEvent": "फ्यूरिया का closer return खुशी और control दिखाता है।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S09"
+   ],
+   "anchorRefs": [
+    "A06"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "C11"
+  },
+  {
+   "id": "S06-B05",
+   "scene": 6,
+   "start": "7:45",
+   "end": "7:51",
+   "durationSeconds": 6,
+   "sourceClass": "paid_shot",
+   "paidShotId": "B07",
+   "scriptRef": "7:43–7:51",
+   "storyEvent": "पाँचों वैस्पर की चुनी शांत हवा में बादल के भीतर से गुजरते हैं।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S10"
+   ],
+   "anchorRefs": [
+    "A06"
+   ],
+   "acceptedAssetPath": "../clips/B07.mp4",
+   "acceptedAssetSha256": "10a070a2966b7e7b69a2c0bfb18d45c2337ee274e8ea5448e7380e8a33327e2d",
+   "routeShotId": "B07"
+  },
+  {
+   "id": "S06-B06",
+   "scene": 6,
+   "start": "7:51",
+   "end": "7:56",
+   "durationSeconds": 5,
+   "sourceClass": "local_motion",
+   "scriptRef": "7:51–7:57",
+   "storyEvent": "कैस्टर धुंध के छेद के लिए छोटा होकर दूसरी ओर फिर बड़ा होता है।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S21",
+    "S22"
+   ],
+   "anchorRefs": [
+    "A06"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S06-B07",
+   "scene": 6,
+   "start": "7:56",
+   "end": "8:03",
+   "durationSeconds": 7,
+   "sourceClass": "local_motion",
+   "scriptRef": "7:57–8:02",
+   "storyEvent": "लेडा नीचे बकरी और कालू को सुरक्षित जमीन पर देखती है।",
+   "dialogueRefs": [],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A06"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S06-B08",
+   "scene": 6,
+   "start": "8:03",
+   "end": "8:07",
+   "durationSeconds": 4,
+   "sourceClass": "two_point_five_d",
+   "scriptRef": "8:02–8:05",
+   "storyEvent": "कुकु formation में मुड़ता है और पहला पूरा lap दिखता है।",
+   "dialogueRefs": [
+    "chunk_015",
+    "chunk_016"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A06"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S06-B09",
+   "scene": 6,
+   "start": "8:07",
+   "end": "8:17",
+   "durationSeconds": 10,
+   "sourceClass": "two_point_five_d",
+   "scriptRef": "8:05–8:10",
+   "storyEvent": "ऋषि केवल कुकु को credit देते हैं; कुकु group को दूसरे चक्कर में मोड़ता है।",
+   "dialogueRefs": [
+    "chunk_015",
+    "chunk_016"
+   ],
+   "eventRefs": [
+    "S06",
+    "S08"
+   ],
+   "anchorRefs": [
+    "A06"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S06-B10",
+   "scene": 6,
+   "start": "8:17",
+   "end": "8:27",
+   "durationSeconds": 10,
+   "sourceClass": "reuse",
+   "scriptRef": "8:10–8:14",
+   "storyEvent": "पंखों की गति छड़ी की लय से आगे जाती है।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S08"
+   ],
+   "anchorRefs": [
+    "A06"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "B09"
+  },
+  {
+   "id": "S06-B11",
+   "scene": 6,
+   "start": "8:27",
+   "end": "8:31",
+   "durationSeconds": 4,
+   "sourceClass": "local_motion",
+   "scriptRef": "8:14–8:17",
+   "storyEvent": "लेडा धीमी staff pulse और तेज़ wing pulse एक frame में देखती है।",
+   "dialogueRefs": [
+    "chunk_015",
+    "chunk_016"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A06"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "C12"
+  },
+  {
+   "id": "S06-B12",
+   "scene": 6,
+   "start": "8:31",
+   "end": "8:35",
+   "durationSeconds": 4,
+   "sourceClass": "reuse",
+   "scriptRef": "8:17–8:21",
+   "storyEvent": "पाँच असंगत wing rhythms एक-दूसरे को तोड़ती हैं।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S08"
+   ],
+   "anchorRefs": [
+    "A06"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "D04"
+  },
+  {
+   "id": "S06-B13",
+   "scene": 6,
+   "start": "8:35",
+   "end": "8:38",
+   "durationSeconds": 3,
+   "sourceClass": "paid_shot",
+   "paidShotId": "B10",
+   "scriptRef": "8:21–8:29",
+   "storyEvent": "गलत हवा द्वार की पुरानी दरार बढ़ाकर सुनहरी पकड़ तोड़ती है।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S12"
+   ],
+   "anchorRefs": [
+    "A06",
+    "A07"
+   ],
+   "acceptedAssetPath": "../clips/B10.mp4",
+   "acceptedAssetSha256": "f7307cc014b40bb2d62c5657b17f491912f42e8253af8fef9a20759150d10f5b",
+   "routeShotId": "B10"
+  },
+  {
+   "id": "S06-B14",
+   "scene": 6,
+   "start": "8:38",
+   "end": "8:51",
+   "durationSeconds": 13,
+   "sourceClass": "paid_shot",
+   "paidShotId": "B11",
+   "scriptRef": "8:29–8:35",
+   "storyEvent": "द्वार की लहर बादल बहाकर बकरी को ठोस जमीन से उठाती है।",
+   "dialogueRefs": [
+    "chunk_015",
+    "chunk_016"
+   ],
+   "eventRefs": [
+    "S11"
+   ],
+   "anchorRefs": [
+    "A07"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "B11"
+  },
+  {
+   "id": "S07-B01",
+   "scene": 7,
+   "start": "8:51",
+   "end": "8:59",
+   "durationSeconds": 8,
+   "sourceClass": "paid_shot",
+   "paidShotId": "B12",
+   "scriptRef": "8:35–8:43",
+   "storyEvent": "ऋषि cloud-road पर दौड़कर छड़ी द्वार में फँसाते हैं; पहला orbit पूरा होता है।",
+   "dialogueRefs": [
+    "chunk_017"
+   ],
+   "eventRefs": [
+    "S05",
+    "S06"
+   ],
+   "anchorRefs": [
+    "A07"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "B12"
+  },
+  {
+   "id": "S07-B02",
+   "scene": 7,
+   "start": "8:59",
+   "end": "9:03",
+   "durationSeconds": 4,
+   "sourceClass": "paid_shot",
+   "paidShotId": "B13",
+   "scriptRef": "8:43–8:53",
+   "storyEvent": "फ्यूरिया की तेज़ wake बादल घुमाकर घंटी को भीतर खिसकाती है।",
+   "dialogueRefs": [
+    "chunk_017"
+   ],
+   "eventRefs": [
+    "S09",
+    "S11"
+   ],
+   "anchorRefs": [
+    "A07"
+   ],
+   "acceptedAssetPath": "../clips/B13.mp4",
+   "acceptedAssetSha256": "8ec671201cbd612e8193c925a1bc894f87cec6102b1e6ec78abf439661e230af",
+   "routeShotId": "B13"
+  },
+  {
+   "id": "S07-B03",
+   "scene": 7,
+   "start": "9:03",
+   "end": "9:08",
+   "durationSeconds": 5,
+   "sourceClass": "paid_shot",
+   "paidShotId": "C13",
+   "scriptRef": "8:53–9:01",
+   "storyEvent": "फ्यूरिया घूमते cloud को नियंत्रित करने की कोशिश करती है।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S11"
+   ],
+   "anchorRefs": [
+    "A07"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "C13"
+  },
+  {
+   "id": "S07-B04",
+   "scene": 7,
+   "start": "9:08",
+   "end": "9:15",
+   "durationSeconds": 7,
+   "sourceClass": "paid_shot",
+   "paidShotId": "C14",
+   "scriptRef": "9:01–9:11",
+   "storyEvent": "कुकु विशाल ब का केवल एक सिरा अकेले उठाता है।",
+   "dialogueRefs": [
+    "chunk_017"
+   ],
+   "eventRefs": [
+    "S23"
+   ],
+   "anchorRefs": [
+    "A07"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "C14"
+  },
+  {
+   "id": "S07-B05",
+   "scene": 7,
+   "start": "9:15",
+   "end": "9:26",
+   "durationSeconds": 11,
+   "sourceClass": "local_motion",
+   "scriptRef": "9:11–9:19",
+   "storyEvent": "वैस्पर को तीन competing हवा-path एक साथ दिखते हैं।",
+   "dialogueRefs": [
+    "chunk_017"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A07"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S07-B06",
+   "scene": 7,
+   "start": "9:26",
+   "end": "9:33",
+   "durationSeconds": 7,
+   "sourceClass": "local_motion",
+   "scriptRef": "9:19–9:27",
+   "storyEvent": "कैस्टर crack में छोटा होकर जाता, फिर बढ़कर रास्ता बंद कर देता है।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S21",
+    "S22"
+   ],
+   "anchorRefs": [
+    "A07"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S07-B07",
+   "scene": 7,
+   "start": "9:33",
+   "end": "9:39",
+   "durationSeconds": 6,
+   "sourceClass": "two_point_five_d",
+   "scriptRef": "9:27–9:35",
+   "storyEvent": "लेडा की पहली warning शोर में दबती है जबकि cloud pocket खुलती है।",
+   "dialogueRefs": [
+    "chunk_017"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A07"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S07-B08",
+   "scene": 7,
+   "start": "9:39",
+   "end": "9:43",
+   "durationSeconds": 4,
+   "sourceClass": "paid_shot",
+   "paidShotId": "C15",
+   "scriptRef": "9:35–9:43",
+   "storyEvent": "लेडा साझा eye-line में आकर पंख फैलाती और सबकी उड़ान रोकती है।",
+   "dialogueRefs": [
+    "chunk_017"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A07"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "C15"
+  },
+  {
+   "id": "S07-B09",
+   "scene": 7,
+   "start": "9:43",
+   "end": "9:54",
+   "durationSeconds": 11,
+   "sourceClass": "reuse",
+   "scriptRef": "9:43–9:45",
+   "storyEvent": "घंटी cloud surface पर नहीं, भीतर की सुरक्षित हवा में दिखती है।",
+   "dialogueRefs": [],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A07"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S08-B01",
+   "scene": 8,
+   "start": "9:54",
+   "end": "9:59",
+   "durationSeconds": 5,
+   "sourceClass": "local_motion",
+   "scriptRef": "9:45–9:51",
+   "storyEvent": "कुकु नया ब बनाने से रुककर पुराने बड़े ब की ओर देखता है।",
+   "dialogueRefs": [
+    "chunk_019",
+    "chunk_020",
+    "chunk_021"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A08",
+    "A09"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S08-B02",
+   "scene": 8,
+   "start": "9:59",
+   "end": "10:10",
+   "durationSeconds": 11,
+   "sourceClass": "local_motion",
+   "scriptRef": "9:51–9:59",
+   "storyEvent": "कुकु एक सिरा पकड़कर ब पर चार साफ़ पकड़-जगहें छोड़ता है।",
+   "dialogueRefs": [
+    "chunk_019",
+    "chunk_020",
+    "chunk_021"
+   ],
+   "eventRefs": [
+    "S23"
+   ],
+   "anchorRefs": [
+    "A09"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "D05"
+  },
+  {
+   "id": "S08-B03",
+   "scene": 8,
+   "start": "10:10",
+   "end": "10:18",
+   "durationSeconds": 8,
+   "sourceClass": "two_point_five_d",
+   "scriptRef": "9:59–10:07",
+   "storyEvent": "लेडा अपने पंजों के frame से ब का रास्ता और cloud pocket align करती है।",
+   "dialogueRefs": [
+    "chunk_019",
+    "chunk_020",
+    "chunk_021"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A09"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S08-B04",
+   "scene": 8,
+   "start": "10:18",
+   "end": "10:24",
+   "durationSeconds": 6,
+   "sourceClass": "local_motion",
+   "scriptRef": "10:07–10:15",
+   "storyEvent": "वैस्पर सीधी हवा छोड़कर एक शांत घूमता path चुनता है।",
+   "dialogueRefs": [
+    "chunk_019",
+    "chunk_020",
+    "chunk_021"
+   ],
+   "eventRefs": [
+    "S10"
+   ],
+   "anchorRefs": [
+    "A09"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "B14"
+  },
+  {
+   "id": "S08-B05",
+   "scene": 8,
+   "start": "10:24",
+   "end": "10:36",
+   "durationSeconds": 12,
+   "sourceClass": "local_motion",
+   "scriptRef": "10:15–10:23",
+   "storyEvent": "फ्यूरिया स्थिर भार लेती है और कैस्टर cloud crack की जिम्मेदारी चुनता है।",
+   "dialogueRefs": [
+    "chunk_019",
+    "chunk_020",
+    "chunk_021"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A09"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S08-B06",
+   "scene": 8,
+   "start": "10:36",
+   "end": "10:40",
+   "durationSeconds": 4,
+   "sourceClass": "paid_shot",
+   "paidShotId": "D06",
+   "scriptRef": "10:23–10:31",
+   "storyEvent": "लेडा की tap पाँच जिम्मेदार actions को rescue chain में जोड़ती है।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S23",
+    "S08"
+   ],
+   "anchorRefs": [
+    "A09"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "D06"
+  },
+  {
+   "id": "S08-B07",
+   "scene": 8,
+   "start": "10:40",
+   "end": "10:48",
+   "durationSeconds": 8,
+   "sourceClass": "local_motion",
+   "scriptRef": "10:31–10:41",
+   "storyEvent": "पाँचों सही पूरे shape वाले विशाल ब को cloud तक ले जाते हैं।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S23"
+   ],
+   "anchorRefs": [
+    "A09"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "B15"
+  },
+  {
+   "id": "S08-B08",
+   "scene": 8,
+   "start": "10:48",
+   "end": "10:54",
+   "durationSeconds": 6,
+   "sourceClass": "paid_shot",
+   "paidShotId": "C16",
+   "scriptRef": "10:41–10:51",
+   "storyEvent": "कैस्टर छोटा होकर cloud crack से goat तक जाता और उसे ब tunnel में ले चलता है।",
+   "dialogueRefs": [
+    "chunk_019",
+    "chunk_020",
+    "chunk_021"
+   ],
+   "eventRefs": [
+    "S21"
+   ],
+   "anchorRefs": [
+    "A09"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "C16"
+  },
+  {
+   "id": "S08-B09",
+   "scene": 8,
+   "start": "10:54",
+   "end": "11:00",
+   "durationSeconds": 6,
+   "sourceClass": "reuse",
+   "scriptRef": "10:51–10:59",
+   "storyEvent": "ब के depth crop में goat मोटी रेखा पर और कैस्टर support में सुरक्षित हैं।",
+   "dialogueRefs": [
+    "chunk_019",
+    "chunk_020",
+    "chunk_021"
+   ],
+   "eventRefs": [
+    "S22"
+   ],
+   "anchorRefs": [
+    "A09"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S08-B10",
+   "scene": 8,
+   "start": "11:00",
+   "end": "11:06",
+   "durationSeconds": 6,
+   "sourceClass": "local_motion",
+   "scriptRef": "10:59–11:07",
+   "storyEvent": "लेडा की दूसरी tap पर फ्यूरिया आगे बढ़ती और बाकी shape rigid रखते हैं।",
+   "dialogueRefs": [
+    "chunk_019",
+    "chunk_020",
+    "chunk_021"
+   ],
+   "eventRefs": [
+    "S23"
+   ],
+   "anchorRefs": [
+    "A09"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S08-B11",
+   "scene": 8,
+   "start": "11:06",
+   "end": "11:11",
+   "durationSeconds": 5,
+   "sourceClass": "two_point_five_d",
+   "scriptRef": "11:07–11:15",
+   "storyEvent": "दूसरी orbit बुझती, तीसरी जलती और gate जोर से काँपता है।",
+   "dialogueRefs": [
+    "chunk_019",
+    "chunk_020",
+    "chunk_021"
+   ],
+   "eventRefs": [
+    "S11"
+   ],
+   "anchorRefs": [
+    "A08",
+    "A09"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S08-B12",
+   "scene": 8,
+   "start": "11:11",
+   "end": "11:18",
+   "durationSeconds": 7,
+   "sourceClass": "local_motion",
+   "scriptRef": "11:15–11:25",
+   "storyEvent": "वैस्पर एक चुने path पर रहता है और पाँच rigs उसी curve पर बढ़ते हैं।",
+   "dialogueRefs": [
+    "chunk_019",
+    "chunk_020",
+    "chunk_021"
+   ],
+   "eventRefs": [
+    "S10"
+   ],
+   "anchorRefs": [
+    "A09"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S08-B13",
+   "scene": 8,
+   "start": "11:18",
+   "end": "11:30",
+   "durationSeconds": 12,
+   "sourceClass": "two_point_five_d",
+   "scriptRef": "11:25–11:35",
+   "storyEvent": "टीम ब को सीधा घुमाकर gate gap से align करती है; goat orientation सुरक्षित रहती है।",
+   "dialogueRefs": [
+    "chunk_019",
+    "chunk_020",
+    "chunk_021"
+   ],
+   "eventRefs": [
+    "S23"
+   ],
+   "anchorRefs": [
+    "A08",
+    "A09"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S08-B14",
+   "scene": 8,
+   "start": "11:30",
+   "end": "11:45",
+   "durationSeconds": 15,
+   "sourceClass": "paid_shot",
+   "paidShotId": "H02",
+   "scriptRef": "11:35–11:43",
+   "storyEvent": "सही देवनागरी ब missing gate section में बैठकर स्थायी lock बनता है।",
+   "dialogueRefs": [
+    "chunk_019",
+    "chunk_020",
+    "chunk_021"
+   ],
+   "eventRefs": [
+    "S24"
+   ],
+   "anchorRefs": [
+    "A08"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "H02"
+  },
+  {
+   "id": "S08-B15",
+   "scene": 8,
+   "start": "11:45",
+   "end": "11:52",
+   "durationSeconds": 7,
+   "sourceClass": "paid_shot",
+   "paidShotId": "B16",
+   "scriptRef": "11:43–11:53",
+   "storyEvent": "Gate pull शांत होता है; कैस्टर goat लाता और फ्यूरिया जमीन पर उतारती है।",
+   "dialogueRefs": [
+    "chunk_019",
+    "chunk_020",
+    "chunk_021"
+   ],
+   "eventRefs": [
+    "S11"
+   ],
+   "anchorRefs": [
+    "A08",
+    "A09"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "B16"
+  },
+  {
+   "id": "S08-B16",
+   "scene": 8,
+   "start": "11:52",
+   "end": "11:54",
+   "durationSeconds": 2,
+   "sourceClass": "reuse",
+   "scriptRef": "11:53–11:55",
+   "storyEvent": "Goat की घंटी, कालू की खुशी और repaired gate एक साफ़ wide में मिलते हैं।",
+   "dialogueRefs": [],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A08",
+    "A09"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S09-B01",
+   "scene": 9,
+   "start": "11:54",
+   "end": "11:58",
+   "durationSeconds": 4,
+   "sourceClass": "local_motion",
+   "scriptRef": "11:55–12:01",
+   "storyEvent": "पाँचों independently कड़े छूकर छोटे रूप चुनते हैं।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S20"
+   ],
+   "anchorRefs": [
+    "A10"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S09-B02",
+   "scene": 9,
+   "start": "11:58",
+   "end": "12:09",
+   "durationSeconds": 11,
+   "sourceClass": "reuse",
+   "scriptRef": "12:01–12:07",
+   "storyEvent": "Goat माँ की ओर दौड़ता है जबकि कुकु अपनी गलती मानता है।",
+   "dialogueRefs": [
+    "chunk_022",
+    "chunk_023"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A10"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S09-B03",
+   "scene": 9,
+   "start": "12:09",
+   "end": "12:21",
+   "durationSeconds": 12,
+   "sourceClass": "two_point_five_d",
+   "scriptRef": "12:07–12:15",
+   "storyEvent": "कुकु solo invitation ठुकराकर bracelet वाली कलाई और चार बराबर साथी दिखाता है।",
+   "dialogueRefs": [
+    "chunk_022",
+    "chunk_023"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A10"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S09-B04",
+   "scene": 9,
+   "start": "12:21",
+   "end": "12:30",
+   "durationSeconds": 9,
+   "sourceClass": "local_motion",
+   "scriptRef": "12:15–12:21",
+   "storyEvent": "ऋषि मिट्टी पर पाँच बराबर नाम-mark बनाते हैं।",
+   "dialogueRefs": [
+    "chunk_022",
+    "chunk_023"
+   ],
+   "eventRefs": [
+    "S02"
+   ],
+   "anchorRefs": [
+    "A10"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S09-B05",
+   "scene": 9,
+   "start": "12:30",
+   "end": "12:38",
+   "durationSeconds": 8,
+   "sourceClass": "two_point_five_d",
+   "scriptRef": "12:21–12:27",
+   "storyEvent": "लेडा दादी की अनुमति के बिना संकेत देने से रुकती है।",
+   "dialogueRefs": [
+    "chunk_022",
+    "chunk_023"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A10"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S09-B06",
+   "scene": 9,
+   "start": "12:38",
+   "end": "12:48",
+   "durationSeconds": 10,
+   "sourceClass": "local_motion",
+   "scriptRef": "12:27–12:35",
+   "storyEvent": "सुनहरी डोरी repaired gate से घर तक बँधती है; ऋषि route खोलकर पार जाते हैं।",
+   "dialogueRefs": [
+    "chunk_022",
+    "chunk_023"
+   ],
+   "eventRefs": [
+    "S25"
+   ],
+   "anchorRefs": [
+    "A10"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "C17"
+  },
+  {
+   "id": "S09-B07",
+   "scene": 9,
+   "start": "12:48",
+   "end": "12:55",
+   "durationSeconds": 7,
+   "sourceClass": "local_motion",
+   "scriptRef": "12:35–12:41",
+   "storyEvent": "Route दूसरी ओर से खुलता है और दादी स्वयं डोरी खींचकर reverse path देखती हैं।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S25"
+   ],
+   "anchorRefs": [
+    "A10"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S09-B08",
+   "scene": 9,
+   "start": "12:55",
+   "end": "13:01",
+   "durationSeconds": 6,
+   "sourceClass": "reuse",
+   "scriptRef": "12:41–12:45",
+   "storyEvent": "दादी डोरी का tension दो बार जाँचकर पाँचों को अनुमति देती हैं।",
+   "dialogueRefs": [
+    "chunk_022",
+    "chunk_023"
+   ],
+   "eventRefs": [
+    "S25"
+   ],
+   "anchorRefs": [
+    "A10"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S10-B01",
+   "scene": 10,
+   "start": "13:01",
+   "end": "13:16",
+   "durationSeconds": 15,
+   "sourceClass": "reuse",
+   "scriptRef": "12:45–12:55",
+   "storyEvent": "बच्चा, बादल और बकरी cards moving recap में bracelets और repaired gate के साथ आते हैं।",
+   "dialogueRefs": [
+    "chunk_024",
+    "chunk_026"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A10"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S10-B02",
+   "scene": 10,
+   "start": "13:16",
+   "end": "13:24",
+   "durationSeconds": 8,
+   "sourceClass": "paid_shot",
+   "paidShotId": "C18",
+   "scriptRef": "12:55–13:03",
+   "storyEvent": "लेडा अकेले कड़ा जगाकर विशाल रूप लेती है; बाकी चार छोटे रहते हैं।",
+   "dialogueRefs": [
+    "chunk_024",
+    "chunk_026"
+   ],
+   "eventRefs": [
+    "S20"
+   ],
+   "anchorRefs": [
+    "A11"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "C18"
+  },
+  {
+   "id": "S10-B03",
+   "scene": 10,
+   "start": "13:24",
+   "end": "13:36",
+   "durationSeconds": 12,
+   "sourceClass": "paid_shot",
+   "paidShotId": "D07",
+   "scriptRef": "13:03–13:11",
+   "storyEvent": "फ्यूरिया, वैस्पर, कैस्टर और कुकु independently activate होकर five-member formation बनाते हैं।",
+   "dialogueRefs": [
+    "chunk_024",
+    "chunk_026"
+   ],
+   "eventRefs": [
+    "S20"
+   ],
+   "anchorRefs": [
+    "A11"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "D07"
+  },
+  {
+   "id": "S10-B04",
+   "scene": 10,
+   "start": "13:36",
+   "end": "13:44",
+   "durationSeconds": 8,
+   "sourceClass": "local_motion",
+   "scriptRef": "13:11–13:19",
+   "storyEvent": "कालू दादी के पास रहता है; तानसेन ब की नकल करता और लेडा group मोड़ती है।",
+   "dialogueRefs": [
+    "chunk_024",
+    "chunk_025",
+    "chunk_026"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A11"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S10-B05",
+   "scene": 10,
+   "start": "13:44",
+   "end": "13:48",
+   "durationSeconds": 4,
+   "sourceClass": "paid_shot",
+   "paidShotId": "B17",
+   "scriptRef": "13:19–13:27",
+   "storyEvent": "पाँचों repaired gate पार उड़ते हैं; ऋषि cloud-road पर चलते और घर की डोरी पीछे रहती है।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S08",
+    "S05"
+   ],
+   "anchorRefs": [
+    "A12"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "B17"
+  },
+  {
+   "id": "S10-B06",
+   "scene": 10,
+   "start": "13:48",
+   "end": "13:51",
+   "durationSeconds": 3,
+   "sourceClass": "paid_shot",
+   "paidShotId": "B18",
+   "scriptRef": "13:27–13:37",
+   "storyEvent": "बादल हटकर विशाल Gurukul और पाँच जलते landing circles खोलते हैं।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S02",
+    "S04",
+    "S19"
+   ],
+   "anchorRefs": [
+    "A12"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": "",
+   "routeShotId": "B18"
+  },
+  {
+   "id": "S10-B07",
+   "scene": 10,
+   "start": "13:51",
+   "end": "13:59",
+   "durationSeconds": 8,
+   "sourceClass": "two_point_five_d",
+   "scriptRef": "13:37–13:45",
+   "storyEvent": "पहले सीखे अक्षर, bracelets का ब और कई dark future slots एक move में दिखते हैं।",
+   "dialogueRefs": [
+    "chunk_024",
+    "chunk_026"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A12"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S10-B08",
+   "scene": 10,
+   "start": "13:59",
+   "end": "14:02",
+   "durationSeconds": 3,
+   "sourceClass": "local_motion",
+   "scriptRef": "13:45–13:55",
+   "storyEvent": "पाँच विशाल बच्चे अलग landing circles पर उतरकर ऊपर देखते हैं।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S08"
+   ],
+   "anchorRefs": [
+    "A12"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S10-B09",
+   "scene": 10,
+   "start": "14:02",
+   "end": "14:07",
+   "durationSeconds": 5,
+   "sourceClass": "two_point_five_d",
+   "scriptRef": "13:55–14:05",
+   "storyEvent": "बुझा training ring जागकर पूरा उलटता और light path बच्चों तक दौड़ाता है।",
+   "dialogueRefs": [],
+   "eventRefs": [
+    "S03",
+    "S14"
+   ],
+   "anchorRefs": [
+    "A12"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S10-B10",
+   "scene": 10,
+   "start": "14:07",
+   "end": "14:11",
+   "durationSeconds": 4,
+   "sourceClass": "reuse",
+   "scriptRef": "14:05–14:11",
+   "storyEvent": "पाँच reaction crops खुशी, हल्का डर और अभ्यास की इच्छा दिखाते हैं।",
+   "dialogueRefs": [
+    "chunk_024",
+    "chunk_026"
+   ],
+   "eventRefs": [],
+   "anchorRefs": [
+    "A12"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  },
+  {
+   "id": "S10-B11",
+   "scene": 10,
+   "start": "14:11",
+   "end": "14:15",
+   "durationSeconds": 4,
+   "sourceClass": "local_motion",
+   "scriptRef": "14:11–14:15",
+   "storyEvent": "ऋषि छड़ी उठाकर पहला अभ्यास शुरू करते हैं; dash पर hard cut होता है।",
+   "dialogueRefs": [
+    "chunk_024",
+    "chunk_026"
+   ],
+   "eventRefs": [
+    "S05"
+   ],
+   "anchorRefs": [
+    "A12"
+   ],
+   "acceptedAssetPath": "",
+   "acceptedAssetSha256": ""
+  }
+ ],
+ "sourceTotals": {
+  "paid_shot": 242,
+  "local_motion": 275,
+  "two_point_five_d": 121,
+  "reuse": 82,
+  "converted_from_paid": 128,
+  "paid_acquisition": 266
+ },
+ "retimeNote": "v3 (2026-08-18): beat durations resized so each beat fully contains its anchored dialogue (ceil(speech+1.4s); silent floor 2s; remaining time distributed by v2 pacing weights; total exactly 720s). Rule: a shot never ends before its dialogue."
+}

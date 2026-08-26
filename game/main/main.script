@@ -1,0 +1,285 @@
+-- ENGINE GLUE ONLY. Episode content is GENERATED into episode1.lua by
+-- studio/src/Drakosha_GameEp1.res. Never author game content here.
+local episode = require("main.episode1")
+local strokes = require("main.strokes")
+
+-- The letter is a path the child ACTIVATES. Each stroke is laid down as a line
+-- of dim beads. Keep a finger anywhere near the live stroke and the beads light
+-- up and thicken from the start of the stroke onward, following the finger. Stay
+-- near the path and it fills; wander off and it simply waits. There is no score,
+-- no attempt, no judgement at the end of a stroke — the only state is how far
+-- along the path he has got, and that never goes backwards. He can lift his
+-- finger, come back, and carry on from where he stopped.
+--
+-- When a stroke fills it stays lit and the next stroke's start bead begins to
+-- pulse. When every stroke is lit the whole letter ignites.
+
+local TRACE_W, TRACE_H = 230, 300
+
+local CORRIDOR  = 44      -- px from the path that still counts as "on it"
+local START_R   = 52      -- the finger must arrive here first, at the pulsing bead
+local LOOKAHEAD = 0.22    -- how far ahead of the live point the finger may grab
+local COMPLETE  = 0.94    -- filling this much of a stroke finishes it
+local STEP      = 4       -- px between beads
+
+local DIM_SCALE, LIT_SCALE = 0.26, 0.42
+local DIM_TINT   = vmath.vector4(0.16, 0.19, 0.36, 0.80)   -- dark, engraved
+local LIT_TINT   = vmath.vector4(1.00, 1.00, 1.00, 1.00)   -- activated
+local START_TINT = vmath.vector4(0.95, 0.55, 0.30, 1.00)   -- where to begin
+local Z_PATH = 0.30
+
+local PULSE = 0.55        -- seconds per breath of the start bead
+
+local S = { beads = {}, si = 1, progress = 0 }
+
+local function say(text) label.set_text("/statuslabel#label", text) end
+local function word_line(text) label.set_text("/wordlabel#label", text) end
+
+local function spells_only(beats)
+  local out = {}
+  for _, b in ipairs(beats) do if b.kind == "spell" then out[#out+1] = b end end
+  return out
+end
+
+local function tile_pos(i, n)
+  local spacing = 190
+  local x0 = 640 - spacing * (n - 1) / 2
+  return vmath.vector3(x0 + spacing * (i - 1), 360, 0.2)
+end
+
+local function to_screen(u, v)
+  local c = tile_pos(S.letter_index, #S.spell.word)
+  return c.x - TRACE_W/2 + u * TRACE_W, c.y + TRACE_H/2 - v * TRACE_H
+end
+
+local function set_bead(b, scale, colour)
+  go.set_scale(scale, b.id)
+  go.set(msg.url(nil, b.id, "sprite"), "tint", colour)
+end
+
+-- ---- laying the path down ----------------------------------------------
+
+local function clear_path()
+  S.cue = nil                     -- never leave the pulser pointing at a dead bead
+  for _, stroke in ipairs(S.beads) do
+    for _, b in ipairs(stroke) do go.delete(b.id) end
+  end
+  S.beads = {}
+end
+
+-- One stroke becomes a list of beads evenly spaced in SCREEN space, each
+-- carrying how far along the stroke it sits (0..1). Screen space is what the
+-- finger travels through, so that is what the corridor is measured in.
+local function lay_stroke(poly)
+  local pts, px, py = {}, nil, nil
+  for k = 1, #poly do
+    local x, y = to_screen(poly[k][1], poly[k][2])
+    if px then
+      local dx, dy = x - px, y - py
+      local n = math.max(1, math.floor(math.sqrt(dx*dx + dy*dy) / STEP))
+      for i = 1, n do
+        local t = i / n
+        pts[#pts+1] = {x = px + dx*t, y = py + dy*t}
+      end
+    else
+      pts[#pts+1] = {x = x, y = y}
+    end
+    px, py = x, y
+  end
+  local total = 0
+  for i = 2, #pts do
+    local dx, dy = pts[i].x - pts[i-1].x, pts[i].y - pts[i-1].y
+    total = total + math.sqrt(dx*dx + dy*dy)
+  end
+  local run = 0
+  local beads = {}
+  for i, p in ipairs(pts) do
+    if i > 1 then
+      local dx, dy = p.x - pts[i-1].x, p.y - pts[i-1].y
+      run = run + math.sqrt(dx*dx + dy*dy)
+    end
+    local id = factory.create("#dotfactory", vmath.vector3(p.x, p.y, Z_PATH), nil, {}, DIM_SCALE)
+    go.set(msg.url(nil, id, "sprite"), "tint", DIM_TINT)
+    beads[#beads+1] = {id = id, x = p.x, y = p.y, s = (total > 0) and (run/total) or 1}
+  end
+  return beads
+end
+
+local function lay_letter(letter)
+  clear_path()
+  for i, poly in ipairs(strokes.letters[letter]) do
+    S.beads[i] = lay_stroke(poly)
+  end
+end
+
+-- ---- activation ---------------------------------------------------------
+
+local function light_up_to(stroke, progress)
+  for _, b in ipairs(stroke) do
+    if b.s <= progress and not b.lit then
+      b.lit = true
+      set_bead(b, LIT_SCALE, LIT_TINT)
+    end
+  end
+end
+
+local function light_whole(stroke)
+  for _, b in ipairs(stroke) do
+    b.lit = true
+    set_bead(b, LIT_SCALE, LIT_TINT)
+  end
+end
+
+local function show_start_cue()
+  local stroke = S.beads[S.si]
+  if stroke and stroke[1] and not stroke[1].lit then
+    set_bead(stroke[1], LIT_SCALE, START_TINT)
+    S.cue, S.cue_t = stroke[1], 0
+  else
+    S.cue = nil
+  end
+end
+
+local function ignite_letter()
+  for _, stroke in ipairs(S.beads) do light_whole(stroke) end
+end
+
+-- ---- the episode --------------------------------------------------------
+
+local function layout()
+  local n = #S.spell.word
+  for i = 1, 3 do
+    local id = "/tile" .. (i - 1)
+    if i <= n then
+      msg.post(id, "enable")
+      go.set_position(tile_pos(i, n), id)
+      go.set_scale(i == S.letter_index and 1.4 or 0.7, id)
+    else
+      msg.post(id, "disable")
+    end
+  end
+  local w = {}
+  for i, ch in ipairs(S.spell.word) do
+    w[i] = (i <= S.letter_index) and ch or "_"   -- the font has no middle dot
+  end
+  word_line(table.concat(w, " "))
+end
+
+local function begin_letter()
+  local letter = S.spell.word[S.letter_index]
+  S.si, S.progress, S.busy, S.armed = 1, 0, false, false
+  layout()
+  lay_letter(letter)
+  show_start_cue()
+  say("Write:  " .. letter)
+end
+
+local function start_spell(sp)
+  S.spell, S.letter_index, S.done = sp, 1, false
+  msg.post("/cat", "disable")
+  msg.post("/mama", "disable")
+  msg.post("/vasya", "enable")
+  begin_letter()
+end
+
+function S.next_spell()
+  S.spell_i = (S.spell_i or 0) + 1
+  local list = spells_only(episode.beats)
+  if S.spell_i > #list then
+    clear_path()
+    word_line("")
+    say("Chapter complete - well done!")
+    S.spell = nil
+    return
+  end
+  start_spell(list[S.spell_i])
+end
+
+local function advance_letter()
+  S.letter_index = S.letter_index + 1
+  if S.letter_index > #S.spell.word then
+    S.done = true
+    clear_path()
+    word_line(table.concat(S.spell.word, " "))
+    say("")
+    msg.post("/vasya", "disable")
+    local r = S.spell.reveal
+    if r == "REVEAL-KOT_author" then msg.post("/cat", "enable")
+    elseif r == "REVEAL-MAMA_author" then msg.post("/mama", "enable") end
+    timer.delay(2.8, false, function() S.next_spell() end)
+  else
+    begin_letter()
+  end
+end
+
+local function finish_stroke()
+  light_whole(S.beads[S.si])
+  S.si, S.progress, S.armed = S.si + 1, 0, false
+  if S.si > #S.beads then
+    S.busy = true                  -- lit; ignore the finger until the letter advances
+    S.cue = nil
+    ignite_letter()
+    timer.delay(0.7, false, advance_letter)
+  else
+    show_start_cue()
+  end
+end
+
+-- Pull the live stroke forward to the furthest bead the finger is touching,
+-- searching only a little way ahead so a finger resting elsewhere on the letter
+-- cannot skip the middle.
+local function follow(x, y)
+  local stroke = S.beads[S.si]
+  if not stroke then return end
+  -- Every stroke begins at its pulsing bead. Until the finger has been there,
+  -- nothing lights: a wrong shape that happens to run alongside the path can't
+  -- collect half a letter and then stall, which is the confusing part.
+  if not S.armed then
+    local dx, dy = x - stroke[1].x, y - stroke[1].y
+    if dx*dx + dy*dy > START_R*START_R then return end
+    S.armed = true
+  end
+  local best, limit = S.progress, S.progress + LOOKAHEAD
+  local r2 = CORRIDOR * CORRIDOR
+  for _, b in ipairs(stroke) do
+    if b.s > best and b.s <= limit then
+      local dx, dy = x - b.x, y - b.y
+      if dx*dx + dy*dy <= r2 then best = b.s end
+    end
+  end
+  if best <= S.progress then return end
+  S.progress = best
+  S.cue = nil
+  light_up_to(stroke, S.progress)
+  if S.progress >= COMPLETE then finish_stroke() end
+end
+
+function init(self)
+  msg.post(".", "acquire_input_focus")
+  msg.post("/cat", "disable")
+  msg.post("/mama", "disable")
+  label.set_text("/letterlabel#label", "")
+  S.next_spell()
+end
+
+function update(self, dt)
+  if not S.cue then return end
+  S.cue_t = (S.cue_t or 0) + dt
+  local k = 0.5 + 0.5 * math.sin(S.cue_t * (2*math.pi) / PULSE)
+  go.set_scale(DIM_SCALE + (LIT_SCALE - DIM_SCALE) * k, S.cue.id)
+end
+
+function on_input(self, action_id, action)
+  if not S.spell or S.done or S.busy then return end
+
+  if action_id == hash("erase") and action.pressed then
+    begin_letter()                                  -- start this letter over
+    return
+  end
+
+  if action_id == hash("touch") or action_id == hash("multitouch") then
+    local x, y = action.x, action.y
+    if action.touch and action.touch[1] then x, y = action.touch[1].x, action.touch[1].y end
+    follow(x, y)
+  end
+end

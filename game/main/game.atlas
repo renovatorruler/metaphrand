@@ -1,0 +1,24 @@
+images {
+  image: "/assets/images/mama.png"
+}
+images {
+  image: "/assets/images/dot.png"
+}
+images {
+  image: "/assets/images/mat.png"
+}
+images {
+  image: "/assets/images/tile.png"
+}
+images {
+  image: "/assets/images/tile_lit.png"
+}
+images {
+  image: "/assets/images/cat.png"
+}
+images {
+  image: "/assets/images/vasya.png"
+}
+margin: 2
+extrude_borders: 2
+inner_padding: 0

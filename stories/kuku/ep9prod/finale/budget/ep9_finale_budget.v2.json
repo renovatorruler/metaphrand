@@ -1,0 +1,138 @@
+{
+  "version": "2.0",
+  "project": "Kuku Episode 9 Season 1 Finale",
+  "authority": "Post-calibration hybrid route",
+  "approval": {
+    "approvedByUser": true,
+    "approvedAt": "2026-08-14",
+    "operatingCeiling": 899,
+    "lockedEmergencyReserve": 201,
+    "absoluteCap": 1100,
+    "reservePolicy": "The locked reserve may be released only for a named story-critical hole in an assembled cut. Remaining reserve is not permission to generate optional variants."
+  },
+  "strategy": {
+    "calibrationLockedAtActualCredits": 80,
+    "expectedCompletionCredits": 486,
+    "revisedRouteMaximumCredits": 769,
+    "headroomBeforeOperatingCeiling": 130,
+    "paidAcquisitionSeconds": 266,
+    "paidFinalUsageSeconds": 242,
+    "localOrReuseConversionSeconds": 128,
+    "totalMotionCoverageSeconds": 370,
+    "rule": "Preserve the 370-second motion design while buying only the movement that benefits from provider generation."
+  },
+  "classes": [
+    {
+      "id": "A_STILLS",
+      "purpose": "Accepted continuity anchors plus only the remaining start frames and local-animation layers",
+      "firstTakeCredits": 65,
+      "retryCredits": 37,
+      "maximumCredits": 102,
+      "currentActualCredits": 40,
+      "remainingExpectedCredits": 25,
+      "policy": "Prefer one-credit support images. No target receives a third paid attempt."
+    },
+    {
+      "id": "B_WIDE_ENVIRONMENT",
+      "purpose": "Selected wide flight, structural physics, cloud and environment motion",
+      "firstTakeCredits": 104,
+      "retryCredits": 74,
+      "maximumCredits": 178,
+      "currentActualCredits": 30,
+      "remainingExpectedCredits": 74,
+      "paidAcquisitionSeconds": 104,
+      "plans": [
+        {"model": "minimax_hailuo", "variant": "minimax-2.3-fast", "targetCount": 5, "durationSeconds": 10, "quoteGate": 7},
+        {"model": "veo3_1_lite", "targetCount": 3, "durationSeconds": 8, "quoteGate": 8},
+        {"model": "kling2_6", "targetCount": 3, "durationSeconds": 10, "quoteGate": 10}
+      ]
+    },
+    {
+      "id": "C_SIMPLE_CHARACTER",
+      "purpose": "Selected character performances; exact diagrams, short inserts and the C03 hop stay local",
+      "firstTakeCredits": 110,
+      "retryCredits": 100,
+      "maximumCredits": 210,
+      "currentActualCredits": 10,
+      "remainingExpectedCredits": 100,
+      "paidAcquisitionSeconds": 110,
+      "plans": [
+        {"model": "kling2_6", "targetCount": 11, "durationSeconds": 10, "quoteGate": 10}
+      ],
+      "policy": "No remaining Seedance submission. C03 is a binding zero-credit local fallback."
+    },
+    {
+      "id": "D_COMPLEX_GROUP",
+      "purpose": "Only the group beats whose performance benefits from multireference generation",
+      "firstTakeCredits": 68,
+      "retryCredits": 20,
+      "maximumCredits": 88,
+      "currentActualCredits": 0,
+      "remainingExpectedCredits": 68,
+      "paidAcquisitionSeconds": 36,
+      "plans": [
+        {"model": "gemini_omni", "targetCount": 2, "durationSeconds": 8, "quoteGate": 24, "directPaidRetryAllowed": false},
+        {"model": "kling2_6", "targetCount": 2, "durationSeconds": 10, "quoteGate": 10}
+      ]
+    },
+    {
+      "id": "E_CINEMA_HERO",
+      "purpose": "Season-payoff lift-off and the permanent Devanagari B gate lock",
+      "firstTakeCredits": 104,
+      "retryCredits": 52,
+      "maximumCredits": 156,
+      "currentActualCredits": 0,
+      "remainingExpectedCredits": 104,
+      "paidAcquisitionSeconds": 16,
+      "plans": [
+        {"model": "cinematic_studio_video_4_0", "targetCount": 2, "durationSeconds": 8, "quoteGate": 52}
+      ],
+      "policy": "One shared Cinema retry across H01 and H02. A third Cinema submission stays locked until an assembled cut proves a named story-critical hole."
+    },
+    {
+      "id": "F_AUDIO",
+      "purpose": "Finale score cues and signature sound effects after picture lock",
+      "firstTakeCredits": 35,
+      "retryCredits": 0,
+      "maximumCredits": 35,
+      "currentActualCredits": 0,
+      "remainingExpectedCredits": 35,
+      "plans": [
+        {"model": "sonilo_music", "durationSeconds": 120, "targetCount": 3, "quoteGate": 7.5},
+        {"model": "sonilo_music", "durationSeconds": 60, "targetCount": 2, "quoteGate": 3.75},
+        {"model": "seed_audio", "targetCount": 25, "quoteGate": 0.2}
+      ]
+    }
+  ],
+  "totals": {
+    "plannedFirstTakeMotionSeconds": 266,
+    "paidFinalUsageSeconds": 242,
+    "localOrReuseConversionSeconds": 128,
+    "totalMotionCoverageSeconds": 370,
+    "expectedCompletionCredits": 486,
+    "revisedRouteMaximumCredits": 769,
+    "maximumOperatingCredits": 899,
+    "lockedEmergencyReserve": 201,
+    "absoluteCap": 1100
+  },
+  "automaticStops": [
+    {"atActualSpend": 500, "action": "Assemble the complete rough cut before opening any unused retry pool."},
+    {"atActualSpend": 650, "action": "Permit retries only for missing causal or emotional information, not visual polish."},
+    {"atActualSpend": 750, "action": "Audit accepted yield and convert every noncritical gap to local motion or reuse."},
+    {"atActualSpend": 769, "action": "Stop the revised route. Crossing this line requires a named failure visible in the assembled cut and an updated budget authority."},
+    {"atActualSpend": 899, "action": "Stop all submissions and review an assembled cut before considering reserve release."},
+    {"atActualSpend": 1000, "action": "Disable Cinema and Gemini. Permit only one named critical fixer at a time."},
+    {"atActualSpend": 1100, "action": "Absolute stop. No further provider submission is permitted."}
+  ],
+  "globalRules": [
+    "Price the exact final payload immediately before every submission.",
+    "Disable generated audio on every video model.",
+    "Never submit a third attempt for the same target.",
+    "Make no remaining Seedance submission for this episode.",
+    "Hailuo receives only one-effect prompts.",
+    "Veo receives no character crossing, disappearance, cloud occlusion, or portal occlusion.",
+    "Gemini receives one submission per target; rejection means local fallback.",
+    "An accepted clip with a locally fixable glyph, timing, background, or audio defect must not be rerendered.",
+    "Before submission, actual spend plus the quoted job plus all unspent mandatory obligations must remain at or below the operating ceiling."
+  ]
+}

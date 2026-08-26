@@ -1,0 +1,12 @@
+{
+ "dialogue_stem": "../stories/kuku/ep9prod/coldopen/audio/out/EP9_COLD_OPEN_DIALOGUE_STEM_fe2c4dd1de01.wav",
+ "music_sfx_stem": "../stories/kuku/ep9prod/coldopen/audio/out/EP9_COLD_OPEN_MUSIC_SFX_STEM_daaf29ef6ee4.wav",
+ "audio": "../stories/kuku/ep9prod/coldopen/audio/out/EP9_COLD_OPEN_FULL_MIX_71e8692ed8ec.wav",
+ "audio_sha256": "4a9422686815bb56d51292c85ca73cb827dd7a59888e4490abcdbbf3049f6621",
+ "picture_preview": "../stories/kuku/ep9prod/coldopen/out/KUKU_EP9_COLD_OPEN_FULL_AUDIO_PREVIEW_71e8692ed8ec.mp4",
+ "picture_preview_sha256": "65a3506dbfef447bf00e70f212099d6b7feed35b1154af0575e7f23d5c00f0b4",
+ "mix_config": "approved-dialogue-plus-score-sfx|amix-raw|limiter-0.72|stereo-44100-aac192|video-copy-v2",
+ "audio_duration_seconds": 120,
+ "video_duration_seconds": 120,
+ "status": "full audio review mix; locked picture copied without re-encoding"
+}

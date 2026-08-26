@@ -6,7 +6,7 @@ Audit date 2026-08-06. Law: every object described in the screenplay gets a refe
 
 CHARACTERS (the approved packet, 2026-08-06): Фрося, Вася, Мама, Папа, Яга домовой form, Яга human flight form, the 1:16 transformation pair, Яга-in-ступа flight canon, ступа prop sheet, Руся+Муся pose library (5 poses, approved scales), family lineup + scale authority. Costume props visible ON the locked sheets are covered with them: Фрося's safety pin + purse + pencil-behind-ear + hair flower; Вася's shoelace belt + pouch; Папа's iron key + suspenders; Яга's помело + kerchiefs both forms.
 
-OBJECTS with existing approved candidates (ep1prod/scene1/references/): the red RC car (`G-EP1-RCCAR-01`), drawer side interior, the dresser passage anchor, the sock-drag composite (includes the striped sock look), мама+папа canon receipts from job 10.
+OBJECTS with existing approved candidates (ep1prod/scene1/references/): the red RC car (`G-EP1-RCCAR-01`), drawer side interior, the dresser passage anchor, and the sock-drag composite (includes the striped sock look). Character authority comes only from the approved character packet; the former job10 мама/папа receipts were erroneous and are retired.
 
 ## NEEDED — grouped into generation batches, in production order
 

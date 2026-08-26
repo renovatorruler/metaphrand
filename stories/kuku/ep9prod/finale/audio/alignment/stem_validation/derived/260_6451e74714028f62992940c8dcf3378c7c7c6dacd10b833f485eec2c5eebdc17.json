@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 260,
+ "chunk_id": "chunk_020",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_cd04b945bef50c7117c4596aaa793d95720066f0c5a5c2f09dcea4eb01899a22.mp3",
+ "source_sha256": "db9c37e6bb6bf082f91559d5a964663d72e959bfbdea1be67f6a4b261c463fa1",
+ "source_start": 98.8654855923159,
+ "source_end": 103.71043756670224,
+ "expected_text": "अब आगे बढ़ो। थोड़ा और आगे बढ़ो। अब रुक जाओ।",
+ "expected_text_sha256": "8ede58b1bc2a7e81aee0a8f48f49bb76ceda1a509db882e36b2f25a4985a5527",
+ "ctc_evidence_identity": "8c23d1f877173b5b9fbf469e2f021ef22c142d841aa9f424d7d70c64b3ef54fa",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/260_ab9bc05a31626950c064c2a2e803a61cf64dc664472fe20a87ff920032e4933e.whisper.json",
+ "raw_whisper_sha256": "694cf2f140caffebad6fd652f5baac71a31e6fd9dd69ff6484afd2614ec9d4bc",
+ "quality": {
+  "expected_words": 10,
+  "observed_words": 10,
+  "matched_words": 9,
+  "coverage": 0.9,
+  "observed_precision": 0.9,
+  "mean_similarity": 1,
+  "sequence_score": 0.9666666666666667,
+  "average_token_probability": 0.9624165555555556,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 0.9416666666666667
+ }
+}

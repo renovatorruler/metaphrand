@@ -1,0 +1,66 @@
+{
+ "audio": "../stories/kuku/ep9prod/coldopen/audio/out/EP9_COLD_OPEN_FUTURE_PERFORMANCE_PREVIEW_f2c77ff619a1.mp3",
+ "audio_sha256": "1327066adba59a12ee644e5bb53111834b30ce34288d45cdb90f6376a03ced70",
+ "request_fingerprint": "bf538de2df4e142d8cee476d4fd9165c1f94131441dbb46c31fd3c73b120121d",
+ "take_set_fingerprint": "f2c77ff619a1a95bf7eb2ef3e4b507e5d1da9e713a8de0abd278c4e4b6219cd1",
+ "mix_config": "concat-mono-mp3-96k-gap900ms-v1",
+ "duration_seconds": 21.12,
+ "status": "locked child cast; preview checks future-battle performance and timing, not casting",
+ "takes": [
+  {
+   "line_id": "L02",
+   "character": "भविष्य की फ्यूरिया",
+   "performer": "Tarini",
+   "voice_id": "FFmp1h1BMl0iVHA0JxrI",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L02_2ebdf5b3db66dbb221c21f6a4679025dfedcebc49fe6bd81c098d230be2475b0.mp3",
+   "sha256": "6bff2f3e44e79bc813222ccbff9f0fd0d0d87d4dbe7199b52afac96e52e7ff47",
+   "duration_seconds": 3.12,
+   "available_seconds": 5.3,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L06",
+   "character": "भविष्य का वैस्पर",
+   "performer": "Mahira J",
+   "voice_id": "subIZc6skATBQ1Rbqpi7",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L06_d9f00fd738fab997332962d4c2a45bb324bfa2c36112d1d12a552626f40f9700.mp3",
+   "sha256": "3575b7baaf4075edb1769f884fd4591a72fc2c8af496a6e83c23f1f2a39813a1",
+   "duration_seconds": 3.36,
+   "available_seconds": 6,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L08",
+   "character": "भविष्य की लेडा",
+   "performer": "Mini",
+   "voice_id": "nUX4UWK0Tf1qh5zvFZWR",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L08_62cfb2330193649f60ab69eb6251c936771e6730dd797c62ca7e979f8124220b.mp3",
+   "sha256": "b004729e56e0983e6c096264efb52a71defd85f4d7b05ca81817638d9b28b044",
+   "duration_seconds": 5.12,
+   "available_seconds": 5.6,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L09",
+   "character": "भविष्य का कैस्टर",
+   "performer": "Bittu",
+   "voice_id": "4iqKdEXMW8NRF8USiS3Q",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L09_0f1af50c19d3c6cd3897207ea77e857925b8b351006ee49d43dcee8ce2c93aa4.mp3",
+   "sha256": "8b478571d22b92eae8b6386be39a6db2bc671e4a3cf85d3e0028da51f4c59444",
+   "duration_seconds": 2.4,
+   "available_seconds": 2.6,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L13",
+   "character": "भविष्य का कुकु",
+   "performer": "Amit",
+   "voice_id": "NbvR1eY6Q8ivACdEO8PV",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L13_e00c14281d71009533f7cc2bf0e726b2088a88bcd7d1a7e8aec8b630d535cc1d.mp3",
+   "sha256": "628b9fa2162f2b61a2da0127fad9ef65223e33912fd0c56c8af59d85f0952afe",
+   "duration_seconds": 3.52,
+   "available_seconds": 5.5,
+   "fits_picture_window": true
+  }
+ ]
+}

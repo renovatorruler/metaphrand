@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-08-16T19:41:35.695917Z",
+  "display_name": "Seedance 2.5",
+  "id": "ee836c3d-cf1f-4044-8310-7f90442e6060",
+  "job_type": "seedance_2_5",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "16:9",
+    "bitrate_mode": "standard",
+    "duration": 8,
+    "extension_mode": null,
+    "generate_audio": false,
+    "genre": "auto",
+    "height": 720,
+    "medias": [
+      {
+        "data": {
+          "id": "b3975fe3-f866-4849-9b4c-0d80f40f2772",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/b3975fe3-f866-4849-9b4c-0d80f40f2772.png"
+        },
+        "role": "start_image"
+      }
+    ],
+    "model": "default",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "Stable 16:9 wide, one continuous silent eight-second shot. Use image 1 as the exact opening composition: exactly five small dragons remain in the fixed left-to-right order Kuku green, Furia red-pink, Vesper blue, Castor gold, Leda pale lavender. Each child has exactly one plain blank gold foreleg bracelet. The accepted five-dragon flight reference and five individual future references define only each child's larger PRESENT-DAY body, wings, face, color and bracelet; they do not define staging or flight.\n\nOne connected gold wave travels bracelet to bracelet in that fixed order. As the wave reaches each bracelet, that same child begins growing in place. Feet remain planted, identities and order never change, and the changes visibly overlap: all five must begin transforming before any one child reaches a finished giant form. At the shared final pulse, all five settle simultaneously as youthful giant children of comparable transformed status, each still wearing exactly one blank foreleg bracelet. Gently pull the camera back only enough to keep all five full silhouettes visible.\n\nNo child finishes early, especially not Kuku. No child remains small at the end. No isolated flashes, flight, takeoff, fire, armor, adult-trained forms, pain, surprise, crossing, merging, duplicate, missing child, sixth bracelet, collar, necklace, text, glyph, cut, camera roll, speech or native audio.",
+    "prompt_language": "en",
+    "reference_elements": [],
+    "resolution": "720p",
+    "speedramp": "auto",
+    "width": 1280
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_194135_ee836c3d-cf1f-4044-8310-7f90442e6060.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_194135_ee836c3d-cf1f-4044-8310-7f90442e6060_thumbnail.webp"
+}

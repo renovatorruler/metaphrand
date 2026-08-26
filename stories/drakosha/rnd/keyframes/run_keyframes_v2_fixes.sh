@@ -6,7 +6,7 @@ R="../../ep1prod/scene1/references"
 P="$R/packet_pages"
 ROOM="$R/SET-HOME-ROOM-01_author_master_FINAL.png"
 DOOR="$R/SET-YAGA-DOOR-01_approved_states.png"
-PAPA="$R/papa_approved_from_job10_closeup_v1.png"
+PAPA="$R/papa_author_packet_v2.png"
 STYLE="Cinematic film still in the exact stylized low-poly 3D render style of the reference images, warm hearth lighting, 16:9. Characters and the set MUST match the reference images exactly. The set is the tiny family's hall inside an old bricked-up fireplace per the room reference: giant boulder-scale red-brown brick courses, dark riveted iron plate wall with warm light seeping around its edges, four matchbox beds + knitted-mitten cradle, plank-on-spools banquet table with button stools, colored garland bulbs overhead, rusty arched iron door low in the left wall, railed floor opening in the far corner. No windows, no daylight, no sinks, no faucets, no modern fixtures. All characters fully in frame with complete bodies — no disembodied limbs."
 
 gen () {

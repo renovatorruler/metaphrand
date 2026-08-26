@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "provider": "elevenlabs",
+  "model_id": "eleven_v3",
+  "default_voice": {
+    "name": "River - Relaxed, Neutral, Informative",
+    "voice_id": "SAz9YHcvj6GT2YYXdXww",
+    "accent": "american",
+    "gender": "neutral",
+    "category": "premade"
+  },
+  "voice_resolution": {
+    "priority": [
+      "user_specified_voice",
+      "project_default_voice"
+    ],
+    "allow_genre_based_substitution": false,
+    "require_resolved_voice_before_billable_request": true,
+    "require_user_request_before_rerender": true
+  }
+}

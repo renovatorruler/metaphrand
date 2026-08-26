@@ -1,0 +1,5 @@
+file '/Users/dusty/Dev/metaphrand/stories/kuku/ep9prod/finale/out/.episode_parts/01_cold_open.mp4'
+file '/Users/dusty/Dev/metaphrand/stories/kuku/ep9prod/finale/out/.episode_parts/02_title.mp4'
+file '/Users/dusty/Dev/metaphrand/stories/kuku/ep9prod/finale/out/.episode_parts/03_main.mp4'
+file '/Users/dusty/Dev/metaphrand/stories/kuku/ep9prod/finale/out/.episode_parts/04_word_review.mp4'
+file '/Users/dusty/Dev/metaphrand/stories/kuku/ep9prod/finale/out/.episode_parts/05_credits.mp4'

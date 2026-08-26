@@ -1,0 +1,200 @@
+{
+  "version": "1.0",
+  "project": "Kuku Episode 9 Season 1 Finale",
+  "currency": "higgsfield_credits",
+  "approval": {
+    "approvedByUser": true,
+    "approvedAt": "2026-08-13",
+    "operatingCeiling": 899,
+    "lockedEmergencyReserve": 201,
+    "absoluteCap": 1100,
+    "reservePolicy": "The locked reserve may be released only for a named story-critical hole in an assembled cut. Remaining reserve is not permission to generate optional variants."
+  },
+  "classes": [
+    {
+      "id": "A_STILLS",
+      "purpose": "Continuity anchors, dynamic stills, and local-animation layers",
+      "firstTakeCredits": 60,
+      "retryCredits": 42,
+      "maximumCredits": 102,
+      "plans": [
+        {
+          "model": "nano_banana_pro",
+          "count": 12,
+          "creditsEach": 2,
+          "maximumAttemptsPerTarget": 2,
+          "quoteGate": 2
+        },
+        {
+          "model": "nano_banana_2_lite",
+          "count": 36,
+          "creditsEach": 1,
+          "maximumAttemptsPerTarget": 2,
+          "sharedRetryCredits": 18,
+          "quoteGate": 1
+        }
+      ]
+    },
+    {
+      "id": "B_WIDE_ENVIRONMENT",
+      "purpose": "Wide flight, cloud, storm, fire, gate physics, and environmental motion",
+      "firstTakeCredits": 134,
+      "retryCredits": 48,
+      "maximumCredits": 182,
+      "firstTakeMotionSeconds": 164,
+      "plans": [
+        {
+          "model": "minimax_hailuo",
+          "variant": "minimax-2.3-fast",
+          "durationSeconds": 10,
+          "count": 10,
+          "creditsEach": 7,
+          "quoteGate": 7
+        },
+        {
+          "model": "veo3_1_lite",
+          "durationSeconds": 8,
+          "count": 8,
+          "creditsEach": 8,
+          "quoteGate": 8
+        }
+      ],
+      "sharedRetryCredits": 48,
+      "maximumAttemptsPerTarget": 2
+    },
+    {
+      "id": "C_SIMPLE_CHARACTER",
+      "purpose": "Single-character and simple two-character movement",
+      "firstTakeCredits": 176,
+      "retryCredits": 60,
+      "maximumCredits": 236,
+      "firstTakeMotionSeconds": 160,
+      "plans": [
+        {
+          "model": "seedance1_5",
+          "durationSeconds": 8,
+          "count": 10,
+          "creditsEach": 9.6,
+          "quoteGate": 9.6
+        },
+        {
+          "model": "kling2_6",
+          "durationSeconds": 10,
+          "count": 8,
+          "creditsEach": 10,
+          "quoteGate": 10
+        }
+      ],
+      "sharedRetryCredits": 60,
+      "maximumAttemptsPerTarget": 2
+    },
+    {
+      "id": "D_COMPLEX_GROUP",
+      "purpose": "Five-character transformation, wing rhythm, rescue handoffs, and group departure",
+      "firstTakeCredits": 148,
+      "retryCredits": 40,
+      "maximumCredits": 188,
+      "firstTakeMotionSeconds": 56,
+      "plans": [
+        {
+          "model": "seedance_2_0_mini",
+          "durationSeconds": 8,
+          "count": 5,
+          "creditsEach": 20,
+          "quoteGate": 20
+        },
+        {
+          "model": "gemini_omni",
+          "durationSeconds": 8,
+          "count": 2,
+          "creditsEach": 24,
+          "quoteGate": 24,
+          "directPaidRetryAllowed": false
+        }
+      ],
+      "sharedRetryCredits": 40,
+      "maximumAttemptsPerTarget": 2
+    },
+    {
+      "id": "E_CINEMA_HERO",
+      "purpose": "Transformation culmination and permanent B gate lock",
+      "firstTakeCredits": 104,
+      "retryCredits": 52,
+      "maximumCredits": 156,
+      "firstTakeMotionSeconds": 16,
+      "plans": [
+        {
+          "model": "cinematic_studio_video_4_0",
+          "durationSeconds": 8,
+          "count": 2,
+          "creditsEach": 52,
+          "quoteGate": 52
+        }
+      ],
+      "sharedRetryOrRevealCredits": 52,
+      "maximumSubmissions": 3,
+      "policy": "The third slot is either one retry for H1/H2 or the Gurukul reveal if both pass. It can never fund both."
+    },
+    {
+      "id": "F_AUDIO",
+      "purpose": "Finale score cues and signature sound effects after picture lock",
+      "firstTakeCredits": 35,
+      "retryCredits": 0,
+      "maximumCredits": 35,
+      "plans": [
+        {
+          "model": "sonilo_music",
+          "durationSeconds": 120,
+          "count": 3,
+          "creditsEach": 7.5,
+          "quoteGate": 7.5
+        },
+        {
+          "model": "sonilo_music",
+          "durationSeconds": 60,
+          "count": 2,
+          "creditsEach": 3.75,
+          "quoteGate": 3.75
+        },
+        {
+          "model": "seed_audio",
+          "count": 25,
+          "creditsEach": 0.2,
+          "quoteGate": 0.2
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "plannedFirstTakeMotionSeconds": 396,
+    "maximumOperatingCredits": 899,
+    "lockedEmergencyReserve": 201,
+    "absoluteCap": 1100
+  },
+  "automaticStops": [
+    {
+      "atActualSpend": 750,
+      "action": "Audit accepted yield. If accepted yield is below 65 percent, convert every noncritical remaining shot to local motion or reuse."
+    },
+    {
+      "atActualSpend": 899,
+      "action": "Stop all submissions and review an assembled cut before considering reserve release."
+    },
+    {
+      "atActualSpend": 1000,
+      "action": "Disable Cinema and Gemini. Permit only one named critical fixer at a time."
+    },
+    {
+      "atActualSpend": 1100,
+      "action": "Absolute stop. No further provider submission is permitted."
+    }
+  ],
+  "globalRules": [
+    "Price the exact final payload immediately before every submission.",
+    "Disable generated audio on every video model.",
+    "Never submit a third attempt for the same target.",
+    "If the same failure occurs twice, simplify the blocking or use local animation.",
+    "An accepted clip with a locally fixable glyph, timing, background, or audio defect must not be rerendered.",
+    "Before submission, actual spend plus the quoted job plus all unspent mandatory obligations must remain at or below the absolute cap."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-08-18T20:38:51.298382Z",
+  "display_name": "GPT Image 2",
+  "id": "4098c2e9-82b9-46c8-aed7-3b67ad2e3113",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_203851_4098c2e9-82b9-46c8-aed7-3b67ad2e3113_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "2c27a061-6cfc-4e24-9916-77bcd85fa0a6",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/2c27a061-6cfc-4e24-9916-77bcd85fa0a6_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "be02022f-c788-41ec-bb1a-dc00fa2bcf6b",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/be02022f-c788-41ec-bb1a-dc00fa2bcf6b_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "b74f9895-7eac-4b7b-8f73-440603226b32",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/b74f9895-7eac-4b7b-8f73-440603226b32.png"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Close on the planted wooden staff pulsing with three soft golden rings of light rising up its shaft; beside it the bald human sage kneels lifting the lid of a small wooden chest with brass corners; the five child dragons lean in around him, paper wings folded neatly. 3D papercraft style, exactly matching the cut-paper character designs in the reference images: layered cut-paper illustration with real depth, soft matte construction-paper textures, visible paper edges, folds and creases, warm storybook palette, soft studio lighting, gentle depth of field, like a lit diorama built from card. Non-photorealistic, made of paper. NO flat single-plane 2D, NO sticker look, NO glossy plastic 3D render, NO photorealism, no text, no letters.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_203851_4098c2e9-82b9-46c8-aed7-3b67ad2e3113.png",
+  "status": "completed"
+}

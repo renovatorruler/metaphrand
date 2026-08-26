@@ -1,11 +1,10 @@
 ACTIVE REFERENCES
-@FROSYA — её зовут Фрося — the ELDEST of the family's FOUR children: orange flower in her hair, safety pin on her patchwork dress. 100% matches the reference.
-@VASYA — его зовут Вася — the SECOND of the family's FOUR children, younger than Фрося and older than Руся and Муся: enormous bushy eyebrows, shoelace belt. 100% matches the reference.
+@FROSYA: a girl with long dark hair, an orange flower in her hair on one side, freckles and a gap-toothed grin, wearing a floral patchwork dress with a large safety pin at the front. 100% matches the reference.
+@VASYA: a small figure with ENORMOUS bushy dark eyebrows and short fair hair, wearing a shoelace tied round the waist as a belt. 100% matches the reference.
 @ROOM_BACK: the far end of the SAME hall, past the rope railing and the ramp down — what lies beyond Фрося and Вася whenever the camera looks down the room. Same ENORMOUS sandstone boulder-blocks, same strung bulbs, the kitchen end with its stove and counter. 100% matches the reference.
 
 SCALE
 Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.
-Вася is shorter than Фрося, about up to her eyebrows.
 
 TWO SEGMENTS, ONE HARD CUT — the children over the spilled tiles, then Вася's own view of Фрося as she writes and spells. One render so that the children, the pencil and the floor carry across the cut unchanged.
 

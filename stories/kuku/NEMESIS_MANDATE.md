@@ -31,8 +31,8 @@ The series needs **a proper nemesis — somebody who does not become an ally.**
 
 ## Episode 9 consequence and continuing use
 
-- Cheel did not obtain Kuku's letters. The dark remains of the shattered bridge carry a delayed
-  resonance that wakes the Gurukul gate.
+- Cheel did not obtain Kuku's letters. The extinguished, charred remains of the shattered bridge
+  carry a delayed resonance that wakes the Gurukul gate. Their blackened color is not dark power.
 - The same small, wingless पर्वत-ऋषि who granted her boon returns. His exact-word law remains
   intact, but he must accept responsibility for the danger connected to his old promise.
 - Episode 9 does not stage another Cheel fight. Her action causes the new phase even while she stays
@@ -50,4 +50,8 @@ The series needs **a proper nemesis — somebody who does not become an ally.**
   children great forms immediately and then training control. “Not ready” may describe precision,
   formation, or judgment; it may never mean their bodies are too young or their power can be
   withheld until they grow.
+- **Cheel is not a dark-power dragon or the source of dark power.** The black-smoke power glimpsed
+  in Episode 9 belongs to the still-unintroduced evil dragons. Cheel remains formidable through
+  her exact boon, flight, physical action, theft, patience, and schemes; never give her black-smoke
+  fire or use her as a disguised advance member of that faction.
 - Design proposals go through the normal approval flow before touching any screenplay.

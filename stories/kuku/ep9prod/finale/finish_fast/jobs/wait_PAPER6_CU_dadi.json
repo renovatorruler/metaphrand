@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-08-19T00:07:21.354504Z",
+  "display_name": "GPT Image 2",
+  "id": "9e72576a-7d5a-425a-99d3-1d80425025f1",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260819_000721_9e72576a-7d5a-425a-99d3-1d80425025f1_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "2f7ca56f-66ae-4a3b-8406-814505ae983b",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/2f7ca56f-66ae-4a3b-8406-814505ae983b_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "9f02813c-612c-4da6-8808-8549f88ec813",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/9f02813c-612c-4da6-8808-8549f88ec813_resize.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Close-up on the face and shoulders of the elderly silver-white winged dragon grandmother from the reference sheet — round glasses, knitted shawl — in a dawn paper meadow; she speaks mid-sentence, mouth open, warm but firm expression. 3D papercraft style, exactly matching the cut-paper character design in the reference images: layered cut-paper with real depth, matte construction-paper textures, visible paper edges and folds, warm storybook palette, soft studio lighting, gentle depth of field. Non-photorealistic, made of paper. NO flat 2D, NO sticker look, NO glossy plastic 3D, no photorealism, no text.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260819_000721_9e72576a-7d5a-425a-99d3-1d80425025f1.png",
+  "status": "completed"
+}

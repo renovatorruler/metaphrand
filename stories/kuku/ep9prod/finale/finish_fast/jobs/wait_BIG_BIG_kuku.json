@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-08-19T02:41:39.81735Z",
+  "display_name": "GPT Image 2",
+  "id": "e6655498-b5e7-4171-b6e7-d975e8b0a837",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260819_024139_e6655498-b5e7-4171-b6e7-d975e8b0a837_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "051d7d9c-4878-4b29-a2d7-4e5f6e4eaf02",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/051d7d9c-4878-4b29-a2d7-4e5f6e4eaf02_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "aee48015-38d8-42be-9737-415dc126a66d",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/aee48015-38d8-42be-9737-415dc126a66d_resize.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Close-up on the head and shoulders of the GREEN transformed trainee dragon Kuku, speaking mid-sentence, mouth open, determined expression. This is the LARGE TRANSFORMED trainee form: grown-up dragon proportions, longer snout, sharper features, adult bearing, powerful wings with visible paper thickness, wearing exactly ONE gold bracelet. NOT a baby dragon, not chubby, not a child's body — an older youthful dragon. Shown airborne against layered paper sky and clouds. 3D papercraft style matching the reference: layered cut-paper with real depth, matte construction-paper textures, visible paper edges and folds, warm storybook palette, soft studio lighting, gentle depth of field. NO flat 2D, no sticker look, no glossy plastic 3D, no photorealism, no text.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260819_024139_e6655498-b5e7-4171-b6e7-d975e8b0a837.png",
+  "status": "completed"
+}

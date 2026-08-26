@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 275,
+ "chunk_id": "chunk_022",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_c09044a5c0f23d483b560c9f52c9a311a14083508412636f8c39595e2576adc3.mp3",
+ "source_sha256": "1b61985fff17d293408a12c646206f1e39bcd0d3e92044a111c8b4b83c778064",
+ "source_start": 30.49254376617446,
+ "source_end": 35.257402953265334,
+ "expected_text": "दादी, दूसरा चक्कर मेरा फैसला था। दरार मेरी वजह से बढ़ी।",
+ "expected_text_sha256": "559043c475a474265b1a30c3023ac3273eccdd1392087097a76f56501dce3c72",
+ "ctc_evidence_identity": "98f6b007b0eb19748ade18027c28b93d141d0ee32a3b67592887fe6460ff7e18",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/275_e6edbd2024ab07f74e0498b59c803013024f157fbd8d5fc975c367b6947d9b49.whisper.json",
+ "raw_whisper_sha256": "016cac1a5670625e63adb95d3c6f8561390eb0c2ef51a6d059080cb6ffeb6331",
+ "quality": {
+  "expected_words": 11,
+  "observed_words": 11,
+  "matched_words": 11,
+  "coverage": 1,
+  "observed_precision": 1,
+  "mean_similarity": 1,
+  "sequence_score": 1,
+  "average_token_probability": 0.8809927272727273,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 1
+ }
+}

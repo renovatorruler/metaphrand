@@ -1,0 +1,29 @@
+V09 RE-ROLL — changed lines only, against the frozen take that was submitted at 15:12.
+Every line names its source. Nothing else in the prompt changed.
+
+HANDS — @VASYA_MAMA:
+-  as the babies come off her they settle to the end image            [source: NONE — my invention; caused the freeze]
++  they keep flapping in the air for the whole shot — while she
++  shouts, and all through both lifts as each baby is peeled off her  [source: take-5 approved language, extended]
++  Only in the last half second do they land in the end image's
++  pose, flung out to her sides with the fingers spread               [source: the locked end plate]
+
+@RUSYA COMES OFF (added):
++  @VASYA_MAMA keeps twisting and stamping under the lift, leaning
++  away, her head snapping down to watch him peel off her             [source: author note — "passive mama is frozen and lifeless"]
+
+@MUSYA COMES OFF (added):
++  @VASYA_MAMA wobbles on the spot through it, chest heaving, her
++  head tracking @MUSYA all the way across                            [source: same author note]
+
+THE END:
+-  from about 10.5 seconds: everything settles                        [source: NONE — gave the pin 1.5s to park]
++  in the last half second: everything lands                          [source: the freeze measurement, flatline from 5.0]
+
+@RUSYA — GLEE:
++  bouncing and wriggling; through the ride up he giggles — mouth
++  working, cheeks pumping, legs kicking                              [source: author note — "make sure baby's expressions are not frozen either"]
+
+@MUSYA — DETERMINATION:
++  her head turning to keep her eyes on the cloth, then swinging
++  round to @RUSYA                                                    [source: same author note]

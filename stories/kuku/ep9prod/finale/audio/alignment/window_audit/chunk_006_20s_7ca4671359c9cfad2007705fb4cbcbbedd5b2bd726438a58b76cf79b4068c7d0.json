@@ -1,0 +1,380 @@
+{
+ "schema": "kuku-ep9-local-window-alignment-audit/v1",
+ "status": "rejected-fail-closed",
+ "chunk_id": "chunk_006",
+ "scene": 1,
+ "source_raw_archive": "../stories/kuku/ep9prod/finale/audio/alignment/raw_provider/a64ca2e20f50b768534cf7f563ef7bc4fc3ad08d1c99e394c87b5c0df80fa587.mp3",
+ "source_raw_sha256": "a64ca2e20f50b768534cf7f563ef7bc4fc3ad08d1c99e394c87b5c0df80fa587",
+ "normalized_source": "../stories/kuku/ep9prod/table_read/cache/dialogue_55c6cfe5ec6569c7d368e45984624dbc855489e4e5c02cd2833a9dbad144c044.mp3",
+ "normalized_source_sha256": "321458d5addcec676d14b48227c237651ba3f2dae32dd6799142afe9dbcb851f",
+ "model_path": "/private/tmp/metaphrand-whisper/ggml-large-v3-turbo-q5_0.bin",
+ "model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "model_size_bytes": 574041195,
+ "whisper_config": {
+  "cpu_only": true,
+  "flag": "-ng",
+  "language": "hi",
+  "prompt": null,
+  "no_fallback": true,
+  "temperature": 0,
+  "beam_size": 5,
+  "best_of": 5,
+  "split_on_word": true
+ },
+ "window_seconds": 20,
+ "overlap_seconds": 3,
+ "step_seconds": 17,
+ "merge_policy": "offset each local token; assign overlap at its temporal midpoint; retain only token midpoints inside each windows disjoint core; sort by absolute start/end",
+ "runtime_seconds": 83.687,
+ "unchanged_gates": {
+  "min_overall_coverage": 0.62,
+  "min_observed_precision": 0.55,
+  "min_mean_similarity": 0.78,
+  "min_sequence_score": 0.5,
+  "min_average_token_probability": 0.12
+ },
+ "quality": {
+  "expected_words": 204,
+  "observed_words": 179,
+  "strong_matches": 147,
+  "coverage": 0.7205882352941176,
+  "observed_precision": 0.8212290502793296,
+  "mean_similarity": 0.9686183997408487,
+  "sequence_score": 0.5914624183006529,
+  "average_token_probability": 0.9305412857142857
+ },
+ "failure": "segment 71 has insufficient ordered word matches: 0/10",
+ "accepted": false,
+ "windows": [
+  {
+   "index": 0,
+   "start_seconds": 0,
+   "duration_seconds": 20,
+   "core_left_seconds": 0,
+   "core_right_seconds": 18.5,
+   "observed_words": 42,
+   "kept_words": 40,
+   "raw_json_path": "../stories/kuku/ep9prod/finale/audio/alignment/window_audit/raw/2edbe1de85402c54edf9a19d3b09c24dd04b13512a65fad6252f117afd217cc1.whisper.json",
+   "raw_json_sha256": "2edbe1de85402c54edf9a19d3b09c24dd04b13512a65fad6252f117afd217cc1"
+  },
+  {
+   "index": 1,
+   "start_seconds": 17,
+   "duration_seconds": 20,
+   "core_left_seconds": 18.5,
+   "core_right_seconds": 35.5,
+   "observed_words": 19,
+   "kept_words": 17,
+   "raw_json_path": "../stories/kuku/ep9prod/finale/audio/alignment/window_audit/raw/2cd751fc795e9324273eae8bc75275fd09509347c5600e30777855384078987c.whisper.json",
+   "raw_json_sha256": "2cd751fc795e9324273eae8bc75275fd09509347c5600e30777855384078987c"
+  },
+  {
+   "index": 2,
+   "start_seconds": 34,
+   "duration_seconds": 20,
+   "core_left_seconds": 35.5,
+   "core_right_seconds": 52.5,
+   "observed_words": 18,
+   "kept_words": 6,
+   "raw_json_path": "../stories/kuku/ep9prod/finale/audio/alignment/window_audit/raw/6eeada2eaef730b6d222e45bd7d15111b022372b3d089ee4f02cd253d07768f3.whisper.json",
+   "raw_json_sha256": "6eeada2eaef730b6d222e45bd7d15111b022372b3d089ee4f02cd253d07768f3"
+  },
+  {
+   "index": 3,
+   "start_seconds": 51,
+   "duration_seconds": 20,
+   "core_left_seconds": 52.5,
+   "core_right_seconds": 69.5,
+   "observed_words": 44,
+   "kept_words": 37,
+   "raw_json_path": "../stories/kuku/ep9prod/finale/audio/alignment/window_audit/raw/e9c589dd14ab51498824f829ed34125fb10e86dbb2c971777b91da2ff1c63ea1.whisper.json",
+   "raw_json_sha256": "e9c589dd14ab51498824f829ed34125fb10e86dbb2c971777b91da2ff1c63ea1"
+  },
+  {
+   "index": 4,
+   "start_seconds": 68,
+   "duration_seconds": 20,
+   "core_left_seconds": 69.5,
+   "core_right_seconds": 86.5,
+   "observed_words": 64,
+   "kept_words": 60,
+   "raw_json_path": "../stories/kuku/ep9prod/finale/audio/alignment/window_audit/raw/d280402042bb7e16bb631a5c1dbb6404ceb17b036eb5d19dd8d84b5aeaee1c7c.whisper.json",
+   "raw_json_sha256": "d280402042bb7e16bb631a5c1dbb6404ceb17b036eb5d19dd8d84b5aeaee1c7c"
+  },
+  {
+   "index": 5,
+   "start_seconds": 85,
+   "duration_seconds": 9.719999999999999,
+   "core_left_seconds": 86.5,
+   "core_right_seconds": 94.72,
+   "observed_words": 24,
+   "kept_words": 19,
+   "raw_json_path": "../stories/kuku/ep9prod/finale/audio/alignment/window_audit/raw/152db6abf492391c582453139d60c409545c9b9f353c91eca6ae2d19b94f8c6b.whisper.json",
+   "raw_json_sha256": "152db6abf492391c582453139d60c409545c9b9f353c91eca6ae2d19b94f8c6b"
+  }
+ ],
+ "segment_evidence": [
+  {
+   "order": 67,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "expected_words": 11,
+   "strong_matches": 8,
+   "coverage": 0.7272727272727273,
+   "first_match": {
+    "word_index": 2,
+    "start_seconds": 1.39,
+    "end_seconds": 1.83
+   },
+   "last_match": {
+    "word_index": 10,
+    "start_seconds": 5.22,
+    "end_seconds": 5.88
+   }
+  },
+  {
+   "order": 68,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "expected_words": 19,
+   "strong_matches": 19,
+   "coverage": 1,
+   "first_match": {
+    "word_index": 0,
+    "start_seconds": 6.04,
+    "end_seconds": 6.52
+   },
+   "last_match": {
+    "word_index": 18,
+    "start_seconds": 13.3,
+    "end_seconds": 13.86
+   }
+  },
+  {
+   "order": 69,
+   "kind": "dialogue",
+   "speaker": "CHEEL",
+   "expected_words": 9,
+   "strong_matches": 9,
+   "coverage": 1,
+   "first_match": {
+    "word_index": 0,
+    "start_seconds": 14.14,
+    "end_seconds": 14.35
+   },
+   "last_match": {
+    "word_index": 8,
+    "start_seconds": 17.5,
+    "end_seconds": 18.38
+   }
+  },
+  {
+   "order": 70,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "expected_words": 19,
+   "strong_matches": 17,
+   "coverage": 0.8947368421052632,
+   "first_match": {
+    "word_index": 1,
+    "start_seconds": 17.86,
+    "end_seconds": 19.86
+   },
+   "last_match": {
+    "word_index": 17,
+    "start_seconds": 34,
+    "end_seconds": 35.760000000000005
+   }
+  },
+  {
+   "order": 71,
+   "kind": "dialogue",
+   "speaker": "CHEEL",
+   "expected_words": 10,
+   "strong_matches": 0,
+   "coverage": 0,
+   "first_match": null,
+   "last_match": null
+  },
+  {
+   "order": 72,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "expected_words": 23,
+   "strong_matches": 4,
+   "coverage": 0.17391304347826086,
+   "first_match": {
+    "word_index": 7,
+    "start_seconds": 35.58,
+    "end_seconds": 36
+   },
+   "last_match": {
+    "word_index": 10,
+    "start_seconds": 36.54,
+    "end_seconds": 36.9
+   }
+  },
+  {
+   "order": 73,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "expected_words": 17,
+   "strong_matches": 2,
+   "coverage": 0.11764705882352941,
+   "first_match": {
+    "word_index": 15,
+    "start_seconds": 36.9,
+    "end_seconds": 37.26
+   },
+   "last_match": {
+    "word_index": 16,
+    "start_seconds": 37.26,
+    "end_seconds": 37.39
+   }
+  },
+  {
+   "order": 74,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "expected_words": 19,
+   "strong_matches": 15,
+   "coverage": 0.7894736842105263,
+   "first_match": {
+    "word_index": 4,
+    "start_seconds": 52.65,
+    "end_seconds": 52.85
+   },
+   "last_match": {
+    "word_index": 18,
+    "start_seconds": 59,
+    "end_seconds": 59.230000000000004
+   }
+  },
+  {
+   "order": 75,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "expected_words": 7,
+   "strong_matches": 5,
+   "coverage": 0.7142857142857143,
+   "first_match": {
+    "word_index": 0,
+    "start_seconds": 59.28,
+    "end_seconds": 59.980000000000004
+   },
+   "last_match": {
+    "word_index": 6,
+    "start_seconds": 63.99,
+    "end_seconds": 64.93
+   }
+  },
+  {
+   "order": 76,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "expected_words": 11,
+   "strong_matches": 11,
+   "coverage": 1,
+   "first_match": {
+    "word_index": 0,
+    "start_seconds": 65.34,
+    "end_seconds": 65.52
+   },
+   "last_match": {
+    "word_index": 10,
+    "start_seconds": 68.13,
+    "end_seconds": 68.24
+   }
+  },
+  {
+   "order": 77,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "expected_words": 9,
+   "strong_matches": 8,
+   "coverage": 0.8888888888888888,
+   "first_match": {
+    "word_index": 0,
+    "start_seconds": 68.24,
+    "end_seconds": 69.28999999999999
+   },
+   "last_match": {
+    "word_index": 8,
+    "start_seconds": 72.33,
+    "end_seconds": 72.74
+   }
+  },
+  {
+   "order": 78,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "expected_words": 12,
+   "strong_matches": 12,
+   "coverage": 1,
+   "first_match": {
+    "word_index": 0,
+    "start_seconds": 73,
+    "end_seconds": 73.75
+   },
+   "last_match": {
+    "word_index": 11,
+    "start_seconds": 77.35,
+    "end_seconds": 77.61
+   }
+  },
+  {
+   "order": 79,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "expected_words": 21,
+   "strong_matches": 20,
+   "coverage": 0.9523809523809523,
+   "first_match": {
+    "word_index": 1,
+    "start_seconds": 78.58,
+    "end_seconds": 79.16
+   },
+   "last_match": {
+    "word_index": 20,
+    "start_seconds": 87.31,
+    "end_seconds": 87.66
+   }
+  },
+  {
+   "order": 80,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "expected_words": 13,
+   "strong_matches": 13,
+   "coverage": 1,
+   "first_match": {
+    "word_index": 0,
+    "start_seconds": 87.66,
+    "end_seconds": 88.11
+   },
+   "last_match": {
+    "word_index": 12,
+    "start_seconds": 91.62,
+    "end_seconds": 91.76
+   }
+  },
+  {
+   "order": 81,
+   "kind": "dialogue",
+   "speaker": "CHEEL",
+   "expected_words": 4,
+   "strong_matches": 4,
+   "coverage": 1,
+   "first_match": {
+    "word_index": 0,
+    "start_seconds": 91.76,
+    "end_seconds": 92.41
+   },
+   "last_match": {
+    "word_index": 3,
+    "start_seconds": 94.1,
+    "end_seconds": 94.72
+   }
+  }
+ ]
+}

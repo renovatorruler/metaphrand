@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 228,
+ "chunk_id": "chunk_019",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_68df099baa289813adcdce5aed648de9af701d90dd5bf78bb2c41e9c455c7ce3.mp3",
+ "source_sha256": "3c2d035fd32f6585f2a5b42737bf1d59ea94e54014e3caf949748a84653f2c55",
+ "source_start": 17.237140835102622,
+ "source_end": 20.760430290162777,
+ "expected_text": "मैं नया ब नहीं बनाऊँगा। लेडा, तुम्हें क्या दिख रहा है?",
+ "expected_text_sha256": "ca8dd99e5d7ef91f6606f1490ab60acc18725e15bb3068dbeb2713bec9fab4e9",
+ "ctc_evidence_identity": "a97b4c5e7cbb289fa1c61515cfd79d9babcf158f83b9d1dce2c723683442edcd",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/228_13ccdef3db1b8031c77f05c9df47f2f9f54e1748ed78051644db32913fc7538c.whisper.json",
+ "raw_whisper_sha256": "283268c07ce9c5be64e8bfec2e7fd2c876f5a51a0a3f6cbdf443631588ee8cba",
+ "quality": {
+  "expected_words": 11,
+  "observed_words": 11,
+  "matched_words": 10,
+  "coverage": 0.9090909090909091,
+  "observed_precision": 0.9090909090909091,
+  "mean_similarity": 0.9857142857142858,
+  "sequence_score": 0.9415584415584416,
+  "average_token_probability": 0.9603112999999999,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 0.9363636363636364
+ }
+}

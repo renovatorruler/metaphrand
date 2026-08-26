@@ -1,0 +1,297 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 4
+		},
+		"mels": 128,
+		"ftype": 8
+	},
+	"params": {
+		"model": "/private/tmp/metaphrand-whisper/ggml-large-v3-turbo-q5_0.bin",
+		"language": "hi",
+		"translate": false
+	},
+	"result": {
+		"language": "hi"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:01,780"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 1780
+			},
+			"text": " कोई पादल पर चल रहा है",
+			"tokens": [
+				{
+					"text": "[_BEG_]",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,000"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 0
+					},
+					"id": 50365,
+					"p": 0.987921,
+					"t_dtw": -1
+				},
+				{
+					"text": " क",
+					"timestamps": {
+						"from": "00:00:00,050",
+						"to": "00:00:00,050"
+					},
+					"offsets": {
+						"from": 50,
+						"to": 50
+					},
+					"id": 31970,
+					"p": 0.979955,
+					"t_dtw": -1
+				},
+				{
+					"text": "ो",
+					"timestamps": {
+						"from": "00:00:00,060",
+						"to": "00:00:00,120"
+					},
+					"offsets": {
+						"from": 60,
+						"to": 120
+					},
+					"id": 33926,
+					"p": 0.972676,
+					"t_dtw": -1
+				},
+				{
+					"text": "ई",
+					"timestamps": {
+						"from": "00:00:00,120",
+						"to": "00:00:00,270"
+					},
+					"offsets": {
+						"from": 120,
+						"to": 270
+					},
+					"id": 3941,
+					"p": 0.999066,
+					"t_dtw": -1
+				},
+				{
+					"text": " प",
+					"timestamps": {
+						"from": "00:00:00,420",
+						"to": "00:00:00,480"
+					},
+					"offsets": {
+						"from": 420,
+						"to": 480
+					},
+					"id": 8485,
+					"p": 0.99651,
+					"t_dtw": -1
+				},
+				{
+					"text": "ा",
+					"timestamps": {
+						"from": "00:00:00,480",
+						"to": "00:00:00,540"
+					},
+					"offsets": {
+						"from": 480,
+						"to": 540
+					},
+					"id": 17937,
+					"p": 0.996096,
+					"t_dtw": -1
+				},
+				{
+					"text": "द",
+					"timestamps": {
+						"from": "00:00:00,540",
+						"to": "00:00:00,720"
+					},
+					"offsets": {
+						"from": 540,
+						"to": 720
+					},
+					"id": 3941,
+					"p": 0.998232,
+					"t_dtw": -1
+				},
+				{
+					"text": "ल",
+					"timestamps": {
+						"from": "00:00:00,720",
+						"to": "00:00:00,780"
+					},
+					"offsets": {
+						"from": 720,
+						"to": 780
+					},
+					"id": 46758,
+					"p": 0.999525,
+					"t_dtw": -1
+				},
+				{
+					"text": " प",
+					"timestamps": {
+						"from": "00:00:00,780",
+						"to": "00:00:00,960"
+					},
+					"offsets": {
+						"from": 780,
+						"to": 960
+					},
+					"id": 8485,
+					"p": 0.999186,
+					"t_dtw": -1
+				},
+				{
+					"text": "र",
+					"timestamps": {
+						"from": "00:00:00,960",
+						"to": "00:00:00,980"
+					},
+					"offsets": {
+						"from": 960,
+						"to": 980
+					},
+					"id": 25411,
+					"p": 0.997189,
+					"t_dtw": -1
+				},
+				{
+					"text": " च",
+					"timestamps": {
+						"from": "00:00:01,060",
+						"to": "00:00:01,200"
+					},
+					"offsets": {
+						"from": 1060,
+						"to": 1200
+					},
+					"id": 8485,
+					"p": 0.998074,
+					"t_dtw": -1
+				},
+				{
+					"text": "ल",
+					"timestamps": {
+						"from": "00:00:01,200",
+						"to": "00:00:01,240"
+					},
+					"offsets": {
+						"from": 1200,
+						"to": 1240
+					},
+					"id": 46758,
+					"p": 0.998889,
+					"t_dtw": -1
+				},
+				{
+					"text": " र",
+					"timestamps": {
+						"from": "00:00:01,260",
+						"to": "00:00:01,440"
+					},
+					"offsets": {
+						"from": 1260,
+						"to": 1440
+					},
+					"id": 8485,
+					"p": 0.99883,
+					"t_dtw": -1
+				},
+				{
+					"text": "ह",
+					"timestamps": {
+						"from": "00:00:01,440",
+						"to": "00:00:01,500"
+					},
+					"offsets": {
+						"from": 1440,
+						"to": 1500
+					},
+					"id": 44500,
+					"p": 0.999418,
+					"t_dtw": -1
+				},
+				{
+					"text": "ा",
+					"timestamps": {
+						"from": "00:00:01,500",
+						"to": "00:00:01,560"
+					},
+					"offsets": {
+						"from": 1500,
+						"to": 1560
+					},
+					"id": 17937,
+					"p": 0.999563,
+					"t_dtw": -1
+				},
+				{
+					"text": " ह",
+					"timestamps": {
+						"from": "00:00:01,560",
+						"to": "00:00:01,620"
+					},
+					"offsets": {
+						"from": 1560,
+						"to": 1620
+					},
+					"id": 37139,
+					"p": 0.998045,
+					"t_dtw": -1
+				},
+				{
+					"text": "ै",
+					"timestamps": {
+						"from": "00:00:01,620",
+						"to": "00:00:01,710"
+					},
+					"offsets": {
+						"from": 1620,
+						"to": 1710
+					},
+					"id": 43372,
+					"p": 0.99926,
+					"t_dtw": -1
+				},
+				{
+					"text": "[_TT_89]",
+					"timestamps": {
+						"from": "00:00:01,780",
+						"to": "00:00:01,780"
+					},
+					"offsets": {
+						"from": 1780,
+						"to": 1780
+					},
+					"id": 50454,
+					"p": 0.35886,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

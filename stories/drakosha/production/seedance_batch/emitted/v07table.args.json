@@ -1,0 +1,13 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 15,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-22_S8_SHOT1_table_start.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-08.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-09.png",
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-07.png",
+    "../stories/drakosha/ep1prod/scene1/references/C-RUS-01_solo_from_packet_page14.png",
+    "../stories/drakosha/ep1prod/scene1/references/C-MUS-01_solo_from_packet_page14.png"
+  ],
+  "promptSha256": "95abf2f2246375175efd6cb276f616017000618c644483b98284910bc9eba6e4"
+}

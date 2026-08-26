@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "purpose": "EP9 score cues, one per scene, levelled to -26 LUFS. startSeconds is relative to the main story (which begins at 2:15 of the episode). The master sidechain-ducks these under the dialogue+SFX stem.",
+  "cues": [
+    {
+      "id": "cue01_echo_wakes",
+      "path": "../audio/score/cue01_echo_wakes.mp3",
+      "startSeconds": 0,
+      "durationSeconds": 28.029396,
+      "gain": 0.63
+    },
+    {
+      "id": "cue02_morning_practice",
+      "path": "../audio/score/cue02_morning_practice.mp3",
+      "startSeconds": 24,
+      "durationSeconds": 69.041646,
+      "gain": 0.45
+    },
+    {
+      "id": "cue03_the_sage",
+      "path": "../audio/score/cue03_the_sage.mp3",
+      "startSeconds": 89,
+      "durationSeconds": 112.039188,
+      "gain": 0.4
+    },
+    {
+      "id": "cue04_forging",
+      "path": "../audio/score/cue04_forging.mp3",
+      "startSeconds": 197,
+      "durationSeconds": 87.04,
+      "gain": 0.5
+    },
+    {
+      "id": "cue05_transformation",
+      "path": "../audio/score/cue05_transformation.mp3",
+      "startSeconds": 280,
+      "durationSeconds": 64.026125,
+      "gain": 1
+    },
+    {
+      "id": "cue06_first_flight",
+      "path": "../audio/score/cue06_first_flight.mp3",
+      "startSeconds": 340,
+      "durationSeconds": 95.033479,
+      "gain": 1
+    },
+    {
+      "id": "cue07_crisis",
+      "path": "../audio/score/cue07_crisis.mp3",
+      "startSeconds": 431,
+      "durationSeconds": 72.045729,
+      "gain": 1
+    },
+    {
+      "id": "cue08_rescue_and_repair",
+      "path": "../audio/score/cue08_rescue_and_repair.mp3",
+      "startSeconds": 499,
+      "durationSeconds": 133.041646,
+      "gain": 1
+    },
+    {
+      "id": "cue09_aftermath",
+      "path": "../audio/score/cue09_aftermath.mp3",
+      "startSeconds": 628,
+      "durationSeconds": 70.034292,
+      "gain": 0.4
+    },
+    {
+      "id": "cue10_departure",
+      "path": "../audio/score/cue10_departure.mp3",
+      "startSeconds": 694,
+      "durationSeconds": 90.044083,
+      "gain": 0.5
+    }
+  ]
+}

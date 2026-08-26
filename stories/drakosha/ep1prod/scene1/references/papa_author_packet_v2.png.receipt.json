@@ -1,0 +1,8 @@
+{
+  "schema": "frosya.reference-receipt/v1",
+  "subjectId": "PAPA_AUTHOR_PACKET_V2",
+  "status": "APPROVED_PACKET_DERIVATION",
+  "provenance": "exact deterministic crop from packet_v2/page-02.png, the approved author character packet family lineup",
+  "createdOn": "2026-08-26",
+  "note": "Approved character-design source for Papa. No generated-video pixels are present."
+}

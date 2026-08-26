@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 170,
+ "chunk_id": "chunk_014",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_dd99bce7f10a8a74b416b4bdf1ac9396afeb033e4c066f4b6b7b6633da442da6.mp3",
+ "source_sha256": "c552853f7bf96d20308bbb81e4e7ebd1f9d4f5be3bb3c39bb0961182abde99dc",
+ "source_start": 117.8952101661779,
+ "source_end": 119.0561485826002,
+ "expected_text": "हम उड़ रहे हैं।",
+ "expected_text_sha256": "26061a93f4b41e24a65b01b2407b8003c6d4261e4c52d883668631c387e91620",
+ "ctc_evidence_identity": "9aa1242f0239901d7fd5aef2d405f6ee71b7f8117ae17ec638505f5eed3c145a",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/170_4fd8bbe1e25b54e61f0a1a06ca14a4c6195a3f0178faf17b5a2eecd75a42b67d.whisper.json",
+ "raw_whisper_sha256": "e083f8fcff78ec040dd7902e1a95e680caadfbf151ad23a0898aea66c5556330",
+ "quality": {
+  "expected_words": 4,
+  "observed_words": 4,
+  "matched_words": 4,
+  "coverage": 1,
+  "observed_precision": 1,
+  "mean_similarity": 1,
+  "sequence_score": 1,
+  "average_token_probability": 0.7799327500000001,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 1
+ }
+}

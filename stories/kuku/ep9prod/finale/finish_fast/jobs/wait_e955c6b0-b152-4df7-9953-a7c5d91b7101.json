@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-08-16T20:31:13.733027Z",
+  "display_name": "Seedance 2.5",
+  "id": "e955c6b0-b152-4df7-9953-a7c5d91b7101",
+  "job_type": "seedance_2_5",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "16:9",
+    "bitrate_mode": "standard",
+    "duration": 10,
+    "extension_mode": null,
+    "generate_audio": false,
+    "genre": "auto",
+    "height": 720,
+    "medias": [
+      {
+        "data": {
+          "id": "4b6ceea6-318c-47f9-9d4b-5c603e82331d",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/4b6ceea6-318c-47f9-9d4b-5c603e82331d.png"
+        },
+        "role": "start_image"
+      }
+    ],
+    "model": "default",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "One continuous gentle landing. Begin exactly from the dimensional rescue master. The rigid gold ब and the other four dragons hold position while red-pink Furia releases only her own grip, reaches into the lower hollow and cups her forearms beneath the same goat. She carries it down on one shallow diagonal as the camera tracks to the meadow, sets all four hooves onto solid grass, waits until the goat bears its own weight, then releases and lands beside it. The bell swings naturally and the goat remains unharmed. End with the goat standing and the last cloud wisps dissipating behind it. Exactly five dragons, one goat, one bell and one rigid ब. No cloud floor or platform, teleport, fall, duplicate, gate change, text, new glyph, fire, injury, cut, dialogue or native audio.\n\nTRANSFORMATION RULE: becoming large means becoming OLDER — grown-up dragon proportions, longer snout, sharper features, adult bearing — never a child's body inflated to a bigger size.",
+    "prompt_language": "en",
+    "reference_elements": [],
+    "resolution": "720p",
+    "speedramp": "auto",
+    "width": 1280
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_203113_e955c6b0-b152-4df7-9953-a7c5d91b7101.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_203113_e955c6b0-b152-4df7-9953-a7c5d91b7101_thumbnail.webp"
+}

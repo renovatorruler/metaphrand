@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 282,
+ "chunk_id": "chunk_022",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_c09044a5c0f23d483b560c9f52c9a311a14083508412636f8c39595e2576adc3.mp3",
+ "source_sha256": "1b61985fff17d293408a12c646206f1e39bcd0d3e92044a111c8b4b83c778064",
+ "source_start": 74.69960115694931,
+ "source_end": 82.20738011873954,
+ "expected_text": "कुकु, फ्यूरिया, वैस्पर, कैस्टर और लेडा—तुम पाँचों गुरुकुल में साथ सीखोगे। वहाँ तुम सब बराबर हो।",
+ "expected_text_sha256": "1355cbc27213bf727adbea524aaf3922687791c2c3bc14b798fe38c2848d8a09",
+ "ctc_evidence_identity": "98f6b007b0eb19748ade18027c28b93d141d0ee32a3b67592887fe6460ff7e18",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/282_100ea58e3bb2965aa3912ff4bf75d5740195d16277b0bcf391ce63ccefc3bd39.whisper.json",
+ "raw_whisper_sha256": "589cc28960c0674b4efab3dcfe3fda45a0fa0278c9ab3fa15d36db0c6741512c",
+ "quality": {
+  "expected_words": 17,
+  "observed_words": 17,
+  "matched_words": 17,
+  "coverage": 1,
+  "observed_precision": 1,
+  "mean_similarity": 0.9436274509803922,
+  "sequence_score": 0.9436274509803921,
+  "average_token_probability": 0.9023739411764705,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 0.9718137254901962
+ }
+}

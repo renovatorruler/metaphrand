@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-08-18T20:40:25.149253Z",
+  "display_name": "GPT Image 2",
+  "id": "50136e9d-8516-40ca-9496-fb9c751764dc",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_204025_50136e9d-8516-40ca-9496-fb9c751764dc_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "82de402e-1b13-4f99-8ef0-0e814e1b1e47",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/82de402e-1b13-4f99-8ef0-0e814e1b1e47_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "0e2f04a9-8664-4fbe-8a5b-0e7bbe9245b1",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/0e2f04a9-8664-4fbe-8a5b-0e7bbe9245b1_resize.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Close-up on the face and shoulders of Kuku, the small green cut-paper child dragon, in a dawn meadow of tall out-of-focus paper grass; he speaks mid-sentence, mouth open, earnest determined expression. 3D papercraft style, exactly matching the cut-paper character designs in the reference images: layered cut-paper illustration with real depth, soft matte construction-paper textures, visible paper edges, folds and creases, warm storybook palette, soft studio lighting, gentle depth of field, like a lit diorama built from card. Non-photorealistic, made of paper. NO flat single-plane 2D, NO sticker look, NO glossy plastic 3D render, NO photorealism, no text, no letters.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_204025_50136e9d-8516-40ca-9496-fb9c751764dc.png",
+  "status": "completed"
+}

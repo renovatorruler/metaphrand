@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 161,
+ "chunk_id": "chunk_014",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_dd99bce7f10a8a74b416b4bdf1ac9396afeb033e4c066f4b6b7b6633da442da6.mp3",
+ "source_sha256": "c552853f7bf96d20308bbb81e4e7ebd1f9d4f5be3bb3c39bb0961182abde99dc",
+ "source_start": 44.3033431085044,
+ "source_end": 49.00774193548387,
+ "expected_text": "द्वार बहुत दूर है। फिर भी मुझे उसकी छोटी दरार दिख रही है।",
+ "expected_text_sha256": "f7ea3e51ca45f46c6a9b35afd586c8546fa7cfc539ea957f3bffd81d5f22b510",
+ "ctc_evidence_identity": "9aa1242f0239901d7fd5aef2d405f6ee71b7f8117ae17ec638505f5eed3c145a",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/161_55ad85f7ff7d30d6727b6fe8baeef8f5cc33682a120000ccccc690451b04e8bc.whisper.json",
+ "raw_whisper_sha256": "9e4c673ec29355abea79756432e602ebfaf40cdfdda97b466760cdfe80a7383c",
+ "quality": {
+  "expected_words": 13,
+  "observed_words": 13,
+  "matched_words": 13,
+  "coverage": 1,
+  "observed_precision": 1,
+  "mean_similarity": 1,
+  "sequence_score": 1,
+  "average_token_probability": 0.9227253846153846,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 1
+ }
+}

@@ -1,0 +1,23 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1280" viewBox="0 0 1280 1280">
+  <rect width="1280" height="1280" fill="#00ff00"/>
+  <rect x="0" y="0" width="1280" height="110" fill="#17152d" opacity="0.94"/>
+  <rect x="0" y="610" width="1280" height="110" fill="#17152d" opacity="0.94"/>
+  <text x="32" y="31" font-family="Arial, Helvetica, sans-serif" font-size="20"
+        font-weight="700" fill="#f5c95b">STORYBOARD / ZERO-CREDIT CONTINUITY ANIMATIC / NOT FINAL FOOTAGE</text>
+  <text x="32" y="82" font-family="Arial, Helvetica, sans-serif" font-size="40"
+        font-weight="800" fill="white">5  ONE SHARED FINISH PULSE</text>
+  <text x="640" y="691" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="27" font-weight="700" fill="white">One pulse completes all five transformations together.</text>
+  
+  <ellipse cx="640" cy="422" rx="602" ry="240" fill="#ffd466" opacity="0.10"
+           stroke="#fff0a8" stroke-width="15"/>
+  <ellipse cx="640" cy="422" rx="570" ry="208" fill="none" stroke="#ffd466"
+           stroke-width="8" stroke-dasharray="18 13"/>
+  <path d="M145 585 L145 395 M365 585 L365 350 M610 585 L610 415 M835 585 L835 345 M1085 585 L1085 410"
+        fill="none" stroke="#fff0a8" stroke-width="6" stroke-linecap="round" opacity="0.78"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" fill="#fff5cc" text-anchor="middle">
+    <text x="145" y="586">KUKU</text><text x="365" y="586">FURIA</text><text x="610" y="586">VESPER</text>
+    <text x="835" y="586">CASTOR</text><text x="1085" y="586">LEDA</text>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-08-18T20:41:14.6907Z",
+  "display_name": "GPT Image 2",
+  "id": "66922dd7-2a9d-4d64-afd4-0745bf686cdf",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_204114_66922dd7-2a9d-4d64-afd4-0745bf686cdf_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "c1436e49-2720-49c7-99be-3d3e0c539f33",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/c1436e49-2720-49c7-99be-3d3e0c539f33_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "777ac84f-bc26-4e90-9ef7-fa8e1f4858d7",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/777ac84f-bc26-4e90-9ef7-fa8e1f4858d7_resize.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Close-up on the face and shoulders of Castor, the golden-yellow cut-paper child dragon, dawn meadow; he speaks mid-sentence, mouth open, cheerful eager expression. 3D papercraft style, exactly matching the cut-paper character designs in the reference images: layered cut-paper illustration with real depth, soft matte construction-paper textures, visible paper edges, folds and creases, warm storybook palette, soft studio lighting, gentle depth of field, like a lit diorama built from card. Non-photorealistic, made of paper. NO flat single-plane 2D, NO sticker look, NO glossy plastic 3D render, NO photorealism, no text, no letters.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_204114_66922dd7-2a9d-4d64-afd4-0745bf686cdf.png",
+  "status": "completed"
+}

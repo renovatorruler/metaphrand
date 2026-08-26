@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-08-18T20:50:52.075355Z",
+  "display_name": "GPT Image 2",
+  "id": "6058cee8-c061-4c6a-9bae-61e172e1a275",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_205052_6058cee8-c061-4c6a-9bae-61e172e1a275_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "3c9c5e3f-d01d-438b-b33b-f3559b4420ed",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/3c9c5e3f-d01d-438b-b33b-f3559b4420ed_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "cfbfcacd-af92-4f2d-abd9-386f5d0def25",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/cfbfcacd-af92-4f2d-abd9-386f5d0def25_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "aec5cdf2-bddc-43ee-a84d-d507a47f36cf",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/aec5cdf2-bddc-43ee-a84d-d507a47f36cf.png"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "The small green child dragon Kuku exhales a thin stream of golden light that arcs toward his own raised paper claw and dies out halfway, fading to sparks; strain and disappointment on his face; the other four children watch worried; dawn paper meadow. 3D papercraft style, exactly matching the cut-paper character designs in the reference images: layered cut-paper illustration with real depth, soft matte construction-paper textures, visible paper edges, folds and creases, warm storybook palette, soft studio lighting, gentle depth of field, like a lit diorama built from card. Non-photorealistic, made of paper. NO flat single-plane 2D, NO sticker look, NO glossy plastic 3D render, NO photorealism, no text, no letters. EXACTLY FIVE child dragons and no more: one green, one crimson-red, one light-blue, one golden-yellow, one PINK. The pink dragon Leda MUST be present. Never two dragons of the same color.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_205052_6058cee8-c061-4c6a-9bae-61e172e1a275.png",
+  "status": "completed"
+}

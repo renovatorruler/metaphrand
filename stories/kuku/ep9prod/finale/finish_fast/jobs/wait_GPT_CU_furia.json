@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-08-17T13:59:53.123155Z",
+  "display_name": "GPT Image 2",
+  "id": "b20b0526-23f0-4fdf-a33a-4d4765ad045c",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260817_135953_b20b0526-23f0-4fdf-a33a-4d4765ad045c_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "80d848b5-eba0-4e82-9327-5e419ee5dd92",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/80d848b5-eba0-4e82-9327-5e419ee5dd92.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Close-up on the face and shoulders of Furia, the small CRIMSON-RED child dragon from the reference image, in a dawn meadow with out-of-focus grass. She speaks mid-sentence, mouth open, bold confident expression, facing slightly camera-right. Exactly the characters shown in the reference images, same colors and proportions. Soft dimensional 3D render, warm sunrise light, gentle depth of field, glossy toy-like materials, children's animated film quality. Absolutely no flat 2D illustration, no paper-cutout look, no painterly outlines, no text.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260817_135953_b20b0526-23f0-4fdf-a33a-4d4765ad045c.png",
+  "status": "completed"
+}

@@ -1,0 +1,351 @@
+{
+ "stem": "../stories/kuku/ep9prod/coldopen/audio/out/EP9_COLD_OPEN_SFX_STEM_1ca181c0f5a7.wav",
+ "picture_preview": "../stories/kuku/ep9prod/coldopen/out/KUKU_EP9_COLD_OPEN_SFX_PREVIEW_1ca181c0f5a7.mp4",
+ "stem_duration_seconds": 120,
+ "picture_duration_seconds": 120,
+ "status": "effects-only review; combines repository effects with four purpose-built generated fire assets; no dialogue and no final score",
+ "generated_effect_provenance": "Higgsfield Seed Audio 1.0 generation receipts and hashes are required beside the four generated assets",
+ "mix_config": "frame-audited-cues|per-cue-filter-and-gain|amix-raw|master-volume-0.70|limiter-0.85|stereo-44100-wav-v3",
+ "sound_cues": [
+  {
+   "id": "S01",
+   "action_marker": "OPENING",
+   "at_seconds": 0,
+   "asset": "../stories/kuku/ep8prod/sfx/mountain_wind_high.mp3",
+   "gain": 0.18,
+   "filter": "highpass=f=90:width_type=o:width=1",
+   "bus": "ambience",
+   "purpose": "high city wind and distance"
+  },
+  {
+   "id": "S02",
+   "action_marker": "OPENING",
+   "at_seconds": 0.35,
+   "asset": "../stories/kuku/ep8prod/sfx/wingbeat_huge.mp3",
+   "gain": 0.58,
+   "filter": "lowpass=f=6500",
+   "bus": "action",
+   "purpose": "attackers descend into the siege"
+  },
+  {
+   "id": "S03",
+   "action_marker": "CITY_RAIDER_FIRE",
+   "at_seconds": 1.542,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/ash-crack-raider-black-fire.wav",
+   "gain": 0.74,
+   "filter": "atrim=start=1.10:end=3.60,asetpts=PTS-STARTPTS,highpass=f=45",
+   "bus": "fire",
+   "purpose": "release-aligned coarse raider fire over the city"
+  },
+  {
+   "id": "S04",
+   "action_marker": "BRIDGE_RAIDER_FIRE_RELEASE",
+   "at_seconds": 10.375,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/ash-crack-raider-black-fire.wav",
+   "gain": 0.68,
+   "filter": "atrim=start=1.10:end=3.60,asetpts=PTS-STARTPTS,asetrate=44100*0.94,aresample=44100,highpass=f=45,afade=t=out:st=2.35:d=0.25",
+   "bus": "fire",
+   "purpose": "release-aligned lower-pitched raider fire beside fleeing families"
+  },
+  {
+   "id": "S05",
+   "action_marker": "FYURIA_REVEAL",
+   "at_seconds": 12.65,
+   "asset": "../stories/kuku/ep8prod/sfx/wingbeat_huge.mp3",
+   "gain": 0.66,
+   "filter": "lowpass=f=7000",
+   "bus": "action",
+   "purpose": "adult Fyuria reveal"
+  },
+  {
+   "id": "S05B",
+   "action_marker": "RAIDER_BARRAGE_ENTERS",
+   "at_seconds": 27.1,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/ash-crack-raider-black-fire.wav",
+   "gain": 0.58,
+   "filter": "atrim=start=1.10:end=3.60,asetpts=PTS-STARTPTS,asetrate=44100*1.06,aresample=44100,highpass=f=55,afade=t=out:st=2.1:d=0.3",
+   "bus": "fire",
+   "purpose": "release-aligned incoming raider fireball barrage"
+  },
+  {
+   "id": "S06",
+   "action_marker": "FYURIA_FIRE_SPLIT",
+   "at_seconds": 29.25,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/fyuria-controlled-fire.wav",
+   "gain": 0.82,
+   "filter": "atrim=start=0.60:end=3.80,asetpts=PTS-STARTPTS,highpass=f=55,afade=t=out:st=2.9:d=0.3",
+   "bus": "fire",
+   "purpose": "release-aligned Fyuria controlled fire jet"
+  },
+  {
+   "id": "S07",
+   "action_marker": "COMMANDER_FIRE_CLASH_ONE",
+   "at_seconds": 40.083,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/commander-black-fire.wav",
+   "gain": 0.78,
+   "filter": "atrim=start=0.65:end=3.35,asetpts=PTS-STARTPTS,highpass=f=40,afade=t=out:st=2.4:d=0.3",
+   "bus": "fire",
+   "purpose": "release-aligned commander pressure-blast against Fyuria"
+  },
+  {
+   "id": "S08",
+   "action_marker": "FYURIA_FIRE_CLASH_ONE",
+   "at_seconds": 40.292,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/fyuria-controlled-fire.wav",
+   "gain": 0.64,
+   "filter": "atrim=start=0.60:end=3.40,asetpts=PTS-STARTPTS,highpass=f=65",
+   "bus": "fire",
+   "purpose": "release-aligned Fyuria counter-fire"
+  },
+  {
+   "id": "S09",
+   "action_marker": "COMMANDER_FIRE_CLASH_TWO",
+   "at_seconds": 44.083,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/commander-black-fire.wav",
+   "gain": 0.8,
+   "filter": "atrim=start=0.65:end=3.35,asetpts=PTS-STARTPTS,highpass=f=40,afade=t=out:st=2.4:d=0.3",
+   "bus": "fire",
+   "purpose": "release-aligned commander second blast"
+  },
+  {
+   "id": "S10",
+   "action_marker": "FYURIA_FIRE_CLASH_TWO",
+   "at_seconds": 44,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/fyuria-controlled-fire.wav",
+   "gain": 0.68,
+   "filter": "atrim=start=0.60:end=3.80,asetpts=PTS-STARTPTS,highpass=f=65",
+   "bus": "fire",
+   "purpose": "release-aligned Fyuria controlled counter-breath"
+  },
+  {
+   "id": "S11",
+   "action_marker": "MAIN_PIN_RELEASE",
+   "at_seconds": 48.083,
+   "asset": "../stories/kuku/ep5prod/sfx/crack_kadak.mp3",
+   "gain": 0.88,
+   "filter": "highpass=f=65",
+   "bus": "action",
+   "purpose": "main support pin releases"
+  },
+  {
+   "id": "S12",
+   "action_marker": "RELEASED_BEAM_SPLASH",
+   "at_seconds": 49.4,
+   "asset": "../stories/kuku/ep5prod/sfx/deck_tighten.mp3",
+   "gain": 0.54,
+   "filter": "areverse,lowpass=f=5000,atrim=0:1.5",
+   "bus": "action",
+   "purpose": "released beam and debris strike the river"
+  },
+  {
+   "id": "S13",
+   "action_marker": "FYURIA_CATCHES_BRIDGE",
+   "at_seconds": 50.417,
+   "asset": "../stories/kuku/ep5prod/sfx/rope_creak.mp3",
+   "gain": 0.68,
+   "filter": "lowpass=f=5500",
+   "bus": "action",
+   "purpose": "Fyuria catches the bridge under strain"
+  },
+  {
+   "id": "S14",
+   "action_marker": "VESPER_CURRENT_PREREVEAL",
+   "at_seconds": 55.458,
+   "asset": "../stories/kuku/ep8prod/sfx/tail_whoosh_miss.mp3",
+   "gain": 0.55,
+   "filter": "highpass=f=120",
+   "bus": "power",
+   "purpose": "Vesper's clean fast air turn leads his reveal"
+  },
+  {
+   "id": "S15",
+   "action_marker": "VESPER_CURRENT_REVEAL",
+   "at_seconds": 56.5,
+   "asset": "../stories/kuku/ep5prod/sfx/wind_gust.mp3",
+   "gain": 0.34,
+   "filter": "highpass=f=140:width_type=o:width=1,lowpass=f=6500",
+   "bus": "power",
+   "purpose": "Vesper's sustained blue current"
+  },
+  {
+   "id": "S16",
+   "action_marker": "RAIDER_FIRES_AT_VESPER",
+   "at_seconds": 59.833,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/ash-crack-raider-black-fire.wav",
+   "gain": 0.62,
+   "filter": "atrim=start=1.10:end=3.60,asetpts=PTS-STARTPTS,asetrate=44100*1.04,aresample=44100",
+   "bus": "fire",
+   "purpose": "release-aligned raider fire drawn into Vesper's current"
+  },
+  {
+   "id": "S17",
+   "action_marker": "CURRENT_BRIDGE_LOAD_EDITORIAL",
+   "at_seconds": 70.2,
+   "asset": "../stories/kuku/ep6prod/sfx/stream_bridge_ropes.mp3",
+   "gain": 0.36,
+   "filter": "highpass=f=75,lowpass=f=5500",
+   "bus": "action",
+   "purpose": "editorial air, river and bridge-load continuity cue"
+  },
+  {
+   "id": "S18",
+   "action_marker": "LEDA_CASTOR_ARRIVE",
+   "at_seconds": 71,
+   "asset": "../stories/kuku/ep8prod/sfx/wingbeat_huge.mp3",
+   "gain": 0.5,
+   "filter": "lowpass=f=6500,atrim=0:2.6",
+   "bus": "action",
+   "purpose": "Leda and Castor arrive"
+  },
+  {
+   "id": "S19",
+   "action_marker": "LEDA_FINDS_PIN",
+   "at_seconds": 75,
+   "asset": "../stories/kuku/ep8prod/sfx/glint_chime.mp3",
+   "gain": 0.38,
+   "filter": "highpass=f=450,atrim=0:1.1",
+   "bus": "power",
+   "purpose": "Leda precisely identifies the hidden pin"
+  },
+  {
+   "id": "S20",
+   "action_marker": "CASTOR_SHRINKS",
+   "at_seconds": 79.6,
+   "asset": "../stories/kuku/ep8prod/sfx/tail_whoosh_miss.mp3",
+   "gain": 0.42,
+   "filter": "areverse,atempo=1.35,highpass=f=180,atrim=0:1.5",
+   "bus": "power",
+   "purpose": "Castor compresses inward while shrinking"
+  },
+  {
+   "id": "S21",
+   "action_marker": "CASTOR_REGROWS",
+   "at_seconds": 83.833,
+   "asset": "../stories/kuku/ep5prod/sfx/two_foot_thud.mp3",
+   "gain": 0.58,
+   "filter": "lowpass=f=3500",
+   "bus": "power",
+   "purpose": "Castor regrows against the mechanism"
+  },
+  {
+   "id": "S21B",
+   "action_marker": "CASTOR_BRACES_BAR",
+   "at_seconds": 85,
+   "asset": "../stories/kuku/ep5prod/sfx/rope_creak.mp3",
+   "gain": 0.38,
+   "filter": "lowpass=f=3500,atrim=0:1.5",
+   "bus": "action",
+   "purpose": "Castor braces the bar under load"
+  },
+  {
+   "id": "S22",
+   "action_marker": "PIN_LOCK_EDITORIAL",
+   "at_seconds": 86.4,
+   "asset": "../stories/kuku/ep5prod/sfx/letter_lock_stone.mp3",
+   "gain": 0.82,
+   "filter": "highpass=f=45,atrim=0:2.1",
+   "bus": "action",
+   "purpose": "editorial metal-and-stone lock resolution"
+  },
+  {
+   "id": "S23",
+   "action_marker": "BRIDGE_RESOLVED_CUT",
+   "at_seconds": 87,
+   "asset": "../stories/kuku/ep5prod/sfx/deck_tighten.mp3",
+   "gain": 0.52,
+   "filter": "lowpass=f=6000",
+   "bus": "action",
+   "purpose": "resolved bridge deck settles on the cut"
+  },
+  {
+   "id": "S24",
+   "action_marker": "FAMILIES_RESUME_CROSSING",
+   "at_seconds": 88.292,
+   "asset": "../stories/kuku/ep5prod/sfx/run_planks.mp3",
+   "gain": 0.34,
+   "filter": "highpass=f=80",
+   "bus": "action",
+   "purpose": "families visibly resume crossing"
+  },
+  {
+   "id": "S25",
+   "action_marker": "KUKU_SHIELD_CHARGE",
+   "at_seconds": 94,
+   "asset": "../stories/kuku/ep8prod/sfx/sparks_forge.mp3",
+   "gain": 0.56,
+   "filter": "highpass=f=110",
+   "bus": "power",
+   "purpose": "Kuku's warm golden breath charges and knits the glyph"
+  },
+  {
+   "id": "S26",
+   "action_marker": "KUKU_SHIELD_SOLID",
+   "at_seconds": 98.375,
+   "asset": "../stories/kuku/ep6prod/sfx/forge_whoosh_land.mp3",
+   "gain": 0.42,
+   "filter": "atrim=0.9:4.2,asetpts=PTS-STARTPTS",
+   "bus": "power",
+   "purpose": "the golden glyph becomes a solid shield"
+  },
+  {
+   "id": "S27",
+   "action_marker": "COMMANDER_BREATHES_AT_SHIELD",
+   "at_seconds": 103.75,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/commander-black-fire.wav",
+   "gain": 0.84,
+   "filter": "atrim=start=0.65:end=3.35,asetpts=PTS-STARTPTS,highpass=f=40,afade=t=out:st=2.4:d=0.3",
+   "bus": "fire",
+   "purpose": "release-aligned commander black-fire breath at the shield"
+  },
+  {
+   "id": "S28",
+   "action_marker": "BLACK_FIRE_HITS_SHIELD",
+   "at_seconds": 104,
+   "asset": "../stories/kuku/ep9prod/coldopen/audio/sfx/black-fire-golden-shield-impact.wav",
+   "gain": 0.88,
+   "filter": "atrim=start=0:end=4.65,asetpts=PTS-STARTPTS,highpass=f=45,afade=t=out:st=4.25:d=0.40",
+   "bus": "action",
+   "purpose": "single black-fire impact splits around Kuku's golden shield"
+  },
+  {
+   "id": "S29",
+   "action_marker": "LARGER_ENEMY_SHADOW",
+   "at_seconds": 109.667,
+   "asset": "../stories/kuku/ep8prod/sfx/wingbeat_huge.mp3",
+   "gain": 0.55,
+   "filter": "asetrate=44100*0.84,aresample=44100,lowpass=f=3000",
+   "bus": "action",
+   "purpose": "larger enemy shadow displaces the air"
+  },
+  {
+   "id": "S30",
+   "action_marker": "BEDROOM_CUT",
+   "at_seconds": 113,
+   "asset": "../stories/kuku/ep4prod/sfx/hush_room.mp3",
+   "gain": 0.18,
+   "filter": "lowpass=f=7000",
+   "bus": "ambience",
+   "purpose": "hard cut to bedroom room tone"
+  },
+  {
+   "id": "S31",
+   "action_marker": "BEDROOM_CUT",
+   "at_seconds": 113.5,
+   "asset": "../stories/kuku/ep4prod/sfx/towel_soft.mp3",
+   "gain": 0.25,
+   "filter": "highpass=f=90",
+   "bus": "action",
+   "purpose": "blanket and Dadi movement"
+  },
+  {
+   "id": "S32",
+   "action_marker": "BEDROOM_CUT",
+   "at_seconds": 116,
+   "asset": "../stories/kuku/ep5prod/sfx/snore_soft_boy.mp3",
+   "gain": 0.1,
+   "filter": "lowpass=f=4500",
+   "bus": "ambience",
+   "purpose": "sleeping Vesper remains nearby"
+  }
+ ]
+}

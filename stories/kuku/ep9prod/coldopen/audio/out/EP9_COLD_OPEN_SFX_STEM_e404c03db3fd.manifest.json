@@ -1,0 +1,157 @@
+{
+ "stem": "../stories/kuku/ep9prod/coldopen/audio/out/EP9_COLD_OPEN_SFX_STEM_e404c03db3fd.wav",
+ "picture_preview": "../stories/kuku/ep9prod/coldopen/out/KUKU_EP9_COLD_OPEN_SFX_PREVIEW_e404c03db3fd.mp4",
+ "stem_duration_seconds": 120,
+ "picture_duration_seconds": 120,
+ "status": "reused effects only; no dialogue and no final score",
+ "mix_config": "gain-per-cue|amix-raw|master-volume-0.50|limiter-0.70|stereo-44100-wav-v2",
+ "sound_cues": [
+  {
+   "id": "S01",
+   "at_seconds": 0,
+   "asset": "../stories/kuku/ep8prod/sfx/mountain_wind_high.mp3",
+   "gain": 0.22,
+   "purpose": "high city wind and distance"
+  },
+  {
+   "id": "S02",
+   "at_seconds": 1,
+   "asset": "../stories/kuku/ep8prod/sfx/wingbeat_huge.mp3",
+   "gain": 0.6,
+   "purpose": "attacker descent"
+  },
+  {
+   "id": "S03",
+   "at_seconds": 5.7,
+   "asset": "../stories/kuku/ep8prod/sfx/shadow_pass.mp3",
+   "gain": 0.55,
+   "purpose": "raider beneath the bridge"
+  },
+  {
+   "id": "S04",
+   "at_seconds": 12.4,
+   "asset": "../stories/kuku/ep8prod/sfx/wingbeat_huge.mp3",
+   "gain": 0.72,
+   "purpose": "adult Fyuria reveal"
+  },
+  {
+   "id": "S05",
+   "at_seconds": 26.8,
+   "asset": "../stories/kuku/ep8prod/sfx/sparks_scatter.mp3",
+   "gain": 0.58,
+   "purpose": "controlled fire ignites"
+  },
+  {
+   "id": "S06",
+   "at_seconds": 41,
+   "asset": "../stories/kuku/ep5prod/sfx/wind_gust.mp3",
+   "gain": 0.56,
+   "purpose": "second blast deflected over water"
+  },
+  {
+   "id": "S07",
+   "at_seconds": 48.7,
+   "asset": "../stories/kuku/ep5prod/sfx/crack_kadak.mp3",
+   "gain": 0.9,
+   "purpose": "main pin is pulled"
+  },
+  {
+   "id": "S08",
+   "at_seconds": 49.4,
+   "asset": "../stories/kuku/ep5prod/sfx/bridge_collapse.mp3",
+   "gain": 0.72,
+   "purpose": "bridge pitches downward"
+  },
+  {
+   "id": "S09",
+   "at_seconds": 50.1,
+   "asset": "../stories/kuku/ep5prod/sfx/rope_creak.mp3",
+   "gain": 0.7,
+   "purpose": "Fyuria catches the bridge"
+  },
+  {
+   "id": "S10",
+   "at_seconds": 56,
+   "asset": "../stories/kuku/ep5prod/sfx/wind_gust.mp3",
+   "gain": 0.45,
+   "purpose": "Vesper's blue current arrives"
+  },
+  {
+   "id": "S11",
+   "at_seconds": 70.2,
+   "asset": "../stories/kuku/ep6prod/sfx/stream_bridge_ropes.mp3",
+   "gain": 0.42,
+   "purpose": "air current takes half the bridge weight"
+  },
+  {
+   "id": "S12",
+   "at_seconds": 70.8,
+   "asset": "../stories/kuku/ep8prod/sfx/wingbeat_huge.mp3",
+   "gain": 0.62,
+   "purpose": "Leda and Castor arrive"
+  },
+  {
+   "id": "S13",
+   "at_seconds": 84,
+   "asset": "../stories/kuku/ep5prod/sfx/rope_creak.mp3",
+   "gain": 0.6,
+   "purpose": "pin and chain under strain"
+  },
+  {
+   "id": "S14",
+   "at_seconds": 86.4,
+   "asset": "../stories/kuku/ep8prod/sfx/plank_khat.mp3",
+   "gain": 0.9,
+   "purpose": "mechanism locks"
+  },
+  {
+   "id": "S15",
+   "at_seconds": 87,
+   "asset": "../stories/kuku/ep5prod/sfx/run_planks.mp3",
+   "gain": 0.42,
+   "purpose": "families resume crossing"
+  },
+  {
+   "id": "S16",
+   "at_seconds": 93.4,
+   "asset": "../stories/kuku/ep6prod/sfx/chime_act.mp3",
+   "gain": 0.52,
+   "purpose": "golden ka shield forms"
+  },
+  {
+   "id": "S17",
+   "at_seconds": 94,
+   "asset": "../stories/kuku/ep8prod/sfx/sparks_scatter.mp3",
+   "gain": 0.68,
+   "purpose": "black fire strikes the shield"
+  },
+  {
+   "id": "S18",
+   "at_seconds": 105.8,
+   "asset": "../stories/kuku/ep8prod/sfx/shadow_pass.mp3",
+   "gain": 0.55,
+   "purpose": "larger enemy shadow"
+  },
+  {
+   "id": "S19",
+   "at_seconds": 113,
+   "asset": "../stories/kuku/ep4prod/sfx/hush_room.mp3",
+   "gain": 0.2,
+   "purpose": "hard cut to bedroom room tone"
+  },
+  {
+   "id": "S20",
+   "at_seconds": 113.5,
+   "asset": "../stories/kuku/ep4prod/sfx/towel_soft.mp3",
+   "gain": 0.28,
+   "purpose": "blanket and Dadi movement"
+  },
+  {
+   "id": "S21",
+   "at_seconds": 116,
+   "asset": "../stories/kuku/ep5prod/sfx/snore_soft_boy.mp3",
+   "gain": 0.12,
+   "purpose": "sleeping Vesper remains nearby"
+  }
+ ]
+}

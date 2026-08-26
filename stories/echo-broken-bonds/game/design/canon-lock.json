@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-08-05",
+  "project": "Echo and the Broken Bonds",
+  "standalone": true,
+  "authority_rule": "The four 2026-08-03 story files are binding canon. The 2026-08-05 playable specification governs implementation only where it does not conflict with those four files. Any changed byte requires a new canon lock and resets planning/build/critic streaks.",
+  "files": [
+    {
+      "authority": "binding_canon",
+      "path": "/Users/dusty/Dev/metaphrand/stories/echo-broken-bonds/2026-08-03_SERIES_PREMISE_v1.md",
+      "size_bytes": 5658,
+      "sha256": "9ca7a707bd0691c69256bc3a8e9677781cddee6740d68ffeefe7d4ce2be1aef8"
+    },
+    {
+      "authority": "binding_canon",
+      "path": "/Users/dusty/Dev/metaphrand/stories/echo-broken-bonds/2026-08-03_CHARACTER_BIBLE_v1.md",
+      "size_bytes": 28549,
+      "sha256": "88bf2f9f7aab816b52f485487d436f52ed94fbdf4635fcb41e11e625c9111cb3"
+    },
+    {
+      "authority": "binding_canon",
+      "path": "/Users/dusty/Dev/metaphrand/stories/echo-broken-bonds/2026-08-03_SEASON_ONE_ARC_v1.md",
+      "size_bytes": 30986,
+      "sha256": "02c9a14cdde34a424328a5498f9c249800a0469aa50de000fadc5196a1742b0f"
+    },
+    {
+      "authority": "binding_canon",
+      "path": "/Users/dusty/Dev/metaphrand/stories/echo-broken-bonds/2026-08-03_EPISODE_01_NO_PLACE_FOR_ECHO_v1.md",
+      "size_bytes": 81817,
+      "sha256": "f02dd5221265ae0cfdc526648c537eef18490acdf0c25fde34c0e99b2cc785e2"
+    },
+    {
+      "authority": "implementation_spec_below_canon",
+      "path": "/Users/dusty/Dev/metaphrand/stories/echo-broken-bonds/2026-08-05_PLAYABLE_TRAM_RESCUE_PROTOTYPE_SPEC_v1.md",
+      "size_bytes": 63968,
+      "sha256": "a1ef2487651e541b3d0188f4b2e29c670608db08be5e57b8ac945bc71ccc4c3a"
+    }
+  ]
+}

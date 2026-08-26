@@ -1,0 +1,3934 @@
+{
+  "schema": "metaphrand-vakyansh-alignment-v1",
+  "tool_version": "metaphrand-vakyansh-aligner-v1",
+  "job_schema": "metaphrand-vakyansh-job-v1",
+  "job_sha256": "799b66d7366195dadcb4a0ef3416df1dadf63d07e3c00185af417537cd34ac8b",
+  "chunk_id": "chunk_024",
+  "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_2f7afdacb8ccc9ec9f2b800e6434ed843927b769cf910397439ee92000bf94fe.mp3",
+  "source_sha256": "9309e2a481d27aa4fe3970444bbb59d3910a305842b0a7977a9ae6a434750e6a",
+  "transcript_sha256": "361f972baa937496258244380658e5a5270ef00623de56cab3637d8705263b71",
+  "source_plan_sha256": "49a39f0f3708e012a32951d482454f4cb807008082f1492724f3d45fb58756c7",
+  "source_manifest_sha256": "fd59a4e9b4d6b096bc533e023a2110fa676e28a581ff36faa8bf4f043bd4512d",
+  "tool_sha256": "429e6f1d67d598f44b16fd2d4c432300cebb8307840f1e7e5b201c28fc811779",
+  "config": "vakyansh-hindi-him-4200-quant|torch=2.8.0|torchaudio=2.8.0|qnnpack|pcm16-mono-16khz|core=20|context=3|ctc-blank=0|separator=4",
+  "normalized_wav_sha256": "4c2e0d94033f1689cb107598c4b48d8d223ca014981d2c4142c5dfe0d9f44ec7",
+  "model_sha256": "91cebcf2ecb61f8676878abc20ba2e86053e8269d8bcbf2f0f794a9dce9eaa72",
+  "model_size_bytes": 121631617,
+  "vocab_sha256": "817609988bc99a7a3ef238472309ee284768b7d171f75a0b183d0d8c5e83b4bd",
+  "vocab_size_bytes": 729,
+  "license": "MIT",
+  "torch_version": "2.8.0",
+  "torchaudio_version": "2.8.0",
+  "quantized_engine": "qnnpack",
+  "device": "cpu",
+  "sample_rate": 16000,
+  "sample_count": 1728000,
+  "duration_seconds": 108.0,
+  "window_core_seconds": 20,
+  "window_context_seconds": 3,
+  "emission_frames": 5394,
+  "emission_classes": 67,
+  "seconds_per_frame": 0.020022246941045607,
+  "blank_token_id": 0,
+  "separator_token_id": 4,
+  "load_seconds": 0.08139899931848049,
+  "inference_seconds": 3.4492605831474066,
+  "alignment_seconds": 0.03367524966597557,
+  "greedy_transcript": "दृश्य दस बहदादी का न गुरुुल ा द्वार औ ष गरुकुल ददी तन तस्वीरे उाती ह  तस्वीर उी टना की है जो अभी हुईबकरी ब से शुरू हती है ाीतरनीचे रखतीऔरतो उसे सही दिशा देना और भी जरूरी ोता हैौी चार बच्चों से थोड़ा दूर जाती ै कुकू फ्यूरिया वास्पर और कै्टर अपने छोटे रूप में रहते हैीडा अपना कड़ा छती है उसकी अपनी सुनहरी लहरोती है वो अकेले अपना पूरा विशाल ह्का बैंगनी रूप लेती है बाकी चार अब भी छोटे हैं मेरा कड़ा मेरी बात सुनता है लेडा तुम खुद बड़ी हो गई हो अब मैं अपना कड़ा जगाती हूं ब मैं भी अपना कड़ा खुद जगाऊंगा ब मैं भी खुद बड़ा बनूंगा ब अब हम साथ चलेंगकालू पांचों की ओर भौगता है और दादी के पास ही रहता है तानसेन हू बहू कुकू की पहले कही आवाज में ",
+  "segments": [
+    {
+      "order": 295,
+      "text": "दृश्य 10 — बाहर: दादी का आँगन, गुरुकुल का द्वार और अक्षर गुरुकुल — साँझ",
+      "expected_words": 13,
+      "start": 0.14015572858731926,
+      "end": 7.047830923248053,
+      "duration": 6.907675194660734,
+      "mean_character_probability": 0.5416866916285156,
+      "minimum_character_probability": 0.008574217592162665
+    },
+    {
+      "order": 296,
+      "text": "दादी तीन तस्वीरें उठाती हैं। हर तस्वीर उसी घटना की है जो अभी हुई।",
+      "expected_words": 14,
+      "start": 8.309232480533927,
+      "end": 13.655172413793103,
+      "duration": 5.345939933259176,
+      "mean_character_probability": 0.583978938020156,
+      "minimum_character_probability": 0.13573664260333068
+    },
+    {
+      "order": 297,
+      "text": "बच्चा ब से शुरू होता है।",
+      "expected_words": 6,
+      "start": 14.89655172413793,
+      "end": 16.978865406006673,
+      "duration": 2.082313681868742,
+      "mean_character_probability": 0.04053795386725296,
+      "minimum_character_probability": 0.018971706206913075
+    },
+    {
+      "order": 298,
+      "text": "बादल ब से शुरू होता है।",
+      "expected_words": 6,
+      "start": 17.699666295884317,
+      "end": 19.78197997775306,
+      "duration": 2.0823136818687438,
+      "mean_character_probability": 0.049296947338796644,
+      "minimum_character_probability": 0.015102003869572018
+    },
+    {
+      "order": 299,
+      "text": "बकरी ब से शुरू होती है।",
+      "expected_words": 6,
+      "start": 20.582869855394883,
+      "end": 22.765294771968854,
+      "duration": 2.1824249165739715,
+      "mean_character_probability": 0.8447779999203895,
+      "minimum_character_probability": 0.4506964400990594
+    },
+    {
+      "order": 300,
+      "text": "दादी चित्र नीचे रखती हैं और पाँचों बच्चों की ओर देखती हैं।",
+      "expected_words": 12,
+      "start": 23.64627363737486,
+      "end": 27.530589543937708,
+      "duration": 3.884315906562847,
+      "mean_character_probability": 0.39261512628396017,
+      "minimum_character_probability": 0.005442752025539074
+    },
+    {
+      "order": 301,
+      "text": "ताक़त बड़ी हो, तो उसे सही दिशा देना और भी ज़रूरी होता है।",
+      "expected_words": 13,
+      "start": 28.832035595105673,
+      "end": 33.73748609566184,
+      "duration": 4.905450500556171,
+      "mean_character_probability": 0.6107862162175055,
+      "minimum_character_probability": 0.00031874965444279483
+    },
+    {
+      "order": 302,
+      "text": "घर लौटने वाली सुनहरी डोरी बड़े फाटक से बँधी है। लेडा बाकी चार बच्चों से थोड़ा दूर जाती है। कुकु, फ्यूरिया, वैस्पर और कैस्टर अपने छोटे रूप में रहते हैं।",
+      "expected_words": 30,
+      "start": 34.938820912124584,
+      "end": 47.632925472747495,
+      "duration": 12.694104560622911,
+      "mean_character_probability": 0.5907306615429581,
+      "minimum_character_probability": 0.00048228870075624143
+    },
+    {
+      "order": 303,
+      "text": "मैं अपना कड़ा खुद जगाऊँगी। ब!",
+      "expected_words": 6,
+      "start": 48.93437152391546,
+      "end": 51.256952169076754,
+      "duration": 2.3225806451612954,
+      "mean_character_probability": 0.018032375499912875,
+      "minimum_character_probability": 0.00211783177545085
+    },
+    {
+      "order": 304,
+      "text": "लेडा अपना कड़ा छूती है। उसकी अपनी सुनहरी लहर उठती है। वह अकेले अपना पूरा विशाल हल्का-बैंगनी रूप लेती है। बाकी चार अब भी छोटे हैं।",
+      "expected_words": 27,
+      "start": 52.49833147942158,
+      "end": 63.770856507230256,
+      "duration": 11.272525027808676,
+      "mean_character_probability": 0.7858788897678353,
+      "minimum_character_probability": 0.0001858667006324482
+    },
+    {
+      "order": 305,
+      "text": "मेरा कड़ा मेरी बात सुनता है।",
+      "expected_words": 6,
+      "start": 64.85205784204672,
+      "end": 67.0344827586207,
+      "duration": 2.1824249165739786,
+      "mean_character_probability": 0.8643218864097879,
+      "minimum_character_probability": 0.6703889066203447
+    },
+    {
+      "order": 306,
+      "text": "लेडा, तुम खुद बड़ी हो गई हो!",
+      "expected_words": 7,
+      "start": 67.85539488320356,
+      "end": 69.75750834260289,
+      "duration": 1.902113459399331,
+      "mean_character_probability": 0.8574456656218254,
+      "minimum_character_probability": 0.47998333161673273
+    },
+    {
+      "order": 307,
+      "text": "अब मैं अपना कड़ा जगाती हूँ। ब!",
+      "expected_words": 7,
+      "start": 70.75862068965517,
+      "end": 72.28031145717463,
+      "duration": 1.521690767519459,
+      "mean_character_probability": 0.7945362256721072,
+      "minimum_character_probability": 0.022703468910360777
+    },
+    {
+      "order": 308,
+      "text": "मैं भी अपना कड़ा खुद जगाऊँगा। ब!",
+      "expected_words": 7,
+      "start": 73.4015572858732,
+      "end": 75.08342602892102,
+      "duration": 1.6818687430478292,
+      "mean_character_probability": 0.693334845915273,
+      "minimum_character_probability": 0.00298737069477504
+    },
+    {
+      "order": 309,
+      "text": "मैं भी खुद बड़ा बनूँगा। ब!",
+      "expected_words": 6,
+      "start": 76.22469410456063,
+      "end": 77.74638487208009,
+      "duration": 1.521690767519459,
+      "mean_character_probability": 0.7533614974850044,
+      "minimum_character_probability": 0.005426157033967317
+    },
+    {
+      "order": 310,
+      "text": "अब हम साथ चलेंगे। ब!",
+      "expected_words": 5,
+      "start": 78.92769744160178,
+      "end": 80.22914349276975,
+      "duration": 1.3014460511679715,
+      "mean_character_probability": 0.5036192589619873,
+      "minimum_character_probability": 0.00014357653080061106
+    },
+    {
+      "order": 311,
+      "text": "चार अलग सुनहरी लहरें उठती हैं। फ्यूरिया, वैस्पर, कैस्टर और कुकु अपनी-अपनी शक्ति से विशाल रूप लेते हैं। अब पाँचों फिर बड़े ड्रैगन हैं।",
+      "expected_words": 25,
+      "start": 81.23025583982202,
+      "end": 92.58286985539489,
+      "duration": 11.352614015572868,
+      "mean_character_probability": 0.06249931344408465,
+      "minimum_character_probability": 2.8993617752108373e-05
+    },
+    {
+      "order": 312,
+      "text": "कालू दादी के पास बैठा है।",
+      "expected_words": 6,
+      "start": 93.74416017797553,
+      "end": 95.56618464961068,
+      "duration": 1.822024471635146,
+      "mean_character_probability": 0.06290042392019375,
+      "minimum_character_probability": 0.038847234040423166
+    },
+    {
+      "order": 313,
+      "text": "तुम मेरे साथ रहोगे। वे वापस आएँगे।",
+      "expected_words": 7,
+      "start": 96.32703003337042,
+      "end": 98.96996662958843,
+      "duration": 2.642936596218007,
+      "mean_character_probability": 0.07357480686875437,
+      "minimum_character_probability": 0.002031698661760456
+    },
+    {
+      "order": 314,
+      "text": "कालू पाँचों की ओर भौंकता है और दादी के पास ही रहता है।",
+      "expected_words": 13,
+      "start": 100.0111234705228,
+      "end": 103.83537263626252,
+      "duration": 3.8242491657397153,
+      "mean_character_probability": 0.8365654814171046,
+      "minimum_character_probability": 0.0574862347814376
+    },
+    {
+      "order": 315,
+      "text": "तानसेन—हूबहू कुकु की पहले कही आवाज़ में।",
+      "expected_words": 8,
+      "start": 104.73637374860957,
+      "end": 107.93993325917687,
+      "duration": 3.2035595105673025,
+      "mean_character_probability": 0.7607475640204988,
+      "minimum_character_probability": 0.065123589395171
+    }
+  ],
+  "words": [
+    {
+      "order": 295,
+      "text": "दृश्य",
+      "acoustic_text": "दृश्य",
+      "start": 0.14015572858731926,
+      "end": 0.46051167964404893,
+      "probability": 0.9779135680241867,
+      "minimum_character_probability": 0.9292632466215204,
+      "character_count": 5
+    },
+    {
+      "order": 295,
+      "text": "10",
+      "acoustic_text": "दस",
+      "start": 0.6206896551724138,
+      "end": 0.8209121245828699,
+      "probability": 0.9698807029796214,
+      "minimum_character_probability": 0.9599368690049651,
+      "character_count": 2
+    },
+    {
+      "order": 295,
+      "text": "बाहर",
+      "acoustic_text": "बाहर",
+      "start": 1.5216907675194662,
+      "end": 1.882091212458287,
+      "probability": 0.44129079539770133,
+      "minimum_character_probability": 0.18846155032595302,
+      "character_count": 4
+    },
+    {
+      "order": 295,
+      "text": "दादी",
+      "acoustic_text": "दादी",
+      "start": 2.5828698553948835,
+      "end": 2.843159065628476,
+      "probability": 0.5931793486026893,
+      "minimum_character_probability": 0.5068128523595731,
+      "character_count": 4
+    },
+    {
+      "order": 295,
+      "text": "का",
+      "acoustic_text": "का",
+      "start": 2.9232480533926584,
+      "end": 3.0433815350389324,
+      "probability": 0.5651740539533727,
+      "minimum_character_probability": 0.5221370925730067,
+      "character_count": 2
+    },
+    {
+      "order": 295,
+      "text": "आँगन",
+      "acoustic_text": "आँगन",
+      "start": 3.203559510567297,
+      "end": 3.5038932146829813,
+      "probability": 0.20664069739923113,
+      "minimum_character_probability": 0.0158036576892005,
+      "character_count": 4
+    },
+    {
+      "order": 295,
+      "text": "गुरुकुल",
+      "acoustic_text": "गुरुकुल",
+      "start": 3.9644048943270302,
+      "end": 4.304783092324805,
+      "probability": 0.609852682001336,
+      "minimum_character_probability": 0.4830822316365629,
+      "character_count": 7
+    },
+    {
+      "order": 295,
+      "text": "का",
+      "acoustic_text": "का",
+      "start": 4.3848720800889875,
+      "end": 4.46496106785317,
+      "probability": 0.5648450698715087,
+      "minimum_character_probability": 0.4973706532093157,
+      "character_count": 2
+    },
+    {
+      "order": 295,
+      "text": "द्वार",
+      "acoustic_text": "द्वार",
+      "start": 4.545050055617352,
+      "end": 4.825361512791991,
+      "probability": 0.6083457807455371,
+      "minimum_character_probability": 0.5304786823384747,
+      "character_count": 5
+    },
+    {
+      "order": 295,
+      "text": "और",
+      "acoustic_text": "और",
+      "start": 5.265850945494995,
+      "end": 5.325917686318132,
+      "probability": 0.5000312328569859,
+      "minimum_character_probability": 0.46493069140162396,
+      "character_count": 2
+    },
+    {
+      "order": 295,
+      "text": "अक्षर",
+      "acoustic_text": "अक्षर",
+      "start": 5.46607341490545,
+      "end": 5.786429365962181,
+      "probability": 0.45231027365630444,
+      "minimum_character_probability": 0.35355406393339567,
+      "character_count": 5
+    },
+    {
+      "order": 295,
+      "text": "गुरुकुल",
+      "acoustic_text": "गुरुकुल",
+      "start": 5.886540600667408,
+      "end": 6.226918798665183,
+      "probability": 0.5576773874933669,
+      "minimum_character_probability": 0.3067308488362469,
+      "character_count": 7
+    },
+    {
+      "order": 295,
+      "text": "साँझ",
+      "acoustic_text": "साँझ",
+      "start": 6.747497219132369,
+      "end": 7.047830923248053,
+      "probability": 0.0448826431991996,
+      "minimum_character_probability": 0.008574217592162665,
+      "character_count": 4
+    },
+    {
+      "order": 296,
+      "text": "दादी",
+      "acoustic_text": "दादी",
+      "start": 8.309232480533927,
+      "end": 8.60956618464961,
+      "probability": 0.5542324894586419,
+      "minimum_character_probability": 0.45152392613683306,
+      "character_count": 4
+    },
+    {
+      "order": 296,
+      "text": "तीन",
+      "acoustic_text": "तीन",
+      "start": 8.829810901001112,
+      "end": 9.010011123470523,
+      "probability": 0.5087295656260703,
+      "minimum_character_probability": 0.40680434107369295,
+      "character_count": 3
+    },
+    {
+      "order": 296,
+      "text": "तस्वीरें",
+      "acoustic_text": "तस्वीरें",
+      "start": 9.130144605116797,
+      "end": 9.550611790878754,
+      "probability": 0.5622418643671275,
+      "minimum_character_probability": 0.48174588483030795,
+      "character_count": 8
+    },
+    {
+      "order": 296,
+      "text": "उठाती",
+      "acoustic_text": "उठाती",
+      "start": 9.610678531701891,
+      "end": 9.931034482758621,
+      "probability": 0.5971066449103477,
+      "minimum_character_probability": 0.4371504463231926,
+      "character_count": 5
+    },
+    {
+      "order": 296,
+      "text": "हैं",
+      "acoustic_text": "हैं",
+      "start": 10.011123470522802,
+      "end": 10.111234705228032,
+      "probability": 0.3307398581747307,
+      "minimum_character_probability": 0.13573664260333068,
+      "character_count": 3
+    },
+    {
+      "order": 296,
+      "text": "हर",
+      "acoustic_text": "हर",
+      "start": 10.671857619577308,
+      "end": 10.771968854282536,
+      "probability": 0.47907537616873214,
+      "minimum_character_probability": 0.4723360615996067,
+      "character_count": 2
+    },
+    {
+      "order": 296,
+      "text": "तस्वीर",
+      "acoustic_text": "तस्वीर",
+      "start": 10.872080088987765,
+      "end": 11.272525027808676,
+      "probability": 0.619918463366055,
+      "minimum_character_probability": 0.5449715814481212,
+      "character_count": 6
+    },
+    {
+      "order": 296,
+      "text": "उसी",
+      "acoustic_text": "उसी",
+      "start": 11.75305895439377,
+      "end": 11.933259176863181,
+      "probability": 0.5142961289315565,
+      "minimum_character_probability": 0.49076124341058985,
+      "character_count": 3
+    },
+    {
+      "order": 296,
+      "text": "घटना",
+      "acoustic_text": "घटना",
+      "start": 12.053392658509456,
+      "end": 12.353726362625139,
+      "probability": 0.5751971332492374,
+      "minimum_character_probability": 0.42184544996192935,
+      "character_count": 4
+    },
+    {
+      "order": 296,
+      "text": "की",
+      "acoustic_text": "की",
+      "start": 12.433815350389322,
+      "end": 12.513904338153504,
+      "probability": 0.653681540899888,
+      "minimum_character_probability": 0.614562199327202,
+      "character_count": 2
+    },
+    {
+      "order": 296,
+      "text": "है",
+      "acoustic_text": "है",
+      "start": 12.593993325917687,
+      "end": 12.674082313681868,
+      "probability": 0.5814542207340466,
+      "minimum_character_probability": 0.5640214091203005,
+      "character_count": 2
+    },
+    {
+      "order": 296,
+      "text": "जो",
+      "acoustic_text": "जो",
+      "start": 12.994438264738598,
+      "end": 13.074527252502781,
+      "probability": 0.7410888836356662,
+      "minimum_character_probability": 0.7404995829725016,
+      "character_count": 2
+    },
+    {
+      "order": 296,
+      "text": "अभी",
+      "acoustic_text": "अभी",
+      "start": 13.2146829810901,
+      "end": 13.374860956618464,
+      "probability": 0.7442881818364748,
+      "minimum_character_probability": 0.5774230854507845,
+      "character_count": 3
+    },
+    {
+      "order": 296,
+      "text": "हुई",
+      "acoustic_text": "हुई",
+      "start": 13.474972191323694,
+      "end": 13.655172413793103,
+      "probability": 0.7578294146360092,
+      "minimum_character_probability": 0.7034524095693755,
+      "character_count": 3
+    },
+    {
+      "order": 297,
+      "text": "बच्चा",
+      "acoustic_text": "बच्चा",
+      "start": 14.89655172413793,
+      "end": 15.276974416017797,
+      "probability": 0.03587045232999584,
+      "minimum_character_probability": 0.025325466584554444,
+      "character_count": 5
+    },
+    {
+      "order": 297,
+      "text": "ब",
+      "acoustic_text": "ब",
+      "start": 15.757508342602891,
+      "end": 15.777530589543938,
+      "probability": 0.023966096270509753,
+      "minimum_character_probability": 0.023966096270509753,
+      "character_count": 1
+    },
+    {
+      "order": 297,
+      "text": "से",
+      "acoustic_text": "से",
+      "start": 16.11790878754171,
+      "end": 16.17797552836485,
+      "probability": 0.024130752899884207,
+      "minimum_character_probability": 0.022100996146552775,
+      "character_count": 2
+    },
+    {
+      "order": 297,
+      "text": "शुरू",
+      "acoustic_text": "शुरू",
+      "start": 16.258064516129032,
+      "end": 16.49833147942158,
+      "probability": 0.046370039668499216,
+      "minimum_character_probability": 0.03596200376561706,
+      "character_count": 4
+    },
+    {
+      "order": 297,
+      "text": "होता",
+      "acoustic_text": "होता",
+      "start": 16.57842046718576,
+      "end": 16.798665183537263,
+      "probability": 0.04649294294956828,
+      "minimum_character_probability": 0.018971706206913075,
+      "character_count": 4
+    },
+    {
+      "order": 297,
+      "text": "है",
+      "acoustic_text": "है",
+      "start": 16.89877641824249,
+      "end": 16.978865406006673,
+      "probability": 0.05332568770901289,
+      "minimum_character_probability": 0.04748040664689975,
+      "character_count": 2
+    },
+    {
+      "order": 298,
+      "text": "बादल",
+      "acoustic_text": "बादल",
+      "start": 17.699666295884317,
+      "end": 18.08008898776418,
+      "probability": 0.06843785618251952,
+      "minimum_character_probability": 0.046140338676022206,
+      "character_count": 4
+    },
+    {
+      "order": 298,
+      "text": "ब",
+      "acoustic_text": "ब",
+      "start": 18.560622914349278,
+      "end": 18.580645161290324,
+      "probability": 0.01800381030743888,
+      "minimum_character_probability": 0.01800381030743888,
+      "character_count": 1
+    },
+    {
+      "order": 298,
+      "text": "से",
+      "acoustic_text": "से",
+      "start": 18.880978865406007,
+      "end": 18.941045606229142,
+      "probability": 0.03839412370392919,
+      "minimum_character_probability": 0.027316957342791312,
+      "character_count": 2
+    },
+    {
+      "order": 298,
+      "text": "शुरू",
+      "acoustic_text": "शुरू",
+      "start": 19.04115684093437,
+      "end": 19.261401557285872,
+      "probability": 0.054282093983985404,
+      "minimum_character_probability": 0.03304833544847484,
+      "character_count": 4
+    },
+    {
+      "order": 298,
+      "text": "होता",
+      "acoustic_text": "होता",
+      "start": 19.341490545050057,
+      "end": 19.5817575083426,
+      "probability": 0.048662481939694954,
+      "minimum_character_probability": 0.02519609455017074,
+      "character_count": 4
+    },
+    {
+      "order": 298,
+      "text": "है",
+      "acoustic_text": "है",
+      "start": 19.701890989988875,
+      "end": 19.78197997775306,
+      "probability": 0.028863159309723052,
+      "minimum_character_probability": 0.015102003869572018,
+      "character_count": 2
+    },
+    {
+      "order": 299,
+      "text": "बकरी",
+      "acoustic_text": "बकरी",
+      "start": 20.582869855394883,
+      "end": 20.92324805339266,
+      "probability": 0.9451363966178136,
+      "minimum_character_probability": 0.8769054351195699,
+      "character_count": 4
+    },
+    {
+      "order": 299,
+      "text": "ब",
+      "acoustic_text": "ब",
+      "start": 21.46384872080089,
+      "end": 21.483870967741936,
+      "probability": 0.843191175322531,
+      "minimum_character_probability": 0.843191175322531,
+      "character_count": 1
+    },
+    {
+      "order": 299,
+      "text": "से",
+      "acoustic_text": "से",
+      "start": 21.8642936596218,
+      "end": 21.92436040044494,
+      "probability": 0.7825205544753774,
+      "minimum_character_probability": 0.6772047233795315,
+      "character_count": 2
+    },
+    {
+      "order": 299,
+      "text": "शुरू",
+      "acoustic_text": "शुरू",
+      "start": 22.024471635150167,
+      "end": 22.264738598442715,
+      "probability": 0.8166721020573685,
+      "minimum_character_probability": 0.616720491855428,
+      "character_count": 4
+    },
+    {
+      "order": 299,
+      "text": "होती",
+      "acoustic_text": "होती",
+      "start": 22.344827586206897,
+      "end": 22.585094549499445,
+      "probability": 0.7935378705555762,
+      "minimum_character_probability": 0.4506964400990594,
+      "character_count": 4
+    },
+    {
+      "order": 299,
+      "text": "है",
+      "acoustic_text": "है",
+      "start": 22.685205784204673,
+      "end": 22.765294771968854,
+      "probability": 0.8658041187251507,
+      "minimum_character_probability": 0.8369620636021435,
+      "character_count": 2
+    },
+    {
+      "order": 300,
+      "text": "दादी",
+      "acoustic_text": "दादी",
+      "start": 23.64627363737486,
+      "end": 23.906562847608456,
+      "probability": 0.43629320525595766,
+      "minimum_character_probability": 0.279703189743037,
+      "character_count": 4
+    },
+    {
+      "order": 300,
+      "text": "चित्र",
+      "acoustic_text": "चित्र",
+      "start": 24.02669632925473,
+      "end": 24.28698553948832,
+      "probability": 0.4649436330991474,
+      "minimum_character_probability": 0.3557991641119589,
+      "character_count": 5
+    },
+    {
+      "order": 300,
+      "text": "नीचे",
+      "acoustic_text": "नीचे",
+      "start": 24.407119021134594,
+      "end": 24.66740823136819,
+      "probability": 0.7072145542657625,
+      "minimum_character_probability": 0.5129337018407732,
+      "character_count": 4
+    },
+    {
+      "order": 300,
+      "text": "रखती",
+      "acoustic_text": "रखती",
+      "start": 24.74749721913237,
+      "end": 25.00778642936596,
+      "probability": 0.8314478052904164,
+      "minimum_character_probability": 0.7320678495695079,
+      "character_count": 4
+    },
+    {
+      "order": 300,
+      "text": "हैं",
+      "acoustic_text": "हैं",
+      "start": 25.0678531701891,
+      "end": 25.187986651835374,
+      "probability": 0.1646880246647935,
+      "minimum_character_probability": 0.03745125060334556,
+      "character_count": 3
+    },
+    {
+      "order": 300,
+      "text": "और",
+      "acoustic_text": "और",
+      "start": 25.688542825361512,
+      "end": 25.768631813125694,
+      "probability": 0.6828618914902332,
+      "minimum_character_probability": 0.6305052889667858,
+      "character_count": 2
+    },
+    {
+      "order": 300,
+      "text": "पाँचों",
+      "acoustic_text": "पाँचों",
+      "start": 25.92880978865406,
+      "end": 26.269187986651836,
+      "probability": 0.12224975558473317,
+      "minimum_character_probability": 0.005442752025539074,
+      "character_count": 6
+    },
+    {
+      "order": 300,
+      "text": "बच्चों",
+      "acoustic_text": "बच्चों",
+      "start": 26.349276974416018,
+      "end": 26.62958843159066,
+      "probability": 0.24841062864978447,
+      "minimum_character_probability": 0.10840729101572462,
+      "character_count": 6
+    },
+    {
+      "order": 300,
+      "text": "की",
+      "acoustic_text": "की",
+      "start": 26.689655172413794,
+      "end": 26.769744160177975,
+      "probability": 0.3468281085111567,
+      "minimum_character_probability": 0.3340324265501812,
+      "character_count": 2
+    },
+    {
+      "order": 300,
+      "text": "ओर",
+      "acoustic_text": "ओर",
+      "start": 26.88987764182425,
+      "end": 26.96996662958843,
+      "probability": 0.32620811638305836,
+      "minimum_character_probability": 0.32434199694578836,
+      "character_count": 2
+    },
+    {
+      "order": 300,
+      "text": "देखती",
+      "acoustic_text": "देखती",
+      "start": 27.07007786429366,
+      "end": 27.370411568409345,
+      "probability": 0.3981328078839227,
+      "minimum_character_probability": 0.33028329046836147,
+      "character_count": 5
+    },
+    {
+      "order": 300,
+      "text": "हैं",
+      "acoustic_text": "हैं",
+      "start": 27.43047830923248,
+      "end": 27.530589543937708,
+      "probability": 0.13842291090929645,
+      "minimum_character_probability": 0.027428960207407774,
+      "character_count": 3
+    },
+    {
+      "order": 301,
+      "text": "ताक़त",
+      "acoustic_text": "ताक़त",
+      "start": 28.832035595105673,
+      "end": 29.232480533926587,
+      "probability": 0.07190626680058138,
+      "minimum_character_probability": 0.00031874965444279483,
+      "character_count": 5
+    },
+    {
+      "order": 301,
+      "text": "बड़ी",
+      "acoustic_text": "बड़ी",
+      "start": 29.352614015572858,
+      "end": 29.53281423804227,
+      "probability": 0.22405742072995644,
+      "minimum_character_probability": 0.17734316870072267,
+      "character_count": 4
+    },
+    {
+      "order": 301,
+      "text": "हो",
+      "acoustic_text": "हो",
+      "start": 29.632925472747498,
+      "end": 29.733036707452726,
+      "probability": 0.13549488644954802,
+      "minimum_character_probability": 0.11534985987900451,
+      "character_count": 2
+    },
+    {
+      "order": 301,
+      "text": "तो",
+      "acoustic_text": "तो",
+      "start": 30.273637374860957,
+      "end": 30.333704115684093,
+      "probability": 0.7602289551432055,
+      "minimum_character_probability": 0.7531883391556675,
+      "character_count": 2
+    },
+    {
+      "order": 301,
+      "text": "उसे",
+      "acoustic_text": "उसे",
+      "start": 30.453837597330367,
+      "end": 30.63403781979978,
+      "probability": 0.8499171419327228,
+      "minimum_character_probability": 0.79929254642989,
+      "character_count": 3
+    },
+    {
+      "order": 301,
+      "text": "सही",
+      "acoustic_text": "सही",
+      "start": 30.834260289210235,
+      "end": 31.054505005561737,
+      "probability": 0.9711912380633424,
+      "minimum_character_probability": 0.9642096987367723,
+      "character_count": 3
+    },
+    {
+      "order": 301,
+      "text": "दिशा",
+      "acoustic_text": "दिशा",
+      "start": 31.2146829810901,
+      "end": 31.49499443826474,
+      "probability": 0.9302970790066464,
+      "minimum_character_probability": 0.8887524275285178,
+      "character_count": 4
+    },
+    {
+      "order": 301,
+      "text": "देना",
+      "acoustic_text": "देना",
+      "start": 31.595105672969968,
+      "end": 31.875417130144605,
+      "probability": 0.9506965426035976,
+      "minimum_character_probability": 0.9302792511274075,
+      "character_count": 4
+    },
+    {
+      "order": 301,
+      "text": "और",
+      "acoustic_text": "और",
+      "start": 32.395995550611794,
+      "end": 32.59621802002225,
+      "probability": 0.9382807511856706,
+      "minimum_character_probability": 0.923630802810443,
+      "character_count": 2
+    },
+    {
+      "order": 301,
+      "text": "भी",
+      "acoustic_text": "भी",
+      "start": 32.71635150166852,
+      "end": 32.77641824249166,
+      "probability": 0.9900700935869141,
+      "minimum_character_probability": 0.9871893572089107,
+      "character_count": 2
+    },
+    {
+      "order": 301,
+      "text": "ज़रूरी",
+      "acoustic_text": "ज़रूरी",
+      "start": 32.93659621802002,
+      "end": 33.2769744160178,
+      "probability": 0.44968043508975947,
+      "minimum_character_probability": 0.010259920252355946,
+      "character_count": 6
+    },
+    {
+      "order": 301,
+      "text": "होता",
+      "acoustic_text": "होता",
+      "start": 33.33704115684093,
+      "end": 33.557285873192434,
+      "probability": 0.4714648037378178,
+      "minimum_character_probability": 0.05960374399817289,
+      "character_count": 4
+    },
+    {
+      "order": 301,
+      "text": "है",
+      "acoustic_text": "है",
+      "start": 33.67741935483871,
+      "end": 33.73748609566184,
+      "probability": 0.8943277278901649,
+      "minimum_character_probability": 0.8907681768889663,
+      "character_count": 2
+    },
+    {
+      "order": 302,
+      "text": "घर",
+      "acoustic_text": "घर",
+      "start": 34.938820912124584,
+      "end": 35.11902113459399,
+      "probability": 0.33740203378209727,
+      "minimum_character_probability": 0.2550077058076822,
+      "character_count": 2
+    },
+    {
+      "order": 302,
+      "text": "लौटने",
+      "acoustic_text": "लौटने",
+      "start": 35.25917686318131,
+      "end": 35.57953281423804,
+      "probability": 0.3103677537563001,
+      "minimum_character_probability": 0.21537817134860926,
+      "character_count": 5
+    },
+    {
+      "order": 302,
+      "text": "वाली",
+      "acoustic_text": "वाली",
+      "start": 35.63959955506118,
+      "end": 35.83982202447164,
+      "probability": 0.3286496897112184,
+      "minimum_character_probability": 0.269361466612058,
+      "character_count": 4
+    },
+    {
+      "order": 302,
+      "text": "सुनहरी",
+      "acoustic_text": "सुनहरी",
+      "start": 36.0,
+      "end": 36.36040044493882,
+      "probability": 0.3637464719106247,
+      "minimum_character_probability": 0.3110250799219132,
+      "character_count": 6
+    },
+    {
+      "order": 302,
+      "text": "डोरी",
+      "acoustic_text": "डोरी",
+      "start": 36.46051167964405,
+      "end": 36.74082313681869,
+      "probability": 0.32281621480587797,
+      "minimum_character_probability": 0.25363656710587895,
+      "character_count": 4
+    },
+    {
+      "order": 302,
+      "text": "बड़े",
+      "acoustic_text": "बड़े",
+      "start": 37.181312569521694,
+      "end": 37.3615127919911,
+      "probability": 0.3026084270383469,
+      "minimum_character_probability": 0.22459136234817464,
+      "character_count": 4
+    },
+    {
+      "order": 302,
+      "text": "फाटक",
+      "acoustic_text": "फाटक",
+      "start": 37.481646273637374,
+      "end": 37.74193548387097,
+      "probability": 0.3210969627135644,
+      "minimum_character_probability": 0.29183358453969516,
+      "character_count": 4
+    },
+    {
+      "order": 302,
+      "text": "से",
+      "acoustic_text": "से",
+      "start": 37.8420467185762,
+      "end": 37.90211345939933,
+      "probability": 0.3504542339680453,
+      "minimum_character_probability": 0.3499917502483031,
+      "character_count": 2
+    },
+    {
+      "order": 302,
+      "text": "बँधी",
+      "acoustic_text": "बँधी",
+      "start": 37.982202447163516,
+      "end": 38.20244716351502,
+      "probability": 0.03968004250228778,
+      "minimum_character_probability": 0.00048228870075624143,
+      "character_count": 4
+    },
+    {
+      "order": 302,
+      "text": "है",
+      "acoustic_text": "है",
+      "start": 38.26251390433816,
+      "end": 38.342602892102335,
+      "probability": 0.0636076020068911,
+      "minimum_character_probability": 0.013574283575369687,
+      "character_count": 2
+    },
+    {
+      "order": 302,
+      "text": "लेडा",
+      "acoustic_text": "लेडा",
+      "start": 39.10344827586207,
+      "end": 39.383759733036705,
+      "probability": 0.09174994828633606,
+      "minimum_character_probability": 0.0031634952641139556,
+      "character_count": 4
+    },
+    {
+      "order": 302,
+      "text": "बाकी",
+      "acoustic_text": "बाकी",
+      "start": 39.80422691879867,
+      "end": 40.04449388209121,
+      "probability": 0.362165661575702,
+      "minimum_character_probability": 0.25451559120788314,
+      "character_count": 4
+    },
+    {
+      "order": 302,
+      "text": "चार",
+      "acoustic_text": "चार",
+      "start": 40.16462736373749,
+      "end": 40.36484983314794,
+      "probability": 0.8977221160007592,
+      "minimum_character_probability": 0.8456666340619052,
+      "character_count": 3
+    },
+    {
+      "order": 302,
+      "text": "बच्चों",
+      "acoustic_text": "बच्चों",
+      "start": 40.44493882091213,
+      "end": 40.705228031145715,
+      "probability": 0.91577109231061,
+      "minimum_character_probability": 0.8928174139134042,
+      "character_count": 6
+    },
+    {
+      "order": 302,
+      "text": "से",
+      "acoustic_text": "से",
+      "start": 40.765294771968854,
+      "end": 40.84538375973304,
+      "probability": 0.9049871153880535,
+      "minimum_character_probability": 0.8993118208701295,
+      "character_count": 2
+    },
+    {
+      "order": 302,
+      "text": "थोड़ा",
+      "acoustic_text": "थोड़ा",
+      "start": 40.96551724137931,
+      "end": 41.18576195773081,
+      "probability": 0.8249646854140976,
+      "minimum_character_probability": 0.6870630833110076,
+      "character_count": 5
+    },
+    {
+      "order": 302,
+      "text": "दूर",
+      "acoustic_text": "दूर",
+      "start": 41.30589543937709,
+      "end": 41.4860956618465,
+      "probability": 0.871066508331163,
+      "minimum_character_probability": 0.8367550214696637,
+      "character_count": 3
+    },
+    {
+      "order": 302,
+      "text": "जाती",
+      "acoustic_text": "जाती",
+      "start": 41.566184649610676,
+      "end": 41.82647385984427,
+      "probability": 0.8849808701625558,
+      "minimum_character_probability": 0.8643067686278494,
+      "character_count": 4
+    },
+    {
+      "order": 302,
+      "text": "है",
+      "acoustic_text": "है",
+      "start": 41.906562847608456,
+      "end": 41.966629588431594,
+      "probability": 0.31707699394368577,
+      "minimum_character_probability": 0.11900720138082509,
+      "character_count": 2
+    },
+    {
+      "order": 302,
+      "text": "कुकु",
+      "acoustic_text": "कुकु",
+      "start": 42.74749721913237,
+      "end": 43.007786429365964,
+      "probability": 0.4589641963717302,
+      "minimum_character_probability": 0.13670983000306025,
+      "character_count": 4
+    },
+    {
+      "order": 302,
+      "text": "फ्यूरिया",
+      "acoustic_text": "फ्यूरिया",
+      "start": 43.44827586206897,
+      "end": 43.84872080088988,
+      "probability": 0.8305875548545111,
+      "minimum_character_probability": 0.7303994630513175,
+      "character_count": 8
+    },
+    {
+      "order": 302,
+      "text": "वैस्पर",
+      "acoustic_text": "वैस्पर",
+      "start": 44.24916573971079,
+      "end": 44.76974416017798,
+      "probability": 0.6520995362791145,
+      "minimum_character_probability": 0.346049091473041,
+      "character_count": 6
+    },
+    {
+      "order": 302,
+      "text": "और",
+      "acoustic_text": "और",
+      "start": 45.1301446051168,
+      "end": 45.21023359288098,
+      "probability": 0.9469312978486379,
+      "minimum_character_probability": 0.9434167541227135,
+      "character_count": 2
+    },
+    {
+      "order": 302,
+      "text": "कैस्टर",
+      "acoustic_text": "कैस्टर",
+      "start": 45.33036707452725,
+      "end": 45.7908787541713,
+      "probability": 0.7567054481581663,
+      "minimum_character_probability": 0.4229684627898346,
+      "character_count": 6
+    },
+    {
+      "order": 302,
+      "text": "अपने",
+      "acoustic_text": "अपने",
+      "start": 46.19132369299221,
+      "end": 46.411568409343715,
+      "probability": 0.9245708487090464,
+      "minimum_character_probability": 0.8708920326520562,
+      "character_count": 4
+    },
+    {
+      "order": 302,
+      "text": "छोटे",
+      "acoustic_text": "छोटे",
+      "start": 46.53170189098999,
+      "end": 46.812013348164626,
+      "probability": 0.9106196435806955,
+      "minimum_character_probability": 0.8777671243327974,
+      "character_count": 4
+    },
+    {
+      "order": 302,
+      "text": "रूप",
+      "acoustic_text": "रूप",
+      "start": 46.91212458286986,
+      "end": 47.03225806451613,
+      "probability": 0.8113364575865302,
+      "minimum_character_probability": 0.7688276006999022,
+      "character_count": 3
+    },
+    {
+      "order": 302,
+      "text": "में",
+      "acoustic_text": "में",
+      "start": 47.09232480533927,
+      "end": 47.19243604004449,
+      "probability": 0.8981429846789654,
+      "minimum_character_probability": 0.8626132857983388,
+      "character_count": 3
+    },
+    {
+      "order": 302,
+      "text": "रहते",
+      "acoustic_text": "रहते",
+      "start": 47.232480533926584,
+      "end": 47.452725250278085,
+      "probability": 0.7769704672252182,
+      "minimum_character_probability": 0.6868563265401681,
+      "character_count": 4
+    },
+    {
+      "order": 302,
+      "text": "हैं",
+      "acoustic_text": "हैं",
+      "start": 47.53281423804227,
+      "end": 47.632925472747495,
+      "probability": 0.49632494316317327,
+      "minimum_character_probability": 0.3130037365535744,
+      "character_count": 3
+    },
+    {
+      "order": 303,
+      "text": "मैं",
+      "acoustic_text": "मैं",
+      "start": 48.93437152391546,
+      "end": 49.05450500556174,
+      "probability": 0.02515835946664887,
+      "minimum_character_probability": 0.02133885041622396,
+      "character_count": 3
+    },
+    {
+      "order": 303,
+      "text": "अपना",
+      "acoustic_text": "अपना",
+      "start": 49.2146829810901,
+      "end": 49.474972191323694,
+      "probability": 0.008031720170749993,
+      "minimum_character_probability": 0.004021819869876654,
+      "character_count": 4
+    },
+    {
+      "order": 303,
+      "text": "कड़ा",
+      "acoustic_text": "कड़ा",
+      "start": 49.595105672969964,
+      "end": 49.79532814238042,
+      "probability": 0.013334010187663907,
+      "minimum_character_probability": 0.008980836765450839,
+      "character_count": 4
+    },
+    {
+      "order": 303,
+      "text": "खुद",
+      "acoustic_text": "खुद",
+      "start": 50.01557285873192,
+      "end": 50.17575083426029,
+      "probability": 0.02227836752968213,
+      "minimum_character_probability": 0.017860245539295102,
+      "character_count": 3
+    },
+    {
+      "order": 303,
+      "text": "जगाऊँगी",
+      "acoustic_text": "जगाऊँगी",
+      "start": 50.275862068965516,
+      "end": 50.75639599555061,
+      "probability": 0.023831618114283408,
+      "minimum_character_probability": 0.00534461583251384,
+      "character_count": 7
+    },
+    {
+      "order": 303,
+      "text": "ब",
+      "acoustic_text": "ब",
+      "start": 51.23692992213571,
+      "end": 51.256952169076754,
+      "probability": 0.00211783177545085,
+      "minimum_character_probability": 0.00211783177545085,
+      "character_count": 1
+    },
+    {
+      "order": 304,
+      "text": "लेडा",
+      "acoustic_text": "लेडा",
+      "start": 52.49833147942158,
+      "end": 52.77864293659622,
+      "probability": 0.35307353910042627,
+      "minimum_character_probability": 0.09560466119434628,
+      "character_count": 4
+    },
+    {
+      "order": 304,
+      "text": "अपना",
+      "acoustic_text": "अपना",
+      "start": 52.99888765294772,
+      "end": 53.23915461624027,
+      "probability": 0.906149550808787,
+      "minimum_character_probability": 0.8867747496789049,
+      "character_count": 4
+    },
+    {
+      "order": 304,
+      "text": "कड़ा",
+      "acoustic_text": "कड़ा",
+      "start": 53.31924360400445,
+      "end": 53.519466073414904,
+      "probability": 0.6698093724244656,
+      "minimum_character_probability": 0.5961001312591862,
+      "character_count": 4
+    },
+    {
+      "order": 304,
+      "text": "छूती",
+      "acoustic_text": "छूती",
+      "start": 53.59955506117909,
+      "end": 53.899888765294776,
+      "probability": 0.6020256469812788,
+      "minimum_character_probability": 0.2467747366111069,
+      "character_count": 4
+    },
+    {
+      "order": 304,
+      "text": "है",
+      "acoustic_text": "है",
+      "start": 53.95995550611791,
+      "end": 54.04004449388209,
+      "probability": 0.7851792128533219,
+      "minimum_character_probability": 0.7820499543251249,
+      "character_count": 2
+    },
+    {
+      "order": 304,
+      "text": "उसकी",
+      "acoustic_text": "उसकी",
+      "start": 54.68075639599555,
+      "end": 54.88097886540601,
+      "probability": 0.948985736331789,
+      "minimum_character_probability": 0.9335883699693182,
+      "character_count": 4
+    },
+    {
+      "order": 304,
+      "text": "अपनी",
+      "acoustic_text": "अपनी",
+      "start": 55.08120133481646,
+      "end": 55.34149054505006,
+      "probability": 0.943384219890993,
+      "minimum_character_probability": 0.9262214512777057,
+      "character_count": 4
+    },
+    {
+      "order": 304,
+      "text": "सुनहरी",
+      "acoustic_text": "सुनहरी",
+      "start": 55.481646273637374,
+      "end": 55.82202447163515,
+      "probability": 0.8611452689453671,
+      "minimum_character_probability": 0.7871946244922069,
+      "character_count": 6
+    },
+    {
+      "order": 304,
+      "text": "लहर",
+      "acoustic_text": "लहर",
+      "start": 55.90211345939933,
+      "end": 56.08231368186875,
+      "probability": 0.3515500030770824,
+      "minimum_character_probability": 0.054099662172696815,
+      "character_count": 3
+    },
+    {
+      "order": 304,
+      "text": "उठती",
+      "acoustic_text": "उठती",
+      "start": 56.18242491657397,
+      "end": 56.38264738598443,
+      "probability": 0.04278989496694883,
+      "minimum_character_probability": 0.00034743567736524814,
+      "character_count": 4
+    },
+    {
+      "order": 304,
+      "text": "है",
+      "acoustic_text": "है",
+      "start": 56.46273637374861,
+      "end": 56.54282536151279,
+      "probability": 0.8175490362031755,
+      "minimum_character_probability": 0.7892863560007268,
+      "character_count": 2
+    },
+    {
+      "order": 304,
+      "text": "वह",
+      "acoustic_text": "वह",
+      "start": 57.22358175750834,
+      "end": 57.30367074527253,
+      "probability": 0.3918531380435624,
+      "minimum_character_probability": 0.1716669043119214,
+      "character_count": 2
+    },
+    {
+      "order": 304,
+      "text": "अकेले",
+      "acoustic_text": "अकेले",
+      "start": 57.483870967741936,
+      "end": 57.8642936596218,
+      "probability": 0.9058698407271022,
+      "minimum_character_probability": 0.8701639860310243,
+      "character_count": 5
+    },
+    {
+      "order": 304,
+      "text": "अपना",
+      "acoustic_text": "अपना",
+      "start": 58.28476084538376,
+      "end": 58.50500556173526,
+      "probability": 0.9458383995773911,
+      "minimum_character_probability": 0.9313425585381991,
+      "character_count": 4
+    },
+    {
+      "order": 304,
+      "text": "पूरा",
+      "acoustic_text": "पूरा",
+      "start": 58.66518353726363,
+      "end": 59.0055617352614,
+      "probability": 0.9444782302791576,
+      "minimum_character_probability": 0.9286215443590938,
+      "character_count": 4
+    },
+    {
+      "order": 304,
+      "text": "विशाल",
+      "acoustic_text": "विशाल",
+      "start": 59.10567296996663,
+      "end": 59.506117908787544,
+      "probability": 0.9636551348512108,
+      "minimum_character_probability": 0.9499476835576263,
+      "character_count": 5
+    },
+    {
+      "order": 304,
+      "text": "हल्का",
+      "acoustic_text": "हल्का",
+      "start": 59.88654060066741,
+      "end": 60.206896551724135,
+      "probability": 0.17342489888263626,
+      "minimum_character_probability": 0.0001858667006324482,
+      "character_count": 5
+    },
+    {
+      "order": 304,
+      "text": "बैंगनी",
+      "acoustic_text": "बैंगनी",
+      "start": 60.32703003337041,
+      "end": 60.68743047830923,
+      "probability": 0.9315234128997867,
+      "minimum_character_probability": 0.6905267539015232,
+      "character_count": 6
+    },
+    {
+      "order": 304,
+      "text": "रूप",
+      "acoustic_text": "रूप",
+      "start": 60.78754171301446,
+      "end": 60.92769744160178,
+      "probability": 0.9878179274704306,
+      "minimum_character_probability": 0.9761416534118179,
+      "character_count": 3
+    },
+    {
+      "order": 304,
+      "text": "लेती",
+      "acoustic_text": "लेती",
+      "start": 61.02780867630701,
+      "end": 61.24805339265851,
+      "probability": 0.997807517013949,
+      "minimum_character_probability": 0.9968634587690556,
+      "character_count": 4
+    },
+    {
+      "order": 304,
+      "text": "है",
+      "acoustic_text": "है",
+      "start": 61.308120133481644,
+      "end": 61.38820912124583,
+      "probability": 0.9953839783891762,
+      "minimum_character_probability": 0.9942542952206087,
+      "character_count": 2
+    },
+    {
+      "order": 304,
+      "text": "बाकी",
+      "acoustic_text": "बाकी",
+      "start": 62.06896551724138,
+      "end": 62.329254727474975,
+      "probability": 0.9910482425014729,
+      "minimum_character_probability": 0.9869134035808337,
+      "character_count": 4
+    },
+    {
+      "order": 304,
+      "text": "चार",
+      "acoustic_text": "चार",
+      "start": 62.4293659621802,
+      "end": 62.6496106785317,
+      "probability": 0.98457604605825,
+      "minimum_character_probability": 0.9729933874441301,
+      "character_count": 3
+    },
+    {
+      "order": 304,
+      "text": "अब",
+      "acoustic_text": "अब",
+      "start": 62.909899888765295,
+      "end": 62.969966629588434,
+      "probability": 0.8984702449032125,
+      "minimum_character_probability": 0.8522202877893688,
+      "character_count": 2
+    },
+    {
+      "order": 304,
+      "text": "भी",
+      "acoustic_text": "भी",
+      "start": 63.07007786429366,
+      "end": 63.1301446051168,
+      "probability": 0.9684821694021643,
+      "minimum_character_probability": 0.9655224799462013,
+      "character_count": 2
+    },
+    {
+      "order": 304,
+      "text": "छोटे",
+      "acoustic_text": "छोटे",
+      "start": 63.25027808676307,
+      "end": 63.5706340378198,
+      "probability": 0.969716649277159,
+      "minimum_character_probability": 0.9615042217868945,
+      "character_count": 4
+    },
+    {
+      "order": 304,
+      "text": "हैं",
+      "acoustic_text": "हैं",
+      "start": 63.67074527252503,
+      "end": 63.770856507230256,
+      "probability": 0.9617177125394002,
+      "minimum_character_probability": 0.9497408614100061,
+      "character_count": 3
+    },
+    {
+      "order": 305,
+      "text": "मेरा",
+      "acoustic_text": "मेरा",
+      "start": 64.85205784204672,
+      "end": 65.13236929922135,
+      "probability": 0.8244051043439667,
+      "minimum_character_probability": 0.7481605549506595,
+      "character_count": 4
+    },
+    {
+      "order": 305,
+      "text": "कड़ा",
+      "acoustic_text": "कड़ा",
+      "start": 65.25250278086763,
+      "end": 65.47274749721913,
+      "probability": 0.7501836009612171,
+      "minimum_character_probability": 0.6703889066203447,
+      "character_count": 4
+    },
+    {
+      "order": 305,
+      "text": "मेरी",
+      "acoustic_text": "मेरी",
+      "start": 65.8932146829811,
+      "end": 66.17352614015573,
+      "probability": 0.8789258648619451,
+      "minimum_character_probability": 0.7979305524570625,
+      "character_count": 4
+    },
+    {
+      "order": 305,
+      "text": "बात",
+      "acoustic_text": "बात",
+      "start": 66.27363737486095,
+      "end": 66.45383759733036,
+      "probability": 0.9154852282531979,
+      "minimum_character_probability": 0.9002458649566628,
+      "character_count": 3
+    },
+    {
+      "order": 305,
+      "text": "सुनता",
+      "acoustic_text": "सुनता",
+      "start": 66.5539488320356,
+      "end": 66.83426028921023,
+      "probability": 0.9199444944025771,
+      "minimum_character_probability": 0.8988083534485599,
+      "character_count": 5
+    },
+    {
+      "order": 305,
+      "text": "है",
+      "acoustic_text": "है",
+      "start": 66.95439377085651,
+      "end": 67.0344827586207,
+      "probability": 0.9274225317871709,
+      "minimum_character_probability": 0.9189187443798613,
+      "character_count": 2
+    },
+    {
+      "order": 306,
+      "text": "लेडा",
+      "acoustic_text": "लेडा",
+      "start": 67.85539488320356,
+      "end": 68.13570634037819,
+      "probability": 0.5596704461265526,
+      "minimum_character_probability": 0.47998333161673273,
+      "character_count": 4
+    },
+    {
+      "order": 306,
+      "text": "तुम",
+      "acoustic_text": "तुम",
+      "start": 68.51612903225806,
+      "end": 68.63626251390434,
+      "probability": 0.9437838366882613,
+      "minimum_character_probability": 0.9381921792414065,
+      "character_count": 3
+    },
+    {
+      "order": 306,
+      "text": "खुद",
+      "acoustic_text": "खुद",
+      "start": 68.77641824249166,
+      "end": 68.97664071190212,
+      "probability": 0.9199591234969606,
+      "minimum_character_probability": 0.8950539882168024,
+      "character_count": 3
+    },
+    {
+      "order": 306,
+      "text": "बड़ी",
+      "acoustic_text": "बड़ी",
+      "start": 69.07675194660735,
+      "end": 69.25695216907675,
+      "probability": 0.9369510382167969,
+      "minimum_character_probability": 0.9085880242392845,
+      "character_count": 4
+    },
+    {
+      "order": 306,
+      "text": "हो",
+      "acoustic_text": "हो",
+      "start": 69.31701890989989,
+      "end": 69.39710789766407,
+      "probability": 0.918805466111545,
+      "minimum_character_probability": 0.9141064774646491,
+      "character_count": 2
+    },
+    {
+      "order": 306,
+      "text": "गई",
+      "acoustic_text": "गई",
+      "start": 69.47719688542826,
+      "end": 69.59733036707453,
+      "probability": 0.9625921906722859,
+      "minimum_character_probability": 0.9508817001772287,
+      "character_count": 2
+    },
+    {
+      "order": 306,
+      "text": "हो",
+      "acoustic_text": "हो",
+      "start": 69.6774193548387,
+      "end": 69.75750834260289,
+      "probability": 0.9042015904698922,
+      "minimum_character_probability": 0.8976046214562369,
+      "character_count": 2
+    },
+    {
+      "order": 307,
+      "text": "अब",
+      "acoustic_text": "अब",
+      "start": 70.75862068965517,
+      "end": 70.8587319243604,
+      "probability": 0.8886939033692131,
+      "minimum_character_probability": 0.8781376079202917,
+      "character_count": 2
+    },
+    {
+      "order": 307,
+      "text": "मैं",
+      "acoustic_text": "मैं",
+      "start": 70.93882091212458,
+      "end": 71.05895439377086,
+      "probability": 0.9092045180494426,
+      "minimum_character_probability": 0.880673510875237,
+      "character_count": 3
+    },
+    {
+      "order": 307,
+      "text": "अपना",
+      "acoustic_text": "अपना",
+      "start": 71.11902113459399,
+      "end": 71.31924360400446,
+      "probability": 0.9501178882589668,
+      "minimum_character_probability": 0.9351352163640222,
+      "character_count": 4
+    },
+    {
+      "order": 307,
+      "text": "कड़ा",
+      "acoustic_text": "कड़ा",
+      "start": 71.39933259176863,
+      "end": 71.57953281423805,
+      "probability": 0.7871597794935598,
+      "minimum_character_probability": 0.6565387865582895,
+      "character_count": 4
+    },
+    {
+      "order": 307,
+      "text": "जगाती",
+      "acoustic_text": "जगाती",
+      "start": 71.65962180200222,
+      "end": 72.02002224694105,
+      "probability": 0.9233756213856849,
+      "minimum_character_probability": 0.8448342039238163,
+      "character_count": 5
+    },
+    {
+      "order": 307,
+      "text": "हूँ",
+      "acoustic_text": "हूँ",
+      "start": 72.08008898776419,
+      "end": 72.18020022246941,
+      "probability": 0.27007018590684856,
+      "minimum_character_probability": 0.022703468910360777,
+      "character_count": 3
+    },
+    {
+      "order": 307,
+      "text": "ब",
+      "acoustic_text": "ब",
+      "start": 72.2602892102336,
+      "end": 72.28031145717463,
+      "probability": 0.5985962682405317,
+      "minimum_character_probability": 0.5985962682405317,
+      "character_count": 1
+    },
+    {
+      "order": 308,
+      "text": "मैं",
+      "acoustic_text": "मैं",
+      "start": 73.4015572858732,
+      "end": 73.52169076751947,
+      "probability": 0.8963832180850533,
+      "minimum_character_probability": 0.8857672218304682,
+      "character_count": 3
+    },
+    {
+      "order": 308,
+      "text": "भी",
+      "acoustic_text": "भी",
+      "start": 73.60177975528364,
+      "end": 73.66184649610679,
+      "probability": 0.9408535091660047,
+      "minimum_character_probability": 0.9380042908227483,
+      "character_count": 2
+    },
+    {
+      "order": 308,
+      "text": "अपना",
+      "acoustic_text": "अपना",
+      "start": 73.76195773081201,
+      "end": 73.96218020022248,
+      "probability": 0.9394682004147725,
+      "minimum_character_probability": 0.9303298011628507,
+      "character_count": 4
+    },
+    {
+      "order": 308,
+      "text": "कड़ा",
+      "acoustic_text": "कड़ा",
+      "start": 74.04226918798665,
+      "end": 74.22246941045606,
+      "probability": 0.7095557950040743,
+      "minimum_character_probability": 0.5427879241039505,
+      "character_count": 4
+    },
+    {
+      "order": 308,
+      "text": "खुद",
+      "acoustic_text": "खुद",
+      "start": 74.2825361512792,
+      "end": 74.42269187986652,
+      "probability": 0.862113258280343,
+      "minimum_character_probability": 0.8269208133571697,
+      "character_count": 3
+    },
+    {
+      "order": 308,
+      "text": "जगाऊँगा",
+      "acoustic_text": "जगाऊँगा",
+      "start": 74.5027808676307,
+      "end": 74.92324805339265,
+      "probability": 0.334237185823221,
+      "minimum_character_probability": 0.00298737069477504,
+      "character_count": 7
+    },
+    {
+      "order": 308,
+      "text": "ब",
+      "acoustic_text": "ब",
+      "start": 75.06340378197999,
+      "end": 75.08342602892102,
+      "probability": 0.5470835721004205,
+      "minimum_character_probability": 0.5470835721004205,
+      "character_count": 1
+    },
+    {
+      "order": 309,
+      "text": "मैं",
+      "acoustic_text": "मैं",
+      "start": 76.22469410456063,
+      "end": 76.36484983314794,
+      "probability": 0.9455379883000343,
+      "minimum_character_probability": 0.9197678052894499,
+      "character_count": 3
+    },
+    {
+      "order": 309,
+      "text": "भी",
+      "acoustic_text": "भी",
+      "start": 76.48498331479422,
+      "end": 76.5650723025584,
+      "probability": 0.9498069546782333,
+      "minimum_character_probability": 0.9483705729712408,
+      "character_count": 2
+    },
+    {
+      "order": 309,
+      "text": "खुद",
+      "acoustic_text": "खुद",
+      "start": 76.70522803114572,
+      "end": 76.86540600667408,
+      "probability": 0.9005321602332954,
+      "minimum_character_probability": 0.8674054627704703,
+      "character_count": 3
+    },
+    {
+      "order": 309,
+      "text": "बड़ा",
+      "acoustic_text": "बड़ा",
+      "start": 76.94549499443826,
+      "end": 77.14571746384873,
+      "probability": 0.9478337077714533,
+      "minimum_character_probability": 0.9151014718530852,
+      "character_count": 4
+    },
+    {
+      "order": 309,
+      "text": "बनूँगा",
+      "acoustic_text": "बनूँगा",
+      "start": 77.22580645161291,
+      "end": 77.58620689655173,
+      "probability": 0.40552656733837206,
+      "minimum_character_probability": 0.005426157033967317,
+      "character_count": 6
+    },
+    {
+      "order": 309,
+      "text": "ब",
+      "acoustic_text": "ब",
+      "start": 77.72636262513905,
+      "end": 77.74638487208009,
+      "probability": 0.6515498621425803,
+      "minimum_character_probability": 0.6515498621425803,
+      "character_count": 1
+    },
+    {
+      "order": 310,
+      "text": "अब",
+      "acoustic_text": "अब",
+      "start": 78.92769744160178,
+      "end": 79.00778642936596,
+      "probability": 0.8669776035732617,
+      "minimum_character_probability": 0.8599955377686341,
+      "character_count": 2
+    },
+    {
+      "order": 310,
+      "text": "हम",
+      "acoustic_text": "हम",
+      "start": 79.10789766407119,
+      "end": 79.20800889877641,
+      "probability": 0.8999896570088607,
+      "minimum_character_probability": 0.8891223541324826,
+      "character_count": 2
+    },
+    {
+      "order": 310,
+      "text": "साथ",
+      "acoustic_text": "साथ",
+      "start": 79.38820912124584,
+      "end": 79.58843159065628,
+      "probability": 0.7510681570142292,
+      "minimum_character_probability": 0.5682656394068852,
+      "character_count": 3
+    },
+    {
+      "order": 310,
+      "text": "चलेंगे",
+      "acoustic_text": "चलेंगे",
+      "start": 79.66852057842047,
+      "end": 80.00889877641825,
+      "probability": 0.20952810771297728,
+      "minimum_character_probability": 0.00014357653080061106,
+      "character_count": 6
+    },
+    {
+      "order": 310,
+      "text": "ब",
+      "acoustic_text": "ब",
+      "start": 80.2091212458287,
+      "end": 80.22914349276975,
+      "probability": 0.006361986983026809,
+      "minimum_character_probability": 0.006361986983026809,
+      "character_count": 1
+    },
+    {
+      "order": 311,
+      "text": "चार",
+      "acoustic_text": "चार",
+      "start": 81.23025583982202,
+      "end": 81.49054505005562,
+      "probability": 0.07022011579309757,
+      "minimum_character_probability": 0.05758754117409357,
+      "character_count": 3
+    },
+    {
+      "order": 311,
+      "text": "अलग",
+      "acoustic_text": "अलग",
+      "start": 81.71078976640712,
+      "end": 81.89098998887653,
+      "probability": 0.0770939989933439,
+      "minimum_character_probability": 0.07050613850666387,
+      "character_count": 3
+    },
+    {
+      "order": 311,
+      "text": "सुनहरी",
+      "acoustic_text": "सुनहरी",
+      "start": 82.03114571746384,
+      "end": 82.37152391546162,
+      "probability": 0.08887881350517561,
+      "minimum_character_probability": 0.07097824002115681,
+      "character_count": 6
+    },
+    {
+      "order": 311,
+      "text": "लहरें",
+      "acoustic_text": "लहरें",
+      "start": 82.47163515016685,
+      "end": 82.73192436040044,
+      "probability": 0.049095739921974295,
+      "minimum_character_probability": 0.005491289178772519,
+      "character_count": 5
+    },
+    {
+      "order": 311,
+      "text": "उठती",
+      "acoustic_text": "उठती",
+      "start": 82.79199110122359,
+      "end": 83.01223581757509,
+      "probability": 0.0021218641970536588,
+      "minimum_character_probability": 2.8993617752108373e-05,
+      "character_count": 4
+    },
+    {
+      "order": 311,
+      "text": "हैं",
+      "acoustic_text": "हैं",
+      "start": 83.09232480533927,
+      "end": 83.1924360400445,
+      "probability": 0.0489585153049572,
+      "minimum_character_probability": 0.02674396680498933,
+      "character_count": 3
+    },
+    {
+      "order": 311,
+      "text": "फ्यूरिया",
+      "acoustic_text": "फ्यूरिया",
+      "start": 83.79310344827586,
+      "end": 84.19354838709677,
+      "probability": 0.06878565985764551,
+      "minimum_character_probability": 0.06148544893777768,
+      "character_count": 8
+    },
+    {
+      "order": 311,
+      "text": "वैस्पर",
+      "acoustic_text": "वैस्पर",
+      "start": 84.57397107897664,
+      "end": 85.05450500556174,
+      "probability": 0.03919438230383609,
+      "minimum_character_probability": 0.006119862041533513,
+      "character_count": 6
+    },
+    {
+      "order": 311,
+      "text": "कैस्टर",
+      "acoustic_text": "कैस्टर",
+      "start": 85.45494994438265,
+      "end": 85.9154616240267,
+      "probability": 0.07178009418396207,
+      "minimum_character_probability": 0.048045703272138134,
+      "character_count": 6
+    },
+    {
+      "order": 311,
+      "text": "और",
+      "acoustic_text": "और",
+      "start": 86.11568409343715,
+      "end": 86.17575083426028,
+      "probability": 0.07961975639491026,
+      "minimum_character_probability": 0.06577105055838443,
+      "character_count": 2
+    },
+    {
+      "order": 311,
+      "text": "कुकु",
+      "acoustic_text": "कुकु",
+      "start": 86.31590656284762,
+      "end": 86.55617352614016,
+      "probability": 0.04193314219637328,
+      "minimum_character_probability": 0.02272228121472794,
+      "character_count": 4
+    },
+    {
+      "order": 311,
+      "text": "अपनी",
+      "acoustic_text": "अपनी",
+      "start": 87.09677419354838,
+      "end": 87.35706340378198,
+      "probability": 0.06610566983843891,
+      "minimum_character_probability": 0.05880343642759789,
+      "character_count": 4
+    },
+    {
+      "order": 311,
+      "text": "अपनी",
+      "acoustic_text": "अपनी",
+      "start": 87.43715239154616,
+      "end": 87.63737486095663,
+      "probability": 0.06720829760229598,
+      "minimum_character_probability": 0.06007096415905507,
+      "character_count": 4
+    },
+    {
+      "order": 311,
+      "text": "शक्ति",
+      "acoustic_text": "शक्ति",
+      "start": 87.73748609566185,
+      "end": 88.03781979977754,
+      "probability": 0.07778361512940814,
+      "minimum_character_probability": 0.05099886456082303,
+      "character_count": 5
+    },
+    {
+      "order": 311,
+      "text": "से",
+      "acoustic_text": "से",
+      "start": 88.13793103448276,
+      "end": 88.21802002224695,
+      "probability": 0.0737835144246319,
+      "minimum_character_probability": 0.06841444142071179,
+      "character_count": 2
+    },
+    {
+      "order": 311,
+      "text": "विशाल",
+      "acoustic_text": "विशाल",
+      "start": 88.6384872080089,
+      "end": 89.03893214682981,
+      "probability": 0.07399703535099415,
+      "minimum_character_probability": 0.055391406618267976,
+      "character_count": 5
+    },
+    {
+      "order": 311,
+      "text": "रूप",
+      "acoustic_text": "रूप",
+      "start": 89.19911012235818,
+      "end": 89.3392658509455,
+      "probability": 0.08004919462395452,
+      "minimum_character_probability": 0.06789948497289451,
+      "character_count": 3
+    },
+    {
+      "order": 311,
+      "text": "लेते",
+      "acoustic_text": "लेते",
+      "start": 89.45939933259177,
+      "end": 89.63959955506118,
+      "probability": 0.06928978038586096,
+      "minimum_character_probability": 0.05237157141891471,
+      "character_count": 4
+    },
+    {
+      "order": 311,
+      "text": "हैं",
+      "acoustic_text": "हैं",
+      "start": 89.7397107897664,
+      "end": 89.81979977753059,
+      "probability": 0.03443783944234475,
+      "minimum_character_probability": 0.030008239553887175,
+      "character_count": 3
+    },
+    {
+      "order": 311,
+      "text": "अब",
+      "acoustic_text": "अब",
+      "start": 90.62068965517241,
+      "end": 90.68075639599556,
+      "probability": 0.04182368118306296,
+      "minimum_character_probability": 0.04003259792132281,
+      "character_count": 2
+    },
+    {
+      "order": 311,
+      "text": "पाँचों",
+      "acoustic_text": "पाँचों",
+      "start": 90.82091212458288,
+      "end": 91.1813125695217,
+      "probability": 0.024683361064801648,
+      "minimum_character_probability": 0.0018019535521060102,
+      "character_count": 6
+    },
+    {
+      "order": 311,
+      "text": "फिर",
+      "acoustic_text": "फिर",
+      "start": 91.5817575083426,
+      "end": 91.74193548387098,
+      "probability": 0.10621266990052353,
+      "minimum_character_probability": 0.09367865901307378,
+      "character_count": 3
+    },
+    {
+      "order": 311,
+      "text": "बड़े",
+      "acoustic_text": "बड़े",
+      "start": 91.8420467185762,
+      "end": 92.00222469410456,
+      "probability": 0.08934286945590644,
+      "minimum_character_probability": 0.07772711402940741,
+      "character_count": 4
+    },
+    {
+      "order": 311,
+      "text": "ड्रैगन",
+      "acoustic_text": "ड्रैगन",
+      "start": 92.1023359288098,
+      "end": 92.42269187986652,
+      "probability": 0.07594138857173349,
+      "minimum_character_probability": 0.013747121906170104,
+      "character_count": 6
+    },
+    {
+      "order": 311,
+      "text": "हैं",
+      "acoustic_text": "हैं",
+      "start": 92.48275862068965,
+      "end": 92.58286985539489,
+      "probability": 0.052338576217038135,
+      "minimum_character_probability": 0.019055265964366807,
+      "character_count": 3
+    },
+    {
+      "order": 312,
+      "text": "कालू",
+      "acoustic_text": "कालू",
+      "start": 93.74416017797553,
+      "end": 94.02447163515016,
+      "probability": 0.06355818634010837,
+      "minimum_character_probability": 0.038847234040423166,
+      "character_count": 4
+    },
+    {
+      "order": 312,
+      "text": "दादी",
+      "acoustic_text": "दादी",
+      "start": 94.08453837597331,
+      "end": 94.3448275862069,
+      "probability": 0.05451364068605286,
+      "minimum_character_probability": 0.04598452422998255,
+      "character_count": 4
+    },
+    {
+      "order": 312,
+      "text": "के",
+      "acoustic_text": "के",
+      "start": 94.60511679644048,
+      "end": 94.66518353726363,
+      "probability": 0.050445104498371224,
+      "minimum_character_probability": 0.042552121099092226,
+      "character_count": 2
+    },
+    {
+      "order": 312,
+      "text": "पास",
+      "acoustic_text": "पास",
+      "start": 94.82536151279199,
+      "end": 95.04560622914349,
+      "probability": 0.06381515766431306,
+      "minimum_character_probability": 0.04881252993742836,
+      "character_count": 3
+    },
+    {
+      "order": 312,
+      "text": "बैठा",
+      "acoustic_text": "बैठा",
+      "start": 95.14571746384873,
+      "end": 95.40600667408232,
+      "probability": 0.07486446868874315,
+      "minimum_character_probability": 0.0416983972831464,
+      "character_count": 4
+    },
+    {
+      "order": 312,
+      "text": "है",
+      "acoustic_text": "है",
+      "start": 95.50611790878754,
+      "end": 95.56618464961068,
+      "probability": 0.06551359481719125,
+      "minimum_character_probability": 0.058969792282931775,
+      "character_count": 2
+    },
+    {
+      "order": 313,
+      "text": "तुम",
+      "acoustic_text": "तुम",
+      "start": 96.32703003337042,
+      "end": 96.42714126807564,
+      "probability": 0.014274074851763928,
+      "minimum_character_probability": 0.0026144986256712147,
+      "character_count": 3
+    },
+    {
+      "order": 313,
+      "text": "मेरे",
+      "acoustic_text": "मेरे",
+      "start": 96.50723025583983,
+      "end": 96.70745272525028,
+      "probability": 0.12180996713060188,
+      "minimum_character_probability": 0.10778651509008269,
+      "character_count": 4
+    },
+    {
+      "order": 313,
+      "text": "साथ",
+      "acoustic_text": "साथ",
+      "start": 96.82758620689656,
+      "end": 97.08787541713015,
+      "probability": 0.09263235673270843,
+      "minimum_character_probability": 0.07569786405505921,
+      "character_count": 3
+    },
+    {
+      "order": 313,
+      "text": "रहोगे",
+      "acoustic_text": "रहोगे",
+      "start": 97.18798665183537,
+      "end": 97.52836484983315,
+      "probability": 0.07364692096169197,
+      "minimum_character_probability": 0.03202005356482982,
+      "character_count": 5
+    },
+    {
+      "order": 313,
+      "text": "वे",
+      "acoustic_text": "वे",
+      "start": 98.08898776418242,
+      "end": 98.14905450500557,
+      "probability": 0.09203335048486465,
+      "minimum_character_probability": 0.09032411882517188,
+      "character_count": 2
+    },
+    {
+      "order": 313,
+      "text": "वापस",
+      "acoustic_text": "वापस",
+      "start": 98.24916573971079,
+      "end": 98.60956618464961,
+      "probability": 0.1100202450244646,
+      "minimum_character_probability": 0.09552691993872164,
+      "character_count": 4
+    },
+    {
+      "order": 313,
+      "text": "आएँगे",
+      "acoustic_text": "आएँगे",
+      "start": 98.6896551724138,
+      "end": 98.96996662958843,
+      "probability": 0.02252070588714819,
+      "minimum_character_probability": 0.002031698661760456,
+      "character_count": 5
+    },
+    {
+      "order": 314,
+      "text": "कालू",
+      "acoustic_text": "कालू",
+      "start": 100.0111234705228,
+      "end": 100.25139043381535,
+      "probability": 0.8555055055914697,
+      "minimum_character_probability": 0.7899906416404555,
+      "character_count": 4
+    },
+    {
+      "order": 314,
+      "text": "पाँचों",
+      "acoustic_text": "पाँचों",
+      "start": 100.39154616240268,
+      "end": 100.7119021134594,
+      "probability": 0.5786580183352726,
+      "minimum_character_probability": 0.0574862347814376,
+      "character_count": 6
+    },
+    {
+      "order": 314,
+      "text": "की",
+      "acoustic_text": "की",
+      "start": 100.77196885428253,
+      "end": 100.85205784204672,
+      "probability": 0.981387198166598,
+      "minimum_character_probability": 0.980022906936901,
+      "character_count": 2
+    },
+    {
+      "order": 314,
+      "text": "ओर",
+      "acoustic_text": "ओर",
+      "start": 100.99221357063404,
+      "end": 101.07230255839822,
+      "probability": 0.966913805731922,
+      "minimum_character_probability": 0.9582161012080845,
+      "character_count": 2
+    },
+    {
+      "order": 314,
+      "text": "भौंकता",
+      "acoustic_text": "भौंकता",
+      "start": 101.1924360400445,
+      "end": 101.59288097886541,
+      "probability": 0.5744364707320031,
+      "minimum_character_probability": 0.16148622902268558,
+      "character_count": 6
+    },
+    {
+      "order": 314,
+      "text": "है",
+      "acoustic_text": "है",
+      "start": 101.6729699666296,
+      "end": 101.73303670745273,
+      "probability": 0.9517677753723102,
+      "minimum_character_probability": 0.9516932672682268,
+      "character_count": 2
+    },
+    {
+      "order": 314,
+      "text": "और",
+      "acoustic_text": "और",
+      "start": 102.29365962180201,
+      "end": 102.35372636262514,
+      "probability": 0.9748336680023464,
+      "minimum_character_probability": 0.9655558197386132,
+      "character_count": 2
+    },
+    {
+      "order": 314,
+      "text": "दादी",
+      "acoustic_text": "दादी",
+      "start": 102.45383759733036,
+      "end": 102.73414905450501,
+      "probability": 0.9270758929556199,
+      "minimum_character_probability": 0.8262294025924055,
+      "character_count": 4
+    },
+    {
+      "order": 314,
+      "text": "के",
+      "acoustic_text": "के",
+      "start": 102.8142380422692,
+      "end": 102.87430478309233,
+      "probability": 0.966927074817999,
+      "minimum_character_probability": 0.9605782642125871,
+      "character_count": 2
+    },
+    {
+      "order": 314,
+      "text": "पास",
+      "acoustic_text": "पास",
+      "start": 103.0344827586207,
+      "end": 103.23470522803115,
+      "probability": 0.9849757085203061,
+      "minimum_character_probability": 0.9825840580744405,
+      "character_count": 3
+    },
+    {
+      "order": 314,
+      "text": "ही",
+      "acoustic_text": "ही",
+      "start": 103.33481646273637,
+      "end": 103.37486095661846,
+      "probability": 0.9785720456248627,
+      "minimum_character_probability": 0.9704974208123205,
+      "character_count": 2
+    },
+    {
+      "order": 314,
+      "text": "रहता",
+      "acoustic_text": "रहता",
+      "start": 103.45494994438265,
+      "end": 103.6952169076752,
+      "probability": 0.9358138192034351,
+      "minimum_character_probability": 0.8756310578145832,
+      "character_count": 4
+    },
+    {
+      "order": 314,
+      "text": "है",
+      "acoustic_text": "है",
+      "start": 103.77530589543937,
+      "end": 103.83537263626252,
+      "probability": 0.9556533358512711,
+      "minimum_character_probability": 0.9515845558199494,
+      "character_count": 2
+    },
+    {
+      "order": 315,
+      "text": "तानसेन",
+      "acoustic_text": "तानसेन",
+      "start": 104.73637374860957,
+      "end": 105.21690767519466,
+      "probability": 0.838326868981882,
+      "minimum_character_probability": 0.6851496629179864,
+      "character_count": 6
+    },
+    {
+      "order": 315,
+      "text": "हूबहू",
+      "acoustic_text": "हूबहू",
+      "start": 105.73748609566185,
+      "end": 106.13793103448276,
+      "probability": 0.6619884597905682,
+      "minimum_character_probability": 0.38962828752278983,
+      "character_count": 5
+    },
+    {
+      "order": 315,
+      "text": "कुकु",
+      "acoustic_text": "कुकु",
+      "start": 106.33815350389321,
+      "end": 106.57842046718577,
+      "probability": 0.570680451124362,
+      "minimum_character_probability": 0.2276923978538836,
+      "character_count": 4
+    },
+    {
+      "order": 315,
+      "text": "की",
+      "acoustic_text": "की",
+      "start": 106.65850945494995,
+      "end": 106.73859844271414,
+      "probability": 0.9650488260742922,
+      "minimum_character_probability": 0.9622644830120568,
+      "character_count": 2
+    },
+    {
+      "order": 315,
+      "text": "पहले",
+      "acoustic_text": "पहले",
+      "start": 106.89877641824249,
+      "end": 107.13904338153505,
+      "probability": 0.9713681097020775,
+      "minimum_character_probability": 0.9638013577054261,
+      "character_count": 4
+    },
+    {
+      "order": 315,
+      "text": "कही",
+      "acoustic_text": "कही",
+      "start": 107.21913236929922,
+      "end": 107.39933259176863,
+      "probability": 0.9471170500612337,
+      "minimum_character_probability": 0.9198276801882075,
+      "character_count": 3
+    },
+    {
+      "order": 315,
+      "text": "आवाज़",
+      "acoustic_text": "आवाज़",
+      "start": 107.559510567297,
+      "end": 107.83982202447163,
+      "probability": 0.5744955650053823,
+      "minimum_character_probability": 0.065123589395171,
+      "character_count": 5
+    },
+    {
+      "order": 315,
+      "text": "में",
+      "acoustic_text": "में",
+      "start": 107.85984427141268,
+      "end": 107.93993325917687,
+      "probability": 0.730632555048957,
+      "minimum_character_probability": 0.6144611616778777,
+      "character_count": 3
+    }
+  ],
+  "observed_for_rescript": [
+    {
+      "text": "दृश्य",
+      "start": 0.14015572858731926,
+      "end": 0.46051167964404893,
+      "probability": 0.9779135680241867
+    },
+    {
+      "text": "10",
+      "start": 0.6206896551724138,
+      "end": 0.8209121245828699,
+      "probability": 0.9698807029796214
+    },
+    {
+      "text": "बाहर",
+      "start": 1.5216907675194662,
+      "end": 1.882091212458287,
+      "probability": 0.44129079539770133
+    },
+    {
+      "text": "दादी",
+      "start": 2.5828698553948835,
+      "end": 2.843159065628476,
+      "probability": 0.5931793486026893
+    },
+    {
+      "text": "का",
+      "start": 2.9232480533926584,
+      "end": 3.0433815350389324,
+      "probability": 0.5651740539533727
+    },
+    {
+      "text": "आँगन",
+      "start": 3.203559510567297,
+      "end": 3.5038932146829813,
+      "probability": 0.20664069739923113
+    },
+    {
+      "text": "गुरुकुल",
+      "start": 3.9644048943270302,
+      "end": 4.304783092324805,
+      "probability": 0.609852682001336
+    },
+    {
+      "text": "का",
+      "start": 4.3848720800889875,
+      "end": 4.46496106785317,
+      "probability": 0.5648450698715087
+    },
+    {
+      "text": "द्वार",
+      "start": 4.545050055617352,
+      "end": 4.825361512791991,
+      "probability": 0.6083457807455371
+    },
+    {
+      "text": "और",
+      "start": 5.265850945494995,
+      "end": 5.325917686318132,
+      "probability": 0.5000312328569859
+    },
+    {
+      "text": "अक्षर",
+      "start": 5.46607341490545,
+      "end": 5.786429365962181,
+      "probability": 0.45231027365630444
+    },
+    {
+      "text": "गुरुकुल",
+      "start": 5.886540600667408,
+      "end": 6.226918798665183,
+      "probability": 0.5576773874933669
+    },
+    {
+      "text": "साँझ",
+      "start": 6.747497219132369,
+      "end": 7.047830923248053,
+      "probability": 0.0448826431991996
+    },
+    {
+      "text": "दादी",
+      "start": 8.309232480533927,
+      "end": 8.60956618464961,
+      "probability": 0.5542324894586419
+    },
+    {
+      "text": "तीन",
+      "start": 8.829810901001112,
+      "end": 9.010011123470523,
+      "probability": 0.5087295656260703
+    },
+    {
+      "text": "तस्वीरें",
+      "start": 9.130144605116797,
+      "end": 9.550611790878754,
+      "probability": 0.5622418643671275
+    },
+    {
+      "text": "उठाती",
+      "start": 9.610678531701891,
+      "end": 9.931034482758621,
+      "probability": 0.5971066449103477
+    },
+    {
+      "text": "हैं",
+      "start": 10.011123470522802,
+      "end": 10.111234705228032,
+      "probability": 0.3307398581747307
+    },
+    {
+      "text": "हर",
+      "start": 10.671857619577308,
+      "end": 10.771968854282536,
+      "probability": 0.47907537616873214
+    },
+    {
+      "text": "तस्वीर",
+      "start": 10.872080088987765,
+      "end": 11.272525027808676,
+      "probability": 0.619918463366055
+    },
+    {
+      "text": "उसी",
+      "start": 11.75305895439377,
+      "end": 11.933259176863181,
+      "probability": 0.5142961289315565
+    },
+    {
+      "text": "घटना",
+      "start": 12.053392658509456,
+      "end": 12.353726362625139,
+      "probability": 0.5751971332492374
+    },
+    {
+      "text": "की",
+      "start": 12.433815350389322,
+      "end": 12.513904338153504,
+      "probability": 0.653681540899888
+    },
+    {
+      "text": "है",
+      "start": 12.593993325917687,
+      "end": 12.674082313681868,
+      "probability": 0.5814542207340466
+    },
+    {
+      "text": "जो",
+      "start": 12.994438264738598,
+      "end": 13.074527252502781,
+      "probability": 0.7410888836356662
+    },
+    {
+      "text": "अभी",
+      "start": 13.2146829810901,
+      "end": 13.374860956618464,
+      "probability": 0.7442881818364748
+    },
+    {
+      "text": "हुई",
+      "start": 13.474972191323694,
+      "end": 13.655172413793103,
+      "probability": 0.7578294146360092
+    },
+    {
+      "text": "बच्चा",
+      "start": 14.89655172413793,
+      "end": 15.276974416017797,
+      "probability": 0.03587045232999584
+    },
+    {
+      "text": "ब",
+      "start": 15.757508342602891,
+      "end": 15.777530589543938,
+      "probability": 0.023966096270509753
+    },
+    {
+      "text": "से",
+      "start": 16.11790878754171,
+      "end": 16.17797552836485,
+      "probability": 0.024130752899884207
+    },
+    {
+      "text": "शुरू",
+      "start": 16.258064516129032,
+      "end": 16.49833147942158,
+      "probability": 0.046370039668499216
+    },
+    {
+      "text": "होता",
+      "start": 16.57842046718576,
+      "end": 16.798665183537263,
+      "probability": 0.04649294294956828
+    },
+    {
+      "text": "है",
+      "start": 16.89877641824249,
+      "end": 16.978865406006673,
+      "probability": 0.05332568770901289
+    },
+    {
+      "text": "बादल",
+      "start": 17.699666295884317,
+      "end": 18.08008898776418,
+      "probability": 0.06843785618251952
+    },
+    {
+      "text": "ब",
+      "start": 18.560622914349278,
+      "end": 18.580645161290324,
+      "probability": 0.01800381030743888
+    },
+    {
+      "text": "से",
+      "start": 18.880978865406007,
+      "end": 18.941045606229142,
+      "probability": 0.03839412370392919
+    },
+    {
+      "text": "शुरू",
+      "start": 19.04115684093437,
+      "end": 19.261401557285872,
+      "probability": 0.054282093983985404
+    },
+    {
+      "text": "होता",
+      "start": 19.341490545050057,
+      "end": 19.5817575083426,
+      "probability": 0.048662481939694954
+    },
+    {
+      "text": "है",
+      "start": 19.701890989988875,
+      "end": 19.78197997775306,
+      "probability": 0.028863159309723052
+    },
+    {
+      "text": "बकरी",
+      "start": 20.582869855394883,
+      "end": 20.92324805339266,
+      "probability": 0.9451363966178136
+    },
+    {
+      "text": "ब",
+      "start": 21.46384872080089,
+      "end": 21.483870967741936,
+      "probability": 0.843191175322531
+    },
+    {
+      "text": "से",
+      "start": 21.8642936596218,
+      "end": 21.92436040044494,
+      "probability": 0.7825205544753774
+    },
+    {
+      "text": "शुरू",
+      "start": 22.024471635150167,
+      "end": 22.264738598442715,
+      "probability": 0.8166721020573685
+    },
+    {
+      "text": "होती",
+      "start": 22.344827586206897,
+      "end": 22.585094549499445,
+      "probability": 0.7935378705555762
+    },
+    {
+      "text": "है",
+      "start": 22.685205784204673,
+      "end": 22.765294771968854,
+      "probability": 0.8658041187251507
+    },
+    {
+      "text": "दादी",
+      "start": 23.64627363737486,
+      "end": 23.906562847608456,
+      "probability": 0.43629320525595766
+    },
+    {
+      "text": "चित्र",
+      "start": 24.02669632925473,
+      "end": 24.28698553948832,
+      "probability": 0.4649436330991474
+    },
+    {
+      "text": "नीचे",
+      "start": 24.407119021134594,
+      "end": 24.66740823136819,
+      "probability": 0.7072145542657625
+    },
+    {
+      "text": "रखती",
+      "start": 24.74749721913237,
+      "end": 25.00778642936596,
+      "probability": 0.8314478052904164
+    },
+    {
+      "text": "हैं",
+      "start": 25.0678531701891,
+      "end": 25.187986651835374,
+      "probability": 0.1646880246647935
+    },
+    {
+      "text": "और",
+      "start": 25.688542825361512,
+      "end": 25.768631813125694,
+      "probability": 0.6828618914902332
+    },
+    {
+      "text": "पाँचों",
+      "start": 25.92880978865406,
+      "end": 26.269187986651836,
+      "probability": 0.12224975558473317
+    },
+    {
+      "text": "बच्चों",
+      "start": 26.349276974416018,
+      "end": 26.62958843159066,
+      "probability": 0.24841062864978447
+    },
+    {
+      "text": "की",
+      "start": 26.689655172413794,
+      "end": 26.769744160177975,
+      "probability": 0.3468281085111567
+    },
+    {
+      "text": "ओर",
+      "start": 26.88987764182425,
+      "end": 26.96996662958843,
+      "probability": 0.32620811638305836
+    },
+    {
+      "text": "देखती",
+      "start": 27.07007786429366,
+      "end": 27.370411568409345,
+      "probability": 0.3981328078839227
+    },
+    {
+      "text": "हैं",
+      "start": 27.43047830923248,
+      "end": 27.530589543937708,
+      "probability": 0.13842291090929645
+    },
+    {
+      "text": "ताक़त",
+      "start": 28.832035595105673,
+      "end": 29.232480533926587,
+      "probability": 0.07190626680058138
+    },
+    {
+      "text": "बड़ी",
+      "start": 29.352614015572858,
+      "end": 29.53281423804227,
+      "probability": 0.22405742072995644
+    },
+    {
+      "text": "हो",
+      "start": 29.632925472747498,
+      "end": 29.733036707452726,
+      "probability": 0.13549488644954802
+    },
+    {
+      "text": "तो",
+      "start": 30.273637374860957,
+      "end": 30.333704115684093,
+      "probability": 0.7602289551432055
+    },
+    {
+      "text": "उसे",
+      "start": 30.453837597330367,
+      "end": 30.63403781979978,
+      "probability": 0.8499171419327228
+    },
+    {
+      "text": "सही",
+      "start": 30.834260289210235,
+      "end": 31.054505005561737,
+      "probability": 0.9711912380633424
+    },
+    {
+      "text": "दिशा",
+      "start": 31.2146829810901,
+      "end": 31.49499443826474,
+      "probability": 0.9302970790066464
+    },
+    {
+      "text": "देना",
+      "start": 31.595105672969968,
+      "end": 31.875417130144605,
+      "probability": 0.9506965426035976
+    },
+    {
+      "text": "और",
+      "start": 32.395995550611794,
+      "end": 32.59621802002225,
+      "probability": 0.9382807511856706
+    },
+    {
+      "text": "भी",
+      "start": 32.71635150166852,
+      "end": 32.77641824249166,
+      "probability": 0.9900700935869141
+    },
+    {
+      "text": "ज़रूरी",
+      "start": 32.93659621802002,
+      "end": 33.2769744160178,
+      "probability": 0.44968043508975947
+    },
+    {
+      "text": "होता",
+      "start": 33.33704115684093,
+      "end": 33.557285873192434,
+      "probability": 0.4714648037378178
+    },
+    {
+      "text": "है",
+      "start": 33.67741935483871,
+      "end": 33.73748609566184,
+      "probability": 0.8943277278901649
+    },
+    {
+      "text": "घर",
+      "start": 34.938820912124584,
+      "end": 35.11902113459399,
+      "probability": 0.33740203378209727
+    },
+    {
+      "text": "लौटने",
+      "start": 35.25917686318131,
+      "end": 35.57953281423804,
+      "probability": 0.3103677537563001
+    },
+    {
+      "text": "वाली",
+      "start": 35.63959955506118,
+      "end": 35.83982202447164,
+      "probability": 0.3286496897112184
+    },
+    {
+      "text": "सुनहरी",
+      "start": 36.0,
+      "end": 36.36040044493882,
+      "probability": 0.3637464719106247
+    },
+    {
+      "text": "डोरी",
+      "start": 36.46051167964405,
+      "end": 36.74082313681869,
+      "probability": 0.32281621480587797
+    },
+    {
+      "text": "बड़े",
+      "start": 37.181312569521694,
+      "end": 37.3615127919911,
+      "probability": 0.3026084270383469
+    },
+    {
+      "text": "फाटक",
+      "start": 37.481646273637374,
+      "end": 37.74193548387097,
+      "probability": 0.3210969627135644
+    },
+    {
+      "text": "से",
+      "start": 37.8420467185762,
+      "end": 37.90211345939933,
+      "probability": 0.3504542339680453
+    },
+    {
+      "text": "बँधी",
+      "start": 37.982202447163516,
+      "end": 38.20244716351502,
+      "probability": 0.03968004250228778
+    },
+    {
+      "text": "है",
+      "start": 38.26251390433816,
+      "end": 38.342602892102335,
+      "probability": 0.0636076020068911
+    },
+    {
+      "text": "लेडा",
+      "start": 39.10344827586207,
+      "end": 39.383759733036705,
+      "probability": 0.09174994828633606
+    },
+    {
+      "text": "बाकी",
+      "start": 39.80422691879867,
+      "end": 40.04449388209121,
+      "probability": 0.362165661575702
+    },
+    {
+      "text": "चार",
+      "start": 40.16462736373749,
+      "end": 40.36484983314794,
+      "probability": 0.8977221160007592
+    },
+    {
+      "text": "बच्चों",
+      "start": 40.44493882091213,
+      "end": 40.705228031145715,
+      "probability": 0.91577109231061
+    },
+    {
+      "text": "से",
+      "start": 40.765294771968854,
+      "end": 40.84538375973304,
+      "probability": 0.9049871153880535
+    },
+    {
+      "text": "थोड़ा",
+      "start": 40.96551724137931,
+      "end": 41.18576195773081,
+      "probability": 0.8249646854140976
+    },
+    {
+      "text": "दूर",
+      "start": 41.30589543937709,
+      "end": 41.4860956618465,
+      "probability": 0.871066508331163
+    },
+    {
+      "text": "जाती",
+      "start": 41.566184649610676,
+      "end": 41.82647385984427,
+      "probability": 0.8849808701625558
+    },
+    {
+      "text": "है",
+      "start": 41.906562847608456,
+      "end": 41.966629588431594,
+      "probability": 0.31707699394368577
+    },
+    {
+      "text": "कुकु",
+      "start": 42.74749721913237,
+      "end": 43.007786429365964,
+      "probability": 0.4589641963717302
+    },
+    {
+      "text": "फ्यूरिया",
+      "start": 43.44827586206897,
+      "end": 43.84872080088988,
+      "probability": 0.8305875548545111
+    },
+    {
+      "text": "वैस्पर",
+      "start": 44.24916573971079,
+      "end": 44.76974416017798,
+      "probability": 0.6520995362791145
+    },
+    {
+      "text": "और",
+      "start": 45.1301446051168,
+      "end": 45.21023359288098,
+      "probability": 0.9469312978486379
+    },
+    {
+      "text": "कैस्टर",
+      "start": 45.33036707452725,
+      "end": 45.7908787541713,
+      "probability": 0.7567054481581663
+    },
+    {
+      "text": "अपने",
+      "start": 46.19132369299221,
+      "end": 46.411568409343715,
+      "probability": 0.9245708487090464
+    },
+    {
+      "text": "छोटे",
+      "start": 46.53170189098999,
+      "end": 46.812013348164626,
+      "probability": 0.9106196435806955
+    },
+    {
+      "text": "रूप",
+      "start": 46.91212458286986,
+      "end": 47.03225806451613,
+      "probability": 0.8113364575865302
+    },
+    {
+      "text": "में",
+      "start": 47.09232480533927,
+      "end": 47.19243604004449,
+      "probability": 0.8981429846789654
+    },
+    {
+      "text": "रहते",
+      "start": 47.232480533926584,
+      "end": 47.452725250278085,
+      "probability": 0.7769704672252182
+    },
+    {
+      "text": "हैं",
+      "start": 47.53281423804227,
+      "end": 47.632925472747495,
+      "probability": 0.49632494316317327
+    },
+    {
+      "text": "मैं",
+      "start": 48.93437152391546,
+      "end": 49.05450500556174,
+      "probability": 0.02515835946664887
+    },
+    {
+      "text": "अपना",
+      "start": 49.2146829810901,
+      "end": 49.474972191323694,
+      "probability": 0.008031720170749993
+    },
+    {
+      "text": "कड़ा",
+      "start": 49.595105672969964,
+      "end": 49.79532814238042,
+      "probability": 0.013334010187663907
+    },
+    {
+      "text": "खुद",
+      "start": 50.01557285873192,
+      "end": 50.17575083426029,
+      "probability": 0.02227836752968213
+    },
+    {
+      "text": "जगाऊँगी",
+      "start": 50.275862068965516,
+      "end": 50.75639599555061,
+      "probability": 0.023831618114283408
+    },
+    {
+      "text": "ब",
+      "start": 51.23692992213571,
+      "end": 51.256952169076754,
+      "probability": 0.00211783177545085
+    },
+    {
+      "text": "लेडा",
+      "start": 52.49833147942158,
+      "end": 52.77864293659622,
+      "probability": 0.35307353910042627
+    },
+    {
+      "text": "अपना",
+      "start": 52.99888765294772,
+      "end": 53.23915461624027,
+      "probability": 0.906149550808787
+    },
+    {
+      "text": "कड़ा",
+      "start": 53.31924360400445,
+      "end": 53.519466073414904,
+      "probability": 0.6698093724244656
+    },
+    {
+      "text": "छूती",
+      "start": 53.59955506117909,
+      "end": 53.899888765294776,
+      "probability": 0.6020256469812788
+    },
+    {
+      "text": "है",
+      "start": 53.95995550611791,
+      "end": 54.04004449388209,
+      "probability": 0.7851792128533219
+    },
+    {
+      "text": "उसकी",
+      "start": 54.68075639599555,
+      "end": 54.88097886540601,
+      "probability": 0.948985736331789
+    },
+    {
+      "text": "अपनी",
+      "start": 55.08120133481646,
+      "end": 55.34149054505006,
+      "probability": 0.943384219890993
+    },
+    {
+      "text": "सुनहरी",
+      "start": 55.481646273637374,
+      "end": 55.82202447163515,
+      "probability": 0.8611452689453671
+    },
+    {
+      "text": "लहर",
+      "start": 55.90211345939933,
+      "end": 56.08231368186875,
+      "probability": 0.3515500030770824
+    },
+    {
+      "text": "उठती",
+      "start": 56.18242491657397,
+      "end": 56.38264738598443,
+      "probability": 0.04278989496694883
+    },
+    {
+      "text": "है",
+      "start": 56.46273637374861,
+      "end": 56.54282536151279,
+      "probability": 0.8175490362031755
+    },
+    {
+      "text": "वह",
+      "start": 57.22358175750834,
+      "end": 57.30367074527253,
+      "probability": 0.3918531380435624
+    },
+    {
+      "text": "अकेले",
+      "start": 57.483870967741936,
+      "end": 57.8642936596218,
+      "probability": 0.9058698407271022
+    },
+    {
+      "text": "अपना",
+      "start": 58.28476084538376,
+      "end": 58.50500556173526,
+      "probability": 0.9458383995773911
+    },
+    {
+      "text": "पूरा",
+      "start": 58.66518353726363,
+      "end": 59.0055617352614,
+      "probability": 0.9444782302791576
+    },
+    {
+      "text": "विशाल",
+      "start": 59.10567296996663,
+      "end": 59.506117908787544,
+      "probability": 0.9636551348512108
+    },
+    {
+      "text": "हल्का",
+      "start": 59.88654060066741,
+      "end": 60.206896551724135,
+      "probability": 0.17342489888263626
+    },
+    {
+      "text": "बैंगनी",
+      "start": 60.32703003337041,
+      "end": 60.68743047830923,
+      "probability": 0.9315234128997867
+    },
+    {
+      "text": "रूप",
+      "start": 60.78754171301446,
+      "end": 60.92769744160178,
+      "probability": 0.9878179274704306
+    },
+    {
+      "text": "लेती",
+      "start": 61.02780867630701,
+      "end": 61.24805339265851,
+      "probability": 0.997807517013949
+    },
+    {
+      "text": "है",
+      "start": 61.308120133481644,
+      "end": 61.38820912124583,
+      "probability": 0.9953839783891762
+    },
+    {
+      "text": "बाकी",
+      "start": 62.06896551724138,
+      "end": 62.329254727474975,
+      "probability": 0.9910482425014729
+    },
+    {
+      "text": "चार",
+      "start": 62.4293659621802,
+      "end": 62.6496106785317,
+      "probability": 0.98457604605825
+    },
+    {
+      "text": "अब",
+      "start": 62.909899888765295,
+      "end": 62.969966629588434,
+      "probability": 0.8984702449032125
+    },
+    {
+      "text": "भी",
+      "start": 63.07007786429366,
+      "end": 63.1301446051168,
+      "probability": 0.9684821694021643
+    },
+    {
+      "text": "छोटे",
+      "start": 63.25027808676307,
+      "end": 63.5706340378198,
+      "probability": 0.969716649277159
+    },
+    {
+      "text": "हैं",
+      "start": 63.67074527252503,
+      "end": 63.770856507230256,
+      "probability": 0.9617177125394002
+    },
+    {
+      "text": "मेरा",
+      "start": 64.85205784204672,
+      "end": 65.13236929922135,
+      "probability": 0.8244051043439667
+    },
+    {
+      "text": "कड़ा",
+      "start": 65.25250278086763,
+      "end": 65.47274749721913,
+      "probability": 0.7501836009612171
+    },
+    {
+      "text": "मेरी",
+      "start": 65.8932146829811,
+      "end": 66.17352614015573,
+      "probability": 0.8789258648619451
+    },
+    {
+      "text": "बात",
+      "start": 66.27363737486095,
+      "end": 66.45383759733036,
+      "probability": 0.9154852282531979
+    },
+    {
+      "text": "सुनता",
+      "start": 66.5539488320356,
+      "end": 66.83426028921023,
+      "probability": 0.9199444944025771
+    },
+    {
+      "text": "है",
+      "start": 66.95439377085651,
+      "end": 67.0344827586207,
+      "probability": 0.9274225317871709
+    },
+    {
+      "text": "लेडा",
+      "start": 67.85539488320356,
+      "end": 68.13570634037819,
+      "probability": 0.5596704461265526
+    },
+    {
+      "text": "तुम",
+      "start": 68.51612903225806,
+      "end": 68.63626251390434,
+      "probability": 0.9437838366882613
+    },
+    {
+      "text": "खुद",
+      "start": 68.77641824249166,
+      "end": 68.97664071190212,
+      "probability": 0.9199591234969606
+    },
+    {
+      "text": "बड़ी",
+      "start": 69.07675194660735,
+      "end": 69.25695216907675,
+      "probability": 0.9369510382167969
+    },
+    {
+      "text": "हो",
+      "start": 69.31701890989989,
+      "end": 69.39710789766407,
+      "probability": 0.918805466111545
+    },
+    {
+      "text": "गई",
+      "start": 69.47719688542826,
+      "end": 69.59733036707453,
+      "probability": 0.9625921906722859
+    },
+    {
+      "text": "हो",
+      "start": 69.6774193548387,
+      "end": 69.75750834260289,
+      "probability": 0.9042015904698922
+    },
+    {
+      "text": "अब",
+      "start": 70.75862068965517,
+      "end": 70.8587319243604,
+      "probability": 0.8886939033692131
+    },
+    {
+      "text": "मैं",
+      "start": 70.93882091212458,
+      "end": 71.05895439377086,
+      "probability": 0.9092045180494426
+    },
+    {
+      "text": "अपना",
+      "start": 71.11902113459399,
+      "end": 71.31924360400446,
+      "probability": 0.9501178882589668
+    },
+    {
+      "text": "कड़ा",
+      "start": 71.39933259176863,
+      "end": 71.57953281423805,
+      "probability": 0.7871597794935598
+    },
+    {
+      "text": "जगाती",
+      "start": 71.65962180200222,
+      "end": 72.02002224694105,
+      "probability": 0.9233756213856849
+    },
+    {
+      "text": "हूँ",
+      "start": 72.08008898776419,
+      "end": 72.18020022246941,
+      "probability": 0.27007018590684856
+    },
+    {
+      "text": "ब",
+      "start": 72.2602892102336,
+      "end": 72.28031145717463,
+      "probability": 0.5985962682405317
+    },
+    {
+      "text": "मैं",
+      "start": 73.4015572858732,
+      "end": 73.52169076751947,
+      "probability": 0.8963832180850533
+    },
+    {
+      "text": "भी",
+      "start": 73.60177975528364,
+      "end": 73.66184649610679,
+      "probability": 0.9408535091660047
+    },
+    {
+      "text": "अपना",
+      "start": 73.76195773081201,
+      "end": 73.96218020022248,
+      "probability": 0.9394682004147725
+    },
+    {
+      "text": "कड़ा",
+      "start": 74.04226918798665,
+      "end": 74.22246941045606,
+      "probability": 0.7095557950040743
+    },
+    {
+      "text": "खुद",
+      "start": 74.2825361512792,
+      "end": 74.42269187986652,
+      "probability": 0.862113258280343
+    },
+    {
+      "text": "जगाऊँगा",
+      "start": 74.5027808676307,
+      "end": 74.92324805339265,
+      "probability": 0.334237185823221
+    },
+    {
+      "text": "ब",
+      "start": 75.06340378197999,
+      "end": 75.08342602892102,
+      "probability": 0.5470835721004205
+    },
+    {
+      "text": "मैं",
+      "start": 76.22469410456063,
+      "end": 76.36484983314794,
+      "probability": 0.9455379883000343
+    },
+    {
+      "text": "भी",
+      "start": 76.48498331479422,
+      "end": 76.5650723025584,
+      "probability": 0.9498069546782333
+    },
+    {
+      "text": "खुद",
+      "start": 76.70522803114572,
+      "end": 76.86540600667408,
+      "probability": 0.9005321602332954
+    },
+    {
+      "text": "बड़ा",
+      "start": 76.94549499443826,
+      "end": 77.14571746384873,
+      "probability": 0.9478337077714533
+    },
+    {
+      "text": "बनूँगा",
+      "start": 77.22580645161291,
+      "end": 77.58620689655173,
+      "probability": 0.40552656733837206
+    },
+    {
+      "text": "ब",
+      "start": 77.72636262513905,
+      "end": 77.74638487208009,
+      "probability": 0.6515498621425803
+    },
+    {
+      "text": "अब",
+      "start": 78.92769744160178,
+      "end": 79.00778642936596,
+      "probability": 0.8669776035732617
+    },
+    {
+      "text": "हम",
+      "start": 79.10789766407119,
+      "end": 79.20800889877641,
+      "probability": 0.8999896570088607
+    },
+    {
+      "text": "साथ",
+      "start": 79.38820912124584,
+      "end": 79.58843159065628,
+      "probability": 0.7510681570142292
+    },
+    {
+      "text": "चलेंगे",
+      "start": 79.66852057842047,
+      "end": 80.00889877641825,
+      "probability": 0.20952810771297728
+    },
+    {
+      "text": "ब",
+      "start": 80.2091212458287,
+      "end": 80.22914349276975,
+      "probability": 0.006361986983026809
+    },
+    {
+      "text": "चार",
+      "start": 81.23025583982202,
+      "end": 81.49054505005562,
+      "probability": 0.07022011579309757
+    },
+    {
+      "text": "अलग",
+      "start": 81.71078976640712,
+      "end": 81.89098998887653,
+      "probability": 0.0770939989933439
+    },
+    {
+      "text": "सुनहरी",
+      "start": 82.03114571746384,
+      "end": 82.37152391546162,
+      "probability": 0.08887881350517561
+    },
+    {
+      "text": "लहरें",
+      "start": 82.47163515016685,
+      "end": 82.73192436040044,
+      "probability": 0.049095739921974295
+    },
+    {
+      "text": "उठती",
+      "start": 82.79199110122359,
+      "end": 83.01223581757509,
+      "probability": 0.0021218641970536588
+    },
+    {
+      "text": "हैं",
+      "start": 83.09232480533927,
+      "end": 83.1924360400445,
+      "probability": 0.0489585153049572
+    },
+    {
+      "text": "फ्यूरिया",
+      "start": 83.79310344827586,
+      "end": 84.19354838709677,
+      "probability": 0.06878565985764551
+    },
+    {
+      "text": "वैस्पर",
+      "start": 84.57397107897664,
+      "end": 85.05450500556174,
+      "probability": 0.03919438230383609
+    },
+    {
+      "text": "कैस्टर",
+      "start": 85.45494994438265,
+      "end": 85.9154616240267,
+      "probability": 0.07178009418396207
+    },
+    {
+      "text": "और",
+      "start": 86.11568409343715,
+      "end": 86.17575083426028,
+      "probability": 0.07961975639491026
+    },
+    {
+      "text": "कुकु",
+      "start": 86.31590656284762,
+      "end": 86.55617352614016,
+      "probability": 0.04193314219637328
+    },
+    {
+      "text": "अपनी",
+      "start": 87.09677419354838,
+      "end": 87.35706340378198,
+      "probability": 0.06610566983843891
+    },
+    {
+      "text": "अपनी",
+      "start": 87.43715239154616,
+      "end": 87.63737486095663,
+      "probability": 0.06720829760229598
+    },
+    {
+      "text": "शक्ति",
+      "start": 87.73748609566185,
+      "end": 88.03781979977754,
+      "probability": 0.07778361512940814
+    },
+    {
+      "text": "से",
+      "start": 88.13793103448276,
+      "end": 88.21802002224695,
+      "probability": 0.0737835144246319
+    },
+    {
+      "text": "विशाल",
+      "start": 88.6384872080089,
+      "end": 89.03893214682981,
+      "probability": 0.07399703535099415
+    },
+    {
+      "text": "रूप",
+      "start": 89.19911012235818,
+      "end": 89.3392658509455,
+      "probability": 0.08004919462395452
+    },
+    {
+      "text": "लेते",
+      "start": 89.45939933259177,
+      "end": 89.63959955506118,
+      "probability": 0.06928978038586096
+    },
+    {
+      "text": "हैं",
+      "start": 89.7397107897664,
+      "end": 89.81979977753059,
+      "probability": 0.03443783944234475
+    },
+    {
+      "text": "अब",
+      "start": 90.62068965517241,
+      "end": 90.68075639599556,
+      "probability": 0.04182368118306296
+    },
+    {
+      "text": "पाँचों",
+      "start": 90.82091212458288,
+      "end": 91.1813125695217,
+      "probability": 0.024683361064801648
+    },
+    {
+      "text": "फिर",
+      "start": 91.5817575083426,
+      "end": 91.74193548387098,
+      "probability": 0.10621266990052353
+    },
+    {
+      "text": "बड़े",
+      "start": 91.8420467185762,
+      "end": 92.00222469410456,
+      "probability": 0.08934286945590644
+    },
+    {
+      "text": "ड्रैगन",
+      "start": 92.1023359288098,
+      "end": 92.42269187986652,
+      "probability": 0.07594138857173349
+    },
+    {
+      "text": "हैं",
+      "start": 92.48275862068965,
+      "end": 92.58286985539489,
+      "probability": 0.052338576217038135
+    },
+    {
+      "text": "कालू",
+      "start": 93.74416017797553,
+      "end": 94.02447163515016,
+      "probability": 0.06355818634010837
+    },
+    {
+      "text": "दादी",
+      "start": 94.08453837597331,
+      "end": 94.3448275862069,
+      "probability": 0.05451364068605286
+    },
+    {
+      "text": "के",
+      "start": 94.60511679644048,
+      "end": 94.66518353726363,
+      "probability": 0.050445104498371224
+    },
+    {
+      "text": "पास",
+      "start": 94.82536151279199,
+      "end": 95.04560622914349,
+      "probability": 0.06381515766431306
+    },
+    {
+      "text": "बैठा",
+      "start": 95.14571746384873,
+      "end": 95.40600667408232,
+      "probability": 0.07486446868874315
+    },
+    {
+      "text": "है",
+      "start": 95.50611790878754,
+      "end": 95.56618464961068,
+      "probability": 0.06551359481719125
+    },
+    {
+      "text": "तुम",
+      "start": 96.32703003337042,
+      "end": 96.42714126807564,
+      "probability": 0.014274074851763928
+    },
+    {
+      "text": "मेरे",
+      "start": 96.50723025583983,
+      "end": 96.70745272525028,
+      "probability": 0.12180996713060188
+    },
+    {
+      "text": "साथ",
+      "start": 96.82758620689656,
+      "end": 97.08787541713015,
+      "probability": 0.09263235673270843
+    },
+    {
+      "text": "रहोगे",
+      "start": 97.18798665183537,
+      "end": 97.52836484983315,
+      "probability": 0.07364692096169197
+    },
+    {
+      "text": "वे",
+      "start": 98.08898776418242,
+      "end": 98.14905450500557,
+      "probability": 0.09203335048486465
+    },
+    {
+      "text": "वापस",
+      "start": 98.24916573971079,
+      "end": 98.60956618464961,
+      "probability": 0.1100202450244646
+    },
+    {
+      "text": "आएँगे",
+      "start": 98.6896551724138,
+      "end": 98.96996662958843,
+      "probability": 0.02252070588714819
+    },
+    {
+      "text": "कालू",
+      "start": 100.0111234705228,
+      "end": 100.25139043381535,
+      "probability": 0.8555055055914697
+    },
+    {
+      "text": "पाँचों",
+      "start": 100.39154616240268,
+      "end": 100.7119021134594,
+      "probability": 0.5786580183352726
+    },
+    {
+      "text": "की",
+      "start": 100.77196885428253,
+      "end": 100.85205784204672,
+      "probability": 0.981387198166598
+    },
+    {
+      "text": "ओर",
+      "start": 100.99221357063404,
+      "end": 101.07230255839822,
+      "probability": 0.966913805731922
+    },
+    {
+      "text": "भौंकता",
+      "start": 101.1924360400445,
+      "end": 101.59288097886541,
+      "probability": 0.5744364707320031
+    },
+    {
+      "text": "है",
+      "start": 101.6729699666296,
+      "end": 101.73303670745273,
+      "probability": 0.9517677753723102
+    },
+    {
+      "text": "और",
+      "start": 102.29365962180201,
+      "end": 102.35372636262514,
+      "probability": 0.9748336680023464
+    },
+    {
+      "text": "दादी",
+      "start": 102.45383759733036,
+      "end": 102.73414905450501,
+      "probability": 0.9270758929556199
+    },
+    {
+      "text": "के",
+      "start": 102.8142380422692,
+      "end": 102.87430478309233,
+      "probability": 0.966927074817999
+    },
+    {
+      "text": "पास",
+      "start": 103.0344827586207,
+      "end": 103.23470522803115,
+      "probability": 0.9849757085203061
+    },
+    {
+      "text": "ही",
+      "start": 103.33481646273637,
+      "end": 103.37486095661846,
+      "probability": 0.9785720456248627
+    },
+    {
+      "text": "रहता",
+      "start": 103.45494994438265,
+      "end": 103.6952169076752,
+      "probability": 0.9358138192034351
+    },
+    {
+      "text": "है",
+      "start": 103.77530589543937,
+      "end": 103.83537263626252,
+      "probability": 0.9556533358512711
+    },
+    {
+      "text": "तानसेन",
+      "start": 104.73637374860957,
+      "end": 105.21690767519466,
+      "probability": 0.838326868981882
+    },
+    {
+      "text": "हूबहू",
+      "start": 105.73748609566185,
+      "end": 106.13793103448276,
+      "probability": 0.6619884597905682
+    },
+    {
+      "text": "कुकु",
+      "start": 106.33815350389321,
+      "end": 106.57842046718577,
+      "probability": 0.570680451124362
+    },
+    {
+      "text": "की",
+      "start": 106.65850945494995,
+      "end": 106.73859844271414,
+      "probability": 0.9650488260742922
+    },
+    {
+      "text": "पहले",
+      "start": 106.89877641824249,
+      "end": 107.13904338153505,
+      "probability": 0.9713681097020775
+    },
+    {
+      "text": "कही",
+      "start": 107.21913236929922,
+      "end": 107.39933259176863,
+      "probability": 0.9471170500612337
+    },
+    {
+      "text": "आवाज़",
+      "start": 107.559510567297,
+      "end": 107.83982202447163,
+      "probability": 0.5744955650053823
+    },
+    {
+      "text": "में",
+      "start": 107.85984427141268,
+      "end": 107.93993325917687,
+      "probability": 0.730632555048957
+    }
+  ]
+}

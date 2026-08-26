@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "project": "kuku-episode-9-finale",
+  "targetId": "D02",
+  "status": "derived_reference_uploaded_and_byte_verified",
+  "source": {
+    "path": "../references/A05_attempt2.png",
+    "sha256": "98831003c7d339e90d0f2dae189396e2cadfaf51bc4cc68885a18efcf89bda19",
+    "format": "2752x1536 RGBA PNG",
+    "alpha": "fully opaque"
+  },
+  "derived": {
+    "path": "../references/D02_A05_rgb_1920x1072.png",
+    "sha256": "6b034ab9678475a220079e84f5eacfd3f45fb007a75ab8428f02c2a2490807c1",
+    "format": "1920x1072 RGB PNG",
+    "method": "deterministic Lanczos resize and opaque-alpha removal with ffmpeg",
+    "visualChange": "none beyond resolution reduction",
+    "uploadId": "0b2e780e-c43d-443f-94b3-e1392344d312",
+    "cdnReadbackSha256": "6b034ab9678475a220079e84f5eacfd3f45fb007a75ab8428f02c2a2490807c1"
+  },
+  "failedTransport": {
+    "brokenUploadId": "952a0a47-e0c0-4a23-85c0-cd4e472085eb",
+    "failure": "listed by upload API but CDN object returned HTTP 403",
+    "jobCreated": false,
+    "creditsCharged": 0
+  },
+  "nextGate": "Upload derived reference separately, verify the returned CDN bytes, patch D02 provenance, rerun exact 24-credit quote and single-use submission gate, then allow at most one two-media-input create call."
+}

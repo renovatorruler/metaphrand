@@ -1,0 +1,12 @@
+{
+  "file": "2026-08-26_V08_babies-arrive_start.png",
+  "date": "2026-08-26",
+  "source": "AUTHOR — repaint over V05's last frame. 1536x864.",
+  "fixes": [
+    "THE MATCH. V05 rendered the red head detached from its shaft — the head sat on her shoulder with a stub while the pale stick in the apron pocket was a separate object. Verified broken across six frames 14.30-15.00, so a render defect and not a transient. Here it is one object again: red head into an unbroken shaft down into the pocket, as C-VASMAMA-01 has it.",
+    "THE CEILING. V05 put a low wooden plank ceiling with beams above her, lights hanging off it on short cords. Here there is no ceiling: the stone wall runs up out of frame and the string lights are strung across it on a wire."
+  ],
+  "why_this_one_and_not_the_other_candidate": "The author supplied two repaints. The other fixes only the match and keeps the low ceiling. This one fixes both. Framing differs from V05's last frame by roughly 23% (wider), which is IRRELEVANT — V08 is a new shot with V06 and V07 between it and V05, so nothing needs to match frame to frame.",
+  "measured_for_the_shot": "Figure fills 78% of frame height, so the babies at 4.32cm against her 9.91cm land near 34% of frame height — big enough for their faces to read. Clear floor to screen-left of her feet is 47% of frame width, which is the room the babies need to enter and cross.",
+  "geography": "Camera stands at Фрося's side of the work area looking north-east. The rope railing behind her is the ramp along the east wall (ROOM_MAP v7). The rug is north-west of her, so the babies enter SCREEN-LEFT and reach her on her RIGHT flank while she is turned away toward Фрося — i.e. toward the lens."
+}

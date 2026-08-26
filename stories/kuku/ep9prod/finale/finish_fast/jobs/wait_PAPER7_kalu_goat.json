@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-08-19T01:59:52.323597Z",
+  "display_name": "GPT Image 2",
+  "id": "535cf975-2ad0-4b42-9460-0d979bb96d7f",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260819_015952_535cf975-2ad0-4b42-9460-0d979bb96d7f_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "59404585-dbc9-49f7-8fb7-6b314c5a790c",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/59404585-dbc9-49f7-8fb7-6b314c5a790c_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "de7cf90d-db7d-4b6f-bdd7-2d6a6d2b52ad",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/de7cf90d-db7d-4b6f-bdd7-2d6a6d2b52ad_resize.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "A small black cut-paper puppy playfully pawing at a cream cut-paper goat kid wearing a tiny bell, both on dawn meadow grass; the puppy is mid-pounce, tail up, clearly wanting to play; the goat kid leans away mildly annoyed. 3D papercraft style, layered cut-paper with real depth, matte construction-paper textures, visible paper edges and folds, warm storybook palette, soft studio lighting. NO flat 2D, no sticker look, no glossy 3D, no photorealism, no text.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260819_015952_535cf975-2ad0-4b42-9460-0d979bb96d7f.png",
+  "status": "completed"
+}

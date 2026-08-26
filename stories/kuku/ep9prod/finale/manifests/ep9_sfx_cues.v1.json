@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "purpose": "Sound-effect cue sheet for the Episode 9 main story. Cues are anchored to EDL v4 beat ids plus an offset in seconds, never to absolute timecode, so a retime moves them with their picture. Generated through ElevenLabs /v1/sound-generation and cached by prompt+duration.",
+  "policy": {
+    "influence": 0.55,
+    "note": "Effects must not be musical — score is a separate pass. Gains are linear multipliers applied before the dialogue mix; dialogue always wins."
+  },
+  "cues": [
+    {
+      "id": "SFX01_claw_on_stone",
+      "beat": "S01-B01", "offset": 0.3, "seconds": 3.0, "gain": 0.45,
+      "prompt": "A large bird's talons scraping and pressing down on loose dry stone chips, close and dry, small grit skittering away, no music"
+    },
+    {
+      "id": "SFX02_echo_rises",
+      "beat": "S01-B02", "offset": 0.2, "seconds": 5.0, "gain": 0.5,
+      "prompt": "A soft golden shimmer of sound rising and travelling away into open sky, like a struck singing bowl stretching into a long airy whoosh, warm and magical, no music"
+    },
+    {
+      "id": "SFX03_gate_wakes_bell",
+      "beat": "S01-B03", "offset": 0.0, "seconds": 2.5, "gain": 0.72,
+      "prompt": "One deep old school bell struck once in cold mountain air with a long hollow ring, and beneath it heavy stone waking with a low grinding groan, no music",
+      "note": "Signature sound of the episode: the moment the broken gate wakes."
+    },
+    {
+      "id": "SFX04_staff_tap_cloudroad",
+      "beat": "S01-B05-L1", "offset": 0.2, "seconds": 3.0, "gain": 0.5,
+      "prompt": "A wooden staff tapped once firmly on stone, followed by a soft airy unfurling like a long ribbon of cloud rolling open, gentle and magical, no music"
+    },
+    {
+      "id": "SFX05_wind_reverses",
+      "beat": "S02-B06-L1", "offset": 0.0, "seconds": 3.0, "gain": 0.42,
+      "prompt": "Meadow breeze suddenly stopping and reversing direction, grass hissing the other way, a low uneasy swell of wind, no music"
+    },
+    {
+      "id": "SFX06_gate_pull_strain",
+      "beat": "S03-B01", "offset": 0.0, "seconds": 3.0, "gain": 0.5,
+      "prompt": "A deep invisible pull dragging at the air, low sub-bass suction with wood creaking under bending strain, tense, no music"
+    },
+    {
+      "id": "SFX07_staff_planted",
+      "beat": "S03-B04-L1", "offset": 0.1, "seconds": 2.5, "gain": 0.58,
+      "prompt": "A heavy wooden staff driven hard into meadow earth with a solid thud and soil crunch, then a bright golden clasp snapping tight, no music"
+    },
+    {
+      "id": "SFX08_three_pulse",
+      "beat": "S03-B05-L1", "offset": 0.2, "seconds": 4.0, "gain": 0.5,
+      "prompt": "Three slow soft golden pulses rising up a wooden shaft, each a warm rounded chime with a gentle whoosh, evenly spaced, no music",
+      "note": "The staff rhythm motif — reused wherever the children must match the beat."
+    },
+    {
+      "id": "SFX09_chest_opens",
+      "beat": "S03-B06-L1", "offset": 0.3, "seconds": 3.0, "gain": 0.55,
+      "prompt": "A small wooden chest lid creaking open on brass hinges, cloth rustling inside, then one soft warm golden shimmer, no music"
+    },
+    {
+      "id": "SFX10_gate_scale_reveal",
+      "beat": "S03-B08-L1", "offset": 0.4, "seconds": 4.0, "gain": 0.5,
+      "prompt": "A vast golden shape materialising in open air with a slow rising harmonic shimmer, huge and hollow and awed, distant stone dust falling, no music",
+      "note": "Under the gate-scale ghost letter — sells that the missing piece is enormous."
+    },
+    {
+      "id": "SFX11_circle_splits",
+      "beat": "S04-B05", "offset": 0.1, "seconds": 2.0, "gain": 0.6,
+      "prompt": "A single ring of light splitting cleanly into five, five small bright bell chimes in quick ascending succession, crystalline, no music"
+    },
+    {
+      "id": "SFX12_b_forms",
+      "beat": "S04-B08-L1", "offset": 0.5, "seconds": 4.5, "gain": 0.62,
+      "prompt": "A shape of golden light drawing itself in the air with a rising shimmering hum, then settling into solid matter with one deep warm resonant thunk, no music"
+    },
+    {
+      "id": "SFX13_b_light_to_bracelets",
+      "beat": "S04-B09", "offset": 0.0, "seconds": 2.0, "gain": 0.6,
+      "prompt": "A pulse of warm light travelling outward and landing in five places, five soft golden chimes lighting one after another, no music"
+    },
+    {
+      "id": "SFX14_transformation",
+      "beat": "S05-B01", "offset": 0.2, "seconds": 3.0, "gain": 0.55,
+      "prompt": "A warm magical surge of growth, layered paper and cloth expanding and settling, a rising airy whoosh that resolves into calm, no music"
+    },
+    {
+      "id": "SFX15_first_lift",
+      "beat": "S05-B07", "offset": 0.2, "seconds": 3.0, "gain": 0.55,
+      "prompt": "Large leathery wings taking one powerful downbeat and lifting a heavy body clear of the ground, deep air displacement, grass and dust thrown outward, no music"
+    },
+    {
+      "id": "SFX16_formation_flight",
+      "beat": "S06-B02", "offset": 0.0, "seconds": 3.0, "gain": 0.4,
+      "prompt": "Steady rhythmic wingbeats of several large creatures flying together high in open air, wind rushing past, no music"
+    },
+    {
+      "id": "SFX17_hold_snaps",
+      "beat": "S06-B13", "offset": 0.0, "seconds": 2.0, "gain": 0.68,
+      "prompt": "Old stone cracking wider with a sharp splitting report, and a taut golden thread snapping with a bright metallic ping, alarming, no music"
+    },
+    {
+      "id": "SFX18_goat_lifted",
+      "beat": "S06-B14-L1", "offset": 0.1, "seconds": 4.0, "gain": 0.6,
+      "prompt": "A rushing updraft tearing a patch of ground loose and carrying it upward, a small goat bleating in fright and a little bell jingling wildly, no music",
+      "note": "The stakes beat — the goat's cloud is pulled off solid ground."
+    },
+    {
+      "id": "SFX19_orbit_one",
+      "beat": "S07-B01", "offset": 4.5, "seconds": 2.5, "gain": 0.6,
+      "prompt": "A wooden staff jammed hard into stone, then one enormous slow ring like a distant gong marking a countdown, no music"
+    },
+    {
+      "id": "SFX20_bell_inside_cloud",
+      "beat": "S07-B09-L1", "offset": 1.0, "seconds": 3.0, "gain": 0.5,
+      "prompt": "A small goat bell heard from inside soft cloud, muffled and close and gently swinging, calm air around it, no music"
+    },
+    {
+      "id": "SFX21_orbit_three",
+      "beat": "S08-B11-L1", "offset": 0.2, "seconds": 3.5, "gain": 0.65,
+      "prompt": "One deep gong ring dying away and a second brighter ring igniting sharply, while huge stone shudders and sheds grit, urgent, no music"
+    },
+    {
+      "id": "SFX22_goat_safe",
+      "beat": "S08-B16", "offset": 0.0, "seconds": 2.0, "gain": 0.55,
+      "prompt": "A little goat bell jingling happily on solid ground, one warm relieved bleat, and a deep stone gate settling into place with a satisfied low thud, no music"
+    },
+    {
+      "id": "SFX23_landing_circles",
+      "beat": "S10-B06", "offset": 0.3, "seconds": 3.0, "gain": 0.5,
+      "prompt": "Clouds parting with a wide airy sweep, then five circles of light igniting one after another with warm rising hums, grand and welcoming, no music"
+    },
+    {
+      "id": "SFX24_ring_wakes",
+      "beat": "S10-B09-L1", "offset": 0.3, "seconds": 4.0, "gain": 0.55,
+      "prompt": "An enormous dormant ring of stone waking and rotating fully over with a deep resonant groan, then a bright path of light racing outward, triumphant, no music"
+    }
+  ]
+}

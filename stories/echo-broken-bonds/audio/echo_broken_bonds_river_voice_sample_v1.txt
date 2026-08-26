@@ -1,0 +1,1 @@
+[warmly] Echo is a chameleon who keeps hiding while hoping to be seen. [short pause] This is the voice that will be used whenever no other voice is specified.

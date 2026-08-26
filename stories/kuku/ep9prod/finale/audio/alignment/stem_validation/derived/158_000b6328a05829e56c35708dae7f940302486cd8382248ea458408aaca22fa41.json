@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 158,
+ "chunk_id": "chunk_014",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_dd99bce7f10a8a74b416b4bdf1ac9396afeb033e4c066f4b6b7b6633da442da6.mp3",
+ "source_sha256": "c552853f7bf96d20308bbb81e4e7ebd1f9d4f5be3bb3c39bb0961182abde99dc",
+ "source_start": 31.610948191593355,
+ "source_end": 33.89298142717497,
+ "expected_text": "मेरे पंख अभी दौड़ना चाहते हैं।",
+ "expected_text_sha256": "f44cd293df1343a7939fc23721285ee189368b1f79ddc93035abf06720d9fba6",
+ "ctc_evidence_identity": "9aa1242f0239901d7fd5aef2d405f6ee71b7f8117ae17ec638505f5eed3c145a",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/158_5f9354e8bb9f7c6c0cffd68f72f9b2f335cf18a4ccf112defcfe3315c01834cb.whisper.json",
+ "raw_whisper_sha256": "d4205704862223308af16be46a2604cb9c20d43299f017d7ccf33008a46f74b4",
+ "quality": {
+  "expected_words": 6,
+  "observed_words": 6,
+  "matched_words": 5,
+  "coverage": 0.8333333333333334,
+  "observed_precision": 0.8333333333333334,
+  "mean_similarity": 0.96,
+  "sequence_score": 0.9111111111111111,
+  "average_token_probability": 0.8837764,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 0.8844444444444445
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 327,
+ "chunk_id": "chunk_026",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_db9bf3f694ae7aec06417afeff6e5da05a18f19afe0c0a22739c98e993871752.mp3",
+ "source_sha256": "6ce0b8bb1f9fac467e72eaebc7f9bd7caa38c9aff90bfa682c218604134c67a9",
+ "source_start": 99.41551336691207,
+ "source_end": 101.03716388996514,
+ "expected_text": "तुम्हारा पहला अभ्यास—",
+ "expected_text_sha256": "45de6d38817679face647b5d08c3fb9456d501968e78c7c4b08c8d11167c8885",
+ "ctc_evidence_identity": "d9dd0c72caef7e366829f66c235cce80d14462aa5814acdb507f96b93ea89fc7",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/327_906333f529b181af98e649f67b05aa01e17fd7f344aab9673a5c2d08507c507f.whisper.json",
+ "raw_whisper_sha256": "0dd279d94f25bbef194247771e776a6eafc6851c4eb437b9ffb1b6b844dbe55a",
+ "quality": {
+  "expected_words": 3,
+  "observed_words": 3,
+  "matched_words": 3,
+  "coverage": 1,
+  "observed_precision": 1,
+  "mean_similarity": 1,
+  "sequence_score": 1,
+  "average_token_probability": 0.8865526666666667,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 1
+ }
+}

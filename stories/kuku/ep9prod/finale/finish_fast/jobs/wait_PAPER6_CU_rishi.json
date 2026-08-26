@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-08-19T00:07:36.33914Z",
+  "display_name": "GPT Image 2",
+  "id": "9e4b3201-8eef-4de7-b26e-edde1c74e112",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260819_000736_9e4b3201-8eef-4de7-b26e-edde1c74e112_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "5659e067-91c7-4504-a2f1-f7de9a73a1ac",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/5659e067-91c7-4504-a2f1-f7de9a73a1ac_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "23a5b20a-101c-41fa-abf5-f0136ee7a274",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/23a5b20a-101c-41fa-abf5-f0136ee7a274_resize.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Close-up on the face and shoulders of the elderly white-maned wingless dragon sage from the reference sheet — white beard and brows, horns, ochre robe — dawn paper meadow behind; he speaks mid-sentence, mouth open, kind grave expression. 3D papercraft style, exactly matching the cut-paper character design in the reference images: layered cut-paper with real depth, matte construction-paper textures, visible paper edges and folds, warm storybook palette, soft studio lighting, gentle depth of field. Non-photorealistic, made of paper. NO flat 2D, NO sticker look, NO glossy plastic 3D, no photorealism, no text.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260819_000736_9e4b3201-8eef-4de7-b26e-edde1c74e112.png",
+  "status": "completed"
+}

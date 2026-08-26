@@ -1,11 +1,10 @@
 ACTIVE REFERENCES
-@VASYA — его зовут Вася — the SECOND of the family's FOUR children, younger than Фрося and older than Руся and Муся: enormous bushy eyebrows, shoelace belt. 100% matches the reference.
-@VASYA_MAMA: Вася transformed into a second МАМА — the SAME height as Мама, the same red-and-gold kerchief, blonde braid, cream apron over the dark red patched skirt. But the face is his: ENORMOUS shaggy dark eyebrows, a wide gap-toothed grin, and big round startled eyes. 100% matches the reference.
+@VASYA: a small figure with ENORMOUS bushy dark eyebrows and short fair hair, wearing a shoelace tied round the waist as a belt. 100% matches the reference.
+@VASYA_MAMA: a woman with a long blonde braid, a red-and-gold striped kerchief and a cream apron over a dark red patched skirt, with ENORMOUS shaggy dark eyebrows over big round eyes and a wide gap-toothed grin. 100% matches the reference.
 @FLOOR_AFTER: the floorboards as they must look once he is gone — the four blocks lying dark and unlit in their row, the other blocks scattered around them, and the woven pouch on its side to the right. Everything on this floor stays exactly where this reference has it. 100% matches the reference.
 
 SCALE
-Вася is shorter than Фрося, about up to her eyebrows.
-@VASYA_MAMA stands at МАМА's full height, not Вася's — the height IS the joke, and she is a head taller than Фрося.
+@VASYA_MAMA and @MAMA are TWINS: identical in height, build and dress, head tops level side by side, differing only in their faces — as @TWO_MAMAS shows them.
 
 THE WORD TAKES HIM. From the start image: Вася sits on the floorboards facing camera, legs crossed, both hands on his knees, grinning wide. Four wooden blocks lie in a row in front of him, ALL FOUR ALREADY GLOWING warm gold and throwing their light onto his face and hands. More blocks lie scattered unlit to both sides. His woven pouch lies on its side at the right of frame.
 

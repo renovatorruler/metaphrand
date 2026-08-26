@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 168,
+ "chunk_id": "chunk_014",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_dd99bce7f10a8a74b416b4bdf1ac9396afeb033e4c066f4b6b7b6633da442da6.mp3",
+ "source_sha256": "c552853f7bf96d20308bbb81e4e7ebd1f9d4f5be3bb3c39bb0961182abde99dc",
+ "source_start": 100.35808406647116,
+ "source_end": 102.7802541544477,
+ "expected_text": "हम सच में बड़े ड्रैगन बन गए हैं।",
+ "expected_text_sha256": "d90ceb5c7d86ae474f5cd82e54a8608d16c4c1be1ee471345b5c4df4ff5c5574",
+ "ctc_evidence_identity": "9aa1242f0239901d7fd5aef2d405f6ee71b7f8117ae17ec638505f5eed3c145a",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/168_7e9a060d6e4ce902b0c30e87f850e364eefb8241d1c450f5364f8bee4eb26188.whisper.json",
+ "raw_whisper_sha256": "66877cc2bcf908267c247b88519f3c65551b4147705d40edfbb5ae6771c440c2",
+ "quality": {
+  "expected_words": 8,
+  "observed_words": 8,
+  "matched_words": 7,
+  "coverage": 0.875,
+  "observed_precision": 0.875,
+  "mean_similarity": 1,
+  "sequence_score": 0.9464285714285714,
+  "average_token_probability": 0.8955811428571429,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 0.9241071428571428
+ }
+}

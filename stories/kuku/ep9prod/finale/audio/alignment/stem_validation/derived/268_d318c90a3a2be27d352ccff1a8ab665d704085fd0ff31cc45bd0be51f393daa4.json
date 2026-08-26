@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 268,
+ "chunk_id": "chunk_021",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_aae2d515851a898b8783b378a5cf3636ca43e5d047f6f71ba017a12cb385dcea.mp3",
+ "source_sha256": "b9af891e5039e3ec829a422b617fe0f40363e8b0b18881baa6b3e61f6a7735f6",
+ "source_start": 7.388766157461809,
+ "source_end": 9.110552291421856,
+ "expected_text": "अब मैं तुम्हें नीचे ले जाती हूँ।",
+ "expected_text_sha256": "9b32f8cef028a38212e368a3e5b38b60f935ac643b908f705b921158552aee5f",
+ "ctc_evidence_identity": "4334a24bdbaa21bf9326953af852e504db5fc78e21ff9173b8ab519d433d813c",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/268_8f587738b76d2f6ff54c9e59f49fbe63412ef348e9895d747df0d08a7ec74252.whisper.json",
+ "raw_whisper_sha256": "08c2a1da4368983a62eabb3cebcb1d70e47d5764d3da1de5f094667127247b1e",
+ "quality": {
+  "expected_words": 7,
+  "observed_words": 7,
+  "matched_words": 7,
+  "coverage": 1,
+  "observed_precision": 1,
+  "mean_similarity": 1,
+  "sequence_score": 1,
+  "average_token_probability": 0.9455787142857144,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 1
+ }
+}

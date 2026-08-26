@@ -1,0 +1,31 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1280" viewBox="0 0 1280 1280">
+  <rect width="1280" height="1280" fill="#00ff00"/>
+  <rect x="0" y="0" width="1280" height="110" fill="#17152d" opacity="0.94"/>
+  <rect x="0" y="610" width="1280" height="110" fill="#17152d" opacity="0.94"/>
+  <text x="32" y="31" font-family="Arial, Helvetica, sans-serif" font-size="20"
+        font-weight="700" fill="#f5c95b">STORYBOARD / ZERO-CREDIT CONTINUITY ANIMATIC / NOT FINAL FOOTAGE</text>
+  <text x="32" y="82" font-family="Arial, Helvetica, sans-serif" font-size="40"
+        font-weight="800" fill="white">2  ONE WAVE, FIVE STARTS</text>
+  <text x="640" y="691" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="27" font-weight="700" fill="white">Ignition travels in order. No child finishes during the wave.</text>
+  
+  <path d="M347 455 C485 410 555 505 595 455 S760 410 824 455 S970 505 1041 455 S1145 410 1207 455"
+        fill="none" stroke="#ffd466" stroke-width="9" stroke-linecap="round"/>
+  <path d="M1190 434 L1230 455 L1190 476" fill="none" stroke="#ffd466" stroke-width="9"/>
+  <g fill="#17152d" stroke="#ffd466" stroke-width="4">
+    <circle cx="347" cy="455" r="25"/><circle cx="595" cy="455" r="25"/>
+    <circle cx="824" cy="455" r="25"/><circle cx="1041" cy="455" r="25"/><circle cx="1207" cy="455" r="25"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" fill="white" text-anchor="middle">
+    <text x="347" y="463">1</text><text x="595" y="463">2</text><text x="824" y="463">3</text>
+    <text x="1041" y="463">4</text><text x="1207" y="463">5</text>
+  </g>
+  
+  <g font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700"
+     fill="#fff5cc" text-anchor="middle">
+    <text x="347" y="648">KUKU</text><text x="595" y="648">FURIA</text>
+    <text x="824" y="648">VESPER</text><text x="1041" y="648">CASTOR</text>
+    <text x="1207" y="648">LEDA</text>
+  </g>
+</svg>

@@ -1,0 +1,313 @@
+{
+  "version": "ep9-finale-anchor-stills-v1",
+  "policy": {
+    "aspectRatio": "16:9",
+    "resolution": "2k",
+    "model": "nano_banana_pro",
+    "quoteGate": 2,
+    "maximumAttemptsPerAnchor": 2,
+    "firstTakeCeilingCredits": 24,
+    "retryCeilingCredits": 24,
+    "generatedTextForbidden": true,
+    "exactLetterOverlay": "../local/fx_b.png"
+  },
+  "anchors": [
+    {
+      "id": "A01",
+      "name": "small_team_wing_practice",
+      "scene": 2,
+      "promptFile": "../prompts/A01.txt",
+      "references": [
+        "../references/upload_proxies/child_kuku.jpg",
+        "../references/upload_proxies/child_furia.jpg",
+        "../references/upload_proxies/child_vesper.jpg",
+        "../references/upload_proxies/child_castor.jpg",
+        "../references/upload_proxies/child_leda.jpg",
+        "../references/upload_proxies/dadi.jpg",
+        "../references/upload_proxies/courtyard.jpg"
+      ],
+      "output": "../references/A01.png",
+      "status": "accepted",
+      "attempt": 1,
+      "jobId": "592d1ddd-5f4c-4538-be40-17f83ab64c6f",
+      "promptSha256": "5834c00afb49462b046968f156aaf40ff9e69808e575e6f3aebcb13c6976804f",
+      "outputSha256": "3eb6fa40f6daae460f075122816bace20d623e16fad41b792f6ba06dd295ff83"
+    },
+    {
+      "id": "A02",
+      "name": "rishi_cloud_road_arrival",
+      "scene": 2,
+      "promptFile": "../prompts/A02.txt",
+      "references": [
+        "../references/upload_proxies/rishi.jpg",
+        "../references/upload_proxies/dadi.jpg",
+        "../references/upload_proxies/child_kuku.jpg",
+        "../references/upload_proxies/child_furia.jpg",
+        "../references/upload_proxies/child_vesper.jpg",
+        "../references/upload_proxies/child_castor.jpg",
+        "../references/upload_proxies/child_leda.jpg",
+        "../references/upload_proxies/courtyard.jpg"
+      ],
+      "output": "../references/A02_attempt2.png",
+      "status": "accepted",
+      "attempt": 2,
+      "jobId": "c035a96c-d12b-474a-807c-7f8a626f490f",
+      "promptSha256": "7de0742e2764f1046bb1f89f9e6d2de68aad5cfd80dc443a4b05a670842d802a",
+      "outputSha256": "3c851bee2f42db5d1210a2881ed2e044f90c303bcb205e5350bd3cca465e6e59",
+      "previousAttempt": {
+        "attempt": 1,
+        "status": "rejected",
+        "jobId": "7e588b2f-385f-4cb0-81c7-92d2ce97fe08",
+        "output": "../references/A02.png",
+        "promptSha256": "68b991a71029c44663bb8470d99e842dbf53f50d8fd7d9065c0120f1ddfdb3c0",
+        "outputSha256": "1a1d23d2067c3032f1a1ad3d17fe78f6e76d4441cd495bff9d226aaca6f24039",
+        "reason": "Continuity failure: Leda is absent; only four of the five child dragons appear."
+      }
+    },
+    {
+      "id": "A03",
+      "name": "kuku_refuses_single_ring",
+      "scene": 3,
+      "promptFile": "../prompts/A03.txt",
+      "references": [
+        "../references/upload_proxies/child_kuku.jpg",
+        "../references/upload_proxies/child_furia.jpg",
+        "../references/upload_proxies/child_vesper.jpg",
+        "../references/upload_proxies/child_castor.jpg",
+        "../references/upload_proxies/child_leda.jpg",
+        "../references/upload_proxies/rishi.jpg",
+        "../references/upload_proxies/dadi.jpg",
+        "../references/upload_proxies/courtyard.jpg"
+      ],
+      "output": "../references/A03.png",
+      "status": "accepted",
+      "attempt": 1,
+      "jobId": "056a288f-732e-4340-abbd-b8ac7d0e7502",
+      "promptSha256": "9dc69a81488fd2719e117f073eef0b019a8bb6b3e609bd07ccf0b5bb32c00e82",
+      "outputSha256": "6825c61fee3e9b1302d601297793ae2527c34d1b91c7cb309c8d97d49ddf53b6"
+    },
+    {
+      "id": "A04",
+      "name": "five_equal_empty_bracelets",
+      "scene": 4,
+      "promptFile": "../prompts/A04.txt",
+      "references": [
+        "../references/upload_proxies/child_kuku.jpg",
+        "../references/upload_proxies/child_furia.jpg",
+        "../references/upload_proxies/child_vesper.jpg",
+        "../references/upload_proxies/child_castor.jpg",
+        "../references/upload_proxies/child_leda.jpg",
+        "../references/upload_proxies/courtyard.jpg"
+      ],
+      "output": "../references/A04.png",
+      "status": "accepted",
+      "attempt": 1,
+      "jobId": "697f2598-5ab5-48de-b4c8-31615f1f1b33",
+      "promptSha256": "6d37769a26a400a7f63e6330df0ddf706670e4065d47a4ca3563eb6e873792af",
+      "outputSha256": "d82ae965c03fabe9283f532128b927e40af6638840bfe360abfd0c689494e5a9"
+    },
+    {
+      "id": "A05",
+      "name": "five_giant_bracelet_forms",
+      "scene": 5,
+      "promptFile": "../prompts/A05.txt",
+      "references": [
+        "../references/upload_proxies/A01_anchor.jpg",
+        "../references/upload_proxies/future_kuku.jpg",
+        "../references/upload_proxies/future_fyuria.jpg",
+        "../references/upload_proxies/future_vesper.jpg",
+        "../references/upload_proxies/future_castor.jpg",
+        "../references/upload_proxies/future_leda.jpg",
+        "../references/upload_proxies/A04_anchor.jpg"
+      ],
+      "output": "../references/A05_attempt2.png",
+      "status": "rejected_after_sequence_review",
+      "attempt": 2,
+      "jobId": "0521f3c0-c2cf-4608-9936-51f1dd5ef5e9",
+      "promptSha256": "d84d8a0f897a4a693d776571bcea59282e37155d69123b224bfab480f43a5ef0",
+      "outputSha256": "98831003c7d339e90d0f2dae189396e2cadfaf51bc4cc68885a18efcf89bda19",
+      "rejectionReason": "The image gives Kuku a complete giant body while Vesper, Castor and Leda still read as child-sized. Used as a transformation endpoint, five equal bracelets therefore look like unequal power. Preserve the file only as paid-attempt provenance; do not use it as a story or generation reference.",
+      "replacementPlan": "Build and approve a zero-credit equal-scale continuity board from the established five large-form references before authorizing any new group endpoint.",
+      "previousAttempt": {
+        "attempt": 1,
+        "status": "rejected",
+        "jobId": "14afaea3-5837-495d-ac61-67c7d1f6daf0",
+        "output": "../references/A05.png",
+        "promptSha256": "16542f982fefe3e02682c916fea33671da256ae2f288391d8b4ab9cf9ea90686",
+        "outputSha256": "3352680647c124868f3f7cea3d9e88f0aa120c5eddd38c7872e69335fafcc124",
+        "reason": "Semantic continuity failure: every dragon has an engraved gold neck collar plus a foreleg band, but canon requires one blank foreleg bracelet only; rendering also drifted from the tactile 3D style."
+      }
+    },
+    {
+      "id": "A06",
+      "name": "first_flight_formation",
+      "scene": 6,
+      "promptFile": "../prompts/A06.txt",
+      "references": [
+        "../references/upload_proxies/A05_anchor.jpg",
+        "../references/upload_proxies/future_kuku.jpg",
+        "../references/upload_proxies/future_fyuria.jpg",
+        "../references/upload_proxies/future_vesper.jpg",
+        "../references/upload_proxies/future_castor.jpg",
+        "../references/upload_proxies/future_leda.jpg",
+        "../references/upload_proxies/valley.jpg"
+      ],
+      "output": "../references/A06.png",
+      "status": "accepted",
+      "attempt": 1,
+      "jobId": "574a1564-69df-458a-b2f2-7d52bfced94e",
+      "promptSha256": "30f2c9cd7a38061ed6774fd363af21a91749ba9334d56f23103641865cecda60",
+      "outputSha256": "b284fc0cac8af0e369e37263241a34a28520cb7d05f5321502d5ebdd411738d4"
+    },
+    {
+      "id": "A07",
+      "name": "broken_gate_cloud_goat_geography",
+      "scene": 7,
+      "promptFile": "../prompts/A07.txt",
+      "references": [
+        "../references/upload_proxies/rishi.jpg",
+        "../references/upload_proxies/valley.jpg"
+      ],
+      "output": "../references/A07_clean_delogo.png",
+      "status": "accepted",
+      "attempt": 1,
+      "jobId": "b677368b-9b90-42e5-989f-3f1067c02069",
+      "promptSha256": "3ee4f20b74ea5beec246964d53ba88ce0cb2934fff38ed0448ad1793fbe0b662",
+      "providerOutput": "../references/A07.png",
+      "providerOutputSha256": "d519e09c7c07a50fa91bcba8b573774c150ef4f47f51c4f5d54a92fd684bb82f",
+      "outputSha256": "3b8221758250b29ff4477f876e9c741d41f260785f3126d086ed6eaaebc87fe3",
+      "localCleanup": "ffmpeg delogo x=1438 y=924 w=50 h=20; removed accidental pseudo-text from the goat bell without changing story geometry"
+    },
+    {
+      "id": "A08",
+      "name": "broken_gurukul_gate_empty_recess",
+      "scene": 8,
+      "promptFile": "../prompts/A08.txt",
+      "references": [
+        "../references/upload_proxies/A07_anchor.jpg",
+        "../references/upload_proxies/rishi.jpg",
+        "../references/upload_proxies/valley.jpg"
+      ],
+      "output": "../references/A08.png",
+      "status": "accepted",
+      "attempt": 1,
+      "jobId": "356cb2a8-68a3-4f95-83d2-6b50625df284",
+      "promptSha256": "bff3483a382cbd4428eba53ea6ee591c8f84bb42502aaa1cfd385c8fcafe7da6",
+      "outputSha256": "bdea7f00ff62b8dc4ca9c426cae1c0a97201818cff9884498a68f58c65b09913"
+    },
+    {
+      "id": "A09",
+      "name": "five_job_rescue_chain",
+      "scene": 8,
+      "promptFile": "../prompts/A09.txt",
+      "references": [
+        "../references/upload_proxies/A09_attempt1.jpg",
+        "../references/upload_proxies/A07_anchor.jpg",
+        "../references/upload_proxies/A08_anchor.jpg"
+      ],
+      "output": "../references/A09_attempt2.png",
+      "status": "accepted",
+      "attempt": 2,
+      "jobId": "916247ee-dd6b-42df-8f06-02ee71344d30",
+      "promptSha256": "149e953ce3c24ea26286eb94b94d8c608a5c2389ca14015ba8b0032a4ab6294f",
+      "outputSha256": "eafb8baccceadc68256fa52bc8b1d813687170e87eb6755cbf0c8a3cdb1d2111",
+      "acceptanceNote": "The white board is gone; the remaining clean cloud-and-air center is reserved for the exact local rescue-letter composite.",
+      "previousAttempt": {
+        "attempt": 1,
+        "status": "rejected",
+        "jobId": "95afdee4-061c-48a3-b054-8856dc2c27e1",
+        "output": "../references/A09.png",
+        "promptSha256": "dc808221de398e924b0982d18930bd9b6ee83d8e34057a7ca62bbcd5925dc2d3",
+        "outputSha256": "355c2f75a1b940eb90c51e3f12687e5795f443d844470ff5888f1292a86a1c36",
+        "reason": "Compositing failure: the model inserted a large white rectangular board where the exact local rescue letter requires open air."
+      }
+    },
+    {
+      "id": "A10",
+      "name": "dadi_tests_two_way_portal",
+      "scene": 9,
+      "promptFile": "../prompts/A10.txt",
+      "references": [
+        "../references/upload_proxies/A10_attempt1.jpg",
+        "../references/upload_proxies/child_leda.jpg"
+      ],
+      "output": "../references/A10_local_repair.png",
+      "status": "accepted_after_local_composite",
+      "attempt": 2,
+      "jobId": "fdf7954e-76bd-4f82-b95d-1f1253356bf3",
+      "promptSha256": "c859f2d9a8379af901f9600e62bfdf841afce7dedc868bb6bc70952759d9155a",
+      "providerOutput": "../references/A10_attempt2.png",
+      "providerOutputSha256": "0b875cdd96ba54ae624a26f9f5e5e250882b1eca0f7c766c3759657c8272fdcc",
+      "outputSha256": "32059f3e38c2f95f4c22c590122aab516dcd18237a1d04c7c02c527975c0cd51",
+      "localComposite": {
+        "base": "../references/A10.png",
+        "ledaCutout": "../local/leda_from_A01_rgba.png",
+        "ledaCutoutSha256": "1f64764b0b72d4aed62583fce13346579512b544f8838e8c43aae346b3dc16dd",
+        "bracelet": "../local/bracelet_blank.png",
+        "braceletSha256": "ac658ab6091d879dc8d023785e526e1d69458e9bf656d3156140532aaf887272",
+        "method": "Apple Vision on-device foreground mask from accepted A01, then deterministic ffmpeg overlay; zero provider calls and zero credits"
+      },
+      "providerAttempt2Reason": "The provider added Leda in a visibly flatter mismatched rendering style; the second paid result was rejected and repaired from an already accepted 3D Leda source.",
+      "previousAttempt": {
+        "attempt": 1,
+        "status": "rejected",
+        "jobId": "14aaba29-0b74-4257-a6f9-f4d130b261ff",
+        "output": "../references/A10.png",
+        "promptSha256": "fb493de6c0b88cde1dd022406e1593b78fb16157cd76c739eaa17bedbd1c8c0f",
+        "outputSha256": "d876156309537ad975d4fcdb84b458f71e1124ad120ae84614d79ce5914cee6c",
+        "reason": "Equality-continuity failure: Leda is missing, so only four of the five children witness the two-way-home test."
+      }
+    },
+    {
+      "id": "A11",
+      "name": "leda_independent_transformation",
+      "scene": 10,
+      "promptFile": "../prompts/A11.txt",
+      "references": [
+        "../references/upload_proxies/A10_local_repair.jpg",
+        "../references/upload_proxies/child_leda.jpg",
+        "../references/upload_proxies/future_leda.jpg"
+      ],
+      "output": "../references/A11_attempt2.png",
+      "status": "accepted",
+      "attempt": 2,
+      "jobId": "5d2ca1fa-4766-4c33-8637-f85103878638",
+      "promptSha256": "2086b2b5b241feac3271e5be093eef752e06a992840718b246341ff124d9dcbd",
+      "outputSha256": "404dcb8abeba80875dbc4b172810090bfc41f5abab1b2ff9ad351b20ecaf4bb2",
+      "acceptanceNote": "Exactly seven characters are visible; Leda alone is in her settled youthful giant form while the other four children remain small.",
+      "previousAttempt": {
+        "attempt": 1,
+        "status": "failed_refunded",
+        "jobId": "dfde2fa0-ad4a-48e3-8771-289c9ca608c4",
+        "promptSha256": "9ae0337ce1ce87fed24d0ccea9fcf31cfd02d259c3b47970f2b8203144862ca7",
+        "actualCredits": 0,
+        "reason": "Provider job failed before producing an image; the full 2-credit charge was immediately refunded."
+      }
+    },
+    {
+      "id": "A12",
+      "name": "gurukul_arrival_and_impossible_ring",
+      "scene": 10,
+      "promptFile": "../prompts/A12.txt",
+      "references": [
+        "../references/A12.png"
+      ],
+      "output": "../references/A12_attempt2.png",
+      "status": "accepted_with_local_motion_dependency",
+      "attempt": 2,
+      "jobId": "40133125-ce19-41cb-9a1b-2b6889527b8f",
+      "promptSha256": "b98674d5e360ab027257f545f16d88a6176ccd99139918e07d42fcf85705348b",
+      "outputSha256": "75ea85b26587f3d890e82e0b82fa978ef174a5c02bccacd1430f3e5356e9a4e8",
+      "acceptanceNote": "The five youthful giant identities, five landing circles, wingless sage, asymmetric ring hardware and light network are usable. The required 13:55–14:05 local-motion beat must visibly rotate the ring through 180 degrees; dialogue may not carry the inversion.",
+      "previousAttempt": {
+        "attempt": 1,
+        "status": "rejected",
+        "jobId": "2f8bc3b4-e5ba-4770-a2cd-f96550cd5c16",
+        "output": "../references/A12.png",
+        "promptSha256": "e83a0244c82d5514bffc3c0cadfd8694a51120d26b40dcdc08223304c1a9dec5",
+        "outputSha256": "7dcbf75d2003b89d6a012179ac1589b433a2b7a1b8169383aee5e9a9a072cb1a",
+        "reason": "The dominant ring is visually symmetric, so the audience cannot read that it is upside down; the finale hook is therefore ambiguous."
+      }
+    }
+  ]
+}

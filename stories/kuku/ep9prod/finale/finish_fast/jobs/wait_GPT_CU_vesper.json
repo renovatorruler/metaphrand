@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-08-17T13:59:56.392474Z",
+  "display_name": "GPT Image 2",
+  "id": "731923ac-1088-4dd7-a099-65940a1a5acc",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260817_135956_731923ac-1088-4dd7-a099-65940a1a5acc_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "f7bd783b-ca8f-4119-b3d9-83046937147b",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/f7bd783b-ca8f-4119-b3d9-83046937147b.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Close-up on the face and shoulders of Vesper, the small SKY-BLUE child dragon from the reference image, in a dawn meadow with out-of-focus grass. He speaks mid-sentence, mouth open, thoughtful observing expression, eyes glancing upward at the wind. Exactly the characters shown in the reference images, same colors and proportions. Soft dimensional 3D render, warm sunrise light, gentle depth of field, glossy toy-like materials, children's animated film quality. Absolutely no flat 2D illustration, no paper-cutout look, no painterly outlines, no text.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260817_135956_731923ac-1088-4dd7-a099-65940a1a5acc.png",
+  "status": "completed"
+}

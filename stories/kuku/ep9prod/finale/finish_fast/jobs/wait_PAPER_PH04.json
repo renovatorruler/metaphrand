@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-08-18T20:38:22.532523Z",
+  "display_name": "GPT Image 2",
+  "id": "4f532a0c-3787-4378-83ec-75cff07bacaf",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_203822_4f532a0c-3787-4378-83ec-75cff07bacaf_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "005a12a1-b4b7-4e55-bd5c-77e2cc4ee719",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/005a12a1-b4b7-4e55-bd5c-77e2cc4ee719_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "7fbb77ed-c0dc-4436-a2e8-7d787fd0dda3",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/7fbb77ed-c0dc-4436-a2e8-7d787fd0dda3_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "7544a537-7070-48e1-b44a-3a2c2db359b6",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/7544a537-7070-48e1-b44a-3a2c2db359b6.png"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "The bald human sage drives his wooden staff upright into the paper meadow with both hands, robes pressed by wind toward the cracked golden gate far behind; the staff bends slightly under an invisible pull, his thin frame straining; the five child dragons and the silver winged grandmother watch from the side. 3D papercraft style, exactly matching the cut-paper character designs in the reference images: layered cut-paper illustration with real depth, soft matte construction-paper textures, visible paper edges, folds and creases, warm storybook palette, soft studio lighting, gentle depth of field, like a lit diorama built from card. Non-photorealistic, made of paper. NO flat single-plane 2D, NO sticker look, NO glossy plastic 3D render, NO photorealism, no text, no letters.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_203822_4f532a0c-3787-4378-83ec-75cff07bacaf.png",
+  "status": "completed"
+}

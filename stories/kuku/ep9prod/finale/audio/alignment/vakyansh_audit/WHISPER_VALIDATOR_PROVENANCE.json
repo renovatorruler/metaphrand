@@ -1,0 +1,17 @@
+{
+  "schema": "metaphrand-local-whisper-validator-provenance-v1",
+  "validator": "whisper.cpp",
+  "official_repository": "https://github.com/ggml-org/whisper.cpp",
+  "version": "whisper.cpp version: 1.9.2",
+  "installation": "Homebrew whisper-cpp 1.9.2",
+  "binary_size_bytes": 658608,
+  "binary_sha256": "40bca494d49af736058eb3f33cbcebaa020eacf6d0087b623f334946e1ab2128",
+  "license": "MIT",
+  "license_filename": "LICENSE_WHISPER_CPP_MIT.txt",
+  "license_sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
+  "model_family": "Whisper large-v3-turbo, ggml q5_0 quantization",
+  "model_size_bytes": 574041195,
+  "model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+  "model_runtime_policy": "The already-downloaded model remains outside the repository. Production ReScript verifies its exact SHA-256 before and after every validation batch and never downloads it.",
+  "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt"
+}

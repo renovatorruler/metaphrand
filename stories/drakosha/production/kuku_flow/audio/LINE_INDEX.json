@@ -690,5 +690,29 @@
  "line63a_VASYA_mama-vzhukh.mp3": {
   "dur": 2.8,
   "text": "Мама! Вжух?"
+ },
+ "line63b_VASYAMAMA_ya-mama.mp3": {
+  "dur": 3.28,
+  "text": "Я мама! Я мама! Сработало!"
+ },
+ "line64_VASYAMAMA_oni-menya-edyat.mp3": {
+  "dur": 4.56,
+  "text": "Ай! Фрося! Они меня едят! Почему они меня едят?!"
+ },
+ "line65_VASYAMAMA_ya-ne-mama.mp3": {
+  "dur": 5.6,
+  "text": "Я не мама! Я Вася! Снимите их с меня-а-а!"
+ },
+ "line66_MAMA_brovi.mp3": {
+  "dur": 2.08,
+  "text": "Брови-то твои, Вася."
+ },
+ "line67_VASYAMAMA_vzhukh.mp3": {
+  "dur": 1.2,
+  "text": "ВЖУХ!"
+ },
+ "line68_FROSYA_laugh.mp3": {
+  "dur": 6.0,
+  "text": "Ха-ха-ха! Ха-ха-ха-ха! Ой, не могу! Ха-ха-ха!"
  }
 }

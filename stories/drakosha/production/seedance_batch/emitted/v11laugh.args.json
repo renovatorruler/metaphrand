@@ -1,0 +1,10 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 9,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-26_V11_frosya-laugh_start.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-05.png",
+    "../stories/drakosha/ep1prod/scene1/references/D-FRO-PENCIL-01_approved.png"
+  ],
+  "promptSha256": "008ee4eef1bb9701a9e1c5932d3f0c9546a7b020653b6640d7ddc088505b40b8"
+}

@@ -1,0 +1,227 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 4
+		},
+		"mels": 128,
+		"ftype": 8
+	},
+	"params": {
+		"model": "/private/tmp/metaphrand-whisper/ggml-large-v3-turbo-q5_0.bin",
+		"language": "hi",
+		"translate": false
+	},
+	"result": {
+		"language": "hi"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,920"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 920
+			},
+			"text": " मैं रुग गई हूँ",
+			"tokens": [
+				{
+					"text": "[_BEG_]",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,000"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 0
+					},
+					"id": 50365,
+					"p": 0.957811,
+					"t_dtw": -1
+				},
+				{
+					"text": " म",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,030"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 30
+					},
+					"id": 48449,
+					"p": 0.990238,
+					"t_dtw": -1
+				},
+				{
+					"text": "ै",
+					"timestamps": {
+						"from": "00:00:00,030",
+						"to": "00:00:00,060"
+					},
+					"offsets": {
+						"from": 30,
+						"to": 60
+					},
+					"id": 43372,
+					"p": 0.998532,
+					"t_dtw": -1
+				},
+				{
+					"text": "ं",
+					"timestamps": {
+						"from": "00:00:00,060",
+						"to": "00:00:00,090"
+					},
+					"offsets": {
+						"from": 60,
+						"to": 90
+					},
+					"id": 31945,
+					"p": 0.992822,
+					"t_dtw": -1
+				},
+				{
+					"text": " र",
+					"timestamps": {
+						"from": "00:00:00,090",
+						"to": "00:00:00,190"
+					},
+					"offsets": {
+						"from": 90,
+						"to": 190
+					},
+					"id": 8485,
+					"p": 0.995526,
+					"t_dtw": -1
+				},
+				{
+					"text": "ु",
+					"timestamps": {
+						"from": "00:00:00,190",
+						"to": "00:00:00,290"
+					},
+					"offsets": {
+						"from": 190,
+						"to": 290
+					},
+					"id": 8703,
+					"p": 0.997109,
+					"t_dtw": -1
+				},
+				{
+					"text": "ग",
+					"timestamps": {
+						"from": "00:00:00,290",
+						"to": "00:00:00,390"
+					},
+					"offsets": {
+						"from": 290,
+						"to": 390
+					},
+					"id": 3941,
+					"p": 0.939612,
+					"t_dtw": -1
+				},
+				{
+					"text": " ग",
+					"timestamps": {
+						"from": "00:00:00,390",
+						"to": "00:00:00,490"
+					},
+					"offsets": {
+						"from": 390,
+						"to": 490
+					},
+					"id": 8485,
+					"p": 0.988426,
+					"t_dtw": -1
+				},
+				{
+					"text": "ई",
+					"timestamps": {
+						"from": "00:00:00,490",
+						"to": "00:00:00,590"
+					},
+					"offsets": {
+						"from": 490,
+						"to": 590
+					},
+					"id": 3941,
+					"p": 0.91967,
+					"t_dtw": -1
+				},
+				{
+					"text": " ह",
+					"timestamps": {
+						"from": "00:00:00,590",
+						"to": "00:00:00,620"
+					},
+					"offsets": {
+						"from": 590,
+						"to": 620
+					},
+					"id": 37139,
+					"p": 0.992002,
+					"t_dtw": -1
+				},
+				{
+					"text": "ू",
+					"timestamps": {
+						"from": "00:00:00,620",
+						"to": "00:00:00,720"
+					},
+					"offsets": {
+						"from": 620,
+						"to": 720
+					},
+					"id": 8703,
+					"p": 0.997388,
+					"t_dtw": -1
+				},
+				{
+					"text": "ँ",
+					"timestamps": {
+						"from": "00:00:00,720",
+						"to": "00:00:00,860"
+					},
+					"offsets": {
+						"from": 720,
+						"to": 860
+					},
+					"id": 3941,
+					"p": 0.639867,
+					"t_dtw": -1
+				},
+				{
+					"text": "[_TT_46]",
+					"timestamps": {
+						"from": "00:00:00,920",
+						"to": "00:00:00,920"
+					},
+					"offsets": {
+						"from": 920,
+						"to": 920
+					},
+					"id": 50411,
+					"p": 0.279429,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

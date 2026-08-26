@@ -1,0 +1,54 @@
+{"job":"s6jobA","shots":"SH066-068","cost":30,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_135937_23c6b4dd-0c62-44d1-b2c3-cc451cc9d523.mp4\n"}
+{"job":"s6jobB","shots":"SH069-073","cost":32.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_140755_75b67ffa-8ef7-473e-9dd3-0665e733247c.mp4\n"}
+{"job":"s6jobC","shots":"SH074-077","cost":110.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_141233_a0dc67e4-906b-4617-a998-1d65efb82d45.mp4","note":"submitted before the queue was stopped; ledgered by hand because the gate process was killed mid-batch"}
+{"job":"s6jobB","shots":"SH069-073","cost":32.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_141537_2a709028-590c-46ce-be9d-3b1ba7eaf484.mp4\n"}
+{"job":"s6jobD","shots":"SH078","cost":20,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_141950_3886b999-7cd5-4c10-9ab9-2bd7eb01ef73.mp4\n"}
+{"job":"s6jobE","shots":"SH079-081","cost":32.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_142346_59594f6c-2b14-4993-9848-37ca9243d4f7.mp4\n"}
+{"job":"s6jobF","shots":"SH081","cost":27.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_142956_8c3ad5d1-2ce5-4c0e-b9c4-e963c206385e.mp4\n"}
+{"job":"s7jobA","shots":"SH082-083","cost":30,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_173209_b799a03e-dbe0-4adf-be10-b4dd1b03a6a7.mp4\n"}
+{"job":"s7jobB","shots":"SH084-086","cost":32.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_175451_3bd38735-b042-4972-8227-1db3c8a2383d.mp4\n"}
+{"job":"s7jobC","shots":"SH087-090","cost":32.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_175934_70af96aa-b8e2-4b35-b921-91b0f115fcc6.mp4\n"}
+{"job":"s7jobD","shots":"SH091","cost":25,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_180316_412f5a78-eedc-483f-81e9-f823dfe02970.mp4\n"}
+{"job":"s7jobE","shots":"SH092-093","cost":35,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_180638_3b9f7d27-1c65-42fe-b8c4-9357508d9410.mp4\n"}
+{"job":"s7jobF","shots":"SH094-095","cost":25,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_181126_52772744-8e3f-4089-beac-92015c2cbdda.mp4\n"}
+{"job":"s7jobG","shots":"SH098-101","cost":37.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_181540_6ce47b4a-4dee-4f7a-950d-a0de1b0997f7.mp4\n"}
+{"project":"drakosha-ep1","kind":"test","ref":"selftest","cost":0,"note":"ledger smoke test","balance_after":82.5}
+{"job":"s8loopA","shots":"LOOP-WRITE-01","cost":7.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260820_173113_3dbf7c87-9756-4ba1-9c3b-18bd66815d99.mp4\n"}
+{"job": "s8loopB", "shots": "LOOP-WRITE-02-FACE", "cost": 0, "note": "VOID — the gate adopted a validation error as a network error. veo3_1_lite refuses any duration but 8s when both start and end frames are set, so nothing was ever submitted and nothing was spent. Allowance restored."}
+{"job":"s8loopB","shots":"LOOP-WRITE-02-FACE","cost":8,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260820_180858_d2fd1feb-512e-435e-abbf-db746c94ca9c.mp4\n"}
+{"job":"s8loopC","shots":"LOOP-WRITE-KLING-FACE","cost":7.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260820_181035_cdc841a6-ce09-4f3c-badf-2ae6f61731ab.mp4\n"}
+{"job":"s8loopD","shots":"LOOP-WRITE-AGREED","cost":4.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260820_190954_08c97a8f-2f26-402a-af31-f00a4b890abe.mp4\n"}
+{"job":"s8loopE","shots":"LOOP-WRITE-MINI-REFS","cost":10,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260820_193843_af2d62f0-13ca-4f44-8cda-9fb575395de2.mp4\n"}
+{"job":"s8tochka","shots":"TOCHKA-MARK","cost":10,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260820_215612_299b9c43-c770-481c-bb64-8e0b7ef2f0af.mp4\n"}
+{"job":"s8shot1","shots":"SH102","cost":15,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260823_033847_64b8a286-cf7f-45f7-af19-f4e3b9831139.mp4\n"}
+{"job":"s8shot2","shots":"SH103","cost":30,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260823_043636_9cc3c229-dc3c-4b58-9324-44aa71bc3ab4.mp4\n"}
+{"job":"s8tochka2","shots":"TOCHKA-SEAL","cost":10,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260823_113727_4f77f245-73fb-4d5d-be76-c953ba6e6ac8.mp4\n"}
+{"job":"s8vasya","shots":"SH106","cost":10,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260823_180626_2d7a6f7c-5057-4218-b384-751c8273a3ec.mp4\n"}
+{"job":"s8offer","shots":"SH107","cost":12.5,"output":"adopted-after-network-error; fetch URL via: higgsfield generate list"}
+{"job":"s8glass","shots":"SH108","cost":12.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260823_184714_6330a084-f320-4218-a583-bc7760d40bfe.mp4\n"}
+{"job":"s8salat","shots":"SH109","cost":27.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260823_204843_683dd7f6-dfab-4395-8548-b5a9650f0bad.mp4\n"}
+{"job":"s8bowl","shots":"SH110","cost":12.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260823_210657_dda6528c-721b-4781-926e-053d88294fd8.mp4\n"}
+{"job":"s8fu","shots":"SH111","cost":12.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260823_212501_6e62a231-642e-43d4-a188-c341dc997d1b.mp4\n"}
+{"job":"s8rusya","shots":"SH112-114","cost":25,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260823_214648_f0207613-c1ae-4fb2-8425-d49854a61da6.mp4\n"}
+{"job":"s8mak","shots":"SH115","cost":32.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260823_225943_8b405526-5799-4a58-8a6e-778d4830ecf9.mp4\n"}
+{"job":"s8poppy","shots":"SH117-118","cost":20,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260823_233230_1e926dd3-2347-4af1-9b85-81240f926484.mp4\n"}
+{"job":"v01ask","shots":"SH120","cost":20,"output":"adopted-after-network-error; fetch URL via: higgsfield generate list"}
+{"job":"v02answer","shots":"SH121","cost":12.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260824_183200_17b6f849-4dda-45df-a54f-9687b1605d63.mp4\n"}
+{"job":"v03gather","shots":"SH122","cost":25,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260824_225014_d01abcca-e13b-46e3-b974-eef5d075b4e0.mp4\n"}
+{"job":"v03gather","shots":"SH122","cost":12.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260825_103633_13b8189f-62fc-418b-98cd-82df23ecf456.mp4\n"}
+{"job":"v04read","shots":"SH123","cost":9,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260825_113150_ea27de8e-8f49-4822-bbe4-812f891cd14f.mp4\n"}
+{"job":"v05single","shots":"SH123-124","cost":37.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260826_013622_bb006342-0df1-4fb6-9fbb-f1bc82e6f39f.mp4\n"}
+{"job":"v06frosya","shots":"SH124B","cost":10,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260826_052958_d2a06e2f-0855-4098-bfd0-43d1a4587309.mp4\n"}
+{"job":"v06frosya","shots":"SH124B","cost":10,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260826_054603_e8a3d12b-d1ce-4ecd-b642-c1513d742e3f.mp4\n"}
+{"job":"v07table","shots":"SH125-127","cost":37.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260826_061644_91fed76e-16fa-4aac-80eb-4de94fbe4496.mp4\n"}
+{"job":"v08babies","shots":"SH128-130","cost":37.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260826_125147_7ea56e0e-33e5-4d63-a697-228b27eeafd4.mp4\n"}
+{"job":"v09rescue","shots":"SH131-132","cost":35,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260826_155819_a16bfab9-65c0-405f-9400-004ed094dc48.mp4\n"}
+{"job":"v09rescue","shots":"SH131-132","cost":35,"output":"adopted-after-network-error; fetch URL via: higgsfield generate list"}
+{"job":"v09rescue","shots":"SH131-132","cost":35,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260826_161625_87d0c671-698c-483a-929a-327934775056.mp4\n"}
+{"job":"v10brovi","shots":"SH133-134","cost":22.5,"output":"adopted-after-network-error; fetch URL via: higgsfield generate list"}
+{"job":"v09rescue","shots":"SH131-132","cost":35,"output":"adopted-after-network-error; fetch URL via: higgsfield generate list"}
+{"job":"v09rescue","shots":"SH131-132","cost":35,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260826_171101_daaa64e5-8b58-4218-9fba-79a3c2f7e78e.mp4\n"}
+{"job":"v09rescue","shots":"SH131-132","cost":30,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260826_190529_f5ca76e3-05c7-4392-8326-4598861c3f59.mp4\n"}
+{"job":"v09rescue","shots":"SH131-132","cost":30,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260826_194121_8800a1d5-f617-4048-b0e8-73665213ad60.mp4\n"}
+{"job":"v10brovi","shots":"SH133-135","cost":35,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260826_210812_53dac0e6-3f5d-464e-b93e-ec70c1197500.mp4\n"}
+{"job":"v11laugh","shots":"SH136","cost":22.5,"output":"https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260826_213912_4e05078e-44bb-4764-b3de-c3fe88b6ec25.mp4\n"}

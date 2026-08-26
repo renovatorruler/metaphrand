@@ -1,0 +1,12 @@
+{
+ "score_source": "../stories/kuku/ep9prod/coldopen/audio/score/EP9_COLD_OPEN_SCORE_SONILO_V1.m4a",
+ "score_stem": "../stories/kuku/ep9prod/coldopen/audio/out/EP9_COLD_OPEN_SCORE_STEM_c098735ac666.wav",
+ "sfx_stem": "../stories/kuku/ep9prod/coldopen/audio/out/EP9_COLD_OPEN_SFX_STEM_49f8224ac59e.wav",
+ "mix": "../stories/kuku/ep9prod/coldopen/audio/out/EP9_COLD_OPEN_MUSIC_SFX_STEM_daaf29ef6ee4.wav",
+ "picture_preview": "../stories/kuku/ep9prod/coldopen/out/KUKU_EP9_COLD_OPEN_MUSIC_SFX_PREVIEW_daaf29ef6ee4.mp4",
+ "score_mix_config": "sonilo-v1|loudnorm-I-26-TP-3-LRA14|manual-dialogue-dips-v3|hard-stop-113|stereo-44100-wav",
+ "preview_mix_config": "score-plus-reused-sfx|amix-raw|limiter-0.84|stereo-44100-aac192-v1",
+ "mix_duration_seconds": 120,
+ "video_duration_seconds": 120,
+ "status": "music and reused effects only; no dialogue"
+}

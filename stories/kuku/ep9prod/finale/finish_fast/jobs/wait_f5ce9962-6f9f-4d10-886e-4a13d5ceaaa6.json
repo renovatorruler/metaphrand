@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-08-16T19:42:27.066717Z",
+  "display_name": "Seedance 2.5",
+  "id": "f5ce9962-6f9f-4d10-886e-4a13d5ceaaa6",
+  "job_type": "seedance_2_5",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "16:9",
+    "bitrate_mode": "standard",
+    "duration": 10,
+    "extension_mode": null,
+    "generate_audio": false,
+    "genre": "auto",
+    "height": 720,
+    "medias": [
+      {
+        "data": {
+          "id": "a1a3e72f-4780-4969-a0a5-203b787fad63",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/a1a3e72f-4780-4969-a0a5-203b787fad63.png"
+        },
+        "role": "start_image"
+      }
+    ],
+    "model": "default",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "Stable 16:9 wide, one continuous silent ten-second shot. Begin exactly from the supplied rescue geography with exactly five youthful giant bracelet dragons around the broken gate and the goat visible inside its hollow cloud pocket. Pale-lavender Leda at upper right is the sole initiator.\n\nLeda flies decisively across everyone's shared eye-line into the center foreground and opens both wings wide as a physical barrier. The other four continue their different failed rescue motions until Leda is visibly in their path. Only then do Furia red-pink, Kuku green, Vesper blue and Castor gold stop on four distinct sides, arrest their wing strokes and turn toward her. Leda holds the barrier, looks down through the cloud opening at the goat, then deliberately guides all four eye-lines to the same goat pocket. End on five still bodies sharing one rescue focus.\n\nExactly five dragons, one blank foreleg bracelet each, one goat inside one cloud pocket and the same broken gate. Leda must cause the stop; the others must not stop before she blocks them. No combat, collision, fire, letter, glyph, transformation, duplicate, missing dragon, extra goat, goat on cloud surface, dialogue, cut or native audio.",
+    "prompt_language": "en",
+    "reference_elements": [],
+    "resolution": "720p",
+    "speedramp": "auto",
+    "width": 1280
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_194227_f5ce9962-6f9f-4d10-886e-4a13d5ceaaa6.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_194227_f5ce9962-6f9f-4d10-886e-4a13d5ceaaa6_thumbnail.webp"
+}

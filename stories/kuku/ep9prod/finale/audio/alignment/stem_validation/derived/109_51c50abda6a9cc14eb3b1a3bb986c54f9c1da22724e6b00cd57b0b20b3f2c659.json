@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 109,
+ "chunk_id": "chunk_008",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_3156d98d364a9b61f1b9d7f7d6ee08b3d3c891059f11d317f3be5b014645a8c4.mp3",
+ "source_sha256": "8d81bd70afc0f8c6015e586c59459c703674c5c32a51fadde439029db46e01bd",
+ "source_start": 47.97325725154542,
+ "source_end": 50.7360976382945,
+ "expected_text": "कड़ा जागा, तो तुम बड़े होकर उड़ सकोगे।",
+ "expected_text_sha256": "02b7ca04fb74cf3291b9db2d9b5425f94d684d116d728ca1cfef97ec913a34f3",
+ "ctc_evidence_identity": "d65e339587e0985d91505e30ecd362b0fcfec8937c6ba898d17b3c7cdf577f3f",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/109_f2836ff84448d34b282fd748bd7af6fc5c66f88a07f491201f3cf737f962459e.whisper.json",
+ "raw_whisper_sha256": "b2a33c70ae8b0697c3c89fae9c41595f0e69c345d02efcdbbb995df293eb9ace",
+ "quality": {
+  "expected_words": 8,
+  "observed_words": 7,
+  "matched_words": 7,
+  "coverage": 0.875,
+  "observed_precision": 1,
+  "mean_similarity": 0.9464285714285714,
+  "sequence_score": 0.828125,
+  "average_token_probability": 0.8125181428571429,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 0.9123883928571428
+ }
+}

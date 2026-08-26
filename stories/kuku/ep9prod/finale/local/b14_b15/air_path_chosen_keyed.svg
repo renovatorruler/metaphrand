@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1280" viewBox="0 0 1280 1280">
+  <rect width="1280" height="1280" fill="#00ff00"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M790 520 C650 610 500 570 450 470 C405 375 465 265 555 205"
+          stroke="#d9f7ff" stroke-width="20" opacity="0.35"/>
+    <path d="M790 520 C650 610 500 570 450 470 C405 375 465 265 555 205"
+          stroke="#49c9e8" stroke-width="11" opacity="0.92"/>
+  </g>
+</svg>

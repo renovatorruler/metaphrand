@@ -1,0 +1,61 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "status": "manual-review-required",
+ "exception_count": 6,
+ "exceptions": [
+  {
+   "order": 102,
+   "scene": 2,
+   "speaker": "DADI",
+   "text": "आप फिर आ गए।",
+   "reason": "low-confidence local alignment: coverage=0.500, observed_precision=0.667, mean_similarity=1.000, sequence_score=0.583, token_probability=0.903",
+   "candidate": "../stories/kuku/ep9prod/finale/audio/manual_review/102_55d398e9182451991da3d6b04f562b299da23d262f3877534694edf68e9a288f.mp3",
+   "whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/102_b3561d204402fc3baf99968e605e9cbd97558f86b2dca69c1b27a54834b35091.whisper.json"
+  },
+  {
+   "order": 134,
+   "scene": 4,
+   "speaker": "LEDA",
+   "text": "इन सबमें ब है।",
+   "reason": "low-confidence local alignment: coverage=0.500, observed_precision=0.400, mean_similarity=1.000, sequence_score=0.640, token_probability=0.864",
+   "candidate": "../stories/kuku/ep9prod/finale/audio/manual_review/134_3c643e742efd4b131a10639826ecf3194c58fc406bc0b81ee10b48490c8e1117.mp3",
+   "whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/134_536a173672cf7bdd103fd2f73fe3e390c2c97f15cd645bae7e00f658b3630aad.whisper.json"
+  },
+  {
+   "order": 150,
+   "scene": 4,
+   "speaker": "CHORUS_ALL",
+   "text": "कुकु, तुम कर सकते हो!",
+   "reason": "low-confidence local alignment: coverage=0.400, observed_precision=0.286, mean_similarity=1.000, sequence_score=0.552, token_probability=0.602",
+   "candidate": "../stories/kuku/ep9prod/finale/audio/manual_review/150_616e8811875e124390b0fa59b637685a914082c497ff93c783949b6268734b6e.mp3",
+   "whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/150_bfe479bd6aa2463657af48928b72924d54eae62efc950754c4a556edf0dfc364.whisper.json"
+  },
+  {
+   "order": 222,
+   "scene": 7,
+   "speaker": "LEDA",
+   "text": "सब रुको।",
+   "reason": "low-confidence local alignment: coverage=0.000, observed_precision=0.000, mean_similarity=0.000, sequence_score=0.583, token_probability=-1.000",
+   "candidate": "../stories/kuku/ep9prod/finale/audio/manual_review/222_87a41760ddd2e7562354fb6adb8c894fb9524220163bf260ace1afd5e8e3d9e6.mp3",
+   "whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/222_421dc60c9f599b0551b7aea464eb5b5a48b208a7d299dd79936444b45979b49e.whisper.json"
+  },
+  {
+   "order": 240,
+   "scene": 8,
+   "speaker": "LEDA",
+   "text": "अब उठाओ।",
+   "reason": "low-confidence local alignment: coverage=0.500, observed_precision=0.500, mean_similarity=1.000, sequence_score=0.400, token_probability=0.978",
+   "candidate": "../stories/kuku/ep9prod/finale/audio/manual_review/240_9d015c2ec4a303e9a34381cd374d53eb41c1ba4b824a01827373ce783cacd8ef.mp3",
+   "whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/240_a58e8ed7b9e3eb795e34bdf2772e56fc4ce16d59bee5ea177f88d1e3abfb92fa.whisper.json"
+  },
+  {
+   "order": 317,
+   "scene": 10,
+   "speaker": "LEDA",
+   "text": "अब चलो।",
+   "reason": "low-confidence local alignment: coverage=0.000, observed_precision=0.000, mean_similarity=0.000, sequence_score=0.300, token_probability=-1.000",
+   "candidate": "../stories/kuku/ep9prod/finale/audio/manual_review/317_25389642a136fd71f3c5e1e00a68bf7c2a98d236addd317837cc0c19953a463a.mp3",
+   "whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/317_be4e302fa967dbd43f702df8a9fbd4efb8c7b5d4df8e39d64d026b0c00eca924.whisper.json"
+  }
+ ]
+}

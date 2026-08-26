@@ -1,0 +1,273 @@
+{
+  "version": "ep9-finish-fast-remaining-five-proposal-v1",
+  "project": "Kuku Episode 9 Season 1 Finale",
+  "status": "isolated_zero_credit_inputs_prepared",
+  "createdAt": "2026-08-16",
+  "scope": [
+    "Castor enters the rigid b rescue frame and reaches the goat",
+    "Furia completes the goat landing",
+    "Leda transforms independently",
+    "five trainees fly through the stabilized gate",
+    "clouds reveal the Gurukul"
+  ],
+  "isolation": {
+    "sharedPaidManifestEdited": false,
+    "spendLedgerEdited": false,
+    "submissionHoldEdited": false,
+    "providerCalled": false,
+    "networkCalled": false,
+    "uploadCreated": false,
+    "quoteRequested": false,
+    "creditsSpent": 0
+  },
+  "providerInputRule": "Kling 2.6 and Veo 3.1 Lite are single-start-frame models. Only each shot's declared startFrame may be submitted. Every other listed image is offline continuity and QA guidance, not an additional provider media input. Confirm Hailuo's current schema locally before any future submission; this proposal assumes one start frame.",
+  "quotePolicy": "The ceilings below are the last repository-recorded ceilings, not live quotes and not spend authorization. Obtain an exact fresh quote and a fresh single-use authorization immediately before each future submission.",
+  "budget": {
+    "shotCount": 5,
+    "firstPassCeilingCredits": 45,
+    "currentlySubmissionReadyShotCount": 4,
+    "currentlySubmissionReadyCeilingCredits": 37,
+    "breakdown": {
+      "kling2_6": 30,
+      "veo3_1_lite": 8,
+      "minimax_hailuo_2_3_fast": 7
+    },
+    "retryPolicy": "No automatic retries. Review each silent result before separately authorizing any retry."
+  },
+  "shots": [
+    {
+      "id": "FFR01_CASTOR_INSIDE_B",
+      "edlBeat": "C16",
+      "episodeWindow": "10:41-10:51",
+      "finalUseSeconds": 10,
+      "model": "kling2_6",
+      "durationSeconds": 10,
+      "lastRecordedQuoteCeilingCredits": 10,
+      "generateAudio": false,
+      "prompt": {
+        "path": "prompts/FFR01_castor_inside_b.txt",
+        "sha256": "988f6c5453c1ee3f218d319eda33f856a16a4368a2710599ed76edf78030816d"
+      },
+      "startFrame": {
+        "path": "start_frames/FFR01_rescue_b_dimensional.png",
+        "sha256": "d030ee8026dcf853f84503f9de5ad563540e85953182fa72c7c23d86b6057cc5",
+        "width": 1280,
+        "height": 720,
+        "submissionReady": true,
+        "provenance": {
+          "sourcePath": "../references/FFR_rescue_b_dimensional_native_v1.png",
+          "sourceSha256": "4d8a5b0e338d8527156becaa8deda6b33676f1123376d4fde5632c52c91660c5",
+          "method": "zero-credit deterministic Lanczos normalization to 1280x720; image content unchanged"
+        }
+      },
+      "offlineReferences": [
+        {
+          "path": "../references/A09_attempt2.png",
+          "sha256": "eafb8baccceadc68256fa52bc8b1d813687170e87eb6755cbf0c8a3cdb1d2111",
+          "role": "accepted five-member rescue and goat-pocket geography; QA only"
+        },
+        {
+          "path": "../references/upload_proxies/child_castor.jpg",
+          "sha256": "b6cd2a397d422f7c5cfe927a97dc6e826408d2926a597c6358d0238ab2473c2d",
+          "role": "Castor's small-form identity after shrinking; QA only"
+        },
+        {
+          "path": "../local/fx_b.png",
+          "sha256": "d3ebab5f039502479623b48ff7e15f9b1385830b8802437c07549ca335dfe428",
+          "role": "binding exact Devanagari b silhouette; QA only"
+        }
+      ],
+      "soundOffAcceptance": [
+        "The existing b stays rigid, complete and front-readable for the whole shot.",
+        "Only Castor changes scale; he remains one continuous gold character with one bracelet.",
+        "Castor visibly travels from outside the b into its inner route and reaches the goat.",
+        "The goat responds to Castor and takes at least two visible steps on its own feet.",
+        "The other four dragons remain separate and visibly hold the rescue frame steady.",
+        "Exactly five dragons, one goat and one b remain; nobody teleports, duplicates or disappears.",
+        "The file is silent and contains no generated text or new glyph."
+      ]
+    },
+    {
+      "id": "FFR02_RESCUE_SETTLEMENT_GOAT_LANDING",
+      "edlBeat": "B16",
+      "episodeWindow": "11:43-11:53",
+      "finalUseSeconds": 10,
+      "model": "kling2_6",
+      "durationSeconds": 10,
+      "lastRecordedQuoteCeilingCredits": 10,
+      "generateAudio": false,
+      "prompt": {
+        "path": "prompts/FFR02_goat_landing.txt",
+        "sha256": "8b8c4d82899cec20e44611f3619b509dc48d2e010a1acc635392f6dfff7d4d90"
+      },
+      "startFrame": {
+        "path": "start_frames/FFR01_rescue_b_dimensional.png",
+        "sha256": "d030ee8026dcf853f84503f9de5ad563540e85953182fa72c7c23d86b6057cc5",
+        "width": 1280,
+        "height": 720,
+        "submissionReady": true,
+        "provenance": {
+          "sourcePath": "../references/FFR_rescue_b_dimensional_native_v1.png",
+          "sourceSha256": "4d8a5b0e338d8527156becaa8deda6b33676f1123376d4fde5632c52c91660c5",
+          "method": "zero-credit deterministic Lanczos normalization to 1280x720; shared with FFR01 because it contains Furia, Castor, the same goat and the dimensional rescue frame together"
+        }
+      },
+      "offlineReferences": [
+        {
+          "path": "start_frames/FF02_goat_landing.png",
+          "sha256": "9641eec7f910b245031e8ca384ca6cc0af7d18e0f7ff005a5dcb276969e9e790",
+          "role": "zero-credit framing guide for the goat, open sky and solid meadow; do not submit because it does not contain Furia"
+        },
+        {
+          "path": "../references/A07_clean_delogo.png",
+          "sha256": "3b8221758250b29ff4477f876e9c741d41f260785f3126d086ed6eaaebc87fe3",
+          "role": "accepted goat and hollow cloud-pocket identity; QA only"
+        },
+        {
+          "path": "../references/upload_proxies/future_fyuria.jpg",
+          "sha256": "fa4e65a7f6cef7e4dd6b263822a81244e1b95ee394068862a54cfae508c72b87",
+          "role": "Furia identity check; QA only"
+        }
+      ],
+      "soundOffAcceptance": [
+        "The same one goat remains visible from cloud support to solid-ground landing.",
+        "Exactly one Furia supports the goat throughout one continuous downward path.",
+        "All four hooves visibly meet solid grass before Furia releases the goat.",
+        "The goat bears its own weight and the bell swings after contact.",
+        "The cloud dissipates behind the goat and never becomes a floor, disk or platform.",
+        "No new gate event, extra character, fall, teleport or injury occurs.",
+        "The file is silent and contains no text, letter or generated glyph."
+      ]
+    },
+    {
+      "id": "FFR03_LEDA_INDEPENDENT_TRANSFORM",
+      "edlBeat": "C18",
+      "episodeWindow": "12:55-13:03",
+      "finalUseSeconds": 8,
+      "model": "kling2_6",
+      "durationSeconds": 10,
+      "lastRecordedQuoteCeilingCredits": 10,
+      "generateAudio": false,
+      "editorialUse": "Select the clean continuous eight-second transformation ending on at least a one-second settled Leda hold.",
+      "prompt": {
+        "path": "prompts/FFR03_leda_independent_transform.txt",
+        "sha256": "0fc95cfa2f88e6f70b67de7d81b2ce9de096ae61f8084888e72c803bdfc002ea"
+      },
+      "startFrame": {
+        "path": "../references/A10_local_repair.png",
+        "sha256": "32059f3e38c2f95f4c22c590122aab516dcd18237a1d04c7c02c527975c0cd51",
+        "width": 2752,
+        "height": 1536,
+        "submissionReady": true,
+        "provenance": "Accepted post-rescue courtyard and two-way route frame with all five small children, Dadi and wingless Rishi."
+      },
+      "offlineReferences": [
+        {
+          "path": "../references/A11_attempt2.png",
+          "sha256": "404dcb8abeba80875dbc4b172810090bfc41f5abab1b2ff9ad351b20ecaf4bb2",
+          "role": "binding settled giant-Leda target and seven-character count; QA only"
+        },
+        {
+          "path": "../references/upload_proxies/child_leda.jpg",
+          "sha256": "18299539414441c32b8f496b13a2718f23fca2691a2455165e63aa4fa929159e",
+          "role": "small Leda identity at start; QA only"
+        },
+        {
+          "path": "../references/upload_proxies/future_leda.jpg",
+          "sha256": "057d4afd7f18315fc247e0d640e60df6f4b00b9cc000a56e995661bbc4bccba0",
+          "role": "larger Leda body and wings only; QA only"
+        }
+      ],
+      "soundOffAcceptance": [
+        "Leda alone initiates by touching her own bracelet.",
+        "One continuous Leda grows in place; her feet stay planted until the form settles.",
+        "Kuku, Furia, Vesper and Castor remain small for the entire shot.",
+        "Dadi and the wingless Rishi remain present, giving exactly seven characters and no duplicates.",
+        "Leda ends fully settled, youthful, recognizable and wearing exactly one bracelet.",
+        "There is no shared pulse, pain, armor, flight, fire or mid-morph final frame.",
+        "The file is silent and contains no generated text or letter."
+      ]
+    },
+    {
+      "id": "FFR04_FIVE_TRAINEES_THROUGH_GATE",
+      "edlBeat": "B17",
+      "episodeWindow": "13:19-13:27",
+      "finalUseSeconds": 8,
+      "model": "veo3_1_lite",
+      "durationSeconds": 8,
+      "lastRecordedQuoteCeilingCredits": 8,
+      "generateAudio": false,
+      "prompt": {
+        "path": "prompts/FFR04_five_through_gate.txt",
+        "sha256": "45cd0d6a35cd9282d99a8ea7584868781eee0016ac73c8f5328602a52006bd68"
+      },
+      "startFrame": {
+        "submissionReady": false,
+        "requiredSource": "A gate-present 1280x720 frame containing the same five transformed trainees in flight, the stabilized cracked golden gate, its open threshold and the single home tether.",
+        "requiredSourceSha256": null,
+        "dependencyPreviewPath": "../start_frames/B07.png",
+        "dependencyPreviewSha256": "75512e833a88c05b2fe3cf15b50990dce7bed90824fa61f8d97e55703fbea36f",
+        "width": 1280,
+        "height": 720,
+        "blockingReason": "Veo 3.1 Lite accepts only one start frame. B07 contains the five correct flyers but no gate, while A10 contains the gate but not the transformed flight formation. Neither can legally control both requirements alone."
+      },
+      "offlineReferences": [
+        {
+          "path": "../references/A10_local_repair.png",
+          "sha256": "32059f3e38c2f95f4c22c590122aab516dcd18237a1d04c7c02c527975c0cd51",
+          "role": "stabilized cracked golden gate and home-tether geometry only; QA only and never a second Veo input"
+        }
+      ],
+      "status": "blocked_pending_gate_present_start_frame",
+      "soundOffAcceptance": [
+        "Exactly five transformed trainees and exactly five bracelets remain visible and separate.",
+        "They retain the start-frame order and cross the threshold as one controlled formation.",
+        "The stabilized cracked gold gate has one open threshold and one attached tether.",
+        "All five visibly pass through; nobody collides, crosses bodies, vanishes or remains behind.",
+        "The gate stays rigid and does not pull, crack further or touch a dragon.",
+        "No sixth dragon, extra character, landing, transformation or fire appears.",
+        "The file is silent and contains no text, letter or generated glyph."
+      ]
+    },
+    {
+      "id": "FFR05_GURUKUL_CLOUD_REVEAL",
+      "edlBeat": "B18",
+      "episodeWindow": "13:27-13:37",
+      "finalUseSeconds": 10,
+      "model": "minimax_hailuo",
+      "variant": "minimax-2.3-fast",
+      "durationSeconds": 10,
+      "lastRecordedQuoteCeilingCredits": 7,
+      "generateAudio": false,
+      "editorialUse": "Use the full continuous cloud-parting reveal; the first frame is already covered, so no cover-in trim is required.",
+      "prompt": {
+        "path": "prompts/FFR05_gurukul_cloud_reveal.txt",
+        "sha256": "596f6fdba5257dd71c145d7528facf56bf94d380d8576a43e6370fa3921e208c"
+      },
+      "startFrame": {
+        "path": "start_frames/FFR05_gurukul_full_cloud_veil.png",
+        "sha256": "b52fdeeed202a34ee430ccb7c8e87f48c6b92c040c9eaff39e4cbe54eb5610a4",
+        "width": 1280,
+        "height": 720,
+        "submissionReady": true,
+        "provenance": {
+          "basePath": "../references/A12_attempt2.png",
+          "baseSha256": "75ea85b26587f3d890e82e0b82fa978ef174a5c02bccacd1430f3e5356e9a4e8",
+          "veilSourcePath": "../references/A07_clean_delogo.png",
+          "veilSourceSha256": "3b8221758250b29ff4477f876e9c741d41f260785f3126d086ed6eaaebc87fe3",
+          "method": "zero-credit deterministic 1280x720 composite: 14 percent accepted A12 master beneath an 86 percent pure cloud-and-sky crop from A07; no generated or repainted content"
+        }
+      },
+      "offlineReferences": [],
+      "soundOffAcceptance": [
+        "The shot begins under a complete near-lens cloud veil with the Gurukul only faintly readable beneath it.",
+        "The cloud then parts once from the center in one continuous readable motion.",
+        "The exact same Gurukul architecture is revealed; it does not grow, assemble, warp or change rooms.",
+        "Five trainees remain on five equal circles and the wingless Rishi remains on the cloud road.",
+        "The asymmetric overhead ring stays fixed and fully inside frame.",
+        "The reveal communicates a school much larger than these five trainees, with many dark unused spaces.",
+        "The file is silent and contains no new character, modern object, text, letter or fire."
+      ]
+    }
+  ]
+}

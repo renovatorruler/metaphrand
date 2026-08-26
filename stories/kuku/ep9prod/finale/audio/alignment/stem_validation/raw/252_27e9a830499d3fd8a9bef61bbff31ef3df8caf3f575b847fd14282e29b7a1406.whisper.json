@@ -1,0 +1,367 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 4
+		},
+		"mels": 128,
+		"ftype": 8
+	},
+	"params": {
+		"model": "/private/tmp/metaphrand-whisper/ggml-large-v3-turbo-q5_0.bin",
+		"language": "hi",
+		"translate": false
+	},
+	"result": {
+		"language": "hi"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:01,980"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 1980
+			},
+			"text": " तीसरा चक्कर शुरू हो गया है",
+			"tokens": [
+				{
+					"text": "[_BEG_]",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,000"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 0
+					},
+					"id": 50365,
+					"p": 0.965606,
+					"t_dtw": -1
+				},
+				{
+					"text": " त",
+					"timestamps": {
+						"from": "00:00:00,080",
+						"to": "00:00:00,170"
+					},
+					"offsets": {
+						"from": 80,
+						"to": 170
+					},
+					"id": 8485,
+					"p": 0.944561,
+					"t_dtw": -1
+				},
+				{
+					"text": "ी",
+					"timestamps": {
+						"from": "00:00:00,170",
+						"to": "00:00:00,220"
+					},
+					"offsets": {
+						"from": 170,
+						"to": 220
+					},
+					"id": 31881,
+					"p": 0.966527,
+					"t_dtw": -1
+				},
+				{
+					"text": "स",
+					"timestamps": {
+						"from": "00:00:00,220",
+						"to": "00:00:00,230"
+					},
+					"offsets": {
+						"from": 220,
+						"to": 230
+					},
+					"id": 45938,
+					"p": 0.994867,
+					"t_dtw": -1
+				},
+				{
+					"text": "र",
+					"timestamps": {
+						"from": "00:00:00,320",
+						"to": "00:00:00,320"
+					},
+					"offsets": {
+						"from": 320,
+						"to": 320
+					},
+					"id": 25411,
+					"p": 0.917043,
+					"t_dtw": -1
+				},
+				{
+					"text": "ा",
+					"timestamps": {
+						"from": "00:00:00,350",
+						"to": "00:00:00,370"
+					},
+					"offsets": {
+						"from": 350,
+						"to": 370
+					},
+					"id": 17937,
+					"p": 0.989532,
+					"t_dtw": -1
+				},
+				{
+					"text": " च",
+					"timestamps": {
+						"from": "00:00:00,370",
+						"to": "00:00:00,490"
+					},
+					"offsets": {
+						"from": 370,
+						"to": 490
+					},
+					"id": 8485,
+					"p": 0.992297,
+					"t_dtw": -1
+				},
+				{
+					"text": "क",
+					"timestamps": {
+						"from": "00:00:00,570",
+						"to": "00:00:00,590"
+					},
+					"offsets": {
+						"from": 570,
+						"to": 590
+					},
+					"id": 41858,
+					"p": 0.96431,
+					"t_dtw": -1
+				},
+				{
+					"text": "्",
+					"timestamps": {
+						"from": "00:00:00,590",
+						"to": "00:00:00,640"
+					},
+					"offsets": {
+						"from": 590,
+						"to": 640
+					},
+					"id": 27099,
+					"p": 0.776371,
+					"t_dtw": -1
+				},
+				{
+					"text": "क",
+					"timestamps": {
+						"from": "00:00:00,640",
+						"to": "00:00:00,660"
+					},
+					"offsets": {
+						"from": 640,
+						"to": 660
+					},
+					"id": 41858,
+					"p": 0.919498,
+					"t_dtw": -1
+				},
+				{
+					"text": "र",
+					"timestamps": {
+						"from": "00:00:00,740",
+						"to": "00:00:00,740"
+					},
+					"offsets": {
+						"from": 740,
+						"to": 740
+					},
+					"id": 25411,
+					"p": 0.855851,
+					"t_dtw": -1
+				},
+				{
+					"text": " श",
+					"timestamps": {
+						"from": "00:00:00,780",
+						"to": "00:00:00,910"
+					},
+					"offsets": {
+						"from": 780,
+						"to": 910
+					},
+					"id": 8485,
+					"p": 0.98086,
+					"t_dtw": -1
+				},
+				{
+					"text": "ु",
+					"timestamps": {
+						"from": "00:00:00,910",
+						"to": "00:00:01,070"
+					},
+					"offsets": {
+						"from": 910,
+						"to": 1070
+					},
+					"id": 8703,
+					"p": 0.983594,
+					"t_dtw": -1
+				},
+				{
+					"text": "र",
+					"timestamps": {
+						"from": "00:00:01,070",
+						"to": "00:00:01,120"
+					},
+					"offsets": {
+						"from": 1070,
+						"to": 1120
+					},
+					"id": 25411,
+					"p": 0.995448,
+					"t_dtw": -1
+				},
+				{
+					"text": "ू",
+					"timestamps": {
+						"from": "00:00:01,120",
+						"to": "00:00:01,280"
+					},
+					"offsets": {
+						"from": 1120,
+						"to": 1280
+					},
+					"id": 8703,
+					"p": 0.998649,
+					"t_dtw": -1
+				},
+				{
+					"text": " ह",
+					"timestamps": {
+						"from": "00:00:01,280",
+						"to": "00:00:01,340"
+					},
+					"offsets": {
+						"from": 1280,
+						"to": 1340
+					},
+					"id": 37139,
+					"p": 0.986507,
+					"t_dtw": -1
+				},
+				{
+					"text": "ो",
+					"timestamps": {
+						"from": "00:00:01,340",
+						"to": "00:00:01,390"
+					},
+					"offsets": {
+						"from": 1340,
+						"to": 1390
+					},
+					"id": 33926,
+					"p": 0.998904,
+					"t_dtw": -1
+				},
+				{
+					"text": " ग",
+					"timestamps": {
+						"from": "00:00:01,390",
+						"to": "00:00:01,560"
+					},
+					"offsets": {
+						"from": 1390,
+						"to": 1560
+					},
+					"id": 8485,
+					"p": 0.996429,
+					"t_dtw": -1
+				},
+				{
+					"text": "य",
+					"timestamps": {
+						"from": "00:00:01,560",
+						"to": "00:00:01,610"
+					},
+					"offsets": {
+						"from": 1560,
+						"to": 1610
+					},
+					"id": 48268,
+					"p": 0.997444,
+					"t_dtw": -1
+				},
+				{
+					"text": "ा",
+					"timestamps": {
+						"from": "00:00:01,610",
+						"to": "00:00:01,660"
+					},
+					"offsets": {
+						"from": 1610,
+						"to": 1660
+					},
+					"id": 17937,
+					"p": 0.999737,
+					"t_dtw": -1
+				},
+				{
+					"text": " ह",
+					"timestamps": {
+						"from": "00:00:01,660",
+						"to": "00:00:01,720"
+					},
+					"offsets": {
+						"from": 1660,
+						"to": 1720
+					},
+					"id": 37139,
+					"p": 0.992692,
+					"t_dtw": -1
+				},
+				{
+					"text": "ै",
+					"timestamps": {
+						"from": "00:00:01,720",
+						"to": "00:00:01,890"
+					},
+					"offsets": {
+						"from": 1720,
+						"to": 1890
+					},
+					"id": 43372,
+					"p": 0.99775,
+					"t_dtw": -1
+				},
+				{
+					"text": "[_TT_99]",
+					"timestamps": {
+						"from": "00:00:01,980",
+						"to": "00:00:01,980"
+					},
+					"offsets": {
+						"from": 1980,
+						"to": 1980
+					},
+					"id": 50464,
+					"p": 0.251226,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

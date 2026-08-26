@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-08-18T22:25:39.026713Z",
+  "display_name": "GPT Image 2",
+  "id": "f4474113-d788-45fd-ad4e-e4f55bb9ee1a",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_222539_f4474113-d788-45fd-ad4e-e4f55bb9ee1a_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "2c34931f-7d3c-4235-918c-4dcf003a1aef",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/2c34931f-7d3c-4235-918c-4dcf003a1aef_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "6eee2876-5a23-4839-a40a-c353c34d2fa4",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/6eee2876-5a23-4839-a40a-c353c34d2fa4_resize.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Wide: the planted staff bends visibly toward the cracked golden gate, its golden rings flickering fast; the cream paper goat kid with a small bell stands firmly on the grass in the foreground, unbothered — the ONLY animal in the frame, no puppy, no dog; at frame right the small pink child dragon Leda turns her head sharply, hearing something the others miss. 3D papercraft style, exactly matching the cut-paper character designs in the reference images: layered cut-paper illustration with real depth, soft matte construction-paper textures, visible paper edges, folds and creases, warm storybook palette, soft studio lighting, gentle depth of field, like a lit diorama built from card. Non-photorealistic, made of paper. NO flat single-plane 2D, NO sticker look, NO glossy plastic 3D render, NO photorealism, no text, no letters.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_222539_f4474113-d788-45fd-ad4e-e4f55bb9ee1a.png",
+  "status": "completed"
+}

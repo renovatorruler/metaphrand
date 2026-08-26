@@ -3,8 +3,8 @@
 # FROSYA uses the PRE-GIFT cutout everywhere in EP1 scenes 2–4: she has no pencil until Яга's gift.
 FROSYA	@FROSYA	frosya_pregift_lowpoly_cutout.png
 VASYA	@VASYA	vasya_lowpoly_cutout.png
-MAMA	@MAMA	mama_approved_from_job10_v1.png
-PAPA	@PAPA	KF:papa_identity_crop_from_kf12.png
+MAMA	@MAMA	packet_pages/mama-06.png
+PAPA	@PAPA	papa_author_packet_v2.png
 BABIES	@BABIES	packet_pages/babies-13.png
 YAGA_FLIGHT	@YAGA	packet_pages/yaga_flight-08.png
 YAGA_DOMOVOY	@YAGA	packet_pages/yaga_domovoy-07.png

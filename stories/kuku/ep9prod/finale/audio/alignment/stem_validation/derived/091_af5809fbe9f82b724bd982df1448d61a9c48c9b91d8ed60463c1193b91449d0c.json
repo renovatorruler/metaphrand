@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 91,
+ "chunk_id": "chunk_007",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_0acc47bab5a111a847a1ce6b29df5920f9760cf1008e4d2c168799c846e99d2d.mp3",
+ "source_sha256": "007a32cfe3fe579487aa57749bd0ff23200be5d0549be21377b57c937b6488ab",
+ "source_start": 55.441612442469456,
+ "source_end": 58.74505634026345,
+ "expected_text": "मैं देखने नहीं आया हूँ। मैं भी अभ्यास करूँगा।",
+ "expected_text_sha256": "c1b172db8a5190be1444f0e35cf4db86ca1a3e925335055df8de0b0d26723c02",
+ "ctc_evidence_identity": "ea0db7c7828a093247870bfc16209f14245fde8f4eb9e44196b3542dd3d8ac3a",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/091_cd1418c7ce983ddda1b722c1cc22553e688e1c0b76ce79a9f01f5d4d62380bb5.whisper.json",
+ "raw_whisper_sha256": "2071fd0398f5255646e85a40ffa64de0577a579dab2350ad37c1883f2512bfdc",
+ "quality": {
+  "expected_words": 9,
+  "observed_words": 9,
+  "matched_words": 9,
+  "coverage": 1,
+  "observed_precision": 1,
+  "mean_similarity": 0.9814814814814815,
+  "sequence_score": 0.9814814814814815,
+  "average_token_probability": 0.9313564444444444,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 0.9907407407407407
+ }
+}

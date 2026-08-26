@@ -1,0 +1,256 @@
+{
+  "version": "ep9-finish-fast-priority-batch-proposal-v1",
+  "project": "Kuku Episode 9 Season 1 Finale",
+  "status": "isolated_zero_credit_inputs_prepared",
+  "createdAt": "2026-08-16",
+  "scope": [
+    "equal five-way transformation",
+    "shared five-way takeoff",
+    "Rishi/goat/orbit connection",
+    "Leda physically stops failed rescues"
+  ],
+  "isolation": {
+    "sharedPaidManifestEdited": false,
+    "spendLedgerEdited": false,
+    "submissionHoldEdited": false,
+    "providerCalled": false,
+    "networkCalled": false,
+    "uploadCreated": false,
+    "creditsSpent": 0
+  },
+  "quotePolicy": "Quote ceilings are the last repository-recorded ceilings, not live quotes. Obtain one fresh exact quote and one fresh single-use repository authorization immediately before each future submission.",
+  "budget": {
+    "shotCount": 4,
+    "firstPassCeilingCredits": 49,
+    "allFourOneRetryCeilingCredits": 98,
+    "absoluteBatchCeilingBeforeAnyScopeChange": 98
+  },
+  "qaContact": {
+    "path": "qa/FF_priority_batch_start_frames_contact.png",
+    "sha256": "3d793e0755082c51afed6d7d93b01738284cda15d46a855e2a8f131931cccf53",
+    "layout": "top-left FF01, top-right FF02 dependency preview, bottom-left FF03, bottom-right FF04"
+  },
+  "shots": [
+    {
+      "id": "FF01_EQUAL_FIVE_TRANSFORMATION",
+      "edlBeat": "S05-B02",
+      "episodeWindow": "6:20-6:28",
+      "finalUseSeconds": 8,
+      "model": "gemini_omni",
+      "durationSeconds": 8,
+      "lastRecordedQuoteCeilingCredits": 24,
+      "prompt": {
+        "path": "prompts/FF01_equal_five_transformation.txt",
+        "sha256": "5ae5485a704aeb66ffd8b749dbe9347a9618d35c2bdc8040f3abc0809a4f0113"
+      },
+      "startFrame": {
+        "path": "start_frames/FF01_equal_transform_start.png",
+        "sha256": "800fa21e4a17c8bef6974f13f9f77d26d787fbfcafe911512ba0dbaf59c2e9b4",
+        "width": 1280,
+        "height": 720,
+        "submissionReady": true,
+        "provenance": {
+          "sourcePath": "../start_frames/D02.png",
+          "sourceSha256": "e7ef74925b9d3c329306996b009518b564a349748976632e335b2a4f7fa54e1d",
+          "method": "zero-credit deterministic decode and 1280x720 normalization; image content and chronology unchanged"
+        }
+      },
+      "preferredSubmissionMediaOrder": [
+        "start_frames/FF01_equal_transform_start.png",
+        "../references/A06.png"
+      ],
+      "references": [
+        {
+          "path": "../references/A06.png",
+          "sha256": "b284fc0cac8af0e369e37263241a34a28520cb7d05f5321502d5ebdd411738d4",
+          "role": "accepted settled five-member body, wing and bracelet identity only; never copy its airborne staging"
+        },
+        {
+          "path": "../references/upload_proxies/future_kuku.jpg",
+          "sha256": "9af1a65e87fe41bcc651dd6358d68f4f9bf1143b743da419bd3c27e1a67f1408",
+          "role": "Kuku larger present-day body identity only"
+        },
+        {
+          "path": "../references/upload_proxies/future_fyuria.jpg",
+          "sha256": "fa4e65a7f6cef7e4dd6b263822a81244e1b95ee394068862a54cfae508c72b87",
+          "role": "Furia larger present-day body identity only"
+        },
+        {
+          "path": "../references/upload_proxies/future_vesper.jpg",
+          "sha256": "50ee7439e79f7610dea527f394c7a640e68d95bda99924e3b6be4df5b9f61dd4",
+          "role": "Vesper larger present-day body identity only"
+        },
+        {
+          "path": "../references/upload_proxies/future_castor.jpg",
+          "sha256": "c2b7f7a79eefb6aba9e395b5a1734997530867d2125eab9e5def3461e3cff09e",
+          "role": "Castor larger present-day body identity only"
+        },
+        {
+          "path": "../references/upload_proxies/future_leda.jpg",
+          "sha256": "057d4afd7f18315fc247e0d640e60df6f4b00b9cc000a56e995661bbc4bccba0",
+          "role": "Leda larger present-day body identity only"
+        },
+        {
+          "path": "../local/transformation_continuity/panel_1.png",
+          "sha256": "6b7ed2bc80a327887617515941b7dc97ab95aa454dd724ccfa098be9f273f85f",
+          "role": "choreography guide: five equal starts"
+        },
+        {
+          "path": "../local/transformation_continuity/panel_5.png",
+          "sha256": "cc4578b38f8011af279f62efe7c4b96728791fa7055070a6194c16066cd0d9e2",
+          "role": "choreography guide: one shared finish pulse; never copy its staging or text"
+        }
+      ],
+      "forbiddenReferences": [
+        "../references/A05.png",
+        "../references/A05_attempt2.png",
+        "../clips/B05.mp4",
+        "../clips/candidates/D02_attempt1.mp4"
+      ],
+      "soundOffAcceptance": [
+        "Exactly five children remain visible and keep the Kuku-Furia-Vesper-Castor-Leda order.",
+        "One connected wave reaches five bracelets; it is not five isolated flashes.",
+        "All five begin changing before any one finishes.",
+        "All five settle on one shared final pulse; Kuku is not ahead.",
+        "The end contains five fully transformed youthful children and exactly five blank foreleg bracelets.",
+        "Nobody flies, crosses, merges, duplicates or leaves frame."
+      ]
+    },
+    {
+      "id": "FF02_SHARED_FIVE_TAKEOFF",
+      "edlBeat": "S05-B07",
+      "episodeWindow": "7:00-7:08",
+      "finalUseSeconds": 8,
+      "model": "veo3_1_lite",
+      "durationSeconds": 8,
+      "lastRecordedQuoteCeilingCredits": 8,
+      "prompt": {
+        "path": "prompts/FF02_shared_five_takeoff.txt",
+        "sha256": "4a963ce67aa714de5456a3a188fe8ca9c4f5b7ffe0c8920431490a82493aa811"
+      },
+      "startFrame": {
+        "submissionReady": false,
+        "requiredSource": "Extract the exact final frame of an accepted FF01_EQUAL_FIVE_TRANSFORMATION output.",
+        "requiredSourceSha256": null,
+        "dependencyPreviewPath": "start_frames/FF02_takeoff_dependency_preview.png",
+        "dependencyPreviewSha256": "79421261ee7465f2121fb79ca3290b819faf2832516b92890438f4a83a9ca582",
+        "width": 1280,
+        "height": 720,
+        "previewOnlyReason": "The preview proves five equal transformed identities and five bracelets but is not submission staging. Submitting it would skip the accepted FF01 endpoint and break location continuity."
+      },
+      "references": [
+        {
+          "path": "../references/A06.png",
+          "sha256": "b284fc0cac8af0e369e37263241a34a28520cb7d05f5321502d5ebdd411738d4",
+          "role": "accepted five-member flight formation and valley light"
+        },
+        {
+          "path": "../clips/B06.mp4",
+          "sha256": "493b05c45009017985cd71dd0e1d6635168b41c5172a8e6bf98a8c9cf4e71561",
+          "role": "accepted flight motion and post-takeoff direction"
+        }
+      ],
+      "soundOffAcceptance": [
+        "All five begin fully settled and grounded.",
+        "Three shared wingbeats are readable as one group rhythm.",
+        "All five sets of feet leave the ground on the same third beat.",
+        "Kuku is neither first nor higher than the others.",
+        "Exactly five dragons and five bracelets remain separately visible.",
+        "The ending direction can cut directly into accepted B06."
+      ]
+    },
+    {
+      "id": "FF03_RISHI_GOAT_ORBIT_CONNECTION",
+      "edlBeat": "S07-B01",
+      "episodeWindow": "8:35-8:43",
+      "finalUseSeconds": 8,
+      "model": "minimax_hailuo",
+      "variant": "minimax-2.3-fast",
+      "durationSeconds": 10,
+      "lastRecordedQuoteCeilingCredits": 7,
+      "editorialUse": "Select one clean continuous eight-second window; retain the complete staff catch and first orbit closure.",
+      "prompt": {
+        "path": "prompts/FF03_rishi_goat_orbit_connection.txt",
+        "sha256": "95b060b18de792448166be467758b418d1efe840dc9fd8f51441b76fcc5b4403"
+      },
+      "startFrame": {
+        "path": "start_frames/FF03_rishi_orbit_start.png",
+        "sha256": "d0b4180cf53a7c180541a51c8dcd321d3d06da7a9a057d91c6cae3856dd3d339",
+        "width": 1280,
+        "height": 720,
+        "submissionReady": true,
+        "provenance": {
+          "sourcePath": "../start_frames/B12.png",
+          "sourceSha256": "d0b4180cf53a7c180541a51c8dcd321d3d06da7a9a057d91c6cae3856dd3d339",
+          "method": "zero-credit exact 1280x720 normalization; goat already airborne after the B11 state"
+        }
+      },
+      "references": [
+        {
+          "path": "../references/A07_clean_delogo.png",
+          "sha256": "3b8221758250b29ff4477f876e9c741d41f260785f3126d086ed6eaaebc87fe3",
+          "role": "accepted destination geography: Rishi braced at gate, goat in cloud pocket"
+        },
+        {
+          "path": "../references/upload_proxies/rishi.jpg",
+          "sha256": "24de9b183ec20eb39244d2e41cdc00caea1626528f2e5c3e97d72c3744c5ac54",
+          "role": "exact wingless Rishi identity"
+        }
+      ],
+      "soundOffAcceptance": [
+        "The goat begins already airborne inside the cloud pocket.",
+        "Rishi visibly travels to the gate before planting the staff.",
+        "The staff catches before the first orbit begins.",
+        "Exactly one orbit completes; no later orbit is implied.",
+        "Rishi remains wingless and the goat never stands on the cloud surface.",
+        "The ending cuts directly to accepted B13 rescue escalation geography."
+      ]
+    },
+    {
+      "id": "FF04_LEDA_STOPS_FAILED_RESCUES",
+      "edlBeat": "S07-B08",
+      "episodeWindow": "9:35-9:43",
+      "finalUseSeconds": 8,
+      "model": "kling2_6",
+      "durationSeconds": 10,
+      "lastRecordedQuoteCeilingCredits": 10,
+      "editorialUse": "Select the clean continuous eight-second action beginning with Leda's crossing and ending after all five eye-lines reach the goat pocket.",
+      "prompt": {
+        "path": "prompts/FF04_leda_stops_failed_rescues.txt",
+        "sha256": "f246156f8f19dc0ef1a0640717b9cce78a117f73b139947e926218f2b5f2e5ff"
+      },
+      "startFrame": {
+        "path": "start_frames/FF04_leda_stop_start.png",
+        "sha256": "f385a9d2b0fa11ae5cf2b23f54fe0bf84b9eaaf9ce0b51a952693b9febcf5cc8",
+        "width": 1280,
+        "height": 720,
+        "submissionReady": true,
+        "provenance": {
+          "sourcePath": "../start_frames/C15.png",
+          "sourceSha256": "f385a9d2b0fa11ae5cf2b23f54fe0bf84b9eaaf9ce0b51a952693b9febcf5cc8",
+          "method": "zero-credit Lanczos normalization from accepted prepared rescue geography"
+        }
+      },
+      "references": [
+        {
+          "path": "../references/A07_clean_delogo.png",
+          "sha256": "3b8221758250b29ff4477f876e9c741d41f260785f3126d086ed6eaaebc87fe3",
+          "role": "accepted gate, goat-pocket and orbit geography"
+        },
+        {
+          "path": "../references/upload_proxies/future_leda.jpg",
+          "sha256": "057d4afd7f18315fc247e0d640e60df6f4b00b9cc000a56e995661bbc4bccba0",
+          "role": "Leda body and face identity only"
+        }
+      ],
+      "soundOffAcceptance": [
+        "Leda alone initiates and crosses the shared eye-line.",
+        "The four others remain active until her wings physically block them.",
+        "All four visibly stop because of Leda, not before her arrival.",
+        "Leda redirects all five eye-lines to the goat pocket.",
+        "Exactly five dragons, five bracelets, one goat and one cloud pocket remain.",
+        "No collision, combat, fire, transformation, letter or glyph appears."
+      ]
+    }
+  ]
+}

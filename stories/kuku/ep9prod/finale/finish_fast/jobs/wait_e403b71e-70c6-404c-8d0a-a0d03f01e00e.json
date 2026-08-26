@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-08-16T20:31:01.493964Z",
+  "display_name": "Seedance 2.5",
+  "id": "e403b71e-70c6-404c-8d0a-a0d03f01e00e",
+  "job_type": "seedance_2_5",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "16:9",
+    "bitrate_mode": "standard",
+    "duration": 8,
+    "extension_mode": null,
+    "generate_audio": false,
+    "genre": "auto",
+    "height": 720,
+    "medias": [
+      {
+        "data": {
+          "id": "f3441820-46d3-4da7-b4d0-28f9c1431894",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/f3441820-46d3-4da7-b4d0-28f9c1431894.png"
+        },
+        "role": "start_image"
+      }
+    ],
+    "model": "default",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "Stable 16:9 wide, one continuous silent eight-second shot. Begin from the exact accepted final frame of FF01: exactly five fully settled youthful giant children stand together after completing their transformations at the same moment, each wearing exactly one plain blank gold foreleg bracelet. Preserve their identities, scale status, spacing, order, courtyard geography and warm light.\n\nAll five lower their centers of gravity together. They make three clearly shared wingbeats in one rhythm. The first beat drives dust outward beneath all five. The second beat lightens all five bodies while every foot still touches the ground. On the third beat, all five sets of feet leave the ground on the same visual beat. Camera rises slightly with them. End with all five separately visible one body-height above the courtyard, moving in one direction toward the formation established by the accepted A06/B06 flight reference.\n\nKuku does not launch first, rise higher, lead by a body length or receive a stronger bracelet effect. Nobody crosses, obscures or collides with another. No staggered takeoff, sixth dragon, missing dragon, scale change, new transformation, fire, armor, text, glyph, speech or native audio.\n\nTRANSFORMATION RULE: becoming large means becoming OLDER — grown-up dragon proportions, longer snout, sharper features, adult bearing — never a child's body inflated to a bigger size.",
+    "prompt_language": "en",
+    "reference_elements": [],
+    "resolution": "720p",
+    "speedramp": "auto",
+    "width": 1280
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_203101_e403b71e-70c6-404c-8d0a-a0d03f01e00e.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_203101_e403b71e-70c6-404c-8d0a-a0d03f01e00e_thumbnail.webp"
+}

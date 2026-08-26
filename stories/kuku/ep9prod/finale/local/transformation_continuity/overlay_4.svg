@@ -1,0 +1,39 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1280" viewBox="0 0 1280 1280">
+  <rect width="1280" height="1280" fill="#00ff00"/>
+  <rect x="0" y="0" width="1280" height="110" fill="#17152d" opacity="0.94"/>
+  <rect x="0" y="610" width="1280" height="110" fill="#17152d" opacity="0.94"/>
+  <text x="32" y="31" font-family="Arial, Helvetica, sans-serif" font-size="20"
+        font-weight="700" fill="#f5c95b">STORYBOARD / ZERO-CREDIT CONTINUITY ANIMATIC / NOT FINAL FOOTAGE</text>
+  <text x="32" y="82" font-family="Arial, Helvetica, sans-serif" font-size="40"
+        font-weight="800" fill="white">4  NO ONE FINISHES EARLY</text>
+  <text x="640" y="691" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="27" font-weight="700" fill="white">Same progress. Same power. Nobody is giant yet.</text>
+  
+  <g fill="#ffd466" opacity="0.16" stroke="#ffd466" stroke-width="5">
+    <ellipse cx="347" cy="430" rx="130" ry="190"/><ellipse cx="595" cy="430" rx="130" ry="190"/>
+    <ellipse cx="824" cy="430" rx="120" ry="185"/><ellipse cx="1041" cy="430" rx="115" ry="175"/>
+    <ellipse cx="1207" cy="430" rx="92" ry="165"/>
+  </g>
+  <g fill="#17152d" stroke="#fff5cc" stroke-width="3">
+    <rect x="277" y="550" width="140" height="24" rx="12"/><rect x="525" y="550" width="140" height="24" rx="12"/>
+    <rect x="754" y="550" width="140" height="24" rx="12"/><rect x="971" y="550" width="140" height="24" rx="12"/>
+    <rect x="1137" y="550" width="140" height="24" rx="12"/>
+  </g>
+  <g fill="#ffd466">
+    <rect x="277" y="550" width="112" height="24" rx="12"/>
+    <rect x="525" y="550" width="112" height="24" rx="12"/>
+    <rect x="754" y="550" width="112" height="24" rx="12"/>
+    <rect x="971" y="550" width="112" height="24" rx="12"/>
+    <rect x="1137" y="550" width="112" height="24" rx="12"/>
+  </g>
+  <text x="640" y="385" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="42" font-weight="800" fill="#fff5cc">ALL FIVE: 80%</text>
+  
+  <g font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700"
+     fill="#fff5cc" text-anchor="middle">
+    <text x="347" y="648">KUKU</text><text x="595" y="648">FURIA</text>
+    <text x="824" y="648">VESPER</text><text x="1041" y="648">CASTOR</text>
+    <text x="1207" y="648">LEDA</text>
+  </g>
+</svg>

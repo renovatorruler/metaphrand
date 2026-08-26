@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 202,
+ "chunk_id": "chunk_016",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_e20024c0c4f8c8fa0dcd49dac0e284d13f24f95289892b3b51b22e66fd65e03e.mp3",
+ "source_sha256": "e60d52b97ef0b3d04bb81523cd6d5d8a9e1e841bd07a02ce6c9372cefce474d4",
+ "source_start": 71.43433922996878,
+ "source_end": 76.96,
+ "expected_text": "बादल तीन चक्कर में द्वार तक पहुँच जाएगा। पहला चक्कर शुरू हो गया है।",
+ "expected_text_sha256": "2ab0498240d0809883318fdc8ccac75990e6d34f4522eb7882414c4ece8ae2ac",
+ "ctc_evidence_identity": "bd364c4e58f925b782a1e951edb160b6ddc24259dfbc55c3e52f1a12b5475fcc",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/202_cc779b8eaa14ed08302248c416c4ec0cbf993b6549a48bb431bf655470340d7a.whisper.json",
+ "raw_whisper_sha256": "2efa594db1e0287358e0bad2672171f73c137969822593f1f8b01a82e71da09f",
+ "quality": {
+  "expected_words": 14,
+  "observed_words": 14,
+  "matched_words": 11,
+  "coverage": 0.7857142857142857,
+  "observed_precision": 0.7857142857142857,
+  "mean_similarity": 0.9818181818181819,
+  "sequence_score": 0.8976190476190476,
+  "average_token_probability": 0.880316090909091,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 0.8627164502164503
+ }
+}

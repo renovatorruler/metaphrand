@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-08-19T02:41:53.642243Z",
+  "display_name": "GPT Image 2",
+  "id": "eb7d3bcb-aae5-4dd4-99f8-f75ff4588c7c",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260819_024153_eb7d3bcb-aae5-4dd4-99f8-f75ff4588c7c_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "950fb40c-3813-455c-ae27-862dd722ffbb",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/950fb40c-3813-455c-ae27-862dd722ffbb_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "cbf7c32c-e0a7-49d4-8175-e388937e0e1c",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/cbf7c32c-e0a7-49d4-8175-e388937e0e1c_resize.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Close-up on the head and shoulders of the CRIMSON-RED transformed trainee dragon Furia, speaking mid-sentence, mouth open, bold eager expression. This is the LARGE TRANSFORMED trainee form: grown-up dragon proportions, longer snout, sharper features, adult bearing, powerful wings with visible paper thickness, wearing exactly ONE gold bracelet. NOT a baby dragon, not chubby, not a child's body — an older youthful dragon. Shown airborne against layered paper sky and clouds. 3D papercraft style matching the reference: layered cut-paper with real depth, matte construction-paper textures, visible paper edges and folds, warm storybook palette, soft studio lighting, gentle depth of field. NO flat 2D, no sticker look, no glossy plastic 3D, no photorealism, no text.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260819_024153_eb7d3bcb-aae5-4dd4-99f8-f75ff4588c7c.png",
+  "status": "completed"
+}

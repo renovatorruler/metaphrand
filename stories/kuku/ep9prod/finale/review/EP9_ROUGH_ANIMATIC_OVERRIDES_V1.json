@@ -1,0 +1,828 @@
+{
+  "version": "rough-animatic-overrides-v1",
+  "purpose": "Review-only substitutions. This file does not approve production assets or alter the EDL.",
+  "excludedAssets": [
+    "../clips/B05.mp4",
+    "../clips/B11.mp4",
+    "../clips/B15.mp4",
+    "../clips/C08.mp4",
+    "../clips/candidates/D02_attempt1.mp4",
+    "../references/A05_attempt2.png",
+    "../clips/B03.mp4"
+  ],
+  "beatSources": [
+    {
+      "beatId": "S01-B04",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/PH01.png"
+    },
+    {
+      "beatId": "S01-B04-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_rishi_1.png"
+    },
+    {
+      "beatId": "S01-B04-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_rishi_2.png"
+    },
+    {
+      "beatId": "S01-B05",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/CU_cheel.png"
+    },
+    {
+      "beatId": "S01-B05-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/CU_cheel.png"
+    },
+    {
+      "beatId": "S02-B03",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/CU_vesper.png"
+    },
+    {
+      "beatId": "S02-B03-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_vesper_1.png"
+    },
+    {
+      "beatId": "S02-B03-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_dadi_1.png"
+    },
+    {
+      "beatId": "S02-B03-L3",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_castor_1.png"
+    },
+    {
+      "beatId": "S02-B03-L4",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_leda_1.png"
+    },
+    {
+      "beatId": "S02-B04",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/CU_dadi.png"
+    },
+    {
+      "beatId": "S02-B04-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/W_kalu_goat.png"
+    },
+    {
+      "beatId": "S02-B05",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/CU_kuku.png"
+    },
+    {
+      "beatId": "S02-B05-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_kuku_1.png"
+    },
+    {
+      "beatId": "S02-B05-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_dadi_2.png"
+    },
+    {
+      "beatId": "S02-B06",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/CU_leda.png"
+    },
+    {
+      "beatId": "S02-B06-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_leda_2.png"
+    },
+    {
+      "beatId": "S02-B07",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_dadi_3.png"
+    },
+    {
+      "beatId": "S03-B03",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/PH03.png"
+    },
+    {
+      "beatId": "S03-B03-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_dadi_4.png"
+    },
+    {
+      "beatId": "S03-B04",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/PH04.png"
+    },
+    {
+      "beatId": "S03-B04-L1",
+      "kind": "accepted_motion",
+      "path": "../clips/FFG04.mp4"
+    },
+    {
+      "beatId": "S03-B05",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/PH05.png"
+    },
+    {
+      "beatId": "S03-B05-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/PH05.png"
+    },
+    {
+      "beatId": "S03-B06",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/CU_rishi.png"
+    },
+    {
+      "beatId": "S03-B06-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/PH06.png"
+    },
+    {
+      "beatId": "S03-B08-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_kuku_2.png"
+    },
+    {
+      "beatId": "S03-B09-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_dadi_1.png"
+    },
+    {
+      "beatId": "S04-B01",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/PH07.png"
+    },
+    {
+      "beatId": "S04-B01-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_kuku_circle_strain.png"
+    },
+    {
+      "beatId": "S04-B02",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/PH08.png"
+    },
+    {
+      "beatId": "S04-B02-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_dadi_2.png"
+    },
+    {
+      "beatId": "S04-B02-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_gate_scale.png"
+    },
+    {
+      "beatId": "S04-B02-L3",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_cloud_tug.png"
+    },
+    {
+      "beatId": "S04-B02-L4",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_goat_ground_safe.png"
+    },
+    {
+      "beatId": "S04-B03",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/PH09.png"
+    },
+    {
+      "beatId": "S04-B03-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_leda_3.png"
+    },
+    {
+      "beatId": "S04-B03-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_leda_4.png"
+    },
+    {
+      "beatId": "S04-B03-L3",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_furia_1.png"
+    },
+    {
+      "beatId": "S04-B04",
+      "kind": "accepted_motion",
+      "path": "../local/C08_chest_discovery_native_move_v1.mp4"
+    },
+    {
+      "beatId": "S04-B04-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_furia_2.png"
+    },
+    {
+      "beatId": "S04-B06-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_leda_1.png"
+    },
+    {
+      "beatId": "S04-B07-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_dadi_3.png"
+    },
+    {
+      "beatId": "S04-B08-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_kuku_4.png"
+    },
+    {
+      "beatId": "S04-B08-L2",
+      "kind": "accepted_motion",
+      "path": "../local/fx/B08_b_draw.mp4"
+    },
+    {
+      "beatId": "S04-B09",
+      "kind": "accepted_motion",
+      "path": "../local/fx/B09_b_pulse2.mp4"
+    },
+    {
+      "beatId": "S04-B10-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_leda_2.png"
+    },
+    {
+      "beatId": "S05-B01",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_bracelets_glow.png"
+    },
+    {
+      "beatId": "S05-B02",
+      "kind": "accepted_motion",
+      "path": "../finish_fast/out/FF01_seedance25_attempt1.mp4"
+    },
+    {
+      "beatId": "S05-B03",
+      "kind": "review_still",
+      "path": "../local/transformation_continuity/panel_4.png"
+    },
+    {
+      "beatId": "S05-B03-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_furia_1.png"
+    },
+    {
+      "beatId": "S05-B03-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_vesper_1.png"
+    },
+    {
+      "beatId": "S05-B03-L3",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_castor_1.png"
+    },
+    {
+      "beatId": "S05-B04",
+      "kind": "review_still",
+      "path": "../local/transformation_continuity/panel_5.png"
+    },
+    {
+      "beatId": "S05-B04-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_leda_1.png"
+    },
+    {
+      "beatId": "S05-B04-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_kuku_1.png"
+    },
+    {
+      "beatId": "S05-B05",
+      "kind": "review_still",
+      "path": "../local/transformation_continuity/panel_5.png"
+    },
+    {
+      "beatId": "S05-B05-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_castor_2.png"
+    },
+    {
+      "beatId": "S05-B05-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_dadi_4.png"
+    },
+    {
+      "beatId": "S05-B06",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_big_reveal.png"
+    },
+    {
+      "beatId": "S05-B07",
+      "kind": "accepted_motion",
+      "path": "../finish_fast/out/FF02_seedance25_attempt1.mp4"
+    },
+    {
+      "beatId": "S05-B08",
+      "kind": "accepted_still",
+      "path": "../local/transformation_continuity/giant_stage.png"
+    },
+    {
+      "beatId": "S06-B01",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/W_flight_formation.png"
+    },
+    {
+      "beatId": "S06-B01-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_rishi_5.png"
+    },
+    {
+      "beatId": "S06-B03",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/W_flight_formation.png"
+    },
+    {
+      "beatId": "S06-B03-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_furia_2.png"
+    },
+    {
+      "beatId": "S06-B04",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/W_flight_formation.png"
+    },
+    {
+      "beatId": "S06-B06",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/W_flight_formation.png"
+    },
+    {
+      "beatId": "S06-B06-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_castor_3.png"
+    },
+    {
+      "beatId": "S06-B07",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/W_flight_formation.png"
+    },
+    {
+      "beatId": "S06-B07-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_leda_looks_down.png"
+    },
+    {
+      "beatId": "S06-B08",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/W_flight_formation.png"
+    },
+    {
+      "beatId": "S06-B08-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_kuku_2.png"
+    },
+    {
+      "beatId": "S06-B09",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/W_flight_formation.png"
+    },
+    {
+      "beatId": "S06-B09-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_rishi_6.png"
+    },
+    {
+      "beatId": "S06-B09-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_rishi_5.png"
+    },
+    {
+      "beatId": "S06-B10",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/W_flight_formation.png"
+    },
+    {
+      "beatId": "S06-B10-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_furia_3.png"
+    },
+    {
+      "beatId": "S06-B10-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_kuku_3.png"
+    },
+    {
+      "beatId": "S06-B11",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/W_flight_formation.png"
+    },
+    {
+      "beatId": "S06-B11-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_rishi_6.png"
+    },
+    {
+      "beatId": "S06-B12",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/W_flight_formation.png"
+    },
+    {
+      "beatId": "S06-B12-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_leda_2.png"
+    },
+    {
+      "beatId": "S06-B14-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_goat_lift_furia.png"
+    },
+    {
+      "beatId": "S06-B14-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_dadi_5.png"
+    },
+    {
+      "beatId": "S06-B14-L3",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_goat_lift_leda.png"
+    },
+    {
+      "beatId": "S07-B01",
+      "kind": "accepted_motion",
+      "path": "../clips/FFG76.mp4"
+    },
+    {
+      "beatId": "S07-B03-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_furia_4.png"
+    },
+    {
+      "beatId": "S07-B04-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_kuku_4.png"
+    },
+    {
+      "beatId": "S07-B04-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_kuku_carry_fail.png"
+    },
+    {
+      "beatId": "S07-B05-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_vesper_2.png"
+    },
+    {
+      "beatId": "S07-B05-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_furia_1.png"
+    },
+    {
+      "beatId": "S07-B06-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_castor_4.png"
+    },
+    {
+      "beatId": "S07-B07-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_leda_3.png"
+    },
+    {
+      "beatId": "S07-B08",
+      "kind": "accepted_motion",
+      "path": "../finish_fast/out/FF04_seedance25_attempt1.mp4"
+    },
+    {
+      "beatId": "S07-B09-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_leda_4.png"
+    },
+    {
+      "beatId": "S08-B01-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_kuku_1.png"
+    },
+    {
+      "beatId": "S08-B02-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_leda_1.png"
+    },
+    {
+      "beatId": "S08-B02-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_kuku_2.png"
+    },
+    {
+      "beatId": "S08-B03-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_leda_2.png"
+    },
+    {
+      "beatId": "S08-B04-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_vesper_4.png"
+    },
+    {
+      "beatId": "S08-B05-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_furia_2.png"
+    },
+    {
+      "beatId": "S08-B05-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_castor_1.png"
+    },
+    {
+      "beatId": "S08-B06-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_leda_3.png"
+    },
+    {
+      "beatId": "S08-B07-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_carry_formation.png"
+    },
+    {
+      "beatId": "S08-B07-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_furia_3.png"
+    },
+    {
+      "beatId": "S08-B08",
+      "kind": "accepted_motion",
+      "path": "../finish_fast/out/FFR01_seedance25_attempt1.mp4"
+    },
+    {
+      "beatId": "S08-B09-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_inside_letter.png"
+    },
+    {
+      "beatId": "S08-B10-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_carry_formation.png"
+    },
+    {
+      "beatId": "S08-B10-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_furia_4.png"
+    },
+    {
+      "beatId": "S08-B11-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_leda_orbit3.png"
+    },
+    {
+      "beatId": "S08-B12-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_wind_path.png"
+    },
+    {
+      "beatId": "S08-B13-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_align_gate.png"
+    },
+    {
+      "beatId": "S08-B13-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_castor_2.png"
+    },
+    {
+      "beatId": "S08-B14-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_letter_lock.png"
+    },
+    {
+      "beatId": "S08-B14-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_leda_4.png"
+    },
+    {
+      "beatId": "S08-B14-L3",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_big_furia_1.png"
+    },
+    {
+      "beatId": "S08-B14-L4",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_letter_lock.png"
+    },
+    {
+      "beatId": "S08-B15",
+      "kind": "accepted_motion",
+      "path": "../finish_fast/out/FFR02_seedance25_attempt1.mp4"
+    },
+    {
+      "beatId": "S09-B01-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_leda_3.png"
+    },
+    {
+      "beatId": "S09-B02-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_kuku_1.png"
+    },
+    {
+      "beatId": "S09-B02-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_dadi_2.png"
+    },
+    {
+      "beatId": "S09-B03-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_rishi_3.png"
+    },
+    {
+      "beatId": "S09-B03-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_kuku_2.png"
+    },
+    {
+      "beatId": "S09-B04-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_rishi_4.png"
+    },
+    {
+      "beatId": "S09-B05-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_rishi_1.png"
+    },
+    {
+      "beatId": "S09-B05-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_leda_4.png"
+    },
+    {
+      "beatId": "S09-B06-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_dadi_3.png"
+    },
+    {
+      "beatId": "S09-B06-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_dori_string.png"
+    },
+    {
+      "beatId": "S09-B07-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_dori_test.png"
+    },
+    {
+      "beatId": "S09-B07-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_rishi_2.png"
+    },
+    {
+      "beatId": "S09-B08-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_dori_test.png"
+    },
+    {
+      "beatId": "S10-B01-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/RECAP_word_1.png"
+    },
+    {
+      "beatId": "S10-B01-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/RECAP_word_3.png"
+    },
+    {
+      "beatId": "S10-B01-L3",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/RECAP_word_4.png"
+    },
+    {
+      "beatId": "S10-B01-L4",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_dadi_4.png"
+    },
+    {
+      "beatId": "S10-B02-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_leda_transform.png"
+    },
+    {
+      "beatId": "S10-B02-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_leda_transform.png"
+    },
+    {
+      "beatId": "S10-B03-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_kuku_4.png"
+    },
+    {
+      "beatId": "S10-B03-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_four_transform.png"
+    },
+    {
+      "beatId": "S10-B03-L3",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_vesper_2.png"
+    },
+    {
+      "beatId": "S10-B03-L4",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_four_transform.png"
+    },
+    {
+      "beatId": "S10-B03-L5",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_kuku_1.png"
+    },
+    {
+      "beatId": "S10-B04-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_dadi_1.png"
+    },
+    {
+      "beatId": "S10-B04-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_kuku_2.png"
+    },
+    {
+      "beatId": "S10-B05-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_leda_1.png"
+    },
+    {
+      "beatId": "S10-B07-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_leda_2.png"
+    },
+    {
+      "beatId": "S10-B09-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_ring_flipped.png"
+    },
+    {
+      "beatId": "S10-B10-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_furia_4.png"
+    },
+    {
+      "beatId": "S10-B11-L1",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/VAR_cu_rishi_3.png"
+    },
+    {
+      "beatId": "S01-B03",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_gate_gap.png"
+    },
+    {
+      "beatId": "S03-B01",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_gate_pull.png",
+      "camera": {
+        "kind": "pushIn",
+        "zoomTo": 1.45,
+        "cx": 0.29,
+        "cy": 0.8
+      }
+    },
+    {
+      "beatId": "S06-B13",
+      "kind": "accepted_motion",
+      "path": "../clips/FFG10.mp4"
+    },
+    {
+      "beatId": "S07-B02",
+      "kind": "accepted_motion",
+      "path": "../clips/FFG13.mp4"
+    },
+    {
+      "beatId": "S06-B02",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_geography_scale.png"
+    },
+    {
+      "beatId": "S02-B04-L2",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_goat_practice.png"
+    },
+    {
+      "beatId": "S02-B04-L3",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_goat_nap.png"
+    },
+    {
+      "beatId": "S04-B05",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_circle_splits.png"
+    },
+    {
+      "beatId": "S08-B16",
+      "kind": "accepted_still",
+      "path": "../references/gpt_paper/ST_celebration.png"
+    },
+    {
+      "beatId": "S10-B06",
+      "kind": "accepted_still",
+      "path": "../references/A12_attempt2.png",
+      "camera": {
+        "kind": "panAcross",
+        "zoom": 1.32,
+        "fromCx": 0.24,
+        "toCx": 0.8,
+        "cy": 0.6
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+ "dialogue_stem": "../stories/kuku/ep9prod/coldopen/audio/out/EP9_COLD_OPEN_DIALOGUE_STEM_c70ea8077dca.wav",
+ "music_sfx_stem": "../stories/kuku/ep9prod/coldopen/audio/out/EP9_COLD_OPEN_MUSIC_SFX_STEM_8d7360aed8a7.wav",
+ "audio": "../stories/kuku/ep9prod/coldopen/audio/out/EP9_COLD_OPEN_FULL_MIX_f44e2b00a2e5.wav",
+ "audio_sha256": "813fea5b6ecf45f9a7721fd9e4ef311e793f5ec9a35b68e6ffac61e1cc94e97d",
+ "picture_preview": "../stories/kuku/ep9prod/coldopen/out/KUKU_EP9_COLD_OPEN_FULL_AUDIO_PREVIEW_f44e2b00a2e5.mp4",
+ "picture_preview_sha256": "6e3f79046c98935f8395dcf8c78e525038233f25cbd9f2694fbc065ba2eaff9a",
+ "mix_config": "approved-dialogue-plus-score-sfx|dialogue-sidechain-duck|amix-raw|limiter-0.78-no-makeup|sync-audit-v1|stereo-44100-aac192|video-copy-v5",
+ "audio_duration_seconds": 120,
+ "video_duration_seconds": 120,
+ "dialogue_first_audible_seconds": 7.52356,
+ "dialogue_first_audible_picture_fact": "families visibly running on the bridge",
+ "score_hard_cut_seconds": 113,
+ "provider_receipt": "../stories/kuku/ep9prod/coldopen/audio/EP9_COLD_OPEN_HIGGSFIELD_AUDIO_BATCH_V2.receipt.json",
+ "status": "full audio review mix; locked picture copied without re-encoding"
+}

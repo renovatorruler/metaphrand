@@ -1,0 +1,816 @@
+{
+ "stills": [
+  {
+   "name": "e8_s0_peak",
+   "kind": "story",
+   "menace": true,
+   "prompt": "OLD-STORY REGISTER: this frame is a page from an ancient storybook — sepia and faded ochre palette, aged paper grain, softly darkened edges as if the paper has yellowed. A vast bare mountain peak against an enormous pale sky, layered paper ridges falling away into cloud below, and on the highest rock one small dark silhouette of a great kite sitting perfectly still, tiny in the frame. Lonely, ancient, immense. Wide establishing shot.",
+   "refs": [
+    "cheel"
+   ]
+  },
+  {
+   "name": "e8_s0_snow",
+   "kind": "story",
+   "menace": true,
+   "prompt": "OLD-STORY REGISTER: sepia and faded ochre, aged paper grain, softly darkened edges. Closer on the great kite sitting motionless on the peak, her folded wings and shoulders heaped with layered cut-paper snow, eyes closed, utterly still while thick paper snowflakes drift past. Time made visible. The stillness is the whole image.",
+   "refs": [
+    "cheel"
+   ]
+  },
+  {
+   "name": "e8_s0_seasons",
+   "kind": "story",
+   "menace": true,
+   "prompt": "OLD-STORY REGISTER: sepia and faded ochre, aged paper grain, softly darkened edges. The same motionless kite on the same rock, but now in high summer — hard bright light, dry grass at the rock's base — and on top of her head sits a tiny cut-paper nest with two small chicks in it, beaks open. She has not moved. Absurd, tender and awe-making at once.",
+   "refs": [
+    "cheel"
+   ]
+  },
+  {
+   "name": "e8_s0_rishi",
+   "kind": "story",
+   "prompt": "OLD-STORY REGISTER: sepia and faded ochre, aged paper grain, softly darkened edges. On the mountain peak, a very old tiny papercraft dragon-sage with a long folded white paper beard, saffron-ochre robes and a plain wooden staff stands before the great seated kite, one small paw raised in blessing. She towers over him; he is entirely unafraid. Dawn light behind them on the ridge.",
+   "refs": [
+    "rishi",
+    "cheel"
+   ]
+  },
+  {
+   "name": "e8_s0_boon",
+   "kind": "story",
+   "menace": true,
+   "prompt": "OLD-STORY REGISTER: sepia and faded ochre, aged paper grain, softly darkened edges — with one exception: a warm GOLD glow, the only saturated colour in the frame. The great kite rises to her full height on the peak, wings spreading enormous, head tipped back, as ribbons of glowing golden light settle over her outstretched feathers and sink in. Triumphant, vast, a wish being granted. The sage is small at the frame's edge, watching.",
+   "refs": [
+    "cheel",
+    "rishi"
+   ]
+  },
+  {
+   "name": "e8_s0_shadow_valley",
+   "kind": "story",
+   "menace": true,
+   "prompt": "OLD-STORY REGISTER: sepia and faded ochre giving way at the bottom of the frame to the first green of a living valley. High aerial view looking down: layered paper hills, a winding road, a plank bridge and a tiny courtyard far below — and across all of it, sliding over the fields, the enormous sharp-edged SHADOW of a kite with outstretched wings. The bird itself is not in frame, only her shadow. The valley is unaware.",
+   "refs": []
+  },
+  {
+   "name": "e8_s1_master",
+   "kind": "story",
+   "prompt": "Wide shot of the home courtyard on a bright clean morning: the elderly grey dragon grandmother with her plain wooden walking stick and small reading glasses sits on her low wooden stool teaching, and the small round moss-green baby dragon, the very tiny yellow toddler dragon, the tiniest soft pink-lilac baby dragon with stubby wings and the bright pink-red dragon girl are gathered on the warm paper flagstones in front of her, all attention. Morning gold across the courtyard wall, a scruffy black paper puppy asleep in a sun patch, a cooking pot and stacked bowls at the edge. Cheerful and ordinary.",
+   "refs": [
+    "dadi",
+    "kuku",
+    "castor",
+    "leda",
+    "furia",
+    "kalu"
+   ]
+  },
+  {
+   "name": "e8_d1_dadi",
+   "kind": "dialogue",
+   "prompt": "Medium shot of the elderly grey dragon grandmother on her stool in bright morning light, mid-teaching-game: leaning forward with one paw lifted and turned upward as if offering a word to the children, eyes crinkled and merry over her reading glasses, her walking stick propped at her side. Warm morning gold on her grey paper scales, the courtyard wall and pale morning sky behind her.",
+   "refs": [
+    "dadi"
+   ]
+  },
+  {
+   "name": "e8_d1_castor",
+   "kind": "dialogue",
+   "prompt": "Close shot of the very tiny yellow toddler dragon on the courtyard flagstones, both stubby arms thrown wide in delighted discovery, mouth open in a round happy shout, eyes squeezed up with laughter; bright morning light, the sunlit courtyard soft behind him.",
+   "refs": [
+    "castor"
+   ]
+  },
+  {
+   "name": "e8_s1_shadow",
+   "kind": "story",
+   "menace": true,
+   "prompt": "The bright morning courtyard seen wide, with the small round moss-green baby dragon, the very tiny yellow toddler dragon, the tiniest soft pink-lilac baby dragon and the bright pink-red dragon girl sitting together on the paper flagstones — and a huge sharp-edged wing-shaped SHADOW sweeping across the stones and up the courtyard wall, darkening the four of them where they sit. The bird casting it is NOT in frame, only the shadow. Two small birds burst up off the wall in fright. The light is still golden everywhere the shadow has not reached. Beautiful and wrong at the same time.",
+   "refs": [
+    "kuku",
+    "castor",
+    "leda",
+    "furia"
+   ]
+  },
+  {
+   "name": "e8_d1_leda",
+   "kind": "dialogue",
+   "prompt": "Close shot of the tiniest soft pink-lilac baby dragon with stubby wings sitting on the flagstones with her head tipped all the way back, looking straight up past the camera, brow small and serious, one stubby paw half-raised to point — the only one who has noticed. A cool band of shadow lies across her and the stones around her while the rest of the courtyard stays golden.",
+   "refs": [
+    "leda"
+   ]
+  },
+  {
+   "name": "e8_d1_fyuria",
+   "kind": "dialogue",
+   "prompt": "Medium close shot of the bright pink-red dragon girl already up on her feet in the sunny courtyard, crest of spikes raised, waving one paw dismissively toward the sky without even looking up, mouth open mid-word, her whole body turned toward the courtyard gate and the day outside. Full morning light on her, the shadow gone.",
+   "refs": [
+    "furia"
+   ]
+  },
+  {
+   "name": "e8_d1_kuku",
+   "kind": "dialogue",
+   "prompt": "Close shot of the small round moss-green baby dragon with the cream belly standing on the flagstones, head turned up and to one side, listening hard with a small furrow of puzzlement, one tiny paw lifted mid-question; the bright green parrot with the red beak and pale cream neck ring perches on the courtyard wall behind him, beak open. Morning gold, pale sky.",
+   "refs": [
+    "kuku",
+    "tansen"
+   ]
+  },
+  {
+   "name": "e8_s1_tansen",
+   "kind": "story",
+   "prompt": "Close shot of the bright green parrot with the red beak and pale cream neck ring on the sunlit courtyard wall, wings half-lifted and beak wide open mid-call, head thrust forward, feathers ruffled — imitating a cry that does not belong here. Behind him the pale morning sky and out-of-focus paper hills.",
+   "refs": [
+    "tansen"
+   ]
+  },
+  {
+   "name": "e8_s2_spoon",
+   "kind": "story",
+   "refs": [
+    "furia"
+   ],
+   "prompt": "Low close shot on the sunlit goat-path: a shiny paper spoon lies on the dirt track glinting in the morning sun, and The bright pink-red dragon girl with the crest of spikes is mid-lunge for it, both paws out, delighted; the winding path and layered paper hills rise out of focus behind her."
+  },
+  {
+   "name": "e8_s2_trail",
+   "kind": "story",
+   "menace": true,
+   "refs": [],
+   "prompt": "Wide shot of the goat-path winding up a steep paper mountainside: at intervals along the climbing path, small shiny objects glint in the sun — a spoon, a scrap of star-paper, a bright button — a deliberate line of sparkles leading up and up toward the high crag; nobody in frame; beautiful and a little too perfect, like bait."
+  },
+  {
+   "name": "e8_d2_leda",
+   "kind": "dialogue",
+   "refs": [
+    "leda"
+   ],
+   "prompt": "Close shot of The tiniest soft pink-lilac baby dragon with stubby wings on the climbing path pointing ahead with one stubby paw at a glint of light further up, bouncing with discovery, mouth open in a tiny shout; sunlit paper rocks and the path curving up behind her."
+  },
+  {
+   "name": "e8_d2_vesper",
+   "kind": "dialogue",
+   "refs": [
+    "vesper"
+   ],
+   "prompt": "Medium close shot of The soft light-blue dragon boy with half-lidded dreamy eyes crouched over a shiny scrap on the path, NOT touching it, head tilted, eyes narrowed in slow thought — the only one who senses the pattern; the sunny path behind him climbs out of focus."
+  },
+  {
+   "name": "e8_d2_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku"
+   ],
+   "prompt": "Medium shot of The small round moss-green baby dragon with the cream belly on the steep path waving the others upward with one paw, eager and bright, already two steps higher than everyone; sun on his face, the valley beginning to drop away below."
+  },
+  {
+   "name": "e8_d2_castor",
+   "kind": "dialogue",
+   "refs": [
+    "castor"
+   ],
+   "prompt": "Medium shot of The very tiny yellow toddler dragon at the top of the path, up on a rock on his toes, arms flung out at the enormous view — the whole layered paper valley spread out tiny below him, the plank bridge and courtyard like toys in the distance; wind in his face, giddy joy."
+  },
+  {
+   "name": "e8_d2_fyuria",
+   "kind": "dialogue",
+   "refs": [
+    "furia"
+   ],
+   "prompt": "Medium close shot of The bright pink-red dragon girl with the crest of spikes at the crag's edge staring up at something huge just out of frame, her delight cooling into wide-eyed wonder, crest half-lowering; behind her an enormous woven nest-bower of paper twigs, far too big for any valley bird."
+  },
+  {
+   "name": "e8_s2_nest",
+   "kind": "story",
+   "menace": true,
+   "refs": [],
+   "prompt": "The nest-bower on the high crag, seen close: a huge, beautiful, meticulously woven bowl of dark paper twigs and grasses, decorated with shiny things — spoons, buttons, star-scraps — woven into its rim like trophies. Far too large for any small bird. Nobody in frame. The wind moves one loose feather on its edge — a dark umber feather, very big."
+  },
+  {
+   "name": "e8_s2_plank",
+   "kind": "story",
+   "menace": true,
+   "refs": [],
+   "prompt": "The narrow gap in the goat-path behind the children, seen from above: the wooden plank that bridged it lies fallen far below on the rocks, tiny with distance. The gap itself is a clean dark cut through the paper mountainside — too wide for small legs. Nobody in frame. The path on both sides is bright with sun; the gap is not."
+  },
+  {
+   "name": "e8_d3_cheel",
+   "kind": "dialogue",
+   "menace": true,
+   "refs": [
+    "cheel"
+   ],
+   "prompt": "Medium close shot of The great dark cut-paper kite — layered umber and charcoal-brown feathers with slate-grey edges, a long hooked golden beak, huge half-lidded amber eyes that look amused rather than angry, a crest of three swept-back feathers, blade-like folded wings perched on the nest rim, filling the frame, wings folded like closed blades, head tilted down toward the camera with her amused half-lidded amber gaze — the calm of someone who has already won; her hooked golden beak catches the light. Below the frame's edge, small and close, the tops of the children's heads."
+  },
+  {
+   "name": "e8_d3_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku"
+   ],
+   "prompt": "Close shot of The small round moss-green baby dragon with the cream belly standing at the front of the huddled children, chin up, tiny fists at his sides, scared and standing straight anyway — a small green dragon planting himself between something enormous and his friends; her great winged shadow falls across half his face."
+  },
+  {
+   "name": "e8_d3_fyuria",
+   "kind": "dialogue",
+   "refs": [
+    "furia"
+   ],
+   "prompt": "Close shot of The bright pink-red dragon girl with the crest of spikes mid-shout, furious, one paw thrown forward in defiance, crest fully raised, fear converted to anger; the edge of a great dark wing shadows the rocks behind her."
+  },
+  {
+   "name": "e8_s3_cornered",
+   "kind": "story",
+   "menace": true,
+   "refs": [
+    "kuku",
+    "furia",
+    "vesper",
+    "castor",
+    "leda"
+   ],
+   "prompt": "Wide shot on the crag: the five small dragons — The small round moss-green baby dragon with the cream belly, The bright pink-red dragon girl with the crest of spikes, The soft light-blue dragon boy with half-lidded dreamy eyes, The very tiny yellow toddler dragon and The tiniest soft pink-lilac baby dragon with stubby wings — huddled together at the cliff edge in bright sun, and across the whole foreground, cast over the rocks between them and the path, the enormous sharp shadow of a perched bird of prey. The bird itself only enters the frame as one dark folded wing at the very edge. Scale is the whole image: five small bodies, one vast shadow."
+  },
+  {
+   "name": "e8_d4_leda",
+   "kind": "dialogue",
+   "refs": [
+    "leda"
+   ],
+   "prompt": "Close shot of The tiniest soft pink-lilac baby dragon with stubby wings on the high bare crag above the valley, layered paper rock, the whole valley tiny far below, hard afternoon light, sitting very still with her head tipped back, tiny paw raised counting off beats in the air, brow furrowed in fierce concentration — the smallest one doing the most important job; a wing-shadow sweeps past across the rock behind her."
+  },
+  {
+   "name": "e8_d4_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku"
+   ],
+   "prompt": "Medium shot of The small round moss-green baby dragon with the cream belly on the high bare crag above the valley, layered paper rock, the whole valley tiny far below, hard afternoon light turned to give an order, one paw pointing hard off-frame, chest out, wholly in command of himself for the first time — a small dragon running a rescue."
+  },
+  {
+   "name": "e8_d4_castor",
+   "kind": "dialogue",
+   "refs": [
+    "castor"
+   ],
+   "prompt": "Close shot of The very tiny yellow toddler dragon squeezing headfirst into a narrow dark crack in the paper rock face, only his hindquarters and tail still showing, legs kicking with effort; bright rock all around the dark slot."
+  },
+  {
+   "name": "e8_s4_crack",
+   "kind": "story",
+   "menace": true,
+   "refs": [
+    "castor"
+   ],
+   "prompt": "Inside the rock crack looking out: The very tiny yellow toddler dragon pressed in the narrow dark slot, and beyond his shoulders the crack simply ENDS — opening onto nothing but bright empty air and the valley floor terrifyingly far below. His face is turning back toward the camera with the news. Vertigo composition, the drop doing the work."
+  },
+  {
+   "name": "e8_s4_bridge",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "furia",
+    "leda"
+   ],
+   "prompt": "On the high bare crag above the valley, layered paper rock, the whole valley tiny far below, hard afternoon light: The small round moss-green baby dragon with the cream belly braced at the edge of a gap in the path, breathing out a stream of golden paper sparks that arc across the void and knit into a glowing bridge of light, while The bright pink-red dragon girl with the crest of spikes and The tiniest soft pink-lilac baby dragon with stubby wings watch with rising hope; the sparks are abstract golden light only, no letterforms. Triumphant for one second."
+  },
+  {
+   "name": "e8_s4_scatter",
+   "kind": "story",
+   "menace": true,
+   "refs": [
+    "kuku"
+   ],
+   "prompt": "The same gap on the high bare crag above the valley, layered paper rock, the whole valley tiny far below, hard afternoon light, an instant later: the golden bridge of sparks blown apart mid-air by a downdraft, motes flying and dimming in every direction, and The small round moss-green baby dragon with the cream belly recoiling with a paw over his face against the wind; a huge dark wing crosses the top of the frame. Abstract light only, no letterforms."
+  },
+  {
+   "name": "e8_d4_cheel",
+   "kind": "dialogue",
+   "menace": true,
+   "refs": [
+    "cheel"
+   ],
+   "prompt": "The great dark cut-paper kite with umber and charcoal feathers, hooked golden beak and half-lidded amber eyes in flight above the high bare crag above the valley, layered paper rock, the whole valley tiny far below, hard afternoon light seen from below, banking lazily on a wide circle, one wing dipped, looking down past her own shoulder at the camera with open amusement, beak slightly parted as if laughing; enormous against a pale sky."
+  },
+  {
+   "name": "e8_d4_vesper",
+   "kind": "dialogue",
+   "refs": [
+    "vesper"
+   ],
+   "prompt": "Close shot of The soft light-blue dragon boy with half-lidded dreamy eyes on the high bare crag above the valley, layered paper rock, the whole valley tiny far below, hard afternoon light gone rigid with fear, eyes fully open for once, both paws pressed flat against the rock behind him, mouth open on a word he shouldn't be saying; hard bright light, deep shadow."
+  },
+  {
+   "name": "e8_d4_fyuria",
+   "kind": "dialogue",
+   "refs": [
+    "furia"
+   ],
+   "prompt": "Medium shot of The bright pink-red dragon girl with the crest of spikes on the high bare crag above the valley, layered paper rock, the whole valley tiny far below, hard afternoon light launching into a sprint along the crag rim, body low and driving, crest flat with speed, teeth set — the fastest dragon in the valley finally with something to run at; motion blur in the paper dust behind her feet."
+  },
+  {
+   "name": "e8_s4_counter",
+   "kind": "story",
+   "menace": true,
+   "refs": [
+    "furia"
+   ],
+   "prompt": "High wide shot looking down on the high bare crag above the valley, layered paper rock, the whole valley tiny far below, hard afternoon light: The bright pink-red dragon girl with the crest of spikes running a tight circle around the crag rim in ONE direction while the great kite's shadow sweeps the opposite way across the rock — two opposing circles, small red dragon and vast dark shadow. The geometry is the story."
+  },
+  {
+   "name": "e8_d5_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku",
+    "tansen"
+   ],
+   "prompt": "Close two-shot on the high bare crag above the valley, layered paper rock, the whole valley tiny far below, hard afternoon light: The small round moss-green baby dragon with the cream belly crouched low speaking urgently to The small bright green parrot with a red beak and pale cream neck ring who is perched on a rock at his eye level, head cocked, listening — the moment a friend is asked to do something dangerous. Warm afternoon light, the drop soft behind them."
+  },
+  {
+   "name": "e8_d5_vesper",
+   "kind": "dialogue",
+   "refs": [
+    "vesper",
+    "tansen"
+   ],
+   "prompt": "Medium close shot of The soft light-blue dragon boy with half-lidded dreamy eyes leaning in toward The small bright green parrot with a red beak and pale cream neck ring, one paw cupped beside his snout as he gives the idea, dreamy eyes now sharp with an actual plan; the parrot's green head turned attentively toward him."
+  },
+  {
+   "name": "e8_s5_tansen_launch",
+   "kind": "story",
+   "refs": [
+    "tansen"
+   ],
+   "prompt": "The small bright green parrot with a red beak and pale cream neck ring launching off the crag rock into open air, wings snapped wide, tiny and brilliant green against an enormous pale sky and the valley far below — a very small bird flying out into a very large emptiness where something much bigger is circling. Brave and terrifying at once."
+  },
+  {
+   "name": "e8_d5_fyuria",
+   "kind": "dialogue",
+   "refs": [
+    "furia"
+   ],
+   "prompt": "Close shot of The bright pink-red dragon girl with the crest of spikes on the high bare crag above the valley, layered paper rock, the whole valley tiny far below, hard afternoon light at the cliff edge, both fists clenched at her chest, leaning out after something departing, whispering with her whole body — hope and terror in one face; wind in her crest."
+  },
+  {
+   "name": "e8_s5_kalu_dadi",
+   "kind": "story",
+   "refs": [
+    "kalu",
+    "dadi"
+   ],
+   "prompt": "Down in the valley on the goat-path: the scruffy black paper puppy runs flat-out ahead, nose down and ears back, while The elderly grey dragon grandmother with small round reading glasses, a knitted brown-and-cream shawl and a plain wooden walking stick climbs behind him — head lowered, shawl gripped, walking stick striking the stones, moving faster than an old grandmother has any right to. Late golden light on the path; the crag looms high above."
+  },
+  {
+   "name": "e8_s6_stoop",
+   "kind": "story",
+   "menace": true,
+   "refs": [
+    "cheel"
+   ],
+   "prompt": "The great dark cut-paper kite with umber and charcoal feathers, hooked golden beak and half-lidded amber eyes in a full silent dive, wings swept back into a blade, talons beginning to open, plunging straight down at the camera out of a pale sky — the largest and most frightening image in the episode, made of nothing but scale, speed and shape. No gore, no fangs."
+  },
+  {
+   "name": "e8_s6_dadi_steps",
+   "kind": "story",
+   "refs": [
+    "dadi",
+    "kuku"
+   ],
+   "prompt": "On the high bare crag above the valley, layered paper rock, the whole valley tiny far below, hard afternoon light: The elderly grey dragon grandmother with small round reading glasses, a knitted brown-and-cream shawl and a plain wooden walking stick steps out from between the rocks and plants herself squarely between the diving shadow and the huddled children, seen from behind and low — shawl and grey wings spread wide, walking stick braced, an old body made into a wall. The small round moss-green baby dragon with the cream belly is small behind her. Her back fills the frame."
+  },
+  {
+   "name": "e8_s6_tail",
+   "kind": "story",
+   "menace": true,
+   "refs": [
+    "dadi"
+   ],
+   "prompt": "The tail-blow: The elderly grey dragon grandmother with small round reading glasses, a knitted brown-and-cream shawl and a plain wooden walking stick mid-swing on the high bare crag above the valley, layered paper rock, the whole valley tiny far below, hard afternoon light, her long grey scaled tail whipping through the air in a tremendous arc with a burst of paper dust and feathers exploding along its path, her face calm and utterly certain. Power without rage. The kite is out of frame — only her strike and the storm of feathers."
+  },
+  {
+   "name": "e8_s6_tumble",
+   "kind": "story",
+   "menace": true,
+   "refs": [
+    "cheel"
+   ],
+   "prompt": "The great dark cut-paper kite with umber and charcoal feathers, hooked golden beak and half-lidded amber eyes knocked tumbling across the open sky, wings splayed and out of control, feathers scattering behind her in a long trail, beak open in an outraged shriek, the valley wheeling behind her — undignified, defeated, unhurt. Comic and mighty at once."
+  },
+  {
+   "name": "e8_d6_dadi",
+   "kind": "dialogue",
+   "refs": [
+    "dadi"
+   ],
+   "prompt": "Medium close shot of The elderly grey dragon grandmother with small round reading glasses, a knitted brown-and-cream shawl and a plain wooden walking stick on the high bare crag above the valley, layered paper rock, the whole valley tiny far below, hard afternoon light lowering her tail, breathing hard but perfectly composed, looking up at the departing sky over her glasses with the mildest possible expression — a grandmother who has just done something enormous and is already thinking about the children. Late light."
+  },
+  {
+   "name": "e8_d6_fyuria",
+   "kind": "dialogue",
+   "refs": [
+    "furia"
+   ],
+   "prompt": "Close shot of The bright pink-red dragon girl with the crest of spikes on the high bare crag above the valley, layered paper rock, the whole valley tiny far below, hard afternoon light, mouth open, eyes enormous, halfway between laughing and crying, both paws lifted toward The elderly grey dragon grandmother with small round reading glasses, a knitted brown-and-cream shawl and a plain wooden walking stick off-frame in pure disbelief."
+  },
+  {
+   "name": "e8_s7_circle",
+   "kind": "story",
+   "refs": [
+    "dadi",
+    "kuku",
+    "furia",
+    "vesper",
+    "castor",
+    "leda"
+   ],
+   "prompt": "Wide shot on the high bare crag in low golden evening light, layered paper rock, the whole valley tiny far below: the elderly grey dragon grandmother with round reading glasses, knitted brown-and-cream shawl and wooden walking stick sits with her stick across her knees, and the five small dragon children sit in a tight semicircle around her — one round moss-green, one bright pink-red, one soft light-blue, one very tiny yellow toddler, one tiniest soft pink-lilac. Exactly six creatures in the frame: the grandmother and these five children, each colour appearing exactly once — no duplicates, no extra dragons. An enormous open sky above them. The safest image in the episode, in the most dangerous place."
+  },
+  {
+   "name": "e8_d7_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku"
+   ],
+   "prompt": "Close shot of The small round moss-green baby dragon with the cream belly in golden evening light on the high bare crag above the valley, layered paper rock, the whole valley tiny far below, hard afternoon light, face streaked and open, looking up and asking the question with his whole body, one paw half-raised toward the sky."
+  },
+  {
+   "name": "e8_d7_dadi_katha",
+   "kind": "dialogue",
+   "refs": [
+    "dadi"
+   ],
+   "prompt": "Medium close shot of The elderly grey dragon grandmother with small round reading glasses, a knitted brown-and-cream shawl and a plain wooden walking stick in warm evening light beginning a story: eyes distant and soft, one paw open in the storyteller's gesture, the children's out-of-focus heads at the frame's lower edge; the sky behind her going amber."
+  },
+  {
+   "name": "e8_s7_flash_flying",
+   "kind": "story",
+   "refs": [],
+   "prompt": "OLD-STORY REGISTER: sepia and faded ochre, aged paper grain, softly darkened edges. The valley long ago — the same layered paper hills, but the sky FULL of flying dragons of every colour, wings spread, wheeling over the fields in great numbers. Joyous, crowded, ordinary. A world that no longer exists."
+  },
+  {
+   "name": "e8_s7_flash_road",
+   "kind": "story",
+   "refs": [],
+   "prompt": "OLD-STORY REGISTER: sepia and faded ochre, aged paper grain, softly darkened edges. The same valley, later: a fine wide road now runs through it, a plank bridge crosses the stream, and a laden wooden cart rolls along the road — while high above, only two or three dragons still fly, small and far apart in an emptying sky."
+  },
+  {
+   "name": "e8_s7_flash_rath",
+   "kind": "story",
+   "refs": [],
+   "prompt": "OLD-STORY REGISTER: sepia and faded ochre, aged paper grain, softly darkened edges. The road at its busiest: several loaded carts moving in both directions, dragons walking beside them with folded wings, nobody looking up. The sky above is completely, quietly empty. The saddest image in the episode, and nothing bad is happening in it."
+  },
+  {
+   "name": "e8_d7_vesper",
+   "kind": "dialogue",
+   "refs": [
+    "vesper"
+   ],
+   "prompt": "Close shot of The soft light-blue dragon boy with half-lidded dreamy eyes in evening light on the high bare crag above the valley, layered paper rock, the whole valley tiny far below, hard afternoon light, the realisation arriving slowly across his face, eyes lifting to the empty sky, mouth just parted — the boy who thinks late and thinks correctly."
+  },
+  {
+   "name": "e8_d7_leda",
+   "kind": "dialogue",
+   "refs": [
+    "leda"
+   ],
+   "prompt": "Close shot of The tiniest soft pink-lilac baby dragon with stubby wings in evening light, small paw pointing down at the road far below in the valley, face perfectly serious — the smallest one saying the true thing without knowing it is the true thing."
+  },
+  {
+   "name": "e8_s7_dadi_sky",
+   "kind": "story",
+   "refs": [
+    "dadi"
+   ],
+   "prompt": "The elderly grey dragon grandmother with small round reading glasses, a knitted brown-and-cream shawl and a plain wooden walking stick on the high bare crag above the valley, layered paper rock, the whole valley tiny far below, hard afternoon light at dusk, seen in profile, looking up at the first stars with an expression that answers nothing — a grandmother declining to promise something. The children are soft silhouettes at the frame's edge. Held, unresolved."
+  },
+  {
+   "name": "e8_s8_walk",
+   "kind": "story",
+   "refs": [
+    "dadi",
+    "kuku",
+    "furia",
+    "vesper",
+    "castor",
+    "leda",
+    "kalu"
+   ],
+   "prompt": "Wide shot from behind: the whole group walking single-file down the goat-path in deep golden dusk — The elderly grey dragon grandmother with small round reading glasses, a knitted brown-and-cream shawl and a plain wooden walking stick leading with her stick, the five small dragons strung out behind her, the puppy trotting alongside, the road and the plank bridge and the lit courtyard waiting far below. Long shadows, warm, tired, together."
+  },
+  {
+   "name": "e8_d8_dadi",
+   "kind": "dialogue",
+   "refs": [
+    "dadi"
+   ],
+   "prompt": "Medium shot of The elderly grey dragon grandmother with small round reading glasses, a knitted brown-and-cream shawl and a plain wooden walking stick walking on the dusk path, turned slightly back over her shoulder to teach as she walks, one paw raised in a gentle point, stick in the other; warm low light on her face, the children out of focus behind."
+  },
+  {
+   "name": "e8_d8_fyuria",
+   "kind": "dialogue",
+   "refs": [
+    "furia"
+   ],
+   "prompt": "Close shot of The bright pink-red dragon girl with the crest of spikes on the dusk path mid-objection, brow scrunched, one paw thrown out in protest — the child who will not let an unfair idea pass without a fight."
+  },
+  {
+   "name": "e8_d8_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku"
+   ],
+   "prompt": "Close shot of The small round moss-green baby dragon with the cream belly walking with his head down on the dusk path, small and thoughtful, one ear drooping — carrying the day's failure quietly."
+  },
+  {
+   "name": "e8_d8_leda",
+   "kind": "dialogue",
+   "refs": [
+    "leda"
+   ],
+   "prompt": "Close shot of The tiniest soft pink-lilac baby dragon with stubby wings in dusk light, bouncing once with both paws up in a bright little cheer, the whole idea landing on her first; warm shadows around her."
+  },
+  {
+   "name": "e8_s8_rath_look",
+   "kind": "story",
+   "refs": [
+    "kuku"
+   ],
+   "prompt": "The small round moss-green baby dragon with the cream belly stopped at the bottom of the path in blue dusk, looking at the family cart standing quiet in the courtyard — seeing it differently than he ever has, one small paw resting on its wheel. The lantern is lit behind him."
+  },
+  {
+   "name": "e8_s9_ridge",
+   "kind": "story",
+   "menace": true,
+   "refs": [],
+   "prompt": "Far distant view of the mountain ridge at last light, deep violet sky: one small dark silhouette of a kite wheels once above the ridge line and is gone behind it. Tiny in an enormous frame. Quiet, unresolved, a promise of return."
+  },
+  {
+   "name": "e8_s9_kalu",
+   "kind": "story",
+   "refs": [
+    "kalu",
+    "tansen"
+   ],
+   "prompt": "In the dusk courtyard: the scruffy black paper puppy stands stiff-legged with his head up, growling low at the darkening sky, while The small bright green parrot with a red beak and pale cream neck ring sits on the wall above him with his beak just parted; the lantern glows warm behind them and the ridge is a dark line beyond. The last image of the episode."
+  },
+  {
+   "name": "wp_cheel",
+   "kind": "story",
+   "refs": [
+    "cheel"
+   ],
+   "prompt": "A single great dark cut-paper kite with umber and charcoal feathers, hooked golden beak and a crest of swept feathers, seen clearly in full profile soaring against a plain pale sky — unmistakably a big bird of prey, simple and legible, no other elements."
+  },
+  {
+   "name": "wp_chaal",
+   "kind": "story",
+   "refs": [],
+   "prompt": "A trail of small shiny objects — a spoon, a bright button, a scrap of star-paper — laid in a deliberate glinting line up a sunlit paper path, leading the eye upward toward a distant crag: a trap made of temptation, no creatures in frame."
+  },
+  {
+   "name": "wp_chakkar",
+   "kind": "story",
+   "refs": [
+    "cheel"
+   ],
+   "prompt": "Looking straight up into a pale sky at a single great dark kite wheeling in a wide circle, her circular flight path drawn as a faint spiral of motion in the air — the idea of going round and round, simple and clear."
+  },
+  {
+   "name": "wp_chup",
+   "kind": "story",
+   "refs": [
+    "leda"
+   ],
+   "prompt": "A very small pink-lilac baby dragon with one stubby paw pressed flat over her own mouth, eyes wide, sitting perfectly still and silent on paper flagstones — the picture of hush, warm and simple."
+  },
+  {
+   "name": "wp_chand",
+   "kind": "story",
+   "refs": [],
+   "prompt": "A large bright cut-paper crescent moon high in a deep indigo night sky over the soft silhouette of layered valley hills, a few paper stars scattered around it — simple, radiant, unmistakable."
+  },
+  {
+   "name": "wp_chammach",
+   "kind": "story",
+   "refs": [],
+   "prompt": "A single wooden spoon resting on a warm paper tabletop beside a simple ceramic bowl in soft daylight — plain, clear and unmistakably a spoon, no other objects."
+  },
+  {
+   "name": "e8_d6_cheel",
+   "kind": "dialogue",
+   "menace": true,
+   "refs": [
+    "cheel"
+   ],
+   "prompt": "Tight close shot of the great dark cut-paper kite hanging almost motionless high above a crag at the top of her circle, wings held wide and still, head angled straight down at the camera, her half-lidded amber eyes narrowed with quiet decision — the instant before a dive, all patience spent. Pale sky, nothing else in frame."
+  },
+  {
+   "name": "e8_s2_climb",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "furia",
+    "castor",
+    "leda",
+    "vesper"
+   ],
+   "prompt": "A steep rocky paper path near a mountain top, seen from below and behind: five small papercraft dragons — the small round moss-green baby dragon, the bright pink-red dragon girl, the very tiny yellow toddler dragon, the tiniest pink-lilac baby dragon and the soft light-blue dragon boy — climbing upward in single file away from the camera, spread out along the path, the smallest being helped up a ledge and the light-blue one last and glancing back. Hard afternoon light, dry grass at the path edges, the enormous layered paper valley falling away far below. Each dragon appears exactly once."
+  },
+  {
+   "name": "e8_s2_running",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "furia",
+    "castor",
+    "leda"
+   ],
+   "prompt": "On a sunlit goat-path climbing a paper mountainside, FOUR small papercraft dragons are caught mid-run coming toward the camera, strung out along the path in single file: the bright pink-red dragon girl leading in front, then the small round moss-green baby dragon, then the very tiny yellow toddler dragon, and the tiniest pink-lilac baby dragon last. All four are running — legs mid-stride, small wings lifted, tails out for balance, eyes on a shiny paper spoon glinting on the path ahead of them. Bright morning light, dry grass along the path edges, layered paper hills and the valley falling away behind. Each of the four dragons appears EXACTLY ONCE; there are exactly four creatures in the frame and no others."
+  },
+  {
+   "name": "e8_s3a_gap",
+   "kind": "story",
+   "menace": true,
+   "refs": [
+    "kuku",
+    "furia",
+    "castor",
+    "leda",
+    "vesper"
+   ],
+   "prompt": "On the high rocky path: five small papercraft dragons crowd at the edge of a clean-cut gap in the mountain path, leaning carefully to peer down — far below, tiny on the rocks, lies a broken wooden plank. The moss-green one has a paw out holding the tiniest pink-lilac one back from the edge. Hard afternoon light on their backs, the drop falling away in layered paper rock. Each dragon appears exactly once — five creatures, no more."
+  },
+  {
+   "name": "e8_s3a_scream",
+   "kind": "story",
+   "refs": [
+    "kuku",
+    "furia",
+    "castor",
+    "leda",
+    "vesper"
+   ],
+   "prompt": "On the high crag, five small papercraft dragons stand in a tight line facing out over the enormous empty valley, all screaming together — heads thrown back, mouths wide, paws cupped around snouts — calling for help into a vast indifferent sky. The valley floor lies impossibly far below. Their smallness against the emptiness is the whole image. Each dragon appears exactly once."
+  },
+  {
+   "name": "e8_s5_delivery",
+   "kind": "story",
+   "refs": [
+    "dadi",
+    "tansen"
+   ],
+   "prompt": "In the warm courtyard: the elderly grey dragon grandmother with reading glasses and knitted shawl bends low over a bench where the small bright green parrot stands, wings still half-spread from a hard landing, beak open mid-cry — and her face, inches from him, is going from puzzlement to alarm. Late golden light, a dropped ladle on the flagstones beside her. Two creatures only."
+  },
+  {
+   "name": "e8_s6_miss",
+   "kind": "story",
+   "menace": true,
+   "refs": [
+    "dadi",
+    "cheel"
+   ],
+   "prompt": "On the crag, mid-fight: the elderly grey dragon grandmother has swung her long scaled tail through a huge arc — dust bursting along its path — but the great dark kite has pulled up just beyond its reach, wings beating hard, claws tucked, banking away untouched. The miss is visible in the geometry: the tail fully extended, the bird a wing-length beyond it. The children are tiny huddled shapes at the frame edge. Real effort and real evasion, no contact."
+  },
+  {
+   "name": "e8_d5_leda",
+   "kind": "dialogue",
+   "refs": [
+    "leda"
+   ],
+   "prompt": "Medium shot on the high rocky path in hard daylight: the smallest pink-lilac papercraft dragon stands braced behind a boulder, one paw thrown forward in a go-now signal, mouth open mid-shout, eyes wide and urgent. Rock and open sky behind her. One creature only."
+  },
+  {
+   "name": "e8_d6_kuku",
+   "kind": "dialogue",
+   "refs": [
+    "kuku"
+   ],
+   "prompt": "Medium shot on the crag in hard daylight: the small moss-green papercraft dragon with round amber eyes stands pressed against a rock, pointing sharply upward and behind with one paw, mouth open mid-warning shout, body twisted between hiding and pointing. Rock face and open sky behind him. One creature only."
+  }
+ ],
+ "clips": [
+  {
+   "name": "c8_cheel_circle",
+   "menace": true,
+   "refs": [],
+   "prompt": "Animate this exact frame. The great bird already in frame soars in one slow unhurried circle, banking gradually so one wing dips and the other rises, wings held rigid with only the primary feathers flexing in the air. She drifts steadily toward the far distance, growing smaller. Cloud and haze move slowly behind her. Real soaring physics: she rides the air, she does not flap. The camera does not move: locked-off tripod, fixed framing, no pan, no tilt, no zoom, no push. Single continuous take, no cuts. Every character already visible in the first frame stays the same character throughout — no new creatures enter, none duplicate, none change size. Layered cut-paper materials move like paper: light, slightly stiff, with soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame.",
+   "startFrom": "e8_s0_boon"
+  },
+  {
+   "name": "c8_cheel_land",
+   "menace": true,
+   "refs": [],
+   "prompt": "Animate this exact frame. The great bird already in frame settles: her wings, held wide, sweep down and fold inward one after the other with heavy deliberate weight, her body sinking slightly as her talons take the load and grip the rim. At 0:03 she tilts her head down toward the camera and holds the look, calm and unhurried. One loose feather drifts down past the lens. Real mass and inertia, no snapping poses. The camera does not move: locked-off tripod, fixed framing, no pan, no tilt, no zoom, no push. Single continuous take, no cuts. Every character already visible in the first frame stays the same character throughout — no new creatures enter, none duplicate, none change size. Layered cut-paper materials move like paper: light, slightly stiff, with soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame.",
+   "startFrom": "e8_d3_cheel"
+  },
+  {
+   "name": "c8_tansen_dash",
+   "refs": [],
+   "prompt": "Animate this exact frame. The small green parrot already in frame flies away from the camera out over the open valley, wings beating fast and steadily, tail streaming, dropping gradually as he goes and shrinking into the distance until he is a small bright speck at 0:05. Real flight physics: each wingbeat produces forward motion, body rises and falls slightly with the beat, no gliding teleportation. The camera does not move: locked-off tripod, fixed framing, no pan, no tilt, no zoom, no push. Single continuous take, no cuts. Every character already visible in the first frame stays the same character throughout — no new creatures enter, none duplicate, none change size. Layered cut-paper materials move like paper: light, slightly stiff, with soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame.",
+   "startFrom": "e8_s5_tansen_launch"
+  },
+  {
+   "name": "c8_dadi_tail",
+   "menace": true,
+   "refs": [],
+   "prompt": "Animate this exact frame. 0:00–0:01 the grandmother dragon already in frame stands completely still, braced. 0:01–0:02 she swings her long tail through one enormous horizontal arc across the frame; dust and dark feathers burst outward along its path. 0:02–0:04 the tail follows through and settles, her shawl swinging with the momentum and falling still, her body breathing hard but composed. 0:04–0:05 feathers drift down through the air. Real mass and inertia: the tail accelerates, strikes, decelerates. Nothing she strikes is ever visible in frame. The camera does not move: locked-off tripod, fixed framing, no pan, no tilt, no zoom, no push. Single continuous take, no cuts. Every character already visible in the first frame stays the same character throughout — no new creatures enter, none duplicate, none change size. Layered cut-paper materials move like paper: light, slightly stiff, with soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame.",
+   "startFrom": "e8_s6_tail"
+  },
+  {
+   "name": "c8_shadow_pass",
+   "menace": true,
+   "refs": [],
+   "prompt": "Animate this exact frame. 0:00–0:01 everything is still in bright sun. 0:01–0:03 a large hard-edged wing-shaped shadow slides steadily across the flagstones from screen-left to screen-right, passing over the seated dragons one after another and darkening each in turn as it crosses. 0:03–0:04 the shadow climbs the back wall and slips off the right edge of frame; the two small birds on the wall startle and flap upward. 0:04–0:05 full golden light returns to the courtyard and the smallest dragon tilts her head back to look straight up. The shadow is the only large moving element. The bird casting it is never visible. The camera does not move: locked-off tripod, fixed framing, no pan, no tilt, no zoom, no push. Single continuous take, no cuts. Every character already visible in the first frame stays the same character throughout — no new creatures enter, none duplicate, none change size. Layered cut-paper materials move like paper: light, slightly stiff, with soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame.",
+   "startFrom": "e8_s1_shadow"
+  },
+  {
+   "name": "c8_trail_follow",
+   "refs": [],
+   "prompt": "Animate this exact frame. The dragons already in frame run forward along the path toward the camera, stopping briefly to dip their heads at a glinting object on the ground, then hurrying on again, tails and small wings bobbing with each step. Real running: knee lift, ground contact, weight transfer, opposing arm swing, no floating. The nearest one reaches the foreground and passes the left edge of frame at 0:04. Dry grass at the path edge stirs in a light breeze. The camera does not move: locked-off tripod, fixed framing, no pan, no tilt, no zoom, no push. Single continuous take, no cuts. Every character already visible in the first frame stays the same character throughout — no new creatures enter, none duplicate, none change size. Layered cut-paper materials move like paper: light, slightly stiff, with soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame.",
+   "startFrom": "e8_s2_running"
+  },
+  {
+   "name": "c8_climb",
+   "refs": [],
+   "prompt": "Animate this exact frame. The dragons already in frame climb steadily upward along the rocky path away from the camera, scrambling over the paper boulders one after another, each getting slightly smaller as they gain height. Effortful climbing: paws reaching, weight shifting, a small pause and a boost at the ledge. Dry grass at the path edge moves in the wind; a few loose paper pebbles skitter down behind them. The camera does not move: locked-off tripod, fixed framing, no pan, no tilt, no zoom, no push. Single continuous take, no cuts. Every character already visible in the first frame stays the same character throughout — no new creatures enter, none duplicate, none change size. Layered cut-paper materials move like paper: light, slightly stiff, with soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame.",
+   "startFrom": "e8_s2_climb"
+  },
+  {
+   "name": "c8_nest_reveal",
+   "menace": true,
+   "refs": [],
+   "prompt": "Animate this exact frame. Wind moves through the woven twigs of the nest, stirring the loose ends. At 0:02 one large dark feather on the rim lifts free, turns over slowly once in the air, drifts sideways, and settles back onto the rim at 0:04. The shiny objects on the rim catch small moving glints as the light shifts. Nothing else moves. No creatures enter the frame at any point. The camera does not move: locked-off tripod, fixed framing, no pan, no tilt, no zoom, no push. Single continuous take, no cuts. Every character already visible in the first frame stays the same character throughout — no new creatures enter, none duplicate, none change size. Layered cut-paper materials move like paper: light, slightly stiff, with soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame.",
+   "startFrom": "e8_s2_nest"
+  },
+  {
+   "name": "c8_plank_falls",
+   "menace": true,
+   "refs": [],
+   "prompt": "Animate this exact frame. 0:00–0:01 the plank is still. 0:01 it shifts, scrapes sideways off the stone lip, tips past balance and falls, tumbling end over end down the cliff face and shrinking with distance until it lands among the rocks far below at 0:04. The gap is left clean and empty. Real gravity and acceleration, real tumbling rotation, no floating. Nobody pushes it and no creature is ever visible. The camera does not move: locked-off tripod, fixed framing, no pan, no tilt, no zoom, no push. Single continuous take, no cuts. Every character already visible in the first frame stays the same character throughout — no new creatures enter, none duplicate, none change size. Layered cut-paper materials move like paper: light, slightly stiff, with soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame.",
+   "startFrom": "e8_s2_plank"
+  },
+  {
+   "name": "c8_boon_settle",
+   "refs": [],
+   "startFrom": "e8_s0_boon",
+   "prompt": "Animate this exact frame. Ribbons of golden light drift down through the air and settle over the outstretched wings, sinking in and fading as they land, while small motes of light rise slowly around the bird. Her wings hold their spread position and lower only very slightly by the end. Nothing else moves. The camera does not move: locked-off tripod, fixed framing, no pan, tilt, zoom or push. Single continuous take, no cuts. Every character visible in the first frame stays the same character throughout — none duplicate, none change size, no new creature enters. Layered cut-paper materials move like paper: light, slightly stiff, soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame."
+  },
+  {
+   "name": "c8_lift_off",
+   "refs": [],
+   "startFrom": "e8_s3_cornered",
+   "prompt": "Animate this exact frame. The great dark wing at the frame's edge sweeps upward and out of frame as the bird takes off, and the huge shadow lying across the rocks slides away and shrinks as she climbs, leaving the small dragons in returning sunlight. The small dragons flinch and duck as the downdraft hits them, then look up after her. Paper dust lifts and settles. The camera does not move: locked-off tripod, fixed framing, no pan, tilt, zoom or push. Single continuous take, no cuts. Every character visible in the first frame stays the same character throughout — none duplicate, none change size, no new creature enters. Layered cut-paper materials move like paper: light, slightly stiff, soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame."
+  },
+  {
+   "name": "c8_letters_scatter",
+   "refs": [],
+   "startFrom": "e8_s4_scatter",
+   "prompt": "Animate this exact frame. The glowing golden motes of the broken bridge fly apart and outward, tumbling through the air and dimming one by one until the last of them winks out, while the small green dragon lowers the paw shielding his face and his shoulders drop. Dust drifts across on the wind. Nothing re-forms. The camera does not move: locked-off tripod, fixed framing, no pan, tilt, zoom or push. Single continuous take, no cuts. Every character visible in the first frame stays the same character throughout — none duplicate, none change size, no new creature enters. Layered cut-paper materials move like paper: light, slightly stiff, soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame."
+  },
+  {
+   "name": "c8_tansen_launch",
+   "refs": [],
+   "startFrom": "e8_s5_tansen_launch",
+   "prompt": "Animate this exact frame. The small green parrot beats his wings hard three times and pulls away from the rock out into the open air, rising slightly then dropping into a fast glide toward the far valley, shrinking with distance. Real flight physics: each wingbeat drives him forward, his body rises and falls slightly with the beat. The camera does not move: locked-off tripod, fixed framing, no pan, tilt, zoom or push. Single continuous take, no cuts. Every character visible in the first frame stays the same character throughout — none duplicate, none change size, no new creature enters. Layered cut-paper materials move like paper: light, slightly stiff, soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame."
+  },
+  {
+   "name": "c8_kalu_dadi_climb",
+   "refs": [],
+   "startFrom": "e8_s5_kalu_dadi",
+   "prompt": "Animate this exact frame. The small black puppy runs ahead up the path with quick scrabbling strides, ears bouncing, while the elderly grey dragon climbs steadily behind him — walking stick planting and lifting, shoulders working, shawl swinging with each step. Both move steadily away from the camera up the path. Real weight and effort, no floating. Dry grass stirs beside the path. The camera does not move: locked-off tripod, fixed framing, no pan, tilt, zoom or push. Single continuous take, no cuts. Every character visible in the first frame stays the same character throughout — none duplicate, none change size, no new creature enters. Layered cut-paper materials move like paper: light, slightly stiff, soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame."
+  },
+  {
+   "name": "c8_stoop",
+   "refs": [],
+   "startFrom": "e8_s6_stoop",
+   "prompt": "Animate this exact frame. The great bird plunges straight down toward the camera in a silent dive, growing rapidly larger as she falls, wings swept back tight against her body and talons opening as she comes. She fills more and more of the frame until the shot ends. Real accelerating fall, no floating, no hovering. Nothing else is in the frame. The camera does not move: locked-off tripod, fixed framing, no pan, tilt, zoom or push. Single continuous take, no cuts. Every character visible in the first frame stays the same character throughout — none duplicate, none change size, no new creature enters. Layered cut-paper materials move like paper: light, slightly stiff, soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame."
+  },
+  {
+   "name": "c8_tumble_away",
+   "refs": [],
+   "startFrom": "e8_s6_tumble",
+   "prompt": "Animate this exact frame. The great bird tumbles away across the open sky, rolling out of control and shrinking with distance, feathers scattering loose behind her and drifting in her wake. She rights herself slightly at the very end and beats away toward the far ridge. Loose feathers drift down through the frame throughout. Real tumbling rotation and inertia. The camera does not move: locked-off tripod, fixed framing, no pan, tilt, zoom or push. Single continuous take, no cuts. Every character visible in the first frame stays the same character throughout — none duplicate, none change size, no new creature enters. Layered cut-paper materials move like paper: light, slightly stiff, soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame."
+  },
+  {
+   "name": "c8_walk_down",
+   "refs": [],
+   "startFrom": "e8_s8_walk",
+   "prompt": "Animate this exact frame. The whole group walks steadily away from the camera down the winding path in single file, the grandmother leading with her stick planting and lifting, the small dragons following in a loose line, the puppy trotting alongside and weaving between them. Their long shadows stretch and shift as they go. Real walking: heel contact, weight transfer, small bodies bobbing. The camera does not move: locked-off tripod, fixed framing, no pan, tilt, zoom or push. Single continuous take, no cuts. Every character visible in the first frame stays the same character throughout — none duplicate, none change size, no new creature enters. Layered cut-paper materials move like paper: light, slightly stiff, soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame."
+  },
+  {
+   "name": "c8_ridge_button",
+   "refs": [],
+   "startFrom": "e8_s9_ridge",
+   "prompt": "Animate this exact frame. The small dark silhouette above the ridge wheels slowly through one wide circle, banking so one wing dips, then straightens and slides down behind the ridge line and out of sight, leaving the sky empty. Thin cloud drifts very slowly. Nothing else moves. The sky stays empty after she is gone. The camera does not move: locked-off tripod, fixed framing, no pan, tilt, zoom or push. Single continuous take, no cuts. Every character visible in the first frame stays the same character throughout — none duplicate, none change size, no new creature enters. Layered cut-paper materials move like paper: light, slightly stiff, soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame."
+  },
+  {
+   "name": "c8_kalu_growl",
+   "refs": [],
+   "startFrom": "e8_s9_kalu",
+   "prompt": "Animate this exact frame. The small black puppy stiffens, raises his head higher toward the sky and holds a low steady growl, his body tense and still, while the green parrot on the wall above shifts his weight once and turns his head to follow the same direction. The lantern flame flickers gently. Nothing else moves. The camera does not move: locked-off tripod, fixed framing, no pan, tilt, zoom or push. Single continuous take, no cuts. Every character visible in the first frame stays the same character throughout — none duplicate, none change size, no new creature enters. Layered cut-paper materials move like paper: light, slightly stiff, soft settling. Natural weight and gravity, no floating, no rubbery motion. Lighting direction and colour stay exactly as in the first frame."
+  }
+ ]
+}

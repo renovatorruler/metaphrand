@@ -37,6 +37,35 @@ story object and persists; it does not evaporate when the scene ends. Each episo
 new sound or letter relationship. The machine is: **a story need makes Kuku forge the letter, its
 exact shape changes the action, and the valley and child at home learn it by watching it work.**
 
+### Light and dark power — binding visual grammar (author decision, 2026-08-25)
+
+**SURFACE — show it; do not explain it.** A dragon's fire reveals the power moving through it by
+the smoke it leaves: **light power gives pale or white smoke; dark power gives black smoke.** The
+audience should learn this contrast by seeing it recur, not through a character defining light and
+dark power in dialogue. Flame color may remain character-specific; the smoke is the dependable
+clue.
+
+- The ash-black attacking dragons in Episode 9's future dream are the first and, so far, only
+  appearance of dark power. They have not entered the present-day story, and the children do not
+  yet know who they are or possess language for explaining them.
+- Fyuria's controlled future fire belongs to the light side of this grammar. Kuku's golden
+  letter-breath is also light-aligned, but this does not give every good dragon Kuku's forging
+  ability.
+- **Cheel has no access to dark power.** Her danger comes from the Rishi's exact boon, superb
+  flight, physical action, theft, and clever schemes. Never give her black-smoke fire, a dark aura,
+  or a new power borrowed from the unrevealed dragons. Mitasur likewise has no dark power.
+- Scale, plumage, fur, or body color never determines moral alignment. Kalu is black; some good
+  dragons may be dark-colored. The on-screen signal is the smoke produced while power is being
+  used, not the character's appearance.
+- A mistake, anger, jealousy, or disobedience does not automatically turn a character dark. Dark
+  power is a distinct story state, not shorthand for a child behaving badly.
+
+**SUBMERGED — open future arc, not yet assigned.** A character may eventually fall into dark power
+and later return to light. If that arc is approved, the smoke can let children perceive the change
+before anyone names it, and its clearing can make the return legible. No current character is
+assigned this turn, no present episode should seed a culprit prematurely, and using dark power must
+never mean a person is permanently beyond return.
+
 ## Part III — The child's journey (the real curriculum)
 
 Under the fun, a real spine for the viewer: recognize the shape → make the sound → hear it starting familiar words → say it back → find it in the hero's own name. "Most-useful-first" letter order (`LETTER_MAP.md`) means the child is building *real, high-frequency words* (family, body, animals, food) from episode one, not abstract glyphs.

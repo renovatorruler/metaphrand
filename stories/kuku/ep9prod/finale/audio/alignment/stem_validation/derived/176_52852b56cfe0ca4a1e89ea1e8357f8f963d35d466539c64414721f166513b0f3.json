@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 176,
+ "chunk_id": "chunk_015",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_6202a806f66ae4fc6d7b4807c76c914b23ad1634e794af3696a94db015ba5f77.mp3",
+ "source_sha256": "d3cf973de5fbfb55a9a674ec39adccfa05cb82c765800796f8de857f148b426b",
+ "source_start": 19.459952299829645,
+ "source_end": 21.20152640545145,
+ "expected_text": "मैं आगे जाकर वापस आती हूँ।",
+ "expected_text_sha256": "2fba9a6deee586190eb2da3dcbced47c52a752c9a6a761bc8b68a3fa673f4122",
+ "ctc_evidence_identity": "4944d7c086f564b932e54ffdb6303265f7f50154410a5fdba48de71548cff0d8",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/176_3174e23015d783232322a2cff93a7e3fcf785d6b108259cd7c9e113afcbab9a1.whisper.json",
+ "raw_whisper_sha256": "5cf55dffe52c627f7ec1df08565ae71db55e9b1b6cccd1433c752cc08e0f76c4",
+ "quality": {
+  "expected_words": 6,
+  "observed_words": 6,
+  "matched_words": 6,
+  "coverage": 1,
+  "observed_precision": 1,
+  "mean_similarity": 1,
+  "sequence_score": 1,
+  "average_token_probability": 0.8966213333333334,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 1
+ }
+}

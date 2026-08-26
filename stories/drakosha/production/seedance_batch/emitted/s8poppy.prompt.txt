@@ -1,6 +1,6 @@
 ACTIVE REFERENCES
-@FROSYA — её зовут Фрося — the ELDEST of the family's FOUR children: orange flower in her hair, safety pin on her patchwork dress. 100% matches the reference.
-@MAMA — её зовут Мама — the mother: blonde braid, red-and-gold striped kerchief, cream apron over a dark red skirt. 100% matches the reference.
+@FROSYA: a girl with long dark hair, an orange flower in her hair on one side, freckles and a gap-toothed grin, wearing a floral patchwork dress with a large safety pin at the front. 100% matches the reference.
+@MAMA: a woman with a long blonde braid, a red-and-gold striped kerchief, a cream apron over a dark red skirt, and ordinary thin eyebrows. 100% matches the reference.
 @POPPY: the poppy — a single cut scarlet poppy on a long green stem with one serrated leaf, low-poly faceted petals around a dark seed centre. 100% matches the reference.
 
 SCALE

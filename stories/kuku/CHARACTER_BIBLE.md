@@ -111,6 +111,8 @@ teaches one Devanagari letter, Sesame-Street-meets-Miniforce style.*
   of controlled flight and fire. The audience discovers her fire; Fyuria does not. Before that
   future battle, a later story must establish how she earns and masters fire. The Episode 9 `ब`
   awakening does not silently unlock it in the waking story.
+- **Future fire signature (SURFACE):** her mature red-gold flame leaves pale or white smoke. The
+  smoke marks light-aligned power without changing her established crimson visual identity.
 - **Physical:** a **bright pink-red** cut-paper dragon girl, **a head taller** than a baby dragon;
   confident sparky expression, **long eyelashes**, a small **crest of paper spikes**, cream belly,
   medium paper wings, an energetic hands-on-hips stance.
@@ -283,6 +285,10 @@ not rank.
   three-clause boon is preserved in `AKSHAR_GURUKUL_CANON.md`; never reduce it to sky-only immunity
   or assume a flyer can land and defeat her. She covets Kuku's letters and advances through schemes
   and wording, not arbitrary new powers.
+- **Cheel's power boundary (SURFACE):** Cheel does **not** possess dark power. She cannot use the
+  black-smoke fire seen in Episode 9's future dream and must never acquire a generic dark aura as
+  visual shorthand for villainy. Her threat remains the boon, flight, strength, theft, patience,
+  and cunning. Dark feathers, night lighting, or an ominous silhouette do not change this rule.
 
 ---
 
@@ -299,6 +305,14 @@ not rank.
   movement, familiar powers, and practiced team shorthand. These are not the Episode 9 children
   merely enlarged, and not a separate transformation tier. If the proposed bridge scene is approved,
   the later payoff episode must reproduce that approved event before continuing beyond the dream.
+- **Light/dark visual rule (SURFACE):** light-aligned dragon fire leaves pale or white smoke; dark
+  power leaves black smoke. The smoke—not scales, species, or costume—is the audience's reliable
+  clue. The unrevealed attacking dragons in the future dream are the only dark-power users shown so
+  far. Characters should not explain this grammar before the story has earned that knowledge.
+- **Possible fall and return (SUBMERGED, UNASSIGNED):** one character may eventually turn toward
+  dark power and later return to light. No existing character owns this arc yet. A bad choice or
+  strong feeling alone is not the turn; if approved later, behavior and changing smoke reveal the
+  state while its cause stays beneath expository dialogue.
 - **Names & spellings (Devanagari canon):** कुकु · **फ्यूरिया** · वैस्पर · दादी माया · पापा · कालू ·
   कैस्टर · लेडा · तानसेन · मिटासुर · रीछ · भोलू · मोरनी · अन्ना · माशा. *(चीकू is retired — never use it.)*
 - **Never scary. Never a human-looking Dadi. Never a mean/gloating kid. Tics are seasoning.**

@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-08-19T02:42:22.282701Z",
+  "display_name": "GPT Image 2",
+  "id": "8ed3e5ec-82cd-4ff3-8da3-c989284556c2",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260819_024222_8ed3e5ec-82cd-4ff3-8da3-c989284556c2_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "598a5e41-1ba5-458d-b05b-acc2a24c45be",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/598a5e41-1ba5-458d-b05b-acc2a24c45be_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "ea34460f-922a-40ce-9676-8cdf3b53e00d",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/ea34460f-922a-40ce-9676-8cdf3b53e00d_resize.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Close-up on the head and shoulders of the GOLDEN-YELLOW transformed trainee dragon Castor, speaking mid-sentence, mouth open, cheerful determined expression. This is the LARGE TRANSFORMED trainee form: grown-up dragon proportions, longer snout, sharper features, adult bearing, powerful wings with visible paper thickness, wearing exactly ONE gold bracelet. NOT a baby dragon, not chubby, not a child's body — an older youthful dragon. Shown airborne against layered paper sky and clouds. 3D papercraft style matching the reference: layered cut-paper with real depth, matte construction-paper textures, visible paper edges and folds, warm storybook palette, soft studio lighting, gentle depth of field. NO flat 2D, no sticker look, no glossy plastic 3D, no photorealism, no text.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260819_024222_8ed3e5ec-82cd-4ff3-8da3-c989284556c2.png",
+  "status": "completed"
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "project": "Kuku EP9 Future Cold Open",
+  "runtime_seconds": 120,
+  "frame_rate": 24,
+  "frame_count": 2880,
+  "render": {
+    "service": "Higgsfield Cinema Studio 4.0",
+    "resolution": "1280x720",
+    "aspect_ratio": "16:9",
+    "native_audio": false,
+    "element_workflow": true
+  },
+  "continuity": {
+    "city": "screen-left",
+    "river": "center",
+    "safe_field": "screen-right",
+    "civilian_direction": "left-to-right",
+    "future_cast": "fully grown trained dragons from first frame",
+    "wake_transition": "hard editorial match cut; never a morph"
+  },
+  "shots": [
+    {"id":"co01","file":"co01_attackers_descend.mp4","seconds":7,"frames":168,"elements":["River-City-Night","Ash-Crack-Raiders"]},
+    {"id":"co02","file":"co02_last_bridge_saboteur.mp4","seconds":6,"frames":144,"elements":["River-City-Night","Ash-Crack-Raiders"]},
+    {"id":"co03","file":"co03_fyuria_reveal.mp4","seconds":7,"frames":168,"elements":["River-City-Night","Ash-Crack-Raiders","Future-Fyuria"]},
+    {"id":"co04","file":"co04_fyuria_catches_tower.mp4","seconds":7,"frames":168,"elements":["River-City-Night","Future-Fyuria"]},
+    {"id":"co05","file":"co05_fyuria_fire_split.mp4","seconds":7,"frames":168,"elements":["River-City-Night","Ash-Crack-Raiders","Future-Fyuria"]},
+    {"id":"co06","file":"co06_commander_bait.mp4","seconds":8,"frames":192,"elements":["River-City-Night","Ash-Crack-Raiders","Future-Fyuria"]},
+    {"id":"co07","file":"co07_pin_pulled.mp4","seconds":8,"frames":192,"elements":["River-City-Night","Ash-Crack-Raiders","Future-Fyuria"]},
+    {"id":"co08","file":"co08_fyuria_holds_bridge.mp4","seconds":6,"frames":144,"elements":["River-City-Night","Ash-Crack-Raiders","Future-Fyuria"]},
+    {"id":"co09","file":"co09_vesper_fire_lure.mp4","seconds":8,"frames":192,"elements":["River-City-Night","Ash-Crack-Raiders","Future-Fyuria","Future-Vesper"]},
+    {"id":"co10","file":"co10_vesper_third_current.mp4","seconds":7,"frames":168,"elements":["River-City-Night","Ash-Crack-Raiders","Future-Fyuria","Future-Vesper"]},
+    {"id":"co11","file":"co11_leda_castor_arrive.mp4","seconds":7,"frames":168,"elements":["River-City-Night","Future-Leda","Future-Castor"]},
+    {"id":"co12","file":"co12_castor_inside_crack.mp4","seconds":9,"frames":216,"elements":["River-City-Night","Future-Leda","Future-Castor"]},
+    {"id":"co13","file":"co13_bridge_repaired.mp4","seconds":6,"frames":144,"elements":["River-City-Night","Future-Fyuria","Future-Leda","Future-Castor"]},
+    {"id":"co14","file":"co14_kuku_glyph_shield.mp4","seconds":7,"frames":168,"elements":["River-City-Night","Ash-Crack-Raiders","Future-Fyuria","Future-Kuku"],"post":"Composite exact glyphs/fx_ka.png"},
+    {"id":"co15","file":"co15_last_family_crosses.mp4","seconds":6,"frames":144,"elements":["River-City-Night","Ash-Crack-Raiders","Future-Fyuria","Future-Kuku"]},
+    {"id":"co16","file":"co16_five_dragon_formation.mp4","seconds":7,"frames":168,"elements":["River-City-Night","Ash-Crack-Raiders","Future-Fyuria","Future-Vesper","Future-Leda","Future-Castor","Future-Kuku"]},
+    {"id":"co17","file":"co17_child_fyuria_wakes.mp4","seconds":7,"frames":168,"elements":["Grandmother-Bedroom-Night","Grandmother","Child-Fyuria","Child-Vesper"]}
+  ]
+}

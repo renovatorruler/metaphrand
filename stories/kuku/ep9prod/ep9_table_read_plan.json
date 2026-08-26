@@ -1,0 +1,3067 @@
+{
+ "screenplay": "../stories/kuku/2026-08-11_EP9_ba_bada_SPEC_SCREENPLAY.md",
+ "model_id": "eleven_v3",
+ "max_chunk_characters": 1800,
+ "cast": {
+  "SUTRADHAR": "OIIrFPBzLAigdcttMGWZ",
+  "CHEEL": "PId0lEbL3SOYkQZSraml",
+  "RISHI": "ocf4J1Vk0yOOFNBy3kNq",
+  "DADI": "nfMYisZqs1GOjTFllho3",
+  "KUKU": "NbvR1eY6Q8ivACdEO8PV",
+  "FYURIA": "FFmp1h1BMl0iVHA0JxrI",
+  "VESPER": "subIZc6skATBQ1Rbqpi7",
+  "CASTOR": "4iqKdEXMW8NRF8USiS3Q",
+  "LEDA": "nUX4UWK0Tf1qh5zvFZWR"
+ },
+ "segments": [
+  {
+   "order": 1,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[announcing]",
+   "text": "दृश्य 0 — बाहर: चील का ऊँचा घोंसला — सुबह होने से पहले"
+  },
+  {
+   "order": 2,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[mysterious]",
+   "text": "कुकु के टूटे अक्षर-पुल के काले टुकड़े चील के घोंसले में पड़े हैं। उनमें कोई रोशनी नहीं बची है।"
+  },
+  {
+   "order": 3,
+   "scene": 0,
+   "dialogue_idx": 1,
+   "kind": "dialogue",
+   "speaker": "CHEEL",
+   "direction": "संतोष से",
+   "tag": "[satisfied]",
+   "text": "चमक बुझ गई। फिर भी ये टुकड़े मेरे रहेंगे।"
+  },
+  {
+   "order": 4,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[mysterious]",
+   "text": "चील टुकड़ों को अपने पंजे के नीचे समेटती है। उनके भीतर से एक बहुत धीमी सुनहरी आवाज़ उठती है।"
+  },
+  {
+   "order": 5,
+   "scene": 0,
+   "dialogue_idx": 2,
+   "kind": "dialogue",
+   "speaker": "CHEEL",
+   "direction": "चौंककर",
+   "tag": "[startled]",
+   "text": "यह रोशनी नहीं है। यह आवाज़ कहाँ जा रही है?"
+  },
+  {
+   "order": 6,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[mysterious]",
+   "text": "चील पंजा और कसती है, लेकिन आवाज़ उसके नीचे से निकल जाती है। वह बादलों की सबसे ऊँची परत के पार दौड़ती है।"
+  },
+  {
+   "order": 7,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[mysterious]",
+   "text": "बहुत दूर आसमान में एक पुराना गोल द्वार जागता है। उसके टूटे हिस्से की दरार और खुल जाती है।"
+  },
+  {
+   "order": 8,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[mysterious]",
+   "text": "एक सुनसान पहाड़ी विद्यालय में घंटी अपने आप बजती है। बंद पेटी के भीतर रखा सुनहरा घेरा हिलता है।"
+  },
+  {
+   "order": 9,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[mysterious]",
+   "text": "वही छोटे, पंखहीन पर्वत-ऋषि आँखें खोलते हैं।"
+  },
+  {
+   "order": 10,
+   "scene": 0,
+   "dialogue_idx": 3,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "चिंता से",
+   "tag": "[worried]",
+   "text": "साँस से बने किसी अक्षर की आवाज़ यहाँ पहुँच गई है।"
+  },
+  {
+   "order": 11,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[mysterious]",
+   "text": "गोल द्वार की दरार से भारी आवाज़ आती है।"
+  },
+  {
+   "order": 12,
+   "scene": 0,
+   "dialogue_idx": 4,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "जल्दी उठते हुए",
+   "tag": "[hurried]",
+   "text": "आसमान का पुराना द्वार टूट रहा है। मुझे अक्षर घाटी जाना होगा।"
+  },
+  {
+   "order": 13,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[mysterious]",
+   "text": "ऋषि अपनी छड़ी जमीन पर ठकठकाते हैं। बादलों की एक पतली राह खुलती है। वे उसी राह पर चल पड़ते हैं।"
+  },
+  {
+   "order": 14,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[mysterious]",
+   "text": "दूर से चील उस राह को अक्षर घाटी की ओर जाते देखती है।"
+  },
+  {
+   "order": 15,
+   "scene": 0,
+   "dialogue_idx": 5,
+   "kind": "dialogue",
+   "speaker": "CHEEL",
+   "direction": "घबराकर",
+   "tag": "[alarmed]",
+   "text": "मैंने किसे जगा दिया?"
+  },
+  {
+   "order": 16,
+   "scene": 1000,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[announcing]",
+   "text": "शीर्षक गीत।"
+  },
+  {
+   "order": 17,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[announcing]",
+   "text": "दृश्य 1 — बाहर: दादी का आँगन और पास का घास वाला मैदान — सुबह"
+  },
+  {
+   "order": 18,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "पाँचों बच्चे समतल जमीन पर पंखों का अभ्यास कर रहे हैं। कोई भी ऊँची जगह पर नहीं चढ़ता। दादी सीटी लेकर खड़ी हैं।"
+  },
+  {
+   "order": 19,
+   "scene": 1,
+   "dialogue_idx": 6,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "खेल की आवाज़ में",
+   "tag": "[playful]",
+   "text": "पंख खोलो, पाँच कदम दौड़ो और छोटी छलाँग लगाओ। मेरी सीटी पर सब रुक जाएँगे।"
+  },
+  {
+   "order": 20,
+   "scene": 1,
+   "dialogue_idx": 7,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "जोश से",
+   "tag": "[excited]",
+   "text": "हम चील के लौटने से पहले उड़ना सीखेंगे। इस बार हम सच में जमीन से ऊपर जाएँगे।"
+  },
+  {
+   "order": 21,
+   "scene": 1,
+   "dialogue_idx": 8,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "उत्साह से",
+   "tag": "[enthusiastically]",
+   "text": "पहले मैं! तुम सब मेरे पीछे आओ।"
+  },
+  {
+   "order": 22,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "फ्यूरिया दौड़ती है, छोटी छलाँग लगाती है और दोनों पैरों पर सुरक्षित उतरती है।"
+  },
+  {
+   "order": 23,
+   "scene": 1,
+   "dialogue_idx": 9,
+   "kind": "dialogue",
+   "speaker": "VESPER",
+   "direction": "ऊपर देखते हुए",
+   "tag": "[observant]",
+   "text": "हवा आज सीधी नहीं चल रही है। कोई उसे ऊपर खींच रहा है।"
+  },
+  {
+   "order": 24,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "दादी कैस्टर और लेडा के लिए किनारे एक चादर बिछाती हैं।"
+  },
+  {
+   "order": 25,
+   "scene": 1,
+   "dialogue_idx": 10,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "नरमी से",
+   "tag": "[gently]",
+   "text": "कैस्टर और लेडा, तुम चाहो तो यहाँ बैठकर देख सकते हो।"
+  },
+  {
+   "order": 26,
+   "scene": 1,
+   "dialogue_idx": 11,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "साफ़ आवाज़ में",
+   "tag": "[clear voice]",
+   "text": "मैं देखने नहीं आया हूँ। मैं भी अभ्यास करूँगा।"
+  },
+  {
+   "order": 27,
+   "scene": 1,
+   "dialogue_idx": 12,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "पक्की आवाज़ में",
+   "tag": "[firmly]",
+   "text": "मैं भी पंक्ति में हूँ।"
+  },
+  {
+   "order": 28,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "दोनों पंक्ति में खड़े हो जाते हैं। पास के घास वाले मैदान में एक बकरी का बच्चा ठोस जमीन पर खेल रहा है। कालू उसकी घंटी सूँघता है। बाड़ के उस पार एक नीचा बादल बह रहा है।"
+  },
+  {
+   "order": 29,
+   "scene": 1,
+   "dialogue_idx": 13,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "कालू से",
+   "tag": "[gently]",
+   "text": "कालू, बकरी के बच्चे को खेलने दो। तुम उसकी घंटी पहचान गए हो।"
+  },
+  {
+   "order": 30,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "कालू पूँछ हिलाकर एक छोटी भौंक देता है और बकरी से थोड़ा पीछे हट जाता है।"
+  },
+  {
+   "order": 31,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "कुकु तेज़ दौड़ता है, पंख खोलता है और छलाँग लगाता है। वह एक पल ऊपर उठता है, फिर घास पर धीरे से उतर जाता है।"
+  },
+  {
+   "order": 32,
+   "scene": 1,
+   "dialogue_idx": 14,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "निराश होकर",
+   "tag": "[disappointed]",
+   "text": "मेरे पंख फिर नीचे आ गए।"
+  },
+  {
+   "order": 33,
+   "scene": 1,
+   "dialogue_idx": 15,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "हौसला देते हुए",
+   "tag": "[encouraging]",
+   "text": "तुम सुरक्षित उतरे हो। अब धीरे-धीरे साँस लो।"
+  },
+  {
+   "order": 34,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "आँगन पर एक लंबी छाया पड़ती है। छाया पंखों की नहीं, ऋषि की छड़ी और बादल-राह की है।"
+  },
+  {
+   "order": 35,
+   "scene": 1,
+   "dialogue_idx": 16,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "ऊपर देखते हुए",
+   "tag": "[observant]",
+   "text": "कोई बादल पर चल रहा है।"
+  },
+  {
+   "order": 36,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "पंखहीन पर्वत-ऋषि बादल-राह से नीचे उतरते हैं। दादी की मुस्कान गायब हो जाती है।"
+  },
+  {
+   "order": 37,
+   "scene": 1,
+   "dialogue_idx": 17,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "पहचानकर, बिना मुस्कराए",
+   "tag": "[cold and serious]",
+   "text": "आप फिर आ गए।"
+  },
+  {
+   "order": 38,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[announcing]",
+   "text": "दृश्य 2 — बाहर: दादी का आँगन — लगातार"
+  },
+  {
+   "order": 39,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "बहुत ऊपर आसमान का टूटा द्वार दिखाई देता है। टूटे हिस्से की सुनहरी पकड़ खाली हवा पर बंद होने की कोशिश करती है, फिर खुल जाती है। द्वार एक बादल को अपनी ओर खींचता है। ऋषि की छड़ी भी उसी ओर झुकने लगती है।"
+  },
+  {
+   "order": 40,
+   "scene": 2,
+   "dialogue_idx": 18,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "सीधे कुकु से",
+   "tag": "[serious and clear]",
+   "text": "कुकु, मैं तुम्हें अक्षर गुरुकुल ले जाने आया हूँ।"
+  },
+  {
+   "order": 41,
+   "scene": 2,
+   "dialogue_idx": 19,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "हैरानी और खुशी से",
+   "tag": "[astonished and delighted]",
+   "text": "अक्षर गुरुकुल? क्या वहाँ मैं अपने पंखों से उड़ सकूँगा?"
+  },
+  {
+   "order": 42,
+   "scene": 2,
+   "dialogue_idx": 20,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "साफ़ आवाज़ में",
+   "tag": "[clear voice]",
+   "text": "कड़ा जागा, तो तुम बड़े होकर उड़ सकोगे।"
+  },
+  {
+   "order": 43,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "कुकु के चेहरे पर खुशी फैलती है। दादी उनके बीच आकर खड़ी हो जाती हैं।"
+  },
+  {
+   "order": 44,
+   "scene": 2,
+   "dialogue_idx": 21,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "पक्की आवाज़ में",
+   "tag": "[firmly]",
+   "text": "पहले चील की बात कीजिए। आपने उसे यही वर दिया था—«आकाश में मुझे कोई हरा न पाए। पंख वाला कोई मुझे पकड़ न पाए। जो उड़े — वो मुझसे कभी जीत न पाए।»"
+  },
+  {
+   "order": 45,
+   "scene": 2,
+   "dialogue_idx": 22,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "सिर झुकाकर",
+   "tag": "[subdued]",
+   "text": "चील ने गलत किया है। पर यह मुसीबत मेरे दिए वर से आई है। मैं सँभालूँगा।"
+  },
+  {
+   "order": 46,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "आसमान का द्वार जोर से कराहता है। ऋषि अपनी छड़ी आँगन में गाड़ देते हैं। सुनहरी रेखा छड़ी से निकलकर टूटे द्वार को पकड़ लेती है। उसकी खींच ऋषि के छोटे शरीर तक आ जाती है।"
+  },
+  {
+   "order": 47,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "छड़ी पर धीमी और बराबर लहर चलती है—धाम... धाम... धाम।"
+  },
+  {
+   "order": 48,
+   "scene": 2,
+   "dialogue_idx": 23,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "बच्चों को दिखाते हुए",
+   "tag": "[warm teaching voice]",
+   "text": "छड़ी की ताल देखो। पहले बिना बोझ के एक चक्कर लगाओ। फिर इसी ताल में अक्षर उठाकर द्वार में लगाओ।"
+  },
+  {
+   "order": 49,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "ऋषि अपनी पेटी खोलते हैं। उसमें एक ही खाली सुनहरा घेरा है।"
+  },
+  {
+   "order": 50,
+   "scene": 2,
+   "dialogue_idx": 24,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "कुकु से",
+   "tag": "[thoughtful]",
+   "text": "मुझे लगा था कि यह केवल तुम्हारा कड़ा बनेगा।"
+  },
+  {
+   "order": 51,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "कुकु हाथ बढ़ाता है। फिर वह पीछे खड़े फ्यूरिया, वैस्पर, कैस्टर और लेडा को देखता है।"
+  },
+  {
+   "order": 52,
+   "scene": 2,
+   "dialogue_idx": 25,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "धीरे से",
+   "tag": "[softly]",
+   "text": "क्या यह केवल मेरे लिए है?"
+  },
+  {
+   "order": 53,
+   "scene": 2,
+   "dialogue_idx": 26,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "साफ़ आवाज़ में",
+   "tag": "[clear voice]",
+   "text": "अक्षर तुम बनाते हो। बाकी चार तुम्हारी मदद कर सकते हैं।"
+  },
+  {
+   "order": 54,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "कुकु अपना हाथ वापस खींच लेता है।"
+  },
+  {
+   "order": 55,
+   "scene": 2,
+   "dialogue_idx": 27,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "पक्की आवाज़ में",
+   "tag": "[firmly]",
+   "text": "हम पाँचों साथ फँसे थे और साथ निकले थे। मैं अकेला नहीं जाऊँगा।"
+  },
+  {
+   "order": 56,
+   "scene": 2,
+   "dialogue_idx": 28,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "ऋषि से",
+   "tag": "[firmly]",
+   "text": "बच्चे यहाँ एक बार कोशिश कर सकते हैं। अभी कोई कहीं नहीं जाएगा।"
+  },
+  {
+   "order": 57,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "कुकु, फ्यूरिया, वैस्पर, कैस्टर और लेडा घेरे को बराबर जगह से पकड़ते हैं। उसमें पाँच सुनहरी लहरें दौड़ती हैं। वह चमकता है, पर खुलता नहीं।"
+  },
+  {
+   "order": 58,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[announcing]",
+   "text": "दृश्य 3 — बाहर: दादी का आँगन — कुछ पल बाद"
+  },
+  {
+   "order": 59,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "छड़ी की धीमी ताल चल रही है। कुकु घेरे का अपना हिस्सा कसकर पकड़ता है।"
+  },
+  {
+   "order": 60,
+   "scene": 3,
+   "dialogue_idx": 29,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "जल्दी में",
+   "tag": "[hurried]",
+   "text": "मैं इसे खोल दूँगा। मुझे और जोर लगाना है।"
+  },
+  {
+   "order": 61,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "कुकु पूरा अक्षर बनाए बिना घेरे पर सुनहरी साँस छोड़ता है। रोशनी केवल उसके पंजे तक जाती है और बुझ जाती है। कोई अक्षर नहीं बनता। घेरा बंद रहता है।"
+  },
+  {
+   "order": 62,
+   "scene": 3,
+   "dialogue_idx": 30,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "सबको पीछे करते हुए",
+   "tag": "[protective and firm]",
+   "text": "बच्चों, पीछे हटो। द्वार छड़ी को और जोर से खींच रहा है।"
+  },
+  {
+   "order": 63,
+   "scene": 3,
+   "dialogue_idx": 31,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "द्वार देखते हुए",
+   "tag": "[worried]",
+   "text": "नया अक्षर बहुत भारी होगा। उसे उठाने के लिए तुम पाँचों को बड़ा होना पड़ेगा।"
+  },
+  {
+   "order": 64,
+   "scene": 3,
+   "dialogue_idx": 32,
+   "kind": "dialogue",
+   "speaker": "VESPER",
+   "direction": "मैदान की ओर देखते हुए",
+   "tag": "[worried]",
+   "text": "वह नीचा बादल भी ऊपर खिंच रहा है।"
+  },
+  {
+   "order": 65,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "मैदान से बकरी का बच्चा मिमियाता है। कालू जवाब में भौंकता है।"
+  },
+  {
+   "order": 66,
+   "scene": 3,
+   "dialogue_idx": 33,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "कालू से",
+   "tag": "[gently]",
+   "text": "बकरी का बच्चा अभी जमीन पर सुरक्षित है। तुम उसके पास रहो।"
+  },
+  {
+   "order": 67,
+   "scene": 3,
+   "dialogue_idx": 34,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "धीरे, अपने आप से",
+   "tag": "[softly]",
+   "text": "इन सबमें ब है।"
+  },
+  {
+   "order": 68,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "कुकु फिर घेरे पर साँस लेने लगता है। फ्यूरिया उसका पंजा ठीक करती है। वैस्पर ऊपर की दरार देख रहा है। लेडा की बात किसी ने नहीं सुनी।"
+  },
+  {
+   "order": 69,
+   "scene": 3,
+   "dialogue_idx": 35,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "सबके सामने आकर, ऊँची आवाज़ में",
+   "tag": "[loudly]",
+   "text": "रुको। बच्चा, बड़ा, बादल और बकरी सब ब से शुरू होते हैं।"
+  },
+  {
+   "order": 70,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "सब रुक जाते हैं। घेरे के भीतर एक साफ़ ध्वनि गूँजती है—ब।"
+  },
+  {
+   "order": 71,
+   "scene": 3,
+   "dialogue_idx": 36,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "खुशी से",
+   "tag": "[joyful]",
+   "text": "बड़ा भी ब से शुरू होता है!"
+  },
+  {
+   "order": 72,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "घेरा फिर चमकता है, लेकिन इस बार भीतर से छोटी खट-खट की आवाज़ आती है।"
+  },
+  {
+   "order": 73,
+   "scene": 3,
+   "dialogue_idx": 37,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "कान लगाकर",
+   "tag": "[concentrating]",
+   "text": "अंदर कुछ अटका है। मैं देखता हूँ।"
+  },
+  {
+   "order": 74,
+   "scene": 3,
+   "dialogue_idx": 38,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "चिंता से",
+   "tag": "[worried]",
+   "text": "जगह बहुत छोटी है।"
+  },
+  {
+   "order": 75,
+   "scene": 3,
+   "dialogue_idx": 39,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "विश्वास से",
+   "tag": "[confident]",
+   "text": "इसलिए मैं जा सकता हूँ।"
+  },
+  {
+   "order": 76,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "कैस्टर खुद पेटी में चढ़ता है। वह घेरे के सबसे तंग मोड़ के भीतर हाथ डालता है।"
+  },
+  {
+   "order": 77,
+   "scene": 3,
+   "dialogue_idx": 40,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "जोर लगाते हुए",
+   "tag": "[straining]",
+   "text": "मुझे छोटी कुंडी मिल गई है।"
+  },
+  {
+   "order": 78,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "खट! कुंडी खुलती है। एक घेरा पाँच बराबर, खाली कड़ों में बँट जाता है। हर बच्चे के सामने एक कड़ा आकर रुकता है।"
+  },
+  {
+   "order": 79,
+   "scene": 3,
+   "dialogue_idx": 41,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "गिनकर",
+   "tag": "[counting clearly]",
+   "text": "पाँच कड़े हैं। सब बराबर हैं।"
+  },
+  {
+   "order": 80,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "पाँचों बच्चे अपने-अपने कड़े पहनते हैं। हर कड़े का बीच वाला स्थान अभी पूरी तरह खाली है।"
+  },
+  {
+   "order": 81,
+   "scene": 3,
+   "dialogue_idx": 42,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "मिट्टी पर बनाते हुए",
+   "tag": "[warm teaching voice]",
+   "text": "यह ब है। ऊपर सीधी रेखा है। दाईं ओर की लकीर नीचे जाती है। नीचे का गोल मोड़ बंद है।"
+  },
+  {
+   "order": 82,
+   "scene": 3,
+   "dialogue_idx": 43,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "तैयार होकर",
+   "tag": "[determined]",
+   "text": "अब मैं पूरा ब बनाऊँगा।"
+  },
+  {
+   "order": 83,
+   "scene": 3,
+   "dialogue_idx": 44,
+   "kind": "chorus",
+   "speaker": "CHORUS_ALL",
+   "direction": "एक साथ, हौसला देते हुए",
+   "tag": "[encouraging]",
+   "text": "कुकु, तुम कर सकते हो!"
+  },
+  {
+   "order": 84,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "कुकु गहरी साँस लेकर सुनहरी हवा छोड़ता है। मिट्टी पर बना आकार उठता है और एक पूरा, मोटा, चमकता हुआ ब बन जाता है। वह बढ़ते-बढ़ते आसमान के द्वार जितना बड़ा हो जाता है।"
+  },
+  {
+   "order": 85,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[storyteller, warm and unhurried]",
+   "text": "वही बड़ा ब आँगन के आगे खड़ा रहता है। केवल उसकी रोशनी पाँचों कड़ों में जाती है। हर खाली कड़े पर अब ब चमकता है।"
+  },
+  {
+   "order": 86,
+   "scene": 3,
+   "dialogue_idx": 45,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "अपना कड़ा देखकर",
+   "tag": "[astonished]",
+   "text": "ब मेरे कड़े में चमक रहा है। बड़ा ब भी वहीं खड़ा है।"
+  },
+  {
+   "order": 87,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[announcing]",
+   "text": "दृश्य 4 — बाहर: दादी का आँगन और खुला आकाश — लगातार"
+  },
+  {
+   "order": 88,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "ब की सुनहरी रोशनी एक कड़े से अगले कड़े तक दौड़ती है। पाँचों बच्चों के पैर जमीन पर टिके हैं। उनके शरीर बढ़ने लगते हैं।"
+  },
+  {
+   "order": 89,
+   "scene": 4,
+   "dialogue_idx": 46,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "हैरानी से",
+   "tag": "[astonished]",
+   "text": "मेरे पंजे बड़े हो रहे हैं।"
+  },
+  {
+   "order": 90,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "कुकु का हरा शरीर सबसे पहले पूरा होता है। उसके पंख आँगन जितने चौड़े हो जाते हैं। बाकी चारों के बदलते शरीर अलग दिशाओं में खिंचते हैं।"
+  },
+  {
+   "order": 91,
+   "scene": 4,
+   "dialogue_idx": 47,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "हँसते हुए",
+   "tag": "[laughing]",
+   "text": "मेरे पंख अभी दौड़ना चाहते हैं।"
+  },
+  {
+   "order": 92,
+   "scene": 4,
+   "dialogue_idx": 48,
+   "kind": "dialogue",
+   "speaker": "VESPER",
+   "direction": "हैरानी से",
+   "tag": "[astonished]",
+   "text": "हवा के रास्ते अब मुझे साफ़ दिख रहे हैं।"
+  },
+  {
+   "order": 93,
+   "scene": 4,
+   "dialogue_idx": 49,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "घबराकर",
+   "tag": "[alarmed]",
+   "text": "मेरा आकार टिक नहीं रहा है। मैं कभी छोटा और कभी बहुत बड़ा हो रहा हूँ।"
+  },
+  {
+   "order": 94,
+   "scene": 4,
+   "dialogue_idx": 50,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "ऊपर देखकर",
+   "tag": "[observant]",
+   "text": "द्वार बहुत दूर है। फिर भी मुझे उसकी छोटी दरार दिख रही है।"
+  },
+  {
+   "order": 95,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "कुकु उड़ने के लिए तैयार है, लेकिन वह अपनी जगह नहीं छोड़ता। वह दोनों पंख फैलाकर बदलते हुए बच्चों का घेरा थामता है।"
+  },
+  {
+   "order": 96,
+   "scene": 4,
+   "dialogue_idx": 51,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "जोर लगाते हुए",
+   "tag": "[straining]",
+   "text": "मैं अभी नहीं उड़ूँगा। पहले हम पाँचों पूरे बड़े होंगे।"
+  },
+  {
+   "order": 97,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "फ्यूरिया अपने पंख रोकती है। वैस्पर नीचे की शांत हवा पकड़ता है। कैस्टर एक आकार चुनकर स्थिर होता है। लेडा अपनी नज़र कुकु पर टिकाती है। सुनहरी लहर पाँचों का चक्कर पूरा करती है।"
+  },
+  {
+   "order": 98,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "अब आँगन में पाँच विशाल ड्रैगन खड़े हैं। उनके चेहरे और रंग वही हैं। उनकी आवाज़ें अब भी बच्चों जैसी हैं। कड़े भी उनके साथ बड़े हो गए हैं।"
+  },
+  {
+   "order": 99,
+   "scene": 4,
+   "dialogue_idx": 52,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "खिलखिलाकर",
+   "tag": "[giggling]",
+   "text": "दादी का घर छोटा हो गया है।"
+  },
+  {
+   "order": 100,
+   "scene": 4,
+   "dialogue_idx": 53,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "हँसते हुए",
+   "tag": "[laughing]",
+   "text": "घर वहीं है, कैस्टर। तुम बड़े हो गए हो।"
+  },
+  {
+   "order": 101,
+   "scene": 4,
+   "dialogue_idx": 54,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "खुशी से",
+   "tag": "[joyful]",
+   "text": "हम सच में बड़े ड्रैगन बन गए हैं।"
+  },
+  {
+   "order": 102,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "पाँचों एक साथ पंख चलाते हैं। पहली थाप में धूल उठती है। दूसरी थाप में उनके पैर जमीन से ऊपर आ जाते हैं। तीसरी थाप में पाँचों साफ़ और स्थिर उड़ रहे हैं।"
+  },
+  {
+   "order": 103,
+   "scene": 4,
+   "dialogue_idx": 55,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "खुशी से",
+   "tag": "[joyful]",
+   "text": "हम उड़ रहे हैं।"
+  },
+  {
+   "order": 104,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "उनके नीचे वही विशाल ब खड़ा रहता है।"
+  },
+  {
+   "order": 105,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[announcing]",
+   "text": "दृश्य 5 — बाहर: अक्षर घाटी के ऊपर — लगातार"
+  },
+  {
+   "order": 106,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "ऋषि की छड़ी अब भी द्वार को पकड़े है। उस पर धीमी सुनहरी ताल चल रही है।"
+  },
+  {
+   "order": 107,
+   "scene": 5,
+   "dialogue_idx": 56,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "ऊपर पुकारकर",
+   "tag": "[calling out loudly]",
+   "text": "एक चक्कर छड़ी की ताल में लगाओ। फिर नीचे आकर ब उठाना है।"
+  },
+  {
+   "order": 108,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "पाँचों ताल के साथ आगे बढ़ते हैं।"
+  },
+  {
+   "order": 109,
+   "scene": 5,
+   "dialogue_idx": 57,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "खुशी से",
+   "tag": "[joyful]",
+   "text": "मैं आगे जाकर वापस आती हूँ।"
+  },
+  {
+   "order": 110,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "फ्यूरिया तेज़ी से आगे निकलती है। वह हवा में एक चमकीला घेरा बनाकर ठीक अपनी जगह लौट आती है।"
+  },
+  {
+   "order": 111,
+   "scene": 5,
+   "dialogue_idx": 58,
+   "kind": "dialogue",
+   "speaker": "VESPER",
+   "direction": "धीमे उत्साह से",
+   "tag": "[softly] [excited]",
+   "text": "मेरे पीछे आओ। बादल के भीतर हवा नरम है।"
+  },
+  {
+   "order": 112,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "वैस्पर एक शांत हवा चुनता है। पाँचों बादल के भीतर से बिना हिले-डुले निकलते हैं।"
+  },
+  {
+   "order": 113,
+   "scene": 5,
+   "dialogue_idx": 59,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "आगे का छोटा छेद देखकर",
+   "tag": "[confident]",
+   "text": "धुंध में छोटा रास्ता है। मैं निकल सकता हूँ।"
+  },
+  {
+   "order": 114,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "कैस्टर अपना आकार थोड़ा छोटा करता है, धुंध के छेद से निकलता है और दूसरी ओर फिर बड़ा हो जाता है।"
+  },
+  {
+   "order": 115,
+   "scene": 5,
+   "dialogue_idx": 60,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "बहुत नीचे देखकर",
+   "tag": "[clear voice]",
+   "text": "बकरी का बच्चा मैदान में है। कालू पास है। दोनों सुरक्षित हैं।"
+  },
+  {
+   "order": 116,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "नीचे कालू ऊपर देखकर भौंकता है। बकरी का बच्चा घंटी हिलाता है।"
+  },
+  {
+   "order": 117,
+   "scene": 5,
+   "dialogue_idx": 61,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "खुशी से",
+   "tag": "[joyful]",
+   "text": "मेरे पंख मेरी बात सुन रहे हैं।"
+  },
+  {
+   "order": 118,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "पाँचों घाटी के ऊपर एक पूरा चक्कर लगाते हैं। वे पूरे समय छड़ी की धीमी ताल में रहते हैं। फिर वे आँगन की ओर लौटते हैं।"
+  },
+  {
+   "order": 119,
+   "scene": 5,
+   "dialogue_idx": 62,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "कुकु से प्रसन्न होकर",
+   "tag": "[warmly]",
+   "text": "अच्छा, कुकु। तुम्हारा बड़ा रूप तैयार है। बाकी चार ब उठाने में तुम्हारी मदद करेंगे।"
+  },
+  {
+   "order": 120,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "कुकु की खुशी थोड़ी कम हो जाती है।"
+  },
+  {
+   "order": 121,
+   "scene": 5,
+   "dialogue_idx": 63,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "नीचे बुलाते हुए",
+   "tag": "[calling out loudly]",
+   "text": "अब सब नीचे आओ। ब उठाने का समय है।"
+  },
+  {
+   "order": 122,
+   "scene": 5,
+   "dialogue_idx": 64,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "उत्साह से",
+   "tag": "[enthusiastically]",
+   "text": "क्या हम एक चक्कर और थोड़ा तेज़ उड़ सकते हैं?"
+  },
+  {
+   "order": 123,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "कुकु ऋषि को देखता है, फिर बाकी चारों को।"
+  },
+  {
+   "order": 124,
+   "scene": 5,
+   "dialogue_idx": 65,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "फैसला करते हुए",
+   "tag": "[decisive]",
+   "text": "हाँ। हम पाँचों एक तेज़ चक्कर साथ पूरा करेंगे। इस बार सब मेरी ताल में उड़ो।"
+  },
+  {
+   "order": 125,
+   "scene": 5,
+   "dialogue_idx": 66,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "तुरंत रोकते हुए",
+   "tag": "[urgent]",
+   "text": "नहीं, कुकु। पहले नीचे आओ।"
+  },
+  {
+   "order": 126,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "कुकु जोर से पंख चलाता है। फ्यूरिया तेजी पकड़ती है। बाकी तीन उन्हें पकड़ने के लिए अपनी लय बदलते हैं। पाँचों बिना अनुमति दूसरा चक्कर शुरू कर देते हैं।"
+  },
+  {
+   "order": 127,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "छड़ी की ताल अब भी धीमी है—धाम... धाम... धाम। बच्चों के पंख उससे कहीं तेज़ हो जाते हैं।"
+  },
+  {
+   "order": 128,
+   "scene": 5,
+   "dialogue_idx": 67,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "चिंता से",
+   "tag": "[worried]",
+   "text": "हम छड़ी की ताल से बाहर जा रहे हैं।"
+  },
+  {
+   "order": 129,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "फ्यूरिया की तेज़ हवा, कैस्टर के बदलते आकार और कुकु की भारी पंख-थाप एक साथ टूटे द्वार तक पहुँचती हैं। पुरानी दरार जोर से बढ़ती है।"
+  },
+  {
+   "order": 130,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "कड़ाक! छड़ी की सुनहरी पकड़ टूट जाती है। आसमान के द्वार से हवा की एक बड़ी लहर नीचे गिरती है।"
+  },
+  {
+   "order": 131,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "लहर बाड़ के उस पार वाले बादल को घास वाले मैदान पर बहा लाती है। बकरी का बच्चा ठोस जमीन से उस बादल के भीतर उठ जाता है। कालू उसके पीछे दौड़ता है और जोर-जोर से भौंकता है।"
+  },
+  {
+   "order": 132,
+   "scene": 5,
+   "dialogue_idx": 68,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "डरकर",
+   "tag": "[scared]",
+   "text": "बकरी का बच्चा जमीन से उठ गया है।"
+  },
+  {
+   "order": 133,
+   "scene": 5,
+   "dialogue_idx": 69,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "कालू को रोकते हुए",
+   "tag": "[protective and firm]",
+   "text": "कालू, पीछे रहो। अब हम उसे बचाएँगे।"
+  },
+  {
+   "order": 134,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "दादी कालू को अपने पास रखती हैं। बादल ऊपर उठता है। टूटे द्वार के चारों ओर तीन सुनहरी लकीरें जलती हैं और बादल पहली लकीर की ओर घूमता है।"
+  },
+  {
+   "order": 135,
+   "scene": 5,
+   "dialogue_idx": 70,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "गिनकर",
+   "tag": "[counting clearly]",
+   "text": "बादल तीन चक्कर में द्वार तक पहुँच जाएगा। पहला चक्कर शुरू हो गया है।"
+  },
+  {
+   "order": 136,
+   "scene": 6,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[announcing]",
+   "text": "दृश्य 6 — बाहर: आसमान के टूटे द्वार के नीचे — लगातार"
+  },
+  {
+   "order": 137,
+   "scene": 6,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "ऋषि अपनी छड़ी से बादलों की पतली राह बनाते हैं। वे उस पर दौड़कर ऊपर जाते हैं और छड़ी को टूटे द्वार में फँसा देते हैं। दोनों टूटे किनारे रुक जाते हैं।"
+  },
+  {
+   "order": 138,
+   "scene": 6,
+   "dialogue_idx": 71,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "पूरी ताक़त लगाकर",
+   "tag": "[straining] [voice raised]",
+   "text": "मैं छड़ी छोड़ूँगा, तो द्वार पूरा खुल जाएगा। बकरी को तुम पाँचों ही बचा सकते हो।"
+  },
+  {
+   "order": 139,
+   "scene": 6,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "फ्यूरिया सबसे पहले उठते बादल तक पहुँचती है।"
+  },
+  {
+   "order": 140,
+   "scene": 6,
+   "dialogue_idx": 72,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "जल्दी में",
+   "tag": "[hurried]",
+   "text": "मैं उसे अभी पकड़ती हूँ।"
+  },
+  {
+   "order": 141,
+   "scene": 6,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "उसके तेज़ पंखों की हवा बादल को घुमा देती है। बकरी की घंटी बादल के भीतर दूर खिसकती है।"
+  },
+  {
+   "order": 142,
+   "scene": 6,
+   "dialogue_idx": 73,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "घबराकर",
+   "tag": "[alarmed]",
+   "text": "मेरी हवा उसे और भीतर ले गई।"
+  },
+  {
+   "order": 143,
+   "scene": 6,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "कुकु नीचे झपटता है और पहले से बने विशाल ब का एक सिरा पकड़ता है।"
+  },
+  {
+   "order": 144,
+   "scene": 6,
+   "dialogue_idx": 74,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "जोर लगाते हुए",
+   "tag": "[straining]",
+   "text": "मैं ब उठाकर बच्चे तक पहुँचूँगा।"
+  },
+  {
+   "order": 145,
+   "scene": 6,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "कुकु अक्षर का एक सिरा जमीन से उठा पाता है। बाकी विशाल अक्षर वहीं अड़ा रहता है।"
+  },
+  {
+   "order": 146,
+   "scene": 6,
+   "dialogue_idx": 75,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "हाँफते हुए",
+   "tag": "[out of breath]",
+   "text": "मैं इसे अकेला आगे नहीं ले जा पा रहा हूँ।"
+  },
+  {
+   "order": 147,
+   "scene": 6,
+   "dialogue_idx": 76,
+   "kind": "dialogue",
+   "speaker": "VESPER",
+   "direction": "तेज़ी से सोचते हुए",
+   "tag": "[thinking quickly]",
+   "text": "बाईं ओर एक रास्ता है। ऊपर भी एक रास्ता है। नीचे वाली हवा शायद और शांत है।"
+  },
+  {
+   "order": 148,
+   "scene": 6,
+   "dialogue_idx": 77,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "उलझकर",
+   "tag": "[confused]",
+   "text": "हमें किस रास्ते पर जाना है?"
+  },
+  {
+   "order": 149,
+   "scene": 6,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "कैस्टर अपना आकार छोटा करके बादल की एक दरार की ओर जाता है। उत्साह में उसका शरीर फिर बड़ा होने लगता है। दरार उसके आगे बंद हो जाती है।"
+  },
+  {
+   "order": 150,
+   "scene": 6,
+   "dialogue_idx": 78,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "निराश होकर",
+   "tag": "[disappointed]",
+   "text": "मेरा आकार बढ़ गया। मैंने अपनी ही जगह बंद कर दी।"
+  },
+  {
+   "order": 151,
+   "scene": 6,
+   "dialogue_idx": 79,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "पंखों की आवाज़ में पुकारकर",
+   "tag": "[projecting over noise]",
+   "text": "बच्चा ऊपर नहीं है। वह बादल के अंदर है।"
+  },
+  {
+   "order": 152,
+   "scene": 6,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "किसी को उसकी बात साफ़ नहीं सुनाई देती। फ्यूरिया फिर पास जाने की कोशिश करती है। कुकु ब को और जोर से खींचता है। वैस्पर दूसरा रास्ता बताता है।"
+  },
+  {
+   "order": 153,
+   "scene": 6,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "बादल पहला चक्कर पूरा करता है। पहली सुनहरी लकीर बुझ जाती है। दूसरा चक्कर शुरू होता है। बादल का निचला हिस्सा खुलने लगता है।"
+  },
+  {
+   "order": 154,
+   "scene": 6,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "लेडा सबके बीच उड़कर आती है। वह अपने बड़े पंख फैलाकर पाँचों की राह रोक देती है।"
+  },
+  {
+   "order": 155,
+   "scene": 6,
+   "dialogue_idx": 80,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "पूरी आवाज़ में",
+   "tag": "[shouting]",
+   "text": "सब रुको।"
+  },
+  {
+   "order": 156,
+   "scene": 6,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "चारों बच्चे अपने पंख रोकते हैं।"
+  },
+  {
+   "order": 157,
+   "scene": 6,
+   "dialogue_idx": 81,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "साफ़ और धीरे",
+   "tag": "[softly] [clear]",
+   "text": "बकरी का बच्चा बादल के ऊपर नहीं है। वह अंदर की हवा में फँसा है। उसे ऊपर से खींचोगे, तो वह नीचे गिरेगा।"
+  },
+  {
+   "order": 158,
+   "scene": 6,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "कुकु पहली बार बादल की सतह के बजाय उसके भीतर देखता है। घंटी अंदर की सुरक्षित हवा में हिल रही है।"
+  },
+  {
+   "order": 159,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[announcing]",
+   "text": "दृश्य 7 — बाहर: उठता बादल और आसमान का द्वार — लगातार"
+  },
+  {
+   "order": 160,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "कुकु नया छोटा ब बनाने के लिए साँस भरता है। फिर वह रुक जाता है। वह नीचे खड़े उसी बड़े ब को देखता है।"
+  },
+  {
+   "order": 161,
+   "scene": 7,
+   "dialogue_idx": 82,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "अपना फैसला बदलते हुए",
+   "tag": "[decisive]",
+   "text": "मैं नया ब नहीं बनाऊँगा। लेडा, तुम्हें क्या दिख रहा है?"
+  },
+  {
+   "order": 162,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "विशाल ब मोटा है। उसके बंद हिस्से के भीतर आगे से पीछे तक एक छोटी सुरंग है। सुरंग के नीचे उसी अक्षर की मोटी रेखा है। सामने से ब का आकार पूरा और साफ़ रहता है।"
+  },
+  {
+   "order": 163,
+   "scene": 7,
+   "dialogue_idx": 83,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "ध्यान से",
+   "tag": "[focused]",
+   "text": "बकरी के बच्चे को बचाना है। ब का रास्ता बादल से मिल सकता है।"
+  },
+  {
+   "order": 164,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "कुकु अक्षर के बीच से अपना पंजा हटाकर उसके एक सिरे पर चला जाता है। बाकी चार बच्चों के लिए चार साफ़ जगहें खुल जाती हैं।"
+  },
+  {
+   "order": 165,
+   "scene": 7,
+   "dialogue_idx": 84,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "सबसे",
+   "tag": "[clear and firm]",
+   "text": "मैं एक सिरा थामूँगा। बाकी जगहें तुम चारों की हैं।"
+  },
+  {
+   "order": 166,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "लेडा ब के सामने उड़ती है। वह अपने पंजों से एक छोटा चौखटा बनाकर उसके भीतर से बादल को देखती है।"
+  },
+  {
+   "order": 167,
+   "scene": 7,
+   "dialogue_idx": 85,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "रास्ता मिलाते हुए",
+   "tag": "[focused]",
+   "text": "ब को नीचे लाओ। अब दाईं ओर करो। रुको। सीध मिल गई है।"
+  },
+  {
+   "order": 168,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "लेडा ब की ऊपरी रेखा पर एक बार थपकी देती है।"
+  },
+  {
+   "order": 169,
+   "scene": 7,
+   "dialogue_idx": 86,
+   "kind": "dialogue",
+   "speaker": "VESPER",
+   "direction": "एक रास्ता चुनते हुए",
+   "tag": "[decisive]",
+   "text": "सीधी हवा बादल तोड़ेगी। हम इस मोड़ से जाएँगे।"
+  },
+  {
+   "order": 170,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "वैस्पर बादल के चारों ओर घूमता है। उसके पीछे एक शांत नीली हवा बनती है और द्वार तक जाती है।"
+  },
+  {
+   "order": 171,
+   "scene": 7,
+   "dialogue_idx": 87,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "पक्का फैसला करके",
+   "tag": "[firmly]",
+   "text": "सबसे भारी हिस्सा मैं उठाऊँगी। मैं लेडा की थपकी से पहले नहीं हिलूँगी।"
+  },
+  {
+   "order": 172,
+   "scene": 7,
+   "dialogue_idx": 88,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "अपनी जगह पकड़ते हुए",
+   "tag": "[determined]",
+   "text": "मैं ब को बादल तक उठाऊँगा। फिर मैं दरार में जाऊँगा।"
+  },
+  {
+   "order": 173,
+   "scene": 7,
+   "dialogue_idx": 89,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "ऊपर की रेखा थपथपाकर",
+   "tag": "[clear and commanding]",
+   "text": "अब उठाओ।"
+  },
+  {
+   "order": 174,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "दूसरा चक्कर चल रहा है। पाँचों ब को उठाकर बादल की ओर ले जाते हैं। वैस्पर की हवा उसे शांत रखती है।"
+  },
+  {
+   "order": 175,
+   "scene": 7,
+   "dialogue_idx": 90,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "ब और बादल को देखते हुए",
+   "tag": "[focused]",
+   "text": "इसे थोड़ा नीचे लाओ। अब सीधा करो। यहीं रुको।"
+  },
+  {
+   "order": 176,
+   "scene": 7,
+   "dialogue_idx": 91,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "तुरंत रुकते हुए",
+   "tag": "[immediately]",
+   "text": "मैं रुक गई हूँ।"
+  },
+  {
+   "order": 177,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "चार बच्चे ब को थामे रहते हैं और वैस्पर की हवा उसे नीचे से सहारा देती है। कैस्टर अपनी जगह छोड़कर छोटा होता है और बादल की दरार में घुस जाता है। ब का बंद अंदरूनी रास्ता बादल की हवा वाली जगह से जुड़ जाता है।"
+  },
+  {
+   "order": 178,
+   "scene": 7,
+   "dialogue_idx": 92,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "बादल के भीतर से",
+   "tag": "[calling from inside]",
+   "text": "रास्ता मिल गया है। बकरी, मेरे पीछे आओ।"
+  },
+  {
+   "order": 179,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "बकरी का बच्चा कैस्टर के पीछे चलता है और ब की छोटी सुरंग में आ जाता है। कैस्टर थोड़ा बड़ा होकर उसके पीछे खड़ा हो जाता है। वह खुद पीछे का सहारा बनता है और बकरी को नीचे की मोटी रेखा पर थामता है।"
+  },
+  {
+   "order": 180,
+   "scene": 7,
+   "dialogue_idx": 93,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "अंदर से पुकारकर",
+   "tag": "[calling from inside]",
+   "text": "बच्चा अंदर सुरक्षित है। मैं उसे थामे हूँ।"
+  },
+  {
+   "order": 181,
+   "scene": 7,
+   "dialogue_idx": 94,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "ऊपरी रेखा थपथपाकर",
+   "tag": "[clear and commanding]",
+   "text": "अब आगे बढ़ो।"
+  },
+  {
+   "order": 182,
+   "scene": 7,
+   "dialogue_idx": 95,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "जोर लगाते हुए",
+   "tag": "[straining]",
+   "text": "मैं आगे बढ़ रही हूँ।"
+  },
+  {
+   "order": 183,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "फ्यूरिया सबसे ज़्यादा वजन उठाती है। कुकु और बाकी बच्चे ब का आकार थामे रखते हैं। वही ब, बकरी और कैस्टर को भीतर लेकर वैस्पर के मुड़ते रास्ते पर चलता है।"
+  },
+  {
+   "order": 184,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "दूसरा चक्कर पूरा होता है। दूसरी सुनहरी लकीर बुझ जाती है। तीसरी लकीर चमकती है और आख़िरी चक्कर शुरू होता है। टूटा द्वार जोर से काँपता है।"
+  },
+  {
+   "order": 185,
+   "scene": 7,
+   "dialogue_idx": 96,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "द्वार देखते हुए",
+   "tag": "[worried]",
+   "text": "तीसरा चक्कर शुरू हो गया है।"
+  },
+  {
+   "order": 186,
+   "scene": 7,
+   "dialogue_idx": 97,
+   "kind": "dialogue",
+   "speaker": "VESPER",
+   "direction": "अपने रास्ते पर टिके हुए",
+   "tag": "[steady voice]",
+   "text": "नीली हवा पर रहो। यही रास्ता द्वार तक जाता है।"
+  },
+  {
+   "order": 187,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "पाँचों ब को द्वार तक ले जाते हैं। लेडा दूर से खाली जगह और ब की दिशा मिलाती है।"
+  },
+  {
+   "order": 188,
+   "scene": 7,
+   "dialogue_idx": 98,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "साफ़ आदेश में",
+   "tag": "[clear and commanding]",
+   "text": "अब ब को सीधा खड़ा करो। धीरे घुमाओ।"
+  },
+  {
+   "order": 189,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "सब मिलकर ब को सीधा घुमाते हैं। बकरी उसके अंदर की निचली पट्टी पर सुरक्षित रहती है।"
+  },
+  {
+   "order": 190,
+   "scene": 7,
+   "dialogue_idx": 99,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "भीतर से",
+   "tag": "[calling from inside]",
+   "text": "बच्चा नीचे सुरक्षित है। मैं द्वार की अंदर वाली खाली जगह तक जा रहा हूँ।"
+  },
+  {
+   "order": 191,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "कैस्टर फिर छोटा होता है और ब के भीतर से उस जगह तक पहुँचता है जहाँ कोई और नहीं पहुँच सकता।"
+  },
+  {
+   "order": 192,
+   "scene": 7,
+   "dialogue_idx": 100,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "जोर से",
+   "tag": "[shouting]",
+   "text": "खाली जगह मिल गई। ब को थोड़ा नीचे लाओ।"
+  },
+  {
+   "order": 193,
+   "scene": 7,
+   "dialogue_idx": 101,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "ठीक समय पर",
+   "tag": "[precisely]",
+   "text": "अब आगे बढ़ो। थोड़ा और आगे बढ़ो। अब रुक जाओ।"
+  },
+  {
+   "order": 194,
+   "scene": 7,
+   "dialogue_idx": 102,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "तुरंत रुकते हुए",
+   "tag": "[immediately]",
+   "text": "मैं रुक गई हूँ।"
+  },
+  {
+   "order": 195,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "ब ठीक खाली हिस्से में बैठ जाता है। कुकु अपने दोनों पंजों से उसे सीधा थामकर आख़िरी बार भीतर दबाता है।"
+  },
+  {
+   "order": 196,
+   "scene": 7,
+   "dialogue_idx": 103,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "जोर लगाते हुए",
+   "tag": "[straining]",
+   "text": "ब सीधा है। मैं इसे ठीक जगह दबा रहा हूँ।"
+  },
+  {
+   "order": 197,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "खट! द्वार की पुरानी सुनहरी पकड़ ब के चारों ओर बंद हो जाती है। वही ब आसमान के द्वार का पक्का सहारा बन जाता है। उसका पूरा आकार साफ़ दिखाई देता रहता है।"
+  },
+  {
+   "order": 198,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "तीसरी सुनहरी लकीर बुझने से पहले द्वार सँभल जाता है। बादल नरम होकर हवा में बिखर जाता है। ऋषि अपनी छड़ी छोड़ पाते हैं।"
+  },
+  {
+   "order": 199,
+   "scene": 7,
+   "dialogue_idx": 104,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "ब के भीतर से",
+   "tag": "[calling from inside]",
+   "text": "मैं बकरी को सुरक्षित ओर ला रहा हूँ।"
+  },
+  {
+   "order": 200,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "कैस्टर बकरी को सुरक्षित ओर बाहर लाता है। फ्यूरिया उसे अपने पंजों में धीरे से लेती है।"
+  },
+  {
+   "order": 201,
+   "scene": 7,
+   "dialogue_idx": 105,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "नरमी से",
+   "tag": "[gently]",
+   "text": "अब मैं तुम्हें नीचे ले जाती हूँ।"
+  },
+  {
+   "order": 202,
+   "scene": 7,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense]",
+   "text": "फ्यूरिया बकरी को घास वाले मैदान में उतारती है। कालू खुशी से भौंकता है, लेकिन दादी के पास ही रहता है।"
+  },
+  {
+   "order": 203,
+   "scene": 8,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[announcing]",
+   "text": "दृश्य 8 — बाहर: दादी का आँगन — बचाव के बाद"
+  },
+  {
+   "order": 204,
+   "scene": 8,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[calm]",
+   "text": "पाँचों विशाल ड्रैगन आँगन में उतरते हैं।"
+  },
+  {
+   "order": 205,
+   "scene": 8,
+   "dialogue_idx": 106,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "थकी खुशी से",
+   "tag": "[tired but joyful]",
+   "text": "मैं अब अपना छोटा रूप चुनती हूँ।"
+  },
+  {
+   "order": 206,
+   "scene": 8,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[calm]",
+   "text": "लेडा अपना कड़ा छूकर छोटी हो जाती है। बाकी चार भी अपने-अपने कड़े छूते हैं और अपनी इच्छा से छोटे रूप में लौट आते हैं। कड़े उनकी कलाइयों पर रहते हैं।"
+  },
+  {
+   "order": 207,
+   "scene": 8,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[calm]",
+   "text": "दादी पाँचों को अपने पास खींच लेती हैं। कालू कुकु के गाल चाटता है।"
+  },
+  {
+   "order": 208,
+   "scene": 8,
+   "dialogue_idx": 107,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "पछतावे से",
+   "tag": "[remorseful]",
+   "text": "दादी, दूसरा चक्कर मेरा फैसला था। दरार मेरी वजह से बढ़ी।"
+  },
+  {
+   "order": 209,
+   "scene": 8,
+   "dialogue_idx": 108,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "शांत होकर",
+   "tag": "[calm]",
+   "text": "मुझे मालूम है। पहले बकरी को उसकी माँ के पास जाने दो।"
+  },
+  {
+   "order": 210,
+   "scene": 8,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[calm]",
+   "text": "बकरी का बच्चा अपनी माँ की ओर दौड़ता है। उसकी घंटी की आवाज़ फिर शांत हो जाती है।"
+  },
+  {
+   "order": 211,
+   "scene": 8,
+   "dialogue_idx": 109,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "कुकु से",
+   "tag": "[serious and clear]",
+   "text": "कुकु, मेरे साथ गुरुकुल चलो। तुम्हें अपनी शक्ति सँभालना सीखना है।"
+  },
+  {
+   "order": 212,
+   "scene": 8,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[calm]",
+   "text": "कुकु अपनी कड़े वाली कलाई ऋषि के सामने करता है। कड़ा उसी की कलाई पर रहता है।"
+  },
+  {
+   "order": 213,
+   "scene": 8,
+   "dialogue_idx": 110,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "साफ़ इनकार से",
+   "tag": "[clear and firm]",
+   "text": "मैं अकेला नहीं जाऊँगा। हम पाँचों साथ जाएँगे। वहाँ हम सब बराबर होंगे।"
+  },
+  {
+   "order": 214,
+   "scene": 8,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[calm]",
+   "text": "ऋषि उस पक्के ब को देखते हैं जिसे पाँचों ने मिलकर द्वार में लगाया है। वे जमीन पर पाँच बराबर निशान बनाते हैं।"
+  },
+  {
+   "order": 215,
+   "scene": 8,
+   "dialogue_idx": 111,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "अपने शब्द ठीक करते हुए",
+   "tag": "[carefully] [sincere]",
+   "text": "कुकु, फ्यूरिया, वैस्पर, कैस्टर और लेडा—तुम पाँचों गुरुकुल में साथ सीखोगे। वहाँ तुम सब बराबर हो।"
+  },
+  {
+   "order": 216,
+   "scene": 8,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[calm]",
+   "text": "ऋषि सबसे पहले लेडा की ओर मुड़ते हैं।"
+  },
+  {
+   "order": 217,
+   "scene": 8,
+   "dialogue_idx": 112,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "सम्मान से",
+   "tag": "[respectfully]",
+   "text": "लेडा, क्या तुम सबको चलने का संकेत दोगी?"
+  },
+  {
+   "order": 218,
+   "scene": 8,
+   "dialogue_idx": 113,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "दादी की ओर देखकर",
+   "tag": "[respectfully]",
+   "text": "अभी नहीं। दादी ने हाँ नहीं कही है।"
+  },
+  {
+   "order": 219,
+   "scene": 8,
+   "dialogue_idx": 114,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "ऋषि से",
+   "tag": "[firmly]",
+   "text": "गुरुकुल आसमान के पार है। मेरे बच्चे घर कैसे लौटेंगे?"
+  },
+  {
+   "order": 220,
+   "scene": 8,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[calm]",
+   "text": "ऋषि अपनी छड़ी से एक मज़बूत सुनहरी डोरी निकालते हैं। उसका एक सिरा ठीक किए द्वार से जुड़ा है। वे दूसरा सिरा दादी के आँगन के बड़े फाटक से बाँधते हैं।"
+  },
+  {
+   "order": 221,
+   "scene": 8,
+   "dialogue_idx": 115,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "दादी को दिखाते हुए",
+   "tag": "[reassuring]",
+   "text": "यह डोरी घर और गुरुकुल के बीच रास्ता खोलेगी।"
+  },
+  {
+   "order": 222,
+   "scene": 8,
+   "dialogue_idx": 116,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "सीधे",
+   "tag": "[plainly]",
+   "text": "कहने से नहीं। इसे चलाकर दिखाइए।"
+  },
+  {
+   "order": 223,
+   "scene": 8,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[calm]",
+   "text": "ऋषि डोरी खींचते हैं। बड़े फाटक के भीतर गुरुकुल का आँगन खुलता है। पाँचों बच्चे घर पर ही रहते हैं। ऋषि रास्ते के पार जाते हैं।"
+  },
+  {
+   "order": 224,
+   "scene": 8,
+   "dialogue_idx": 117,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "दूसरी ओर से",
+   "tag": "[calling across a distance]",
+   "text": "अब मैं गुरुकुल से डोरी खींच रहा हूँ।"
+  },
+  {
+   "order": 225,
+   "scene": 8,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[calm]",
+   "text": "डोरी खिंचते ही गुरुकुल के फाटक में दादी का घर दिखाई देता है। ऋषि वापस आते हैं। दादी खुद डोरी खींचती हैं और रास्ता फिर खुल जाता है।"
+  },
+  {
+   "order": 226,
+   "scene": 8,
+   "dialogue_idx": 118,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "संतोष से",
+   "tag": "[satisfied]",
+   "text": "रास्ता दोनों ओर से खुलता है। अब तुम पाँचों जा सकते हो।"
+  },
+  {
+   "order": 227,
+   "scene": 8,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[calm]",
+   "text": "पाँचों बच्चे खुशी से एक-दूसरे को देखते हैं।"
+  },
+  {
+   "order": 228,
+   "scene": 9,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[announcing]",
+   "text": "दृश्य 9 — बाहर: दादी का आँगन, आसमान का द्वार और अक्षर गुरुकुल — साँझ"
+  },
+  {
+   "order": 229,
+   "scene": 9,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "दादी तीन तस्वीरें उठाती हैं। हर तस्वीर उसी घटना की है जो अभी हुई।"
+  },
+  {
+   "order": 230,
+   "scene": 9,
+   "dialogue_idx": 119,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "खेल की आवाज़ में",
+   "tag": "[playful]",
+   "text": "बच्चा ब से शुरू होता है।"
+  },
+  {
+   "order": 231,
+   "scene": 9,
+   "dialogue_idx": 120,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "खेल की आवाज़ में",
+   "tag": "[playful]",
+   "text": "बादल ब से शुरू होता है।"
+  },
+  {
+   "order": 232,
+   "scene": 9,
+   "dialogue_idx": 121,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "खेल की आवाज़ में",
+   "tag": "[playful]",
+   "text": "बकरी ब से शुरू होती है।"
+  },
+  {
+   "order": 233,
+   "scene": 9,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "दादी चित्र नीचे रखती हैं और पाँचों बच्चों की ओर देखती हैं।"
+  },
+  {
+   "order": 234,
+   "scene": 9,
+   "dialogue_idx": 122,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "शांत और साफ़ आवाज़ में",
+   "tag": "[calm and clear]",
+   "text": "ताक़त बड़ी हो, तो उसे सही दिशा देना और भी ज़रूरी होता है।"
+  },
+  {
+   "order": 235,
+   "scene": 9,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "घर लौटने वाली सुनहरी डोरी बड़े फाटक से बँधी है। लेडा बाकी चार बच्चों से थोड़ा दूर जाती है। कुकु, फ्यूरिया, वैस्पर और कैस्टर अपने छोटे रूप में रहते हैं।"
+  },
+  {
+   "order": 236,
+   "scene": 9,
+   "dialogue_idx": 123,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "पक्की आवाज़ में",
+   "tag": "[firmly]",
+   "text": "मैं अपना कड़ा खुद जगाऊँगी। ब!"
+  },
+  {
+   "order": 237,
+   "scene": 9,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "लेडा अपना कड़ा छूती है। उसकी अपनी सुनहरी लहर उठती है। वह अकेले अपना पूरा विशाल हल्का-बैंगनी रूप लेती है। बाकी चार अब भी छोटे हैं।"
+  },
+  {
+   "order": 238,
+   "scene": 9,
+   "dialogue_idx": 124,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "अपने बड़े पंख खोलकर",
+   "tag": "[proud]",
+   "text": "मेरा कड़ा मेरी बात सुनता है।"
+  },
+  {
+   "order": 239,
+   "scene": 9,
+   "dialogue_idx": 125,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "खुशी से",
+   "tag": "[joyful]",
+   "text": "लेडा, तुम खुद बड़ी हो गई हो!"
+  },
+  {
+   "order": 240,
+   "scene": 9,
+   "dialogue_idx": 126,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "अपना कड़ा छूते हुए",
+   "tag": "[determined]",
+   "text": "अब मैं अपना कड़ा जगाती हूँ। ब!"
+  },
+  {
+   "order": 241,
+   "scene": 9,
+   "dialogue_idx": 127,
+   "kind": "dialogue",
+   "speaker": "VESPER",
+   "direction": "धीमे उत्साह से",
+   "tag": "[softly] [excited]",
+   "text": "मैं भी अपना कड़ा खुद जगाऊँगा। ब!"
+  },
+  {
+   "order": 242,
+   "scene": 9,
+   "dialogue_idx": 128,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "खिलखिलाकर",
+   "tag": "[giggling]",
+   "text": "मैं भी खुद बड़ा बनूँगा। ब!"
+  },
+  {
+   "order": 243,
+   "scene": 9,
+   "dialogue_idx": 129,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "अपना कड़ा छूते हुए",
+   "tag": "[determined]",
+   "text": "अब हम साथ चलेंगे। ब!"
+  },
+  {
+   "order": 244,
+   "scene": 9,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "चार अलग सुनहरी लहरें उठती हैं। फ्यूरिया, वैस्पर, कैस्टर और कुकु अपनी-अपनी शक्ति से विशाल रूप लेते हैं। अब पाँचों फिर बड़े ड्रैगन हैं।"
+  },
+  {
+   "order": 245,
+   "scene": 9,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "कालू दादी के पास बैठा है।"
+  },
+  {
+   "order": 246,
+   "scene": 9,
+   "dialogue_idx": 130,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "कालू से",
+   "tag": "[gently]",
+   "text": "तुम मेरे साथ रहोगे। वे वापस आएँगे।"
+  },
+  {
+   "order": 247,
+   "scene": 9,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "कालू पाँचों की ओर भौंकता है और दादी के पास ही रहता है।"
+  },
+  {
+   "order": 248,
+   "scene": 9,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "तानसेन—हूबहू कुकु की पहले कही आवाज़ में।"
+  },
+  {
+   "order": 249,
+   "scene": 9,
+   "dialogue_idx": 130,
+   "kind": "mimic",
+   "speaker": "KUKU",
+   "direction": "",
+   "tag": "",
+   "text": "ब!"
+  },
+  {
+   "order": 250,
+   "scene": 9,
+   "dialogue_idx": 131,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "सबको देखकर",
+   "tag": "[decisive]",
+   "text": "अब चलो।"
+  },
+  {
+   "order": 251,
+   "scene": 9,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "पाँचों अपनी कलाइयाँ एक पल पास लाते हैं। फिर वे अपने-अपने पंख खोलकर उड़ते हैं। पंखहीन ऋषि छड़ी से बनी बादल-राह पर उनके पीछे चलते हैं।"
+  },
+  {
+   "order": 252,
+   "scene": 9,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "पाँचों उसी पक्के ब से सँभाले गए द्वार के पार जाते हैं। दूसरी ओर बादल हटते हैं और अक्षर गुरुकुल दिखाई देता है। वहाँ उतरने के कई घेरे, हवा में उड़ने के बड़े घेरे, बंद दरवाज़े और पुरानी मीनारें हैं। अक्षरों की बहुत-सी जगहें अभी अँधेरी हैं। पाँचों के आते ही पाँच उतरने वाले घेरे जगमगा उठते हैं।"
+  },
+  {
+   "order": 253,
+   "scene": 9,
+   "dialogue_idx": 132,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "ध्यान से",
+   "tag": "[focused]",
+   "text": "पाँच जगहें चमक रही हैं। बाकी बहुत-सी जगहें अभी अँधेरी हैं।"
+  },
+  {
+   "order": 254,
+   "scene": 9,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "पहले सीखे गए पूरे अक्षर अपनी जगह हल्के चमकते हैं। ा केवल एक पट्टी पर किसी अक्षर से जुड़ी है। हर कड़े पर ब चमकता है।"
+  },
+  {
+   "order": 255,
+   "scene": 9,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "पाँचों विशाल ड्रैगन गुरुकुल के बड़े दरवाज़ों के सामने उतरते हैं। बहुत ऊपर उड़ने का एक बुझा घेरा अचानक जागता है।"
+  },
+  {
+   "order": 256,
+   "scene": 9,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "घेरा पहले करवट लेता है। फिर वह घूमकर पूरा उलटा हो जाता है। उससे निकली रोशनी हवा के रास्ते दौड़ती हुई पाँचों के पैरों तक आती है।"
+  },
+  {
+   "order": 257,
+   "scene": 9,
+   "dialogue_idx": 133,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "ऊपर देखकर",
+   "tag": "[observant]",
+   "text": "वह पूरा घेरा उलटा हो गया है।"
+  },
+  {
+   "order": 258,
+   "scene": 9,
+   "dialogue_idx": 134,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "उत्साह से",
+   "tag": "[enthusiastically]",
+   "text": "क्या हमें उसके अंदर उड़ना है?"
+  },
+  {
+   "order": 259,
+   "scene": 9,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "कुकु, फ्यूरिया, वैस्पर, कैस्टर और लेडा ऊपर देखते हैं। वे खुश हैं, थोड़ा घबराए हैं और उसे अभी आज़माना चाहते हैं।"
+  },
+  {
+   "order": 260,
+   "scene": 9,
+   "dialogue_idx": 135,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "पहला पाठ शुरू करते हुए",
+   "tag": "[warm teaching voice]",
+   "text": "तुम्हारा पहला अभ्यास—"
+  },
+  {
+   "order": 261,
+   "scene": 9,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "कड़ी समाप्त।"
+  }
+ ],
+ "chunks": [
+  {
+   "id": "chunk_000",
+   "scene": 0,
+   "kind": "dialogue",
+   "characters": 1149,
+   "segment_orders": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "id": "chunk_001",
+   "scene": 1000,
+   "kind": "dialogue",
+   "characters": 24,
+   "segment_orders": [
+    16
+   ]
+  },
+  {
+   "id": "chunk_002",
+   "scene": 1,
+   "kind": "dialogue",
+   "characters": 1742,
+   "segment_orders": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
+   ]
+  },
+  {
+   "id": "chunk_003",
+   "scene": 2,
+   "kind": "dialogue",
+   "characters": 1786,
+   "segment_orders": [
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+   ]
+  },
+  {
+   "id": "chunk_004",
+   "scene": 2,
+   "kind": "dialogue",
+   "characters": 169,
+   "segment_orders": [
+    57
+   ]
+  },
+  {
+   "id": "chunk_005",
+   "scene": 3,
+   "kind": "dialogue",
+   "characters": 1784,
+   "segment_orders": [
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ]
+  },
+  {
+   "id": "chunk_006",
+   "scene": 3,
+   "kind": "dialogue",
+   "characters": 138,
+   "segment_orders": [
+    81,
+    82
+   ]
+  },
+  {
+   "id": "chunk_007",
+   "scene": 3,
+   "kind": "chorus",
+   "characters": 35,
+   "segment_orders": [
+    83
+   ]
+  },
+  {
+   "id": "chunk_008",
+   "scene": 3,
+   "kind": "dialogue",
+   "characters": 404,
+   "segment_orders": [
+    84,
+    85,
+    86
+   ]
+  },
+  {
+   "id": "chunk_009",
+   "scene": 4,
+   "kind": "dialogue",
+   "characters": 1579,
+   "segment_orders": [
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104
+   ]
+  },
+  {
+   "id": "chunk_010",
+   "scene": 5,
+   "kind": "dialogue",
+   "characters": 1716,
+   "segment_orders": [
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126
+   ]
+  },
+  {
+   "id": "chunk_011",
+   "scene": 5,
+   "kind": "dialogue",
+   "characters": 952,
+   "segment_orders": [
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135
+   ]
+  },
+  {
+   "id": "chunk_012",
+   "scene": 6,
+   "kind": "dialogue",
+   "characters": 1727,
+   "segment_orders": [
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157
+   ]
+  },
+  {
+   "id": "chunk_013",
+   "scene": 6,
+   "kind": "dialogue",
+   "characters": 103,
+   "segment_orders": [
+    158
+   ]
+  },
+  {
+   "id": "chunk_014",
+   "scene": 7,
+   "kind": "dialogue",
+   "characters": 1653,
+   "segment_orders": [
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178
+   ]
+  },
+  {
+   "id": "chunk_015",
+   "scene": 7,
+   "kind": "dialogue",
+   "characters": 1777,
+   "segment_orders": [
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199
+   ]
+  },
+  {
+   "id": "chunk_016",
+   "scene": 7,
+   "kind": "dialogue",
+   "characters": 242,
+   "segment_orders": [
+    200,
+    201,
+    202
+   ]
+  },
+  {
+   "id": "chunk_017",
+   "scene": 8,
+   "kind": "dialogue",
+   "characters": 1723,
+   "segment_orders": [
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224
+   ]
+  },
+  {
+   "id": "chunk_018",
+   "scene": 8,
+   "kind": "dialogue",
+   "characters": 253,
+   "segment_orders": [
+    225,
+    226,
+    227
+   ]
+  },
+  {
+   "id": "chunk_019",
+   "scene": 9,
+   "kind": "dialogue",
+   "characters": 1420,
+   "segment_orders": [
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248
+   ]
+  },
+  {
+   "id": "chunk_020",
+   "scene": 9,
+   "kind": "mimic",
+   "characters": 2,
+   "segment_orders": [
+    249
+   ]
+  },
+  {
+   "id": "chunk_021",
+   "scene": 9,
+   "kind": "dialogue",
+   "characters": 1283,
+   "segment_orders": [
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261
+   ]
+  }
+ ]
+}

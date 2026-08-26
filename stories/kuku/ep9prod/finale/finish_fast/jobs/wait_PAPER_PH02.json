@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-08-18T20:37:43.420632Z",
+  "display_name": "GPT Image 2",
+  "id": "c3c43d4d-0528-4e9c-8cc2-9db4c5716182",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_203743_c3c43d4d-0528-4e9c-8cc2-9db4c5716182_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "3bd9c285-196a-40a1-aa9c-c650b2e6f5d3",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/3bd9c285-196a-40a1-aa9c-c650b2e6f5d3_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "f8b17095-6190-43c1-8334-9ecef15ee284",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/f8b17095-6190-43c1-8334-9ecef15ee284_resize.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "The elderly bald human sage from the reference sheet taps his wooden staff once on the ground outside the cracked golden gate; a narrow road of layered paper cloud unrolls from the tap toward distant paper mountains; he takes his first step onto it; far away one small dark paper eagle follows in the sky; dawn light. 3D papercraft style, exactly matching the cut-paper character designs in the reference images: layered cut-paper illustration with real depth, soft matte construction-paper textures, visible paper edges, folds and creases, warm storybook palette, soft studio lighting, gentle depth of field, like a lit diorama built from card. Non-photorealistic, made of paper. NO flat single-plane 2D, NO sticker look, NO glossy plastic 3D render, NO photorealism, no text, no letters.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_203743_c3c43d4d-0528-4e9c-8cc2-9db4c5716182.png",
+  "status": "completed"
+}

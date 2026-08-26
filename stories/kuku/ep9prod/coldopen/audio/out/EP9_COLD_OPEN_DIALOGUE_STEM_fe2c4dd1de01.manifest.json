@@ -1,0 +1,186 @@
+{
+ "audio": "../stories/kuku/ep9prod/coldopen/audio/out/EP9_COLD_OPEN_DIALOGUE_STEM_fe2c4dd1de01.wav",
+ "audio_sha256": "0e5d58598c85e7bc5372449173b0e4470b17e9ca8d9de017e996eb8109c3cc38",
+ "take_set_fingerprint": "fe2c4dd1de01837ccd2acce82019df8e4453acd15214ced50d38d5fcf1467f74",
+ "mix_config": "per-line-loudnorm-I-17-TP-1.5-LRA11|delay-editorial-at|amix-raw|stereo-44100-wav-v1",
+ "duration_seconds": 120,
+ "status": "dialogue stem only; not the approved final mix",
+ "takes": [
+  {
+   "line_id": "L01",
+   "character": "नगर-रक्षक",
+   "performer": "Shyam",
+   "voice_id": "5ycO0zpSCEkvR4Ri6gk9",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L01_485d376530d9c50b9cae3a6a7889fb16535c5628c3bfc02de6339cfd5c984d27.mp3",
+   "sha256": "4522093a3978513aa1ba87e68996b6259e5bd2f05294ab00d2b792bab6ed3e88",
+   "duration_seconds": 3.6,
+   "available_seconds": 4.9,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L02",
+   "character": "भविष्य की फ्यूरिया",
+   "performer": "Tarini",
+   "voice_id": "FFmp1h1BMl0iVHA0JxrI",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L02_2ebdf5b3db66dbb221c21f6a4679025dfedcebc49fe6bd81c098d230be2475b0.mp3",
+   "sha256": "6bff2f3e44e79bc813222ccbff9f0fd0d0d87d4dbe7199b52afac96e52e7ff47",
+   "duration_seconds": 3.12,
+   "available_seconds": 5.3,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L03",
+   "character": "भविष्य की फ्यूरिया",
+   "performer": "Tarini",
+   "voice_id": "FFmp1h1BMl0iVHA0JxrI",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L03_0c6e158dcb6d004a7f7c800d58aa0d4af22ae5d49655398fa1c70cd8282a0953.mp3",
+   "sha256": "91e08e1a2a32c821b8d3ec07727420821c00cefe484f366a5cfbbb3b7065f1b8",
+   "duration_seconds": 2.16,
+   "available_seconds": 3.6,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L04",
+   "character": "भविष्य की फ्यूरिया",
+   "performer": "Tarini",
+   "voice_id": "FFmp1h1BMl0iVHA0JxrI",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L04_36c8496c1a935a2d0569a5dced2a6773e87d95d126265dddf9f722aa76be4aad.mp3",
+   "sha256": "65a828189a2782d7420d6cea364be59d5da75991404d65a35dfe1268d4295b3b",
+   "duration_seconds": 5.04,
+   "available_seconds": 5.3,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L05",
+   "character": "भविष्य की फ्यूरिया",
+   "performer": "Tarini",
+   "voice_id": "FFmp1h1BMl0iVHA0JxrI",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L05_8b2d1bcab1ac5acb1af363ccc100ad6fbd6358f7bfafea5c9062b19d6ec40f98.mp3",
+   "sha256": "74261b2f1e8eafe316b42c42704b17c52dad0badfb0008eb9a21c14a2bfb8327",
+   "duration_seconds": 3.84,
+   "available_seconds": 4.2,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L06",
+   "character": "भविष्य का वैस्पर",
+   "performer": "Mahira J",
+   "voice_id": "subIZc6skATBQ1Rbqpi7",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L06_d9f00fd738fab997332962d4c2a45bb324bfa2c36112d1d12a552626f40f9700.mp3",
+   "sha256": "3575b7baaf4075edb1769f884fd4591a72fc2c8af496a6e83c23f1f2a39813a1",
+   "duration_seconds": 3.36,
+   "available_seconds": 6,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L07",
+   "character": "भविष्य की फ्यूरिया",
+   "performer": "Tarini",
+   "voice_id": "FFmp1h1BMl0iVHA0JxrI",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L07_04d184837203897926c1021f581c32d8cdf9f9f5d49a2906ad6139179fa0d072.mp3",
+   "sha256": "2f40e5f944e7ff526104b5071d6051c3f6a759e2966b422c503e8a36ff5fa6e9",
+   "duration_seconds": 1.36,
+   "available_seconds": 2,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L08",
+   "character": "भविष्य की लेडा",
+   "performer": "Mini",
+   "voice_id": "nUX4UWK0Tf1qh5zvFZWR",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L08_62cfb2330193649f60ab69eb6251c936771e6730dd797c62ca7e979f8124220b.mp3",
+   "sha256": "b004729e56e0983e6c096264efb52a71defd85f4d7b05ca81817638d9b28b044",
+   "duration_seconds": 5.12,
+   "available_seconds": 5.6,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L09",
+   "character": "भविष्य का कैस्टर",
+   "performer": "Bittu",
+   "voice_id": "4iqKdEXMW8NRF8USiS3Q",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L09_0f1af50c19d3c6cd3897207ea77e857925b8b351006ee49d43dcee8ce2c93aa4.mp3",
+   "sha256": "8b478571d22b92eae8b6386be39a6db2bc671e4a3cf85d3e0028da51f4c59444",
+   "duration_seconds": 2.4,
+   "available_seconds": 2.6,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L10",
+   "character": "भविष्य की लेडा",
+   "performer": "Mini",
+   "voice_id": "nUX4UWK0Tf1qh5zvFZWR",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L10_cefe521060405bbf0680eccfb397adafc3ad741c0d8b52a71c0ea30bd211ef60.mp3",
+   "sha256": "b584e5fa9fd4027879d347f3ea227aeef1effc6174b6b49fbdf4a26b5834cd01",
+   "duration_seconds": 4.16,
+   "available_seconds": 4.2,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L11",
+   "character": "भविष्य का कैस्टर",
+   "performer": "Bittu",
+   "voice_id": "4iqKdEXMW8NRF8USiS3Q",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L11_cb7fe069cd37c31e3474ddf319a671d29596d8966ad59fd329271159bdad7b8b.mp3",
+   "sha256": "130f6003f5238c09d408cc1de23dfe876df267eeeefe8a7fc82489b551507cf2",
+   "duration_seconds": 2.4,
+   "available_seconds": 2.45,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L12",
+   "character": "भविष्य की लेडा",
+   "performer": "Mini",
+   "voice_id": "nUX4UWK0Tf1qh5zvFZWR",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L12_b550926d18e783a74175d2517fc94870b15d0c84c9229e3f4b742834bc5763cc.mp3",
+   "sha256": "02497539c7943525b0edfb88092b6ab368b68f4425c7018f6bfa03900f11f29a",
+   "duration_seconds": 1.28,
+   "available_seconds": 1.35,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L13",
+   "character": "भविष्य का कुकु",
+   "performer": "Amit",
+   "voice_id": "NbvR1eY6Q8ivACdEO8PV",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L13_e00c14281d71009533f7cc2bf0e726b2088a88bcd7d1a7e8aec8b630d535cc1d.mp3",
+   "sha256": "628b9fa2162f2b61a2da0127fad9ef65223e33912fd0c56c8af59d85f0952afe",
+   "duration_seconds": 3.52,
+   "available_seconds": 5.5,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L14",
+   "character": "भविष्य की लेडा",
+   "performer": "Mini",
+   "voice_id": "nUX4UWK0Tf1qh5zvFZWR",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L14_b550926d18e783a74175d2517fc94870b15d0c84c9229e3f4b742834bc5763cc.mp3",
+   "sha256": "eda209bb77d391e577909d66f2dd5a400aed548eab78124bbd55948f22701d10",
+   "duration_seconds": 2.32,
+   "available_seconds": 2.4,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L15",
+   "character": "बच्ची फ्यूरिया",
+   "performer": "Tarini",
+   "voice_id": "FFmp1h1BMl0iVHA0JxrI",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L15_226652362f24f3676952229fc0c18976b15c2477f5206648e960392369b927e3.mp3",
+   "sha256": "32b01d86f221313d4c3526ee596786259bf892339100ad2c0ca5a77948383548",
+   "duration_seconds": 1.68,
+   "available_seconds": 1.7,
+   "fits_picture_window": true
+  },
+  {
+   "line_id": "L16",
+   "character": "दादी",
+   "performer": "Gungun",
+   "voice_id": "nfMYisZqs1GOjTFllho3",
+   "file": "../stories/kuku/ep9prod/coldopen/audio/cache/L16_1de284b7d132e4f2aa99f2eb85af70e55850cf4d785afd94322c557266152888.mp3",
+   "sha256": "a3dee6f51e160ee30a6f5de18949f6303d2807ad03de1b7a4705a1b1f66e71b2",
+   "duration_seconds": 5.2,
+   "available_seconds": 5.25,
+   "fits_picture_window": true
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "status": "PROPOSED_UNAPPROVED",
+  "provider": "Higgsfield",
+  "model": {
+    "display_name": "GPT Image 2",
+    "job_type": "gpt_image_2",
+    "quality": "high",
+    "resolution": "2k",
+    "outputs_per_request": 1,
+    "background_parameter": "unsupported",
+    "alpha_parameter": "unsupported",
+    "schema_checked_at": "2026-08-05",
+    "schema_allowed_aspect_ratios": [
+      "1:1",
+      "4:3",
+      "3:4",
+      "16:9",
+      "9:16",
+      "3:2",
+      "2:3"
+    ]
+  },
+  "cost": {
+    "verified_at": "2026-08-05",
+    "credits_per_request": 7,
+    "maximum_requests": 6,
+    "maximum_total_credits": 42,
+    "automatic_retries": 0,
+    "rerenders": 0,
+    "variants": 0,
+    "upscales": 0
+  },
+  "external_reference_policy": "No Mini Force, PBS KIDS, ASTRO BOT, franchise, or other third-party quality-reference image may be sent to the provider. Only earlier passing outputs from this manifest may be attached.",
+  "style_formula_id": "STYLE_FORMULA_v1",
+  "style_formula": "Premium 2.5D kinetic cut-paper action adventure, rendered as layered screen-printed card and brushed brass inside a cinematic civic-fantasy diorama. Chunky, child-readable silhouettes; crisp die-cut edges; tactile braided cords; embossed machine seams; no photorealism or toy-plastic gloss. Guardian roles use emerald, scarlet, cobalt, gold, and rose against storm-blue stone and warm cream architecture. Bonds glow white-gold; sabotage stitches glow violet. Low-angle wides, strong parallax, rim light, restrained bloom, readable faces, hard transformation silhouettes, and clear foreground/background separation at landscape gameplay distance.",
+  "execution_rule": "Run in order. Before each request, resolve only the listed prerequisite asset IDs to their raw file SHA-256 and provider job/upload IDs, create and hash an execution-request record, re-quote cost, then submit exactly one job. A failed prerequisite or hard-contract check stops the batch before later spend.",
+  "background_alpha_rule": "The provider schema exposes no background or alpha parameter. Sheet prompts therefore request a flat matte extraction background. Preserve the raw provider image. Any transparency, separation, registration, resize, or rig work is later zero-credit local authorship and is never represented as native provider alpha or resolution.",
+  "requests": [
+    {
+      "order": 1,
+      "id": "L01_ECHO_MASTER",
+      "output_asset_id": "echo_master",
+      "prompt_sha256": "9b5cef33915e0c103894080389b26bd7252f3cf6ade6c30e561cfadd054310f0",
+      "aspect_ratio": "1:1",
+      "reference_asset_ids": [],
+      "prompt": "Production character look-development sheet, square. Echo is one compact green chameleon shown in registered front, side, and rear orthographic views with determined and worried faces. Independent eyes, loose green formation mark, and ordinary wrench remain recognizable; his biology stays constant. Flat matte cream extraction background, even light, clean isolated silhouettes, unlettered sheet.\n\nPremium 2.5D kinetic cut-paper action adventure, rendered as layered screen-printed card and brushed brass inside a cinematic civic-fantasy diorama. Chunky, child-readable silhouettes; crisp die-cut edges; tactile braided cords; embossed machine seams; no photorealism or toy-plastic gloss. Guardian roles use emerald, scarlet, cobalt, gold, and rose against storm-blue stone and warm cream architecture. Bonds glow white-gold; sabotage stitches glow violet. Low-angle wides, strong parallax, rim light, restrained bloom, readable faces, hard transformation silhouettes, and clear foreground/background separation at landscape gameplay distance.",
+      "hard_contract": "One coherent green chameleon identity across all views; no biological transformation; mark and wrench stay separate; silhouette reads at 96 px; no text, watermark, or franchise resemblance."
+    },
+    {
+      "order": 2,
+      "id": "L02_BLAZE_MASTER",
+      "output_asset_id": "blaze_master",
+      "prompt_sha256": "af09aa857a45b40f05b8ff86e703cb45b8f2a12d31c41cbac2d555e54544df33",
+      "aspect_ratio": "1:1",
+      "reference_asset_ids": [
+        "echo_master"
+      ],
+      "prompt": "Using the reference only for shared material, lighting, and scale language, create Blaze's square production character sheet: one scarlet-red falcon in registered front, side, and rear orthographic views, with launch focus, brake effort, and reluctant release expressions. Forward arrow silhouette, wings, and talons stay distinct from Echo. Flat matte cream extraction background, even light, unlettered sheet.\n\nPremium 2.5D kinetic cut-paper action adventure, rendered as layered screen-printed card and brushed brass inside a cinematic civic-fantasy diorama. Chunky, child-readable silhouettes; crisp die-cut edges; tactile braided cords; embossed machine seams; no photorealism or toy-plastic gloss. Guardian roles use emerald, scarlet, cobalt, gold, and rose against storm-blue stone and warm cream architecture. Bonds glow white-gold; sabotage stitches glow violet. Low-angle wides, strong parallax, rim light, restrained bloom, readable faces, hard transformation silhouettes, and clear foreground/background separation at landscape gameplay distance.",
+      "hard_contract": "One coherent red falcon identity across all views; clearly distinct from Echo; launch/brake silhouettes readable at 96 px; no extra power, text, watermark, or franchise resemblance."
+    },
+    {
+      "order": 3,
+      "id": "L03_PLAZA_MASTER",
+      "output_asset_id": "plaza_master",
+      "prompt_sha256": "681c60fa406104e50cf566255eaea443b6c19c017860d74be08379228f523d1c",
+      "aspect_ratio": "16:9",
+      "reference_asset_ids": [
+        "echo_master",
+        "blaze_master"
+      ],
+      "prompt": "Create one empty 16:9 Gate Plaza environment master at gameplay camera. A civic rail curve crosses storm-blue stone past five formation sockets, council dais, maintenance case, forge inlet, east brake route, closing switch, and distant metal-canopy Gear Forest. Three clean parallax depth bands, warm cream architecture, fixed side-view diorama, character scale honored, unlettered scene.\n\nPremium 2.5D kinetic cut-paper action adventure, rendered as layered screen-printed card and brushed brass inside a cinematic civic-fantasy diorama. Chunky, child-readable silhouettes; crisp die-cut edges; tactile braided cords; embossed machine seams; no photorealism or toy-plastic gloss. Guardian roles use emerald, scarlet, cobalt, gold, and rose against storm-blue stone and warm cream architecture. Bonds glow white-gold; sabotage stitches glow violet. Low-angle wides, strong parallax, rim light, restrained bloom, readable faces, hard transformation silhouettes, and clear foreground/background separation at landscape gameplay distance.",
+      "hard_contract": "All named landmarks occupy one coherent playable stage; three depth bands can be separated; interaction midground dominates in grayscale; no characters, text, watermark, or copied setting."
+    },
+    {
+      "order": 4,
+      "id": "L04_TRAM_MASTER_PLATE",
+      "output_asset_id": "tram_master",
+      "prompt_sha256": "9abf431da9b10ee666bff21a6a9c7fc1b1dcc9a22a968b438b90e1976d436a13",
+      "aspect_ratio": "16:9",
+      "reference_asset_ids": [
+        "plaza_master",
+        "echo_master",
+        "blaze_master"
+      ],
+      "prompt": "Create one 16:9 sky-tram production master plate matching the referenced plaza and character scale. Full side profile: three distinct civic cars, articulated windows and rear door, brake contact, and a still-connected multi-bolt middle coupling whose two bolts can later shear. Entire vehicle fits cleanly with generous separation margin on a flat matte storm-blue extraction background, unlettered.\n\nPremium 2.5D kinetic cut-paper action adventure, rendered as layered screen-printed card and brushed brass inside a cinematic civic-fantasy diorama. Chunky, child-readable silhouettes; crisp die-cut edges; tactile braided cords; embossed machine seams; no photorealism or toy-plastic gloss. Guardian roles use emerald, scarlet, cobalt, gold, and rose against storm-blue stone and warm cream architecture. Bonds glow white-gold; sabotage stitches glow violet. Low-angle wides, strong parallax, rim light, restrained bloom, readable faces, hard transformation silhouettes, and clear foreground/background separation at landscape gameplay distance.",
+      "hard_contract": "All three cars, rear window/door, brake contact, and still-connected coupling read; full tram fits; scale overwhelms Blaze; geometry can be manually separated into a later 3072×1024 local rig; no text, watermark, or franchise vehicle."
+    },
+    {
+      "order": 5,
+      "id": "L05_SCALE_SEMANTIC_MASTER",
+      "output_asset_id": "equipment_scale_master",
+      "prompt_sha256": "bba2d3e4270f6a3bdfd54f3f0140996a0728e5623d113d20c0f913db2433d095",
+      "aspect_ratio": "1:1",
+      "reference_asset_ids": [
+        "echo_master",
+        "blaze_master",
+        "tram_master"
+      ],
+      "prompt": "Create a square, unlettered production key sheet at one shared scale: Guardian, closed pack, shell drone, Navigation drone, three-times-taller exoframe, and tram car. A second clean row contrasts raised white-gold endpoint braid with angular loose-tail violet stitch; raised ready ring with flat evaluated ring and empty source cradle; and a rigid PAIR crossbar joining exactly two complete occurrences. Matte cream background.\n\nPremium 2.5D kinetic cut-paper action adventure, rendered as layered screen-printed card and brushed brass inside a cinematic civic-fantasy diorama. Chunky, child-readable silhouettes; crisp die-cut edges; tactile braided cords; embossed machine seams; no photorealism or toy-plastic gloss. Guardian roles use emerald, scarlet, cobalt, gold, and rose against storm-blue stone and warm cream architecture. Bonds glow white-gold; sabotage stitches glow violet. Low-angle wides, strong parallax, rim light, restrained bloom, readable faces, hard transformation silhouettes, and clear foreground/background separation at landscape gameplay distance.",
+      "hard_contract": "All scale silhouettes and five semantic contrasts are distinct at 1280×720 and in grayscale; exactly two PAIR occurrences; source-empty state unambiguous; no text, watermark, third copy, or symbol borrowing."
+    },
+    {
+      "order": 6,
+      "id": "L06_SPEED_EQUIPMENT_MASTER",
+      "output_asset_id": "speed_equipment_master",
+      "prompt_sha256": "67f4d91992fe34c4ae397dcd31dd7316e6542e9e860c2d40d8b5ca1c6c3e65d6",
+      "aspect_ratio": "1:1",
+      "reference_asset_ids": [
+        "blaze_master",
+        "equipment_scale_master"
+      ],
+      "prompt": "Create one square part-correspondence equipment sheet. Left: a compact closed Blaze Speed Pack. Center: every same part separated in orderly correspondence. Right: those exact parts locked into a rail-running rescue exoframe exactly three times Blaze's height and at least twice his wingspan, with small Blaze visibly driving at its center. Flat matte cream extraction background, consistent view, even light, unlettered.\n\nPremium 2.5D kinetic cut-paper action adventure, rendered as layered screen-printed card and brushed brass inside a cinematic civic-fantasy diorama. Chunky, child-readable silhouettes; crisp die-cut edges; tactile braided cords; embossed machine seams; no photorealism or toy-plastic gloss. Guardian roles use emerald, scarlet, cobalt, gold, and rose against storm-blue stone and warm cream architecture. Bonds glow white-gold; sabotage stitches glow violet. Low-angle wides, strong parallax, rim light, restrained bloom, readable faces, hard transformation silhouettes, and clear foreground/background separation at landscape gameplay distance.",
+      "hard_contract": "Every visible exoframe part maps to the closed pack; scale bar passes; Blaze remains actor and readable; rail-brake function is specific; no autonomous machine, extra part, text, watermark, or franchise resemblance."
+    }
+  ],
+  "zero_credit_evaluation_composites": [
+    {
+      "id": "L01_EVAL_VULNERABILITY_WIDE",
+      "size": "1280x720",
+      "inputs": [
+        "plaza_master",
+        "tram_master",
+        "echo_master",
+        "blaze_master"
+      ],
+      "rule": "Local registered composite only; tiny heroes beneath the three-car tram; one-glance subject/danger/scale check; do-not-ship lookdev evidence."
+    },
+    {
+      "id": "L01_EVAL_SEMANTIC_GAMEPLAY",
+      "size": "1280x720",
+      "inputs": [
+        "plaza_master",
+        "equipment_scale_master"
+      ],
+      "rule": "Local crop/composite only; one active cue, valid Bond versus lure/stitch, ready/evaluated/source-empty/PAIR grammar at gameplay scale; muted and grayscale check; do-not-ship."
+    },
+    {
+      "id": "L01_EVAL_SPEED_BEFORE_AFTER",
+      "size": "1280x720",
+      "inputs": [
+        "blaze_master",
+        "equipment_scale_master",
+        "speed_equipment_master"
+      ],
+      "rule": "Local registered side-by-side before/after with identical parts and ruler; Blaze remains visible; do-not-ship lookdev evidence."
+    }
+  ],
+  "pre_spend_rights_gate": {
+    "required": true,
+    "rule": "Immediately before request 1, archive the governing Higgsfield terms URL, effective date, account plan, model schema, exact cost quote, and a written ownership/commercial-use/data-use conclusion. Record prompt and every resolved reference hash. Ambiguous or changed rights, price, model, or plan blocks submission and voids approval."
+  }
+}

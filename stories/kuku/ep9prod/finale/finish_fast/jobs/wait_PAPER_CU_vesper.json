@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-08-18T20:40:59.620542Z",
+  "display_name": "GPT Image 2",
+  "id": "ddf6376d-9b99-4bd3-987e-9f9dc84025c7",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_204059_ddf6376d-9b99-4bd3-987e-9f9dc84025c7_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "e13a01cf-9f91-454b-966f-8546eabc9b66",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/e13a01cf-9f91-454b-966f-8546eabc9b66_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "245a7184-f66c-4f2c-97dd-1e9322747ab8",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/245a7184-f66c-4f2c-97dd-1e9322747ab8_resize.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Close-up on the face and shoulders of Vesper, the light-blue cut-paper child dragon, dreamy half-lidded eyes glancing upward at the wind, dawn meadow; he speaks mid-sentence, mouth open. 3D papercraft style, exactly matching the cut-paper character designs in the reference images: layered cut-paper illustration with real depth, soft matte construction-paper textures, visible paper edges, folds and creases, warm storybook palette, soft studio lighting, gentle depth of field, like a lit diorama built from card. Non-photorealistic, made of paper. NO flat single-plane 2D, NO sticker look, NO glossy plastic 3D render, NO photorealism, no text, no letters.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_204059_ddf6376d-9b99-4bd3-987e-9f9dc84025c7.png",
+  "status": "completed"
+}

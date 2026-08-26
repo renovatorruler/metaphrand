@@ -1,0 +1,227 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 4
+		},
+		"mels": 128,
+		"ftype": 8
+	},
+	"params": {
+		"model": "/private/tmp/metaphrand-whisper/ggml-large-v3-turbo-q5_0.bin",
+		"language": "hi",
+		"translate": false
+	},
+	"result": {
+		"language": "hi"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,080"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2080
+			},
+			"text": " इन सब में बा है",
+			"tokens": [
+				{
+					"text": "[_BEG_]",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,000"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 0
+					},
+					"id": 50365,
+					"p": 0.98186,
+					"t_dtw": -1
+				},
+				{
+					"text": " इ",
+					"timestamps": {
+						"from": "00:00:00,010",
+						"to": "00:00:00,360"
+					},
+					"offsets": {
+						"from": 10,
+						"to": 360
+					},
+					"id": 8485,
+					"p": 0.977299,
+					"t_dtw": -1
+				},
+				{
+					"text": "न",
+					"timestamps": {
+						"from": "00:00:00,380",
+						"to": "00:00:00,480"
+					},
+					"offsets": {
+						"from": 380,
+						"to": 480
+					},
+					"id": 35082,
+					"p": 0.986248,
+					"t_dtw": -1
+				},
+				{
+					"text": " स",
+					"timestamps": {
+						"from": "00:00:00,560",
+						"to": "00:00:00,600"
+					},
+					"offsets": {
+						"from": 560,
+						"to": 600
+					},
+					"id": 49316,
+					"p": 0.96364,
+					"t_dtw": -1
+				},
+				{
+					"text": "ब",
+					"timestamps": {
+						"from": "00:00:00,600",
+						"to": "00:00:00,850"
+					},
+					"offsets": {
+						"from": 600,
+						"to": 850
+					},
+					"id": 3941,
+					"p": 0.989329,
+					"t_dtw": -1
+				},
+				{
+					"text": " म",
+					"timestamps": {
+						"from": "00:00:00,960",
+						"to": "00:00:00,960"
+					},
+					"offsets": {
+						"from": 960,
+						"to": 960
+					},
+					"id": 48449,
+					"p": 0.979038,
+					"t_dtw": -1
+				},
+				{
+					"text": "े",
+					"timestamps": {
+						"from": "00:00:01,200",
+						"to": "00:00:01,200"
+					},
+					"offsets": {
+						"from": 1200,
+						"to": 1200
+					},
+					"id": 21981,
+					"p": 0.994336,
+					"t_dtw": -1
+				},
+				{
+					"text": "ं",
+					"timestamps": {
+						"from": "00:00:01,200",
+						"to": "00:00:01,320"
+					},
+					"offsets": {
+						"from": 1200,
+						"to": 1320
+					},
+					"id": 31945,
+					"p": 0.995598,
+					"t_dtw": -1
+				},
+				{
+					"text": " ब",
+					"timestamps": {
+						"from": "00:00:01,460",
+						"to": "00:00:01,680"
+					},
+					"offsets": {
+						"from": 1460,
+						"to": 1680
+					},
+					"id": 8485,
+					"p": 0.929264,
+					"t_dtw": -1
+				},
+				{
+					"text": "ा",
+					"timestamps": {
+						"from": "00:00:01,680",
+						"to": "00:00:01,790"
+					},
+					"offsets": {
+						"from": 1680,
+						"to": 1790
+					},
+					"id": 17937,
+					"p": 0.849284,
+					"t_dtw": -1
+				},
+				{
+					"text": " ह",
+					"timestamps": {
+						"from": "00:00:01,900",
+						"to": "00:00:01,920"
+					},
+					"offsets": {
+						"from": 1900,
+						"to": 1920
+					},
+					"id": 37139,
+					"p": 0.741632,
+					"t_dtw": -1
+				},
+				{
+					"text": "ै",
+					"timestamps": {
+						"from": "00:00:01,920",
+						"to": "00:00:02,080"
+					},
+					"offsets": {
+						"from": 1920,
+						"to": 2080
+					},
+					"id": 43372,
+					"p": 0.997626,
+					"t_dtw": -1
+				},
+				{
+					"text": "[_TT_104]",
+					"timestamps": {
+						"from": "00:00:02,080",
+						"to": "00:00:02,080"
+					},
+					"offsets": {
+						"from": 2080,
+						"to": 2080
+					},
+					"id": 50469,
+					"p": 0.315851,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

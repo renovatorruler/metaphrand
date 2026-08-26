@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.metaphrand.kuku-learning-game</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/dusty/.nvm/versions/node/v24.13.1/bin/node</string>
+    <string>/Users/dusty/Dev/metaphrand/studio/src/Kuku_LearningGameServe.res.mjs</string>
+  </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>GAME_DIR</key>
+    <string>/Users/dusty/Dev/metaphrand/stories/kuku/game</string>
+    <key>PORT</key>
+    <string>8405</string>
+  </dict>
+  <key>KeepAlive</key>
+  <true/>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>ProcessType</key>
+  <string>Background</string>
+  <key>ThrottleInterval</key>
+  <integer>10</integer>
+  <key>StandardOutPath</key>
+  <string>/tmp/kuku-learning-game.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/kuku-learning-game.err</string>
+</dict>
+</plist>

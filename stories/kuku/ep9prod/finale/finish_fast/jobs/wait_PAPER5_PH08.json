@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-08-18T22:29:58.520045Z",
+  "display_name": "GPT Image 2",
+  "id": "06761faa-8718-4e5a-ba87-dc46e1c133af",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_222958_06761faa-8718-4e5a-ba87-dc46e1c133af_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "28b2994d-c714-486e-8cc3-451324bfcb07",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/28b2994d-c714-486e-8cc3-451324bfcb07_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "40921207-cb8e-4043-8957-55688ba3a704",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/40921207-cb8e-4043-8957-55688ba3a704_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "fc8a8e28-a742-44ca-bd95-4d5977e0228c",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/fc8a8e28-a742-44ca-bd95-4d5977e0228c_resize.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Wide: the planted staff bends visibly toward the cracked golden gate, its golden rings flickering fast; an ordinary small cream paper GOAT KID on ALL FOUR HOOVES grazing calmly on the grass in the foreground, a tiny bell at its neck — a normal four-legged baby goat, never standing upright, never touching anything; the ONLY animal in the frame, no puppy, no dog; at frame right the small pink child dragon Leda turns her head sharply, hearing something the others miss. 3D papercraft style, exactly matching the cut-paper character designs in the reference images: layered cut-paper illustration with real depth, soft matte construction-paper textures, visible paper edges, folds and creases, warm storybook palette, soft studio lighting, gentle depth of field, like a lit diorama built from card. Non-photorealistic, made of paper. NO flat single-plane 2D, NO sticker look, NO glossy plastic 3D render, NO photorealism, no text, no letters.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_222958_06761faa-8718-4e5a-ba87-dc46e1c133af.png",
+  "status": "completed"
+}

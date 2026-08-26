@@ -1,0 +1,32 @@
+{
+ "pipeline_version": "kuku-ep9-finale-dialogue-v4-vakyansh-validated",
+ "algorithm_version": "kuku-local-word-align-v2-punctuation-boundaries",
+ "validation_method": "independent-local-whisper-no-prompt",
+ "validation_config": "whisper.cpp|-ng|pcm16-mono-16khz|-l hi|-ojf|-sow|-mc 0|no-fallback|temperature=0|beam=5|best-of=5|no-prompt",
+ "whisper_version": "whisper.cpp version: 1.9.2",
+ "whisper_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+ "order": 184,
+ "chunk_id": "chunk_015",
+ "source_audio": "../stories/kuku/ep9prod/table_read/cache/dialogue_6202a806f66ae4fc6d7b4807c76c914b23ad1634e794af3696a94db015ba5f77.mp3",
+ "source_sha256": "d3cf973de5fbfb55a9a674ec39adccfa05cb82c765800796f8de857f148b426b",
+ "source_start": 64.96641908006815,
+ "source_end": 66.88817717206133,
+ "expected_text": "मेरे पंख मेरी बात सुन रहे हैं।",
+ "expected_text_sha256": "2bf1a3bb45295b8fe4d8288bf38db74d154dfbc29405e9ba94b2383d502d0dee",
+ "ctc_evidence_identity": "4944d7c086f564b932e54ffdb6303265f7f50154410a5fdba48de71548cff0d8",
+ "raw_whisper_json": "../stories/kuku/ep9prod/finale/audio/alignment/stem_validation/raw/184_10dda962e1a9f2c6a5d53b108a77268788afc3b8e69b4ffd0cc5d6229a8843f5.whisper.json",
+ "raw_whisper_sha256": "340b63daf5c5285703a12141928f6124c19f6868304b1f52adbcdbeec79225ab",
+ "quality": {
+  "expected_words": 7,
+  "observed_words": 7,
+  "matched_words": 6,
+  "coverage": 0.8571428571428571,
+  "observed_precision": 0.8571428571428571,
+  "mean_similarity": 1,
+  "sequence_score": 0.9523809523809524,
+  "average_token_probability": 0.9573966666666668,
+  "silence_supported_boundaries": 0,
+  "boundary_count": 0,
+  "confidence": 0.9166666666666667
+ }
+}

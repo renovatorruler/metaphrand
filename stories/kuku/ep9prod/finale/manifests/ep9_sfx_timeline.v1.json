@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "purpose": "Episode 9 sound effects resolved against EDL v4. startSeconds is absolute in the 720s main story (which begins at 2:15 of the full episode). Regenerate with Kuku_SfxEp9 after any retime.",
+  "cues": [
+    {
+      "id": "SFX01_claw_on_stone",
+      "beat": "S01-B01",
+      "path": "../audio/sfx/SFX01_claw_on_stone.mp3",
+      "startSeconds": 135.3,
+      "durationSeconds": 3,
+      "gain": 0.45
+    },
+    {
+      "id": "SFX02_echo_rises",
+      "beat": "S01-B02",
+      "path": "../audio/sfx/SFX02_echo_rises.mp3",
+      "startSeconds": 140.2,
+      "durationSeconds": 5,
+      "gain": 0.5
+    },
+    {
+      "id": "SFX03_gate_wakes_bell",
+      "beat": "S01-B03",
+      "path": "../audio/sfx/SFX03_gate_wakes_bell.mp3",
+      "startSeconds": 145,
+      "durationSeconds": 2.48,
+      "gain": 0.72
+    },
+    {
+      "id": "SFX04_staff_tap_cloudroad",
+      "beat": "S01-B05-L1",
+      "path": "../audio/sfx/SFX04_staff_tap_cloudroad.mp3",
+      "startSeconds": 156.2,
+      "durationSeconds": 3,
+      "gain": 0.5
+    },
+    {
+      "id": "SFX05_wind_reverses",
+      "beat": "S02-B06-L1",
+      "path": "../audio/sfx/SFX05_wind_reverses.mp3",
+      "startSeconds": 218,
+      "durationSeconds": 3,
+      "gain": 0.42
+    },
+    {
+      "id": "SFX06_gate_pull_strain",
+      "beat": "S03-B01",
+      "path": "../audio/sfx/SFX06_gate_pull_strain.mp3",
+      "startSeconds": 224,
+      "durationSeconds": 3,
+      "gain": 0.5
+    },
+    {
+      "id": "SFX07_staff_planted",
+      "beat": "S03-B04-L1",
+      "path": "../audio/sfx/SFX07_staff_planted.mp3",
+      "startSeconds": 287.1,
+      "durationSeconds": 2.48,
+      "gain": 0.58
+    },
+    {
+      "id": "SFX08_three_pulse",
+      "beat": "S03-B05-L1",
+      "path": "../audio/sfx/SFX08_three_pulse.mp3",
+      "startSeconds": 294.2,
+      "durationSeconds": 4,
+      "gain": 0.5
+    },
+    {
+      "id": "SFX09_chest_opens",
+      "beat": "S03-B06-L1",
+      "path": "../audio/sfx/SFX09_chest_opens.mp3",
+      "startSeconds": 307.3,
+      "durationSeconds": 3,
+      "gain": 0.55
+    },
+    {
+      "id": "SFX10_gate_scale_reveal",
+      "beat": "S03-B08-L1",
+      "path": "../audio/sfx/SFX10_gate_scale_reveal.mp3",
+      "startSeconds": 318.4,
+      "durationSeconds": 4,
+      "gain": 0.5
+    },
+    {
+      "id": "SFX11_circle_splits",
+      "beat": "S04-B05",
+      "path": "../audio/sfx/SFX11_circle_splits.mp3",
+      "startSeconds": 387.1,
+      "durationSeconds": 2,
+      "gain": 0.6
+    },
+    {
+      "id": "SFX12_b_forms",
+      "beat": "S04-B08-L1",
+      "path": "../audio/sfx/SFX12_b_forms.mp3",
+      "startSeconds": 398.5,
+      "durationSeconds": 4.48,
+      "gain": 0.62
+    },
+    {
+      "id": "SFX13_b_light_to_bracelets",
+      "beat": "S04-B09",
+      "path": "../audio/sfx/SFX13_b_light_to_bracelets.mp3",
+      "startSeconds": 406,
+      "durationSeconds": 2,
+      "gain": 0.6
+    },
+    {
+      "id": "SFX14_transformation",
+      "beat": "S05-B01",
+      "path": "../audio/sfx/SFX14_transformation.mp3",
+      "startSeconds": 415.2,
+      "durationSeconds": 3,
+      "gain": 0.55
+    },
+    {
+      "id": "SFX15_first_lift",
+      "beat": "S05-B07",
+      "path": "../audio/sfx/SFX15_first_lift.mp3",
+      "startSeconds": 464.2,
+      "durationSeconds": 3,
+      "gain": 0.55
+    },
+    {
+      "id": "SFX16_formation_flight",
+      "beat": "S06-B02",
+      "path": "../audio/sfx/SFX16_formation_flight.mp3",
+      "startSeconds": 480,
+      "durationSeconds": 3,
+      "gain": 0.4
+    },
+    {
+      "id": "SFX17_hold_snaps",
+      "beat": "S06-B13",
+      "path": "../audio/sfx/SFX17_hold_snaps.mp3",
+      "startSeconds": 538,
+      "durationSeconds": 2,
+      "gain": 0.68
+    },
+    {
+      "id": "SFX18_goat_lifted",
+      "beat": "S06-B14-L1",
+      "path": "../audio/sfx/SFX18_goat_lifted.mp3",
+      "startSeconds": 544.1,
+      "durationSeconds": 4,
+      "gain": 0.6
+    },
+    {
+      "id": "SFX19_orbit_one",
+      "beat": "S07-B01",
+      "path": "../audio/sfx/SFX19_orbit_one.mp3",
+      "startSeconds": 570.5,
+      "durationSeconds": 2.48,
+      "gain": 0.6
+    },
+    {
+      "id": "SFX20_bell_inside_cloud",
+      "beat": "S07-B09-L1",
+      "path": "../audio/sfx/SFX20_bell_inside_cloud.mp3",
+      "startSeconds": 625,
+      "durationSeconds": 3,
+      "gain": 0.5
+    },
+    {
+      "id": "SFX21_orbit_three",
+      "beat": "S08-B11-L1",
+      "path": "../audio/sfx/SFX21_orbit_three.mp3",
+      "startSeconds": 706.2,
+      "durationSeconds": 3.48,
+      "gain": 0.65
+    },
+    {
+      "id": "SFX22_goat_safe",
+      "beat": "S08-B16",
+      "path": "../audio/sfx/SFX22_goat_safe.mp3",
+      "startSeconds": 758,
+      "durationSeconds": 2,
+      "gain": 0.55
+    },
+    {
+      "id": "SFX23_landing_circles",
+      "beat": "S10-B06",
+      "path": "../audio/sfx/SFX23_landing_circles.mp3",
+      "startSeconds": 883.3,
+      "durationSeconds": 3,
+      "gain": 0.5
+    },
+    {
+      "id": "SFX24_ring_wakes",
+      "beat": "S10-B09-L1",
+      "path": "../audio/sfx/SFX24_ring_wakes.mp3",
+      "startSeconds": 904.3,
+      "durationSeconds": 4,
+      "gain": 0.55
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1400" viewBox="0 0 1400 1400">
+  <rect width="1400" height="1400" fill="#00ff00"/>
+  <text
+    x="700"
+    y="1010"
+    text-anchor="middle"
+    font-family="Kohinoor Devanagari, Devanagari Sangam MN, sans-serif"
+    font-size="900"
+    font-weight="700"
+    fill="#ffb800"
+    stroke="#fff3c4"
+    stroke-width="16"
+    paint-order="stroke fill"
+  >ब</text>
+</svg>

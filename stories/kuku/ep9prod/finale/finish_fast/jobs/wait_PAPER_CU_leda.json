@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-08-18T20:41:36.564507Z",
+  "display_name": "GPT Image 2",
+  "id": "274a177c-d518-473a-9763-783c13774d44",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_204136_274a177c-d518-473a-9763-783c13774d44_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "c1765425-1bce-4e55-828a-1e47b5e48bc2",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/c1765425-1bce-4e55-828a-1e47b5e48bc2_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "8043396c-885a-4186-8b7e-d9732247423f",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/8043396c-885a-4186-8b7e-d9732247423f_resize.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "Close-up on the face and shoulders of Leda, the pink cut-paper child dragon, one ear-frill raised as if listening, calm perceptive expression, dawn meadow; she speaks mid-sentence, mouth open. 3D papercraft style, exactly matching the cut-paper character designs in the reference images: layered cut-paper illustration with real depth, soft matte construction-paper textures, visible paper edges, folds and creases, warm storybook palette, soft studio lighting, gentle depth of field, like a lit diorama built from card. Non-photorealistic, made of paper. NO flat single-plane 2D, NO sticker look, NO glossy plastic 3D render, NO photorealism, no text, no letters.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_204136_274a177c-d518-473a-9763-783c13774d44.png",
+  "status": "completed"
+}

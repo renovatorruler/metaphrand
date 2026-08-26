@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-08-18T20:40:07.890205Z",
+  "display_name": "GPT Image 2",
+  "id": "06504ecb-3842-4a2f-a4a4-db4607b6dacc",
+  "job_type": "gpt_image_2",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_204007_06504ecb-3842-4a2f-a4a4-db4607b6dacc_min.webp",
+  "params": {
+    "aspect_ratio": "16:9",
+    "height": 1520,
+    "medias": [
+      {
+        "data": {
+          "id": "e08dbff0-ed1a-4948-a080-a600ed4b8339",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/e08dbff0-ed1a-4948-a080-a600ed4b8339_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "2bf84e93-d40f-4298-94e4-fd145a5ea074",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/2bf84e93-d40f-4298-94e4-fd145a5ea074_resize.jpg"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "9544be54-5038-4866-b18b-5df9054db5d4",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/9544be54-5038-4866-b18b-5df9054db5d4.png"
+        },
+        "role": "image"
+      }
+    ],
+    "model": "videotape-alpha",
+    "prompt": "The small pink child dragon Leda stands center with one paper wing raised in a clear stop gesture toward her four siblings; where she looks, a single thick golden Devanagari letter ब floats half-formed in the air, echoed by the curve of the sleeping cream goat and a paper cloud behind. The ब must be a correct rigid Devanagari ब. 3D papercraft style, exactly matching the cut-paper character designs in the reference images: layered cut-paper illustration with real depth, soft matte construction-paper textures, visible paper edges, folds and creases, warm storybook palette, soft studio lighting, gentle depth of field, like a lit diorama built from card. Non-photorealistic, made of paper. NO flat single-plane 2D, NO sticker look, NO glossy plastic 3D render, NO photorealism, no text. The single golden Devanagari ब described above is the ONLY letterform allowed.",
+    "quality": "high",
+    "reference_elements": [],
+    "remove_bg": false,
+    "resolution": "2k",
+    "width": 2688
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260818_204007_06504ecb-3842-4a2f-a4a4-db4607b6dacc.png",
+  "status": "completed"
+}
