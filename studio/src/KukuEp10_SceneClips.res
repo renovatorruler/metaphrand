@@ -26,7 +26,12 @@ let stills = ep10 ++ "stills/"
 let clips = ep10 ++ "clips/"
 
 let laneSet = S.setProse(S.Lane)
-let dragons = "The five dragon children are in their GREAT forms — ENORMOUS: a hay cart would fit between one's front claws and a grown man would reach only to her knee. KUKU is green, FYURIA orange-red, LEDA lilac-purple, CASTOR golden-yellow, VESPER pale blue; each wears a golden कड़ा cuff on one forearm. "
+/* No blanket cast blurb any more: naming dragons who are not in the shot invited
+   the model to draw them. Each clip declares only its own cast, and the colour,
+   scale and bracelet laws come from Kuku_PromptSpec.subjectText — the same law
+   the stills use. */
+let d = (name, doing) => P.Dragon({name, form: P.Great, doing})
+let cow = doing => P.Gauri({doing: doing})
 
 let commonBlocking = [
   "the start image IS this lane — the same flagstones, low kerbs, rubble wall along the right, stone post behind, and the same horizon and sun",
@@ -36,17 +41,19 @@ let commonBlocking = [
 ]
 let commonPhysics = [
   S.greatFormStaging,
+  S.greatFormFraming,
   "the lane is RIGID: kerbs, markers, post and wall keep their positions; the lane never lengthens and no marker reappears once passed",
   "wheels turn at a speed that matches the ground moving past them",
 ]
 let commonRules = [
   "गौरी is in the cart in EVERY frame — a cart running empty is wrong",
-  "no extra dragons beyond those named; never two of the same dragon",
 ]
 
 type clip = {tag: string, start: string, secs: int, spec: P.videoSpec, talking: bool, cheap: bool}
 
 let talkPhysics = [
+  S.greatFormStaging,
+  S.greatFormFraming,
   "the character stays where they are — this is a held shot, not a travelling one; no lunging toward or away from camera",
   "the mouth moves in natural speech throughout, jaw and lips working, with small head movements and blinks between phrases",
 ]
@@ -60,6 +67,7 @@ let all: array<clip> = [
     secs: 10,
     spec: {
       scene: "The tethered hay cart breaks away and begins to run down the gurukul's flight-lane at golden dusk, गौरी braced inside it, the cut red rope whipping along behind. No dragon is in this shot. " ++ laneSet,
+      cast: [cow("braced in the running cart")],
       blocking: Js.Array2.concat(commonBlocking, ["no dragon appears at any point in this clip — the lane belongs to the cart alone"]),
       beats: [
         "0.0-3.0s: the cart is already moving and gathering speed, hay lifting, the loose red rope snaking behind it",
@@ -80,7 +88,8 @@ let all: array<clip> = [
     start: stills ++ "h16_five_flank.png",
     secs: 5,
     spec: {
-      scene: dragons ++ "All five sweep in and take up formation around the running cart. " ++ laneSet,
+      scene: "All five sweep in and take up formation around the running cart. " ++ laneSet,
+      cast: [d(P.Fyuria, "lowest and furthest forward"), d(P.Kuku, "on the cart's left"), d(P.Leda, "on the cart's right, head turned down to the lane"), d(P.Castor, "tight beside the cart"), d(P.Vesper, "highest of all"), cow("braced in the running cart")],
       blocking: Js.Array2.concat(commonBlocking, [
         "FYURIA flies lowest and furthest forward, KUKU on the cart's left, LEDA on its right with her head turned down to the lane, CASTOR tight beside it, VESPER highest of all",
         "each dragon towers over the cart — the cart is small beneath them",
@@ -103,7 +112,8 @@ let all: array<clip> = [
     start: stills ++ "h17_group_lift.png",
     secs: 5,
     spec: {
-      scene: dragons ++ "The five grip the cart's wheels and strain upward to lift it clear of the lane — and it does not come. " ++ laneSet,
+      scene: "The five grip the cart's wheels and strain upward to lift it clear of the lane — and it does not come. " ++ laneSet,
+      cast: [d(P.Kuku, "front-left wheel"), d(P.Fyuria, "front-right wheel"), d(P.Castor, "rear-left wheel"), d(P.Leda, "rear-right wheel"), d(P.Vesper, "the centre rail from above"), cow("sliding in the hay as the cart twists")],
       blocking: Js.Array2.concat(commonBlocking, [
         "KUKU has the front-left wheel, FYURIA the front-right, CASTOR the rear-left, LEDA the rear-right, VESPER the centre rail from above",
         "the cart's FRONT wheels come off the ground while the BACK wheels stay down, so the cart twists rather than rising",
@@ -131,6 +141,7 @@ let all: array<clip> = [
     secs: 5,
     spec: {
       scene: "The lift is abandoned: the cart's wheels come back down onto the flagstones, dust puffs out, and it runs on with गौरी still aboard. No dragon grips it any more. " ++ laneSet,
+      cast: [cow("braced in the cart as it settles and runs on")],
       blocking: Js.Array2.concat(commonBlocking, ["the dragons have let go and are out of frame or high above; the cart is alone on the lane again"]),
       beats: [
         "0.0-2.0s: all four wheels settle back onto the flagstones together and dust puffs out around them",
@@ -143,6 +154,38 @@ let all: array<clip> = [
       extraRules: commonRules,
     },
   },
+  /* ---- scene 0 «उड़ान-आँगन» — the ring drill ---- */
+  {
+    talking: false,
+    cheap: false,
+    tag: "s0a_furia_ring",
+    start: stills ++ "h53_ring_drill_wide.png",
+    secs: 5,
+    spec: {
+      scene: "फ्यूरिया flies the drill her teacher set: out through the inverted ring, touch the bell, then three slow wingbeats back to her mark. " ++ S.setProseFor(S.Courtyard, ["FLIGHT RING", "MARKED FLAGSTONE", "BELL ARCH"]),
+      cast: [d(P.Fyuria, "flying the drill — wings at full stretch, chin up, delighted")],
+      blocking: [
+        "the start image IS this courtyard — the same flagstones, the same ring, the same sky and light",
+        "the RING stands upright at frame centre and never moves, never tilts and never changes size",
+        "the BELL ARCH stands at frame RIGHT and never moves",
+        "the circular marked flagstone stays on the ground below the ring",
+      ],
+      beats: [
+        "0.0-1.5s: she crouches on the marked flagstone and launches, climbing toward the ring with paper dust curling from the stones",
+        "1.5-3.0s: she flies THROUGH the opening of the ring, wings at full stretch, without touching its stone",
+        "3.0-4.2s: she banks right and up to the bell arch and touches the hanging bell, which begins to swing",
+        "4.2-5.0s: she turns back toward her mark with three slow deliberate wingbeats, still inside the frame",
+      ],
+      camera: "one locked-off WIDE camera on the courtyard floor, the ring centred and whole in frame with sky above it. The camera does not travel, pan or zoom at any point",
+      physics: [
+        "she never touches, clips or passes through the ring's stone, the bell arch or the ground",
+        "the ring is fourteen metres across — she fits through its opening with her wings spread, and it must read that large against her",
+      ],
+      lighting: "constant warm golden dusk exactly as the start image — low sun, long soft shadows, no time change",
+      audio: "no dialogue, no music",
+      extraRules: [],
+    },
+  },
   /* ---- scene 2 «निशान» — the braking ---- */
   {
     talking: false,
@@ -151,7 +194,8 @@ let all: array<clip> = [
     start: stills ++ "h20_furia_brake.png",
     secs: 5,
     spec: {
-      scene: dragons ++ "FYURIA flies BACKWARDS ahead of the running cart, wings beating against it, trying to slow it. " ++ laneSet,
+      scene: "FYURIA flies BACKWARDS ahead of the running cart, wings beating against it, trying to slow it. " ++ laneSet,
+      cast: [d(P.Fyuria, "flying backwards ahead of the cart, wings beating against it"), cow("braced in the running cart")],
       blocking: Js.Array2.concat(commonBlocking, [
         "फ्यूरिया is ahead of the cart, facing back toward it, flying in reverse down the lane while the cart bears down on her",
         "she towers over the cart — the cart is small beneath her",
@@ -175,6 +219,7 @@ let all: array<clip> = [
     secs: 5,
     spec: {
       scene: "Close on the lane surface: the second flat red distance mark passes beneath the cart's rushing wheels. " ++ laneSet,
+      cast: [cow("braced in the cart as it rushes through frame")],
       blocking: [
         "the start image IS this lane — same flagstones, same kerbs, same light",
         "the red mark is FLUSH with the paving, an inlaid stone the wheels roll straight over without a bump",
@@ -198,7 +243,8 @@ let all: array<clip> = [
     start: stills ++ "h22_castor_calm.png",
     secs: 5,
     spec: {
-      scene: dragons ++ "CASTOR flies close alongside the running cart with his head lowered toward गौरी, speaking to her gently to keep her calm. This is a DIALOGUE shot: he is talking. " ++ laneSet,
+      scene: "A DIALOGUE beat: कैस्टर keeps गौरी calm as the cart runs, talking to her the whole time. " ++ laneSet,
+      cast: [d(P.Castor, "speaking gently down to her"), cow("looking up at him from the hay")],
       blocking: Js.Array2.concat(commonBlocking, [
         "कैस्टर flies ALONG the lane directly above and behind the cart — nose forward over it, his long body and tail stretching back up the slope behind him, wings swept back. He lowers only his HEAD and neck down toward गौरी in the cart beneath him. He is never turned side-on across the lane",
         "गौरी looks up at him from the hay",
@@ -206,7 +252,7 @@ let all: array<clip> = [
       beats: [
         "0.0-5.0s: he speaks to her continuously and gently, mouth working, head dipping a little with the words; she watches him and her ears move",
       ],
-      camera: "a held three-quarter shot travelling with them, looking slightly down the lane so the cart is in the lower half of frame and कैस्टर's head and neck come down into it from above and behind — his body reads as running away up the lane, not across it. No cut, no zoom, no camera reversal",
+      camera: "a WIDE tracking shot, the camera well back and leading them down the lane so the full width of the lane, both kerbs and a band of sky are in frame. कैस्टर occupies the LEFT of frame and the cart the RIGHT, clearly separated, with open space above and behind him. No cut, no zoom, no camera reversal",
       physics: Js.Array2.concat(talkPhysics, [
         "SOLID BODIES: no part of any character ever passes through the kerb, the wall, the cart or the ground — tail, wings and limbs stay outside solid objects at all times",
         "the wall runs alongside the lane and stays a wall; nothing clips into it",
@@ -223,16 +269,18 @@ let all: array<clip> = [
    motion but holds a shot perfectly well, which is all dialogue asks — and its
    audio is discarded so the ElevenLabs take can be dubbed over. */
 let argsFor = c => {
-  let model = c.cheap ? "seedance_2_0_mini" : "seedance_2_5"
+  let model = c.cheap ? "seedance_2_0_mini" : "seedance_2_0"
   let head = ["generate", "create", model, "--prompt", P.videoPrompt(c.spec)]
-  let mode = c.cheap ? [] : ["--mode", "omni_reference"]
+  /* 2.0 takes a start image directly; only 2.5 needs the extra mode flag */
+  let mode = []
   let audio = c.cheap ? ["--generate_audio", "false"] : ["--generate_audio", "false"]
   Js.Array2.concatMany(head, [
     mode,
     ["--start-image", c.start],
     audio,
     ["--duration", Belt.Int.toString(c.secs)],
-    ["--resolution", c.cheap ? "720p" : "1080p"],
+    ["--resolution", "720p"],
+    ["--bitrate_mode", "high"],
     ["--aspect_ratio", "16:9", "--wait", "--json"],
   ])
 }

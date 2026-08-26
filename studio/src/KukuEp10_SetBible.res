@@ -101,6 +101,7 @@ let doPlate = s => {
 /* the camera pass: the empty set surveyed in one continuous move */
 let surveySpec = (s): P.videoSpec => {
   scene: "A slow survey of an EMPTY papercraft set — no characters of any kind. " ++ S.setProse(s),
+  cast: [], /* a survey is deliberately empty of characters */
   blocking: [
     "the start image IS this set; every landmark stays exactly where the start image puts it",
     "nothing in the set moves — this is a still world; only the camera travels",

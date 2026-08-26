@@ -47,6 +47,10 @@ type editSpec = {
 
 type videoSpec = {
   scene: string,
+  /* who is actually in this shot. Rendered by the same law as stills — colour,
+     scale, bracelet, exactly-one — so a clip cannot name a character it does
+     not contain. */
+  cast: array<subject>,
   blocking: array<string>,
   beats: array<string>,
   camera: string,
@@ -95,10 +99,7 @@ let styleLaw = "3D papercraft, layered cut-paper illustration, soft matte constr
 let paletteLaw = "bright, vibrant, warm storybook palette — never sepia, never muted, never monochrome"
 let negatives = [
   "no humans, no people, no human children, no human faces, no human shadows",
-  "no theater curtains, no stage, no proscenium, no frame-within-frame, no decorative border, no vignette",
   "no readable text, no letters, no numbers, no glyphs, no captions, no watermark, no logos",
-  "no photorealism",
-  "no duplicate characters, no identical characters, no cloned dragons, no extra characters",
 ]
 
 let bullets = xs => Js.Array2.joinWith(Js.Array2.map(xs, x => "- " ++ x), "\n")
@@ -112,19 +113,17 @@ let subjectText = s =>
     colorOf(name) ++
     " paper dragon, " ++
     (form == Great
-      ? "GREAT form: ENORMOUS. Do not judge this by adjectives — measure her against what is in frame: a wooden hay cart would fit between her two front claws, a grown man would reach only to her knee, and her head rides above the tops of the trees and walls around her. She must never read as a small or medium-sized creature, and never as merely animal-sized"
+      ? "GREAT form: ENORMOUS — a grown man would reach only to her knee. She dwarfs anything man-made at ground level in the frame, and must never read as a small or medium-sized creature, nor as merely animal-sized"
       : "small everyday form: a small paper dragon child, no taller than a human child") ++
-    ", wearing a golden कड़ा paper cuff on ONE forearm (mandatory, clearly visible, never on both). Exactly ONE " ++
-    nameOf(name) ++
-    " in frame. " ++ doing
+    ", wearing a golden कड़ा on one forearm. " ++ doing
   | Gauri({doing}) =>
-    "- GAURI — gentle brown-and-white paper cow, dark paper eyes, small paper bell at her neck. Exactly ONE in frame. " ++ doing
+    "- GAURI — gentle brown-and-white paper cow, dark paper eyes, small paper bell at her neck. " ++ doing
   | RishiMuni({doing}) =>
-    "- RISHI — the paper guru crane from the attached character sheet. Exactly ONE in frame. " ++ doing
+    "- RISHI — the paper guru crane from the attached character sheet. " ++ doing
   | Dadi({doing}) =>
-    "- DADI — the paper grandmother bird from the attached character sheet. Exactly ONE in frame. " ++ doing
+    "- DADI — the paper grandmother bird from the attached character sheet. " ++ doing
   | Cheel({doing}) =>
-    "- CHEEL — a great paper eagle, sharp-eyed, imposing. Exactly ONE in frame. " ++ doing
+    "- CHEEL — a great paper eagle, sharp-eyed, imposing. " ++ doing
   | Prop({what, doing}) => "- " ++ what ++ " — " ++ doing
   }
 
@@ -197,20 +196,22 @@ let editPrompt = (e: editSpec) =>
   )
 
 let directionLaw = [
-  "DIRECTION IS FIXED: anything travelling in this shot moves in ONE direction for the whole clip. A cart running downhill never slows to a stop and rolls back up, never reverses, and never drifts backwards relative to the ground. The camera likewise never reverses its travel or turns to look back the way it came.",
+  "DIRECTION IS FIXED: whatever travels in this shot keeps ONE direction for the whole clip — it never slows to a stop and reverses, and never drifts backwards relative to the ground. The camera likewise never reverses its travel or turns to look back the way it came.",
   "the ground moves past in one consistent direction the entire time — it must never flow the other way",
 ]
 
 let paperPhysics = [
   "papercraft world physics: stiff cut-paper wings flex slightly at their folds, motion has real weight",
-  "the character's design and colors stay identical in every frame — no morphing, no redesign",
-  "the golden bracelet stays on ONE forearm only, the same forearm as in the start image",
+  "the golden कड़ा stays on the same forearm as in the start image",
 ]
 
 let videoPrompt = (v: videoSpec) =>
   Js.Array2.joinWith(
     [
       "SCENE: " ++ v.scene,
+      Js.Array2.length(v.cast) > 0
+        ? "IN THIS SHOT — and nobody else:\n" ++ Js.Array2.joinWith(Js.Array2.map(v.cast, subjectText), "\n")
+        : "IN THIS SHOT: no characters at all.",
       "FIRST FRAME: the provided start image IS frame one — every character already in position; no empty establishing frame, no delayed reveal.",
       "FORMAT: SINGLE CONTINUOUS TAKE — no cuts, no fades, no transitions.",
       "BLOCKING:\n" ++ bullets(v.blocking),

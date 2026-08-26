@@ -113,6 +113,22 @@ let vantageProse = (s, v) =>
   | (GrassVerge, _) => "the camera stands on the grass verge at head height, the lane beyond"
   }
 
+/* Set prose scoped to what the CAMERA CAN SEE. Listing every landmark on a 60 m
+   lane inside a five-second close beat is noise the model has to reconcile —
+   the same class of mistake as naming five dragons in a two-character shot. */
+let setProseFor = (s, names) => {
+  let chosen = Js.Array2.filter(landmarksOf(s), l => Js.Array2.includes(names, l.name))
+  let lm = Js.Array2.joinWith(Js.Array2.map(chosen, l => l.name ++ " (" ++ l.note ++ ")"), "; ")
+  switch s {
+  | Courtyard => "THE FLIGHT COURTYARD — an open paper-flagstone courtyard at the top of the lane. In this shot: " ++ lm
+  | Lane => "THE LANE — the gurukul's straight downhill flight-courtyard slope of paper flagstones with low paper kerbs both sides. In this shot: " ++ lm
+  | FlatStone => "THE FLAT STONE — the level last stretch at the bottom of the lane. In this shot: " ++ lm
+  | Tower => "THE TOWER — चील's closed paper stone tower. In this shot: " ++ lm
+  | Doorway => "THE THRESHOLD — the golden paper doorway between the worlds. In this shot: " ++ lm
+  | GrassVerge => "THE GRASS VERGE — the paper-grass patch beside the head of the lane. In this shot: " ++ lm
+  }
+}
+
 /* canonical prose for the set, derived from the landmark table */
 let setProse = s => {
   let lm = Js.Array2.joinWith(Js.Array2.map(landmarksOf(s), l => l.name ++ " (" ++ l.note ++ ")"), "; ")
@@ -329,6 +345,8 @@ let markerPositions = [12.0, 24.0, 36.0]
    lane she fits inside it; turned broadside she cannot, and her body goes
    through the wall. That was the real cause of the wall-clipping, and it costs
    nothing to fix. */
+let greatFormFraming = "FRAMING FOR AN ENORMOUS DRAGON: play this WIDE. The camera stands far enough back that the whole width of the lane, both kerbs and a good band of sky are in frame, with clear space above and behind the dragon. Never frame him tight or close — at close range a creature this size has nowhere to be except through a wall, which is what goes wrong. If he shares the shot with the cart, place them SEPARATED across the frame — dragon to one side, cart to the other — never stacked on top of one another."
+
 let greatFormStaging = "ORIENTATION IN THE LANE: this dragon is far longer than she is wide, and the lane is only " ++ Belt.Float.toString(laneWidth) ++ " metres between its kerbs. She therefore lies ALONG the lane, never across it: her long axis runs parallel to the lane, nose forward in the direction of travel, body and tail trailing back up the slope behind her, so her whole length is inside the lane and her width is not. Her wings are swept back along her body or held HIGH above the kerb line, never spread out sideways at kerb height. She is never turned broadside, never side-on to the direction of travel, and no part of her — body, tail, wings or limbs — ever overlaps, touches or passes through a kerb or a wall."
 
 let lanePosition = (at, cartAt) => {

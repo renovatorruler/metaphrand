@@ -30,6 +30,7 @@ let seconds = 10
    so the move is bounded and the wall stays far away */
 let spec: P.videoSpec = {
   scene: "The runaway hay cart races down the gurukul's straight flight-lane at golden dusk with गौरी the paper cow braced inside it, while फ्यूरिया the towering orange-red paper dragon flies alongside trying to slow it. " ++ S.setProse(S.Lane),
+  cast: [P.Dragon({name: P.Fyuria, form: P.Great, doing: "flying alongside, trying to slow the cart"}), P.Gauri({doing: "braced in the running cart"})],
   blocking: [
     "the start image IS this lane and this cart — the same flagstones, the same low kerbs, the same rubble wall along the right, the same stone post behind, the same horizon",
     "the cart runs along the CENTRELINE of the lane and never crosses onto either kerb",

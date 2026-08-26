@@ -497,6 +497,38 @@ let all: array<jobSpec> = [
      question to nothing-happened to alarm — and Kling takes no references and
      stays flat against its plate. Kling is right where a shot is a state change;
      this one is acting. */
+  /* THE WHOLE TRANSFORMATION IN ONE TAKE. He reads, tries the word, nothing
+     happens, the light answers, and when it drains SHE is crouched on all fours
+     where he sat — startled — and comes up onto her feet.
+
+     THE CROUCH IS THE AUTHOR'S, AND IT SOLVES THE FRAME. Her standing height
+     does not fit this framing: measured, he occupies 451px sitting and Мама
+     standing would put her head 400-490px above the top of frame. Arriving
+     crouched fits; coming up out of it makes the height a MOVE rather than a
+     problem, and the prompt says nothing at all about the frame — only what she
+     does — because a framing instruction the model cannot satisfy is what pushes
+     it to shrink her instead, and a child-sized Вася-мама kills the babies
+     mistaking her for their mother.
+
+     THE CAMERA MOVES, AND MINI CAN DO THAT. I claimed it could not and the
+     author asked what I was basing that on: nothing. SHOT1, already in the cut
+     and approved, is a mini push from the family wide onto the babies — edge
+     energy falling steadily 2.98 to 2.16 across six seconds. What we have no
+     evidence for is a move, a hold, and a move BACK, which is what this shot
+     needs. That is the thing being tested.
+
+     NOT the bare room plate: @FLOOR_AFTER shows the blocks and the pouch still
+     there, so nothing invites them to vanish with him. */
+  jobCarrying(
+    "v05single",
+    "SH123-124",
+    [Vasya, VasyaMama],
+    [FloorAfter],
+    "2026-08-25_V05_vzhukh_start_v2.png",
+    15,
+    Mini,
+    ["line63a_VASYA_mama-vzhukh.mp3"],
+  ),
   jobCarrying(
     "v05vzhukh",
     "SH123",

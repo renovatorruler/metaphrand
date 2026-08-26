@@ -31,6 +31,7 @@ let s011Dst = ep10 ++ "stills/s011_castor_calm_solo.png"
 /* ---- S014: Fyuria's ring flight, Seedance 2.0 Mini ------------------------- */
 let s014: Kuku_PromptSpec.videoSpec = {
   scene: "FYURIA, a towering orange-red paper dragon, flies her training drill: from her marked circular flagstone she launches, flies THREE full loops around the courtyard sky, and returns to land on the same mark, delighted.",
+  cast: [Kuku_PromptSpec.Dragon({name: Kuku_PromptSpec.Fyuria, form: Kuku_PromptSpec.Great, doing: "flying her ring drill"})],
   blocking: [
     "Fyuria starts standing upright on the circular flagstone mark at frame center, wings half-raised, chin lifted — exactly as in the start image",
     "the bronze paper bell hangs at the top right of frame and never moves from there",

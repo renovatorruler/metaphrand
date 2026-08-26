@@ -55,6 +55,7 @@ type gamepadButton
 
 @send external beginPath: context => unit = "beginPath"
 @send external closePath: context => unit = "closePath"
+@send external clipContext: context => unit = "clip"
 @send external moveTo: (context, float, float) => unit = "moveTo"
 @send external lineTo: (context, float, float) => unit = "lineTo"
 @send external quadraticCurveTo: (context, float, float, float, float) => unit = "quadraticCurveTo"
@@ -199,6 +200,15 @@ type question = {
   success: string,
 }
 
+type guide = Kuku | Furia | Vesper
+
+let guideForQuestion = (question: question): guide =>
+  switch question.kind {
+  | "picture" => Vesper
+  | "word" => Furia
+  | _ => Kuku
+  }
+
 type content = {
   version: int,
   title: string,
@@ -223,6 +233,9 @@ type content = {
   categoryGlyph: string,
   categoryPicture: string,
   categoryWord: string,
+  guideKuku: string,
+  guideFuria: string,
+  guideVesper: string,
   devLabel: string,
   questions: array<question>,
 }
@@ -236,9 +249,6 @@ type layout = {
   prompt: rect,
   choices: array<rect>,
   portrait: bool,
-  dragonX: float,
-  dragonY: float,
-  dragonScale: float,
 }
 
 type masteryItem = {id: string, kind: string, mutable count: int}
@@ -525,6 +535,9 @@ let blankContent: content = {
   categoryGlyph: "",
   categoryPicture: "",
   categoryWord: "",
+  guideKuku: "",
+  guideFuria: "",
+  guideVesper: "",
   devLabel: "",
   questions: [blankQuestion],
 }
@@ -539,9 +552,6 @@ let blankLayout: layout = {
   prompt: emptyRect(),
   choices: [emptyRect(), emptyRect(), emptyRect()],
   portrait: false,
-  dragonX: 0.0,
-  dragonY: 0.0,
-  dragonScale: 1.0,
 }
 
 let persisted = loadSaved()
@@ -590,6 +600,12 @@ let gameCanvas = getElementById(browserDocument, "game")
 let ctx = getCanvasContext(gameCanvas, "2d")
 let promptAtlas = makeImageElement()
 setImageElementSrc(promptAtlas, "./assets/illustrations-v2/primer-atlas.png")
+let kukuGuideImage = makeImageElement()
+setImageElementSrc(kukuGuideImage, "./assets/characters-v1/kuku.png")
+let furiaGuideImage = makeImageElement()
+setImageElementSrc(furiaGuideImage, "./assets/characters-v1/furia.png")
+let vesperGuideImage = makeImageElement()
+setImageElementSrc(vesperGuideImage, "./assets/characters-v1/vesper.png")
 
 let nextRandom = (): float => {
   state.seed = rngStep(state.seed)
@@ -610,8 +626,10 @@ let rectContains = (box: rect, x: float, y: float): bool =>
 
 let makeLayout = (width: float, height: float): layout => {
   let portrait = height > width *. 1.08
+  let compactPortrait = portrait && height < 660.0
+  let compactLandscape = !portrait && height < 430.0
   let margin = clamp(width *. 0.035, 14.0, 28.0)
-  let soundSize = if portrait {48.0} else {54.0}
+  let soundSize = if compactLandscape {44.0} else if portrait {48.0} else {54.0}
   let sound = {
     x: width -. margin -. soundSize,
     y: margin,
@@ -620,17 +638,26 @@ let makeLayout = (width: float, height: float): layout => {
   }
   if portrait {
     let promptTop = 102.0
-    let promptHeight = clamp(height *. 0.285, 190.0, 252.0)
+    let promptHeight = if compactPortrait {
+      clamp(height *. 0.265, 150.0, 180.0)
+    } else {
+      clamp(height *. 0.285, 190.0, 252.0)
+    }
     let prompt = {
       x: margin,
       y: promptTop,
       w: width -. margin *. 2.0,
       h: promptHeight,
     }
-    let gap = 12.0
-    let choiceTop = prompt.y +. prompt.h +. 24.0
-    let available = height -. choiceTop -. 68.0 -. gap *. 2.0
-    let choiceHeight = clamp(available /. 3.0, 104.0, 126.0)
+    let gap = if compactPortrait {6.0} else {12.0}
+    let choiceTop = prompt.y +. prompt.h +. (if compactPortrait {10.0} else {24.0})
+    let bottomReserve = if compactPortrait {12.0} else {68.0}
+    let available = height -. choiceTop -. bottomReserve -. gap *. 2.0
+    let choiceHeight = if compactPortrait {
+      minFloat(104.0, maxFloat(64.0, available /. 3.0))
+    } else {
+      clamp(available /. 3.0, 104.0, 126.0)
+    }
     let choiceWidth = width -. margin *. 2.0
     let choices = [
       {x: margin, y: choiceTop, w: choiceWidth, h: choiceHeight},
@@ -638,46 +665,75 @@ let makeLayout = (width: float, height: float): layout => {
       {x: margin, y: choiceTop +. (choiceHeight +. gap) *. 2.0, w: choiceWidth, h: choiceHeight},
     ]
     let startWidth = minFloat(width -. margin *. 3.0, 360.0)
+    let actionHeight = if compactPortrait {78.0} else {104.0}
     {
       sound,
       repeat: {x: prompt.x +. prompt.w -. 112.0, y: prompt.y +. 14.0, w: 96.0, h: 48.0},
-      start: {x: (width -. startWidth) /. 2.0, y: height -. 214.0, w: startWidth, h: 104.0},
-      restart: {x: (width -. startWidth) /. 2.0, y: height -. 190.0, w: startWidth, h: 104.0},
+      start: {
+        x: (width -. startWidth) /. 2.0,
+        y: height -. (if compactPortrait {170.0} else {214.0}),
+        w: startWidth,
+        h: actionHeight,
+      },
+      restart: {
+        x: (width -. startWidth) /. 2.0,
+        y: height -. (if compactPortrait {150.0} else {190.0}),
+        w: startWidth,
+        h: actionHeight,
+      },
       prompt,
       choices,
       portrait,
-      dragonX: margin +. 62.0,
-      dragonY: prompt.y +. prompt.h *. 0.52,
-      dragonScale: 0.52,
     }
   } else {
     let prompt = {
       x: width *. 0.245,
-      y: maxFloat(64.0, height *. 0.105),
+      y: if compactLandscape {58.0} else {maxFloat(64.0, height *. 0.105)},
       w: width *. 0.72,
-      h: clamp(height *. 0.35, 138.0, 238.0),
+      h: if compactLandscape {
+        clamp(height *. 0.37, 112.0, 136.0)
+      } else {
+        clamp(height *. 0.35, 138.0, 238.0)
+      },
     }
-    let gap = clamp(width *. 0.018, 12.0, 24.0)
-    let choiceTop = height *. 0.625
+    let gap = if compactLandscape {10.0} else {clamp(width *. 0.018, 12.0, 24.0)}
+    let choiceTop = height *. (if compactLandscape {0.60} else {0.625})
     let choiceWidth = (width -. margin *. 2.0 -. gap *. 2.0) /. 3.0
-    let choiceHeight = maxFloat(104.0, height -. choiceTop -. maxFloat(30.0, height *. 0.07))
+    let choiceHeight = if compactLandscape {
+      maxFloat(84.0, height -. choiceTop -. 12.0)
+    } else {
+      maxFloat(104.0, height -. choiceTop -. maxFloat(30.0, height *. 0.07))
+    }
     let choices = [
       {x: margin, y: choiceTop, w: choiceWidth, h: choiceHeight},
       {x: margin +. choiceWidth +. gap, y: choiceTop, w: choiceWidth, h: choiceHeight},
       {x: margin +. (choiceWidth +. gap) *. 2.0, y: choiceTop, w: choiceWidth, h: choiceHeight},
     ]
     let startWidth = clamp(width *. 0.34, 300.0, 470.0)
+    let actionHeight = if compactLandscape {68.0} else {96.0}
     {
       sound,
-      repeat: {x: prompt.x +. prompt.w -. 128.0, y: prompt.y +. 16.0, w: 108.0, h: 52.0},
-      start: {x: (width -. startWidth) /. 2.0, y: height *. 0.70, w: startWidth, h: 96.0},
-      restart: {x: (width -. startWidth) /. 2.0, y: height *. 0.67, w: startWidth, h: 96.0},
+      repeat: {
+        x: prompt.x +. prompt.w -. 128.0,
+        y: prompt.y +. (if compactLandscape {8.0} else {16.0}),
+        w: 108.0,
+        h: if compactLandscape {44.0} else {52.0},
+      },
+      start: {
+        x: (width -. startWidth) /. 2.0,
+        y: if compactLandscape {height -. 80.0} else {height *. 0.70},
+        w: startWidth,
+        h: actionHeight,
+      },
+      restart: {
+        x: (width -. startWidth) /. 2.0,
+        y: if compactLandscape {height -. 78.0} else {height *. 0.67},
+        w: startWidth,
+        h: actionHeight,
+      },
       prompt,
       choices,
       portrait,
-      dragonX: width *. 0.12,
-      dragonY: height *. 0.40,
-      dragonScale: clamp(height /. 520.0, 0.72, 1.35),
     }
   }
 }
@@ -771,24 +827,39 @@ let shuffleInts = (items: array<int>) => {
   }
 }
 
+let shuffleIntsFrom = (items: array<int>, start: int) => {
+  let cursor = {contents: arrayLength(items) - 1}
+  while cursor.contents > start {
+    let other = start + randomIndex(cursor.contents - start + 1)
+    swapInts(items, cursor.contents, other)
+    cursor.contents = cursor.contents - 1
+  }
+}
+
 let buildDeck = () => {
   state.deck = []
-  let kinds = [
-    "glyph",
-    "picture",
-    "picture",
-    "word",
-    "glyph",
-    "picture",
-    "word",
-    "picture",
-    "glyph",
-    "picture",
-  ]
-  for index in 0 to arrayLength(kinds) - 1 {
-    let _ = pushArray(state.deck, chooseQuestionForKind(arrayGet(kinds, index)))
+  // Put one question from every guide in the opening three slots. A retry can
+  // become due only after those three have been answered, so Kuku, Vesper, and
+  // Furia are all introduced even when retries later consume deck slots.
+  let openingKinds = ["glyph", "picture", "word"]
+  for index in 0 to arrayLength(openingKinds) - 1 {
+    let _ = pushArray(state.deck, chooseQuestionForKind(arrayGet(openingKinds, index)))
   }
   shuffleInts(state.deck)
+
+  let remainingKinds = [
+    "glyph",
+    "picture",
+    "picture",
+    "word",
+    "glyph",
+    "picture",
+    "picture",
+  ]
+  for index in 0 to arrayLength(remainingKinds) - 1 {
+    let _ = pushArray(state.deck, chooseQuestionForKind(arrayGet(remainingKinds, index)))
+  }
+  shuffleIntsFrom(state.deck, 3)
   state.deckCursor = 0
 }
 
@@ -1131,90 +1202,151 @@ let drawBackground = (time: float) => {
   setGlobalAlpha(ctx, 1.0)
 }
 
-let drawDragon = (x: float, y: float, scale: float, happy: bool) => {
-  saveContext(ctx)
-  translateContext(ctx, x, y)
-  scaleContext(ctx, scale, scale)
-
-  setShadowColor(ctx, "rgba(32,68,43,0.22)")
-  setShadowBlur(ctx, 12.0)
-  setShadowOffsetY(ctx, 9.0)
-  drawEllipse(0.0, 73.0, 67.0, 83.0, "#33a65c")
-  setShadowColor(ctx, "rgba(0,0,0,0)")
-  setShadowBlur(ctx, 0.0)
-  setShadowOffsetY(ctx, 0.0)
-
-  beginPath(ctx)
-  moveTo(ctx, -48.0, 36.0)
-  quadraticCurveTo(ctx, -134.0, 3.0, -118.0, 105.0)
-  quadraticCurveTo(ctx, -82.0, 75.0, -48.0, 82.0)
-  closePath(ctx)
-  setFillStyle(ctx, "#78ce70")
-  fill(ctx)
-  setStrokeStyle(ctx, "#25844b")
-  setLineWidth(ctx, 4.0)
-  stroke(ctx)
-
-  beginPath(ctx)
-  moveTo(ctx, 48.0, 36.0)
-  quadraticCurveTo(ctx, 134.0, 3.0, 118.0, 105.0)
-  quadraticCurveTo(ctx, 82.0, 75.0, 48.0, 82.0)
-  closePath(ctx)
-  setFillStyle(ctx, "#78ce70")
-  fill(ctx)
-  setStrokeStyle(ctx, "#25844b")
-  stroke(ctx)
-
-  drawEllipse(0.0, 76.0, 39.0, 58.0, "#a8df7a")
-  drawEllipse(-38.0, 140.0, 31.0, 18.0, "#2d9654")
-  drawEllipse(38.0, 140.0, 31.0, 18.0, "#2d9654")
-
-  beginPath(ctx)
-  moveTo(ctx, -50.0, -38.0)
-  lineTo(ctx, -34.0, -92.0)
-  lineTo(ctx, -10.0, -42.0)
-  closePath(ctx)
-  setFillStyle(ctx, "#f4d98f")
-  fill(ctx)
-  beginPath(ctx)
-  moveTo(ctx, 50.0, -38.0)
-  lineTo(ctx, 34.0, -92.0)
-  lineTo(ctx, 10.0, -42.0)
-  closePath(ctx)
-  fill(ctx)
-
-  drawEllipse(0.0, -10.0, 72.0, 62.0, "#38b966")
-  drawEllipse(0.0, 20.0, 56.0, 35.0, "#72d57c")
-  drawEllipse(-28.0, -23.0, 20.0, 25.0, "#fffdf2")
-  drawEllipse(28.0, -23.0, 20.0, 25.0, "#fffdf2")
-  drawCircle(-24.0, -20.0, 8.5, "#283b42")
-  drawCircle(24.0, -20.0, 8.5, "#283b42")
-  drawCircle(-21.0, -24.0, 2.8, "#ffffff")
-  drawCircle(27.0, -24.0, 2.8, "#ffffff")
-  drawCircle(-17.0, 14.0, 3.6, "#236f43")
-  drawCircle(17.0, 14.0, 3.6, "#236f43")
-
-  beginPath(ctx)
-  if happy {
-    moveTo(ctx, -20.0, 28.0)
-    quadraticCurveTo(ctx, 0.0, 48.0, 22.0, 27.0)
-  } else {
-    moveTo(ctx, -18.0, 34.0)
-    quadraticCurveTo(ctx, 0.0, 26.0, 18.0, 34.0)
+let guideKey = (guide: guide): string =>
+  switch guide {
+  | Kuku => "kuku"
+  | Furia => "furia"
+  | Vesper => "vesper"
   }
-  setStrokeStyle(ctx, "#235e3b")
-  setLineWidth(ctx, 4.0)
-  setLineCap(ctx, "round")
-  stroke(ctx)
 
-  drawEllipse(-58.0, 82.0, 19.0, 38.0, "#319f59")
-  drawCircle(-63.0, 112.0, 19.0, "#319f59")
-  beginPath(ctx)
-  arc(ctx, -63.0, 111.0, 17.0, -0.2, pi +. 0.2)
-  setStrokeStyle(ctx, "#f0b929")
-  setLineWidth(ctx, 8.0)
-  stroke(ctx)
+let guideName = (guide: guide): string =>
+  switch guide {
+  | Kuku => state.content.guideKuku
+  | Furia => state.content.guideFuria
+  | Vesper => state.content.guideVesper
+  }
+
+let guideAccent = (guide: guide): string =>
+  switch guide {
+  | Kuku => "#3d8f56"
+  | Furia => "#c44562"
+  | Vesper => "#4f91aa"
+  }
+
+let guideImage = (guide: guide): imageElement =>
+  switch guide {
+  | Kuku => kukuGuideImage
+  | Furia => furiaGuideImage
+  | Vesper => vesperGuideImage
+  }
+
+let guideSourceCrop = (compact: bool): rect =>
+  if compact {
+    {x: 40.0, y: 45.0, w: 320.0, h: 250.0}
+  } else {
+    {x: 0.0, y: 0.0, w: 400.0, h: 536.0}
+  }
+
+let drawGuidePortrait = (guide: guide, box: rect, compact: bool) => {
+  let accent = guideAccent(guide)
+  drawPaperCard(box, "#fff8e8", accent, true)
+  let nameHeight = clamp(box.h *. 0.17, 22.0, 31.0)
+  let imageBox = {
+    x: box.x +. 6.0,
+    y: box.y +. 6.0,
+    w: maxFloat(1.0, box.w -. 12.0),
+    h: maxFloat(1.0, box.h -. nameHeight -. 14.0),
+  }
+  saveContext(ctx)
+  roundedPath(imageBox, minFloat(17.0, imageBox.h /. 4.0))
+  clipContext(ctx)
+  setFillStyle(ctx, "#fbf3df")
+  fillRect(ctx, imageBox.x, imageBox.y, imageBox.w, imageBox.h)
+  let image = guideImage(guide)
+  if imageElementComplete(image) && imageElementNaturalWidth(image) > 0 {
+    let crop = guideSourceCrop(compact)
+    let imageScale = minFloat(imageBox.w /. crop.w, imageBox.h /. crop.h)
+    let width = crop.w *. imageScale
+    let height = crop.h *. imageScale
+    drawImageCrop(
+      ctx,
+      image,
+      crop.x,
+      crop.y,
+      crop.w,
+      crop.h,
+      imageBox.x +. (imageBox.w -. width) /. 2.0,
+      imageBox.y +. (imageBox.h -. height) /. 2.0,
+      width,
+      height,
+    )
+  }
   restoreContext(ctx)
+
+  let nameBox = {
+    x: box.x +. 8.0,
+    y: box.y +. box.h -. nameHeight -. 6.0,
+    w: maxFloat(1.0, box.w -. 16.0),
+    h: nameHeight,
+  }
+  fillRounded(nameBox, nameHeight /. 2.0, accent)
+  setFillStyle(ctx, "#ffffff")
+  setTextAlign(ctx, "center")
+  setTextBaseline(ctx, "middle")
+  setFont(ctx, font(850, clamp(nameHeight *. 0.56, 13.0, 17.0)))
+  fillText(ctx, guideName(guide), nameBox.x +. nameBox.w /. 2.0, nameBox.y +. nameBox.h *. 0.52)
+}
+
+let guidePlayBox = (): rect => {
+  let prompt = state.layout.prompt
+  if state.layout.portrait {
+    {
+      x: prompt.x +. 12.0,
+      y: prompt.y +. 48.0,
+      w: clamp(prompt.w *. 0.31, 92.0, 116.0),
+      h: clamp(prompt.h -. 106.0, 82.0, 134.0),
+    }
+  } else {
+    let margin = clamp(state.width *. 0.035, 14.0, 28.0)
+    let raw = {
+      x: margin,
+      y: prompt.y,
+      w: maxFloat(100.0, prompt.x -. margin -. 14.0),
+      h: maxFloat(130.0, arrayGet(state.layout.choices, 0).y -. prompt.y -. 18.0),
+    }
+    if raw.w < 190.0 {
+      let compactHeight = minFloat(raw.h, raw.w *. 1.18)
+      {x: raw.x, y: raw.y +. (raw.h -. compactHeight) /. 2.0, w: raw.w, h: compactHeight}
+    } else {
+      raw
+    }
+  }
+}
+
+let drawGuideForQuestion = (question: question) => {
+  let box = guidePlayBox()
+  drawGuidePortrait(guideForQuestion(question), box, state.layout.portrait || box.w < 190.0)
+}
+
+let drawGuideTrio = (centerY: float, maxHeight: float) => {
+  if state.layout.portrait {
+    let margin = 12.0
+    let gap = 6.0
+    let cardWidth = (state.width -. margin *. 2.0 -. gap *. 2.0) /. 3.0
+    let cardHeight = minFloat(maxHeight, cardWidth *. 1.28)
+    let top = centerY -. cardHeight /. 2.0
+    drawGuidePortrait(Furia, {x: margin, y: top, w: cardWidth, h: cardHeight}, true)
+    drawGuidePortrait(Kuku, {x: margin +. cardWidth +. gap, y: top, w: cardWidth, h: cardHeight}, true)
+    drawGuidePortrait(
+      Vesper,
+      {x: margin +. (cardWidth +. gap) *. 2.0, y: top, w: cardWidth, h: cardHeight},
+      true,
+    )
+  } else {
+    let gap = clamp(state.width *. 0.015, 10.0, 18.0)
+    let preferredWidth = clamp(state.width *. 0.14, 118.0, 170.0)
+    let cardWidth = minFloat(preferredWidth, (state.width -. 32.0 -. gap *. 2.0) /. 3.0)
+    let cardHeight = minFloat(maxHeight, cardWidth *. 1.55)
+    let left = (state.width -. cardWidth *. 3.0 -. gap *. 2.0) /. 2.0
+    let top = centerY -. cardHeight /. 2.0
+    drawGuidePortrait(Furia, {x: left, y: top, w: cardWidth, h: cardHeight}, false)
+    drawGuidePortrait(Kuku, {x: left +. cardWidth +. gap, y: top, w: cardWidth, h: cardHeight}, false)
+    drawGuidePortrait(
+      Vesper,
+      {x: left +. (cardWidth +. gap) *. 2.0, y: top, w: cardWidth, h: cardHeight},
+      false,
+    )
+  }
 }
 
 let drawSpeaker = (x: float, y: float, size: float, muted: bool, color: string) => {
@@ -1247,14 +1379,34 @@ let drawSoundButton = () => {
 }
 
 let drawProgress = (large: bool) => {
-  let width = if large {minFloat(state.width *. 0.78, 640.0)} else {minFloat(state.width *. 0.48, 360.0)}
-  let height = if large {84.0} else {44.0}
-  let y = if large {state.height *. 0.48} else if state.layout.portrait {52.0} else {14.0}
+  let compactPortrait = state.layout.portrait && state.height < 660.0
+  let compactLandscape = !state.layout.portrait && state.height < 430.0
+  let width = if large {
+    minFloat(state.width *. (if compactLandscape {0.72} else {0.78}), 640.0)
+  } else {
+    minFloat(state.width *. (if compactLandscape {0.32} else {0.48}), 360.0)
+  }
+  let height = if large {
+    if compactLandscape {52.0} else if compactPortrait {64.0} else {84.0}
+  } else if compactLandscape {
+    36.0
+  } else {
+    44.0
+  }
+  let y = if large {
+    if compactLandscape {140.0} else if compactPortrait {state.height *. 0.46} else {state.height *. 0.48}
+  } else if state.layout.portrait {
+    52.0
+  } else if compactLandscape {
+    10.0
+  } else {
+    14.0
+  }
   let x = (state.width -. width) /. 2.0
   fillRounded({x, y, w: width, h: height}, height /. 2.0, "#8f6a27")
   fillRounded({x: x +. 5.0, y: y +. 5.0, w: width -. 10.0, h: height -. 10.0}, height /. 2.0, "#dcae43")
   let gemGap = (width -. 28.0) /. 10.0
-  let radius = if large {24.0} else {13.0}
+  let radius = if large {if compactPortrait || compactLandscape {17.0} else {24.0}} else if compactLandscape {10.0} else {13.0}
   for index in 0 to 9 {
     let gemX = x +. 14.0 +. gemGap *. (intToFloat(index) +. 0.5)
     let gemY = y +. height /. 2.0
@@ -1279,11 +1431,17 @@ let categoryLabel = (kind: string): string =>
   }
 
 let drawHeader = () => {
+  let compactLandscape = !state.layout.portrait && state.height < 430.0
   setFillStyle(ctx, "#234c45")
   setTextAlign(ctx, "left")
   setTextBaseline(ctx, "middle")
-  setFont(ctx, font(800, if state.layout.portrait {22.0} else {24.0}))
-  fillText(ctx, state.content.title, if state.layout.portrait {16.0} else {24.0}, 31.0)
+  setFont(ctx, font(800, if compactLandscape {17.0} else if state.layout.portrait {22.0} else {24.0}))
+  fillText(
+    ctx,
+    state.content.title,
+    if state.layout.portrait {16.0} else if compactLandscape {14.0} else {24.0},
+    if compactLandscape {28.0} else {31.0},
+  )
   drawProgress(false)
   drawSoundButton()
 }
@@ -1376,7 +1534,7 @@ let drawPrompt = (question: question) => {
   fillText(ctx, categoryLabel(question.kind), box.x +. box.w /. 2.0, categoryY)
 
   if state.layout.portrait {
-    drawDragon(state.layout.dragonX, state.layout.dragonY, state.layout.dragonScale, state.wrongChoice < 0)
+    drawGuideForQuestion(question)
     drawPromptToken(
       question,
       box.x +. box.w *. 0.66,
@@ -1385,7 +1543,16 @@ let drawPrompt = (question: question) => {
     )
     setFillStyle(ctx, "#243f3b")
     setFont(ctx, font(800, clamp(state.width *. 0.060, 21.0, 28.0)))
-    drawWrappedCentered(question.prompt, box.x +. box.w /. 2.0, box.y +. box.h -. 54.0, box.w -. 42.0, 31.0, 2)
+    // Keep long Hindi prompts in the right-hand column so they never run
+    // underneath the guide portrait or its name tab on narrow screens.
+    drawWrappedCentered(
+      question.prompt,
+      box.x +. box.w *. 0.67,
+      box.y +. box.h -. 54.0,
+      box.w *. 0.55,
+      31.0,
+      2,
+    )
   } else {
     drawPromptToken(
       question,
@@ -1494,12 +1661,25 @@ let drawChoice = (question: question, position: int) => {
   }
 }
 
-let drawCorrectBreath = (question: question) => {
+let drawCorrectReward = (question: question) => {
   if state.phase == 3 {
     let progress = clamp((state.simTime -. state.feedbackStart) /. 920.0, 0.0, 1.0)
     let eased = 1.0 -. (1.0 -. progress) *. (1.0 -. progress)
-    let startX = state.layout.dragonX +. 52.0 *. state.layout.dragonScale
-    let startY = state.layout.dragonY -. 5.0 *. state.layout.dragonScale
+    let (startX, startY) = switch guideForQuestion(question) {
+    | Kuku => {
+        let box = guidePlayBox()
+        (
+          box.x +. box.w *. (if state.layout.portrait {0.60} else {0.58}),
+          box.y +. box.h *. (if state.layout.portrait {0.50} else {0.36}),
+        )
+      }
+    | Furia
+    | Vesper => {
+        let position = if state.selectedChoice >= 0 {state.selectedChoice} else {answerPosition(question)}
+        let box = arrayGet(state.layout.choices, position)
+        (box.x +. box.w /. 2.0, box.y +. box.h *. 0.25)
+      }
+    }
     let endX = state.width /. 2.0
     let endY = if state.layout.portrait {74.0} else {36.0}
     let x = startX +. (endX -. startX) *. eased
@@ -1531,62 +1711,155 @@ let drawPlay = () => {
   let question = arrayGet(state.content.questions, state.currentIndex)
   drawHeader()
   if !state.layout.portrait {
-    drawDragon(state.layout.dragonX, state.layout.dragonY, state.layout.dragonScale, state.wrongChoice < 0)
+    drawGuideForQuestion(question)
   }
   drawPrompt(question)
   for position in 0 to 2 {
     drawChoice(question, position)
   }
-  if !state.layout.portrait {
+  if !state.layout.portrait && state.height >= 430.0 {
     setFillStyle(ctx, "rgba(35,66,58,0.76)")
     setTextAlign(ctx, "center")
     setTextBaseline(ctx, "middle")
     setFont(ctx, font(650, 14.0))
     fillText(ctx, state.content.keyboardHelp, state.width /. 2.0, state.height -. 15.0)
   }
-  drawCorrectBreath(question)
+  drawCorrectReward(question)
 }
 
 let drawStart = () => {
+  let compactPortrait = state.layout.portrait && state.height < 660.0
+  let compactLandscape = !state.layout.portrait && state.height < 430.0
   drawSoundButton()
   setTextAlign(ctx, "center")
   setTextBaseline(ctx, "middle")
   setFillStyle(ctx, "#234c45")
-  setFont(ctx, font(900, clamp(state.width *. (if state.layout.portrait {0.088} else {0.052}), 34.0, 66.0)))
-  fillText(ctx, state.content.title, state.width /. 2.0, if state.layout.portrait {130.0} else {74.0})
+  let titleSize = if compactLandscape {
+    28.0
+  } else if compactPortrait {
+    clamp(state.width *. 0.080, 26.0, 31.0)
+  } else {
+    clamp(state.width *. (if state.layout.portrait {0.088} else {0.052}), 34.0, 66.0)
+  }
+  setFont(ctx, font(900, titleSize))
+  let titleY = if compactPortrait {
+    78.0
+  } else if compactLandscape {
+    30.0
+  } else if state.layout.portrait {
+    130.0
+  } else {
+    74.0
+  }
+  fillText(ctx, state.content.title, state.width /. 2.0, titleY)
   setFillStyle(ctx, "#496d61")
-  setFont(ctx, font(700, clamp(state.width *. 0.024, 19.0, 30.0)))
-  fillText(ctx, state.content.subtitle, state.width /. 2.0, if state.layout.portrait {188.0} else {122.0})
-  let dragonY = if state.layout.portrait {state.height *. 0.47} else {state.height *. 0.43}
-  let dragonScale = if state.layout.portrait {clamp(state.width /. 330.0, 0.9, 1.28)} else {clamp(state.height /. 390.0, 0.85, 1.5)}
-  drawDragon(state.width /. 2.0, dragonY, dragonScale, true)
+  setFont(
+    ctx,
+    font(700, if compactPortrait || compactLandscape {16.0} else {clamp(state.width *. 0.024, 19.0, 30.0)}),
+  )
+  let subtitleY = if compactPortrait {
+    118.0
+  } else if compactLandscape {
+    62.0
+  } else if state.layout.portrait {
+    188.0
+  } else {
+    122.0
+  }
+  fillText(ctx, state.content.subtitle, state.width /. 2.0, subtitleY)
+  let trioCenter = if compactPortrait {
+    state.height *. 0.39
+  } else if compactLandscape {
+    125.0
+  } else if state.layout.portrait {
+    state.height *. 0.43
+  } else {
+    state.height *. 0.42
+  }
+  let trioHeight = if compactPortrait {
+    minFloat(state.height *. 0.21, 165.0)
+  } else if compactLandscape {
+    90.0
+  } else if state.layout.portrait {
+    minFloat(state.height *. 0.23, 165.0)
+  } else {
+    minFloat(state.height *. 0.43, 310.0)
+  }
+  drawGuideTrio(trioCenter, trioHeight)
   let box = state.layout.start
   drawPaperCard(box, "#ffe071", "#c59127", true)
   setFillStyle(ctx, "#3e4b36")
   setFont(ctx, font(900, clamp(box.h *. 0.31, 25.0, 34.0)))
   fillText(ctx, state.content.start, box.x +. box.w /. 2.0, box.y +. box.h /. 2.0)
   setFillStyle(ctx, "#3c6258")
-  setFont(ctx, font(650, 15.0))
-  fillText(ctx, state.content.startHint, state.width /. 2.0, box.y +. box.h +. 34.0)
+  if !compactLandscape {
+    setFont(ctx, font(650, if compactPortrait {13.0} else {15.0}))
+    fillText(
+      ctx,
+      state.content.startHint,
+      state.width /. 2.0,
+      box.y +. box.h +. (if compactPortrait {28.0} else {34.0}),
+    )
+  }
 }
 
 let drawComplete = () => {
+  let compactPortrait = state.layout.portrait && state.height < 660.0
+  let compactLandscape = !state.layout.portrait && state.height < 430.0
   drawSoundButton()
   setTextAlign(ctx, "center")
   setTextBaseline(ctx, "middle")
   setFillStyle(ctx, "#234c45")
-  setFont(ctx, font(900, clamp(state.width *. 0.062, 38.0, 70.0)))
-  fillText(ctx, state.content.completeTitle, state.width /. 2.0, if state.layout.portrait {120.0} else {82.0})
-  drawDragon(
-    state.width /. 2.0,
-    if state.layout.portrait {state.height *. 0.35} else {state.height *. 0.34},
-    if state.layout.portrait {0.86} else {1.08},
-    true,
-  )
+  let titleSize = if compactLandscape {
+    28.0
+  } else if compactPortrait {
+    32.0
+  } else {
+    clamp(state.width *. 0.062, 38.0, 70.0)
+  }
+  setFont(ctx, font(900, titleSize))
+  let titleY = if compactPortrait {
+    70.0
+  } else if compactLandscape {
+    28.0
+  } else if state.layout.portrait {
+    120.0
+  } else {
+    82.0
+  }
+  fillText(ctx, state.content.completeTitle, state.width /. 2.0, titleY)
+  let trioCenter = if compactPortrait {
+    state.height *. 0.31
+  } else if compactLandscape {
+    92.0
+  } else if state.layout.portrait {
+    state.height *. 0.35
+  } else {
+    state.height *. 0.34
+  }
+  let trioHeight = if compactPortrait {
+    minFloat(state.height *. 0.20, 155.0)
+  } else if compactLandscape {
+    82.0
+  } else if state.layout.portrait {
+    minFloat(state.height *. 0.21, 155.0)
+  } else {
+    minFloat(state.height *. 0.31, 225.0)
+  }
+  drawGuideTrio(trioCenter, trioHeight)
   drawProgress(true)
   setFillStyle(ctx, "#365d52")
   setFont(ctx, font(750, clamp(state.width *. 0.031, 21.0, 32.0)))
-  fillText(ctx, state.content.completeBody, state.width /. 2.0, if state.layout.portrait {state.height *. 0.61} else {state.height *. 0.62})
+  let bodyY = if compactPortrait {
+    state.height *. 0.62
+  } else if compactLandscape {
+    214.0
+  } else if state.layout.portrait {
+    state.height *. 0.61
+  } else {
+    state.height *. 0.62
+  }
+  fillText(ctx, state.content.completeBody, state.width /. 2.0, bodyY)
   let box = state.layout.restart
   drawPaperCard(box, "#ffe071", "#c59127", true)
   setFillStyle(ctx, "#3e4b36")
@@ -1609,6 +1882,7 @@ let drawDevOverlay = () => {
     setCanvasAttribute(gameCanvas, "data-masteries", numberString(intToFloat(arrayLength(state.mastery))))
     setCanvasAttribute(gameCanvas, "data-dpr", numberString(state.dpr))
     setCanvasAttribute(gameCanvas, "data-portrait", if state.layout.portrait {"true"} else {"false"})
+    setCanvasAttribute(gameCanvas, "data-guide", guideKey(guideForQuestion(currentQuestion)))
     setCanvasAttribute(gameCanvas, "data-sound", if state.sound {"true"} else {"false"})
     setCanvasAttribute(gameCanvas, "data-speech", if state.speechAvailable {"hi"} else {"visual"})
     setCanvasAttribute(gameCanvas, "data-input", state.lastInput)

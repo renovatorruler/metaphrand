@@ -149,7 +149,7 @@ let mk = (
       )
       Js.Array2.concat(
         Js.Array2.length(dragons) > 0 && form == P.Great
-          ? [Sets.lanePosition(a, cartAt), Sets.greatFormStaging]
+          ? [Sets.lanePosition(a, cartAt), Sets.greatFormStaging, Sets.greatFormFraming]
           : [Sets.lanePosition(a, cartAt)],
         extraRules,
       )
@@ -326,6 +326,28 @@ let shots: array<entry> = [
     ~setting=courtyard,
     ~plate=courtyardPlate,
     ~lightingOverride="dusk light warm on his paper robes — warm golden dusk, the last golden evening",
+    (),
+  ),
+  /* A dedicated WIDE for the ring drill. The old start frame (h04_launch) was a
+     low angle tight on the ring, so a clip begun there had no courtyard to hold
+     on to and invented a rocky plateau. This one contains the whole drill path
+     ऋषि describes — mark, ring, bell — with air around it. */
+  mk(
+    ~id="h53_ring_drill_wide",
+    ~beat=RingDrill,
+    ~scene="The whole flight drill laid out: फ्यूरिया waits on her mark, the ring stands ahead of her, the bell hangs beyond it.",
+    ~shot=P.Wide,
+    ~dragons=[(P.Fyuria, "stands on the circular marked flagstone in the LOWER LEFT of frame, wings half-raised and chin lifted, facing the ring — small in the frame, with a great deal of open courtyard and sky around her")],
+    ~setting=Sets.setProseFor(Sets.Courtyard, ["MARKED FLAGSTONE", "FLIGHT RING", "BELL ARCH"]),
+    ~plate=courtyardPlate,
+    ~extraRules=[
+      "SIZE IN THE WORLD IS NOT SIZE IN THE FRAME. She is still enormous compared with the flagstones she stands on — but the CAMERA IS VERY FAR AWAY, so she appears SMALL in this picture: no more than a QUARTER of the frame's height, a distant figure in a large space. Do not fill the frame with her.",
+      "FRAME THIS VERY WIDE AND FROM FAR BACK: the marked flagstone, the whole ring and the bell arch are ALL visible at once, each well clear of the frame edges, with a broad band of sky above and open flagstones between them. Nothing is cropped.",
+      "leave enough empty air in the frame for her to fly from the mark, up through the ring, on to the bell and back again WITHOUT ever leaving the picture.",
+      "the three sit apart across the frame: the mark low LEFT, the ring standing at CENTRE, the bell arch high RIGHT — with clear flying space between and above them, enough for an enormous dragon to travel from the mark, through the ring, up to the bell and back.",
+      "the camera is at courtyard level, level with the ground, not looking up from beneath",
+    ],
+    ~added=["a wide drill-stage frame; the old start frame was too tight for the action to happen inside it"],
     (),
   ),
   /* — TowerMischief — */
@@ -512,7 +534,7 @@ let shots: array<entry> = [
     ~beat=Braking,
     ~scene="कैस्टर keeps गौरी calm.",
     ~shot=P.Medium,
-    ~dragons=[(P.Castor, "flies close beside the cart, head lowered gently toward the frightened cow, speaking softly")],
+    ~dragons=[(P.Castor, "flies ALONG the lane directly above and behind the cart, his long body and tail stretching back UP the slope behind him and fully inside the lane, wings swept back and held high above the kerb line. Only his head and neck come down toward the frightened cow. He is turned nose-forward down the lane, never broadside across it, and his tail runs back along the open lane — never into, across or through a kerb or wall")],
     ~gauri="frightened in the cart, looking up at him",
     ~cart=(true, "running"),
     ~setting=lane,
