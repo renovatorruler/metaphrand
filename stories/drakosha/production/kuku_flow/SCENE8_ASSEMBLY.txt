@@ -30,5 +30,5 @@
 #     The gather is deliberately not in the cut (author, 2026-08-25): we go straight
 #     from his face to the word already assembled. The pickup exists if it is ever
 #     wanted — 2026-08-25_V03_gather_v9_landed.mp4.
-2026-08-25_V04_MAMA_read_kling_v5_kidvoice.mp4     # SH123 overhead: М-А-М-А lighting under his finger, then Ма-ма
+2026-08-25_V04_MAMA_read_kling_v6_stress.mp4       # SH123 overhead: М-А-М-А lighting under his finger, then Ма́-ма (stress on the FIRST syllable — v5 had it on the second)
 2026-08-25_V05_single_v2_dub.mp4                   # SH123-124 «Мама! Вжух?», the light takes him, and Вася-мама arrives
