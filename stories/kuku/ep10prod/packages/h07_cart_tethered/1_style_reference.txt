@@ -1,0 +1,8 @@
+SLOT 1 — STYLE REFERENCE
+
+Upload id: 0c47270d-70f7-4dd0-887f-c06c88ef5fd9
+
+This is the art-style reference attached FIRST to every generation. It lives on
+Higgsfield as a stored upload; the CLI offers no way to download it back, so it
+cannot be included here as a file. Anything reproducing this package must pass
+this id as the first --image.

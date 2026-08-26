@@ -1,0 +1,51 @@
+{
+  "shot": "h40_small_five_sit",
+  "kind": "still",
+  "model": "nano_banana_pro",
+  "aspect_ratio": "16:9",
+  "resolution": "2k",
+  "attachments_in_order": [
+    {
+      "slot": "1",
+      "role": "style_reference",
+      "file": "(upload id, see 1_style_reference.txt)"
+    },
+    {
+      "slot": "2",
+      "role": "backplate",
+      "file": "2_backplate.png",
+      "source": "../stories/kuku/ep10prod/sets/flat_stone_plate.png"
+    },
+    {
+      "slot": "3",
+      "role": "reference_2",
+      "file": "3_reference_2.png",
+      "source": "../stories/kuku/charsheets/kuku.png"
+    },
+    {
+      "slot": "4",
+      "role": "reference_3",
+      "file": "4_reference_3.png",
+      "source": "../stories/kuku/charsheets/furia.png"
+    },
+    {
+      "slot": "5",
+      "role": "reference_4",
+      "file": "5_reference_4.png",
+      "source": "../stories/kuku/charsheets/leda.png"
+    },
+    {
+      "slot": "6",
+      "role": "reference_5",
+      "file": "6_reference_5.png",
+      "source": "../stories/kuku/charsheets/castor.png"
+    }
+  ],
+  "prompt_file": "prompt.txt",
+  "derived_notes": [
+    "story beat AfterStop",
+    "form: small (from the story clock)",
+    "SET PLATE attached: ../stories/kuku/ep10prod/sets/flat_stone_plate.png",
+    "lighting from the dusk clock"
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-08-12T02:57:27.481823Z",
+    "display_name": "Nano Banana Pro",
+    "id": "d829451d-35bb-4bae-b594-bd3a4fd5e551",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_025727_d829451d-35bb-4bae-b594-bd3a4fd5e551_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "1:1",
+      "batch_size": 1,
+      "height": 2048,
+      "input_image": null,
+      "input_images": [],
+      "prompt": "Traditional Rajasthani Phad scroll painting style, Marwar folk art: flat two-dimensional figure in strict profile, bold black outlines, saturated mineral pigments on aged hand-woven cloth — deep red-ochre ground, indigo, turmeric yellow, white — decorative patterned border on all sides. Album-cover portrait panel: one old lean village bard standing in strict profile at night, singing with his mouth open mid-phrase, eyes closed, deeply weathered face with a white tied beard, large saffron Malwa turban, simple red robe, playing a ravanhatta (spike fiddle) held up with its bow, many thin red sacred threads tied on his bowing wrist, a small oil lamp at his feet, one distant algoza flute hanging at his hip, a rolled painted scroll leaning on the shrine wall behind him, dark indigo star field above. He is paint on cloth, dignified, mid-song. Absolutely no readable text, no letters, no writing, no inscriptions anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2048
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_025727_d829451d-35bb-4bae-b594-bd3a4fd5e551.png",
+    "status": "completed"
+  }
+]

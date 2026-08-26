@@ -346,6 +346,8 @@ let shots: array<entry> = [
       "leave enough empty air in the frame for her to fly from the mark, up through the ring, on to the bell and back again WITHOUT ever leaving the picture.",
       "the three sit apart across the frame: the mark low LEFT, the ring standing at CENTRE, the bell arch high RIGHT — with clear flying space between and above them, enough for an enormous dragon to travel from the mark, through the ring, up to the bell and back.",
       "the camera is at courtyard level, level with the ground, not looking up from beneath",
+      "THE RING IS TURNED THREE-QUARTERS TO CAMERA — not flat-on. We see it obliquely, as an ellipse rather than a perfect circle, so that its opening reads clearly as a HOLE IN SPACE with a near rim and a far rim, and so that the courtyard behind it is visible through the opening. This is what makes flying THROUGH it readable rather than ambiguous.",
+      "फ्यूरिया stands on the near side of the ring, so the flight path runs from camera-near, through the opening, and away to the far side",
     ],
     ~added=["a wide drill-stage frame; the old start frame was too tight for the action to happen inside it"],
     (),
@@ -379,8 +381,16 @@ let shots: array<entry> = [
     ~beat=RopeSlips,
     ~scene="The knot gives — the cart is loose.",
     ~shot=P.Close,
-    ~props=[redRope("its knot slipping loose from the weathered stone post, the rope end whipping away, fibres catching the light")],
-    ~setting="the stone post at the top of the lane",
+    /* the old frame showed a rope already SNAPPED — frayed ends, no load. The
+       beat is a knot slipping under tension, so the rope must be whole and taut,
+       running out of frame to the cart it is holding. */
+    ~props=[redRope("wrapped in three tight turns around the weathered stone post and knotted, WHOLE AND UNBROKEN, drawn bar-tight and straining under load; it runs out of the RIGHT of frame toward the cart it holds")],
+    ~setting=Sets.setProseFor(Sets.Lane, ["STONE POST", "CART START"]),
+    ~extraRules=[
+      "the rope is INTACT along its whole visible length — a continuous twisted paper cord with clean edges, no frayed end, no broken strands, no loose fibres anywhere",
+      "frame close on the post and knot, but keep enough of the paper flagstones and the low kerb beneath to place this at the head of the lane",
+      "the rope leaves the frame at the RIGHT still under tension, going to the cart out of shot",
+    ],
     ~added=["time-of-day (the prose said only \"fibres catching light\")"],
     ~plate=Sets.lanePlateAt(4.0),
     (),

@@ -1,0 +1,34 @@
+{
+  "shot": "h47_leda_warns",
+  "kind": "still",
+  "model": "nano_banana_pro",
+  "aspect_ratio": "16:9",
+  "resolution": "2k",
+  "attachments_in_order": [
+    {
+      "slot": "1",
+      "role": "style_reference",
+      "file": "(upload id, see 1_style_reference.txt)"
+    },
+    {
+      "slot": "2",
+      "role": "backplate",
+      "file": "2_backplate.png",
+      "source": "../stories/kuku/ep10prod/sets/lane_flat_approach_plate.png"
+    },
+    {
+      "slot": "3",
+      "role": "character_leda",
+      "file": "3_character_leda.png",
+      "source": "../stories/kuku/ep10prod/elements/future_leda_board_bracelet.png"
+    }
+  ],
+  "prompt_file": "prompt.txt",
+  "derived_notes": [
+    "story beat Braking",
+    "form: GREAT (from the story clock)",
+    "lane position 30 m — plate and progression derived",
+    "cart clock 25 m",
+    "SET PLATE attached: ../stories/kuku/ep10prod/sets/lane_flat_approach_plate.png"
+  ]
+}

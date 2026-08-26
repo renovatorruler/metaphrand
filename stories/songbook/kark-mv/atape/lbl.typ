@@ -1,0 +1,8 @@
+#set page(width: 1880pt, height: 1764pt, margin: 0pt, fill: none)
+#let cap(x, y, n, txt) = place(dx: x * 1pt, dy: y * 1pt, box(width: 940pt, inset: 14pt, text(fill: white, size: 26pt, weight: "bold", font: "Helvetica", [#n — #txt])))
+#cap(0, 0, "1", "WIDE, golden — with troupe")
+#cap(940, 0, "2", "MID, golden — to camera")
+#cap(0, 588, "3", "CLOSE, storm (approved)")
+#cap(940, 588, "4", "IV STAND, storm")
+#cap(0, 1176, "5", "WIDE, storm peak")
+#cap(940, 1176, "6", "CLOSE, rain finale")

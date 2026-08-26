@@ -1,0 +1,38 @@
+[
+  {
+    "created_at": "2026-08-16T21:01:30.826461Z",
+    "display_name": "Wan 2.7",
+    "id": "b85baba5-72a4-485e-926a-15a68e6b8199",
+    "job_type": "wan2_7",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "16:9",
+      "duration": 10,
+      "height": 768,
+      "medias": [
+        {
+          "data": {
+            "id": "9a8ecfd5-3309-4eb6-b108-0c2e30518731",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/9a8ecfd5-3309-4eb6-b108-0c2e30518731_resize.jpg"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "8a50091a-bbb8-4515-a0d0-daccdc7b1ffc",
+            "type": "audio_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/8a50091a-bbb8-4515-a0d0-daccdc7b1ffc.mp3"
+          },
+          "role": "audio"
+        }
+      ],
+      "prompt": "The Rajasthani folk singer performs to the audio. This passage is a long sustained alap: one open vowel held for several seconds, so his mouth stays OPEN and steady on the held note rather than chattering or articulating words, widening as the note swells and closing only when the phrase ends. His throat and chest work with the sustained breath; his head tilts back slightly on the held note. His bow hand stays still and resting — he is singing, not bowing, and the bow never crosses the strings. The saffron turban tail and red threads on his wrist stream in the wind; his kurta ripples. Locked-off camera, no pan or zoom, single continuous take. Everything else exactly as the start frame. Photoreal, cinematic.",
+      "resolution": "720p",
+      "width": 1344
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_210130_b85baba5-72a4-485e-926a-15a68e6b8199.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_210130_b85baba5-72a4-485e-926a-15a68e6b8199_thumbnail.webp"
+  }
+]

@@ -1,0 +1,1412 @@
+{
+ "schema": "kuku.table_read.plan.v1",
+ "pipeline_version": "kuku-ep10-simple-table-read-v1",
+ "screenplay": "../stories/kuku/2026-08-18_EP10_ga_gaay_SPEC_SCREENPLAY_v2_SIMPLE.md",
+ "screenplay_sha256": "5327817c74d963315ccbef23034d008d6ed6ed49636f9c3ed29e64d6380120bc",
+ "global_tagmap_sha256": "363675ca41296607a07936f31f7b3e748e695693317d86ba44d16893d9c110bb",
+ "local_tagmap_sha256": "5980e7a48a686bdfe3e39ca70387f6dc1cc0d58f51e8e093a77a5371218bba22",
+ "model_id": "eleven_v3",
+ "max_chunk_characters": 1800,
+ "cast": {
+  "SUTRADHAR": "OIIrFPBzLAigdcttMGWZ",
+  "CHEEL": "PId0lEbL3SOYkQZSraml",
+  "RISHI": "ocf4J1Vk0yOOFNBy3kNq",
+  "DADI": "nfMYisZqs1GOjTFllho3",
+  "KUKU": "NbvR1eY6Q8ivACdEO8PV",
+  "FYURIA": "FFmp1h1BMl0iVHA0JxrI",
+  "VESPER": "subIZc6skATBQ1Rbqpi7",
+  "CASTOR": "4iqKdEXMW8NRF8USiS3Q",
+  "LEDA": "nUX4UWK0Tf1qh5zvFZWR"
+ },
+ "segments": [
+  {
+   "order": 1,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[announcing]",
+   "text": "दृश्य ० — बाहर: अक्षर गुरुकुल का उड़ान-आँगन — साँझ — लगातार"
+  },
+  {
+   "order": 2,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "पाँचों बच्चे अपने विशाल, कम उम्र वाले ड्रैगन रूपों में खड़े हैं। उनके कड़े चमक रहे हैं। पीछे गुरुकुल का टूटा द्वार पक्के सुनहरे ब पर टिका है।"
+  },
+  {
+   "order": 3,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "आँगन के बीच एक बड़ा, स्थिर उड़ान-घेरा है। उससे काँसे की घंटी लटक रही है। आँगन की दीवार के साथ एक चौड़ी गोल पटरी पूरा चक्कर लगाती है। सामने पटरी का एक हिस्सा टूटा हुआ है। पास वाले सिरे के नीचे एक मजबूत गोल चट्टान निकली है। दूर वाले सिरे में सीधा पत्थरीला खाँचा है। दोनों जगह लाल निशान-झंडियाँ लगी हैं।"
+  },
+  {
+   "order": 4,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "आँगन के सामने वाली ऊँची मीनार भी इसी चौड़े दृश्य में दिखाई देती है। उसमें एक बंद पत्थरीला दरवाज़ा है।"
+  },
+  {
+   "order": 5,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "पटरी के ऊपरी हिस्से पर घास से भरी लकड़ी की गाड़ी खड़ी है। उसमें एक सफ़ेद गाय घास खा रही है। गाड़ी एक मोटी लाल रस्सी से पत्थर के खंभे से बँधी है। ये सारी चीज़ें एक ही चौड़े दृश्य में दिखाई देती हैं।"
+  },
+  {
+   "order": 6,
+   "scene": 0,
+   "dialogue_idx": 1,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "शांत, साफ़ आवाज़ में",
+   "tag": "[calm and clear]",
+   "text": "कड़े तुम्हें बड़ा रूप देते हैं। इस बड़े रूप के पंखों को उड़ना याद है। छोटे रूप में तुम्हें अभी उड़ना नहीं आता।"
+  },
+  {
+   "order": 7,
+   "scene": 0,
+   "dialogue_idx": 2,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "बेसब्री से",
+   "tag": "[impatient]",
+   "text": "तब तक पहला चक्कर मैं लगाऊँगी!"
+  },
+  {
+   "order": 8,
+   "scene": 0,
+   "dialogue_idx": 3,
+   "kind": "dialogue",
+   "speaker": "RISHI",
+   "direction": "हल्की चेतावनी में",
+   "tag": "[gentle warning]",
+   "text": "घेरे से निकलो, घंटी छुओ और अपनी जगह पर लौटो।"
+  },
+  {
+   "order": 9,
+   "scene": 0,
+   "dialogue_idx": 4,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "हँसकर",
+   "tag": "[laughing]",
+   "text": "मैं बस छूकर लौटूँगी।"
+  },
+  {
+   "order": 10,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "फ्यूरिया दौड़ती है, पंख खोलती है और उड़ान-घेरे के बीच से निकलती है। वह घंटी को पंजे से हल्का छूती है।"
+  },
+  {
+   "order": 11,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "ध्वनि: बड़े पंख हवा काटते हैं। घंटी साफ़ टनकती है।"
+  },
+  {
+   "order": 12,
+   "scene": 0,
+   "dialogue_idx": 5,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "हवा में खिलखिलाकर",
+   "tag": "[giggling] [calling through the air]",
+   "text": "मैं उड़ रही हूँ!"
+  },
+  {
+   "order": 13,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "फ्यूरिया घूमकर अपने उतरने वाले घेरे की ओर लौटती है। बाकी चार खुशी से उसे देखते हैं।"
+  },
+  {
+   "order": 14,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "ऊपर की मीनार के पीछे चील उतरती है। उसकी नज़र पहले घंटी पर जाती है, फिर लाल रस्सी पर।"
+  },
+  {
+   "order": 15,
+   "scene": 0,
+   "dialogue_idx": 6,
+   "kind": "dialogue",
+   "speaker": "CHEEL",
+   "direction": "धीमी हँसी में",
+   "tag": "[quiet sinister laugh]",
+   "text": "इस रस्सी को खोलूँ, तो गाड़ी सीधे टूटी पटरी की ओर जाएगी।"
+  },
+  {
+   "order": 16,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "चील रस्सी की गाँठ खींचकर खोल देती है। केवल यही एक काम गाड़ी को छोड़ देता है।"
+  },
+  {
+   "order": 17,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "ध्वनि: चील के पंजे से मोटी रस्सी खुलकर पत्थर पर गिरती है। लकड़ी के पहिए चल पड़ते हैं।"
+  },
+  {
+   "order": 18,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "गाड़ी धीरे चलती है, फिर गोल ढलान पर तेज़ होने लगती है। गाय सिर उठाती है और घबराकर रंभाती है।"
+  },
+  {
+   "order": 19,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "ध्वनि: गाय की लंबी रंभाहट।"
+  },
+  {
+   "order": 20,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "बच्चे गाड़ी की ओर मुड़ते हैं। उसी पल चील उड़ान-घेरे से काँसे की घंटी खोल लेती है और उसे पंजों में लेकर ऊपर उठती है।"
+  },
+  {
+   "order": 21,
+   "scene": 0,
+   "dialogue_idx": 7,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "तेज़, साफ़ आवाज़ में",
+   "tag": "[urgent] [clear]",
+   "text": "ऊपर वाली पटरी पर गाड़ी चल पड़ी है!"
+  },
+  {
+   "order": 22,
+   "scene": 0,
+   "dialogue_idx": 8,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "घबराकर",
+   "tag": "[alarmed]",
+   "text": "गाड़ी में गाय है!"
+  },
+  {
+   "order": 23,
+   "scene": 0,
+   "dialogue_idx": 9,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "चौंककर",
+   "tag": "[startled]",
+   "text": "चील घंटी ले जा रही है!"
+  },
+  {
+   "order": 24,
+   "scene": 0,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[narrating with wonder]",
+   "text": "फ्यूरिया एक पल चील और गाय के बीच देखती है। गाय फिर रंभाती है। फ्यूरिया चील से मुँह मोड़कर गाड़ी की ओर झपटती है।"
+  },
+  {
+   "order": 25,
+   "scene": 0,
+   "dialogue_idx": 10,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "फौरन, पक्की आवाज़ में",
+   "tag": "[immediately] [firmly]",
+   "text": "घंटी को बाद में बचाएँगे। पहले गाय को बचाएँगे!"
+  },
+  {
+   "order": 26,
+   "scene": 1000,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[announcing]",
+   "text": "शीर्षक गीत।"
+  },
+  {
+   "order": 27,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[announcing]",
+   "text": "दृश्य १ — बाहर: वही उड़ान-आँगन और गोल पटरी — लगातार"
+  },
+  {
+   "order": 28,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "गाड़ी गुरुकुल की गोल पटरी पर तेज़ होती जा रही है। सामने का टूटा हिस्सा अभी आँगन के दूसरी ओर है। गाड़ी वहाँ पहुँचने से पहले लगभग एक पूरा चक्कर लगाएगी।"
+  },
+  {
+   "order": 29,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "वैस्पर सीधा ऊपर उड़ता है। ऊपर से उसे पूरी गोल पटरी, भागती गाड़ी और टूटा हिस्सा एक साथ दिखाई देते हैं।"
+  },
+  {
+   "order": 30,
+   "scene": 1,
+   "dialogue_idx": 11,
+   "kind": "dialogue",
+   "speaker": "VESPER",
+   "direction": "ऊपर से पुकारकर",
+   "tag": "[calling from above]",
+   "text": "गाड़ी एक चक्कर के बाद टूटी पटरी पर पहुँच जाएगी!"
+  },
+  {
+   "order": 31,
+   "scene": 1,
+   "dialogue_idx": 12,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "जल्दी से पुकारकर",
+   "tag": "[urgent] [calling out loudly]",
+   "text": "मुझे सबसे सीधा रास्ता दिखाओ!"
+  },
+  {
+   "order": 32,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "वैस्पर गोल पटरी का चक्कर नहीं लगाता। वह आँगन के खुले बीच से सीधा उड़ता है। यह रास्ता सबको साफ़ दिखाई देता है।"
+  },
+  {
+   "order": 33,
+   "scene": 1,
+   "dialogue_idx": 13,
+   "kind": "dialogue",
+   "speaker": "VESPER",
+   "direction": "पक्की आवाज़ में",
+   "tag": "[firmly]",
+   "text": "बीच से आओ। मेरे पीछे उड़ो!"
+  },
+  {
+   "order": 34,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "फ्यूरिया उसके पीछे से निकलकर गाड़ी के सामने पहुँचती है। वह पीछे की ओर उड़ते हुए दोनों पंजे गाड़ी की सामने वाली दीवार पर रखती है।"
+  },
+  {
+   "order": 35,
+   "scene": 1,
+   "dialogue_idx": 14,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "जोर लगाकर",
+   "tag": "[straining]",
+   "text": "मैं गाड़ी को धीमा कर रही हूँ!"
+  },
+  {
+   "order": 36,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "गाड़ी धीमी होती है, मगर रुकती नहीं। उसके पीछे का लकड़ी का फाटक उछलकर खुलने लगता है। गाय पीछे की ओर फिसलती है।"
+  },
+  {
+   "order": 37,
+   "scene": 1,
+   "dialogue_idx": 15,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "गाय को भरोसा देते हुए",
+   "tag": "[reassuring] [clear]",
+   "text": "गाय, गाड़ी के बीच में रहो। तुम गिरोगी नहीं!"
+  },
+  {
+   "order": 38,
+   "scene": 1,
+   "dialogue_idx": 16,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "तीखी चेतावनी में",
+   "tag": "[sharply] [warning]",
+   "text": "पीछे का फाटक खुल रहा है!"
+  },
+  {
+   "order": 39,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "कैस्टर गाड़ी के पीछे पहुँचता है। वह दोनों पंजों से फाटक पकड़कर बंद करता है और गाड़ी के साथ उड़ता रहता है।"
+  },
+  {
+   "order": 40,
+   "scene": 1,
+   "dialogue_idx": 17,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "दृढ़ आवाज़ में",
+   "tag": "[clear and commanding]",
+   "text": "मैं पीछे का फाटक पकड़ूँगा!"
+  },
+  {
+   "order": 41,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "ध्वनि: लकड़ी का फाटक खट से बंद होता है।"
+  },
+  {
+   "order": 42,
+   "scene": 1,
+   "dialogue_idx": 18,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "गाय को भरोसा देते हुए",
+   "tag": "[reassuring] [clear]",
+   "text": "फाटक बंद है। तुम गाड़ी के बीच में रहो।"
+  },
+  {
+   "order": 43,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "गाय अपने पैर जमाती है। फ्यूरिया आगे से गाड़ी धीमी करती रहती है। कैस्टर पीछे से फाटक थामे रहता है।"
+  },
+  {
+   "order": 44,
+   "scene": 1,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "कुकु और लेडा टूटे हिस्से की ओर उड़ते हैं। वैस्पर फिर ऊपर चढ़कर गाड़ी की दूरी देखता है।"
+  },
+  {
+   "order": 45,
+   "scene": 1,
+   "dialogue_idx": 19,
+   "kind": "dialogue",
+   "speaker": "VESPER",
+   "direction": "तेज़ आवाज़ में",
+   "tag": "[loudly] [urgent]",
+   "text": "आधा चक्कर बचा है!"
+  },
+  {
+   "order": 46,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[announcing]",
+   "text": "दृश्य २ — बाहर: गोल पटरी का टूटा हिस्सा — लगातार"
+  },
+  {
+   "order": 47,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "लेडा टूटे हिस्से के पास उतरती है। वह पास वाले सिरे के नीचे निकली गोल चट्टान और दूर वाले सिरे का सीधा खाँचा देखती है।"
+  },
+  {
+   "order": 48,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "लेडा पहली लाल निशान-झंडी गोल चट्टान के पास गाड़ती है। वह उड़कर दूसरी ओर जाती है और दूसरी निशान-झंडी पत्थरीले खाँचे के पास गाड़ती है। कुकु के सामने अब दो साफ़ लक्ष्य हैं।"
+  },
+  {
+   "order": 49,
+   "scene": 2,
+   "dialogue_idx": 20,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "तेज़, साफ़ आवाज़ में",
+   "tag": "[urgent] [clear]",
+   "text": "कुकु, दोनों लाल निशानों के बीच बनाओ!"
+  },
+  {
+   "order": 50,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "कुकु टूटे हिस्से के सामने हवा में रुकता है। वह साँस भरता है, मगर अभी कुछ नहीं बनाता। दूर गाड़ी के पहिए और तेज़ सुनाई देते हैं।"
+  },
+  {
+   "order": 51,
+   "scene": 2,
+   "dialogue_idx": 21,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "दूर से, जोर लगाकर",
+   "tag": "[calling from a distance] [straining]",
+   "text": "गाड़ी बहुत भारी है!"
+  },
+  {
+   "order": 52,
+   "scene": 2,
+   "dialogue_idx": 22,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "गाड़ी के पीछे से पुकारकर",
+   "tag": "[calling from behind the cart]",
+   "text": "गाय फिर पीछे फिसल रही है!"
+  },
+  {
+   "order": 53,
+   "scene": 2,
+   "dialogue_idx": 23,
+   "kind": "dialogue",
+   "speaker": "VESPER",
+   "direction": "ऊपर से चेताकर",
+   "tag": "[calling from above] [warning]",
+   "text": "गाड़ी गुरुकुल के पास आ गई है!"
+  },
+  {
+   "order": 54,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "तीनों पंक्तियों की पहली ग एक ही हल्की सुनहरी ध्वनि छोड़ती है। कुकु सुनता है। लेडा भी सुनती है।"
+  },
+  {
+   "order": 55,
+   "scene": 2,
+   "dialogue_idx": 24,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "कुकु को पुकारकर",
+   "tag": "[calling out loudly]",
+   "text": "कुकु, सुनो!"
+  },
+  {
+   "order": 56,
+   "scene": 2,
+   "dialogue_idx": 25,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "अचानक, साफ़ आवाज़ में",
+   "tag": "[suddenly] [clear]",
+   "text": "ग!"
+  },
+  {
+   "order": 57,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "लेडा दूर वाले टूटे सिरे पर खड़ी होकर दोनों पंजों के बीच जगह दिखाती है। कुकु उसी जगह पर निशाना लगाता है।"
+  },
+  {
+   "order": 58,
+   "scene": 2,
+   "dialogue_idx": 26,
+   "kind": "dialogue",
+   "speaker": "VESPER",
+   "direction": "ऊपर से पुकारकर",
+   "tag": "[calling from above]",
+   "text": "गाड़ी आ रही है!"
+  },
+  {
+   "order": 59,
+   "scene": 2,
+   "dialogue_idx": 27,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "तेज़, पक्की आवाज़ में",
+   "tag": "[urgent] [firmly]",
+   "text": "अब बनाओ!"
+  },
+  {
+   "order": 60,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "कुकु गहरी साँस लेकर सुनहरी रोशनी छोड़ता है। एक पूरा, साफ़ और ठोस ग एक ही बार में दोनों लाल निशानों के बीच बनता है। सामने से वह पूरा और पढ़ने योग्य दिखाई देता है।"
+  },
+  {
+   "order": 61,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "ग की ऊपर वाली पट्टी टूटे रास्ते के दोनों सिरों को जोड़ती है। उसका दायाँ खड़ा हिस्सा दूर के पत्थरीले खाँचे में नीचे तक बैठता है। उसका खुला गोल हिस्सा पास की निकली चट्टान के चारों ओर अटकता है। तीनों संपर्क एक ही चौड़े दृश्य में साफ़ दिखते हैं। ग किसी दूसरी आकृति में नहीं बदलता।"
+  },
+  {
+   "order": 62,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "ध्वनि: सुनहरा ग पत्थर में भारी ठक से बैठता है।"
+  },
+  {
+   "order": 63,
+   "scene": 2,
+   "dialogue_idx": 28,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "राहत से पुकारकर",
+   "tag": "[relieved] [calling out loudly]",
+   "text": "ग अपनी जगह पर है!"
+  },
+  {
+   "order": 64,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "भौतिक ग वहीं रहता है। उसकी पाँच हल्की सुनहरी छापें उड़कर पाँचों कड़ों पर बैठती हैं। कोई बच्चा रूप नहीं बदलता।"
+  },
+  {
+   "order": 65,
+   "scene": 2,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "ध्वनि: पाँच कड़ों की पाँच छोटी टनन।"
+  },
+  {
+   "order": 66,
+   "scene": 2,
+   "dialogue_idx": 29,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "हैरानी और खुशी से",
+   "tag": "[astonished and delighted]",
+   "text": "ग की छाप हम पाँचों के कड़ों पर आ गई! असली ग पटरी में ही है!"
+  },
+  {
+   "order": 67,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[announcing]",
+   "text": "दृश्य ३ — बाहर: सुनहरे ग के ऊपर — लगातार"
+  },
+  {
+   "order": 68,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "गाड़ी आखिरी मोड़ से निकलती है। सामने टूटी पटरी के बीच पूरा सुनहरा ग खड़ा है।"
+  },
+  {
+   "order": 69,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "कुकु ग के पास उड़कर उसे दोनों पंजों से थामता है। लेडा दूर वाले खाँचे पर नज़र रखती है। वैस्पर ऊपर से चारों पहियों और सुनहरी पट्टी को एक साथ देखता है। फ्यूरिया के सामने गाड़ी की ऊँची दीवार है, इसलिए उसे पहियों की सही जगह नहीं दिखती।"
+  },
+  {
+   "order": 70,
+   "scene": 3,
+   "dialogue_idx": 30,
+   "kind": "dialogue",
+   "speaker": "VESPER",
+   "direction": "ऊपर से दिशा देते हुए",
+   "tag": "[calling from above] [clear and commanding]",
+   "text": "फ्यूरिया, गाड़ी बाईं ओर जा रही है। थोड़ा दाईं ओर!"
+  },
+  {
+   "order": 71,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "फ्यूरिया हवा में दाईं ओर खिसकती है। गाड़ी के चारों पहिए सुनहरी पट्टी के बीच में आ जाते हैं।"
+  },
+  {
+   "order": 72,
+   "scene": 3,
+   "dialogue_idx": 31,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "पूरा जोर लगाकर",
+   "tag": "[straining] [voice raised]",
+   "text": "अब गाड़ी बीच में है!"
+  },
+  {
+   "order": 73,
+   "scene": 3,
+   "dialogue_idx": 32,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "पीछे से पुकारकर",
+   "tag": "[calling from behind]",
+   "text": "फाटक बंद है। गाय सुरक्षित है!"
+  },
+  {
+   "order": 74,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "ग का दायाँ खड़ा हिस्सा खाँचे में थोड़ा ऊपर उठने लगता है। लेडा उस पर दोनों पंजे रखकर उसे वापस नीचे दबाती है।"
+  },
+  {
+   "order": 75,
+   "scene": 3,
+   "dialogue_idx": 33,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "जोर लगाकर",
+   "tag": "[straining]",
+   "text": "खाँचा इसे थाम रहा है। अब गाड़ी को आगे लाओ!"
+  },
+  {
+   "order": 76,
+   "scene": 3,
+   "dialogue_idx": 34,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "जोर लगाकर",
+   "tag": "[straining]",
+   "text": "मैं ग को थामे हुए हूँ!"
+  },
+  {
+   "order": 77,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "फ्यूरिया पीछे की ओर उड़ते हुए गाड़ी को सीधा रखती है। गाड़ी के अगले पहिए सुनहरे ग पर चढ़ते हैं।"
+  },
+  {
+   "order": 78,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "ध्वनि: लकड़ी के पहिए पत्थर से सुनहरी सतह पर आते हैं। आवाज़ साफ़ बदलती है।"
+  },
+  {
+   "order": 79,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "ऊपर चील घंटी लेकर उड़ती दिखाई देती है। फ्यूरिया उसे देखती है, मगर गाड़ी से पंजे नहीं हटाती।"
+  },
+  {
+   "order": 80,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "पूरी गाड़ी सुनहरे ग के ऊपर से निकलकर गुरुकुल के समतल चबूतरे पर पहुँचती है। फ्यूरिया उलटा जोर लगाती रहती है। गाड़ी धीमी होकर रुक जाती है।"
+  },
+  {
+   "order": 81,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "ध्वनि: पहिए धीमे होते हैं और रुक जाते हैं। गाय राहत की साँस छोड़ती है।"
+  },
+  {
+   "order": 82,
+   "scene": 3,
+   "dialogue_idx": 35,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "हाँफते हुए",
+   "tag": "[out of breath]",
+   "text": "हम पार आ गए!"
+  },
+  {
+   "order": 83,
+   "scene": 3,
+   "dialogue_idx": 36,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "खुशी से",
+   "tag": "[joyful]",
+   "text": "गाड़ी रुक गई!"
+  },
+  {
+   "order": 84,
+   "scene": 3,
+   "dialogue_idx": 37,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "खिलकर",
+   "tag": "[brightly] [joyful]",
+   "text": "गाय बच गई!"
+  },
+  {
+   "order": 85,
+   "scene": 3,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "फ्यूरिया तभी गाड़ी से पंजे हटाती है जब वह पूरी तरह स्थिर हो जाती है। चील और घंटी अब दूर जा चुके हैं।"
+  },
+  {
+   "order": 86,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[announcing]",
+   "text": "दृश्य ४ — बाहर: गुरुकुल का चबूतरा — कुछ पल बाद"
+  },
+  {
+   "order": 87,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "पाँचों बड़े ड्रैगन जमीन पर उतरते हैं। गाय उन्हें पास आते देखकर दो कदम पीछे हटती है।"
+  },
+  {
+   "order": 88,
+   "scene": 4,
+   "dialogue_idx": 38,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "नरमी से",
+   "tag": "[gently]",
+   "text": "गाय हम पाँच बड़े ड्रैगनों से डर रही है। मैं अपना छोटा रूप चुनता हूँ।"
+  },
+  {
+   "order": 89,
+   "scene": 4,
+   "dialogue_idx": 39,
+   "kind": "dialogue",
+   "speaker": "LEDA",
+   "direction": "अपनापन भरी आवाज़ में",
+   "tag": "[warmly]",
+   "text": "हम भी छोटे होकर उसके पास चलेंगे।"
+  },
+  {
+   "order": 90,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "वे अपने-अपने कड़े छूते हैं और अपनी इच्छा से छोटे रूप चुनते हैं।"
+  },
+  {
+   "order": 91,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "ध्वनि: पाँच कड़ों की पाँच अलग टनन। पाँच सुनहरी लहरों की नरम सरसराहट।"
+  },
+  {
+   "order": 92,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "पाँच अलग सुनहरी चमक के बाद वे गाय के सामने अपने रोज़ वाले छोटे रूपों में खड़े हैं।"
+  },
+  {
+   "order": 93,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "छोटे रूप में उनके पंख खुले हैं, मगर कोई जमीन से नहीं उठता।"
+  },
+  {
+   "order": 94,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "गाय गाड़ी से उतरती है। वह पहले कैस्टर को सूँघती है, फिर उसे नाक से धीरे धकेल देती है। कैस्टर सूखी घास पर बैठ जाता है।"
+  },
+  {
+   "order": 95,
+   "scene": 4,
+   "dialogue_idx": 40,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "खिलखिलाकर",
+   "tag": "[giggling]",
+   "text": "गाय ने मुझे बैठा दिया!"
+  },
+  {
+   "order": 96,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "कुकु गाय के माथे को छूता है। बाकी चार भी पास आते हैं।"
+  },
+  {
+   "order": 97,
+   "scene": 4,
+   "dialogue_idx": 41,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "नरमी से",
+   "tag": "[gently]",
+   "text": "अब तुम सुरक्षित हो।"
+  },
+  {
+   "order": 98,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "फ्यूरिया खाली उड़ान-घेरे को देखती है। जहाँ घंटी थी, वहाँ केवल खुला हुक हिल रहा है।"
+  },
+  {
+   "order": 99,
+   "scene": 4,
+   "dialogue_idx": 42,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "धीरे",
+   "tag": "[softly]",
+   "text": "तुम घंटी के पीछे नहीं गईं।"
+  },
+  {
+   "order": 100,
+   "scene": 4,
+   "dialogue_idx": 43,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "शांत, पक्की आवाज़ में",
+   "tag": "[calm] [firmly]",
+   "text": "गाय को मेरी ज़रूरत थी।"
+  },
+  {
+   "order": 101,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "घर-वापसी की सुनहरी डोर हल्की चमकती है। दादी की आवाज़ घर से उसी डोर के पार आती है।"
+  },
+  {
+   "order": 102,
+   "scene": 4,
+   "dialogue_idx": 44,
+   "kind": "dialogue",
+   "speaker": "DADI",
+   "direction": "प्यार से",
+   "tag": "[gently]",
+   "text": "तुमने ठीक चुना, फ्यूरिया। घंटी इंतज़ार कर सकती थी; गाय नहीं।"
+  },
+  {
+   "order": 103,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "ऋषि गाय के लिए चबूतरे की छोटी जमीन वाली ढलान खोलते हैं। गाय नीचे हरे मैदान की ओर चल पड़ती है।"
+  },
+  {
+   "order": 104,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "ध्वनि: गाय के खुर पत्थर से घास पर उतरते हैं।"
+  },
+  {
+   "order": 105,
+   "scene": 4,
+   "dialogue_idx": 45,
+   "kind": "chorus",
+   "speaker": "CHORUS_FIVE",
+   "direction": "खुशी से",
+   "tag": "[joyful]",
+   "text": "फिर मिलेंगे, गाय!"
+  },
+  {
+   "order": 106,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "कैस्टर गाड़ी को देखता है, फिर सुनहरे ग को देखता है।"
+  },
+  {
+   "order": 107,
+   "scene": 4,
+   "dialogue_idx": 46,
+   "kind": "dialogue",
+   "speaker": "CASTOR",
+   "direction": "उत्साह से",
+   "tag": "[enthusiastically]",
+   "text": "गाय की गाड़ी गुरुकुल पहुँच गई!"
+  },
+  {
+   "order": 108,
+   "scene": 4,
+   "dialogue_idx": 47,
+   "kind": "dialogue",
+   "speaker": "KUKU",
+   "direction": "संतोष से",
+   "tag": "[satisfied]",
+   "text": "और ग यहीं रहेगा।"
+  },
+  {
+   "order": 109,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "पूरा भौतिक ग टूटी पटरी में बना रहता है। पाँचों छोटे कड़ों पर उसकी छाप चमकती है।"
+  },
+  {
+   "order": 110,
+   "scene": 4,
+   "dialogue_idx": 48,
+   "kind": "dialogue",
+   "speaker": "FYURIA",
+   "direction": "दृढ़ आवाज़ में",
+   "tag": "[clear and commanding]",
+   "text": "हम घंटी भी वापस लाएँगे।"
+  },
+  {
+   "order": 111,
+   "scene": 4,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "वैस्पर सूखी घास के ढेर पर सिर रखता है। बाकी बच्चे सुनहरे ग को देख रहे हैं। वैस्पर की आँखें बंद हो जाती हैं।"
+  },
+  {
+   "order": 112,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[announcing]",
+   "text": "दृश्य ५ — बाहर: उसी उड़ान-आँगन की सामने वाली मीनार — उसी समय"
+  },
+  {
+   "order": 113,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "चील चोरी की काँसे की घंटी लेकर उसी सामने वाली मीनार पर उतरती है, जो आरंभ के चौड़े दृश्य में दिखी थी। उसके सामने वही बंद पत्थरीला दरवाज़ा है।"
+  },
+  {
+   "order": 114,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "वह घंटी को दरवाज़े के सामने उठाती है, मगर अभी बजाती नहीं है।"
+  },
+  {
+   "order": 115,
+   "scene": 5,
+   "dialogue_idx": 49,
+   "kind": "dialogue",
+   "speaker": "CHEEL",
+   "direction": "धीमी, मीठी आवाज़ में",
+   "tag": "[softly] [sweet but sinister]",
+   "text": "अब मैं देखूँगी, यह घंटी कौन-सा दरवाज़ा जगाती है।"
+  },
+  {
+   "order": 116,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "चील घंटी बजाने के लिए पंजा उठाती है।"
+  },
+  {
+   "order": 117,
+   "scene": 5,
+   "dialogue_idx": 0,
+   "kind": "narration",
+   "speaker": "SUTRADHAR",
+   "direction": "",
+   "tag": "[tense] [focused]",
+   "text": "कड़ी समाप्त।"
+  }
+ ],
+ "chunks": [
+  {
+   "id": "chunk_000",
+   "scene": 0,
+   "kind": "dialogue",
+   "characters": 1712,
+   "input_sha256": "7785992d2d88e1cc24148d354233129eaac429c601e8ad6421e056b81ae9822a",
+   "segment_orders": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "id": "chunk_001",
+   "scene": 0,
+   "kind": "dialogue",
+   "characters": 828,
+   "input_sha256": "6dc2aac5796ccfefc138f93c53ec88812c6f6291eae5fa2eb07d9d87ef18172d",
+   "segment_orders": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+   ]
+  },
+  {
+   "id": "chunk_002",
+   "scene": 1000,
+   "kind": "dialogue",
+   "characters": 24,
+   "input_sha256": "8125a8838c912574070dd234a0279d51434fb2f03e36d3622ff76a46d5df5b24",
+   "segment_orders": [
+    26
+   ]
+  },
+  {
+   "id": "chunk_003",
+   "scene": 1,
+   "kind": "dialogue",
+   "characters": 1602,
+   "input_sha256": "a9fbb44bcb1eef5e5b954526465a952569c0c8f685c9c8e5ef5124c64f8cf272",
+   "segment_orders": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45
+   ]
+  },
+  {
+   "id": "chunk_004",
+   "scene": 2,
+   "kind": "dialogue",
+   "characters": 1686,
+   "input_sha256": "89e4c315afc0fda4fa50d680717b6762c60ba86a7165047d20b627c63c59bc47",
+   "segment_orders": [
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+   ]
+  },
+  {
+   "id": "chunk_005",
+   "scene": 2,
+   "kind": "dialogue",
+   "characters": 266,
+   "input_sha256": "4f05a6a1f06a0bd83df1b2fc0cc6fe7e868ccc3926f995e9172248b20a99dd98",
+   "segment_orders": [
+    64,
+    65,
+    66
+   ]
+  },
+  {
+   "id": "chunk_006",
+   "scene": 3,
+   "kind": "dialogue",
+   "characters": 1660,
+   "input_sha256": "3f5ad81d15b0b6e886723113de17e0ff116be798bac7ed1b3fc46d5c60e83383",
+   "segment_orders": [
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85
+   ]
+  },
+  {
+   "id": "chunk_007",
+   "scene": 4,
+   "kind": "dialogue",
+   "characters": 1402,
+   "input_sha256": "1f50eb338897ce8b86def51f7d967783e1637bbc657c4320b0ec72effbf3a4e1",
+   "segment_orders": [
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104
+   ]
+  },
+  {
+   "id": "chunk_008",
+   "scene": 4,
+   "kind": "chorus",
+   "characters": 26,
+   "input_sha256": "f40f27291ea55e0e4a5e25b4bfdbae1810270d27b181242cb6b31cd293840406",
+   "segment_orders": [
+    105
+   ]
+  },
+  {
+   "id": "chunk_009",
+   "scene": 4,
+   "kind": "dialogue",
+   "characters": 414,
+   "input_sha256": "1131c96acdc983ab2ee12eb3c88c8d8a7aa022a6f2c36cd7d47a62f3c6292563",
+   "segment_orders": [
+    106,
+    107,
+    108,
+    109,
+    110,
+    111
+   ]
+  },
+  {
+   "id": "chunk_010",
+   "scene": 5,
+   "kind": "dialogue",
+   "characters": 471,
+   "input_sha256": "a35ed8ac11fb80a5d77d6be31da1e1347bdb668c5c2b2a4e506405debcc06c86",
+   "segment_orders": [
+    112,
+    113,
+    114,
+    115,
+    116,
+    117
+   ]
+  }
+ ],
+ "cold_cache_provider_requests": 15
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "created_at": "2026-08-16T03:41:06.434668Z",
+    "display_name": "Nano Banana Pro",
+    "id": "4b760cac-1242-4636-8526-65ed8b2672b2",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_034106_4b760cac-1242-4636-8526-65ed8b2672b2_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "3:4",
+      "batch_size": 1,
+      "height": 2400,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "48a0850d-33ec-401a-92d9-2e6a3fca71ab",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/48a0850d-33ec-401a-92d9-2e6a3fca71ab_resize.jpg"
+        },
+        {
+          "id": "52413da4-372c-479a-9f65-99dc17802568",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/52413da4-372c-479a-9f65-99dc17802568_resize.jpg"
+        }
+      ],
+      "prompt": "Create a portrait of ONE woman by combining two references. Take the AGE, SKIN and YOUTH from the FIRST reference image: a girl of exactly twenty — completely smooth taut dewy skin with no lines anywhere, full soft youthful cheeks, bright clear eyes with no shadows, soft full lips, the freshness of a village girl barely out of her teens. Take the FACIAL STRUCTURE and IDENTITY from the SECOND reference image: her long oval face shape, her wide-set almond eye placement and eye shape, her straight nose, her mouth shape, her high cheekbones — the same woman, recognisably. The result is that same woman at twenty years old: her bone structure, but a twenty-year-old's skin and softness. Jet-black hair centre-parted in one long thick braid, red-and-pink bandhani odhni over the head, small gold nathni on the LEFT nostril, red bindi, glass bangles on both wrists, fair wheat-golden Malwa complexion. Sharp photorealistic portrait, natural window light, plain neutral background, 85mm, front-facing, looking into the lens. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1792
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_034106_4b760cac-1242-4636-8526-65ed8b2672b2.png",
+    "status": "completed"
+  }
+]

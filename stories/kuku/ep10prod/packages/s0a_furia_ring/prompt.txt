@@ -1,0 +1,23 @@
+SCENE: फ्यूरिया flies one complete circuit of the drill: up from her mark, through the opening of the great stone ring, round behind it and back down to land on the same mark, exactly as she began. The clip ends where it started.
+IN THIS SHOT — and nobody else:
+- FYURIA — flying one circuit: mark, through the ring, round and back to the mark
+FIRST FRAME: the provided start image IS frame one — the action begins from exactly this position.
+FORMAT: one single unbroken take.
+BLOCKING:
+- the start image IS this courtyard — the same flagstones, the same ring, the same sky and light
+- the RING holds perfectly still, exactly as the start image has it; it is fourteen metres across, and she passes through its opening with her wings spread
+ACTION TIMING:
+- 0.0-1.2s: she crouches on the marked flagstone and launches toward the ring, paper dust curling from the stones beneath her
+- 1.2-2.4s: she flies INTO the ring's opening and through it, crossing from the near side of the ring to the far side
+- 2.4-3.6s: beyond the ring she banks round in a wide arc and comes back toward the courtyard
+- 3.6-5.0s: she settles onto the same marked flagstone in exactly the pose she began in, ready to go again
+CAMERA: one locked-off WIDE camera on the courtyard floor, held perfectly still for the whole clip, the ring centred and whole in frame with sky above it
+PHYSICS:
+- TRAVEL KEEPS ONE DIRECTION: whatever moves may start from rest, speed up or slow down, but its path always continues the same way — it never reverses.
+- motion has real weight
+- the golden कड़ा stays on the same forearm as in the start image
+- PROOF OF PASSAGE: as she goes through, the ring's near rim briefly passes in front of her body, hiding part of her for a moment, and on the far side the ring's stone is nearer to camera than she is
+- SEAMLESS LOOP: the final frame matches the first exactly — same place on the mark, same pose, same wing position — so the clip can play again straight after itself
+- she passes cleanly through the empty middle of the opening, well clear of the stone
+LIGHTING: constant warm golden dusk exactly as the start image — low sun, long soft shadows
+STYLE: every frame keeps exactly the cut-paper papercraft look of the start image.

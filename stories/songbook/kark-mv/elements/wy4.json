@@ -1,0 +1,29 @@
+[
+  {
+    "created_at": "2026-08-16T02:34:22.242091Z",
+    "display_name": "Nano Banana Pro",
+    "id": "09eb921a-bd56-4768-a393-d8a887b4e0f6",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_023422_09eb921a-bd56-4768-a393-d8a887b4e0f6_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "3:4",
+      "batch_size": 1,
+      "height": 2400,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "b2b4fd2e-5d2d-4886-9f68-02033487b867",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/b2b4fd2e-5d2d-4886-9f68-02033487b867_resize.jpg"
+        }
+      ],
+      "prompt": "The SAME WOMAN as the reference image — identical face shape, identical eyes, nose and mouth, unmistakably the same person — but FIVE YEARS YOUNGER STILL: she is now exactly TWENTY years old, a village girl barely out of her teens. Make her face rounder and softer with full youthful cheeks and a little baby fat along the jaw; skin completely smooth, taut, dewy and luminous with no lines at all anywhere, not even faint ones; eyes bright and clear with no shadow beneath them; lips fuller and softer; expression young, shy, slightly unsure rather than composed. Jet-black hair centre-parted in one long thick braid. Keep the red-and-pink bandhani odhni over her head, the small gold nathni on her LEFT nostril, the red bindi, glass bangles. Fair wheat-golden Malwa complexion. She must read as TWENTY — a girl, not a woman of twenty-five or thirty. Sharp photorealistic portrait, natural window light, plain background, front-facing. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1792
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_023422_09eb921a-bd56-4768-a393-d8a887b4e0f6.png",
+    "status": "completed"
+  }
+]

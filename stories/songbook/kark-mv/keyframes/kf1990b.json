@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-08-12T22:46:58.804795Z",
+    "display_name": "Nano Banana Pro",
+    "id": "300e10dd-c153-47a5-af43-c363b14fced7",
+    "job_type": "nano_banana_pro",
+    "min_result_url": null,
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 768,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "72d3690d-b52b-4164-b2ed-2aefbf25d308",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/72d3690d-b52b-4164-b2ed-2aefbf25d308.png"
+        },
+        {
+          "id": "9f0f3484-7644-4a73-a642-3695c4661a2c",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/9f0f3484-7644-4a73-a642-3695c4661a2c_resize.jpg"
+        },
+        {
+          "id": "f1fb0917-7e9c-4dd0-b595-c371dc3811e3",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/f1fb0917-7e9c-4dd0-b595-c371dc3811e3_resize.jpg"
+        }
+      ],
+      "prompt": "Compose: the stone Tejaji shrine from the FIRST reference image (same shrine, same horseman-and-cobra idol, same oil lamp) on the left of frame at dusk at a village fair in 1990 — the shrine has only a FEW red threads, the stone cleaner — and beside it, right of frame in profile facing the shrine, the MAN from the second reference and the WOMAN from the third reference: his bare wrist held out, she tying a red sacred thread onto it. He is 35, jet-black hair, thin strong build, simple white cotton kurta; she is 30, deep-blue cotton sari with pallu over her head, gold nathni, red bindi, glass bangles; a small girl of five holds the hem of her mother's sari, half-hiding, watching. Behind them: a 1990 village fair at DUSK under a clear warm evening sky — kerosene pressure lanterns glowing softly on stalls, a SMALL old iron ferris wheel silhouetted, men in dhotis and white kurtas. ABSOLUTELY NO fire, NO flames, NO smoke, NO burning anywhere — only gentle lantern light and dusk sky. Rendered as a 1990 COLOR FILM PRINT with a white photo-album border: heavy film grain, faded warm Kodachrome colors, soft focus edges, a photograph aged thirty years in an album. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1344
+    },
+    "result_url": null,
+    "status": "failed"
+  }
+]
+Error: job 300e10dd-c153-47a5-af43-c363b14fced7 ended with status "failed"

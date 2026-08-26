@@ -1,0 +1,181 @@
+{
+  "set": "lane",
+  "lane_length_m": 60,
+  "lane_width_m": 8,
+  "lane_drop_m": 9,
+  "landmarks": [
+    {
+      "name": "STONE POST",
+      "pos": [
+        -4.6,
+        0,
+        9
+      ],
+      "note": "the rope tie-point at the top of the slope, on the LEFT kerb"
+    },
+    {
+      "name": "CART START",
+      "pos": [
+        0,
+        2,
+        8.73
+      ],
+      "note": "where the tethered cart stands"
+    },
+    {
+      "name": "MARKER 1",
+      "pos": [
+        0,
+        12,
+        6.75
+      ],
+      "note": "first red marker, centreline"
+    },
+    {
+      "name": "MARKER 2",
+      "pos": [
+        0,
+        24,
+        4.5
+      ],
+      "note": "second red marker, centreline"
+    },
+    {
+      "name": "MARKER 3",
+      "pos": [
+        0,
+        36,
+        2.25
+      ],
+      "note": "third and last red marker, centreline"
+    },
+    {
+      "name": "FLAT BEGINS",
+      "pos": [
+        0,
+        48,
+        0
+      ],
+      "note": "the slope ends; the last 12 m is level"
+    },
+    {
+      "name": "GA-STONE",
+      "pos": [
+        0,
+        55,
+        0
+      ],
+      "note": "the flat stone where the golden ga-shape is forged"
+    },
+    {
+      "name": "END WALL",
+      "pos": [
+        0,
+        60,
+        0
+      ],
+      "note": "closed paper stone wall across the full width — the lane is a dead end"
+    }
+  ],
+  "cameras": [
+    {
+      "tag": "top_looking_down",
+      "pos": [
+        0,
+        -3,
+        10.7
+      ],
+      "aim": [
+        0,
+        30,
+        1
+      ],
+      "lens_mm": 35
+    },
+    {
+      "tag": "upper_mid",
+      "pos": [
+        0,
+        9,
+        8.9
+      ],
+      "aim": [
+        0,
+        40,
+        0.6
+      ],
+      "lens_mm": 35
+    },
+    {
+      "tag": "lower_mid",
+      "pos": [
+        0,
+        27,
+        4.85
+      ],
+      "aim": [
+        0,
+        52,
+        0.3
+      ],
+      "lens_mm": 35
+    },
+    {
+      "tag": "flat_approach",
+      "pos": [
+        0,
+        44,
+        1.7
+      ],
+      "aim": [
+        0,
+        58,
+        0
+      ],
+      "lens_mm": 35
+    },
+    {
+      "tag": "bottom_looking_up",
+      "pos": [
+        0,
+        58,
+        1.7
+      ],
+      "aim": [
+        0,
+        6,
+        9
+      ],
+      "lens_mm": 35
+    },
+    {
+      "tag": "overhead",
+      "pos": [
+        0,
+        22,
+        35
+      ],
+      "aim": [
+        0,
+        30,
+        2
+      ],
+      "lens_mm": 28
+    },
+    {
+      "tag": "side_on",
+      "pos": [
+        -16,
+        26,
+        8.5
+      ],
+      "aim": [
+        0,
+        26,
+        2
+      ],
+      "lens_mm": 35
+    }
+  ],
+  "prose": "THE LANE — the gurukul's straight downhill flight-courtyard slope of paper flagstones, 60 m long and 8 m wide, falling 9 m from top to bottom, with low paper kerbs on both sides. Fixed landmarks, always in these places: STONE POST (the rope tie-point at the top of the slope, on the LEFT kerb); CART START (where the tethered cart stands); MARKER 1 (first red marker, centreline); MARKER 2 (second red marker, centreline); MARKER 3 (third and last red marker, centreline); FLAT BEGINS (the slope ends; the last 12 m is level); GA-STONE (the flat stone where the golden ga-shape is forged); END WALL (closed paper stone wall across the full width — the lane is a dead end)"
+}

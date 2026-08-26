@@ -294,8 +294,15 @@ let assertReactionsWritten = (record, problem): unit =>
          the mask, which is exactly what happened to Фрося. */
       let missing =
         record.cast
+        ->Belt.Array.keep(t =>
+          switch castRuName(t) {
+          | None => false
+          | Some(n) =>
+            !Js.String2.includes(block, n) &&
+            !Js.String2.includes(block, castEntry(t).tag)
+          }
+        )
         ->Belt.Array.keepMap(castRuName)
-        ->Belt.Array.keep(n => !Js.String2.includes(block, n))
       if Belt.Array.length(missing) > 0 {
         problem(
           record.jobId,
@@ -332,6 +339,307 @@ let assertReactionsWritten = (record, problem): unit =>
       }
     }
   }
+
+/* THE EMOTION GATE — every face must be named, and the choreography must agree
+   with the name. Author's rule, 2026-08-26: "every character description
+   requires one to two words for actual emotion, and choreography of the face
+   after that has to match that emotion."
+
+   WHY IT EXISTS. v07table came back with three adults wearing the same worried
+   face, and Мама — who was supposed to be quietly unsettled at seeing her own
+   face — reading as an outright scowl. Nothing in her paragraph was wrong
+   sentence by sentence. What went wrong is that it stacked "her brows draw in a
+   fraction and stay drawn", "the eyes narrow a little" and "her jaw sets", each
+   defensible alone and all three together an angry face. There was no line in
+   the creative saying what she was actually FEELING, so there was nothing for
+   the anatomy to be checked against — not by the model, and not by me.
+
+   Naming the emotion turns an unfalsifiable paragraph into a checkable one. It
+   also front-loads the intention for the model, which the doctrine allows so
+   long as the anatomy still does the binding: a mood alone loses to a reference
+   sheet, but a mood plus the anatomy that produces it is strictly more than the
+   anatomy alone.
+
+   THE SYNTAX, because a gate can only check what it can find:
+
+     REACTIONS
+     Папа — SHOCK: starts mid-laugh, brows high … mouth falls open and stays open.
+     Бабушка-Яга — SATISFACTION: her eyes stay down on her cup … one eyebrow climbs.
+
+   Name, space, em dash, space, one or two words in capitals, colon, then the
+   anatomy as before.
+
+   WHAT IS CHECKED. Three things, and deliberately not more. That the emotion is
+   declared at all; that it is one of the known words, because an unknown word
+   has no anatomy to check against; and that the paragraph contains at least one
+   piece of anatomy that BELONGS to that emotion and none that CONTRADICTS it.
+   The contradiction lists are the valuable half — they are what would have
+   failed Мама, whose UNEASE paragraph carried three pieces of anger.
+
+   WHAT IS NOT CHECKED, and must stay a human job: whether the emotion is the
+   RIGHT one for the story. Code cannot know that Яга should not be astonished.
+
+   THE LISTS ARE MEANT TO GROW. Add an emotion when a shot needs one; add a
+   forbid the first time a face comes back wrong in a way a phrase predicted. */
+type emotionSpec = {name: string, belongs: array<string>, contradicts: array<string>}
+
+let emotions: array<emotionSpec> = [
+  {
+    name: "SHOCK",
+    belongs: ["mouth falls open", "mouth stays open", "jaw hangs", "jaw falls", "eyes go round", "eyes snap wide", "eyes open wide", "eyes go wide", "brows shoot up", "brows drive up", "brows go up"],
+    contradicts: ["eyes narrow", "brows draw in", "brows draw together", "brows draw down", "jaw sets", "lips press", "corner of the mouth pulls up"],
+  },
+  {
+    name: "DISBELIEF",
+    belongs: ["mouth falls open", "mouth stays open", "jaw hangs", "eyes go wide", "eyes snap wide", "eyes open wide", "brows shoot up", "brows go up", "blinks"],
+    contradicts: ["eyes narrow", "brows draw in", "brows draw together", "brows draw down", "jaw sets", "lips press"],
+  },
+  {
+    name: "WONDER",
+    belongs: ["mouth falls open", "mouth stays open", "eyes go wide", "eyes open wide", "eyes shine", "eyes bright", "brows go up", "brows climb"],
+    contradicts: ["eyes narrow", "brows draw together", "brows draw down", "jaw sets", "lips press"],
+  },
+  {
+    name: "DELIGHT",
+    belongs: ["eyes squeeze", "eyes crinkle", "cheeks bunch", "cheeks push up", "mouth stretches", "mouth stretched", "grin"],
+    contradicts: ["brows draw together", "brows draw down", "jaw sets", "lips press", "mouth closes into"],
+  },
+  {
+    name: "GLEE",
+    belongs: ["eyes squeeze", "eyes crinkle", "cheeks bunch", "mouth stretches", "mouth stretched", "grin", "squeal"],
+    contradicts: ["brows draw together", "brows draw down", "jaw sets", "lips press"],
+  },
+  {
+    name: "AMUSEMENT",
+    belongs: ["corner of the mouth", "closed-lipped smile", "eyes narrow", "one eyebrow climbs", "one eyebrow rises", "dry"],
+    contradicts: ["jaw drops", "jaw hangs", "mouth falls open", "eyes go round", "eyes snap wide", "brows shoot up"],
+  },
+  {
+    name: "SATISFACTION",
+    belongs: ["corner of the mouth", "closed-lipped smile", "eyes narrow", "one eyebrow climbs", "one eyebrow rises", "settles"],
+    contradicts: ["jaw drops", "jaw hangs", "mouth falls open", "eyes go round", "eyes snap wide", "brows shoot up"],
+  },
+  {
+    name: "UNEASE",
+    belongs: ["mouth stays closed", "lips close", "mouth closes", "brows stay level", "eyes stay open", "eyes stay steady"],
+    contradicts: ["eyes narrow", "brows draw together", "brows draw in", "brows draw down", "jaw sets", "lips press", "mouth falls open", "jaw hangs", "grin"],
+  },
+  {
+    name: "CONFUSION",
+    belongs: ["brows draw together", "brows lift", "uncertain", "loose O", "blank O", "mouth falls open into"],
+    contradicts: ["eyes squeeze", "cheeks bunch", "grin", "jaw sets"],
+  },
+  {
+    name: "WORRY",
+    belongs: ["brows lift in the middle", "brows draw up", "mouth closes", "mouth tightens", "eyes drop"],
+    contradicts: ["grin", "cheeks bunch", "closed-lipped smile", "jaw hangs"],
+  },
+  {
+    name: "ANGER",
+    belongs: ["brows draw down", "brows draw together", "jaw sets", "lips press", "eyes narrow"],
+    contradicts: ["mouth falls open", "jaw hangs", "eyes go round", "brows shoot up", "grin"],
+  },
+  {
+    name: "EAGERNESS",
+    belongs: ["eyes widen", "brows lift", "mouth opens", "leans in", "grin", "bounces"],
+    contradicts: ["eyes narrow", "lips press", "jaw sets", "eyelids droop"],
+  },
+  {
+    name: "DETERMINATION",
+    belongs: ["jaw sets", "lips press", "brows draw down", "eyes steady", "eyes narrow"],
+    contradicts: ["mouth falls open", "jaw hangs", "eyes go round", "brows shoot up"],
+  },
+  {
+    name: "SULK",
+    belongs: ["shoulders slump", "shoulders drop", "chin tucks", "chin drops", "lips press", "pout", "lower lip pushes", "brows draw down", "looks down", "eyes drop"],
+    contradicts: ["grin", "mouth falls open", "eyes go wide", "eyes snap wide", "brows shoot up", "cheeks bunch"],
+  },
+  {
+    name: "DISGUST",
+    belongs: ["nose wrinkles", "upper lip lifts", "tongue", "eyes screw", "head pulls back"],
+    contradicts: ["grin", "cheeks bunch", "eyes shine"],
+  },
+]
+
+let emotionNames = emotions->Belt.Array.map(e => e.name)
+
+/* DELIVERED SHOTS ARE NOT RE-JUDGED BY A RULE THAT POSTDATES THEM. 2026-08-26.
+
+   Eighteen creatives carried a REACTIONS block when this gate was written and
+   seventeen of them were already shot and paid for. Failing them would repeat
+   the mistake assertNamedFeaturesAreBacked made — calling every delivered shot
+   bad — and it would be worse here, because a delivered creative is bound BY
+   HASH to the approval the author gave it. Editing one to satisfy a later rule
+   would falsify the record of what she actually approved and what was actually
+   sent.
+
+   So these are listed, once, by name. Anything not on this list is gated. When
+   a listed shot is REWRITTEN for a reshoot, take it off the list — the new text
+   is new work and gets the new rule. v07table will come off it the moment its
+   reshoot is written. */
+let emotionGateGrandfathered = [
+  "s8shot1", "s8shot2", "s8tochka", "s8tochka2", "s8vasya", "s8offer", "s8glass",
+  "s8salat", "s8bowl", "s8fu", "s8rusya", "s8mak", "s8poppy",
+  "v01ask", "v02answer", "v03gather", "v04read", "v05single", "v05vzhukh",
+  "v06frosya", "v07table",
+]
+
+let assertEmotionsDeclared = (record, problem): unit => {
+  let grandfathered = emotionGateGrandfathered->Belt.Array.some(j => j == record.jobId)
+  if !grandfathered {
+    let c = record.creative
+    switch reactionHeaders->Belt.Array.getBy(h => Js.String2.includes(c, "\n" ++ h ++ "\n")) {
+    | None => ()
+    | Some(h) =>
+      let after = Belt.Array.getExn(Js.String2.split(c, "\n" ++ h ++ "\n"), 1)
+      let block =
+        Belt.Array.getExn(Js.String2.splitByRe(after, %re("/\n[A-ZА-Я][A-ZА-Я ,\-]{4,}\n/")), 0)
+        ->Belt.Option.getWithDefault(after)
+      let paragraphs = Js.String2.split(block, "\n\n")
+      record.cast
+      ->Belt.Array.keepMap(t =>
+        switch castRuName(t) {
+        | None => None
+        | Some(n) => Some((n, castEntry(t).tag))
+        }
+      )
+      ->Belt.Array.forEach(((n, tag)) => {
+        /* The creative may write a longer form of the name than the cast token
+           carries — "Бабушка-Яга" for Яга — so the paragraph is found by the
+           name appearing in its opening, not by starting with it exactly. */
+        let opensWith = (p: string, n: string) => {
+          let head = Js.String2.slice(Js.String2.trim(p), ~from=0, ~to_=40)
+          Js.String2.includes(head, n)
+        }
+        /* Match by the full "NAME — " marker, not by prefix: "@VASYA" is a
+           prefix of "@VASYA_MAMA" and "Вася" of "Вася-мама", so a bare
+           containment check hands one character the other's paragraph. */
+        let mName = n ++ " — "
+        let mTag = tag ++ " — "
+        let para =
+          paragraphs->Belt.Array.getBy(p =>
+            Js.String2.includes(p, mTag) || Js.String2.includes(p, mName)
+          )
+        switch para {
+        | None =>
+          problem(
+            record.jobId,
+            n ++
+            " has no paragraph of their own in the REACTIONS block. Every character needs one that starts with their name, so the emotion they are playing can be named and checked against the anatomy that follows.",
+          )
+        | Some(p) =>
+          let marker = Js.String2.includes(p, mTag) ? mTag : mName
+          switch Js.String2.indexOf(p, marker) {
+          | -1 =>
+            problem(
+              record.jobId,
+              n ++
+              " is described without naming the emotion. Write it as \"" ++
+              n ++
+              " — EMOTION: …\" — one or two words in capitals after an em dash, then the anatomy. Without a named feeling there is nothing for the choreography to be checked against, which is how Мама's UNEASE came back as a scowl in v07table. Known words: " ++
+              Js.Array2.joinWith(emotionNames, ", ") ++
+              ".",
+            )
+          | i =>
+            let rest = Js.String2.sliceToEnd(p, ~from=i + Js.String2.length(marker))
+            switch Js.String2.indexOf(rest, ":") {
+            | -1 =>
+              problem(
+                record.jobId,
+                n ++
+                "'s emotion is not closed with a colon. The syntax is \"" ++
+                n ++
+                " — EMOTION: …\" so the gate can tell the label from the choreography.",
+              )
+            | j =>
+              let label = Js.String2.trim(Js.String2.slice(rest, ~from=0, ~to_=j))
+              let words = Js.String2.split(label, " ")->Belt.Array.keep(w => w != "")
+              if Belt.Array.length(words) < 1 || Belt.Array.length(words) > 2 {
+                problem(
+                  record.jobId,
+                  n ++
+                  " declares \"" ++
+                  label ++
+                  "\", which is " ++
+                  Belt.Int.toString(Belt.Array.length(words)) ++
+                  " words. An emotion is one or two words. A sentence here is a description, and a description is what this gate exists to stop standing in for a feeling.",
+                )
+              } else {
+                switch emotions->Belt.Array.getBy(e => e.name == label) {
+                | None =>
+                  problem(
+                    record.jobId,
+                    n ++
+                    " declares \"" ++
+                    label ++
+                    "\", which the gate does not know, so it cannot check the choreography against it. Use one of: " ++
+                    Js.Array2.joinWith(emotionNames, ", ") ++
+                    " — or add the new one to `emotions` in this file with the anatomy that belongs to it and the anatomy that contradicts it.",
+                  )
+                | Some(spec) =>
+                  let lower = Js.String2.toLowerCase(p)
+                  /* A reactions paragraph is a JOURNEY — it says what the face
+                     starts as and what it becomes — but the label names where it
+                     ENDS, because that is the feeling the shot delivers. So the
+                     anatomy that BELONGS is looked for anywhere in the paragraph,
+                     while the anatomy that CONTRADICTS is looked for only in the
+                     destination. Without that split the gate failed Руся for
+                     being confused before he was delighted, which is the whole
+                     point of his performance. The destination is the last third
+                     of the paragraph: these are written with the arrival at the
+                     end, every time. */
+                  let dest = {
+                    let n = Js.String2.length(lower)
+                    let from = n > 180 ? n - n / 3 : 0
+                    Js.String2.sliceToEnd(lower, ~from)
+                  }
+                  /* A NEGATIVE LOCK IS NOT A CONTRADICTION. "her jaw never drops"
+                     and "without her eyes narrowing" are the prompt DEFENDING the
+                     emotion, not betraying it, and a gate that fires on them
+                     punishes exactly the writing it wants. */
+                  let negators = ["never", "not ", "no ", "without", "nor "]
+                  let negatedAt = (hay: string, at: int) => {
+                    let from = at > 30 ? at - 30 : 0
+                    let window = Js.String2.slice(hay, ~from, ~to_=at)
+                    negators->Belt.Array.some(g => Js.String2.includes(window, g))
+                  }
+                  let has = spec.belongs->Belt.Array.some(w => Js.String2.includes(lower, w))
+                  if !has {
+                    problem(
+                      record.jobId,
+                      n ++
+                      " is marked " ++
+                      label ++
+                      " but the choreography never does any of the things " ++
+                      label ++
+                      " does with a face. Put at least one of these in: " ++
+                      Js.Array2.joinWith(spec.belongs, "; ") ++
+                      ".",
+                    )
+                  }
+                  spec.contradicts->Belt.Array.forEach(w => {
+                    let at = Js.String2.indexOf(dest, w)
+                    if at >= 0 && !negatedAt(dest, at) {
+                      problem(
+                        record.jobId,
+                        n ++
+                        " is marked " ++
+                        label ++
+                        " but the choreography ENDS on \"" ++
+                        w ++
+                        "\", which is a different feeling on the same face. This is exactly the v07table failure: Мама was meant to be unsettled and her paragraph finished on brows drawing in, eyes narrowing and a jaw setting, so she came back angry. Either change the anatomy or change the label — but they have to agree.",
+                      )
+                    }
+                  })
+                }
+              }
+            }
+          }
+        }
+      })
+    }
+  }
+}
 
 /* THE SHOT IS AS LONG AS THE AUDIO, NOT AS LONG AS THE SCRIPT GUESSES.
    s5job2 was generated TWICE at 20 seconds because its durations came from the
@@ -632,8 +940,15 @@ let assertHandsWritten = (record, problem): unit => {
       ->Belt.Option.getWithDefault(after)
     let missing =
       record.cast
+      ->Belt.Array.keep(t =>
+        switch castRuName(t) {
+        | None => false
+        | Some(n) =>
+          !Js.String2.includes(block, n) &&
+          !Js.String2.includes(block, castEntry(t).tag)
+        }
+      )
       ->Belt.Array.keepMap(castRuName)
-      ->Belt.Array.keep(n => !Js.String2.includes(block, n))
     if Belt.Array.length(missing) > 0 {
       problem(
         record.jobId,
@@ -856,8 +1171,15 @@ let assertBackgroundsAssigned = (record, problem): unit => {
     let blockLower = Js.String2.toLowerCase(block)
     let missing =
       record.cast
+      ->Belt.Array.keep(t =>
+        switch castRuName(t) {
+        | None => false
+        | Some(n) =>
+          !Js.String2.includes(blockLower, Js.String2.toLowerCase(n)) &&
+          !Js.String2.includes(block, castEntry(t).tag)
+        }
+      )
       ->Belt.Array.keepMap(castRuName)
-      ->Belt.Array.keep(n => !Js.String2.includes(blockLower, Js.String2.toLowerCase(n)))
     if Belt.Array.length(missing) > 0 {
       problem(
         record.jobId,
@@ -1092,6 +1414,7 @@ let () = {
       }
       assertStartFrameBacked(record, problem)
       assertReactionsWritten(record, problem)
+      assertEmotionsDeclared(record, problem)
       assertHandsWritten(record, problem)
       assertBackgroundsAssigned(record, problem)
       assertGlyphsPlanned(record, problem)

@@ -13,6 +13,9 @@ const D = "/Users/dusty/Dev/metaphrand/stories/songbook/kark-mv/";
 const G = D + "stock/", A = D + "atape/", B = D + "build_ch/", NB = D + "build_chn/";
 [B, NB].forEach(d => fs.mkdirSync(d, { recursive: true }));
 const END = 307.2;
+// encode quality — env-overridable so an upload master can be rendered without
+// touching the cut: CRF=15 PRESET=slow node assemble_chrono.mjs
+const CRF = process.env.CRF || "20", PRESET = process.env.PRESET || "veryfast";
 
 // The approved OPENING (0-30.05) lives inline so every internal cut gets its own
 // shot number: disease+deity photo pops around OmniHuman singer segments,
@@ -166,7 +169,7 @@ list.forEach((t, i) => {
         `scale=${W}:${H}:flags=lanczos,${lut(LOOK)},format=yuv420p${fade}[v]`;
       execFileSync("ffmpeg", ["-v", "error", "-y", "-ss", String(t.ss || 0), "-t", String(t.dur), "-i", t.file,
         "-filter_complex", fc, "-map", "[v]",
-        "-c:v", "libx264", "-crf", "20", "-preset", "veryfast", "-an", co], { timeout: 600000 });
+        "-c:v", "libx264", "-crf", CRF, "-preset", PRESET, "-an", co], { timeout: 600000 });
     } else {
       // Album law: healthy-past photographs wear a print frame (stock_framed/);
       // present-and-sick shots (clinical, b6_, मेला, vow, trees) run full-bleed.
@@ -182,12 +185,12 @@ list.forEach((t, i) => {
       m.vf = m.vf.replace(",format=yuv420p", `,${lut(ERA(t.name))},${lut(LOOK)},format=yuv420p`);
       execFileSync("ffmpeg", ["-v", "error", "-y", "-loop", "1", "-i", src,
         "-vf", m.vf + fade, "-frames:v", String(m.n), "-r", String(FPS),
-        "-c:v", "libx264", "-crf", "20", "-preset", "veryfast", "-an", co], { timeout: 600000 });
+        "-c:v", "libx264", "-crf", CRF, "-preset", PRESET, "-an", co], { timeout: 600000 });
     }
   }
   if (!fs.existsSync(no)) {
     execFileSync("ffmpeg", ["-v", "error", "-y", "-i", co, "-i", NUMDIR + t.id + ".png",
-      "-filter_complex", "[0][1]overlay=28:H-h-28", "-c:v", "libx264", "-crf", "21", "-preset", "veryfast", "-an", no], { timeout: 600000 });
+      "-filter_complex", "[0][1]overlay=28:H-h-28", "-c:v", "libx264", "-crf", CRF, "-preset", PRESET, "-an", no], { timeout: 600000 });
   }
   clean.push(co); numbered.push(no);
 });
@@ -219,10 +222,34 @@ const burnAndMux = (segs, cat, out) => {
   fc = fc.slice(0, -1).replace(new RegExp(`\\[v${CUES.length}\\]$`), "[vout]");
   execFileSync("ffmpeg", ["-v", "error", "-y", ...inputs, "-i", D + "kark_ki_taanti_master.mp3",
     "-filter_complex", fc, "-map", "[vout]", "-map", String(CUES.length + 1) + ":a",
-    "-c:v", "libx264", "-crf", "20", "-preset", "veryfast",
+    "-c:v", "libx264", "-crf", CRF, "-preset", PRESET,
     "-c:a", "aac", "-profile:a", "aac_low", "-b:a", "192k", "-ar", "44100", "-ac", "2",
     "-movflags", "+faststart", out], { timeout: 2400000 });
 };
-burnAndMux(clean, B + "cat.txt", D + "KARK_MV_CHRONO_V3.mp4");
-burnAndMux(numbered, NB + "cat.txt", D + "KARK_MV_CHRONO_V3_NUMBERED.mp4");
-console.log("done: KARK_MV_CHRONO_V3(.mp4 / _NUMBERED.mp4) — subtitles burned");
+// ---- prologue: two black-screen cards BEFORE the song (silent) -------------
+// card1 5.2s + card2 5.8s, each fading in/out; the film follows untouched.
+const PREROLL = D + "cards/preroll.mp4";
+if (!fs.existsSync(PREROLL)) {
+  const seg = (png, dur, out) =>
+    execFileSync("ffmpeg", ["-v", "error", "-y", "-loop", "1", "-i", D + png,
+      "-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100",
+      "-t", String(dur),
+      "-vf", `scale=${W}:${H},fps=${FPS},fade=t=in:st=0:d=0.8,fade=t=out:st=${(dur - 0.8).toFixed(1)}:d=0.8,format=yuv420p`,
+      "-c:v", "libx264", "-crf", CRF, "-preset", PRESET,
+      "-c:a", "aac", "-profile:a", "aac_low", "-b:a", "192k", "-ar", "44100", "-ac", "2",
+      "-shortest", out], { timeout: 300000 });
+  seg("cards/card1.png", 5.2, "/tmp/card_seg1.mp4");
+  seg("cards/card2.png", 5.8, "/tmp/card_seg2.mp4");
+  fs.writeFileSync("/tmp/preroll_cat.txt", "file '/tmp/card_seg1.mp4'\nfile '/tmp/card_seg2.mp4'\n");
+  execFileSync("ffmpeg", ["-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", "/tmp/preroll_cat.txt", "-c", "copy", PREROLL], { timeout: 300000 });
+}
+const withPreroll = (body, out) => {
+  fs.writeFileSync("/tmp/final_cat.txt", `file '${PREROLL}'\nfile '${body}'\n`);
+  execFileSync("ffmpeg", ["-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", "/tmp/final_cat.txt",
+    "-c", "copy", "-movflags", "+faststart", out], { timeout: 900000 });
+};
+burnAndMux(clean, B + "cat.txt", D + "body_clean.mp4");
+burnAndMux(numbered, NB + "cat.txt", D + "body_numbered.mp4");
+withPreroll(D + "body_clean.mp4", D + "KARK_MV_CHRONO_V3.mp4");
+withPreroll(D + "body_numbered.mp4", D + "KARK_MV_CHRONO_V3_NUMBERED.mp4");
+console.log("done: KARK_MV_CHRONO_V3(.mp4 / _NUMBERED.mp4) — prologue cards + subtitles burned");

@@ -1,0 +1,31 @@
+[
+  {
+    "created_at": "2026-08-12T21:53:27.066469Z",
+    "display_name": "Higgsfield Soul 2.0",
+    "id": "55de9927-5b0a-4ff6-9978-0cbeaaa1ffed",
+    "job_type": "text2image_soul_v2",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_215327_55de9927-5b0a-4ff6-9978-0cbeaaa1ffed_min.webp",
+    "params": {
+      "batch_size": 1,
+      "custom_reference_id": "2ddab107-76c2-4fbf-9967-e22ed6ecdf22",
+      "enhance_prompt": false,
+      "height": 2048,
+      "prompt": "Cinematic photo, soft morning light: the man sits on a charpai in a village courtyard drinking tea from a steel cup, knitted cap, brown shawl, mid-smile at something just said. Documentary realism. No text anywhere.",
+      "quality": "1080p",
+      "seed": 997804,
+      "style": {
+        "id": "3db34ab5-3439-4317-9e03-08dc30852e69",
+        "name": "General",
+        "strength": 1,
+        "url": "https://cdn.higgsfield.ai/soul-v2-style/f33d85f2-6521-4fa8-8e8f-894cfbdee578.webp"
+      },
+      "style_id": "3db34ab5-3439-4317-9e03-08dc30852e69",
+      "style_strength": 1,
+      "use_relax": false,
+      "use_sage_attention": false,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_215327_55de9927-5b0a-4ff6-9978-0cbeaaa1ffed.png",
+    "status": "completed"
+  }
+]

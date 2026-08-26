@@ -1,0 +1,41 @@
+[
+  {
+    "created_at": "2026-08-12T03:05:48.683945Z",
+    "display_name": "Seedance 2.5",
+    "id": "5501e58c-8cd5-421b-a94d-b30a9e77c20e",
+    "job_type": "seedance_2_5",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "1:1",
+      "bitrate_mode": "standard",
+      "duration": 10,
+      "extension_mode": null,
+      "generate_audio": false,
+      "genre": "auto",
+      "height": 720,
+      "medias": [
+        {
+          "data": {
+            "id": "50e3dba3-2341-4435-b72b-6e21f7b55d48",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/50e3dba3-2341-4435-b72b-6e21f7b55d48.png"
+          },
+          "role": "start_image"
+        }
+      ],
+      "model": "default",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "Animate this exact painted scroll figure. The painting moves, never the camera. The old painted bard bows his ravanhatta in a slow mournful rhythm — long, patient bow strokes, roughly one full stroke every two seconds, his bowing hand and forearm moving with real weight, the red threads on his wrist swaying with each stroke, the fingers of his other hand shifting slightly on the neck. His chest rises and falls in slow audible-breath rhythm. Around the middle of the take he draws one deeper breath and his mouth opens for a long sung phrase — a simple painted open-mouth position held and slightly varying, beard moving with it — then his mouth closes again while the bowing continues. In the last moment he stops the bow and turns his head slightly upward and outward, listening to something far away. Everything moves like a flat painted paper figure: two-dimensional, stiff, strict profile maintained, no depth, no turning toward camera. Colors, outlines, cloth texture and composition stay exactly as the first frame. Locked-off camera, no pan, no zoom, single continuous take, no cuts, no new figures.",
+      "prompt_language": "en",
+      "reference_elements": [],
+      "resolution": "720p",
+      "speedramp": "auto",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_030548_5501e58c-8cd5-421b-a94d-b30a9e77c20e.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_030548_5501e58c-8cd5-421b-a94d-b30a9e77c20e_thumbnail.webp"
+  }
+]

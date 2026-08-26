@@ -1,0 +1,34 @@
+[
+  {
+    "created_at": "2026-08-16T04:16:57.311117Z",
+    "display_name": "Nano Banana Pro",
+    "id": "80cc82ee-831f-4319-a857-a9e59cd51bb6",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_041657_80cc82ee-831f-4319-a857-a9e59cd51bb6_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "3:4",
+      "batch_size": 1,
+      "height": 2400,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "bb441c74-3951-42ac-9c95-cb80d0182056",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/bb441c74-3951-42ac-9c95-cb80d0182056_resize.jpg"
+        },
+        {
+          "id": "318c4cc8-c024-46eb-b403-417170f2876e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/318c4cc8-c024-46eb-b403-417170f2876e_resize.jpg"
+        }
+      ],
+      "prompt": "Create a portrait of ONE man by combining two references. Take the AGE, SKIN and YOUTH from the FIRST reference image: a man of twenty-five — smooth taut young skin with no lines anywhere, full firm cheeks, thick jet-black hair with no grey, clear bright eyes, a young light moustache. Take the FACIAL STRUCTURE and IDENTITY from the SECOND reference image: his face shape, his brow, his eye placement and eye shape, his nose, his mouth, his strong jaw and cheekbones — the same man, recognisably. The result is that same man at twenty-five years old: his bone structure, a young man's skin. Plain white cotton kurta, fair wheat-golden Malwa complexion. Sharp photorealistic portrait, natural window light, plain neutral background, 85mm, front-facing, looking into the lens. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1792
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_041657_80cc82ee-831f-4319-a857-a9e59cd51bb6.png",
+    "status": "completed"
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "created_at": "2026-08-13T18:15:33.383543Z",
+    "display_name": "Seedance 2.5",
+    "id": "1d1aeaa9-491d-4376-bdb1-e970f4d6e705",
+    "job_type": "seedance_2_5",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "16:9",
+      "bitrate_mode": "standard",
+      "duration": 5,
+      "extension_mode": null,
+      "generate_audio": false,
+      "genre": "auto",
+      "height": 720,
+      "medias": [
+        {
+          "data": {
+            "id": "4f23dc62-5710-4867-828a-eeff3c631807",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/4f23dc62-5710-4867-828a-eeff3c631807_resize.jpg"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "3c515491-de03-42cf-b43d-2c1c1b2bbe7d",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/3c515491-de03-42cf-b43d-2c1c1b2bbe7d_resize.jpg"
+          },
+          "role": "end_image"
+        }
+      ],
+      "model": "default",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "Animate: the musician BOWS his instrument. The long thin bow stick is dragged back and forth across the strings in long continuous sawing strokes — exactly like a violinist's bow arm — travelling its full length out and back, out and back, repeatedly, throughout the whole shot. His right arm opens and closes with each stroke, elbow straightening as the bow travels out and folding as it returns. HE NEVER PLUCKS. His fingers never pick or strum the strings. The bow stays in contact with the strings and does the work. Meanwhile he sings: mouth opening on long held phrases, head tilting back. The hanging medallions swing; the saffron turban tail and red wrist threads stream in the strong wind; the storm sky churns behind. The troupe stays still. Fixed framing, no pan, no zoom, single continuous take, photoreal, everything else identical.",
+      "prompt_language": "en",
+      "reference_elements": [],
+      "resolution": "720p",
+      "speedramp": "auto",
+      "width": 1280
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260813_181533_1d1aeaa9-491d-4376-bdb1-e970f4d6e705.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260813_181533_1d1aeaa9-491d-4376-bdb1-e970f4d6e705_thumbnail.webp"
+  }
+]

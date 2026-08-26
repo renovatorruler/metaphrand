@@ -1,0 +1,38 @@
+[
+  {
+    "created_at": "2026-08-17T03:54:14.792025Z",
+    "display_name": "Wan 2.7",
+    "id": "c8292c2c-5583-44a0-869b-b923b311dd6c",
+    "job_type": "wan2_7",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "16:9",
+      "duration": 10,
+      "height": 768,
+      "medias": [
+        {
+          "data": {
+            "id": "1d2b5577-bd59-4bbc-9d60-6b967677d1f2",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/1d2b5577-bd59-4bbc-9d60-6b967677d1f2.png"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "356bc421-4b3b-40d0-acdc-1d1d4a4eb69c",
+            "type": "audio_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/356bc421-4b3b-40d0-acdc-1d1d4a4eb69c.mp3"
+          },
+          "role": "audio"
+        }
+      ],
+      "prompt": "A Rajasthani folk singer performing, his mouth driven by the audio. The size of his mouth opening follows the loudness of the voice at every moment — barely parted when soft, wide only at the loudest points, easing shut between phrases; his eyes stay closed in concentration, opening only briefly at the biggest phrase. His throat and chest work with the breath. His bow hand stays still and resting at the instrument's bowl — he is singing, not bowing, and the bow never crosses the strings; the decorated pole, tassels and bowl stay exactly as in the start frame. The storm sky drifts slowly behind him; wind stirs the turban fan and his beard. Locked-off camera, no pan or zoom, single continuous take. Everything else exactly as the start frame. Photoreal, cinematic.",
+      "resolution": "720p",
+      "width": 1344
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260817_035414_c8292c2c-5583-44a0-869b-b923b311dd6c.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260817_035414_c8292c2c-5583-44a0-869b-b923b311dd6c_thumbnail.webp"
+  }
+]

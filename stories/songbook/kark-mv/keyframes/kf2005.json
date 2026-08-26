@@ -1,0 +1,39 @@
+[
+  {
+    "created_at": "2026-08-12T22:35:07.189319Z",
+    "display_name": "Nano Banana Pro",
+    "id": "3fc2f63c-e6d9-4962-9c87-e81f8517d91c",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_223507_3fc2f63c-e6d9-4962-9c87-e81f8517d91c_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "07ac371d-a661-4dfd-817e-c8436fb32fe6",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/07ac371d-a661-4dfd-817e-c8436fb32fe6.png"
+        },
+        {
+          "id": "9a5a85c6-7c59-460a-a5a1-7b97041ccf7a",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/9a5a85c6-7c59-460a-a5a1-7b97041ccf7a_resize.jpg"
+        },
+        {
+          "id": "71615e84-6432-4e71-a637-a1c461ee7464",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/71615e84-6432-4e71-a637-a1c461ee7464_resize.jpg"
+        }
+      ],
+      "prompt": "Compose: the stone Tejaji shrine from the FIRST reference image (same shrine, same horseman-and-cobra idol, same oil lamp, same wrapped red threads but noticeably FEWER of them) standing on the left of frame at night at a village fair in 2005 — and beside it, right of frame in profile facing the shrine, the MAN from the second reference and the WOMAN from the third reference performing this gesture: his bare wrist held out, she tying a red sacred thread onto it. He is 45, healthy, black hair with first grey at the temples, wearing a simple checked cotton shirt; she is 40, jet-black hair, wearing a rust-orange cotton sari with pallu over her head, gold nathni on left nostril, red bindi, glass bangles. Behind them: a 2005 village fair — tungsten string bulbs (warm yellow, not LED), a family posing for a small silver point-and-shoot camera, auto-rickshaw parked at the edge, cassette-stall speakers. Rendered like a 2005 CONSUMER DIGITAL POINT-AND-SHOOT PHOTO: harsh direct flash on the couple, slight red-eye tendency, oversaturated colors, mild blur in the dark edges, 4:3-era digital noise in shadows. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_223507_3fc2f63c-e6d9-4962-9c87-e81f8517d91c.png",
+    "status": "completed"
+  }
+]

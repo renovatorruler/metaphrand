@@ -1,0 +1,550 @@
+{
+ "schema": "kuku.ep10.audio_first.guide_sfx.v1",
+ "purpose": "zero-credit editorial guide effects; declared approximations are not final foley",
+ "cue_count": 22,
+ "provider_calls": 0,
+ "cues": [
+  {
+   "cue_index": 1,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_001_4af2449fbfd3319016f4c6248660a2a9692c00c2ab9db183714625e338edb96c.mp3",
+   "sha256": "fd3cdcf63c4bedddcbf9c5802340577821286ff6b2443cbbc0bca876a26f7a06",
+   "duration_seconds": 1.8,
+   "limitation": "bell is a consistent series bell proxy, not an isolated school-bell recording",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep8prod/sfx/wingbeat_huge.mp3",
+     "sha256": "d3abae656cee51a77e1bf54e8ee057f0409d4cf19da20177de21f4fa723f1507",
+     "delay_ms": 0,
+     "gain": 0.42,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep9prod/finale/audio/sfx/SFX20_bell_inside_cloud.mp3",
+     "sha256": "c6220c9d965a0d2a28fddb1dd963647bbc9bdf0e8389eb7cf21fd370b38d6da1",
+     "delay_ms": 650,
+     "gain": 0.48,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 2,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_002_b7c99c506e5a5aedf098807bad76e3162e9ee3dfaa40d1d2b822410d18194430.mp3",
+   "sha256": "e8221a6971fe4724347e4179e64e031dcf8cea8ea24f79db9dc67b292dd65e1b",
+   "duration_seconds": 1.6,
+   "limitation": "clean guide wing slowdown and landing",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep8prod/sfx/wingbeat_huge.mp3",
+     "sha256": "d3abae656cee51a77e1bf54e8ee057f0409d4cf19da20177de21f4fa723f1507",
+     "delay_ms": 0,
+     "gain": 0.32,
+     "start_seconds": 1.2
+    },
+    {
+     "path": "../stories/kuku/ep5prod/sfx/two_foot_thud.mp3",
+     "sha256": "9abb25d2842e7873f9e5bddefb41f2c67e815e1fab9a2d0851c961943d76773e",
+     "delay_ms": 850,
+     "gain": 0.55,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 3,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_003_265e4bfe5a309b9092f140dbe255b64daaf7a91b747f41f7cca9288b7f62c85e.mp3",
+   "sha256": "35d7a6cb11db2267304d7e0460eaca502cbaa050c4f8b03c4e29c6c6dc6500f3",
+   "duration_seconds": 3.2,
+   "limitation": "no clean cow moo exists locally; rope, stone and accelerating wheels carry the guide cue",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep7prod/sfx/cart_rope_creak.mp3",
+     "sha256": "d8072700943d14c358a3dffe2900f282a571cb34a50d546347a7136285be2c1d",
+     "delay_ms": 0,
+     "gain": 0.48,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep5prod/sfx/stone_knock.mp3",
+     "sha256": "364068c8837eeb4db43edad950d8c6f361e0dc17f0267b060e9d4f7b97a51144",
+     "delay_ms": 550,
+     "gain": 0.42,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep3prod/sfx/wheels_roll.mp3",
+     "sha256": "824ee20abec5fa634f44e412e2add48bed2babc8be9b6f602287f22fcc406e96",
+     "delay_ms": 700,
+     "gain": 0.5,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep3prod/sfx/wheels_fast.mp3",
+     "sha256": "aad67c61133c9c731285cf4caec2994eedd7ed4555b32899cc2d5ba1ab745355",
+     "delay_ms": 1750,
+     "gain": 0.55,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 4,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_004_c880bb9ce94a9c0fae94732cc4474821064927e08fd59d96ae2677d8900c1094.mp3",
+   "sha256": "0e20e81e9d4c8df3a2118c048674dd7091b6cf3b8d9fc98a8a6f828bc25ff664",
+   "duration_seconds": 2.2,
+   "limitation": "series bell proxy also represents the bronze clasp",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep9prod/finale/audio/sfx/SFX20_bell_inside_cloud.mp3",
+     "sha256": "c6220c9d965a0d2a28fddb1dd963647bbc9bdf0e8389eb7cf21fd370b38d6da1",
+     "delay_ms": 0,
+     "gain": 0.48,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep8prod/sfx/wingbeat_huge.mp3",
+     "sha256": "d3abae656cee51a77e1bf54e8ee057f0409d4cf19da20177de21f4fa723f1507",
+     "delay_ms": 550,
+     "gain": 0.4,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 5,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_005_01ebdfca3b09aad5789e97fd17d16ed5b4e5c72e7b947bb13187eb000726d6d5.mp3",
+   "sha256": "ff400b0c2ffd3c8694d0212de6dbbd4d40bcf383013e319584d7c7baf221b6a3",
+   "duration_seconds": 2.2,
+   "limitation": "guide braking transition",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep8prod/sfx/wingbeat_huge.mp3",
+     "sha256": "d3abae656cee51a77e1bf54e8ee057f0409d4cf19da20177de21f4fa723f1507",
+     "delay_ms": 0,
+     "gain": 0.38,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep3prod/sfx/wheels_fast.mp3",
+     "sha256": "aad67c61133c9c731285cf4caec2994eedd7ed4555b32899cc2d5ba1ab745355",
+     "delay_ms": 0,
+     "gain": 0.52,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep3prod/sfx/wheels_roll.mp3",
+     "sha256": "824ee20abec5fa634f44e412e2add48bed2babc8be9b6f602287f22fcc406e96",
+     "delay_ms": 1150,
+     "gain": 0.42,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 6,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_006_16398f69b30a56657b660c594e5d5bae6c127f9cb5b8f09a195cd69451e0a680.mp3",
+   "sha256": "27ad28c47c23c4da6a7fc3d4b0937fb9504602ffa5e00592e5fffd6365787b1f",
+   "duration_seconds": 1.6,
+   "limitation": "wooden gate guide composite",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep8prod/sfx/plank_khat.mp3",
+     "sha256": "c24a875ab6454c75abbf377a603c54a0c732b3088126b59e87e9bf24ea81eda4",
+     "delay_ms": 0,
+     "gain": 0.62,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep6prod/sfx/door_close_soft.mp3",
+     "sha256": "e3187aede3fd3d73eb6032b42da6314bba37f6260ca871510ed2dcc2c49e9f07",
+     "delay_ms": 650,
+     "gain": 0.68,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 7,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_007_a3272326c6210671b67c6983edd6ab71ac4170683077c07a75ad85e37cd69d92.mp3",
+   "sha256": "4d62814da81fb22952eedd3c4f89e4400d0b8df159067cb4738b70ffb0955378",
+   "duration_seconds": 1.4,
+   "limitation": "two marker-placement guide knocks",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep5prod/sfx/stone_knock.mp3",
+     "sha256": "364068c8837eeb4db43edad950d8c6f361e0dc17f0267b060e9d4f7b97a51144",
+     "delay_ms": 0,
+     "gain": 0.58,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep5prod/sfx/stone_knock.mp3",
+     "sha256": "364068c8837eeb4db43edad950d8c6f361e0dc17f0267b060e9d4f7b97a51144",
+     "delay_ms": 650,
+     "gain": 0.48,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 8,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_008_7c429b807ef5f3a65c618b291f90d634b969559e4e00296bd4573c72b599e30a.mp3",
+   "sha256": "d97ec3934ed84acefff386f4c5b338f6d1d183e1bd007a6d8c52d6104eb5260b",
+   "duration_seconds": 0.65,
+   "limitation": "placed immediately after the spoken line in this table-read guide, not word-aligned",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep8prod/sfx/glint_chime.mp3",
+     "sha256": "096a7a10bc4631c627e6461df065946bb0a23c9b61b2c8a41e58a0634266a309",
+     "delay_ms": 0,
+     "gain": 0.48,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 9,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_009_22becc539d2ee2e073293c0984714527b65f32c5d54dcc79bffb8a9885f54d06.mp3",
+   "sha256": "d97ec3934ed84acefff386f4c5b338f6d1d183e1bd007a6d8c52d6104eb5260b",
+   "duration_seconds": 0.65,
+   "limitation": "placed immediately after the spoken line in this table-read guide, not word-aligned",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep8prod/sfx/glint_chime.mp3",
+     "sha256": "096a7a10bc4631c627e6461df065946bb0a23c9b61b2c8a41e58a0634266a309",
+     "delay_ms": 0,
+     "gain": 0.48,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 10,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_010_91095ed10e45f6ecd188b4c6ea45018f87f9482f9bf9570d2fab5aedbaf1f65e.mp3",
+   "sha256": "e2aa6a623096e63c0f174533b15ef98c93c17efef9aaafc7916c44cf31aeb188",
+   "duration_seconds": 0.95,
+   "limitation": "two pings follow the line in this table-read guide; final mix must word-align them",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep8prod/sfx/glint_chime.mp3",
+     "sha256": "096a7a10bc4631c627e6461df065946bb0a23c9b61b2c8a41e58a0634266a309",
+     "delay_ms": 0,
+     "gain": 0.43,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep8prod/sfx/glint_chime.mp3",
+     "sha256": "096a7a10bc4631c627e6461df065946bb0a23c9b61b2c8a41e58a0634266a309",
+     "delay_ms": 460,
+     "gain": 0.43,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 11,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_011_67a84a8be941fc28988121c8ee10b573079270b07b56d4785913fecd8b78ef07.mp3",
+   "sha256": "a293be79357d502a1628fc004faf1d95e25ba6f11b7569d34250805d557fcaac",
+   "duration_seconds": 2.6,
+   "limitation": "generic golden-shape formation and stone lock; source filenames refer to Episode 9 but contain no spoken letter",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep9prod/finale/audio/sfx/SFX08_three_pulse.mp3",
+     "sha256": "27f6758e3eabe421691cc43ca7591aa264c7be48a62f37b2bef838a8d54c100a",
+     "delay_ms": 0,
+     "gain": 0.45,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep9prod/finale/audio/sfx/SFX12_b_forms.mp3",
+     "sha256": "b11e82865a9bb20fe916820b38c195db310b98481e4e1d5ecb23f7333ec5e7d7",
+     "delay_ms": 450,
+     "gain": 0.42,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep5prod/sfx/letter_lock_stone.mp3",
+     "sha256": "2684b01a30ee87705a83b17db992e2d7fb53773b839dc9840c7ad7b1697bfad9",
+     "delay_ms": 1350,
+     "gain": 0.6,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 12,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_012_aeb8012e07d0351cde14925f1cafdb818115b664257dbeff1865c15688479e88.mp3",
+   "sha256": "8ea6be1676da3f9c586c1c2e88b1ced542468cd28b782c348f3e6fd67eaf5d1b",
+   "duration_seconds": 1.4,
+   "limitation": "generic five-place bracelet-light cue with no spoken letter",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep9prod/finale/audio/sfx/SFX13_b_light_to_bracelets.mp3",
+     "sha256": "2f1f7f26fa6aa03e7cc7da555be9eb49d6c395085bc5a34645609de22bf39390",
+     "delay_ms": 0,
+     "gain": 0.52,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 13,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_013_89c34ec456b3b2bf2f870a336e4d4f90a45b6667e4beceb05157eecf77b66536.mp3",
+   "sha256": "f9cdfd948606c6e77aae300b50430971e10015d06ca39ff36fd77d370cce398a",
+   "duration_seconds": 1.8,
+   "limitation": "glint is a temporary guide for the stone-to-gold timbre change",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep7prod/sfx/cart_rolls_bridge.mp3",
+     "sha256": "5fe2546a932f706cf3e8ae1c611994ba010003588355f8863aba01690418717b",
+     "delay_ms": 0,
+     "gain": 0.62,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep8prod/sfx/glint_chime.mp3",
+     "sha256": "096a7a10bc4631c627e6461df065946bb0a23c9b61b2c8a41e58a0634266a309",
+     "delay_ms": 700,
+     "gain": 0.16,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 14,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_014_ee9da4957b58f2b0d38d4d7d721cc1a0e89a84b0e204d8b8da3de51310e6093e.mp3",
+   "sha256": "f2c80e92896c08c430eeedc716beab8987ad71648c3e367236bda59bb283a65f",
+   "duration_seconds": 1,
+   "limitation": "rear-wheel guide segment",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep7prod/sfx/cart_rolls_bridge.mp3",
+     "sha256": "5fe2546a932f706cf3e8ae1c611994ba010003588355f8863aba01690418717b",
+     "delay_ms": 0,
+     "gain": 0.62,
+     "start_seconds": 1.2
+    }
+   ]
+  },
+  {
+   "cue_index": 15,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_015_87f2c75fa1a32312fcd37f2deb8a94e956e28f1aade947d46ee23b821cdc74a2.mp3",
+   "sha256": "748ca362bd623c0f5e715cf51cadf14d4f9500d7822b45dabd02da5fb0f038eb",
+   "duration_seconds": 2.2,
+   "limitation": "series bell proxy fades with the overhead pass",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep8prod/sfx/shadow_pass.mp3",
+     "sha256": "df86876250cda017bc479b8781a5c561103ef9b76494eb7b905d752153fbe955",
+     "delay_ms": 0,
+     "gain": 0.5,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep9prod/finale/audio/sfx/SFX20_bell_inside_cloud.mp3",
+     "sha256": "c6220c9d965a0d2a28fddb1dd963647bbc9bdf0e8389eb7cf21fd370b38d6da1",
+     "delay_ms": 650,
+     "gain": 0.3,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 16,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_016_36724c9e10920c6c36e32379bc63fc10597c7c4ad91633a14597191a5b3b51c2.mp3",
+   "sha256": "ab789bfb377908e66fb8b22d7097ac0d58dc6021ff53fc999184a4c13c82bd80",
+   "duration_seconds": 2.2,
+   "limitation": "no clean cow sigh exists locally; stopping cart carries the guide cue",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep7prod/sfx/cart_arrives.mp3",
+     "sha256": "2a98d9e05469cc41690f27bce2a41b88c439ee7d5a7d982cb91892110f22598b",
+     "delay_ms": 0,
+     "gain": 0.62,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 17,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_017_59befccc8b0dd2281b7f9e8b70c732410a992901d41cf590343b72646d52fc66.mp3",
+   "sha256": "cdd65915bf0bdbfad19c6314a4e767ddc7c94e2f119c56dc9213f07fcd57d9fb",
+   "duration_seconds": 2.2,
+   "limitation": "temporary shrinking guide uses neutral bracelet/light cues, not the Episode 9 growth cue",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep9prod/finale/audio/sfx/SFX13_b_light_to_bracelets.mp3",
+     "sha256": "2f1f7f26fa6aa03e7cc7da555be9eb49d6c395085bc5a34645609de22bf39390",
+     "delay_ms": 0,
+     "gain": 0.52,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep4prod/sfx/magic_chime.mp3",
+     "sha256": "c86de298b92f7d488015b1054c9d9676969af0a33bc040f055f0c26ea69c2f83",
+     "delay_ms": 800,
+     "gain": 0.24,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 18,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_018_ddcb9da4964cc65b9f34ae6d260d503634a0f5fd9bde1b5a6b861506ad0bd605.mp3",
+   "sha256": "5790482b4317e0b4bc2735d06a747e2959a8f69331d14d82e872e6638ea9ca3b",
+   "duration_seconds": 1.6,
+   "limitation": "no clean cow moo exists locally; Castor's soft tumble is present",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep3prod/sfx/soft_tumble.mp3",
+     "sha256": "5aff4d163db702b5da38b3f03d129561c69a6d8f8292ebcd84cdde6ecadbbc48",
+     "delay_ms": 450,
+     "gain": 0.62,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 19,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_019_d2327af5ced11fdcf58cfd7c8f4c99cafbb1b350e5f05f887ae0bf39bfc2507e.mp3",
+   "sha256": "b71c58097db8b54b09709261866f3506509d2408d87f76d70d48b81996595039",
+   "duration_seconds": 1.8,
+   "limitation": "two-tone home-link guide; Dadi distance is applied to her voice locally",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep8prod/sfx/glint_chime.mp3",
+     "sha256": "096a7a10bc4631c627e6461df065946bb0a23c9b61b2c8a41e58a0634266a309",
+     "delay_ms": 0,
+     "gain": 0.42,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep6prod/sfx/chime_act.mp3",
+     "sha256": "8c2de7f5484226c48f0f5c5defb51a138fb4f0d05a8071934bca91f4bb253954",
+     "delay_ms": 520,
+     "gain": 0.36,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 20,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_020_a9a6da52f2c92c2a6eb65ab99ab6c74d0f294fddf59a2ce3e8a99297c0117759.mp3",
+   "sha256": "ae33d3be80b5061f30d61533152f7b47dac6cfcdff66bb44a951fa33a6d35d44",
+   "duration_seconds": 1.8,
+   "limitation": "four softened stone knocks are an explicit temporary hoof proxy",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep7prod/sfx/soft_tak.mp3",
+     "sha256": "ca1f71ba958cb3ae646efb7d80cf558fd4389a9de4fa8ebea0fa568fdf53f3dc",
+     "delay_ms": 0,
+     "gain": 0.55,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep5prod/sfx/stone_knock.mp3",
+     "sha256": "364068c8837eeb4db43edad950d8c6f361e0dc17f0267b060e9d4f7b97a51144",
+     "delay_ms": 400,
+     "gain": 0.24,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep5prod/sfx/stone_knock.mp3",
+     "sha256": "364068c8837eeb4db43edad950d8c6f361e0dc17f0267b060e9d4f7b97a51144",
+     "delay_ms": 750,
+     "gain": 0.22,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep5prod/sfx/stone_knock.mp3",
+     "sha256": "364068c8837eeb4db43edad950d8c6f361e0dc17f0267b060e9d4f7b97a51144",
+     "delay_ms": 1100,
+     "gain": 0.2,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep5prod/sfx/stone_knock.mp3",
+     "sha256": "364068c8837eeb4db43edad950d8c6f361e0dc17f0267b060e9d4f7b97a51144",
+     "delay_ms": 1450,
+     "gain": 0.18,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 21,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_021_b8a41050a9805ee92e985ec97c85a1a14300c310d5cdd9a29324939a3d0e9486.mp3",
+   "sha256": "e119c1107dfeb5258f979246f2dcc2f54a30c5e1f620590fcb74e33b0a87f439",
+   "duration_seconds": 2.3,
+   "limitation": "series bell proxy",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep8prod/sfx/cheel_land.mp3",
+     "sha256": "709d8f53b22a9a57be01a261daeaacafefad1dd36724cf5e6bcbb223f411eebc",
+     "delay_ms": 0,
+     "gain": 0.48,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep9prod/finale/audio/sfx/SFX01_claw_on_stone.mp3",
+     "sha256": "5d0bddb754af7bb054f3efc1bffacda3711bcad972ed7e09de39768091b64d70",
+     "delay_ms": 650,
+     "gain": 0.45,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep9prod/finale/audio/sfx/SFX20_bell_inside_cloud.mp3",
+     "sha256": "c6220c9d965a0d2a28fddb1dd963647bbc9bdf0e8389eb7cf21fd370b38d6da1",
+     "delay_ms": 1350,
+     "gain": 0.28,
+     "start_seconds": 0
+    }
+   ]
+  },
+  {
+   "cue_index": 22,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_022_f64ce957196a3adf84b9c8c7888589950ca4159bf6691706deccd4e122b3016f.mp3",
+   "sha256": "7886ca0b3888bc4eea33ea789f4a5112eeb739db0ca43aec64219e4b13f1a501",
+   "duration_seconds": 2.2,
+   "limitation": "quiet glint is a temporary sub-strike bronze resonance; cue hard-cuts before a full bell hit",
+   "provider_calls": 0,
+   "sources": [
+    {
+     "path": "../stories/kuku/ep5prod/sfx/rope_creak.mp3",
+     "sha256": "4f4b2acf6187c88f364b3629fbd6a32799012aa8a736a90131ad8c91b80d955f",
+     "delay_ms": 0,
+     "gain": 0.58,
+     "start_seconds": 0
+    },
+    {
+     "path": "../stories/kuku/ep8prod/sfx/glint_chime.mp3",
+     "sha256": "096a7a10bc4631c627e6461df065946bb0a23c9b61b2c8a41e58a0634266a309",
+     "delay_ms": 1650,
+     "gain": 0.12,
+     "start_seconds": 0
+    }
+   ]
+  }
+ ]
+}

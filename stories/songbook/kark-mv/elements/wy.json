@@ -1,0 +1,29 @@
+[
+  {
+    "created_at": "2026-08-16T00:05:08.576058Z",
+    "display_name": "Nano Banana Pro",
+    "id": "bb929f83-8fd9-412f-b00b-eb5476efd729",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_000508_bb929f83-8fd9-412f-b00b-eb5476efd729_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "3:4",
+      "batch_size": 1,
+      "height": 2400,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "b796251b-9dc1-4682-929d-d8f08ee9b3cd",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/b796251b-9dc1-4682-929d-d8f08ee9b3cd_resize.jpg"
+        }
+      ],
+      "prompt": "The SAME WOMAN as in the reference image — identical bone structure, identical eye shape, same elegant features, unmistakably the same person — but at TWENTY YEARS OLD: a breathtakingly beautiful young North Indian woman from the Malwa region, luminous fair wheat-golden skin, large lustrous dark almond eyes with long lashes, flawless symmetrical features, high graceful cheekbones, softly full lips, jet-black hair with no grey parted in the centre and braided, radiant youthful glow. She wears a bright red-and-pink village ghagra-choli with an odhni draped over her head, a small gold nathni ring on her LEFT nostril, a red bindi, glass bangles on both wrists. The most beautiful girl in the district. Sharp photorealistic portrait photograph, natural window light, plain neutral background, 85mm lens look, front-facing, looking into the lens. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1792
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_000508_bb929f83-8fd9-412f-b00b-eb5476efd729.png",
+    "status": "completed"
+  }
+]

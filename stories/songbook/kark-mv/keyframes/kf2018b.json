@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-08-12T22:09:26.311744Z",
+    "display_name": "Nano Banana Pro",
+    "id": "2ace909a-4137-4638-98b3-7a89210b8170",
+    "job_type": "nano_banana_pro",
+    "min_result_url": null,
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 768,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "f5fcdb4d-de9b-444a-9e8c-014a14090f7b",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/f5fcdb4d-de9b-444a-9e8c-014a14090f7b_resize.jpg"
+        },
+        {
+          "id": "bc25981c-55c6-404d-9b8a-67d839e400b6",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/bc25981c-55c6-404d-9b8a-67d839e400b6_resize.jpg"
+        },
+        {
+          "id": "73de3676-df2e-4553-8943-6447cb4bb80f",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/73de3676-df2e-4553-8943-6447cb4bb80f_resize.jpg"
+        }
+      ],
+      "prompt": "Recreate the EXACT scene staging of the first reference image — same stone Tejaji shrine with the horseman-and-cobra idol on the left, same camera angle and framing, same positions and gesture: the couple in profile right of the shrine, his wrist out, the WOMAN tying a red sacred thread onto it — but in 2018 with the couple from the second and third references healthy and eight years younger, in DIFFERENT CLOTHES: the man (second reference) sturdy and well, fuller face, short grey-flecked hair, NO cap, NO hospital band, wearing a pale sky-blue cotton shirt; the woman (third reference) wearing a deep MAROON Maheshwari-style cotton sari with a thin gold border — NOT green — pallu over her head, gold nathni, red bindi, gold bangles. Dry night, slightly fewer threads on the shrine, smartphones glowing in the blurred crowd, bright LED string lights. 2018 smartphone-photograph look: deep focus, mild HDR, crisp digital. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1344
+    },
+    "result_url": null,
+    "status": "nsfw"
+  }
+]
+Error: job 2ace909a-4137-4638-98b3-7a89210b8170 ended with status "nsfw"

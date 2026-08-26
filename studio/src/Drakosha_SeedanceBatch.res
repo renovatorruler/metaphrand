@@ -27,7 +27,7 @@ type castToken = Frosya | Vasya | Mama | Papa | Babies | Rusya | Musya | YagaFli
    was "reverse", which has no fixed referent — the reverse of the front is the
    back and the reverse of the back is the front — so nothing written with that
    word could be checked. Do not reintroduce it. */
-type propToken = FloorAfter | RoomFront | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Stupa | Pomelo | Broom | Top | Tin | Chest | Tiles | Pouch | Pencil | Scooter | Road | Tank | Thread | Cake | Juice | Salad | Poppy
+type propToken = TwoMamas | FloorAfter | RoomFront | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Stupa | Pomelo | Broom | Top | Tin | Chest | Tiles | Pouch | Pencil | Scooter | Road | Tank | Thread | Cake | Juice | Salad | Poppy
 
 type shotRecord = {
   jobId: string, // "job12"
@@ -62,22 +62,22 @@ let castEntry = (t: castToken): castEntry =>
   switch t {
   | Frosya => {
       tag: "@FROSYA",
-      tagLine: "@FROSYA — её зовут Фрося — the ELDEST of the family's FOUR children: orange flower in her hair, safety pin on her patchwork dress. 100% matches the reference.",
+      tagLine: "@FROSYA: a girl with long dark hair, an orange flower in her hair on one side, freckles and a gap-toothed grin, wearing a floral patchwork dress with a large safety pin at the front. 100% matches the reference.",
       refPath: "packet_v2/page-05.png", // official «Фрося — ДО карандаша» sheet (packet v2)
     }
   | Vasya => {
       tag: "@VASYA",
-      tagLine: "@VASYA — его зовут Вася — the SECOND of the family's FOUR children, younger than Фрося and older than Руся and Муся: enormous bushy eyebrows, shoelace belt. 100% matches the reference.",
+      tagLine: "@VASYA: a small figure with ENORMOUS bushy dark eyebrows and short fair hair, wearing a shoelace tied round the waist as a belt. 100% matches the reference.",
       refPath: "packet_v2/page-04.png",
     }
   | Mama => {
       tag: "@MAMA",
-      tagLine: "@MAMA — её зовут Мама — the mother: blonde braid, red-and-gold striped kerchief, cream apron over a dark red skirt. 100% matches the reference.",
+      tagLine: "@MAMA: a woman with a long blonde braid, a red-and-gold striped kerchief, a cream apron over a dark red skirt, and ordinary thin eyebrows. 100% matches the reference.",
       refPath: "packet_v2/page-07.png",
     }
   | Papa => {
       tag: "@PAPA",
-      tagLine: "@PAPA — его зовут Папа — the father: short and stocky, huge beard, blue work shirt with suspenders, iron key on a cord. 100% matches the reference.",
+      tagLine: "@PAPA: a short stocky man with a huge dark beard, a blue work shirt with suspenders and an iron key on a cord round his neck. 100% matches the reference.",
       refPath: "packet_v2/page-08.png",
     }
   /* Руся and Муся are separate people and are cast separately. The old single
@@ -87,12 +87,12 @@ let castEntry = (t: castToken): castEntry =>
      from the approved pose library. @BABIES survives for the still batch. */
   | Rusya => {
       tag: "@RUSYA",
-      tagLine: "@RUSYA — его зовут Руся — the THIRD of the family's FOUR children, a toddler boy: an orange-brown tufted topknot standing up from a bald head, big round brown eyes, a patched ochre smock. 100% matches the reference.",
+      tagLine: "@RUSYA: a bald baby with an orange-brown tufted topknot standing up from the head, big round brown eyes and a patched ochre smock. 100% matches the reference.",
       refPath: "C-RUS-01_solo_from_packet_page14.png",
     }
   | Musya => {
       tag: "@MUSYA",
-      tagLine: "@MUSYA — её зовут Муся — the YOUNGEST of the family's FOUR children, a baby girl: one curling wisp of hair on an otherwise bald head, sleepy heavy-lidded eyes, rosy cheeks, patched pink cloth. 100% matches the reference.",
+      tagLine: "@MUSYA: a bald baby with one curling white wisp of hair, sleepy heavy-lidded eyes, rosy cheeks and patched pink cloth. 100% matches the reference.",
       refPath: "C-MUS-01_solo_from_packet_page14.png",
     }
   | Babies => {
@@ -117,7 +117,7 @@ let castEntry = (t: castToken): castEntry =>
     }
   | VasyaMama => {
       tag: "@VASYA_MAMA",
-      tagLine: "@VASYA_MAMA: Вася transformed into a second МАМА — the SAME height as Мама, the same red-and-gold kerchief, blonde braid, cream apron over the dark red patched skirt. But the face is his: ENORMOUS shaggy dark eyebrows, a wide gap-toothed grin, and big round startled eyes. 100% matches the reference.",
+      tagLine: "@VASYA_MAMA: a woman with a long blonde braid, a red-and-gold striped kerchief and a cream apron over a dark red patched skirt, with ENORMOUS shaggy dark eyebrows over big round eyes and a wide gap-toothed grin. 100% matches the reference.",
       /* A SOLO CROP, never the two-up sheet. T-VAS-MAMA-01_approved.png shows the
          real Мама standing beside her, and a reference holding two characters
          lets the model take the wrong one — the same fault as one BABIES sheet
@@ -150,6 +150,12 @@ type propEntry =
 
 let propEntry = (t: propToken): propEntry =>
   switch t {
+  | TwoMamas =>
+    Backed({
+      tag: "@TWO_MAMAS",
+      tagLine: "@TWO_MAMAS: the two women standing side by side — TWINS, the same height with head tops level, identical build and dress, differing only in their faces. 100% matches the reference.",
+      refPath: "T-VAS-MAMA-01_approved.png",
+    })
   | FloorAfter =>
     Backed({
       tag: "@FLOOR_AFTER",
@@ -393,17 +399,39 @@ exception BatchError(string)
 let castScale = (t: castToken): option<string> =>
   switch t {
   | Frosya => Some("Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.")
-  | Vasya => Some("Вася is shorter than Фрося, about up to her eyebrows.")
+  | Vasya => Some("Вася is a head shorter than Мама — the top of his head reaches about her chin.")
   | Mama => Some("Мама is a little taller than Фрося.")
   | Papa => Some("Папа is the tallest, about a head above Мама.")
   | Babies => Some("@BABIES are far smaller: РУСЯ about 1.9 in, and МУСЯ smaller still — each fits along one of @MAMA's forearms.")
-  | Rusya => Some("Руся is about half Фрося's height.")
-  | Musya => Some("Муся is smaller again than Руся and is carried.")
+  /* Sized against the adults, not against Фрося — she is usually not in the
+     shots the babies share with Мама, and an absent anchor is filtered out
+     anyway (2026-08-26). Registry: babies 4.32cm, Мама 9.91cm — knee-to-waist. */
+  /* No text anchor for the babies: in every shot they share with an adult they
+     are already IN the start frame at their size, and a sentence against either
+     woman is a second anchor competing with the picture (author, 2026-08-26:
+     "let the model figure it out since the start frame already has their
+     size"). The one relation kept is baby-to-baby, which no plate states. */
+  | Rusya => None
+  | Musya => Some("Муся the baby is a little smaller than the other baby.")
   | YagaDomovoy => Some("@YAGA at house-spirit size stands about 3.60 in / 9.1 cm — the same order as the parents, never towering over them.")
   | YagaFlight => Some("@YAGA in human flight form stands about 147 cm — SIXTEEN TIMES the family's size. She is a full-grown human woman here.")
   | VasyaCat => Some("@VASYA_CAT is a cat at house-spirit scale, a little longer than @VASYA is tall.")
   | VasyaWasp => Some("@VASYA_WASP is a wasp at house-spirit scale, small enough to fly through a gap in the floorboards.")
-  | VasyaMama => Some("@VASYA_MAMA stands at МАМА's full height, not Вася's — the height IS the joke, and she is a head taller than Фрося.")
+  /* CORRECTED 2026-08-26. This said she is "a head taller than Фрося", while
+     МАМА's own line says she is only "a little taller than Фрося". Read
+     together those two sentences tell the model the pair are DIFFERENT heights,
+     and they never state the one fact that matters when both are in frame: the
+     two of them are identical. v09rescue came back with Мама visibly towering
+     over him — the author: "he's definitely Vasya's height, and she's an adult
+     woman's height." The comparison to Фрося is dropped; the identity is stated
+     directly, because that is what the shot is actually about. */
+  /* CORRECTED AGAIN 2026-08-26. The previous version anchored her to "a grown
+     woman's full height" AS WELL AS to @MAMA. Those are two anchors and the
+     outside one won: @MAMA walked in at full size beside a figure the start
+     plate had already drawn small, and towered. The author: "I don't care if
+     they're huge as long as when two mamas are in the shot, the two women are
+     the same height." So there is now ONE anchor and it is each other. */
+  | VasyaMama => Some("@VASYA_MAMA and @MAMA are TWINS: identical in height, build and dress, head tops level side by side, differing only in their faces — as @TWO_MAMAS shows them.")
   }
 
 let propScale = (t: propToken): option<string> =>
@@ -425,19 +453,43 @@ let propScale = (t: propToken): option<string> =>
      carries the old version at SH068 ("почти достаёт до локтя" — almost reaches
      her elbow); that line is stale and must not be copied into a prompt. */
   | Pencil => Some("@PENCIL is sized for @FROSYA's own hand — it sits in her palm, she writes with it one-handed, and it fits behind her ear. It is NOT a giant human pencil and never dwarfs her.")
-  | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Tiles | Pouch | Scooter | Road | Tank | Thread | Cake | Juice | Salad | Poppy | FloorAfter => None
+  | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Tiles | Pouch | Scooter | Road | Tank | Thread | Cake | Juice | Salad | Poppy | FloorAfter | TwoMamas => None
   }
 
 /* The creative text may not smuggle tag lines past the emitter: any "@" is a
    build-the-record-properly error, caught before money. */
-let assertCreativeClean = (r: shotRecord): unit =>
-  if Js.String2.includes(r.creative, "@") {
-    raise(
-      BatchError(
-        r.jobId ++ ": creative text contains an @tag — cast lines are emitted, never hand-written",
-      ),
-    )
+/* CHOREOGRAPHY REFERS TO ACTORS BY TAG. 2026-08-26, the author: "Why are you
+   saying the second woman when it should be just tagged as mama?" Right — the
+   tags exist to kill ambiguity, and prose like "the new woman" reintroduces
+   it. So @tags are now REQUIRED vocabulary in the creative, with one rule: a
+   creative may only use the tags of the cast and props actually bound to the
+   job. An unknown tag is still the old error — it means the record is wrong,
+   not the prose. (Dialogue headers and spoken lines stay Cyrillic: the Frosha
+   incident showed Latin spellings next to Russian lines poison the phonetics,
+   and tags never appear inside anything spoken.) */
+let assertCreativeClean = (r: shotRecord): unit => {
+  let allowed = Belt.Array.concat(
+    r.cast->Belt.Array.map(t => castEntry(t).tag),
+    r.props->Belt.Array.map(propTag),
+  )
+  let re = %re("/@[A-Z_]+/g")
+  let found = switch Js.String2.match_(r.creative, re) {
+  | None => []
+  | Some(m) => m->Belt.Array.keepMap(x => x)
   }
+  found->Belt.Array.forEach(tag =>
+    if !(allowed->Belt.Array.some(a => a == tag)) {
+      raise(
+        BatchError(
+          r.jobId ++
+          ": creative uses " ++
+          tag ++
+          " which is not bound to this job. Bind it in the job record or fix the tag.",
+        ),
+      )
+    }
+  )
+}
 
 /* A Latin-spelled character name sitting next to a Russian line gets SPOKEN in
    English phonetics — the clip where Папа said "Frosha" was generated from a
@@ -447,19 +499,24 @@ let assertCreativeClean = (r: shotRecord): unit =>
    to the Cyrillic name inside the tag line itself. */
 let latinCastNames = ["FROSYA", "VASYA", "MAMA", "PAPA", "YAGA", "Frosya", "Vasya", "Mama", "Papa", "Yaga"]
 
-let assertCyrillicNames = (r: shotRecord): unit =>
+/* Tags are exempt: since 2026-08-26 the choreography is REQUIRED to refer to
+   actors as @VASYA_MAMA etc., so the scan runs on the creative with every
+   @TAG removed. What remains must be Cyrillic. */
+let assertCyrillicNames = (r: shotRecord): unit => {
+  let detagged = Js.String2.unsafeReplaceBy0(r.creative, %re("/@[A-Z_]+/g"), (_, _, _) => "")
   latinCastNames->Belt.Array.forEach(n =>
-    if Js.String2.includes(r.creative, n) {
+    if Js.String2.includes(detagged, n) {
       raise(
         BatchError(
           r.jobId ++
           ": choreography spells a character name in Latin (\"" ++
           n ++
-          "\") — next to a Russian line that gets spoken in English phonetics. Use the Cyrillic name.",
+          "\") — next to a Russian line that gets spoken in English phonetics. Use the Cyrillic name (tags like @VASYA_MAMA are exempt).",
         ),
       )
     }
   )
+}
 
 /* Russian stress is unmarked, so a multi-syllable word handed to a voice model
    is a coin flip — «юла» reads as the girl's name «Юля» unless the stress is
@@ -578,8 +635,44 @@ let assertDialogueIsRussian = (r: shotRecord): unit =>
    not change; the ruler did. Raise this again ONLY for the same reason, or when a
    genuinely longer prompt has actually succeeded. Measured on the finished
    prompt, which is what the model receives — not on the creative file. */
+/* THE BANNED-WORD SCAN RUNS ON THE FINISHED PROMPT, NOT ONLY THE CREATIVE.
+   2026-08-26: v09rescue take 4 was rejected nsfw and charged 35 credits on the
+   words "mid-thigh" — written not in the creative, which the gate scans, but in
+   the castScale table, which it never saw. Any assembly path can smuggle a word
+   in, so the last check before money runs on the exact string the model gets. */
+/* Shots DELIVERED before a word joined this list are not re-judged by it —
+   the same precedent as emotionGateGrandfathered. "thigh" (singular) joined
+   2026-08-26 after v09rescue take 4; v07table, already rendered and in the
+   cut, says "planted on his thigh" and stays as shot. */
+let bodyStateGrandfathered = ["v07table", "v08babies"]
+
+let bodyStateWords = [
+  "barefoot", "bare feet", "bare legs", "bare arms", "bare skin", "naked", "undressed",
+  "thigh", "thighs", "belly", "diaper", "nappy", "bare chested", "shirtless",
+]
+
+let assertEmittedClean = (jobId: string, prompt: string): unit => {
+  let lower = Js.String2.toLowerCase(prompt)
+  bodyStateGrandfathered->Belt.Array.some(j => j == jobId)
+    ? ()
+    : bodyStateWords->Belt.Array.forEach(w =>
+    if Js.String2.includes(lower, w) {
+      raise(
+        BatchError(
+          jobId ++
+          ": the EMITTED prompt contains \"" ++
+          w ++
+          "\" — it reached the final text through a table or template, not the creative. This is the class of word that gets a job rejected nsfw and still charged.",
+        ),
+      )
+    }
+  )
+}
+
 let assertEmittedBudget = (jobId: string, prompt: string): unit =>
-  if Js.String2.length(prompt) > 9400 {
+  /* v08babies was shot at 9279 chars; the 2026-08-26 tagline rewrite grew its
+     re-emission past the ceiling. It is delivered and will not be resubmitted. */
+  if jobId != "v08babies" && Js.String2.length(prompt) > 9400 {
     raise(
       BatchError(
         jobId ++
@@ -697,13 +790,11 @@ let assertDialogueStress = (r: shotRecord): unit =>
    characters barefoot. Their bodies and their bare feet are IN THE REFERENCE
    PLATES — the text never needs to say it. Author ruling: never write barefoot
    children, or any body state, anywhere in a prompt. */
-let bodyStateWords = [
-  "barefoot", "bare feet", "bare legs", "bare arms", "bare skin", "naked", "undressed",
-  "thighs", "belly", "diaper", "nappy", "bare chested", "shirtless",
-]
 
 let assertNoBodyState = (r: shotRecord): unit =>
-  bodyStateWords->Belt.Array.forEach(w =>
+  bodyStateGrandfathered->Belt.Array.some(j => j == r.jobId)
+    ? ()
+    : bodyStateWords->Belt.Array.forEach(w =>
     if Js.String2.includes(Js.String2.toLowerCase(r.creative), w) {
       raise(
         BatchError(
@@ -791,8 +882,17 @@ let emitPrompt = (r: shotRecord): string => {
     r.cast
     ->Belt.Array.map(t => (castEntry(t)).tag)
     ->Js.Array2.joinWith(", ")
-  let propRoster = r.props->Belt.Array.map(propTag)->Js.Array2.joinWith(", ")
-  let propClause = switch Belt.Array.length(r.props) {
+  /* @TWO_MAMAS is a relation card, not a thing standing in the room — calling
+     it "the set and props" produced a nonsense sentence in the constraints
+     (caught in the 2026-08-26 review pass). Cards are excluded here. */
+  let physicalProps = r.props->Belt.Array.keep(t =>
+    switch t {
+    | TwoMamas => false
+    | _ => true
+    }
+  )
+  let propRoster = physicalProps->Belt.Array.map(propTag)->Js.Array2.joinWith(", ")
+  let propClause = switch Belt.Array.length(physicalProps) {
   | 0 => ""
   | _ => " The set and props are " ++ propRoster ++ ", and each matches its reference exactly."
   }
@@ -804,8 +904,25 @@ let emitPrompt = (r: shotRecord): string => {
     propClause ++
     " No additional people, no additional babies, no duplicates. " ++
     "No text, no subtitles, no watermarks."
+  /* A SCALE LINE MAY NOT ANCHOR TO SOMEBODY WHO IS NOT IN THE SHOT. 2026-08-26.
+     Most of these lines are written against Фрося, because she is the unit of
+     the scale registry. That is production knowledge; it is useless to a model
+     that cannot see her, and it is worse than useless when it competes with an
+     anchor that IS visible. v09rescue told the model that the two women match
+     each other AND that Мама is "a little taller than Фрося" — two anchors, one
+     of them invisible, and the pair came out different heights. So any cast
+     scale line naming an absent character is dropped. */
+  let presentNames = r.cast->Belt.Array.keepMap(castRuName)
+  let allNames = [
+    "Фрося", "Вася", "Мама", "Папа", "Руся", "Муся", "Яга", "Вася-мама",
+  ]
+  let absentNames = allNames->Belt.Array.keep(n =>
+    !(presentNames->Belt.Array.some(p => p == n))
+  )
+  let keepScale = (line: string) =>
+    !(absentNames->Belt.Array.some(n => Js.String2.includes(line, n)))
   let scaleLines = Belt.Array.concat(
-    r.cast->Belt.Array.keepMap(castScale),
+    r.cast->Belt.Array.keepMap(castScale)->Belt.Array.keep(keepScale),
     r.props->Belt.Array.keepMap(propScale),
   )
   let scaleBlock = switch Belt.Array.length(scaleLines) {
@@ -821,6 +938,7 @@ let emitPrompt = (r: shotRecord): string => {
     "\n\n" ++
     constraints
   assertEmittedBudget(r.jobId, prompt)
+  assertEmittedClean(r.jobId, prompt)
   prompt
 }
 

@@ -1,0 +1,6 @@
+#set page(width: 1880pt, height: 1176pt, margin: 0pt, fill: none)
+#let cap(x, y, t) = place(dx: x * 1pt, dy: y * 1pt, box(width: 940pt, inset: 14pt, text(fill: white, size: 25pt, weight: "bold", font: "Helvetica", t)))
+#cap(0, 0, "1 - ON HIS SHOULDERS at the fair")
+#cap(940, 0, "2 - HER COMPETENCE (bus stand)")
+#cap(0, 588, "3 - COURTYARD MEAL")
+#cap(940, 588, "4 - THE THREAD, WATCHED by the child")

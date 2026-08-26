@@ -1,0 +1,39 @@
+[
+  {
+    "created_at": "2026-08-12T22:06:33.060341Z",
+    "display_name": "Nano Banana Pro",
+    "id": "2da632ab-e07d-4f3a-a7f0-daccd770e373",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_220633_2da632ab-e07d-4f3a-a7f0-daccd770e373_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "0bfe75a0-fe74-495b-acff-d065598450ae",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/0bfe75a0-fe74-495b-acff-d065598450ae_resize.jpg"
+        },
+        {
+          "id": "32792716-e92c-4276-8f8a-a40f6bce6751",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/32792716-e92c-4276-8f8a-a40f6bce6751_resize.jpg"
+        },
+        {
+          "id": "35cc0d3a-b524-48a9-ba9d-9c509ea63e09",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/35cc0d3a-b524-48a9-ba9d-9c509ea63e09_resize.jpg"
+        }
+      ],
+      "prompt": "Recreate the EXACT scene staging of the first reference image — same stone Tejaji shrine with the horseman-and-cobra idol on the left, same camera angle and framing, same positions: the couple stands right of the shrine in profile, his wrist held out, and the WOMAN ties a red sacred thread onto it — but EIGHT YEARS EARLIER, in 2018, and the couple are the people from the second and third reference images made HEALTHY and eight years younger: the man (second reference) is sturdy and well, fuller face, NO knitted cap — short grey-flecked hair — wearing a cream cotton kurta, NO hospital wristband, only old faded threads on his wrist; the woman (third reference) in her green Maheshwari sari with pallu over her head, gold nathni. Differences of era: DRY night, no rain; slightly fewer threads wrapped on the shrine; the fair behind has smartphones glowing in the blurred crowd and brighter LED string lights. Shot like a 2018 smartphone photograph: slightly wide, deep focus, mild HDR look, crisp digital. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_220633_2da632ab-e07d-4f3a-a7f0-daccd770e373.png",
+    "status": "completed"
+  }
+]

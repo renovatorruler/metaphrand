@@ -98,6 +98,56 @@ let mtimeMs = (path: string): float => {
   st["mtimeMs"]
 }
 
+let reviewsDir = "../stories/drakosha/production/seedance_batch/reviews"
+
+/* THE DIFF GATE. 2026-08-26, the author: "The only things that work are written
+   in code as gates." The failure it encodes: revisions kept reaching her as
+   whole documents, invented lines hid inside them ("grabbing at the air",
+   "settle as the babies come off"), and she cannot read every line of every
+   revision. So a RE-submit of a job that has already been shot is refused
+   unless the review artifact chain is in order:
+
+     <job>.approved_snapshot.txt   what was last actually submitted (written by
+                                   this gate after every successful submit)
+     reviews/<job>.diff.txt        the changed-lines-only review generated from
+                                   that snapshot, newer than the last creative
+                                   edit — what the author actually reads
+     <job>.approval.json           her approval, newer than the diff
+
+   Order enforced by mtime: edit → diff → approval → submit. A first-ever
+   submit has no snapshot and passes; every submit writes the snapshot, so
+   every job is under the gate from its second run onward. */
+let assertDiffReviewed = (spec: Drakosha_SeedanceJobs.jobSpec): option<string> => {
+  let jid = spec.record.jobId
+  let snap = approvalsDir ++ "/" ++ jid ++ ".approved_snapshot.txt"
+  let diff = reviewsDir ++ "/" ++ jid ++ ".diff.txt"
+  let appr = approvalsDir ++ "/" ++ jid ++ ".approval.json"
+  if !existsSync(snap) {
+    None /* first run of this job — the snapshot is created on submit */
+  } else if readFileSync(snap, "utf8") == readFileSync(spec.creativeFile, "utf8") {
+    None /* unchanged resubmit of exactly what was already sent */
+  } else if !existsSync(diff) {
+    Some(
+      jid ++
+      ": the creative differs from the last submitted text and there is no diff review at " ++
+      diff ++
+      ". Generate the changed-lines diff against the approved snapshot, show it, then approve.",
+    )
+  } else if mtimeMs(diff) +. 500.0 < mtimeMs(spec.creativeFile) {
+    Some(
+      jid ++
+      ": the creative was edited AFTER the diff review was generated. The author reviewed an older change set. Regenerate the diff.",
+    )
+  } else if existsSync(appr) && mtimeMs(appr) +. 500.0 < mtimeMs(diff) {
+    Some(
+      jid ++
+      ": the diff review is newer than the approval — she approved before seeing the final changes. Re-approve after the diff.",
+    )
+  } else {
+    None
+  }
+}
+
 let assertApproved = (spec: Drakosha_SeedanceJobs.jobSpec): option<string> => {
   let jid = spec.record.jobId
   let path = approvalsDir ++ "/" ++ jid ++ ".approval.json"
@@ -132,6 +182,11 @@ let assertApproved = (spec: Drakosha_SeedanceJobs.jobSpec): option<string> => {
 
 let prepare = (spec: Drakosha_SeedanceJobs.jobSpec): option<prepared> => {
   let jid = spec.record.jobId
+  switch assertDiffReviewed(spec) {
+  | Some(m) =>
+    flag(m)
+    None
+  | None =>
   switch assertApproved(spec) {
   | Some(m) => flag(m)
   | None => ()
@@ -181,6 +236,7 @@ let prepare = (spec: Drakosha_SeedanceJobs.jobSpec): option<prepared> => {
       Some({record, prompt, refPaths, start, model: spec.model, endFrame: spec.endImage->Belt.Option.map(k => kfDir ++ "/" ++ k)})
     }
   }
+  }
 }
 
 /* Kling and Seedance take different flags for the same ideas, and mixing them
@@ -206,8 +262,13 @@ let providerArgs = (p: prepared): array<string> => {
      when reference media is present, and start_image is only accepted under
      omni_reference. On 2.0 and mini `mode` is not a parameter at all and
      passing it fails the call with "Unknown params: mode". */
-  | V25 => ["--mode", "omni_reference", "--resolution", "720p", "--generate_audio", "true"]
-  | Mini | V20 => ["--resolution", "720p", "--generate_audio", "true"]
+  /* bitrate_mode high costs the SAME as standard (both 10 credits for 4s on
+     mini, checked 2026-08-26) and cuts the compression mush that makes a
+     delivered frame useless as a plate for the next shot. 720p is mini's
+     ceiling — it offers 480p and 720p only — so the bitrate is the only
+     quality lever we have on this model. */
+  | V25 => ["--mode", "omni_reference", "--resolution", "720p", "--bitrate_mode", "high", "--generate_audio", "true"]
+  | Mini | V20 => ["--resolution", "720p", "--bitrate_mode", "high", "--generate_audio", "true"]
   | Kling26 => ["--sound", "false"]
   | Kling30 => ["--mode", "std", "--sound", "off"]
   /* Veo 3.1 Lite: audio off (we dub), start and end frames, 4/6/8s only. */
@@ -255,7 +316,7 @@ let estimateCost = (p: prepared): float => {
          switch changes the price — kling2_6 is 10 credits for 5s with sound and
          5 without — so the probe has to carry it or it prices a different job
          from the one we submit. */
-      | V25 | Mini | V20 => ["--resolution", "720p"]
+      | V25 | Mini | V20 => ["--resolution", "720p", "--bitrate_mode", "high"]
       | Kling26 => ["--sound", "false"]
       | Kling30 => ["--mode", "std", "--sound", "off"]
       | Veo31Lite => ["--generate_audio", "false"]
@@ -451,6 +512,11 @@ let () = {
         Js.Dict.set(entry, "cost", Js.Json.number(cost))
         Js.Dict.set(entry, "output", Js.Json.string(out->Js.String2.slice(~from=0, ~to_=400)))
         appendFileSync(ledgerPath, Js.Json.stringify(Js.Json.object_(entry)) ++ "\n")
+        /* the diff gate's baseline: what was ACTUALLY sent this run */
+        writeFileSync(
+          approvalsDir ++ "/" ++ p.record.jobId ++ ".approved_snapshot.txt",
+          p.record.creative,
+        )
         writeFileSync(outDir ++ "/" ++ p.record.jobId ++ ".result.txt", out)
         }
       })

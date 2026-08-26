@@ -1,0 +1,39 @@
+[
+  {
+    "created_at": "2026-08-12T22:12:01.284395Z",
+    "display_name": "Nano Banana Pro",
+    "id": "fa9d4089-1895-42ff-99f6-c72fd886c025",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_221201_fa9d4089-1895-42ff-99f6-c72fd886c025_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "e3881617-9a55-4be3-8091-a73c5f4a77df",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/e3881617-9a55-4be3-8091-a73c5f4a77df.png"
+        },
+        {
+          "id": "91bd24c8-d3c6-41b3-9cc9-da26571dcb53",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/91bd24c8-d3c6-41b3-9cc9-da26571dcb53_resize.jpg"
+        },
+        {
+          "id": "3455205c-3ccc-401c-8307-5d3ee6bae023",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/3455205c-3ccc-401c-8307-5d3ee6bae023_resize.jpg"
+        }
+      ],
+      "prompt": "Compose: the stone Tejaji shrine from the FIRST reference image (same shrine, same idol, same oil lamp, same wrapped red threads) standing on the left of frame at night at a village fair — and beside it, right of frame in profile facing the shrine, the MAN from the second reference and the WOMAN from the third reference performing this gesture: his bare wrist held out, she tying a red sacred thread onto it. It is 2018 and they are HEALTHY, eight years younger than their references: the man sturdy, fuller-faced, short grey-flecked hair, NO cap, NO wristband, wearing a pale sky-blue cotton shirt; the woman in a deep MAROON cotton sari with thin gold border (NOT green), pallu over her head, gold nathni on left nostril, red bindi, gold bangles. DRY night — NO rain. Blurred fair crowd behind with several smartphones glowing, bright LED string lights. 2018 smartphone-photo look: deep focus, mild HDR, crisp. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_221201_fa9d4089-1895-42ff-99f6-c72fd886c025.png",
+    "status": "completed"
+  }
+]

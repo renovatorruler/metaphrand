@@ -1,0 +1,29 @@
+[
+  {
+    "created_at": "2026-08-16T02:16:44.632596Z",
+    "display_name": "Nano Banana Pro",
+    "id": "a6b13a66-17a5-43e2-b2d1-b08eb349f306",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_021644_a6b13a66-17a5-43e2-b2d1-b08eb349f306_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "3:4",
+      "batch_size": 1,
+      "height": 2400,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "120dfa1e-ff86-4b3c-b69d-146ec56da494",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/120dfa1e-ff86-4b3c-b69d-146ec56da494_resize.jpg"
+        }
+      ],
+      "prompt": "The SAME WOMAN as the reference image — identical face shape, identical eyes, identical nose and mouth, unmistakably the same person — but MUCH YOUNGER: she is now TWENTY YEARS OLD. Remove every trace of age: no lines anywhere, no shadows under the eyes, no hollowing of the cheeks; give her the full soft cheeks, taut smooth luminous skin, bright clear whites of the eyes and the plump lips of a girl of twenty. Jet-black hair with no grey, centre-parted, in one long thick braid over her shoulder. Keep her red-and-pink bandhani odhni over her head, the small gold nathni on her LEFT nostril, the red bindi, glass bangles. Fair wheat-golden Malwa complexion, radiant, quietly beautiful. She must clearly read as a girl of twenty, NOT a woman of thirty or forty. Sharp photorealistic portrait, natural window light, plain background, front-facing. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1792
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_021644_a6b13a66-17a5-43e2-b2d1-b08eb349f306.png",
+    "status": "completed"
+  }
+]

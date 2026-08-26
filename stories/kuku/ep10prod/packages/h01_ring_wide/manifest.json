@@ -1,0 +1,57 @@
+{
+  "shot": "h01_ring_wide",
+  "kind": "still",
+  "model": "nano_banana_pro",
+  "aspect_ratio": "16:9",
+  "resolution": "2k",
+  "attachments_in_order": [
+    {
+      "slot": "1",
+      "role": "style_reference",
+      "file": "(upload id, see 1_style_reference.txt)"
+    },
+    {
+      "slot": "2",
+      "role": "backplate",
+      "file": "2_backplate.png",
+      "source": "../stories/kuku/ep10prod/sets/courtyard_plate.png"
+    },
+    {
+      "slot": "3",
+      "role": "character_kuku",
+      "file": "3_character_kuku.png",
+      "source": "../stories/kuku/ep10prod/elements/future_kuku_board_bracelet.png"
+    },
+    {
+      "slot": "4",
+      "role": "character_fyuria",
+      "file": "4_character_fyuria.png",
+      "source": "../stories/kuku/ep10prod/elements/future_fyuria_board_bracelet.png"
+    },
+    {
+      "slot": "5",
+      "role": "character_leda",
+      "file": "5_character_leda.png",
+      "source": "../stories/kuku/ep10prod/elements/future_leda_board_bracelet.png"
+    },
+    {
+      "slot": "6",
+      "role": "character_castor",
+      "file": "6_character_castor.png",
+      "source": "../stories/kuku/ep10prod/elements/future_castor_board_bracelet.png"
+    },
+    {
+      "slot": "7",
+      "role": "character_vesper",
+      "file": "7_character_vesper.png",
+      "source": "../stories/kuku/ep10prod/elements/future_vesper_board_bracelet.png"
+    }
+  ],
+  "prompt_file": "prompt.txt",
+  "derived_notes": [
+    "story beat RingDrill",
+    "form: GREAT (from the story clock)",
+    "SET PLATE attached: ../stories/kuku/ep10prod/sets/courtyard_plate.png",
+    "lighting from the dusk clock"
+  ]
+}

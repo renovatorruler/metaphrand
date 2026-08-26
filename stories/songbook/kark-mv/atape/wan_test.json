@@ -1,0 +1,38 @@
+[
+  {
+    "created_at": "2026-08-16T20:56:57.03516Z",
+    "display_name": "Wan 2.7",
+    "id": "735c3c0f-1d42-405e-ab35-6151c694972b",
+    "job_type": "wan2_7",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "16:9",
+      "duration": 10,
+      "height": 768,
+      "medias": [
+        {
+          "data": {
+            "id": "1901fc39-7ff0-4477-b9bd-9c874e3de03d",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/1901fc39-7ff0-4477-b9bd-9c874e3de03d_resize.jpg"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "8b6e2898-3424-4a5c-8e06-481cbe84a1e6",
+            "type": "audio_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/8b6e2898-3424-4a5c-8e06-481cbe84a1e6.mp3"
+          },
+          "role": "audio"
+        }
+      ],
+      "prompt": "The Rajasthani folk singer performs, and his mouth is driven by the audio: this passage is a long sustained alap — one open vowel held for several seconds, so his mouth stays OPEN and steady on the held note rather than chattering or articulating words, opening wider as the note swells and closing only when the phrase ends. His throat and chest work with the sustained breath, his head tilts back slightly on the held note. His bow hand stays still and resting on the instrument — he is singing, not bowing, and the bow never crosses the strings. The saffron safa tail and the red threads on his wrist stream in the wind; his kurta ripples; the sky behind him drifts slowly. Locked-off camera, no pan or zoom, single continuous take. Everything else stays exactly as in the start frame — same man, same face, same clothes, same instrument, same rooftop, same light. Photoreal, cinematic.",
+      "resolution": "720p",
+      "width": 1344
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_205657_735c3c0f-1d42-405e-ab35-6151c694972b.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_205657_735c3c0f-1d42-405e-ab35-6151c694972b_thumbnail.webp"
+  }
+]

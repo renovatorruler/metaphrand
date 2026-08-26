@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-08-13T00:40:10.575788Z",
+    "display_name": "Nano Banana Pro",
+    "id": "d5fa807b-ee89-4e20-9279-e3e8dda6626d",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260813_004010_d5fa807b-ee89-4e20-9279-e3e8dda6626d_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "3:4",
+      "batch_size": 1,
+      "height": 2400,
+      "input_image": null,
+      "input_images": [],
+      "prompt": "Documentary photograph, golden hour, Rajasthan: a traditional bhopa folk musician standing and playing a RAVANHATTA held the authentic way: the round coconut-shell resonator (kumbha) is tucked UNDER HIS LEFT ARMPIT, pressed between his upper left arm and his ribs, and the long bamboo neck of the instrument rises UPWARD and OUTWARD from under his arm, angled up toward the viewer on a diagonal, with the tuning pegs at the far raised end pointing toward the camera. His left hand reaches along the raised neck fingering the strings; his right hand draws a horsehair bow with small jingling bells across the strings close to the resonator under his armpit. Photorealistic, sharp, the grip and instrument angle clearly visible, three-quarter medium shot. He wears a saffron turban and red kurta. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1792
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260813_004010_d5fa807b-ee89-4e20-9279-e3e8dda6626d.png",
+    "status": "completed"
+  }
+]

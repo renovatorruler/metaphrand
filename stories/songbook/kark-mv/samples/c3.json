@@ -1,0 +1,41 @@
+[
+  {
+    "created_at": "2026-08-12T04:24:32.822827Z",
+    "display_name": "Seedance 2.5",
+    "id": "d5004417-ed7e-4f89-bc25-da89fe978833",
+    "job_type": "seedance_2_5",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "1:1",
+      "bitrate_mode": "standard",
+      "duration": 15,
+      "extension_mode": null,
+      "generate_audio": false,
+      "genre": "auto",
+      "height": 720,
+      "medias": [
+        {
+          "data": {
+            "id": "5c226723-5c7a-422a-ba97-9ca312c3b299",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/5c226723-5c7a-422a-ba97-9ca312c3b299.png"
+          },
+          "role": "start_image"
+        }
+      ],
+      "model": "default",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "Animate this exact photograph. Documentary footage of the old singer performing: he bows the ravanhatta in a slow mournful rhythm — long patient bow strokes, about one full stroke every two seconds, with the real weight and mechanics of an actual string player: shoulder and elbow leading, wrist following through, the fingers of his fretting hand shifting on the strings, the red threads on his bowing wrist swaying with each stroke. His chest rises and falls with slow audible breathing. Partway through he draws a deeper breath and sings a long held phrase — mouth opening naturally, beard moving, throat working, eyes staying closed in concentration — then the phrase ends and his mouth closes while the bowing continues. Near the end he stops the bow and lifts his head slightly, listening to something far away in the distance. The unrolled painted scroll beside him sways almost imperceptibly in the evening breeze; the oil lamp flame flickers gently. Natural documentary handheld feel but the camera stays fixed in framing: no pan, no zoom, no push. Single continuous take, no cuts. Golden hour light unchanged. No new people enter the frame.",
+      "prompt_language": "en",
+      "reference_elements": [],
+      "resolution": "720p",
+      "speedramp": "auto",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_042432_d5004417-ed7e-4f89-bc25-da89fe978833.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_042432_d5004417-ed7e-4f89-bc25-da89fe978833_thumbnail.webp"
+  }
+]

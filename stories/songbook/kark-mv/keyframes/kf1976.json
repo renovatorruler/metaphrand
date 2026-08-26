@@ -1,0 +1,39 @@
+[
+  {
+    "created_at": "2026-08-12T23:01:27.45442Z",
+    "display_name": "Nano Banana Pro",
+    "id": "572a024c-2b24-43b7-8222-0d70bde6790f",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_230127_572a024c-2b24-43b7-8222-0d70bde6790f_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "6cb31d45-de67-42ad-a8e9-7b1920bf08fb",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/6cb31d45-de67-42ad-a8e9-7b1920bf08fb_resize.jpg"
+        },
+        {
+          "id": "684d659d-f878-4b04-825d-49626f3a0981",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/684d659d-f878-4b04-825d-49626f3a0981_resize.jpg"
+        },
+        {
+          "id": "2d24d136-94cf-49e8-874f-90150bfa775f",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/2d24d136-94cf-49e8-874f-90150bfa775f.png"
+        }
+      ],
+      "prompt": "WIDE 16:9 SCENE, two people fully visible. Night at a 1976 Indian village fair: the MAN from the first reference image aged down to 25 — same facial bone structure but very young: jet-black thick hair, smooth face, lean — in a plain white kurta and dhoti, being LED BY THE HAND by the WOMAN from the second reference image aged down to 20 — same facial structure but a very young newlywed bride: jet-black hair, radiant, in a red-and-pink wedding-toned ghagra-choli with the odhni drawn over her head, gold nathni, bindi, mehndi on her hands, glass bangles — SHE walks ahead pulling him toward the shrine, looking back at him with mischievous certainty, he half-stumbling after her, bewildered and in love. They approach the stone Tejaji shrine from the third reference image standing at the left of frame — the SAME shrine design but NEARLY NEW: bright clean stone, the horseman-and-cobra idol freshly painted, a single oil lamp, and NOT ONE thread tied on it yet — bare stone posts. Behind them: a 1976 village fair — a WOODEN hand-built ferris wheel silhouetted, hissing pressure lanterns as the only light, bullock carts at the edge, men in dhotis and big turbans, women in ghagras. Rendered as a 1976 PHOTOGRAPH: very early color film, strongly faded and yellowed, heavy grain, soft vignette, white deckled album border, the oldest photo in the album. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_230127_572a024c-2b24-43b7-8222-0d70bde6790f.png",
+    "status": "completed"
+  }
+]

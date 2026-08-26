@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-08-12T00:43:03.013795Z",
+    "display_name": "Nano Banana Pro",
+    "id": "a43948bd-8082-47d8-b3a0-b2a7ff03aebc",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_004303_a43948bd-8082-47d8-b3a0-b2a7ff03aebc_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [],
+      "prompt": "Traditional Rajasthani Phad scroll painting (phad), Marwar folk art: flat two-dimensional figures in strict profile, bold black outlines, saturated mineral pigments on cloth — deep red-ochre ground, indigo, turmeric yellow, white — dense storytelling composition with a decorative patterned border on all sides, stylized large-eyed figures, no perspective, no shading, aged hand-woven cloth texture showing through the paint. Absolutely no readable text, no letters, no writing, no inscriptions anywhere. A night scene at a small village shrine (devra) of Tejaji: a weathered devotee kneels in profile before a small stone shrine holding up a red sacred thread with both hands, one oil lamp burning on the shrine, a painted horse standing behind him, dark indigo night sky field above with white stars, the shrine tiny against the dark.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_004303_a43948bd-8082-47d8-b3a0-b2a7ff03aebc.png",
+    "status": "completed"
+  }
+]

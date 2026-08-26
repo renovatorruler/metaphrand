@@ -1,0 +1,29 @@
+[
+  {
+    "created_at": "2026-08-12T21:01:00.875649Z",
+    "display_name": "Nano Banana Pro",
+    "id": "95c5b909-b39f-4741-a9d8-17eaf50bb67b",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_210100_95c5b909-b39f-4741-a9d8-17eaf50bb67b_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "3:4",
+      "batch_size": 1,
+      "height": 2400,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "79ae97d0-d819-4805-b350-3b3fbecb3b64",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/79ae97d0-d819-4805-b350-3b3fbecb3b64_resize.jpg"
+        }
+      ],
+      "prompt": "Same woman as the reference image — identical face, hair, age, lighting, framing — with region-corrected dress: a light Maheshwari cotton-silk sari of deep green with a narrow woven border, draped in the North Indian seedha-pallu style with the pallu coming over the right shoulder to the front; a SMALL thin gold nathni RING in her LEFT nostril instead of a stud; a small round red bindi; simple small gold earrings. North Indian Malwa village woman of standing. Sharp photorealistic portrait, plain neutral background. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1792
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_210100_95c5b909-b39f-4741-a9d8-17eaf50bb67b.png",
+    "status": "completed"
+  }
+]

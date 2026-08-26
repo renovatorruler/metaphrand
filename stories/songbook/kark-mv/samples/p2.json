@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-08-12T00:44:37.170058Z",
+    "display_name": "Nano Banana Pro",
+    "id": "a38665de-3f27-4cf8-98fb-50bf3760fd6f",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_004437_a38665de-3f27-4cf8-98fb-50bf3760fd6f_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [],
+      "prompt": "Traditional Rajasthani Phad scroll painting (phad), Marwar folk art: flat two-dimensional figures in strict profile, bold black outlines, saturated mineral pigments on cloth — deep red-ochre ground, indigo, turmeric yellow, white — dense storytelling composition with a decorative patterned border on all sides, stylized large-eyed figures, no perspective, no shading, aged hand-woven cloth texture showing through the paint. Absolutely no readable text, no letters, no writing, no inscriptions anywhere. A sick man lies flat on a woven cot in strict profile, thin and grey-faced, and on his chest sits one large stylized crab painted in dark indigo with bold claws gripping, walking sideways — while in the corner of the panel a black snake flees away out of the border. A woman in profile sits at the cot's head holding his hand. Red-ochre ground, the crab is the focus, its sideways menace decorative but unmistakable.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_004437_a38665de-3f27-4cf8-98fb-50bf3760fd6f.png",
+    "status": "completed"
+  }
+]

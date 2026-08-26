@@ -1,0 +1,39 @@
+[
+  {
+    "created_at": "2026-08-12T22:43:03.955718Z",
+    "display_name": "Nano Banana Pro",
+    "id": "2ba2d641-da7e-4cd1-a414-2eff1ca52282",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_224303_2ba2d641-da7e-4cd1-a414-2eff1ca52282_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "2ee6298f-90e6-4291-9b70-07aac92367be",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/2ee6298f-90e6-4291-9b70-07aac92367be.png"
+        },
+        {
+          "id": "db937ad4-e848-466c-b231-c58692b430bf",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/db937ad4-e848-466c-b231-c58692b430bf_resize.jpg"
+        },
+        {
+          "id": "c67d8c9e-9ee2-44d9-a635-999ff551d559",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/c67d8c9e-9ee2-44d9-a635-999ff551d559_resize.jpg"
+        }
+      ],
+      "prompt": "Compose: the stone Tejaji shrine from the FIRST reference image (same shrine, same horseman-and-cobra idol, same oil lamp) standing on the left of frame at night at a village fair in 1990 — the shrine has only a FEW red threads tied on it, the stone cleaner and less worn — and beside it, right of frame in profile facing the shrine, the MAN from the second reference and the WOMAN from the third reference performing this gesture: his bare wrist held out, she tying a red sacred thread onto it. They are TEN YEARS YOUNGER than the references — he is 35, jet-black hair, thin strong build, wearing a simple white cotton kurta; she is 30, in a deep-blue cotton sari with pallu over her head, gold nathni, red bindi, glass bangles — and a SMALL GIRL of about five holds the hem of her sari, half-hiding, watching the ritual. Behind them: a 1990 village fair — kerosene pressure lanterns on stalls, a small hand-cranked iron ferris wheel silhouetted, men in dhotis, no electric string lights, firelight tones. Rendered as a 1990 COLOR FILM PRINT: heavy film grain, faded warm Kodachrome colors with slight color shift, soft focus edges, the look of a photograph that has sat in an album for thirty years. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_224303_2ba2d641-da7e-4cd1-a414-2eff1ca52282.png",
+    "status": "completed"
+  }
+]

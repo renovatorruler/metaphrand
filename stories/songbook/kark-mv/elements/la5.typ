@@ -1,0 +1,6 @@
+#set page(width: 1860pt, height: 690pt, margin: 0pt, fill: none)
+#let c(x,t) = place(dx: x*1pt, dy: 0pt, box(width: 465pt, inset: 12pt, text(fill: white, size: 21pt, weight: "bold", font: "Helvetica", t)))
+#c(0,"NEW - aiming 20")
+#c(465,"prev (~25)")
+#c(930,"AGE 40 - approved")
+#c(1395,"AGE 52 - approved")

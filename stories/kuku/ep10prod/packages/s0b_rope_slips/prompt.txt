@@ -1,0 +1,21 @@
+SCENE: The tethered cart's rope gives way: the knot at the stone post works loose, the last loop pulls free, and the rope end whips away after the cart.
+IN THIS SHOT — and nobody else:
+- THE ROPE — thick red paper twine, pulled taut around the weathered stone post
+FIRST FRAME: the provided start image IS frame one — the action begins from exactly this position.
+FORMAT: one single unbroken take.
+BLOCKING:
+- the start image IS this post and this knot — the same stone, the same rope, the same light
+- the stone post holds perfectly still, exactly as the start image has it
+ACTION TIMING:
+- 0.0-1.5s: the rope is stretched tight and trembling under load, its paper fibres straining, one loop creeping a little around the post
+- 1.5-3.0s: the loops slide, turn by turn, the knot opening as the load pulls it apart
+- 3.0-5.0s: the last loop lets go and the freed rope end whips away out of frame, leaving the post bare
+CAMERA: one locked-off CLOSE camera on the post and knot, held perfectly still for the whole clip
+PHYSICS:
+- TRAVEL KEEPS ONE DIRECTION: whatever moves may start from rest, speed up or slow down, but its path always continues the same way — it never reverses.
+- motion has real weight
+- the rope moves like stiff paper twine — it bends at creases and holds its shape, it does not behave like cloth or string
+- once the knot begins to give it keeps giving; the loops only ever loosen
+- the post stays exactly where it is and keeps its shape throughout
+LIGHTING: constant warm golden dusk exactly as the start image
+STYLE: every frame keeps exactly the cut-paper papercraft look of the start image.

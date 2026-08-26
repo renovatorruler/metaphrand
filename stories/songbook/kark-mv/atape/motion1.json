@@ -1,0 +1,41 @@
+[
+  {
+    "created_at": "2026-08-13T17:49:31.294058Z",
+    "display_name": "Seedance 2.5",
+    "id": "86aa6f53-3e95-4e7d-b956-5bf90ee4bc08",
+    "job_type": "seedance_2_5",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "16:9",
+      "bitrate_mode": "standard",
+      "duration": 5,
+      "extension_mode": null,
+      "generate_audio": false,
+      "genre": "auto",
+      "height": 720,
+      "medias": [
+        {
+          "data": {
+            "id": "aaa761f2-df80-458b-8775-66dab4e27ef3",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/aaa761f2-df80-458b-8775-66dab4e27ef3_resize.jpg"
+          },
+          "role": "start_image"
+        }
+      ],
+      "model": "default",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "Animate this exact frame. The musician performs: his right arm draws the belled bow back and forth across the strings at the resonator in slow, heavy, full-length strokes with the real weight of a bowing arm — shoulder and elbow leading, wrist following through — while his left hand shifts slightly along the raised decorated neck. The hanging medallions and pompoms on the instrument swing with each stroke. He sings throughout: mouth opening and closing on long held phrases, head tilting back on the highest notes, chest lifting with breath. The wind is strong: his saffron safa tail and the red threads on his wrist stream and snap horizontally, his kurta ripples. The storm sky churns slowly behind him, rain curtains drifting over the distant city. His troupe at the roof edge stays still, waiting, not playing. Handheld documentary feel but the framing stays fixed: no pan, no zoom, no cuts. Single continuous take. Photoreal, cinematic, everything in the frame stays exactly as it is — same man, same clothes, same instrument, same location, same light.",
+      "prompt_language": "en",
+      "reference_elements": [],
+      "resolution": "720p",
+      "speedramp": "auto",
+      "width": 1280
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260813_174931_86aa6f53-3e95-4e7d-b956-5bf90ee4bc08.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260813_174931_86aa6f53-3e95-4e7d-b956-5bf90ee4bc08_thumbnail.webp"
+  }
+]

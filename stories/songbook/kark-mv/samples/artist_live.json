@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-08-12T04:16:58.153649Z",
+    "display_name": "Nano Banana Pro",
+    "id": "0fdc00db-b775-49f2-a407-3fc34a48673e",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_041658_0fdc00db-b775-49f2-a407-3fc34a48673e_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "1:1",
+      "batch_size": 1,
+      "height": 2048,
+      "input_image": null,
+      "input_images": [],
+      "prompt": "Documentary photograph, golden hour: a real elderly Rajasthani folk singer (bhopa) around 75 years old, lean and deeply weathered, sun-creased dark skin, white beard tied with a small red thread, large saffron-orange Malwa turban, worn red cotton robe, standing in strict profile at a small roadside stone shrine at dusk, singing mid-phrase with mouth open and eyes closed, playing a ravanhatta spike fiddle held upright with a horsehair bow, many thin faded red sacred threads tied on his bowing wrist, a wooden algoza double-flute tucked in his waist sash, a rolled painted cloth scroll leaning against the shrine behind him, a small burning oil lamp at his feet. Natural available light only, warm low sun, long shadows, dusty haze, shot on 35mm documentary film, shallow depth of field, grain, National Geographic field-recording realism. No text, no letters, no writing anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2048
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_041658_0fdc00db-b775-49f2-a407-3fc34a48673e.png",
+    "status": "completed"
+  }
+]

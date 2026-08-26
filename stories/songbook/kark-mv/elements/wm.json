@@ -1,0 +1,29 @@
+[
+  {
+    "created_at": "2026-08-12T22:29:51.851758Z",
+    "display_name": "Nano Banana Pro",
+    "id": "4787adf2-136d-469b-9ccb-65e7ddf2fda3",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_222951_4787adf2-136d-469b-9ccb-65e7ddf2fda3_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "3:4",
+      "batch_size": 1,
+      "height": 2400,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "0ffd6e3a-c190-41ad-a5ea-083567beece8",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/0ffd6e3a-c190-41ad-a5ea-083567beece8_resize.jpg"
+        }
+      ],
+      "prompt": "The SAME WOMAN as the reference image, at age 40 — identical bone structure, same large lustrous eyes, same elegant features, but younger: fuller cheeks, jet-black hair in a neat low bun with no grey, radiant. Wearing a rust-orange cotton sari with the pallu over her head, the same small gold nathni on her LEFT nostril, red bindi. Sharp photorealistic portrait photograph, natural light, plain neutral background, 85mm look, front-facing, looking into the lens. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1792
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_222951_4787adf2-136d-469b-9ccb-65e7ddf2fda3.png",
+    "status": "completed"
+  }
+]

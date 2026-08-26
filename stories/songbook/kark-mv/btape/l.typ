@@ -1,0 +1,7 @@
+#set page(width: 1880pt, height: 1764pt, margin: 0pt, fill: none)
+#let cap(x, y, t) = place(dx: x * 1pt, dy: y * 1pt, box(width: 940pt, inset: 14pt, text(fill: white, size: 25pt, weight: "bold", font: "Helvetica", t)))
+#cap(0, 0, "1 - ARRIVAL at the fair")
+#cap(940, 0, "2 - THE WHEEL (she watches him)")
+#cap(0, 588, "3 - THE VOW (lip-sync, 4:20)")
+#cap(940, 588, "4 - THREE GENERATIONS")
+#cap(0, 1176, "5 - THE THREAD POST (last image)")

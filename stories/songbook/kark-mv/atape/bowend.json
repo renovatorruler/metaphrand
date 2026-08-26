@@ -1,0 +1,29 @@
+[
+  {
+    "created_at": "2026-08-13T18:13:31.534147Z",
+    "display_name": "Nano Banana Pro",
+    "id": "b0f6d999-f31a-45b4-9a64-2e5c3486f9f9",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260813_181331_b0f6d999-f31a-45b4-9a64-2e5c3486f9f9_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "d06a3c76-7203-4b64-9d1a-56e8b64a1b7e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/d06a3c76-7203-4b64-9d1a-56e8b64a1b7e_resize.jpg"
+        }
+      ],
+      "prompt": "Take this exact photograph and change ONE thing: the position of his bowing arm and the bow. Everything else stays pixel-identical — same man, same face, same expression, same turban, same clothes, same instrument, same troupe, same rooftop, same storm sky, same framing and camera position. THE CHANGE: his right bowing arm is now fully EXTENDED OUTWARD and DOWNWARD, away from his body, having drawn the bow all the way to the far end of its stroke — the long thin bow stick is pulled far out to the right of frame, its tip well away from the instrument's resonator, the bow hair still touching the strings at the near end. His right elbow is straight, his shoulder open. This is the opposite extreme of a bowing stroke. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260813_181331_b0f6d999-f31a-45b4-9a64-2e5c3486f9f9.png",
+    "status": "completed"
+  }
+]

@@ -1,0 +1,35 @@
+SCENE: The five dragon children are in their GREAT forms — ENORMOUS: a hay cart would fit between one's front claws and a grown man would reach only to her knee. KUKU is green, FYURIA orange-red, LEDA lilac-purple, CASTOR golden-yellow, VESPER pale blue; each wears a golden कड़ा cuff on one forearm. All five sweep in and take up formation around the running cart. THE LANE — the gurukul's straight downhill flight-courtyard slope of paper flagstones, 60 m long and 8 m wide, falling 9 m from top to bottom, with low paper kerbs on both sides. Fixed landmarks, always in these places: STONE POST (the rope tie-point at the top of the slope, on the LEFT kerb); CART START (where the tethered cart stands); MARKER 1 (first distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones — never a raised block, wedge or post, and never an obstacle the cart rides over); MARKER 2 (second distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones — never raised, never an obstacle); MARKER 3 (third and last distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones — never raised, never an obstacle); FLAT BEGINS (the slope ends; the last 12 m is level); GA-STONE (the flat stone where the golden ga-shape is forged); END WALL (closed paper stone wall across the full width — the lane is a dead end)
+FIRST FRAME: the provided start image IS frame one — every character already in position; no empty establishing frame, no delayed reveal.
+FORMAT: SINGLE CONTINUOUS TAKE — no cuts, no fades, no transitions.
+BLOCKING:
+- the start image IS this lane — the same flagstones, low kerbs, rubble wall along the right, stone post behind, and the same horizon and sun
+- the cart runs along the CENTRELINE and never climbs either kerb
+- गौरी the brown-and-white paper cow stays aboard the cart in EVERY frame, braced in the hay
+- the three red paper markers sit on the centreline at 12, 24 and 36 metres; the closed stone end wall stays far away all clip and never comes near
+- FYURIA flies lowest and furthest forward, KUKU on the cart's left, LEDA on its right with her head turned down to the lane, CASTOR tight beside it, VESPER highest of all
+- each dragon towers over the cart — the cart is small beneath them
+ACTION TIMING:
+- 0.0-2.0s: the five drop into place around the running cart, wings spread wide
+- 2.0-5.0s: they hold formation and travel with it as it passes the SECOND marker
+CAMERA: a continuous tracking shot alongside the cart and its escort at cart height, matching their speed. The camera looks DOWN the lane in the direction of travel for the entire clip — it never faces back up the slope, never drifts rearward, and the flagstones must stream TOWARD the camera and out of the bottom of frame, never away from it. No cut, no zoom.
+PHYSICS:
+- DIRECTION IS FIXED: anything travelling in this shot moves in ONE direction for the whole clip. A cart running downhill never slows to a stop and rolls back up, never reverses, and never drifts backwards relative to the ground. The camera likewise never reverses its travel or turns to look back the way it came.
+- the ground moves past in one consistent direction the entire time — it must never flow the other way
+- papercraft world physics: stiff cut-paper wings flex slightly at their folds, motion has real weight
+- the character's design and colors stay identical in every frame — no morphing, no redesign
+- the golden bracelet stays on ONE forearm only, the same forearm as in the start image
+- ORIENTATION IN THE LANE: this dragon is far longer than she is wide, and the lane is only 8 metres between its kerbs. She therefore lies ALONG the lane, never across it: her long axis runs parallel to the lane, nose forward in the direction of travel, body and tail trailing back up the slope behind her, so her whole length is inside the lane and her width is not. Her wings are swept back along her body or held HIGH above the kerb line, never spread out sideways at kerb height. She is never turned broadside, never side-on to the direction of travel, and no part of her — body, tail, wings or limbs — ever overlaps, touches or passes through a kerb or a wall.
+- the lane is RIGID: kerbs, markers, post and wall keep their positions; the lane never lengthens and no marker reappears once passed
+- wheels turn at a speed that matches the ground moving past them
+- the cart covers about eight metres in this clip and no more
+LIGHTING: constant warm golden dusk exactly as the start image, no time change
+AUDIO: no dialogue, no music
+STYLE: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, non-photorealistic, illustrated, not a photo. The whole clip stays in this medium — no drift to 2D animation, no photorealism.
+HARD RULES:
+- no humans, no people, no human children, no human faces, no human shadows
+- no theater curtains, no stage, no proscenium, no frame-within-frame, no decorative border, no vignette
+- no readable text, no letters, no numbers, no glyphs, no captions, no watermark, no logos
+- no photorealism
+- no duplicate characters, no identical characters, no cloned dragons, no extra characters
+- गौरी is in the cart in EVERY frame — a cart running empty is wrong
+- no extra dragons beyond those named; never two of the same dragon

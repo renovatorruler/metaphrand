@@ -1,0 +1,29 @@
+[
+  {
+    "created_at": "2026-08-12T23:07:45.827438Z",
+    "display_name": "Nano Banana Pro",
+    "id": "2115a46c-9830-413b-ae53-cb1ce8cccd40",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_230745_2115a46c-9830-413b-ae53-cb1ce8cccd40_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "98eaf45d-8487-42ed-ac77-13f2f7c66112",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/98eaf45d-8487-42ed-ac77-13f2f7c66112_resize.jpg"
+        }
+      ],
+      "prompt": "Take this photograph and age it 50 years as a physical print: fade the colors heavily toward yellow, wash out the blacks to grey-brown, desaturate strongly, add coarse film grain, soft focus loss at the edges, slight color bleeding, light surface scratches and one faint crease, dust specks, darkened vignette corners, the look of a 1976 color print that sat in a humid album for five decades. Change NOTHING about the content, people, composition or framing — only the physical aging of the print. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_230745_2115a46c-9830-413b-ae53-cb1ce8cccd40.png",
+    "status": "completed"
+  }
+]

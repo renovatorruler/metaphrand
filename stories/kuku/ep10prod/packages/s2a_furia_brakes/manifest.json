@@ -1,0 +1,17 @@
+{
+  "shot": "s2a_furia_brakes",
+  "kind": "clip",
+  "model": "seedance_2_5",
+  "mode": "omni_reference",
+  "duration_seconds": "5",
+  "resolution": "1080p",
+  "attachments_in_order": [
+    {
+      "slot": "2",
+      "role": "starting_frame",
+      "file": "2_starting_frame.png",
+      "source": "../stories/kuku/ep10prod/stills/h20_furia_brake.png"
+    }
+  ],
+  "prompt_file": "prompt.txt"
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-08-12T14:33:22.454194Z",
+    "display_name": "Nano Banana Pro",
+    "id": "b2affcf2-13d3-4927-b6a2-ec2f09207e05",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_143322_b2affcf2-13d3-4927-b6a2-ec2f09207e05_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [],
+      "prompt": "Epic cinematic music-video frame, anamorphic 35mm: a charismatic Rajasthani folk star, a vigorous man of about 58 with a groomed silver-streaked beard, magnetic commanding stage presence, immaculate large saffron turban, brilliant deep-red silk kurta with an ochre shawl, heavy silver Rajasthani cuffs and a silver neckpiece, singing straight INTO the camera with fierce grieving intensity — mouth open mid-phrase, eyes locked on the lens, one arm flung wide with a horsehair bow, a ravanhatta held upright against his chest, red sacred threads streaming from his wrist in the wind. He stands on the concrete helipad rooftop of a large modern city hospital at storm-dusk: behind and below him a wall of the hospital's lit windows falls away, hundreds of small glowing windows, and the city spreads to the horizon under a split sky — the last golden sunset on one side, an enormous dark monsoon storm front with curtains of rain closing in on the other. Behind him at the roof edge, a three-man folk troupe silhouetted against the sky: a dholak drummer, a manjira player, a second string player, all mid-performance. On the concrete at his feet: a small burning oil lamp, an unrolled painted scroll weighted with stones, and a hospital IV drip stand with a red sacred thread tied to its pole, the thread whipping in the wind. Low hero camera angle, wind-blown dust and first raindrops, cinematic color grade, epic and intimate at once. No text, no letters, no writing anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_143322_b2affcf2-13d3-4927-b6a2-ec2f09207e05.png",
+    "status": "completed"
+  }
+]

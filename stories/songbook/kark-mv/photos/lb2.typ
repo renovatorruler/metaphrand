@@ -1,0 +1,8 @@
+#set page(width: 1860pt, height: 800pt, margin: 0pt, fill: none)
+#let c(x,y,t) = place(dx: x*1pt, dy: y*1pt, box(width: 620pt, inset: 10pt, text(fill: white, size: 19pt, weight: "bold", font: "Helvetica", t)))
+#c(0,0,"16 - THE NEWBORN")
+#c(620,0,"17 - FIRST STEPS")
+#c(1240,0,"18 - BATH IN THE TUB")
+#c(0,400,"20 - THE BIRTHDAY CANDLE")
+#c(620,400,"22 - FIRST DAY OF SCHOOL")
+#c(1240,400,"23 - ASLEEP ON HIS CHEST")

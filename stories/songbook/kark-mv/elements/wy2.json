@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-08-16T00:08:59.217222Z",
+    "display_name": "Nano Banana Pro",
+    "id": "1a894587-4e01-4094-8d4e-57d52a983bf9",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_000859_1a894587-4e01-4094-8d4e-57d52a983bf9_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "3:4",
+      "batch_size": 1,
+      "height": 2400,
+      "input_image": null,
+      "input_images": [],
+      "prompt": "Sharp photorealistic portrait photograph, natural window light, plain warm neutral background, 85mm lens look, front-facing, looking into the lens. A breathtakingly beautiful TWENTY-YEAR-OLD North Indian village girl from the Malwa region — the most beautiful girl in the district: luminous fair wheat-golden skin, very large lustrous dark almond eyes with long lashes, delicate symmetrical features, high graceful cheekbones, a small straight nose, softly full lips, a slender neck, jet-black hair centre-parted and worn in one long thick braid. She wears a bright red-and-pink bandhani ghagra-choli with a light odhni draped over her head, a small gold nathni ring on her LEFT nostril, a red bindi, and glass bangles up both forearms. Youthful, radiant, shy but direct — no makeup look, natural rural beauty. She is clearly a young woman of twenty, not older. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1792
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_000859_1a894587-4e01-4094-8d4e-57d52a983bf9.png",
+    "status": "completed"
+  }
+]

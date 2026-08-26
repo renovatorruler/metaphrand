@@ -1,0 +1,39 @@
+SCENE: A DIALOGUE beat: कैस्टर keeps गौरी calm as the cart runs, talking to her the whole time. THE LANE — the gurukul's straight downhill flight-courtyard slope of paper flagstones, 60 m long and 8 m wide, falling 9 m from top to bottom, with low paper kerbs on both sides. Fixed landmarks, always in these places: STONE POST (the rope tie-point at the top of the slope, on the LEFT kerb); CART START (where the tethered cart stands); MARKER 1 (first distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones — never a raised block, wedge or post, and never an obstacle the cart rides over); MARKER 2 (second distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones — never raised, never an obstacle); MARKER 3 (third and last distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones — never raised, never an obstacle); FLAT BEGINS (the slope ends; the last 12 m is level); GA-STONE (the flat stone where the golden ga-shape is forged); END WALL (closed paper stone wall across the full width — the lane is a dead end)
+IN THIS SHOT — and nobody else:
+- CASTOR — golden-yellow paper dragon, GREAT form: ENORMOUS. Do not judge this by adjectives — measure her against what is in frame: a wooden hay cart would fit between her two front claws, a grown man would reach only to her knee, and her head rides above the tops of the trees and walls around her. She must never read as a small or medium-sized creature, and never as merely animal-sized, wearing a golden कड़ा paper cuff on ONE forearm (mandatory, clearly visible, never on both). Exactly ONE CASTOR in frame. speaking gently down to her
+- GAURI — gentle brown-and-white paper cow, dark paper eyes, small paper bell at her neck. Exactly ONE in frame. looking up at him from the hay
+FIRST FRAME: the provided start image IS frame one — every character already in position; no empty establishing frame, no delayed reveal.
+FORMAT: SINGLE CONTINUOUS TAKE — no cuts, no fades, no transitions.
+BLOCKING:
+- the start image IS this lane — the same flagstones, low kerbs, rubble wall along the right, stone post behind, and the same horizon and sun
+- the cart runs along the CENTRELINE and never climbs either kerb
+- गौरी the brown-and-white paper cow stays aboard the cart in EVERY frame, braced in the hay
+- the three red paper markers sit on the centreline at 12, 24 and 36 metres; the closed stone end wall stays far away all clip and never comes near
+- कैस्टर flies ALONG the lane directly above and behind the cart — nose forward over it, his long body and tail stretching back up the slope behind him, wings swept back. He lowers only his HEAD and neck down toward गौरी in the cart beneath him. He is never turned side-on across the lane
+- गौरी looks up at him from the hay
+ACTION TIMING:
+- 0.0-5.0s: he speaks to her continuously and gently, mouth working, head dipping a little with the words; she watches him and her ears move
+CAMERA: a WIDE tracking shot, the camera well back and leading them down the lane so the full width of the lane, both kerbs and a band of sky are in frame. कैस्टर occupies the LEFT of frame and the cart the RIGHT, clearly separated, with open space above and behind him. No cut, no zoom, no camera reversal
+PHYSICS:
+- DIRECTION IS FIXED: anything travelling in this shot moves in ONE direction for the whole clip. A cart running downhill never slows to a stop and rolls back up, never reverses, and never drifts backwards relative to the ground. The camera likewise never reverses its travel or turns to look back the way it came.
+- the ground moves past in one consistent direction the entire time — it must never flow the other way
+- papercraft world physics: stiff cut-paper wings flex slightly at their folds, motion has real weight
+- the character's design and colors stay identical in every frame — no morphing, no redesign
+- the golden bracelet stays on ONE forearm only, the same forearm as in the start image
+- ORIENTATION IN THE LANE: this dragon is far longer than she is wide, and the lane is only 8 metres between its kerbs. She therefore lies ALONG the lane, never across it: her long axis runs parallel to the lane, nose forward in the direction of travel, body and tail trailing back up the slope behind her, so her whole length is inside the lane and her width is not. Her wings are swept back along her body or held HIGH above the kerb line, never spread out sideways at kerb height. She is never turned broadside, never side-on to the direction of travel, and no part of her — body, tail, wings or limbs — ever overlaps, touches or passes through a kerb or a wall.
+- FRAMING FOR AN ENORMOUS DRAGON: play this WIDE. The camera stands far enough back that the whole width of the lane, both kerbs and a good band of sky are in frame, with clear space above and behind the dragon. Never frame him tight or close — at close range a creature this size has nowhere to be except through a wall, which is what goes wrong. If he shares the shot with the cart, place them SEPARATED across the frame — dragon to one side, cart to the other — never stacked on top of one another.
+- the character stays where they are — this is a held shot, not a travelling one; no lunging toward or away from camera
+- the mouth moves in natural speech throughout, jaw and lips working, with small head movements and blinks between phrases
+- SOLID BODIES: no part of any character ever passes through the kerb, the wall, the cart or the ground — tail, wings and limbs stay outside solid objects at all times
+- the wall runs alongside the lane and stays a wall; nothing clips into it
+LIGHTING: constant deepening golden dusk exactly as the start image, no time change
+AUDIO: SILENT: generate no speech and no music; this shot will be dubbed
+STYLE: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, non-photorealistic, illustrated, not a photo. The whole clip stays in this medium — no drift to 2D animation, no photorealism.
+HARD RULES:
+- no humans, no people, no human children, no human faces, no human shadows
+- no theater curtains, no stage, no proscenium, no frame-within-frame, no decorative border, no vignette
+- no readable text, no letters, no numbers, no glyphs, no captions, no watermark, no logos
+- no photorealism
+- no duplicate characters, no identical characters, no cloned dragons, no extra characters
+- गौरी is in the cart in EVERY frame — a cart running empty is wrong
+- no extra dragons beyond those named; never two of the same dragon

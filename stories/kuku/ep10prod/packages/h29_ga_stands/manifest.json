@@ -1,0 +1,28 @@
+{
+  "shot": "h29_ga_stands",
+  "kind": "still",
+  "model": "nano_banana_pro",
+  "aspect_ratio": "16:9",
+  "resolution": "2k",
+  "attachments_in_order": [
+    {
+      "slot": "1",
+      "role": "style_reference",
+      "file": "(upload id, see 1_style_reference.txt)"
+    },
+    {
+      "slot": "2",
+      "role": "backplate",
+      "file": "2_backplate.png",
+      "source": "../stories/kuku/ep10prod/sets/flat_stone_plate.png"
+    }
+  ],
+  "prompt_file": "prompt.txt",
+  "derived_notes": [
+    "story beat Forging",
+    "ग COMPOSITED LOCALLY — generated frame must leave the stone empty",
+    "lane position 55 m — plate and progression derived",
+    "cart clock 32 m",
+    "SET PLATE attached: ../stories/kuku/ep10prod/sets/flat_stone_plate.png"
+  ]
+}

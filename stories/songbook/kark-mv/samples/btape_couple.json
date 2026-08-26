@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-08-12T14:38:26.273543Z",
+    "display_name": "Nano Banana Pro",
+    "id": "771e93a5-63a0-410c-9d00-2fa2108b0a81",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_143826_771e93a5-63a0-410c-9d00-2fa2108b0a81_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [],
+      "prompt": "Cinematic 35mm film still, documentary realism: a long Indian hospital corridor at night, cool fluorescent light. A woman about 55 in a simple deep-green cotton sari with the pallu tucked at her waist for work, strong steady posture, grey-streaked hair in a tight bun, small nose stud, pushes a wheelchair down the corridor toward the camera with complete unhurried competence — a worn plastic bag stuffed with medical reports and X-ray envelopes hangs from the wheelchair handle. In the wheelchair sits her husband, about 60, a once-solid man now thinned by long illness: hollow cheeks, sparse grey hair under a knitted cap, a shawl over his shoulders, hospital pyjamas. On his visible wrist: a white hospital ID band and, right beside it, a red sacred thread. He is not defeated — his eyes are tired but alive, head turned slightly toward her behind him, mid-word, and the beginning of a small dry smile; her eyes are forward on the corridor. Passing IV stands line the walls. Warm pool of light from one window at the corridor's end where the storm-dusk sky shows. Shallow depth of field, film grain, muted teal-fluorescent grade with the warm window at the end. No text, no letters, no readable signage anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_143826_771e93a5-63a0-410c-9d00-2fa2108b0a81.png",
+    "status": "completed"
+  }
+]

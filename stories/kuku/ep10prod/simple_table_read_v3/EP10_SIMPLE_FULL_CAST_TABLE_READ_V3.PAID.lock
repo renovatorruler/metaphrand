@@ -1,0 +1,4 @@
+Episode 10 simplified table-read paid-run lock.
+plan_sha256=c9ae6213e633e451e3fd61bc58c91c9f8d977d8cfee055905462ca68b2a0378e
+missing_provider_requests_at_start=15
+This persistent lock prevents an accidental duplicate paid run.

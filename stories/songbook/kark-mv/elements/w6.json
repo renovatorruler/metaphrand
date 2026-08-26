@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-08-12T21:05:29.13016Z",
+    "display_name": "Nano Banana Pro",
+    "id": "f6b520c9-acdc-4379-830f-225027e93ef4",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_210529_f6b520c9-acdc-4379-830f-225027e93ef4_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "3:4",
+      "batch_size": 1,
+      "height": 2400,
+      "input_image": null,
+      "input_images": [],
+      "prompt": "Sharp photorealistic portrait photograph, natural window light, plain warm neutral background, 85mm lens look, front-facing, looking straight into the lens. A breathtakingly beautiful North Indian woman of 52 — the kind of face that was the most beautiful girl in the district and aged into elegance: luminous fair wheat-golden skin, large lustrous almond-shaped dark eyes with long lashes, perfectly symmetrical refined features, high cheekbones, softly full lips, a graceful long neck. Grey-streaked black hair center-parted into a neat low bun. A light deep-green Maheshwari cotton-silk sari with a narrow gold woven border, draped North Indian seedha-pallu style with the pallu drawn lightly over her head; a small thin gold nathni ring on her LEFT nostril; a small round red bindi; simple gold earrings. Dignified, warm, quietly magnetic — natural timeless beauty, no makeup look. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1792
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_210529_f6b520c9-acdc-4379-830f-225027e93ef4.png",
+    "status": "completed"
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "created_at": "2026-08-13T18:40:56.185831Z",
+    "display_name": "Seedance 2.5",
+    "id": "7d347ee4-f0ef-4e6d-b472-fe73c2ffabfb",
+    "job_type": "seedance_2_5",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "16:9",
+      "bitrate_mode": "standard",
+      "duration": 5,
+      "extension_mode": null,
+      "generate_audio": false,
+      "genre": "auto",
+      "height": 720,
+      "medias": [
+        {
+          "data": {
+            "id": "e7d58149-644c-4a4b-8af5-66dca9aee907",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/e7d58149-644c-4a4b-8af5-66dca9aee907_resize.jpg"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "1e476d4f-8fa2-4a3d-991c-9f8982a3733c",
+            "type": "video_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/1e476d4f-8fa2-4a3d-991c-9f8982a3733c.mp4"
+          },
+          "role": "video"
+        }
+      ],
+      "model": "default",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "Animate the musician in the start image so that he plays his instrument with the BOWING ARM MOTION shown in the reference video: the bow is dragged back and forth across the strings in continuous sawing strokes, the bowing forearm travelling out and back repeatedly, exactly the rhythm and mechanics of the reference footage. He must NEVER pluck or pick the strings — only the drawn bow makes the sound, as in the reference video. He sings at the same time: mouth opening on long held notes, head tilting back. Strong wind: his saffron turban tail and the red wrist threads stream horizontally, the hanging medallions on the instrument swing. Storm sky churning behind, troupe still at the roof edge. Keep everything from the start image identical — same man, face, clothes, instrument, rooftop, light, framing. Fixed camera, single continuous take, photoreal.",
+      "prompt_language": "en",
+      "reference_elements": [],
+      "resolution": "720p",
+      "speedramp": "auto",
+      "width": 1280
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260813_184056_7d347ee4-f0ef-4e6d-b472-fe73c2ffabfb.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260813_184056_7d347ee4-f0ef-4e6d-b472-fe73c2ffabfb_thumbnail.webp"
+  }
+]

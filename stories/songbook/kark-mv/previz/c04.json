@@ -1,0 +1,32 @@
+[
+  {
+    "created_at": "2026-08-12T17:39:43.876222Z",
+    "display_name": "Seedance 2.5",
+    "id": "f5dbfd42-0c57-4798-bef6-cc9078783797",
+    "job_type": "seedance_2_5",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "16:9",
+      "bitrate_mode": "standard",
+      "duration": 5,
+      "extension_mode": null,
+      "generate_audio": false,
+      "genre": "auto",
+      "height": 480,
+      "medias": [],
+      "model": "default",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "Present-day Indian village fair in heavy first monsoon rain at night: at a small stone shrine, a thin old man in a knitted cap ties a red sacred thread onto his own wrist, then looks up at his wife and speaks one short sentence to her through the rain, both drenched and smiling, string lights glowing, crowd celebrating behind, intimate handheld close shot, cinematic. No text anywhere.",
+      "prompt_language": "en",
+      "reference_elements": [],
+      "resolution": "480p",
+      "speedramp": "auto",
+      "width": 854
+    },
+    "result_url": null,
+    "status": "failed"
+  }
+]
+Error: job f5dbfd42-0c57-4798-bef6-cc9078783797 ended with status "failed"

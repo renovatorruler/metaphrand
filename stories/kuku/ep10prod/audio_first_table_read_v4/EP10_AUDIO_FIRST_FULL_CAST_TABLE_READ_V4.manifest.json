@@ -1,0 +1,899 @@
+{
+ "schema": "kuku.audio_first.table_read.manifest.v4",
+ "pipeline_version": "kuku-ep10-audio-first-table-read-v4",
+ "plan": "../stories/kuku/ep10prod/audio_first_table_read_v4/EP10_AUDIO_FIRST_FULL_CAST_TABLE_READ_V4.plan.json",
+ "plan_sha256": "bb952140f176b37c09db5a0f0b4c48cdcd4fb02af8317e584a81aa64eaf4091c",
+ "audio": "../stories/kuku/ep10prod/audio_first_table_read_v4/EP10_AUDIO_FIRST_FULL_CAST_TABLE_READ_V4.mp3",
+ "audio_sha256": "51cef0849e6ffb7edd287de223c3123e398eb3bae4dc2578ac7a58330668a0fc",
+ "duration_seconds": 280.98575,
+ "provider_billable_characters": 3635,
+ "complete_audio_timeline": [
+  {
+   "kind": "dialogue",
+   "id": "voice_000",
+   "scene": 0,
+   "start_seconds": 0,
+   "duration_seconds": 16.8,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_1a0722f998a675b7070e1a05e711951f3ac471228b5a533200220fa125ba1c4d.mp3",
+   "sha256": "65ff049c65bae8e4e038d2b97a9da262efed83a034760393ac93632b8a40c9c1"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_001",
+   "scene": 0,
+   "start_seconds": 16.8,
+   "duration_seconds": 1.8,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_001_4af2449fbfd3319016f4c6248660a2a9692c00c2ab9db183714625e338edb96c.mp3",
+   "sha256": "fd3cdcf63c4bedddcbf9c5802340577821286ff6b2443cbbc0bca876a26f7a06"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_001",
+   "scene": 0,
+   "start_seconds": 18.6,
+   "duration_seconds": 2.8,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_77e18099e48664c69323206449e066d57766272eb973eddee694f25580657c13.mp3",
+   "sha256": "99fc84c397c6278207ed3af3c9cb08e463f9263fd946f0d5912a5e1733d3760b"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_002",
+   "scene": 0,
+   "start_seconds": 21.400000000000002,
+   "duration_seconds": 1.6,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_002_b7c99c506e5a5aedf098807bad76e3162e9ee3dfaa40d1d2b822410d18194430.mp3",
+   "sha256": "e8221a6971fe4724347e4179e64e031dcf8cea8ea24f79db9dc67b292dd65e1b"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_002",
+   "scene": 0,
+   "start_seconds": 23.000000000000004,
+   "duration_seconds": 9.52,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_85beb1837bae5a5fa3d5e183c6f5b6e30a8dc504e792ce19a27a2a1626442d08.mp3",
+   "sha256": "6bfe16a9168ca3880022a9f2009535ee1053ab4449094cbb46e1d16011bdea4c"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_003",
+   "scene": 0,
+   "start_seconds": 32.52,
+   "duration_seconds": 3.2,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_003_265e4bfe5a309b9092f140dbe255b64daaf7a91b747f41f7cca9288b7f62c85e.mp3",
+   "sha256": "35d7a6cb11db2267304d7e0460eaca502cbaa050c4f8b03c4e29c6c6dc6500f3"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_003",
+   "scene": 0,
+   "start_seconds": 35.720000000000006,
+   "duration_seconds": 5.2,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_2e6e88fa08a896eec4053cb7c9c8f4acf2597eceebdf358a87ba9469ed6e426d.mp3",
+   "sha256": "117b436c9ffbd880792ab8c7cb297d60aadfa0a3bfce8078e7f2465d11a19601"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_004",
+   "scene": 0,
+   "start_seconds": 40.92000000000001,
+   "duration_seconds": 2.2,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_004_c880bb9ce94a9c0fae94732cc4474821064927e08fd59d96ae2677d8900c1094.mp3",
+   "sha256": "0e20e81e9d4c8df3a2118c048674dd7091b6cf3b8d9fc98a8a6f828bc25ff664"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_004",
+   "scene": 0,
+   "start_seconds": 43.12000000000001,
+   "duration_seconds": 10.8,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_4c0bfadf84968b08062102123221294013d05530813ce053fcd417e58e9e4ed3.mp3",
+   "sha256": "f9eb0eef85c31e855c66f7d959a09bbef1bc09c10638e2ad6aa148f1fcccc332"
+  },
+  {
+   "kind": "spacing",
+   "id": "pre_title_gap",
+   "scene": 1000,
+   "start_seconds": 53.920000000000016,
+   "duration_seconds": 0.5,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/silence_500.mp3",
+   "sha256": "469122fcf268010724e113637239c1e30563521115d605a732d43af612684482"
+  },
+  {
+   "kind": "title_interlude",
+   "id": "approved_title_first_15s",
+   "scene": 1000,
+   "start_seconds": 54.420000000000016,
+   "duration_seconds": 15,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/title_826d244cb5eca890f5fd3586c789ac7896cf24c5c724116e24a41c939b7ef7bd.mp3",
+   "sha256": "7fd445bdf8a2bc346c47ff1332ad96fa85ac61c8307be0e3c846591132ee89ba"
+  },
+  {
+   "kind": "spacing",
+   "id": "post_title_gap",
+   "scene": 1000,
+   "start_seconds": 69.42000000000002,
+   "duration_seconds": 0.5,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/silence_500.mp3",
+   "sha256": "469122fcf268010724e113637239c1e30563521115d605a732d43af612684482"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_005",
+   "scene": 1,
+   "start_seconds": 69.92000000000002,
+   "duration_seconds": 15.6,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_3ba9b6a319d7d9411d299f2ca30e04835373958ca1899b664b2cc1b16cf47ad2.mp3",
+   "sha256": "74f8f2bc682babe7891ea0cc4a88e4f9d71714eade2e1696562e766827273171"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_005",
+   "scene": 1,
+   "start_seconds": 85.52000000000001,
+   "duration_seconds": 2.2,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_005_01ebdfca3b09aad5789e97fd17d16ed5b4e5c72e7b947bb13187eb000726d6d5.mp3",
+   "sha256": "ff400b0c2ffd3c8694d0212de6dbbd4d40bcf383013e319584d7c7baf221b6a3"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_006",
+   "scene": 1,
+   "start_seconds": 87.72000000000001,
+   "duration_seconds": 10.4,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_40df7440e5a003a8f8b5525b5ef3cb78df5c4612ea1b670364d304896c729416.mp3",
+   "sha256": "7ffcf3b704170fbae0676623afd457f7f977971a407332541465bb09fd28f02b"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_006",
+   "scene": 1,
+   "start_seconds": 98.12000000000002,
+   "duration_seconds": 1.6,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_006_16398f69b30a56657b660c594e5d5bae6c127f9cb5b8f09a195cd69451e0a680.mp3",
+   "sha256": "27ad28c47c23c4da6a7fc3d4b0937fb9504602ffa5e00592e5fffd6365787b1f"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_007",
+   "scene": 1,
+   "start_seconds": 99.72000000000001,
+   "duration_seconds": 9.44,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_bc613a67375d59f7dab03e6ed6a404d1b2ba4e0a295ae827259c2e61916741cd.mp3",
+   "sha256": "1a725afb268b41fac43680f897fc6a2b1f6bfdaedc1f70115a24d68c94da791b"
+  },
+  {
+   "kind": "spacing",
+   "id": "voice_gap_008",
+   "scene": 2,
+   "start_seconds": 109.16000000000001,
+   "duration_seconds": 0.9,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/silence_900.mp3",
+   "sha256": "d50b9beaa305e92f081a98097a5890a94a10945ed4edcb04004c9cca33b2ff7f"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_008",
+   "scene": 2,
+   "start_seconds": 110.06000000000002,
+   "duration_seconds": 7.52,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_356256c8fd4ff580ac4a100104366ba0b60ba356f14b22c571006a0487cface1.mp3",
+   "sha256": "22715ca284c139a5db77e82617fd8929566db2bc5e558dd787db38813817cfaa"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_007",
+   "scene": 2,
+   "start_seconds": 117.58000000000001,
+   "duration_seconds": 1.4,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_007_a3272326c6210671b67c6983edd6ab71ac4170683077c07a75ad85e37cd69d92.mp3",
+   "sha256": "4d62814da81fb22952eedd3c4f89e4400d0b8df159067cb4738b70ffb0955378"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_009",
+   "scene": 2,
+   "start_seconds": 118.98000000000002,
+   "duration_seconds": 3.28,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_05d2c3b075e88cd544bbf8def8214e9724201cb6cc300dfee14ec8cf0ea67e07.mp3",
+   "sha256": "bda4b2855a45588eddd07886ed0daae4002334ef6956c22bb5da9072b69b1298"
+  },
+  {
+   "kind": "spacing",
+   "id": "voice_gap_010",
+   "scene": 2,
+   "start_seconds": 122.26000000000002,
+   "duration_seconds": 0.25,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/silence_250.mp3",
+   "sha256": "ff72afbdc424f201a7dcc5378da465e7de22d11370c31d40301d1c3c9557d21c"
+  },
+  {
+   "kind": "sfx_sync_source",
+   "id": "voice_010",
+   "scene": 2,
+   "start_seconds": 122.51000000000002,
+   "duration_seconds": 2,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_4ede30d79c77178e141b8ed3b84b49db2e1589bea774271e7acbc64864a0d32b.mp3",
+   "sha256": "24577622b22a043f3f0fc94b6c8fd381fd20ab565728102da71b5e08db034731"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_008",
+   "scene": 2,
+   "start_seconds": 124.51000000000002,
+   "duration_seconds": 0.65,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_008_7c429b807ef5f3a65c618b291f90d634b969559e4e00296bd4573c72b599e30a.mp3",
+   "sha256": "d97ec3934ed84acefff386f4c5b338f6d1d183e1bd007a6d8c52d6104eb5260b"
+  },
+  {
+   "kind": "sfx_sync_source",
+   "id": "voice_011",
+   "scene": 2,
+   "start_seconds": 125.16000000000003,
+   "duration_seconds": 2.4,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_74bec43cff6cb54b16dd289f6aad9a908d2eb7fb9f80c8401c501ab87f5c554f.mp3",
+   "sha256": "87576dd16fda26a630b7c521103f5c8cc6e9c94d7d3fb7025e0b3b1f4cb4dea6"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_009",
+   "scene": 2,
+   "start_seconds": 127.56000000000003,
+   "duration_seconds": 0.65,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_009_22becc539d2ee2e073293c0984714527b65f32c5d54dcc79bffb8a9885f54d06.mp3",
+   "sha256": "d97ec3934ed84acefff386f4c5b338f6d1d183e1bd007a6d8c52d6104eb5260b"
+  },
+  {
+   "kind": "sfx_sync_source",
+   "id": "voice_012",
+   "scene": 2,
+   "start_seconds": 128.21000000000004,
+   "duration_seconds": 2.96,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_ef99a24dab3e47d26ab367ebbc0d38f04c11f47e7da0a88b8f42c6184f00f8cb.mp3",
+   "sha256": "b4abe45735c62c692454d84f8b7bc251660be80ec335a53bce37ec151199c8c9"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_010",
+   "scene": 2,
+   "start_seconds": 131.17000000000004,
+   "duration_seconds": 0.95,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_010_91095ed10e45f6ecd188b4c6ea45018f87f9482f9bf9570d2fab5aedbaf1f65e.mp3",
+   "sha256": "e2aa6a623096e63c0f174533b15ef98c93c17efef9aaafc7916c44cf31aeb188"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_013",
+   "scene": 2,
+   "start_seconds": 132.12000000000003,
+   "duration_seconds": 2.88,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_9fe80c80d70b0ea69f02c1a1e0f3442870b11d74231e3ae4f01ddb6cf5296b81.mp3",
+   "sha256": "47ba73948f7061c162f1a1d7d089ee82192342efec56ab1af64dcb3a0b0d2b99"
+  },
+  {
+   "kind": "spacing",
+   "id": "voice_gap_014",
+   "scene": 2,
+   "start_seconds": 135.00000000000003,
+   "duration_seconds": 0.25,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/silence_250.mp3",
+   "sha256": "ff72afbdc424f201a7dcc5378da465e7de22d11370c31d40301d1c3c9557d21c"
+  },
+  {
+   "kind": "pronunciation",
+   "id": "voice_014",
+   "scene": 2,
+   "start_seconds": 135.25000000000003,
+   "duration_seconds": 4.56,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_0db474d9535d0ef9efeb952791fc65c81b81bfee2a8a231b826c848d6820e39b.mp3",
+   "sha256": "ff0912d0ab0d75e86b010ae3c3f5ebdc38390e8ffc443662f04f6dace7a6c6b9"
+  },
+  {
+   "kind": "spacing",
+   "id": "voice_gap_015",
+   "scene": 2,
+   "start_seconds": 139.81000000000003,
+   "duration_seconds": 0.25,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/silence_250.mp3",
+   "sha256": "ff72afbdc424f201a7dcc5378da465e7de22d11370c31d40301d1c3c9557d21c"
+  },
+  {
+   "kind": "pronunciation",
+   "id": "voice_015",
+   "scene": 2,
+   "start_seconds": 140.06000000000003,
+   "duration_seconds": 2.88,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_b966e4d6488ff0ad34214fa980cb1bc2e2e63f4acd4aabae69695a8bd7151112.mp3",
+   "sha256": "4a6d66fb1d9825168b7d41b6232f30ad1385c055075ae9793b6123f577a860d7"
+  },
+  {
+   "kind": "spacing",
+   "id": "voice_gap_016",
+   "scene": 2,
+   "start_seconds": 142.94000000000003,
+   "duration_seconds": 0.25,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/silence_250.mp3",
+   "sha256": "ff72afbdc424f201a7dcc5378da465e7de22d11370c31d40301d1c3c9557d21c"
+  },
+  {
+   "kind": "chorus",
+   "id": "voice_016",
+   "scene": 2,
+   "start_seconds": 143.19000000000003,
+   "duration_seconds": 2.24,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/chorus_1c53bd1cc06048cdba38440cd8ca4d09fe251b93561c87bae8272c9f995ae31f.mp3",
+   "sha256": "45a5dbcd2944379f3a2a6c68d60e1d3860e74485c899d45dcd59870d694c806e"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_011",
+   "scene": 2,
+   "start_seconds": 145.43000000000004,
+   "duration_seconds": 2.6,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_011_67a84a8be941fc28988121c8ee10b573079270b07b56d4785913fecd8b78ef07.mp3",
+   "sha256": "a293be79357d502a1628fc004faf1d95e25ba6f11b7569d34250805d557fcaac"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_017",
+   "scene": 2,
+   "start_seconds": 148.03000000000003,
+   "duration_seconds": 5.76,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_24227d76c96f90e42c4489bc1317822c23eeb9fca2618a9089668a7debdb4bdc.mp3",
+   "sha256": "4a071cf1a2b1841fd3526aad0d84f3a9e7c77baf3568f4e675d4169ea9b854f3"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_012",
+   "scene": 2,
+   "start_seconds": 153.79000000000002,
+   "duration_seconds": 1.4,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_012_aeb8012e07d0351cde14925f1cafdb818115b664257dbeff1865c15688479e88.mp3",
+   "sha256": "8ea6be1676da3f9c586c1c2e88b1ced542468cd28b782c348f3e6fd67eaf5d1b"
+  },
+  {
+   "kind": "pronunciation",
+   "id": "voice_018",
+   "scene": 2,
+   "start_seconds": 155.19000000000003,
+   "duration_seconds": 5.04,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_7627255c871e5db10293aeccaca8d797ce6eac74432259f00a188df0beff51f3.mp3",
+   "sha256": "3fe1412c34043dfe28b25d674b3bc0b270af7ed4a5f5b91cbb94fee0f189641c"
+  },
+  {
+   "kind": "spacing",
+   "id": "voice_gap_019",
+   "scene": 2,
+   "start_seconds": 160.23000000000002,
+   "duration_seconds": 0.25,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/silence_250.mp3",
+   "sha256": "ff72afbdc424f201a7dcc5378da465e7de22d11370c31d40301d1c3c9557d21c"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_019",
+   "scene": 2,
+   "start_seconds": 160.48000000000002,
+   "duration_seconds": 5.92,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_4f99b0aad49a1dcf9ce7af4d0984d2d777c143af048653562230deb638043b83.mp3",
+   "sha256": "980735722141f741ed108a882d950d554f704cf8eaf77dbb5ae369e58c8483cc"
+  },
+  {
+   "kind": "spacing",
+   "id": "voice_gap_020",
+   "scene": 3,
+   "start_seconds": 166.4,
+   "duration_seconds": 0.9,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/silence_900.mp3",
+   "sha256": "d50b9beaa305e92f081a98097a5890a94a10945ed4edcb04004c9cca33b2ff7f"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_020",
+   "scene": 3,
+   "start_seconds": 167.3,
+   "duration_seconds": 21.76,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_659847f5b2c9fad8302e2c6a0764fee701875576e17fc0fcc4eca7bb716526a5.mp3",
+   "sha256": "36c488b4886ebe66cccdd861e43c9e9e677ee3030748d32e6210301c90b60e52"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_013",
+   "scene": 3,
+   "start_seconds": 189.06,
+   "duration_seconds": 1.8,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_013_89c34ec456b3b2bf2f870a336e4d4f90a45b6667e4beceb05157eecf77b66536.mp3",
+   "sha256": "f9cdfd948606c6e77aae300b50430971e10015d06ca39ff36fd77d370cce398a"
+  },
+  {
+   "kind": "pronunciation",
+   "id": "voice_021",
+   "scene": 3,
+   "start_seconds": 190.86,
+   "duration_seconds": 3.6,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_d808c2217d2e568bbed91a327ff10179f202c637bba378be17d18793498678e7.mp3",
+   "sha256": "4a508aeefa1b7768600b86d14807c0627f411b0d4bec075a480f34f78b2ee4e5"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_014",
+   "scene": 3,
+   "start_seconds": 194.46,
+   "duration_seconds": 1,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_014_ee9da4957b58f2b0d38d4d7d721cc1a0e89a84b0e204d8b8da3de51310e6093e.mp3",
+   "sha256": "f2c80e92896c08c430eeedc716beab8987ad71648c3e367236bda59bb283a65f"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_022",
+   "scene": 3,
+   "start_seconds": 195.46,
+   "duration_seconds": 2,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_0b2b9919e68bbe542ed074a77adf4b2c90fb9ab5a0c89985e21e887e388685ad.mp3",
+   "sha256": "5baa338c8d4a364527208bb7032ddabe0087f19d3ef3ef6324f426269a79b4c0"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_015",
+   "scene": 3,
+   "start_seconds": 197.46,
+   "duration_seconds": 2.2,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_015_87f2c75fa1a32312fcd37f2deb8a94e956e28f1aade947d46ee23b821cdc74a2.mp3",
+   "sha256": "748ca362bd623c0f5e715cf51cadf14d4f9500d7822b45dabd02da5fb0f038eb"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_023",
+   "scene": 3,
+   "start_seconds": 199.66,
+   "duration_seconds": 11.12,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_408c731a61ff95da01a36f02761440d5d03e5821ca605add935d3d2a8b5d5bc6.mp3",
+   "sha256": "7c2bd59a3b844121e69ae42f01f7773ec36bc15c3018b569bd926bca7a6ef03a"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_016",
+   "scene": 3,
+   "start_seconds": 210.78,
+   "duration_seconds": 2.2,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_016_36724c9e10920c6c36e32379bc63fc10597c7c4ad91633a14597191a5b3b51c2.mp3",
+   "sha256": "ab789bfb377908e66fb8b22d7097ac0d58dc6021ff53fc999184a4c13c82bd80"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_024",
+   "scene": 3,
+   "start_seconds": 212.98,
+   "duration_seconds": 4.8,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_1d93f56ded464bb0259251750e19618680099fbf72a839698703e6563345c519.mp3",
+   "sha256": "f5193bbeeae5a78e5263813c45b314c454a88b607082dd614cbf45f0da851d59"
+  },
+  {
+   "kind": "spacing",
+   "id": "voice_gap_025",
+   "scene": 4,
+   "start_seconds": 217.78,
+   "duration_seconds": 0.9,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/silence_900.mp3",
+   "sha256": "d50b9beaa305e92f081a98097a5890a94a10945ed4edcb04004c9cca33b2ff7f"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_025",
+   "scene": 4,
+   "start_seconds": 218.68,
+   "duration_seconds": 8.08,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_5ecee85eacbb61ede52b151c17c94bd7592fc51f1b6358f00df6cbbd2e3dcd26.mp3",
+   "sha256": "7bfba012a21b9dd2d9efbcb8b2c79c3c69ecb77f7c8e56e1ee5d3ddb4da32010"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_017",
+   "scene": 4,
+   "start_seconds": 226.76000000000002,
+   "duration_seconds": 2.2,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_017_59befccc8b0dd2281b7f9e8b70c732410a992901d41cf590343b72646d52fc66.mp3",
+   "sha256": "cdd65915bf0bdbfad19c6314a4e767ddc7c94e2f119c56dc9213f07fcd57d9fb"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_026",
+   "scene": 4,
+   "start_seconds": 228.96,
+   "duration_seconds": 4.4,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_a92af061020477627345b71a9ae1fe40b9abdf3634d637e67a7680a1cfe6dd15.mp3",
+   "sha256": "bf3210d054869e69ead2c781c1002083db8f0e0481299e12007a269bff096429"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_018",
+   "scene": 4,
+   "start_seconds": 233.36,
+   "duration_seconds": 1.6,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_018_ddcb9da4964cc65b9f34ae6d260d503634a0f5fd9bde1b5a6b861506ad0bd605.mp3",
+   "sha256": "5790482b4317e0b4bc2735d06a747e2959a8f69331d14d82e872e6638ea9ca3b"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_027",
+   "scene": 4,
+   "start_seconds": 234.96,
+   "duration_seconds": 10,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_84beaa32a2ae6acfc1776a83ac25e8827d04e8e1e41eda8825683ab19f540c75.mp3",
+   "sha256": "7fe673d050c14d6d1dd3bbaa0fd8ac70afd62dd4465397f2cb0bd622ede760d4"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_019",
+   "scene": 4,
+   "start_seconds": 244.96,
+   "duration_seconds": 1.8,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_019_d2327af5ced11fdcf58cfd7c8f4c99cafbb1b350e5f05f887ae0bf39bfc2507e.mp3",
+   "sha256": "b71c58097db8b54b09709261866f3506509d2408d87f76d70d48b81996595039"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_028",
+   "scene": 4,
+   "start_seconds": 246.76000000000002,
+   "duration_seconds": 8.88,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_c3b8daac3731677c370b2d8b50590276c8f615e430790ef403f49b42f4487f1a.mp3",
+   "sha256": "b9c22a3512e8a0d5afefaf5513c03dbe6124b8984c0408219b6408fbbb29148b"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_020",
+   "scene": 4,
+   "start_seconds": 255.64000000000001,
+   "duration_seconds": 1.8,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_020_a9a6da52f2c92c2a6eb65ab99ab6c74d0f294fddf59a2ce3e8a99297c0117759.mp3",
+   "sha256": "ae33d3be80b5061f30d61533152f7b47dac6cfcdff66bb44a951fa33a6d35d44"
+  },
+  {
+   "kind": "chorus",
+   "id": "voice_029",
+   "scene": 4,
+   "start_seconds": 257.44,
+   "duration_seconds": 3.68,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/chorus_eeb1aae375263b9c4284c0b5f4013ae49089b2713dd34a16f5db57b64c642a92.mp3",
+   "sha256": "8b4b9186a2fcfc2a20c504440291a388ab3442766d086c6fe610f27a0a5f7728"
+  },
+  {
+   "kind": "spacing",
+   "id": "voice_gap_030",
+   "scene": 4,
+   "start_seconds": 261.12,
+   "duration_seconds": 0.25,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/silence_250.mp3",
+   "sha256": "ff72afbdc424f201a7dcc5378da465e7de22d11370c31d40301d1c3c9557d21c"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_030",
+   "scene": 4,
+   "start_seconds": 261.37,
+   "duration_seconds": 6.8,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_8c0c2e1ebd109727654564857c83f2aeb99d5f20feb7bc7098e1f7104af84407.mp3",
+   "sha256": "042e13145d938de13434122a89ce9f7f20cf2188f7e05aec8d1f2dfefd1cc941"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_021",
+   "scene": 5,
+   "start_seconds": 268.17,
+   "duration_seconds": 2.3,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_021_b8a41050a9805ee92e985ec97c85a1a14300c310d5cdd9a29324939a3d0e9486.mp3",
+   "sha256": "e119c1107dfeb5258f979246f2dcc2f54a30c5e1f620590fcb74e33b0a87f439"
+  },
+  {
+   "kind": "dialogue",
+   "id": "voice_031",
+   "scene": 5,
+   "start_seconds": 270.47,
+   "duration_seconds": 8.32,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/cache/dialogue_f622465fc9bb4bb1120b6d161f1d6a7514fbf4991a0b1c5f7a660648672d087e.mp3",
+   "sha256": "77337a4645054f94214edaee92206bc7270e319e0db3e21bc57d2ddd6ea82c9d"
+  },
+  {
+   "kind": "guide_sfx",
+   "id": "cue_022",
+   "scene": 5,
+   "start_seconds": 278.79,
+   "duration_seconds": 2.2,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_022_f64ce957196a3adf84b9c8c7888589950ca4159bf6691706deccd4e122b3016f.mp3",
+   "sha256": "7886ca0b3888bc4eea33ea789f4a5112eeb739db0ca43aec64219e4b13f1a501"
+  }
+ ],
+ "sfx_assembly_status": "all 22 validated local guide SFX inserted in screenplay order; none generated by renderer",
+ "available_local_guide_sfx": 22,
+ "ordered_sfx_cues": [
+  {
+   "order": 5,
+   "scene": 0,
+   "kind": "sfx",
+   "text": "बड़े पंख हवा काटते हैं। घंटी साफ़ टनकती है।",
+   "sfx_idx": 1,
+   "after_dialogue_idx": 4,
+   "before_dialogue_idx": 5,
+   "placeholder_ms": 1800,
+   "cue_signature_sha256": "4af2449fbfd3319016f4c6248660a2a9692c00c2ab9db183714625e338edb96c",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_001_4af2449fbfd3319016f4c6248660a2a9692c00c2ab9db183714625e338edb96c.mp3",
+   "spoken": false
+  },
+  {
+   "order": 7,
+   "scene": 0,
+   "kind": "sfx",
+   "text": "फ्यूरिया के पंख धीमे होते हैं और उसके पैर जमीन पर उतरते हैं।",
+   "sfx_idx": 2,
+   "after_dialogue_idx": 5,
+   "before_dialogue_idx": 6,
+   "placeholder_ms": 1600,
+   "cue_signature_sha256": "b7c99c506e5a5aedf098807bad76e3162e9ee3dfaa40d1d2b822410d18194430",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_002_b7c99c506e5a5aedf098807bad76e3162e9ee3dfaa40d1d2b822410d18194430.mp3",
+   "spoken": false
+  },
+  {
+   "order": 10,
+   "scene": 0,
+   "kind": "sfx",
+   "text": "गाँठ तेजी से सरकती है। मोटी रस्सी पत्थर पर गिरती है। लकड़ी के पहिए पहले धीरे और फिर तेजी से घूमते हैं। गाय घबराकर रंभाती है।",
+   "sfx_idx": 3,
+   "after_dialogue_idx": 7,
+   "before_dialogue_idx": 8,
+   "placeholder_ms": 3200,
+   "cue_signature_sha256": "265e4bfe5a309b9092f140dbe255b64daaf7a91b747f41f7cca9288b7f62c85e",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_003_265e4bfe5a309b9092f140dbe255b64daaf7a91b747f41f7cca9288b7f62c85e.mp3",
+   "spoken": false
+  },
+  {
+   "order": 12,
+   "scene": 0,
+   "kind": "sfx",
+   "text": "काँसे का बंधन खुलता है। घंटी चील के पंजों में खनकती है। बड़े पंख ऊपर उठते हैं।",
+   "sfx_idx": 4,
+   "after_dialogue_idx": 8,
+   "before_dialogue_idx": 9,
+   "placeholder_ms": 2200,
+   "cue_signature_sha256": "c880bb9ce94a9c0fae94732cc4474821064927e08fd59d96ae2677d8900c1094",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_004_c880bb9ce94a9c0fae94732cc4474821064927e08fd59d96ae2677d8900c1094.mp3",
+   "spoken": false
+  },
+  {
+   "order": 22,
+   "scene": 1,
+   "kind": "sfx",
+   "text": "फ्यूरिया के पंख तेज़ी से हवा धकेलते हैं। पहियों की रफ्तार थोड़ी घटती है, मगर वे चलते रहते हैं।",
+   "sfx_idx": 5,
+   "after_dialogue_idx": 16,
+   "before_dialogue_idx": 17,
+   "placeholder_ms": 2200,
+   "cue_signature_sha256": "01ebdfca3b09aad5789e97fd17d16ed5b4e5c72e7b947bb13187eb000726d6d5",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_005_01ebdfca3b09aad5789e97fd17d16ed5b4e5c72e7b947bb13187eb000726d6d5.mp3",
+   "spoken": false
+  },
+  {
+   "order": 26,
+   "scene": 1,
+   "kind": "sfx",
+   "text": "लकड़ी का फाटक जोर से खटखटाता है, फिर बंद होकर अटक जाता है।",
+   "sfx_idx": 6,
+   "after_dialogue_idx": 19,
+   "before_dialogue_idx": 20,
+   "placeholder_ms": 1600,
+   "cue_signature_sha256": "16398f69b30a56657b660c594e5d5bae6c127f9cb5b8f09a195cd69451e0a680",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_006_16398f69b30a56657b660c594e5d5bae6c127f9cb5b8f09a195cd69451e0a680.mp3",
+   "spoken": false
+  },
+  {
+   "order": 31,
+   "scene": 2,
+   "kind": "sfx",
+   "text": "एक लाल निशान पत्थर में ठक से लगता है। फिर दूर दूसरा निशान ठक से लगता है।",
+   "sfx_idx": 7,
+   "after_dialogue_idx": 23,
+   "before_dialogue_idx": 24,
+   "placeholder_ms": 1400,
+   "cue_signature_sha256": "a3272326c6210671b67c6983edd6ab71ac4170683077c07a75ad85e37cd69d92",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_007_a3272326c6210671b67c6983edd6ab71ac4170683077c07a75ad85e37cd69d92.mp3",
+   "spoken": false
+  },
+  {
+   "order": 34,
+   "scene": 2,
+   "kind": "sfx",
+   "text": "“गाड़ी” की पहली ग पर एक छोटी सुनहरी टनन।",
+   "sfx_idx": 8,
+   "after_dialogue_idx": 25,
+   "before_dialogue_idx": 26,
+   "placeholder_ms": 650,
+   "cue_signature_sha256": "7c429b807ef5f3a65c618b291f90d634b969559e4e00296bd4573c72b599e30a",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_008_7c429b807ef5f3a65c618b291f90d634b969559e4e00296bd4573c72b599e30a.mp3",
+   "spoken": false,
+   "timing_limitation": "table-read guide is inserted immediately after the isolated source line; final word-onset placement requires line-level alignment"
+  },
+  {
+   "order": 36,
+   "scene": 2,
+   "kind": "sfx",
+   "text": "“गाय” की पहली ग पर वही छोटी सुनहरी टनन।",
+   "sfx_idx": 9,
+   "after_dialogue_idx": 26,
+   "before_dialogue_idx": 27,
+   "placeholder_ms": 650,
+   "cue_signature_sha256": "22becc539d2ee2e073293c0984714527b65f32c5d54dcc79bffb8a9885f54d06",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_009_22becc539d2ee2e073293c0984714527b65f32c5d54dcc79bffb8a9885f54d06.mp3",
+   "spoken": false,
+   "timing_limitation": "table-read guide is inserted immediately after the isolated source line; final word-onset placement requires line-level alignment"
+  },
+  {
+   "order": 38,
+   "scene": 2,
+   "kind": "sfx",
+   "text": "“गाड़ी” और “गुरुकुल” की पहली ग पर वही छोटी सुनहरी टनन।",
+   "sfx_idx": 10,
+   "after_dialogue_idx": 27,
+   "before_dialogue_idx": 28,
+   "placeholder_ms": 950,
+   "cue_signature_sha256": "91095ed10e45f6ecd188b4c6ea45018f87f9482f9bf9570d2fab5aedbaf1f65e",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_010_91095ed10e45f6ecd188b4c6ea45018f87f9482f9bf9570d2fab5aedbaf1f65e.mp3",
+   "spoken": false,
+   "timing_limitation": "table-read guide is inserted immediately after the isolated source line; final word-onset placement requires line-level alignment"
+  },
+  {
+   "order": 43,
+   "scene": 2,
+   "kind": "sfx",
+   "text": "कुकु की गहरी साँस। तीन सुनहरी रेखाएँ गूँजते हुए जुड़ती हैं। पूरा ग पत्थर में भारी ठक से बैठता है।",
+   "sfx_idx": 11,
+   "after_dialogue_idx": 31,
+   "before_dialogue_idx": 32,
+   "placeholder_ms": 2600,
+   "cue_signature_sha256": "67a84a8be941fc28988121c8ee10b573079270b07b56d4785913fecd8b78ef07",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_011_67a84a8be941fc28988121c8ee10b573079270b07b56d4785913fecd8b78ef07.mp3",
+   "spoken": false
+  },
+  {
+   "order": 46,
+   "scene": 2,
+   "kind": "sfx",
+   "text": "पाँच कड़ों की पाँच हल्की टनन।",
+   "sfx_idx": 12,
+   "after_dialogue_idx": 33,
+   "before_dialogue_idx": 34,
+   "placeholder_ms": 1400,
+   "cue_signature_sha256": "aeb8012e07d0351cde14925f1cafdb818115b664257dbeff1865c15688479e88",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_012_aeb8012e07d0351cde14925f1cafdb818115b664257dbeff1865c15688479e88.mp3",
+   "spoken": false
+  },
+  {
+   "order": 54,
+   "scene": 3,
+   "kind": "sfx",
+   "text": "लकड़ी के पहिए पत्थर से सुनहरी सतह पर चढ़ते हैं। उनकी आवाज़ साफ़ बदलती है।",
+   "sfx_idx": 13,
+   "after_dialogue_idx": 40,
+   "before_dialogue_idx": 41,
+   "placeholder_ms": 1800,
+   "cue_signature_sha256": "89c34ec456b3b2bf2f870a336e4d4f90a45b6667e4beceb05157eecf77b66536",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_013_89c34ec456b3b2bf2f870a336e4d4f90a45b6667e4beceb05157eecf77b66536.mp3",
+   "spoken": false
+  },
+  {
+   "order": 56,
+   "scene": 3,
+   "kind": "sfx",
+   "text": "दो और पहिए सुनहरी सतह पर चढ़ते हैं।",
+   "sfx_idx": 14,
+   "after_dialogue_idx": 41,
+   "before_dialogue_idx": 42,
+   "placeholder_ms": 1000,
+   "cue_signature_sha256": "ee9da4957b58f2b0d38d4d7d721cc1a0e89a84b0e204d8b8da3de51310e6093e",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_014_ee9da4957b58f2b0d38d4d7d721cc1a0e89a84b0e204d8b8da3de51310e6093e.mp3",
+   "spoken": false
+  },
+  {
+   "order": 58,
+   "scene": 3,
+   "kind": "sfx",
+   "text": "ऊपर चील के पंख गुजरते हैं। उसके पंजों में चोरी की घंटी झनकती हुई दूर जाती है।",
+   "sfx_idx": 15,
+   "after_dialogue_idx": 42,
+   "before_dialogue_idx": 43,
+   "placeholder_ms": 2200,
+   "cue_signature_sha256": "87f2c75fa1a32312fcd37f2deb8a94e956e28f1aade947d46ee23b821cdc74a2",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_015_87f2c75fa1a32312fcd37f2deb8a94e956e28f1aade947d46ee23b821cdc74a2.mp3",
+   "spoken": false
+  },
+  {
+   "order": 63,
+   "scene": 3,
+   "kind": "sfx",
+   "text": "पहिए धीमे होते हैं और रुक जाते हैं। गाय लंबी राहत की साँस छोड़ती है।",
+   "sfx_idx": 16,
+   "after_dialogue_idx": 46,
+   "before_dialogue_idx": 47,
+   "placeholder_ms": 2200,
+   "cue_signature_sha256": "36724c9e10920c6c36e32379bc63fc10597c7c4ad91633a14597191a5b3b51c2",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_016_36724c9e10920c6c36e32379bc63fc10597c7c4ad91633a14597191a5b3b51c2.mp3",
+   "spoken": false
+  },
+  {
+   "order": 69,
+   "scene": 4,
+   "kind": "sfx",
+   "text": "पाँच कड़ों की पाँच अलग टनन। पाँच नरम सुनहरी लहरें एक-एक करके शांत होती हैं।",
+   "sfx_idx": 17,
+   "after_dialogue_idx": 51,
+   "before_dialogue_idx": 52,
+   "placeholder_ms": 2200,
+   "cue_signature_sha256": "59befccc8b0dd2281b7f9e8b70c732410a992901d41cf590343b72646d52fc66",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_017_59befccc8b0dd2281b7f9e8b70c732410a992901d41cf590343b72646d52fc66.mp3",
+   "spoken": false
+  },
+  {
+   "order": 72,
+   "scene": 4,
+   "kind": "sfx",
+   "text": "गाय नरमी से रंभाती है। कैस्टर सूखी घास पर धप से बैठता है।",
+   "sfx_idx": 18,
+   "after_dialogue_idx": 53,
+   "before_dialogue_idx": 54,
+   "placeholder_ms": 1600,
+   "cue_signature_sha256": "ddcb9da4964cc65b9f34ae6d260d503634a0f5fd9bde1b5a6b861506ad0bd605",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_018_ddcb9da4964cc65b9f34ae6d260d503634a0f5fd9bde1b5a6b861506ad0bd605.mp3",
+   "spoken": false
+  },
+  {
+   "order": 76,
+   "scene": 4,
+   "kind": "sfx",
+   "text": "घर-वापसी की डोर की छोटी दो-सुरी झंकार। दादी की आवाज़ हल्की दूर से आती है।",
+   "sfx_idx": 19,
+   "after_dialogue_idx": 56,
+   "before_dialogue_idx": 57,
+   "placeholder_ms": 1800,
+   "cue_signature_sha256": "d2327af5ced11fdcf58cfd7c8f4c99cafbb1b350e5f05f887ae0bf39bfc2507e",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_019_d2327af5ced11fdcf58cfd7c8f4c99cafbb1b350e5f05f887ae0bf39bfc2507e.mp3",
+   "spoken": false
+  },
+  {
+   "order": 79,
+   "scene": 4,
+   "kind": "sfx",
+   "text": "पत्थर की छोटी कुंडी खुलती है। गाय के खुर पत्थर से घास पर उतरते हैं।",
+   "sfx_idx": 20,
+   "after_dialogue_idx": 58,
+   "before_dialogue_idx": 59,
+   "placeholder_ms": 1800,
+   "cue_signature_sha256": "a9a6da52f2c92c2a6eb65ab99ab6c74d0f294fddf59a2ce3e8a99297c0117759",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_020_a9a6da52f2c92c2a6eb65ab99ab6c74d0f294fddf59a2ce3e8a99297c0117759.mp3",
+   "spoken": false
+  },
+  {
+   "order": 84,
+   "scene": 5,
+   "kind": "sfx",
+   "text": "बड़े पंख पत्थर के पास रुकते हैं। चील के पंजे मीनार पर खुरचते हैं। चोरी की घंटी हल्के से खनकती है।",
+   "sfx_idx": 21,
+   "after_dialogue_idx": 62,
+   "before_dialogue_idx": 63,
+   "placeholder_ms": 2300,
+   "cue_signature_sha256": "b8a41050a9805ee92e985ec97c85a1a14300c310d5cdd9a29324939a3d0e9486",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_021_b8a41050a9805ee92e985ec97c85a1a14300c310d5cdd9a29324939a3d0e9486.mp3",
+   "spoken": false
+  },
+  {
+   "order": 86,
+   "scene": 5,
+   "kind": "sfx",
+   "text": "चील घंटी की डोरी पीछे खींचती है। काँसा हल्का काँपता है। पूरी टनक से ठीक पहले कट।",
+   "sfx_idx": 22,
+   "after_dialogue_idx": 63,
+   "before_dialogue_idx": 64,
+   "placeholder_ms": 2200,
+   "cue_signature_sha256": "f64ce957196a3adf84b9c8c7888589950ca4159bf6691706deccd4e122b3016f",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_022_f64ce957196a3adf84b9c8c7888589950ca4159bf6691706deccd4e122b3016f.mp3",
+   "spoken": false
+  }
+ ]
+}

@@ -47,6 +47,10 @@ type editSpec = {
 
 type videoSpec = {
   scene: string,
+  /* Does the camera itself travel? A locked-off shot must not be handed rules
+     about the ground streaming past — they contradict the camera and the model
+     has to reconcile them. */
+  cameraTravels: bool,
   /* who is actually in this shot. Rendered by the same law as stills — colour,
      scale, bracelet, exactly-one — so a clip cannot name a character it does
      not contain. */
@@ -113,7 +117,7 @@ let subjectText = s =>
     colorOf(name) ++
     " paper dragon, " ++
     (form == Great
-      ? "GREAT form: ENORMOUS — a grown man would reach only to her knee. She dwarfs anything man-made at ground level in the frame, and must never read as a small or medium-sized creature, nor as merely animal-sized"
+      ? "GREAT form: ENORMOUS IN THE WORLD — a grown man would reach only to her knee, and she towers over anything man-made beside her. This is her size in the world, NOT her size in the picture: how large she appears in frame is decided by how far away the camera is, so in a wide shot she may be a small figure and still be enormous"
       : "small everyday form: a small paper dragon child, no taller than a human child") ++
     ", wearing a golden कड़ा on one forearm. " ++ doing
   | Gauri({doing}) =>
@@ -124,6 +128,19 @@ let subjectText = s =>
     "- DADI — the paper grandmother bird from the attached character sheet. " ++ doing
   | Cheel({doing}) =>
     "- CHEEL — a great paper eagle, sharp-eyed, imposing. " ++ doing
+  | Prop({what, doing}) => "- " ++ what ++ " — " ++ doing
+  }
+
+/* Short cast form for CLIPS: the start frame already shows colour, size, design
+   and bracelet, so repeating them makes the model reconcile a paragraph with a
+   picture. Name and action only. */
+let castLine = s =>
+  switch s {
+  | Dragon({name, doing}) => "- " ++ nameOf(name) ++ " — " ++ doing
+  | Gauri({doing}) => "- GAURI the cow — " ++ doing
+  | RishiMuni({doing}) => "- RISHI — " ++ doing
+  | Dadi({doing}) => "- DADI — " ++ doing
+  | Cheel({doing}) => "- CHEEL the eagle — " ++ doing
   | Prop({what, doing}) => "- " ++ what ++ " — " ++ doing
   }
 
@@ -195,34 +212,56 @@ let editPrompt = (e: editSpec) =>
     "\n",
   )
 
+/* Travel may begin, quicken or slow — what it may never do is turn round. The
+   earlier wording forbade slowing to a stop, which made a launch from standing
+   illegal. The ground-flow clause only makes sense when the camera moves, so it
+   is emitted separately. */
 let directionLaw = [
-  "DIRECTION IS FIXED: whatever travels in this shot keeps ONE direction for the whole clip — it never slows to a stop and reverses, and never drifts backwards relative to the ground. The camera likewise never reverses its travel or turns to look back the way it came.",
-  "the ground moves past in one consistent direction the entire time — it must never flow the other way",
+  "TRAVEL KEEPS ONE DIRECTION: whatever moves may start from rest, speed up or slow down, but its path always continues the same way — it never reverses.",
+]
+let travellingCameraLaw = [
+  "the camera keeps one direction of travel too — it never reverses or turns to look back the way it came, and the ground streams past in one consistent direction the entire time",
 ]
 
-let paperPhysics = [
-  "papercraft world physics: stiff cut-paper wings flex slightly at their folds, motion has real weight",
-  "the golden कड़ा stays on the same forearm as in the start image",
-]
+let paperPhysics = ["motion has real weight"]
+let dragonContinuity = ["the golden कड़ा stays on the same forearm as in the start image"]
+let hasDragon = cast =>
+  Js.Array2.some(cast, s =>
+    switch s {
+    | Dragon(_) => true
+    | _ => false
+    }
+  )
 
 let videoPrompt = (v: videoSpec) =>
   Js.Array2.joinWith(
-    [
-      "SCENE: " ++ v.scene,
-      Js.Array2.length(v.cast) > 0
-        ? "IN THIS SHOT — and nobody else:\n" ++ Js.Array2.joinWith(Js.Array2.map(v.cast, subjectText), "\n")
-        : "IN THIS SHOT: no characters at all.",
-      "FIRST FRAME: the provided start image IS frame one — every character already in position; no empty establishing frame, no delayed reveal.",
-      "FORMAT: SINGLE CONTINUOUS TAKE — no cuts, no fades, no transitions.",
-      "BLOCKING:\n" ++ bullets(v.blocking),
-      "ACTION TIMING:\n" ++ bullets(v.beats),
-      "CAMERA: " ++ v.camera,
-      "PHYSICS:\n" ++ bullets(Js.Array2.concat(Js.Array2.concat(directionLaw, paperPhysics), v.physics)),
-      "LIGHTING: " ++ v.lighting,
-      "AUDIO: " ++ v.audio,
-      "STYLE: " ++ styleLaw ++ ". The whole clip stays in this medium — no drift to 2D animation, no photorealism.",
-      "HARD RULES:\n" ++ bullets(Js.Array2.concat(negatives, v.extraRules)),
-    ],
+    Js.Array2.filter(
+      [
+        "SCENE: " ++ v.scene,
+        Js.Array2.length(v.cast) > 0
+          ? "IN THIS SHOT — and nobody else:\n" ++ Js.Array2.joinWith(Js.Array2.map(v.cast, castLine), "\n")
+          : "IN THIS SHOT: the place itself, empty.",
+        "FIRST FRAME: the provided start image IS frame one — the action begins from exactly this position.",
+        "FORMAT: one single unbroken take.",
+        "BLOCKING:\n" ++ bullets(v.blocking),
+        "ACTION TIMING:\n" ++ bullets(v.beats),
+        "CAMERA: " ++ v.camera,
+        "PHYSICS:\n" ++
+        bullets(
+          Js.Array2.concatMany(directionLaw, [
+            v.cameraTravels ? travellingCameraLaw : [],
+            paperPhysics,
+            hasDragon(v.cast) ? dragonContinuity : [],
+            v.physics,
+          ]),
+        ),
+        "LIGHTING: " ++ v.lighting,
+        v.audio == "" ? "" : "AUDIO: " ++ v.audio,
+        "STYLE: every frame keeps exactly the cut-paper papercraft look of the start image.",
+        Js.Array2.length(v.extraRules) > 0 ? "HARD RULES:\n" ++ bullets(v.extraRules) : "",
+      ],
+      l => l != "",
+    ),
     "\n",
   )
 

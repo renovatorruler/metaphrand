@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-08-12T14:06:28.817295Z",
+    "display_name": "Nano Banana Pro",
+    "id": "dca30bc7-a06f-4001-8fe5-76a29bb79590",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_140628_dca30bc7-a06f-4001-8fe5-76a29bb79590_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "1:1",
+      "batch_size": 1,
+      "height": 2048,
+      "input_image": null,
+      "input_images": [],
+      "prompt": "Documentary photograph, golden hour: a real elderly Rajasthani folk singer (bhopa) around 75 years old, lean and deeply weathered, sun-creased dark skin, white beard tied with a small red thread, large saffron-orange Malwa turban, worn red cotton robe, standing in strict profile at a small roadside stone shrine at dusk, singing mid-phrase with mouth open and eyes closed. He plays a ravanhatta the true bhopa way: the instrument held VERTICALLY against his chest and left shoulder, the round coconut-shell resonator low against his body at belt height, the long bamboo neck pointing straight up past his shoulder, his left hand fingering the strings partway up the neck, his right hand drawing a horsehair bow HORIZONTALLY across the strings near the resonator with a relaxed underhand grip, mid-stroke. Many thin faded red sacred threads tied on his right bowing wrist. A rolled painted cloth scroll leans against the shrine behind him, a small burning oil lamp at his feet. No flute anywhere. Natural available light only, warm low sun, long shadows, dusty haze, shot on 35mm documentary film, shallow depth of field, grain, National Geographic field-recording realism. No text, no letters, no writing anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2048
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_140628_dca30bc7-a06f-4001-8fe5-76a29bb79590.png",
+    "status": "completed"
+  }
+]

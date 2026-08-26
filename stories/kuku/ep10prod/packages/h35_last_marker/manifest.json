@@ -1,0 +1,35 @@
+{
+  "shot": "h35_last_marker",
+  "kind": "still",
+  "model": "nano_banana_pro",
+  "aspect_ratio": "16:9",
+  "resolution": "2k",
+  "attachments_in_order": [
+    {
+      "slot": "1",
+      "role": "style_reference",
+      "file": "(upload id, see 1_style_reference.txt)"
+    },
+    {
+      "slot": "2",
+      "role": "backplate",
+      "file": "2_backplate.png",
+      "source": "../stories/kuku/ep10prod/sets/lane_flat_approach_plate.png"
+    },
+    {
+      "slot": "3",
+      "role": "reference_2",
+      "file": "3_reference_2.png",
+      "source": "../stories/kuku/ep10prod/stills/h29_ga_stands.png"
+    }
+  ],
+  "prompt_file": "prompt.txt",
+  "derived_notes": [
+    "story beat TheStop",
+    "ग COMPOSITED LOCALLY — generated frame must leave the stone empty",
+    "lane position 36 m — plate and progression derived",
+    "cart clock 36 m",
+    "SET PLATE attached: ../stories/kuku/ep10prod/sets/lane_flat_approach_plate.png",
+    "lighting from the dusk clock"
+  ]
+}

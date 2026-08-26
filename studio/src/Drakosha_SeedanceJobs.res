@@ -126,6 +126,15 @@ let jobCarrying = (jobId, shots, cast, props, startFrame, durationSec, model, ca
   endImage: None,
 }
 
+/* A close-up built from references alone: no start frame, but recorded lines.
+   2026-08-26, for v10brovi — the punch-in on Вася-мама's boil. */
+let jobCarryingNoStart = (jobId, shots, cast, props, durationSec, model, carries): jobSpec => {
+  record: {jobId, shots, cast, props, startImage: None, durationSec, creative: "", carriesLines: carries},
+  creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
+  model,
+  endImage: None,
+}
+
 let loopJob = (jobId, shots, cast, props, frame, durationSec, model): jobSpec => {
   record: {jobId, shots, cast, props, startImage: Some(frame), durationSec, creative: "", carriesLines: []},
   creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
@@ -528,6 +537,267 @@ let all: array<jobSpec> = [
     15,
     Mini,
     ["line63a_VASYA_mama-vzhukh.mp3"],
+  ),
+  /* THE EYEBROWS — SP120-121. Мама's dry line, his sulk, and the ВЖУХ.
+
+     TWO SPEAKERS, ONE SHOT. The line and the reaction have to share a frame or
+     the joke is split across a cut and dies. Мама speaks 1.0-3.1, he shouts
+     6.2-7.4, and the four seconds between are the sulk building.
+
+     THE SHOT STOPS BEFORE THE MAGIC. A transformation is a light event and V05
+     proved it needs its own space, so this one ends on him rigid and glaring —
+     and the creative says outright that nothing glows, flashes or changes shape
+     here, because a model handed a shouted ВЖУХ will otherwise invent one.
+
+     ANGER, AND IT IS A CHILD'S ANGER. Fists driven down at the sides, shoulders
+     hunched to the ears, chin tucked, everything held in — a small boy who has
+     been made fun of, wearing a grown woman. Мама stays SATISFACTION throughout
+     and is never rattled; the whole gag is that only one of them is upset. */
+  /* THE RESCUE — SP118-119. Мама walks in and takes the babies off him.
+
+     ONE SHOT, NOT TWO. Her arrival and both lifts are a single continuous
+     action; cutting into it throws away the entrance, which is the whole point
+     — a second identical woman walking calmly into frame.
+
+     THE MODEL HAS NO CONTEXT AND THAT IS USABLE. It does not need to be told
+     this is his mother or that he is a boy inside her body. It needs the
+     picture: two women dressed identically, same height, same build,
+     distinguishable ONLY by the eyebrows — huge and shaggy on one, ordinary on
+     the other. Story explanation would cost characters and buy nothing.
+
+     ЕЁ ЛИЦО — SATISFACTION, NOT ALARM. Мама has done this a thousand times and
+     is quietly amused. That is the joke: the panic is entirely on his side.
+
+     PLATE IS V08'S LAST FRAME — both babies already clamped on, so the shot
+     opens mid-crisis with nothing to establish. */
+  jobCarrying(
+    "v11laugh",
+    "SH136",
+    [Frosya],
+    [Pencil],
+    "2026-08-26_V11_frosya-laugh_start.png",
+    9,
+    Mini,
+    ["line68_FROSYA_laugh.mp3"],
+  ),
+  jobCarrying(
+    "v10brovi",
+    "SH133-135",
+    [Mama, VasyaMama, Vasya, Rusya, Musya],
+    [TwoMamas],
+    "2026-08-26_V10_brovi_start.png",
+    14,
+    Mini,
+    ["line66_MAMA_brovi.mp3", "line67_VASYAMAMA_vzhukh.mp3"],
+  ),
+  endJobCarrying(
+    "v09rescue",
+    "SH131-132",
+    [VasyaMama, Mama, Rusya, Musya],
+    [TwoMamas],
+    "2026-08-26_V09_mama-rescue_start.png",
+    "2026-08-26_V09_rescue_END_author.png",
+    12,
+    Mini,
+    ["line65_VASYAMAMA_ya-ne-mama.mp3"],
+  ),
+  /* THEY REACH HER — SP116. The babies arrive at Вася-мама and take hold.
+
+     WHAT SHE IS DOING — SHE IS CELEBRATING, AND IT IS THE AUTHOR'S IDEA. V06 and
+     V07 put nineteen seconds between the transformation and this shot, so a held
+     pose reads as a freeze. The author, 2026-08-26: "maybe he's jumping around
+     screaming, Ya mama, ya mama. Сработало" — and, on the silence generally:
+     "it's a show that's supposed to help kids learn Russian, and there is
+     awfully lots of silent scenes for this purpose." She is right on both. The
+     raised hands in the plate are a victory pose, which needs no explaining, and
+     the scene gets Russian in it.
+
+     I FIRST CLAIMED THE PLATE SHOWED HER HOLDING THE MATCH AND HER BRAID. It
+     does not — her hands are open and empty, the braid hangs untouched beside
+     them, and the match is sitting in the apron pocket where the character sheet
+     puts it. Nothing in V05 ever told her to pick anything up. That was invented,
+     and it is the same failure as the geography errors: describing what I expect
+     instead of what the frame shows.
+
+     THE SHOT RUNS ON PAST THE GRAB. The author: "we should not just cut it on
+     babies taking a bite, we should continue with the scene where he's
+     complaining about them eating him." So SP117 plays in the same setup rather
+     than as a separate shot.
+
+     TIMED ON THE REAL RECORDINGS, NOT ON GUESSES. line63b is 3.28s and line64 is
+     4.56s, both in ВАСЯ's voice — 314Hz and 324Hz against his cast reference of
+     305Hz, a climb from baseline to excited to panicking. The beats are written
+     to those numbers: first line 0.5-3.8, babies enter at 2.9 while she is still
+     shouting, grab at 5.2, her head down at 6.0, second line 6.8-11.4, and the
+     last stretch is Муся chewing the apron.
+
+     GEOGRAPHY OFF ROOM_MAP v7. Camera stands at Фрося's side of the work area,
+     so Вася-мама shows the braid TO THE LENS. The rug is north-west of her, so
+     the babies enter SCREEN-LEFT and take her RIGHT flank while she is turned
+     toward the camera and away from them.
+
+     NO CEILING, STATED AS A LOCK. The author's repaint removed V05's low plank
+     ceiling and re-hung the string lights on a wire across the stone wall. That
+     is a change the model will happily undo, so the BACKGROUNDS block says
+     outright that the wall runs up out of frame and no beams, planks or roof
+     appear.
+
+     FIRST JOB UNDER THE EMOTION GATE. Each face is named and differentiated by
+     WHICH PART does the work, which is the v07table lesson: Вася-мама SHOCK
+     (mouth and brows), Руся GLEE (mouth and eyes), Муся DETERMINATION (jaw and
+     brow, and she never opens her mouth). Not three volumes of the same
+     instruction. */
+  jobCarrying(
+    "v08babies",
+    "SH128-130",
+    [VasyaMama, Rusya, Musya],
+    [],
+    "2026-08-26_V08_babies-arrive_start.png",
+    15,
+    Mini,
+    ["line63b_VASYAMAMA_ya-mama.mp3", "line64_VASYAMAMA_oni-menya-edyat.mp3"],
+  ),
+  /* ФРОСЯ SEES IT — the reaction the shot list never had. The author, on the
+     table wide: "Фрося is not in the shot because she was next to him when the
+     transformation happened. It's almost weird to leave her out. It feels like
+     her reaction shot should have been first." So this cuts between V05 and
+     V07table.
+
+     THE EYELINE CLIMB IS THE SHOT. This is the only place in the sequence where
+     somebody at floor level registers the new height: her eyes start level with
+     the lens, where a sitting boy's face was, and end far above it. The camera
+     stays LOCKED and low — if it tilts up with her we lose the face doing the
+     work, and the height stops being something a person noticed and becomes
+     something the camera did.
+
+     SHE IS NOT ASTONISHED THAT MAGIC WORKS. She owns the pencil and made a
+     poppy out of nothing four shots ago. What floors her is the SCALE: she wrote
+     МАК and got a flower, he wrote МАМА and got a whole person, and she is the
+     only one in the house who can measure the difference. So the shot ends on
+     her studying it — gaping first, then mouth closed and brows down and eyes
+     working — which is a change the gate accepts and is also the opposite of a
+     punchline.
+
+     NO LAUGH ANYWHERE IN THIS SHOT. The author, 2026-08-26: "I disagree that
+     there should be any hint of future laughter. In the end, she's laughing
+     because of the whole baby incident." A first draft had the laugh arriving
+     here and caught behind her hand. That both SPENDS the collapse and
+     MIS-ATTRIBUTES it — she is not laughing at the transformation, she is
+     laughing at the babies eating him. The prompt now carries positive locks
+     saying her mouth never turns up after the first grin goes.
+
+     THE AUTHOR'S PLATE, 2026-08-26, AND IT IS THE MAP'S «КАДР 3»: camera at the
+     table end looking back at Фрося with the BACK PLATE behind her, which
+     ROOM_MAP_v4 says we already have. ВАСЯ-МАМА IS IN THE FRAME — the tall
+     out-of-focus dusty-rose skirt with the square red-stitched patch at the
+     extreme left edge, which matches C-VASMAMA-01 exactly. That occlusion is
+     what makes the shot: her skirt fills the height of the picture and Фрося's
+     head reaches a third of the way up, so the height is told by COMPOSITION
+     and not by an eyeline climb I have to ask the model to animate.
+
+     WHICH FLIPS THE BEAT, AND FOR THE BETTER. The plate already has her
+     grinning up at the standing woman, so the shot no longer climbs — it opens
+     on the grin and puts it out. She told him to spell it himself and it
+     worked, and she is pleased with herself for exactly one moment before what
+     he actually made lands on her. Two beats, four seconds.
+
+     SHE IS NOT BOUND AND NOT NAMED, even though she is in frame. Only a skirt
+     is visible, the prompt describes it as a soft out-of-focus shape and nails
+     it in place, and binding her sheet would invite the model to bring the
+     rest of her into the picture.
+
+     ФРОСЯ IS page-05, «ДО карандаша», for the same reason V02 is: the pencil
+     lies on the floorboards in this plate, not in her hair. ВАСЯ-МАМА is not
+     bound and never named — she is past the lens, off frame, and the prompt
+     says only that whoever she is looking at never enters the picture. */
+  job(
+    "v06frosya",
+    "SH124B",
+    [Frosya],
+    [Pencil],
+    Some("2026-08-26_V06_frosya-reaction_start_v2.png"),
+    4,
+    Mini,
+  ),
+  /* THE TABLE TURNS — SP115. Everyone at the table looks screen-right at the
+     thing that just happened, off frame.
+
+     FOUR DIFFERENT FACES, NOT ONE SHARED ONE. The author: "I feel like it would
+     be weird if they all stared in disbelief, since I'm sure Grandma would not
+     be in disbelief." She is right and it is a story point. Яга gave him the
+     gift; she is the one person in the room who knows exactly what she is
+     looking at, so she is the one whose face does not fall — and the wide is
+     funnier for it, because everybody freezes and one person keeps drinking.
+     Папа carries the plain shock. Мама is not shocked at all: she is looking at
+     her own face, which is why the eyebrow check reads as CHECKING rather than
+     as one more beat of astonishment.
+
+     NO NEW PLATE. The shot is a CHANGE from a known state, which is what a start
+     frame is for; the scene's own opening plate already holds all five of them
+     mid-conversation, and rendering them pre-frozen would throw away the turn.
+     Same five references SHOT1 used, same start frame.
+
+     WHERE SHE IS STANDING COMES FROM THE MAP, NOT FROM MEMORY. ROOM_MAP_v4:
+     the РАБОЧАЯ ЗОНА sits SOUTH of the table, toward the camera and a little
+     east, and the map's own arrow runs the babies from their rug diagonally
+     down-right into it. So Вася-мама is near the LENS, just past its right-hand
+     side — not out at the far right edge on the table's plane.
+
+     THE EYELINE IS LEVEL FOR THE ADULTS AND UP ONLY FOR THE BABIES, AND THAT
+     COMES OUT OF THE SCALE REGISTRY RATHER THAN OUT OF MY HEAD. I got this
+     wrong twice: first "low", because I read her floor POSITION off the map and
+     never converted it into a HEIGHT; then "craning up", after the author asked
+     why seated people would look down at a standing woman — an overcorrection I
+     made without doing the arithmetic either.
+
+     The arithmetic, from OBJECT_SCALE_REGISTRY_v1: Мама stands 9.91cm, so her
+     eyes sit near 9. The adults are on spools with their eyes near 6 — a rise of
+     about 3cm across roughly 20cm of floor between table and work area, which is
+     about 8 degrees. That is level with a hint of lift, not a craned neck. The
+     babies are the exception at roughly 3cm of eye height: about 17 degrees,
+     which does read, so they are the only two whose heads tip back.
+
+     THE LESSON IS THE GENERAL ONE. An angle is a ratio, and I twice supplied one
+     side of it and guessed the other. The registry holds the heights and the map
+     holds the distances; neither answer is available from either document
+     alone.
+
+     THAT INVERTS THE TURNS, WHICH IS WHAT THE FIRST DRAFT GOT WRONG. Папа sits
+     at the screen-right end already facing screen-left; a turn to the right
+     EDGE swings him away from the camera and takes the biggest laugh in the
+     shot with it. Turning to the near point brings every face round to the
+     FRONT of the shot instead: Папа travels furthest and ends almost square to
+     the lens, Мама and Яга were already facing that way and only come forward.
+     The babies then crawl toward camera and out of the bottom-right corner,
+     which is the map's arrow exactly.
+
+     ВАСЯ-МАМА IS NOT BOUND AND IS NEVER NAMED. The prompt says only that the
+     thing they look at never enters frame. Naming her is an instruction to
+     draw her. This worked: she never appeared.
+
+     SHOT AND IN THE CUT, BUT NOT APPROVED. v1 came back 2026-08-26 with the
+     staging right and the performances wrong: all three adults landed on the
+     same worried face, and Мама's close-up reads as a scowl. The author is
+     keeping it and will reshoot only if allowance remains at the end of the
+     show. The full defect list and the reshoot brief live in
+     production/seedance_batch/2026-08-26_V07_DEFECTS_reshoot-brief.md — read it
+     BEFORE touching this creative again.
+
+     THE ONE-LINE LESSON, because it generalises past this shot: three different
+     INTENTIONS written as three overlapping sets of ANATOMY collapse into one
+     face. Папа's "brows shoot up", Мама's "brows draw in", Яга's "one eyebrow
+     climbs" are the same instruction at three volumes, and the model averaged
+     them. Differentiate by which PART of the face does the work — Папа the
+     mouth, Яга the eyes and the cup, Мама the closed mouth and the hand — not
+     by degrees of the same part. */
+  job(
+    "v07table",
+    "SH125-127",
+    [Papa, YagaDomovoy, Mama, Rusya, Musya],
+    [],
+    Some("2026-08-22_S8_SHOT1_table_start.png"),
+    15,
+    Mini,
   ),
   jobCarrying(
     "v05vzhukh",

@@ -1,0 +1,38 @@
+[
+  {
+    "created_at": "2026-08-16T21:22:03.625827Z",
+    "display_name": "Wan 2.7",
+    "id": "357d6913-9bb2-4215-b462-f815528ca6c8",
+    "job_type": "wan2_7",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "16:9",
+      "duration": 10,
+      "height": 768,
+      "medias": [
+        {
+          "data": {
+            "id": "fe878ee1-b7a7-4f66-b6c2-fd14953cb8ab",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/fe878ee1-b7a7-4f66-b6c2-fd14953cb8ab_resize.jpg"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "bab54d52-e486-41df-8cf3-2c736c927e81",
+            "type": "audio_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/bab54d52-e486-41df-8cf3-2c736c927e81.mp3"
+          },
+          "role": "audio"
+        }
+      ],
+      "prompt": "A Rajasthani folk singer performing, his mouth driven by the audio. The passage is an alap that BEGINS SOFT AND BUILDS: at the start his lips are only barely parted and the sound is quiet and inward, and as the note swells his mouth opens gradually wider, reaching its fullest only at the loudest point of the phrase, then easing closed again between phrases. The size of his mouth opening must follow the loudness of the voice at every moment — small when soft, wide only when loud. His throat and chest work with the breath; his head tilts back as the note rises. His bow hand stays still and resting on the instrument — he is singing, not bowing, and the bow never crosses the strings. Saffron turban tail and red wrist threads stream in the wind, kurta ripples. Locked-off camera, no pan or zoom, single continuous take. Everything else exactly as the start frame. Photoreal, cinematic.",
+      "resolution": "720p",
+      "width": 1344
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_212203_357d6913-9bb2-4215-b462-f815528ca6c8.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_212203_357d6913-9bb2-4215-b462-f815528ca6c8_thumbnail.webp"
+  }
+]

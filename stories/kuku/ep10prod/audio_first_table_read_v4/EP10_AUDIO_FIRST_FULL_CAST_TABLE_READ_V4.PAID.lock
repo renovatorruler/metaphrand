@@ -1,0 +1,4 @@
+Episode 10 V4 audio-first paid-run lock.
+plan_sha256=bb952140f176b37c09db5a0f0b4c48cdcd4fb02af8317e584a81aa64eaf4091c
+missing_provider_requests_at_start=39
+This persistent lock prevents accidental duplicate ElevenLabs charges.

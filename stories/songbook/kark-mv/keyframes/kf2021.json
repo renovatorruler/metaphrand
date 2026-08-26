@@ -1,0 +1,39 @@
+[
+  {
+    "created_at": "2026-08-14T03:50:39.356732Z",
+    "display_name": "Nano Banana Pro",
+    "id": "640091a1-9ba7-453f-b453-50b57eb88961",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260814_035039_640091a1-9ba7-453f-b453-50b57eb88961_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "d773277c-fba3-43a7-bb16-b052322e5512",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/d773277c-fba3-43a7-bb16-b052322e5512_resize.jpg"
+        },
+        {
+          "id": "07ae601b-5c22-4f32-b4eb-a9af22ab7482",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/07ae601b-5c22-4f32-b4eb-a9af22ab7482_resize.jpg"
+        },
+        {
+          "id": "d1e75b8c-92c8-4d9d-98a4-29790ff71fe4",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/d1e75b8c-92c8-4d9d-98a4-29790ff71fe4_resize.jpg"
+        }
+      ],
+      "prompt": "WIDE 16:9 LANDSCAPE cinematic film still, present-day-minus-five-years (about 2021), photoreal. Compose: the stone Tejaji shrine from the THIRD reference image — same shrine, same horseman-and-cobra idol, same oil lamp, thickly wrapped in red sacred threads — standing at the LEFT of frame at a North Indian village fair (Malwa region) at night, string lights and a lit ferris wheel behind. At the right of frame in profile facing the shrine: the MAN from the FIRST reference image, healthy, about 55, short grey-flecked hair, NO cap, NO hospital band, wearing a warm mustard cotton kurta, holding his wrist out; the WOMAN from the SECOND reference image, about 50, in a teal cotton sari with the pallu over her head, small gold nathni on her LEFT nostril, red bindi, tying a fresh red sacred thread onto his wrist. Between and around them: TWO SMALL GRANDCHILDREN — a girl of about four holding the grandmother's sari, and a boy of about six standing on tiptoe to watch the knot being tied. ALL PEOPLE NORTH INDIAN FROM MALWA. Warm digital photo look, slightly oversharpened phone-camera aesthetic of the early 2020s. No readable text or signage anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260814_035039_640091a1-9ba7-453f-b453-50b57eb88961.png",
+    "status": "completed"
+  }
+]

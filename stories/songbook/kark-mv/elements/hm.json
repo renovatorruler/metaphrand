@@ -1,0 +1,29 @@
+[
+  {
+    "created_at": "2026-08-12T22:28:50.768255Z",
+    "display_name": "Nano Banana Pro",
+    "id": "33fb33fe-412e-4ebf-a940-d8b53934e9e7",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_222850_33fb33fe-412e-4ebf-a940-d8b53934e9e7_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "3:4",
+      "batch_size": 1,
+      "height": 2400,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "dc399998-82dd-4a1b-bbcd-006f0c71baa7",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/dc399998-82dd-4a1b-bbcd-006f0c71baa7_resize.jpg"
+        }
+      ],
+      "prompt": "The SAME MAN as the reference image, at age 45 — identical bone structure, same brows, same warm intelligent eyes and dry half-smile, but twenty years younger: fuller face, black hair with the first grey at the temples, short neat hair, healthy and strong. Wearing a simple light-blue cotton shirt. Sharp photorealistic portrait photograph, natural light, plain neutral background, 85mm look, front-facing, looking into the lens. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1792
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_222850_33fb33fe-412e-4ebf-a940-d8b53934e9e7.png",
+    "status": "completed"
+  }
+]

@@ -1,0 +1,16 @@
+SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.
+STYLE: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, non-photorealistic, illustrated, not a photo. The FIRST attached image is the art style; match it EXACTLY.
+PALETTE: bright, vibrant, warm storybook palette — never sepia, never muted, never monochrome.
+CHARACTER REFERENCES: every attached image after the first is a locked character design; match each EXACTLY, including the golden bracelet.
+SCENE: ऋषि opens the drill with instructions.
+SUBJECTS:
+- RISHI — the paper guru crane from the attached character sheet. Exactly ONE in frame. stands at the edge of the flight courtyard, staff planted on the flagstones, one hand raised mid-instruction; the flight ring soft behind him
+SETTING: THE FLIGHT COURTYARD — an open paper-flagstone courtyard at the top of the lane. Fixed landmarks, always in these places: FLIGHT RING (the inverted stone ring of layered paper arcs, standing upright — FOURTEEN METRES across, wide enough for an enormous dragon to fly through with wings spread; never a human-sized hoop); BELL ARCH (the stone arch carrying the bronze bell, RIGHT side and high — its span is ten metres so a flying dragon can pass beneath it; the bell hangs at its crown and must be visible); MARKED FLAGSTONE (the launch mark: a circle of ringed flagstones); TEMPLE GATEWAY (far behind the ring, the paper temple gateway); TOWER (चील's closed stone tower, off to the RIGHT and high); LANE HEAD (the courtyard's edge, where the lane begins),
+    ~plate=courtyardPlate, a real outdoor place
+LIGHTING: warm golden dusk — the last golden evening; the low sun gilds the paper flagstones
+HARD RULES:
+- no humans, no people, no human children, no human faces, no human shadows
+- no theater curtains, no stage, no proscenium, no frame-within-frame, no decorative border, no vignette
+- no readable text, no letters, no numbers, no glyphs, no captions, no watermark, no logos
+- no photorealism
+- no duplicate characters, no identical characters, no cloned dragons, no extra characters

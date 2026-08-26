@@ -1,0 +1,29 @@
+[
+  {
+    "created_at": "2026-08-12T20:57:31.211926Z",
+    "display_name": "Nano Banana Pro",
+    "id": "857e20a2-0ea7-4fd7-88ae-99cc4db90ed1",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_205731_857e20a2-0ea7-4fd7-88ae-99cc4db90ed1_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "3:4",
+      "batch_size": 1,
+      "height": 2400,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "d71bf4e1-cafe-4dd7-bfea-b7a7153c522c",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/d71bf4e1-cafe-4dd7-bfea-b7a7153c522c_resize.jpg"
+        }
+      ],
+      "prompt": "Same man as the reference image, same clothing and cap, same lighting and framing — but noticeably more handsome: stronger jaw, higher cheekbones, brighter warm eyes, fair wheat-golden complexion, the face of a distinguished leading man in his prime at 60. Keep the dry half-smile. Sharp photorealistic portrait, plain neutral background. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1792
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_205731_857e20a2-0ea7-4fd7-88ae-99cc4db90ed1.png",
+    "status": "completed"
+  }
+]

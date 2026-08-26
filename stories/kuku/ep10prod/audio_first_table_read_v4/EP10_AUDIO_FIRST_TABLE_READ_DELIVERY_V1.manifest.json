@@ -1,0 +1,23 @@
+{
+ "schema": "kuku.ep10.audio_first.table_read.delivery.v1",
+ "source_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/EP10_AUDIO_FIRST_FULL_CAST_TABLE_READ_V4.mp3",
+ "source_sha256": "51cef0849e6ffb7edd287de223c3123e398eb3bae4dc2578ac7a58330668a0fc",
+ "source_manifest_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/EP10_AUDIO_FIRST_FULL_CAST_TABLE_READ_V4.manifest.json",
+ "source_manifest_sha256": "a69fbb645aceb071da812194f4eb93ce6e6d00a791ad1082bddaa82c25d75701",
+ "production_plan_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/EP10_AUDIO_FIRST_FULL_CAST_TABLE_READ_V4.plan.json",
+ "production_plan_sha256": "bb952140f176b37c09db5a0f0b4c48cdcd4fb02af8317e584a81aa64eaf4091c",
+ "output_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/EP10_AUDIO_FIRST_TABLE_READ_DELIVERY_V1.mp3",
+ "output_sha256": "36b6dc5302c513945badd83db1300b64088e631416e204c7d432fd0343df5fb9",
+ "duration_seconds": 280.98575,
+ "codec": "mp3",
+ "sample_rate_hz": 48000,
+ "channels": 1,
+ "bitrate_kbps": 128,
+ "mastering_filter": "loudnorm=I=-18:TP=-1.5:LRA=11",
+ "target_integrated_lufs": -18,
+ "target_true_peak_dbtp": -1.5,
+ "provider_calls": 0,
+ "ordinary_action_narration": false,
+ "dialogue_cues": 63,
+ "guide_sfx_cues": 22
+}

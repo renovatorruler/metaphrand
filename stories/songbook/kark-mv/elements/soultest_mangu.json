@@ -1,0 +1,31 @@
+[
+  {
+    "created_at": "2026-08-12T21:53:00.146763Z",
+    "display_name": "Higgsfield Soul 2.0",
+    "id": "192d8385-ad5f-4e23-94f0-cb8ba8e098c5",
+    "job_type": "text2image_soul_v2",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_215300_192d8385-ad5f-4e23-94f0-cb8ba8e098c5_min.webp",
+    "params": {
+      "batch_size": 1,
+      "custom_reference_id": "8532f692-8102-47ee-badf-4032c57ba48c",
+      "enhance_prompt": false,
+      "height": 2048,
+      "prompt": "Cinematic photo, golden hour: the man stands at a village well laughing mid-conversation with someone off-frame, saffron Rajasthani safa with turra, deep-red silk kurta, silver jewelry, holding his ravanhatta loosely at his side. Warm natural light, documentary realism. No text anywhere.",
+      "quality": "1080p",
+      "seed": 615730,
+      "style": {
+        "id": "3db34ab5-3439-4317-9e03-08dc30852e69",
+        "name": "General",
+        "strength": 1,
+        "url": "https://cdn.higgsfield.ai/soul-v2-style/f33d85f2-6521-4fa8-8e8f-894cfbdee578.webp"
+      },
+      "style_id": "3db34ab5-3439-4317-9e03-08dc30852e69",
+      "style_strength": 1,
+      "use_relax": false,
+      "use_sage_attention": false,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_215300_192d8385-ad5f-4e23-94f0-cb8ba8e098c5.png",
+    "status": "completed"
+  }
+]

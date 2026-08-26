@@ -1,0 +1,6 @@
+#set page(width: 1880pt, height: 1176pt, margin: 0pt, fill: none)
+#let cap(x, y, t) = place(dx: x * 1pt, dy: y * 1pt, box(width: 940pt, inset: 14pt, text(fill: white, size: 25pt, weight: "bold", font: "Helvetica", t)))
+#cap(0, 0, "1 - SHE PULLS HIM through the crowd")
+#cap(940, 0, "2 - THE FIRST THREAD (bare shrine)")
+#cap(0, 588, "3 - AFTER (he studies it, she watches him)")
+#cap(940, 588, "4 - THE WOODEN WHEEL")

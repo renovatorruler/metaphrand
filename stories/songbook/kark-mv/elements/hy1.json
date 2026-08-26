@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-08-16T04:13:49.344123Z",
+    "display_name": "Nano Banana Pro",
+    "id": "a793df13-688c-4ddf-8019-24ca13542497",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_041349_a793df13-688c-4ddf-8019-24ca13542497_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "3:4",
+      "batch_size": 1,
+      "height": 2400,
+      "input_image": null,
+      "input_images": [],
+      "prompt": "Sharp photorealistic portrait photograph, natural window light, plain warm neutral background, 85mm lens, front-facing, looking into the lens. A handsome TWENTY-FIVE-YEAR-OLD North Indian village man from the Malwa region: thick jet-black hair, a lean young face with smooth taut skin and no lines at all, strong jaw, high cheekbones, warm dark eyes, a light young moustache, fair wheat-golden complexion, plain white cotton kurta. Youthful, healthy, a little shy — clearly a young man of twenty-five, not older. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1792
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260816_041349_a793df13-688c-4ddf-8019-24ca13542497.png",
+    "status": "completed"
+  }
+]

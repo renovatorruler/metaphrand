@@ -1,0 +1,39 @@
+[
+  {
+    "created_at": "2026-08-12T22:50:32.437812Z",
+    "display_name": "Nano Banana Pro",
+    "id": "e6d43924-5400-4dba-ad71-be253d9050e5",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_225032_e6d43924-5400-4dba-ad71-be253d9050e5_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "16609e3a-dc0b-4521-8fae-167377ce55f0",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/16609e3a-dc0b-4521-8fae-167377ce55f0_resize.jpg"
+        },
+        {
+          "id": "f485b117-895c-4abd-a88c-7aee48398ca8",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/f485b117-895c-4abd-a88c-7aee48398ca8_resize.jpg"
+        },
+        {
+          "id": "59b4561e-a113-44a9-822c-d2ab3ce16f5f",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/59b4561e-a113-44a9-822c-d2ab3ce16f5f.png"
+        }
+      ],
+      "prompt": "WIDE 16:9 SCENE with two people fully visible in frame. At dusk at a 1990 Indian village fair: the MAN from the first reference image (aged 35, jet-black hair, thin strong build, simple white cotton kurta) stands in profile with his bare wrist held out, and the WOMAN from the second reference image (aged 30, deep-blue cotton sari with pallu over her head, gold nathni, red bindi, glass bangles) ties a red sacred thread onto his wrist; a small girl of five holds the hem of her mother's sari, half-hiding. They stand at the right of frame facing LEFT toward the stone Tejaji shrine from the third reference image — same shrine design with the horseman-and-cobra idol and burning oil lamp, but with only a FEW red threads tied on it, cleaner stone. Behind them a 1990 village fair at dusk under a clear warm evening sky: kerosene pressure lanterns glowing on stalls, a small old iron ferris wheel silhouetted, men in dhotis. NO fire, NO flames, NO smoke anywhere. Rendered as a 1990 COLOR FILM PRINT with a white photo-album border: heavy film grain, faded warm Kodachrome colors, soft edges, aged thirty years in an album. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_225032_e6d43924-5400-4dba-ad71-be253d9050e5.png",
+    "status": "completed"
+  }
+]

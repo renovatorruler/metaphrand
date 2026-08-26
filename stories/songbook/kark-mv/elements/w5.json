@@ -1,0 +1,30 @@
+[
+  {
+    "created_at": "2026-08-12T21:04:22.287075Z",
+    "display_name": "Nano Banana Pro",
+    "id": "c2719ca3-6856-4c37-ad1d-754844404928",
+    "job_type": "nano_banana_pro",
+    "min_result_url": null,
+    "params": {
+      "application": null,
+      "aspect_ratio": "3:4",
+      "batch_size": 1,
+      "height": 1184,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "79166ec1-8b88-44bc-b17a-d73e588a55d6",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/79166ec1-8b88-44bc-b17a-d73e588a55d6_resize.jpg"
+        }
+      ],
+      "prompt": "Same woman as the reference image — same age of 55, same grey-streaked hair, same Maheshwari green sari with seedha pallu over the head, same small left-nostril gold nathni, same bindi, same lighting and framing — but a far more beautiful face: the aged elegance of a legendary Indian screen actress — luminous glowing wheat-golden skin, large lustrous almond eyes with long lashes, perfectly balanced elegant features, high graceful cheekbones, a softly sculpted jaw, full well-shaped lips, radiant warm presence. Still dignified and real, not made-up — natural timeless beauty. Sharp photorealistic portrait, plain neutral background. No text anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 864
+    },
+    "result_url": null,
+    "status": "nsfw"
+  }
+]
+Error: job c2719ca3-6856-4c37-ad1d-754844404928 ended with status "nsfw"

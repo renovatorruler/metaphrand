@@ -1,0 +1,38 @@
+[
+  {
+    "created_at": "2026-08-17T03:43:39.364553Z",
+    "display_name": "Wan 2.7",
+    "id": "c57d9b01-f746-4f61-bdfb-f1f56c663031",
+    "job_type": "wan2_7",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "16:9",
+      "duration": 10,
+      "height": 768,
+      "medias": [
+        {
+          "data": {
+            "id": "11f44636-f86c-40e4-8ba6-8e0cd31397c7",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/11f44636-f86c-40e4-8ba6-8e0cd31397c7_resize.jpg"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "e3e650b8-f930-4e02-a581-df31648cab95",
+            "type": "audio_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/e3e650b8-f930-4e02-a581-df31648cab95.mp3"
+          },
+          "role": "audio"
+        }
+      ],
+      "prompt": "A Rajasthani folk singer performing in heavy rain, his mouth driven by the audio. The size of his mouth opening follows the loudness of the voice at every moment — barely parted when soft, wide only at the loudest points, easing shut between phrases. Rain runs off his turban and beard; drops streak past the lens; his throat and chest work with the breath. His bow hand stays still and resting near the instrument's bowl — he is singing, not bowing, and the bow never crosses the strings; the long decorated pole of the instrument stays exactly as in the start frame. Locked-off camera, no pan or zoom, single continuous take. Everything else exactly as the start frame. Photoreal, cinematic.",
+      "resolution": "720p",
+      "width": 1344
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260817_034339_c57d9b01-f746-4f61-bdfb-f1f56c663031.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260817_034339_c57d9b01-f746-4f61-bdfb-f1f56c663031_thumbnail.webp"
+  }
+]

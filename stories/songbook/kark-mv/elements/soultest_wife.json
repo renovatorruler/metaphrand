@@ -1,0 +1,31 @@
+[
+  {
+    "created_at": "2026-08-12T21:53:57.069752Z",
+    "display_name": "Higgsfield Soul 2.0",
+    "id": "015bb5d6-7f8a-41e6-90d7-9f9ccc36da2a",
+    "job_type": "text2image_soul_v2",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_215357_015bb5d6-7f8a-41e6-90d7-9f9ccc36da2a_min.webp",
+    "params": {
+      "batch_size": 1,
+      "custom_reference_id": "965fe6ab-6fbc-42cd-9e1f-e408f3fb4205",
+      "enhance_prompt": false,
+      "height": 2048,
+      "prompt": "Cinematic photo, warm evening light: the woman stands at a village doorway lighting a small oil lamp in a niche, green Maheshwari sari with pallu over her head, gold nathni on the left nostril, focused and serene. Documentary realism. No text anywhere.",
+      "quality": "1080p",
+      "seed": 56799,
+      "style": {
+        "id": "3db34ab5-3439-4317-9e03-08dc30852e69",
+        "name": "General",
+        "strength": 1,
+        "url": "https://cdn.higgsfield.ai/soul-v2-style/f33d85f2-6521-4fa8-8e8f-894cfbdee578.webp"
+      },
+      "style_id": "3db34ab5-3439-4317-9e03-08dc30852e69",
+      "style_strength": 1,
+      "use_relax": false,
+      "use_sage_attention": false,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_215357_015bb5d6-7f8a-41e6-90d7-9f9ccc36da2a.png",
+    "status": "completed"
+  }
+]

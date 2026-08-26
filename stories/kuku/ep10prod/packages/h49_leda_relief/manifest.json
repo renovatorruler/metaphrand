@@ -1,0 +1,32 @@
+{
+  "shot": "h49_leda_relief",
+  "kind": "still",
+  "model": "nano_banana_pro",
+  "aspect_ratio": "16:9",
+  "resolution": "2k",
+  "attachments_in_order": [
+    {
+      "slot": "1",
+      "role": "style_reference",
+      "file": "(upload id, see 1_style_reference.txt)"
+    },
+    {
+      "slot": "2",
+      "role": "backplate",
+      "file": "2_backplate.png",
+      "source": "../stories/kuku/ep10prod/sets/courtyard_plate.png"
+    },
+    {
+      "slot": "3",
+      "role": "character_leda",
+      "file": "3_character_leda.png",
+      "source": "../stories/kuku/ep10prod/elements/future_leda_board_bracelet.png"
+    }
+  ],
+  "prompt_file": "prompt.txt",
+  "derived_notes": [
+    "story beat TheStop",
+    "form: GREAT (from the story clock)",
+    "SET PLATE attached: ../stories/kuku/ep10prod/sets/courtyard_plate.png"
+  ]
+}

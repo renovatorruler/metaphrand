@@ -1,0 +1,2287 @@
+{
+ "schema": "kuku.audio_first.table_read.plan.v4",
+ "pipeline_version": "kuku-ep10-audio-first-table-read-v4",
+ "screenplay": "../stories/kuku/2026-08-18_EP10_ga_gaay_SPEC_SCREENPLAY_v3_AUDIO_FIRST.md",
+ "screenplay_sha256": "8ae03822ddd045685d77d8916b9a43cd1ee6dd01b480c484511c7ef1c061c130",
+ "expression_tagmap": "../stories/kuku/ep10prod/audio_first_table_read_v4/expression_tags.v4.json",
+ "expression_tagmap_sha256": "2fc73fd89315c9d3c0f6f24557e2778001ee4441614a1e863f4f9dc150faab66",
+ "model_id": "eleven_v3",
+ "provider_execution": "strictly sequential; no automatic retries",
+ "cache_policy": "V4-only content-addressed complete request signatures; no V3 lookup, fallback or implicit import",
+ "speech_policy": "cast dialogue only; no narrator, ordinary action, heading, metadata or spoken SFX cue",
+ "sfx_policy": "all 22 non-spoken cues are hard voice-chunk boundaries and are inserted from exact validated local guide paths; no effect generated or fabricated by this renderer",
+ "word_onset_chime_limitation": "cues 8-10 are inserted immediately after their isolated source line in the table-read guide; final mix must align them to the named word onset",
+ "guide_assets_complete": false,
+ "guide_asset_inventory": [],
+ "missing_guide_paths": [
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_001_4af2449fbfd3319016f4c6248660a2a9692c00c2ab9db183714625e338edb96c.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_002_b7c99c506e5a5aedf098807bad76e3162e9ee3dfaa40d1d2b822410d18194430.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_003_265e4bfe5a309b9092f140dbe255b64daaf7a91b747f41f7cca9288b7f62c85e.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_004_c880bb9ce94a9c0fae94732cc4474821064927e08fd59d96ae2677d8900c1094.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_005_01ebdfca3b09aad5789e97fd17d16ed5b4e5c72e7b947bb13187eb000726d6d5.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_006_16398f69b30a56657b660c594e5d5bae6c127f9cb5b8f09a195cd69451e0a680.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_007_a3272326c6210671b67c6983edd6ab71ac4170683077c07a75ad85e37cd69d92.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_008_7c429b807ef5f3a65c618b291f90d634b969559e4e00296bd4573c72b599e30a.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_009_22becc539d2ee2e073293c0984714527b65f32c5d54dcc79bffb8a9885f54d06.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_010_91095ed10e45f6ecd188b4c6ea45018f87f9482f9bf9570d2fab5aedbaf1f65e.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_011_67a84a8be941fc28988121c8ee10b573079270b07b56d4785913fecd8b78ef07.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_012_aeb8012e07d0351cde14925f1cafdb818115b664257dbeff1865c15688479e88.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_013_89c34ec456b3b2bf2f870a336e4d4f90a45b6667e4beceb05157eecf77b66536.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_014_ee9da4957b58f2b0d38d4d7d721cc1a0e89a84b0e204d8b8da3de51310e6093e.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_015_87f2c75fa1a32312fcd37f2deb8a94e956e28f1aade947d46ee23b821cdc74a2.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_016_36724c9e10920c6c36e32379bc63fc10597c7c4ad91633a14597191a5b3b51c2.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_017_59befccc8b0dd2281b7f9e8b70c732410a992901d41cf590343b72646d52fc66.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_018_ddcb9da4964cc65b9f34ae6d260d503634a0f5fd9bde1b5a6b861506ad0bd605.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_019_d2327af5ced11fdcf58cfd7c8f4c99cafbb1b350e5f05f887ae0bf39bfc2507e.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_020_a9a6da52f2c92c2a6eb65ab99ab6c74d0f294fddf59a2ce3e8a99297c0117759.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_021_b8a41050a9805ee92e985ec97c85a1a14300c310d5cdd9a29324939a3d0e9486.mp3",
+  "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_022_f64ce957196a3adf84b9c8c7888589950ca4159bf6691706deccd4e122b3016f.mp3"
+ ],
+ "excluded_ordinary_action_lines": 18,
+ "screenplay_audio_cues": 85,
+ "dialogue_cues": 63,
+ "solo_dialogue_cues": 61,
+ "chorus_cues": 2,
+ "sfx_cues": 22,
+ "title_interludes": 1,
+ "voice_chunks": 32,
+ "cold_cache_provider_requests": 39,
+ "directed_characters": 3357,
+ "provider_billable_characters": 3635,
+ "max_chunk_characters": 1800,
+ "cast": {
+  "CHEEL": "PId0lEbL3SOYkQZSraml",
+  "RISHI": "ocf4J1Vk0yOOFNBy3kNq",
+  "DADI": "nfMYisZqs1GOjTFllho3",
+  "KUKU": "NbvR1eY6Q8ivACdEO8PV",
+  "FYURIA": "FFmp1h1BMl0iVHA0JxrI",
+  "VESPER": "subIZc6skATBQ1Rbqpi7",
+  "CASTOR": "4iqKdEXMW8NRF8USiS3Q",
+  "LEDA": "nUX4UWK0Tf1qh5zvFZWR"
+ },
+ "approved_title_interlude": {
+  "source": "../stories/kuku/titles/title_song.mp3",
+  "source_sha256": "33424e11dd558e743d7f1e55834009ec11d33fd25cb6f9f29f3a4cd5aefd4b45",
+  "excerpt_start_ms": 0,
+  "excerpt_duration_ms": 15000,
+  "fade_out_ms": 700
+ },
+ "production_pronunciation_auditions": [
+  {
+   "dialogue_idx": 29,
+   "speaker": "KUKU",
+   "voice_id": "NbvR1eY6Q8ivACdEO8PV",
+   "exact_directed_text": "[suddenly] [clear] गाड़ी, गाय और गुरुकुल, सबमें ग की आवाज़ है!",
+   "policy": "isolated production request; accepted take is used in the master; not an extra probe"
+  },
+  {
+   "dialogue_idx": 30,
+   "speaker": "LEDA",
+   "voice_id": "nUX4UWK0Tf1qh5zvFZWR",
+   "exact_directed_text": "[urgent] गाड़ी आ रही है। अब पूरा ग बनाओ!",
+   "policy": "isolated production request; accepted take is used in the master; not an extra probe"
+  },
+  {
+   "dialogue_idx": 34,
+   "speaker": "CASTOR",
+   "voice_id": "4iqKdEXMW8NRF8USiS3Q",
+   "exact_directed_text": "[astonished] अरे! मेरे कड़े पर भी ग चमक रहा है!",
+   "policy": "isolated production request; accepted take is used in the master; not an extra probe"
+  },
+  {
+   "dialogue_idx": 41,
+   "speaker": "VESPER",
+   "voice_id": "subIZc6skATBQ1Rbqpi7",
+   "exact_directed_text": "[calling from above] [clear] आगे के दोनों पहिए ग पर हैं!",
+   "policy": "isolated production request; accepted take is used in the master; not an extra probe"
+  }
+ ],
+ "word_onset_guide_source_rows": [
+  {
+   "order": 33,
+   "scene": 2,
+   "kind": "dialogue",
+   "text": "गाड़ी बहुत भारी है!",
+   "dialogue_idx": 25,
+   "speaker": "FYURIA",
+   "direction": "दूर से, जोर लगाकर",
+   "expression_tag": "[calling from a distance] [straining]",
+   "provider_text": "गाड़ी बहुत भारी है!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": true
+  },
+  {
+   "order": 35,
+   "scene": 2,
+   "kind": "dialogue",
+   "text": "गाय फिर पीछे फिसल रही है!",
+   "dialogue_idx": 26,
+   "speaker": "CASTOR",
+   "direction": "गाड़ी के पीछे से पुकारकर",
+   "expression_tag": "[calling from behind the cart]",
+   "provider_text": "गाय फिर पीछे फिसल रही है!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": true
+  },
+  {
+   "order": 37,
+   "scene": 2,
+   "kind": "dialogue",
+   "text": "गाड़ी गुरुकुल की टूटी पटरी के पास पहुँच गई है!",
+   "dialogue_idx": 27,
+   "speaker": "VESPER",
+   "direction": "ऊपर से चेताकर",
+   "expression_tag": "[calling from above] [warning]",
+   "provider_text": "गाड़ी गुरुकुल की टूटी पटरी के पास पहुँच गई है!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": true
+  }
+ ],
+ "ordered_timeline": [
+  {
+   "order": 1,
+   "scene": 0,
+   "kind": "dialogue",
+   "text": "कड़े तुम्हें बड़ा रूप देते हैं। इस बड़े रूप के पंखों को उड़ना याद है। छोटे रूप में तुम्हें अभी उड़ना नहीं आता।",
+   "dialogue_idx": 1,
+   "speaker": "RISHI",
+   "direction": "शांत, साफ़ आवाज़ में",
+   "expression_tag": "[calm and clear]",
+   "provider_text": "कड़े तुम्हें बड़ा रूप देते हैं। इस बड़े रूप के पंखों को उड़ना याद है। छोटे रूप में तुम्हें अभी उड़ना नहीं आता।",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 2,
+   "scene": 0,
+   "kind": "dialogue",
+   "text": "ऋषि जी, पहला चक्कर मैं लगाऊँगी!",
+   "dialogue_idx": 2,
+   "speaker": "FYURIA",
+   "direction": "बेसब्री से",
+   "expression_tag": "[impatient]",
+   "provider_text": "ऋषि जी, पहला चक्कर मैं लगाऊँगी!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 3,
+   "scene": 0,
+   "kind": "dialogue",
+   "text": "घेरे से निकलो, घंटी छुओ और अपनी जगह पर लौटो।",
+   "dialogue_idx": 3,
+   "speaker": "RISHI",
+   "direction": "हल्की चेतावनी में",
+   "expression_tag": "[gentle warning]",
+   "provider_text": "घेरे से निकलो, घंटी छुओ और अपनी जगह पर लौटो।",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 4,
+   "scene": 0,
+   "kind": "dialogue",
+   "text": "मैं बस छूकर लौटूँगी।",
+   "dialogue_idx": 4,
+   "speaker": "FYURIA",
+   "direction": "हँसकर",
+   "expression_tag": "[laughing]",
+   "provider_text": "मैं बस छूकर लौटूँगी।",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 5,
+   "scene": 0,
+   "kind": "sfx",
+   "text": "बड़े पंख हवा काटते हैं। घंटी साफ़ टनकती है।",
+   "sfx_idx": 1,
+   "after_dialogue_idx": 4,
+   "before_dialogue_idx": 5,
+   "placeholder_ms": 1800,
+   "cue_signature_sha256": "4af2449fbfd3319016f4c6248660a2a9692c00c2ab9db183714625e338edb96c",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_001_4af2449fbfd3319016f4c6248660a2a9692c00c2ab9db183714625e338edb96c.mp3",
+   "spoken": false
+  },
+  {
+   "order": 6,
+   "scene": 0,
+   "kind": "dialogue",
+   "text": "हो गया! अब मैं लौट रही हूँ!",
+   "dialogue_idx": 5,
+   "speaker": "FYURIA",
+   "direction": "हवा में खुशी से",
+   "expression_tag": "[joyful] [calling through the air]",
+   "provider_text": "हो गया! अब मैं लौट रही हूँ!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 7,
+   "scene": 0,
+   "kind": "sfx",
+   "text": "फ्यूरिया के पंख धीमे होते हैं और उसके पैर जमीन पर उतरते हैं।",
+   "sfx_idx": 2,
+   "after_dialogue_idx": 5,
+   "before_dialogue_idx": 6,
+   "placeholder_ms": 1600,
+   "cue_signature_sha256": "b7c99c506e5a5aedf098807bad76e3162e9ee3dfaa40d1d2b822410d18194430",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_002_b7c99c506e5a5aedf098807bad76e3162e9ee3dfaa40d1d2b822410d18194430.mp3",
+   "spoken": false
+  },
+  {
+   "order": 8,
+   "scene": 0,
+   "kind": "dialogue",
+   "text": "यह रस्सी खुली, तो गाय की गाड़ी टूटी पटरी की ओर जाएगी।",
+   "dialogue_idx": 6,
+   "speaker": "CHEEL",
+   "direction": "धीमी, चालाक आवाज़ में",
+   "expression_tag": "[softly] [cunning]",
+   "provider_text": "यह रस्सी खुली, तो गाय की गाड़ी टूटी पटरी की ओर जाएगी।",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 9,
+   "scene": 0,
+   "kind": "dialogue",
+   "text": "जब सब गाय को बचाएँगे, तब घंटी मेरी होगी।",
+   "dialogue_idx": 7,
+   "speaker": "CHEEL",
+   "direction": "मीठी हँसी में",
+   "expression_tag": "[sweet sinister laugh]",
+   "provider_text": "जब सब गाय को बचाएँगे, तब घंटी मेरी होगी।",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 10,
+   "scene": 0,
+   "kind": "sfx",
+   "text": "गाँठ तेजी से सरकती है। मोटी रस्सी पत्थर पर गिरती है। लकड़ी के पहिए पहले धीरे और फिर तेजी से घूमते हैं। गाय घबराकर रंभाती है।",
+   "sfx_idx": 3,
+   "after_dialogue_idx": 7,
+   "before_dialogue_idx": 8,
+   "placeholder_ms": 3200,
+   "cue_signature_sha256": "265e4bfe5a309b9092f140dbe255b64daaf7a91b747f41f7cca9288b7f62c85e",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_003_265e4bfe5a309b9092f140dbe255b64daaf7a91b747f41f7cca9288b7f62c85e.mp3",
+   "spoken": false
+  },
+  {
+   "order": 11,
+   "scene": 0,
+   "kind": "dialogue",
+   "text": "अब घंटी मेरी है।",
+   "dialogue_idx": 8,
+   "speaker": "CHEEL",
+   "direction": "संतोष से",
+   "expression_tag": "[satisfied]",
+   "provider_text": "अब घंटी मेरी है।",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 12,
+   "scene": 0,
+   "kind": "sfx",
+   "text": "काँसे का बंधन खुलता है। घंटी चील के पंजों में खनकती है। बड़े पंख ऊपर उठते हैं।",
+   "sfx_idx": 4,
+   "after_dialogue_idx": 8,
+   "before_dialogue_idx": 9,
+   "placeholder_ms": 2200,
+   "cue_signature_sha256": "c880bb9ce94a9c0fae94732cc4474821064927e08fd59d96ae2677d8900c1094",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_004_c880bb9ce94a9c0fae94732cc4474821064927e08fd59d96ae2677d8900c1094.mp3",
+   "spoken": false
+  },
+  {
+   "order": 13,
+   "scene": 0,
+   "kind": "dialogue",
+   "text": "गाड़ी चल पड़ी है!",
+   "dialogue_idx": 9,
+   "speaker": "LEDA",
+   "direction": "तेज़, साफ़ आवाज़ में",
+   "expression_tag": "[urgent] [clear]",
+   "provider_text": "गाड़ी चल पड़ी है!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 14,
+   "scene": 0,
+   "kind": "dialogue",
+   "text": "गाड़ी में गाय है!",
+   "dialogue_idx": 10,
+   "speaker": "CASTOR",
+   "direction": "घबराकर",
+   "expression_tag": "[alarmed]",
+   "provider_text": "गाड़ी में गाय है!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 15,
+   "scene": 0,
+   "kind": "dialogue",
+   "text": "चील घंटी लेकर जा रही है!",
+   "dialogue_idx": 11,
+   "speaker": "FYURIA",
+   "direction": "चौंककर",
+   "expression_tag": "[startled]",
+   "provider_text": "चील घंटी लेकर जा रही है!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 16,
+   "scene": 0,
+   "kind": "dialogue",
+   "text": "घंटी को बाद में बचाएँगे। पहले गाय को बचाएँगे!",
+   "dialogue_idx": 12,
+   "speaker": "FYURIA",
+   "direction": "फौरन, पक्की आवाज़ में",
+   "expression_tag": "[immediately] [firmly]",
+   "provider_text": "घंटी को बाद में बचाएँगे। पहले गाय को बचाएँगे!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 17,
+   "scene": 1000,
+   "kind": "title",
+   "text": "शीर्षक-गीत",
+   "after_dialogue_idx": 12,
+   "before_dialogue_idx": 13,
+   "source": "../stories/kuku/titles/title_song.mp3",
+   "source_sha256": "33424e11dd558e743d7f1e55834009ec11d33fd25cb6f9f29f3a4cd5aefd4b45",
+   "excerpt_ms": 15000
+  },
+  {
+   "order": 18,
+   "scene": 1,
+   "kind": "dialogue",
+   "text": "ऊपर से पूरी पटरी दिख रही है। एक चक्कर के बाद गाड़ी टूटी जगह से गिर जाएगी!",
+   "dialogue_idx": 13,
+   "speaker": "VESPER",
+   "direction": "ऊपर से पुकारकर",
+   "expression_tag": "[calling from above]",
+   "provider_text": "ऊपर से पूरी पटरी दिख रही है। एक चक्कर के बाद गाड़ी टूटी जगह से गिर जाएगी!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 19,
+   "scene": 1,
+   "kind": "dialogue",
+   "text": "वैस्पर, एक रास्ता चुनो!",
+   "dialogue_idx": 14,
+   "speaker": "FYURIA",
+   "direction": "जल्दी से पुकारकर",
+   "expression_tag": "[urgent] [calling out loudly]",
+   "provider_text": "वैस्पर, एक रास्ता चुनो!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 20,
+   "scene": 1,
+   "kind": "dialogue",
+   "text": "आँगन के बीच से आओ। मेरे पीछे उड़ो!",
+   "dialogue_idx": 15,
+   "speaker": "VESPER",
+   "direction": "पक्की आवाज़ में",
+   "expression_tag": "[firmly]",
+   "provider_text": "आँगन के बीच से आओ। मेरे पीछे उड़ो!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 21,
+   "scene": 1,
+   "kind": "dialogue",
+   "text": "मैं सामने से गाड़ी धीमी कर रही हूँ!",
+   "dialogue_idx": 16,
+   "speaker": "FYURIA",
+   "direction": "जोर लगाकर",
+   "expression_tag": "[straining]",
+   "provider_text": "मैं सामने से गाड़ी धीमी कर रही हूँ!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 22,
+   "scene": 1,
+   "kind": "sfx",
+   "text": "फ्यूरिया के पंख तेज़ी से हवा धकेलते हैं। पहियों की रफ्तार थोड़ी घटती है, मगर वे चलते रहते हैं।",
+   "sfx_idx": 5,
+   "after_dialogue_idx": 16,
+   "before_dialogue_idx": 17,
+   "placeholder_ms": 2200,
+   "cue_signature_sha256": "01ebdfca3b09aad5789e97fd17d16ed5b4e5c72e7b947bb13187eb000726d6d5",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_005_01ebdfca3b09aad5789e97fd17d16ed5b4e5c72e7b947bb13187eb000726d6d5.mp3",
+   "spoken": false
+  },
+  {
+   "order": 23,
+   "scene": 1,
+   "kind": "dialogue",
+   "text": "गाय, गाड़ी के बीच में रहो। तुम गिरोगी नहीं!",
+   "dialogue_idx": 17,
+   "speaker": "KUKU",
+   "direction": "गाय को भरोसा देते हुए",
+   "expression_tag": "[reassuring] [clear]",
+   "provider_text": "गाय, गाड़ी के बीच में रहो। तुम गिरोगी नहीं!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 24,
+   "scene": 1,
+   "kind": "dialogue",
+   "text": "पीछे का फाटक खुल रहा है!",
+   "dialogue_idx": 18,
+   "speaker": "LEDA",
+   "direction": "तीखी चेतावनी में",
+   "expression_tag": "[sharply] [warning]",
+   "provider_text": "पीछे का फाटक खुल रहा है!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 25,
+   "scene": 1,
+   "kind": "dialogue",
+   "text": "मैं पीछे का फाटक पकड़ूँगा!",
+   "dialogue_idx": 19,
+   "speaker": "CASTOR",
+   "direction": "दृढ़ आवाज़ में",
+   "expression_tag": "[clear and commanding]",
+   "provider_text": "मैं पीछे का फाटक पकड़ूँगा!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 26,
+   "scene": 1,
+   "kind": "sfx",
+   "text": "लकड़ी का फाटक जोर से खटखटाता है, फिर बंद होकर अटक जाता है।",
+   "sfx_idx": 6,
+   "after_dialogue_idx": 19,
+   "before_dialogue_idx": 20,
+   "placeholder_ms": 1600,
+   "cue_signature_sha256": "16398f69b30a56657b660c594e5d5bae6c127f9cb5b8f09a195cd69451e0a680",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_006_16398f69b30a56657b660c594e5d5bae6c127f9cb5b8f09a195cd69451e0a680.mp3",
+   "spoken": false
+  },
+  {
+   "order": 27,
+   "scene": 1,
+   "kind": "dialogue",
+   "text": "फाटक बंद है। अब तुम पीछे नहीं गिरोगी।",
+   "dialogue_idx": 20,
+   "speaker": "CASTOR",
+   "direction": "गाय को शांत करते हुए",
+   "expression_tag": "[calmly] [reassuring]",
+   "provider_text": "फाटक बंद है। अब तुम पीछे नहीं गिरोगी।",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 28,
+   "scene": 1,
+   "kind": "dialogue",
+   "text": "आधा चक्कर बचा है!",
+   "dialogue_idx": 21,
+   "speaker": "VESPER",
+   "direction": "ऊपर से चेताकर",
+   "expression_tag": "[calling from above] [warning]",
+   "provider_text": "आधा चक्कर बचा है!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 29,
+   "scene": 1,
+   "kind": "dialogue",
+   "text": "कुकु, मेरे साथ टूटी पटरी पर चलो!",
+   "dialogue_idx": 22,
+   "speaker": "LEDA",
+   "direction": "तेज़ आवाज़ में",
+   "expression_tag": "[loudly] [urgent]",
+   "provider_text": "कुकु, मेरे साथ टूटी पटरी पर चलो!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 30,
+   "scene": 2,
+   "kind": "dialogue",
+   "text": "चट्टान इधर है और खाँचा उधर है। मैं दोनों सिरों पर लाल निशान लगाती हूँ!",
+   "dialogue_idx": 23,
+   "speaker": "LEDA",
+   "direction": "जल्दी, साफ़ आवाज़ में",
+   "expression_tag": "[urgent] [clear]",
+   "provider_text": "चट्टान इधर है और खाँचा उधर है। मैं दोनों सिरों पर लाल निशान लगाती हूँ!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 31,
+   "scene": 2,
+   "kind": "sfx",
+   "text": "एक लाल निशान पत्थर में ठक से लगता है। फिर दूर दूसरा निशान ठक से लगता है।",
+   "sfx_idx": 7,
+   "after_dialogue_idx": 23,
+   "before_dialogue_idx": 24,
+   "placeholder_ms": 1400,
+   "cue_signature_sha256": "a3272326c6210671b67c6983edd6ab71ac4170683077c07a75ad85e37cd69d92",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_007_a3272326c6210671b67c6983edd6ab71ac4170683077c07a75ad85e37cd69d92.mp3",
+   "spoken": false
+  },
+  {
+   "order": 32,
+   "scene": 2,
+   "kind": "dialogue",
+   "text": "कुकु, दोनों लाल निशानों के बीच बनाओ!",
+   "dialogue_idx": 24,
+   "speaker": "LEDA",
+   "direction": "पक्की आवाज़ में",
+   "expression_tag": "[firmly]",
+   "provider_text": "कुकु, दोनों लाल निशानों के बीच बनाओ!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 33,
+   "scene": 2,
+   "kind": "dialogue",
+   "text": "गाड़ी बहुत भारी है!",
+   "dialogue_idx": 25,
+   "speaker": "FYURIA",
+   "direction": "दूर से, जोर लगाकर",
+   "expression_tag": "[calling from a distance] [straining]",
+   "provider_text": "गाड़ी बहुत भारी है!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": true
+  },
+  {
+   "order": 34,
+   "scene": 2,
+   "kind": "sfx",
+   "text": "“गाड़ी” की पहली ग पर एक छोटी सुनहरी टनन।",
+   "sfx_idx": 8,
+   "after_dialogue_idx": 25,
+   "before_dialogue_idx": 26,
+   "placeholder_ms": 650,
+   "cue_signature_sha256": "7c429b807ef5f3a65c618b291f90d634b969559e4e00296bd4573c72b599e30a",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_008_7c429b807ef5f3a65c618b291f90d634b969559e4e00296bd4573c72b599e30a.mp3",
+   "spoken": false,
+   "timing_limitation": "table-read guide is inserted immediately after the isolated source line; final word-onset placement requires line-level alignment"
+  },
+  {
+   "order": 35,
+   "scene": 2,
+   "kind": "dialogue",
+   "text": "गाय फिर पीछे फिसल रही है!",
+   "dialogue_idx": 26,
+   "speaker": "CASTOR",
+   "direction": "गाड़ी के पीछे से पुकारकर",
+   "expression_tag": "[calling from behind the cart]",
+   "provider_text": "गाय फिर पीछे फिसल रही है!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": true
+  },
+  {
+   "order": 36,
+   "scene": 2,
+   "kind": "sfx",
+   "text": "“गाय” की पहली ग पर वही छोटी सुनहरी टनन।",
+   "sfx_idx": 9,
+   "after_dialogue_idx": 26,
+   "before_dialogue_idx": 27,
+   "placeholder_ms": 650,
+   "cue_signature_sha256": "22becc539d2ee2e073293c0984714527b65f32c5d54dcc79bffb8a9885f54d06",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_009_22becc539d2ee2e073293c0984714527b65f32c5d54dcc79bffb8a9885f54d06.mp3",
+   "spoken": false,
+   "timing_limitation": "table-read guide is inserted immediately after the isolated source line; final word-onset placement requires line-level alignment"
+  },
+  {
+   "order": 37,
+   "scene": 2,
+   "kind": "dialogue",
+   "text": "गाड़ी गुरुकुल की टूटी पटरी के पास पहुँच गई है!",
+   "dialogue_idx": 27,
+   "speaker": "VESPER",
+   "direction": "ऊपर से चेताकर",
+   "expression_tag": "[calling from above] [warning]",
+   "provider_text": "गाड़ी गुरुकुल की टूटी पटरी के पास पहुँच गई है!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": true
+  },
+  {
+   "order": 38,
+   "scene": 2,
+   "kind": "sfx",
+   "text": "“गाड़ी” और “गुरुकुल” की पहली ग पर वही छोटी सुनहरी टनन।",
+   "sfx_idx": 10,
+   "after_dialogue_idx": 27,
+   "before_dialogue_idx": 28,
+   "placeholder_ms": 950,
+   "cue_signature_sha256": "91095ed10e45f6ecd188b4c6ea45018f87f9482f9bf9570d2fab5aedbaf1f65e",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_010_91095ed10e45f6ecd188b4c6ea45018f87f9482f9bf9570d2fab5aedbaf1f65e.mp3",
+   "spoken": false,
+   "timing_limitation": "table-read guide is inserted immediately after the isolated source line; final word-onset placement requires line-level alignment"
+  },
+  {
+   "order": 39,
+   "scene": 2,
+   "kind": "dialogue",
+   "text": "कुकु, क्या तुम्हें वह आवाज़ सुनाई दी?",
+   "dialogue_idx": 28,
+   "speaker": "LEDA",
+   "direction": "उत्सुकता से",
+   "expression_tag": "[curious]",
+   "provider_text": "कुकु, क्या तुम्हें वह आवाज़ सुनाई दी?",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 40,
+   "scene": 2,
+   "kind": "dialogue",
+   "text": "गाड़ी, गाय और गुरुकुल, सबमें ग की आवाज़ है!",
+   "dialogue_idx": 29,
+   "speaker": "KUKU",
+   "direction": "अचानक, साफ़ आवाज़ में",
+   "expression_tag": "[suddenly] [clear]",
+   "provider_text": "गाड़ी, गाय और गुरुकुल, सबमें ग की आवाज़ है!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": true,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 41,
+   "scene": 2,
+   "kind": "dialogue",
+   "text": "गाड़ी आ रही है। अब पूरा ग बनाओ!",
+   "dialogue_idx": 30,
+   "speaker": "LEDA",
+   "direction": "जल्दी से",
+   "expression_tag": "[urgent]",
+   "provider_text": "गाड़ी आ रही है। अब पूरा ग बनाओ!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": true,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 42,
+   "scene": 2,
+   "kind": "chorus",
+   "text": "कुकु, तुम कर सकते हो!",
+   "dialogue_idx": 31,
+   "speaker": "CHORUS_FOUR",
+   "direction": "एक साथ, पूरे भरोसे से",
+   "expression_tag": "[together] [encouraging] [confident]",
+   "provider_text": "कुकु, तुम कर सकते हो!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 43,
+   "scene": 2,
+   "kind": "sfx",
+   "text": "कुकु की गहरी साँस। तीन सुनहरी रेखाएँ गूँजते हुए जुड़ती हैं। पूरा ग पत्थर में भारी ठक से बैठता है।",
+   "sfx_idx": 11,
+   "after_dialogue_idx": 31,
+   "before_dialogue_idx": 32,
+   "placeholder_ms": 2600,
+   "cue_signature_sha256": "67a84a8be941fc28988121c8ee10b573079270b07b56d4785913fecd8b78ef07",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_011_67a84a8be941fc28988121c8ee10b573079270b07b56d4785913fecd8b78ef07.mp3",
+   "spoken": false
+  },
+  {
+   "order": 44,
+   "scene": 2,
+   "kind": "dialogue",
+   "text": "पूरा ग जम गया!",
+   "dialogue_idx": 32,
+   "speaker": "KUKU",
+   "direction": "राहत से पुकारकर",
+   "expression_tag": "[relieved] [calling out loudly]",
+   "provider_text": "पूरा ग जम गया!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 45,
+   "scene": 2,
+   "kind": "dialogue",
+   "text": "पटरी की टूटी जगह जुड़ गई!",
+   "dialogue_idx": 33,
+   "speaker": "LEDA",
+   "direction": "खुशी से",
+   "expression_tag": "[joyful]",
+   "provider_text": "पटरी की टूटी जगह जुड़ गई!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 46,
+   "scene": 2,
+   "kind": "sfx",
+   "text": "पाँच कड़ों की पाँच हल्की टनन।",
+   "sfx_idx": 12,
+   "after_dialogue_idx": 33,
+   "before_dialogue_idx": 34,
+   "placeholder_ms": 1400,
+   "cue_signature_sha256": "aeb8012e07d0351cde14925f1cafdb818115b664257dbeff1865c15688479e88",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_012_aeb8012e07d0351cde14925f1cafdb818115b664257dbeff1865c15688479e88.mp3",
+   "spoken": false
+  },
+  {
+   "order": 47,
+   "scene": 2,
+   "kind": "dialogue",
+   "text": "अरे! मेरे कड़े पर भी ग चमक रहा है!",
+   "dialogue_idx": 34,
+   "speaker": "CASTOR",
+   "direction": "हैरानी से",
+   "expression_tag": "[astonished]",
+   "provider_text": "अरे! मेरे कड़े पर भी ग चमक रहा है!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": true,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 48,
+   "scene": 2,
+   "kind": "dialogue",
+   "text": "हम पाँचों के कड़ों पर उसकी छाप है। असली ग पटरी में ही है!",
+   "dialogue_idx": 35,
+   "speaker": "LEDA",
+   "direction": "खुशी से",
+   "expression_tag": "[joyful]",
+   "provider_text": "हम पाँचों के कड़ों पर उसकी छाप है। असली ग पटरी में ही है!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 49,
+   "scene": 3,
+   "kind": "dialogue",
+   "text": "ऊपर से मुझे चारों पहिए दिख रहे हैं। फ्यूरिया, गाड़ी बाईं ओर जा रही है। थोड़ा दाईं ओर आओ!",
+   "dialogue_idx": 36,
+   "speaker": "VESPER",
+   "direction": "ऊपर से दिशा देते हुए",
+   "expression_tag": "[calling from above] [clear and commanding]",
+   "provider_text": "ऊपर से मुझे चारों पहिए दिख रहे हैं। फ्यूरिया, गाड़ी बाईं ओर जा रही है। थोड़ा दाईं ओर आओ!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 50,
+   "scene": 3,
+   "kind": "dialogue",
+   "text": "मैं उसे दाईं ओर ला रही हूँ!",
+   "dialogue_idx": 37,
+   "speaker": "FYURIA",
+   "direction": "जोर लगाकर",
+   "expression_tag": "[straining]",
+   "provider_text": "मैं उसे दाईं ओर ला रही हूँ!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 51,
+   "scene": 3,
+   "kind": "dialogue",
+   "text": "खाँचे वाला सिरा उठ रहा है! मैं इसे दबाती हूँ। गाड़ी आगे लाओ!",
+   "dialogue_idx": 38,
+   "speaker": "LEDA",
+   "direction": "जोर लगाकर",
+   "expression_tag": "[straining]",
+   "provider_text": "खाँचे वाला सिरा उठ रहा है! मैं इसे दबाती हूँ। गाड़ी आगे लाओ!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 52,
+   "scene": 3,
+   "kind": "dialogue",
+   "text": "मैं ग को थामे हुए हूँ!",
+   "dialogue_idx": 39,
+   "speaker": "KUKU",
+   "direction": "जोर लगाकर",
+   "expression_tag": "[straining]",
+   "provider_text": "मैं ग को थामे हुए हूँ!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 53,
+   "scene": 3,
+   "kind": "dialogue",
+   "text": "फाटक बंद है। गाय सुरक्षित है!",
+   "dialogue_idx": 40,
+   "speaker": "CASTOR",
+   "direction": "पीछे से पुकारकर",
+   "expression_tag": "[calling from behind]",
+   "provider_text": "फाटक बंद है। गाय सुरक्षित है!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 54,
+   "scene": 3,
+   "kind": "sfx",
+   "text": "लकड़ी के पहिए पत्थर से सुनहरी सतह पर चढ़ते हैं। उनकी आवाज़ साफ़ बदलती है।",
+   "sfx_idx": 13,
+   "after_dialogue_idx": 40,
+   "before_dialogue_idx": 41,
+   "placeholder_ms": 1800,
+   "cue_signature_sha256": "89c34ec456b3b2bf2f870a336e4d4f90a45b6667e4beceb05157eecf77b66536",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_013_89c34ec456b3b2bf2f870a336e4d4f90a45b6667e4beceb05157eecf77b66536.mp3",
+   "spoken": false
+  },
+  {
+   "order": 55,
+   "scene": 3,
+   "kind": "dialogue",
+   "text": "आगे के दोनों पहिए ग पर हैं!",
+   "dialogue_idx": 41,
+   "speaker": "VESPER",
+   "direction": "ऊपर से, साफ़ आवाज़ में",
+   "expression_tag": "[calling from above] [clear]",
+   "provider_text": "आगे के दोनों पहिए ग पर हैं!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": true,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 56,
+   "scene": 3,
+   "kind": "sfx",
+   "text": "दो और पहिए सुनहरी सतह पर चढ़ते हैं।",
+   "sfx_idx": 14,
+   "after_dialogue_idx": 41,
+   "before_dialogue_idx": 42,
+   "placeholder_ms": 1000,
+   "cue_signature_sha256": "ee9da4957b58f2b0d38d4d7d721cc1a0e89a84b0e204d8b8da3de51310e6093e",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_014_ee9da4957b58f2b0d38d4d7d721cc1a0e89a84b0e204d8b8da3de51310e6093e.mp3",
+   "spoken": false
+  },
+  {
+   "order": 57,
+   "scene": 3,
+   "kind": "dialogue",
+   "text": "पीछे के दोनों पहिए भी ग पर हैं!",
+   "dialogue_idx": 42,
+   "speaker": "VESPER",
+   "direction": "उत्साह से",
+   "expression_tag": "[enthusiastically]",
+   "provider_text": "पीछे के दोनों पहिए भी ग पर हैं!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 58,
+   "scene": 3,
+   "kind": "sfx",
+   "text": "ऊपर चील के पंख गुजरते हैं। उसके पंजों में चोरी की घंटी झनकती हुई दूर जाती है।",
+   "sfx_idx": 15,
+   "after_dialogue_idx": 42,
+   "before_dialogue_idx": 43,
+   "placeholder_ms": 2200,
+   "cue_signature_sha256": "87f2c75fa1a32312fcd37f2deb8a94e956e28f1aade947d46ee23b821cdc74a2",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_015_87f2c75fa1a32312fcd37f2deb8a94e956e28f1aade947d46ee23b821cdc74a2.mp3",
+   "spoken": false
+  },
+  {
+   "order": 59,
+   "scene": 3,
+   "kind": "dialogue",
+   "text": "चील घंटी लेकर हमारे ऊपर से जा रही है!",
+   "dialogue_idx": 43,
+   "speaker": "FYURIA",
+   "direction": "चौंककर",
+   "expression_tag": "[startled]",
+   "provider_text": "चील घंटी लेकर हमारे ऊपर से जा रही है!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 60,
+   "scene": 3,
+   "kind": "dialogue",
+   "text": "फ्यूरिया, गाय को तुम्हारी ज़रूरत है!",
+   "dialogue_idx": 44,
+   "speaker": "KUKU",
+   "direction": "फ्यूरिया को पुकारकर",
+   "expression_tag": "[calling out loudly]",
+   "provider_text": "फ्यूरिया, गाय को तुम्हारी ज़रूरत है!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 61,
+   "scene": 3,
+   "kind": "dialogue",
+   "text": "मैं गाड़ी नहीं छोड़ूँगी!",
+   "dialogue_idx": 45,
+   "speaker": "FYURIA",
+   "direction": "दृढ़ आवाज़ में",
+   "expression_tag": "[clear and commanding]",
+   "provider_text": "मैं गाड़ी नहीं छोड़ूँगी!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 62,
+   "scene": 3,
+   "kind": "dialogue",
+   "text": "पूरी गाड़ी पार आ गई!",
+   "dialogue_idx": 46,
+   "speaker": "VESPER",
+   "direction": "राहत से पुकारकर",
+   "expression_tag": "[relieved] [calling out loudly]",
+   "provider_text": "पूरी गाड़ी पार आ गई!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 63,
+   "scene": 3,
+   "kind": "sfx",
+   "text": "पहिए धीमे होते हैं और रुक जाते हैं। गाय लंबी राहत की साँस छोड़ती है।",
+   "sfx_idx": 16,
+   "after_dialogue_idx": 46,
+   "before_dialogue_idx": 47,
+   "placeholder_ms": 2200,
+   "cue_signature_sha256": "36724c9e10920c6c36e32379bc63fc10597c7c4ad91633a14597191a5b3b51c2",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_016_36724c9e10920c6c36e32379bc63fc10597c7c4ad91633a14597191a5b3b51c2.mp3",
+   "spoken": false
+  },
+  {
+   "order": 64,
+   "scene": 3,
+   "kind": "dialogue",
+   "text": "गाड़ी रुक गई!",
+   "dialogue_idx": 47,
+   "speaker": "FYURIA",
+   "direction": "हाँफते हुए",
+   "expression_tag": "[out of breath]",
+   "provider_text": "गाड़ी रुक गई!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 65,
+   "scene": 3,
+   "kind": "dialogue",
+   "text": "गाय सुरक्षित है!",
+   "dialogue_idx": 48,
+   "speaker": "CASTOR",
+   "direction": "खुशी से",
+   "expression_tag": "[joyful]",
+   "provider_text": "गाय सुरक्षित है!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 66,
+   "scene": 3,
+   "kind": "dialogue",
+   "text": "हमने उसे बचा लिया!",
+   "dialogue_idx": 49,
+   "speaker": "KUKU",
+   "direction": "खिलकर",
+   "expression_tag": "[brightly] [joyful]",
+   "provider_text": "हमने उसे बचा लिया!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 67,
+   "scene": 4,
+   "kind": "dialogue",
+   "text": "अरे, गाय हमसे डर रही है। मैं छोटा हो जाता हूँ।",
+   "dialogue_idx": 50,
+   "speaker": "KUKU",
+   "direction": "नरमी से",
+   "expression_tag": "[gently]",
+   "provider_text": "अरे, गाय हमसे डर रही है। मैं छोटा हो जाता हूँ।",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 68,
+   "scene": 4,
+   "kind": "dialogue",
+   "text": "हम भी छोटे हो जाते हैं।",
+   "dialogue_idx": 51,
+   "speaker": "LEDA",
+   "direction": "अपनापन भरी आवाज़ में",
+   "expression_tag": "[warmly]",
+   "provider_text": "हम भी छोटे हो जाते हैं।",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 69,
+   "scene": 4,
+   "kind": "sfx",
+   "text": "पाँच कड़ों की पाँच अलग टनन। पाँच नरम सुनहरी लहरें एक-एक करके शांत होती हैं।",
+   "sfx_idx": 17,
+   "after_dialogue_idx": 51,
+   "before_dialogue_idx": 52,
+   "placeholder_ms": 2200,
+   "cue_signature_sha256": "59befccc8b0dd2281b7f9e8b70c732410a992901d41cf590343b72646d52fc66",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_017_59befccc8b0dd2281b7f9e8b70c732410a992901d41cf590343b72646d52fc66.mp3",
+   "spoken": false
+  },
+  {
+   "order": 70,
+   "scene": 4,
+   "kind": "dialogue",
+   "text": "हम फिर छोटे हो गए!",
+   "dialogue_idx": 52,
+   "speaker": "CASTOR",
+   "direction": "खुशी से",
+   "expression_tag": "[joyful]",
+   "provider_text": "हम फिर छोटे हो गए!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 71,
+   "scene": 4,
+   "kind": "dialogue",
+   "text": "अब डरो मत। तुम सुरक्षित हो।",
+   "dialogue_idx": 53,
+   "speaker": "KUKU",
+   "direction": "गाय को प्यार से",
+   "expression_tag": "[gently] [reassuring]",
+   "provider_text": "अब डरो मत। तुम सुरक्षित हो।",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 72,
+   "scene": 4,
+   "kind": "sfx",
+   "text": "गाय नरमी से रंभाती है। कैस्टर सूखी घास पर धप से बैठता है।",
+   "sfx_idx": 18,
+   "after_dialogue_idx": 53,
+   "before_dialogue_idx": 54,
+   "placeholder_ms": 1600,
+   "cue_signature_sha256": "ddcb9da4964cc65b9f34ae6d260d503634a0f5fd9bde1b5a6b861506ad0bd605",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_018_ddcb9da4964cc65b9f34ae6d260d503634a0f5fd9bde1b5a6b861506ad0bd605.mp3",
+   "spoken": false
+  },
+  {
+   "order": 73,
+   "scene": 4,
+   "kind": "dialogue",
+   "text": "गाय ने मुझे फिर बैठा दिया!",
+   "dialogue_idx": 54,
+   "speaker": "CASTOR",
+   "direction": "खिलखिलाकर",
+   "expression_tag": "[giggling]",
+   "provider_text": "गाय ने मुझे फिर बैठा दिया!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 74,
+   "scene": 4,
+   "kind": "dialogue",
+   "text": "तुम घंटी के पीछे नहीं गईं।",
+   "dialogue_idx": 55,
+   "speaker": "KUKU",
+   "direction": "धीरे, फ्यूरिया से",
+   "expression_tag": "[softly]",
+   "provider_text": "तुम घंटी के पीछे नहीं गईं।",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 75,
+   "scene": 4,
+   "kind": "dialogue",
+   "text": "गाय को मेरी ज़रूरत थी।",
+   "dialogue_idx": 56,
+   "speaker": "FYURIA",
+   "direction": "शांत, पक्की आवाज़ में",
+   "expression_tag": "[calm] [firmly]",
+   "provider_text": "गाय को मेरी ज़रूरत थी।",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 76,
+   "scene": 4,
+   "kind": "sfx",
+   "text": "घर-वापसी की डोर की छोटी दो-सुरी झंकार। दादी की आवाज़ हल्की दूर से आती है।",
+   "sfx_idx": 19,
+   "after_dialogue_idx": 56,
+   "before_dialogue_idx": 57,
+   "placeholder_ms": 1800,
+   "cue_signature_sha256": "d2327af5ced11fdcf58cfd7c8f4c99cafbb1b350e5f05f887ae0bf39bfc2507e",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_019_d2327af5ced11fdcf58cfd7c8f4c99cafbb1b350e5f05f887ae0bf39bfc2507e.mp3",
+   "spoken": false
+  },
+  {
+   "order": 77,
+   "scene": 4,
+   "kind": "dialogue",
+   "text": "तुमने ठीक चुना, फ्यूरिया। घंटी इंतज़ार कर सकती थी, गाय नहीं।",
+   "dialogue_idx": 57,
+   "speaker": "DADI",
+   "direction": "दूर से, प्यार से",
+   "expression_tag": "[calling from a distance] [warmly]",
+   "provider_text": "तुमने ठीक चुना, फ्यूरिया। घंटी इंतज़ार कर सकती थी, गाय नहीं।",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 78,
+   "scene": 4,
+   "kind": "dialogue",
+   "text": "मैं मैदान की ढलान खोल रहा हूँ। गाय अब सुरक्षित नीचे जा सकती है।",
+   "dialogue_idx": 58,
+   "speaker": "RISHI",
+   "direction": "साफ़ आवाज़ में",
+   "expression_tag": "[clear]",
+   "provider_text": "मैं मैदान की ढलान खोल रहा हूँ। गाय अब सुरक्षित नीचे जा सकती है।",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 79,
+   "scene": 4,
+   "kind": "sfx",
+   "text": "पत्थर की छोटी कुंडी खुलती है। गाय के खुर पत्थर से घास पर उतरते हैं।",
+   "sfx_idx": 20,
+   "after_dialogue_idx": 58,
+   "before_dialogue_idx": 59,
+   "placeholder_ms": 1800,
+   "cue_signature_sha256": "a9a6da52f2c92c2a6eb65ab99ab6c74d0f294fddf59a2ce3e8a99297c0117759",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_020_a9a6da52f2c92c2a6eb65ab99ab6c74d0f294fddf59a2ce3e8a99297c0117759.mp3",
+   "spoken": false
+  },
+  {
+   "order": 80,
+   "scene": 4,
+   "kind": "chorus",
+   "text": "फिर मिलेंगे, गाय!",
+   "dialogue_idx": 59,
+   "speaker": "CHORUS_FIVE",
+   "direction": "खुशी से",
+   "expression_tag": "[joyful]",
+   "provider_text": "फिर मिलेंगे, गाय!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 81,
+   "scene": 4,
+   "kind": "dialogue",
+   "text": "गाय की गाड़ी गुरुकुल पहुँच गई!",
+   "dialogue_idx": 60,
+   "speaker": "CASTOR",
+   "direction": "उत्साह से",
+   "expression_tag": "[enthusiastically]",
+   "provider_text": "गाय की गाड़ी गुरुकुल पहुँच गई!",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 82,
+   "scene": 4,
+   "kind": "dialogue",
+   "text": "और असली ग यहीं रहेगा।",
+   "dialogue_idx": 61,
+   "speaker": "KUKU",
+   "direction": "संतोष से",
+   "expression_tag": "[satisfied]",
+   "provider_text": "और असली ग यहीं रहेगा।",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 83,
+   "scene": 4,
+   "kind": "dialogue",
+   "text": "हम घंटी भी वापस लाएँगे।",
+   "dialogue_idx": 62,
+   "speaker": "FYURIA",
+   "direction": "दृढ़ आवाज़ में",
+   "expression_tag": "[clear and commanding]",
+   "provider_text": "हम घंटी भी वापस लाएँगे।",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 84,
+   "scene": 5,
+   "kind": "sfx",
+   "text": "बड़े पंख पत्थर के पास रुकते हैं। चील के पंजे मीनार पर खुरचते हैं। चोरी की घंटी हल्के से खनकती है।",
+   "sfx_idx": 21,
+   "after_dialogue_idx": 62,
+   "before_dialogue_idx": 63,
+   "placeholder_ms": 2300,
+   "cue_signature_sha256": "b8a41050a9805ee92e985ec97c85a1a14300c310d5cdd9a29324939a3d0e9486",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_021_b8a41050a9805ee92e985ec97c85a1a14300c310d5cdd9a29324939a3d0e9486.mp3",
+   "spoken": false
+  },
+  {
+   "order": 85,
+   "scene": 5,
+   "kind": "dialogue",
+   "text": "चलो, गुरुकुल की घंटी। देखते हैं, यह बंद दरवाज़ा तुम्हारी आवाज़ सुनता है या नहीं।",
+   "dialogue_idx": 63,
+   "speaker": "CHEEL",
+   "direction": "धीमी, मीठी आवाज़ में",
+   "expression_tag": "[softly] [sweet but sinister]",
+   "provider_text": "चलो, गुरुकुल की घंटी। देखते हैं, यह बंद दरवाज़ा तुम्हारी आवाज़ सुनता है या नहीं।",
+   "provider_text_provenance": "screenplay-exact-v4-audio-first-after-markdown-cleanup",
+   "production_pronunciation_audition": false,
+   "word_onset_guide_source": false
+  },
+  {
+   "order": 86,
+   "scene": 5,
+   "kind": "sfx",
+   "text": "चील घंटी की डोरी पीछे खींचती है। काँसा हल्का काँपता है। पूरी टनक से ठीक पहले कट।",
+   "sfx_idx": 22,
+   "after_dialogue_idx": 63,
+   "before_dialogue_idx": 64,
+   "placeholder_ms": 2200,
+   "cue_signature_sha256": "f64ce957196a3adf84b9c8c7888589950ca4159bf6691706deccd4e122b3016f",
+   "local_guide_path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_022_f64ce957196a3adf84b9c8c7888589950ca4159bf6691706deccd4e122b3016f.mp3",
+   "spoken": false
+  }
+ ],
+ "voice_chunks_plan": [
+  {
+   "id": "voice_000",
+   "scene": 0,
+   "kind": "dialogue",
+   "characters": 262,
+   "input_sha256": "1a0722f998a675b7070e1a05e711951f3ac471228b5a533200220fa125ba1c4d",
+   "dialogue_indices": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "segment_orders": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_001",
+   "scene": 0,
+   "kind": "dialogue",
+   "characters": 62,
+   "input_sha256": "77e18099e48664c69323206449e066d57766272eb973eddee694f25580657c13",
+   "dialogue_indices": [
+    5
+   ],
+   "segment_orders": [
+    6
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_002",
+   "scene": 0,
+   "kind": "dialogue",
+   "characters": 135,
+   "input_sha256": "85beb1837bae5a5fa3d5e183c6f5b6e30a8dc504e792ce19a27a2a1626442d08",
+   "dialogue_indices": [
+    6,
+    7
+   ],
+   "segment_orders": [
+    8,
+    9
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_003",
+   "scene": 0,
+   "kind": "dialogue",
+   "characters": 28,
+   "input_sha256": "2e6e88fa08a896eec4053cb7c9c8f4acf2597eceebdf358a87ba9469ed6e426d",
+   "dialogue_indices": [
+    8
+   ],
+   "segment_orders": [
+    11
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_004",
+   "scene": 0,
+   "kind": "dialogue",
+   "characters": 164,
+   "input_sha256": "4c0bfadf84968b08062102123221294013d05530813ce053fcd417e58e9e4ed3",
+   "dialogue_indices": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "segment_orders": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_005",
+   "scene": 1,
+   "kind": "dialogue",
+   "characters": 237,
+   "input_sha256": "3ba9b6a319d7d9411d299f2ca30e04835373958ca1899b664b2cc1b16cf47ad2",
+   "dialogue_indices": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "segment_orders": [
+    18,
+    19,
+    20,
+    21
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_006",
+   "scene": 1,
+   "kind": "dialogue",
+   "characters": 157,
+   "input_sha256": "40df7440e5a003a8f8b5525b5ef3cb78df5c4612ea1b670364d304896c729416",
+   "dialogue_indices": [
+    17,
+    18,
+    19
+   ],
+   "segment_orders": [
+    23,
+    24,
+    25
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_007",
+   "scene": 1,
+   "kind": "dialogue",
+   "characters": 157,
+   "input_sha256": "bc613a67375d59f7dab03e6ed6a404d1b2ba4e0a295ae827259c2e61916741cd",
+   "dialogue_indices": [
+    20,
+    21,
+    22
+   ],
+   "segment_orders": [
+    27,
+    28,
+    29
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_008",
+   "scene": 2,
+   "kind": "dialogue",
+   "characters": 87,
+   "input_sha256": "356256c8fd4ff580ac4a100104366ba0b60ba356f14b22c571006a0487cface1",
+   "dialogue_indices": [
+    23
+   ],
+   "segment_orders": [
+    30
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_009",
+   "scene": 2,
+   "kind": "dialogue",
+   "characters": 45,
+   "input_sha256": "05d2c3b075e88cd544bbf8def8214e9724201cb6cc300dfee14ec8cf0ea67e07",
+   "dialogue_indices": [
+    24
+   ],
+   "segment_orders": [
+    32
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_010",
+   "scene": 2,
+   "kind": "sfx_sync_source",
+   "characters": 57,
+   "input_sha256": "4ede30d79c77178e141b8ed3b84b49db2e1589bea774271e7acbc64864a0d32b",
+   "dialogue_indices": [
+    25
+   ],
+   "segment_orders": [
+    33
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_011",
+   "scene": 2,
+   "kind": "sfx_sync_source",
+   "characters": 56,
+   "input_sha256": "74bec43cff6cb54b16dd289f6aad9a908d2eb7fb9f80c8401c501ab87f5c554f",
+   "dialogue_indices": [
+    26
+   ],
+   "segment_orders": [
+    35
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_012",
+   "scene": 2,
+   "kind": "sfx_sync_source",
+   "characters": 77,
+   "input_sha256": "ef99a24dab3e47d26ab367ebbc0d38f04c11f47e7da0a88b8f42c6184f00f8cb",
+   "dialogue_indices": [
+    27
+   ],
+   "segment_orders": [
+    37
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_013",
+   "scene": 2,
+   "kind": "dialogue",
+   "characters": 47,
+   "input_sha256": "9fe80c80d70b0ea69f02c1a1e0f3442870b11d74231e3ae4f01ddb6cf5296b81",
+   "dialogue_indices": [
+    28
+   ],
+   "segment_orders": [
+    39
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_014",
+   "scene": 2,
+   "kind": "pronunciation",
+   "characters": 62,
+   "input_sha256": "0db474d9535d0ef9efeb952791fc65c81b81bfee2a8a231b826c848d6820e39b",
+   "dialogue_indices": [
+    29
+   ],
+   "segment_orders": [
+    40
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_015",
+   "scene": 2,
+   "kind": "pronunciation",
+   "characters": 40,
+   "input_sha256": "b966e4d6488ff0ad34214fa980cb1bc2e2e63f4acd4aabae69695a8bd7151112",
+   "dialogue_indices": [
+    30
+   ],
+   "segment_orders": [
+    41
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_016",
+   "scene": 2,
+   "kind": "chorus",
+   "characters": 58,
+   "input_sha256": "1c53bd1cc06048cdba38440cd8ca4d09fe251b93561c87bae8272c9f995ae31f",
+   "dialogue_indices": [
+    31
+   ],
+   "segment_orders": [
+    42
+   ],
+   "provider_requests": 4
+  },
+  {
+   "id": "voice_017",
+   "scene": 2,
+   "kind": "dialogue",
+   "characters": 80,
+   "input_sha256": "24227d76c96f90e42c4489bc1317822c23eeb9fca2618a9089668a7debdb4bdc",
+   "dialogue_indices": [
+    32,
+    33
+   ],
+   "segment_orders": [
+    44,
+    45
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_018",
+   "scene": 2,
+   "kind": "pronunciation",
+   "characters": 47,
+   "input_sha256": "7627255c871e5db10293aeccaca8d797ce6eac74432259f00a188df0beff51f3",
+   "dialogue_indices": [
+    34
+   ],
+   "segment_orders": [
+    47
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_019",
+   "scene": 2,
+   "kind": "dialogue",
+   "characters": 66,
+   "input_sha256": "4f99b0aad49a1dcf9ce7af4d0984d2d777c143af048653562230deb638043b83",
+   "dialogue_indices": [
+    35
+   ],
+   "segment_orders": [
+    48
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_020",
+   "scene": 3,
+   "kind": "dialogue",
+   "characters": 328,
+   "input_sha256": "659847f5b2c9fad8302e2c6a0764fee701875576e17fc0fcc4eca7bb716526a5",
+   "dialogue_indices": [
+    36,
+    37,
+    38,
+    39,
+    40
+   ],
+   "segment_orders": [
+    49,
+    50,
+    51,
+    52,
+    53
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_021",
+   "scene": 3,
+   "kind": "pronunciation",
+   "characters": 56,
+   "input_sha256": "d808c2217d2e568bbed91a327ff10179f202c637bba378be17d18793498678e7",
+   "dialogue_indices": [
+    41
+   ],
+   "segment_orders": [
+    55
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_022",
+   "scene": 3,
+   "kind": "dialogue",
+   "characters": 50,
+   "input_sha256": "0b2b9919e68bbe542ed074a77adf4b2c90fb9ab5a0c89985e21e887e388685ad",
+   "dialogue_indices": [
+    42
+   ],
+   "segment_orders": [
+    57
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_023",
+   "scene": 3,
+   "kind": "dialogue",
+   "characters": 204,
+   "input_sha256": "408c731a61ff95da01a36f02761440d5d03e5821ca605add935d3d2a8b5d5bc6",
+   "dialogue_indices": [
+    43,
+    44,
+    45,
+    46
+   ],
+   "segment_orders": [
+    59,
+    60,
+    61,
+    62
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_024",
+   "scene": 3,
+   "kind": "dialogue",
+   "characters": 92,
+   "input_sha256": "1d93f56ded464bb0259251750e19618680099fbf72a839698703e6563345c519",
+   "dialogue_indices": [
+    47,
+    48,
+    49
+   ],
+   "segment_orders": [
+    64,
+    65,
+    66
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_025",
+   "scene": 4,
+   "kind": "dialogue",
+   "characters": 87,
+   "input_sha256": "5ecee85eacbb61ede52b151c17c94bd7592fc51f1b6358f00df6cbbd2e3dcd26",
+   "dialogue_indices": [
+    50,
+    51
+   ],
+   "segment_orders": [
+    67,
+    68
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_026",
+   "scene": 4,
+   "kind": "dialogue",
+   "characters": 76,
+   "input_sha256": "a92af061020477627345b71a9ae1fe40b9abdf3634d637e67a7680a1cfe6dd15",
+   "dialogue_indices": [
+    52,
+    53
+   ],
+   "segment_orders": [
+    70,
+    71
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_027",
+   "scene": 4,
+   "kind": "dialogue",
+   "characters": 110,
+   "input_sha256": "84beaa32a2ae6acfc1776a83ac25e8827d04e8e1e41eda8825683ab19f540c75",
+   "dialogue_indices": [
+    54,
+    55,
+    56
+   ],
+   "segment_orders": [
+    73,
+    74,
+    75
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_028",
+   "scene": 4,
+   "kind": "dialogue",
+   "characters": 166,
+   "input_sha256": "c3b8daac3731677c370b2d8b50590276c8f615e430790ef403f49b42f4487f1a",
+   "dialogue_indices": [
+    57,
+    58
+   ],
+   "segment_orders": [
+    77,
+    78
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_029",
+   "scene": 4,
+   "kind": "chorus",
+   "characters": 26,
+   "input_sha256": "eeb1aae375263b9c4284c0b5f4013ae49089b2713dd34a16f5db57b64c642a92",
+   "dialogue_indices": [
+    59
+   ],
+   "segment_orders": [
+    80
+   ],
+   "provider_requests": 5
+  },
+  {
+   "id": "voice_030",
+   "scene": 4,
+   "kind": "dialogue",
+   "characters": 128,
+   "input_sha256": "8c0c2e1ebd109727654564857c83f2aeb99d5f20feb7bc7098e1f7104af84407",
+   "dialogue_indices": [
+    60,
+    61,
+    62
+   ],
+   "segment_orders": [
+    81,
+    82,
+    83
+   ],
+   "provider_requests": 1
+  },
+  {
+   "id": "voice_031",
+   "scene": 5,
+   "kind": "dialogue",
+   "characters": 110,
+   "input_sha256": "f622465fc9bb4bb1120b6d161f1d6a7514fbf4991a0b1c5f7a660648672d087e",
+   "dialogue_indices": [
+    63
+   ],
+   "segment_orders": [
+    85
+   ],
+   "provider_requests": 1
+  }
+ ],
+ "deterministic_assembly_sequence": [
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_000",
+   "scene": 0,
+   "dialogue_indices": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 1,
+   "scene": 0,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_001_4af2449fbfd3319016f4c6248660a2a9692c00c2ab9db183714625e338edb96c.mp3",
+   "after_dialogue_idx": 4
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_001",
+   "scene": 0,
+   "dialogue_indices": [
+    5
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 2,
+   "scene": 0,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_002_b7c99c506e5a5aedf098807bad76e3162e9ee3dfaa40d1d2b822410d18194430.mp3",
+   "after_dialogue_idx": 5
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_002",
+   "scene": 0,
+   "dialogue_indices": [
+    6,
+    7
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 3,
+   "scene": 0,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_003_265e4bfe5a309b9092f140dbe255b64daaf7a91b747f41f7cca9288b7f62c85e.mp3",
+   "after_dialogue_idx": 7
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_003",
+   "scene": 0,
+   "dialogue_indices": [
+    8
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 4,
+   "scene": 0,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_004_c880bb9ce94a9c0fae94732cc4474821064927e08fd59d96ae2677d8900c1094.mp3",
+   "after_dialogue_idx": 8
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_004",
+   "scene": 0,
+   "dialogue_indices": [
+    9,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "kind": "title_interlude",
+   "source": "../stories/kuku/titles/title_song.mp3",
+   "excerpt_ms": 15000
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_005",
+   "scene": 1,
+   "dialogue_indices": [
+    13,
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 5,
+   "scene": 1,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_005_01ebdfca3b09aad5789e97fd17d16ed5b4e5c72e7b947bb13187eb000726d6d5.mp3",
+   "after_dialogue_idx": 16
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_006",
+   "scene": 1,
+   "dialogue_indices": [
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 6,
+   "scene": 1,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_006_16398f69b30a56657b660c594e5d5bae6c127f9cb5b8f09a195cd69451e0a680.mp3",
+   "after_dialogue_idx": 19
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_007",
+   "scene": 1,
+   "dialogue_indices": [
+    20,
+    21,
+    22
+   ]
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_008",
+   "scene": 2,
+   "dialogue_indices": [
+    23
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 7,
+   "scene": 2,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_007_a3272326c6210671b67c6983edd6ab71ac4170683077c07a75ad85e37cd69d92.mp3",
+   "after_dialogue_idx": 23
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_009",
+   "scene": 2,
+   "dialogue_indices": [
+    24
+   ]
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_010",
+   "scene": 2,
+   "dialogue_indices": [
+    25
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 8,
+   "scene": 2,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_008_7c429b807ef5f3a65c618b291f90d634b969559e4e00296bd4573c72b599e30a.mp3",
+   "after_dialogue_idx": 25
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_011",
+   "scene": 2,
+   "dialogue_indices": [
+    26
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 9,
+   "scene": 2,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_009_22becc539d2ee2e073293c0984714527b65f32c5d54dcc79bffb8a9885f54d06.mp3",
+   "after_dialogue_idx": 26
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_012",
+   "scene": 2,
+   "dialogue_indices": [
+    27
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 10,
+   "scene": 2,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_010_91095ed10e45f6ecd188b4c6ea45018f87f9482f9bf9570d2fab5aedbaf1f65e.mp3",
+   "after_dialogue_idx": 27
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_013",
+   "scene": 2,
+   "dialogue_indices": [
+    28
+   ]
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_014",
+   "scene": 2,
+   "dialogue_indices": [
+    29
+   ]
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_015",
+   "scene": 2,
+   "dialogue_indices": [
+    30
+   ]
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_016",
+   "scene": 2,
+   "dialogue_indices": [
+    31
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 11,
+   "scene": 2,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_011_67a84a8be941fc28988121c8ee10b573079270b07b56d4785913fecd8b78ef07.mp3",
+   "after_dialogue_idx": 31
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_017",
+   "scene": 2,
+   "dialogue_indices": [
+    32,
+    33
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 12,
+   "scene": 2,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_012_aeb8012e07d0351cde14925f1cafdb818115b664257dbeff1865c15688479e88.mp3",
+   "after_dialogue_idx": 33
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_018",
+   "scene": 2,
+   "dialogue_indices": [
+    34
+   ]
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_019",
+   "scene": 2,
+   "dialogue_indices": [
+    35
+   ]
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_020",
+   "scene": 3,
+   "dialogue_indices": [
+    36,
+    37,
+    38,
+    39,
+    40
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 13,
+   "scene": 3,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_013_89c34ec456b3b2bf2f870a336e4d4f90a45b6667e4beceb05157eecf77b66536.mp3",
+   "after_dialogue_idx": 40
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_021",
+   "scene": 3,
+   "dialogue_indices": [
+    41
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 14,
+   "scene": 3,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_014_ee9da4957b58f2b0d38d4d7d721cc1a0e89a84b0e204d8b8da3de51310e6093e.mp3",
+   "after_dialogue_idx": 41
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_022",
+   "scene": 3,
+   "dialogue_indices": [
+    42
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 15,
+   "scene": 3,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_015_87f2c75fa1a32312fcd37f2deb8a94e956e28f1aade947d46ee23b821cdc74a2.mp3",
+   "after_dialogue_idx": 42
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_023",
+   "scene": 3,
+   "dialogue_indices": [
+    43,
+    44,
+    45,
+    46
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 16,
+   "scene": 3,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_016_36724c9e10920c6c36e32379bc63fc10597c7c4ad91633a14597191a5b3b51c2.mp3",
+   "after_dialogue_idx": 46
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_024",
+   "scene": 3,
+   "dialogue_indices": [
+    47,
+    48,
+    49
+   ]
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_025",
+   "scene": 4,
+   "dialogue_indices": [
+    50,
+    51
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 17,
+   "scene": 4,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_017_59befccc8b0dd2281b7f9e8b70c732410a992901d41cf590343b72646d52fc66.mp3",
+   "after_dialogue_idx": 51
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_026",
+   "scene": 4,
+   "dialogue_indices": [
+    52,
+    53
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 18,
+   "scene": 4,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_018_ddcb9da4964cc65b9f34ae6d260d503634a0f5fd9bde1b5a6b861506ad0bd605.mp3",
+   "after_dialogue_idx": 53
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_027",
+   "scene": 4,
+   "dialogue_indices": [
+    54,
+    55,
+    56
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 19,
+   "scene": 4,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_019_d2327af5ced11fdcf58cfd7c8f4c99cafbb1b350e5f05f887ae0bf39bfc2507e.mp3",
+   "after_dialogue_idx": 56
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_028",
+   "scene": 4,
+   "dialogue_indices": [
+    57,
+    58
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 20,
+   "scene": 4,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_020_a9a6da52f2c92c2a6eb65ab99ab6c74d0f294fddf59a2ce3e8a99297c0117759.mp3",
+   "after_dialogue_idx": 58
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_029",
+   "scene": 4,
+   "dialogue_indices": [
+    59
+   ]
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_030",
+   "scene": 4,
+   "dialogue_indices": [
+    60,
+    61,
+    62
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 21,
+   "scene": 5,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_021_b8a41050a9805ee92e985ec97c85a1a14300c310d5cdd9a29324939a3d0e9486.mp3",
+   "after_dialogue_idx": 62
+  },
+  {
+   "kind": "voice_chunk",
+   "chunk_id": "voice_031",
+   "scene": 5,
+   "dialogue_indices": [
+    63
+   ]
+  },
+  {
+   "kind": "guide_sfx",
+   "sfx_idx": 22,
+   "scene": 5,
+   "path": "../stories/kuku/ep10prod/audio_first_table_read_v4/guide_sfx/cue_022_f64ce957196a3adf84b9c8c7888589950ca4159bf6691706deccd4e122b3016f.mp3",
+   "after_dialogue_idx": 63
+  }
+ ]
+}

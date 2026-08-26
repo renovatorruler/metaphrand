@@ -1,0 +1,41 @@
+[
+  {
+    "created_at": "2026-08-12T00:47:20.607667Z",
+    "display_name": "Seedance 2.5",
+    "id": "9eef3fc3-9c57-428a-a55a-67165082875e",
+    "job_type": "seedance_2_5",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "16:9",
+      "bitrate_mode": "standard",
+      "duration": 5,
+      "extension_mode": null,
+      "generate_audio": false,
+      "genre": "auto",
+      "height": 720,
+      "medias": [
+        {
+          "data": {
+            "id": "1216c050-45a8-4547-a03b-753096098f98",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/1216c050-45a8-4547-a03b-753096098f98_resize.jpg"
+          },
+          "role": "start_image"
+        }
+      ],
+      "model": "default",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "Animate this exact painted scroll panel. The painting itself moves, never the camera: the large indigo crab's legs flex and creep very slowly sideways across the sleeping man's chest, one claw slowly opening and closing; the man's chest rises and falls in shallow breaths; the seated woman's hand gently strokes his foot; the small black snake in the corner slithers slowly out through the border and disappears. Everything moves like flat painted paper cutouts sliding over cloth — two-dimensional, stiff, no depth, no turning, figures stay in strict profile. The cloth texture, colors, outlines and composition stay exactly as in the first frame. The camera does not move: locked-off, fixed framing, no pan, no zoom. Single continuous take, no cuts. No new figures enter the frame.",
+      "prompt_language": "en",
+      "reference_elements": [],
+      "resolution": "720p",
+      "speedramp": "auto",
+      "width": 1280
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_004720_9eef3fc3-9c57-428a-a55a-67165082875e.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_004720_9eef3fc3-9c57-428a-a55a-67165082875e_thumbnail.webp"
+  }
+]

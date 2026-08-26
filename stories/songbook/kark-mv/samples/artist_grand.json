@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-08-12T14:25:56.767164Z",
+    "display_name": "Nano Banana Pro",
+    "id": "e7e908b1-a7cd-49c9-b002-c6c1ec946d21",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_142556_e7e908b1-a7cd-49c9-b002-c6c1ec946d21_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [],
+      "prompt": "Epic cinematic music-video frame, anamorphic: an elderly Rajasthani folk singer (bhopa), ~75, lean and deeply weathered, white beard tied with a red thread, large saffron turban, worn red cotton robe whipping in the wind, standing on the high crumbling bastion of a ruined desert fortress, FACING THE CAMERA and singing straight into it with fierce grieving intensity — head tilted slightly back, brow knotted, mouth open mid-cry, one arm flung wide with the horsehair bow, the ravanhatta held upright against his chest with the other, red sacred threads streaming from his bowing wrist in the wind. Behind and far below him, a vast dry plain stretches to the horizon — and the sky is split in two: low golden setting sun burning on one side, an enormous dark monsoon storm front rolling in from the other, curtains of distant rain, god-rays breaking through. A small oil lamp flame bends in the wind at his feet beside an unrolled painted scroll weighted with stones. Low hero camera angle looking slightly up at him against the huge sky. Shot on anamorphic 35mm, cinematic color grade, wind-blown dust, epic and intimate at once. No text, no letters, no writing anywhere.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_142556_e7e908b1-a7cd-49c9-b002-c6c1ec946d21.png",
+    "status": "completed"
+  }
+]

@@ -1,0 +1,15 @@
+SHOT: CLOSE, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.
+STYLE: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, non-photorealistic, illustrated, not a photo. The FIRST attached image is the art style; match it EXACTLY.
+PALETTE: bright, vibrant, warm storybook palette — never sepia, never muted, never monochrome.
+SET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place does not: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and any landmark of it that falls inside this tighter frame sits exactly where the plate puts it. Never invent different architecture or a different kind of ground. Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet.
+SCENE: गौरी, introduced.
+SUBJECTS:
+- GAURI — gentle brown-and-white paper cow, dark paper eyes, small paper bell at her neck. Exactly ONE in frame. chewing paper hay, calm, dark paper eyes
+SETTING: beside the hay cart at the top of the lane
+LIGHTING: warm golden dusk — the last golden evening; the low sun gilds the paper flagstones
+HARD RULES:
+- no humans, no people, no human children, no human faces, no human shadows
+- no theater curtains, no stage, no proscenium, no frame-within-frame, no decorative border, no vignette
+- no readable text, no letters, no numbers, no glyphs, no captions, no watermark, no logos
+- no photorealism
+- no duplicate characters, no identical characters, no cloned dragons, no extra characters

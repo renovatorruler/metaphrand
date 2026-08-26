@@ -1,0 +1,36 @@
+[
+  {
+    "created_at": "2026-08-12T23:28:54.282935Z",
+    "display_name": "Higgsfield Soul 2.0",
+    "id": "3b6a9ef6-aab7-4196-9050-78f771481e37",
+    "job_type": "text2image_soul_v2",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_232854_3b6a9ef6-aab7-4196-9050-78f771481e37_min.webp",
+    "params": {
+      "batch_size": 1,
+      "custom_reference_id": "8532f692-8102-47ee-badf-4032c57ba48c",
+      "enhance_prompt": true,
+      "height": 1152,
+      "image_reference": {
+        "id": "59130c15-ded6-4329-a4d3-b36c78de97b6",
+        "type": "media_input",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/59130c15-ded6-4329-a4d3-b36c78de97b6.png"
+      },
+      "prompt": "A tight, side-angle medium close-up captures an elderly Indian man with a weathered face singing as he plays a rustic stringed instrument, most likely a ravanhatta. He is dressed in a vibrant orange turban and long, loose, brick-red kurta with rolled-up sleeves, sporting a long white beard with a section tied by a red thread, giving a textured contrast to his aged, tanned skin. His wrist is adorned with a stack of simple red thread bracelets, furthering the traditional aesthetic. He holds the bowed instrument, constructed from wood and polished gourd, with tactile details visible in the natural textures and handcrafted joinery. The background shows a weathered stone or stucco wall bathed in sunlight, providing a neutral context that directs all attention to the subject’s expressive performance. Warm, late afternoon or golden hour sunlight accentuates the folds of his clothing and the contours of his face, throwing dramatic contrast across the color-rich palette of burnt orange, deep reds, and gleaming browns. The composition is tightly framed, using shallow depth of field to softly blur the background, achieved with a digital camera, and focuses intently on the emotion and tradition of the scene. The overall tone is intimate, warm, and evocative of heritage.\nHEX VALUES: [\"#695d4d\", \"#54493a\", \"#393429\", \"#877660\", \"#4e0a09\", \"#6c1917\", \"#3f2612\", \"#23150b\", \"#893620\", \"#a5937e\", \"#ae5130\", \"#d36a4a\", \"#e2b990\", \"#f2d5b8\", \"#ec9566\"]",
+      "quality": "1080p",
+      "seed": 992929,
+      "style": {
+        "id": "3db34ab5-3439-4317-9e03-08dc30852e69",
+        "name": "General",
+        "strength": 1,
+        "url": "https://cdn.higgsfield.ai/soul-v2-style/f33d85f2-6521-4fa8-8e8f-894cfbdee578.webp"
+      },
+      "style_id": "3db34ab5-3439-4317-9e03-08dc30852e69",
+      "style_strength": 1,
+      "use_relax": false,
+      "use_sage_attention": false,
+      "width": 2048
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260812_232854_3b6a9ef6-aab7-4196-9050-78f771481e37.png",
+    "status": "completed"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "created_at": "2026-08-12T20:56:16.101486Z",
+    "display_name": "Nano Banana Pro",
+    "id": "3a689624-f0c0-40ee-bf51-9bacbff8d276",
+    "job_type": "nano_banana_pro",
+    "min_result_url": null,
+    "params": {
+      "application": null,
+      "aspect_ratio": "3:4",
+      "batch_size": 1,
+      "height": 1184,
+      "input_image": null,
+      "input_images": [],
+      "prompt": "Sharp photorealistic portrait photograph, natural light, plain neutral background, 85mm lens look, front-facing, looking straight into the lens. No text anywhere. A very handsome North Indian Malwa man of 60: strong jaw, high cheekbones, fair wheat-golden complexion, thick expressive brows, warm intelligent eyes with deep laugh lines, light silver stubble, gently thin from a long recovery but dignified and magnetic. Knitted woolen cap, soft brown shawl over a light kurta, a dry charming half-smile.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 864
+    },
+    "result_url": null,
+    "status": "nsfw"
+  }
+]
+Error: job 3a689624-f0c0-40ee-bf51-9bacbff8d276 ended with status "nsfw"
