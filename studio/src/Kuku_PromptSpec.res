@@ -99,11 +99,14 @@ let shotName = s =>
 
 /* the fixed laws */
 let styleKey = "0c47270d-70f7-4dd0-887f-c06c88ef5fd9"
-let styleLaw = "3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, non-photorealistic, illustrated, not a photo"
-let paletteLaw = "bright, vibrant, warm storybook palette — never sepia, never muted, never monochrome"
-let negatives = [
-  "no humans, no people, no human children, no human faces, no human shadows",
-  "no readable text, no letters, no numbers, no glyphs, no captions, no watermark, no logos",
+let styleLaw = "3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world"
+let paletteLaw = "bright, vibrant, warm storybook palette, every colour full and saturated"
+/* The world stated as facts. A fact names what exists; the model renders what
+   is named. The old negative list ("no humans, no text") is exactly the form
+   the PromptGate now refuses — each entry became the fact that replaces it. */
+let worldFacts = [
+  "this world is inhabited by paper dragons, paper birds and paper animals only",
+  "every surface — stone, wood, cloth, banner and sky — is plain blank paper",
 ]
 
 let bullets = xs => Js.Array2.joinWith(Js.Array2.map(xs, x => "- " ++ x), "\n")
@@ -117,8 +120,8 @@ let subjectText = s =>
     colorOf(name) ++
     " paper dragon, " ++
     (form == Great
-      ? "GREAT form: ENORMOUS IN THE WORLD — a grown man would reach only to her knee, and she towers over anything man-made beside her. This is her size in the world, NOT her size in the picture: how large she appears in frame is decided by how far away the camera is, so in a wide shot she may be a small figure and still be enormous"
-      : "small everyday form: a small paper dragon child, no taller than a human child") ++
+      ? "GREAT form: ENORMOUS IN THE WORLD — a grown man would reach only to her knee, and she towers over anything man-made beside her. That is her size in the world; her size in the picture is decided by how far away the viewpoint stands, so in a wide shot she may be a small figure and still be enormous"
+      : "small everyday form: a small paper dragon child, the height of a human child") ++
     ", wearing a golden कड़ा on one forearm. " ++ doing
   | Gauri({doing}) =>
     "- GAURI — gentle brown-and-white paper cow, dark paper eyes, small paper bell at her neck. " ++ doing
@@ -151,7 +154,7 @@ let isCharacter = s =>
   }
 
 let imagePrompt = (s: imageSpec) =>
-  Js.Array2.joinWith(
+  PromptGate.pass(~which="imagePrompt", Js.Array2.joinWith(
     [
       "SHOT: " ++ shotName(s.shot) ++ ", LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.",
       "STYLE: " ++ styleLaw ++ ". The FIRST attached image is the art style; match it EXACTLY.",
@@ -163,12 +166,12 @@ let imagePrompt = (s: imageSpec) =>
            without being forced back to the plate's camera */
         (switch s.shot {
         | Wide | WideLow | WideAction | HighWide | MediumWide | WideAbstract =>
-          "SET PLATE: the SECOND attached image IS this location, already built — reproduce it faithfully: the same ground, the same landmarks in the same places, the same walls, kerbs and horizon, the same camera vantage. Do not redesign the place, do not move its landmarks, do not invent new architecture."
+          "SET PLATE: the SECOND attached image IS this location, already built — reproduce it faithfully: the same ground, the same landmarks in the same places, the same walls, kerbs and horizon, the same camera vantage, the same architecture throughout."
         | Medium | CloseMedium | Close | Insert | CloseAbstract =>
-          "SET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place does not: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and any landmark of it that falls inside this tighter frame sits exactly where the plate puts it. Never invent different architecture or a different kind of ground."
+          "SET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place stays itself: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and every landmark of it that falls inside this tighter frame sits exactly where the plate puts it."
         }) ++
         (Js.Array2.length(s.objects) > 0
-          ? " The image after the plate is a locked STORY OBJECT: the same forged shape appears in other shots and must be reproduced with identical form, proportion, colour and material — never redrawn, never restyled, never a different shape."
+          ? " The image after the plate is a locked STORY OBJECT: the same forged shape appears in other shots and is reproduced with identical form, proportion, colour and material every single time."
           : "") ++
         " Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet."
       | None =>
@@ -182,17 +185,17 @@ let imagePrompt = (s: imageSpec) =>
       bullets(
         Js.Array2.concat(
           Js.Array2.some(s.subjects, isCharacter)
-            ? negatives
+            ? worldFacts
             : Js.Array2.concat(
-                ["this is an object/insert shot: no characters at all — no dragons, no birds, no animals, no figures anywhere in frame"],
-                negatives,
+                ["this is an object/insert shot: the frame holds the place and the named objects alone"],
+                worldFacts,
               ),
           s.extraRules,
         ),
       ),
     ],
     "\n",
-  )
+  ))
 
 let editKeepLaw = [
   "same 3D papercraft medium and layered cut-paper texture",
@@ -202,25 +205,25 @@ let editKeepLaw = [
 ]
 
 let editPrompt = (e: editSpec) =>
-  Js.Array2.joinWith(
+  PromptGate.pass(~which="editPrompt", Js.Array2.joinWith(
     [
       "TASK: edit the attached image — apply ONLY the change below.",
       "CHANGE: " ++ e.change,
       "KEEP:\n" ++ bullets(Js.Array2.concat(editKeepLaw, e.keep)),
-      "HARD RULES:\n" ++ bullets(Js.Array2.concat(negatives, e.extraRules)),
+      "HARD RULES:\n" ++ bullets(Js.Array2.concat(worldFacts, e.extraRules)),
     ],
     "\n",
-  )
+  ))
 
 /* Travel may begin, quicken or slow — what it may never do is turn round. The
    earlier wording forbade slowing to a stop, which made a launch from standing
    illegal. The ground-flow clause only makes sense when the camera moves, so it
    is emitted separately. */
 let directionLaw = [
-  "TRAVEL KEEPS ONE DIRECTION: whatever moves may start from rest, speed up or slow down, but its path always continues the same way — it never reverses.",
+  "TRAVEL KEEPS ONE DIRECTION: whatever moves may start from rest, speed up or slow down, and its path always continues the same way.",
 ]
 let travellingCameraLaw = [
-  "the camera keeps one direction of travel too — it never reverses or turns to look back the way it came, and the ground streams past in one consistent direction the entire time",
+  "the camera keeps one direction of travel too, and the ground streams past in one consistent direction the entire time",
 ]
 
 let paperPhysics = ["motion has real weight"]
@@ -234,13 +237,13 @@ let hasDragon = cast =>
   )
 
 let videoPrompt = (v: videoSpec) =>
-  Js.Array2.joinWith(
+  PromptGate.pass(~which="videoPrompt", Js.Array2.joinWith(
     Js.Array2.filter(
       [
         "SCENE: " ++ v.scene,
         Js.Array2.length(v.cast) > 0
-          ? "IN THIS SHOT — and nobody else:\n" ++ Js.Array2.joinWith(Js.Array2.map(v.cast, castLine), "\n")
-          : "IN THIS SHOT: the place itself, empty.",
+          ? "THE COMPLETE CAST OF THIS SHOT — exactly these:\n" ++ Js.Array2.joinWith(Js.Array2.map(v.cast, castLine), "\n")
+          : "IN THIS SHOT: the place itself, empty and still.",
         "FIRST FRAME: the provided start image IS frame one — the action begins from exactly this position.",
         "FORMAT: one single unbroken take.",
         "BLOCKING:\n" ++ bullets(v.blocking),
@@ -263,7 +266,7 @@ let videoPrompt = (v: videoSpec) =>
       l => l != "",
     ),
     "\n",
-  )
+  ))
 
 /* reference-image law: style key FIRST, then one locked board per subject that
    has one, deduplicated, in subject order. Paths are relative to studio/. */

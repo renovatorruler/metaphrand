@@ -26,7 +26,7 @@ external execFileSync: (string, array<string>, execOpts) => string = "execFileSy
 /* canonical recurring props — locked descriptions, deterministic across shots */
 let bell = doing => P.Prop({what: "THE BELL — the bronze paper bell of the flight ring on its paper cord", doing})
 let redRope = doing => P.Prop({what: "THE ROPE — the thick red paper-twine rope", doing})
-let marker = doing => P.Prop({what: "A RED DISTANCE MARK — a flat red paper paving stone set FLUSH into the lane, level with the surrounding flagstones; never a raised block, wedge or post, and never something the cart bumps over", doing})
+let marker = doing => P.Prop({what: "A RED DISTANCE MARK — a flat red paper paving stone set FLUSH into the lane, level with the surrounding flagstones, its face smooth with the road so wheels roll straight over it", doing})
 let kada = doing => P.Prop({what: "THE कड़ा — a golden paper bracelet cuff with two small blank golden medallions set into it", doing})
 let shards = doing => P.Prop({what: "GLYPH-SHARDS — small jagged black broken paper shards", doing})
 let doorway = doing => P.Prop({what: "THE DOORWAY — an open golden paper doorway standing between two worlds", doing})
@@ -123,7 +123,7 @@ let mk = (
       let _ = Js.Array2.push(derived, "ग COMPOSITED LOCALLY — generated frame must leave the stone empty")
       Js.Array2.concat(
         [
-          "THE FLAT STONE IS EMPTY: nothing has been forged on it yet. Do not place any golden shape, sculpture, hook, curve, letter, glyph or ornament anywhere on or near it — leave the stone bare and clearly lit, with room above it.",
+          "THE FLAT STONE IS BARE: plain smooth paper stone, clearly lit, open room above it — at this moment of the story the stone carries only itself.",
         ],
         extraRules,
       )
@@ -337,17 +337,17 @@ let shots: array<entry> = [
     ~beat=RingDrill,
     ~scene="The whole flight drill laid out: फ्यूरिया waits on her mark and the ring stands ahead of her with the bronze bell hanging inside it.",
     ~shot=P.Wide,
-    ~dragons=[(P.Fyuria, "stands on the circular marked flagstone in the LOWER LEFT of frame, wings half-raised and chin lifted, facing the ring — small in the frame, with a great deal of open courtyard and sky around her")],
+    ~dragons=[(P.Fyuria, "stands ON THE CENTRE OF THE LAUNCH CIRCLE — the concentric rings of flagstones in the courtyard floor, exactly where the reference image has them — wings half-raised and chin lifted, facing the ring — small in the frame, with a great deal of open courtyard and sky around her")],
     ~setting=Sets.setProseFor(Sets.Courtyard, ["LAUNCH CIRCLE", "FLIGHT RING"]),
     ~plate=courtyardPlate,
     ~extraRules=[
-      "SIZE IN THE WORLD IS NOT SIZE IN THE FRAME. She is still enormous compared with the flagstones she stands on — but the CAMERA IS VERY FAR AWAY, so she appears SMALL in this picture: no more than a QUARTER of the frame's height, a distant figure in a large space. Do not fill the frame with her.",
-      "FRAME THIS VERY WIDE AND FROM FAR BACK: the marked flagstone and the whole ring, bell included, are visible at once, well clear of the frame edges, with a broad band of sky above and open flagstones between them. Nothing is cropped.",
-      "leave enough empty air in the frame for her to fly from the mark, up through the ring and back again WITHOUT ever leaving the picture.",
-      "the mark sits low LEFT and the ring stands at CENTRE, with clear flying space between and above them.",
-      "THE BELL HANGS FROM THE RING ITSELF: a bronze bell on a short hook fixed to the inside of the ring's crown, hanging down into the opening she must fly through. There is NO separate arch and no other structure carrying it — the bell belongs to this ring and to nothing else.",
-      "the camera is at courtyard level, level with the ground, not looking up from beneath",
-      "THE RING IS TURNED THREE-QUARTERS TO CAMERA — not flat-on. We see it obliquely, as an ellipse rather than a perfect circle, so that its opening reads clearly as a HOLE IN SPACE with a near rim and a far rim, and so that the courtyard behind it is visible through the opening. This is what makes flying THROUGH it readable rather than ambiguous.",
+      "SIZE IN THE WORLD AND SIZE IN THE FRAME ARE TWO DIFFERENT THINGS. She is still enormous compared with the flagstones she stands on — and the VIEWPOINT IS VERY FAR AWAY, so she appears SMALL in this picture: at most a QUARTER of the frame's height, a distant figure in a large space.",
+      "FRAME THIS VERY WIDE AND FROM FAR BACK: the marked flagstone and the whole ring, bell included, are visible at once, well clear of the frame edges, with a broad band of sky above and open flagstones between them. Each sits whole inside the frame.",
+      "leave enough empty air in the frame for her to fly from the mark, up through the ring and back again while staying inside the picture.",
+      "she stands where the launch circle already is in the reference image; the ring stands beyond it, with clear flying space between and above them.",
+      "THE BELL HANGS FROM THE RING ITSELF: a bronze bell on a short hook fixed to the inside of the ring's crown, hanging down into the opening she must fly through — the bell belongs to this ring alone.",
+      "the viewpoint is at courtyard level, level with the ground, looking straight across the courtyard",
+      "THE RING IS TURNED THREE-QUARTERS TO THE VIEWPOINT, seen obliquely as an ellipse, so its opening reads clearly as a HOLE IN SPACE with a near rim and a far rim, and the courtyard behind it stays visible through the opening. This is what makes flying THROUGH it readable.",
       "फ्यूरिया stands on the near side of the ring, so the flight path runs from camera-near, through the opening, and away to the far side",
     ],
     ~added=["a wide drill-stage frame; the old start frame was too tight for the action to happen inside it"],
@@ -388,7 +388,7 @@ let shots: array<entry> = [
     ~props=[redRope("wrapped in three tight turns around the weathered stone post and knotted, WHOLE AND UNBROKEN, drawn bar-tight and straining under load; it runs out of the RIGHT of frame toward the cart it holds")],
     ~setting=Sets.setProseFor(Sets.Lane, ["STONE POST", "CART START"]),
     ~extraRules=[
-      "the rope is INTACT along its whole visible length — a continuous twisted paper cord with clean edges, no frayed end, no broken strands, no loose fibres anywhere",
+      "the rope is INTACT along its whole visible length — a continuous twisted paper cord with clean edges, every strand whole and wound tight from end to end",
       "frame close on the post and knot, but keep enough of the paper flagstones and the low kerb beneath to place this at the head of the lane",
       "the rope leaves the frame at the RIGHT still under tension, going to the cart out of shot",
     ],
@@ -404,13 +404,13 @@ let shots: array<entry> = [
     /* the old frame was the AFTERMATH — bell already taken, already airborne, cord
    already cut — so a clip begun there had nothing left to do. This is the
    instant BEFORE: still perched, bell still hanging, binding still whole. */
-    ~others=[P.Cheel({doing: "perched on the crown of the stone bell arch, leaning down with her beak and one talon to the bell's bronze binding, wings half-raised and ready — she has not taken it yet"})],
+    ~others=[P.Cheel({doing: "perched on the crown of the great stone flight ring, leaning down with her beak and one talon to the bell's bronze binding, wings half-raised and ready — the bell still hangs whole beneath her"})],
     ~props=[bell("still hanging from the crown of the arch on its whole, uncut binding, directly beneath her")],
     ~setting=Sets.setProseFor(Sets.Courtyard, ["FLIGHT RING"]),
     ~plate=courtyardPlate,
     ~extraRules=[
       "the bell hangs untouched from the arch and its binding is WHOLE — this is the moment before the theft",
-      "FRAME ON THE FLIGHT RING: the great ring fills most of the frame, whole and not cut off by the frame edge, with the bronze bell hanging from the inside of its crown down into the opening",
+      "FRAME ON THE FLIGHT RING: the great ring fills most of the frame, complete inside the frame with air on every side, the bronze bell hanging from the inside of its crown down into the opening",
       "चील is perched ON THE CROWN OF THE RING directly above the bell, small against it — the ring is fourteen metres across and she is a bird",
       "leave clear sky above the ring for her to rise into",
     ],
@@ -554,7 +554,7 @@ let shots: array<entry> = [
     ~beat=Braking,
     ~scene="कैस्टर keeps गौरी calm.",
     ~shot=P.Medium,
-    ~dragons=[(P.Castor, "flies ALONG the lane directly above and behind the cart, his long body and tail stretching back UP the slope behind him and fully inside the lane, wings swept back and held high above the kerb line. Only his head and neck come down toward the frightened cow. He is turned nose-forward down the lane, never broadside across it, and his tail runs back along the open lane — never into, across or through a kerb or wall")],
+    ~dragons=[(P.Castor, "flies ALONG the lane directly above and behind the cart, his long body and tail stretching back UP the slope behind him and fully inside the lane, wings swept back and held high above the kerb line. Only his head and neck come down toward the frightened cow. He is turned nose-forward down the lane, his whole length in line with it, and his tail runs back along the open lane through clear air, between the kerbs the whole way")],
     ~gauri="frightened in the cart, looking up at him",
     ~cart=(true, "running"),
     ~setting=lane,
@@ -578,7 +578,7 @@ let shots: array<entry> = [
   mk(
     ~id="h24_kuku_breath_fail",
     ~beat=Braking,
-    ~scene="कुकु's breath scatters — the ग will not come.",
+    ~scene="कुकु's breath scatters into shapeless golden wisps, and the flat stone stays bare.",
     ~shot=P.Medium,
     ~dragons=[(P.Kuku, "exhales a thin golden paper-cut breath that scatters and dies in the air, his expression startled")],
     ~setting=lane,
@@ -830,7 +830,7 @@ let shots: array<entry> = [
     ~beat=AfterStop,
     ~scene="The five shrink back to small — seen only as light.",
     ~shot=P.WideAbstract,
-    ~props=[lightColumns("standing on the courtyard flagstones where the five dragons were, no figures visible, paper clouds behind")],
+    ~props=[lightColumns("standing alone on the courtyard flagstones where the five dragons were, paper clouds behind")],
     ~setting=courtyard,
     ~plate=courtyardPlate,
     (),
@@ -982,7 +982,24 @@ let generateShot = (e: entry) => {
 }
 
 let args = Js.Array2.sliceFrom(argv, 2)
-if Js.Array2.length(args) > 0 && args[0] == "go" {
+if Js.Array2.length(args) > 0 && args[0] == "gate" {
+  /* render every prompt through the PromptGate, collecting every violation so
+     one run shows the whole cleanup list. Zero cost — the lint:prompts entry. */
+  let bad = ref(0)
+  Js.Array2.forEach(shots, e =>
+    try {ignore(P.imagePrompt(e.spec))} catch {
+    | Js.Exn.Error(err) => {
+        bad := bad.contents + 1
+        Js.log("== " ++ e.id ++ " ==")
+        Js.log(switch Js.Exn.message(err) { | Some(m) => m | None => "?" })
+      }
+    }
+  )
+  if bad.contents > 0 {
+    Js.Exn.raiseError(Belt.Int.toString(bad.contents) ++ " still prompts forbid")
+  }
+  Js.log("PROMPT GATE CLEAN: " ++ Belt.Int.toString(Js.Array2.length(shots)) ++ " still prompts describe, and every line names what is on screen")
+} else if Js.Array2.length(args) > 0 && args[0] == "go" {
   let ids = Js.Array2.sliceFrom(args, 1)
   Js.Array2.forEach(ids, id =>
     switch Js.Array2.find(shots, e => e.id == id) {

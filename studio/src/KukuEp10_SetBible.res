@@ -30,31 +30,30 @@ let setOfName = n =>
 
 /* ---- the master plate: the set itself, empty of characters ---------------- */
 let platePrompt = s =>
-  Js.Array2.joinWith(
+  PromptGate.pass(~which="platePrompt", Js.Array2.joinWith(
     [
       "SHOT: WIDE ESTABLISHING PLATE, LANDSCAPE 16:9, full-bleed, the camera is INSIDE the world.",
       "STYLE: " ++ P.styleLaw ++ ". The FIRST attached image is the art style; match it EXACTLY.",
       "PALETTE: " ++ P.paletteLaw ++ ".",
-      "BLUEPRINT: the SECOND attached image is a PLAN-VIEW MAP of this set, not a picture and not a style — read the landmark positions from it and place every landmark accordingly. Do not draw the map, draw the place. The map's WORDS AND NUMBERS ARE NOT PROPS: never carve, paint, letter or number any landmark in the picture; the markers are blank red paper wedges, the post is a blank stone post.",
-      "TIME: this is the set BEFORE the story happens — nothing the episode later creates is here yet (no golden ga-shape on the flat stone, no cart, no rope).",
+      "BLUEPRINT: the SECOND attached image is a PLAN-VIEW MAP of this set — read the landmark positions from it, then draw the PLACE ITSELF seen from inside the world. Every landmark stands blank and plain: the markers are flat red paving stones, the post is a bare stone post, every face of stone smooth and empty.",
+      "TIME: this is the set BEFORE the story happens — every flagstone bare, the flat stone bare, the lane open and empty from top to wall.",
       "SET: " ++ S.setProse(s),
       "VIEWPOINT: " ++ S.vantageProse(s, S.TopLookingDown),
-      "LIGHTING: warm golden dusk — the last golden evening; the low sun gilds the paper flagstones. THE SUN IS OFF TO ONE SIDE, well away from the camera axis, and never behind the set: the landmarks are LIT, not silhouetted, and every colour in the place stays full — green hills, blue water, snow on the far peaks.",
+      "LIGHTING: warm golden dusk — the last golden evening; the low sun gilds the paper flagstones. THE SUN STANDS OFF TO ONE SIDE, well clear of the viewing axis, so every landmark is LIT full-face and every colour in the place stays full — green hills, blue water, snow on the far peaks.",
       "PURPOSE: this is a SET PLATE — the empty location itself, to be reused as the reference for every shot staged here. Every landmark must be clearly visible and correctly placed.",
       "HARD RULES:\n" ++
       P.bullets(
         Js.Array2.concat(
           [
-            "the set is EMPTY: no dragons, no birds, no animals, no cow, no cart, no figures of any kind anywhere in frame",
-            "no map, no plan view, no diagram, no floor plan, no blueprint lines, no arrows, no measurement marks in the picture",
-            "the picture is the place itself, edge to edge: no dark foreground shapes framing the sides, no curtains, no cave mouth, no vignette, no border — nothing stands between the camera and the set",
+            "the set stands EMPTY and still: bare flagstones, open sky, architecture and landscape alone — the whole cast of this picture is the place itself",
+            "the picture is the finished place seen from inside the world, rendered edge to edge, with open air between the viewer and every landmark",
           ],
-          P.negatives,
+          P.worldFacts,
         ),
       ),
     ],
     "\n",
-  )
+  ))
 
 let plateFile = s => dir ++ S.setName(s) ++ "_plate.png"
 let blueprintSvg = s => dir ++ S.setName(s) ++ "_blueprint.svg"
@@ -103,28 +102,28 @@ let doPlate = s => {
 
 /* the camera pass: the empty set surveyed in one continuous move */
 let surveySpec = (s): P.videoSpec => {
-  scene: "A slow survey of an EMPTY papercraft set — no characters of any kind. " ++ S.setProse(s),
+  scene: "A slow survey of an EMPTY papercraft set, the place itself the whole subject. " ++ S.setProse(s),
   cameraTravels: true,
   cast: [], /* a survey is deliberately empty of characters */
   blocking: [
     "the start image IS this set; every landmark stays exactly where the start image puts it",
-    "nothing in the set moves — this is a still world; only the camera travels",
+    "the set holds perfectly still — a still world, the camera the only thing that travels",
   ],
   beats: [
     "0.0-1.0s: the camera is still, at the stone post at the top of the lane",
-    "1.0-4.0s: it travels slowly forward down the centreline, covering about EIGHTEEN METRES in total — roughly as far as the second red marker — and no further",
+    "1.0-4.0s: it travels slowly forward down the centreline, its whole travel about EIGHTEEN METRES — coming to rest roughly level with the second red marker",
     "4.0-5.0s: it comes to rest. The closed stone wall is still far away in the distance at the end of the clip, exactly as far as eighteen metres of travel would leave it",
   ],
-  camera: "one short bounded forward dolly of about eighteen metres down the lane centreline at head height, then a stop — no orbit, no whip, no cut, no zoom, and the camera never reaches or nears the end wall",
+  camera: "one single short forward dolly of about eighteen metres down the lane centreline at head height, then a full stop, the end wall still far away at the finish",
   physics: [
-    "nothing animate exists here; no creature, no cart, no cow enters frame at any point",
+    "the place itself is the complete cast — bare ground and standing architecture from first frame to last",
     "the set is RIGID: the end wall, the stone post, the kerbs and every red marker keep their exact positions in the world for the whole clip",
-    "the end wall only ever grows slowly nearer as the camera advances — it must never recede, never shrink, never move back, and the lane must never get longer",
-    "red markers only ever pass out of frame behind the camera; no marker ever reappears and no new marker is ever added",
+    "the end wall grows slowly and steadily nearer as the camera advances, and the lane keeps its exact length from first frame to last",
+    "each red marker passes out of frame behind the camera exactly once, and exactly three markers exist in the whole lane",
   ],
-  lighting: "constant warm golden dusk, identical to the start image throughout, no time change",
-  audio: "no dialogue, no music",
-  extraRules: ["the set is EMPTY: no dragons, no birds, no animals, no cow, no cart, no figures at any point in the clip"],
+  lighting: "constant warm golden dusk, identical to the start image throughout, the light holding steady for the whole clip",
+  audio: "",
+  extraRules: ["the set stays EMPTY for the whole clip: bare flagstones, open sky, the place itself the only subject"],
 }
 
 let doSurvey = s => {
@@ -187,13 +186,13 @@ let doRetouch = (s, change) => {
 
 /* ---- style pass: Blender owns the geometry, nano owns the paper ----------- */
 let stylePassPrompt = s =>
-  Js.Array2.joinWith(
+  PromptGate.pass(~which="stylePassPrompt", Js.Array2.joinWith(
     [
       "TASK: the SECOND attached image is an untextured grey 3D BLOCKOUT of this set — the geometry and camera are already correct. Render that exact view as the finished illustration.",
       "STYLE: " ++ P.styleLaw ++ ". The FIRST attached image is the art style; match it EXACTLY.",
       "PALETTE: " ++ P.paletteLaw ++ ".",
-      "KEEP FROM THE BLOCKOUT, EXACTLY: the camera angle, the perspective, the horizon line, the shape and fall of the ground, the position and size of every object in frame. Do not move anything, do not add architecture, do not change the viewpoint.",
-      "THE BLOCKOUT IS THE AUTHORITY ON WHAT IS IN FRAME: render only the forms it actually shows. The set description below names landmarks that exist elsewhere in this location — any of them NOT present in the blockout is out of shot and must NOT be added.",
+      "KEEP FROM THE BLOCKOUT, EXACTLY: the viewpoint, the perspective, the horizon line, the shape and fall of the ground, and the position and size of every object in frame, all held exactly where the blockout puts them.",
+      "THE BLOCKOUT IS THE AUTHORITY ON WHAT IS IN FRAME: render exactly the forms it shows, the full list of them and only that list. The set description below covers the whole location; the blockout chooses which part of it this picture holds.",
       "SET: " ++ S.setProse(s),
       "MATERIALS: flagstones become layered cut-paper slabs; kerbs become folded paper edges; the markers become blank red paper wedges; the wall becomes stacked paper stones; the ground becomes soft paper grass and hills.",
       "LIGHTING: warm golden dusk — the last golden evening, low grazing light and long soft shadows.",
@@ -201,15 +200,15 @@ let stylePassPrompt = s =>
       P.bullets(
         Js.Array2.concat(
           [
-            "the set is EMPTY: no dragons, no birds, no animals, no cow, no cart, no figures of any kind",
-            "no grey untextured surfaces left anywhere — every surface is finished paper",
+            "the set stands EMPTY and still: bare ground, open sky, architecture and landscape alone",
+            "every surface is finished paper, textured corner to corner",
           ],
-          P.negatives,
+          P.worldFacts,
         ),
       ),
     ],
     "\n",
-  )
+  ))
 
 let doStylePass = (s, blockout, dst) => {
   let args = [
@@ -229,6 +228,26 @@ let target = Js.Array2.length(argv) > 3 ? setOfName(argv[3]) : None
 
 switch (mode, target) {
 | ("blueprint", _) => doBlueprints()
+| ("gate", _) => {
+    let bad = ref(0)
+    let try_ = (label, f) =>
+      try {ignore(f())} catch {
+      | Js.Exn.Error(err) => {
+          bad := bad.contents + 1
+          Js.log("== " ++ label ++ " ==")
+          Js.log(switch Js.Exn.message(err) { | Some(m) => m | None => "?" })
+        }
+      }
+    Js.Array2.forEach(sets, s => {
+      try_(S.setName(s) ++ " plate", () => platePrompt(s))
+      try_(S.setName(s) ++ " style", () => stylePassPrompt(s))
+      try_(S.setName(s) ++ " survey", () => P.videoPrompt(surveySpec(s)))
+    })
+    if bad.contents > 0 {
+      Js.Exn.raiseError(Belt.Int.toString(bad.contents) ++ " set prompts forbid")
+    }
+    Js.log("PROMPT GATE CLEAN: plates, style passes and surveys for " ++ Belt.Int.toString(Js.Array2.length(sets)) ++ " sets")
+  }
 | ("plate", Some(s)) => doPlate(s)
 | ("survey", Some(s)) => doSurvey(s)
 | ("prompt", Some(s)) => Js.log(platePrompt(s))

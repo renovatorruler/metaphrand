@@ -8,6 +8,7 @@
 
 @module("fs") external readFileSync: (string, string) => string = "readFileSync"
 @module("fs") external writeFileSync: (string, string) => unit = "writeFileSync"
+@scope("process") @val external processExit: int => unit = "exit"
 @module("fs") external existsSync: string => bool = "existsSync"
 type mkdirOpts = {recursive: bool}
 @module("fs") external mkdirSync: (string, mkdirOpts) => unit = "mkdirSync"
@@ -448,6 +449,17 @@ let emotions: array<emotionSpec> = [
     name: "DETERMINATION",
     belongs: ["jaw sets", "lips press", "brows draw down", "eyes steady", "eyes narrow"],
     contradicts: ["mouth falls open", "jaw hangs", "eyes go round", "brows shoot up"],
+  },
+  /* DISAPPOINTMENT is not SULK. Sulk is petulant and aimed at somebody — the
+     chin tucks, the lip pushes out, the brows drive down. Disappointment is
+     aimed at nothing: the inner ends of the brows tilt UP, the mouth corners
+     fall, the shoulders come down, and the eyes stay low. Фрося needs it in
+     scene 9 when the alphabet refuses her the car, and reaching for SULK there
+     would make her a brat instead of a child who has just been told no. */
+  {
+    name: "DISAPPOINTMENT",
+    belongs: ["brows tilt up", "inner ends", "brows come together", "corners of her mouth pull down", "mouth corners fall", "lower lip pushes", "shoulders come down", "shoulders drop", "eyes stay", "looks down", "settles downward", "hand goes still"],
+    contradicts: ["grin", "smiling", "cheeks bunch", "eyes squeeze", "brows shoot up", "mouth stretches wide", "laughing"],
   },
   {
     name: "SULK",
@@ -1508,7 +1520,7 @@ let () = {
   Js.log("  " ++ ledger)
   if fail.contents {
     Js.log("DRY RUN: FAIL — fix the rows above; nothing may be submitted.")
-    %raw(`process.exit(1)`)->ignore
+    processExit(1)
   } else {
     Js.log("DRY RUN: PASS — emitted artifacts in " ++ outDir ++ " for review.")
   }

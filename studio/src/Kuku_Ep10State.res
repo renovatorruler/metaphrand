@@ -30,7 +30,7 @@ type beat =
 let lighting = b =>
   switch b {
   | RingDrill | Briefing | RopeSlips => "warm golden dusk — the last golden evening; the low sun gilds the paper flagstones"
-  | TowerMischief | TowerEnd => "cool fading dusk at the tower — the evening's warmth does not reach this stone"
+  | TowerMischief | TowerEnd => "cool fading dusk at the tower, blue-grey light on the stone"
   | Runaway | Braking => "deepening golden dusk, long warm shadows running down the lane"
   | FlatSound | LastApproach | TheStop => "the very last of the gold — the sun nearly down, warm light low and grazing"
   | Forging => "deep dusk — the golden breath-light is the light source of the frame"

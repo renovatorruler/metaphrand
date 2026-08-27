@@ -35,14 +35,14 @@ let cow = doing => P.Gauri({doing: doing})
 
 let commonBlocking = [
   "the start image IS this lane — the same flagstones, low kerbs, rubble wall along the right, stone post behind, and the same horizon and sun",
-  "the cart runs along the CENTRELINE and never climbs either kerb",
+  "the cart runs along the CENTRELINE, wheels on the flagstones the whole way, the kerbs sliding past on either side",
   "गौरी the brown-and-white paper cow stays aboard the cart in EVERY frame, braced in the hay",
-  "the three red paper markers sit on the centreline at 12, 24 and 36 metres; the closed stone end wall stays far away all clip and never comes near",
+  "the three red paper markers sit on the centreline at 12, 24 and 36 metres; the closed stone end wall stays a distant line at the bottom of the slope for the whole clip",
 ]
 let commonPhysics = [
   S.greatFormStaging,
   S.greatFormFraming,
-  "the lane is RIGID: kerbs, markers, post and wall keep their positions; the lane never lengthens and no marker reappears once passed",
+  "the lane is RIGID: kerbs, markers, post and wall keep their positions, the lane keeps its exact length, and each marker slides past exactly once",
   "wheels turn at a speed that matches the ground moving past them",
 ]
 let commonRules = [
@@ -54,7 +54,7 @@ type clip = {tag: string, start: string, endFrame: string, secs: int, spec: P.vi
 let talkPhysics = [
   S.greatFormStaging,
   S.greatFormFraming,
-  "the character stays where they are — this is a held shot, not a travelling one; no lunging toward or away from camera",
+  "the character stays planted on the same spot for the whole clip — a held shot, the body anchored, the head, mouth and wings carrying the performance",
   "the mouth moves in natural speech throughout, jaw and lips working, with small head movements and blinks between phrases",
 ]
 
@@ -67,19 +67,19 @@ let all: array<clip> = [
     endFrame: "",
     secs: 10,
     spec: {
-      scene: "The tethered hay cart breaks away and begins to run down the gurukul's flight-lane at golden dusk, गौरी braced inside it, the cut red rope whipping along behind. No dragon is in this shot. " ++ laneSet,
+      scene: "The tethered hay cart breaks away and begins to run down the gurukul's flight-lane at golden dusk, गौरी braced inside it, the cut red rope whipping along behind. The cart and गौरी are the complete cast of this clip. " ++ laneSet,
       cameraTravels: true,
       cast: [cow("braced in the running cart")],
-      blocking: Js.Array2.concat(commonBlocking, ["no dragon appears at any point in this clip — the lane belongs to the cart alone"]),
+      blocking: Js.Array2.concat(commonBlocking, ["the cart and गौरी are the complete cast from first frame to last — the lane belongs to them alone"]),
       beats: [
         "0.0-3.0s: the cart is already moving and gathering speed, hay lifting, the loose red rope snaking behind it",
         "3.0-7.0s: it runs on down the slope and the FIRST red marker slides past its wheels and away behind",
-        "7.0-10.0s: still accelerating, now roughly twelve metres down the lane and no further",
+        "7.0-10.0s: still accelerating, reaching roughly twelve metres down the lane by the last frame",
       ],
-      camera: "one continuous tracking shot alongside the cart at cart height, travelling at its speed — no cut, no zoom, no orbit, and the camera never turns back up the lane",
-      physics: Js.Array2.concat(commonPhysics, ["the cart covers about twelve metres in total — from the top of the slope to the first marker — and no more"]),
-      lighting: "constant warm golden dusk exactly as the start image, low sun, long soft shadows, no time change",
-      audio: "no dialogue, no music",
+      camera: "one single continuous tracking shot alongside the cart at cart height, travelling at its speed, holding one framing and facing DOWN the lane from first frame to last",
+      physics: Js.Array2.concat(commonPhysics, ["the cart's whole travel this clip is about twelve metres — from the top of the slope to the first marker"]),
+      lighting: "constant warm golden dusk exactly as the start image, low sun, long soft shadows, the light holding steady for the whole clip",
+      audio: "",
       extraRules: commonRules,
     },
   },
@@ -102,10 +102,10 @@ let all: array<clip> = [
         "0.0-2.0s: the five drop into place around the running cart, wings spread wide",
         "2.0-5.0s: they hold formation and travel with it as it passes the SECOND marker",
       ],
-      camera: "a continuous tracking shot alongside the cart and its escort at cart height, matching their speed. The camera looks DOWN the lane in the direction of travel for the entire clip — it never faces back up the slope, never drifts rearward, and the flagstones must stream TOWARD the camera and out of the bottom of frame, never away from it. No cut, no zoom.",
-      physics: Js.Array2.concat(commonPhysics, ["the cart covers about eight metres in this clip and no more"]),
-      lighting: "constant warm golden dusk exactly as the start image, no time change",
-      audio: "no dialogue, no music",
+      camera: "a continuous tracking shot alongside the cart and its escort at cart height, matching their speed. The camera looks DOWN the lane in the direction of travel for the entire clip, holding that facing to the last frame, and the flagstones stream TOWARD the camera and out of the bottom of frame the whole time. One continuous take.",
+      physics: Js.Array2.concat(commonPhysics, ["the cart's whole travel this clip is about eight metres"]),
+      lighting: "constant warm golden dusk exactly as the start image, the light holding steady for the whole clip",
+      audio: "",
       extraRules: commonRules,
     },
   },
@@ -117,7 +117,7 @@ let all: array<clip> = [
     endFrame: "",
     secs: 5,
     spec: {
-      scene: "The five grip the cart's wheels and strain upward to lift it clear of the lane — and it does not come. " ++ laneSet,
+      scene: "The five grip the cart's wheels and strain upward to lift it clear of the lane — and it stays down. " ++ laneSet,
       cameraTravels: true,
       cast: [d(P.Kuku, "front-left wheel"), d(P.Fyuria, "front-right wheel"), d(P.Castor, "rear-left wheel"), d(P.Leda, "rear-right wheel"), d(P.Vesper, "the centre rail from above"), cow("sliding in the hay as the cart twists")],
       blocking: Js.Array2.concat(commonBlocking, [
@@ -129,13 +129,13 @@ let all: array<clip> = [
         "2.0-4.0s: the back stays planted; the cart twists on its axis and गौरी slides in the hay",
         "4.0-5.0s: the strain is plainly failing — the cart is still moving forward beneath them",
       ],
-      camera: "one continuous low tracking shot alongside, at wheel height, matching the cart's speed — no cut, no zoom",
+      camera: "one single continuous low tracking shot alongside, at wheel height, matching the cart's speed",
       physics: Js.Array2.concat(commonPhysics, [
-        "the cart never leaves the ground completely; only the front wheels rise, by less than a wheel's height",
+        "the back wheels stay planted on the flagstones; only the front wheels rise, by less than a wheel's height",
         "the cart covers about four metres in this clip",
       ]),
-      lighting: "constant warm golden dusk exactly as the start image, no time change",
-      audio: "no dialogue, no music",
+      lighting: "constant warm golden dusk exactly as the start image, the light holding steady for the whole clip",
+      audio: "",
       extraRules: commonRules,
     },
   },
@@ -147,7 +147,7 @@ let all: array<clip> = [
     endFrame: "",
     secs: 5,
     spec: {
-      scene: "The lift is abandoned: the cart's wheels come back down onto the flagstones, dust puffs out, and it runs on with गौरी still aboard. No dragon grips it any more. " ++ laneSet,
+      scene: "The lift is abandoned: the cart's wheels come back down onto the flagstones, dust puffs out, and it runs on with गौरी still aboard. Every dragon has let go of it. " ++ laneSet,
       cameraTravels: true,
       cast: [cow("braced in the cart as it settles and runs on")],
       blocking: Js.Array2.concat(commonBlocking, ["the dragons have let go and are out of frame or high above; the cart is alone on the lane again"]),
@@ -155,10 +155,10 @@ let all: array<clip> = [
         "0.0-2.0s: all four wheels settle back onto the flagstones together and dust puffs out around them",
         "2.0-5.0s: the cart rights itself and runs on down the slope, गौरी braced, hay still lifting",
       ],
-      camera: "a continuous low tracking shot at wheel height alongside the cart — no cut, no zoom",
+      camera: "one single continuous low tracking shot at wheel height alongside the cart",
       physics: Js.Array2.concat(commonPhysics, ["the cart covers about four metres in this clip"]),
-      lighting: "constant warm golden dusk exactly as the start image, no time change",
-      audio: "no dialogue, no music",
+      lighting: "constant warm golden dusk exactly as the start image, the light holding steady for the whole clip",
+      audio: "",
       extraRules: commonRules,
     },
   },
@@ -187,7 +187,7 @@ let all: array<clip> = [
       ],
       camera: "one locked-off CLOSE camera on the post and knot, held perfectly still for the whole clip",
       physics: [
-        "the rope moves like stiff paper twine — it bends at creases and holds its shape, it does not behave like cloth or string",
+        "the rope moves like stiff paper twine — it bends at creases and holds its shape, stiff from end to end",
         "once the knot begins to give it keeps giving; the loops only ever loosen",
         "the post stays exactly where it is and keeps its shape throughout",
       ],
@@ -282,7 +282,7 @@ let all: array<clip> = [
       blocking: [
         "the start image IS this courtyard — the same flagstones, the same ring, the same bell, the same sky and light",
         "the RING holds perfectly still, exactly as the start image has it; it is fourteen metres across, and she passes through its opening with her wings spread",
-        "THE BELL HANGS INSIDE THE RING and stays hanging there for the whole clip — she only touches it, she never takes it, never carries it, and it never comes off its hook",
+        "THE BELL HANGS INSIDE THE RING and stays hanging on its hook from first frame to last — her claw meets it for one instant and travels on, and the bell swings in place behind her",
       ],
       beats: [
         "0.0-1.2s: she crouches on the marked flagstone and launches toward the ring, paper dust curling from the stones beneath her",
@@ -293,7 +293,7 @@ let all: array<clip> = [
       camera: "one locked-off WIDE camera on the courtyard floor, held perfectly still for the whole clip, the ring centred and whole in frame with sky above it",
       physics: [
         "PROOF OF PASSAGE: as she goes through, the ring's near rim briefly passes in front of her body, hiding part of her for a moment, and on the far side the ring's stone is nearer to camera than she is",
-        "A BRUSH, NOT A GRAB: the claw makes contact for a moment and comes away; the bell is left swinging on its hook, still hanging in the ring",
+        "A PASSING BRUSH: the claw makes contact for one moment and travels on; the bell is left swinging on its hook, still hanging in the ring",
         "the bell swings from its single hook like a real bell, pivoting at that one point",
         "she passes cleanly through the empty middle of the opening, well clear of the stone",
       ],
@@ -322,10 +322,10 @@ let all: array<clip> = [
         "0.0-2.0s: her wings sweep forward hard against the oncoming cart, paper dust rolling up between them",
         "2.0-5.0s: the cart slows a little but keeps coming; she is driven backwards down the lane by it",
       ],
-      camera: "one continuous tracking shot alongside both of them at cart height, looking down the lane in the direction of travel; the flagstones stream toward the camera and out of the bottom of frame — no cut, no zoom",
-      physics: Js.Array2.concat(commonPhysics, ["cart and dragon both continue to travel DOWN the lane throughout — she is losing ground, not pushing it back up", "the cart covers about five metres in this clip"]),
-      lighting: "constant deepening golden dusk exactly as the start image, no time change",
-      audio: "no dialogue, no music",
+      camera: "one single continuous tracking shot alongside both of them at cart height, looking down the lane in the direction of travel, the flagstones streaming toward the camera and out of the bottom of frame",
+      physics: Js.Array2.concat(commonPhysics, ["cart and dragon both continue to travel DOWN the lane throughout — the cart still winning against her push", "the cart covers about five metres in this clip"]),
+      lighting: "constant deepening golden dusk exactly as the start image, the light holding steady for the whole clip",
+      audio: "",
       extraRules: commonRules,
     },
   },
@@ -342,18 +342,18 @@ let all: array<clip> = [
       cast: [cow("braced in the cart as it rushes through frame")],
       blocking: [
         "the start image IS this lane — same flagstones, same kerbs, same light",
-        "the red mark is FLUSH with the paving, an inlaid stone the wheels roll straight over without a bump",
-        "no dragon in this shot",
+        "the red mark is FLUSH with the paving, an inlaid stone the wheels roll straight over, the cart staying level as it passes",
+        "the cart and गौरी are the complete cast of this clip",
       ],
       beats: [
         "0.0-2.5s: wooden wheels rush across frame, dust lifting from the flagstones",
         "2.5-5.0s: the flat red mark slides beneath them and away behind, out of the bottom of frame",
       ],
-      camera: "a low locked-off camera close to the lane surface as the cart passes through frame — the camera itself does not travel",
-      physics: Js.Array2.concat(commonPhysics, ["the wheels and the ground move in ONE direction across frame and never reverse"]),
+      camera: "a low LOCKED camera fixed in place close to the lane surface, holding one framing as the cart passes through frame",
+      physics: Js.Array2.concat(commonPhysics, ["the wheels and the ground move in ONE direction across frame from first frame to last"]),
       lighting: "constant deepening golden dusk exactly as the start image",
-      audio: "no dialogue, no music",
-      extraRules: ["no characters other than the cart and गौरी — no dragons enter frame"],
+      audio: "",
+      extraRules: ["the cart and गौरी are the complete cast of this clip"],
     },
   },
   {
@@ -368,19 +368,19 @@ let all: array<clip> = [
       cameraTravels: true,
       cast: [d(P.Castor, "speaking gently down to her"), cow("looking up at him from the hay")],
       blocking: Js.Array2.concat(commonBlocking, [
-        "कैस्टर flies ALONG the lane directly above and behind the cart — nose forward over it, his long body and tail stretching back up the slope behind him, wings swept back. He lowers only his HEAD and neck down toward गौरी in the cart beneath him. He is never turned side-on across the lane",
+        "कैस्टर flies ALONG the lane directly above and behind the cart — nose forward over it, his long body and tail stretching back up the slope behind him, wings swept back. He lowers only his HEAD and neck down toward गौरी in the cart beneath him. He stays nose-forward in line with the lane the whole clip",
         "गौरी looks up at him from the hay",
       ]),
       beats: [
         "0.0-5.0s: he speaks to her continuously and gently, mouth working, head dipping a little with the words; she watches him and her ears move",
       ],
-      camera: "a WIDE tracking shot, the camera well back and leading them down the lane so the full width of the lane, both kerbs and a band of sky are in frame. कैस्टर occupies the LEFT of frame and the cart the RIGHT, clearly separated, with open space above and behind him. No cut, no zoom, no camera reversal",
+      camera: "a WIDE tracking shot, the camera well back and leading them down the lane so the full width of the lane, both kerbs and a band of sky are in frame. कैस्टर occupies the LEFT of frame and the cart the RIGHT, clearly separated, with open space above and behind him. One continuous take, facing down the lane throughout",
       physics: Js.Array2.concat(talkPhysics, [
-        "SOLID BODIES: no part of any character ever passes through the kerb, the wall, the cart or the ground — tail, wings and limbs stay outside solid objects at all times",
-        "the wall runs alongside the lane and stays a wall; nothing clips into it",
+        "SOLID BODIES: kerb, wall, cart and ground are solid stone and wood — every tail, wing and limb travels through open air, clear of them at all times",
+        "the wall runs alongside the lane and stays a solid wall the whole clip",
       ]),
-      lighting: "constant deepening golden dusk exactly as the start image, no time change",
-      audio: "SILENT: generate no speech and no music; this shot will be dubbed",
+      lighting: "constant deepening golden dusk exactly as the start image, the light holding steady for the whole clip",
+      audio: "SILENT — the picture alone carries this shot; the voice is dubbed in later",
       extraRules: commonRules,
     },
   },
@@ -442,7 +442,22 @@ let chosen = Js.Array2.length(only) > 0
   ? Js.Array2.filter(all, c => Js.Array2.some(only, o => Js.String2.startsWith(c.tag, o)))
   : all
 
-if Js.Array2.some(argv, a => a == "--go") {
+if Js.Array2.some(argv, a => a == "--gate") {
+  let bad = ref(0)
+  Js.Array2.forEach(all, c =>
+    try {ignore(P.videoPrompt(c.spec))} catch {
+    | Js.Exn.Error(err) => {
+        bad := bad.contents + 1
+        Js.log("== " ++ c.tag ++ " ==")
+        Js.log(switch Js.Exn.message(err) { | Some(m) => m | None => "?" })
+      }
+    }
+  )
+  if bad.contents > 0 {
+    Js.Exn.raiseError(Belt.Int.toString(bad.contents) ++ " clip prompts forbid")
+  }
+  Js.log("PROMPT GATE CLEAN: " ++ Belt.Int.toString(Js.Array2.length(all)) ++ " clip prompts describe, and every line names what is on screen")
+} else if Js.Array2.some(argv, a => a == "--go") {
   Js.Array2.forEach(chosen, run)
 } else {
   Js.Array2.forEach(chosen, c => {

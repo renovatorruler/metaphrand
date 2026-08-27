@@ -41,9 +41,9 @@ let laneDrop = 9.0 /* metres of fall from post to flat */
 let laneLandmarks = [
   {name: "STONE POST", x: -4.6, y: 0.0, z: laneDrop, note: "the rope tie-point at the top of the slope, on the LEFT kerb"},
   {name: "CART START", x: 0.0, y: 2.0, z: laneDrop *. 0.97, note: "where the tethered cart stands"},
-  {name: "MARKER 1", x: 0.0, y: 12.0, z: laneDrop *. 0.75, note: "first distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones — never a raised block, wedge or post, and never an obstacle the cart rides over"},
-  {name: "MARKER 2", x: 0.0, y: 24.0, z: laneDrop *. 0.5, note: "second distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones — never raised, never an obstacle"},
-  {name: "MARKER 3", x: 0.0, y: 36.0, z: laneDrop *. 0.25, note: "third and last distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones — never raised, never an obstacle"},
+  {name: "MARKER 1", x: 0.0, y: 12.0, z: laneDrop *. 0.75, note: "first distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones, its face smooth with the road so wheels roll straight over it"},
+  {name: "MARKER 2", x: 0.0, y: 24.0, z: laneDrop *. 0.5, note: "second distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones, its face smooth with the road so wheels roll straight over it"},
+  {name: "MARKER 3", x: 0.0, y: 36.0, z: laneDrop *. 0.25, note: "third and last distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones, its face smooth with the road so wheels roll straight over it"},
   {name: "FLAT BEGINS", x: 0.0, y: 48.0, z: 0.0, note: "the slope ends; the last 12 m is level"},
   {name: "GA-STONE", x: 0.0, y: 55.0, z: 0.0, note: "the flat stone where the golden ga-shape is forged"},
   {name: "END WALL", x: 0.0, y: 60.0, z: 0.0, note: "closed paper stone wall across the full width — the lane is a dead end"},
@@ -54,11 +54,11 @@ let courtyardLandmarks = [
      घंटी लटक रही है»), steals it from there («उड़ान-घेरे से … खोल लेती है»), and pays
      it off there («खाली उड़ान-घेरे … केवल खुला हुक हिल रहा है»). It is one landmark,
      not two, so no shot can put the bell anywhere else. */
-  {name: "FLIGHT RING", x: 0.0, y: -18.0, z: laneDrop, note: "a COMPLETE CIRCLE of stone standing upright on its edge, built of layered paper arcs and UNBROKEN ALL THE WAY ROUND, its lowest point meeting the courtyard flagstones — FOURTEEN METRES across, wide enough for an enormous dragon to fly through with wings spread; never a human-sized hoop, and never an arch, horseshoe or half-circle: the circle is closed. THE BRONZE BELL HANGS FROM THE INSIDE OF ITS CROWN on a short bronze hook, hanging down into the ring's opening — the bell is part of this ring and hangs from nothing else. THE BELL IS SMALL: about ONE METRE tall, a hand-bell against this fourteen-metre ring — an eagle must be able to lift it away in her talons, so it is never a great temple bell"},
+  {name: "FLIGHT RING", x: 0.0, y: -18.0, z: laneDrop, note: "a COMPLETE CIRCLE of stone standing upright on its edge, built of layered paper arcs and UNBROKEN ALL THE WAY ROUND, its lowest point meeting the courtyard flagstones — FOURTEEN METRES across, wide enough for an enormous dragon to fly through with wings spread, a full closed circle. THE BRONZE BELL HANGS FROM THE INSIDE OF ITS CROWN on a short bronze hook, down into the ring's opening — the bell belongs to this ring alone. THE BELL IS SMALL: about ONE METRE tall, a hand-bell against this fourteen-metre ring, light enough for an eagle to lift away in her talons"},
   /* Named "MARKED FLAGSTONE" once, and the model carved runes into it — the same
      way "CAMERA" drew a tripod. A landmark's NAME is prompt text: it must never
      name a property we do not want rendered. */
-  {name: "LAUNCH CIRCLE", x: 0.0, y: -12.0, z: laneDrop, note: "where a dragon stands to begin her flight: a circle of plain flagstones laid in rings, every stone BLANK and uncarved — no symbols, no runes, no patterns cut into any of them"},
+  {name: "LAUNCH CIRCLE", x: 0.0, y: -12.0, z: laneDrop, note: "where a dragon stands to begin her flight: a circle of plain flagstones laid in rings, every stone BLANK and uncarved, plain smooth paper faces"},
   {name: "TEMPLE GATEWAY", x: 0.0, y: -30.0, z: laneDrop, note: "far behind the ring, the paper temple gateway"},
   {name: "TOWER", x: 16.0, y: -26.0, z: laneDrop +. 14.0, note: "चील's closed stone tower, off to the RIGHT and high"},
   {name: "LANE HEAD", x: 0.0, y: 0.0, z: laneDrop, note: "the courtyard's edge, where the lane begins"},
@@ -351,9 +351,9 @@ let markerPositions = [12.0, 24.0, 36.0]
    lane she fits inside it; turned broadside she cannot, and her body goes
    through the wall. That was the real cause of the wall-clipping, and it costs
    nothing to fix. */
-let greatFormFraming = "FRAMING FOR AN ENORMOUS DRAGON: play this WIDE. The camera stands far enough back that the whole width of the lane, both kerbs and a good band of sky are in frame, with clear space above and behind the dragon. Never frame him tight or close — at close range a creature this size has nowhere to be except through a wall, which is what goes wrong. If he shares the shot with the cart, place them SEPARATED across the frame — dragon to one side, cart to the other — never stacked on top of one another."
+let greatFormFraming = "FRAMING FOR AN ENORMOUS DRAGON: play this WIDE. The viewpoint stands far enough back that the whole width of the lane, both kerbs and a good band of sky sit in frame, with clear space above and behind the dragon, his whole body inside the picture with open air around it. When he shares the shot with the cart, the two sit SEPARATED across the frame — dragon to one side, cart to the other, each whole and distinct."
 
-let greatFormStaging = "ORIENTATION IN THE LANE: this dragon is far longer than she is wide, and the lane is only " ++ Belt.Float.toString(laneWidth) ++ " metres between its kerbs. She therefore lies ALONG the lane, never across it: her long axis runs parallel to the lane, nose forward in the direction of travel, body and tail trailing back up the slope behind her, so her whole length is inside the lane and her width is not. Her wings are swept back along her body or held HIGH above the kerb line, never spread out sideways at kerb height. She is never turned broadside, never side-on to the direction of travel, and no part of her — body, tail, wings or limbs — ever overlaps, touches or passes through a kerb or a wall."
+let greatFormStaging = "ORIENTATION IN THE LANE: this dragon is far longer than she is wide, and the lane is " ++ Belt.Float.toString(laneWidth) ++ " metres between its kerbs. She lies ALONG the lane: her long axis runs parallel to it, nose forward in the direction of travel, body and tail trailing back up the slope behind her, her whole length inside the lane. Her wings are swept back along her body or held HIGH above the kerb line. Every part of her — body, tail, wings and limbs — stays between the kerbs, in open air, clear of kerb and wall."
 
 let lanePosition = (at, cartAt) => {
   let behind = Js.Array2.length(Js.Array2.filter(markerPositions, m => m < at))
@@ -369,7 +369,7 @@ let lanePosition = (at, cartAt) => {
     " are already BEHIND this point and " ++
     Belt.Int.toString(ahead) ++
     " still lie AHEAD down the slope. The closed end wall is " ++
-    Belt.Float.toString(toWall) ++ " metres further on and must read that far away — no nearer, no further."
+    Belt.Float.toString(toWall) ++ " metres further on and reads exactly that far away."
   switch cartAt {
   | None => base
   | Some(c) =>
