@@ -1,0 +1,23 @@
+SCENE: चील takes the bell: perched on the stone arch beside it, she works the bronze binding open, the bell drops free into her talons, and she lifts away with it.
+IN THIS SHOT — and nobody else:
+- CHEEL the eagle — perched on the arch beside the hanging bell, working its binding loose, then lifting away with the bell in her talons
+- THE BELL — bronze, hanging from the crown of the arch on its cord, warm and gleaming
+FIRST FRAME: the provided start image IS frame one — the action begins from exactly this position.
+FORMAT: one single unbroken take.
+BLOCKING:
+- the start image IS this arch and this bell — the same stone, the same cord, the same sky and light
+- the stone arch holds perfectly still throughout, exactly as the start image has it
+- she is the only creature in frame
+ACTION TIMING:
+- 0.0-1.5s: she leans in and works the bronze binding at the crown of the arch with her beak and talons, the bell swinging a little as it loosens
+- 1.5-2.5s: the binding gives and the bell drops free, caught in her talons, swinging under her once
+- 2.5-5.0s: her great wings open and beat down, and she lifts away from the arch with the bell held beneath her, rising out of the top of frame
+CAMERA: one locked-off MEDIUM camera on the arch, held perfectly still for the whole clip, with sky above so she has room to rise into it
+PHYSICS:
+- TRAVEL KEEPS ONE DIRECTION: whatever moves may start from rest, speed up or slow down, but its path always continues the same way — it never reverses.
+- motion has real weight
+- the bell hangs and swings from a single point like a real bell on a cord, and once caught it hangs from her talons the same way
+- her wings move like stiff cut paper, and the downbeat is what lifts her — she rises only when they beat
+- the arch, its stones and the cord keep their shapes; only the bell and the eagle move
+LIGHTING: constant cool fading dusk exactly as the start image — the evening's warmth does not reach this stone
+STYLE: every frame keeps exactly the cut-paper papercraft look of the start image.

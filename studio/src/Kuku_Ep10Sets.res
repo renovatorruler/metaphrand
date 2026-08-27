@@ -50,9 +50,15 @@ let laneLandmarks = [
 ]
 
 let courtyardLandmarks = [
-  {name: "FLIGHT RING", x: 0.0, y: -18.0, z: laneDrop, note: "the inverted stone ring of layered paper arcs, standing upright — FOURTEEN METRES across, wide enough for an enormous dragon to fly through with wings spread; never a human-sized hoop"},
-  {name: "BELL ARCH", x: 7.0, y: -14.0, z: laneDrop +. 5.0, note: "the stone arch carrying the bronze bell, RIGHT side and high — its span is ten metres so a flying dragon can pass beneath it; the bell hangs at its crown and must be visible"},
-  {name: "MARKED FLAGSTONE", x: 0.0, y: -12.0, z: laneDrop, note: "the launch mark: a circle of ringed flagstones"},
+  /* The bell belongs to the ring — the screenplay hangs it there («उससे काँसे की
+     घंटी लटक रही है»), steals it from there («उड़ान-घेरे से … खोल लेती है»), and pays
+     it off there («खाली उड़ान-घेरे … केवल खुला हुक हिल रहा है»). It is one landmark,
+     not two, so no shot can put the bell anywhere else. */
+  {name: "FLIGHT RING", x: 0.0, y: -18.0, z: laneDrop, note: "a COMPLETE CIRCLE of stone standing upright on its edge, built of layered paper arcs and UNBROKEN ALL THE WAY ROUND, its lowest point meeting the courtyard flagstones — FOURTEEN METRES across, wide enough for an enormous dragon to fly through with wings spread; never a human-sized hoop, and never an arch, horseshoe or half-circle: the circle is closed. THE BRONZE BELL HANGS FROM THE INSIDE OF ITS CROWN on a short bronze hook, hanging down into the ring's opening — the bell is part of this ring and hangs from nothing else. THE BELL IS SMALL: about ONE METRE tall, a hand-bell against this fourteen-metre ring — an eagle must be able to lift it away in her talons, so it is never a great temple bell"},
+  /* Named "MARKED FLAGSTONE" once, and the model carved runes into it — the same
+     way "CAMERA" drew a tripod. A landmark's NAME is prompt text: it must never
+     name a property we do not want rendered. */
+  {name: "LAUNCH CIRCLE", x: 0.0, y: -12.0, z: laneDrop, note: "where a dragon stands to begin her flight: a circle of plain flagstones laid in rings, every stone BLANK and uncarved — no symbols, no runes, no patterns cut into any of them"},
   {name: "TEMPLE GATEWAY", x: 0.0, y: -30.0, z: laneDrop, note: "far behind the ring, the paper temple gateway"},
   {name: "TOWER", x: 16.0, y: -26.0, z: laneDrop +. 14.0, note: "चील's closed stone tower, off to the RIGHT and high"},
   {name: "LANE HEAD", x: 0.0, y: 0.0, z: laneDrop, note: "the courtyard's edge, where the lane begins"},
@@ -99,18 +105,18 @@ let vantageName = v =>
 /* the camera description that goes into a prompt, derived — never typed per shot */
 let vantageProse = (s, v) =>
   switch (s, v) {
-  | (Lane, TopLookingDown) => "the camera stands at the stone post at the TOP of the lane, at head height, looking straight DOWN the slope: the three red markers recede away from camera along the centreline, the flat stretch and the closed stone wall are visible far below"
-  | (Lane, BottomLookingUp) => "the camera stands on the flat stretch at the BOTTOM of the lane, at head height, looking back UP the slope: the markers climb away from camera, the stone post and the courtyard edge at the top of frame"
-  | (Lane, Overhead) => "the camera is high above the lane looking straight DOWN: the lane runs top-to-bottom through the frame, the three red markers evenly spaced on its centreline, the closed wall across the bottom"
-  | (Lane, _) => "the camera stands beside the lane at head height, the slope running left to right across frame, the markers on its centreline"
-  | (Courtyard, AtTheRing) => "the camera stands on the courtyard flagstones facing the inverted stone flight ring, the bell arch high at frame RIGHT, the temple gateway far behind the ring"
-  | (Courtyard, Overhead) => "the camera is high above the courtyard looking down: the ring, the marked launch flagstone, and the head of the lane running away"
-  | (Courtyard, _) => "the camera stands on the courtyard flagstones at head height, the flight ring in view"
-  | (FlatStone, BottomLookingUp) => "the camera is low on the flat stretch looking back up the lane, the closed stone wall behind camera"
-  | (FlatStone, _) => "the camera is low and close on the flat stone at the end of the lane, the closed stone wall behind it"
-  | (Tower, _) => "the camera looks up at the tower parapet from below and to the left, the courtyard far beneath"
-  | (Doorway, _) => "the camera faces the standing golden arch square-on, the village courtyard visible through it"
-  | (GrassVerge, _) => "the camera stands on the grass verge at head height, the lane beyond"
+  | (Lane, TopLookingDown) => "we look from the stone post at the TOP of the lane, at head height, looking straight DOWN the slope: the three red markers recede away from us along the centreline, the flat stretch and the closed stone wall are visible far below"
+  | (Lane, BottomLookingUp) => "we look from the flat stretch at the BOTTOM of the lane, at head height, looking back UP the slope: the markers climb away from us, the stone post and the courtyard edge at the top of frame"
+  | (Lane, Overhead) => "we look from high above the lane, straight DOWN: the lane runs top-to-bottom through the frame, the three red markers evenly spaced on its centreline, the closed wall across the bottom"
+  | (Lane, _) => "we look from beside the lane at head height, the slope running left to right across frame, the markers on its centreline"
+  | (Courtyard, AtTheRing) => "we look from the courtyard flagstones, facing the inverted stone flight ring, the bronze bell hanging from the inside of the ring's crown, the temple gateway far behind the ring"
+  | (Courtyard, Overhead) => "we look from high above the courtyard, down: the ring, the marked launch flagstone, and the head of the lane running away"
+  | (Courtyard, _) => "we look from the courtyard flagstones at head height, the flight ring in view"
+  | (FlatStone, BottomLookingUp) => "we look from low on the flat stretch, back up the lane, the closed stone wall behind us"
+  | (FlatStone, _) => "we look from low and close on the flat stone at the end of the lane, the closed stone wall behind it"
+  | (Tower, _) => "we look up at the tower parapet from below and to the left, the courtyard far beneath"
+  | (Doorway, _) => "we face the standing golden arch square-on, the village courtyard visible through it"
+  | (GrassVerge, _) => "we look from the grass verge at head height, the lane beyond"
   }
 
 /* Set prose scoped to what the CAMERA CAN SEE. Listing every landmark on a 60 m

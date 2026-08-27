@@ -335,16 +335,17 @@ let shots: array<entry> = [
   mk(
     ~id="h53_ring_drill_wide",
     ~beat=RingDrill,
-    ~scene="The whole flight drill laid out: फ्यूरिया waits on her mark, the ring stands ahead of her, the bell hangs beyond it.",
+    ~scene="The whole flight drill laid out: फ्यूरिया waits on her mark and the ring stands ahead of her with the bronze bell hanging inside it.",
     ~shot=P.Wide,
     ~dragons=[(P.Fyuria, "stands on the circular marked flagstone in the LOWER LEFT of frame, wings half-raised and chin lifted, facing the ring — small in the frame, with a great deal of open courtyard and sky around her")],
-    ~setting=Sets.setProseFor(Sets.Courtyard, ["MARKED FLAGSTONE", "FLIGHT RING", "BELL ARCH"]),
+    ~setting=Sets.setProseFor(Sets.Courtyard, ["LAUNCH CIRCLE", "FLIGHT RING"]),
     ~plate=courtyardPlate,
     ~extraRules=[
       "SIZE IN THE WORLD IS NOT SIZE IN THE FRAME. She is still enormous compared with the flagstones she stands on — but the CAMERA IS VERY FAR AWAY, so she appears SMALL in this picture: no more than a QUARTER of the frame's height, a distant figure in a large space. Do not fill the frame with her.",
-      "FRAME THIS VERY WIDE AND FROM FAR BACK: the marked flagstone, the whole ring and the bell arch are ALL visible at once, each well clear of the frame edges, with a broad band of sky above and open flagstones between them. Nothing is cropped.",
-      "leave enough empty air in the frame for her to fly from the mark, up through the ring, on to the bell and back again WITHOUT ever leaving the picture.",
-      "the three sit apart across the frame: the mark low LEFT, the ring standing at CENTRE, the bell arch high RIGHT — with clear flying space between and above them, enough for an enormous dragon to travel from the mark, through the ring, up to the bell and back.",
+      "FRAME THIS VERY WIDE AND FROM FAR BACK: the marked flagstone and the whole ring, bell included, are visible at once, well clear of the frame edges, with a broad band of sky above and open flagstones between them. Nothing is cropped.",
+      "leave enough empty air in the frame for her to fly from the mark, up through the ring and back again WITHOUT ever leaving the picture.",
+      "the mark sits low LEFT and the ring stands at CENTRE, with clear flying space between and above them.",
+      "THE BELL HANGS FROM THE RING ITSELF: a bronze bell on a short hook fixed to the inside of the ring's crown, hanging down into the opening she must fly through. There is NO separate arch and no other structure carrying it — the bell belongs to this ring and to nothing else.",
       "the camera is at courtyard level, level with the ground, not looking up from beneath",
       "THE RING IS TURNED THREE-QUARTERS TO CAMERA — not flat-on. We see it obliquely, as an ellipse rather than a perfect circle, so that its opening reads clearly as a HOLE IN SPACE with a near rim and a far rim, and so that the courtyard behind it is visible through the opening. This is what makes flying THROUGH it readable rather than ambiguous.",
       "फ्यूरिया stands on the near side of the ring, so the flight path runs from camera-near, through the opening, and away to the far side",
@@ -400,10 +401,19 @@ let shots: array<entry> = [
     ~beat=RopeSlips,
     ~scene="चील takes the bell.",
     ~shot=P.Medium,
-    ~others=[P.Cheel({doing: "lifts from the paper stone arch with the bronze bell in her talons, its cut binding swinging, wings at full power"})],
-    ~props=[bell("gripped in her talons, cord cut")],
-    ~setting="the paper stone arch above the courtyard, dusk clouds behind",
+    /* the old frame was the AFTERMATH — bell already taken, already airborne, cord
+   already cut — so a clip begun there had nothing left to do. This is the
+   instant BEFORE: still perched, bell still hanging, binding still whole. */
+    ~others=[P.Cheel({doing: "perched on the crown of the stone bell arch, leaning down with her beak and one talon to the bell's bronze binding, wings half-raised and ready — she has not taken it yet"})],
+    ~props=[bell("still hanging from the crown of the arch on its whole, uncut binding, directly beneath her")],
+    ~setting=Sets.setProseFor(Sets.Courtyard, ["FLIGHT RING"]),
     ~plate=courtyardPlate,
+    ~extraRules=[
+      "the bell hangs untouched from the arch and its binding is WHOLE — this is the moment before the theft",
+      "FRAME ON THE FLIGHT RING: the great ring fills most of the frame, whole and not cut off by the frame edge, with the bronze bell hanging from the inside of its crown down into the opening",
+      "चील is perched ON THE CROWN OF THE RING directly above the bell, small against it — the ring is fourteen metres across and she is a bird",
+      "leave clear sky above the ring for her to rise into",
+    ],
     (),
   ),
   mk(
@@ -954,6 +964,10 @@ let generateShot = (e: entry) => {
     ["--aspect_ratio", "16:9", "--resolution", "2k", "--wait", "--json"],
   )
   let raw = execFileSync("higgsfield", args, opts)
+  Kuku_Spend.record(
+    ~episode="EP10", ~shot=e.id, ~kind="still", ~model="nano_banana_pro",
+    ~credits=Kuku_Spend.priceOf("nano_banana_pro"), ~note="hero frame", (),
+  )
   switch Js.String2.match_(raw, Js.Re.fromString("https://[^\"\\s]*\\.(png|webp|jpg)")) {
   | Some(m) =>
     switch m[0] {

@@ -38,8 +38,8 @@ let platePrompt = s =>
       "BLUEPRINT: the SECOND attached image is a PLAN-VIEW MAP of this set, not a picture and not a style — read the landmark positions from it and place every landmark accordingly. Do not draw the map, draw the place. The map's WORDS AND NUMBERS ARE NOT PROPS: never carve, paint, letter or number any landmark in the picture; the markers are blank red paper wedges, the post is a blank stone post.",
       "TIME: this is the set BEFORE the story happens — nothing the episode later creates is here yet (no golden ga-shape on the flat stone, no cart, no rope).",
       "SET: " ++ S.setProse(s),
-      "CAMERA: " ++ S.vantageProse(s, S.TopLookingDown),
-      "LIGHTING: warm golden dusk — the last golden evening; the low sun gilds the paper flagstones.",
+      "VIEWPOINT: " ++ S.vantageProse(s, S.TopLookingDown),
+      "LIGHTING: warm golden dusk — the last golden evening; the low sun gilds the paper flagstones. THE SUN IS OFF TO ONE SIDE, well away from the camera axis, and never behind the set: the landmarks are LIT, not silhouetted, and every colour in the place stays full — green hills, blue water, snow on the far peaks.",
       "PURPOSE: this is a SET PLATE — the empty location itself, to be reused as the reference for every shot staged here. Every landmark must be clearly visible and correctly placed.",
       "HARD RULES:\n" ++
       P.bullets(
@@ -47,6 +47,7 @@ let platePrompt = s =>
           [
             "the set is EMPTY: no dragons, no birds, no animals, no cow, no cart, no figures of any kind anywhere in frame",
             "no map, no plan view, no diagram, no floor plan, no blueprint lines, no arrows, no measurement marks in the picture",
+            "the picture is the place itself, edge to edge: no dark foreground shapes framing the sides, no curtains, no cave mouth, no vignette, no border — nothing stands between the camera and the set",
           ],
           P.negatives,
         ),
@@ -91,6 +92,8 @@ let doPlate = s => {
     ),
     ["--aspect_ratio", "16:9", "--resolution", "2k", "--wait", "--json"],
   )
+  Kuku_Spend.record(~episode="EP10", ~shot=S.setName(s) ++ "_plate", ~kind="plate",
+    ~model="nano_banana_pro", ~credits=Kuku_Spend.priceOf("nano_banana_pro"), ~note="set plate", ())
   let raw = execFileSync("higgsfield", args, opts)
   switch firstUrl(raw, "(png|webp|jpg)") {
   | Some(url) => fetchTo(url, plateFile(s))

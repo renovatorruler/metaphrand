@@ -196,6 +196,42 @@ let all: array<clip> = [
       extraRules: [],
     },
   },
+  /* ---- scene 0-अ — चील takes the bell ---- */
+  {
+    talking: false,
+    cheap: false,
+    tag: "s0c_bell_taken",
+    start: stills ++ "h13_bell_taken.png",
+    endFrame: "",
+    secs: 5,
+    spec: {
+      scene: "चील takes the bell: perched on the stone arch beside it, she works the bronze binding open, the bell drops free into her talons, and she lifts away with it.",
+      cameraTravels: false,
+      cast: [
+        P.Cheel({doing: "perched on the arch beside the hanging bell, working its binding loose, then lifting away with the bell in her talons"}),
+        P.Prop({what: "THE BELL", doing: "bronze, hanging from the crown of the arch on its cord, warm and gleaming"}),
+      ],
+      blocking: [
+        "the start image IS this arch and this bell — the same stone, the same cord, the same sky and light",
+        "the stone arch holds perfectly still throughout, exactly as the start image has it",
+        "she is the only creature in frame",
+      ],
+      beats: [
+        "0.0-1.5s: she leans in and works the bronze binding at the crown of the arch with her beak and talons, the bell swinging a little as it loosens",
+        "1.5-2.5s: the binding gives and the bell drops free, caught in her talons, swinging under her once",
+        "2.5-5.0s: her great wings open and beat down, and she lifts away from the arch with the bell held beneath her, rising out of the top of frame",
+      ],
+      camera: "one locked-off MEDIUM camera on the arch, held perfectly still for the whole clip, with sky above so she has room to rise into it",
+      physics: [
+        "the bell hangs and swings from a single point like a real bell on a cord, and once caught it hangs from her talons the same way",
+        "her wings move like stiff cut paper, and the downbeat is what lifts her — she rises only when they beat",
+        "the arch, its stones and the cord keep their shapes; only the bell and the eagle move",
+      ],
+      lighting: "constant warm golden dusk exactly as the start image",
+      audio: "",
+      extraRules: [],
+    },
+  },
   /* ---- scene 0 «उड़ान-आँगन» — the ring drill ---- */
   {
     talking: false,
@@ -222,6 +258,43 @@ let all: array<clip> = [
       physics: [
         "PROOF OF PASSAGE: as she goes through, the ring's near rim briefly passes in front of her body, hiding part of her for a moment, and on the far side the ring's stone is nearer to camera than she is",
         "SEAMLESS LOOP: the final frame matches the first exactly — same place on the mark, same pose, same wing position — so the clip can play again straight after itself",
+        "she passes cleanly through the empty middle of the opening, well clear of the stone",
+      ],
+      lighting: "constant warm golden dusk exactly as the start image — low sun, long soft shadows",
+      audio: "",
+      extraRules: [],
+    },
+  },
+  /* The circuit above loops three times; this is the fourth and last, the one
+     that finishes ऋषि's instruction — «घेरे से निकलो, घंटी छुओ और अपनी जगह पर लौटो».
+     It begins on the same frame the loop ends on, so it stitches straight after. */
+  {
+    talking: false,
+    cheap: false,
+    tag: "s0d_bell_touch",
+    start: stills ++ "h53_ring_drill_wide.png",
+    endFrame: "",
+    secs: 5,
+    spec: {
+      scene: "फ्यूरिया flies her last circuit and finishes the drill: up from her mark, through the opening of the great stone ring, and as she passes she brushes the bronze bell hanging inside it with one claw so that it rings. Then she comes round and lands back on her mark, pleased with herself.",
+      cameraTravels: false,
+      cast: [d(P.Fyuria, "flying through the ring and brushing the bell with one claw as she passes")],
+      blocking: [
+        "the start image IS this courtyard — the same flagstones, the same ring, the same bell, the same sky and light",
+        "the RING holds perfectly still, exactly as the start image has it; it is fourteen metres across, and she passes through its opening with her wings spread",
+        "THE BELL HANGS INSIDE THE RING and stays hanging there for the whole clip — she only touches it, she never takes it, never carries it, and it never comes off its hook",
+      ],
+      beats: [
+        "0.0-1.2s: she crouches on the marked flagstone and launches toward the ring, paper dust curling from the stones beneath her",
+        "1.2-2.6s: she flies INTO the ring's opening, and as she passes the hanging bell she reaches out ONE FORELIMB and brushes it lightly with a claw",
+        "2.6-3.0s: the bell swings on its hook from the touch and rings",
+        "3.0-5.0s: beyond the ring she banks round in a wide arc, comes back and settles onto the same marked flagstone, chin lifted",
+      ],
+      camera: "one locked-off WIDE camera on the courtyard floor, held perfectly still for the whole clip, the ring centred and whole in frame with sky above it",
+      physics: [
+        "PROOF OF PASSAGE: as she goes through, the ring's near rim briefly passes in front of her body, hiding part of her for a moment, and on the far side the ring's stone is nearer to camera than she is",
+        "A BRUSH, NOT A GRAB: the claw makes contact for a moment and comes away; the bell is left swinging on its hook, still hanging in the ring",
+        "the bell swings from its single hook like a real bell, pivoting at that one point",
         "she passes cleanly through the empty middle of the opening, well clear of the stone",
       ],
       lighting: "constant warm golden dusk exactly as the start image — low sun, long soft shadows",
@@ -340,6 +413,12 @@ let run = c => {
   if existsSync(dst) {
     Js.log("skip (exists) " ++ c.tag)
   } else {
+    let model = c.cheap ? "seedance_2_0_mini" : "seedance_2_0"
+    Kuku_Spend.record(
+      ~episode="EP10", ~shot=c.tag, ~kind="clip", ~model,
+      ~credits=Kuku_Spend.priceOf(model) *. Belt.Int.toFloat(c.secs) /. 5.0,
+      ~note=Belt.Int.toString(c.secs) ++ "s", (),
+    )
     let raw = execFileSync("higgsfield", argsFor(c), opts)
     switch Js.String2.match_(raw, Js.Re.fromString("https://[^\"\\s]*\\.(mp4|webm|mov)")) {
     | Some(m) =>
@@ -355,7 +434,10 @@ let run = c => {
   }
 }
 
-let only = Js.Array2.filter(argv, a => Js.String2.startsWith(a, "c"))
+/* any argv word that prefixes a real tag selects that clip — not just c-tags */
+let only = Js.Array2.filter(argv, a =>
+  !Js.String2.startsWith(a, "-") && Js.Array2.some(all, c => Js.String2.startsWith(c.tag, a))
+)
 let chosen = Js.Array2.length(only) > 0
   ? Js.Array2.filter(all, c => Js.Array2.some(only, o => Js.String2.startsWith(c.tag, o)))
   : all

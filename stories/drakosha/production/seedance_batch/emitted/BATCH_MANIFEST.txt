@@ -14,6 +14,7 @@ v02answer  SH121  cast=1  refs=3  start=yes  model=seedance_2_0_mini  cr=12.5  s
 v03gather  SH122  cast=1  refs=1  start=yes  model=seedance_2_0_mini  cr=12.5  sha=1ee8bd3fe800
 v04read  SH123  cast=0  refs=0  start=yes  model=kling3_0  cr=9.0  sha=e05d7ccac2bf
 v05single  SH123-124  cast=2  refs=3  start=yes  model=seedance_2_0_mini  cr=37.5  sha=11dac89e8d18
+sh119yaga  SH119  cast=1  refs=1  start=yes  model=seedance_2_0_mini  cr=10.0  sha=663e1846544b
 v11laugh  SH136  cast=1  refs=2  start=yes  model=seedance_2_0_mini  cr=22.5  sha=008ee4eef1bb
 v10brovi  SH133-135  cast=5  refs=6  start=yes  model=seedance_2_0_mini  cr=35.0  sha=7efb8565fd6b
 v09rescue  SH131-132  cast=4  refs=5  start=yes  model=seedance_2_0_mini  cr=30.0  sha=d7fc53d2a2d4
@@ -21,4 +22,4 @@ v08babies  SH128-130  cast=3  refs=3  start=yes  model=seedance_2_0_mini  cr=37.
 v06frosya  SH124B  cast=1  refs=2  start=yes  model=seedance_2_0_mini  cr=10.0  sha=ea4e8f260a23
 v07table  SH125-127  cast=5  refs=5  start=yes  model=seedance_2_0_mini  cr=37.5  sha=95abf2f22463
 v05vzhukh  SH123  cast=1  refs=1  start=yes  model=seedance_2_0_mini  cr=15.0  sha=b7c87ecbb0d5
-TOTAL 484.0 credits (~$20.81 at the Ultra rate) for this batch.
+TOTAL 494.0 credits (~$21.24 at the Ultra rate) for this batch.

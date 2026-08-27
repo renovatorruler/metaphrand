@@ -310,20 +310,41 @@ let propEntry = (t: propToken): propEntry =>
     })
   /* No approved asset exists for any of these five. They are described only and
      bind no image — see the reference gap list. */
+  /* APPROVED 2026-08-27 — the author's own sheet, with turnaround, detail insets,
+     swatches and a scale panel. It supersedes the old description outright: that
+     text called for something salvaged and mended in the register of the юла, and
+     the approved scooter is nothing of the kind. It is a clean manufactured red
+     one, which is what she asked for — "as long as it looks like a regular
+     scooter, all we care is that it's consistent." A card that argued with its own
+     reference would be the height-anchor mistake all over again. */
   | Scooter =>
-    Described({
+    Backed({
       tag: "@SCOOTER",
-      tagLine: "@SCOOTER: a kick scooter sized for Фрося, built from lost human things in the same mended, salvaged register as the юла. NO APPROVED REFERENCE YET — build from this description only.",
+      tagLine: "@SCOOTER: Фрося's kick scooter — a red-painted frame carrying a planked wooden deck screwed down into it, a polished bare-metal steering column with two metal clamp collars, a T-handlebar with chunky red grips, a white lightning bolt on the stem and a small amber reflector below it, two dark rubber wheels on silver spoked hubs, and a red mudguard curving over the rear wheel. 100% matches the reference.",
+      refPath: "PROP-SCOOTER-01_approved_sheet.png",
     })
+  /* APPROVED 2026-08-27 — the author's plates. They supersede every earlier
+     description, including the one written from her verbal brief the same day:
+     the floor is PLANKS, not concrete, and the open side is not bare darkness
+     but a colonnade of wooden posts carrying the joists, with the dark behind
+     them. That is a better answer than either version I wrote, because it says
+     out loud what holds the floor up.
+
+     THE TWO PLATES ARE REVERSE ANGLES AND THEY AGREE. Facing away from the ramp
+     the block wall is on the RIGHT and the posts on the LEFT; facing back toward
+     the ramp it is the other way round. The chase has her ride away and come
+     back, so the wall must change sides with her — getting that backwards is the
+     scene-8 geography error waiting to happen again. */
   | Road =>
-    Described({
+    Backed({
       tag: "@ROAD",
-      tagLine: "@ROAD: the underfloor road — a long plank corridor beneath the giants' floorboards, brick foundation walls either side, lanterns strung far along it. NO APPROVED REFERENCE YET — build from this description only.",
+      tagLine: "@ROAD: the underfloor road — a plank road of wide dark boards running away into the dark beneath the giants' floor. Overhead is a grid of heavy wooden joists and beams, close above. Along ONE side is a wall of giant sandstone boulder-blocks, and banked at its foot is loose gravel and rubble; along the OTHER side stands a row of squat wooden posts on stone footings, carrying the joists, with darkness behind them. Oil lanterns stand on the boards at intervals, and a small iron grate is set low in the block wall beside a wooden crate. Warm lantern light, deep shadow everywhere else. 100% matches the reference.",
+      refPath: "SET-ROAD-01_author_road_run.png",
     })
   | Tank =>
     Described({
       tag: "@TANK",
-      tagLine: "@TANK: a large inverted metal container, human-scale junk used as a trap, dropped mouth-down over its captive. NO APPROVED REFERENCE YET — build from this description only.",
+      tagLine: "@TANK: a large metal tank, brand new and clean — bright unscratched metal with a bright rim, no rust, no dents and no staining. It arrives inverted, mouth down, and drops over its captive. NO APPROVED REFERENCE YET — build from this description only.",
     })
   | Thread =>
     Described({
@@ -453,7 +474,8 @@ let propScale = (t: propToken): option<string> =>
      carries the old version at SH068 ("почти достаёт до локтя" — almost reaches
      her elbow); that line is stale and must not be copied into a prompt. */
   | Pencil => Some("@PENCIL is sized for @FROSYA's own hand — it sits in her palm, she writes with it one-handed, and it fits behind her ear. It is NOT a giant human pencil and never dwarfs her.")
-  | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Tiles | Pouch | Scooter | Road | Tank | Thread | Cake | Juice | Salad | Poppy | FloorAfter | TwoMamas => None
+  | Scooter => Some("@SCOOTER is sized for the children: standing on the floor beside @VASYA its handlebars come up to about his chest, and its deck sits at his ankle. It is NOT a human-sized scooter and never dwarfs either child.")
+  | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Tiles | Pouch | Road | Tank | Thread | Cake | Juice | Salad | Poppy | FloorAfter | TwoMamas => None
   }
 
 /* The creative text may not smuggle tag lines past the emitter: any "@" is a
@@ -668,6 +690,33 @@ let assertEmittedClean = (jobId: string, prompt: string): unit => {
     }
   )
 }
+
+/* B7 — a NEGATED SCREEN DIRECTION. "at no point does she turn to the LEFT of
+   frame" hands the model the word LEFT and asks it not to think of it, which is
+   the one thing it cannot do. A direction is stated as the RANGE the movement
+   covers — where it starts, how far it goes, where it stops — never as the side
+   it stays off. Author, 2026-08-26. See also the sheet-beats-negation law: a
+   reference image outranks a prohibition, and a positive instruction of the same
+   kind is what displaces one. */
+let negatedDirection = %re("/(never|not|no|nobody|nothing|at no point)[^.;—]{0,60}\b(left|right)\b[ -]*(of frame|of the frame|edge|side of frame|hand side)/i")
+
+let assertNoNegatedDirection = (jobId: string, prompt: string): unit =>
+  switch Js.Re.exec_(negatedDirection, prompt) {
+  | Some(m) =>
+    let hit = switch Js.Nullable.toOption(Js.Array2.unsafe_get(Js.Re.captures(m), 0)) {
+    | Some(t) => t
+    | None => "a negated direction"
+    }
+    raise(
+      BatchError(
+        jobId ++
+        ": the prompt forbids a screen direction — \"" ++
+        hit ++
+        "\". Naming the side she must avoid puts that side in front of the model. State the RANGE instead: where the turn starts, how far it goes, and where it stops.",
+      ),
+    )
+  | None => ()
+  }
 
 let assertEmittedBudget = (jobId: string, prompt: string): unit =>
   /* v08babies was shot at 9279 chars; the 2026-08-26 tagline rewrite grew its
@@ -939,6 +988,7 @@ let emitPrompt = (r: shotRecord): string => {
     constraints
   assertEmittedBudget(r.jobId, prompt)
   assertEmittedClean(r.jobId, prompt)
+  assertNoNegatedDirection(r.jobId, prompt)
   prompt
 }
 

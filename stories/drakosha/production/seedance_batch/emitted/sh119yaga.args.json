@@ -1,0 +1,9 @@
+{
+  "model": "seedance_2_0_mini",
+  "duration": 4,
+  "startImage": "../stories/drakosha/rnd/keyframes/2026-08-26_SH119_yaga-hum_start.png",
+  "imageReferences": [
+    "../stories/drakosha/ep1prod/scene1/references/packet_v2/page-09.png"
+  ],
+  "promptSha256": "663e1846544b7e7071360410ab7404749998e554dfd8441cb64487623aa5592c"
+}

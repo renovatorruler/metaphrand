@@ -570,6 +570,44 @@ let all: array<jobSpec> = [
 
      PLATE IS V08'S LAST FRAME — both babies already clamped on, so the shot
      opens mid-crisis with nothing to establish. */
+  /* SH119 — SP109, Бабушка-Яга's approving reaction. The one shot scene 8 was
+     missing: without it the cut goes straight from Мама's thank-you to Вася's
+     ask and changes subject with no breath.
+
+     THE PENCIL TUCK IS CUT FROM THIS SHOT. SP109 also has Фрося tucking the
+     pencil behind her ear, but that gesture already lives in scene 9 at SP136
+     where she needs both hands for the scooter handlebars — and that is where
+     the audience must learn she carries it on her person, because EP2 has the
+     beast steal it off her. Author decision, 2026-08-26.
+
+     NOBODY ELSE IS NAMED IN THE CREATIVE. She is reacting to the poppy going
+     from Фрося to Мама, but both are off-frame and the model has no story. Given
+     their names it would draw them. It gets the direction her eyes travel and
+     nothing about who is there.
+
+     THE GAZE IS STATED AS A RANGE, NOT A PROHIBITION. Author, 2026-08-26: "if
+     I'm gonna find out that you're just gonna write in the prompt that at no
+     point she's turning towards the left of frame, I'm gonna shut you down."
+     Naming the side she must avoid puts that side in front of the model. So the
+     creative says where the turn starts, how far it goes and where it stops, and
+     assertNoNegatedDirection refuses the job if a negated screen direction ever
+     reaches the emitted text.
+
+     PLATE IS THE AUTHOR'S OWN RE-RENDER at 1672x941, above the 1280x720 ceiling
+     mini outputs. Мама is out of frame in it, which matters: at SP109 she is
+     holding the poppy, and any frame showing her empty-handed would contradict
+     the shot before. The raised steaming cup is the gift — it gives Яга a real
+     action to play and the steam guarantees motion, so a four-second cutaway of
+     a woman already smiling cannot come back frozen the way V09 did. */
+  job(
+    "sh119yaga",
+    "SH119",
+    [YagaDomovoy],
+    [],
+    Some("2026-08-26_SH119_yaga-hum_start.png"),
+    4,
+    Mini,
+  ),
   jobCarrying(
     "v11laugh",
     "SH136",
