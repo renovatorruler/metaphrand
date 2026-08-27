@@ -126,7 +126,7 @@ let subjectText = s =>
   | Gauri({doing}) =>
     "- GAURI — gentle brown-and-white paper cow, dark paper eyes, small paper bell at her neck. " ++ doing
   | RishiMuni({doing}) =>
-    "- RISHI — the paper guru crane from the attached character sheet. " ++ doing
+    "- RISHI — the elder paper dragon guru from the attached character sheet: white-maned and white-bearded, pale horns, an ochre robe, a wooden staff. " ++ doing
   | Dadi({doing}) =>
     "- DADI — the paper grandmother bird from the attached character sheet. " ++ doing
   | Cheel({doing}) =>

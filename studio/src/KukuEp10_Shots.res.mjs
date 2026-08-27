@@ -281,8 +281,8 @@ var shots = [
   mk("h05_bell_touch", "RingDrill", "Her pass rings the bell.", "Close", undefined, undefined, undefined, undefined, undefined, [{
           TAG: "Prop",
           what: "THE BELL — the bronze paper bell of the flight ring on its paper cord",
-          doing: "hung in a paper stone arch above the courtyard, swinging once"
-        }], "the paper stone arch above the courtyard, dusk sky of layered paper clouds behind", undefined, undefined, courtyardPlate, undefined, undefined, undefined, undefined, undefined),
+          doing: "hanging from its short bronze hook on the inside of the flight ring's crown, caught mid-swing from a passing touch, a curl of paper dust drifting where a claw just left frame"
+        }], "the crown of the great stone flight ring, its layered paper stone curving through frame, dusk sky of layered paper clouds behind", undefined, undefined, courtyardPlate, undefined, undefined, undefined, undefined, undefined),
   mk("h06_landing_paw", "RingDrill", "फ्यूरिया lands a claw past her mark.", "Medium", [[
           "Fyuria",
           "has landed on her marked flagstone, wings still open and settling, one hind claw scuffed just past the mark, paper dust in the air"

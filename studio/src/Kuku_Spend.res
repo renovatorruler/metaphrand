@@ -11,7 +11,14 @@
      {"at":"…","episode":"EP10","shot":"h13_bell_taken","kind":"still",
       "model":"nano_banana_pro","credits":2,"note":"…"}
 
-   Report:  node src/Kuku_Spend.res.mjs report [episode] */
+   Report:  node src/Kuku_Spend.res.mjs report [episode]
+   Budget:  node src/Kuku_Spend.res.mjs budget EP10 800   # cap a build phase
+
+   A budget line ({"kind":"budget","credits":<cap>}) opens a phase; `record`
+   then refuses any spend that would cross baseline + cap, so the cap is a
+   refusal at the moment of spend, in the same ledger the report reads — a
+   number that stops the tool, never a hope. The author raises it by writing
+   a new budget line; sessions do that only on the author's word. */
 
 @module("fs") external appendFileSync: (string, string) => unit = "appendFileSync"
 @module("fs") external readFileSync: (string, string) => string = "readFileSync"
@@ -25,9 +32,71 @@ let ledger = "../stories/kuku/EPISODE_SPEND.jsonl"
 let str = Js.Json.string
 let num = Js.Json.number
 
+let parseRows = () =>
+  !existsSync(ledger)
+    ? []
+    : Js.Array2.filter(Js.String2.split(readFileSync(ledger, "utf8"), "\n"), l =>
+        Js.String2.trim(l) != ""
+      )->Js.Array2.map(l =>
+        switch Js.Json.decodeObject(Js.Json.parseExn(l)) {
+        | Some(o) => o
+        | None => Js.Dict.empty()
+        }
+      )
+
+let fieldOf = (o, k) =>
+  switch Js.Dict.get(o, k)->Belt.Option.flatMap(Js.Json.decodeString) {
+  | Some(v) => v
+  | None => ""
+  }
+
+let creditsOf = o =>
+  switch Js.Dict.get(o, "credits")->Belt.Option.flatMap(Js.Json.decodeNumber) {
+  | Some(v) => v
+  | None => 0.0
+  }
+
+/* The open budget phase for an episode: the LAST budget line, and the spend
+   recorded after it. Returns None when no budget has ever been set. */
+let phaseOf = episode => {
+  let rows = Js.Array2.filter(parseRows(), o => fieldOf(o, "episode") == episode)
+  let lastBudgetIdx = Js.Array2.reducei(rows, (acc, o, i) => fieldOf(o, "kind") == "budget" ? i : acc, -1)
+  lastBudgetIdx < 0
+    ? None
+    : {
+        let cap = creditsOf(rows[lastBudgetIdx])
+        let spent = Js.Array2.reduce(
+          Js.Array2.filter(Js.Array2.sliceFrom(rows, lastBudgetIdx + 1), o => fieldOf(o, "kind") != "budget"),
+          (a, o) => a +. creditsOf(o),
+          0.0,
+        )
+        Some((cap, spent))
+      }
+}
+
 /* Called at the moment of spend. `credits` is what the provider quoted for
-   these exact parameters, so the ledger records intent as well as fact. */
+   these exact parameters, so the ledger records intent as well as fact.
+   When a budget phase is open, a spend that would cross the cap is REFUSED
+   here — before the provider call — and the driver dies loudly. */
 let record = (~episode, ~shot, ~kind, ~model, ~credits: float, ~note="", ()) => {
+  switch kind == "budget" ? None : phaseOf(episode) {
+  | Some((cap, spent)) if spent +. credits > cap =>
+    Js.Exn.raiseError(
+      "BUDGET REFUSAL: " ++
+      episode ++
+      " build phase is at " ++
+      Js.Float.toString(spent) ++
+      "/" ++
+      Js.Float.toString(cap) ++
+      " credits; " ++
+      shot ++
+      " (" ++
+      Js.Float.toString(credits) ++
+      "cr) would cross the cap. The author raises it with: node src/Kuku_Spend.res.mjs budget " ++
+      episode ++ " <new-cap>",
+    )
+  | _ => ()
+  }
   let line =
     Js.Json.stringify(
       Js.Json.object_(
@@ -110,6 +179,31 @@ let report = episode => {
   }
 }
 
+let phaseLine = episode =>
+  switch phaseOf(episode) {
+  | None => Js.log("build phase: none set for " ++ episode)
+  | Some((cap, spent)) =>
+    Js.log(
+      "build phase: " ++
+      Js.Float.toString(spent) ++
+      " / " ++
+      Js.Float.toString(cap) ++
+      " credits (" ++
+      Js.Float.toString(cap -. spent) ++ " remain)",
+    )
+  }
+
 if Js.Array2.length(argv) > 2 && argv[2] == "report" {
-  report(Js.Array2.length(argv) > 3 ? argv[3] : "EP10")
+  let ep = Js.Array2.length(argv) > 3 ? argv[3] : "EP10"
+  report(ep)
+  phaseLine(ep)
+} else if Js.Array2.length(argv) > 4 && argv[2] == "budget" {
+  let ep = argv[3]
+  switch Belt.Float.fromString(argv[4]) {
+  | Some(cap) => {
+      record(~episode=ep, ~shot="—", ~kind="budget", ~model="—", ~credits=cap, ~note="build-phase cap opened", ())
+      Js.log("budget opened: " ++ ep ++ " capped at " ++ Js.Float.toString(cap) ++ " credits from this line on")
+    }
+  | None => Js.log("usage: budget <episode> <cap>")
+  }
 }

@@ -89,7 +89,7 @@ function subjectText(s) {
     case "Gauri" :
         return "- GAURI — gentle brown-and-white paper cow, dark paper eyes, small paper bell at her neck. " + s.doing;
     case "RishiMuni" :
-        return "- RISHI — the paper guru crane from the attached character sheet. " + s.doing;
+        return "- RISHI — the elder paper dragon guru from the attached character sheet: white-maned and white-bearded, pale horns, an ochre robe, a wooden staff. " + s.doing;
     case "Dadi" :
         return "- DADI — the paper grandmother bird from the attached character sheet. " + s.doing;
     case "Cheel" :
