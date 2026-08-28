@@ -24,7 +24,7 @@ external execFileSync: (string, array<string>, execOpts) => string = "execFileSy
 @scope("process") @val external argv: array<string> = "argv"
 
 /* canonical recurring props — locked descriptions, deterministic across shots */
-let bell = doing => P.Prop({what: "THE BELL — the bronze paper bell of the flight ring on its paper cord", doing})
+let bell = doing => P.Prop({what: "THE BELL — the bronze paper bell of the flight ring, fastened by its bronze binding to the short hook at the ring's crown", doing})
 let redRope = doing => P.Prop({what: "THE ROPE — the thick red paper-twine rope", doing})
 let marker = doing => P.Prop({what: "A RED DISTANCE MARK — a flat red paper paving stone set FLUSH into the lane, level with the surrounding flagstones, its face smooth with the road so wheels roll straight over it", doing})
 let kada = doing => P.Prop({what: "THE कड़ा — a golden paper bracelet cuff with two small blank golden medallions set into it", doing})
@@ -231,8 +231,8 @@ let shots: array<entry> = [
     ~scene="ऋषि opens the drill with instructions.",
     ~shot=P.Medium,
     ~others=[P.RishiMuni({doing: "stands at the edge of the flight courtyard, staff planted on the flagstones, one hand raised mid-instruction; the flight ring soft behind him"})],
-    ~setting=courtyard ++ ",
-    ~plate=courtyardPlate, a real outdoor place",
+    ~setting=courtyard,
+    ~plate=courtyardPlate,
     (),
   ),
   mk(
@@ -240,7 +240,7 @@ let shots: array<entry> = [
     ~beat=RingDrill,
     ~scene="फ्यूरिया is first up, on her mark.",
     ~shot=P.CloseMedium,
-    ~dragons=[(P.Fyuria, "stands eager on her marked flagstone, wings half-raised, chin lifted")],
+    ~dragons=[(P.Fyuria, "stands eager on the launch circle, wings half-raised, chin lifted")],
     ~setting=courtyard,
     ~plate=courtyardPlate,
     ~added=["lighting (none in the prose)"],
@@ -251,7 +251,7 @@ let shots: array<entry> = [
     ~beat=RingDrill,
     ~scene="फ्यूरिया launches through the ring.",
     ~shot=P.WideLow,
-    ~dragons=[(P.Fyuria, "launches straight out through the inverted paper stone ring, wings at full stretch, paper dust curling from the flagstones")],
+    ~dragons=[(P.Fyuria, "launches straight out through the great stone flight ring, wings at full stretch, paper dust curling from the flagstones")],
     ~setting=courtyard,
     ~plate=courtyardPlate,
     ~added=["lighting (none in the prose)"],
@@ -272,7 +272,7 @@ let shots: array<entry> = [
     ~beat=RingDrill,
     ~scene="फ्यूरिया lands a claw past her mark.",
     ~shot=P.Medium,
-    ~dragons=[(P.Fyuria, "has landed on her marked flagstone, wings still open and settling, one hind claw scuffed just past the mark, paper dust in the air")],
+    ~dragons=[(P.Fyuria, "has landed on the launch circle, wings still open and settling, one hind claw scuffed just past the mark, paper dust in the air")],
     ~setting=courtyard,
     ~plate=courtyardPlate,
     ~added=["lighting (none in the prose)"],
@@ -284,8 +284,8 @@ let shots: array<entry> = [
     ~scene="लेडा keeps her eyes on the mark.",
     ~shot=P.Medium,
     ~dragons=[(P.Leda, "stands on the courtyard flagstones, head lifted and turned up to the right, watching the sky intently — the calm one who keeps her eyes on the mark")],
-    ~setting=courtyard ++ ",
-    ~plate=courtyardPlate, the inverted stone flight ring soft behind her",
+    ~setting=courtyard ++ ", the great stone flight ring soft behind her",
+    ~plate=courtyardPlate,
     (),
   ),
   mk(
@@ -293,7 +293,7 @@ let shots: array<entry> = [
     ~beat=RingDrill,
     ~scene="गौरी grazing near the lane — the calm before.",
     ~shot=P.Medium,
-    ~gauri="grazing calmly on paper grass, unhurried, her bell hanging still",
+    ~gauri="grazing calmly on paper grass, unhurried",
     ~setting="the grass verge beside the gurukul courtyard, the lane beyond",
     ~added=["ENTIRE SPEC rebuilt — the original prompt existed only in a wiped scratchpad"],
     ~plate=Sets.masterPlate(Sets.GrassVerge),
@@ -316,7 +316,7 @@ let shots: array<entry> = [
   mk(
     ~id="h07_cart_tethered",
     ~beat=Briefing,
-    ~scene="ऋषि's safety briefing — the tethered cart, the rope, the markers, the flat, the wall.",
+    ~scene="The safety briefing laid out — the tethered cart, the rope, the markers, the flat, the wall.",
     ~shot=P.Wide,
     ~gauri="stands in the cart eating the paper hay",
     ~cart=(true, "stands at the top of the slope"),
@@ -340,7 +340,7 @@ let shots: array<entry> = [
   mk(
     ~id="h09_rishi_boon",
     ~beat=Briefing,
-    ~scene="ऋषि's solemn warning — चील's boon.",
+    ~scene="ऋषि's solemn warning — the old boon he once granted.",
     ~shot=P.Medium,
     ~others=[P.RishiMuni({doing: "speaks gravely to camera-left, staff in both hands — the moment of a solemn warning"})],
     ~setting=courtyard,
@@ -362,7 +362,7 @@ let shots: array<entry> = [
     ~plate=courtyardPlate,
     ~extraRules=[
       "SIZE IN THE WORLD AND SIZE IN THE FRAME ARE TWO DIFFERENT THINGS. She is still enormous compared with the flagstones she stands on — and the VIEWPOINT IS VERY FAR AWAY, so she appears SMALL in this picture: at most a QUARTER of the frame's height, a distant figure in a large space.",
-      "FRAME THIS VERY WIDE AND FROM FAR BACK: the marked flagstone and the whole ring, bell included, are visible at once, well clear of the frame edges, with a broad band of sky above and open flagstones between them. Each sits whole inside the frame.",
+      "FRAME THIS VERY WIDE AND FROM FAR BACK: the launch circle and the whole ring, bell included, are visible at once, well clear of the frame edges, with a broad band of sky above and open flagstones between them. Each sits whole inside the frame.",
       "leave enough empty air in the frame for her to fly from the mark, up through the ring and back again while staying inside the picture.",
       "she stands where the launch circle already is in the reference image; the ring stands beyond it, with clear flying space between and above them.",
       "THE BELL HANGS FROM THE RING ITSELF: a bronze bell on a short hook fixed to the inside of the ring's crown, hanging down into the opening she must fly through — the bell belongs to this ring alone.",
@@ -389,7 +389,7 @@ let shots: array<entry> = [
   mk(
     ~id="h11_shards_close",
     ~beat=TowerMischief,
-    ~scene="What चील broke — the glyph-shards.",
+    ~scene="The broken glyph — its dark paper shards, close.",
     ~shot=P.Close,
     ~props=[shards("lying on weathered paper stone, catching the last dusk light")],
     ~setting="the weathered stone of the tower parapet",
@@ -425,11 +425,11 @@ let shots: array<entry> = [
    already cut — so a clip begun there had nothing left to do. This is the
    instant BEFORE: still perched, bell still hanging, binding still whole. */
     ~others=[P.Cheel({doing: "perched on the crown of the great stone flight ring, leaning down with her beak and one talon to the bell's bronze binding, wings half-raised and ready — the bell still hangs whole beneath her"})],
-    ~props=[bell("still hanging from the crown of the arch on its whole, uncut binding, directly beneath her")],
+    ~props=[bell("still hanging inside the ring's crown on its whole bronze binding, directly beneath her")],
     ~setting=Sets.setProseFor(Sets.Courtyard, ["FLIGHT RING"]),
     ~plate=courtyardPlate,
     ~extraRules=[
-      "the bell hangs untouched from the arch and its binding is WHOLE — this is the moment before the theft",
+      "the bell hangs untouched inside the ring and its bronze binding is WHOLE — this is the moment before the theft",
       "FRAME ON THE FLIGHT RING: the great ring fills most of the frame, complete inside the frame with air on every side, the bronze bell hanging from the inside of its crown down into the opening",
       "चील is perched ON THE CROWN OF THE RING directly above the bell, small against it — the ring is fourteen metres across and she is a bird",
       "leave clear sky above the ring for her to rise into",
@@ -486,7 +486,7 @@ let shots: array<entry> = [
   mk(
     ~id="h17_group_lift",
     ~beat=Runaway,
-    ~scene="The failed lift — front wheels up, back wheels down.",
+    ~scene="The lift — all four wheels rise a little together, and the weight wins.",
     ~shot=P.WideLow,
     ~dragons=[
       (P.Kuku, "grips the cart's front-left wheel and strains upward"),
@@ -496,7 +496,7 @@ let shots: array<entry> = [
       (P.Vesper, "grips the cart's center rail from above and strains upward"),
     ],
     ~gauri="sliding inside the tilting cart",
-    ~cart=(true, "its front wheels lifted while the back stay down, the cart twisting"),
+    ~cart=(true, "all four wheels lifted a little off the track together, the cart swaying under its own weight"),
     ~setting=lane,
     ~at=19.0,
     ~cartAt=10.0,
@@ -586,7 +586,7 @@ let shots: array<entry> = [
   mk(
     ~id="h23_marker_pass",
     ~beat=Braking,
-    ~scene="The first marker flashes past.",
+    ~scene="The second marker flashes past.",
     ~shot=P.Close,
     ~props=[marker("set into the flagstone lane as wooden paper wheels rush past it, dust lifting")],
     ~setting=lane,
@@ -636,7 +636,7 @@ let shots: array<entry> = [
   mk(
     ~id="h26_tings",
     ~beat=FlatSound,
-    ~scene="The stone answers — the ting.",
+    ~scene="कुकु's कड़ा answers the word — the golden ting.",
     ~shot=P.CloseAbstract,
     ~props=[soundRings("rippling outward above a paper flagstone — the visual echo of a sound")],
     ~setting=flatStone,
@@ -678,12 +678,11 @@ let shots: array<entry> = [
     ~beat=Forging,
     ~scene="The forging — कुकु pours the ग onto the flat stone.",
     ~shot=P.Wide,
+    /* the others are with the running cart during the forging — their lines
+       come from there («दूर से», «गाड़ी के पीछे से», «ऊपर से») */
     ~dragons=[
       (P.Kuku, "exhales a broad stream of golden paper light onto the flat paper stone at the bottom of the lane"),
-      (P.Fyuria, "stands behind him, wings raised"),
-      (P.Leda, "stands behind him, wings raised"),
-      (P.Castor, "stands behind him, wings raised"),
-      (P.Vesper, "stands behind him, wings raised"),
+      (P.Leda, "stands at the stone's far edge, wings half-raised, eyes on the forming shape"),
     ],
     ~setting=flatStone,
     ~plate=Sets.masterPlate(Sets.FlatStone),
@@ -839,8 +838,8 @@ let shots: array<entry> = [
     ~scene="लेडा lets go — relief.",
     ~shot=P.Medium,
     ~dragons=[(P.Leda, "stands on the flagstones with wings folded and shoulders dropped in relief, a tired warm smile")],
-    ~setting=courtyard,
-    ~plate=courtyardPlate,
+    ~setting=flatStone,
+    ~plate=Sets.masterPlate(Sets.FlatStone),
     ~lightingOverride="evening light low behind her — soft warm afterglow",
     (),
   ),
@@ -851,8 +850,8 @@ let shots: array<entry> = [
     ~scene="The five shrink back to small — seen only as light.",
     ~shot=P.WideAbstract,
     ~props=[lightColumns("standing alone on the courtyard flagstones where the five dragons were, paper clouds behind")],
-    ~setting=courtyard,
-    ~plate=courtyardPlate,
+    ~setting=flatStone,
+    ~plate=Sets.masterPlate(Sets.FlatStone),
     (),
   ),
   /* end frame for the shrink clip: the five small forms standing exactly where
@@ -864,10 +863,10 @@ let shots: array<entry> = [
     ~scene="The light has settled: five small everyday dragon children stand together on the courtyard flagstones where the five columns of light stood, wings folded, close and quiet.",
     ~shot=P.Wide,
     ~dragons=allFiveRow("wings folded, quiet, the light just gone"),
-    ~setting=Sets.setProseFor(Sets.Courtyard, ["FLIGHT RING"]),
-    ~plate=courtyardPlate,
+    ~setting=flatStone,
+    ~plate=Sets.masterPlate(Sets.FlatStone),
     ~extraRules=[
-      "FRAME EXACTLY AS THE REFERENCE PLATE: same vantage, same courtyard, the ring behind them",
+      "FRAME EXACTLY AS THE REFERENCE PLATE: same vantage, the flat stretch and the stopped cart near them",
       "the five stand spaced apart in a loose row on the open flagstones, each fully visible",
     ],
     ~added=["end frame for the shrink clip — locks the five small designs from the sheets"],
@@ -879,7 +878,7 @@ let shots: array<entry> = [
     ~scene="Small again, sitting with गौरी.",
     ~shot=P.Wide,
     ~dragons=allFiveRow("sitting quietly on the flagstones near the stopped cart"),
-    ~gauri="standing closer to them now",
+    ~gauri="stepping down from the cart bed, forehooves already on the stone",
     ~cart=(false, "stopped nearby"),
     ~setting=flatStone,
     ~plate=Sets.masterPlate(Sets.FlatStone),
@@ -988,40 +987,59 @@ let header =
 let stills = P.kukuRoot ++ "ep10prod/stills/"
 let opts = {"encoding": "utf8", "timeout": 900000}
 
-let generateShot = (e: entry) => {
+let generateShot = e => {
   let dst = stills ++ e.id ++ ".png"
   let bak = stills ++ "PRE_SPEC_" ++ e.id ++ ".png"
   if existsSync(dst) && !existsSync(bak) {
     copyFileSync(dst, bak)
   }
-  let args = Js.Array2.concat(
-    Js.Array2.concat(
-      ["generate", "create", "nano_banana_pro", "--prompt", P.imagePrompt(e.spec)],
-      Js.Array2.reduce(P.imageRefs(e.spec), (acc, r) => Js.Array2.concat(acc, ["--image", r]), []),
-    ),
-    ["--aspect_ratio", "16:9", "--resolution", "2k", "--wait", "--json"],
-  )
-  Kuku_Spend.guard(~episode="EP10", ~shot=e.id, ~credits=Kuku_Spend.priceOf("nano_banana_pro"))
-  let raw = execFileSync("higgsfield", args, opts)
-  switch Js.String2.match_(raw, Js.Re.fromString("https://[^\"\\s]*\\.(png|webp|jpg)")) {
-  | Some(m) =>
-    switch m[0] {
-    | Some(url) => {
-        let _ = execFileSync("curl", ["-sL", "--retry", "3", "-o", dst, url], opts)
-        Kuku_Spend.record(
-          ~episode="EP10", ~shot=e.id, ~kind="still", ~model="nano_banana_pro",
-          ~credits=Kuku_Spend.priceOf("nano_banana_pro"), ~note="hero frame", (),
-        )
-        Js.log("OK " ++ e.id)
-      }
-    | None => Js.log("FAIL " ++ e.id ++ " — no url in output")
-    }
-  | None => Js.log("FAIL " ++ e.id ++ " — " ++ Js.String2.slice(raw, ~from=0, ~to_=140))
-  }
+  ignore(Kuku_Engine.still(~id=e.id, ~spec=e.spec, ~dst, ()))
 }
 
 let args = Js.Array2.sliceFrom(argv, 2)
-if Js.Array2.length(args) > 0 && args[0] == "gate" {
+if Js.Array2.length(args) > 0 && args[0] == "audit" {
+  /* the regeneration manifest: every shot's premises and freshness, no spend */
+  let stale = ref(0)
+  let missingBoards = Js.Dict.empty()
+  Js.Array2.forEach(shots, e => {
+    let dst = stills ++ e.id ++ ".png"
+    Js.Array2.forEach(e.spec.subjects, sub =>
+      switch sub {
+      | P.Prop(_) => ()
+      | _ =>
+        switch P.boardOf(sub) {
+        | Some(b) => existsSync(b) ? () : Js.Dict.set(missingBoards, b, true)
+        | None =>
+          Js.Dict.set(
+            missingBoards,
+            "NO SHEET REGISTERED: " ++
+            switch sub {
+            | P.Dragon({name}) => P.nameOf(name) ++ " (form in this shot)"
+            | P.Gauri(_) => "GAURI"
+            | P.RishiMuni(_) => "RISHI"
+            | P.Dadi(_) => "DADI"
+            | P.Cheel(_) => "CHEEL"
+            | P.Prop(_) => "?"
+            },
+            true,
+          )
+        }
+      }
+    )
+    let verdict = switch Kuku_Engine.freshness(~asset=dst, ~prompt=P.imagePrompt(e.spec)) {
+    | Kuku_Engine.Current => "current"
+    | Kuku_Engine.NoReceipt => {stale := stale.contents + 1; "STALE: no engine receipt"}
+    | Kuku_Engine.RefDrift(p) => {stale := stale.contents + 1; "STALE: ref drifted " ++ p}
+    | Kuku_Engine.PromptDrift => {stale := stale.contents + 1; "STALE: prompt changed"}
+    | Kuku_Engine.AssetDrift => {stale := stale.contents + 1; "STALE: asset pixels changed after generation"}
+    }
+    Js.log(e.id ++ " — " ++ verdict)
+  })
+  Js.log("")
+  Js.log("stale stills: " ++ Belt.Int.toString(stale.contents) ++ " of " ++ Belt.Int.toString(Js.Array2.length(shots)))
+  Js.log("missing character sheets:")
+  Js.Array2.forEach(Js.Dict.keys(missingBoards), k => Js.log("  " ++ k))
+} else if Js.Array2.length(args) > 0 && args[0] == "gate" {
   /* render every prompt through the PromptGate, collecting every violation so
      one run shows the whole cleanup list. Zero cost — the lint:prompts entry. */
   let bad = ref(0)

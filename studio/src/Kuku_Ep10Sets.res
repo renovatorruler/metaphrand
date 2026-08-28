@@ -109,8 +109,8 @@ let vantageProse = (s, v) =>
   | (Lane, BottomLookingUp) => "we look from the flat stretch at the BOTTOM of the lane, at head height, looking back UP the slope: the markers climb away from us, the stone post and the courtyard edge at the top of frame"
   | (Lane, Overhead) => "we look from high above the lane, straight DOWN: the lane runs top-to-bottom through the frame, the three red markers evenly spaced on its centreline, the closed wall across the bottom"
   | (Lane, _) => "we look from beside the lane at head height, the slope running left to right across frame, the markers on its centreline"
-  | (Courtyard, AtTheRing) => "we look from the courtyard flagstones, facing the inverted stone flight ring, the bronze bell hanging from the inside of the ring's crown, the temple gateway far behind the ring"
-  | (Courtyard, Overhead) => "we look from high above the courtyard, down: the ring, the marked launch flagstone, and the head of the lane running away"
+  | (Courtyard, AtTheRing) => "we look from the courtyard flagstones, facing the great stone flight ring, the bronze bell hanging from the inside of the ring's crown, the temple gateway far behind the ring"
+  | (Courtyard, Overhead) => "we look from high above the courtyard, down: the ring, the launch circle, and the head of the lane running away"
   | (Courtyard, _) => "we look from the courtyard flagstones at head height, the flight ring in view"
   | (FlatStone, BottomLookingUp) => "we look from low on the flat stretch, back up the lane, the closed stone wall behind us"
   | (FlatStone, _) => "we look from low and close on the flat stone at the end of the lane, the closed stone wall behind it"
@@ -357,7 +357,7 @@ let greatFormFraming = "FRAMING FOR AN ENORMOUS DRAGON: play this WIDE. The view
    चील takes it, and after that the hook hangs bare. Fusing the bell into the
    ring's landmark note (2026-08-27, briefly) put a bell into post-theft frames
    the screenplay pays off as empty. mk() injects one of these by the clock. */
-let bellOnRing = "THE BRONZE BELL hangs from the short hook inside the ring's crown, down into the opening — SMALL, about ONE METRE tall, a hand-bell against the fourteen-metre ring, light enough for an eagle to lift away in her talons"
+let bellOnRing = "THE BRONZE BELL hangs inside the ring's crown, fastened by its bronze binding to the short hook there, down into the opening — SMALL, about ONE METRE tall, a hand-bell against the fourteen-metre ring, light enough for an eagle to lift away in her talons"
 let hookBare = "THE HOOK INSIDE THE RING'S CROWN HANGS BARE — a short bronze hook over empty air, swinging gently, the space beneath it open sky. The ring carries only itself"
 
 let greatFormStaging = "ORIENTATION IN THE LANE: this dragon is far longer than she is wide, and the lane is " ++ Belt.Float.toString(laneWidth) ++ " metres between its kerbs. She lies ALONG the lane: her long axis runs parallel to it, nose forward in the direction of travel, body and tail trailing back up the slope behind her, her whole length inside the lane. Her wings are swept back along her body or held HIGH above the kerb line. Every part of her — body, tail, wings and limbs — stays between the kerbs, in open air, clear of kerb and wall."

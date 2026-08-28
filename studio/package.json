@@ -26,6 +26,8 @@
     "readiness:scene1:delivery": "rescript && node src/Drakosha_SceneReadinessCli.res.mjs ../stories/drakosha/ep1prod/scene1/scene1.production.v1.json delivery",
     "test:readiness": "rescript && node src/Drakosha_SceneReadinessTest.res.mjs",
     "preflight:ep2-sfx": "rescript && node src/Drakosha_Ep2SfxCli.res.mjs",
+    "audio:enoch:dry": "rescript && DRY=1 node src/EnochBrown_Audio.res.mjs",
+    "audio:enoch:generate": "rescript && PAID=1 GENERATE=1 node src/EnochBrown_Audio.res.mjs",
     "mix:ep2-sfx": "rescript && MIX=1 node src/Drakosha_Ep2SfxCli.res.mjs",
     "test:ep2-sfx": "rescript && node src/Drakosha_Ep2SfxTest.res.mjs",
     "test:scene1-flow": "rescript && node src/Drakosha_SceneFlowTest.res.mjs",

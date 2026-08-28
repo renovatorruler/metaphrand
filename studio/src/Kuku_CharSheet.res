@@ -51,37 +51,16 @@ let main = async () => {
         } else {
           /* the CLI is the only path to this model; it fails when run in bursts, so
              sheets are made one at a time */
-          let r = run(
-            ~cmd="higgsfield",
-            ~args=[
-              "generate", "create", "nano_banana_pro",
-              "--prompt", style ++ " " ++ desc ++ " " ++ negative,
-              "--image", styleKey,
-              "--aspect_ratio", "3:4",
-              "--resolution", "2k",
-              "--wait", "--json",
-            ],
+          ignore(
+            Kuku_Engine.plate(
+              ~id="charsheet_" ++ name,
+              ~prompt=style ++ " " ++ desc,
+              ~refs=[styleKey],
+              ~dst=dir ++ "/" ++ name ++ ".png",
+              ~aspect="3:4",
+              (),
+            ),
           )
-          if r.code != 0 {
-            Js.log("FAIL " ++ name ++ ": higgsfield exit " ++ Belt.Int.toString(r.code))
-          } else {
-            /* the CLI returns either a bare object or a one-element array */
-            let j = Js.Json.parseExn(r.stdout)
-            let obj = switch Js.Json.decodeArray(j) {
-            | Some(a) => Belt.Array.get(a, 0)->Belt.Option.getWithDefault(j)
-            | None => j
-            }
-            switch obj
-            ->Js.Json.decodeObject
-            ->Belt.Option.flatMap(o => Js.Dict.get(o, "result_url"))
-            ->Belt.Option.flatMap(Js.Json.decodeString) {
-            | Some(url) if url != "" => {
-                let d = run(~cmd="curl", ~args=["-s", "-o", dir ++ "/" ++ name ++ ".png", url])
-                Js.log(d.code == 0 ? "OK " ++ name : "FAIL download " ++ name)
-              }
-            | _ => Js.log("FAIL " ++ name ++ ": no result_url in response")
-            }
-          }
         }
       }
     }

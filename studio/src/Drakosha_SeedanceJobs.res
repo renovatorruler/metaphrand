@@ -570,6 +570,77 @@ let all: array<jobSpec> = [
 
      PLATE IS V08'S LAST FRAME — both babies already clamped on, so the shot
      opens mid-crisis with nothing to establish. */
+  /* SCENE 9, SHOT 1B — МАШИНА and the failure. SP125-130.
+
+     THE FAILURE IS A SPARK THAT DIES, NOT LETTERS THAT DIE. Author, 2026-08-28:
+     "the spark from her pencil is gonna go to the floor as usual and starts
+     glowing and then it's just gonna die down." Same path as every success —
+     СОК, САЛАТ, МАК all send the spark down and grow the thing out of it — and
+     it stops halfway. The audience has been taught this path four times, so the
+     failure needs no explaining.
+
+     THE SPARK LANDS CLEAR OF THE TILES. Author asked whether it mattered that it
+     might land among them: it does. A glow under the tiles reads as the TILES
+     doing the magic, the embers and dust would settle on faces that are already
+     a repaint, and those same tiles have to stay pristine because she builds
+     САМОКАТ out of them two shots later. So the landing spot is bare board,
+     short of every tile.
+
+     A FINAL POOF. Author: "when the spark is dying down, there should be a final
+     poof." It is the anti-chime — every success ends chime-and-a-thing, so the
+     failure needs a full stop of its own or it merely trails off. It also gives
+     her face one moment to drop on instead of a slow sag, and the drifting dust
+     keeps something moving at the end of the shot, which is where v09 froze.
+
+     ONE TAKE FROM THE WRITING TO THE DROP. Author: "why would we cut it on the
+     failure? That's the worst part to cut." The dud only lands because it
+     arrives inside the same breath as the expectation.
+
+     PLATE IS THE AUTHOR'S OWN, and the cut from 1A is an ordinary angle change —
+     1A ends on the back of her head, which cannot carry this shot. */
+  job(
+    "s9mashina",
+    "SH138",
+    [Frosya],
+    [Pencil],
+    Some("2026-08-28_S9_1B_start_v3_master-conformed.png"),
+    15,
+    Mini,
+  ),
+  /* SCENE 9, SHOT 1A — the recovery. SP124, and the handover from scene 8.
+
+     NO TILES PROP. The start plate already fixes the tile layout exactly — Т О О
+     К Л К past her head, Б С А М К in front of her — and @TILES binds
+     D-MAM-CHEST-01_approved.png, which is Мама's CHEST full of tiles. Attaching
+     it would give the model a second authority for something the plate has
+     already settled, and could put a treasure chest on the floorboards. Author,
+     2026-08-28: "you should not be giving the model what the tiles look like as
+     a separate prop." Two competing anchors for one thing is the v09 failure that
+     cost 235 credits.
+
+     THE CUT IS HERE AND NOT LATER. 1B carries the writing, the точка, the chime
+     and the failure in ONE take. Author: "why would we cut it on the failure?
+     That's the worst part to cut" — the dud only lands because it arrives inside
+     the same breath as the expectation. Cutting at "ready to write" also means
+     the cheap half proves the slate angle and her position before the expensive
+     half spends on a composite.
+
+     THE START FRAME IS THE PEAK OF A LAUGH, which invites the model to keep
+     laughing. The laugh is written as ENDING from frame one and no new wave
+     arrives; her eyes open early or she reads as asleep rather than spent.
+
+     THE SLATE FACE IS NEVER SEEN. It is a blank prop — the word appears as
+     composited letters in the air in 1B. Show the model a writing surface and it
+     writes its own word on it. */
+  job(
+    "s9recover",
+    "SH137",
+    [Frosya],
+    [Pencil],
+    Some("2026-08-28_S9_shot1_start_author.png"),
+    6,
+    Mini,
+  ),
   /* SH119 — SP109, Бабушка-Яга's approving reaction. The one shot scene 8 was
      missing: without it the cut goes straight from Мама's thank-you to Вася's
      ask and changes subject with no breath.

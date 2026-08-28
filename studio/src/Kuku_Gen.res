@@ -148,7 +148,10 @@ let sleepSync = (seconds: int): unit => {
   let _ = run(~cmd="sleep", ~args=[Belt.Int.toString(seconds)])
 }
 
+/* RETIRED (2026-08-28): generation belongs to Kuku_Engine — this legacy episode
+   generator's provider path is closed. Its spec tables remain readable. */
 let main = () => {
+  Js.Exn.raiseError("retired driver: route generation through Kuku_Engine")->ignore
   switch (Belt.Array.get(argv, 2), Belt.Array.get(argv, 3)) {
   | (Some(dir), Some(shotsFile)) => {
       let dir = requireKukuEpisodeDir(dir)

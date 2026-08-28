@@ -3,9 +3,9 @@
 import * as Fs from "fs";
 import * as Js_exn from "rescript/lib/es6/js_exn.js";
 import * as Caml_array from "rescript/lib/es6/caml_array.js";
-import * as Kuku_Spend from "./Kuku_Spend.res.mjs";
 import * as PromptGate from "./PromptGate.res.mjs";
 import * as Caml_option from "rescript/lib/es6/caml_option.js";
+import * as Kuku_Engine from "./Kuku_Engine.res.mjs";
 import * as Kuku_Ep10Sets from "./Kuku_Ep10Sets.res.mjs";
 import * as Child_process from "child_process";
 import * as Kuku_PromptSpec from "./Kuku_PromptSpec.res.mjs";
@@ -108,35 +108,7 @@ function doPlate(s) {
   if (!Fs.existsSync(bp)) {
     console.log("NOTE: no blueprint PNG for " + Kuku_Ep10Sets.setName(s) + " — generating from prose alone");
   }
-  var args = [
-        "generate",
-        "create",
-        "nano_banana_pro",
-        "--prompt",
-        platePrompt(s)
-      ].concat(refs.reduce((function (acc, r) {
-                return acc.concat([
-                            "--image",
-                            r
-                          ]);
-              }), [])).concat([
-        "--aspect_ratio",
-        "16:9",
-        "--resolution",
-        "2k",
-        "--wait",
-        "--json"
-      ]);
-  Kuku_Spend.guard("EP10", Kuku_Ep10Sets.setName(s) + "_plate", Kuku_Spend.priceOf("nano_banana_pro"));
-  var raw = Child_process.execFileSync("higgsfield", args, opts);
-  var url = firstUrl(raw, "(png|webp|jpg)");
-  if (url !== undefined) {
-    fetchTo(url, plateFile(s));
-    return Kuku_Spend.record("EP10", Kuku_Ep10Sets.setName(s) + "_plate", "plate", "nano_banana_pro", Kuku_Spend.priceOf("nano_banana_pro"), "set plate", undefined);
-  } else {
-    console.log("FAIL plate " + Kuku_Ep10Sets.setName(s) + " — " + raw.slice(0, 160));
-    return ;
-  }
+  Kuku_Engine.plate(undefined, Kuku_Ep10Sets.setName(s) + "_plate", platePrompt(s), refs, plateFile(s), undefined, undefined);
 }
 
 function surveySpec(s) {
@@ -169,29 +141,10 @@ function surveySpec(s) {
 function doSurvey(s) {
   var plate = plateFile(s);
   if (Fs.existsSync(plate)) {
-    var args = [
-      "generate",
-      "create",
-      "seedance_2_0_mini",
-      "--prompt",
-      Kuku_PromptSpec.videoPrompt(surveySpec(s)),
-      "--start-image",
-      plate,
-      "--duration",
-      "5",
-      "--wait",
-      "--json"
-    ];
-    var raw = Child_process.execFileSync("higgsfield", args, opts);
-    var url = firstUrl(raw, "(mp4|webm|mov)");
-    if (url !== undefined) {
-      return fetchTo(url, surveyFile(s));
-    } else {
-      console.log("FAIL survey " + Kuku_Ep10Sets.setName(s) + " — " + raw.slice(0, 160));
-      return ;
-    }
+    Kuku_Engine.clip(undefined, Kuku_Ep10Sets.setName(s) + "_survey", surveySpec(s), "seedance_2_0_mini", 5, plate, undefined, surveyFile(s), undefined);
+  } else {
+    console.log("no approved plate for " + Kuku_Ep10Sets.setName(s) + " — run `plate` first");
   }
-  console.log("no approved plate for " + Kuku_Ep10Sets.setName(s) + " — run `plate` first");
 }
 
 function doRetouch(s, change) {
@@ -208,34 +161,14 @@ function doRetouch(s, change) {
       "the exact geography: the post at the top LEFT, the three red markers evenly spaced on the centreline, the flat stretch, the closed stone wall across the far end",
       "the same camera, the same perspective, the same golden dusk light"
     ];
-    var spec_extraRules = ["the set stays EMPTY: no dragons, birds, animals, cow, cart or figures"];
+    var spec_extraRules = ["the set stays EMPTY and still: bare ground, open sky, architecture and landscape alone"];
     var spec = {
       change: change,
       keep: spec_keep,
       extraRules: spec_extraRules
     };
-    var raw = Child_process.execFileSync("higgsfield", [
-          "generate",
-          "create",
-          "nano_banana_pro",
-          "--prompt",
-          Kuku_PromptSpec.editPrompt(spec),
-          "--image",
-          plate,
-          "--aspect_ratio",
-          "16:9",
-          "--resolution",
-          "2k",
-          "--wait",
-          "--json"
-        ], opts);
-    var url = firstUrl(raw, "(png|webp|jpg)");
-    if (url !== undefined) {
-      return fetchTo(url, plate);
-    } else {
-      console.log("FAIL retouch — " + raw.slice(0, 160));
-      return ;
-    }
+    Kuku_Engine.edit(undefined, Kuku_Ep10Sets.setName(s) + "_retouch", spec, plate, plate, undefined);
+    return ;
   }
   console.log("no plate for " + Kuku_Ep10Sets.setName(s));
 }
@@ -258,31 +191,10 @@ function stylePassPrompt(s) {
 }
 
 function doStylePass(s, blockout, dst) {
-  var args = [
-    "generate",
-    "create",
-    "nano_banana_pro",
-    "--prompt",
-    stylePassPrompt(s),
-    "--image",
-    Kuku_PromptSpec.styleKey,
-    "--image",
-    blockout,
-    "--aspect_ratio",
-    "16:9",
-    "--resolution",
-    "2k",
-    "--wait",
-    "--json"
-  ];
-  var raw = Child_process.execFileSync("higgsfield", args, opts);
-  var url = firstUrl(raw, "(png|webp|jpg)");
-  if (url !== undefined) {
-    return fetchTo(url, dst);
-  } else {
-    console.log("FAIL stylepass — " + raw.slice(0, 160));
-    return ;
-  }
+  Kuku_Engine.plate(undefined, Kuku_Ep10Sets.setName(s) + "_stylepass", stylePassPrompt(s), [
+        Kuku_PromptSpec.styleKey,
+        blockout
+      ], dst, undefined, undefined);
 }
 
 var mode = process.argv.length > 2 ? Caml_array.get(process.argv, 2) : "blueprint";
@@ -348,7 +260,7 @@ switch (mode) {
       break;
   case "retouch" :
       if (target !== undefined) {
-        doRetouch(target, process.argv.length > 4 ? Caml_array.get(process.argv, 4) : "Remove every letter, word and number from the picture: no carved or painted text on the stone post, none on any stone, and no numerals on the red markers — the markers become blank plain red paper wedges and the post a blank plain stone post. Also remove the pale upright stone slab standing on the flat stretch near the wall entirely, leaving clean empty flagstones there.");
+        doRetouch(target, process.argv.length > 4 ? Caml_array.get(process.argv, 4) : "Make every surface blank plain paper: the markers become blank plain red paving stones, the post a blank plain stone post, every stone face smooth and empty. Also lift the pale upright stone slab off the flat stretch near the wall entirely, continuing the clean flagstones where it stood.");
       } else {
         exit = 1;
       }

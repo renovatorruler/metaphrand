@@ -73,6 +73,10 @@ let args = [
 ]
 
 if Js.Array2.some(argv, a => a == "--go") {
+  /* RETIRED (2026-08-28): generation belongs to Kuku_Engine. The chase test this
+     drove was delivered; the dry printer below remains for reference. */
+  Js.Exn.raiseError("retired driver: route generation through Kuku_Engine")
+} else if false {
   let raw = execFileSync("higgsfield", args, opts)
   switch Js.String2.match_(raw, Js.Re.fromString("https://[^\"\\s]*\\.(mp4|webm|mov)")) {
   | Some(m) =>

@@ -87,7 +87,7 @@ function subjectText(s) {
                 s.form === "Great" ? "GREAT form: ENORMOUS IN THE WORLD — a grown man would reach only to her knee, and she towers over anything man-made beside her. That is her size in the world; her size in the picture is decided by how far away the viewpoint stands, so in a wide shot she may be a small figure and still be enormous" : "small everyday form: a small paper dragon child, the height of a human child"
               ) + ", wearing a golden कड़ा on one forearm. " + s.doing;
     case "Gauri" :
-        return "- GAURI — gentle brown-and-white paper cow, dark paper eyes, small paper bell at her neck. " + s.doing;
+        return "- GAURI — gentle brown-and-white paper cow, dark paper eyes, a plain rope halter. " + s.doing;
     case "RishiMuni" :
         return "- RISHI — the elder paper dragon guru from the attached character sheet: white-maned and white-bearded, pale horns, an ochre robe, a wooden staff. " + s.doing;
     case "Dadi" :

@@ -68,7 +68,11 @@ let download = (url, dst) => {
   Js.log("saved " ++ dst)
 }
 
-let generate = (args, dst, ext) => {
+/* RETIRED (2026-08-28): generation belongs to Kuku_Engine — this driver's jobs
+   were delivered and its provider path is closed. The dry printer remains. */
+let generate = (_args, _dst, _ext) =>
+  Js.Exn.raiseError("retired driver: route generation through Kuku_Engine")
+let _unused = (args, dst, ext) => {
   let raw = execFileSync("higgsfield", args, opts)
   switch firstUrl(raw, ext) {
   | Some(url) => download(url, dst)

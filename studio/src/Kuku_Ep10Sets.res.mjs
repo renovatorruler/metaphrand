@@ -203,9 +203,9 @@ function vantageProse(s, v) {
     case "Courtyard" :
         switch (v) {
           case "Overhead" :
-              return "we look from high above the courtyard, down: the ring, the marked launch flagstone, and the head of the lane running away";
+              return "we look from high above the courtyard, down: the ring, the launch circle, and the head of the lane running away";
           case "AtTheRing" :
-              return "we look from the courtyard flagstones, facing the inverted stone flight ring, the bronze bell hanging from the inside of the ring's crown, the temple gateway far behind the ring";
+              return "we look from the courtyard flagstones, facing the great stone flight ring, the bronze bell hanging from the inside of the ring's crown, the temple gateway far behind the ring";
           default:
             return "we look from the courtyard flagstones at head height, the flight ring in view";
         }
@@ -396,7 +396,7 @@ var laneDrop = 9.0;
 
 var greatFormFraming = "FRAMING FOR AN ENORMOUS DRAGON: play this WIDE. The viewpoint stands far enough back that the whole width of the lane, both kerbs and a good band of sky sit in frame, with clear space above and behind the dragon, his whole body inside the picture with open air around it. When he shares the shot with the cart, the two sit SEPARATED across the frame — dragon to one side, cart to the other, each whole and distinct.";
 
-var bellOnRing = "THE BRONZE BELL hangs from the short hook inside the ring's crown, down into the opening — SMALL, about ONE METRE tall, a hand-bell against the fourteen-metre ring, light enough for an eagle to lift away in her talons";
+var bellOnRing = "THE BRONZE BELL hangs inside the ring's crown, fastened by its bronze binding to the short hook there, down into the opening — SMALL, about ONE METRE tall, a hand-bell against the fourteen-metre ring, light enough for an eagle to lift away in her talons";
 
 var hookBare = "THE HOOK INSIDE THE RING'S CROWN HANGS BARE — a short bronze hook over empty air, swinging gently, the space beneath it open sky. The ring carries only itself";
 

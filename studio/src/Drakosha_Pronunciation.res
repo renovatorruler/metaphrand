@@ -12,6 +12,20 @@
    an explicit audio spelling. One-syllable words pass through unchanged.
    The display spelling is never altered for any reason. */
 
+/* RECORD A SPELLING LINE THE WAY THE SHIPPED ONES WERE RECORDED: bare text,
+   no performance tags. «С-А-Л-А-Т. Салат!» came back as six bursts — five
+   letters named separately, then the word — and «Б-А-К. Бак!» as six. Hyphens
+   are fine; every delivered spelling line uses them.
+
+   What broke МАШИНА on 2026-08-28 was the tags. Sent as
+   "[bright, concentrating] М-А-Ш-И-Н-А. [pleased] Маши́на!" it came back as TWO
+   sounds in 3.19s — eleven_v3 acted on "bright, concentrating" and ran the
+   letters together into one word, so nobody could write along with it. The same
+   text without tags gives the letters their beats.
+
+   The general form of that mistake: an instruction added on top of a recipe that
+   already works will win, and it will win in a direction nobody asked for. */
+
 type word = {display: string, audio: string}
 
 let words: array<word> = [
@@ -24,6 +38,7 @@ let words: array<word> = [
   {display: `ОСА`, audio: `А-СА́`},
   {display: `САЛАТ`, audio: `СА-ЛА́Т`},
   {display: `САМОКАТ`, audio: `СА-МА-КА́Т`},
+  {display: `МАШИНА`, audio: `МА-ШИ́-НА`},
   {display: `МОТОК`, audio: `МА-ТО́К`},
   {display: `МАМА`, audio: `МА́-МА`},
   {display: `юла`, audio: `ю-ЛА́`},

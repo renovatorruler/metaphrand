@@ -84,23 +84,7 @@ let doPlate = s => {
   if !existsSync(bp) {
     Js.log("NOTE: no blueprint PNG for " ++ S.setName(s) ++ " — generating from prose alone")
   }
-  let args = Js.Array2.concat(
-    Js.Array2.concat(
-      ["generate", "create", "nano_banana_pro", "--prompt", platePrompt(s)],
-      Js.Array2.reduce(refs, (acc, r) => Js.Array2.concat(acc, ["--image", r]), []),
-    ),
-    ["--aspect_ratio", "16:9", "--resolution", "2k", "--wait", "--json"],
-  )
-  Kuku_Spend.guard(~episode="EP10", ~shot=S.setName(s) ++ "_plate", ~credits=Kuku_Spend.priceOf("nano_banana_pro"))
-  let raw = execFileSync("higgsfield", args, opts)
-  switch firstUrl(raw, "(png|webp|jpg)") {
-  | Some(url) => {
-      fetchTo(url, plateFile(s))
-      Kuku_Spend.record(~episode="EP10", ~shot=S.setName(s) ++ "_plate", ~kind="plate",
-        ~model="nano_banana_pro", ~credits=Kuku_Spend.priceOf("nano_banana_pro"), ~note="set plate", ())
-    }
-  | None => Js.log("FAIL plate " ++ S.setName(s) ++ " — " ++ Js.String2.slice(raw, ~from=0, ~to_=160))
-  }
+  ignore(Kuku_Engine.plate(~id=S.setName(s) ++ "_plate", ~prompt=platePrompt(s), ~refs, ~dst=plateFile(s), ()))
 }
 
 /* the camera pass: the empty set surveyed in one continuous move */
@@ -134,28 +118,11 @@ let doSurvey = s => {
   if !existsSync(plate) {
     Js.log("no approved plate for " ++ S.setName(s) ++ " — run `plate` first")
   } else {
-    let args = [
-      "generate",
-      "create",
-      "seedance_2_0_mini",
-      "--prompt",
-      P.videoPrompt(surveySpec(s)),
-      "--start-image",
-      plate,
-      "--duration",
-      "5",
-      "--wait",
-      "--json",
-    ]
-    let raw = execFileSync("higgsfield", args, opts)
-    switch firstUrl(raw, "(mp4|webm|mov)") {
-    | Some(url) => fetchTo(url, surveyFile(s))
-    | None => Js.log("FAIL survey " ++ S.setName(s) ++ " — " ++ Js.String2.slice(raw, ~from=0, ~to_=160))
-    }
+    ignore(Kuku_Engine.clip(~id=S.setName(s) ++ "_survey", ~spec=surveySpec(s),
+      ~model="seedance_2_0_mini", ~secs=5, ~start=plate, ~dst=surveyFile(s), ()))
   }
 }
 
-/* retouch: fix an approved-but-flawed plate in place, laws still code-rendered */
 let doRetouch = (s, change) => {
   let plate = plateFile(s)
   if !existsSync(plate) {
@@ -171,21 +138,11 @@ let doRetouch = (s, change) => {
         "the exact geography: the post at the top LEFT, the three red markers evenly spaced on the centreline, the flat stretch, the closed stone wall across the far end",
         "the same camera, the same perspective, the same golden dusk light",
       ],
-      extraRules: ["the set stays EMPTY: no dragons, birds, animals, cow, cart or figures"],
+      extraRules: ["the set stays EMPTY and still: bare ground, open sky, architecture and landscape alone"],
     }
-    let raw = execFileSync(
-      "higgsfield",
-      ["generate", "create", "nano_banana_pro", "--prompt", P.editPrompt(spec), "--image", plate,
-       "--aspect_ratio", "16:9", "--resolution", "2k", "--wait", "--json"],
-      opts,
-    )
-    switch firstUrl(raw, "(png|webp|jpg)") {
-    | Some(url) => fetchTo(url, plate)
-    | None => Js.log("FAIL retouch — " ++ Js.String2.slice(raw, ~from=0, ~to_=160))
-    }
+    ignore(Kuku_Engine.edit(~id=S.setName(s) ++ "_retouch", ~spec, ~src=plate, ~dst=plate, ()))
   }
 }
-
 
 /* ---- style pass: Blender owns the geometry, nano owns the paper ----------- */
 let stylePassPrompt = s =>
@@ -214,16 +171,8 @@ let stylePassPrompt = s =>
   ))
 
 let doStylePass = (s, blockout, dst) => {
-  let args = [
-    "generate", "create", "nano_banana_pro", "--prompt", stylePassPrompt(s),
-    "--image", P.styleKey, "--image", blockout,
-    "--aspect_ratio", "16:9", "--resolution", "2k", "--wait", "--json",
-  ]
-  let raw = execFileSync("higgsfield", args, opts)
-  switch firstUrl(raw, "(png|webp|jpg)") {
-  | Some(url) => fetchTo(url, dst)
-  | None => Js.log("FAIL stylepass — " ++ Js.String2.slice(raw, ~from=0, ~to_=160))
-  }
+  ignore(Kuku_Engine.plate(~id=S.setName(s) ++ "_stylepass", ~prompt=stylePassPrompt(s),
+    ~refs=[P.styleKey, blockout], ~dst, ()))
 }
 
 let mode = Js.Array2.length(argv) > 2 ? argv[2] : "blueprint"
@@ -267,7 +216,7 @@ switch (mode, target) {
     s,
     Js.Array2.length(argv) > 4
       ? argv[4]
-      : "Remove every letter, word and number from the picture: no carved or painted text on the stone post, none on any stone, and no numerals on the red markers — the markers become blank plain red paper wedges and the post a blank plain stone post. Also remove the pale upright stone slab standing on the flat stretch near the wall entirely, leaving clean empty flagstones there.",
+      : "Make every surface blank plain paper: the markers become blank plain red paving stones, the post a blank plain stone post, every stone face smooth and empty. Also lift the pale upright stone slab off the flat stretch near the wall entirely, continuing the clean flagstones where it stood.",
   )
 | (m, _) =>
   Js.log(

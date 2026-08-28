@@ -124,7 +124,7 @@ let subjectText = s =>
       : "small everyday form: a small paper dragon child, the height of a human child") ++
     ", wearing a golden कड़ा on one forearm. " ++ doing
   | Gauri({doing}) =>
-    "- GAURI — gentle brown-and-white paper cow, dark paper eyes, small paper bell at her neck. " ++ doing
+    "- GAURI — gentle brown-and-white paper cow, dark paper eyes, a plain rope halter. " ++ doing
   | RishiMuni({doing}) =>
     "- RISHI — the elder paper dragon guru from the attached character sheet: white-maned and white-bearded, pale horns, an ochre robe, a wooden staff. " ++ doing
   | Dadi({doing}) =>

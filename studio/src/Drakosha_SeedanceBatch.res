@@ -735,6 +735,48 @@ let assertEmittedClean = (jobId: string, prompt: string): unit => {
    kind is what displaces one. */
 let negatedDirection = %re("/(never|not|no|nobody|nothing|at no point)[^.;—]{0,60}\b(left|right)\b[ -]*(of frame|of the frame|edge|side of frame|hand side)/i")
 
+/* B8 — a NEGATED PERFORMANCE. "she does not giggle" is the only thing in a
+   prompt that puts giggling anywhere near it: the model never saw the shot this
+   language was inherited from, so the negation supplies the very idea it means
+   to exclude. Author, 2026-08-28: "are you putting negative statements into your
+   prompt based on the context of the previous prompt? Are you doing this stuff
+   when the model has no idea what the previous prompt was?"
+
+   This happens because creatives are copied from the shot before — the right
+   thing to do — and a behaviour that belonged there gets negated instead of
+   replaced. The fix is always to write what she IS doing in that space.
+
+   THIS WARNS, IT DOES NOT REFUSE — and that is a finding, not a compromise.
+   Fire-testing it as a blocker flagged THIRTEEN shipped creatives, including the
+   shot it was written for. "she is never angry, never crying and never smiling
+   at the end" is the same grammatical shape as "she does not giggle", and it is
+   the established EMOTION LOCK: the gate that demands a declared emotion also
+   expects its contradictions named, and МАК, v09 and v10 all carry a version of
+   it. Those shots delivered. The difference between a negated inherited
+   behaviour and a bounded emotion lock is intent, and intent is not in the text.
+
+   So this prints and a person decides. A blocker here would refuse thirteen
+   creatives that demonstrably work in order to catch one that probably did no
+   harm. */
+let negatedPerformance = %re("/\b(?:does not|doesn't|never|is not|isn't|no longer)\s+(?:[a-z]+ly\s+)?(giggl\w*|laugh\w*|smil\w*|grin\w*|cry\w*|cries|frown\w*|shout\w*|scream\w*|blink\w*|nod\w*|wave\w*|point\w*|dance\w*|jump\w*|clap\w*)/i")
+
+let assertNoNegatedPerformance = (jobId: string, prompt: string): unit =>
+  switch Js.Re.exec_(negatedPerformance, prompt) {
+  | Some(m) =>
+    let hit = switch Js.Nullable.toOption(Js.Array2.unsafe_get(Js.Re.captures(m), 0)) {
+    | Some(t) => t
+    | None => "a negated performance"
+    }
+    Js.log(
+      "  WARN  " ++
+      jobId ++
+      ": the prompt negates a performance — \"" ++
+      hit ++
+      "\". If that behaviour was inherited from the shot this creative was copied from, the model never saw it, and this line is the only place the idea appears. Write what she IS doing in that space. If it is the emotion lock naming a declared emotion's contradictions, it is fine.",
+    )
+  | None => ()
+  }
+
 let assertNoNegatedDirection = (jobId: string, prompt: string): unit =>
   switch Js.Re.exec_(negatedDirection, prompt) {
   | Some(m) =>
@@ -854,7 +896,17 @@ let assertDialogueStress = (r: shotRecord): unit =>
           )
         let marked = Js.String2.includes(w, stressMark)
         let hasYo = Js.String2.includes(w, `ё`) || Js.String2.includes(w, `Ё`)
-        if vowels >= 2 && !marked && !hasYo {
+        /* A SPELLING-OUT IS NOT A WORD. «М-А-Ш-И-Н-А» is six letters named one
+           at a time, exactly as «С-О-К» and «М-А-К» were in the delivered shots.
+           There is no stress in it to mark, because it is never pronounced as a
+           word — the word follows it, separately, and that one does get marked.
+           Detected as: every hyphen-separated piece is a single letter. */
+        let isSpellingOut = {
+          let parts = Js.String2.split(w, "-")
+          Belt.Array.length(parts) >= 2 &&
+            parts->Belt.Array.every(p => Js.String2.length(p) == 1)
+        }
+        if vowels >= 2 && !marked && !hasYo && !isSpellingOut {
           raise(
             BatchError(
               r.jobId ++
@@ -1024,6 +1076,7 @@ let emitPrompt = (r: shotRecord): string => {
   assertEmittedBudget(r.jobId, prompt)
   assertEmittedClean(r.jobId, prompt)
   assertNoNegatedDirection(r.jobId, prompt)
+  assertNoNegatedPerformance(r.jobId, prompt)
   prompt
 }
 
