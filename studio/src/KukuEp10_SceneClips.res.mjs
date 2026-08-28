@@ -439,16 +439,42 @@ var all = [
     spec: {
       scene: "The forging: कुकु exhales a broad steady stream of golden paper light onto the flat stone, and the golden shape builds itself whole out of the light — finishing exactly as the end image shows, seated on the stone with a heavy settling weight.",
       cameraTravels: false,
-      cast: [{
+      cast: [
+        {
           TAG: "Dragon",
           name: "Kuku",
           form: "Great",
           doing: "exhaling a broad golden stream onto the flat stone, steady and sure"
-        }],
+        },
+        {
+          TAG: "Dragon",
+          name: "Fyuria",
+          form: "Great",
+          doing: "standing behind him, wings raised, watching the light"
+        },
+        {
+          TAG: "Dragon",
+          name: "Leda",
+          form: "Great",
+          doing: "standing behind him, wings raised, watching the light"
+        },
+        {
+          TAG: "Dragon",
+          name: "Castor",
+          form: "Great",
+          doing: "standing behind him, wings raised, watching the light"
+        },
+        {
+          TAG: "Dragon",
+          name: "Vesper",
+          form: "Great",
+          doing: "standing behind him, wings raised, watching the light"
+        }
+      ],
       blocking: [
         "the start image IS this place and the END image is this same place a breath later — the shape grows from the first into the second",
         "the golden shape that forms is EXACTLY the shape in the end image — the same form, proportion and position, built up from flowing golden light",
-        "कुकु keeps his position; only his breath and the growing shape move"
+        "कुकु keeps his position; the four behind him hold still and watch; only his breath and the growing shape move"
       ],
       beats: [
         "0.0-1.5s: the golden stream pours onto the stone and pools into flowing light",
@@ -512,33 +538,26 @@ var all = [
     endFrame: stills + "h38_stopped.png",
     secs: 5,
     spec: {
-      scene: "The cart rolls its last stretch and comes to rest — exactly as the end image shows — wheels turning slower and slower until they stand still, गौरी steady in the bed, फ्यूरिया easing her hold as it stops.",
+      scene: "The stop the golden shape was forged for: the cart rolls its last stretch and its nose rides up into the open curve of the golden shape, which receives it and holds it — wheels turning slower until they stand still, exactly as the end image shows, गौरी steady in the bed.",
       cameraTravels: false,
-      cast: [
-        {
-          TAG: "Dragon",
-          name: "Fyuria",
-          form: "Great",
-          doing: "ahead of the cart, forepaws on its front wall, easing it to rest"
-        },
-        {
+      cast: [{
           TAG: "Gauri",
-          doing: "standing braced in the cart bed as it slows to a stop"
-        }
-      ],
+          doing: "standing braced in the cart bed as the golden curve receives the cart and it comes to rest"
+        }],
       blocking: [
         "the start image IS this place and the END image is this same place moments later — the clip travels from one to the other",
         "the cart moves only forward, slower every second, and is perfectly still by the last frame"
       ],
       beats: [
-        "0.0-2.0s: the cart rolls in, wheels turning slowly, फ्यूरिया braced against its front",
-        "2.0-4.0s: slower still — hay settles, गौरी's footing steadies",
+        "0.0-2.0s: the cart rolls in, wheels turning slowly, its nose entering the golden curve",
+        "2.0-4.0s: the curve takes the cart's weight and the cart slows against it — hay settles, गौरी's footing steadies",
         "4.0-5.0s: the wheels stand still; dust settles; everything at rest exactly as the end image"
       ],
       camera: "one locked static camera, holding the exact framing shared by the start and end images",
       physics: [
         "wheels turn at a speed matching the ground passing beneath them, down to a full stop",
-        "the stop is gentle and final — the cart stays at rest once stopped"
+        "the stop is gentle and final — the cart stays at rest once stopped",
+        "THE GOLDEN SHAPE IS RIGID AND ROOTED: it keeps its exact form and position while the cart settles against its curve"
       ],
       lighting: "constant dusk exactly as the start image, the light holding steady for the whole clip",
       audio: "",
@@ -580,7 +599,7 @@ var all = [
     endFrame: "",
     secs: 5,
     spec: {
-      scene: "चील stands before the tall closed stone door with the stolen bronze bell. She lifts the bell in one talon, studies the door — and raises her other claw to ring it. The clip ends on that raised claw, the ring itself left for the next episode.",
+      scene: "चील stands before the tall stone door — shut, open only a hair's width, a thin dark seam glowing at its edge — with the stolen bronze bell. She lifts the bell in one talon, studies the door, and raises her other claw to ring it. The clip ends on that raised claw, the ring itself left for the next episode.",
       cameraTravels: false,
       cast: [{
           TAG: "Cheel",
@@ -588,11 +607,11 @@ var all = [
         }],
       blocking: [
         "the start image IS this place — the same door, stone and light",
-        "the door stays CLOSED from first frame to last",
-        "the bell stays in her talon the whole clip"
+        "the door stays SHUT to a hair's-width seam from first frame to last, exactly as the start image has it",
+        "the bell begins on the stones at her feet, and from the moment she lifts it it stays in her talon to the last frame"
       ],
       beats: [
-        "0.0-2.0s: she lifts the bronze bell level with her eyes and tilts her head at the door",
+        "0.0-2.0s: she takes the bronze bell up from the stones in one talon, lifts it level with her eyes and tilts her head at the door",
         "2.0-4.0s: she looks from the bell to the door, slow and deliberate",
         "4.0-5.0s: she raises her free claw beside the bell, poised to strike — and holds there on the last frame"
       ],

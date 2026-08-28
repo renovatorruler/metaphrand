@@ -340,3 +340,28 @@
 {"at":"2026-08-27T23:15:12.133Z","episode":"BUDGETTEST","shot":"—","kind":"budget","model":"—","credits":5,"note":"guard proof"}
 {"at":"2026-08-27T23:15:12.135Z","episode":"BUDGETTEST","shot":"t1","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
 {"at":"2026-08-27T23:15:33.940Z","episode":"EP10","shot":"—","kind":"budget","model":"—","credits":800,"note":"build-phase cap opened"}
+{"at":"2026-08-27T23:37:32.814Z","episode":"EP10","shot":"s0a_furia_ring","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
+{"at":"2026-08-27T23:42:05.147Z","episode":"EP10","shot":"s0d_bell_touch","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
+{"at":"2026-08-27T23:48:54.365Z","episode":"EP10","shot":"s0d_bell_touch","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
+{"at":"2026-08-27T23:52:51.701Z","episode":"EP10","shot":"s0c_bell_taken","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
+{"at":"2026-08-27T23:53:40.658Z","episode":"EP10","shot":"h54_small_five_stand","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
+{"at":"2026-08-28T00:05:53.992Z","episode":"EP10","shot":"courtyard_barehook_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":"post-theft plate variant"}
+{"at":"2026-08-28T00:11:54.677Z","episode":"EP10","shot":"h13_bell_taken","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
+{"at":"2026-08-28T00:13:55.902Z","episode":"EP10","shot":"h14_furia_choice","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
+{"at":"2026-08-28T00:14:47.824Z","episode":"EP10","shot":"h39_shrink_glow","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
+{"at":"2026-08-28T00:15:40.634Z","episode":"EP10","shot":"h49_leda_relief","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
+{"at":"2026-08-28T00:17:11.285Z","episode":"EP10","shot":"h54_small_five_stand","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
+{"at":"2026-08-28T00:21:08.747Z","episode":"EP10","shot":"h39_shrink_glow","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
+{"at":"2026-08-28T00:23:02.749Z","episode":"EP10","shot":"s0c_bell_taken","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
+{"at":"2026-08-28T00:25:14.461Z","episode":"EP10","shot":"b1_breath_fail","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
+{"at":"2026-08-28T00:27:52.907Z","episode":"EP10","shot":"b2_forging","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
+{"at":"2026-08-28T00:30:48.633Z","episode":"EP10","shot":"b3_three_beats","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
+{"at":"2026-08-28T00:33:38.865Z","episode":"EP10","shot":"b4_curve_stop","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
+{"at":"2026-08-28T00:36:33.675Z","episode":"EP10","shot":"b5_shrink","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
+{"at":"2026-08-28T00:38:20.561Z","episode":"EP10","shot":"b6_tower_door","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
+{"at":"2026-08-28T00:50:21.231Z","episode":"EP10","shot":"h44_tower_door","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
+{"at":"2026-08-28T00:53:22.212Z","episode":"EP10","shot":"h29_ga_stands_shieldout","kind":"edit","model":"nano_banana_pro","credits":2,"note":"shield removed"}
+{"at":"2026-08-28T00:54:12.392Z","episode":"EP10","shot":"h37_cart_into_curve_shieldout","kind":"edit","model":"nano_banana_pro","credits":2,"note":"shield removed"}
+{"at":"2026-08-28T00:56:10.869Z","episode":"EP10","shot":"h38_stopped_shieldout","kind":"edit","model":"nano_banana_pro","credits":2,"note":"shield removed"}
+{"at":"2026-08-28T00:56:18.609Z","episode":"EP10","shot":"b6_tower_door","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
+{"at":"2026-08-28T01:02:04.688Z","episode":"EP10","shot":"b4_curve_stop","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
