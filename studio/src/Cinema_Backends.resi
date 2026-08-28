@@ -23,6 +23,13 @@
 @unboxed type millis = Millis(int)
 @unboxed type text = Text(string)
 
+/* Restricted production narration controls. Stability is 0..1; speed is
+   0.7..1.2. The backend validates both before any paid request. */
+type productionVoiceSettings = {
+  stability: float,
+  speed: float,
+}
+
 /* opaque binary blob — a Node Buffer under the hood. The only ways to get one
    are to fetch it from an endpoint or read it off disk; the only thing you can
    do with it is write it back. No naked Buffer leaks into the rest of the app. */
@@ -126,8 +133,25 @@ type forcedAlignment = {
 let forcedAlignment: (~audio: path, ~text: text) => promise<forcedAlignment>
 /* Single-voice take (one narrator performs everything, v3 expression tags). */
 let tts: (~text: text, ~voice: voiceId, ~settings: Js.Json.t=?) => promise<blob>
+/* Production narration: eleven_v3, English normalization, deterministic seed,
+   typed voice settings, and a 48 kHz WAV response. */
+let productionTts: (
+  ~text: text,
+  ~voice: voiceId,
+  ~seed: int,
+  ~settings: productionVoiceSettings,
+) => promise<blob>
 /* Instrumental score bed (ElevenLabs Music). Naming a real artist -> 400. */
 let music: (~prompt: prompt, ~ms: millis, ~instrumental: bool) => promise<blob>
+/* Production Music v2 master at MP3 48 kHz/320 kbps. Storage for inpainting
+   and MP3-compatible C2PA signing are explicit caller decisions. */
+let productionMusic: (
+  ~prompt: prompt,
+  ~ms: millis,
+  ~instrumental: bool,
+  ~storeForInpainting: bool,
+  ~signWithC2pa: bool,
+) => promise<blob>
 /* One sound effect from a description. influence 0..1 (0.55 = the shipped setting):
    higher obeys the prompt more literally, lower sounds more like a real recording. */
 let soundEffect: (~prompt: prompt, ~seconds: float, ~influence: float) => promise<blob>

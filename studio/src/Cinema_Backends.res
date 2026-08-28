@@ -10,6 +10,14 @@
 @unboxed type millis = Millis(int)
 @unboxed type text = Text(string)
 
+/* Deliberately narrower than ElevenLabs' complete voice-settings object. The
+   production narration path controls only the two parameters approved for a
+   documentary read; callers cannot smuggle unreviewed JSON into the request. */
+type productionVoiceSettings = {
+  stability: float,
+  speed: float,
+}
+
 exception BackendError(string)
 
 /* ---- Node Buffer: opaque binary. We only ever build one (from disk or an
@@ -956,6 +964,56 @@ let tts = async (~text: text, ~voice: voiceId, ~settings: option<Js.Json.t>=?): 
   Blob(bufferFrom(ab))
 }
 
+/* High-quality production narration. This is separate from `tts` so existing
+   previews retain their byte format and cache identity. The request pins every
+   quality/normalization choice that can otherwise drift with provider defaults. */
+let productionTts = async (
+  ~text: text,
+  ~voice: voiceId,
+  ~seed: int,
+  ~settings: productionVoiceSettings,
+): blob => {
+  if settings.stability < 0.0 || settings.stability > 1.0 {
+    raise(BackendError("productionTts stability must be between 0 and 1"))
+  }
+  if settings.speed < 0.7 || settings.speed > 1.2 {
+    raise(BackendError("productionTts speed must be between 0.7 and 1.2"))
+  }
+  if seed < 0 {
+    raise(BackendError("productionTts seed must be non-negative"))
+  }
+  let Text(t) = text
+  let VoiceId(v) = voice
+  let voiceSettings = Js.Dict.empty()
+  Js.Dict.set(voiceSettings, "stability", Js.Json.number(settings.stability))
+  Js.Dict.set(voiceSettings, "speed", Js.Json.number(settings.speed))
+  let body = Js.Dict.empty()
+  Js.Dict.set(body, "text", Js.Json.string(t))
+  Js.Dict.set(body, "model_id", Js.Json.string("eleven_v3"))
+  Js.Dict.set(body, "language_code", Js.Json.string("en"))
+  Js.Dict.set(body, "apply_text_normalization", Js.Json.string("on"))
+  Js.Dict.set(body, "seed", Js.Json.number(Belt.Int.toFloat(seed)))
+  Js.Dict.set(body, "voice_settings", Js.Json.object_(voiceSettings))
+  let resp = await fetch(
+    "https://api.elevenlabs.io/v1/text-to-speech/" ++ v ++ "?output_format=wav_48000",
+    postOpts(
+      ~headers=[("xi-api-key", key("ELEVENLABS_API_KEY")), ("Content-Type", "application/json")],
+      ~body=Js.Json.object_(body),
+    ),
+  )
+  if !ok(resp) {
+    let tb = await textBody(resp)
+    raise(
+      BackendError(
+        "productionTts HTTP " ++ Belt.Int.toString(status(resp)) ++ ": " ++
+        Js.String2.slice(tb, ~from=0, ~to_=200),
+      ),
+    )
+  }
+  let ab = await arrayBuffer(resp)
+  Blob(bufferFrom(ab))
+}
+
 /* One sound effect from a text description. `influence` (0..1) trades literal
    obedience to the prompt against sounding like a real recording — 0.55 is what the
    shipped episodes used. Separate from `music`: different endpoint, different
@@ -1009,6 +1067,48 @@ let music = async (~prompt: prompt, ~ms: millis, ~instrumental: bool): blob => {
   if !ok(resp) {
     let t = await textBody(resp)
     raise(BackendError("music HTTP " ++ Belt.Int.toString(status(resp)) ++ ": " ++ Js.String2.slice(t, ~from=0, ~to_=200)))
+  }
+  let ab = await arrayBuffer(resp)
+  Blob(bufferFrom(ab))
+}
+
+/* Production score master: Music v2 at its current highest MP3 delivery
+   bitrate. Storage and provenance are explicit caller decisions and are always
+   transmitted, avoiding reliance on provider defaults. */
+let productionMusic = async (
+  ~prompt: prompt,
+  ~ms: millis,
+  ~instrumental: bool,
+  ~storeForInpainting: bool,
+  ~signWithC2pa: bool,
+): blob => {
+  let Prompt(p) = prompt
+  let Millis(len) = ms
+  if len < 3000 || len > 600000 {
+    raise(BackendError("productionMusic length must be between 3000 and 600000 ms"))
+  }
+  let body = Js.Dict.empty()
+  Js.Dict.set(body, "prompt", Js.Json.string(p))
+  Js.Dict.set(body, "music_length_ms", Js.Json.number(Belt.Int.toFloat(len)))
+  Js.Dict.set(body, "model_id", Js.Json.string("music_v2"))
+  Js.Dict.set(body, "force_instrumental", Js.Json.boolean(instrumental))
+  Js.Dict.set(body, "store_for_inpainting", Js.Json.boolean(storeForInpainting))
+  Js.Dict.set(body, "sign_with_c2pa", Js.Json.boolean(signWithC2pa))
+  let resp = await fetch(
+    "https://api.elevenlabs.io/v1/music?output_format=mp3_48000_320",
+    postOpts(
+      ~headers=[("xi-api-key", key("ELEVENLABS_API_KEY")), ("Content-Type", "application/json")],
+      ~body=Js.Json.object_(body),
+    ),
+  )
+  if !ok(resp) {
+    let tb = await textBody(resp)
+    raise(
+      BackendError(
+        "productionMusic HTTP " ++ Belt.Int.toString(status(resp)) ++ ": " ++
+        Js.String2.slice(tb, ~from=0, ~to_=200),
+      ),
+    )
   }
   let ab = await arrayBuffer(resp)
   Blob(bufferFrom(ab))

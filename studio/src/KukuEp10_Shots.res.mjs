@@ -218,8 +218,20 @@ function mk(id, beat, scene, shot, dragonsOpt, othersOpt, gauri, cart, ga, props
               Kuku_Ep10Sets.greatFormFraming
             ] : [Kuku_Ep10Sets.lanePosition(at, cartAt)]
         ).concat(extraRules$1)) : extraRules$1;
-  if (plate$1 !== undefined) {
-    derived.push("SET PLATE attached: " + plate$1);
+  var mentionsBell = function (r) {
+    if (r.includes("BELL") || r.includes("bell")) {
+      return true;
+    } else {
+      return r.includes("घंटी");
+    }
+  };
+  var ringInShot = setting.includes("FLIGHT RING");
+  var shotSpeaksForBell = extraRules$2.some(mentionsBell) || mentionsBell(scene);
+  var bellGone = Kuku_Ep10State.bellWithCheel(beat);
+  var extraRules$3 = ringInShot && !shotSpeaksForBell ? (derived.push(bellGone ? "bell state: GONE — bare hook injected (story clock)" : "bell state: hanging (story clock)"), [bellGone ? Kuku_Ep10Sets.hookBare : Kuku_Ep10Sets.bellOnRing].concat(extraRules$2)) : extraRules$2;
+  var plate$2 = plate$1 !== undefined && ringInShot && bellGone && !shotSpeaksForBell && plate$1 === courtyardPlate ? Kuku_Ep10Sets.plateDir + "courtyard_barehook_plate.png" : plate$1;
+  if (plate$2 !== undefined) {
+    derived.push("SET PLATE attached: " + plate$2);
   }
   var lighting = lightingOverride !== undefined ? lightingOverride : (derived.push("lighting from the dusk clock"), Kuku_Ep10State.lighting(beat));
   return {
@@ -230,9 +242,9 @@ function mk(id, beat, scene, shot, dragonsOpt, othersOpt, gauri, cart, ga, props
             subjects: dragonSubjects.concat(others, gauriSubjects, cartSubjects, gaSubjects, props),
             setting: setting,
             lighting: lighting,
-            plate: plate$1,
+            plate: plate$2,
             objects: objects,
-            extraRules: extraRules$2
+            extraRules: extraRules$3
           },
           added: added,
           derived: derived
@@ -575,6 +587,10 @@ var shots = [
           what: "FIVE COLUMNS of soft golden paper light",
           doing: "standing alone on the courtyard flagstones where the five dragons were, paper clouds behind"
         }], courtyard, undefined, undefined, courtyardPlate, undefined, undefined, undefined, undefined, undefined),
+  mk("h54_small_five_stand", "AfterStop", "The light has settled: five small everyday dragon children stand together on the courtyard flagstones where the five columns of light stood, wings folded, close and quiet.", "Wide", allFiveRow("wings folded, quiet, the light just gone"), undefined, undefined, undefined, undefined, undefined, Kuku_Ep10Sets.setProseFor("Courtyard", ["FLIGHT RING"]), undefined, undefined, courtyardPlate, undefined, undefined, [
+        "FRAME EXACTLY AS THE REFERENCE PLATE: same vantage, same courtyard, the ring behind them",
+        "the five stand spaced apart in a loose row on the open flagstones, each fully visible"
+      ], ["end frame for the shrink clip — locks the five small designs from the sheets"], undefined),
   mk("h40_small_five_sit", "AfterStop", "Small again, sitting with गौरी.", "Wide", allFiveRow("sitting quietly on the flagstones near the stopped cart"), undefined, "standing closer to them now", [
         false,
         "stopped nearby"
@@ -679,8 +695,8 @@ function generateShot(e) {
         "--wait",
         "--json"
       ]);
+  Kuku_Spend.guard("EP10", e.id, Kuku_Spend.priceOf("nano_banana_pro"));
   var raw = Child_process.execFileSync("higgsfield", args, opts);
-  Kuku_Spend.record("EP10", e.id, "still", "nano_banana_pro", Kuku_Spend.priceOf("nano_banana_pro"), "hero frame", undefined);
   var m = raw.match(new RegExp("https://[^\"\\s]*\\.(png|webp|jpg)"));
   if (m !== null) {
     var url = Caml_array.get(m, 0);
@@ -693,6 +709,7 @@ function generateShot(e) {
             dst,
             url
           ], opts);
+      Kuku_Spend.record("EP10", e.id, "still", "nano_banana_pro", Kuku_Spend.priceOf("nano_banana_pro"), "hero frame", undefined);
       console.log("OK " + e.id);
     } else {
       console.log("FAIL " + e.id + " — no url in output");

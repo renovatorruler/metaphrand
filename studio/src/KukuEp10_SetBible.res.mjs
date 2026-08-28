@@ -127,11 +127,12 @@ function doPlate(s) {
         "--wait",
         "--json"
       ]);
-  Kuku_Spend.record("EP10", Kuku_Ep10Sets.setName(s) + "_plate", "plate", "nano_banana_pro", Kuku_Spend.priceOf("nano_banana_pro"), "set plate", undefined);
+  Kuku_Spend.guard("EP10", Kuku_Ep10Sets.setName(s) + "_plate", Kuku_Spend.priceOf("nano_banana_pro"));
   var raw = Child_process.execFileSync("higgsfield", args, opts);
   var url = firstUrl(raw, "(png|webp|jpg)");
   if (url !== undefined) {
-    return fetchTo(url, plateFile(s));
+    fetchTo(url, plateFile(s));
+    return Kuku_Spend.record("EP10", Kuku_Ep10Sets.setName(s) + "_plate", "plate", "nano_banana_pro", Kuku_Spend.priceOf("nano_banana_pro"), "set plate", undefined);
   } else {
     console.log("FAIL plate " + Kuku_Ep10Sets.setName(s) + " — " + raw.slice(0, 160));
     return ;

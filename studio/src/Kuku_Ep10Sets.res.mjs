@@ -67,7 +67,7 @@ var courtyardLandmarks = [
     x: 0.0,
     y: -18.0,
     z: 9.0,
-    note: "a COMPLETE CIRCLE of stone standing upright on its edge, built of layered paper arcs and UNBROKEN ALL THE WAY ROUND, its lowest point meeting the courtyard flagstones — FOURTEEN METRES across, wide enough for an enormous dragon to fly through with wings spread, a full closed circle. THE BRONZE BELL HANGS FROM THE INSIDE OF ITS CROWN on a short bronze hook, down into the ring's opening — the bell belongs to this ring alone. THE BELL IS SMALL: about ONE METRE tall, a hand-bell against this fourteen-metre ring, light enough for an eagle to lift away in her talons"
+    note: "a COMPLETE CIRCLE of stone standing upright on its edge, built of layered paper arcs and UNBROKEN ALL THE WAY ROUND, its lowest point meeting the courtyard flagstones — FOURTEEN METRES across, wide enough for an enormous dragon to fly through with wings spread, a full closed circle. A SHORT BRONZE HOOK is fixed to the inside of its crown, reaching down into the ring's opening"
   },
   {
     name: "LAUNCH CIRCLE",
@@ -396,6 +396,10 @@ var laneDrop = 9.0;
 
 var greatFormFraming = "FRAMING FOR AN ENORMOUS DRAGON: play this WIDE. The viewpoint stands far enough back that the whole width of the lane, both kerbs and a good band of sky sit in frame, with clear space above and behind the dragon, his whole body inside the picture with open air around it. When he shares the shot with the cart, the two sit SEPARATED across the frame — dragon to one side, cart to the other, each whole and distinct.";
 
+var bellOnRing = "THE BRONZE BELL hangs from the short hook inside the ring's crown, down into the opening — SMALL, about ONE METRE tall, a hand-bell against the fourteen-metre ring, light enough for an eagle to lift away in her talons";
+
+var hookBare = "THE HOOK INSIDE THE RING'S CROWN HANGS BARE — a short bronze hook over empty air, swinging gently, the space beneath it open sky. The ring carries only itself";
+
 export {
   laneLength ,
   laneWidth ,
@@ -416,6 +420,8 @@ export {
   lanePlateAt ,
   markerPositions ,
   greatFormFraming ,
+  bellOnRing ,
+  hookBare ,
   greatFormStaging ,
   lanePosition ,
 }

@@ -335,11 +335,46 @@ let propEntry = (t: propToken): propEntry =>
      the ramp it is the other way round. The chase has her ride away and come
      back, so the wall must change sides with her — getting that backwards is the
      scene-8 geography error waiting to happen again. */
+  /* APPROVED 2026-08-27 — the author's plates, cool-palette concept latest.
+
+     THE ROAD IS COOL AND THE ROOM IS WARM, DELIBERATELY. Author: "what if we
+     keep it color-wise feeling very different from the upstairs space... so you
+     immediately know from the quality of light and colors that you're in a
+     different space." It also buys palette headroom: EP1 goes further down still
+     (the dark hole at SP169), and a show that is amber everywhere has nothing
+     colder left to spend when it needs to frighten.
+
+     COOL AMBIENT, WARM KEY ON THE FACES. The space is steel blue; the characters
+     are lit warm. Let the key go cool and the faces go muddy, which kills the
+     comedy in a show made for small children.
+
+     WHAT THIS SUPERSEDES: the floor is PLANKS, not concrete. The open side is a
+     colonnade of posts carrying the joists, not bare darkness. The four chase
+     test clips are warm amber throughout and are BLOCKING REFERENCE ONLY — their
+     palette is retired.
+
+     THE TWO EARLIER PLATES ARE REVERSE ANGLES AND THEY AGREE. Facing away from
+     the ramp the block wall is on the RIGHT and the posts on the LEFT; facing
+     back toward the ramp it is the other way round. The chase has her ride away
+     and come back, so the wall changes sides with her. */
   | Road =>
     Backed({
       tag: "@ROAD",
-      tagLine: "@ROAD: the underfloor road — a plank road of wide dark boards running away into the dark beneath the giants' floor. Overhead is a grid of heavy wooden joists and beams, close above. Along ONE side is a wall of giant sandstone boulder-blocks, and banked at its foot is loose gravel and rubble; along the OTHER side stands a row of squat wooden posts on stone footings, carrying the joists, with darkness behind them. Oil lanterns stand on the boards at intervals, and a small iron grate is set low in the block wall beside a wooden crate. Warm lantern light, deep shadow everywhere else. 100% matches the reference.",
-      refPath: "SET-ROAD-01_author_road_run.png",
+      tagLine: "@ROAD: the underfloor road — a plank road of wide boards running away into the dark beneath the giants' floor. Overhead is a grid of heavy wooden joists, close above. Along ONE side is a wall of giant cut stone blocks with loose gravel banked at its foot and a small iron grate set low in it; along the OTHER side stands a row of squat wooden posts on stone footings, carrying the joists, with darkness behind them. Small coloured string lights hang on a wire along both sides, running far away down the road. The whole space is COOL — steel blue and grey stone, cold light, quite unlike the warm room above — and the only warm light in it falls on the characters themselves. 100% matches the reference.",
+      /* The CLEAN plate, no characters in it. A set reference carrying a
+         character invites the model to copy that character into shots she does
+         not belong in — the with-scooter concept is kept as a look guide only.
+
+         TWO MASTER ANGLES, matched pair, author 2026-08-27 — the ROUGH build:
+           SET-ROAD-01_author_MASTER_ramp_rough.png     — facing the ramp; wall LEFT, posts RIGHT
+           SET-ROAD-01_author_MASTER_reverse_rough.png  — facing away;    wall RIGHT, posts LEFT
+         The boards are hand-laid salvage: different lengths, butted joins, open
+         seams, split ends, nail heads. These supersede the neat clean pair, which
+         read as manufactured boardwalk. The domovoi built this road themselves.
+         Bound here is the ramp angle. Shots travelling AWAY from the ramp take
+         the reverse plate as their start frame instead. Getting this backwards
+         flips the road under the characters mid-chase. */
+      refPath: "SET-ROAD-01_author_MASTER_ramp_rough.png",
     })
   | Tank =>
     Described({

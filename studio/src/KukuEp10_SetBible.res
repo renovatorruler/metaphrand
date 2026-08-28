@@ -91,11 +91,14 @@ let doPlate = s => {
     ),
     ["--aspect_ratio", "16:9", "--resolution", "2k", "--wait", "--json"],
   )
-  Kuku_Spend.record(~episode="EP10", ~shot=S.setName(s) ++ "_plate", ~kind="plate",
-    ~model="nano_banana_pro", ~credits=Kuku_Spend.priceOf("nano_banana_pro"), ~note="set plate", ())
+  Kuku_Spend.guard(~episode="EP10", ~shot=S.setName(s) ++ "_plate", ~credits=Kuku_Spend.priceOf("nano_banana_pro"))
   let raw = execFileSync("higgsfield", args, opts)
   switch firstUrl(raw, "(png|webp|jpg)") {
-  | Some(url) => fetchTo(url, plateFile(s))
+  | Some(url) => {
+      fetchTo(url, plateFile(s))
+      Kuku_Spend.record(~episode="EP10", ~shot=S.setName(s) ++ "_plate", ~kind="plate",
+        ~model="nano_banana_pro", ~credits=Kuku_Spend.priceOf("nano_banana_pro"), ~note="set plate", ())
+    }
   | None => Js.log("FAIL plate " ++ S.setName(s) ++ " — " ++ Js.String2.slice(raw, ~from=0, ~to_=160))
   }
 }

@@ -54,7 +54,7 @@ let courtyardLandmarks = [
      घंटी लटक रही है»), steals it from there («उड़ान-घेरे से … खोल लेती है»), and pays
      it off there («खाली उड़ान-घेरे … केवल खुला हुक हिल रहा है»). It is one landmark,
      not two, so no shot can put the bell anywhere else. */
-  {name: "FLIGHT RING", x: 0.0, y: -18.0, z: laneDrop, note: "a COMPLETE CIRCLE of stone standing upright on its edge, built of layered paper arcs and UNBROKEN ALL THE WAY ROUND, its lowest point meeting the courtyard flagstones — FOURTEEN METRES across, wide enough for an enormous dragon to fly through with wings spread, a full closed circle. THE BRONZE BELL HANGS FROM THE INSIDE OF ITS CROWN on a short bronze hook, down into the ring's opening — the bell belongs to this ring alone. THE BELL IS SMALL: about ONE METRE tall, a hand-bell against this fourteen-metre ring, light enough for an eagle to lift away in her talons"},
+  {name: "FLIGHT RING", x: 0.0, y: -18.0, z: laneDrop, note: "a COMPLETE CIRCLE of stone standing upright on its edge, built of layered paper arcs and UNBROKEN ALL THE WAY ROUND, its lowest point meeting the courtyard flagstones — FOURTEEN METRES across, wide enough for an enormous dragon to fly through with wings spread, a full closed circle. A SHORT BRONZE HOOK is fixed to the inside of its crown, reaching down into the ring's opening"},
   /* Named "MARKED FLAGSTONE" once, and the model carved runes into it — the same
      way "CAMERA" drew a tripod. A landmark's NAME is prompt text: it must never
      name a property we do not want rendered. */
@@ -352,6 +352,13 @@ let markerPositions = [12.0, 24.0, 36.0]
    through the wall. That was the real cause of the wall-clipping, and it costs
    nothing to fix. */
 let greatFormFraming = "FRAMING FOR AN ENORMOUS DRAGON: play this WIDE. The viewpoint stands far enough back that the whole width of the lane, both kerbs and a good band of sky sit in frame, with clear space above and behind the dragon, his whole body inside the picture with open air around it. When he shares the shot with the cart, the two sit SEPARATED across the frame — dragon to one side, cart to the other, each whole and distinct."
+
+/* The bell is STORY STATE, never set data: it hangs on the ring's hook until
+   चील takes it, and after that the hook hangs bare. Fusing the bell into the
+   ring's landmark note (2026-08-27, briefly) put a bell into post-theft frames
+   the screenplay pays off as empty. mk() injects one of these by the clock. */
+let bellOnRing = "THE BRONZE BELL hangs from the short hook inside the ring's crown, down into the opening — SMALL, about ONE METRE tall, a hand-bell against the fourteen-metre ring, light enough for an eagle to lift away in her talons"
+let hookBare = "THE HOOK INSIDE THE RING'S CROWN HANGS BARE — a short bronze hook over empty air, swinging gently, the space beneath it open sky. The ring carries only itself"
 
 let greatFormStaging = "ORIENTATION IN THE LANE: this dragon is far longer than she is wide, and the lane is " ++ Belt.Float.toString(laneWidth) ++ " metres between its kerbs. She lies ALONG the lane: her long axis runs parallel to it, nose forward in the direction of travel, body and tail trailing back up the slope behind her, her whole length inside the lane. Her wings are swept back along her body or held HIGH above the kerb line. Every part of her — body, tail, wings and limbs — stays between the kerbs, in open air, clear of kerb and wall."
 

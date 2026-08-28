@@ -205,27 +205,27 @@ let all: array<clip> = [
     endFrame: "",
     secs: 5,
     spec: {
-      scene: "चील takes the bell: perched on the stone arch beside it, she works the bronze binding open, the bell drops free into her talons, and she lifts away with it.",
+      scene: "चील takes the bell: perched on the crown of the great stone flight ring, she works the bronze binding open, the bell drops free into her talons, and she lifts away with it.",
       cameraTravels: false,
       cast: [
-        P.Cheel({doing: "perched on the arch beside the hanging bell, working its binding loose, then lifting away with the bell in her talons"}),
-        P.Prop({what: "THE BELL", doing: "bronze, hanging from the crown of the arch on its cord, warm and gleaming"}),
+        P.Cheel({doing: "perched on the ring's crown above the hanging bell, working its binding loose, then lifting away with the bell in her talons"}),
+        P.Prop({what: "THE BELL", doing: "bronze, hanging from its short bronze hook inside the crown of the flight ring, warm and gleaming"}),
       ],
       blocking: [
-        "the start image IS this arch and this bell — the same stone, the same cord, the same sky and light",
-        "the stone arch holds perfectly still throughout, exactly as the start image has it",
+        "the start image IS this ring and this bell — the same stone, the same hook, the same sky and light",
+        "the great stone ring holds perfectly still throughout, exactly as the start image has it",
         "she is the only creature in frame",
       ],
       beats: [
-        "0.0-1.5s: she leans in and works the bronze binding at the crown of the arch with her beak and talons, the bell swinging a little as it loosens",
+        "0.0-1.5s: she leans down and works the bronze binding at the ring's crown with her beak and talons, the bell swinging a little as it loosens",
         "1.5-2.5s: the binding gives and the bell drops free, caught in her talons, swinging under her once",
-        "2.5-5.0s: her great wings open and beat down, and she lifts away from the arch with the bell held beneath her, rising out of the top of frame",
+        "2.5-5.0s: her great wings open and beat down, and she lifts away from the ring with the bell held beneath her, rising out of the top of frame",
       ],
-      camera: "one locked-off MEDIUM camera on the arch, held perfectly still for the whole clip, with sky above so she has room to rise into it",
+      camera: "one locked-off MEDIUM camera on the ring's crown, held perfectly still for the whole clip, with sky above so she has room to rise into it",
       physics: [
         "the bell hangs and swings from a single point like a real bell on a cord, and once caught it hangs from her talons the same way",
         "her wings move like stiff cut paper, and the downbeat is what lifts her — she rises only when they beat",
-        "the arch, its stones and the cord keep their shapes; only the bell and the eagle move",
+        "the ring, its stones and the hook keep their shapes; only the bell and the eagle move",
       ],
       lighting: "constant warm golden dusk exactly as the start image",
       audio: "",
@@ -283,6 +283,8 @@ let all: array<clip> = [
         "the start image IS this courtyard — the same flagstones, the same ring, the same bell, the same sky and light",
         "the RING holds perfectly still, exactly as the start image has it; it is fourteen metres across, and she passes through its opening with her wings spread",
         "THE BELL HANGS INSIDE THE RING and stays hanging on its hook from first frame to last — her claw meets it for one instant and travels on, and the bell swings in place behind her",
+        "SHE IS AIRBORNE FROM LAUNCH TO LANDING: her wings carry her the whole way, and the only contacts in the whole clip are her claw on the bell (one instant, in passing) and her feet on the marked circle at the first and last moments",
+        "ONE TOUCH ONLY: the claw meets the bell exactly once, mid-flight, on her way through",
       ],
       beats: [
         "0.0-1.2s: she crouches on the marked flagstone and launches toward the ring, paper dust curling from the stones beneath her",
@@ -298,6 +300,191 @@ let all: array<clip> = [
         "she passes cleanly through the empty middle of the opening, well clear of the stone",
       ],
       lighting: "constant warm golden dusk exactly as the start image — low sun, long soft shadows",
+      audio: "",
+      extraRules: [],
+    },
+  },
+  /* ---- story-beat motion clips: the six that carry the episode's turns.
+     Lane/flat geography comes from each start frame; the forging and the stop
+     are locked at BOTH ends so the destination image — not the model — owns
+     the final composition. The ग in b2's end frame is the locally composited
+     glyph, so the letter is animated toward, never invented. ---- */
+  {
+    talking: false,
+    cheap: false,
+    tag: "b1_breath_fail",
+    start: stills ++ "h24_kuku_breath_fail.png",
+    endFrame: "",
+    secs: 5,
+    spec: {
+      scene: "कुकु tries to forge and his breath fails: a thin stream of golden paper light leaves his mouth, wavers, scatters into shapeless drifting wisps and fades to a few falling paper flecks. The stone below stays bare.",
+      cameraTravels: false,
+      cast: [d(P.Kuku, "hovering in place, exhaling a thin golden breath that scatters and dies")],
+      blocking: [
+        "the start image IS this place — the same stone, kerbs and light",
+        "कुकु holds his position in the air through the whole clip, wings beating steadily",
+      ],
+      beats: [
+        "0.0-1.5s: he draws a breath and exhales a thin stream of golden paper light",
+        "1.5-3.5s: the stream wavers, breaks into curling wisps and scatters in the air",
+        "3.5-5.0s: the last flecks drift down and fade; his eyes go wide — startled, deflated",
+      ],
+      camera: "one locked static camera, holding one framing from first frame to last",
+      physics: [
+        "the golden light behaves like cut paper — flat curls and flecks, drifting with weight",
+        "the stone below stays bare from first frame to last",
+      ],
+      lighting: "constant light exactly as the start image, holding steady for the whole clip",
+      audio: "",
+      extraRules: [],
+    },
+  },
+  {
+    talking: false,
+    cheap: false,
+    tag: "b2_forging",
+    start: stills ++ "h28_forging.png",
+    endFrame: stills ++ "h29_ga_stands.png",
+    secs: 5,
+    spec: {
+      scene: "The forging: कुकु exhales a broad steady stream of golden paper light onto the flat stone, and the golden shape builds itself whole out of the light — finishing exactly as the end image shows, seated on the stone with a heavy settling weight.",
+      cameraTravels: false,
+      cast: [d(P.Kuku, "exhaling a broad golden stream onto the flat stone, steady and sure")],
+      blocking: [
+        "the start image IS this place and the END image is this same place a breath later — the shape grows from the first into the second",
+        "the golden shape that forms is EXACTLY the shape in the end image — the same form, proportion and position, built up from flowing golden light",
+        "कुकु keeps his position; only his breath and the growing shape move",
+      ],
+      beats: [
+        "0.0-1.5s: the golden stream pours onto the stone and pools into flowing light",
+        "1.5-4.0s: the light rises and takes form, edges firming from liquid gold to solid golden paper",
+        "4.0-5.0s: the finished shape settles onto the stone with visible weight — one heavy seat — and the light stills",
+      ],
+      camera: "one locked static camera, holding the exact framing shared by the start and end images",
+      physics: [
+        "the shape seats DOWN into place at the end — a heavy, final settling, dust puffing at its base",
+        "the stream flows in one direction, mouth to stone, for the whole clip",
+      ],
+      lighting: "constant deepening dusk exactly as the start image, the golden light of the forging the only new light",
+      audio: "",
+      extraRules: [],
+    },
+  },
+  {
+    talking: false,
+    cheap: false,
+    tag: "b3_three_beats",
+    start: stills ++ "h36_three_beats.png",
+    endFrame: "",
+    secs: 5,
+    spec: {
+      scene: "फ्यूरिया holds ahead of the slowing cart and beats her wings against its motion — three deep deliberate beats, each one slowing the cart further, paper dust rolling beneath each stroke.",
+      cameraTravels: true,
+      cast: [d(P.Fyuria, "flying backwards ahead of the cart, forepaws braced on its front wall, wings in deep deliberate beats"), cow("braced in the cart, steadying as it slows")],
+      blocking: [
+        "the start image IS this lane — the same flagstones, kerbs and light",
+        "फ्यूरिया stays ahead of the cart with her forepaws on its front wall the whole clip",
+        "the cart continues DOWN the lane, slowing the whole time",
+      ],
+      beats: [
+        "0.0-1.6s: FIRST deep wingbeat — dust rolls out from under her wings, the cart slows a little",
+        "1.6-3.2s: SECOND deep beat, stronger — hay shifts forward in the cart bed",
+        "3.2-5.0s: THIRD beat — the cart is visibly slower by the last frame, wheels turning gently",
+      ],
+      camera: "one single continuous tracking shot alongside, matching the cart's slowing speed, facing along the lane the whole clip",
+      physics: Js.Array2.concat(commonPhysics, [
+        "each wingbeat visibly costs her effort and visibly slows the cart — action and result linked",
+      ]),
+      lighting: "constant deepening golden dusk exactly as the start image, the light holding steady for the whole clip",
+      audio: "",
+      extraRules: commonRules,
+    },
+  },
+  {
+    talking: false,
+    cheap: false,
+    tag: "b4_curve_stop",
+    start: stills ++ "h37_cart_into_curve.png",
+    endFrame: stills ++ "h38_stopped.png",
+    secs: 5,
+    spec: {
+      scene: "The cart rolls its last stretch and comes to rest — exactly as the end image shows — wheels turning slower and slower until they stand still, गौरी steady in the bed, फ्यूरिया easing her hold as it stops.",
+      cameraTravels: false,
+      cast: [d(P.Fyuria, "ahead of the cart, forepaws on its front wall, easing it to rest"), cow("standing braced in the cart bed as it slows to a stop")],
+      blocking: [
+        "the start image IS this place and the END image is this same place moments later — the clip travels from one to the other",
+        "the cart moves only forward, slower every second, and is perfectly still by the last frame",
+      ],
+      beats: [
+        "0.0-2.0s: the cart rolls in, wheels turning slowly, फ्यूरिया braced against its front",
+        "2.0-4.0s: slower still — hay settles, गौरी's footing steadies",
+        "4.0-5.0s: the wheels stand still; dust settles; everything at rest exactly as the end image",
+      ],
+      camera: "one locked static camera, holding the exact framing shared by the start and end images",
+      physics: [
+        "wheels turn at a speed matching the ground passing beneath them, down to a full stop",
+        "the stop is gentle and final — the cart stays at rest once stopped",
+      ],
+      lighting: "constant dusk exactly as the start image, the light holding steady for the whole clip",
+      audio: "",
+      extraRules: ["गौरी stays in the cart bed the whole clip, upright and calm by the end"],
+    },
+  },
+  {
+    talking: false,
+    cheap: false,
+    tag: "b5_shrink",
+    start: stills ++ "h39_shrink_glow.png",
+    endFrame: stills ++ "h54_small_five_stand.png",
+    secs: 5,
+    spec: {
+      scene: "Five columns of soft golden paper light stand where the five dragons were; the light settles and sinks, and inside each column a small everyday dragon child appears — finishing exactly as the end image shows, five small dragons standing together on the flagstones.",
+      cameraTravels: false,
+      cast: [],
+      blocking: [
+        "the start image IS this place and the END image is this same place after the light settles — the clip travels from one to the other",
+        "each column of light shrinks DOWN in place, and the small dragon in the end image appears exactly where that column stood",
+      ],
+      beats: [
+        "0.0-2.0s: the five golden columns glow and slowly sink, paper-light motes drifting",
+        "2.0-4.0s: within each column a small silhouette resolves as the light thins",
+        "4.0-5.0s: the last light dissolves into drifting golden flecks — five small dragons stand exactly as the end image",
+      ],
+      camera: "one locked static camera, holding the exact framing shared by the start and end images",
+      physics: [
+        "the light behaves like cut paper — flat golden motes and curls, sinking with weight",
+      ],
+      lighting: "constant dusk exactly as the start image, the golden columns the only extra light, fading as they settle",
+      audio: "",
+      extraRules: [],
+    },
+  },
+  {
+    talking: false,
+    cheap: false,
+    tag: "b6_tower_door",
+    start: stills ++ "h44_tower_door.png",
+    endFrame: "",
+    secs: 5,
+    spec: {
+      scene: "चील stands before the tall closed stone door with the stolen bronze bell. She lifts the bell in one talon, studies the door — and raises her other claw to ring it. The clip ends on that raised claw, the ring itself left for the next episode.",
+      cameraTravels: false,
+      cast: [P.Cheel({doing: "before the closed door, lifting the bell, raising a claw to strike it"})],
+      blocking: [
+        "the start image IS this place — the same door, stone and light",
+        "the door stays CLOSED from first frame to last",
+        "the bell stays in her talon the whole clip",
+      ],
+      beats: [
+        "0.0-2.0s: she lifts the bronze bell level with her eyes and tilts her head at the door",
+        "2.0-4.0s: she looks from the bell to the door, slow and deliberate",
+        "4.0-5.0s: she raises her free claw beside the bell, poised to strike — and holds there on the last frame",
+      ],
+      camera: "one locked static camera, holding one framing from first frame to last",
+      physics: [
+        "the bell swings slightly from her movements, hanging from its one point in her talon",
+      ],
+      lighting: "constant cool fading dusk exactly as the start image, blue-grey on the stone, holding steady",
       audio: "",
       extraRules: [],
     },
@@ -414,17 +601,18 @@ let run = c => {
     Js.log("skip (exists) " ++ c.tag)
   } else {
     let model = c.cheap ? "seedance_2_0_mini" : "seedance_2_0"
-    Kuku_Spend.record(
-      ~episode="EP10", ~shot=c.tag, ~kind="clip", ~model,
-      ~credits=Kuku_Spend.priceOf(model) *. Belt.Int.toFloat(c.secs) /. 5.0,
-      ~note=Belt.Int.toString(c.secs) ++ "s", (),
-    )
+    let price = Kuku_Spend.priceOf(model) *. Belt.Int.toFloat(c.secs) /. 5.0
+    Kuku_Spend.guard(~episode="EP10", ~shot=c.tag, ~credits=price)
     let raw = execFileSync("higgsfield", argsFor(c), opts)
     switch Js.String2.match_(raw, Js.Re.fromString("https://[^\"\\s]*\\.(mp4|webm|mov)")) {
     | Some(m) =>
       switch m[0] {
       | Some(url) => {
           let _ = execFileSync("curl", ["-sL", "--retry", "3", "--create-dirs", "-o", dst, url], opts)
+          Kuku_Spend.record(
+            ~episode="EP10", ~shot=c.tag, ~kind="clip", ~model,
+            ~credits=price, ~note=Belt.Int.toString(c.secs) ++ "s", (),
+          )
           Js.log("OK " ++ c.tag)
         }
       | None => Js.log("FAIL " ++ c.tag ++ " — no url")

@@ -156,6 +156,26 @@ let mk = (
     }
   | None => extraRules
   }
+  /* THE BELL IS STORY STATE: any shot that shows the flight ring gets the
+     clock's bell clause — hanging before the theft, a bare hook after — unless
+     the shot's own rules already speak about the bell (the theft moment does).
+     A post-theft courtyard shot also swaps to the bare-hook plate so the
+     reference picture stops re-arguing for the bell. */
+  let mentionsBell = r => Js.String2.includes(r, "BELL") || Js.String2.includes(r, "bell") || Js.String2.includes(r, "घंटी")
+  let ringInShot = Js.String2.includes(setting, "FLIGHT RING")
+  let shotSpeaksForBell = Js.Array2.some(extraRules, mentionsBell) || mentionsBell(scene)
+  let bellGone = S.bellWithCheel(beat)
+  let extraRules = if ringInShot && !shotSpeaksForBell {
+    let _ = Js.Array2.push(derived, bellGone ? "bell state: GONE — bare hook injected (story clock)" : "bell state: hanging (story clock)")
+    Js.Array2.concat([bellGone ? Sets.hookBare : Sets.bellOnRing], extraRules)
+  } else {
+    extraRules
+  }
+  let plate = switch plate {
+  | Some(p) if ringInShot && bellGone && !shotSpeaksForBell && p == courtyardPlate =>
+    Some(Sets.plateDir ++ "courtyard_barehook_plate.png")
+  | other => other
+  }
   switch plate {
   | Some(p) => Js.Array2.push(derived, "SET PLATE attached: " ++ p)->ignore
   | None => ()
@@ -835,6 +855,24 @@ let shots: array<entry> = [
     ~plate=courtyardPlate,
     (),
   ),
+  /* end frame for the shrink clip: the five small forms standing exactly where
+     the five columns stood, so b5 can be locked at both ends and the small
+     designs come from the character sheets, never from mid-clip invention. */
+  mk(
+    ~id="h54_small_five_stand",
+    ~beat=AfterStop,
+    ~scene="The light has settled: five small everyday dragon children stand together on the courtyard flagstones where the five columns of light stood, wings folded, close and quiet.",
+    ~shot=P.Wide,
+    ~dragons=allFiveRow("wings folded, quiet, the light just gone"),
+    ~setting=Sets.setProseFor(Sets.Courtyard, ["FLIGHT RING"]),
+    ~plate=courtyardPlate,
+    ~extraRules=[
+      "FRAME EXACTLY AS THE REFERENCE PLATE: same vantage, same courtyard, the ring behind them",
+      "the five stand spaced apart in a loose row on the open flagstones, each fully visible",
+    ],
+    ~added=["end frame for the shrink clip — locks the five small designs from the sheets"],
+    (),
+  ),
   mk(
     ~id="h40_small_five_sit",
     ~beat=AfterStop,
@@ -963,16 +1001,17 @@ let generateShot = (e: entry) => {
     ),
     ["--aspect_ratio", "16:9", "--resolution", "2k", "--wait", "--json"],
   )
+  Kuku_Spend.guard(~episode="EP10", ~shot=e.id, ~credits=Kuku_Spend.priceOf("nano_banana_pro"))
   let raw = execFileSync("higgsfield", args, opts)
-  Kuku_Spend.record(
-    ~episode="EP10", ~shot=e.id, ~kind="still", ~model="nano_banana_pro",
-    ~credits=Kuku_Spend.priceOf("nano_banana_pro"), ~note="hero frame", (),
-  )
   switch Js.String2.match_(raw, Js.Re.fromString("https://[^\"\\s]*\\.(png|webp|jpg)")) {
   | Some(m) =>
     switch m[0] {
     | Some(url) => {
         let _ = execFileSync("curl", ["-sL", "--retry", "3", "-o", dst, url], opts)
+        Kuku_Spend.record(
+          ~episode="EP10", ~shot=e.id, ~kind="still", ~model="nano_banana_pro",
+          ~credits=Kuku_Spend.priceOf("nano_banana_pro"), ~note="hero frame", (),
+        )
         Js.log("OK " ++ e.id)
       }
     | None => Js.log("FAIL " ++ e.id ++ " — no url in output")

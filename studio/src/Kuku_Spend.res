@@ -74,10 +74,30 @@ let phaseOf = episode => {
       }
 }
 
-/* Called at the moment of spend. `credits` is what the provider quoted for
-   these exact parameters, so the ledger records intent as well as fact.
-   When a budget phase is open, a spend that would cross the cap is REFUSED
-   here — before the provider call — and the driver dies loudly. */
+/* guard BEFORE the provider call: refuses a spend that would cross the open
+   phase's cap. record AFTER the result arrives: books only real spend, so a
+   failed request costs the ledger zero. The two were one function until a
+   string of provider failures booked credits that were never charged. */
+let guard = (~episode, ~shot, ~credits: float) =>
+  switch phaseOf(episode) {
+  | Some((cap, spent)) if spent +. credits > cap =>
+    Js.Exn.raiseError(
+      "BUDGET REFUSAL: " ++
+      episode ++
+      " build phase is at " ++
+      Js.Float.toString(spent) ++
+      "/" ++
+      Js.Float.toString(cap) ++
+      " credits; " ++
+      shot ++
+      " (" ++
+      Js.Float.toString(credits) ++
+      "cr) would cross the cap. The author raises it with: node src/Kuku_Spend.res.mjs budget " ++
+      episode ++ " <new-cap>",
+    )
+  | _ => ()
+  }
+
 let record = (~episode, ~shot, ~kind, ~model, ~credits: float, ~note="", ()) => {
   switch kind == "budget" ? None : phaseOf(episode) {
   | Some((cap, spent)) if spent +. credits > cap =>
