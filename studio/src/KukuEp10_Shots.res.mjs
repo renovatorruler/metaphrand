@@ -29,7 +29,7 @@ function redRope(doing) {
 function marker(doing) {
   return {
           TAG: "Prop",
-          what: "A RED DISTANCE MARK — a flat red paper paving stone set FLUSH into the lane, level with the surrounding flagstones, its face smooth with the road so wheels roll straight over it",
+          what: "A RED DISTANCE MARK — a broad red band painted flat across the lane's paving, colour on the road surface itself, smooth under any wheel",
           doing: doing
         };
 }
@@ -119,8 +119,6 @@ function lanePlate(y) {
 }
 
 var courtyardPlate = Kuku_Ep10Sets.masterPlate("Courtyard");
-
-var gaRef = [Kuku_Ep10Sets.plateDir.replace("sets/", "stills/") + "h29_ga_stands.png"];
 
 function mk(id, beat, scene, shot, dragonsOpt, othersOpt, gauri, cart, ga, propsOpt, setting, at, cartAt, plate, objectsOpt, lightingOverride, extraRulesOpt, addedOpt, param) {
   var dragons = dragonsOpt !== undefined ? dragonsOpt : [];
@@ -228,7 +226,7 @@ function mk(id, beat, scene, shot, dragonsOpt, othersOpt, gauri, cart, ga, props
   var shotSpeaksForBell = extraRules$2.some(mentionsBell) || mentionsBell(scene);
   var bellGone = Kuku_Ep10State.bellWithCheel(beat);
   var extraRules$3 = ringInShot && !shotSpeaksForBell ? (derived.push(bellGone ? "bell state: GONE — bare hook injected (story clock)" : "bell state: hanging (story clock)"), [bellGone ? Kuku_Ep10Sets.hookBare : Kuku_Ep10Sets.bellOnRing].concat(extraRules$2)) : extraRules$2;
-  var plate$2 = plate$1 !== undefined && ringInShot && bellGone && !shotSpeaksForBell && plate$1 === courtyardPlate ? Kuku_Ep10Sets.plateDir + "courtyard_barehook_plate.png" : plate$1;
+  var plate$2 = plate$1 !== undefined && ringInShot && !bellGone && !shotSpeaksForBell && plate$1 === courtyardPlate ? Kuku_Ep10Sets.plateDir + "courtyard_bell_plate.png" : plate$1;
   if (plate$2 !== undefined) {
     derived.push("SET PLATE attached: " + plate$2);
   }
@@ -367,7 +365,7 @@ var shots = [
       ], ["time-of-day (the prose said only \"fibres catching light\")"], undefined),
   mk("h13_bell_taken", "RopeSlips", "चील takes the bell.", "Medium", undefined, [{
           TAG: "Cheel",
-          doing: "perched on the crown of the great stone flight ring, leaning down with her beak and one talon to the bell's bronze binding, wings half-raised and ready — the bell still hangs whole beneath her"
+          doing: "PERCHED on the crown of the great stone flight ring, her feet gripping the stone, wings FOLDED CLOSED along her back — she leans her head down toward the bell's bronze binding below her, and the bell still hangs whole"
         }], undefined, undefined, undefined, [{
           TAG: "Prop",
           what: "THE BELL — the bronze paper bell of the flight ring, fastened by its bronze binding to the short hook at the ring's crown",
@@ -475,13 +473,13 @@ var shots = [
       ], undefined, undefined, lane, 28.0, 19.0, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h23_marker_pass", "Braking", "The second marker flashes past.", "Close", undefined, undefined, undefined, undefined, undefined, [{
           TAG: "Prop",
-          what: "A RED DISTANCE MARK — a flat red paper paving stone set FLUSH into the lane, level with the surrounding flagstones, its face smooth with the road so wheels roll straight over it",
+          what: "A RED DISTANCE MARK — a broad red band painted flat across the lane's paving, colour on the road surface itself, smooth under any wheel",
           doing: "set into the flagstone lane as wooden paper wheels rush past it, dust lifting"
         }], lane, 24.0, 24.0, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h24_kuku_breath_fail", "Braking", "कुकु's breath scatters into shapeless golden wisps, and the flat stone stays bare.", "Medium", [[
           "Kuku",
           "exhales a thin golden paper-cut breath that scatters and dies in the air, his expression startled"
-        ]], undefined, undefined, undefined, undefined, undefined, lane, 30.0, 26.0, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+        ]], undefined, undefined, undefined, undefined, undefined, lane, 30.0, 26.0, undefined, undefined, undefined, ["his golden कड़ा sits on ONE forearm only, the other forearm bare"], ["lighting (none in the prose)"], undefined),
   mk("h47_leda_warns", "Braking", "लेडा's warning.", "Close", [[
           "Leda",
           "head and shoulders, wings raised behind her, expression sharp with warning, calling out"
@@ -547,9 +545,9 @@ var shots = [
         ]], undefined, undefined, undefined, undefined, undefined, lane, 39.0, 35.0, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h35_last_marker", "TheStop", "The third marker — the flat and the shape ahead.", "Close", undefined, undefined, undefined, undefined, "visible ahead on the flat stretch", [{
           TAG: "Prop",
-          what: "A RED DISTANCE MARK — a flat red paper paving stone set FLUSH into the lane, level with the surrounding flagstones, its face smooth with the road so wheels roll straight over it",
+          what: "A RED DISTANCE MARK — a broad red band painted flat across the lane's paving, colour on the road surface itself, smooth under any wheel",
           doing: "the THIRD red marker, under rushing wooden paper wheels"
-        }], lane, 36.0, 36.0, undefined, gaRef, undefined, undefined, ["lighting (none in the prose)"], undefined),
+        }], lane, 36.0, 36.0, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h36_three_beats", "TheStop", "फ्यूरिया's three deliberate beats.", "Wide", [[
           "Fyuria",
           "holds ahead of the slowing cart, wings in one deep deliberate beat, paper dust rolling"
@@ -560,11 +558,11 @@ var shots = [
   mk("h37_cart_into_curve", "TheStop", "The cart rides into the golden curve.", "Wide", undefined, undefined, "steady inside the cart", [
         true,
         "its nose riding up into the open curve of the golden shape, wheels almost stopped"
-      ], "cradling the cart's nose", undefined, flatStone, 55.0, 54.0, Kuku_Ep10Sets.masterPlate("FlatStone"), gaRef, undefined, undefined, ["lighting (none in the prose)"], undefined),
+      ], "cradling the cart's nose", undefined, flatStone, 55.0, 54.0, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h38_stopped", "TheStop", "Stopped. Safe.", "Wide", undefined, undefined, "calm in the cart", [
         true,
         "at rest, cradled in the curve of the golden shape, dust settling"
-      ], "holding the cart", undefined, flatStone, 55.0, 55.0, Kuku_Ep10Sets.masterPlate("FlatStone"), gaRef, undefined, undefined, undefined, undefined),
+      ], "holding the cart", undefined, flatStone, 55.0, 55.0, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, undefined, undefined),
   mk("h49_leda_relief", "TheStop", "लेडा lets go — relief.", "Medium", [[
           "Leda",
           "stands on the flagstones with wings folded and shoulders dropped in relief, a tired warm smile"
@@ -852,7 +850,6 @@ export {
   tower ,
   lanePlate ,
   courtyardPlate ,
-  gaRef ,
   mk ,
   allFiveRow ,
   shots ,

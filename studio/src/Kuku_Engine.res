@@ -314,6 +314,10 @@ let clip = (~episode="EP10", ~id, ~spec: P.videoSpec, ~model, ~secs, ~start, ~en
 let edit = (~episode="EP10", ~id, ~spec: P.editSpec, ~src, ~dst, ()) => {
   let prompt = P.editPrompt(spec)
   ignore(requireFile("source image", src))
+  if !receiptIntact(src) {
+    refuse("STALE", "edit source " ++ src,
+      "an edit inherits its source's authority — regenerate the source through the engine first")
+  }
   let args = [
     "generate", "create", "nano_banana_pro", "--prompt", prompt, "--image", src,
     "--aspect_ratio", "16:9", "--resolution", "2k", "--wait", "--json",
@@ -339,3 +343,22 @@ let plate = (~episode="EP10", ~id, ~prompt, ~refs: array<string>, ~dst, ~aspect=
   run(~episode, ~id, ~kind="plate", ~model="nano_banana_pro",
     ~credits=Kuku_Spend.priceOf("nano_banana_pro"), ~prompt=gated, ~refs, ~args, ~dst, ~ext="(png|webp|jpg)")
 }
+
+/* A LOCAL DETERMINISTIC TRANSFORM (the ga composite) may change an asset's
+   pixels lawfully. It calls stamp() to update the recorded asset hash and
+   append what it did, keeping the receipt intact without a provider call. */
+let stamp = (~asset, ~note) =>
+  if existsSync(receiptPath(asset)) {
+    switch Js.Json.decodeObject(Js.Json.parseExn(readFileSync(receiptPath(asset), "utf8"))) {
+    | Some(o) => {
+        Js.Dict.set(o, "assetSha256", Js.Json.string(sha256File(asset)))
+        let prior = switch o->Js.Dict.get("localTransforms")->Belt.Option.flatMap(Js.Json.decodeArray) {
+        | Some(a) => a
+        | None => []
+        }
+        Js.Dict.set(o, "localTransforms", Js.Json.array(Js.Array2.concat(prior, [Js.Json.string(note)])))
+        writeFileSync(receiptPath(asset), Js.Json.stringifyWithSpace(Js.Json.object_(o), 1) ++ "\n")
+      }
+    | None => ()
+    }
+  }

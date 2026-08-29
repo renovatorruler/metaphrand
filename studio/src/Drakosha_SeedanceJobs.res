@@ -570,6 +570,58 @@ let all: array<jobSpec> = [
 
      PLATE IS V08'S LAST FRAME — both babies already clamped on, so the shot
      opens mid-crisis with nothing to establish. */
+  /* SCENE 9, SHOT 3 — the deal. SP129, and the line the whole series runs on:
+     he learns the three letters, she writes the car.
+
+     PLATE IS 1C'S LAST FRAME. Author, 2026-08-28: "we could use one of her
+     close-ups or a last frame of the last video we took of her." The last frame
+     wins because she is already upset, already close, and her hand is still up
+     from counting — so the deal grows out of the beat before it instead of
+     resetting. Her existing close-ups all have her in the wrong state: grinning,
+     or staring in disbelief from scene 8.
+
+     ONE FINGER, NOT THREE. The counting hand folds down to a single finger as
+     she turns. Author, 2026-08-28: "make sure she's not jabbing three fingers
+     against him. She's pointing with one finger towards him." The script agrees
+     — «с жаром тыча в него пальцем», singular — and it is the gesture converting
+     from counting to accusing that makes the turn read.
+
+     THE PENCIL STAYS BEHIND HER EAR. She put it there in 1C and does not take it
+     down; this is also where EP2 needs the audience to know she keeps it. */
+  job(
+    "s9deal",
+    "SH140",
+    [Frosya],
+    [Pencil],
+    Some("2026-08-28_S9_deal_start_from1C.png"),
+    9,
+    Mini,
+  ),
+  /* SCENE 9, SHOT 2 — Вася's «И что теперь?». SP128.
+
+     THE PLATE IS THE CLOSE-UP WITH NO HANDS IN IT. Author, 2026-08-28: "we're
+     gonna use the close-up where you cannot see his hands." That matters twice —
+     he is subdued in it, which is where scene 8 left him, and with his hands out
+     of frame nothing has to match what he was holding a moment earlier.
+
+     HE IS NOT NEUTRAL AT THE START. He has been flat since the babies were
+     peeled off him and Мама called him out. This is the first time in the scene
+     that anyone has needed anything from him, and his question is what pulls
+     Фрося out of her own head — she says the missing letters to herself, and he
+     is the one who answers it.
+
+     COPIED FROM s8fu, the other close single on him that landed first take: same
+     block order, same length, same locked-off camera. What differs is the line,
+     and that he begins deflated rather than surprised. */
+  job(
+    "s9vasyaask",
+    "SH139",
+    [Vasya],
+    [],
+    Some("2026-08-28_S9_VASYA_cu_subdued.png"),
+    5,
+    Mini,
+  ),
   /* SCENE 9, SHOT 1B — МАШИНА and the failure. SP125-130.
 
      THE FAILURE IS A SPARK THAT DIES, NOT LETTERS THAT DIE. Author, 2026-08-28:

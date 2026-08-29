@@ -76,7 +76,7 @@ let nameOf = n =>
 let colorOf = n =>
   switch n {
   | Kuku => "green"
-  | Fyuria => "orange-red"
+  | Fyuria => "bright pink-red"
   | Leda => "lilac-purple"
   | Castor => "golden-yellow"
   | Vesper => "pale blue"
@@ -98,14 +98,21 @@ let shotName = s =>
   }
 
 /* the fixed laws */
-let styleKey = "0c47270d-70f7-4dd0-887f-c06c88ef5fd9"
+/* THE STYLE KEY IS CONTENT, NOT JUST TEXTURE — audit what it depicts. The old
+   key (0c47270d…) was a paper THEATRE: a dimensional red proscenium, golden
+   scroll crests and a smiling sun. For two days those leaked into the world as
+   raised red marker blocks, golden shields on end walls and a grinning sun —
+   surviving every text fix, because the first attached reference out-argues
+   any prompt. The key is now a landmark-free crop of our OWN receipted lane
+   plate: the world defines its own style, and has nothing foreign to leak. */
+let styleKey = "a34b16f4-11fa-4153-9c43-ed2e2a30d033"
 let styleLaw = "3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world"
 let paletteLaw = "bright, vibrant, warm storybook palette, every colour full and saturated"
 /* The world stated as facts. A fact names what exists; the model renders what
    is named. The old negative list ("no humans, no text") is exactly the form
    the PromptGate now refuses — each entry became the fact that replaces it. */
 let worldFacts = [
-  "this world is inhabited by paper dragons, paper birds and paper animals only",
+  "the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals",
   "every surface — stone, wood, cloth, banner and sky — is plain blank paper",
 ]
 
@@ -124,7 +131,7 @@ let subjectText = s =>
       : "small everyday form: a small paper dragon child, the height of a human child") ++
     ", wearing a golden कड़ा on one forearm. " ++ doing
   | Gauri({doing}) =>
-    "- GAURI — gentle brown-and-white paper cow, dark paper eyes, a plain rope halter. " ++ doing
+    "- GAURI — gentle brown-and-white paper cow, dark paper eyes; a plain rope halter is the ONLY thing she wears, her neck and legs otherwise bare. " ++ doing
   | RishiMuni({doing}) =>
     "- RISHI — the elder paper dragon guru from the attached character sheet: white-maned and white-bearded, pale horns, an ochre robe, a wooden staff. " ++ doing
   | Dadi({doing}) =>
@@ -286,15 +293,15 @@ let boardOf = s =>
       switch name {
       | Kuku => Some(kukuRoot ++ "charsheets/kuku.png")
       | Fyuria => Some(kukuRoot ++ "charsheets/furia.png")
-      | Leda => Some(kukuRoot ++ "charsheets/leda.png")
+      | Leda => Some(kukuRoot ++ "charsheets/leda_small.png")
       | Castor => Some(kukuRoot ++ "charsheets/castor.png")
-      | Vesper => None
+      | Vesper => Some(kukuRoot ++ "charsheets/vesper_small.png")
       }
     }
   | RishiMuni(_) => Some(kukuRoot ++ "charsheets/rishi.png")
   | Cheel(_) => Some(kukuRoot ++ "charsheets/cheel.png")
   | Dadi(_) => Some(kukuRoot ++ "charsheets/dadi.png")
-  | Gauri(_) => None
+  | Gauri(_) => Some(kukuRoot ++ "charsheets/gauri.png")
   | Prop(_) => None
   }
 

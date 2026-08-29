@@ -12,6 +12,9 @@
      rescript && node src/Drakosha_FrosyaAlphabet.res.mjs glow-lab-a
      rescript && node src/Drakosha_FrosyaAlphabet.res.mjs lineup-a
      rescript && node src/Drakosha_FrosyaAlphabet.res.mjs verify
+     rescript && node src/Drakosha_FrosyaAlphabet.res.mjs build-full
+     rescript && node src/Drakosha_FrosyaAlphabet.res.mjs verify-full
+     rescript && node src/Drakosha_FrosyaAlphabet.res.mjs review-full
 */
 
 open Cinema_Backends
@@ -24,7 +27,17 @@ let canvas = 2048
 let safety = 307 // 15% of 2048, rounded up
 let canonicalMagicArchive = root ++ "/exports/frosya_ep1_alphabet_v1.zip"
 
-let letters = ["А", "О", "М", "С", "К", "Т", "Л", "Б"]
+let episode1Letters = ["А", "О", "М", "С", "К", "Т", "Л", "Б"]
+
+let letters = [
+  "А", "Б", "В", "Г", "Д", "Е", "Ё", "Ж", "З", "И", "Й",
+  "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", "У", "Ф",
+  "Х", "Ц", "Ч", "Ш", "Щ", "Ъ", "Ы", "Ь", "Э", "Ю", "Я",
+]
+
+let remainingLetters = letters->Belt.Array.keep(letter =>
+  !(episode1Letters->Belt.Array.some(approved => approved == letter))
+)
 
 let canonicalMagicHashes = [
   ("А", "a26add0aaf9841f538c7df5359c229d1f59d876bc7c1931334894b853514108a"),
@@ -197,6 +210,17 @@ let sparklePoints = [
   {x: 700, y: 1450, size: 0},
 ]
 
+let seedFor = (letter: string, base: int, step: int): string => {
+  let index = switch Belt.Array.getIndexBy(letters, item => item == letter) {
+  | Some(value) => value
+  | None => 0
+  }
+  Belt.Int.toString(base + index * step)
+}
+
+/* The accepted eight retain their historical seeds byte-for-byte. New letters
+   receive stable per-letter seeds from canonical alphabet order so the dust
+   field never repeats across the expanded set. */
 let particleSeed = (letter: string): string =>
   switch letter {
   | "А" => "101"
@@ -207,7 +231,7 @@ let particleSeed = (letter: string): string =>
   | "Т" => "601"
   | "Л" => "701"
   | "Б" => "809"
-  | _ => "123"
+  | _ => seedFor(letter, 1103, 101)
   }
 
 let coarseParticleSeed = (letter: string): string =>
@@ -220,7 +244,7 @@ let coarseParticleSeed = (letter: string): string =>
   | "Т" => "691"
   | "Л" => "787"
   | "Б" => "887"
-  | _ => "499"
+  | _ => seedFor(letter, 4507, 103)
   }
 
 let hotParticleSeed = (letter: string): string =>
@@ -233,7 +257,7 @@ let hotParticleSeed = (letter: string): string =>
   | "Т" => "811"
   | "Л" => "919"
   | "Б" => "1013"
-  | _ => "601"
+  | _ => seedFor(letter, 7919, 107)
   }
 
 let flareParticleSeed = (letter: string): string =>
@@ -246,7 +270,7 @@ let flareParticleSeed = (letter: string): string =>
   | "Т" => "1229"
   | "Л" => "1327"
   | "Б" => "1429"
-  | _ => "733"
+  | _ => seedFor(letter, 11443, 109)
   }
 
 let cloudSeed = (letter: string): string =>
@@ -259,7 +283,7 @@ let cloudSeed = (letter: string): string =>
   | "Т" => "2053"
   | "Л" => "2153"
   | "Б" => "2267"
-  | _ => "1571"
+  | _ => seedFor(letter, 15131, 113)
   }
 
 let coreModulationSeed = (letter: string): string =>
@@ -272,12 +296,13 @@ let coreModulationSeed = (letter: string): string =>
   | "Т" => "2897"
   | "Л" => "3001"
   | "Б" => "3109"
-  | _ => "2381"
+  | _ => seedFor(letter, 18839, 127)
   }
 
 let particleFilter = (state: glowState, letter: string): string => {
   if state.particles == "0" {
-    `[mregion]nullsink;[letter]null[out]`
+    `[mregion]nullsink;[letter]crop=1434:1434:307:307,` ++
+    `pad=2048:2048:307:307:color=black@0,format=rgba[out]`
   } else {
     let (dx, dy) = particleShift(letter)
     let sparkles = sparklePoints
@@ -296,7 +321,9 @@ let particleFilter = (state: glowState, letter: string): string => {
     `color=c=black:s=2048x2048:d=1,format=rgba,colorchannelmixer=aa=0,` ++
     sparkles ++ `[sparkles];` ++
     `[letter][fineParticles]overlay=format=auto[withFineParticles];` ++
-    `[withFineParticles][sparkles]overlay=format=auto,format=rgba[out]`
+    `[withFineParticles][sparkles]overlay=format=auto,format=rgba[raw];` ++
+    `[raw]crop=1434:1434:307:307,` ++
+    `pad=2048:2048:307:307:color=black@0,format=rgba[out]`
   }
 }
 
@@ -521,6 +548,93 @@ let finalMagicFilter = (letter: string): string =>
   `[magicRaw]crop=1434:1434:307:307,` ++
   `pad=2048:2048:307:307:color=black@0,format=rgba[out]`
 
+type masterCell = {
+  letter: string,
+  centerX: int,
+  baselineY: int,
+}
+
+/* Coordinates are measured once from the locked 1672 x 941 master sheet.
+   Every cell is sampled at the same size and scale. The row baseline maps to
+   y=1430; width remains natural, and no per-letter stretching is allowed. */
+let masterCells = [
+  {letter: "А", centerX: 314, baselineY: 145},
+  {letter: "Б", centerX: 521, baselineY: 145},
+  {letter: "В", centerX: 730, baselineY: 145},
+  {letter: "Г", centerX: 933, baselineY: 145},
+  {letter: "Д", centerX: 1144, baselineY: 145},
+  {letter: "Е", centerX: 1350, baselineY: 145},
+  {letter: "Ё", centerX: 314, baselineY: 299},
+  {letter: "Ж", centerX: 521, baselineY: 299},
+  {letter: "З", centerX: 730, baselineY: 299},
+  {letter: "И", centerX: 933, baselineY: 299},
+  {letter: "Й", centerX: 1144, baselineY: 299},
+  {letter: "К", centerX: 1350, baselineY: 299},
+  {letter: "Л", centerX: 314, baselineY: 454},
+  {letter: "М", centerX: 521, baselineY: 454},
+  {letter: "Н", centerX: 730, baselineY: 454},
+  {letter: "О", centerX: 933, baselineY: 454},
+  {letter: "П", centerX: 1144, baselineY: 454},
+  {letter: "Р", centerX: 1350, baselineY: 454},
+  {letter: "С", centerX: 314, baselineY: 607},
+  {letter: "Т", centerX: 521, baselineY: 607},
+  {letter: "У", centerX: 730, baselineY: 607},
+  {letter: "Ф", centerX: 933, baselineY: 607},
+  {letter: "Х", centerX: 1144, baselineY: 607},
+  {letter: "Ц", centerX: 1350, baselineY: 607},
+  {letter: "Ч", centerX: 314, baselineY: 756},
+  {letter: "Ш", centerX: 521, baselineY: 756},
+  {letter: "Щ", centerX: 730, baselineY: 756},
+  {letter: "Ъ", centerX: 933, baselineY: 756},
+  {letter: "Ы", centerX: 1144, baselineY: 756},
+  {letter: "Ь", centerX: 1350, baselineY: 756},
+  {letter: "Э", centerX: 627, baselineY: 910},
+  {letter: "Ю", centerX: 835, baselineY: 910},
+  {letter: "Я", centerX: 1044, baselineY: 910},
+]
+
+let graphiteExtractionFilter = (cell: masterCell): string => {
+  let cropX = Belt.Int.toString(cell.centerX - 95)
+  let cropY = Belt.Int.toString(cell.baselineY - 135)
+  `[0:v]crop=190:150:${cropX}:${cropY},format=gray,split[ink][background];` ++
+  `[background]gblur=sigma=16[localPaper];` ++
+  `[localPaper][ink]blend=all_expr='clip(A-B,0,255)',` ++
+  `lut=y='if(gt(val,18),clip((val-18)*2.35,0,255),0)',` ++
+  `scale=1368:1080:flags=lanczos,gblur=sigma=0.18,` ++
+  `lut=y='clip(val*1.12,0,255)'[alpha];` ++
+  `color=c=0x424242:s=1368x1080:d=1,format=rgb24[graphite];` ++
+  `[graphite][alpha]alphamerge,` ++
+  `pad=2048:2048:340:458:color=black@0,format=rgba[out]`
+}
+
+let extractGraphite = (cell: masterCell): unit => {
+  ensureDirPath(path("assets/graphite"))
+  runOrFail(
+    ~cmd="ffmpeg",
+    ~args=[
+      "-y",
+      "-i",
+      root ++ "/masters/full_alphabet_reference_v1.png",
+      "-filter_complex",
+      graphiteExtractionFilter(cell),
+      "-map",
+      "[out]",
+      "-frames:v",
+      "1",
+      root ++ "/assets/graphite/" ++ cell.letter ++ ".png",
+    ],
+    ~label="graphite extraction/" ++ cell.letter,
+  )
+}
+
+let extractRemainingGraphite = (): unit => {
+  masterCells->Belt.Array.forEach(cell => {
+    if remainingLetters->Belt.Array.some(letter => letter == cell.letter) {
+      extractGraphite(cell)
+    }
+  })
+}
+
 let buildPaper = (): unit => {
   ensureDirPath(path("paper"))
   runOrFail(
@@ -582,7 +696,7 @@ let restoreCanonicalMagic = (entry: string): unit => {
 
 let build = (): unit => {
   buildPaper()
-  letters->Belt.Array.forEach(letter =>
+  episode1Letters->Belt.Array.forEach(letter =>
     states->Belt.Array.forEach(state =>
       if state.dir != "magic" {
         buildState(letter, state)
@@ -591,6 +705,18 @@ let build = (): unit => {
   )
   restoreCanonicalMagic("assets/magic")
   Js.log("Built canonical paper and 32 ignition assets; restored 8 locked full-magic assets.")
+}
+
+let buildFullAlphabet = (): unit => {
+  buildPaper()
+  extractRemainingGraphite()
+  remainingLetters->Belt.Array.forEach(letter =>
+    states->Belt.Array.forEach(state => buildState(letter, state))
+  )
+  restoreCanonicalMagic("assets/magic")
+  Js.log(
+    "Built 150 new assets for the remaining 25 letters and restored the eight locked Episode 1 magic assets.",
+  )
 }
 
 /* Production A is locked to the same accepted v1 treatment as the other seven
@@ -679,6 +805,124 @@ let buildBackgroundPreview = (): unit => {
     ~label="light and dark-brown letter preview",
   )
   Js.log("Built light and dark-brown Episode 1 letter preview: " ++ output)
+}
+
+let twoDigit = (value: int): string =>
+  value < 10 ? "0" ++ Belt.Int.toString(value) : Belt.Int.toString(value)
+
+let buildContactSheet = (~state: string, ~background: string, ~output: string): unit => {
+  ensureDirPath(path("review"))
+  let args: array<string> = ["-y"]
+  letters->Belt.Array.forEach(letter => {
+    args->Js.Array2.push("-i")->ignore
+    args->Js.Array2.push(root ++ "/assets/" ++ state ++ "/" ++ letter ++ ".png")->ignore
+  })
+  let tiles = letters
+    ->Belt.Array.mapWithIndex((index, _) => {
+      let i = Belt.Int.toString(index)
+      `[${i}:v]scale=400:400:flags=lanczos,format=rgba[g${i}];` ++
+      `color=c=${background}:s=400x400:d=1,format=rgb24[b${i}];` ++
+      `[b${i}][g${i}]overlay=format=auto[t${i}];`
+    })
+    ->Js.Array2.joinWith("")
+  let stackInputs = letters
+    ->Belt.Array.mapWithIndex((index, _) => `[t${Belt.Int.toString(index)}]`)
+    ->Js.Array2.joinWith("")
+  let layout = letters
+    ->Belt.Array.mapWithIndex((index, _) => {
+      let row = index / 6
+      let column = index - row * 6
+      Belt.Int.toString(column * 400) ++ "_" ++ Belt.Int.toString(row * 400)
+    })
+    ->Js.Array2.joinWith("|")
+  let filter =
+    tiles ++ stackInputs ++
+    `xstack=inputs=33:layout=${layout}:fill=${background},format=rgb24[out]`
+  args->Js.Array2.push("-filter_complex")->ignore
+  args->Js.Array2.push(filter)->ignore
+  args->Js.Array2.push("-map")->ignore
+  args->Js.Array2.push("[out]")->ignore
+  args->Js.Array2.push("-frames:v")->ignore
+  args->Js.Array2.push("1")->ignore
+  args->Js.Array2.push(root ++ "/review/" ++ output)->ignore
+  runOrFail(~cmd="ffmpeg", ~args, ~label="full alphabet contact sheet " ++ state)
+}
+
+let buildReviewTile = (letter: string, index: int): unit => {
+  ensureDirPath(path("review/thumbs"))
+  let number = twoDigit(index + 1)
+  runOrFail(
+    ~cmd="ffmpeg",
+    ~args=[
+      "-y",
+      "-i", root ++ "/assets/graphite/" ++ letter ++ ".png",
+      "-i", root ++ "/assets/magic/" ++ letter ++ ".png",
+      "-filter_complex",
+      `[0:v]scale=512:512:flags=lanczos,format=rgba[g];` ++
+      `[1:v]scale=512:512:flags=lanczos,format=rgba,split=2[ml][md];` ++
+      `color=c=0xF4E1C0:s=512x512:d=1,format=rgb24[p0];` ++
+      `color=c=0xF4E1C0:s=512x512:d=1,format=rgb24[p1];` ++
+      `color=c=0x2B170F:s=512x512:d=1,format=rgb24[p2];` ++
+      `[p0][g]overlay=format=auto[graphite];` ++
+      `[p1][ml]overlay=format=auto[light];` ++
+      `[p2][md]overlay=format=auto[dark];` ++
+      `[graphite][light][dark]hstack=inputs=3,format=rgb24[out]`,
+      "-map", "[out]",
+      "-frames:v", "1",
+      root ++ "/review/thumbs/" ++ number ++ ".png",
+    ],
+    ~label="review tile " ++ letter,
+  )
+}
+
+let buildFullReview = (): unit => {
+  ensureDirPath(path("review"))
+  letters->Belt.Array.forEachWithIndex((index, letter) => buildReviewTile(letter, index))
+  buildContactSheet(
+    ~state="graphite",
+    ~background="0xF4E1C0",
+    ~output="graphite_full_alphabet_on_paper.png",
+  )
+  buildContactSheet(
+    ~state="magic",
+    ~background="0xF4E1C0",
+    ~output="magic_full_alphabet_on_paper.png",
+  )
+  buildContactSheet(
+    ~state="magic",
+    ~background="0x2B170F",
+    ~output="magic_full_alphabet_on_dark_brown.png",
+  )
+  let cards = letters
+    ->Belt.Array.mapWithIndex((index, letter) => {
+      let number = twoDigit(index + 1)
+      `<article class="card"><header><span>${number}</span><h2>${letter}</h2></header>` ++
+      `<a href="../assets/magic/${letter}.png" target="_blank">` ++
+      `<img src="thumbs/${number}.png" alt="${letter}: graphite, magic on paper, magic on dark brown" loading="lazy" decoding="async"></a>` ++
+      `<div class="labels"><b>GRAPHITE</b><b>MAGIC / PAPER</b><b>MAGIC / DARK</b></div>` ++
+      `<nav><a href="../assets/graphite/${letter}.png" target="_blank">Graphite PNG</a>` ++
+      `<a href="../assets/magic/${letter}.png" target="_blank">Magic PNG</a></nav></article>`
+    })
+    ->Js.Array2.joinWith("\n")
+  let html =
+    `<!doctype html><html lang="en"><head><meta charset="utf-8">` ++
+    `<meta name="viewport" content="width=device-width,initial-scale=1">` ++
+    `<title>Frosya — Full Composable Russian Alphabet</title><style>` ++
+    `:root{--paper:#f4e1c0;--ink:#382517;--line:#c99850;--card:#fffaf0}` ++
+    `*{box-sizing:border-box}body{margin:0;background:#ead6b4;color:var(--ink);font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}` ++
+    `.intro{padding:22px max(16px,4vw)}h1{margin:0 0 6px;font-size:clamp(26px,5vw,44px)}.intro p{margin:0;max-width:900px;line-height:1.45}` ++
+    `.sheets{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,620px),1fr));gap:18px;padding:0 max(16px,4vw) 24px}.sheet{margin:0;background:var(--card);border:2px solid var(--line);border-radius:16px;padding:12px}.sheet img{display:block;width:100%;height:auto;border-radius:8px}.sheet figcaption{font-weight:800;margin:0 0 9px}` ++
+    `main{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px;padding:0 max(12px,3vw) 34px}.card{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:12px;box-shadow:0 7px 20px rgba(79,48,19,.10)}.card header{display:flex;align-items:center;gap:12px;margin-bottom:8px}.card header span{display:grid;place-items:center;width:48px;height:38px;border-radius:9px;background:#4b321d;color:#fff;font-weight:850}.card h2{font-size:30px;margin:0}.card img{display:block;width:100%;height:auto;border-radius:9px;border:1px solid #d8b77f}.labels{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-top:7px;text-align:center;font-size:10px;letter-spacing:.05em}.card nav{display:flex;gap:8px;margin-top:10px}.card nav a{flex:1;text-align:center;padding:8px;border-radius:8px;background:#fff0d4;border:1px solid #b9833f;color:#4b321d;font-weight:750;text-decoration:none}` ++
+    `@media(max-width:600px){.intro{padding:14px 12px}.sheets{padding:0 10px 16px}.sheet{padding:8px}main{grid-template-columns:1fr;padding:0 10px 24px}.card{padding:10px}}` ++
+    `</style></head><body><section class="intro"><h1>Frosya’s full 33-letter alphabet</h1>` ++
+    `<p>Canonical order. The eight approved Episode 1 letters remain locked; the other 25 come from the approved master sheet and use the same deterministic ignition treatment.</p></section>` ++
+    `<section class="sheets">` ++
+    `<figure class="sheet"><figcaption>Graphite · canonical paper</figcaption><a href="graphite_full_alphabet_on_paper.png" target="_blank"><img src="graphite_full_alphabet_on_paper.png" alt="Full graphite Russian alphabet"></a></figure>` ++
+    `<figure class="sheet"><figcaption>Full magic · canonical paper</figcaption><a href="magic_full_alphabet_on_paper.png" target="_blank"><img src="magic_full_alphabet_on_paper.png" alt="Full magical Russian alphabet on paper"></a></figure>` ++
+    `<figure class="sheet"><figcaption>Full magic · dark brown</figcaption><a href="magic_full_alphabet_on_dark_brown.png" target="_blank"><img src="magic_full_alphabet_on_dark_brown.png" alt="Full magical Russian alphabet on dark brown"></a></figure>` ++
+    `</section><main>${cards}</main></body></html>`
+  writeText(path("review/index.html"), html)
+  Js.log("Built full 33-letter review gallery: " ++ root ++ "/review/index.html")
 }
 
 /* Peak-glow calibration is isolated from the production asset. Every lab
@@ -1085,7 +1329,7 @@ let verify = (): unit => {
   let failures: array<string> = []
   let dirs = ["graphite", "ignite_25", "ignite_50", "ignite_75", "ignite_90", "magic"]
   dirs->Belt.Array.forEach(dir =>
-    letters->Belt.Array.forEach(letter => {
+    episode1Letters->Belt.Array.forEach(letter => {
       let asset = root ++ "/assets/" ++ dir ++ "/" ++ letter ++ ".png"
       if !exists(Path(asset)) {
         failures->Js.Array2.push(asset ++ ": missing")->ignore
@@ -1120,17 +1364,58 @@ let verify = (): unit => {
   )
 }
 
+let verifyFull = (): unit => {
+  let failures: array<string> = []
+  let dirs = ["graphite", "ignite_25", "ignite_50", "ignite_75", "ignite_90", "magic"]
+  dirs->Belt.Array.forEach(dir =>
+    letters->Belt.Array.forEach(letter => {
+      let asset = root ++ "/assets/" ++ dir ++ "/" ++ letter ++ ".png"
+      if !exists(Path(asset)) {
+        failures->Js.Array2.push(asset ++ ": missing")->ignore
+      } else {
+        switch verifyDimensions(asset) {
+        | Some(message) => failures->Js.Array2.push(message)->ignore
+        | None => ()
+        }
+        switch verifyBorder(asset) {
+        | Some(message) => failures->Js.Array2.push(message)->ignore
+        | None => ()
+        }
+      }
+    })
+  )
+  canonicalMagicHashes->Belt.Array.forEach(((letter, expected)) => {
+    let asset = root ++ "/assets/magic/" ++ letter ++ ".png"
+    if exists(Path(asset)) {
+      let result = run(~cmd="shasum", ~args=["-a", "256", asset])
+      if result.code != 0 || !Js.String2.startsWith(Js.String2.trim(result.stdout), expected) {
+        failures->Js.Array2.push(asset ++ ": differs from the locked Episode 1 full-magic asset")->ignore
+      }
+    }
+  })
+  if failures->Js.Array2.length > 0 {
+    failures->Belt.Array.forEach(Js.Console.error)
+    fail(Belt.Int.toString(failures->Js.Array2.length) ++ " full-alphabet QA failure(s)")
+  }
+  Js.log(
+    "PASS: all 198 alphabet assets have valid geometry; all 8 approved Episode 1 magic assets remain hash-locked.",
+  )
+}
+
 switch Belt.Array.get(argv, 2) {
 | Some("build") => build()
+| Some("build-full") => buildFullAlphabet()
 | Some("build-magic-a") => buildMagicA()
 | Some("compare-magic-a") => compareMagicA()
 | Some("background-preview") => buildBackgroundPreview()
+| Some("review-full") => buildFullReview()
 | Some("glow-lab-a") => buildGlowLabA()
 | Some("lineup-a") => buildLineupA()
 | Some("verify") => verify()
+| Some("verify-full") => verifyFull()
 | _ =>
   fail(
     "usage: Drakosha_FrosyaAlphabet.res.mjs " ++
-    "build|build-magic-a|compare-magic-a|background-preview|glow-lab-a|lineup-a|verify",
+    "build|build-full|build-magic-a|compare-magic-a|background-preview|review-full|glow-lab-a|lineup-a|verify|verify-full",
   )
 }

@@ -23,7 +23,7 @@ function colorOf(n) {
     case "Kuku" :
         return "green";
     case "Fyuria" :
-        return "orange-red";
+        return "bright pink-red";
     case "Leda" :
         return "lilac-purple";
     case "Castor" :
@@ -62,14 +62,14 @@ function shotName(s) {
   }
 }
 
-var styleKey = "0c47270d-70f7-4dd0-887f-c06c88ef5fd9";
+var styleKey = "a34b16f4-11fa-4153-9c43-ed2e2a30d033";
 
 var styleLaw = "3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world";
 
 var paletteLaw = "bright, vibrant, warm storybook palette, every colour full and saturated";
 
 var worldFacts = [
-  "this world is inhabited by paper dragons, paper birds and paper animals only",
+  "the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals",
   "every surface — stone, wood, cloth, banner and sky — is plain blank paper"
 ];
 
@@ -87,7 +87,7 @@ function subjectText(s) {
                 s.form === "Great" ? "GREAT form: ENORMOUS IN THE WORLD — a grown man would reach only to her knee, and she towers over anything man-made beside her. That is her size in the world; her size in the picture is decided by how far away the viewpoint stands, so in a wide shot she may be a small figure and still be enormous" : "small everyday form: a small paper dragon child, the height of a human child"
               ) + ", wearing a golden कड़ा on one forearm. " + s.doing;
     case "Gauri" :
-        return "- GAURI — gentle brown-and-white paper cow, dark paper eyes, a plain rope halter. " + s.doing;
+        return "- GAURI — gentle brown-and-white paper cow, dark paper eyes; a plain rope halter is the ONLY thing she wears, her neck and legs otherwise bare. " + s.doing;
     case "RishiMuni" :
         return "- RISHI — the elder paper dragon guru from the attached character sheet: white-maned and white-bearded, pale horns, an ochre robe, a wooden staff. " + s.doing;
     case "Dadi" :
@@ -232,20 +232,21 @@ function boardOf(s) {
           case "Fyuria" :
               return kukuRoot + "charsheets/furia.png";
           case "Leda" :
-              return kukuRoot + "charsheets/leda.png";
+              return kukuRoot + "charsheets/leda_small.png";
           case "Castor" :
               return kukuRoot + "charsheets/castor.png";
           case "Vesper" :
-              return ;
+              return kukuRoot + "charsheets/vesper_small.png";
           
         }
+    case "Gauri" :
+        return kukuRoot + "charsheets/gauri.png";
     case "RishiMuni" :
         return kukuRoot + "charsheets/rishi.png";
     case "Dadi" :
         return kukuRoot + "charsheets/dadi.png";
     case "Cheel" :
         return kukuRoot + "charsheets/cheel.png";
-    case "Gauri" :
     case "Prop" :
         return ;
     

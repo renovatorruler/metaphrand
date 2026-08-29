@@ -37,6 +37,38 @@ function setOfName(n) {
                 }));
 }
 
+function plateNotes(s) {
+  switch (s) {
+    case "Courtyard" :
+        return [];
+    case "Lane" :
+        return ["the light is the last golden evening — a low warm sun, long soft shadows, a dusk-gold sky"];
+    case "FlatStone" :
+        return [
+                "the flat stretch is plain pale flagstone the whole way; the three red marker stones belong to the sloped lane above and sit outside this frame",
+                "the closed stone wall spans the WHOLE width of the stretch, edge to edge and tall enough to seal the view — the flat stretch ends at the wall, and the wall's bare stone face fills everything behind the ga-stone",
+                "the broad flat GA-stone at the stretch's centre is the same pale paper stone as the paving, one smooth clean slab"
+              ];
+    case "Tower" :
+        return [
+                "the parapet floor is the same pale paper stone as the tower walls",
+                "the tower stands alone against the sky, its silhouette clean stone from base to crenellation"
+              ];
+    case "Doorway" :
+        return [
+                "the golden arch stands FREE on open ground, air and landscape on both sides of it, the village seen through its opening",
+                "the light is the same warm golden dusk as every other set — low sun, long soft shadows"
+              ];
+    case "GrassVerge" :
+        return [
+                "the verge is plain soft green paper grass throughout",
+                "the lane beyond the verge is pale warm paper flagstone, plain and unbroken",
+                "the light is the last golden evening — a low warm sun, a dusk-gold sky"
+              ];
+    
+  }
+}
+
 function platePrompt(s) {
   return PromptGate.pass("platePrompt", [
                 "SHOT: WIDE ESTABLISHING PLATE, LANDSCAPE 16:9, full-bleed, the camera is INSIDE the world.",
@@ -46,12 +78,12 @@ function platePrompt(s) {
                 "TIME: this is the set BEFORE the story happens — every flagstone bare, the flat stone bare, the lane open and empty from top to wall.",
                 "SET: " + Kuku_Ep10Sets.setProse(s),
                 "VIEWPOINT: " + Kuku_Ep10Sets.vantageProse(s, "TopLookingDown"),
-                "LIGHTING: warm golden dusk — the last golden evening; the low sun gilds the paper flagstones. THE SUN STANDS OFF TO ONE SIDE, well clear of the viewing axis, so every landmark is LIT full-face and every colour in the place stays full — green hills, blue water, snow on the far peaks.",
+                "LIGHTING: warm golden dusk — the last golden evening; the low sun — a plain warm paper disc — gilds the paper flagstones. THE SUN STANDS OFF TO ONE SIDE, well clear of the viewing axis, so every landmark is LIT full-face and every colour in the place stays full — green hills, blue water, snow on the far peaks.",
                 "PURPOSE: this is a SET PLATE — the empty location itself, to be reused as the reference for every shot staged here. Every landmark must be clearly visible and correctly placed.",
                 "HARD RULES:\n" + Kuku_PromptSpec.bullets([
-                        "the set stands EMPTY and still: bare flagstones, open sky, architecture and landscape alone — the whole cast of this picture is the place itself",
+                        "the set stands EMPTY and still — the whole cast of this picture is the place itself: the sky holds paper clouds alone, and the ground holds stone, grass, water and architecture alone; every creature of this world is elsewhere right now",
                         "the picture is the finished place seen from inside the world, rendered edge to edge, with open air between the viewer and every landmark"
-                      ].concat(Kuku_PromptSpec.worldFacts))
+                      ].concat(Kuku_PromptSpec.worldFacts.concat(plateNotes(s))))
               ].join("\n"));
 }
 
@@ -299,6 +331,7 @@ export {
   dir ,
   sets ,
   setOfName ,
+  plateNotes ,
   platePrompt ,
   plateFile ,
   blueprintSvg ,

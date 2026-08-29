@@ -41,12 +41,12 @@ let laneDrop = 9.0 /* metres of fall from post to flat */
 let laneLandmarks = [
   {name: "STONE POST", x: -4.6, y: 0.0, z: laneDrop, note: "the rope tie-point at the top of the slope, on the LEFT kerb"},
   {name: "CART START", x: 0.0, y: 2.0, z: laneDrop *. 0.97, note: "where the tethered cart stands"},
-  {name: "MARKER 1", x: 0.0, y: 12.0, z: laneDrop *. 0.75, note: "first distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones, its face smooth with the road so wheels roll straight over it"},
-  {name: "MARKER 2", x: 0.0, y: 24.0, z: laneDrop *. 0.5, note: "second distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones, its face smooth with the road so wheels roll straight over it"},
-  {name: "MARKER 3", x: 0.0, y: 36.0, z: laneDrop *. 0.25, note: "third and last distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones, its face smooth with the road so wheels roll straight over it"},
+  {name: "MARKER 1", x: 0.0, y: 12.0, z: laneDrop *. 0.75, note: "first distance mark: a broad red band PAINTED flat across the lane's paving — colour on the road surface itself, part of the flagstones, smooth under any wheel"},
+  {name: "MARKER 2", x: 0.0, y: 24.0, z: laneDrop *. 0.5, note: "second distance mark: a broad red band PAINTED flat across the lane's paving — colour on the road surface itself, part of the flagstones, smooth under any wheel"},
+  {name: "MARKER 3", x: 0.0, y: 36.0, z: laneDrop *. 0.25, note: "third and last distance mark: a broad red band PAINTED flat across the lane's paving — colour on the road surface itself, part of the flagstones, smooth under any wheel"},
   {name: "FLAT BEGINS", x: 0.0, y: 48.0, z: 0.0, note: "the slope ends; the last 12 m is level"},
   {name: "GA-STONE", x: 0.0, y: 55.0, z: 0.0, note: "the flat stone where the golden ga-shape is forged"},
-  {name: "END WALL", x: 0.0, y: 60.0, z: 0.0, note: "closed paper stone wall across the full width — the lane is a dead end"},
+  {name: "END WALL", x: 0.0, y: 60.0, z: 0.0, note: "closed paper stone wall across the full width, its face plain bare stone from kerb to kerb — the lane is a dead end"},
 ]
 
 let courtyardLandmarks = [
@@ -232,7 +232,10 @@ let blueprint = s => {
       let cy = py(l.y)
       let cx = px(l.x)
       let isMarker = Js.String2.startsWith(l.name, "MARKER")
-      let colour = isMarker ? "#c0392b" : "#2c3e50"
+      /* markers are genuinely red in the world, so their map glyph is red; every
+     other landmark is a quiet sand outline — a bold dark dot on the map kept
+     being rendered as a coloured slab standing at that spot in the plate */
+  let colour = isMarker ? "#c0392b" : "#b9ad93"
       let labelX = 470.0
       let labelY = cy +. (mod(i, 2) == 0 ? -1.0 : 13.0)
       "<circle cx='" ++

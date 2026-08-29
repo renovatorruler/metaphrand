@@ -15,13 +15,37 @@ open Cinema_Backends
 let dir = "/Users/dusty/Dev/metaphrand/stories/kuku/charsheets"
 let styleKey = "0c47270d-70f7-4dd0-887f-c06c88ef5fd9"
 
-let style = "STYLE REFERENCE: Match the attached reference image EXACTLY. 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, warm storybook palette, soft studio lighting, non-photorealistic, illustrated, not a photo, no live-action, no realism. CHARACTER REFERENCE SHEET: one single character, full body, standing in a friendly relaxed 3/4 pose, centered, on a plain soft cream paper background with a simple paper ground shadow, no scenery, no props except those named, no other characters."
+let style = "STYLE REFERENCE: Match the attached reference image EXACTLY. 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, warm storybook palette, soft studio lighting, an illustrated handcrafted paper world. CHARACTER REFERENCE SHEET: exactly one single character, full body, in a friendly relaxed 3/4 pose, centered, on a plain soft cream paper background with a simple paper ground shadow — the character and the named props alone fill the sheet."
 
 let negative = "NEGATIVE: no text, no letters, no captions, no watermark, no logos, no extra characters, no background scenery, no photorealism, no human features except those named."
 
 /* Sheets to make. The existing seven are already on disk and are skipped; this
    table exists so a future addition is one row, not a new script. */
 let sheets = [
+  (
+    "kuku",
+    "SUBJECT: Kuku, a small green cut-paper dragon child, full body standing 3/4; leaf-green layered paper body, cream belly, bright curious eyes, small rounded wings, tiny horns, a warm open smile. A golden कड़ा — a simple gold band — sits snug on one forearm.",
+  ),
+  (
+    "furia",
+    "SUBJECT: Fyuria, a bright pink-red cut-paper dragon girl, a head taller than a baby dragon, full body standing 3/4; crimson-pink layered paper body, cream belly, long eyelashes, a small crest of paper spikes, medium paper wings, an energetic hands-on-hips stance, confident sparky expression. A golden कड़ा — a simple gold band — sits snug on one forearm.",
+  ),
+  (
+    "leda_small",
+    "SUBJECT: Leda, a small lilac-purple cut-paper dragon girl, full body standing 3/4; soft lilac layered paper body, cream belly, calm watchful eyes, neat small wings, a composed gentle stance. A golden कड़ा — a simple gold band — sits snug on one forearm.",
+  ),
+  (
+    "castor",
+    "SUBJECT: Castor, a small golden-yellow cut-paper dragon boy, full body standing 3/4; warm golden-yellow layered paper body, cream belly, a cheerful grin, small rounded wings, a playful stance. A golden कड़ा — a simple gold band — sits snug on one forearm.",
+  ),
+  (
+    "gauri",
+    "SUBJECT: Gauri, the gurukul's gentle cut-paper cow, full body standing 3/4; soft white paper body with warm brown patches, rounded storybook proportions, dark calm paper eyes with long paper lashes, small pale horns, a soft pink muzzle, a plain rope halter, layered paper ears, a paper tail with a brown tuft. Kind, calm, motherly. She is a COW of layered cut paper, matching the papercraft style exactly.",
+  ),
+  (
+    "vesper_small",
+    "SUBJECT: Vesper in his small everyday form, a pale ice-blue cut-paper dragon CHILD the height of a human child, full body standing 3/4; round sleepy heavy-lidded eyes, a gentle drowsy smile, small folded wings, soft layered paper belly in cream, tiny horns, a golden कड़ा band on one forearm. The sleepy one of the five — calm, dozy, endearing.",
+  ),
   (
     "tansen",
     "SUBJECT: Tansen, a bright green cut-paper parrot, medium sized, perched calmly; a curved RED beak, a pale ring around the neck, round bright knowing eyes, layered paper wing feathers in two greens, a long tapering tail of stacked paper strips, small grey claws gripping a short plain wooden perch. Cheerful and characterful, a little bit pleased with himself. He is a PARROT, not a dragon: no horns, no dragon snout, feathers not scales.",

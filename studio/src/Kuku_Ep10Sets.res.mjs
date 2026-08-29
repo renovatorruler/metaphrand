@@ -22,21 +22,21 @@ var laneLandmarks = [
     x: 0.0,
     y: 12.0,
     z: 9.0 * 0.75,
-    note: "first distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones, its face smooth with the road so wheels roll straight over it"
+    note: "first distance mark: a broad red band PAINTED flat across the lane's paving — colour on the road surface itself, part of the flagstones, smooth under any wheel"
   },
   {
     name: "MARKER 2",
     x: 0.0,
     y: 24.0,
     z: 9.0 * 0.5,
-    note: "second distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones, its face smooth with the road so wheels roll straight over it"
+    note: "second distance mark: a broad red band PAINTED flat across the lane's paving — colour on the road surface itself, part of the flagstones, smooth under any wheel"
   },
   {
     name: "MARKER 3",
     x: 0.0,
     y: 36.0,
     z: 9.0 * 0.25,
-    note: "third and last distance mark: a flat red paving stone set FLUSH into the lane surface, level with the flagstones, its face smooth with the road so wheels roll straight over it"
+    note: "third and last distance mark: a broad red band PAINTED flat across the lane's paving — colour on the road surface itself, part of the flagstones, smooth under any wheel"
   },
   {
     name: "FLAT BEGINS",
@@ -57,7 +57,7 @@ var laneLandmarks = [
     x: 0.0,
     y: 60.0,
     z: 0.0,
-    note: "closed paper stone wall across the full width — the lane is a dead end"
+    note: "closed paper stone wall across the full width, its face plain bare stone from kerb to kerb — the lane is a dead end"
   }
 ];
 
@@ -331,7 +331,7 @@ function blueprint(s) {
           var cy = py(l.y);
           var cx = px(l.x);
           var isMarker = l.name.startsWith("MARKER");
-          var colour = isMarker ? "#c0392b" : "#2c3e50";
+          var colour = isMarker ? "#c0392b" : "#b9ad93";
           var labelY = cy + (
             i % 2 === 0 ? -1.0 : 13.0
           );

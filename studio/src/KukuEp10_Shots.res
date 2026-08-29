@@ -26,7 +26,7 @@ external execFileSync: (string, array<string>, execOpts) => string = "execFileSy
 /* canonical recurring props — locked descriptions, deterministic across shots */
 let bell = doing => P.Prop({what: "THE BELL — the bronze paper bell of the flight ring, fastened by its bronze binding to the short hook at the ring's crown", doing})
 let redRope = doing => P.Prop({what: "THE ROPE — the thick red paper-twine rope", doing})
-let marker = doing => P.Prop({what: "A RED DISTANCE MARK — a flat red paper paving stone set FLUSH into the lane, level with the surrounding flagstones, its face smooth with the road so wheels roll straight over it", doing})
+let marker = doing => P.Prop({what: "A RED DISTANCE MARK — a broad red band painted flat across the lane's paving, colour on the road surface itself, smooth under any wheel", doing})
 let kada = doing => P.Prop({what: "THE कड़ा — a golden paper bracelet cuff with two small blank golden medallions set into it", doing})
 let shards = doing => P.Prop({what: "GLYPH-SHARDS — small jagged black broken paper shards", doing})
 let doorway = doing => P.Prop({what: "THE DOORWAY — an open golden paper doorway standing between two worlds", doing})
@@ -48,7 +48,6 @@ let tower = Sets.setProse(Sets.Tower)
 let lanePlate = y => Sets.lanePlateAt(y)
 let courtyardPlate = Sets.masterPlate(Sets.Courtyard)
 /* h29 is the shape's first appearance and therefore its reference */
-let gaRef = [Sets.plateDir->Js.String2.replace("sets/", "stills/") ++ "h29_ga_stands.png"]
 
 type entry = {id: string, spec: P.imageSpec, added: array<string>, derived: array<string>}
 
@@ -171,9 +170,13 @@ let mk = (
   } else {
     extraRules
   }
+  /* THE PLATE FOLLOWS THE CLOCK: the master plate carries the bare hook (the
+     post-theft world); a shot before the theft swaps to the bell-hung variant,
+     because a reference showing a bare hook out-argues any text that hangs the
+     bell — the picture always wins, so the picture must agree with the state. */
   let plate = switch plate {
-  | Some(p) if ringInShot && bellGone && !shotSpeaksForBell && p == courtyardPlate =>
-    Some(Sets.plateDir ++ "courtyard_barehook_plate.png")
+  | Some(p) if ringInShot && !bellGone && !shotSpeaksForBell && p == courtyardPlate =>
+    Some(Sets.plateDir ++ "courtyard_bell_plate.png")
   | other => other
   }
   switch plate {
@@ -424,7 +427,7 @@ let shots: array<entry> = [
     /* the old frame was the AFTERMATH — bell already taken, already airborne, cord
    already cut — so a clip begun there had nothing left to do. This is the
    instant BEFORE: still perched, bell still hanging, binding still whole. */
-    ~others=[P.Cheel({doing: "perched on the crown of the great stone flight ring, leaning down with her beak and one talon to the bell's bronze binding, wings half-raised and ready — the bell still hangs whole beneath her"})],
+    ~others=[P.Cheel({doing: "PERCHED on the crown of the great stone flight ring, her feet gripping the stone, wings FOLDED CLOSED along her back — she leans her head down toward the bell's bronze binding below her, and the bell still hangs whole"})],
     ~props=[bell("still hanging inside the ring's crown on its whole bronze binding, directly beneath her")],
     ~setting=Sets.setProseFor(Sets.Courtyard, ["FLIGHT RING"]),
     ~plate=courtyardPlate,
@@ -604,6 +607,7 @@ let shots: array<entry> = [
     ~setting=lane,
     ~at=30.0,
     ~cartAt=26.0,
+    ~extraRules=["his golden कड़ा sits on ONE forearm only, the other forearm bare"],
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -784,7 +788,6 @@ let shots: array<entry> = [
     ~at=36.0,
     ~cartAt=36.0,
     ~added=["lighting (none in the prose)"],
-    ~objects=gaRef,
     (),
   ),
   mk(
@@ -814,7 +817,6 @@ let shots: array<entry> = [
     ~at=55.0,
     ~cartAt=54.0,
     ~added=["lighting (none in the prose)"],
-    ~objects=gaRef,
     (),
   ),
   mk(
@@ -829,7 +831,6 @@ let shots: array<entry> = [
     ~plate=Sets.masterPlate(Sets.FlatStone),
     ~at=55.0,
     ~cartAt=55.0,
-    ~objects=gaRef,
     (),
   ),
   mk(

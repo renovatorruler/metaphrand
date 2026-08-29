@@ -51,7 +51,7 @@ var commonBlocking = [
   "the start image IS this lane — the same flagstones, low kerbs, rubble wall along the right, stone post behind, and the same horizon and sun",
   "the cart runs along the CENTRELINE, wheels on the flagstones the whole way, the kerbs sliding past on either side",
   "गौरी the brown-and-white paper cow stays aboard the cart in EVERY frame, braced in the hay",
-  "the three red paper markers sit on the centreline at 12, 24 and 36 metres; the closed stone end wall stays a distant line at the bottom of the slope for the whole clip"
+  "three red bands painted flat across the lane's paving cross it at 12, 24 and 36 metres; the closed stone end wall stays a distant line at the bottom of the slope for the whole clip"
 ];
 
 var commonPhysics = [
