@@ -379,7 +379,7 @@ let lanePosition = (at, cartAt) => {
     " are already BEHIND this point and " ++
     Belt.Int.toString(ahead) ++
     " still lie AHEAD down the slope. The closed end wall is " ++
-    Belt.Float.toString(toWall) ++ " metres further on and reads exactly that far away."
+    Belt.Float.toString(toWall) ++ " metres further on — far down the lane, a distant line."
   switch cartAt {
   | None => base
   | Some(c) =>

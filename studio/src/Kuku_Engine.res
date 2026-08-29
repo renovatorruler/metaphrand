@@ -352,6 +352,27 @@ let stamp = (~asset, ~note) =>
     switch Js.Json.decodeObject(Js.Json.parseExn(readFileSync(receiptPath(asset), "utf8"))) {
     | Some(o) => {
         Js.Dict.set(o, "assetSha256", Js.Json.string(sha256File(asset)))
+        /* a self-edit records the asset's pre-edit hash as its own reference;
+           a later lawful transform must refresh that self-reference row too */
+        switch o->Js.Dict.get("refs")->Belt.Option.flatMap(Js.Json.decodeArray) {
+        | Some(rows) => {
+            let healed = Js.Array2.map(rows, row =>
+              switch Js.Json.decodeObject(row) {
+              | Some(r) =>
+                switch r->Js.Dict.get("path")->Belt.Option.flatMap(Js.Json.decodeString) {
+                | Some(pth) if pth == asset => {
+                    Js.Dict.set(r, "sha256", Js.Json.string(sha256File(asset)))
+                    Js.Json.object_(r)
+                  }
+                | _ => row
+                }
+              | None => row
+              }
+            )
+            Js.Dict.set(o, "refs", Js.Json.array(healed))
+          }
+        | None => ()
+        }
         let prior = switch o->Js.Dict.get("localTransforms")->Belt.Option.flatMap(Js.Json.decodeArray) {
         | Some(a) => a
         | None => []

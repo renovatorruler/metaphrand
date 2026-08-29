@@ -463,7 +463,7 @@ var shots = [
         ]], undefined, undefined, [
         true,
         "small below on the lane between the markers"
-      ], undefined, undefined, lane, 26.0, 17.0, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+      ], undefined, undefined, lane, 26.0, 17.0, undefined, undefined, undefined, ["the wooden hay cart rolls BY ITSELF on its four wheels, and INSIDE its bed — wooden walls on all four sides around her — stands गौरी, braced in the hay, a passenger riding it"], ["lighting (none in the prose)"], undefined),
   mk("h22_castor_calm", "Braking", "कैस्टर keeps गौरी calm.", "Medium", [[
           "Castor",
           "flies ALONG the lane directly above and behind the cart, his long body and tail stretching back UP the slope behind him and fully inside the lane, wings swept back and held high above the kerb line. Only his head and neck come down toward the frightened cow. He is turned nose-forward down the lane, his whole length in line with it, and his tail runs back along the open lane through clear air, between the kerbs the whole way"
@@ -554,7 +554,7 @@ var shots = [
         ]], undefined, undefined, [
         true,
         "slowing behind her"
-      ], undefined, undefined, lane, 44.0, 42.0, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+      ], undefined, undefined, lane, 44.0, 42.0, undefined, undefined, undefined, ["the wooden hay cart rolls BY ITSELF on its four wheels, and INSIDE its bed — wooden walls on all four sides around her — stands गौरी, braced in the hay, a passenger riding it"], ["lighting (none in the prose)"], undefined),
   mk("h37_cart_into_curve", "TheStop", "The cart rides into the golden curve.", "Wide", undefined, undefined, "steady inside the cart", [
         true,
         "its nose riding up into the open curve of the golden shape, wheels almost stopped"
@@ -590,7 +590,7 @@ var shots = [
         ]], undefined, undefined, [
         false,
         "stopped nearby"
-      ], undefined, undefined, flatStone, undefined, undefined, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, undefined, undefined),
+      ], "standing on the flat stone nearby", undefined, flatStone, undefined, undefined, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, undefined, undefined),
   mk("h42_doorway_dadi", "DoorwayNight", "दादी at the doorway between the worlds.", "Medium", undefined, [{
           TAG: "Dadi",
           doing: "stands in the courtyard beyond the doorway, concerned"

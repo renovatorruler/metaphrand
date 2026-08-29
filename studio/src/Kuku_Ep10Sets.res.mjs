@@ -380,7 +380,7 @@ function lanePosition(at, cartAt) {
       }).length;
   var ahead = markerPositions.length - behind | 0;
   var toWall = 60.0 - at;
-  var base = "POSITION ON THE LANE: this shot happens " + String(at) + " metres down the " + String(60.0) + " metre lane. Of the three red markers, " + String(behind) + " are already BEHIND this point and " + String(ahead) + " still lie AHEAD down the slope. The closed end wall is " + String(toWall) + " metres further on and reads exactly that far away.";
+  var base = "POSITION ON THE LANE: this shot happens " + String(at) + " metres down the " + String(60.0) + " metre lane. Of the three red markers, " + String(behind) + " are already BEHIND this point and " + String(ahead) + " still lie AHEAD down the slope. The closed end wall is " + String(toWall) + " metres further on — far down the lane, a distant line.";
   if (cartAt !== undefined) {
     return base + " THE CART is " + String(cartAt) + " metres down the lane at this moment — " + String(60.0 - cartAt) + " metres from the wall — and is still running.";
   } else {

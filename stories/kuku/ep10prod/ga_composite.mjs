@@ -56,6 +56,7 @@ const PLACEMENTS = [
   { shot: "h35_last_marker",    x: 0.62, y: 0.46, w: 0.10, glow: 0.6, shadow: 0.35 },
   { shot: "h37_cart_into_curve",x: 0.72, y: 0.60, w: 0.26, glow: 0.9, shadow: 0.45 },
   { shot: "h38_stopped",        x: 0.74, y: 0.585, w: 0.24, glow: 0.9, shadow: 0.45 },
+  { shot: "h50_leda_small_sits", x: 0.78, y: 0.52, w: 0.16, glow: 0.7, shadow: 0.4 },
 ];
 
 const I = P + "inbetweens/";

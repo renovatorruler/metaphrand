@@ -569,6 +569,7 @@ let shots: array<entry> = [
     ~setting=lane,
     ~at=26.0,
     ~cartAt=17.0,
+    ~extraRules=["the wooden hay cart rolls BY ITSELF on its four wheels, and INSIDE its bed — wooden walls on all four sides around her — stands गौरी, braced in the hay, a passenger riding it"],
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -801,6 +802,7 @@ let shots: array<entry> = [
     ~at=44.0,
     ~cartAt=42.0,
     
+    ~extraRules=["the wooden hay cart rolls BY ITSELF on its four wheels, and INSIDE its bed — wooden walls on all four sides around her — stands गौरी, braced in the hay, a passenger riding it"],
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -905,6 +907,7 @@ let shots: array<entry> = [
     ~shot=P.Medium,
     ~dragons=[(P.Leda, "sits quietly on the paper flagstones near the wooden cart, wings folded, watching something gently and patiently")],
     ~cart=(false, "stopped nearby"),
+    ~ga="standing on the flat stone nearby",
     ~setting=flatStone,
     ~plate=Sets.masterPlate(Sets.FlatStone),
     (),
