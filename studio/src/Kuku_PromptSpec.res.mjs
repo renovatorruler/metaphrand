@@ -62,7 +62,19 @@ function shotName(s) {
   }
 }
 
-var styleKey = "a34b16f4-11fa-4153-9c43-ed2e2a30d033";
+var styleKeyDefault = "a34b16f4-11fa-4153-9c43-ed2e2a30d033";
+
+var styleKeyRef = {
+  contents: styleKeyDefault
+};
+
+function useStyleKey(k) {
+  styleKeyRef.contents = k;
+}
+
+function styleKey() {
+  return styleKeyRef.contents;
+}
 
 var styleLaw = "3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world";
 
@@ -149,11 +161,13 @@ function imagePrompt(s) {
   } else {
     tmp = "CHARACTER REFERENCES: every attached image after the first is a locked character design; match each EXACTLY, including the golden bracelet.";
   }
-  return PromptGate.pass("imagePrompt", [
+  var match$2 = s.blockout;
+  return PromptGate.passStrict("imagePrompt", [
                 "SHOT: " + shotName(s.shot) + ", LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.",
                 "STYLE: " + styleLaw + ". The FIRST attached image is the art style; match it EXACTLY.",
                 "PALETTE: " + paletteLaw + ".",
                 tmp,
+                match$2 !== undefined ? "STAGING: the attached grey BLOCKOUT is a 3D render of this exact moment — it is the authority on WHERE EVERY BODY STANDS and where the camera looks. Each coloured proxy marks one character by their own colour (green कुकु, pink-red फ्यूरिया, lilac लेडा, golden-yellow कैस्टर, pale blue वैस्पर, cream ऋषि, brown cart, cream cow): put that character exactly there, at that size, facing that way, on that ground. Paint the finished papercraft world over this arrangement — the blockout owns the positions, the style reference owns the look." : "",
                 "SCENE: " + s.scene,
                 "SUBJECTS:\n" + s.subjects.map(subjectText).join("\n"),
                 "SETTING: " + s.setting,
@@ -172,7 +186,7 @@ var editKeepLaw = [
 ];
 
 function editPrompt(e) {
-  return PromptGate.pass("editPrompt", [
+  return PromptGate.passStrict("editPrompt", [
                 "TASK: edit the attached image — apply ONLY the change below.",
                 "CHANGE: " + e.change,
                 "KEEP:\n" + bullets(editKeepLaw.concat(e.keep)),
@@ -199,7 +213,7 @@ function hasDragon(cast) {
 }
 
 function videoPrompt(v) {
-  return PromptGate.pass("videoPrompt", [
+  return PromptGate.passStrict("videoPrompt", [
                   "SCENE: " + v.scene,
                   v.cast.length > 0 ? "THE COMPLETE CAST OF THIS SHOT — exactly these:\n" + v.cast.map(castLine).join("\n") : "IN THIS SHOT: the place itself, empty and still.",
                   "FIRST FRAME: the provided start image IS frame one — the action begins from exactly this position.",
@@ -254,11 +268,10 @@ function boardOf(s) {
 }
 
 function imageRefs(s) {
+  var b = s.blockout;
+  var staging = b !== undefined ? [b] : [];
   var p = s.plate;
-  var head = p !== undefined ? [
-        styleKey,
-        p
-      ].concat(s.objects) : [styleKey].concat(s.objects);
+  var head = p !== undefined ? [styleKeyRef.contents].concat(staging, [p], s.objects) : [styleKeyRef.contents].concat(staging, s.objects);
   var boards = s.subjects.reduce((function (acc, sub) {
           var b = boardOf(sub);
           if (b !== undefined && !acc.includes(b)) {
@@ -274,6 +287,9 @@ export {
   nameOf ,
   colorOf ,
   shotName ,
+  styleKeyDefault ,
+  styleKeyRef ,
+  useStyleKey ,
   styleKey ,
   styleLaw ,
   paletteLaw ,

@@ -1,0 +1,367 @@
+[
+ {
+  "file": "closeups/cu001_DADI.png",
+  "role": "DADI",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu002_DADI.png",
+  "role": "DADI",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu003_CASTOR.png",
+  "role": "CASTOR",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu004_LEDA.png",
+  "role": "LEDA",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu005_FYURIA.png",
+  "role": "FYURIA",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu006_CASTOR.png",
+  "role": "CASTOR",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu007_CASTOR.png",
+  "role": "CASTOR",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu008_DADI.png",
+  "role": "DADI",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu009_KUKU.png",
+  "role": "KUKU",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu010_DADI.png",
+  "role": "DADI",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu011_VESPER.png",
+  "role": "VESPER",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu012_DADI.png",
+  "role": "DADI",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu013_LEDA.png",
+  "role": "LEDA",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu014_DADI.png",
+  "role": "DADI",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu015_VESPER.png",
+  "role": "VESPER",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu016_FYURIA.png",
+  "role": "FYURIA",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu017_DADI.png",
+  "role": "DADI",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu018_LEDA.png",
+  "role": "LEDA",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu019_DADI.png",
+  "role": "DADI",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu020_KUKU.png",
+  "role": "KUKU",
+  "light": "Dusk"
+ },
+ {
+  "file": "closeups/cu021_FYURIA.png",
+  "role": "FYURIA",
+  "light": "LampNight"
+ },
+ {
+  "file": "closeups/cu022_LEDA.png",
+  "role": "LEDA",
+  "light": "LampNight"
+ },
+ {
+  "file": "closeups/cu023_FYURIA.png",
+  "role": "FYURIA",
+  "light": "LampNight"
+ },
+ {
+  "file": "closeups/cu024_LEDA.png",
+  "role": "LEDA",
+  "light": "LampNight"
+ },
+ {
+  "file": "closeups/cu025_CASTOR.png",
+  "role": "CASTOR",
+  "light": "LampNight"
+ },
+ {
+  "file": "closeups/cu026_KUKU.png",
+  "role": "KUKU",
+  "light": "LampNight"
+ },
+ {
+  "file": "closeups/cu027_VESPER.png",
+  "role": "VESPER",
+  "light": "LampNight"
+ },
+ {
+  "file": "closeups/cu028_VESPER.png",
+  "role": "VESPER",
+  "light": "LampNight"
+ },
+ {
+  "file": "closeups/cu029_LEDA.png",
+  "role": "LEDA",
+  "light": "LampNight"
+ },
+ {
+  "file": "closeups/cu030_LEDA.png",
+  "role": "LEDA",
+  "light": "LampNight"
+ },
+ {
+  "file": "closeups/cu031_CASTOR.png",
+  "role": "CASTOR",
+  "light": "LampNight"
+ },
+ {
+  "file": "closeups/cu032_CASTOR.png",
+  "role": "CASTOR",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu033_CASTOR.png",
+  "role": "CASTOR",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu034_FYURIA.png",
+  "role": "FYURIA",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu035_LEDA.png",
+  "role": "LEDA",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu036_KUKU.png",
+  "role": "KUKU",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu037_FYURIA.png",
+  "role": "FYURIA",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu038_VESPER.png",
+  "role": "VESPER",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu039_KUKU.png",
+  "role": "KUKU",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu040_LEDA.png",
+  "role": "LEDA",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu041_KUKU.png",
+  "role": "KUKU",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu042_FYURIA.png",
+  "role": "FYURIA",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu043_KUKU.png",
+  "role": "KUKU",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu044_LEDA.png",
+  "role": "LEDA",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu045_KUKU.png",
+  "role": "KUKU",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu046_CASTOR.png",
+  "role": "CASTOR",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu047_LEDA.png",
+  "role": "LEDA",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu048_VESPER.png",
+  "role": "VESPER",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu049_LEDA.png",
+  "role": "LEDA",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu050_FYURIA.png",
+  "role": "FYURIA",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu051_KUKU.png",
+  "role": "KUKU",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu052_LEDA.png",
+  "role": "LEDA",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu053_LEDA.png",
+  "role": "LEDA",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu054_KUKU.png",
+  "role": "KUKU",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu055_KUKU.png",
+  "role": "KUKU",
+  "light": "Dark"
+ },
+ {
+  "file": "closeups/cu056_VESPER.png",
+  "role": "VESPER",
+  "light": "Golden"
+ },
+ {
+  "file": "closeups/cu057_LEDA.png",
+  "role": "LEDA",
+  "light": "Golden"
+ },
+ {
+  "file": "closeups/cu058_PAPA.png",
+  "role": "PAPA",
+  "light": "Golden"
+ },
+ {
+  "file": "closeups/cu059_PAPA.png",
+  "role": "PAPA",
+  "light": "Golden"
+ },
+ {
+  "file": "closeups/cu060_KUKU.png",
+  "role": "KUKU",
+  "light": "Golden"
+ },
+ {
+  "file": "closeups/cu061_PAPA.png",
+  "role": "PAPA",
+  "light": "Golden"
+ },
+ {
+  "file": "closeups/cu062_DADI.png",
+  "role": "DADI",
+  "light": "Golden"
+ },
+ {
+  "file": "closeups/cu063_CASTOR.png",
+  "role": "CASTOR",
+  "light": "Golden"
+ },
+ {
+  "file": "closeups/cu064_DADI.png",
+  "role": "DADI",
+  "light": "Golden"
+ },
+ {
+  "file": "closeups/cu065_DADI.png",
+  "role": "DADI",
+  "light": "Golden"
+ },
+ {
+  "file": "closeups/cu066_CASTOR.png",
+  "role": "CASTOR",
+  "light": "Golden"
+ },
+ {
+  "file": "closeups/cu067_VESPER.png",
+  "role": "VESPER",
+  "light": "Golden"
+ },
+ {
+  "file": "closeups/cu068_LEDA.png",
+  "role": "LEDA",
+  "light": "Golden"
+ },
+ {
+  "file": "closeups/cu069_FYURIA.png",
+  "role": "FYURIA",
+  "light": "Golden"
+ },
+ {
+  "file": "closeups/cu070_KUKU.png",
+  "role": "KUKU",
+  "light": "Golden"
+ },
+ {
+  "file": "closeups/cu071_DADI.png",
+  "role": "DADI",
+  "light": "Golden"
+ },
+ {
+  "file": "closeups/cu072_KUKU.png",
+  "role": "KUKU",
+  "light": "NextDusk"
+ },
+ {
+  "file": "closeups/cu073_DADI.png",
+  "role": "DADI",
+  "light": "NextDusk"
+ }
+]

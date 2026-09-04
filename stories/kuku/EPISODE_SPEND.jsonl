@@ -315,323 +315,622 @@
 {"at": "2026-08-27T00:44:50.166089Z", "episode": "EP10", "shot": "PRE_FIX_SCENE1_c2_five_flank", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": "reconstructed from artefacts on disk — superseded take"}
 {"at": "2026-08-27T00:44:50.166091Z", "episode": "EP10", "shot": "CHASE_TEST_seedance25", "kind": "clip", "model": "seedance_2_5", "credits": 32.5, "note": "reconstructed from artefacts on disk — current take"}
 {"at": "2026-08-27T00:44:50.166093Z", "episode": "EP10", "shot": "AUTHOR_ref_clip", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": "reconstructed from artefacts on disk — superseded take"}
-{"at":"2026-08-27T01:16:17.233Z","episode":"EP10","shot":"h13_bell_taken","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-27T02:14:20.416Z","episode":"EP10","shot":"h13_bell_taken","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-27T04:03:31.420Z","episode":"EP10","shot":"s0c_bell_taken","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
-{"at":"2026-08-27T04:51:31.909Z","episode":"EP10","shot":"h53_ring_drill_wide","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-27T04:53:29.236Z","episode":"EP10","shot":"courtyard_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":"set plate"}
-{"at":"2026-08-27T04:55:09.063Z","episode":"EP10","shot":"courtyard_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":"set plate"}
-{"at":"2026-08-27T14:51:26.569Z","episode":"EP10","shot":"courtyard_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":"set plate"}
-{"at":"2026-08-27T14:54:01.856Z","episode":"EP10","shot":"courtyard_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":"set plate"}
-{"at":"2026-08-27T14:56:49.871Z","episode":"EP10","shot":"courtyard_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":"set plate"}
-{"at":"2026-08-27T20:33:06.574Z","episode":"EP10","shot":"h53_ring_drill_wide","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-27T20:37:56.145Z","episode":"EP10","shot":"h53_ring_drill_wide","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-27T22:59:15.617Z","episode":"EP10","shot":"h01_ring_wide","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-27T23:00:04.659Z","episode":"EP10","shot":"h03_furia_mark","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-27T23:00:53.036Z","episode":"EP10","shot":"h04_launch","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-27T23:01:36.200Z","episode":"EP10","shot":"h05_bell_touch","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-27T23:02:16.601Z","episode":"EP10","shot":"h06_landing_paw","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-27T23:03:18.552Z","episode":"EP10","shot":"h09_rishi_boon","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-27T23:04:10.388Z","episode":"EP10","shot":"h14_furia_choice","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-27T23:04:57.998Z","episode":"EP10","shot":"h39_shrink_glow","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-27T23:05:36.102Z","episode":"EP10","shot":"h45_leda_watch_ring","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-27T23:06:20.390Z","episode":"EP10","shot":"h49_leda_relief","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-27T23:10:36.413Z","episode":"EP10","shot":"h05_bell_touch","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-27T23:15:12.133Z","episode":"BUDGETTEST","shot":"—","kind":"budget","model":"—","credits":5,"note":"guard proof"}
-{"at":"2026-08-27T23:15:12.135Z","episode":"BUDGETTEST","shot":"t1","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-27T23:15:33.940Z","episode":"EP10","shot":"—","kind":"budget","model":"—","credits":800,"note":"build-phase cap opened"}
-{"at":"2026-08-27T23:37:32.814Z","episode":"EP10","shot":"s0a_furia_ring","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
-{"at":"2026-08-27T23:42:05.147Z","episode":"EP10","shot":"s0d_bell_touch","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
-{"at":"2026-08-27T23:48:54.365Z","episode":"EP10","shot":"s0d_bell_touch","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
-{"at":"2026-08-27T23:52:51.701Z","episode":"EP10","shot":"s0c_bell_taken","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
-{"at":"2026-08-27T23:53:40.658Z","episode":"EP10","shot":"h54_small_five_stand","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-28T00:05:53.992Z","episode":"EP10","shot":"courtyard_barehook_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":"post-theft plate variant"}
-{"at":"2026-08-28T00:11:54.677Z","episode":"EP10","shot":"h13_bell_taken","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-28T00:13:55.902Z","episode":"EP10","shot":"h14_furia_choice","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-28T00:14:47.824Z","episode":"EP10","shot":"h39_shrink_glow","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-28T00:15:40.634Z","episode":"EP10","shot":"h49_leda_relief","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-28T00:17:11.285Z","episode":"EP10","shot":"h54_small_five_stand","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-28T00:21:08.747Z","episode":"EP10","shot":"h39_shrink_glow","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-28T00:23:02.749Z","episode":"EP10","shot":"s0c_bell_taken","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
-{"at":"2026-08-28T00:25:14.461Z","episode":"EP10","shot":"b1_breath_fail","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
-{"at":"2026-08-28T00:27:52.907Z","episode":"EP10","shot":"b2_forging","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
-{"at":"2026-08-28T00:30:48.633Z","episode":"EP10","shot":"b3_three_beats","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
-{"at":"2026-08-28T00:33:38.865Z","episode":"EP10","shot":"b4_curve_stop","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
-{"at":"2026-08-28T00:36:33.675Z","episode":"EP10","shot":"b5_shrink","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
-{"at":"2026-08-28T00:38:20.561Z","episode":"EP10","shot":"b6_tower_door","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
-{"at":"2026-08-28T00:50:21.231Z","episode":"EP10","shot":"h44_tower_door","kind":"still","model":"nano_banana_pro","credits":2,"note":"hero frame"}
-{"at":"2026-08-28T00:53:22.212Z","episode":"EP10","shot":"h29_ga_stands_shieldout","kind":"edit","model":"nano_banana_pro","credits":2,"note":"shield removed"}
-{"at":"2026-08-28T00:54:12.392Z","episode":"EP10","shot":"h37_cart_into_curve_shieldout","kind":"edit","model":"nano_banana_pro","credits":2,"note":"shield removed"}
-{"at":"2026-08-28T00:56:10.869Z","episode":"EP10","shot":"h38_stopped_shieldout","kind":"edit","model":"nano_banana_pro","credits":2,"note":"shield removed"}
-{"at":"2026-08-28T00:56:18.609Z","episode":"EP10","shot":"b6_tower_door","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
-{"at":"2026-08-28T01:02:04.688Z","episode":"EP10","shot":"b4_curve_stop","kind":"clip","model":"seedance_2_0","credits":22.5,"note":"5s"}
-{"at":"2026-08-28T16:39:15.100Z","episode":"EP10","shot":"—","kind":"budget","model":"—","credits":1000,"note":"build-phase cap opened"}
-{"at":"2026-08-28T16:42:53.316Z","episode":"EP10","shot":"charsheet_gauri","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T16:44:56.171Z","episode":"EP10","shot":"charsheet_vesper_small","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T16:48:17.219Z","episode":"EP10","shot":"courtyard_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T16:48:58.262Z","episode":"EP10","shot":"lane_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T16:49:57.190Z","episode":"EP10","shot":"flat_stone_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T16:50:38.238Z","episode":"EP10","shot":"tower_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T16:51:25.270Z","episode":"EP10","shot":"doorway_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T16:54:03.320Z","episode":"EP10","shot":"grass_verge_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T16:59:02.142Z","episode":"EP10","shot":"lane_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T16:59:43.257Z","episode":"EP10","shot":"flat_stone_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T17:01:51.605Z","episode":"EP10","shot":"tower_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T17:02:30.281Z","episode":"EP10","shot":"doorway_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T17:05:27.567Z","episode":"EP10","shot":"lane_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T17:07:14.354Z","episode":"EP10","shot":"flat_stone_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T17:07:55.459Z","episode":"EP10","shot":"tower_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T17:08:35.923Z","episode":"EP10","shot":"grass_verge_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T17:11:51.059Z","episode":"EP10","shot":"flat_stone_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T17:12:31.848Z","episode":"EP10","shot":"grass_verge_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T17:14:46.800Z","episode":"EP10","shot":"grass_verge_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T17:16:24.817Z","episode":"EP10","shot":"grass_verge_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T17:19:45.754Z","episode":"EP10","shot":"grass_verge_discs_out","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T17:21:43.535Z","episode":"EP10","shot":"h01_ring_wide","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T17:22:41.176Z","episode":"EP10","shot":"h02_rishi_teach","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T17:23:28.436Z","episode":"EP10","shot":"h03_furia_mark","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T17:26:15.115Z","episode":"EP10","shot":"h04_launch","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T21:42:18.744Z","episode":"EP10","shot":"h05_bell_touch","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T21:43:12.440Z","episode":"EP10","shot":"h06_landing_paw","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T21:43:55.164Z","episode":"EP10","shot":"h45_leda_watch_ring","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T21:44:38.959Z","episode":"EP10","shot":"h51_gauri_grazing","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T21:45:28.817Z","episode":"EP10","shot":"h52_gauri_hay_cart","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T21:46:15.352Z","episode":"EP10","shot":"h07_cart_tethered","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T21:47:01.357Z","episode":"EP10","shot":"h08_gauri_close","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T21:48:38.035Z","episode":"EP10","shot":"h09_rishi_boon","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T21:49:41.865Z","episode":"EP10","shot":"h53_ring_drill_wide","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T21:50:44.719Z","episode":"EP10","shot":"h10_cheel_tower","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T21:51:36.688Z","episode":"EP10","shot":"h11_shards_close","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T21:52:15.697Z","episode":"EP10","shot":"h12_rope_slip","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T21:53:15.693Z","episode":"EP10","shot":"h13_bell_taken","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T21:54:18.952Z","episode":"EP10","shot":"h14_furia_choice","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T21:56:40.783Z","episode":"EP10","shot":"h15_cart_runs","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:08:12.304Z","episode":"EP10","shot":"h16_five_flank","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:11:13.950Z","episode":"EP10","shot":"h17_group_lift","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:12:05.208Z","episode":"EP10","shot":"h18_cow_slips","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:13:12.754Z","episode":"EP10","shot":"h19_wheels_return","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:15:01.494Z","episode":"EP10","shot":"h46_leda_calls_lane","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:16:25.464Z","episode":"EP10","shot":"h20_furia_brake","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:17:38.407Z","episode":"EP10","shot":"h21_vesper_above","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:20:23.594Z","episode":"EP10","shot":"h22_castor_calm","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:21:25.509Z","episode":"EP10","shot":"h23_marker_pass","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:23:40.591Z","episode":"EP10","shot":"h24_kuku_breath_fail","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:25:27.265Z","episode":"EP10","shot":"h25_leda_knock","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:26:17.018Z","episode":"EP10","shot":"h26_tings","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:27:23.869Z","episode":"EP10","shot":"h27_kuku_hears","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:28:27.628Z","episode":"EP10","shot":"h48_leda_counts","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:29:24.770Z","episode":"EP10","shot":"h28_forging","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:29:54.279Z","episode":"EP10","shot":"h47_leda_warns","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:30:14.182Z","episode":"EP10","shot":"h29_ga_stands","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:30:57.788Z","episode":"EP10","shot":"h30_bracelets","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:31:44.804Z","episode":"EP10","shot":"h31_vesper_yawn","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:32:12.407Z","episode":"EP10","shot":"h47_leda_warns","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:32:44.367Z","episode":"EP10","shot":"h32_cart_drifts","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:34:59.725Z","episode":"EP10","shot":"h47_leda_warns","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:35:30.802Z","episode":"EP10","shot":"h34_furia_refuses","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:36:28.944Z","episode":"EP10","shot":"h35_last_marker","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:37:38.277Z","episode":"EP10","shot":"h36_three_beats","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:38:38.403Z","episode":"EP10","shot":"h37_cart_into_curve","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:39:43.825Z","episode":"EP10","shot":"h38_stopped","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:40:47.338Z","episode":"EP10","shot":"h39_shrink_glow","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:47:36.928Z","episode":"EP10","shot":"h43_vesper_asleep","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T22:49:28.702Z","episode":"EP10","shot":"h44_tower_door","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T23:02:57.475Z","episode":"EP10","shot":"h33_cheel_flyover","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T23:04:05.086Z","episode":"EP10","shot":"h49_leda_relief","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T23:08:35.406Z","episode":"EP10","shot":"h54_small_five_stand","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T23:11:12.511Z","episode":"EP10","shot":"h40_small_five_sit","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T23:13:00.577Z","episode":"EP10","shot":"h41_castor_in_hay","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T23:14:16.814Z","episode":"EP10","shot":"h50_leda_small_sits","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T23:15:27.016Z","episode":"EP10","shot":"h42_doorway_dadi","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T23:19:31.730Z","episode":"EP10","shot":"h35_last_marker","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T23:20:23.481Z","episode":"EP10","shot":"h37_cart_into_curve","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T23:21:03.503Z","episode":"EP10","shot":"h38_stopped","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T23:50:21.555Z","episode":"EP10","shot":"lane_markers_flush","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T23:54:00.345Z","episode":"EP10","shot":"charsheet_kuku","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T23:54:40.763Z","episode":"EP10","shot":"charsheet_furia","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T23:55:14.740Z","episode":"EP10","shot":"charsheet_castor","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-28T23:56:44.869Z","episode":"EP10","shot":"charsheet_leda_small","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:01:55.367Z","episode":"EP10","shot":"lane_markers_three","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:06:00.892Z","episode":"EP10","shot":"h01_ring_wide","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:07:20.263Z","episode":"EP10","shot":"h02_rishi_teach","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:08:17.301Z","episode":"EP10","shot":"h03_furia_mark","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:09:10.655Z","episode":"EP10","shot":"h04_launch","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:10:03.231Z","episode":"EP10","shot":"h05_bell_touch","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:10:59.425Z","episode":"EP10","shot":"h06_landing_paw","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:11:55.695Z","episode":"EP10","shot":"h45_leda_watch_ring","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:12:40.206Z","episode":"EP10","shot":"h51_gauri_grazing","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:13:34.753Z","episode":"EP10","shot":"h52_gauri_hay_cart","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:14:33.906Z","episode":"EP10","shot":"h07_cart_tethered","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:17:21.006Z","episode":"EP10","shot":"h08_gauri_close","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:18:23.804Z","episode":"EP10","shot":"h09_rishi_boon","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:19:28.373Z","episode":"EP10","shot":"h53_ring_drill_wide","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:20:17.537Z","episode":"EP10","shot":"h10_cheel_tower","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:21:08.772Z","episode":"EP10","shot":"h11_shards_close","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:22:16.323Z","episode":"EP10","shot":"h12_rope_slip","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:23:11.992Z","episode":"EP10","shot":"h13_bell_taken","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:24:05.469Z","episode":"EP10","shot":"h14_furia_choice","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:25:30.228Z","episode":"EP10","shot":"h15_cart_runs","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:26:44.282Z","episode":"EP10","shot":"h16_five_flank","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:28:05.080Z","episode":"EP10","shot":"h17_group_lift","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:29:09.655Z","episode":"EP10","shot":"h18_cow_slips","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:30:04.223Z","episode":"EP10","shot":"h19_wheels_return","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:30:59.003Z","episode":"EP10","shot":"h46_leda_calls_lane","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:33:49.284Z","episode":"EP10","shot":"h20_furia_brake","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:34:55.235Z","episode":"EP10","shot":"h21_vesper_above","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:36:04.642Z","episode":"EP10","shot":"h22_castor_calm","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:37:05.481Z","episode":"EP10","shot":"h23_marker_pass","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:38:19.737Z","episode":"EP10","shot":"h24_kuku_breath_fail","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:39:15.705Z","episode":"EP10","shot":"h47_leda_warns","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:40:14.280Z","episode":"EP10","shot":"h25_leda_knock","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:42:40.728Z","episode":"EP10","shot":"h26_tings","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:45:55.394Z","episode":"EP10","shot":"h27_kuku_hears","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:46:52.174Z","episode":"EP10","shot":"h48_leda_counts","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:47:48.855Z","episode":"EP10","shot":"h28_forging","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:48:36.911Z","episode":"EP10","shot":"h29_ga_stands","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:49:21.270Z","episode":"EP10","shot":"h30_bracelets","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:52:10.319Z","episode":"EP10","shot":"h31_vesper_yawn","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:53:14.204Z","episode":"EP10","shot":"h32_cart_drifts","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:55:15.136Z","episode":"EP10","shot":"h33_cheel_flyover","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:56:17.419Z","episode":"EP10","shot":"h34_furia_refuses","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:57:03.889Z","episode":"EP10","shot":"h35_last_marker","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:58:10.814Z","episode":"EP10","shot":"h36_three_beats","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:58:50.384Z","episode":"EP10","shot":"h37_cart_into_curve","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T00:59:47.541Z","episode":"EP10","shot":"h38_stopped","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:00:34.551Z","episode":"EP10","shot":"h49_leda_relief","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:01:16.937Z","episode":"EP10","shot":"h39_shrink_glow","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:02:21.484Z","episode":"EP10","shot":"h54_small_five_stand","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:03:22.918Z","episode":"EP10","shot":"h40_small_five_sit","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:04:13.446Z","episode":"EP10","shot":"h41_castor_in_hay","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:04:58.124Z","episode":"EP10","shot":"h50_leda_small_sits","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:05:52.151Z","episode":"EP10","shot":"h42_doorway_dadi","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:08:09.727Z","episode":"EP10","shot":"h43_vesper_asleep","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:09:12.884Z","episode":"EP10","shot":"h44_tower_door","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:24:24.053Z","episode":"EP10","shot":"courtyard_bell_plate","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:26:01.428Z","episode":"EP10","shot":"lane_markers_bands","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:29:31.275Z","episode":"EP10","shot":"h01_ring_wide","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:30:21.062Z","episode":"EP10","shot":"h03_furia_mark","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:31:11.810Z","episode":"EP10","shot":"h45_leda_watch_ring","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:32:01.790Z","episode":"EP10","shot":"h52_gauri_hay_cart","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:32:53.567Z","episode":"EP10","shot":"h07_cart_tethered","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:34:04.595Z","episode":"EP10","shot":"h13_bell_taken","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:36:09.693Z","episode":"EP10","shot":"h15_cart_runs","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:37:22.254Z","episode":"EP10","shot":"h16_five_flank","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:38:36.769Z","episode":"EP10","shot":"h17_group_lift","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:39:24.266Z","episode":"EP10","shot":"h18_cow_slips","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:40:17.832Z","episode":"EP10","shot":"h19_wheels_return","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:41:14.910Z","episode":"EP10","shot":"h46_leda_calls_lane","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:42:12.417Z","episode":"EP10","shot":"h20_furia_brake","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:43:12.918Z","episode":"EP10","shot":"h21_vesper_above","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:44:01.106Z","episode":"EP10","shot":"h22_castor_calm","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:45:05.570Z","episode":"EP10","shot":"h23_marker_pass","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:46:00.684Z","episode":"EP10","shot":"h24_kuku_breath_fail","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:47:30.934Z","episode":"EP10","shot":"h47_leda_warns","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:48:20.336Z","episode":"EP10","shot":"h25_leda_knock","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:49:17.487Z","episode":"EP10","shot":"h28_forging","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:50:04.718Z","episode":"EP10","shot":"h29_ga_stands","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:50:48.194Z","episode":"EP10","shot":"h30_bracelets","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:51:37.407Z","episode":"EP10","shot":"h31_vesper_yawn","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:53:01.098Z","episode":"EP10","shot":"h33_cheel_flyover","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:53:53.150Z","episode":"EP10","shot":"h34_furia_refuses","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:56:12.353Z","episode":"EP10","shot":"h35_last_marker","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:56:56.484Z","episode":"EP10","shot":"h36_three_beats","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:57:37.036Z","episode":"EP10","shot":"h37_cart_into_curve","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:58:16.793Z","episode":"EP10","shot":"h38_stopped","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:59:00.598Z","episode":"EP10","shot":"h49_leda_relief","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T01:59:49.024Z","episode":"EP10","shot":"h39_shrink_glow","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T02:02:11.232Z","episode":"EP10","shot":"h50_leda_small_sits","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T02:03:03.273Z","episode":"EP10","shot":"h54_small_five_stand","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T02:51:34.010Z","episode":"EP10","shot":"courtyard_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T02:52:19.784Z","episode":"EP10","shot":"lane_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T02:54:22.338Z","episode":"EP10","shot":"flat_stone_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T02:55:34.398Z","episode":"EP10","shot":"tower_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T02:56:15.826Z","episode":"EP10","shot":"doorway_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T02:58:33.028Z","episode":"EP10","shot":"grass_verge_plate","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T02:59:24.431Z","episode":"EP10","shot":"courtyard_bell_plate","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:02:11.578Z","episode":"EP10","shot":"h01_ring_wide","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:03:38.396Z","episode":"EP10","shot":"h02_rishi_teach","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:04:24.901Z","episode":"EP10","shot":"h03_furia_mark","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:05:07.114Z","episode":"EP10","shot":"h04_launch","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:05:47.111Z","episode":"EP10","shot":"h05_bell_touch","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:06:26.676Z","episode":"EP10","shot":"h06_landing_paw","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:07:10.423Z","episode":"EP10","shot":"h45_leda_watch_ring","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:08:02.139Z","episode":"EP10","shot":"h51_gauri_grazing","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:09:56.869Z","episode":"EP10","shot":"h09_rishi_boon","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:10:46.215Z","episode":"EP10","shot":"h53_ring_drill_wide","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:11:49.466Z","episode":"EP10","shot":"h10_cheel_tower","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:12:27.733Z","episode":"EP10","shot":"h11_shards_close","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:13:18.208Z","episode":"EP10","shot":"h13_bell_taken","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:14:07.894Z","episode":"EP10","shot":"h14_furia_choice","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:14:48.146Z","episode":"EP10","shot":"h25_leda_knock","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:15:25.930Z","episode":"EP10","shot":"h26_tings","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:16:12.296Z","episode":"EP10","shot":"h27_kuku_hears","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:16:55.958Z","episode":"EP10","shot":"h48_leda_counts","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:19:26.475Z","episode":"EP10","shot":"h28_forging","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:21:28.622Z","episode":"EP10","shot":"h29_ga_stands","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:22:08.511Z","episode":"EP10","shot":"h30_bracelets","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:22:52.415Z","episode":"EP10","shot":"h32_cart_drifts","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:24:00.099Z","episode":"EP10","shot":"h37_cart_into_curve","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:24:54.950Z","episode":"EP10","shot":"h38_stopped","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:25:49.029Z","episode":"EP10","shot":"h49_leda_relief","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:28:36.821Z","episode":"EP10","shot":"h39_shrink_glow","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:29:52.938Z","episode":"EP10","shot":"h54_small_five_stand","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:30:49.764Z","episode":"EP10","shot":"h40_small_five_sit","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:31:53.156Z","episode":"EP10","shot":"h41_castor_in_hay","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:32:38.301Z","episode":"EP10","shot":"h50_leda_small_sits","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:33:32.418Z","episode":"EP10","shot":"h42_doorway_dadi","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:34:38.256Z","episode":"EP10","shot":"h43_vesper_asleep","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T03:35:32.974Z","episode":"EP10","shot":"h44_tower_door","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:09:03.417Z","episode":"EP10","shot":"h52_gauri_hay_cart_repair0","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:09:39.774Z","episode":"EP10","shot":"h17_group_lift_repair0","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:10:26.859Z","episode":"EP10","shot":"h19_wheels_return_repair0","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:11:02.521Z","episode":"EP10","shot":"h22_castor_calm_repair0","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:11:40.646Z","episode":"EP10","shot":"h46_leda_calls_lane_repair0","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:12:15.616Z","episode":"EP10","shot":"h20_furia_brake_repair0","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:12:50.101Z","episode":"EP10","shot":"h28_forging_repair0","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:13:25.699Z","episode":"EP10","shot":"h29_ga_stands_repair0","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:15:26.003Z","episode":"EP10","shot":"h37_cart_into_curve_repair0","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:16:07.827Z","episode":"EP10","shot":"h37_cart_into_curve_repair1","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:16:53.135Z","episode":"EP10","shot":"h35_last_marker_repair0","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:17:28.176Z","episode":"EP10","shot":"h01_ring_wide_repair0","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:18:18.683Z","episode":"EP10","shot":"h24_kuku_breath_fail_repair0","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:19:02.823Z","episode":"EP10","shot":"h15_cart_runs","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:22:30.460Z","episode":"EP10","shot":"h16_five_flank","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:23:37.776Z","episode":"EP10","shot":"h18_cow_slips","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:24:37.426Z","episode":"EP10","shot":"h21_vesper_above","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:25:18.829Z","episode":"EP10","shot":"h23_marker_pass","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:26:02.750Z","episode":"EP10","shot":"h31_vesper_yawn","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:27:04.813Z","episode":"EP10","shot":"h34_furia_refuses","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:29:30.475Z","episode":"EP10","shot":"h36_three_beats","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:35:24.870Z","episode":"EP10","shot":"h38_stopped","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:36:02.084Z","episode":"EP10","shot":"h49_leda_relief","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:37:01.599Z","episode":"EP10","shot":"h50_leda_small_sits","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T04:38:00.001Z","episode":"EP10","shot":"h54_small_five_stand","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T05:10:42.556Z","episode":"EP10","shot":"h15_cart_runs_repair0","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T05:13:05.813Z","episode":"EP10","shot":"h16_five_flank_repair0","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T05:13:41.039Z","episode":"EP10","shot":"h23_marker_pass_repair0","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T05:16:29.112Z","episode":"EP10","shot":"h21_vesper_above","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T05:17:51.618Z","episode":"EP10","shot":"h36_three_beats","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T05:18:28.162Z","episode":"EP10","shot":"h38_stopped","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T05:19:06.091Z","episode":"EP10","shot":"h29_ga_stands","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T05:21:03.927Z","episode":"EP10","shot":"h37_cart_into_curve","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T05:21:55.590Z","episode":"EP10","shot":"h50_leda_small_sits","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T05:44:07.545Z","episode":"EP10","shot":"h29_ga_stands_repair0","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T05:45:03.214Z","episode":"EP10","shot":"h37_cart_into_curve_repair0","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T05:45:52.026Z","episode":"EP10","shot":"h38_stopped_repair0","kind":"edit","model":"nano_banana_pro","credits":2,"note":""}
-{"at":"2026-08-29T05:54:57.905Z","episode":"EP10","shot":"c1_breaks_away","kind":"clip","model":"seedance_2_0","credits":45,"note":""}
-{"at":"2026-08-29T05:59:22.600Z","episode":"EP10","shot":"c2_five_flank","kind":"clip","model":"seedance_2_0","credits":22.5,"note":""}
-{"at":"2026-08-29T06:03:32.039Z","episode":"EP10","shot":"c3_failed_lift","kind":"clip","model":"seedance_2_0","credits":22.5,"note":""}
-{"at":"2026-08-29T06:06:27.511Z","episode":"EP10","shot":"c4_wheels_return","kind":"clip","model":"seedance_2_0","credits":22.5,"note":""}
-{"at":"2026-08-29T06:09:15.056Z","episode":"EP10","shot":"s0a_furia_ring","kind":"clip","model":"seedance_2_0","credits":22.5,"note":""}
-{"at":"2026-08-29T06:12:31.783Z","episode":"EP10","shot":"s0b_rope_slips","kind":"clip","model":"seedance_2_0","credits":22.5,"note":""}
-{"at":"2026-08-29T06:17:33.597Z","episode":"EP10","shot":"s0c_bell_taken","kind":"clip","model":"seedance_2_0","credits":22.5,"note":""}
-{"at":"2026-08-29T06:20:38.750Z","episode":"EP10","shot":"s0d_bell_touch","kind":"clip","model":"seedance_2_0","credits":22.5,"note":""}
-{"at":"2026-08-29T06:25:49.418Z","episode":"EP10","shot":"b1_breath_fail","kind":"clip","model":"seedance_2_0","credits":22.5,"note":""}
-{"at":"2026-08-29T06:30:41.455Z","episode":"EP10","shot":"b3_three_beats","kind":"clip","model":"seedance_2_0","credits":22.5,"note":""}
-{"at":"2026-08-29T06:35:47.783Z","episode":"EP10","shot":"b5_shrink","kind":"clip","model":"seedance_2_0","credits":22.5,"note":""}
-{"at":"2026-08-29T06:39:07.038Z","episode":"EP10","shot":"b6_tower_door","kind":"clip","model":"seedance_2_0","credits":22.5,"note":""}
-{"at":"2026-08-29T06:41:35.663Z","episode":"EP10","shot":"s2a_furia_brakes","kind":"clip","model":"seedance_2_0","credits":22.5,"note":""}
-{"at":"2026-08-29T06:44:31.421Z","episode":"EP10","shot":"s2b_marker_passes","kind":"clip","model":"seedance_2_0","credits":22.5,"note":""}
-{"at":"2026-08-29T06:52:32.767Z","episode":"EP10","shot":"s2c_castor_talks","kind":"clip","model":"seedance_2_0","credits":22.5,"note":""}
-{"at":"2026-08-29T06:58:17.745Z","episode":"EP10","shot":"b2_forging","kind":"clip","model":"seedance_2_0","credits":22.5,"note":""}
-{"at":"2026-08-29T07:01:28.980Z","episode":"EP10","shot":"b4_curve_stop","kind":"clip","model":"seedance_2_0","credits":22.5,"note":""}
+{"at": "2026-08-27T01:16:17.233Z", "episode": "EP10", "shot": "h13_bell_taken", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-27T02:14:20.416Z", "episode": "EP10", "shot": "h13_bell_taken", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-27T04:03:31.420Z", "episode": "EP10", "shot": "s0c_bell_taken", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": "5s"}
+{"at": "2026-08-27T04:51:31.909Z", "episode": "EP10", "shot": "h53_ring_drill_wide", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-27T04:53:29.236Z", "episode": "EP10", "shot": "courtyard_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": "set plate"}
+{"at": "2026-08-27T04:55:09.063Z", "episode": "EP10", "shot": "courtyard_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": "set plate"}
+{"at": "2026-08-27T14:51:26.569Z", "episode": "EP10", "shot": "courtyard_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": "set plate"}
+{"at": "2026-08-27T14:54:01.856Z", "episode": "EP10", "shot": "courtyard_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": "set plate"}
+{"at": "2026-08-27T14:56:49.871Z", "episode": "EP10", "shot": "courtyard_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": "set plate"}
+{"at": "2026-08-27T20:33:06.574Z", "episode": "EP10", "shot": "h53_ring_drill_wide", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-27T20:37:56.145Z", "episode": "EP10", "shot": "h53_ring_drill_wide", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-27T22:59:15.617Z", "episode": "EP10", "shot": "h01_ring_wide", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-27T23:00:04.659Z", "episode": "EP10", "shot": "h03_furia_mark", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-27T23:00:53.036Z", "episode": "EP10", "shot": "h04_launch", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-27T23:01:36.200Z", "episode": "EP10", "shot": "h05_bell_touch", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-27T23:02:16.601Z", "episode": "EP10", "shot": "h06_landing_paw", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-27T23:03:18.552Z", "episode": "EP10", "shot": "h09_rishi_boon", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-27T23:04:10.388Z", "episode": "EP10", "shot": "h14_furia_choice", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-27T23:04:57.998Z", "episode": "EP10", "shot": "h39_shrink_glow", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-27T23:05:36.102Z", "episode": "EP10", "shot": "h45_leda_watch_ring", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-27T23:06:20.390Z", "episode": "EP10", "shot": "h49_leda_relief", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-27T23:10:36.413Z", "episode": "EP10", "shot": "h05_bell_touch", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-27T23:15:12.133Z", "episode": "BUDGETTEST", "shot": "—", "kind": "budget", "model": "—", "credits": 5, "note": "guard proof"}
+{"at": "2026-08-27T23:15:12.135Z", "episode": "BUDGETTEST", "shot": "t1", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-27T23:15:33.940Z", "episode": "EP10", "shot": "—", "kind": "budget", "model": "—", "credits": 800, "note": "build-phase cap opened"}
+{"at": "2026-08-27T23:37:32.814Z", "episode": "EP10", "shot": "s0a_furia_ring", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": "5s"}
+{"at": "2026-08-27T23:42:05.147Z", "episode": "EP10", "shot": "s0d_bell_touch", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": "5s"}
+{"at": "2026-08-27T23:48:54.365Z", "episode": "EP10", "shot": "s0d_bell_touch", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": "5s"}
+{"at": "2026-08-27T23:52:51.701Z", "episode": "EP10", "shot": "s0c_bell_taken", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": "5s"}
+{"at": "2026-08-27T23:53:40.658Z", "episode": "EP10", "shot": "h54_small_five_stand", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-28T00:05:53.992Z", "episode": "EP10", "shot": "courtyard_barehook_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": "post-theft plate variant"}
+{"at": "2026-08-28T00:11:54.677Z", "episode": "EP10", "shot": "h13_bell_taken", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-28T00:13:55.902Z", "episode": "EP10", "shot": "h14_furia_choice", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-28T00:14:47.824Z", "episode": "EP10", "shot": "h39_shrink_glow", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-28T00:15:40.634Z", "episode": "EP10", "shot": "h49_leda_relief", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-28T00:17:11.285Z", "episode": "EP10", "shot": "h54_small_five_stand", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-28T00:21:08.747Z", "episode": "EP10", "shot": "h39_shrink_glow", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-28T00:23:02.749Z", "episode": "EP10", "shot": "s0c_bell_taken", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": "5s"}
+{"at": "2026-08-28T00:25:14.461Z", "episode": "EP10", "shot": "b1_breath_fail", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": "5s"}
+{"at": "2026-08-28T00:27:52.907Z", "episode": "EP10", "shot": "b2_forging", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": "5s"}
+{"at": "2026-08-28T00:30:48.633Z", "episode": "EP10", "shot": "b3_three_beats", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": "5s"}
+{"at": "2026-08-28T00:33:38.865Z", "episode": "EP10", "shot": "b4_curve_stop", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": "5s"}
+{"at": "2026-08-28T00:36:33.675Z", "episode": "EP10", "shot": "b5_shrink", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": "5s"}
+{"at": "2026-08-28T00:38:20.561Z", "episode": "EP10", "shot": "b6_tower_door", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": "5s"}
+{"at": "2026-08-28T00:50:21.231Z", "episode": "EP10", "shot": "h44_tower_door", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": "hero frame"}
+{"at": "2026-08-28T00:53:22.212Z", "episode": "EP10", "shot": "h29_ga_stands_shieldout", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": "shield removed"}
+{"at": "2026-08-28T00:54:12.392Z", "episode": "EP10", "shot": "h37_cart_into_curve_shieldout", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": "shield removed"}
+{"at": "2026-08-28T00:56:10.869Z", "episode": "EP10", "shot": "h38_stopped_shieldout", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": "shield removed"}
+{"at": "2026-08-28T00:56:18.609Z", "episode": "EP10", "shot": "b6_tower_door", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": "5s"}
+{"at": "2026-08-28T01:02:04.688Z", "episode": "EP10", "shot": "b4_curve_stop", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": "5s"}
+{"at": "2026-08-28T16:39:15.100Z", "episode": "EP10", "shot": "—", "kind": "budget", "model": "—", "credits": 1000, "note": "build-phase cap opened"}
+{"at": "2026-08-28T16:42:53.316Z", "episode": "EP10", "shot": "charsheet_gauri", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T16:44:56.171Z", "episode": "EP10", "shot": "charsheet_vesper_small", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T16:48:17.219Z", "episode": "EP10", "shot": "courtyard_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T16:48:58.262Z", "episode": "EP10", "shot": "lane_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T16:49:57.190Z", "episode": "EP10", "shot": "flat_stone_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T16:50:38.238Z", "episode": "EP10", "shot": "tower_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T16:51:25.270Z", "episode": "EP10", "shot": "doorway_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T16:54:03.320Z", "episode": "EP10", "shot": "grass_verge_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T16:59:02.142Z", "episode": "EP10", "shot": "lane_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T16:59:43.257Z", "episode": "EP10", "shot": "flat_stone_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T17:01:51.605Z", "episode": "EP10", "shot": "tower_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T17:02:30.281Z", "episode": "EP10", "shot": "doorway_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T17:05:27.567Z", "episode": "EP10", "shot": "lane_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T17:07:14.354Z", "episode": "EP10", "shot": "flat_stone_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T17:07:55.459Z", "episode": "EP10", "shot": "tower_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T17:08:35.923Z", "episode": "EP10", "shot": "grass_verge_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T17:11:51.059Z", "episode": "EP10", "shot": "flat_stone_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T17:12:31.848Z", "episode": "EP10", "shot": "grass_verge_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T17:14:46.800Z", "episode": "EP10", "shot": "grass_verge_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T17:16:24.817Z", "episode": "EP10", "shot": "grass_verge_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T17:19:45.754Z", "episode": "EP10", "shot": "grass_verge_discs_out", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T17:21:43.535Z", "episode": "EP10", "shot": "h01_ring_wide", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T17:22:41.176Z", "episode": "EP10", "shot": "h02_rishi_teach", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T17:23:28.436Z", "episode": "EP10", "shot": "h03_furia_mark", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T17:26:15.115Z", "episode": "EP10", "shot": "h04_launch", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T21:42:18.744Z", "episode": "EP10", "shot": "h05_bell_touch", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T21:43:12.440Z", "episode": "EP10", "shot": "h06_landing_paw", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T21:43:55.164Z", "episode": "EP10", "shot": "h45_leda_watch_ring", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T21:44:38.959Z", "episode": "EP10", "shot": "h51_gauri_grazing", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T21:45:28.817Z", "episode": "EP10", "shot": "h52_gauri_hay_cart", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T21:46:15.352Z", "episode": "EP10", "shot": "h07_cart_tethered", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T21:47:01.357Z", "episode": "EP10", "shot": "h08_gauri_close", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T21:48:38.035Z", "episode": "EP10", "shot": "h09_rishi_boon", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T21:49:41.865Z", "episode": "EP10", "shot": "h53_ring_drill_wide", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T21:50:44.719Z", "episode": "EP10", "shot": "h10_cheel_tower", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T21:51:36.688Z", "episode": "EP10", "shot": "h11_shards_close", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T21:52:15.697Z", "episode": "EP10", "shot": "h12_rope_slip", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T21:53:15.693Z", "episode": "EP10", "shot": "h13_bell_taken", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T21:54:18.952Z", "episode": "EP10", "shot": "h14_furia_choice", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T21:56:40.783Z", "episode": "EP10", "shot": "h15_cart_runs", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:08:12.304Z", "episode": "EP10", "shot": "h16_five_flank", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:11:13.950Z", "episode": "EP10", "shot": "h17_group_lift", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:12:05.208Z", "episode": "EP10", "shot": "h18_cow_slips", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:13:12.754Z", "episode": "EP10", "shot": "h19_wheels_return", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:15:01.494Z", "episode": "EP10", "shot": "h46_leda_calls_lane", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:16:25.464Z", "episode": "EP10", "shot": "h20_furia_brake", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:17:38.407Z", "episode": "EP10", "shot": "h21_vesper_above", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:20:23.594Z", "episode": "EP10", "shot": "h22_castor_calm", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:21:25.509Z", "episode": "EP10", "shot": "h23_marker_pass", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:23:40.591Z", "episode": "EP10", "shot": "h24_kuku_breath_fail", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:25:27.265Z", "episode": "EP10", "shot": "h25_leda_knock", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:26:17.018Z", "episode": "EP10", "shot": "h26_tings", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:27:23.869Z", "episode": "EP10", "shot": "h27_kuku_hears", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:28:27.628Z", "episode": "EP10", "shot": "h48_leda_counts", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:29:24.770Z", "episode": "EP10", "shot": "h28_forging", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:29:54.279Z", "episode": "EP10", "shot": "h47_leda_warns", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:30:14.182Z", "episode": "EP10", "shot": "h29_ga_stands", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:30:57.788Z", "episode": "EP10", "shot": "h30_bracelets", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:31:44.804Z", "episode": "EP10", "shot": "h31_vesper_yawn", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:32:12.407Z", "episode": "EP10", "shot": "h47_leda_warns", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:32:44.367Z", "episode": "EP10", "shot": "h32_cart_drifts", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:34:59.725Z", "episode": "EP10", "shot": "h47_leda_warns", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:35:30.802Z", "episode": "EP10", "shot": "h34_furia_refuses", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:36:28.944Z", "episode": "EP10", "shot": "h35_last_marker", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:37:38.277Z", "episode": "EP10", "shot": "h36_three_beats", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:38:38.403Z", "episode": "EP10", "shot": "h37_cart_into_curve", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:39:43.825Z", "episode": "EP10", "shot": "h38_stopped", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:40:47.338Z", "episode": "EP10", "shot": "h39_shrink_glow", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:47:36.928Z", "episode": "EP10", "shot": "h43_vesper_asleep", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T22:49:28.702Z", "episode": "EP10", "shot": "h44_tower_door", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T23:02:57.475Z", "episode": "EP10", "shot": "h33_cheel_flyover", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T23:04:05.086Z", "episode": "EP10", "shot": "h49_leda_relief", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T23:08:35.406Z", "episode": "EP10", "shot": "h54_small_five_stand", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T23:11:12.511Z", "episode": "EP10", "shot": "h40_small_five_sit", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T23:13:00.577Z", "episode": "EP10", "shot": "h41_castor_in_hay", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T23:14:16.814Z", "episode": "EP10", "shot": "h50_leda_small_sits", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T23:15:27.016Z", "episode": "EP10", "shot": "h42_doorway_dadi", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T23:19:31.730Z", "episode": "EP10", "shot": "h35_last_marker", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T23:20:23.481Z", "episode": "EP10", "shot": "h37_cart_into_curve", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T23:21:03.503Z", "episode": "EP10", "shot": "h38_stopped", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T23:50:21.555Z", "episode": "EP10", "shot": "lane_markers_flush", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T23:54:00.345Z", "episode": "EP10", "shot": "charsheet_kuku", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T23:54:40.763Z", "episode": "EP10", "shot": "charsheet_furia", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T23:55:14.740Z", "episode": "EP10", "shot": "charsheet_castor", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-28T23:56:44.869Z", "episode": "EP10", "shot": "charsheet_leda_small", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:01:55.367Z", "episode": "EP10", "shot": "lane_markers_three", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:06:00.892Z", "episode": "EP10", "shot": "h01_ring_wide", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:07:20.263Z", "episode": "EP10", "shot": "h02_rishi_teach", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:08:17.301Z", "episode": "EP10", "shot": "h03_furia_mark", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:09:10.655Z", "episode": "EP10", "shot": "h04_launch", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:10:03.231Z", "episode": "EP10", "shot": "h05_bell_touch", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:10:59.425Z", "episode": "EP10", "shot": "h06_landing_paw", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:11:55.695Z", "episode": "EP10", "shot": "h45_leda_watch_ring", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:12:40.206Z", "episode": "EP10", "shot": "h51_gauri_grazing", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:13:34.753Z", "episode": "EP10", "shot": "h52_gauri_hay_cart", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:14:33.906Z", "episode": "EP10", "shot": "h07_cart_tethered", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:17:21.006Z", "episode": "EP10", "shot": "h08_gauri_close", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:18:23.804Z", "episode": "EP10", "shot": "h09_rishi_boon", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:19:28.373Z", "episode": "EP10", "shot": "h53_ring_drill_wide", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:20:17.537Z", "episode": "EP10", "shot": "h10_cheel_tower", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:21:08.772Z", "episode": "EP10", "shot": "h11_shards_close", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:22:16.323Z", "episode": "EP10", "shot": "h12_rope_slip", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:23:11.992Z", "episode": "EP10", "shot": "h13_bell_taken", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:24:05.469Z", "episode": "EP10", "shot": "h14_furia_choice", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:25:30.228Z", "episode": "EP10", "shot": "h15_cart_runs", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:26:44.282Z", "episode": "EP10", "shot": "h16_five_flank", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:28:05.080Z", "episode": "EP10", "shot": "h17_group_lift", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:29:09.655Z", "episode": "EP10", "shot": "h18_cow_slips", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:30:04.223Z", "episode": "EP10", "shot": "h19_wheels_return", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:30:59.003Z", "episode": "EP10", "shot": "h46_leda_calls_lane", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:33:49.284Z", "episode": "EP10", "shot": "h20_furia_brake", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:34:55.235Z", "episode": "EP10", "shot": "h21_vesper_above", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:36:04.642Z", "episode": "EP10", "shot": "h22_castor_calm", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:37:05.481Z", "episode": "EP10", "shot": "h23_marker_pass", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:38:19.737Z", "episode": "EP10", "shot": "h24_kuku_breath_fail", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:39:15.705Z", "episode": "EP10", "shot": "h47_leda_warns", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:40:14.280Z", "episode": "EP10", "shot": "h25_leda_knock", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:42:40.728Z", "episode": "EP10", "shot": "h26_tings", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:45:55.394Z", "episode": "EP10", "shot": "h27_kuku_hears", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:46:52.174Z", "episode": "EP10", "shot": "h48_leda_counts", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:47:48.855Z", "episode": "EP10", "shot": "h28_forging", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:48:36.911Z", "episode": "EP10", "shot": "h29_ga_stands", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:49:21.270Z", "episode": "EP10", "shot": "h30_bracelets", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:52:10.319Z", "episode": "EP10", "shot": "h31_vesper_yawn", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:53:14.204Z", "episode": "EP10", "shot": "h32_cart_drifts", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:55:15.136Z", "episode": "EP10", "shot": "h33_cheel_flyover", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:56:17.419Z", "episode": "EP10", "shot": "h34_furia_refuses", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:57:03.889Z", "episode": "EP10", "shot": "h35_last_marker", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:58:10.814Z", "episode": "EP10", "shot": "h36_three_beats", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:58:50.384Z", "episode": "EP10", "shot": "h37_cart_into_curve", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T00:59:47.541Z", "episode": "EP10", "shot": "h38_stopped", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:00:34.551Z", "episode": "EP10", "shot": "h49_leda_relief", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:01:16.937Z", "episode": "EP10", "shot": "h39_shrink_glow", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:02:21.484Z", "episode": "EP10", "shot": "h54_small_five_stand", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:03:22.918Z", "episode": "EP10", "shot": "h40_small_five_sit", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:04:13.446Z", "episode": "EP10", "shot": "h41_castor_in_hay", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:04:58.124Z", "episode": "EP10", "shot": "h50_leda_small_sits", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:05:52.151Z", "episode": "EP10", "shot": "h42_doorway_dadi", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:08:09.727Z", "episode": "EP10", "shot": "h43_vesper_asleep", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:09:12.884Z", "episode": "EP10", "shot": "h44_tower_door", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:24:24.053Z", "episode": "EP10", "shot": "courtyard_bell_plate", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:26:01.428Z", "episode": "EP10", "shot": "lane_markers_bands", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:29:31.275Z", "episode": "EP10", "shot": "h01_ring_wide", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:30:21.062Z", "episode": "EP10", "shot": "h03_furia_mark", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:31:11.810Z", "episode": "EP10", "shot": "h45_leda_watch_ring", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:32:01.790Z", "episode": "EP10", "shot": "h52_gauri_hay_cart", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:32:53.567Z", "episode": "EP10", "shot": "h07_cart_tethered", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:34:04.595Z", "episode": "EP10", "shot": "h13_bell_taken", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:36:09.693Z", "episode": "EP10", "shot": "h15_cart_runs", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:37:22.254Z", "episode": "EP10", "shot": "h16_five_flank", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:38:36.769Z", "episode": "EP10", "shot": "h17_group_lift", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:39:24.266Z", "episode": "EP10", "shot": "h18_cow_slips", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:40:17.832Z", "episode": "EP10", "shot": "h19_wheels_return", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:41:14.910Z", "episode": "EP10", "shot": "h46_leda_calls_lane", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:42:12.417Z", "episode": "EP10", "shot": "h20_furia_brake", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:43:12.918Z", "episode": "EP10", "shot": "h21_vesper_above", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:44:01.106Z", "episode": "EP10", "shot": "h22_castor_calm", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:45:05.570Z", "episode": "EP10", "shot": "h23_marker_pass", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:46:00.684Z", "episode": "EP10", "shot": "h24_kuku_breath_fail", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:47:30.934Z", "episode": "EP10", "shot": "h47_leda_warns", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:48:20.336Z", "episode": "EP10", "shot": "h25_leda_knock", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:49:17.487Z", "episode": "EP10", "shot": "h28_forging", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:50:04.718Z", "episode": "EP10", "shot": "h29_ga_stands", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:50:48.194Z", "episode": "EP10", "shot": "h30_bracelets", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:51:37.407Z", "episode": "EP10", "shot": "h31_vesper_yawn", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:53:01.098Z", "episode": "EP10", "shot": "h33_cheel_flyover", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:53:53.150Z", "episode": "EP10", "shot": "h34_furia_refuses", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:56:12.353Z", "episode": "EP10", "shot": "h35_last_marker", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:56:56.484Z", "episode": "EP10", "shot": "h36_three_beats", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:57:37.036Z", "episode": "EP10", "shot": "h37_cart_into_curve", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:58:16.793Z", "episode": "EP10", "shot": "h38_stopped", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:59:00.598Z", "episode": "EP10", "shot": "h49_leda_relief", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T01:59:49.024Z", "episode": "EP10", "shot": "h39_shrink_glow", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T02:02:11.232Z", "episode": "EP10", "shot": "h50_leda_small_sits", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T02:03:03.273Z", "episode": "EP10", "shot": "h54_small_five_stand", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T02:51:34.010Z", "episode": "EP10", "shot": "courtyard_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T02:52:19.784Z", "episode": "EP10", "shot": "lane_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T02:54:22.338Z", "episode": "EP10", "shot": "flat_stone_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T02:55:34.398Z", "episode": "EP10", "shot": "tower_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T02:56:15.826Z", "episode": "EP10", "shot": "doorway_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T02:58:33.028Z", "episode": "EP10", "shot": "grass_verge_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T02:59:24.431Z", "episode": "EP10", "shot": "courtyard_bell_plate", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:02:11.578Z", "episode": "EP10", "shot": "h01_ring_wide", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:03:38.396Z", "episode": "EP10", "shot": "h02_rishi_teach", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:04:24.901Z", "episode": "EP10", "shot": "h03_furia_mark", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:05:07.114Z", "episode": "EP10", "shot": "h04_launch", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:05:47.111Z", "episode": "EP10", "shot": "h05_bell_touch", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:06:26.676Z", "episode": "EP10", "shot": "h06_landing_paw", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:07:10.423Z", "episode": "EP10", "shot": "h45_leda_watch_ring", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:08:02.139Z", "episode": "EP10", "shot": "h51_gauri_grazing", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:09:56.869Z", "episode": "EP10", "shot": "h09_rishi_boon", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:10:46.215Z", "episode": "EP10", "shot": "h53_ring_drill_wide", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:11:49.466Z", "episode": "EP10", "shot": "h10_cheel_tower", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:12:27.733Z", "episode": "EP10", "shot": "h11_shards_close", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:13:18.208Z", "episode": "EP10", "shot": "h13_bell_taken", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:14:07.894Z", "episode": "EP10", "shot": "h14_furia_choice", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:14:48.146Z", "episode": "EP10", "shot": "h25_leda_knock", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:15:25.930Z", "episode": "EP10", "shot": "h26_tings", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:16:12.296Z", "episode": "EP10", "shot": "h27_kuku_hears", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:16:55.958Z", "episode": "EP10", "shot": "h48_leda_counts", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:19:26.475Z", "episode": "EP10", "shot": "h28_forging", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:21:28.622Z", "episode": "EP10", "shot": "h29_ga_stands", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:22:08.511Z", "episode": "EP10", "shot": "h30_bracelets", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:22:52.415Z", "episode": "EP10", "shot": "h32_cart_drifts", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:24:00.099Z", "episode": "EP10", "shot": "h37_cart_into_curve", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:24:54.950Z", "episode": "EP10", "shot": "h38_stopped", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:25:49.029Z", "episode": "EP10", "shot": "h49_leda_relief", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:28:36.821Z", "episode": "EP10", "shot": "h39_shrink_glow", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:29:52.938Z", "episode": "EP10", "shot": "h54_small_five_stand", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:30:49.764Z", "episode": "EP10", "shot": "h40_small_five_sit", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:31:53.156Z", "episode": "EP10", "shot": "h41_castor_in_hay", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:32:38.301Z", "episode": "EP10", "shot": "h50_leda_small_sits", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:33:32.418Z", "episode": "EP10", "shot": "h42_doorway_dadi", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:34:38.256Z", "episode": "EP10", "shot": "h43_vesper_asleep", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T03:35:32.974Z", "episode": "EP10", "shot": "h44_tower_door", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:09:03.417Z", "episode": "EP10", "shot": "h52_gauri_hay_cart_repair0", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:09:39.774Z", "episode": "EP10", "shot": "h17_group_lift_repair0", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:10:26.859Z", "episode": "EP10", "shot": "h19_wheels_return_repair0", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:11:02.521Z", "episode": "EP10", "shot": "h22_castor_calm_repair0", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:11:40.646Z", "episode": "EP10", "shot": "h46_leda_calls_lane_repair0", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:12:15.616Z", "episode": "EP10", "shot": "h20_furia_brake_repair0", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:12:50.101Z", "episode": "EP10", "shot": "h28_forging_repair0", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:13:25.699Z", "episode": "EP10", "shot": "h29_ga_stands_repair0", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:15:26.003Z", "episode": "EP10", "shot": "h37_cart_into_curve_repair0", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:16:07.827Z", "episode": "EP10", "shot": "h37_cart_into_curve_repair1", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:16:53.135Z", "episode": "EP10", "shot": "h35_last_marker_repair0", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:17:28.176Z", "episode": "EP10", "shot": "h01_ring_wide_repair0", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:18:18.683Z", "episode": "EP10", "shot": "h24_kuku_breath_fail_repair0", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:19:02.823Z", "episode": "EP10", "shot": "h15_cart_runs", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:22:30.460Z", "episode": "EP10", "shot": "h16_five_flank", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:23:37.776Z", "episode": "EP10", "shot": "h18_cow_slips", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:24:37.426Z", "episode": "EP10", "shot": "h21_vesper_above", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:25:18.829Z", "episode": "EP10", "shot": "h23_marker_pass", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:26:02.750Z", "episode": "EP10", "shot": "h31_vesper_yawn", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:27:04.813Z", "episode": "EP10", "shot": "h34_furia_refuses", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:29:30.475Z", "episode": "EP10", "shot": "h36_three_beats", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:35:24.870Z", "episode": "EP10", "shot": "h38_stopped", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:36:02.084Z", "episode": "EP10", "shot": "h49_leda_relief", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:37:01.599Z", "episode": "EP10", "shot": "h50_leda_small_sits", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T04:38:00.001Z", "episode": "EP10", "shot": "h54_small_five_stand", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T05:10:42.556Z", "episode": "EP10", "shot": "h15_cart_runs_repair0", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T05:13:05.813Z", "episode": "EP10", "shot": "h16_five_flank_repair0", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T05:13:41.039Z", "episode": "EP10", "shot": "h23_marker_pass_repair0", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T05:16:29.112Z", "episode": "EP10", "shot": "h21_vesper_above", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T05:17:51.618Z", "episode": "EP10", "shot": "h36_three_beats", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T05:18:28.162Z", "episode": "EP10", "shot": "h38_stopped", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T05:19:06.091Z", "episode": "EP10", "shot": "h29_ga_stands", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T05:21:03.927Z", "episode": "EP10", "shot": "h37_cart_into_curve", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T05:21:55.590Z", "episode": "EP10", "shot": "h50_leda_small_sits", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T05:44:07.545Z", "episode": "EP10", "shot": "h29_ga_stands_repair0", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T05:45:03.214Z", "episode": "EP10", "shot": "h37_cart_into_curve_repair0", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T05:45:52.026Z", "episode": "EP10", "shot": "h38_stopped_repair0", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-29T05:54:57.905Z", "episode": "EP10", "shot": "c1_breaks_away", "kind": "clip", "model": "seedance_2_0", "credits": 45, "note": ""}
+{"at": "2026-08-29T05:59:22.600Z", "episode": "EP10", "shot": "c2_five_flank", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": ""}
+{"at": "2026-08-29T06:03:32.039Z", "episode": "EP10", "shot": "c3_failed_lift", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": ""}
+{"at": "2026-08-29T06:06:27.511Z", "episode": "EP10", "shot": "c4_wheels_return", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": ""}
+{"at": "2026-08-29T06:09:15.056Z", "episode": "EP10", "shot": "s0a_furia_ring", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": ""}
+{"at": "2026-08-29T06:12:31.783Z", "episode": "EP10", "shot": "s0b_rope_slips", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": ""}
+{"at": "2026-08-29T06:17:33.597Z", "episode": "EP10", "shot": "s0c_bell_taken", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": ""}
+{"at": "2026-08-29T06:20:38.750Z", "episode": "EP10", "shot": "s0d_bell_touch", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": ""}
+{"at": "2026-08-29T06:25:49.418Z", "episode": "EP10", "shot": "b1_breath_fail", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": ""}
+{"at": "2026-08-29T06:30:41.455Z", "episode": "EP10", "shot": "b3_three_beats", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": ""}
+{"at": "2026-08-29T06:35:47.783Z", "episode": "EP10", "shot": "b5_shrink", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": ""}
+{"at": "2026-08-29T06:39:07.038Z", "episode": "EP10", "shot": "b6_tower_door", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": ""}
+{"at": "2026-08-29T06:41:35.663Z", "episode": "EP10", "shot": "s2a_furia_brakes", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": ""}
+{"at": "2026-08-29T06:44:31.421Z", "episode": "EP10", "shot": "s2b_marker_passes", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": ""}
+{"at": "2026-08-29T06:52:32.767Z", "episode": "EP10", "shot": "s2c_castor_talks", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": ""}
+{"at": "2026-08-29T06:58:17.745Z", "episode": "EP10", "shot": "b2_forging", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": ""}
+{"at": "2026-08-29T07:01:28.980Z", "episode": "EP10", "shot": "b4_curve_stop", "kind": "clip", "model": "seedance_2_0", "credits": 22.5, "note": ""}
+{"at": "2026-08-30T04:32:53.542Z", "episode": "EP10", "shot": "h01_ring_wide", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-30T06:07:48.458Z", "episode": "EP10", "shot": "h03_furia_mark", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-30T06:14:45.563Z", "episode": "EP10", "shot": "s0e_drill_full", "kind": "clip", "model": "seedance_2_0", "credits": 54, "note": ""}
+{"at": "2026-08-30T14:34:22.516Z", "episode": "EP10", "shot": "—", "kind": "budget", "model": "—", "credits": 1250, "note": "build-phase cap opened"}
+{"at": "2026-08-30T14:34:50.171Z", "episode": "EP10", "shot": "—", "kind": "budget", "model": "—", "credits": 283, "note": "build-phase cap opened"}
+{"at": "2026-08-30T18:45:20.227Z", "episode": "EP10", "shot": "h21_vesper_above", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-30T18:46:43.149Z", "episode": "EP10", "shot": "h22_castor_calm", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-30T18:48:01.708Z", "episode": "EP10", "shot": "h24_kuku_breath_fail", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-30T18:50:13.387Z", "episode": "EP10", "shot": "h34_furia_refuses", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-30T18:53:29.648Z", "episode": "EP10", "shot": "d_leda_calls", "kind": "clip", "model": "seedance_2_0_mini", "credits": 12.5, "note": ""}
+{"at": "2026-08-30T18:53:46.225Z", "episode": "EP10", "shot": "h46_leda_calls_lane", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-30T18:57:05.779Z", "episode": "EP10", "shot": "d_vesper_above", "kind": "clip", "model": "seedance_2_0_mini", "credits": 12.5, "note": ""}
+{"at": "2026-08-30T19:01:02.363Z", "episode": "EP10", "shot": "d_castor_calm", "kind": "clip", "model": "seedance_2_0_mini", "credits": 12.5, "note": ""}
+{"at": "2026-08-30T19:05:07.160Z", "episode": "EP10", "shot": "d_furia_refuses", "kind": "clip", "model": "seedance_2_0_mini", "credits": 12.5, "note": ""}
+{"at": "2026-08-30T19:09:39.685Z", "episode": "EP10", "shot": "d_kuku_breath", "kind": "clip", "model": "seedance_2_0_mini", "credits": 12.5, "note": ""}
+{"at": "2026-08-30T21:58:40.793Z", "episode": "EP10", "shot": "s0f_drill_cinema", "kind": "clip", "model": "cinematic_studio_video_4_0", "credits": 78, "note": ""}
+{"at": "2026-08-30T22:14:12.587Z", "episode": "EP10", "shot": "h45_leda_watch_ring", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-30T22:20:28.419Z", "episode": "EP10", "shot": "s0g_leda_counts", "kind": "clip", "model": "cinematic_studio_video_4_0", "credits": 32.5, "note": ""}
+{"at": "2026-08-30T22:43:36.120Z", "episode": "EP10", "shot": "h15_cart_runs", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-30T22:45:53.929Z", "episode": "EP10", "shot": "—", "kind": "budget", "model": "—", "credits": 250, "note": "build-phase cap opened"}
+{"at": "2026-08-30T22:55:54.709Z", "episode": "EP10", "shot": "h15_cart_runs", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-30T22:57:10.054Z", "episode": "EP10", "shot": "h16_five_flank", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-30T22:59:02.744Z", "episode": "EP10", "shot": "h17_group_lift", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-30T23:00:04.193Z", "episode": "EP10", "shot": "h19_wheels_return", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-30T23:00:59.359Z", "episode": "EP10", "shot": "h20_furia_brake", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-30T23:01:39.819Z", "episode": "EP10", "shot": "h37_cart_into_curve", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-30T23:02:30.840Z", "episode": "EP10", "shot": "h38_stopped", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-30T23:15:14.427Z", "episode": "EP10", "shot": "c1_breaks_away", "kind": "clip", "model": "cinematic_studio_video_4_0", "credits": 65, "note": ""}
+{"at": "2026-08-30T23:20:36.535Z", "episode": "EP10", "shot": "c2_five_flank", "kind": "clip", "model": "cinematic_studio_video_4_0", "credits": 32.5, "note": ""}
+{"at": "2026-08-30T23:30:41.632Z", "episode": "EP10", "shot": "c3_failed_lift", "kind": "clip", "model": "cinematic_studio_video_4_0", "credits": 32.5, "note": ""}
+{"at": "2026-08-30T23:37:38.587Z", "episode": "EP10", "shot": "c4_wheels_return", "kind": "clip", "model": "cinematic_studio_video_4_0", "credits": 32.5, "note": ""}
+{"at": "2026-08-30T23:43:37.512Z", "episode": "EP10", "shot": "s2a_furia_brakes", "kind": "clip", "model": "cinematic_studio_video_4_0", "credits": 32.5, "note": ""}
+{"at": "2026-08-30T23:48:07.784Z", "episode": "EP10", "shot": "b4_curve_stop", "kind": "clip", "model": "cinematic_studio_video_4_0", "credits": 32.5, "note": ""}
+{"at": "2026-08-31T00:07:41.563Z", "episode": "EP10", "shot": "lane_top_looking_down_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:09:04.922Z", "episode": "EP10", "shot": "lane_ground_level_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:24:58.289Z", "episode": "EP10", "shot": "lane_top_looking_down_fix", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:27:43.172Z", "episode": "EP10", "shot": "lane_ground_level_fix", "kind": "edit", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:33:17.830Z", "episode": "EP10", "shot": "—", "kind": "budget", "model": "—", "credits": 140, "note": "build-phase cap opened"}
+{"at": "2026-08-31T00:35:07.505Z", "episode": "EP10", "shot": "h52_gauri_hay_cart", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:36:04.155Z", "episode": "EP10", "shot": "h07_cart_tethered", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:36:55.586Z", "episode": "EP10", "shot": "h08_gauri_close", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:38:17.027Z", "episode": "EP10", "shot": "h12_rope_slip", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:39:17.374Z", "episode": "EP10", "shot": "h15_cart_runs", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:40:29.609Z", "episode": "EP10", "shot": "h16_five_flank", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:41:39.931Z", "episode": "EP10", "shot": "h17_group_lift", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:42:35.624Z", "episode": "EP10", "shot": "h18_cow_slips", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:43:31.914Z", "episode": "EP10", "shot": "h19_wheels_return", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:44:46.343Z", "episode": "EP10", "shot": "h46_leda_calls_lane", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:46:29.420Z", "episode": "EP10", "shot": "h20_furia_brake", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:47:17.603Z", "episode": "EP10", "shot": "h21_vesper_above", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:48:19.088Z", "episode": "EP10", "shot": "h22_castor_calm", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:49:12.806Z", "episode": "EP10", "shot": "h23_marker_pass", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:50:12.728Z", "episode": "EP10", "shot": "h24_kuku_breath_fail", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:51:00.984Z", "episode": "EP10", "shot": "h47_leda_warns", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:51:54.764Z", "episode": "EP10", "shot": "h31_vesper_yawn", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:52:53.940Z", "episode": "EP10", "shot": "h32_cart_drifts", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:54:13.717Z", "episode": "EP10", "shot": "h33_cheel_flyover", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:55:24.279Z", "episode": "EP10", "shot": "h34_furia_refuses", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:56:08.845Z", "episode": "EP10", "shot": "h35_last_marker", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T00:57:12.442Z", "episode": "EP10", "shot": "h36_three_beats", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T01:25:16.498Z", "episode": "EP10", "shot": "h35_last_marker", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T01:31:42.404Z", "episode": "EP10", "shot": "c3_failed_lift", "kind": "clip", "model": "cinematic_studio_video_4_0", "credits": 32.5, "note": ""}
+{"at": "2026-08-31T01:47:08.352Z", "episode": "EP10", "shot": "c4_wheels_return", "kind": "clip", "model": "cinematic_studio_video_4_0", "credits": 32.5, "note": ""}
+{"at": "2026-08-31T02:34:52.463Z", "episode": "EP10", "shot": "—", "kind": "budget", "model": "—", "credits": 175, "note": "build-phase cap opened"}
+{"at": "2026-08-31T02:42:24.982Z", "episode": "EP10", "shot": "c1_breaks_away", "kind": "clip", "model": "cinematic_studio_video_4_0", "credits": 65, "note": ""}
+{"at": "2026-08-31T03:00:01.891Z", "episode": "EP10", "shot": "c2_five_flank", "kind": "clip", "model": "cinematic_studio_video_4_0", "credits": 32.5, "note": ""}
+{"at": "2026-08-31T03:08:09.112Z", "episode": "EP10", "shot": "s2a_furia_brakes", "kind": "clip", "model": "cinematic_studio_video_4_0", "credits": 32.5, "note": ""}
+{"at": "2026-08-31T03:28:51.114Z", "episode": "EP10", "shot": "b4_curve_stop", "kind": "clip", "model": "cinematic_studio_video_4_0", "credits": 32.5, "note": ""}
+{"at": "2026-08-31T03:59:16.033Z", "episode": "EP10", "shot": "h37_cart_into_curve", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T04:00:18.224Z", "episode": "EP10", "shot": "h38_stopped", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T04:17:15.685Z", "episode": "EP10", "shot": "h37_cart_into_curve", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T04:17:59.874Z", "episode": "EP10", "shot": "h38_stopped", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T22:39:48.583Z", "episode": "EP12", "shot": "—", "kind": "budget", "model": "—", "credits": 45, "note": "build-phase cap opened"}
+{"at": "2026-08-31T22:41:33.395Z", "episode": "EP12", "shot": "ep12_courtyard_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": "reattributed — EP12 courtyard plate, booked to EP10 by a missing ~episode arg"}
+{"at": "2026-08-31T22:45:06.587Z", "episode": "EP12", "shot": "e01_dadi_lights", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T22:46:42.984Z", "episode": "EP12", "shot": "e01_dadi_lights", "kind": "still", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at": "2026-08-31T22:51:17.187Z", "episode": "EP12", "shot": "e01_dadi_lights", "kind": "clip", "model": "cinematic_studio_video_4_0", "credits": 32.5, "note": ""}
+{"at": "2026-08-31T23:21:15.757Z", "episode": "EP12", "shot": "—", "kind": "budget", "model": "—", "credits": 40, "note": "build-phase cap opened"}
+{"at": "2026-08-31T23:21:37", "episode": "EP12", "kind": "clip", "model": "gemini_omni", "id": "styletest_papercraft_preset", "credits": 30, "note": "raw-CLI style comparison, outside the engine — no receipt"}
+{"at": "2026-08-31T23:34:42.453Z", "episode": "EP12", "shot": "ep12_courtyard_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": "reattributed — EP12 courtyard plate, booked to EP10 by a missing ~episode arg"}
+{"at": "2026-08-31T23:38:57.531Z", "episode": "EP12", "shot": "ep12_courtyard_plate", "kind": "plate", "model": "nano_banana_pro", "credits": 2, "note": ""}
+{"at":"2026-09-01T03:40:49.027Z","episode":"EP12","shot":"—","kind":"budget","model":"—","credits":100,"note":"build-phase cap opened"}
+{"at":"2026-09-01T03:41:57.315Z","episode":"EP12","shot":"s04_castor_teased","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T03:43:36.240Z","episode":"EP12","shot":"s05_castor_asks","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T03:44:48.588Z","episode":"EP12","shot":"s06_dadi_explains","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T03:46:56.293Z","episode":"EP12","shot":"s07_kuku_understands","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T03:48:05.231Z","episode":"EP12","shot":"s08_vesper_asks","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T03:53:13.438Z","episode":"EP12","shot":"s09_leda_counts_nights","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T03:54:04.148Z","episode":"EP12","shot":"s11_vesper_warns","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T03:55:17.023Z","episode":"EP12","shot":"s12_dadi_hands_over","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T03:56:44.091Z","episode":"EP12","shot":"s13_dadi_at_door","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T03:57:56.795Z","episode":"EP12","shot":"s15_furia_offers","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T03:59:12.702Z","episode":"EP12","shot":"s17_furia_shaken","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:00:15.177Z","episode":"EP12","shot":"s19_castor_small","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:01:41.962Z","episode":"EP12","shot":"s20_vesper_plans","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:02:45.418Z","episode":"EP12","shot":"s22_vesper_learns","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:03:53.030Z","episode":"EP12","shot":"s23_leda_finds_rhythm","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:04:55.838Z","episode":"EP12","shot":"s25_it_is_working","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:07:43.742Z","episode":"EP12","shot":"s28_castor_says_it","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:09:47.714Z","episode":"EP12","shot":"s30_no_fire_inside","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:10:55.978Z","episode":"EP12","shot":"s32_kuku_hears_papa","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:12:05.415Z","episode":"EP12","shot":"s34_neither_can","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:13:12.716Z","episode":"EP12","shot":"s36_kuku_realises","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:14:16.184Z","episode":"EP12","shot":"s37_leda_instructs","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:16:37.595Z","episode":"EP12","shot":"s38_furia_gives_first","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:17:57.508Z","episode":"EP12","shot":"s39_kuku_hears_it","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:19:12.628Z","episode":"EP12","shot":"s40_say_it_again","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:20:15.227Z","episode":"EP12","shot":"s41_castor_milk","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:21:30.182Z","episode":"EP12","shot":"s42_vesper_far","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:22:40.675Z","episode":"EP12","shot":"s43_leda_ten","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:23:53.374Z","episode":"EP12","shot":"s44_furia_run","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:25:16.389Z","episode":"EP12","shot":"s45_kuku_gathers","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:26:22.369Z","episode":"EP12","shot":"s46_leda_draws","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:27:30.442Z","episode":"EP12","shot":"s49_leda_corrects","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:28:48.093Z","episode":"EP12","shot":"s50_all_encourage","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:29:52.751Z","episode":"EP12","shot":"s54_it_is_not_fire","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:31:02.220Z","episode":"EP12","shot":"s57_papa_asks","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:32:07.478Z","episode":"EP12","shot":"s58_papa_kneels","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:33:19.345Z","episode":"EP12","shot":"s59_dadi_returns","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:34:53.571Z","episode":"EP12","shot":"s60_castor_jokes","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:36:12.148Z","episode":"EP12","shot":"s61_dadi_reviews","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:37:29.627Z","episode":"EP12","shot":"s62_words_come","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:38:48.156Z","episode":"EP12","shot":"s63_dadi_and_kuku","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T04:39:46.866Z","episode":"EP12","shot":"s65_same_words","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T10:12:33.464Z","episode":"EP12","shot":"ep12_letter_da","kind":"plate","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T11:08:45.070Z","episode":"EP12","shot":"—","kind":"budget","model":"—","credits":40,"note":"build-phase cap opened"}
+{"at":"2026-09-01T11:10:29.681Z","episode":"EP12","shot":"s54_it_is_not_fire","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T11:11:45.011Z","episode":"EP12","shot":"s57_papa_asks","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T11:13:02.591Z","episode":"EP12","shot":"s58_papa_kneels","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T11:16:09.218Z","episode":"EP12","shot":"s59_dadi_returns","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T11:17:36.393Z","episode":"EP12","shot":"s60_castor_jokes","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T11:20:38.851Z","episode":"EP12","shot":"s61_dadi_reviews","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T11:22:15.867Z","episode":"EP12","shot":"s62_words_come","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T11:23:41.144Z","episode":"EP12","shot":"s63_dadi_and_kuku","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T11:25:47.417Z","episode":"EP12","shot":"s65_same_words","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T12:19:35.564Z","episode":"EP12","shot":"—","kind":"budget","model":"—","credits":300,"note":"build-phase cap opened"}
+{"at":"2026-09-01T12:20:38.820Z","episode":"EP12","shot":"s01_dadi_carries","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T12:21:38.940Z","episode":"EP12","shot":"s02_lamp_lit","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T12:22:44.786Z","episode":"EP12","shot":"s03_five_settle","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T12:26:57.789Z","episode":"EP12","shot":"s10_first_gust","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T12:28:04.305Z","episode":"EP12","shot":"s14_door_closes","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-01T12:35:05.385Z","episode":"EP12","shot":"s01_dadi_carries","kind":"clip","model":"cinematic_studio_video_4_0","credits":58.5,"note":""}
+{"at":"2026-09-01T12:59:32.956Z","episode":"EP12","shot":"s10_first_gust","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-01T13:06:19.081Z","episode":"EP12","shot":"s02_lamp_lit","kind":"clip","model":"cinematic_studio_video_4_0","credits":52,"note":""}
+{"at":"2026-09-01T13:07:01.079Z","episode":"EP12","shot":"s03_five_settle","kind":"clip","model":"cinematic_studio_video_4_0","credits":52,"note":""}
+{"at":"2026-09-01T13:09:11.918Z","episode":"EP12","shot":"s14_door_closes","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-01T13:56:21.320Z","episode":"EP12","shot":"s03_five_settle","kind":"clip","model":"cinematic_studio_video_4_0","credits":52,"note":""}
+{"at":"2026-09-02T02:48:34.633Z","episode":"EP12","shot":"—","kind":"budget","model":"—","credits":1250,"note":"build-phase cap opened"}
+{"at":"2026-09-02T02:50:44.308Z","episode":"EP12","shot":"s18_castor_cups","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T02:50:49.234Z","episode":"EP12","shot":"s24_all_shield","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T02:50:52.689Z","episode":"EP12","shot":"s21_wall_flies","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T02:50:57.038Z","episode":"EP12","shot":"s16_wing_kills_it","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T02:57:01.766Z","episode":"EP12","shot":"s16_wing_kills_it","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-02T02:59:39.365Z","episode":"EP12","shot":"s21_wall_flies","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-02T02:59:58.390Z","episode":"EP12","shot":"s18_castor_cups","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-02T03:09:38.807Z","episode":"EP12","shot":"s24_all_shield","kind":"clip","model":"cinematic_studio_video_4_0","credits":78,"note":""}
+{"at":"2026-09-02T03:10:33.819Z","episode":"EP12","shot":"s31_papa_calls","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:10:52.224Z","episode":"EP12","shot":"s26_the_lamp_dies","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:11:14.866Z","episode":"EP12","shot":"s27_darkness","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:14:25.805Z","episode":"EP12","shot":"s29_castor_at_door","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:19:52.801Z","episode":"EP12","shot":"cu005_FYURIA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:23:38.451Z","episode":"EP12","shot":"s27_darkness","kind":"clip","model":"cinematic_studio_video_4_0","credits":65,"note":""}
+{"at":"2026-09-02T03:29:43.547Z","episode":"EP12","shot":"s31_papa_calls","kind":"clip","model":"cinematic_studio_video_4_0","credits":78,"note":""}
+{"at":"2026-09-02T03:30:54.280Z","episode":"EP12","shot":"s33_furia_thrown_back","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:31:35.415Z","episode":"EP12","shot":"s47_wrong_way","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:31:44.631Z","episode":"EP12","shot":"s35_breath_scatters","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:32:15.327Z","episode":"EP12","shot":"s48_wind_goes_through","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:48:00.640Z","episode":"EP12","shot":"cu006_CASTOR","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:49:37.037Z","episode":"EP12","shot":"cu011_VESPER","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:49:58.381Z","episode":"EP12","shot":"cu015_VESPER","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:50:14.057Z","episode":"EP12","shot":"cu012_DADI","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:50:20.974Z","episode":"EP12","shot":"cu014_DADI","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:50:37.794Z","episode":"EP12","shot":"cu007_CASTOR","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:51:00.055Z","episode":"EP12","shot":"cu013_LEDA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:52:35.633Z","episode":"EP12","shot":"cu020_KUKU","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:52:48.006Z","episode":"EP12","shot":"cu017_DADI","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:53:03.649Z","episode":"EP12","shot":"cu019_DADI","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:55:13.730Z","episode":"EP12","shot":"cu016_FYURIA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:56:38.616Z","episode":"EP12","shot":"cu018_LEDA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T03:57:41.721Z","episode":"EP12","shot":"s33_furia_thrown_back","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-02T03:59:15.031Z","episode":"EP12","shot":"s29_castor_at_door","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-02T04:01:42.204Z","episode":"EP12","shot":"s26_the_lamp_dies","kind":"clip","model":"cinematic_studio_video_4_0","credits":71.5,"note":""}
+{"at":"2026-09-02T04:06:39.325Z","episode":"EP12","shot":"s35_breath_scatters","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-02T04:10:48.672Z","episode":"EP12","shot":"s47_wrong_way","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-02T04:12:00.861Z","episode":"EP12","shot":"s48_wind_goes_through","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-02T04:15:13.626Z","episode":"EP12","shot":"s53_wind_cannot_touch","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:15:28.618Z","episode":"EP12","shot":"s51_curve_forms","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:15:35.409Z","episode":"EP12","shot":"s52_line_rises","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:18:20.774Z","episode":"EP12","shot":"s52_line_rises","kind":"clip","model":"cinematic_studio_video_4_0","credits":65,"note":""}
+{"at":"2026-09-02T04:20:59.459Z","episode":"EP12","shot":"s53_wind_cannot_touch","kind":"clip","model":"cinematic_studio_video_4_0","credits":71.5,"note":""}
+{"at":"2026-09-02T04:21:00.183Z","episode":"EP12","shot":"s51_curve_forms","kind":"clip","model":"cinematic_studio_video_4_0","credits":78,"note":""}
+{"at":"2026-09-02T04:22:06.712Z","episode":"EP12","shot":"s56_papa_climbs","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:22:13.314Z","episode":"EP12","shot":"s55_light_goes_down","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:22:16.025Z","episode":"EP12","shot":"s64_kuku_carries","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:25:38.676Z","episode":"EP12","shot":"s55_light_goes_down","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-02T04:25:58.988Z","episode":"EP12","shot":"s64_kuku_carries","kind":"clip","model":"cinematic_studio_video_4_0","credits":78,"note":""}
+{"at":"2026-09-02T04:26:44.794Z","episode":"EP12","shot":"s56_papa_climbs","kind":"clip","model":"cinematic_studio_video_4_0","credits":78,"note":""}
+{"at":"2026-09-02T04:29:31.054Z","episode":"EP12","shot":"cu002_DADI","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:31:57.196Z","episode":"EP12","shot":"s66_night_holds","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:32:13.581Z","episode":"EP12","shot":"cu001_DADI","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:41:16.060Z","episode":"EP12","shot":"s66_night_holds","kind":"clip","model":"cinematic_studio_video_4_0","credits":65,"note":""}
+{"at":"2026-09-02T04:42:08.077Z","episode":"EP12","shot":"cu003_CASTOR","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:42:31.708Z","episode":"EP12","shot":"cu008_DADI","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:42:46.943Z","episode":"EP12","shot":"cu004_LEDA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:43:45.241Z","episode":"EP12","shot":"cu016_FYURIA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:43:53.730Z","episode":"EP12","shot":"cu009_KUKU","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:44:18.497Z","episode":"EP12","shot":"cu010_DADI","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:45:29.079Z","episode":"EP12","shot":"cu017_DADI","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:45:52.302Z","episode":"EP12","shot":"cu018_LEDA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:46:02.569Z","episode":"EP12","shot":"cu019_DADI","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:47:04.441Z","episode":"EP12","shot":"cu022_LEDA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:47:07.417Z","episode":"EP12","shot":"cu021_FYURIA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:47:30.081Z","episode":"EP12","shot":"cu020_KUKU","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:48:28.018Z","episode":"EP12","shot":"cu025_CASTOR","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:48:29.351Z","episode":"EP12","shot":"cu023_FYURIA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:48:49.234Z","episode":"EP12","shot":"cu024_LEDA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:49:48.263Z","episode":"EP12","shot":"cu027_VESPER","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:49:49.814Z","episode":"EP12","shot":"cu026_KUKU","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:50:04.734Z","episode":"EP12","shot":"cu028_VESPER","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:51:04.467Z","episode":"EP12","shot":"cu030_LEDA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:51:07.388Z","episode":"EP12","shot":"cu031_CASTOR","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:51:10.724Z","episode":"EP12","shot":"cu029_LEDA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:52:08.970Z","episode":"EP12","shot":"cu033_CASTOR","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:52:10.673Z","episode":"EP12","shot":"cu034_FYURIA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:52:23.254Z","episode":"EP12","shot":"cu032_CASTOR","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:53:25.388Z","episode":"EP12","shot":"cu035_LEDA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:53:31.616Z","episode":"EP12","shot":"cu037_FYURIA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:54:12.671Z","episode":"EP12","shot":"cu036_KUKU","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:55:13.593Z","episode":"EP12","shot":"cu038_VESPER","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:55:16.241Z","episode":"EP12","shot":"cu040_LEDA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:55:40.736Z","episode":"EP12","shot":"cu039_KUKU","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:56:43.261Z","episode":"EP12","shot":"cu043_KUKU","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:56:48.930Z","episode":"EP12","shot":"cu042_FYURIA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:56:53.331Z","episode":"EP12","shot":"cu041_KUKU","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:57:52.439Z","episode":"EP12","shot":"cu045_KUKU","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:58:14.649Z","episode":"EP12","shot":"cu046_CASTOR","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:58:27.816Z","episode":"EP12","shot":"cu044_LEDA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:59:23.518Z","episode":"EP12","shot":"cu047_LEDA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:59:26.057Z","episode":"EP12","shot":"cu049_LEDA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T04:59:31.413Z","episode":"EP12","shot":"cu048_VESPER","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:00:24.693Z","episode":"EP12","shot":"cu052_LEDA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:00:34.229Z","episode":"EP12","shot":"cu050_FYURIA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:00:38.318Z","episode":"EP12","shot":"cu051_KUKU","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:01:35.296Z","episode":"EP12","shot":"cu055_KUKU","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:01:45.270Z","episode":"EP12","shot":"cu053_LEDA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:02:16.429Z","episode":"EP12","shot":"cu054_KUKU","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:03:05.407Z","episode":"EP12","shot":"cu058_PAPA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:03:17.294Z","episode":"EP12","shot":"cu057_LEDA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:05:19.376Z","episode":"EP12","shot":"cu056_VESPER","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:06:20.915Z","episode":"EP12","shot":"cu060_KUKU","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:06:21.300Z","episode":"EP12","shot":"cu061_PAPA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:06:22.417Z","episode":"EP12","shot":"cu059_PAPA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:07:38.283Z","episode":"EP12","shot":"cu063_CASTOR","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:07:39.811Z","episode":"EP12","shot":"cu062_DADI","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:07:58.486Z","episode":"EP12","shot":"cu064_DADI","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:09:04.201Z","episode":"EP12","shot":"cu067_VESPER","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:09:06.760Z","episode":"EP12","shot":"cu065_DADI","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:10:24.683Z","episode":"EP12","shot":"cu066_CASTOR","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:11:18.688Z","episode":"EP12","shot":"cu068_LEDA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:11:24.511Z","episode":"EP12","shot":"cu070_KUKU","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:11:40.236Z","episode":"EP12","shot":"cu069_FYURIA","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:12:44.373Z","episode":"EP12","shot":"cu071_DADI","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:12:55.946Z","episode":"EP12","shot":"cu072_KUKU","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T05:14:07.178Z","episode":"EP12","shot":"cu073_DADI","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T15:03:42.159Z","episode":"EP12","shot":"—","kind":"budget","model":"—","credits":320,"note":"build-phase cap opened"}
+{"at":"2026-09-02T15:06:00.574Z","episode":"EP12","shot":"s33a_kade_called","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T15:10:55.460Z","episode":"EP12","shot":"s33c_they_rise","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T15:11:05.374Z","episode":"EP12","shot":"s33b_transform","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T15:14:48.642Z","episode":"EP12","shot":"s33b_transform","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-02T15:18:04.293Z","episode":"EP12","shot":"s33c_they_rise","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-02T15:19:51.684Z","episode":"EP12","shot":"s33e_too_big","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T15:19:56.917Z","episode":"EP12","shot":"s33d_thrown_back","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T15:20:35.351Z","episode":"EP12","shot":"s33f_shrink_back","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T15:28:08.006Z","episode":"EP12","shot":"s33f_shrink_back","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-02T15:28:58.488Z","episode":"EP12","shot":"s33d_thrown_back","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-02T15:38:34.384Z","episode":"EP12","shot":"s33c_they_rise","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T15:43:31.482Z","episode":"EP12","shot":"s33c_they_rise","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-02T15:45:23.189Z","episode":"EP12","shot":"s33d_thrown_back","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T15:52:18.300Z","episode":"EP12","shot":"s33d_thrown_back","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-02T17:52:20.416Z","episode":"EP12","shot":"s33c_they_rise","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T17:52:55.471Z","episode":"EP12","shot":"—","kind":"budget","model":"—","credits":400,"note":"build-phase cap opened"}
+{"at":"2026-09-02T17:54:21.921Z","episode":"EP12","shot":"s33d_thrown_back","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T17:59:30.947Z","episode":"EP12","shot":"s33c_they_rise","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-02T18:04:54.023Z","episode":"EP12","shot":"s33d_thrown_back","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-02T21:40:54.840Z","episode":"EP12","shot":"s33d_thrown_back","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T21:43:52.099Z","episode":"EP12","shot":"s33d_thrown_back","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-02T21:49:55.019Z","episode":"EP12","shot":"s33d_thrown_back","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-03T05:09:23.922Z","episode":"EP12","shot":"s33c_they_rise","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-03T05:50:20.446Z","episode":"EP12","shot":"—","kind":"budget","model":"—","credits":500,"note":"build-phase cap opened"}
+{"at":"2026-09-03T05:53:38.841Z","episode":"EP12","shot":"s29_castor_at_door","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-03T05:53:55.993Z","episode":"EP12","shot":"s27_darkness","kind":"clip","model":"cinematic_studio_video_4_0","credits":65,"note":""}
+{"at":"2026-09-03T05:55:32.307Z","episode":"EP12","shot":"s26_the_lamp_dies","kind":"clip","model":"cinematic_studio_video_4_0","credits":71.5,"note":""}
+{"at":"2026-09-03T05:58:49.014Z","episode":"EP12","shot":"s33d_thrown_back","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-03T06:04:46.831Z","episode":"EP12","shot":"s31_papa_calls","kind":"clip","model":"cinematic_studio_video_4_0","credits":78,"note":""}
+{"at":"2026-09-03T06:04:48.296Z","episode":"EP12","shot":"s33b_transform","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-03T06:07:04.913Z","episode":"EP12","shot":"s35_breath_scatters","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-03T06:08:14.333Z","episode":"EP12","shot":"s33f_shrink_back","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-03T06:09:49.976Z","episode":"EP12","shot":"s47_wrong_way","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}
+{"at":"2026-09-03T06:11:58.692Z","episode":"EP12","shot":"s48_wind_goes_through","kind":"clip","model":"cinematic_studio_video_4_0","credits":32.5,"note":""}

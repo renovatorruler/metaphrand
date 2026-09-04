@@ -2,6 +2,8 @@
 
 import * as Js_exn from "rescript/lib/es6/js_exn.js";
 import * as Caml_array from "rescript/lib/es6/caml_array.js";
+import * as Belt_Option from "rescript/lib/es6/belt_Option.js";
+import * as Caml_option from "rescript/lib/es6/caml_option.js";
 
 var banned = new RegExp("\\b(?:no|not|never|none|nothing|nobody|nowhere|neither|nor|cannot|can't|don't|doesn't|isn't|aren't|wasn't|won't|wouldn't|couldn't|shouldn't|mustn't|avoid|avoids|avoiding|without|except|forbid|forbids|forbidden|prohibited)\\b", "i");
 
@@ -28,9 +30,203 @@ function pass(which, text) {
   return text;
 }
 
+var strict = {
+  contents: false
+};
+
+function setStrict(b) {
+  strict.contents = b;
+}
+
+var castTable = [
+  [
+    "KUKU",
+    "कुकु"
+  ],
+  [
+    "FYURIA",
+    "फ्यूरिया"
+  ],
+  [
+    "LEDA",
+    "लेडा"
+  ],
+  [
+    "CASTOR",
+    "कैस्टर"
+  ],
+  [
+    "VESPER",
+    "वैस्पर"
+  ],
+  [
+    "KALU",
+    "कालू"
+  ],
+  [
+    "DADI",
+    "दादी"
+  ],
+  [
+    "PAPA",
+    "पापा"
+  ]
+];
+
+var collective = /\b(?:the five|all five|the four|all four|the others|the children|each child|each of them|both of them|the group|five (?:great|small) dragons|everyone|they|them|their|he|she|his|her|him)\b/i;
+
+var shapeWords = /\b(?:letter|letters|glyph|curve|curves|line|lines|stroke|column|pillar|post|pole|beam|shaft|ray|searchlight|symbol|shape)\b/i;
+
+var namedAbsent = /\b(?:cold and dark|unlit|wick dark|empty and cold|dead lamp)\b/i;
+
+var flameWords = /\b(?:flame|burning wick|small flame)\b/i;
+
+var darkLighting = /darkness|night sky|one source of light/i;
+
+var smallForm = /small everyday form/i;
+
+var greatForm = /GREAT FORM/;
+
+var subjectLine = /^- (KUKU|FYURIA|LEDA|CASTOR|VESPER|DADI|PAPA|KALU) — (.*)$/;
+
+var boilerplate = /^(?:SHOT:|STYLE:|SET PLATE|PAPER MATERIAL|STAGING:|CHARACTER REFERENCES|VIEWPOINT:|AUDIO:|CAMERA:)/;
+
+function has(re, s) {
+  return re.test(s);
+}
+
+function hasName(param, s) {
+  if (s.includes(param[0])) {
+    return true;
+  } else {
+    return s.includes(param[1]);
+  }
+}
+
+function scanStrict(text) {
+  var lines = text.split("\n");
+  var out = {
+    contents: []
+  };
+  var add = function (m) {
+    out.contents = out.contents.concat([m]);
+  };
+  var subjects = lines.reduce((function (acc, l) {
+          var m = l.match(subjectLine);
+          if (m === null) {
+            return acc;
+          }
+          var match = Caml_array.get(m, 1);
+          var match$1 = Caml_array.get(m, 2);
+          if (match !== undefined && match$1 !== undefined) {
+            return acc.concat([[
+                          match,
+                          match$1
+                        ]]);
+          } else {
+            return acc;
+          }
+        }), []);
+  var lighting = Belt_Option.getWithDefault(Caml_option.undefined_to_opt(lines.find(function (l) {
+                return l.startsWith("LIGHTING:");
+              })), "");
+  lines.forEach(function (l) {
+        var t = l.trim();
+        if (t !== "" && !boilerplate.test(t)) {
+          if (collective.test(t)) {
+            add("[PER_SUBJECT: collective or pronoun — name the actor] " + t);
+          }
+          if (shapeWords.test(t)) {
+            add("[SHAPE_WORDS: a shape noun the model will draw — describe light only; the letter is a VFX layer] " + t);
+          }
+          if (namedAbsent.test(t)) {
+            add("[STATE_PAIR: an absent object is named so it can be forbidden — leave it out] " + t);
+          }
+          if (flameWords.test(t) && darkLighting.test(lighting)) {
+            return add("[STATE_PAIR: a flame in a shot whose lighting says dark] " + t);
+          } else {
+            return ;
+          }
+        }
+        
+      });
+  if (smallForm.test(text) && greatForm.test(text)) {
+    add("[CONTRADICTION_FORM: small everyday form and GREAT FORM in one prompt]");
+  }
+  subjects.forEach(function (param) {
+        var tail = param[1];
+        var name = param[0];
+        var own = castTable.find(function (param) {
+              return param[0] === name;
+            });
+        if (own !== undefined && !hasName(own, tail)) {
+          add("[PER_SUBJECT: " + name + "'s line never names " + name + " — the pose must say who acts] " + tail);
+        }
+        castTable.forEach(function (param) {
+              var latin = param[0];
+              if (latin !== name && (tail.trim().startsWith(param[1]) || tail.trim().startsWith(latin))) {
+                return add("[PER_SUBJECT: " + name + "'s line has " + latin + " as its actor] " + tail);
+              }
+              
+            });
+      });
+  var tails = subjects.map(function (param) {
+        return param[1];
+      });
+  tails.forEach(function (t, i) {
+        if (tails.indexOf(t) !== i) {
+          return add("[DUPLICATE_DOING: two subjects share one description] " + t);
+        }
+        
+      });
+  if (subjects.length >= 2) {
+    var scene = lines.find(function (l) {
+          return l.startsWith("SCENE:");
+        });
+    if (scene !== undefined) {
+      subjects.forEach(function (param) {
+            var name = param[0];
+            var alias = castTable.find(function (param) {
+                  return param[0] === name;
+                });
+            if (alias !== undefined && !hasName(alias, scene)) {
+              return add("[PER_SUBJECT: SCENE leaves " + name + " unnamed] " + scene);
+            }
+            
+          });
+    }
+    
+  }
+  return out.contents;
+}
+
+function passStrict(which, text) {
+  var bad = scan(text).concat(strict.contents ? scanStrict(text) : []);
+  if (bad.length > 0) {
+    Js_exn.raiseError("PromptGate: " + which + " refused:\n" + bad.join("\n"));
+  }
+  return text;
+}
+
 export {
   banned ,
   scan ,
   pass ,
+  strict ,
+  setStrict ,
+  castTable ,
+  collective ,
+  shapeWords ,
+  namedAbsent ,
+  flameWords ,
+  darkLighting ,
+  smallForm ,
+  greatForm ,
+  subjectLine ,
+  boilerplate ,
+  has ,
+  hasName ,
+  scanStrict ,
+  passStrict ,
 }
 /* banned Not a pure module */

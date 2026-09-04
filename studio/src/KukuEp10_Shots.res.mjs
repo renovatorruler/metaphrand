@@ -120,7 +120,7 @@ function lanePlate(y) {
 
 var courtyardPlate = Kuku_Ep10Sets.masterPlate("Courtyard");
 
-function mk(id, beat, scene, shot, dragonsOpt, othersOpt, gauri, cart, ga, propsOpt, setting, at, cartAt, plate, objectsOpt, lightingOverride, extraRulesOpt, addedOpt, param) {
+function mk(id, beat, scene, shot, dragonsOpt, othersOpt, gauri, cart, ga, propsOpt, setting, at, cartAt, plate, objectsOpt, lightingOverride, blockout, extraRulesOpt, addedOpt, param) {
   var dragons = dragonsOpt !== undefined ? dragonsOpt : [];
   var others = othersOpt !== undefined ? othersOpt : [];
   var props = propsOpt !== undefined ? propsOpt : [];
@@ -240,6 +240,7 @@ function mk(id, beat, scene, shot, dragonsOpt, othersOpt, gauri, cart, ga, props
             setting: setting,
             lighting: lighting,
             plate: plate$2,
+            blockout: blockout,
             objects: objects,
             extraRules: extraRules$3
           },
@@ -274,33 +275,33 @@ function allFiveRow(doing) {
 }
 
 var shots = [
-  mk("h01_ring_wide", "RingDrill", "Scene 0 opening — the five stand before the flight ring for the evening drill.", "Wide", allFiveRow("on the courtyard flagstones, facing the flight ring"), undefined, undefined, undefined, undefined, undefined, courtyard + ", dusk paper clouds above", undefined, undefined, courtyardPlate, undefined, undefined, undefined, ["the five enumerated by name, color and row order — the prose said only \"five towering paper dragon children\""], undefined),
+  mk("h01_ring_wide", "RingDrill", "Scene 0 opening — the five stand before the flight ring for the evening drill.", "Wide", allFiveRow("on the courtyard flagstones, facing the flight ring"), undefined, undefined, undefined, undefined, undefined, courtyard + ", dusk paper clouds above", undefined, undefined, courtyardPlate, undefined, undefined, Kuku_Ep10Sets.plateDir.replace("sets/", "sets/blender/") + "shot_h01_ring_wide_blockout.png", undefined, ["the five enumerated by name, color and row order — the prose said only \"five towering paper dragon children\""], undefined),
   mk("h02_rishi_teach", "RingDrill", "ऋषि opens the drill with instructions.", "Medium", undefined, [{
           TAG: "RishiMuni",
           doing: "stands at the edge of the flight courtyard, staff planted on the flagstones, one hand raised mid-instruction; the flight ring soft behind him"
-        }], undefined, undefined, undefined, undefined, courtyard, undefined, undefined, courtyardPlate, undefined, undefined, undefined, undefined, undefined),
+        }], undefined, undefined, undefined, undefined, courtyard, undefined, undefined, courtyardPlate, undefined, undefined, Kuku_Ep10Sets.plateDir.replace("sets/", "sets/blender/") + "shot_h02_rishi_teach_blockout.png", undefined, undefined, undefined),
   mk("h03_furia_mark", "RingDrill", "फ्यूरिया is first up, on her mark.", "CloseMedium", [[
           "Fyuria",
           "stands eager on the launch circle, wings half-raised, chin lifted"
-        ]], undefined, undefined, undefined, undefined, undefined, courtyard, undefined, undefined, courtyardPlate, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+        ]], undefined, undefined, undefined, undefined, undefined, courtyard, undefined, undefined, courtyardPlate, undefined, undefined, Kuku_Ep10Sets.plateDir.replace("sets/", "sets/blender/") + "shot_h03_furia_mark_blockout.png", undefined, ["lighting (none in the prose)"], undefined),
   mk("h04_launch", "RingDrill", "फ्यूरिया launches through the ring.", "WideLow", [[
           "Fyuria",
           "launches straight out through the great stone flight ring, wings at full stretch, paper dust curling from the flagstones"
-        ]], undefined, undefined, undefined, undefined, undefined, courtyard, undefined, undefined, courtyardPlate, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+        ]], undefined, undefined, undefined, undefined, undefined, courtyard, undefined, undefined, courtyardPlate, undefined, undefined, Kuku_Ep10Sets.plateDir.replace("sets/", "sets/blender/") + "shot_h04_launch_blockout.png", undefined, ["lighting (none in the prose)"], undefined),
   mk("h05_bell_touch", "RingDrill", "Her pass rings the bell.", "Close", undefined, undefined, undefined, undefined, undefined, [{
           TAG: "Prop",
           what: "THE BELL — the bronze paper bell of the flight ring, fastened by its bronze binding to the short hook at the ring's crown",
           doing: "hanging from its short bronze hook on the inside of the flight ring's crown, caught mid-swing from a passing touch, a curl of paper dust drifting where a claw just left frame"
-        }], "the crown of the great stone flight ring, its layered paper stone curving through frame, dusk sky of layered paper clouds behind", undefined, undefined, courtyardPlate, undefined, undefined, undefined, undefined, undefined),
+        }], "the crown of the great stone flight ring, its layered paper stone curving through frame, dusk sky of layered paper clouds behind", undefined, undefined, courtyardPlate, undefined, undefined, undefined, undefined, undefined, undefined),
   mk("h06_landing_paw", "RingDrill", "फ्यूरिया lands a claw past her mark.", "Medium", [[
           "Fyuria",
           "has landed on the launch circle, wings still open and settling, one hind claw scuffed just past the mark, paper dust in the air"
-        ]], undefined, undefined, undefined, undefined, undefined, courtyard, undefined, undefined, courtyardPlate, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+        ]], undefined, undefined, undefined, undefined, undefined, courtyard, undefined, undefined, courtyardPlate, undefined, undefined, Kuku_Ep10Sets.plateDir.replace("sets/", "sets/blender/") + "shot_h06_landing_paw_blockout.png", undefined, ["lighting (none in the prose)"], undefined),
   mk("h45_leda_watch_ring", "RingDrill", "लेडा keeps her eyes on the mark.", "Medium", [[
           "Leda",
           "stands on the courtyard flagstones, head lifted and turned up to the right, watching the sky intently — the calm one who keeps her eyes on the mark"
-        ]], undefined, undefined, undefined, undefined, undefined, courtyard + ", the great stone flight ring soft behind her", undefined, undefined, courtyardPlate, undefined, undefined, undefined, undefined, undefined),
-  mk("h51_gauri_grazing", "RingDrill", "गौरी grazing near the lane — the calm before.", "Medium", undefined, undefined, "grazing calmly on paper grass, unhurried", undefined, undefined, undefined, "the grass verge beside the gurukul courtyard, the lane beyond", undefined, undefined, Kuku_Ep10Sets.masterPlate("GrassVerge"), undefined, undefined, undefined, ["ENTIRE SPEC rebuilt — the original prompt existed only in a wiped scratchpad"], undefined),
+        ]], undefined, undefined, undefined, undefined, undefined, courtyard + ", the great stone flight ring soft behind her", undefined, undefined, courtyardPlate, undefined, undefined, Kuku_Ep10Sets.plateDir.replace("sets/", "sets/blender/") + "shot_h45_leda_watch_ring_blockout.png", undefined, undefined, undefined),
+  mk("h51_gauri_grazing", "RingDrill", "गौरी grazing near the lane — the calm before.", "Medium", undefined, undefined, "grazing calmly on paper grass, unhurried", undefined, undefined, undefined, "the grass verge beside the gurukul courtyard, the lane beyond", undefined, undefined, Kuku_Ep10Sets.masterPlate("GrassVerge"), undefined, undefined, undefined, undefined, ["ENTIRE SPEC rebuilt — the original prompt existed only in a wiped scratchpad"], undefined),
   mk("h52_gauri_hay_cart", "RingDrill", "गौरी helps herself to the hay.", "Medium", undefined, undefined, "standing beside the cart, stretching her neck up into it, pulling out a mouthful of paper hay", [
         true,
         "standing tethered at the top of the slope"
@@ -308,7 +309,7 @@ var shots = [
           TAG: "Prop",
           what: "THE ROPE — the thick red paper-twine rope",
           doing: "tying it to the stone post"
-        }], lane, undefined, undefined, Kuku_Ep10Sets.lanePlateAt(4.0), undefined, undefined, undefined, ["ENTIRE SPEC rebuilt — the original prompt existed only in a wiped scratchpad"], undefined),
+        }], lane, undefined, undefined, Kuku_Ep10Sets.lanePlateAt(4.0), undefined, undefined, Kuku_Ep10Sets.plateDir.replace("sets/", "sets/blender/") + "shot_h52_gauri_hay_cart_blockout.png", undefined, ["ENTIRE SPEC rebuilt — the original prompt existed only in a wiped scratchpad"], undefined),
   mk("h07_cart_tethered", "Briefing", "The safety briefing laid out — the tethered cart, the rope, the markers, the flat, the wall.", "Wide", undefined, undefined, "stands in the cart eating the paper hay", [
         true,
         "stands at the top of the slope"
@@ -316,19 +317,19 @@ var shots = [
           TAG: "Prop",
           what: "THE ROPE — the thick red paper-twine rope",
           doing: "ties the cart to a stone post, knotted thick"
-        }], lane, undefined, undefined, Kuku_Ep10Sets.lanePlateAt(4.0), undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
-  mk("h08_gauri_close", "Briefing", "गौरी, introduced.", "Close", undefined, undefined, "chewing paper hay, calm, dark paper eyes", undefined, undefined, undefined, "beside the hay cart at the top of the lane", undefined, undefined, Kuku_Ep10Sets.lanePlateAt(4.0), undefined, undefined, undefined, ["lighting and setting (the prose was only \"CLOSE\" plus the cow)"], undefined),
+        }], lane, undefined, undefined, Kuku_Ep10Sets.lanePlateAt(4.0), undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+  mk("h08_gauri_close", "Briefing", "गौरी, introduced.", "Close", undefined, undefined, "chewing paper hay, calm, dark paper eyes", undefined, undefined, undefined, "beside the hay cart at the top of the lane", undefined, undefined, Kuku_Ep10Sets.lanePlateAt(4.0), undefined, undefined, undefined, undefined, ["lighting and setting (the prose was only \"CLOSE\" plus the cow)"], undefined),
   mk("h09_rishi_boon", "Briefing", "ऋषि's solemn warning — the old boon he once granted.", "Medium", undefined, [{
           TAG: "RishiMuni",
           doing: "speaks gravely to camera-left, staff in both hands — the moment of a solemn warning"
-        }], undefined, undefined, undefined, undefined, courtyard, undefined, undefined, courtyardPlate, undefined, "dusk light warm on his paper robes — warm golden dusk, the last golden evening", undefined, undefined, undefined),
+        }], undefined, undefined, undefined, undefined, courtyard, undefined, undefined, courtyardPlate, undefined, "dusk light warm on his paper robes — warm golden dusk, the last golden evening", undefined, undefined, undefined, undefined),
   mk("h53_ring_drill_wide", "RingDrill", "The whole flight drill laid out: फ्यूरिया waits on her mark and the ring stands ahead of her with the bronze bell hanging inside it.", "Wide", [[
           "Fyuria",
           "stands ON THE CENTRE OF THE LAUNCH CIRCLE — the concentric rings of flagstones in the courtyard floor, exactly where the reference image has them — wings half-raised and chin lifted, facing the ring — small in the frame, with a great deal of open courtyard and sky around her"
         ]], undefined, undefined, undefined, undefined, undefined, Kuku_Ep10Sets.setProseFor("Courtyard", [
             "LAUNCH CIRCLE",
             "FLIGHT RING"
-          ]), undefined, undefined, courtyardPlate, undefined, undefined, [
+          ]), undefined, undefined, courtyardPlate, undefined, undefined, Kuku_Ep10Sets.plateDir.replace("sets/", "sets/blender/") + "shot_h53_ring_drill_wide_blockout.png", [
         "SIZE IN THE WORLD AND SIZE IN THE FRAME ARE TWO DIFFERENT THINGS. She is still enormous compared with the flagstones she stands on — and the VIEWPOINT IS VERY FAR AWAY, so she appears SMALL in this picture: at most a QUARTER of the frame's height, a distant figure in a large space.",
         "FRAME THIS VERY WIDE AND FROM FAR BACK: the launch circle and the whole ring, bell included, are visible at once, well clear of the frame edges, with a broad band of sky above and open flagstones between them. Each sits whole inside the frame.",
         "leave enough empty air in the frame for her to fly from the mark, up through the ring and back again while staying inside the picture.",
@@ -345,12 +346,12 @@ var shots = [
           TAG: "Prop",
           what: "GLYPH-SHARDS — small jagged black broken paper shards",
           doing: "scattered near her talons on the parapet"
-        }], tower, undefined, undefined, Kuku_Ep10Sets.masterPlate("Tower"), undefined, undefined, undefined, ["lighting refined from plain \"dusk\" to the cool-tower doctrine"], undefined),
+        }], tower, undefined, undefined, Kuku_Ep10Sets.masterPlate("Tower"), undefined, undefined, Kuku_Ep10Sets.plateDir.replace("sets/", "sets/blender/") + "shot_h10_cheel_tower_blockout.png", undefined, ["lighting refined from plain \"dusk\" to the cool-tower doctrine"], undefined),
   mk("h11_shards_close", "TowerMischief", "The broken glyph — its dark paper shards, close.", "Close", undefined, undefined, undefined, undefined, undefined, [{
           TAG: "Prop",
           what: "GLYPH-SHARDS — small jagged black broken paper shards",
           doing: "lying on weathered paper stone, catching the last dusk light"
-        }], "the weathered stone of the tower parapet", undefined, undefined, Kuku_Ep10Sets.masterPlate("Tower"), undefined, undefined, undefined, undefined, undefined),
+        }], "the weathered stone of the tower parapet", undefined, undefined, Kuku_Ep10Sets.masterPlate("Tower"), undefined, undefined, undefined, undefined, undefined, undefined),
   mk("h12_rope_slip", "RopeSlips", "The knot gives — the cart is loose.", "Close", undefined, undefined, undefined, undefined, undefined, [{
           TAG: "Prop",
           what: "THE ROPE — the thick red paper-twine rope",
@@ -358,7 +359,7 @@ var shots = [
         }], Kuku_Ep10Sets.setProseFor("Lane", [
             "STONE POST",
             "CART START"
-          ]), undefined, undefined, Kuku_Ep10Sets.lanePlateAt(4.0), undefined, undefined, [
+          ]), undefined, undefined, Kuku_Ep10Sets.lanePlateAt(4.0), undefined, undefined, undefined, [
         "the rope is INTACT along its whole visible length — a continuous twisted paper cord with clean edges, every strand whole and wound tight from end to end",
         "frame close on the post and knot, but keep enough of the paper flagstones and the low kerb beneath to place this at the head of the lane",
         "the rope leaves the frame at the RIGHT still under tension, going to the cart out of shot"
@@ -370,7 +371,7 @@ var shots = [
           TAG: "Prop",
           what: "THE BELL — the bronze paper bell of the flight ring, fastened by its bronze binding to the short hook at the ring's crown",
           doing: "still hanging inside the ring's crown on its whole bronze binding, directly beneath her"
-        }], Kuku_Ep10Sets.setProseFor("Courtyard", ["FLIGHT RING"]), undefined, undefined, courtyardPlate, undefined, undefined, [
+        }], Kuku_Ep10Sets.setProseFor("Courtyard", ["FLIGHT RING"]), undefined, undefined, courtyardPlate, undefined, undefined, undefined, [
         "the bell hangs untouched inside the ring and its bronze binding is WHOLE — this is the moment before the theft",
         "FRAME ON THE FLIGHT RING: the great ring fills most of the frame, complete inside the frame with air on every side, the bronze bell hanging from the inside of its crown down into the opening",
         "चील is perched ON THE CROWN OF THE RING directly above the bell, small against it — the ring is fourteen metres across and she is a bird",
@@ -379,7 +380,7 @@ var shots = [
   mk("h14_furia_choice", "RopeSlips", "फ्यूरिया chooses the cart over the chase.", "Close", [[
           "Fyuria",
           "hovers, turned away from the open sky and looking down toward the courtyard, jaw set, wings beating"
-        ]], undefined, undefined, undefined, undefined, undefined, "the sky over the courtyard", undefined, undefined, courtyardPlate, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+        ]], undefined, undefined, undefined, undefined, undefined, "the sky over the courtyard", undefined, undefined, courtyardPlate, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h15_cart_runs", "Runaway", "The cart runs — गौरी aboard.", "WideAction", undefined, undefined, "braced frightened inside the rolling cart", [
         true,
         "rolls fast down the slope, paper hay flying"
@@ -387,7 +388,7 @@ var shots = [
           TAG: "Prop",
           what: "THE ROPE — the thick red paper-twine rope",
           doing: "loose, trailing behind the cart"
-        }], lane, 6.0, 4.0, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+        }], lane, 6.0, 4.0, undefined, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h16_five_flank", "Runaway", "The five give chase in formation.", "Wide", [
         [
           "Fyuria",
@@ -412,7 +413,7 @@ var shots = [
       ], undefined, undefined, [
         true,
         "runs down the slope below them"
-      ], undefined, undefined, lane, 16.0, 8.0, undefined, undefined, undefined, undefined, ["per-dragon flight positions — the prose said only \"five towering paper dragons fly alongside and above\""], undefined),
+      ], undefined, undefined, lane, 16.0, 8.0, undefined, undefined, undefined, undefined, undefined, ["per-dragon flight positions — the prose said only \"five towering paper dragons fly alongside and above\""], undefined),
   mk("h17_group_lift", "Runaway", "The lift — all four wheels rise a little together, and the weight wins.", "WideLow", [
         [
           "Kuku",
@@ -437,70 +438,70 @@ var shots = [
       ], undefined, "sliding inside the tilting cart", [
         true,
         "all four wheels lifted a little off the track together, the cart swaying under its own weight"
-      ], undefined, undefined, lane, 19.0, 10.0, undefined, undefined, undefined, undefined, ["per-dragon grip positions and lighting (the prose had neither)"], undefined),
+      ], undefined, undefined, lane, 19.0, 10.0, undefined, undefined, undefined, undefined, undefined, ["per-dragon grip positions and lighting (the prose had neither)"], undefined),
   mk("h18_cow_slips", "Runaway", "गौरी loses her footing.", "Close", undefined, undefined, "losing footing inside the tilting cart, legs braced, paper hay scattering", [
         true,
         "tilting mid-lift"
-      ], undefined, undefined, lane, 19.0, 11.0, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+      ], undefined, undefined, lane, 19.0, 11.0, undefined, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h19_wheels_return", "Runaway", "The lift is abandoned — wheels back down.", "Close", undefined, undefined, undefined, [
         true,
         "its four wooden wheels settling back onto the flagstone lane, dust puffing, the cart righting"
-      ], undefined, undefined, lane, 21.0, 13.0, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+      ], undefined, undefined, lane, 21.0, 13.0, undefined, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h46_leda_calls_lane", "Runaway", "लेडा calls the lane.", "MediumWide", [[
           "Leda",
           "flies low alongside the downhill lane, head turned down to the lane, mouth open calling instructions, one wing dipped toward the ground"
-        ]], undefined, undefined, undefined, undefined, undefined, lane, 14.0, 6.0, undefined, undefined, undefined, undefined, undefined, undefined),
+        ]], undefined, undefined, undefined, undefined, undefined, lane, 14.0, 6.0, undefined, undefined, undefined, undefined, undefined, undefined, undefined),
   mk("h20_furia_brake", "Braking", "फ्यूरिया air-brakes the cart.", "Wide", [[
           "Fyuria",
           "flies backwards ahead of the running cart, wings pushing air against it"
         ]], undefined, undefined, [
         true,
         "running, its nose just behind her"
-      ], undefined, undefined, lane, 26.0, 15.0, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+      ], undefined, undefined, lane, 26.0, 15.0, undefined, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h21_vesper_above", "Braking", "वैस्पर calls the lane from above.", "HighWide", [[
           "Vesper",
           "hovers high over the lane, calling down"
         ]], undefined, undefined, [
         true,
         "small below on the lane between the markers"
-      ], undefined, undefined, lane, 26.0, 17.0, undefined, undefined, undefined, ["the wooden hay cart rolls BY ITSELF on its four wheels, and INSIDE its bed — wooden walls on all four sides around her — stands गौरी, braced in the hay, a passenger riding it"], ["lighting (none in the prose)"], undefined),
+      ], undefined, undefined, lane, 26.0, 17.0, undefined, undefined, undefined, undefined, ["the wooden hay cart rolls BY ITSELF on its four wheels, and INSIDE its bed — wooden walls on all four sides around her — stands गौरी, braced in the hay, a passenger riding it"], ["lighting (none in the prose)"], undefined),
   mk("h22_castor_calm", "Braking", "कैस्टर keeps गौरी calm.", "Medium", [[
           "Castor",
           "flies ALONG the lane directly above and behind the cart, his long body and tail stretching back UP the slope behind him and fully inside the lane, wings swept back and held high above the kerb line. Only his head and neck come down toward the frightened cow. He is turned nose-forward down the lane, his whole length in line with it, and his tail runs back along the open lane through clear air, between the kerbs the whole way"
         ]], undefined, "frightened in the cart, looking up at him", [
         true,
         "running"
-      ], undefined, undefined, lane, 28.0, 19.0, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+      ], undefined, undefined, lane, 28.0, 19.0, undefined, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h23_marker_pass", "Braking", "The second marker flashes past.", "Close", undefined, undefined, undefined, undefined, undefined, [{
           TAG: "Prop",
           what: "A RED DISTANCE MARK — a broad red band painted flat across the lane's paving, colour on the road surface itself, smooth under any wheel",
           doing: "set into the flagstone lane as wooden paper wheels rush past it, dust lifting"
-        }], lane, 24.0, 24.0, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+        }], lane, 24.0, 24.0, undefined, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h24_kuku_breath_fail", "Braking", "कुकु's breath scatters into shapeless golden wisps, and the flat stone stays bare.", "Medium", [[
           "Kuku",
           "exhales a thin golden paper-cut breath that scatters and dies in the air, his expression startled"
-        ]], undefined, undefined, undefined, undefined, undefined, lane, 30.0, 26.0, undefined, undefined, undefined, ["his golden कड़ा sits on ONE forearm only, the other forearm bare"], ["lighting (none in the prose)"], undefined),
+        ]], undefined, undefined, undefined, undefined, undefined, lane, 30.0, 26.0, undefined, undefined, undefined, undefined, ["his golden कड़ा sits on ONE forearm only, the other forearm bare"], ["lighting (none in the prose)"], undefined),
   mk("h47_leda_warns", "Braking", "लेडा's warning.", "Close", [[
           "Leda",
           "head and shoulders, wings raised behind her, expression sharp with warning, calling out"
-        ]], undefined, undefined, undefined, undefined, undefined, lane, 30.0, 25.0, undefined, undefined, "golden dusk light across her lilac paper scales", undefined, undefined, undefined),
+        ]], undefined, undefined, undefined, undefined, undefined, lane, 30.0, 25.0, undefined, undefined, "golden dusk light across her lilac paper scales", undefined, undefined, undefined, undefined),
   mk("h25_leda_knock", "FlatSound", "लेडा raps the flat stone and listens.", "Medium", [[
           "Leda",
           "lands on the flat paper stone at the bottom of the lane and raps the stone once with a claw, listening"
-        ]], undefined, undefined, undefined, undefined, undefined, flatStone, 50.0, 27.0, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+        ]], undefined, undefined, undefined, undefined, undefined, flatStone, 50.0, 27.0, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h26_tings", "FlatSound", "कुकु's कड़ा answers the word — the golden ting.", "CloseAbstract", undefined, undefined, undefined, undefined, undefined, [{
           TAG: "Prop",
           what: "SOUND-RINGS — small golden paper rings of light",
           doing: "rippling outward above a paper flagstone — the visual echo of a sound"
-        }], flatStone, 50.0, 28.0, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, "deep dusk; the golden rings are the brightest thing in frame", undefined, undefined, undefined),
+        }], flatStone, 50.0, 28.0, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, "deep dusk; the golden rings are the brightest thing in frame", undefined, undefined, undefined, undefined),
   mk("h27_kuku_hears", "FlatSound", "कुकु hears it — recognition.", "Close", [[
           "Kuku",
           "his face lit gold from below, eyes wide with recognition, listening hard"
-        ]], undefined, undefined, undefined, undefined, undefined, flatStone, 50.0, 29.0, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, "deep dusk; the golden ting-light from below is the brightest thing on his face", undefined, undefined, undefined),
+        ]], undefined, undefined, undefined, undefined, undefined, flatStone, 50.0, 29.0, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, "deep dusk; the golden ting-light from below is the brightest thing on his face", undefined, undefined, undefined, undefined),
   mk("h48_leda_counts", "FlatSound", "लेडा counts the timing.", "Medium", [[
           "Leda",
           "hovers steady above the flat paper stone at the bottom of the lane, one foreclaw raised as if marking a beat, eyes fixed forward, counting"
-        ]], undefined, undefined, undefined, undefined, undefined, flatStone, 50.0, 30.0, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+        ]], undefined, undefined, undefined, undefined, undefined, flatStone, 50.0, 30.0, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h28_forging", "Forging", "The forging — कुकु pours the ग onto the flat stone.", "Wide", [
         [
           "Kuku",
@@ -510,8 +511,8 @@ var shots = [
           "Leda",
           "stands at the stone's far edge, wings half-raised, eyes on the forming shape"
         ]
-      ], undefined, undefined, undefined, undefined, undefined, flatStone, 52.0, 31.0, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, ["the four watching dragons enumerated by name (prose: \"the four other towering dragons\")"], undefined),
-  mk("h29_ga_stands", "Forging", "The golden shape stands, braced against the wall.", "Wide", undefined, undefined, undefined, undefined, "stands newly forged on the flat stone at the end of the lane, its open hook-curve facing up the lane, its upright braced against the paper stone wall", undefined, flatStone, 55.0, 32.0, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, "deep dusk; the golden shape catches the last light", undefined, undefined, undefined),
+      ], undefined, undefined, undefined, undefined, undefined, flatStone, 52.0, 31.0, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, undefined, ["the four watching dragons enumerated by name (prose: \"the four other towering dragons\")"], undefined),
+  mk("h29_ga_stands", "Forging", "The golden shape stands, braced against the wall.", "Wide", undefined, undefined, undefined, undefined, "stands newly forged on the flat stone at the end of the lane, its open hook-curve facing up the lane, its upright braced against the paper stone wall", undefined, flatStone, 55.0, 32.0, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, "deep dusk; the golden shape catches the last light", undefined, undefined, undefined, undefined),
   mk("h30_bracelets", "Forging", "The कड़ा glows — the letter is earned.", "Close", [[
           "Castor",
           "only his forearm in frame, wearing the कड़ा"
@@ -519,15 +520,15 @@ var shots = [
           TAG: "Prop",
           what: "THE कड़ा — a golden paper bracelet cuff with two small blank golden medallions set into it",
           doing: "on his forearm, glowing warm, its two blank medallions catching the glow"
-        }], flatStone, 55.0, 32.5, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, "deep dusk; the bracelet's warm glow lights the frame", undefined, ["whose forearm it is (prose said \"a paper dragon's forearm\")"], undefined),
+        }], flatStone, 55.0, 32.5, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, "deep dusk; the bracelet's warm glow lights the frame", undefined, undefined, ["whose forearm it is (prose said \"a paper dragon's forearm\")"], undefined),
   mk("h31_vesper_yawn", "LastApproach", "वैस्पर's yawn — the watch slips.", "Medium", [[
           "Vesper",
           "high above the lane mid-yawn, eyes half shut, wings slack for an instant"
-        ]], undefined, undefined, undefined, undefined, undefined, lane, 34.0, 33.0, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+        ]], undefined, undefined, undefined, undefined, undefined, lane, 34.0, 33.0, undefined, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h32_cart_drifts", "LastApproach", "The cart drifts toward the kerb.", "Wide", undefined, undefined, undefined, [
         true,
         "drifting toward the left edge of the lane, one wheel near the paper kerb, dust streaming"
-      ], undefined, undefined, lane, 35.0, 34.0, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+      ], undefined, undefined, lane, 35.0, 34.0, undefined, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h33_cheel_flyover", "LastApproach", "चील taunts them with the bell.", "Wide", undefined, [{
           TAG: "Cheel",
           doing: "sweeps low over the running cart with the bronze bell in her talons, wings wide, taunting"
@@ -538,59 +539,59 @@ var shots = [
           TAG: "Prop",
           what: "THE BELL — the bronze paper bell of the flight ring, fastened by its bronze binding to the short hook at the ring's crown",
           doing: "in her talons"
-        }], lane, 38.0, 34.5, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+        }], lane, 38.0, 34.5, undefined, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h34_furia_refuses", "LastApproach", "फ्यूरिया refuses the bait again.", "Close", [[
           "Fyuria",
           "looks away from the departing eagle and back down at the cart below, jaw set, refusing"
-        ]], undefined, undefined, undefined, undefined, undefined, lane, 39.0, 35.0, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+        ]], undefined, undefined, undefined, undefined, undefined, lane, 39.0, 35.0, undefined, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h35_last_marker", "TheStop", "The third marker — the flat and the shape ahead.", "Close", undefined, undefined, undefined, undefined, "visible ahead on the flat stretch", [{
           TAG: "Prop",
           what: "A RED DISTANCE MARK — a broad red band painted flat across the lane's paving, colour on the road surface itself, smooth under any wheel",
           doing: "the THIRD red marker, under rushing wooden paper wheels"
-        }], lane, 36.0, 36.0, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+        }], lane, 36.0, 36.0, undefined, undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h36_three_beats", "TheStop", "फ्यूरिया's three deliberate beats.", "Wide", [[
           "Fyuria",
           "holds ahead of the slowing cart, wings in one deep deliberate beat, paper dust rolling"
         ]], undefined, undefined, [
         true,
         "slowing behind her"
-      ], undefined, undefined, lane, 44.0, 42.0, undefined, undefined, undefined, ["the wooden hay cart rolls BY ITSELF on its four wheels, and INSIDE its bed — wooden walls on all four sides around her — stands गौरी, braced in the hay, a passenger riding it"], ["lighting (none in the prose)"], undefined),
-  mk("h37_cart_into_curve", "TheStop", "The cart rides into the golden curve.", "Wide", undefined, undefined, "steady inside the cart", [
+      ], undefined, undefined, lane, 44.0, 42.0, undefined, undefined, undefined, undefined, ["the wooden hay cart rolls BY ITSELF on its four wheels, and INSIDE its bed — wooden walls on all four sides around her — stands गौरी, braced in the hay, a passenger riding it"], ["lighting (none in the prose)"], undefined),
+  mk("h37_cart_into_curve", "TheStop", "The cart runs its last metres onto the flat stone, wheels almost stopped.", "Wide", undefined, undefined, "steady inside the cart", [
         true,
-        "its nose riding up into the open curve of the golden shape, wheels almost stopped"
-      ], "cradling the cart's nose", undefined, flatStone, 55.0, 54.0, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
-  mk("h38_stopped", "TheStop", "Stopped. Safe.", "Wide", undefined, undefined, "calm in the cart", [
+        "running its last metres onto the flat stone, nose tipping up as it slows, wheels almost stopped"
+      ], "the shape is composited onto this frame afterward", undefined, flatStone, 55.0, 54.0, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+  mk("h38_stopped", "TheStop", "Stopped on the flat stone. Safe.", "Wide", undefined, undefined, "calm in the cart", [
         true,
-        "at rest, cradled in the curve of the golden shape, dust settling"
-      ], "holding the cart", undefined, flatStone, 55.0, 55.0, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, undefined, undefined),
+        "at rest on the flat stone, dust settling around its wheels"
+      ], "the shape is composited onto this frame afterward", undefined, flatStone, 55.0, 55.0, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, undefined, undefined, undefined),
   mk("h49_leda_relief", "TheStop", "लेडा lets go — relief.", "Medium", [[
           "Leda",
           "stands on the flagstones with wings folded and shoulders dropped in relief, a tired warm smile"
-        ]], undefined, undefined, undefined, undefined, undefined, flatStone, undefined, undefined, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, "evening light low behind her — soft warm afterglow", undefined, undefined, undefined),
+        ]], undefined, undefined, undefined, undefined, undefined, flatStone, undefined, undefined, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, "evening light low behind her — soft warm afterglow", undefined, undefined, undefined, undefined),
   mk("h39_shrink_glow", "AfterStop", "The five shrink back to small — seen only as light.", "WideAbstract", undefined, undefined, undefined, undefined, undefined, [{
           TAG: "Prop",
           what: "FIVE COLUMNS of soft golden paper light",
           doing: "standing alone on the courtyard flagstones where the five dragons were, paper clouds behind"
-        }], flatStone, undefined, undefined, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, undefined, undefined),
-  mk("h54_small_five_stand", "AfterStop", "The light has settled: five small everyday dragon children stand together on the courtyard flagstones where the five columns of light stood, wings folded, close and quiet.", "Wide", allFiveRow("wings folded, quiet, the light just gone"), undefined, undefined, undefined, undefined, undefined, flatStone, undefined, undefined, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, [
+        }], flatStone, undefined, undefined, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, undefined, undefined, undefined),
+  mk("h54_small_five_stand", "AfterStop", "The light has settled: five small everyday dragon children stand together on the courtyard flagstones where the five columns of light stood, wings folded, close and quiet.", "Wide", allFiveRow("wings folded, quiet, the light just gone"), undefined, undefined, undefined, undefined, undefined, flatStone, undefined, undefined, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, [
         "FRAME EXACTLY AS THE REFERENCE PLATE: same vantage, the flat stretch and the stopped cart near them",
         "the five stand spaced apart in a loose row on the open flagstones, each fully visible"
       ], ["end frame for the shrink clip — locks the five small designs from the sheets"], undefined),
   mk("h40_small_five_sit", "AfterStop", "Small again, sitting with गौरी.", "Wide", allFiveRow("sitting quietly on the flagstones near the stopped cart"), undefined, "stepping down from the cart bed, forehooves already on the stone", [
         false,
         "stopped nearby"
-      ], undefined, undefined, flatStone, undefined, undefined, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, ["the five named with a row order (prose: \"five small paper dragon children\"); NOTE: no small character sheet exists for Vesper — his design rides on the color law alone"], undefined),
+      ], undefined, undefined, flatStone, undefined, undefined, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, undefined, ["the five named with a row order (prose: \"five small paper dragon children\"); NOTE: no small character sheet exists for Vesper — his design rides on the color law alone"], undefined),
   mk("h41_castor_in_hay", "AfterStop", "कैस्टर in the hay, laughing.", "Medium", [[
           "Castor",
           "sitting down in a heap of paper hay, laughing"
-        ]], undefined, "her nose near him", undefined, undefined, undefined, flatStone, undefined, undefined, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
+        ]], undefined, "her nose near him", undefined, undefined, undefined, flatStone, undefined, undefined, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined),
   mk("h50_leda_small_sits", "AfterStop", "Small लेडा watches, patient.", "Medium", [[
           "Leda",
           "sits quietly on the paper flagstones near the wooden cart, wings folded, watching something gently and patiently"
         ]], undefined, undefined, [
         false,
         "stopped nearby"
-      ], "standing on the flat stone nearby", undefined, flatStone, undefined, undefined, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, undefined, undefined),
+      ], "standing on the flat stone nearby", undefined, flatStone, undefined, undefined, Kuku_Ep10Sets.masterPlate("FlatStone"), undefined, undefined, undefined, undefined, undefined, undefined),
   mk("h42_doorway_dadi", "DoorwayNight", "दादी at the doorway between the worlds.", "Medium", undefined, [{
           TAG: "Dadi",
           doing: "stands in the courtyard beyond the doorway, concerned"
@@ -605,7 +606,7 @@ var shots = [
           what: "A SMALL PAPER DOG",
           doing: "beside her"
         }
-      ], "the threshold between the dragon world and the village world", undefined, undefined, Kuku_Ep10Sets.masterPlate("Doorway"), undefined, undefined, undefined, ["lighting refined from plain \"dusk\" to the cool-doorway doctrine"], undefined),
+      ], "the threshold between the dragon world and the village world", undefined, undefined, Kuku_Ep10Sets.masterPlate("Doorway"), undefined, undefined, undefined, undefined, ["lighting refined from plain \"dusk\" to the cool-doorway doctrine"], undefined),
   mk("h43_vesper_asleep", "DoorwayNight", "वैस्पर asleep beside the doorway.", "Close", [[
           "Vesper",
           "asleep with his head resting on a blue paper cushion, breathing slow"
@@ -613,7 +614,7 @@ var shots = [
           TAG: "Prop",
           what: "THE DOORWAY — an open golden paper doorway standing between two worlds",
           doing: "glowing softly beside him"
-        }], "beside the glowing doorway", undefined, undefined, Kuku_Ep10Sets.masterPlate("Doorway"), undefined, undefined, undefined, ["IDENTITY FIX: the original prompt attached कुकु's small sheet and said only \"a small paper dragon child\" for a वैस्पर shot; NOTE: no small Vesper sheet exists"], undefined),
+        }], "beside the glowing doorway", undefined, undefined, Kuku_Ep10Sets.masterPlate("Doorway"), undefined, undefined, undefined, undefined, ["IDENTITY FIX: the original prompt attached कुकु's small sheet and said only \"a small paper dragon child\" for a वैस्पर shot; NOTE: no small Vesper sheet exists"], undefined),
   mk("h44_tower_door", "TowerEnd", "चील before the tower door as it grinds open a hair.", "Medium", undefined, [{
           TAG: "Cheel",
           doing: "stands before the tall closed paper stone door, the bronze bell at her talons"
@@ -628,7 +629,7 @@ var shots = [
           what: "THE TOWER DOOR — a tall closed paper stone door set into the tower",
           doing: "beginning to grind open a hair's width, darkness beyond"
         }
-      ], tower, undefined, undefined, Kuku_Ep10Sets.masterPlate("Tower"), undefined, undefined, undefined, ["lighting (none in the prose)"], undefined)
+      ], tower, undefined, undefined, Kuku_Ep10Sets.masterPlate("Tower"), undefined, undefined, undefined, undefined, ["lighting (none in the prose)"], undefined)
 ];
 
 var withAdded = shots.filter(function (e) {
@@ -728,6 +729,10 @@ if (args.length > 0 && Caml_array.get(args, 0) === "audit") {
             case "AssetDrift" :
                 stale.contents = stale.contents + 1 | 0;
                 verdict = "STALE: asset pixels changed after generation";
+                break;
+            case "RulesDrift" :
+                stale.contents = stale.contents + 1 | 0;
+                verdict = "STALE: made under an older law";
                 break;
             
           }

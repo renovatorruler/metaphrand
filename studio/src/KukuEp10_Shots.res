@@ -71,6 +71,7 @@ let mk = (
   ~plate: option<string>=?,
   ~objects: array<string>=[],
   ~lightingOverride: option<string>=?,
+  ~blockout: option<string>=?,
   ~extraRules: array<string>=[],
   ~added: array<string>=[],
   (),
@@ -197,6 +198,7 @@ let mk = (
       shot,
       subjects: Js.Array2.concatMany(dragonSubjects, [others, gauriSubjects, cartSubjects, gaSubjects, props]),
       setting,
+      blockout,
       lighting,
       plate,
       objects,
@@ -225,6 +227,7 @@ let shots: array<entry> = [
     ~dragons=allFiveRow("on the courtyard flagstones, facing the flight ring"),
     ~setting=courtyard ++ ", dusk paper clouds above",
     ~plate=courtyardPlate,
+    ~blockout=Sets.plateDir->Js.String2.replace("sets/", "sets/blender/") ++ "shot_h01_ring_wide_blockout.png",
     ~added=["the five enumerated by name, color and row order — the prose said only \"five towering paper dragon children\""],
     (),
   ),
@@ -236,6 +239,7 @@ let shots: array<entry> = [
     ~others=[P.RishiMuni({doing: "stands at the edge of the flight courtyard, staff planted on the flagstones, one hand raised mid-instruction; the flight ring soft behind him"})],
     ~setting=courtyard,
     ~plate=courtyardPlate,
+    ~blockout=Sets.plateDir->Js.String2.replace("sets/", "sets/blender/") ++ "shot_h02_rishi_teach_blockout.png",
     (),
   ),
   mk(
@@ -246,6 +250,7 @@ let shots: array<entry> = [
     ~dragons=[(P.Fyuria, "stands eager on the launch circle, wings half-raised, chin lifted")],
     ~setting=courtyard,
     ~plate=courtyardPlate,
+    ~blockout=Sets.plateDir->Js.String2.replace("sets/", "sets/blender/") ++ "shot_h03_furia_mark_blockout.png",
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -257,6 +262,7 @@ let shots: array<entry> = [
     ~dragons=[(P.Fyuria, "launches straight out through the great stone flight ring, wings at full stretch, paper dust curling from the flagstones")],
     ~setting=courtyard,
     ~plate=courtyardPlate,
+    ~blockout=Sets.plateDir->Js.String2.replace("sets/", "sets/blender/") ++ "shot_h04_launch_blockout.png",
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -278,6 +284,7 @@ let shots: array<entry> = [
     ~dragons=[(P.Fyuria, "has landed on the launch circle, wings still open and settling, one hind claw scuffed just past the mark, paper dust in the air")],
     ~setting=courtyard,
     ~plate=courtyardPlate,
+    ~blockout=Sets.plateDir->Js.String2.replace("sets/", "sets/blender/") ++ "shot_h06_landing_paw_blockout.png",
     ~added=["lighting (none in the prose)"],
     (),
   ),
@@ -289,6 +296,7 @@ let shots: array<entry> = [
     ~dragons=[(P.Leda, "stands on the courtyard flagstones, head lifted and turned up to the right, watching the sky intently — the calm one who keeps her eyes on the mark")],
     ~setting=courtyard ++ ", the great stone flight ring soft behind her",
     ~plate=courtyardPlate,
+    ~blockout=Sets.plateDir->Js.String2.replace("sets/", "sets/blender/") ++ "shot_h45_leda_watch_ring_blockout.png",
     (),
   ),
   mk(
@@ -312,6 +320,7 @@ let shots: array<entry> = [
     ~props=[redRope("tying it to the stone post")],
     ~setting=lane,
     ~plate=Sets.lanePlateAt(4.0),
+    ~blockout=Sets.plateDir->Js.String2.replace("sets/", "sets/blender/") ++ "shot_h52_gauri_hay_cart_blockout.png",
     ~added=["ENTIRE SPEC rebuilt — the original prompt existed only in a wiped scratchpad"],
     (),
   ),
@@ -373,6 +382,7 @@ let shots: array<entry> = [
       "THE RING IS TURNED THREE-QUARTERS TO THE VIEWPOINT, seen obliquely as an ellipse, so its opening reads clearly as a HOLE IN SPACE with a near rim and a far rim, and the courtyard behind it stays visible through the opening. This is what makes flying THROUGH it readable.",
       "फ्यूरिया stands on the near side of the ring, so the flight path runs from camera-near, through the opening, and away to the far side",
     ],
+    ~blockout=Sets.plateDir->Js.String2.replace("sets/", "sets/blender/") ++ "shot_h53_ring_drill_wide_blockout.png",
     ~added=["a wide drill-stage frame; the old start frame was too tight for the action to happen inside it"],
     (),
   ),
@@ -386,6 +396,7 @@ let shots: array<entry> = [
     ~props=[shards("scattered near her talons on the parapet")],
     ~setting=tower,
     ~plate=Sets.masterPlate(Sets.Tower),
+    ~blockout=Sets.plateDir->Js.String2.replace("sets/", "sets/blender/") ++ "shot_h10_cheel_tower_blockout.png",
     ~added=["lighting refined from plain \"dusk\" to the cool-tower doctrine"],
     (),
   ),
@@ -809,11 +820,11 @@ let shots: array<entry> = [
   mk(
     ~id="h37_cart_into_curve",
     ~beat=TheStop,
-    ~scene="The cart rides into the golden curve.",
+    ~scene="The cart runs its last metres onto the flat stone, wheels almost stopped.",
     ~shot=P.Wide,
     ~gauri="steady inside the cart",
-    ~cart=(true, "its nose riding up into the open curve of the golden shape, wheels almost stopped"),
-    ~ga="cradling the cart's nose",
+    ~cart=(true, "running its last metres onto the flat stone, nose tipping up as it slows, wheels almost stopped"),
+    ~ga="the shape is composited onto this frame afterward",
     ~setting=flatStone,
     ~plate=Sets.masterPlate(Sets.FlatStone),
     ~at=55.0,
@@ -824,11 +835,11 @@ let shots: array<entry> = [
   mk(
     ~id="h38_stopped",
     ~beat=TheStop,
-    ~scene="Stopped. Safe.",
+    ~scene="Stopped on the flat stone. Safe.",
     ~shot=P.Wide,
     ~gauri="calm in the cart",
-    ~cart=(true, "at rest, cradled in the curve of the golden shape, dust settling"),
-    ~ga="holding the cart",
+    ~cart=(true, "at rest on the flat stone, dust settling around its wheels"),
+    ~ga="the shape is composited onto this frame afterward",
     ~setting=flatStone,
     ~plate=Sets.masterPlate(Sets.FlatStone),
     ~at=55.0,
@@ -1036,6 +1047,7 @@ if Js.Array2.length(args) > 0 && args[0] == "audit" {
     | Kuku_Engine.RefDrift(p) => {stale := stale.contents + 1; "STALE: ref drifted " ++ p}
     | Kuku_Engine.PromptDrift => {stale := stale.contents + 1; "STALE: prompt changed"}
     | Kuku_Engine.AssetDrift => {stale := stale.contents + 1; "STALE: asset pixels changed after generation"}
+    | Kuku_Engine.RulesDrift => {stale := stale.contents + 1; "STALE: made under an older law"}
     }
     Js.log(e.id ++ " — " ++ verdict)
   })

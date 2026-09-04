@@ -33,6 +33,7 @@ type imageSpec = {
      present it is attached SECOND (after the style key, before the character
      boards) and the set stops being re-imagined from words every generation. */
   plate: option<string>,
+  blockout: option<string>, /* a Blender render of this exact moment */
   /* recurring story OBJECTS with a locked look — the forged ग, a prop that must
      be identical every time it appears. Attached after the plate, before boards. */
   objects: array<string>,
@@ -105,7 +106,15 @@ let shotName = s =>
    surviving every text fix, because the first attached reference out-argues
    any prompt. The key is now a landmark-free crop of our OWN receipted lane
    plate: the world defines its own style, and has nothing foreign to leak. */
-let styleKey = "a34b16f4-11fa-4153-9c43-ed2e2a30d033"
+/* THE STYLE KEY IS CONTENT, NOT JUST STYLE. EP10 learned this the hard way: a key
+   cropped from a paper-theatre image put red blocks and gold shields into fifty
+   frames. The key below is a crop of EP10's own LANE — which then leaked EP10's
+   lane, red markers and all, into an EP12 courtyard shot. So the key is per
+   episode: a show with a new set needs a landmark-free crop of THAT set. */
+let styleKeyDefault = "a34b16f4-11fa-4153-9c43-ed2e2a30d033"
+let styleKeyRef = ref(styleKeyDefault)
+let useStyleKey = k => styleKeyRef := k
+let styleKey = () => styleKeyRef.contents
 let styleLaw = "3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world"
 let paletteLaw = "bright, vibrant, warm storybook palette, every colour full and saturated"
 /* The world stated as facts. A fact names what exists; the model renders what
@@ -161,7 +170,7 @@ let isCharacter = s =>
   }
 
 let imagePrompt = (s: imageSpec) =>
-  PromptGate.pass(~which="imagePrompt", Js.Array2.joinWith(
+  PromptGate.passStrict(~which="imagePrompt", Js.Array2.joinWith(
     [
       "SHOT: " ++ shotName(s.shot) ++ ", LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.",
       "STYLE: " ++ styleLaw ++ ". The FIRST attached image is the art style; match it EXACTLY.",
@@ -183,6 +192,11 @@ let imagePrompt = (s: imageSpec) =>
         " Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet."
       | None =>
         "CHARACTER REFERENCES: every attached image after the first is a locked character design; match each EXACTLY, including the golden bracelet."
+      },
+      switch s.blockout {
+      | Some(_) =>
+        "STAGING: the attached grey BLOCKOUT is a 3D render of this exact moment — it is the authority on WHERE EVERY BODY STANDS and where the camera looks. Each coloured proxy marks one character by their own colour (green कुकु, pink-red फ्यूरिया, lilac लेडा, golden-yellow कैस्टर, pale blue वैस्पर, cream ऋषि, brown cart, cream cow): put that character exactly there, at that size, facing that way, on that ground. Paint the finished papercraft world over this arrangement — the blockout owns the positions, the style reference owns the look."
+      | None => ""
       },
       "SCENE: " ++ s.scene,
       "SUBJECTS:\n" ++ Js.Array2.joinWith(Js.Array2.map(s.subjects, subjectText), "\n"),
@@ -212,7 +226,7 @@ let editKeepLaw = [
 ]
 
 let editPrompt = (e: editSpec) =>
-  PromptGate.pass(~which="editPrompt", Js.Array2.joinWith(
+  PromptGate.passStrict(~which="editPrompt", Js.Array2.joinWith(
     [
       "TASK: edit the attached image — apply ONLY the change below.",
       "CHANGE: " ++ e.change,
@@ -244,7 +258,7 @@ let hasDragon = cast =>
   )
 
 let videoPrompt = (v: videoSpec) =>
-  PromptGate.pass(~which="videoPrompt", Js.Array2.joinWith(
+  PromptGate.passStrict(~which="videoPrompt", Js.Array2.joinWith(
     Js.Array2.filter(
       [
         "SCENE: " ++ v.scene,
@@ -306,9 +320,13 @@ let boardOf = s =>
   }
 
 let imageRefs = (s: imageSpec) => {
+  let staging = switch s.blockout {
+  | Some(b) => [b]
+  | None => []
+  }
   let head = switch s.plate {
-  | Some(p) => Js.Array2.concat([styleKey, p], s.objects)
-  | None => Js.Array2.concat([styleKey], s.objects)
+  | Some(p) => Js.Array2.concatMany([styleKey()], [staging, [p], s.objects])
+  | None => Js.Array2.concatMany([styleKey()], [staging, s.objects])
   }
   let boards = Js.Array2.reduce(
     s.subjects,

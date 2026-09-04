@@ -92,6 +92,14 @@ let requireBoards = (subjects: array<P.subject>) =>
 /* ---- receipts -------------------------------------------------------------- */
 let receiptPath = asset => asset ++ ".gen.json"
 
+/* THE LAW IS PART OF THE PREMISE. A receipt records the hash of the compiled
+   renderer, gate and engine that produced its prompt; when any of them changes,
+   every asset made before is stale — no more eyeballing which frames predate
+   which rule. */
+let lawFiles = ["src/Kuku_PromptSpec.res.mjs", "src/PromptGate.res.mjs", "src/Kuku_Engine.res.mjs"]
+let rulesSha = () =>
+  sha256Text(Js.Array2.joinWith(Js.Array2.map(lawFiles, f => existsSync(f) ? sha256File(f) : "ABSENT"), "|"))
+
 let writeReceipt = (~asset, ~kind, ~id, ~prompt, ~refs: array<string>, ~model, ~params: array<string>, ~credits) => {
   let refRows = Js.Array2.map(refs, r =>
     Js.Json.object_(
@@ -110,6 +118,7 @@ let writeReceipt = (~asset, ~kind, ~id, ~prompt, ~refs: array<string>, ~model, ~
     ("credits", Js.Json.number(credits)),
     ("assetSha256", Js.Json.string(existsSync(asset) ? sha256File(asset) : "ABSENT")),
     ("promptSha256", Js.Json.string(sha256Text(prompt))),
+    ("rulesSha256", Js.Json.string(rulesSha())),
     ("prompt", Js.Json.string(prompt)),
     ("params", Js.Json.stringArray(params)),
     ("refs", Js.Json.array(refRows)),
@@ -121,7 +130,7 @@ let writeReceipt = (~asset, ~kind, ~id, ~prompt, ~refs: array<string>, ~model, ~
    every reference it names still hashes to what is on disk. Anything else is
    stale — including everything generated before receipts existed, which is the
    honest verdict: nothing predating the engine can prove its premises. */
-type freshness = Current | NoReceipt | RefDrift(string) | PromptDrift | AssetDrift
+type freshness = Current | NoReceipt | RefDrift(string) | PromptDrift | AssetDrift | RulesDrift
 
 let freshness = (~asset, ~prompt) =>
   if !existsSync(receiptPath(asset)) {
@@ -157,7 +166,10 @@ let freshness = (~asset, ~prompt) =>
         | None =>
           switch str("assetSha256") {
           | Some(h) if existsSync(asset) && sha256File(asset) != h => AssetDrift
-          | _ => str("promptSha256") == Some(sha256Text(prompt)) ? Current : PromptDrift
+          | _ =>
+            str("rulesSha256") != Some(rulesSha())
+              ? RulesDrift
+              : str("promptSha256") == Some(sha256Text(prompt)) ? Current : PromptDrift
           }
         }
       }
@@ -204,13 +216,43 @@ let receiptIntact = asset =>
   }
 
 /* ---- the one provider call ------------------------------------------------- */
-let firstUrl = (raw, ext) =>
-  switch Js.String2.match_(raw, Js.Re.fromString("https://[^\"\\s]*\\." ++ ext)) {
-  | Some(m) => m[0]
-  | None => None
+/* THE RESULT URL IS A NAMED FIELD, NOT THE FIRST LINK IN THE BLOB. The response
+   echoes every input media before the output, so a first-match regex handed back
+   the video reference we had just uploaded — 54 credits spent and the previz
+   downloaded over itself. Read result_url; fall back to a delivery-host match. */
+let resultUrl = (raw, ext) =>
+  switch Js.String2.match_(raw, Js.Re.fromStringWithFlags("\"result_url\"\\s*:\\s*\"(https://[^\"]+)\"", ~flags="")) {
+  | Some(m) =>
+    switch m[1] {
+    | Some(u) => Some(u)
+    | None => None
+    }
+  | None =>
+    /* delivery host only: inputs live on the upload host, results on d8j0… */
+    switch Js.String2.match_(raw, Js.Re.fromString("https://d8j0[^\"\\s]*\\." ++ ext)) {
+    | Some(m) => m[0]
+    | None => None
+    }
   }
 
+let firstUrl = resultUrl
+
+/* A RECEIPT LISTS WHAT THE PROVIDER WAS SENT — computed from argv, never from a
+   parallel list that can drift from it. Every value that follows a reference
+   flag is a reference; nothing else is. */
+let refFlags = ["--image", "--image-references", "--start-image", "--end-image", "--video-references"]
+let refsOfArgs = (args: array<string>): array<string> =>
+  Js.Array2.reducei(args, (acc, a, i) =>
+    i > 0 && Js.Array2.includes(refFlags, Js.Array2.unsafe_get(args, i - 1)) ? Js.Array2.concat(acc, [a]) : acc
+  , [])
+
 let run = (~episode, ~id, ~kind, ~model, ~credits, ~prompt, ~refs, ~args, ~dst, ~ext) => {
+  /* the invariant the dark-act reshoot broke: a ref the call does not carry is a lie */
+  Js.Array2.forEach(refs, r =>
+    if !Js.Array2.includes(args, r) {
+      Js.Exn.raiseError("RECEIPT: reference " ++ r ++ " is listed but is absent from the provider call")
+    }
+  )
   Kuku_Spend.guard(~episode, ~shot=id, ~credits)
   let raw = execFileSync("higgsfield", args, opts)
   switch firstUrl(raw, ext) {
@@ -268,7 +310,10 @@ let still = (~episode="EP10", ~id, ~spec: P.imageSpec, ~dst, ()) => {
    behind. Character boards ride along as image references — the author's law
    that identity never depends on the start frame alone. Seedance takes at
    most 9 reference images counting start and end; cast boards fill the rest. */
-let clip = (~episode="EP10", ~id, ~spec: P.videoSpec, ~model, ~secs, ~start, ~endFrame="", ~dst, ()) => {
+/* `workflow` swaps the bare model for one of the platform's own pipelines —
+   Cinema Studio exposes palette, light, lens and pacing as PARAMETERS rather
+   than as sentences a model may ignore, which is the whole reason to try it. */
+let clip = (~episode="EP10", ~id, ~spec: P.videoSpec, ~model, ~secs, ~start, ~endFrame="", ~videoRefs=[], ~setRefs=[], ~workflow="", ~dst, ()) => {
   let prompt = P.videoPrompt(spec) /* PromptGate inside */
   requireBoards(spec.cast)
   ignore(requireFile("start frame", start))
@@ -289,25 +334,41 @@ let clip = (~episode="EP10", ~id, ~spec: P.videoSpec, ~model, ~secs, ~start, ~en
     | None => acc
     }
   , [])
-  let slots = 9 - 1 - (endFrame == "" ? 0 : 1)
+  let slots = 9 - 1 - Js.Array2.length(setRefs) - (endFrame == "" ? 0 : 1)
   if Js.Array2.length(boards) > slots {
     refuse("OVERFLOW",
       Belt.Int.toString(Js.Array2.length(boards)) ++ " cast sheets for " ++ Belt.Int.toString(slots) ++ " reference slots in " ++ id,
       "split the shot or reduce the cast — the law is every sheet attached, so dropping some silently is refused")
   }
   let boardRefs = boards
-  let refs = Js.Array2.concatMany([start], [endFrame == "" ? [] : [endFrame], boardRefs])
-  let credits = Kuku_Spend.priceOf(model) *. Belt.Int.toFloat(secs) /. 5.0
+  /* a video reference carries MOTION: a Blender previz of this exact move, so
+     the path through the ring is geometry rather than the model's guess */
+  Js.Array2.forEach(videoRefs, v => ignore(requireFile("video reference", v)))
+  /* SET ANCHORS ON MOTION. A clip used to be generated from its start frame and
+     free text alone — no style key, no set plate — while every still carried
+     both. That is why a look could drift between a shot and the shot beside it:
+     the stills were anchored and the clips were not. */
+  Js.Array2.forEach(setRefs, r => ignore(requireFile("set reference", r)))
+  let credits = Kuku_Spend.priceOf(workflow == "" ? model : workflow) *. Belt.Int.toFloat(secs) /. 5.0
+  let engineName = workflow == "" ? model : workflow
+  /* SET ANCHORS GO IN THE CALL, before the boards: the 2026-09-02 dark-act reshoot
+     listed key+plate in receipts but never passed them — 448 credits of clips that
+     were anchored on paper only. The receipt below is derived from these args. */
   let args = Js.Array2.concatMany(
-    ["generate", "create", model, "--prompt", prompt, "--start-image", start],
+    Js.Array2.concat(
+      ["generate", "create", engineName, "--prompt", prompt, "--start-image", start],
+      workflow == "" ? [] : ["--mode", "omni_reference"],
+    ),
     [
       endFrame == "" ? [] : ["--end-image", endFrame],
+      Js.Array2.reduce(setRefs, (acc, r) => Js.Array2.concat(acc, ["--image-references", r]), []),
       Js.Array2.reduce(boardRefs, (acc, b) => Js.Array2.concat(acc, ["--image-references", b]), []),
+      Js.Array2.reduce(videoRefs, (acc, v) => Js.Array2.concat(acc, ["--video-references", v]), []),
       ["--generate_audio", "false", "--duration", Belt.Int.toString(secs)],
       ["--resolution", "720p", "--bitrate_mode", "high", "--aspect_ratio", "16:9", "--wait", "--json"],
     ],
   )
-  run(~episode, ~id, ~kind="clip", ~model, ~credits, ~prompt, ~refs, ~args, ~dst, ~ext="(mp4|webm|mov)")
+  run(~episode, ~id, ~kind="clip", ~model=engineName, ~credits, ~prompt, ~refs=refsOfArgs(args), ~args, ~dst, ~ext="(mp4|webm|mov)")
 }
 
 /* ---- edits ----------------------------------------------------------------- */
