@@ -61,3 +61,4 @@ stories/drakosha/production/kuku_flow/boards/*_v*.jpg
 
 # 3D models — regenerable from the receipt, never commit
 stories/drakosha/production/tripo3d/**/*.glb
+stories/kuku/ep12/sets/blender/*.py

@@ -30,7 +30,7 @@ let obj = kvs => Js.Json.object_(Js.Dict.fromArray(kvs))
 /* the style reference lives on the provider as an upload id; there is no local
    copy and no way to fetch one back, so the package names it rather than
    pretending to ship it */
-let styleNote = "SLOT 1 — STYLE REFERENCE\n\nUpload id: " ++ P.styleKey ++ "\n\nThis is the art-style reference attached FIRST to every generation. It lives on\nHiggsfield as a stored upload; the CLI offers no way to download it back, so it\ncannot be included here as a file. Anything reproducing this package must pass\nthis id as the first --image.\n"
+let styleNote = "SLOT 1 — STYLE REFERENCE\n\nUpload id: " ++ P.styleKey() ++ "\n\nThis is the art-style reference attached FIRST to every generation. It lives on\nHiggsfield as a stored upload; the CLI offers no way to download it back, so it\ncannot be included here as a file. Anything reproducing this package must pass\nthis id as the first --image.\n"
 
 let write = (dir, name, srcPath, slot, role) =>
   if existsSync(srcPath) {

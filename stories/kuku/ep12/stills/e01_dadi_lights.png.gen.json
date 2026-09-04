@@ -1,0 +1,44 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "still",
+ "id": "e01_dadi_lights",
+ "at": "2026-08-31T22:46:42.998Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "0c20bb68b8202130f417e12a9d59aa6125e62a6a5e8fc2ef01844ba62e34505e",
+ "promptSha256": "cb569d5ce127f73e0c6c4a55c7d94da4fca74f2d2ef19c6e0bbe423f7c22ff6b",
+ "prompt": "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nSTYLE: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world. The FIRST attached image is the art style; match it EXACTLY.\nPALETTE: bright, vibrant, warm storybook palette, every colour full and saturated.\nSET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place stays itself: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and every landmark of it that falls inside this tighter frame sits exactly where the plate puts it. Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet.\n\nSCENE: दादी sets the small lamp in the wall niche and lights it. The flame catches and stands.\nSUBJECTS:\n- DADI — the paper grandmother bird from the attached character sheet. kneeling at the low wall with one hand steadying the small clay lamp on the niche shelf, her other hand just drawing back from the new flame\n- THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip, a short cotton wick standing in it — sitting on the stone shelf of the niche with a single small flame standing upright on its wick\nSETTING: A small square courtyard of pale paper flagstone, walled on every side. Along the far wall, which stands about waist high on a grown-up, a flat coping stone caps the top edge from corner to corner. Set into the middle of that far wall is a small square NICHE, and the floor of the niche is a plain stone shelf just wide enough for one small lamp. Beyond the wall the land falls away and a wide valley of soft green paper hills spreads to the horizon, with low flat paper clouds resting above them. On the near side of the courtyard a plain wooden paper door stands in a taller wall. The courtyard floor is smooth open paper stone, laid in large flat slabs.\nLIGHTING: Evening, the sun already below the frame. The warm level light lies across the stone, and the new flame is the one bright point in the niche, casting a small warm glow onto the stone around it.\nHARD RULES:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE NICHE HOLDS THE LAMP: the small clay lamp stands on the niche shelf, and the flame rises from its wick inside the sheltered square of the niche.\n- दादी IS AT THE WALL: she kneels close to the low wall so her shoulders are about level with the coping stone, and her face is turned toward the flame she has just lit.\n- दादी माया IS A PAPER DRAGON ELDER, exactly as her attached character board shows her: a pale grey paper dragon with small curved horns along her head, a long dragon snout, round wire spectacles, a rust-and-cream knitted paper shawl over her shoulders, folded paper dragon wings at her back and a dragon tail resting along the stone.\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstone floor, the same low wall and coping, the same niche in the same place, the same door, the same valley and hills beyond.",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nSTYLE: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world. The FIRST attached image is the art style; match it EXACTLY.\nPALETTE: bright, vibrant, warm storybook palette, every colour full and saturated.\nSET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place stays itself: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and every landmark of it that falls inside this tighter frame sits exactly where the plate puts it. Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet.\n\nSCENE: दादी sets the small lamp in the wall niche and lights it. The flame catches and stands.\nSUBJECTS:\n- DADI — the paper grandmother bird from the attached character sheet. kneeling at the low wall with one hand steadying the small clay lamp on the niche shelf, her other hand just drawing back from the new flame\n- THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip, a short cotton wick standing in it — sitting on the stone shelf of the niche with a single small flame standing upright on its wick\nSETTING: A small square courtyard of pale paper flagstone, walled on every side. Along the far wall, which stands about waist high on a grown-up, a flat coping stone caps the top edge from corner to corner. Set into the middle of that far wall is a small square NICHE, and the floor of the niche is a plain stone shelf just wide enough for one small lamp. Beyond the wall the land falls away and a wide valley of soft green paper hills spreads to the horizon, with low flat paper clouds resting above them. On the near side of the courtyard a plain wooden paper door stands in a taller wall. The courtyard floor is smooth open paper stone, laid in large flat slabs.\nLIGHTING: Evening, the sun already below the frame. The warm level light lies across the stone, and the new flame is the one bright point in the niche, casting a small warm glow onto the stone around it.\nHARD RULES:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE NICHE HOLDS THE LAMP: the small clay lamp stands on the niche shelf, and the flame rises from its wick inside the sheltered square of the niche.\n- दादी IS AT THE WALL: she kneels close to the low wall so her shoulders are about level with the coping stone, and her face is turned toward the flame she has just lit.\n- दादी माया IS A PAPER DRAGON ELDER, exactly as her attached character board shows her: a pale grey paper dragon with small curved horns along her head, a long dragon snout, round wire spectacles, a rust-and-cream knitted paper shawl over her shoulders, folded paper dragon wings at her back and a dragon tail resting along the stone.\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstone floor, the same low wall and coping, the same niche in the same place, the same door, the same valley and hills beyond.",
+  "--image",
+  "a34b16f4-11fa-4153-9c43-ed2e2a30d033",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep12/sets/courtyard_plate.png",
+  "--image",
+  "../stories/kuku/charsheets/dadi.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "a34b16f4-11fa-4153-9c43-ed2e2a30d033",
+   "sha256": "PROVIDER_ASSET:a34b16f4-11fa-4153-9c43-ed2e2a30d033"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep12/sets/courtyard_plate.png",
+   "sha256": "285eddf2a423d3e404a5c410549f4baec68f4d865c3d1779c7f78851c38ef75e"
+  },
+  {
+   "path": "../stories/kuku/charsheets/dadi.png",
+   "sha256": "1d9261673ae8dda44b675bce6bbb654142c3c08ef3f791f437e096ea2caa40e3"
+  }
+ ]
+}

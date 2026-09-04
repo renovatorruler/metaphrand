@@ -1,0 +1,50 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "still",
+ "id": "s64_kuku_carries",
+ "at": "2026-09-02T04:22:16.042Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "2f16aaf14d4c3bf120e9f3cdbf9446ea81b5591c03e0171c974de46597579c0e",
+ "promptSha256": "a9f7503ba85c819bba7a72bcf1f9f16296e517378c37660a1c876c032bb54c5f",
+ "prompt": "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nSTYLE: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world. The FIRST attached image is the art style; match it EXACTLY.\nPALETTE: bright, vibrant, warm storybook palette, every colour full and saturated.\nSET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place stays itself: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and every landmark of it that falls inside this tighter frame sits exactly where the plate puts it. Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet.\n\nSCENE: He crosses the courtyard exactly as दादी did on the first evening, sets the lamp on the niche shelf and lights it.\nSUBJECTS:\n- KUKU — green paper dragon, small everyday form: a small paper dragon child, the height of a human child, wearing a golden कड़ा on one forearm. कुकु walking out from the door carrying the small clay lamp in both hands, दादी seated by the wall watching him\n- DADI — the paper grandmother bird from the attached character sheet. कुकु walking out from the door carrying the small clay lamp in both hands, दादी seated by the wall watching him\n- THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick — standing on the stone shelf of the niche with a single small flame upright on its wick\n- A TALL WARM GOLDEN LIGHT — a standing column of soft golden glow about as tall as a seated child, hovering in the air before the niche — burning steadily in the dark, casting warm gold onto the faces near it and onto the paper stone of the wall behind it\nSETTING: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.\nLIGHTING: The following evening. Warm level light across the paper stone, the same gold as the first evening, quiet and settled.\nHARD RULES:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.\n- VIEWPOINT: A wide view from the door side of the courtyard, taking in the flagstone floor, the low wall and the niche, with the valley beyond.\n- THE CHILDREN ARE SMALL: each child dragon is about knee high to a grown-up, low enough to sit at the lamp, and the low wall rises above them.",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nSTYLE: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world. The FIRST attached image is the art style; match it EXACTLY.\nPALETTE: bright, vibrant, warm storybook palette, every colour full and saturated.\nSET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place stays itself: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and every landmark of it that falls inside this tighter frame sits exactly where the plate puts it. Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet.\n\nSCENE: He crosses the courtyard exactly as दादी did on the first evening, sets the lamp on the niche shelf and lights it.\nSUBJECTS:\n- KUKU — green paper dragon, small everyday form: a small paper dragon child, the height of a human child, wearing a golden कड़ा on one forearm. कुकु walking out from the door carrying the small clay lamp in both hands, दादी seated by the wall watching him\n- DADI — the paper grandmother bird from the attached character sheet. कुकु walking out from the door carrying the small clay lamp in both hands, दादी seated by the wall watching him\n- THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick — standing on the stone shelf of the niche with a single small flame upright on its wick\n- A TALL WARM GOLDEN LIGHT — a standing column of soft golden glow about as tall as a seated child, hovering in the air before the niche — burning steadily in the dark, casting warm gold onto the faces near it and onto the paper stone of the wall behind it\nSETTING: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.\nLIGHTING: The following evening. Warm level light across the paper stone, the same gold as the first evening, quiet and settled.\nHARD RULES:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.\n- VIEWPOINT: A wide view from the door side of the courtyard, taking in the flagstone floor, the low wall and the niche, with the valley beyond.\n- THE CHILDREN ARE SMALL: each child dragon is about knee high to a grown-up, low enough to sit at the lamp, and the low wall rises above them.",
+  "--image",
+  "a34b16f4-11fa-4153-9c43-ed2e2a30d033",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep12/sets/courtyard_plate.png",
+  "--image",
+  "../stories/kuku/charsheets/kuku.png",
+  "--image",
+  "../stories/kuku/charsheets/dadi.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "a34b16f4-11fa-4153-9c43-ed2e2a30d033",
+   "sha256": "PROVIDER_ASSET:a34b16f4-11fa-4153-9c43-ed2e2a30d033"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep12/sets/courtyard_plate.png",
+   "sha256": "84246f4cc88c2c00b8368d1fb2a549bfcbef4872c9c2c95f0235e09cd1277f69"
+  },
+  {
+   "path": "../stories/kuku/charsheets/kuku.png",
+   "sha256": "1658963cd42d088b74abe31e745cff9577010625a4af5707ebf4d6e609c35447"
+  },
+  {
+   "path": "../stories/kuku/charsheets/dadi.png",
+   "sha256": "1d9261673ae8dda44b675bce6bbb654142c3c08ef3f791f437e096ea2caa40e3"
+  }
+ ]
+}

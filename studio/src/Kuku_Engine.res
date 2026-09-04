@@ -100,12 +100,78 @@ let lawFiles = ["src/Kuku_PromptSpec.res.mjs", "src/PromptGate.res.mjs", "src/Ku
 let rulesSha = () =>
   sha256Text(Js.Array2.joinWith(Js.Array2.map(lawFiles, f => existsSync(f) ? sha256File(f) : "ABSENT"), "|"))
 
-let writeReceipt = (~asset, ~kind, ~id, ~prompt, ~refs: array<string>, ~model, ~params: array<string>, ~credits) => {
+/* ============================================================================
+   NO BARE BUILT-INS ACROSS THIS BOUNDARY, AND ONE LIST FOR THE CALL.
+
+   Two defects in this file were the same defect. On 2026-09-02 `clip` built a
+   reference list for the RECEIPT and an argument list for the CALL, and a change
+   added the set anchors to the first only — ten clip receipts then claimed a
+   style key and a plate the provider never received, which is the one thing a
+   receipt must never be able to do. And every path here was `string`, so a start
+   frame and an end frame were the same type to the compiler.
+
+   Both are now impossible to express. A `reference` carries its own role and
+   renders BOTH the CLI flag and the receipt row, so the two cannot disagree;
+   `run` assembles the command itself, so no caller can hand it a mismatched
+   pair. Start and end frames are distinct unboxed types: passing one where the
+   other belongs is a build error, not a bad render found after the charge.
+   ============================================================================ */
+@unboxed type shotId = ShotId(string)
+@unboxed type startFrame = StartFrame(string)
+@unboxed type endFrame = EndFrame(string)
+@unboxed type seconds = Seconds(int)
+
+let shotIdText = (ShotId(s)) => s
+let startPath = (StartFrame(s)) => s
+let endPath = (EndFrame(s)) => s
+let secondsInt = (Seconds(n)) => n
+
+type reference =
+  | Style(string)
+  | Plate(string)
+  | Object(string)
+  | Board(string)
+  | Start(startFrame)
+  | End(endFrame)
+  | Video(string)
+
+let pathOf = r =>
+  switch r {
+  | Style(p) | Plate(p) | Object(p) | Board(p) | Video(p) => p
+  | Start(f) => startPath(f)
+  | End(f) => endPath(f)
+  }
+
+let roleOf = r =>
+  switch r {
+  | Style(_) => "style"
+  | Plate(_) => "plate"
+  | Object(_) => "object"
+  | Board(_) => "board"
+  | Start(_) => "start"
+  | End(_) => "end"
+  | Video(_) => "video"
+  }
+
+/* a still takes --image; a clip takes --image-references plus the frame flags */
+let flagOf = (~forClip, r) =>
+  switch r {
+  | Start(_) => "--start-image"
+  | End(_) => "--end-image"
+  | Video(_) => "--video-references"
+  | Style(_) | Plate(_) | Object(_) | Board(_) => forClip ? "--image-references" : "--image"
+  }
+
+let argsOfRefs = (~forClip, refs: array<reference>) =>
+  Js.Array2.reduce(refs, (acc, r) => Js.Array2.concat(acc, [flagOf(~forClip, r), pathOf(r)]), [])
+
+let writeReceipt = (~asset, ~kind, ~id, ~prompt, ~refs: array<reference>, ~model, ~params: array<string>, ~credits) => {
   let refRows = Js.Array2.map(refs, r =>
     Js.Json.object_(
       Js.Dict.fromArray([
-        ("path", Js.Json.string(r)),
-        ("sha256", Js.Json.string(refHash(r))),
+        ("path", Js.Json.string(pathOf(r))),
+        ("role", Js.Json.string(roleOf(r))),
+        ("sha256", Js.Json.string(refHash(pathOf(r)))),
       ]),
     )
   )
@@ -246,13 +312,12 @@ let refsOfArgs = (args: array<string>): array<string> =>
     i > 0 && Js.Array2.includes(refFlags, Js.Array2.unsafe_get(args, i - 1)) ? Js.Array2.concat(acc, [a]) : acc
   , [])
 
-let run = (~episode, ~id, ~kind, ~model, ~credits, ~prompt, ~refs, ~args, ~dst, ~ext) => {
-  /* the invariant the dark-act reshoot broke: a ref the call does not carry is a lie */
-  Js.Array2.forEach(refs, r =>
-    if !Js.Array2.includes(args, r) {
-      Js.Exn.raiseError("RECEIPT: reference " ++ r ++ " is listed but is absent from the provider call")
-    }
-  )
+/* THE ONLY PLACE A PROVIDER COMMAND IS ASSEMBLED. Callers give the references
+   and the surrounding flags; the args and the receipt are both derived here from
+   the same list, so they cannot describe different calls. */
+let run = (~episode, ~id, ~kind, ~model, ~credits, ~prompt, ~refs: array<reference>, ~head, ~tail, ~forClip, ~dst, ~ext) => {
+  Js.Array2.forEach(refs, r => ignore(requireFile(roleOf(r) ++ " reference", pathOf(r))))
+  let args = Js.Array2.concatMany(head, [argsOfRefs(~forClip, refs), tail])
   Kuku_Spend.guard(~episode, ~shot=id, ~credits)
   let raw = execFileSync("higgsfield", args, opts)
   switch firstUrl(raw, ext) {
@@ -291,17 +356,26 @@ let still = (~episode="EP10", ~id, ~spec: P.imageSpec, ~dst, ()) => {
   | Some(p) => ignore(requireFile("backplate", p))
   | None => ()
   }
-  let refs = P.imageRefs(spec)
-  Js.Array2.forEach(refs, r => ignore(requireFile("reference", r)))
-  let args = Js.Array2.concat(
-    Js.Array2.concat(
-      ["generate", "create", "nano_banana_pro", "--prompt", prompt],
-      Js.Array2.reduce(refs, (acc, r) => Js.Array2.concat(acc, ["--image", r]), []),
-    ),
-    ["--aspect_ratio", "16:9", "--resolution", "2k", "--wait", "--json"],
+  /* the renderer decides the ORDER; the roles are recovered here so the receipt
+     records what each attachment was for */
+  let plateSet = switch spec.plate {
+  | Some(p) => [p]
+  | None => []
+  }
+  let refs = Js.Array2.map(P.imageRefs(spec), r =>
+    r == P.styleKey()
+      ? Style(r)
+      : Js.Array2.includes(plateSet, r)
+      ? Plate(r)
+      : Js.Array2.includes(spec.objects, r)
+      ? Object(r)
+      : Board(r)
   )
   run(~episode, ~id, ~kind="still", ~model="nano_banana_pro",
-    ~credits=Kuku_Spend.priceOf("nano_banana_pro"), ~prompt, ~refs, ~args, ~dst, ~ext="(png|webp|jpg)")
+    ~credits=Kuku_Spend.priceOf("nano_banana_pro"), ~prompt, ~refs, ~forClip=false,
+    ~head=["generate", "create", "nano_banana_pro", "--prompt", prompt],
+    ~tail=["--aspect_ratio", "16:9", "--resolution", "2k", "--wait", "--json"],
+    ~dst, ~ext="(png|webp|jpg)")
 }
 
 /* ---- clips ----------------------------------------------------------------- */
@@ -313,20 +387,25 @@ let still = (~episode="EP10", ~id, ~spec: P.imageSpec, ~dst, ()) => {
 /* `workflow` swaps the bare model for one of the platform's own pipelines —
    Cinema Studio exposes palette, light, lens and pacing as PARAMETERS rather
    than as sentences a model may ignore, which is the whole reason to try it. */
-let clip = (~episode="EP10", ~id, ~spec: P.videoSpec, ~model, ~secs, ~start, ~endFrame="", ~videoRefs=[], ~setRefs=[], ~workflow="", ~dst, ()) => {
+let clip = (~episode="EP10", ~id, ~spec: P.videoSpec, ~model, ~secs, ~start: startFrame, ~endFrame: option<endFrame>=?, ~videoRefs=[], ~setRefs=[], ~workflow="", ~dst, ()) => {
   let prompt = P.videoPrompt(spec) /* PromptGate inside */
   requireBoards(spec.cast)
-  ignore(requireFile("start frame", start))
-  if !receiptIntact(start) {
-    refuse("STALE", "start frame " ++ start,
+  let startP = startPath(start)
+  ignore(requireFile("start frame", startP))
+  if !receiptIntact(startP) {
+    refuse("STALE", "start frame " ++ startP,
       "its receipt is absent or its premises drifted — regenerate the frame through the engine first")
   }
-  if endFrame != "" {
-    ignore(requireFile("end frame", endFrame))
-    if !receiptIntact(endFrame) {
-      refuse("STALE", "end frame " ++ endFrame,
-        "its receipt is absent or its premises drifted — regenerate the frame through the engine first")
+  switch endFrame {
+  | Some(e) => {
+      let ep = endPath(e)
+      ignore(requireFile("end frame", ep))
+      if !receiptIntact(ep) {
+        refuse("STALE", "end frame " ++ ep,
+          "its receipt is absent or its premises drifted — regenerate the frame through the engine first")
+      }
     }
+  | None => ()
   }
   let boards = Js.Array2.reduce(spec.cast, (acc, sub) =>
     switch P.boardOf(sub) {
@@ -334,44 +413,46 @@ let clip = (~episode="EP10", ~id, ~spec: P.videoSpec, ~model, ~secs, ~start, ~en
     | None => acc
     }
   , [])
-  let slots = 9 - 1 - Js.Array2.length(setRefs) - (endFrame == "" ? 0 : 1)
+  let hasEnd = switch endFrame {
+  | Some(_) => 1
+  | None => 0
+  }
+  let slots = 9 - 1 - Js.Array2.length(setRefs) - hasEnd
   if Js.Array2.length(boards) > slots {
     refuse("OVERFLOW",
       Belt.Int.toString(Js.Array2.length(boards)) ++ " cast sheets for " ++ Belt.Int.toString(slots) ++ " reference slots in " ++ id,
       "split the shot or reduce the cast — the law is every sheet attached, so dropping some silently is refused")
   }
-  let boardRefs = boards
-  /* a video reference carries MOTION: a Blender previz of this exact move, so
-     the path through the ring is geometry rather than the model's guess */
   Js.Array2.forEach(videoRefs, v => ignore(requireFile("video reference", v)))
-  /* SET ANCHORS ON MOTION. A clip used to be generated from its start frame and
-     free text alone — no style key, no set plate — while every still carried
-     both. That is why a look could drift between a shot and the shot beside it:
-     the stills were anchored and the clips were not. */
-  Js.Array2.forEach(setRefs, r => ignore(requireFile("set reference", r)))
-  let credits = Kuku_Spend.priceOf(workflow == "" ? model : workflow) *. Belt.Int.toFloat(secs) /. 5.0
-  let engineName = workflow == "" ? model : workflow
-  /* SET ANCHORS GO IN THE CALL, before the boards: the 2026-09-02 dark-act reshoot
-     listed key+plate in receipts but never passed them — 448 credits of clips that
-     were anchored on paper only. The receipt below is derived from these args. */
-  let args = Js.Array2.concatMany(
-    Js.Array2.concat(
-      ["generate", "create", engineName, "--prompt", prompt, "--start-image", start],
-      workflow == "" ? [] : ["--mode", "omni_reference"],
-    ),
+  let refs = Js.Array2.concatMany(
+    [Start(start)],
     [
-      endFrame == "" ? [] : ["--end-image", endFrame],
-      Js.Array2.reduce(setRefs, (acc, r) => Js.Array2.concat(acc, ["--image-references", r]), []),
-      Js.Array2.reduce(boardRefs, (acc, b) => Js.Array2.concat(acc, ["--image-references", b]), []),
-      Js.Array2.reduce(videoRefs, (acc, v) => Js.Array2.concat(acc, ["--video-references", v]), []),
-      ["--generate_audio", "false", "--duration", Belt.Int.toString(secs)],
-      ["--resolution", "720p", "--bitrate_mode", "high", "--aspect_ratio", "16:9", "--wait", "--json"],
+      switch endFrame {
+      | Some(e) => [End(e)]
+      | None => []
+      },
+      Js.Array2.map(setRefs, r => Plate(r)),
+      Js.Array2.map(boards, b => Board(b)),
+      Js.Array2.map(videoRefs, v => Video(v)),
     ],
   )
-  run(~episode, ~id, ~kind="clip", ~model=engineName, ~credits, ~prompt, ~refs=refsOfArgs(args), ~args, ~dst, ~ext="(mp4|webm|mov)")
+  let credits = Kuku_Spend.priceOf(workflow == "" ? model : workflow) *. Belt.Int.toFloat(secs) /. 5.0
+  let engineName = workflow == "" ? model : workflow
+  run(~episode, ~id, ~kind="clip", ~model=engineName, ~credits, ~prompt, ~refs, ~forClip=true,
+    ~head=Js.Array2.concat(
+      ["generate", "create", engineName, "--prompt", prompt],
+      workflow == "" ? [] : ["--mode", "omni_reference"],
+    ),
+    ~tail=Js.Array2.concat(
+      ["--generate_audio", "false", "--duration", Belt.Int.toString(secs)],
+      ["--resolution", "720p", "--bitrate_mode", "high", "--aspect_ratio", "16:9", "--wait", "--json"],
+    ),
+    ~dst, ~ext="(mp4|webm|mov)")
 }
 
 /* ---- edits ----------------------------------------------------------------- */
+/* An edit inherits its source's authority, so the source must itself be
+   engine-receipted. */
 let edit = (~episode="EP10", ~id, ~spec: P.editSpec, ~src, ~dst, ()) => {
   let prompt = P.editPrompt(spec)
   ignore(requireFile("source image", src))
@@ -379,30 +460,22 @@ let edit = (~episode="EP10", ~id, ~spec: P.editSpec, ~src, ~dst, ()) => {
     refuse("STALE", "edit source " ++ src,
       "an edit inherits its source's authority — regenerate the source through the engine first")
   }
-  let args = [
-    "generate", "create", "nano_banana_pro", "--prompt", prompt, "--image", src,
-    "--aspect_ratio", "16:9", "--resolution", "2k", "--wait", "--json",
-  ]
   run(~episode, ~id, ~kind="edit", ~model="nano_banana_pro",
-    ~credits=Kuku_Spend.priceOf("nano_banana_pro"), ~prompt, ~refs=[src], ~args, ~dst, ~ext="(png|webp|jpg)")
+    ~credits=Kuku_Spend.priceOf("nano_banana_pro"), ~prompt, ~refs=[Object(src)], ~forClip=false,
+    ~head=["generate", "create", "nano_banana_pro", "--prompt", prompt],
+    ~tail=["--aspect_ratio", "16:9", "--resolution", "2k", "--wait", "--json"],
+    ~dst, ~ext="(png|webp|jpg)")
 }
 
 /* ---- plates ---------------------------------------------------------------- */
-/* A plate's receipt carries the hash of the set prose it was rendered from, so
-   a bible edit mechanically stales every plate derived from the old text —
-   the failure this morning's bell-arch hunt found by hand. */
 let plate = (~episode="EP10", ~id, ~prompt, ~refs: array<string>, ~dst, ~aspect="16:9", ()) => {
-  let gated = PromptGate.pass(~which="plate " ++ id, prompt)
-  Js.Array2.forEach(refs, r => ignore(requireFile("reference", r)))
-  let args = Js.Array2.concat(
-    Js.Array2.concat(
-      ["generate", "create", "nano_banana_pro", "--prompt", gated],
-      Js.Array2.reduce(refs, (acc, r) => Js.Array2.concat(acc, ["--image", r]), []),
-    ),
-    ["--aspect_ratio", aspect, "--resolution", "2k", "--wait", "--json"],
-  )
+  let gated = PromptGate.passStrict(~which="plate " ++ id, prompt)
+  let typed = Js.Array2.mapi(refs, (r, i) => i == 0 ? Style(r) : Plate(r))
   run(~episode, ~id, ~kind="plate", ~model="nano_banana_pro",
-    ~credits=Kuku_Spend.priceOf("nano_banana_pro"), ~prompt=gated, ~refs, ~args, ~dst, ~ext="(png|webp|jpg)")
+    ~credits=Kuku_Spend.priceOf("nano_banana_pro"), ~prompt=gated, ~refs=typed, ~forClip=false,
+    ~head=["generate", "create", "nano_banana_pro", "--prompt", gated],
+    ~tail=["--aspect_ratio", aspect, "--resolution", "2k", "--wait", "--json"],
+    ~dst, ~ext="(png|webp|jpg)")
 }
 
 /* A LOCAL DETERMINISTIC TRANSFORM (the ga composite) may change an asset's

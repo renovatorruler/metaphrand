@@ -1,11 +1,10 @@
-/* Enoch Brown audio-first documentary production.
+/* Enoch Brown V5 audio-first documentary production.
 
    This renderer is deliberately conservative with paid and historical audio:
-   - ElevenLabs speech is pinned to eleven_v3 / WAV 48 kHz.
+   - Jacob Michael's selected performance is pinned to eleven_v3 / WAV 48 kHz.
    - Music is pinned to music_v2 / MP3 48 kHz 320 kbps.
-   - Sound effects come only from the user's licensed local Pro Sound Effects
-     library. ElevenLabs sound-generation is never called.
-   - Unrecorded D-class location cues are left silent and recorded as omitted.
+   - All authored sound effects use ElevenLabs sound generation.
+   - The attack is never reenacted in sound.
    - Every paid request is content-addressed and claimed atomically before use.
 
    Run from studio/:
@@ -23,42 +22,45 @@ open Cinema_Backends
 
 exception EnochAudio(string)
 
-let pipelineVersion = "enoch-brown-audio-v1.0.0"
-let assemblyVersion = "enoch-brown-audio-target-runtime-v1.1.0"
-let dialogueTempo = 0.88
-let scriptPath = "../stories/enoch-brown/script/DOCUMENTARY_SCRIPT_v2_AUDIO_FIRST.md"
-let projectDir = "../stories/enoch-brown/production/audio_v1"
+let pipelineVersion = "enoch-brown-audio-v5.0.0"
+let assemblyVersion = "enoch-brown-audio-v5-assembly-v1.0.0"
+let dialogueTempo = 0.78
+let scriptPath = "../stories/enoch-brown/script/DOCUMENTARY_SCRIPT_v5_INCIDENT_FIRST.md"
+let approvedScriptSha256 = "a6d238049f1892207130801a2bf197bfaad26b8054c716b217b9be693c2ea816"
+let projectDir = "../stories/enoch-brown/production/audio_v5"
 let cacheDir = projectDir ++ "/cache"
 let rawDialogueDir = cacheDir ++ "/provider_raw/dialogue"
 let rawMusicDir = cacheDir ++ "/provider_raw/music"
+let rawSfxDir = cacheDir ++ "/provider_raw/sfx"
 let claimDir = cacheDir ++ "/paid_claims"
 let stemDir = cacheDir ++ "/stems/dialogue"
 let musicStemDir = cacheDir ++ "/stems/music"
+let sfxAssetDir = cacheDir ++ "/stems/sfx"
 let workDir = cacheDir ++ "/assembly"
 let outDir = projectDir ++ "/mix"
-let planPath = projectDir ++ "/ENOCH_BROWN_AUDIO_PLAN.v1.json"
-let manifestPath = projectDir ++ "/ENOCH_BROWN_AUDIO_MASTER_TARGET.v1.manifest.json"
-let voiceMasterPath = outDir ++ "/ENOCH_BROWN_VOICE_MASTER_V1_TARGET.wav"
-let sfxStemPath = outDir ++ "/ENOCH_BROWN_PSE_STEM_V1_TARGET.wav"
-let scoreStemPath = outDir ++ "/ENOCH_BROWN_MUSIC_V2_STEM_V1_TARGET.wav"
-let finalWavPath = outDir ++ "/ENOCH_BROWN_AUDIO_MASTER_V1_TARGET.wav"
-let finalM4aPath = outDir ++ "/ENOCH_BROWN_AUDIO_MASTER_V1_TARGET.m4a"
+let reviewDir = projectDir ++ "/review"
+let planPath = projectDir ++ "/ENOCH_BROWN_AUDIO_PLAN.v5.json"
+let manifestPath = projectDir ++ "/ENOCH_BROWN_AUDIO_MASTER_V5.manifest.json"
+let voiceMasterPath = outDir ++ "/ENOCH_BROWN_VOICE_MASTER_V5_ATEMPO078.wav"
+let sfxStemPath = outDir ++ "/ENOCH_BROWN_ELEVENLABS_SFX_STEM_V5.wav"
+let scoreStemPath = outDir ++ "/ENOCH_BROWN_MUSIC_V2_STEM_V5.wav"
+let finalWavPath = outDir ++ "/ENOCH_BROWN_AUDIO_MASTER_V5_QC.wav"
+let finalM4aPath = reviewDir ++ "/THE_SCHOOLHOUSE_BEFORE_THE_NATION_V5.m4a"
 
-let narratorVoiceId = "nPczCjzI2devNBz1zQrb"
-let narratorVoiceName = "Brian - Deep, Resonant and Comforting"
-let archiveVoiceId = "hpp4J3VqNfWAUOO0d1Us"
-let archiveVoiceName = "Bella - Professional, Bright, Warm"
-let fixedSeed = 17640726
-
-let pseRoot = "/Users/dusty/SFX/PSE"
-let psePaper = pseRoot ++ "/FOLYProp_Paper Book Page Flips Page Turn Handling_PSE_GEN3_QXb4q.wav"
-let pseFootsteps = pseRoot ++ "/FEETHmn_Footsteps Gravel Walk Grit_PSE_GEN3_SfBsW.wav"
+let narratorVoiceId = "PKu46bbccMP1b22TyeI0"
+let narratorVoiceName = "Jacob Michael / Bishop — author selected"
+let archiveVoiceId = narratorVoiceId
+let archiveVoiceName = "Jacob Michael / Bishop — dry archival reading"
+let fixedSeed = 17640829
 
 let titleMusicPrompt =
-  "Minimal contemporary historical-documentary title cue. Slow and spacious, with one low sustained texture and a restrained two-note felt-piano motif. Sober, lucid, and humane. No suspense build, horror, melodrama, percussion, choir, vocals, lyrics, culturally coded instrumentation, gunshot-like transients, impacts, or embedded sound effects. Clean decaying ending."
+  "Sparse instrumental historical-documentary title motif, slow and spacious. One low sustained tone beneath two widely separated soft piano notes. Sober, intimate, humane, and reflective, with abundant air, gentle dynamics, and a long clean decay."
 
 let warMusicPrompt =
-  "Sparse contemporary historical-documentary underscore for a careful account of the political context around a frontier war. Low register, wide gaps, restrained sustained tones, and the same quiet two-note felt-piano motif as a sober title cue. After the opening minute, reduce toward a nearly sustained texture with even more space. No battle ambience, martial rhythm, drums, chanting, vocals, lyrics, Indigenous-coded instruments, ethnic coding, horror, triumph, weapon-like transients, impacts, or embedded sound effects. Neutral, humane, and analytically clear, with a clean fade."
+  "Restrained instrumental historical-documentary underscore for a careful account of political conflict. Low sustained strings, very soft piano color, wide empty intervals, and slow organic movement. Neutral, humane, analytical, spacious, and suitable for a quiet repeating bed with a smooth loopable ending."
+
+let weaponMusicPrompt =
+  "Minimal instrumental documentary question motif. Two soft low piano notes separated by long intervals over a nearly still warm tone. Thoughtful, unresolved, spacious, emotionally restrained, and suitable for a quiet repeating bed with a smooth loopable ending."
 
 type speaker = Narrator | Archive
 
@@ -72,6 +74,7 @@ type turn = {
 type cue = {
   id: string,
   scene: string,
+  kind: string,
   evidence: string,
   text: string,
 }
@@ -86,6 +89,14 @@ type musicSpec = {
   id: string,
   prompt: string,
   ms: int,
+}
+
+type sfxSpec = {
+  id: string,
+  cueFragment: string,
+  prompt: string,
+  seconds: float,
+  influence: float,
 }
 
 type renderedTurn = {
@@ -168,8 +179,8 @@ let voiceNameFor = speaker => switch speaker {
 }
 
 let voiceSettingsFor = (speaker): productionVoiceSettings => switch speaker {
-| Narrator => {stability: 0.68, speed: 0.94}
-| Archive => {stability: 0.76, speed: 0.92}
+| Narrator => {stability: 0.50, speed: 0.80}
+| Archive => {stability: 0.62, speed: 0.84}
 }
 
 let cleanFactTags = (value: string): string =>
@@ -193,25 +204,37 @@ let cleanCue = (value: string): string =>
   cleanFactTags(value)->Js.String2.replaceByRe(%re("/\s+/g"), " ")->trim
 
 let isHeading = (line: string): bool => starts(line, "## ")
-let isSound = (line: string): bool => starts(line, "SOUND [")
+let isSound = (line: string): bool => starts(line, "SOUND ")
+let isMusic = (line: string): bool => starts(line, "MUSIC ")
+let isCue = (line: string): bool => isSound(line) || isMusic(line)
 let isNarrator = (line: string): bool => line == "NARRATOR:"
 let isArchive = (line: string): bool => starts(line, "ARCHIVE READER")
 let isFade = (line: string): bool => line == "FADE OUT."
+let isMetadata = (line: string): bool =>
+  starts(line, "FACTS:") || starts(line, "SOURCE:") || line == "---" || line == "END."
 let isControl = (line: string): bool =>
-  isHeading(line) || isSound(line) || isNarrator(line) || isArchive(line) || isFade(line)
+  isHeading(line) || isCue(line) || isNarrator(line) || isArchive(line) || isFade(line) || isMetadata(line)
 
 let evidenceFrom = (line: string): string => {
-  let startIndex = Js.String2.indexOf(line, "[")
-  let endIndex = Js.String2.indexOf(line, "]")
-  if startIndex < 0 || endIndex <= startIndex {
+  let colonIndex = Js.String2.indexOf(line, ":")
+  if colonIndex < 0 {
     fail("sound cue has no evidence class: " ++ line)
   }
-  Js.String2.slice(line, ~from=startIndex + 1, ~to_=endIndex)
+  let header = Js.String2.slice(line, ~from=0, ~to_=colonIndex)->trim
+  let pieces = Js.String2.split(header, " ")
+  if Belt.Array.length(pieces) != 2 {
+    fail("sound cue has invalid header: " ++ line)
+  }
+  Belt.Array.getExn(pieces, 1)
 }
 
 let parseScript = (): (array<sourceEvent>, array<turn>, array<cue>) => {
   if !exists(Path(scriptPath)) {
     fail("canonical script is missing: " ++ scriptPath)
+  }
+  let actualScriptHash = sha256File(Path(scriptPath))
+  if actualScriptHash != approvedScriptSha256 {
+    fail("approved V5 script changed; refusing generation. Expected " ++ approvedScriptSha256 ++ ", got " ++ actualScriptHash)
   }
   let lines = readText(Path(scriptPath))->Js.String2.split("\n")
   let events: array<sourceEvent> = []
@@ -237,7 +260,7 @@ let parseScript = (): (array<sourceEvent>, array<turn>, array<cue>) => {
       index := index.contents + 1
     } else if !active.contents {
       index := index.contents + 1
-    } else if isSound(line) {
+    } else if isCue(line) {
       let collected: array<string> = [line]
       let next = ref(index.contents + 1)
       while next.contents < Belt.Array.length(lines) && trim(Belt.Array.getExn(lines, next.contents)) != "" {
@@ -248,6 +271,7 @@ let parseScript = (): (array<sourceEvent>, array<turn>, array<cue>) => {
       let row = {
         id: "C" ++ pad3(cueCount.contents),
         scene: scene.contents,
+        kind: isMusic(line) ? "MUSIC" : "SOUND",
         evidence: evidenceFrom(line),
         text: cleanCue(Js.Array2.joinWith(collected, " ")),
       }
@@ -283,16 +307,51 @@ let parseScript = (): (array<sourceEvent>, array<turn>, array<cue>) => {
       index := index.contents + 1
     }
   }
-  if Belt.Array.length(turns) != 43 {
-    fail("parser expected 43 speaker turns after the present-day footstep repair; got " ++ Belt.Int.toString(Belt.Array.length(turns)))
+  if Belt.Array.length(turns) != 29 {
+    fail("parser expected 29 V5 speaker turns; got " ++ Belt.Int.toString(Belt.Array.length(turns)))
   }
-  if Belt.Array.length(cues) != 39 {
-    fail("parser expected 39 sound cues after the unverified spring cue removal; got " ++ Belt.Int.toString(Belt.Array.length(cues)))
+  if Belt.Array.length(cues) != 16 {
+    fail("parser expected 16 V5 audio cues; got " ++ Belt.Int.toString(Belt.Array.length(cues)))
   }
+  let narratorCount = turns->Belt.Array.reduce(0, (count, turn) => switch turn.speaker {
+  | Narrator => count + 1
+  | Archive => count
+  })
+  let archiveCount = Belt.Array.length(turns) - narratorCount
+  let soundCount = cues->Belt.Array.reduce(0, (count, cue) => cue.kind == "SOUND" ? count + 1 : count)
+  let musicCount = Belt.Array.length(cues) - soundCount
+  if narratorCount != 28 || archiveCount != 1 {
+    fail("parser expected 28 narrator blocks and one archive block")
+  }
+  if soundCount != 8 || musicCount != 8 {
+    fail("parser expected eight SOUND and eight MUSIC cues")
+  }
+  cues->Belt.Array.forEach(cue => {
+    if cue.evidence != "I" && cue.evidence != "E" {
+      fail("cue " ++ cue.id ++ " has invalid evidence class " ++ cue.evidence)
+    }
+  })
+  turns->Belt.Array.forEach(turn => {
+    let providerText = turn.text
+    ["FACTS:", "SOURCE:", "SOUND I:", "SOUND E:", "MUSIC E:", "---"]->Belt.Array.forEach(marker => {
+      if contains(providerText, marker) {
+        fail("provider text for " ++ turn.id ++ " contains production metadata: " ++ marker)
+      }
+    })
+  })
   (events, turns, cues)
 }
 
-let renderText = (turn: turn): string => turn.text
+let expressionTag = (turn: turn): string => switch turn.id {
+| "T001" => "[curious] "
+| "T003" => "[slowly] "
+| "T011" => "[serious] "
+| "T016" => "[curious] "
+| "T021" => "[quietly] "
+| _ => ""
+}
+
+let renderText = (turn: turn): string => expressionTag(turn) ++ turn.text
 
 let requestSignature = (turn: turn): string => {
   let settings = voiceSettingsFor(turn.speaker)
@@ -321,11 +380,50 @@ let cachedDialoguePath = (~dir: string, ~turn: turn): string => {
 }
 let rawPathFor = (turn: turn): string => cachedDialoguePath(~dir=rawDialogueDir, ~turn)
 let stemPathFor = (turn: turn): string =>
-  stemDir ++ "/" ++ turn.id ++ "_" ++ shortHash(requestHash(turn)) ++ "_atempo088.wav"
+  stemDir ++ "/" ++ turn.id ++ "_" ++ shortHash(requestHash(turn)) ++ "_atempo078.wav"
 
 let musicSpecs: array<musicSpec> = [
-  {id: "title_motif", prompt: titleMusicPrompt, ms: 22000},
+  {id: "title_motif", prompt: titleMusicPrompt, ms: 90000},
   {id: "war_context", prompt: warMusicPrompt, ms: 120000},
+  {id: "weapon_question", prompt: weaponMusicPrompt, ms: 120000},
+]
+
+let sfxSpecs: array<sfxSpec> = [
+  {
+    id: "ordinary_schoolroom",
+    cueFragment: "restrained colonial school texture",
+    prompt: "Intimate dry interior of a small eighteenth-century schoolroom during an ordinary calm lesson: a few children recite indistinctly as a soft group murmur, a slate pencil scratches, one paper page turns, and one wooden bench shifts. Natural restrained documentary ambience with each detail clear and gentle.",
+    seconds: 8.0,
+    influence: 0.72,
+  },
+  {
+    id: "schoolroom_closing_page",
+    cueFragment: "school texture resolves into one last page movement",
+    prompt: "A quiet schoolroom texture settles naturally into one final dry paper page movement and then clean stillness, intimate close documentary recording.",
+    seconds: 3.0,
+    influence: 0.78,
+  },
+  {
+    id: "archive_sheet_unfold",
+    cueFragment: "one dry sheet of paper is unfolded",
+    prompt: "One dry old paper sheet is unfolded once by careful hands and settles flat on a wooden table, close intimate documentary recording.",
+    seconds: 3.0,
+    influence: 0.80,
+  },
+  {
+    id: "measured_shovel_cuts",
+    cueFragment: "two measured shovel cuts enter loose soil",
+    prompt: "Two separate measured shovel blade cuts enter loose cultivated soil, followed by soft earth being moved aside; restrained close outdoor documentary recording with a clean ending.",
+    seconds: 4.5,
+    influence: 0.82,
+  },
+  {
+    id: "school_objects_coda",
+    cueFragment: "slate pencil makes one short line",
+    prompt: "Three isolated close sounds in a quiet dry room: a slate pencil draws one short line, one paper page turns, then one wooden school bench settles. Each sound is distinct with silence between them and a clean ending.",
+    seconds: 5.0,
+    influence: 0.84,
+  },
 ]
 
 let musicSignature = (spec: musicSpec): string => Js.Array2.joinWith([
@@ -342,6 +440,19 @@ let musicSignature = (spec: musicSpec): string => Js.Array2.joinWith([
 let musicHash = (spec: musicSpec): string => sha256Text(musicSignature(spec))
 let musicRawPath = (spec: musicSpec): string => rawMusicDir ++ "/" ++ spec.id ++ "_" ++ shortHash(musicHash(spec)) ++ ".mp3"
 let musicStemPath = (spec: musicSpec): string => musicStemDir ++ "/" ++ spec.id ++ "_" ++ shortHash(musicHash(spec)) ++ ".wav"
+
+let sfxSignature = (spec: sfxSpec): string => Js.Array2.joinWith([
+  pipelineVersion,
+  "elevenlabs_sound_generation",
+  "mp3_44100_128",
+  "seconds=" ++ Js.Float.toString(spec.seconds),
+  "influence=" ++ Js.Float.toString(spec.influence),
+  spec.prompt,
+], "|")
+
+let sfxHash = (spec: sfxSpec): string => sha256Text(sfxSignature(spec))
+let sfxRawPath = (spec: sfxSpec): string => rawSfxDir ++ "/" ++ spec.id ++ "_" ++ shortHash(sfxHash(spec)) ++ ".mp3"
+let sfxAssetPath = (spec: sfxSpec): string => sfxAssetDir ++ "/" ++ spec.id ++ "_" ++ shortHash(sfxHash(spec)) ++ ".wav"
 
 let wordsIn = (value: string): int =>
   value->trim == ""
@@ -377,11 +488,9 @@ let cueJson = (cue: cue): Js.Json.t => {
   let root = Js.Dict.empty()
   addString(root, "id", cue.id)
   addString(root, "scene", cue.scene)
+  addString(root, "kind", cue.kind)
   addString(root, "evidence_class", cue.evidence)
   addString(root, "text", cue.text)
-  if cue.evidence == "D" {
-    addString(root, "preview_policy", "OMITTED unless a verified location master exists; no PSE or generated substitution")
-  }
   Js.Json.object_(root)
 }
 
@@ -400,7 +509,50 @@ let musicJson = (spec: musicSpec): Js.Json.t => {
   Js.Json.object_(root)
 }
 
+let sfxJson = (spec: sfxSpec): Js.Json.t => {
+  let root = Js.Dict.empty()
+  addString(root, "id", spec.id)
+  addString(root, "model", "eleven_text_to_sound_v2")
+  addString(root, "output_format", "mp3_44100_128")
+  addString(root, "cue_fragment", spec.cueFragment)
+  addNumber(root, "duration_seconds", spec.seconds)
+  addNumber(root, "prompt_influence", spec.influence)
+  addString(root, "request_sha256", sfxHash(spec))
+  addString(root, "raw_cache", sfxRawPath(spec))
+  addString(root, "prompt", spec.prompt)
+  Js.Json.object_(root)
+}
+
+let validateExpressionTags = (turns: array<turn>): unit => {
+  let allowed = ["[serious] ", "[slowly] ", "[quietly] ", "[curious] "]
+  let tagged = ref(0)
+  let previousTagged = ref(false)
+  turns->Belt.Array.forEach(turn => {
+    let tag = expressionTag(turn)
+    let isTagged = tag != ""
+    if isTagged && !Belt.Array.some(allowed, allowedTag => allowedTag == tag) {
+      fail("unapproved Eleven v3 expression tag on " ++ turn.id ++ ": " ++ tag)
+    }
+    if isTagged && previousTagged.contents {
+      fail("adjacent tagged V3 turns are forbidden at " ++ turn.id)
+    }
+    if isTagged {
+      tagged := tagged.contents + 1
+    }
+    previousTagged := isTagged
+  })
+  if tagged.contents * 5 >= Belt.Array.length(turns) {
+    fail("at least 80% of narration must remain untagged")
+  }
+  if expressionTag(Belt.Array.getExn(turns, 6)) != "" ||
+     expressionTag(Belt.Array.getExn(turns, 7)) != "" ||
+     expressionTag(Belt.Array.getExn(turns, 28)) != "" {
+    fail("archive quote, 'He was alive,' and final turn must remain untagged")
+  }
+}
+
 let writePlan = (~turns: array<turn>, ~cues: array<cue>): unit => {
+  validateExpressionTags(turns)
   ensureDirPath(Path(projectDir))
   let totalChars = turns->Belt.Array.reduce(0, (total, turn) => total + charCount(renderText(turn)))
   let totalWords = turns->Belt.Array.reduce(0, (total, turn) => total + wordsIn(renderText(turn)))
@@ -411,6 +563,8 @@ let writePlan = (~turns: array<turn>, ~cues: array<cue>): unit => {
   let ttsEstimate = Belt.Int.toFloat(totalChars) /. 1000.0 *. 0.10
   let musicMs = musicSpecs->Belt.Array.reduce(0, (total, spec) => total + spec.ms)
   let musicEstimate = Belt.Int.toFloat(musicMs) /. 60000.0 *. 0.15
+  let sfxSeconds = sfxSpecs->Belt.Array.reduce(0.0, (total, spec) => total +. spec.seconds)
+  let sfxCreditEstimate = sfxSeconds *. 40.0
   let scriptHash = sha256File(Path(scriptPath))
   let root = Js.Dict.empty()
   addString(root, "schema", "enoch.audio-plan/v1")
@@ -421,7 +575,7 @@ let writePlan = (~turns: array<turn>, ~cues: array<cue>): unit => {
   addString(root, "speech_model", "eleven_v3")
   addString(root, "speech_output_format", "wav_48000")
   addNumber(root, "local_dialogue_tempo", dialogueTempo)
-  addString(root, "runtime_policy", "Pitch-preserving local tempo correction targets the approved 22–26 minute runtime without additional provider calls.")
+  addString(root, "runtime_policy", "Deliberate provider pacing plus a mild pitch-preserving local slowdown targets 27–30 minutes; the final runtime is a hard QC gate.")
   addNumber(root, "speaker_turns", Belt.Int.toFloat(Belt.Array.length(turns)))
   addNumber(root, "sound_cues", Belt.Int.toFloat(Belt.Array.length(cues)))
   addNumber(root, "spoken_words", Belt.Int.toFloat(totalWords))
@@ -430,20 +584,22 @@ let writePlan = (~turns: array<turn>, ~cues: array<cue>): unit => {
   addNumber(root, "estimated_tts_usd_at_public_rate", ttsEstimate)
   addNumber(root, "estimated_music_usd_at_public_rate", musicEstimate)
   addNumber(root, "estimated_total_usd_at_public_rate", ttsEstimate +. musicEstimate)
+  addNumber(root, "estimated_sfx_credits", sfxCreditEstimate)
   addString(root, "cost_disclaimer", "Estimate only; account billing and credits are controlled by ElevenLabs.")
   addString(root, "paid_gate", "PAID=1 and GENERATE=1; DRY=1 always forbids paid calls")
-  addString(root, "sfx_provider", "Pro Sound Effects licensed local library; no ElevenLabs SFX generation")
-  addString(root, "location_policy", "All D-class location cues are omitted from this preview because no accepted field masters exist.")
+  addString(root, "sfx_provider", "ElevenLabs eleven_text_to_sound_v2")
   addString(root, "attack_sound_policy", "Zero weapons, impacts, cries, pleas, body sounds, approach blocking, doors, or attacker voices.")
+  addString(root, "expression_map_sha256", sha256Text(turns->Belt.Array.map(turn => turn.id ++ "=" ++ expressionTag(turn))->Js.Array2.joinWith("|")))
   Js.Dict.set(root, "turns", Js.Json.array(turns->Belt.Array.map(turnJson)))
   Js.Dict.set(root, "sound_design", Js.Json.array(cues->Belt.Array.map(cueJson)))
   Js.Dict.set(root, "music", Js.Json.array(musicSpecs->Belt.Array.map(musicJson)))
+  Js.Dict.set(root, "generated_sfx", Js.Json.array(sfxSpecs->Belt.Array.map(sfxJson)))
   writeText(Path(planPath), Js.Json.stringifyWithSpace(Js.Json.object_(root), 1) ++ "\n")
   Js.log(
     "PLAN -> " ++ planPath ++ "\n" ++
     Belt.Int.toString(Belt.Array.length(turns)) ++ " V3 turns; " ++
     Belt.Int.toString(totalChars) ++ " characters; " ++
-    Belt.Int.toString(totalWords) ++ " words; two Music v2 cues.\n" ++
+    Belt.Int.toString(totalWords) ++ " words; three Music v2 cues; five ElevenLabs SFX cues.\n" ++
     "Estimated public-rate spend: $" ++ Js.Float.toFixedWithPrecision(ttsEstimate +. musicEstimate, ~digits=2),
   )
 }
@@ -646,50 +802,89 @@ let renderMusic = async (): array<(musicSpec, string, string, float)> => {
   rendered
 }
 
+let renderSfx = async (): array<(sfxSpec, string, string, float)> => {
+  ensureDirPath(Path(rawSfxDir))
+  ensureDirPath(Path(sfxAssetDir))
+  let rendered: array<(sfxSpec, string, string, float)> = []
+  let index = ref(0)
+  while index.contents < Belt.Array.length(sfxSpecs) {
+    let spec = Belt.Array.getExn(sfxSpecs, index.contents)
+    let hash = sfxHash(spec)
+    let rawPath = sfxRawPath(spec)
+    if !exists(Path(rawPath)) {
+      requirePaid("Sound Effects v2 " ++ spec.id)
+      claimPaid(
+        ~kind="sfx",
+        ~id=spec.id,
+        ~hash,
+        ~detail=Js.Float.toString(spec.seconds) ++ " seconds / eleven_text_to_sound_v2",
+      )
+      Js.log(
+        "SOUND EFFECT V2 " ++ Belt.Int.toString(index.contents + 1) ++ "/" ++
+        Belt.Int.toString(Belt.Array.length(sfxSpecs)) ++ " " ++ spec.id,
+      )
+      let audio = await soundEffect(
+        ~prompt=Prompt(spec.prompt),
+        ~seconds=spec.seconds,
+        ~influence=spec.influence,
+      )
+      let duration = publishFetched(
+        ~blob=audio,
+        ~extension="mp3",
+        ~destination=rawPath,
+        ~label="Sound Effects v2 " ++ spec.id,
+      )
+      writeProviderReceipt(
+        ~path=rawPath,
+        ~kind="sfx",
+        ~id=spec.id,
+        ~model="eleven_text_to_sound_v2",
+        ~requestHash=hash,
+        ~assetPath=rawPath,
+        ~duration,
+      )
+    }
+    validateAudio(rawPath, "cached Sound Effects v2 " ++ spec.id)->ignore
+    let stemPath = sfxAssetPath(spec)
+    if !exists(Path(stemPath)) {
+      let scratch = tempDir("enoch-sfx-asset-")->pathString
+      let temporary = scratch ++ "/" ++ spec.id ++ ".wav"
+      ffmpeg([
+        "-nostdin", "-v", "error", "-n", "-i", rawPath,
+        "-af", "highpass=f=35,loudnorm=I=-24:TP=-4:LRA=10",
+        "-ar", "48000", "-ac", "2", "-c:a", "pcm_s24le", temporary,
+      ])
+      validateAudio(temporary, "normalized Sound Effects v2 " ++ spec.id)->ignore
+      if !publishFileExclusive(Path(temporary), Path(stemPath)) {
+        fail("refusing to overwrite normalized SFX asset: " ++ stemPath)
+      }
+    }
+    let duration = validateAudio(stemPath, "SFX asset " ++ spec.id)
+    Js.Array2.push(rendered, (spec, rawPath, stemPath, duration))->ignore
+    index := index.contents + 1
+  }
+  rendered
+}
+
 let cueWindow = (cue: cue): float => {
-  let t = lower(cue.text)
-  if contains(t, "three seconds of neutral air") {
-    3.0
-  } else if contains(t, "shovel enters") {
-    3.0
-  } else if contains(t, "hold two seconds") {
-    2.0
-  } else if contains(t, "hold three seconds") || contains(t, "air stand alone for three seconds") || contains(t, "remain for three seconds") {
-    3.0
-  } else if contains(t, "hold four seconds") {
-    4.0
-  } else if contains(t, "hold five seconds") {
-    5.0
-  } else if contains(t, "leave five seconds") {
-    5.0
-  } else if contains(t, "documentary-crew footsteps") {
-    5.3
-  } else if contains(t, "sheet of heavy paper") {
-    1.4
-  } else if contains(t, "second sheet is placed") || contains(t, "waiting sheet opens") || contains(t, "correction opens") || contains(t, "book opens") {
-    1.2
-  } else if contains(t, "four identical dry page") {
-    0.8
-  } else if contains(t, "plain wooden schoolroom") {
-    5.0
-  } else if contains(t, "ordinary school-work motif returns") {
-    1.6
-  } else if contains(t, "return to the cold-open earth") {
-    2.8
-  } else if contains(t, "one dry slate stroke") {
-    1.0
-  } else if contains(t, "recorded on location") || cue.evidence == "D" {
-    /* No accepted D-class field recording exists. Hold only when the script
-       explicitly asks for an uncovered duration; never substitute stock. */
-    contains(t, "three seconds") ? 3.0 : 0.0
-  } else if contains(t, "fades") || contains(t, "narrows") || contains(t, "score stops") {
-    0.5
-  } else if contains(t, "score opens") {
-    0.5
-  } else if contains(t, "no music or historical foley") || contains(t, "no music.") {
-    0.4
-  } else {
-    0.0
+  switch cue.id {
+  | "C001" => 8.0
+  | "C002" => 3.0
+  | "C003" => 0.0
+  | "C004" => 0.0
+  | "C005" => 2.0
+  | "C006" => 3.0
+  | "C007" => 4.0
+  | "C008" => 0.0
+  | "C009" => 1.2
+  | "C010" => 0.0
+  | "C011" => 1.2
+  | "C012" => 4.5
+  | "C013" => 1.0
+  | "C014" => 5.0
+  | "C015" => 0.0
+  | "C016" => 4.0
+  | _ => fail("no V5 cue window for " ++ cue.id)
   }
 }
 
@@ -789,105 +984,62 @@ let buildVoiceTimeline = (
 
 let cueHas = (row: timelineCue, fragment: string): bool => contains(lower(row.cue.text), fragment)
 
-let nextTurn = (turns: array<timelineTurn>, eventIndex: int): option<timelineTurn> =>
-  Belt.Array.getBy(turns, row => row.eventIndex > eventIndex)
-
 let addPlacement = (rows: array<sfxPlacement>, row: sfxPlacement): unit => {
   if !exists(Path(row.source)) {
-    fail("required licensed PSE source is missing: " ++ row.source)
+    fail("required ElevenLabs SFX asset is missing: " ++ row.source)
   }
   let sourceDuration = probeDuration(Path(row.source))->secondsValue
   if row.trimStart < 0.0 || row.trimEnd <= row.trimStart || row.trimEnd > sourceDuration +. 0.01 {
-    fail("invalid PSE trim for " ++ row.id ++ " against " ++ Js.Float.toString(sourceDuration) ++ "s source")
+    fail("invalid SFX trim for " ++ row.id ++ " against " ++ Js.Float.toString(sourceDuration) ++ "s source")
   }
   Js.Array2.push(rows, row)->ignore
 }
 
+let renderedSfxById = (rows: array<(sfxSpec, string, string, float)>, id: string): (sfxSpec, string, string, float) =>
+  switch Belt.Array.getBy(rows, ((spec, _, _, _)) => spec.id == id) {
+  | Some(row) => row
+  | None => fail("missing rendered Sound Effects v2 asset " ++ id)
+  }
+
 let sfxPlacements = (
   ~cues: array<timelineCue>,
-  ~turns: array<timelineTurn>,
+  ~sfx: array<(sfxSpec, string, string, float)>,
 ): array<sfxPlacement> => {
   let rows: array<sfxPlacement> = []
-  cues->Belt.Array.forEach(row => {
-    if row.cue.evidence == "D" {
-      ()
-    } else if cueHas(row, "shovel enters") || cueHas(row, "return to the cold-open earth") {
-      /* No local PSE file passed the earth audit. Stone/debris files risk
-         implying the forbidden discovery, so both earth windows remain quiet. */
-      ()
-    } else if cueHas(row, "documentary-crew footsteps") {
-      addPlacement(rows, {
-        id: row.cue.id ++ "_editorial_steps",
-        source: pseFootsteps,
-        evidence: "E",
-        use_: "present-tense crew footsteps after the park is named",
-        at: row.start,
-        trimStart: 28.2,
-        trimEnd: 33.5,
-        gain: 0.16,
-      })
-    } else if cueHas(row, "plain wooden schoolroom") {
-      addPlacement(rows, {
-        id: row.cue.id ++ "_page",
-        source: psePaper,
-        evidence: "I",
-        use_: "one ordinary page turn; slate, bench, and voices omitted",
-        at: row.start +. 2.1,
-        trimStart: 10.16,
-        trimEnd: 10.74,
-        gain: 0.13,
-      })
-    } else if cueHas(row, "ordinary school-work motif returns") {
-      addPlacement(rows, {
-        id: row.cue.id ++ "_page",
-        source: psePaper,
-        evidence: "I",
-        use_: "one ordinary page turn returning without voices; slate and bench omitted",
-        at: row.start +. 0.55,
-        trimStart: 10.16,
-        trimEnd: 10.74,
-        gain: 0.10,
-      })
-    } else if cueHas(row, "four identical dry page") {
-      switch nextTurn(turns, row.eventIndex) {
-      | None => fail("source ladder cue has no following narration")
-      | Some(turn) => {
-          let text = turn.rendered.turn.text
-          ["In 1764", "In 1808", "In 1839", "In 1886"]->Belt.Array.forEachWithIndex((i, marker) => {
-            let index = Js.String2.indexOf(text, marker)
-            if index < 0 {
-              fail("source ladder narration is missing " ++ marker)
-            }
-            let fraction = Belt.Int.toFloat(index) /. Belt.Int.toFloat(intMax(1, Js.String2.length(text)))
-            addPlacement(rows, {
-              id: row.cue.id ++ "_date_" ++ Belt.Int.toString(i + 1),
-              source: psePaper,
-              evidence: "E",
-              use_: "identical editorial page placement before " ++ marker,
-              at: turn.start +. (turn.end_ -. turn.start) *. fraction,
-              trimStart: 8.82,
-              trimEnd: 9.38,
-              gain: 0.10,
-            })
-          })
-        }
-      }
-    } else if cueHas(row, "paper") || cueHas(row, "sheet") || cueHas(row, "book opens") || cueHas(row, "page turns once") {
-      let isHeavy = cueHas(row, "sheet of heavy paper")
-      let isBook = cueHas(row, "book opens") || cueHas(row, "page turns once")
-      addPlacement(rows, {
-        id: row.cue.id ++ "_paper",
-        source: psePaper,
-        evidence: row.cue.evidence,
-        use_: "editorial or ordinary source-page handling",
-        at: row.start +. 0.10,
-        trimStart: isHeavy ? 3.86 : isBook ? 0.72 : 7.05,
-        trimEnd: isHeavy ? 5.78 : isBook ? 2.14 : 7.87,
-        gain: 0.12,
-      })
-    } else if cueHas(row, "one dry slate stroke") {
-      /* Pencil-on-paper is not slate. Leave the stroke quiet. */
-      ()
+  sfxSpecs->Belt.Array.forEach(spec => {
+    let cue = switch Belt.Array.getBy(cues, row => cueHas(row, lower(spec.cueFragment))) {
+    | Some(row) => row
+    | None => fail("no authored SOUND cue matches SFX " ++ spec.id)
+    }
+    if cue.cue.kind != "SOUND" {
+      fail("SFX " ++ spec.id ++ " matched a non-SOUND cue")
+    }
+    let (_, _, source, sourceDuration) = renderedSfxById(sfx, spec.id)
+    let gain = switch spec.id {
+    | "ordinary_schoolroom" => 0.58
+    | "schoolroom_closing_page" => 0.55
+    | "archive_sheet_unfold" => 0.62
+    | "measured_shovel_cuts" => 0.68
+    | _ => 0.58
+    }
+    addPlacement(rows, {
+      id: cue.cue.id ++ "_" ++ spec.id,
+      source,
+      evidence: cue.cue.evidence,
+      use_: spec.prompt,
+      at: cue.start,
+      trimStart: 0.0,
+      trimEnd: floatMin(sourceDuration, spec.seconds),
+      gain,
+    })
+  })
+  let authoredSounds = cues->Belt.Array.keep(row => row.cue.kind == "SOUND")
+  if Belt.Array.length(authoredSounds) != 8 || Belt.Array.length(rows) != 5 {
+    fail("V5 sound map must contain five generated SFX and three explicit silence cues")
+  }
+  ["C003", "C007", "C013"]->Belt.Array.forEach(id => {
+    if !Belt.Array.some(authoredSounds, row => row.cue.id == id) {
+      fail("missing explicit room-tone cue " ++ id)
     }
   })
   rows
@@ -895,10 +1047,10 @@ let sfxPlacements = (
 
 let buildSfxStem = (~placements: array<sfxPlacement>, ~duration: float): unit => {
   if exists(Path(sfxStemPath)) {
-    validateAudio(sfxStemPath, "PSE stem")->ignore
+    validateAudio(sfxStemPath, "ElevenLabs SFX stem")->ignore
   } else {
-    let scratch = tempDir("enoch-pse-stem-")->pathString
-    let temporary = scratch ++ "/pse.wav"
+    let scratch = tempDir("enoch-sfx-stem-")->pathString
+    let temporary = scratch ++ "/sfx.wav"
     let inputs = placements->Belt.Array.map(row => ["-i", row.source])->Belt.Array.concatMany
     let chains = placements->Belt.Array.mapWithIndex((index, row) =>
       "[" ++ Belt.Int.toString(index) ++ ":a]" ++
@@ -918,9 +1070,9 @@ let buildSfxStem = (~placements: array<sfxPlacement>, ~duration: float): unit =>
       inputs,
       ["-filter_complex", graph, "-map", "[out]", "-ar", "48000", "-ac", "2", "-c:a", "pcm_s24le", temporary],
     ]))
-    validateAudio(temporary, "PSE stem")->ignore
+    validateAudio(temporary, "ElevenLabs SFX stem")->ignore
     if !publishFileExclusive(Path(temporary), Path(sfxStemPath)) {
-      fail("refusing to overwrite PSE stem: " ++ sfxStemPath)
+      fail("refusing to overwrite ElevenLabs SFX stem: " ++ sfxStemPath)
     }
   }
 }
@@ -975,7 +1127,69 @@ let buildScoreStem = (
   }
 }
 
+let cueById = (cues: array<timelineCue>, id: string): timelineCue => switch Belt.Array.getBy(cues, row => row.cue.id == id) {
+| Some(row) => row
+| None => fail("timeline has no cue " ++ id)
+}
+
+let buildScoreStemV5 = (
+  ~music: array<(musicSpec, string, string, float)>,
+  ~cues: array<timelineCue>,
+  ~duration: float,
+): unit => {
+  if exists(Path(scoreStemPath)) {
+    validateAudio(scoreStemPath, "Music v2 stem")->ignore
+  } else {
+    let (titlePath, titleSourceDuration) = musicStemFor(music, "title_motif")
+    let (warPath, warSourceDuration) = musicStemFor(music, "war_context")
+    let (weaponPath, weaponSourceDuration) = musicStemFor(music, "weapon_question")
+    let titleStart = cueById(cues, "C004").start
+    let titleStop = cueById(cues, "C005").end_
+    let titleDuration = floatMin(titleSourceDuration, floatMax(3.0, titleStop -. titleStart))
+    let warStart = cueById(cues, "C008").start
+    let warStop = cueById(cues, "C009").end_
+    let warDuration = floatMax(3.0, warStop -. warStart)
+    let weaponStart = cueById(cues, "C010").start
+    let weaponStop = cueById(cues, "C011").end_
+    let weaponDuration = floatMax(3.0, weaponStop -. weaponStart)
+    let codaStart = cueById(cues, "C015").start
+    let codaStop = cueById(cues, "C016").end_
+    let codaDuration = floatMin(titleSourceDuration, floatMax(3.0, codaStop -. codaStart))
+    let warLoopSamples = intMax(1, Belt.Float.toInt(warSourceDuration *. 48000.0))
+    let weaponLoopSamples = intMax(1, Belt.Float.toInt(weaponSourceDuration *. 48000.0))
+    let scratch = tempDir("enoch-score-v5-")->pathString
+    let temporary = scratch ++ "/score.wav"
+    let graph =
+      "[0:a]asplit=2[title_source][coda_source];" ++
+      "[title_source]atrim=0:" ++ Js.Float.toString(titleDuration) ++ ",asetpts=PTS-STARTPTS," ++
+      "afade=t=in:st=0:d=1,afade=t=out:st=" ++ Js.Float.toString(floatMax(0.0, titleDuration -. 2.0)) ++ ":d=2," ++
+      "volume=0.52,adelay=" ++ Belt.Int.toString(Belt.Float.toInt(titleStart *. 1000.0)) ++ ":all=1[title];" ++
+      "[1:a]aloop=loop=-1:size=" ++ Belt.Int.toString(warLoopSamples) ++ "," ++
+      "atrim=0:" ++ Js.Float.toString(warDuration) ++ ",asetpts=PTS-STARTPTS," ++
+      "afade=t=in:st=0:d=2,afade=t=out:st=" ++ Js.Float.toString(floatMax(0.0, warDuration -. 3.0)) ++ ":d=3," ++
+      "volume=0.30,adelay=" ++ Belt.Int.toString(Belt.Float.toInt(warStart *. 1000.0)) ++ ":all=1[war];" ++
+      "[2:a]aloop=loop=-1:size=" ++ Belt.Int.toString(weaponLoopSamples) ++ "," ++
+      "atrim=0:" ++ Js.Float.toString(weaponDuration) ++ ",asetpts=PTS-STARTPTS," ++
+      "afade=t=in:st=0:d=2,afade=t=out:st=" ++ Js.Float.toString(floatMax(0.0, weaponDuration -. 2.5)) ++ ":d=2.5," ++
+      "volume=0.32,adelay=" ++ Belt.Int.toString(Belt.Float.toInt(weaponStart *. 1000.0)) ++ ":all=1[weapon];" ++
+      "[coda_source]atrim=0:" ++ Js.Float.toString(codaDuration) ++ ",asetpts=PTS-STARTPTS," ++
+      "afade=t=in:st=0:d=1.5,afade=t=out:st=" ++ Js.Float.toString(floatMax(0.0, codaDuration -. 3.0)) ++ ":d=3," ++
+      "volume=0.46,adelay=" ++ Belt.Int.toString(Belt.Float.toInt(codaStart *. 1000.0)) ++ ":all=1[coda];" ++
+      "anullsrc=r=48000:cl=stereo:d=" ++ Js.Float.toString(duration) ++ "[clock];" ++
+      "[clock][title][war][weapon][coda]amix=inputs=5:duration=first:normalize=0:dropout_transition=0[out]"
+    ffmpeg([
+      "-nostdin", "-v", "error", "-n", "-i", titlePath, "-i", warPath, "-i", weaponPath,
+      "-filter_complex", graph, "-map", "[out]", "-ar", "48000", "-ac", "2", "-c:a", "pcm_s24le", temporary,
+    ])
+    validateAudio(temporary, "Music v2 V5 stem")->ignore
+    if !publishFileExclusive(Path(temporary), Path(scoreStemPath)) {
+      fail("refusing to overwrite Music v2 V5 stem: " ++ scoreStemPath)
+    }
+  }
+}
+
 let finalMix = (~duration: float): unit => {
+  ensureDirPath(Path(reviewDir))
   if !exists(Path(finalWavPath)) {
     let scratch = tempDir("enoch-final-mix-")->pathString
     let temporary = scratch ++ "/master.wav"
@@ -984,7 +1198,7 @@ let finalMix = (~duration: float): unit => {
       "[2:a][voice]sidechaincompress=threshold=0.025:ratio=8:attack=20:release=350:makeup=1[ducked_music];" ++
       "[voice][1:a][ducked_music]amix=inputs=3:duration=first:normalize=0:dropout_transition=0," ++
       "atrim=0:" ++ Js.Float.toString(duration) ++ "," ++
-      "loudnorm=I=-16:TP=-1:LRA=9,alimiter=limit=0.89[out]"
+      "loudnorm=I=-16:TP=-2:LRA=7,alimiter=limit=0.84,volume=-0.7dB[out]"
     ffmpeg([
       "-nostdin", "-v", "error", "-n", "-i", voiceMasterPath, "-i", sfxStemPath, "-i", scoreStemPath,
       "-filter_complex", graph, "-map", "[out]", "-ar", "48000", "-ac", "2", "-c:a", "pcm_s24le", temporary,
@@ -999,7 +1213,8 @@ let finalMix = (~duration: float): unit => {
     let temporary = scratch ++ "/master.m4a"
     ffmpeg([
       "-nostdin", "-v", "error", "-n", "-i", finalWavPath,
-      "-c:a", "aac", "-b:a", "256k", "-movflags", "+faststart", temporary,
+      "-map", "0:a:0", "-map_metadata", "-1", "-c:a", "aac", "-b:a", "256k", "-ar", "48000", "-ac", "2",
+      "-movflags", "+faststart", "-metadata", "title=The Schoolhouse Before the Nation", temporary,
     ])
     validateAudio(temporary, "final M4A master")->ignore
     if !publishFileExclusive(Path(temporary), Path(finalM4aPath)) {
@@ -1011,8 +1226,8 @@ let finalMix = (~duration: float): unit => {
 let placementJson = (row: sfxPlacement): Js.Json.t => {
   let root = Js.Dict.empty()
   addString(root, "id", row.id)
-  addString(root, "provider", "Pro Sound Effects")
-  addString(root, "license", "User's licensed local PSE CORE library")
+  addString(root, "provider", "ElevenLabs")
+  addString(root, "model", "eleven_text_to_sound_v2")
   addString(root, "source", row.source)
   addString(root, "source_sha256", sha256File(Path(row.source)))
   addString(root, "evidence_class", row.evidence)
@@ -1030,6 +1245,8 @@ let timelineTurnJson = (row: timelineTurn): Js.Json.t => {
   addString(root, "scene", row.rendered.turn.scene)
   addString(root, "speaker", speakerName(row.rendered.turn.speaker))
   addString(root, "voice_id", voiceIdFor(row.rendered.turn.speaker))
+  addString(root, "source_text", row.rendered.turn.text)
+  addString(root, "provider_text", renderText(row.rendered.turn))
   addString(root, "request_sha256", row.rendered.requestHash)
   addString(root, "raw_provider_asset", row.rendered.rawPath)
   addString(root, "raw_provider_sha256", sha256File(Path(row.rendered.rawPath)))
@@ -1044,11 +1261,11 @@ let timelineCueJson = (row: timelineCue): Js.Json.t => {
   let root = Js.Dict.empty()
   addString(root, "id", row.cue.id)
   addString(root, "scene", row.cue.scene)
+  addString(root, "kind", row.cue.kind)
   addString(root, "evidence_class", row.cue.evidence)
   addString(root, "text", row.cue.text)
   addNumber(root, "start_seconds", row.start)
   addNumber(root, "end_seconds", row.end_)
-  addString(root, "location_preview_status", row.cue.evidence == "D" ? "OMITTED_NO_VERIFIED_FIELD_MASTER" : "NOT_APPLICABLE")
   Js.Json.object_(root)
 }
 
@@ -1065,30 +1282,33 @@ let writeManifest = (
   ~chapters: array<chapter>,
   ~placements: array<sfxPlacement>,
   ~music: array<(musicSpec, string, string, float)>,
+  ~sfx: array<(sfxSpec, string, string, float)>,
   ~duration: float,
 ): unit => {
   let root = Js.Dict.empty()
-  addString(root, "schema", "enoch.audio-master/v1")
+  addString(root, "schema", "enoch.audio-master/v5")
   addString(root, "pipeline_version", pipelineVersion)
   addString(root, "assembly_version", assemblyVersion)
   addString(root, "canonical_script", scriptPath)
   addString(root, "canonical_script_sha256", sha256File(Path(scriptPath)))
-  addString(root, "status", "PRODUCTION PREVIEW AT APPROVED TARGET RUNTIME: V3 dialogue, Music v2, licensed PSE; D-class location cues omitted")
+  addString(root, "status", "FULL V5 AUDIO PRODUCTION: Jacob Michael, Eleven v3, Music v2, ElevenLabs Sound Effects v2")
   addString(root, "master_wav", finalWavPath)
   addString(root, "master_wav_sha256", sha256File(Path(finalWavPath)))
   addString(root, "master_m4a", finalM4aPath)
   addString(root, "master_m4a_sha256", sha256File(Path(finalM4aPath)))
   addNumber(root, "duration_seconds", duration)
   addString(root, "speech_model", "eleven_v3")
+  addString(root, "narrator_voice_id", narratorVoiceId)
+  addString(root, "narrator_voice_name", narratorVoiceName)
+  addString(root, "expression_map_sha256", sha256Text(turns->Belt.Array.map(row => row.rendered.turn.id ++ "=" ++ expressionTag(row.rendered.turn))->Js.Array2.joinWith("|")))
   addNumber(root, "local_dialogue_tempo", dialogueTempo)
   addString(root, "music_model", "music_v2")
-  addString(root, "sfx_source", "Pro Sound Effects licensed local library")
-  addString(root, "prohibited_content_audit", "No generated SFX; no attack sounds; no weapons, impacts, cries, pleas, bodies, doors, approach blocking, or historical-character voices")
-  addString(root, "field_audio_audit", "No D-class park or spring recording is present; all such cues are marked omitted")
+  addString(root, "sfx_source", "ElevenLabs eleven_text_to_sound_v2")
+  addString(root, "prohibited_content_audit", "The attack is not reenacted. Authored effects contain only ordinary school texture, paper, soil digging, slate, and furniture.")
   Js.Dict.set(root, "chapters", Js.Json.array(chapters->Belt.Array.map(chapterJson)))
   Js.Dict.set(root, "dialogue", Js.Json.array(turns->Belt.Array.map(timelineTurnJson)))
   Js.Dict.set(root, "sound_cues", Js.Json.array(cues->Belt.Array.map(timelineCueJson)))
-  Js.Dict.set(root, "pse_placements", Js.Json.array(placements->Belt.Array.map(placementJson)))
+  Js.Dict.set(root, "sfx_placements", Js.Json.array(placements->Belt.Array.map(placementJson)))
   Js.Dict.set(root, "music", Js.Json.array(music->Belt.Array.map(((spec, raw, stem, seconds)) => {
     let row = Js.Dict.empty()
     addString(row, "id", spec.id)
@@ -1102,26 +1322,48 @@ let writeManifest = (
     addString(row, "prompt", spec.prompt)
     Js.Json.object_(row)
   })))
+  Js.Dict.set(root, "generated_sfx", Js.Json.array(sfx->Belt.Array.map(((spec, raw, stem, seconds)) => {
+    let row = Js.Dict.empty()
+    addString(row, "id", spec.id)
+    addString(row, "model", "eleven_text_to_sound_v2")
+    addString(row, "request_sha256", sfxHash(spec))
+    addString(row, "raw_provider_asset", raw)
+    addString(row, "raw_provider_sha256", sha256File(Path(raw)))
+    addString(row, "normalized_stem", stem)
+    addString(row, "normalized_stem_sha256", sha256File(Path(stem)))
+    addNumber(row, "provider_duration_seconds", seconds)
+    addNumber(row, "prompt_influence", spec.influence)
+    addString(row, "prompt", spec.prompt)
+    Js.Json.object_(row)
+  })))
   writeText(Path(manifestPath), Js.Json.stringifyWithSpace(Js.Json.object_(root), 1) ++ "\n")
 }
 
 let qc = (): unit => {
+  let wavDuration = validateAudio(finalWavPath, "final WAV master")
+  let m4aDuration = validateAudio(finalM4aPath, "final M4A review file")
+  if wavDuration < 1620.0 || wavDuration > 1800.0 {
+    fail("final runtime is outside the approved 27–30 minute window: " ++ Js.Float.toString(wavDuration))
+  }
+  if Js.Math.abs_float(wavDuration -. m4aDuration) > 0.10 {
+    fail("WAV/M4A duration mismatch exceeds 0.10 seconds")
+  }
   let decode = run(~cmd="ffmpeg", ~args=["-nostdin", "-v", "error", "-i", finalWavPath, "-f", "null", "-"])
   if decode.code != 0 {
     fail("final decode QC failed: " ++ decode.stderr)
   }
   let silence = run(
     ~cmd="ffmpeg",
-    ~args=["-nostdin", "-hide_banner", "-i", finalWavPath, "-af", "silencedetect=noise=-55dB:d=8", "-f", "null", "-"],
+    ~args=["-nostdin", "-hide_banner", "-i", finalWavPath, "-af", "silencedetect=noise=-55dB:d=6", "-f", "null", "-"],
   )
   if contains(silence.stderr, "silence_duration:") {
-    fail("final QC found an unintended silence of eight seconds or longer")
+    fail("final QC found an unintended silence of six seconds or longer")
   }
   let peak = run(
     ~cmd="ffmpeg",
     ~args=["-nostdin", "-hide_banner", "-i", finalWavPath, "-af", "volumedetect", "-f", "null", "-"],
   )
-  Js.log("QC decode PASS; no >=8s silence. " ++
+  Js.log("QC decode PASS; runtime PASS; no >=6s silence. " ++
     peak.stderr->Js.String2.split("\n")->Belt.Array.keep(line => contains(line, "max_volume"))->Js.Array2.joinWith(" "))
 }
 
@@ -1132,11 +1374,18 @@ let main = async (): unit => {
     Js.log("DRY run — zero paid calls, zero generated audio.")
   } else {
     let renderedTurns = await renderDialogue(turns)
-    let renderedMusic = await renderMusic()
     let (timelineCues, timelineTurns, chapters, voiceDuration) = buildVoiceTimeline(~events, ~rendered=renderedTurns)
-    let placements = sfxPlacements(~cues=timelineCues, ~turns=timelineTurns)
+    if voiceDuration < 1620.0 || voiceDuration > 1800.0 {
+      fail(
+        "V5 voice timeline is outside 27–30 minutes; paid SFX and music were not started. Duration: " ++
+        Js.Float.toString(voiceDuration),
+      )
+    }
+    let renderedSfx = await renderSfx()
+    let renderedMusic = await renderMusic()
+    let placements = sfxPlacements(~cues=timelineCues, ~sfx=renderedSfx)
     buildSfxStem(~placements, ~duration=voiceDuration)
-    buildScoreStem(~music=renderedMusic, ~cues=timelineCues, ~duration=voiceDuration)
+    buildScoreStemV5(~music=renderedMusic, ~cues=timelineCues, ~duration=voiceDuration)
     finalMix(~duration=voiceDuration)
     let finalDuration = validateAudio(finalWavPath, "final master")
     qc()
@@ -1146,6 +1395,7 @@ let main = async (): unit => {
       ~chapters,
       ~placements,
       ~music=renderedMusic,
+      ~sfx=renderedSfx,
       ~duration=finalDuration,
     )
     Js.log("MASTER WAV -> " ++ finalWavPath)

@@ -69,7 +69,8 @@ function plateNotes(s) {
   }
 }
 
-function platePrompt(s) {
+function platePrompt(s, vantageOpt, param) {
+  var vantage = vantageOpt !== undefined ? vantageOpt : "TopLookingDown";
   return PromptGate.pass("platePrompt", [
                 "SHOT: WIDE ESTABLISHING PLATE, LANDSCAPE 16:9, full-bleed, the camera is INSIDE the world.",
                 "STYLE: " + Kuku_PromptSpec.styleLaw + ". The FIRST attached image is the art style; match it EXACTLY.",
@@ -77,7 +78,7 @@ function platePrompt(s) {
                 "BLUEPRINT: the SECOND attached image is a PLAN-VIEW MAP of this set — read the landmark positions from it, then draw the PLACE ITSELF seen from inside the world. Every landmark stands blank and plain: the markers are flat red paving stones, the post is a bare stone post, every face of stone smooth and empty.",
                 "TIME: this is the set BEFORE the story happens — every flagstone bare, the flat stone bare, the lane open and empty from top to wall.",
                 "SET: " + Kuku_Ep10Sets.setProse(s),
-                "VIEWPOINT: " + Kuku_Ep10Sets.vantageProse(s, "TopLookingDown"),
+                "VIEWPOINT: " + Kuku_Ep10Sets.vantageProse(s, vantage),
                 "LIGHTING: warm golden dusk — the last golden evening; the low sun — a plain warm paper disc — gilds the paper flagstones. THE SUN STANDS OFF TO ONE SIDE, well clear of the viewing axis, so every landmark is LIT full-face and every colour in the place stays full — green hills, blue water, snow on the far peaks.",
                 "PURPOSE: this is a SET PLATE — the empty location itself, to be reused as the reference for every shot staged here. Every landmark must be clearly visible and correctly placed.",
                 "HARD RULES:\n" + Kuku_PromptSpec.bullets([
@@ -134,13 +135,26 @@ function doBlueprints() {
 function doPlate(s) {
   var bp = blueprintPng(s);
   var refs = Fs.existsSync(bp) ? [
-      Kuku_PromptSpec.styleKey,
+      Kuku_PromptSpec.styleKey(),
       bp
-    ] : [Kuku_PromptSpec.styleKey];
+    ] : [Kuku_PromptSpec.styleKey()];
   if (!Fs.existsSync(bp)) {
     console.log("NOTE: no blueprint PNG for " + Kuku_Ep10Sets.setName(s) + " — generating from prose alone");
   }
-  Kuku_Engine.plate(undefined, Kuku_Ep10Sets.setName(s) + "_plate", platePrompt(s), refs, plateFile(s), undefined, undefined);
+  Kuku_Engine.plate(undefined, Kuku_Ep10Sets.setName(s) + "_plate", platePrompt(s, undefined, undefined), refs, plateFile(s), undefined, undefined);
+}
+
+function doVantagePlate(s, vantage) {
+  var bp = blueprintPng(s);
+  var refs = Fs.existsSync(bp) ? [
+      Kuku_PromptSpec.styleKey(),
+      plateFile(s),
+      bp
+    ] : [
+      Kuku_PromptSpec.styleKey(),
+      plateFile(s)
+    ];
+  Kuku_Engine.plate(undefined, Kuku_Ep10Sets.setName(s) + "_" + Kuku_Ep10Sets.vantageName(vantage) + "_plate", platePrompt(s, vantage, undefined) + "\nSAME PLACE, NEW STATION: the SECOND attached image is this very set already built — keep its ground, its walls, its kerbs, its markers, its palette and its light exactly, and show that same place from the viewpoint named above.", refs, Kuku_Ep10Sets.platePath(s, Kuku_Ep10Sets.vantageName(vantage)), undefined, undefined);
 }
 
 function surveySpec(s) {
@@ -173,7 +187,7 @@ function surveySpec(s) {
 function doSurvey(s) {
   var plate = plateFile(s);
   if (Fs.existsSync(plate)) {
-    Kuku_Engine.clip(undefined, Kuku_Ep10Sets.setName(s) + "_survey", surveySpec(s), "seedance_2_0_mini", 5, plate, undefined, surveyFile(s), undefined);
+    Kuku_Engine.clip(undefined, Kuku_Ep10Sets.setName(s) + "_survey", surveySpec(s), "seedance_2_0_mini", 5, plate, undefined, undefined, undefined, undefined, surveyFile(s), undefined);
   } else {
     console.log("no approved plate for " + Kuku_Ep10Sets.setName(s) + " — run `plate` first");
   }
@@ -224,7 +238,7 @@ function stylePassPrompt(s) {
 
 function doStylePass(s, blockout, dst) {
   Kuku_Engine.plate(undefined, Kuku_Ep10Sets.setName(s) + "_stylepass", stylePassPrompt(s), [
-        Kuku_PromptSpec.styleKey,
+        Kuku_PromptSpec.styleKey(),
         blockout
       ], dst, undefined, undefined);
 }
@@ -262,7 +276,7 @@ switch (mode) {
       };
       sets.forEach(function (s) {
             try_(Kuku_Ep10Sets.setName(s) + " plate", (function () {
-                    return platePrompt(s);
+                    return platePrompt(s, undefined, undefined);
                   }));
             try_(Kuku_Ep10Sets.setName(s) + " style", (function () {
                     return stylePassPrompt(s);
@@ -285,7 +299,7 @@ switch (mode) {
       break;
   case "prompt" :
       if (target !== undefined) {
-        console.log(platePrompt(target));
+        console.log(platePrompt(target, undefined, undefined));
       } else {
         exit = 1;
       }
@@ -308,6 +322,31 @@ switch (mode) {
   case "survey" :
       if (target !== undefined) {
         doSurvey(target);
+      } else {
+        exit = 1;
+      }
+      break;
+  case "vantage" :
+      if (target !== undefined) {
+        var v = process.argv.length > 4 ? Caml_array.get(process.argv, 4) : "top_looking_down";
+        var vantage;
+        switch (v) {
+          case "at_the_ring" :
+              vantage = "AtTheRing";
+              break;
+          case "bottom_looking_up" :
+              vantage = "BottomLookingUp";
+              break;
+          case "ground_level" :
+              vantage = "GroundLevel";
+              break;
+          case "overhead" :
+              vantage = "Overhead";
+              break;
+          default:
+            vantage = "TopLookingDown";
+        }
+        doVantagePlate(target, vantage);
       } else {
         exit = 1;
       }
@@ -341,6 +380,7 @@ export {
   fetchTo ,
   doBlueprints ,
   doPlate ,
+  doVantagePlate ,
   surveySpec ,
   doSurvey ,
   doRetouch ,

@@ -1,0 +1,38 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "still",
+ "id": "s26_the_lamp_dies",
+ "at": "2026-09-02T03:10:52.229Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "fe1cb37e9ce7b64b77c4a7f805e4b66ed72af7437a82b5b69462a8c64a5dcf3c",
+ "promptSha256": "5ab13cb403d76e14369646fe291a9591cad56c5f94ab288f9647ba31cb41c115",
+ "prompt": "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nSTYLE: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world. The FIRST attached image is the art style; match it EXACTLY.\nPALETTE: bright, vibrant, warm storybook palette, every colour full and saturated.\nSET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place stays itself: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and every landmark of it that falls inside this tighter frame sits exactly where the plate puts it. Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet.\n\nSCENE: A long gust arrives off the count. The flame flattens, shrinks, turns blue and goes out. A single thin line of smoke lifts from the wick and the light leaves the courtyard.\nSUBJECTS:\n- THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick — standing on the stone shelf of the niche with a single small flame upright on its wick\nSETTING: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.\nLIGHTING: Night has come. The small flame in the niche is the one warm light, glowing on the paper stone closest to it, and the courtyard beyond falls away into soft blue shadow.\nHARD RULES:\n- this is an object/insert shot: the frame holds the place and the named objects alone\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.\n- VIEWPOINT: A close view of the lamp on the niche shelf, the flame filling the middle of the frame.\n- THE CHILDREN ARE SMALL: each child dragon is about knee high to a grown-up, low enough to sit at the lamp, and the low wall rises above them.",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nSTYLE: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world. The FIRST attached image is the art style; match it EXACTLY.\nPALETTE: bright, vibrant, warm storybook palette, every colour full and saturated.\nSET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place stays itself: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and every landmark of it that falls inside this tighter frame sits exactly where the plate puts it. Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet.\n\nSCENE: A long gust arrives off the count. The flame flattens, shrinks, turns blue and goes out. A single thin line of smoke lifts from the wick and the light leaves the courtyard.\nSUBJECTS:\n- THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick — standing on the stone shelf of the niche with a single small flame upright on its wick\nSETTING: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.\nLIGHTING: Night has come. The small flame in the niche is the one warm light, glowing on the paper stone closest to it, and the courtyard beyond falls away into soft blue shadow.\nHARD RULES:\n- this is an object/insert shot: the frame holds the place and the named objects alone\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.\n- VIEWPOINT: A close view of the lamp on the niche shelf, the flame filling the middle of the frame.\n- THE CHILDREN ARE SMALL: each child dragon is about knee high to a grown-up, low enough to sit at the lamp, and the low wall rises above them.",
+  "--image",
+  "a34b16f4-11fa-4153-9c43-ed2e2a30d033",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep12/sets/courtyard_plate.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "a34b16f4-11fa-4153-9c43-ed2e2a30d033",
+   "sha256": "PROVIDER_ASSET:a34b16f4-11fa-4153-9c43-ed2e2a30d033"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep12/sets/courtyard_plate.png",
+   "sha256": "84246f4cc88c2c00b8368d1fb2a549bfcbef4872c9c2c95f0235e09cd1277f69"
+  }
+ ]
+}

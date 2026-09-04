@@ -16,6 +16,8 @@ var refsDir = "../stories/drakosha/ep1prod/scene1/references";
 
 var kfDir = "../stories/drakosha/rnd/keyframes";
 
+var previzDir = "../stories/drakosha/ep1prod/sets/blender/previz_out";
+
 var outDir = "../stories/drakosha/production/seedance_batch/emitted";
 
 function sha256(s) {
@@ -128,6 +130,22 @@ function assertScriptLinesPresent(record, script, problem) {
         }));
 }
 
+function assertBlockoutBacked(record, blockout, problem) {
+  var c = record.creative.toLowerCase();
+  var claims = c.includes("@blockout") || c.includes("blockout") || c.includes("@video1") || c.includes("video reference");
+  if (claims) {
+    if (blockout !== undefined) {
+      return ;
+    } else {
+      return problem(record.jobId, "the choreography refers to a blockout and no blockout video is bound. Either bind one or stop referring to it.");
+    }
+  } else if (blockout !== undefined) {
+    return problem(record.jobId, "a blockout video is bound and the choreography never says what it is for. A video reference is read as a motion reference by default; write the BLOCKOUT block.");
+  } else {
+    return ;
+  }
+}
+
 function assertStartFrameBacked(record, problem) {
   var c = record.creative.toLowerCase();
   var claims = c.includes("start image") || c.includes("start frame") || c.includes("supplied start");
@@ -216,6 +234,59 @@ var reactionHeaders = [
   "REACTIONS",
   "REACTION"
 ];
+
+function assertBlockoutStatesCamera(record, problem) {
+  var c = record.creative;
+  var hasBlockout = c.includes("\nBLOCKOUT") || c.includes("\nVIDEO REFERENCE");
+  var lower = c.toLowerCase();
+  var anchored = Belt_Array.some([
+        "camera stands",
+        "camera looks",
+        "camera is",
+        "camera locked",
+        "\ncamera\n",
+        "looking up",
+        "looking down",
+        "looking back",
+        "looking along",
+        "looking across"
+      ], (function (w) {
+          return lower.includes(w);
+        }));
+  if (hasBlockout && !anchored) {
+    return problem(record.jobId, "a blockout is attached and the choreography never says where the camera is or what it looks at. \"Take the camera from it\" is not enough: a bound set plate carries its own composition and will impose it. State the camera in words — where it stands, which way it faces, what is down each side.");
+  }
+  
+}
+
+function carriesFacesAndHandsInline(r) {
+  var c = r.creative.toLowerCase();
+  var beaten = Belt_Array.keep(changeMarkers, (function (m) {
+          return r.creative.toLowerCase().includes(m);
+        })).length >= 2;
+  var face = [
+    "brow",
+    "mouth",
+    "jaw",
+    "chin",
+    "eyes",
+    "grin"
+  ];
+  var hand = [
+    "hand",
+    "fist",
+    "grip"
+  ];
+  if (beaten && Belt_Array.some(face, (function (w) {
+            return c.includes(w);
+          }))) {
+    return Belt_Array.some(hand, (function (w) {
+                  return c.includes(w);
+                }));
+  } else {
+    return false;
+  }
+}
 
 function assertReactionsWritten(record, problem) {
   if (record.cast.length <= 1) {
@@ -676,6 +747,10 @@ function assertEmotionsDeclared(record, problem) {
             return problem(record.jobId, n + " declares \"" + label + "\", which the gate does not know, so it cannot check the choreography against it. Use one of: " + emotionNames.join(", ") + " — or add the new one to `emotions` in this file with the anatomy that belongs to it and the anatomy that contradicts it.");
           }
           var lower = para.toLowerCase();
+          var faceHidden = para.toUpperCase().includes("FACE NOT IN FRAME");
+          if (faceHidden) {
+            return ;
+          }
           var n$1 = lower.length;
           var from = n$1 > 180 ? n$1 - (n$1 / 3 | 0) | 0 : 0;
           var dest = lower.slice(from);
@@ -895,6 +970,26 @@ var creditTotal = {
   contents: 0.0
 };
 
+function assertReferenceLinesAreShort(record, problem) {
+  var check = function (tag, line) {
+    if (line.length > 110) {
+      return problem(record.jobId, "the reference line for " + tag + " is " + String(line.length) + " characters — it is DESCRIBING a picture that is attached to this same request, from the highest-weighted block of the prompt. Cut it to who it is plus the one feature the model drops if unnamed. This is what turned Фрося round in SP138: @ROAD's line said \"running away\" twice above a blockout that had her riding at the lens.");
+    }
+    
+  };
+  Belt_Array.forEach(record.cast, (function (t) {
+          var e = Drakosha_SeedanceBatch.castEntry(t);
+          check(e.tag, e.tagLine);
+        }));
+  Belt_Array.forEach(record.props, (function (t) {
+          var e = Drakosha_SeedanceBatch.propEntry(t);
+          if (e.TAG === "Backed") {
+            return check(e.tag, e.tagLine);
+          }
+          
+        }));
+}
+
 function assertTagLinesAreIdentityOnly(record, problem) {
   Belt_Array.forEach(record.cast, (function (t) {
           var entry = Drakosha_SeedanceBatch.castEntry(t);
@@ -976,10 +1071,11 @@ function assertHandsWritten(record, problem) {
     problem(record.jobId, "the HANDS block never says what " + missing.join(", ") + " is doing with their hands. An unwritten pair of hands is filled from the reference sheet.");
   }
   var lower = block.toLowerCase();
+  var handsHidden = block.toUpperCase().includes("NOT IN FRAME");
   var verbs = Belt_Array.keep(handsVerbs, (function (v) {
           return lower.includes(v);
         }));
-  if (verbs.length < record.cast.length) {
+  if (!handsHidden && verbs.length < record.cast.length) {
     return problem(record.jobId, "the HANDS block leans on prohibitions rather than saying what the hands ARE doing. \"No broom\" lost to a reference sheet that shows one; \"her hands hang open and empty at her sides\" wins, because it occupies the same cell. Give every character a positive hand action.");
   }
   
@@ -996,7 +1092,12 @@ var namedWalls = [
   "table end",
   "boulder-block wall",
   "no wall",
-  "shows no wall"
+  "shows no wall",
+  "stone block wall",
+  "block wall",
+  "wooden posts",
+  "post row",
+  "gravel"
 ];
 
 var wallFeatures = [
@@ -1067,7 +1168,7 @@ function assertGlyphsPlanned(record, problem) {
   var after = Belt_Array.getExn(c.split("\nGLYPHS"), 1);
   var block = Belt_Array.getExn(after.split("\n\n"), 0);
   var up = block.toUpperCase();
-  var planned = up.includes("NOT READABLE") || up.includes("REPAINT") || up.includes("PLATE");
+  var planned = up.includes("NOT READABLE") || up.includes("REPAINT") || up.includes("PLATE") || up.includes("MUST SURVIVE");
   if (!planned) {
     problem(record.jobId, "the GLYPHS block names no strategy. It must say NOT READABLE, REPAINT or PLATE.");
   }
@@ -1075,6 +1176,52 @@ function assertGlyphsPlanned(record, problem) {
     return problem(record.jobId, "a REPAINT shot must say when the letters are AT REST — glyphs can only be replaced cleanly on tiles or paper that are not moving. If they never come to rest, the shot cannot be repainted and needs a different plan.");
   }
   
+}
+
+function assertSourceCarriesOnlySpeech(record, problem) {
+  var padded = "\n" + record.creative;
+  if (!padded.includes("\nSOURCE")) {
+    return ;
+  }
+  var after = Belt_Array.getExn(padded.split("\nSOURCE"), 1);
+  var block = Belt_Array.getExn(after.split("\n\n"), 0);
+  var lines = block.split("\n");
+  Belt_Array.forEachWithIndex(lines, (function (i, line) {
+          var trimmed = line.trim();
+          var lower = trimmed.toLowerCase();
+          var isHeader = i === 0;
+          var isBlank = trimmed.length === 0;
+          var isSpeech = trimmed.includes("\u00ab") && trimmed.includes("\u00bb");
+          var isSilence = lower.includes("nothing is spoken") || lower.includes("nobody speaks") || lower.includes("no one speaks");
+          if (!isHeader && !isBlank && !isSpeech && !isSilence) {
+            return problem(record.jobId, "the SOURCE block carries a line that is not speech: \"" + trimmed + "\". SOURCE may hold quoted dialogue in \u00ab\u00bb and a declaration that nothing is spoken, and nothing else. This is what cost SH144: its SOURCE quoted the script's stage direction for a beat we had replaced, the model followed it over every constraint below, and a second set of letters slid into a frame whose tiles were meant to be nailed down. A direction here is redundant when it agrees with the shot and fatal when it does not. Put scope notes, stage directions and the reasoning for departing from the script in the job record, which the model never sees.");
+          }
+          
+        }));
+}
+
+var setProps = [
+  "@FLOOR",
+  "@ROAD",
+  "@ROOM_BACK",
+  "@ROOM_FRONT",
+  "@ROOM_FRONT_LOW",
+  "@ROOM_FRONT_HATCH",
+  "@ROOF",
+  "@FLOOR_AFTER"
+];
+
+function hasSetReference(r) {
+  return Belt_Array.some(r.props, (function (t) {
+                var e = Drakosha_SeedanceBatch.propEntry(t);
+                if (e.TAG === "Backed") {
+                  return Belt_Array.some(setProps, (function (x) {
+                                return x === e.tag;
+                              }));
+                } else {
+                  return false;
+                }
+              }));
 }
 
 function assertBackgroundsAssigned(record, problem) {
@@ -1245,7 +1392,7 @@ Belt_Array.forEach(Drakosha_SeedanceJobs.all, (function (spec) {
         }
         var prompt;
         try {
-          prompt = Drakosha_SeedanceBatch.emitPrompt(record);
+          prompt = Drakosha_SeedanceBatch.emitPrompt(record, Drakosha_SeedanceJobs.modelMaxRefs(spec.model) > 0, undefined);
         }
         catch (raw_m){
           var m = Caml_js_exceptions.internalToOCamlException(raw_m);
@@ -1268,10 +1415,19 @@ Belt_Array.forEach(Drakosha_SeedanceJobs.all, (function (spec) {
                         })), Belt_Array.concat(Drakosha_SeedanceJobs.retired, Drakosha_SeedanceJobs.retiredBatch)), problem);
         }
         assertStartFrameBacked(record, problem);
-        assertReactionsWritten(record, problem);
-        assertEmotionsDeclared(record, problem);
-        assertHandsWritten(record, problem);
-        assertBackgroundsAssigned(record, problem);
+        if (!carriesFacesAndHandsInline(record)) {
+          assertReactionsWritten(record, problem);
+          assertEmotionsDeclared(record, problem);
+        }
+        assertBlockoutStatesCamera(record, problem);
+        assertSourceCarriesOnlySpeech(record, problem);
+        var handsAreInTheFootage = creative.includes("Follow the reference video exactly") || creative.includes("@video1 supplies");
+        if (!carriesFacesAndHandsInline(record) && record_cast.length !== 0 && !handsAreInTheFootage) {
+          assertHandsWritten(record, problem);
+        }
+        if (!hasSetReference(record)) {
+          assertBackgroundsAssigned(record, problem);
+        }
         assertGlyphsPlanned(record, problem);
         assertShotCodeResolves(record, problem);
         assertQuotedLinesRecorded(record, problem);
@@ -1296,6 +1452,18 @@ Belt_Array.forEach(Drakosha_SeedanceJobs.all, (function (spec) {
         } else {
           start = "";
         }
+        var k$1 = spec.blockout;
+        var blockout;
+        if (k$1 !== undefined) {
+          var p$1 = previzDir + "/" + k$1;
+          if (!Fs.existsSync(p$1)) {
+            problem(jobId, "missing blockout " + p$1);
+          }
+          blockout = p$1;
+        } else {
+          blockout = undefined;
+        }
+        assertBlockoutBacked(record, blockout, problem);
         Fs.writeFileSync(outDir + "/" + jobId + ".prompt.txt", prompt);
         var d = {};
         d["model"] = Drakosha_SeedanceJobs.modelName(spec.model);
@@ -1308,6 +1476,9 @@ Belt_Array.forEach(Drakosha_SeedanceJobs.all, (function (spec) {
         d["imageReferences"] = Belt_Array.map(refPaths, (function (prim) {
                 return prim;
               }));
+        if (blockout !== undefined) {
+          d["videoReferences"] = [blockout];
+        }
         d["promptSha256"] = sha256(prompt);
         Fs.writeFileSync(outDir + "/" + jobId + ".args.json", JSON.stringify(d, null, 2));
         var castCount = record_cast.length;
@@ -1315,6 +1486,7 @@ Belt_Array.forEach(Drakosha_SeedanceJobs.all, (function (spec) {
         assertModelFits(spec, refCount, problem);
         assertFaceWorkHasReferences(spec, refCount, problem);
         assertTagLinesAreIdentityOnly(record, problem);
+        assertReferenceLinesAreShort(record, problem);
         var credits = Drakosha_SeedanceJobs.modelCreditsPerSec(spec.model) * record_durationSec;
         creditTotal.contents = creditTotal.contents + credits;
         manifestLines.push(jobId + "  " + record_shots + "  cast=" + String(castCount) + "  refs=" + String(refCount) + "  start=" + (
@@ -1345,6 +1517,7 @@ var nonDialogueHeadSec = 2.0;
 export {
   refsDir ,
   kfDir ,
+  previzDir ,
   outDir ,
   sha256 ,
   framesDir ,
@@ -1355,12 +1528,15 @@ export {
   linesForShot ,
   bare ,
   assertScriptLinesPresent ,
+  assertBlockoutBacked ,
   assertStartFrameBacked ,
   assertSetImageBacked ,
   sceneHeadingFor ,
   assertStartFrameSameLocation ,
   changeMarkers ,
   reactionHeaders ,
+  assertBlockoutStatesCamera ,
+  carriesFacesAndHandsInline ,
   assertReactionsWritten ,
   emotions ,
   emotionNames ,
@@ -1377,6 +1553,7 @@ export {
   assertDurationHoldsAudio ,
   assertModelFits ,
   creditTotal ,
+  assertReferenceLinesAreShort ,
   assertTagLinesAreIdentityOnly ,
   handsHeaders ,
   handsVerbs ,
@@ -1386,6 +1563,9 @@ export {
   bareWords ,
   assertNamedFeaturesAreBacked ,
   assertGlyphsPlanned ,
+  assertSourceCarriesOnlySpeech ,
+  setProps ,
+  hasSetReference ,
   assertBackgroundsAssigned ,
   assertShotCodeResolves ,
   assertQuotedLinesRecorded ,

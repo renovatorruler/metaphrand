@@ -400,10 +400,14 @@ let silenceSupportCount = (blocks: array<block>, gaps: array<silenceGap>): int =
   supported.contents
 }
 
-let derive = (
+let deriveWithQualityFloor = (
   segments: array<knownSegment>,
   observed: array<timedWord>,
   gaps: array<silenceGap>,
+  ~minimumCoverage: float,
+  ~minimumObservedPrecision: float,
+  ~minimumMeanSimilarity: float,
+  ~minimumSequenceScore: float,
 ): derived => {
   if Belt.Array.length(segments) == 0 || Belt.Array.length(observed) == 0 {
     fail("local alignment needs known segments and observed words")
@@ -446,8 +450,8 @@ let derive = (
   let averageTokenProbability = probabilityCount.contents == 0
     ? -1.0
     : probabilitySum.contents /. Belt.Int.toFloat(probabilityCount.contents)
-  if coverage < minOverallCoverage || observedPrecision < minObservedPrecision ||
-     meanSimilarity < minMeanSimilarity || aligned.sequenceScore < minSequenceScore ||
+  if coverage < minimumCoverage || observedPrecision < minimumObservedPrecision ||
+     meanSimilarity < minimumMeanSimilarity || aligned.sequenceScore < minimumSequenceScore ||
      (averageTokenProbability >= 0.0 && averageTokenProbability < minAverageTokenProbability) {
     fail(
       "low-confidence local alignment: coverage=" ++ Js.Float.toFixedWithPrecision(coverage, ~digits=3) ++
@@ -559,3 +563,17 @@ let derive = (
     },
   }
 }
+
+let derive = (
+  segments: array<knownSegment>,
+  observed: array<timedWord>,
+  gaps: array<silenceGap>,
+): derived => deriveWithQualityFloor(
+  segments,
+  observed,
+  gaps,
+  ~minimumCoverage=minOverallCoverage,
+  ~minimumObservedPrecision=minObservedPrecision,
+  ~minimumMeanSimilarity=minMeanSimilarity,
+  ~minimumSequenceScore=minSequenceScore,
+)

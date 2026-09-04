@@ -34,6 +34,11 @@ let words: array<word> = [
   {display: `МАК`, audio: `МАК`},
   {display: `КОТ`, audio: `КОТ`},
   {display: `БАК`, audio: `БАК`},
+  {display: `ВОСК`, audio: `ВОСК`},
+  {display: `ВОЛ`, audio: `ВОЛ`},
+  {display: `ВОЛК`, audio: `ВОЛК`},
+  {display: `МОСТ`, audio: `МОСТ`},
+  {display: `СТВОЛ`, audio: `СТВОЛ`},
   /* multi-syllable — respelled for the voice */
   {display: `ОСА`, audio: `А-СА́`},
   {display: `САЛАТ`, audio: `СА-ЛА́Т`},
@@ -41,6 +46,14 @@ let words: array<word> = [
   {display: `МАШИНА`, audio: `МА-ШИ́-НА`},
   {display: `МОТОК`, audio: `МА-ТО́К`},
   {display: `МАМА`, audio: `МА́-МА`},
+  /* Episode 2 — В. Keep the on-screen spelling canonical; these forms are
+     exclusively for Russian speech synthesis. */
+  {display: `ВАТА`, audio: `ВА́-ТА`},
+  {display: `ЛАВКА`, audio: `ЛА́В-КА`},
+  {display: `КАСКА`, audio: `КА́С-КА`},
+  {display: `КОЛОКОЛ`, audio: `КО́-ЛА-КАЛ`},
+  {display: `СОВА`, audio: `СА-ВА́`},
+  {display: `ОБВАЛ`, audio: `АБ-ВА́Л`},
   {display: `юла`, audio: `ю-ЛА́`},
   {display: `осой`, audio: `асо́й`},
 ]
@@ -70,5 +83,23 @@ let audioFor = (display: string): string =>
   | Some(w) => w.audio
   | None => display
   }
+
+/* Apply the registry to completed uppercase words inside a performance line.
+   Spelled letter sequences such as С-О-В-А are unaffected because there is no
+   contiguous dictionary word to replace. Keep longest tokens first. */
+let audioInText = (s: string): string =>
+  s
+  ->Js.String2.replaceByRe(%re("/САМОКАТ/g"), audioFor(`САМОКАТ`))
+  ->Js.String2.replaceByRe(%re("/КОЛОКОЛ/g"), audioFor(`КОЛОКОЛ`))
+  ->Js.String2.replaceByRe(%re("/МАШИНА/g"), audioFor(`МАШИНА`))
+  ->Js.String2.replaceByRe(%re("/САЛАТ/g"), audioFor(`САЛАТ`))
+  ->Js.String2.replaceByRe(%re("/ОБВАЛ/g"), audioFor(`ОБВАЛ`))
+  ->Js.String2.replaceByRe(%re("/ЛАВКА/g"), audioFor(`ЛАВКА`))
+  ->Js.String2.replaceByRe(%re("/КАСКА/g"), audioFor(`КАСКА`))
+  ->Js.String2.replaceByRe(%re("/МОТОК/g"), audioFor(`МОТОК`))
+  ->Js.String2.replaceByRe(%re("/ВАТА/g"), audioFor(`ВАТА`))
+  ->Js.String2.replaceByRe(%re("/СОВА/g"), audioFor(`СОВА`))
+  ->Js.String2.replaceByRe(%re("/МАМА/g"), audioFor(`МАМА`))
+  ->Js.String2.replaceByRe(%re("/ОСА/g"), audioFor(`ОСА`))
 
 let () = validate()

@@ -147,7 +147,7 @@ let doClip02 = () =>
       ~spec=s02Clip,
       ~model="cinematic_studio_video_4_0",
       ~secs=5,
-      ~start=root ++ "stills/e01_dadi_lights.png",
+      ~start=Kuku_Engine.StartFrame(root ++ "stills/e01_dadi_lights.png"),
       ~workflow="cinematic_studio_video_4_0",
       ~dst=root ++ "clips/EP12_e01_dadi_lights.mp4",
       (),

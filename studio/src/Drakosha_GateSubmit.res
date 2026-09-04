@@ -34,6 +34,10 @@ open Drakosha_SeedanceJobs
 let refsDir = "../stories/drakosha/ep1prod/scene1/references"
 let approvalsDir = "../stories/drakosha/production/seedance_batch/approvals"
 let kfDir = "../stories/drakosha/rnd/keyframes"
+/* WHERE THE BLENDER BLOCKOUTS LIVE. Separate from kfDir because they are not
+   keyframes: a blockout is a video reference, and the gate has to be able to say
+   which of the two a missing file was. */
+let previzDir = "../stories/drakosha/ep1prod/sets/blender/previz_out"
 let outDir = "../stories/drakosha/production/seedance_batch/output"
 
 /* Behind the wall these live in the hfgate home; validate mode skips them. */
@@ -54,6 +58,10 @@ type prepared = {
   prompt: string,
   refPaths: array<string>,
   start: option<string>,
+  /* The Blender blockout, sent as a VIDEO reference. Kept apart from refPaths
+     because the model counts videos against their own ceiling — 3 videos, and 12
+     reference files in total across images, videos and audio. */
+  blockout: option<string>,
   /* WHICH MODEL, carried from the job record. It used to be the literal string
      "seedance_2_5" in three places here, which meant every shot in the episode
      was billed at 6.5 credits a second whether it needed 2.5 or not — a scene of
@@ -203,7 +211,7 @@ let prepare = (spec: Drakosha_SeedanceJobs.jobSpec): option<prepared> => {
        writing slow. Kling generates from 3s. */
     let minSec = switch spec.model {
     | Kling26 | Kling30 => 3
-    | Mini | V20 | V25 | Veo31Lite => 4
+    | Mini | V20 | V25 | CS4 | Veo31Lite => 4
     }
     if record.durationSec < minSec || record.durationSec > maxSec {
       flag(
@@ -219,7 +227,7 @@ let prepare = (spec: Drakosha_SeedanceJobs.jobSpec): option<prepared> => {
         "s)",
       )
     }
-    switch try Some(emitPrompt(record)) catch {
+    switch try Some(emitPrompt(record, ~refsSent=Drakosha_SeedanceJobs.modelMaxRefs(spec.model) > 0, ())) catch {
     | BatchError(m) =>
       flag(m)
       None
@@ -233,7 +241,30 @@ let prepare = (spec: Drakosha_SeedanceJobs.jobSpec): option<prepared> => {
       | Some(p) if !existsSync(p) => flag(jid ++ ": missing start image " ++ p)
       | _ => ()
       }
-      Some({record, prompt, refPaths, start, model: spec.model, endFrame: spec.endImage->Belt.Option.map(k => kfDir ++ "/" ++ k)})
+      let blockout = spec.blockout->Belt.Option.map(k => previzDir ++ "/" ++ k)
+      switch blockout {
+      | Some(p) if !existsSync(p) => flag(jid ++ ": missing blockout " ++ p)
+      | _ => ()
+      }
+      /* THE CEILINGS ARE PER KIND AND OVERALL. Seedance takes at most 9 images
+         counting start and end frames, at most 3 videos, and at most 12 files in
+         total. Refusing here costs nothing; being refused by the API after the
+         batch has started costs the jobs that already went. */
+      let nImg =
+        Belt.Array.length(refPaths) +
+        (start == None ? 0 : 1) +
+        (spec.endImage == None ? 0 : 1)
+      let nVid = blockout == None ? 0 : 1
+      nImg > 9 ? flag(jid ++ ": " ++ Belt.Int.toString(nImg) ++ " image refs, max 9") : ()
+      nImg + nVid > 12
+        ? flag(jid ++ ": " ++ Belt.Int.toString(nImg + nVid) ++ " reference files, max 12")
+        : ()
+      switch (spec.model, blockout) {
+      | (Kling26, Some(_)) | (Kling30, Some(_)) | (Veo31Lite, Some(_)) =>
+        flag(jid ++ ": blockout given but " ++ Drakosha_SeedanceJobs.modelName(spec.model) ++ " takes no video references")
+      | _ => ()
+      }
+      Some({record, prompt, refPaths, start, blockout, model: spec.model, endFrame: spec.endImage->Belt.Option.map(k => kfDir ++ "/" ++ k)})
     }
   }
   }
@@ -268,6 +299,11 @@ let providerArgs = (p: prepared): array<string> => {
      ceiling — it offers 480p and 720p only — so the bitrate is the only
      quality lever we have on this model. */
   | V25 => ["--mode", "omni_reference", "--resolution", "720p", "--bitrate_mode", "high", "--generate_audio", "true"]
+  /* Cinema Studio 4.0 takes the same mode and quality flags as 2.5. Its directorial
+     parameters — camera_lens_id, light, era_id, genre_id, pacing_id, color_palette —
+     are left unset on purpose: the look is settled by the bound plates, and an unset
+     control cannot fight them. */
+  | CS4 => ["--mode", "omni_reference", "--resolution", "720p", "--bitrate_mode", "high", "--generate_audio", "true"]
   | Mini | V20 => ["--resolution", "720p", "--bitrate_mode", "high", "--generate_audio", "true"]
   | Kling26 => ["--sound", "false"]
   | Kling30 => ["--mode", "std", "--sound", "off"]
@@ -285,17 +321,26 @@ let providerArgs = (p: prepared): array<string> => {
      performance in it needs: the frame pins the composition, the sheets carry
      who she is. Kling can loop but has no references; that trade is why the
      first loops came back with a blank face. */
-  | (Kling30, Some(e)) | (Veo31Lite, Some(e)) | (Mini, Some(e)) | (V20, Some(e)) | (V25, Some(e)) =>
+  | (Kling30, Some(e)) | (Veo31Lite, Some(e)) | (Mini, Some(e)) | (V20, Some(e)) | (V25, Some(e)) | (CS4, Some(e)) =>
     Belt.Array.concat(withStart, ["--end-image", e])
   | (Kling26, Some(_)) => withStart /* 2.6 ignores it silently; the dry run refuses it */
   | (_, None) => withStart
   }
   switch p.model {
   | Kling26 | Kling30 | Veo31Lite => withEnd
-  | Mini | V20 | V25 =>
+  | Mini | V20 | V25 | CS4 =>
     Belt.Array.concat(
-      withEnd,
-      Belt.Array.concatMany(p.refPaths->Belt.Array.map(r => ["--image-references", r])),
+      Belt.Array.concat(
+        withEnd,
+        Belt.Array.concatMany(p.refPaths->Belt.Array.map(r => ["--image-references", r])),
+      ),
+      /* The blockout goes on --video-references, the same flag Kuku_Engine has been
+         sending for that show. Only the Seedance models take it; Kling and Veo are
+         refused above rather than here, so this arm never has to think about them. */
+      switch p.blockout {
+      | Some(v) => ["--video-references", v]
+      | None => []
+      },
     )
   }
 }
@@ -316,7 +361,7 @@ let estimateCost = (p: prepared): float => {
          switch changes the price — kling2_6 is 10 credits for 5s with sound and
          5 without — so the probe has to carry it or it prices a different job
          from the one we submit. */
-      | V25 | Mini | V20 => ["--resolution", "720p", "--bitrate_mode", "high"]
+      | V25 | CS4 | Mini | V20 => ["--resolution", "720p", "--bitrate_mode", "high"]
       | Kling26 => ["--sound", "false"]
       | Kling30 => ["--mode", "std", "--sound", "off"]
       | Veo31Lite => ["--generate_audio", "false"]

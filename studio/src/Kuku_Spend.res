@@ -78,7 +78,46 @@ let phaseOf = episode => {
    phase's cap. record AFTER the result arrives: books only real spend, so a
    failed request costs the ledger zero. The two were one function until a
    string of provider failures booked credits that were never charged. */
-let guard = (~episode, ~shot, ~credits: float) =>
+/* THE PHASE CAP IS THE AUTHOR'S INTENT; THE ACCOUNT IS WHAT EXISTS. They are
+   different numbers and they diverged: a 78-credit job was queued against a
+   75-credit balance and the phase guard, which knew only the cap, waved it
+   through. The provider refused it. Both limits are checked now. */
+type acctOpts = {"encoding": string, "timeout": int}
+@module("child_process")
+external acctExec: (string, array<string>, acctOpts) => string = "execFileSync"
+
+let accountCredits = (): option<float> =>
+  switch try {Some(acctExec("higgsfield", ["account", "status"], {"encoding": "utf8", "timeout": 60000}))} catch {
+  | _ => None
+  } {
+  | Some(out) =>
+    switch Js.String2.match_(out, Js.Re.fromString("([0-9]+(?:\\.[0-9]+)?)\\s+credits")) {
+    | Some(m) =>
+      switch m[1] {
+      | Some(v) => Belt.Float.fromString(v)
+      | None => None
+      }
+    | None => None
+    }
+  | None => None
+  }
+
+let guardAccount = (~shot, ~credits: float) =>
+  switch accountCredits() {
+  | Some(bal) if bal < credits =>
+    Js.Exn.raiseError(
+      "ACCOUNT REFUSAL: " ++
+      shot ++
+      " costs " ++
+      Js.Float.toString(credits) ++
+      " credits and the account holds " ++
+      Js.Float.toString(bal) ++ ". Top up before running this.",
+    )
+  | _ => ()
+  }
+
+let guard = (~episode, ~shot, ~credits: float) => {
+  guardAccount(~shot, ~credits)
   switch phaseOf(episode) {
   | Some((cap, spent)) if spent +. credits > cap =>
     Js.Exn.raiseError(
@@ -97,6 +136,7 @@ let guard = (~episode, ~shot, ~credits: float) =>
     )
   | _ => ()
   }
+}
 
 let record = (~episode, ~shot, ~kind, ~model, ~credits: float, ~note="", ()) => {
   switch kind == "budget" ? None : phaseOf(episode) {
@@ -141,6 +181,7 @@ let priceOf = model =>
   | "seedance_2_0" => 22.5
   | "seedance_2_0_mini" => 12.5
   | "seedance_2_5" => 32.5
+  | "cinematic_studio_video_4_0" => 32.5 /* per 5s; 78 for a twelve-second shot */
   | "hunyuan3d_v3_image_to_3d" => 11.0
   | "tripo_h3_1_image_to_3d" => 9.0
   | _ => 0.0
@@ -168,7 +209,12 @@ let report = episode => {
       | Some(v) => v
       | None => 0.0
       }
-    let mine = Js.Array2.filter(rows, o => episode == "" || field(o, "episode") == episode)
+    /* a budget line records its CAP in the credits field so a phase can be
+       reconstructed — it is a ceiling, never a spend, and counting it inflated
+       the lifetime total by every cap ever set */
+    let mine = Js.Array2.filter(rows, o =>
+      (episode == "" || field(o, "episode") == episode) && field(o, "kind") != "budget"
+    )
     let total = Js.Array2.reduce(mine, (a, o) => a +. credits(o), 0.0)
     let byModel = Js.Dict.empty()
     let byShot = Js.Dict.empty()

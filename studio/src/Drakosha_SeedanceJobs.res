@@ -34,13 +34,19 @@ let creativeDir = "../stories/drakosha/production/seedance_batch/creative"
      kling3_0  1.5 cr/s std, sound off, arbitrary duration, START + END frames
 
    Both are cheaper than the mini we have been shooting on at 2.5 cr/s. */
-type seedanceModel = Mini | V20 | V25 | Kling26 | Kling30 | Veo31Lite
+/* CINEMA STUDIO 4.0 is a WORKFLOW, not a model — it does not appear in
+   `higgsfield model list`, which is why I twice told the author it could not be reached
+   from the CLI. `higgsfield workflow list` has it. Same four modes as 2.5 plus
+   directorial controls (lens, aperture, lighting, era, genre, pacing, palette), and at
+   720p it costs exactly what 2.5 costs. */
+type seedanceModel = Mini | V20 | V25 | CS4 | Kling26 | Kling30 | Veo31Lite
 
 let modelName = m =>
   switch m {
   | Mini => "seedance_2_0_mini"
   | V20 => "seedance_2_0"
   | V25 => "seedance_2_5"
+  | CS4 => "cinematic_studio_video_4_0"
   | Kling26 => "kling2_6"
   | Kling30 => "kling3_0"
   | Veo31Lite => "veo3_1_lite"
@@ -49,7 +55,7 @@ let modelName = m =>
 let modelMaxSec = m =>
   switch m {
   | Mini | V20 => 15
-  | V25 => 30
+  | V25 | CS4 => 30
   | Kling26 | Kling30 => 10
   | Veo31Lite => 8
   }
@@ -59,7 +65,7 @@ let modelMaxSec = m =>
 let modelMaxRefs = m =>
   switch m {
   | Mini | V20 => 9
-  | V25 => 30
+  | V25 | CS4 => 30
   | Kling26 | Kling30 | Veo31Lite => 0
   }
 
@@ -68,6 +74,7 @@ let modelCreditsPerSec = m =>
   | Mini => 2.5
   | V20 => 4.5
   | V25 => 6.5
+  | CS4 => 6.5   /* measured: 84.5 for 13s at 720p, same as 2.5 */
   | Kling26 => 1.0
   | Kling30 => 1.5
   | Veo31Lite => 1.0
@@ -81,6 +88,16 @@ type jobSpec = {
   creativeFile: string,
   model: seedanceModel,
   endImage: option<string>,
+  /* A BLENDER BLOCKOUT, as a VIDEO reference. Sits here beside endImage rather
+     than on shotRecord for the same reason endImage does: it is a property of
+     how this job is shot, not of what the shot contains, and putting it on the
+     record would touch every literal in the file.
+
+     It carries what no still can: the camera, both children's marks and facings,
+     and — where anybody travels — their paths and the timing of them. Seedance
+     reads a video reference as a MOTION reference by default, so the creative
+     text has to say what it is for; see the BLOCKOUT block in the creative. */
+  blockout: option<string>,
 }
 
 let job = (jobId, shots, cast, props, startImage, durationSec, model): jobSpec => {
@@ -88,6 +105,7 @@ let job = (jobId, shots, cast, props, startImage, durationSec, model): jobSpec =
   creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
   model,
   endImage: None,
+  blockout: None,
 }
 
 /* A shot pinned at BOTH ends: the author supplies the frame it opens on and the
@@ -106,6 +124,7 @@ let endJob = (jobId, shots, cast, props, startFrame, endFrame, durationSec, mode
   creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
   model,
   endImage: Some(endFrame),
+  blockout: None,
 }
 
 /* endJob for a shot that carries only SOME of what the script gives its SH
@@ -116,6 +135,7 @@ let endJobCarrying = (jobId, shots, cast, props, startFrame, endFrame, durationS
   creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
   model,
   endImage: Some(endFrame),
+  blockout: None,
 }
 
 /* job() for a shot carrying only part of what the script gives its SH codes. */
@@ -124,6 +144,7 @@ let jobCarrying = (jobId, shots, cast, props, startFrame, durationSec, model, ca
   creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
   model,
   endImage: None,
+  blockout: None,
 }
 
 /* A close-up built from references alone: no start frame, but recorded lines.
@@ -133,6 +154,35 @@ let jobCarryingNoStart = (jobId, shots, cast, props, durationSec, model, carries
   creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
   model,
   endImage: None,
+  blockout: None,
+}
+
+/* A SHOT DIRECTED BY A BLENDER BLOCKOUT. No start frame — the blockout owns the
+   first frame as well as every one after it, and handing the model a still as
+   well only gives it a second opinion about the same thing.
+
+   2026-09-01, for the САМОКАТ exchange: the camera is locked, both children are
+   on marks the blockout fixes, and at the end she rides out and he follows —
+   two paths that nothing but a video reference can state. */
+let blockoutJob = (jobId, shots, cast, props, blockout, durationSec, model, carries): jobSpec => {
+  record: {jobId, shots, cast, props, startImage: None, durationSec, creative: "", carriesLines: carries},
+  creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
+  model,
+  endImage: None,
+  blockout: Some(blockout),
+}
+
+/* A START FRAME *AND* A MOTION REFERENCE. Every earlier job had one or the other: a
+   still to fix the look, or a video to fix the movement. This pairs them, which is what
+   a retargeted live-action plate wants — the frame states what everything IS, the video
+   states what happens next, and neither has to argue the other's case. 2026-09-03, for
+   the tile shot, after the look could not be won by wording alone. */
+let startAndVideo = (jobId, shots, cast, props, startFrame, video, durationSec, model): jobSpec => {
+  record: {jobId, shots, cast, props, startImage: Some(startFrame), durationSec, creative: "", carriesLines: []},
+  creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
+  model,
+  endImage: None,
+  blockout: Some(video),
 }
 
 let loopJob = (jobId, shots, cast, props, frame, durationSec, model): jobSpec => {
@@ -140,6 +190,7 @@ let loopJob = (jobId, shots, cast, props, frame, durationSec, model): jobSpec =>
   creativeFile: creativeDir ++ "/" ++ jobId ++ ".creative.txt",
   model,
   endImage: Some(frame),
+  blockout: None,
 }
 
 /* JOBS 10-19 ARE ALL SHOT. Their footage is in seedance_batch/output and in the
@@ -570,6 +621,400 @@ let all: array<jobSpec> = [
 
      PLATE IS V08'S LAST FRAME — both babies already clamped on, so the shot
      opens mid-crisis with nothing to establish. */
+  /* SCENE 9 — SH148-149, the last shot of the scene. Author, 2026-08-30, cut
+     the scene down: "a lot of these shots are not necessary. There could be a
+     single shot of their exchange, and then we can cut to them already on the
+     road." That folds SH148 and SH149 into one and drops SH150 and SH151
+     entirely — which also disposes of SH150A, the pencil tuck the model renders
+     as a pencil through her ear.
+
+     START FRAME OFF THE CHAIN: the last frame of the САМОКАТ shot, where she is
+     already standing and reaching for it. The shot opens mid-reach and her hands
+     close on the handlebars, so the two shots read as one movement.
+
+     SHE RIDES OUT OF FRAME. Her promise of one lap is the last thing said in the
+     scene, because scene 10 is her taking three, and his fury needs the promise
+     to push against. Ending on him alone beside the empty boards sets the cut to
+     the road. */
+  job(
+    "s9exchange",
+    "SH148-149",
+    [
+      Frosya,
+      Vasya
+    ],
+    [
+      Scooter,
+      Pouch
+    ],
+    Some("2026-08-30_S9_SH148_exchange_start.png"),
+    12,
+    Mini,
+  ),
+  /* SCENE 9 — SH145 RESHOOT, the spelling only. The first take compressed the
+     seven letters into two long open-mouthed stretches (0.0-1.7 and 2.1-5.3),
+     which no dub can be fitted to, because that 15s shot also had to hold the
+     seal, the spark, the flash, the scooter arriving and her getting to her
+     feet. МАШИНА's 15s held the spelling, the seal and a spark that dies, and
+     its spelling read correctly. The fix is load: this shot contains the
+     spelling and nothing else.
+
+     IT CARRIES «Самокат!» TOO. Author, 2026-08-30: her mouth never closes
+     between the last letter and the word, so there is no frame to cut on
+     between them. It closes after the word — measured, deepest at 5.46-5.54 —
+     and that is the stitch. The end frame is the take's own frame at 5.50, so
+     the two pieces meet on an identical closed-mouth pose and the existing
+     take carries «И точка», the spark, the flash and the scooter unchanged.
+
+     THE AUDIO IS ALREADY APPROVED: line72b_FROSYA_samokat_spell_APPROVED.mp3,
+     4.95s of spelling, Ekaterina. Nothing about it is to be sped up. */
+  endJob(
+    "s9samokatspell",
+    "SH145",
+    [Frosya],
+    [Pencil],
+    "2026-08-30_S9_SAMOKAT_write_start_author.png",
+    "2026-08-30_S9_SAMOKAT_spell_END_author.png",
+    10,
+    Mini,
+  ),
+  /* SCENE 9 — SH145-147, САМОКАТ written and the scooter arrives. МАК's recipe:
+     write, seal, and the object stands up out of the light, all in one take. That
+     is the version proven to deliver an object; САЛАТ split the arrival into its
+     own shot and needed two.
+
+     THE МАШИНА PLATE, UNCHANGED. The shooting script has her taking the pencil
+     from behind her ear. Author, 2026-08-30: never shoot that — the model puts
+     the pencil through the ear, which is why she had to repair the SH142 plate by
+     hand. She opens with it already in her hand, on the plate that produced СОК,
+     САЛАТ, МАК and МАШИНА.
+
+     THIS IS WHERE THE BRIGHT CHIME GOES. Every letter light in SH144 was held
+     small on purpose so that this one lands.
+
+     THE SCOOTER IS NOT IN THIS SHOT. САЛАТ's recipe, not МАК's — and the choice
+     between them is not arbitrary. МАК kept the arrival in the writing frame
+     because a poppy is small enough to stand in it. A scooter is not: the light
+     gathers on the boards at her left, nearer the camera than she is, so
+     anything standing there foreshortens LARGER than she does and would run out
+     of the top of frame. Author, 2026-08-30: "we're gonna end up with a scooter
+     that's gonna be too big for the shot." This shot ends on the light building;
+     SH147 gets the arrival and a framing built to hold it. */
+  job(
+    "s9samokatwrite",
+    "SH145-147",
+    [Frosya],
+    [
+      Pencil,
+      Scooter
+    ],
+    Some("2026-08-30_S9_SAMOKAT_write_start_author.png"),
+    15,
+    Mini,
+  ),
+  /* SCENE 9 — SH144, the САМОКАТ POV. The shooting script has three overhead
+     assembly shots and a checking finger. Author, 2026-08-30, replaced them with
+     one locked overhead take: she FINDS the word among the eight letters she
+     has rather than tidying tiles into a row. The finding is the drama — the
+     deal she just struck with Вася is that she is short three letters — and a
+     word discovered inside a scatter plays where a word arranged in a line does
+     not.
+
+     THE FACE IS NOT IN FRAME. This is the first shot in the episode shot down
+     onto the crown of a head, so the whole performance is head movement: a
+     restless hunt, one beat of stillness when it lands, then a single slow
+     travel left to right across the word. It is also the scene's first new
+     camera position after four consecutive close-ups.
+
+     THE LIGHTS ARE COMPOSITED, NOT GENERATED. The author supplied both ends —
+     an unlit plate and a lit reference — with the tiles in identical positions,
+     which is what makes the composite possible: camera locked and tiles at rest
+     means the only thing that changes between plate and frame is her head, so
+     her silhouette comes out of the difference and the thread rides underneath
+     it. The generated footage must stay dark; anything the model lights itself
+     fights the artwork.
+
+     TEN SECONDS: about four of searching, a beat of stillness, and five and a
+     half of travel at 0.8s a letter — the pace МАШИНА ignites at, so the two
+     shots read as the same show. Ten is also Kling's ceiling.
+
+     KLING, NOT MINI. Author, 2026-08-30: with no face in frame there is nothing
+     for Mini's reference sheets to hold on model, and the shot is silent, so
+     Mini's audio is dead weight too. Identity comes from the start frame, which
+     Kling takes. That is 1.5 credits a second against 2.5 — 15 rather than 25.
+     The risk it buys is that Mini has held a locked camera for 15s in this show
+     and Kling has only been asked for 6s; a drift costs a 15-credit re-roll,
+     which is still under Mini's first take. */
+  job(
+    "s9samokatpov",
+    "SH144",
+    [Frosya],
+    [],
+    Some("2026-08-30_S9_SAMOKAT_pov_start_author.png"),
+    8,
+    Mini,
+  ),
+  /* SCENE 9 — SH148-151, the exchange, DIRECTED BY A BLENDER BLOCKOUT.
+
+     The first job in this show with no start frame and a video reference instead.
+     The blockout owns the first frame as well as every one after it, so a still
+     would only be a second opinion about the same thing; and it carries two things
+     no still can — that the camera never moves for twelve seconds, and the two
+     exit paths at the end with their timing.
+
+     TWELVE SECONDS, and not a round number: 0.60 handle + 3.76 (line73) + 0.55
+     beat + 3.44 (line74) + 0.50 + 3.15 for her ride-out and his chase. The two
+     line lengths are the recorded takes, and the blockout is cut to them, so the
+     mouths have the right amount of time to fill.
+
+     THE LATER SHEETS. FrosyaPencil and VasyaPouch, not Frosya and Vasya: by this
+     point in the day she has the pencil stub in her hair and he has worn the pouch
+     since SH098. This is the first job to use either. */
+  /* SCENE 10, SP138 — THE DESCENT. She rides down the warped board onto the road and
+     straight on out of frame; he runs down after her, chases her a little way and
+     gives up.
+
+     THE SCRIPT SAYS «Вася догоняет её» AND THE AUTHOR OVERRODE IT, 2026-09-02:
+     "should she at least go out of frame and he just kind of runs and stops behind her
+     since he cannot catch up?" Better than the script, because the whole scene is him
+     never getting his turn — losing her here is the first time it happens and it earns
+     every line that follows.
+
+     @SCOOTER IS THE CUTOUT, NOT THE IN-PLACE PLATE. `Scooter` binds to
+     PROP-SCOOTER-02_in-place_author.png, which is a picture of the LIVING ROOM with a
+     scooter in it — it beat @ROOM_BACK on the exchange wide and put the stove, the jars
+     and the melon into a shot that wanted a plain wall. Down here it would put the
+     whole room under the floorboards.
+
+     NO DIALOGUE: SP138 carries only «вжик-вжик». Six seconds against the blockout's
+     5.6 so there is a handle at each end. */
+  /* SCENE 10, SP139-SP143 — THE LAPS. One locked wide holding four recorded lines:
+     he stands at the wall, she goes past four times, and his temper arrives.
+
+     ONE WIDE RATHER THAN THREE SETUPS. I built A/B/C — him at the wall, a cut-in on
+     his face, and a reverse with her at the lens — and the author chose the wide:
+     "the wide keeps his face available to us." It also means nothing has to match
+     anything, which is what made the exchange wide work first try.
+
+     ALL FOUR PASSES FLAT OUT. I offered a version with her two SPEAKING passes
+     slowed so her mouth would be in frame for her lines; the author: "I think it's
+     actually weird that she's traveling with different speed... We really do not
+     need to see her speak." So her two lines are called from off the picture.
+
+     HIS HEAD IS THE SHOT, and none of it is in the blockout — he is stationary
+     there, because a head turning on the spot moves nobody and a sphere turning is
+     invisible in previz. The anticipation, the tracking and the anger are all in
+     the creative. */
+  /* SCENE 10, SP144 first half — HE GOES FOR THE POUCH. The author's shot, added
+     2026-09-02 between the laps and the letters: "him reaching for the pouch... him
+     getting angry, going for his pouch, maybe holding it in front of his face and
+     then giving us an evil smile — somebody who is angry but figured out how he's
+     gonna do a payback."
+
+     STARTS ON THE LAST FRAME OF THE LAPS, so the cut is invisible: same camera, same
+     wall, same posts, and he is already glaring with his fists closed.
+
+     NO BLOCKOUT. The whole action is a hand travelling from a hip to a face; grey
+     dummies with locked legs have nothing to say about it, and the start frame
+     already pins the camera and the composition.
+
+     THE TILES ARE NOT IN THIS SHOT. The author lays the letters out with his own
+     printed tiles, so the pouch stays shut — see the GLYPHS rule: any letter the
+     model draws is assumed wrong. */
+  /* SCENE 10, SP144-SP145 — HE BUILDS `КОТ`. Straight down on the boards: the tiles
+     lie where they fell, his hands hunt three of them out of the spill and lay them in
+     a row, and a fingertip taps each one as he reads it.
+
+     THE AUTHOR'S OWN FOOTAGE DRIVES IT, the same way the Б test did — his hands on a
+     stone counter with white plastic tiles, retargeted here to a child's hands, wooden
+     tiles and floorboards. Two takes were shot and the author chose the longer:
+     "I do like that in video two the word is centred." He is right that it is the
+     better frame — the word finishes in the middle with the leftover letters scattered
+     round it, so the cut out of it is clean and the audience reads КОТ dead centre.
+     line79 is 5.68s against a 1.5s pointing beat, so «КОТ! ВЖУХ!» pre-laps over the cut
+     into the transformation clip, which is where that word wants to land anyway.
+
+     NO START FRAME AND NO SET PLATE. The camera points at the floor, so the boards ARE
+     the background, and @FLOOR carries them. Author, 2026-09-03: "all we need is a
+     reference for the hand, description of the tile material, and reference for the
+     floor. That's all."
+
+     NO LINE QUOTED. There is no face in frame, so there is nothing to lip-sync; the
+     reading is dubbed onto the pointing afterwards. */
+  /* THE START FRAME DOES THE IDENTITY. The author styled a frame from his own footage —
+     low-poly hands, wooden tiles, carved brown letters, the road boards — so everything
+     the prompt has been fighting for is already true in frame one. Nothing else is bound:
+     a hand sheet or a floor plate now has nothing to add and could only disagree with the
+     picture we are starting from. */
+  /* BACK TO THE EXPERIMENT THAT WORKED. Run 2 of the Б test — 2.5 omni_reference, hand
+     sheet and floor plate, about 460 characters, NO glyph section whatsoever — returned
+     a fully low-poly blunt-fingered hand AND a correct Б. Everything since has been me
+     adding weight to the glyph instruction, and losing the hands to it. Author,
+     2026-09-03: "I think our prompt is overstating the glyphs and we're losing
+     everything because of it." No start image: a first frame and reference media are
+     documented as mutually exclusive on Seedance, which is why the last run demoted it. */
+  /* SCENE 10 — THE SINISTER BEAT, between the smirk and the word. Author's staging,
+     2026-09-03: "we see his dark silhouette and he's doing something... we only hear the
+     sound of the tiles on the floor and his back moving accordingly."
+
+     HIS OWN START FRAME AND NOTHING ELSE. A start frame and reference media are mutually
+     exclusive on Seedance — proven tonight at 26 credits — so this binds no references at
+     all, and it does not need to: the frame already holds the boy, the posts, the wall,
+     the festoon and the empty pouch.
+
+     AND FROSYA IS OFF-SCREEN ON PURPOSE. She was to blur past behind him, but she is not
+     in the start frame and could not be bound as a reference, so she would have to be
+     invented. SP141 already does this with sound — «самокат удаляется, разворачивается и
+     снова приближается» — so her wheels carry her instead. */
+  job(
+    "s10silhouette",
+    "SH160",
+    [VasyaPouch],
+    [],
+    Some("2026-09-03_S10_SILHOUETTE_start_v2.png"),
+    5,
+    Mini,
+  ),
+  blockoutJob(
+    "s10kot",
+    "SH161",
+    [],
+    [VasyaArm, FloorTopdown],
+    "2026-09-03_S10_TILES_FROM_START_4S.mp4",
+    4,
+    V25,
+    [],
+  ),
+  /* SCENE 10, SP146-SP148 — THE AMBUSH. She comes down the road flat out; the cat
+     bursts out of the posts, lands across her path and shuts the road; she slews the
+     scooter to a stop just short of him and tells him to move.
+
+     THE AUTHOR'S STAGING, 2026-09-03: "her coming towards us from behind the ramp on
+     that road, and then we see a cat jump into the frame right in front of her from
+     the post forest and lie down in front of her as she swirls her scooter to stop on
+     time... maybe she can nearly hit it, but not quite." And on the cat: "it should be
+     facing her. His body stretched across her pathway, but his head facing her."
+
+     THE BLOCKOUT CARRIES THREE THINGS AND NO MORE: the camera, her line down the road,
+     and the frame the cat lands on. Everything the author says is missing from it —
+     her speed, her reaction, the leap reading as a leap, the head turning back — is
+     here in words, because none of it can be shown by a dummy with locked legs and a
+     grey box. Author, 2026-09-03: "there is no acceleration as she's riding. There is
+     no reaction. There is nothing."
+
+     THE HEAD TURN IS A PROMPT LINE, NOT GEOMETRY. The cat leaps head first out of the
+     posts, so it lands with its head at the far side of the road, pointing away from
+     her — correct for the leap and wrong for the beat. A cat that has just cut someone
+     off looks back at them, so he turns his head over his shoulder after he lands.
+
+     THE MEOW IS IN THIS SHOT. Author, 2026-09-03: "he jumps out and comfortably relaxes
+     on the road, twitching his tail and lazily saying meow to her." So SP149 joins it and
+     the shot runs SP146-SP149.
+
+     THE TUTORIAL'S OWN SETTINGS, read at last on 2026-09-03 after three failed runs:
+     x.com/adilinthewild/status/2093374092795846745, transcript in production/. Four
+     things it does that we were not doing.
+
+     BLOCKING RENDERED 1920x1080 AT 24fps — "resolution, 1920 by 1080... for the frame
+     rate, let's go 24". Ours went out at 800x450 three times; the model was reading
+     camera and marks off a quarter-resolution picture.
+
+     BLOCKING COVERS THE WHOLE SHOT AND THE DURATION MATCHES IT — "set the time to 30
+     seconds to match your blocking". This blockout is now 9.0s, dialogue included, and
+     the job is 9s. It was 6.5s under a 9s job.
+
+     THE PROMPT IS WRITTEN SECOND BY SECOND AGAINST THE BLOCKING — "write out the prompt
+     second by second to match the camera moves in the clip". The creative now carries a
+     clock whose beats are the previz keyframes: cat enters 2.8, tops 3.2, lands 3.6, she
+     brakes 4.3-5.3, her line 4.5-6.8, his meow 7.2.
+
+     AND IT GOES THROUGH CINEMA STUDIO, which is what every example in the tutorial is
+     run in — "I'm off to Cinema Studio again", "I'm running this prompt in Cinema Studio".
+     The author had already found this independently during the tile experiment: "what we
+     noticed is that Cinema Studio makes it copy the motion a lot better than running it
+     directly." It prices identically to 2.5 at this length — 58.5 credits for 9s, probed
+     both ways — so there is nothing to trade off. Cinema Studio 4.0 accepts video uploads
+     up to 30s; the blockout is 9s. */
+  blockoutJob(
+    "s10catjump",
+    "SH163-166",
+    [FrosyaPencil, VasyaCat],
+    [ScooterCutout, Road],
+    "2026-09-03_S10_CATJUMP_blockout.mp4",
+    9,
+    CS4,
+    ["line80_FROSYA.mp3", "line81_VASYA.mp3"],
+  ),
+  blockoutJob(
+    "s10descent",
+    "SH153",
+    [FrosyaPencil, VasyaPouch],
+    [ScooterCutout, Road],
+    "2026-09-02_S10_SP138_descent_blockout.mp4",
+    6,
+    Mini,
+    [],
+  ),
+  blockoutJob(
+    "s9exchangewide",
+    "SH148-151",
+    [FrosyaPencil, VasyaPouch],
+    [ScooterCutout, RoomBack],
+    "2026-09-01_1314_EXCHANGE_wide_EXIT_v3.mp4",
+    12,
+    Mini,
+    ["line73_VASYA.mp3", "line74_FROSYA.mp3"],
+  ),
+  /* SCENE 9 — SH143, «Договор.» SP130. The other half of the deal.
+
+     THE LINE ALREADY EXISTED. line71_VASYA.mp3, 1.52s. I searched for it, read
+     past it, and told the author it needed recording — it sits directly under
+     her line 70 in the index. The library runs 1..114 with no gaps.
+
+     IT IS UNDER HIS REGISTER: 263 Hz against his cast reference of 305. Lift it
+     in the dub rather than re-record — one word, and the reading is right.
+
+     PLEASED, NOT COMPREHENDING. The script says «не до конца понимая, но
+     соглашаясь». The joke is that he has cheerfully agreed to homework, so the
+     face ends pleased with itself: somebody finally wanted something from him,
+     which is the first thing to go right for him since the babies.
+
+     THE NOD IS THE SHOOTING SCRIPT'S: «Крупно Вася. Он медленно кивает.»
+
+     FOUR SECONDS, not the script's three: 1.13s of speech plus the head the
+     duration gate requires. */
+  job(
+    "s9dogovor",
+    "SH143",
+    [Vasya],
+    [],
+    Some("2026-08-29_S9_SH143_dogovor_start.png"),
+    4,
+    Mini,
+  ),
+  /* SCENE 9 — SH140, «Трёх букв не хватает». Its own shot, as the shooting
+     script has always had it: 3 seconds, SP127, ФРОСЯ СЧИТАЕТ ПРОБЕЛЫ, sitting
+     between the naming and Вася's question. Author, 2026-08-29, after watching
+     the block without it: "the best part is how it's originally supposed to be
+     planned. Let's shoot a four-second one for that line."
+
+     I had folded this line into the front of the deal, which put it AFTER his
+     question. That happened because I invented shot numbers instead of taking
+     them from the shooting script — my SH140 was the deal, the script's SH140 is
+     this. The numbers here are the script's now: SH140 count, SH141 Вася, SH142
+     the deal.
+
+     NO PLATE IS BUILT. Its start frame is the last frame of the counting shot,
+     which already exists. A plate is only made where the chain breaks. */
+  job(
+    "s9count",
+    "SH140",
+    [Frosya],
+    [Pencil],
+    Some("2026-08-28_S9_deal_start_from1C.png"),
+    6,
+    Mini,
+  ),
   /* SCENE 9, SHOT 3 — the deal. SP129, and the line the whole series runs on:
      he learns the three letters, she writes the car.
 
@@ -590,11 +1035,11 @@ let all: array<jobSpec> = [
      down; this is also where EP2 needs the audience to know she keeps it. */
   job(
     "s9deal",
-    "SH140",
+    "SH142",
     [Frosya],
-    [Pencil],
-    Some("2026-08-28_S9_deal_start_from1C.png"),
-    9,
+    [],
+    Some("2026-08-29_S9_deal_start_author.png"),
+    7,
     Mini,
   ),
   /* SCENE 9, SHOT 2 — Вася's «И что теперь?». SP128.
@@ -615,7 +1060,7 @@ let all: array<jobSpec> = [
      and that he begins deflated rather than surprised. */
   job(
     "s9vasyaask",
-    "SH139",
+    "SH141",
     [Vasya],
     [],
     Some("2026-08-28_S9_VASYA_cu_subdued.png"),
@@ -650,6 +1095,10 @@ let all: array<jobSpec> = [
 
      PLATE IS THE AUTHOR'S OWN, and the cut from 1A is an ordinary angle change —
      1A ends on the back of her head, which cannot carry this shot. */
+  /* SCOPE, moved out of the creative's SOURCE block on 2026-08-30 when that
+     block was restricted to speech: this shot carries the first half only — the
+     spelling and the word. The naming of the three missing letters happens in
+     s9count, the shot after it. */
   job(
     "s9mashina",
     "SH138",

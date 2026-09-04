@@ -1106,7 +1106,7 @@ function run(c) {
     "b4_curve_stop"
   ];
   var workflow = onCinema.includes(c.tag) ? "cinematic_studio_video_4_0" : "";
-  Kuku_Engine.clip(undefined, c.tag, c.spec, model, c.secs, c.start, c.endFrame, previz, undefined, workflow, dst, undefined);
+  Kuku_Engine.clip(undefined, c.tag, c.spec, model, c.secs, c.start, c.endFrame === "" ? undefined : c.endFrame, previz, undefined, workflow, dst, undefined);
 }
 
 var only = process.argv.filter(function (a) {

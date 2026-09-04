@@ -1,0 +1,44 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "plate",
+ "id": "ep12_courtyard_plate",
+ "at": "2026-08-31T23:38:57.537Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "84246f4cc88c2c00b8368d1fb2a549bfcbef4872c9c2c95f0235e09cd1277f69",
+ "promptSha256": "79af5010847a2ec8275582561550d867024afaa5639abe1e25ed4838bbc07bd8",
+ "prompt": "SET PLATE — this image IS the location, built once and used for every shot of the episode.\n\nSTYLE: the FIRST attached image is the look — folded and cut paper, matte paper surfaces, soft rounded paper edges, flat layered paper shapes. Every surface in this picture is made of paper.\nPAPER MATERIAL: the SECOND attached image is the paper to match — each surface built from separate pieces of cut paper with real paper thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each paper piece casts on the one behind it. Build every surface of this courtyard from that same paper.\nSTAGING: the THIRD attached image is a grey geometry study of this exact courtyard from this exact viewpoint. Take the placement from it — where the far wall stands, where the niche sits in that wall, how wide the courtyard is, where the door stands, how far the valley lies beyond.\n\nSETTING: A small square courtyard of pale paper flagstone, walled on every side. The far wall stands about waist high on a grown-up and is built from individual cut paper blocks laid in courses, each block a separate piece of paper with real thickness and soft rounded edges, each casting its own small soft shadow on the course behind it, and a row of flat coping stones caps the top edge from corner to corner. Set into the middle of that far wall is a small square NICHE, and the floor of the niche is a plain stone shelf just wide enough for one small lamp. Beyond the wall the land falls away and a wide valley of soft green paper hills spreads to the horizon, with low flat paper clouds resting above them. On the near side of the courtyard a plain wooden paper door stands in a taller wall. The courtyard floor is laid in large flat paper slabs, each slab a separate sheet of paper with a fine visible grain and a soft lifted edge where it meets the next.\nLIGHTING: Evening, with the sun already low and below the frame. The light comes level and warm across the stone from one side, and the sky above the valley holds the last gold.\n\nVIEWPOINT: standing in the courtyard on the door side, at the height of a grown-up's chest, looking level across the floor toward the far wall and the valley beyond it.\nThe only things in this picture are the ones named above: the flagstone floor, the four walls, the coping stone, the niche, the door, the valley, the hills and the clouds. The courtyard stands quiet and open, ready for the story to arrive.",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "SET PLATE — this image IS the location, built once and used for every shot of the episode.\n\nSTYLE: the FIRST attached image is the look — folded and cut paper, matte paper surfaces, soft rounded paper edges, flat layered paper shapes. Every surface in this picture is made of paper.\nPAPER MATERIAL: the SECOND attached image is the paper to match — each surface built from separate pieces of cut paper with real paper thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each paper piece casts on the one behind it. Build every surface of this courtyard from that same paper.\nSTAGING: the THIRD attached image is a grey geometry study of this exact courtyard from this exact viewpoint. Take the placement from it — where the far wall stands, where the niche sits in that wall, how wide the courtyard is, where the door stands, how far the valley lies beyond.\n\nSETTING: A small square courtyard of pale paper flagstone, walled on every side. The far wall stands about waist high on a grown-up and is built from individual cut paper blocks laid in courses, each block a separate piece of paper with real thickness and soft rounded edges, each casting its own small soft shadow on the course behind it, and a row of flat coping stones caps the top edge from corner to corner. Set into the middle of that far wall is a small square NICHE, and the floor of the niche is a plain stone shelf just wide enough for one small lamp. Beyond the wall the land falls away and a wide valley of soft green paper hills spreads to the horizon, with low flat paper clouds resting above them. On the near side of the courtyard a plain wooden paper door stands in a taller wall. The courtyard floor is laid in large flat paper slabs, each slab a separate sheet of paper with a fine visible grain and a soft lifted edge where it meets the next.\nLIGHTING: Evening, with the sun already low and below the frame. The light comes level and warm across the stone from one side, and the sky above the valley holds the last gold.\n\nVIEWPOINT: standing in the courtyard on the door side, at the height of a grown-up's chest, looking level across the floor toward the far wall and the valley beyond it.\nThe only things in this picture are the ones named above: the flagstone floor, the four walls, the coping stone, the niche, the door, the valley, the hills and the clouds. The courtyard stands quiet and open, ready for the story to arrive.",
+  "--image",
+  "a34b16f4-11fa-4153-9c43-ed2e2a30d033",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep12/style/papercraft_donor.png",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep12/sets/blender/blockouts/s00_plate.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "a34b16f4-11fa-4153-9c43-ed2e2a30d033",
+   "sha256": "PROVIDER_ASSET:a34b16f4-11fa-4153-9c43-ed2e2a30d033"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep12/style/papercraft_donor.png",
+   "sha256": "830ba7fc95c83b4efb76acfeb532be1835405307063e477ea4552421d052d340"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep12/sets/blender/blockouts/s00_plate.png",
+   "sha256": "0be6ddf92deacaf751bcee239bd4d773490671bfaf57a9b351655452e4402eb2"
+  }
+ ]
+}

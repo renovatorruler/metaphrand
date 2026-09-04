@@ -218,6 +218,7 @@ function vantageProse(s, v) {
           case "Overhead" :
               return "we look from high above the lane, straight DOWN: the lane runs top-to-bottom through the frame, the three red markers evenly spaced on its centreline, the closed wall across the bottom";
           case "GroundLevel" :
+              return "we look from low on the flat stretch at the BOTTOM of the lane, at head height, back along the last level metres: the closed stone wall stands across the far end, the slope climbing away behind it, the lane's kerbs running up to meet it";
           case "AtTheRing" :
               return "we look from beside the lane at head height, the slope running left to right across frame, the markers on its centreline";
           
@@ -362,7 +363,7 @@ function lanePlateAt(y) {
   if (y < 30.0) {
     return platePath("Lane", "top_looking_down");
   } else {
-    return platePath("Lane", "flat_approach");
+    return platePath("Lane", "ground_level");
   }
 }
 
@@ -380,7 +381,11 @@ function lanePosition(at, cartAt) {
       }).length;
   var ahead = markerPositions.length - behind | 0;
   var toWall = 60.0 - at;
-  var base = "POSITION ON THE LANE: this shot happens " + String(at) + " metres down the " + String(60.0) + " metre lane. Of the three red markers, " + String(behind) + " are already BEHIND this point and " + String(ahead) + " still lie AHEAD down the slope. The closed end wall is " + String(toWall) + " metres further on — far down the lane, a distant line.";
+  var base = "POSITION ON THE LANE: this shot happens " + String(at) + " metres down the " + String(60.0) + " metre lane. Of the three red markers, " + String(behind) + " are already BEHIND this point and " + String(ahead) + " still lie AHEAD down the slope. The closed end wall is " + String(toWall) + (
+    toWall < 10.0 ? " metres further on — close ahead now, filling the view." : (
+        toWall < 28.0 ? " metres further on — clearly ahead down the slope." : " metres further on — far down the lane, a distant line."
+      )
+  );
   if (cartAt !== undefined) {
     return base + " THE CART is " + String(cartAt) + " metres down the lane at this moment — " + String(60.0 - cartAt) + " metres from the wall — and is still running.";
   } else {

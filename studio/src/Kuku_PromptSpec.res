@@ -136,7 +136,7 @@ let subjectText = s =>
     colorOf(name) ++
     " paper dragon, " ++
     (form == Great
-      ? "GREAT form: ENORMOUS IN THE WORLD — a grown man would reach only to her knee, and she towers over anything man-made beside her. That is her size in the world; her size in the picture is decided by how far away the viewpoint stands, so in a wide shot she may be a small figure and still be enormous"
+      ? "GREAT form: ENORMOUS IN THE WORLD — a grown man would reach only to this dragon's knee, and this dragon towers over anything man-made beside it. That is the dragon's size in the world; the size in the picture is decided by how far away the viewpoint stands, so in a wide shot this dragon may be a small figure and still be enormous"
       : "small everyday form: a small paper dragon child, the height of a human child") ++
     ", wearing a golden कड़ा on one forearm. " ++ doing
   | Gauri({doing}) =>

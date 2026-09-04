@@ -1,0 +1,44 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "still",
+ "id": "cu004_LEDA",
+ "at": "2026-09-02T04:42:46.952Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "cc1cc58917f7f8830722d1b55a04bf0c84ef9a53864ef3f1f1ee530d499b292a",
+ "promptSha256": "7852d51d6af172849f1a3fba8a428a0c72e5e574b1c2fa7d2c2df942d2380551",
+ "prompt": "SHOT: CLOSE, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nSTYLE: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world. The FIRST attached image is the art style; match it EXACTLY.\nPALETTE: bright, vibrant, warm storybook palette, every colour full and saturated.\nSET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place stays itself: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and every landmark of it that falls inside this tighter frame sits exactly where the plate puts it. Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet.\n\nSCENE: A close single on लेडा in the courtyard, mid-speech.\nSUBJECTS:\n- LEDA — lilac-purple paper dragon, small everyday form: a small paper dragon child, the height of a human child, wearing a golden कड़ा on one forearm. facing the camera in close-up, mouth open in mid-speech, हँसकर\nSETTING: दादी's courtyard, seen close: behind the character are the pale cut-paper blocks of the low wall, softly out of focus.\nLIGHTING: Evening, the sun already below the frame. Warm level light lies across the paper stone, and the sky above the valley holds the last gold.\nHARD RULES:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- FRAMING: a close single on this one character alone. The head and shoulders fill the frame from top to bottom, the face turned about three quarters toward the camera so the whole muzzle and mouth are clearly visible, eyes open and looking slightly off camera. The character's face is the largest thing in the picture.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges and a fine visible paper grain.\n- THE BACKGROUND IS THE SAME COURTYARD as the attached plate — the same cut-paper wall, held soft and close behind the character.",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "SHOT: CLOSE, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nSTYLE: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world. The FIRST attached image is the art style; match it EXACTLY.\nPALETTE: bright, vibrant, warm storybook palette, every colour full and saturated.\nSET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place stays itself: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and every landmark of it that falls inside this tighter frame sits exactly where the plate puts it. Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet.\n\nSCENE: A close single on लेडा in the courtyard, mid-speech.\nSUBJECTS:\n- LEDA — lilac-purple paper dragon, small everyday form: a small paper dragon child, the height of a human child, wearing a golden कड़ा on one forearm. facing the camera in close-up, mouth open in mid-speech, हँसकर\nSETTING: दादी's courtyard, seen close: behind the character are the pale cut-paper blocks of the low wall, softly out of focus.\nLIGHTING: Evening, the sun already below the frame. Warm level light lies across the paper stone, and the sky above the valley holds the last gold.\nHARD RULES:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- FRAMING: a close single on this one character alone. The head and shoulders fill the frame from top to bottom, the face turned about three quarters toward the camera so the whole muzzle and mouth are clearly visible, eyes open and looking slightly off camera. The character's face is the largest thing in the picture.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges and a fine visible paper grain.\n- THE BACKGROUND IS THE SAME COURTYARD as the attached plate — the same cut-paper wall, held soft and close behind the character.",
+  "--image",
+  "a34b16f4-11fa-4153-9c43-ed2e2a30d033",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep12/sets/courtyard_plate.png",
+  "--image",
+  "../stories/kuku/charsheets/leda_small.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "a34b16f4-11fa-4153-9c43-ed2e2a30d033",
+   "sha256": "PROVIDER_ASSET:a34b16f4-11fa-4153-9c43-ed2e2a30d033"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep12/sets/courtyard_plate.png",
+   "sha256": "84246f4cc88c2c00b8368d1fb2a549bfcbef4872c9c2c95f0235e09cd1277f69"
+  },
+  {
+   "path": "../stories/kuku/charsheets/leda_small.png",
+   "sha256": "83e9018db62fa16b7cd4fb3243bac022158e972490cb2d5d59388af9b5223089"
+  }
+ ]
+}

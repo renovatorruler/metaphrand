@@ -6,6 +6,7 @@
 @unboxed type path = Path(string)
 @unboxed type prompt = Prompt(string)
 @unboxed type voiceId = VoiceId(string)
+@unboxed type publicOwnerId = PublicOwnerId(string)
 @unboxed type seconds = Seconds(float)
 @unboxed type millis = Millis(int)
 @unboxed type text = Text(string)
@@ -16,6 +17,29 @@
 type productionVoiceSettings = {
   stability: float,
   speed: float,
+}
+
+type sharedVoice = {
+  publicOwnerId: string,
+  voiceId: string,
+  name: string,
+  accent: string,
+  gender: string,
+  age: string,
+  descriptive: string,
+  useCase: string,
+  language: string,
+  description: string,
+  previewUrl: string,
+  usageCharacterCount1y: int,
+  clonedByCount: int,
+  rate: float,
+}
+
+type sharedVoicesPage = {
+  voices: array<sharedVoice>,
+  hasMore: bool,
+  totalCount: int,
 }
 
 exception BackendError(string)
@@ -96,6 +120,7 @@ type hash
 @module("path") external basenamePath: string => string = "basename"
 @module("os") external tmpdir: unit => string = "tmpdir"
 @val @scope("process") external cwd: unit => string = "cwd"
+@val external encodeURIComponent: string => string = "encodeURIComponent"
 
 /* ---- the global fetch (Node >= 18) --------------------------------------- */
 type response
@@ -828,7 +853,11 @@ let dialogue = async (lines: array<(text, voiceId)>): blob => {
    whole run, PLUS each input line's (start,end) seconds in input order (parsed
    from voice_segments). Lets a name+line video land captions exactly on a
    continuous performance. */
-let dialogueTimed = async (lines: array<(text, voiceId)>): (blob, array<(float, float)>) => {
+let dialogueTimedWithOptions = async (
+  ~lines: array<(text, voiceId)>,
+  ~languageCode: option<string>,
+  ~seed: option<int>,
+): (blob, array<(float, float)>) => {
   let k = key("ELEVENLABS_API_KEY")
   let inputs = Belt.Array.map(lines, ((Text(t), VoiceId(v))) => {
     let d = Js.Dict.empty()
@@ -839,6 +868,17 @@ let dialogueTimed = async (lines: array<(text, voiceId)>): (blob, array<(float, 
   let body = Js.Dict.empty()
   Js.Dict.set(body, "inputs", Js.Json.array(inputs))
   Js.Dict.set(body, "model_id", Js.Json.string("eleven_v3"))
+  switch languageCode {
+  | Some(language) => {
+      Js.Dict.set(body, "language_code", Js.Json.string(language))
+      Js.Dict.set(body, "apply_text_normalization", Js.Json.string("on"))
+    }
+  | None => ()
+  }
+  switch seed {
+  | Some(value) => Js.Dict.set(body, "seed", Js.Json.number(Belt.Int.toFloat(value)))
+  | None => ()
+  }
   let resp = await fetch(
     "https://api.elevenlabs.io/v1/text-to-dialogue/with-timestamps?output_format=mp3_44100_128",
     postOpts(
@@ -881,6 +921,26 @@ let dialogueTimed = async (lines: array<(text, voiceId)>): (blob, array<(float, 
     }
   )
   (audio, times)
+}
+
+let dialogueTimed = async (lines: array<(text, voiceId)>): (blob, array<(float, float)>) =>
+  await dialogueTimedWithOptions(~lines, ~languageCode=None, ~seed=None)
+
+/* Production Text-to-Dialogue keeps language normalization and sampling
+   identity explicit. Long scenes still belong in several <=2,000-character
+   requests; the caller owns those boundaries and stitches the returned takes. */
+let productionDialogueTimed = async (
+  ~lines: array<(text, voiceId)>,
+  ~languageCode: string,
+  ~seed: int,
+): (blob, array<(float, float)>) => {
+  if Js.String2.length(languageCode) != 2 {
+    raise(BackendError("productionDialogueTimed requires a two-letter ISO 639-1 language code"))
+  }
+  if seed < 0 {
+    raise(BackendError("productionDialogueTimed seed must be non-negative"))
+  }
+  await dialogueTimedWithOptions(~lines, ~languageCode=Some(languageCode), ~seed=Some(seed))
 }
 
 type forcedAlignmentCharacter = {text: string, start: float, end_: float}
@@ -967,20 +1027,24 @@ let tts = async (~text: text, ~voice: voiceId, ~settings: option<Js.Json.t>=?): 
 /* High-quality production narration. This is separate from `tts` so existing
    previews retain their byte format and cache identity. The request pins every
    quality/normalization choice that can otherwise drift with provider defaults. */
-let productionTts = async (
+let productionTtsForLanguage = async (
   ~text: text,
   ~voice: voiceId,
+  ~languageCode: string,
   ~seed: int,
   ~settings: productionVoiceSettings,
 ): blob => {
   if settings.stability < 0.0 || settings.stability > 1.0 {
-    raise(BackendError("productionTts stability must be between 0 and 1"))
+    raise(BackendError("productionTtsForLanguage stability must be between 0 and 1"))
   }
   if settings.speed < 0.7 || settings.speed > 1.2 {
-    raise(BackendError("productionTts speed must be between 0.7 and 1.2"))
+    raise(BackendError("productionTtsForLanguage speed must be between 0.7 and 1.2"))
   }
   if seed < 0 {
-    raise(BackendError("productionTts seed must be non-negative"))
+    raise(BackendError("productionTtsForLanguage seed must be non-negative"))
+  }
+  if Js.String2.length(languageCode) != 2 {
+    raise(BackendError("productionTtsForLanguage requires a two-letter ISO 639-1 code"))
   }
   let Text(t) = text
   let VoiceId(v) = voice
@@ -990,7 +1054,7 @@ let productionTts = async (
   let body = Js.Dict.empty()
   Js.Dict.set(body, "text", Js.Json.string(t))
   Js.Dict.set(body, "model_id", Js.Json.string("eleven_v3"))
-  Js.Dict.set(body, "language_code", Js.Json.string("en"))
+  Js.Dict.set(body, "language_code", Js.Json.string(languageCode))
   Js.Dict.set(body, "apply_text_normalization", Js.Json.string("on"))
   Js.Dict.set(body, "seed", Js.Json.number(Belt.Int.toFloat(seed)))
   Js.Dict.set(body, "voice_settings", Js.Json.object_(voiceSettings))
@@ -1014,17 +1078,169 @@ let productionTts = async (
   Blob(bufferFrom(ab))
 }
 
+let productionTts = async (
+  ~text: text,
+  ~voice: voiceId,
+  ~seed: int,
+  ~settings: productionVoiceSettings,
+): blob => {
+  await productionTtsForLanguage(
+    ~text,
+    ~voice,
+    ~languageCode="en",
+    ~seed,
+    ~settings,
+  )
+}
+
+let jsonStringField = (j: Js.Json.t, name: string): string =>
+  fld(j, name)->asStr->Belt.Option.getWithDefault("")
+
+let jsonIntField = (j: Js.Json.t, name: string): int =>
+  fld(j, name)
+  ->Belt.Option.flatMap(Js.Json.decodeNumber)
+  ->Belt.Option.map(Belt.Float.toInt)
+  ->Belt.Option.getWithDefault(0)
+
+let jsonFloatField = (j: Js.Json.t, name: string): float =>
+  fld(j, name)->Belt.Option.flatMap(Js.Json.decodeNumber)->Belt.Option.getWithDefault(1.0)
+
+let jsonBoolField = (j: Js.Json.t, name: string): bool =>
+  fld(j, name)->Belt.Option.flatMap(Js.Json.decodeBoolean)->Belt.Option.getWithDefault(false)
+
+let sharedHindiVoicesSearch = async (~search: string, ~page: int): sharedVoicesPage => {
+  if page < 0 {
+    raise(BackendError("sharedHindiVoicesSearch page must be non-negative"))
+  }
+  let searchQuery = search == "" ? "" : "&search=" ++ encodeURIComponent(search)
+  let resp = await fetch(
+    "https://api.elevenlabs.io/v1/shared-voices?language=hi&page_size=100&sort=trending&page=" ++
+    Belt.Int.toString(page) ++ searchQuery,
+    getOpts(~headers=[("xi-api-key", key("ELEVENLABS_API_KEY"))]),
+  )
+  if !ok(resp) {
+    let tb = await textBody(resp)
+    raise(
+      BackendError(
+        "sharedHindiVoices HTTP " ++ Belt.Int.toString(status(resp)) ++ ": " ++
+        Js.String2.slice(tb, ~from=0, ~to_=200),
+      ),
+    )
+  }
+  let result = await jsonBody(resp)
+  let voices =
+    fld(result, "voices")
+    ->Belt.Option.flatMap(Js.Json.decodeArray)
+    ->Belt.Option.getWithDefault([])
+    ->Belt.Array.map(j => {
+      publicOwnerId: jsonStringField(j, "public_owner_id"),
+      voiceId: jsonStringField(j, "voice_id"),
+      name: jsonStringField(j, "name"),
+      accent: jsonStringField(j, "accent"),
+      gender: jsonStringField(j, "gender"),
+      age: jsonStringField(j, "age"),
+      descriptive: jsonStringField(j, "descriptive"),
+      useCase: jsonStringField(j, "use_case"),
+      language: jsonStringField(j, "language"),
+      description: jsonStringField(j, "description"),
+      previewUrl: jsonStringField(j, "preview_url"),
+      usageCharacterCount1y: jsonIntField(j, "usage_character_count_1y"),
+      clonedByCount: jsonIntField(j, "cloned_by_count"),
+      rate: jsonFloatField(j, "rate"),
+    })
+  {
+    voices,
+    hasMore: jsonBoolField(result, "has_more"),
+    totalCount: jsonIntField(result, "total_count"),
+  }
+}
+
+let sharedHindiVoices = async (): sharedVoicesPage =>
+  await sharedHindiVoicesSearch(~search="", ~page=0)
+
+/* Account-library casting helpers. Shared Voice Library candidates cannot be
+   used by Text to Dialogue until they have been added to the current account.
+   Keep the owner and voice identifiers distinct so a caller cannot silently
+   swap the two path components. These calls do not generate media. */
+let voiceAvailable = async (~voice: voiceId): bool => {
+  let VoiceId(v) = voice
+  let resp = await fetch(
+    "https://api.elevenlabs.io/v1/voices/" ++ v,
+    getOpts(~headers=[("xi-api-key", key("ELEVENLABS_API_KEY"))]),
+  )
+  if ok(resp) {
+    true
+  } else {
+    let tb = await textBody(resp)
+    if status(resp) == 404 ||
+       (status(resp) == 400 && Js.String2.includes(tb, "voice_not_found")) {
+      false
+    } else {
+      raise(
+        BackendError(
+          "voice availability HTTP " ++ Belt.Int.toString(status(resp)) ++ ": " ++
+          Js.String2.slice(tb, ~from=0, ~to_=200),
+        ),
+      )
+    }
+  }
+}
+
+let addSharedVoice = async (
+  ~publicOwner: publicOwnerId,
+  ~voice: voiceId,
+  ~name: string,
+): unit => {
+  let PublicOwnerId(owner) = publicOwner
+  let VoiceId(v) = voice
+  let cleanName = Js.String2.trim(name)
+  if owner == "" || v == "" || cleanName == "" {
+    raise(BackendError("addSharedVoice requires owner, voice, and account name"))
+  }
+  let body = Js.Dict.empty()
+  Js.Dict.set(body, "new_name", Js.Json.string(cleanName))
+  let resp = await fetch(
+    "https://api.elevenlabs.io/v1/voices/add/" ++ owner ++ "/" ++ v,
+    postOpts(
+      ~headers=[("xi-api-key", key("ELEVENLABS_API_KEY")), ("Content-Type", "application/json")],
+      ~body=Js.Json.object_(body),
+    ),
+  )
+  if !ok(resp) {
+    let tb = await textBody(resp)
+    raise(
+      BackendError(
+        "add shared voice HTTP " ++ Belt.Int.toString(status(resp)) ++ ": " ++
+        Js.String2.slice(tb, ~from=0, ~to_=200),
+      ),
+    )
+  }
+}
+
 /* One sound effect from a text description. `influence` (0..1) trades literal
    obedience to the prompt against sounding like a real recording — 0.55 is what the
    shipped episodes used. Separate from `music`: different endpoint, different
    length units (seconds, not ms), and effects must NOT be musical. */
-let soundEffect = async (~prompt: prompt, ~seconds: float, ~influence: float): blob => {
+let soundEffect = async (
+  ~prompt: prompt,
+  ~seconds: float,
+  ~influence: float,
+  ~loop: bool=false,
+): blob => {
+  if seconds < 0.5 || seconds > 30.0 {
+    raise(BackendError("soundEffect duration must be between 0.5 and 30 seconds"))
+  }
+  if influence < 0.0 || influence > 1.0 {
+    raise(BackendError("soundEffect influence must be between 0 and 1"))
+  }
   let Prompt(p) = prompt
   let k = key("ELEVENLABS_API_KEY")
   let body = Js.Dict.empty()
   Js.Dict.set(body, "text", Js.Json.string(p))
   Js.Dict.set(body, "duration_seconds", Js.Json.number(seconds))
   Js.Dict.set(body, "prompt_influence", Js.Json.number(influence))
+  Js.Dict.set(body, "model_id", Js.Json.string("eleven_text_to_sound_v2"))
+  Js.Dict.set(body, "loop", Js.Json.boolean(loop))
   let resp = await fetch(
     "https://api.elevenlabs.io/v1/sound-generation?output_format=mp3_44100_128",
     postOpts(

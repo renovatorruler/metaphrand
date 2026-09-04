@@ -1,0 +1,38 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "still",
+ "id": "s56_papa_climbs",
+ "at": "2026-09-02T04:22:06.718Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "bbd5e150b634aa5cd5bb1ba106437129ff7220c8b6f800b78a124af0dbf70dfd",
+ "promptSha256": "686cd021acc0929dc8401db8d24f93bee6c6bf166dd7873a5f285ec8515ae0ee",
+ "prompt": "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nSTYLE: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world. The FIRST attached image is the art style; match it EXACTLY.\nPALETTE: bright, vibrant, warm storybook palette, every colour full and saturated.\nSET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place stays itself: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and every landmark of it that falls inside this tighter frame sits exactly where the plate puts it. Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet.\n\nSCENE: Far down the path a figure appears in the golden beam and climbs steadily up toward the courtyard.\nSUBJECTS:\n- पापा — a grown paper dragon father, taller and broader than the children, plain travelling wrap across his shoulders, the same pale papercraft build as the family — पापा on the path below, climbing toward the light\n- THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick — standing cold and dark on the stone shelf of the niche\n- A TALL WARM GOLDEN LIGHT — a standing column of soft golden glow about as tall as a seated child, hovering in the air before the niche — burning steadily in the dark, casting warm gold onto the faces near it and onto the paper stone of the wall behind it\nSETTING: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.\nLIGHTING: The golden letter is the one source of light, standing in the dark and glowing steadily. Warm gold falls on the faces near it and on the paper stone of the wall, and the courtyard beyond holds deep blue night.\nHARD RULES:\n- this is an object/insert shot: the frame holds the place and the named objects alone\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.\n- VIEWPOINT: A view over the low wall out to the paper hills of the valley below.\n- THE CHILDREN ARE SMALL: each child dragon is about knee high to a grown-up, low enough to sit at the lamp, and the low wall rises above them.",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nSTYLE: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world. The FIRST attached image is the art style; match it EXACTLY.\nPALETTE: bright, vibrant, warm storybook palette, every colour full and saturated.\nSET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place stays itself: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and every landmark of it that falls inside this tighter frame sits exactly where the plate puts it. Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet.\n\nSCENE: Far down the path a figure appears in the golden beam and climbs steadily up toward the courtyard.\nSUBJECTS:\n- पापा — a grown paper dragon father, taller and broader than the children, plain travelling wrap across his shoulders, the same pale papercraft build as the family — पापा on the path below, climbing toward the light\n- THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick — standing cold and dark on the stone shelf of the niche\n- A TALL WARM GOLDEN LIGHT — a standing column of soft golden glow about as tall as a seated child, hovering in the air before the niche — burning steadily in the dark, casting warm gold onto the faces near it and onto the paper stone of the wall behind it\nSETTING: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.\nLIGHTING: The golden letter is the one source of light, standing in the dark and glowing steadily. Warm gold falls on the faces near it and on the paper stone of the wall, and the courtyard beyond holds deep blue night.\nHARD RULES:\n- this is an object/insert shot: the frame holds the place and the named objects alone\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.\n- VIEWPOINT: A view over the low wall out to the paper hills of the valley below.\n- THE CHILDREN ARE SMALL: each child dragon is about knee high to a grown-up, low enough to sit at the lamp, and the low wall rises above them.",
+  "--image",
+  "a34b16f4-11fa-4153-9c43-ed2e2a30d033",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep12/sets/courtyard_plate.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "a34b16f4-11fa-4153-9c43-ed2e2a30d033",
+   "sha256": "PROVIDER_ASSET:a34b16f4-11fa-4153-9c43-ed2e2a30d033"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep12/sets/courtyard_plate.png",
+   "sha256": "84246f4cc88c2c00b8368d1fb2a549bfcbef4872c9c2c95f0235e09cd1277f69"
+  }
+ ]
+}

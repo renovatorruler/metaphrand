@@ -825,7 +825,9 @@ let run = c => {
                     "s2a_furia_brakes", "b4_curve_stop"]
     let workflow = Js.Array2.includes(onCinema, c.tag) ? "cinematic_studio_video_4_0" : ""
     ignore(Kuku_Engine.clip(~id=c.tag, ~spec=c.spec, ~model, ~secs=c.secs,
-      ~start=c.start, ~endFrame=c.endFrame, ~videoRefs=previz, ~workflow, ~dst, ()))
+      ~start=Kuku_Engine.StartFrame(c.start),
+      ~endFrame=?(c.endFrame == "" ? None : Some(Kuku_Engine.EndFrame(c.endFrame))),
+      ~videoRefs=previz, ~workflow, ~dst, ()))
   }
 }
 

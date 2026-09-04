@@ -58,7 +58,7 @@ let plateNotes = s =>
   | _ => []
   }
 
-let platePrompt = s =>
+let platePrompt = (s, ~vantage=S.TopLookingDown, ()) =>
   PromptGate.pass(~which="platePrompt", Js.Array2.joinWith(
     [
       "SHOT: WIDE ESTABLISHING PLATE, LANDSCAPE 16:9, full-bleed, the camera is INSIDE the world.",
@@ -67,7 +67,7 @@ let platePrompt = s =>
       "BLUEPRINT: the SECOND attached image is a PLAN-VIEW MAP of this set — read the landmark positions from it, then draw the PLACE ITSELF seen from inside the world. Every landmark stands blank and plain: the markers are flat red paving stones, the post is a bare stone post, every face of stone smooth and empty.",
       "TIME: this is the set BEFORE the story happens — every flagstone bare, the flat stone bare, the lane open and empty from top to wall.",
       "SET: " ++ S.setProse(s),
-      "VIEWPOINT: " ++ S.vantageProse(s, S.TopLookingDown),
+      "VIEWPOINT: " ++ S.vantageProse(s, vantage),
       "LIGHTING: warm golden dusk — the last golden evening; the low sun — a plain warm paper disc — gilds the paper flagstones. THE SUN STANDS OFF TO ONE SIDE, well clear of the viewing axis, so every landmark is LIT full-face and every colour in the place stays full — green hills, blue water, snow on the far peaks.",
       "PURPOSE: this is a SET PLATE — the empty location itself, to be reused as the reference for every shot staged here. Every landmark must be clearly visible and correctly placed.",
       "HARD RULES:\n" ++
@@ -109,11 +109,31 @@ let doBlueprints = () =>
 
 let doPlate = s => {
   let bp = blueprintPng(s)
-  let refs = existsSync(bp) ? [P.styleKey, bp] : [P.styleKey]
+  let refs = existsSync(bp) ? [P.styleKey(), bp] : [P.styleKey()]
   if !existsSync(bp) {
     Js.log("NOTE: no blueprint PNG for " ++ S.setName(s) ++ " — generating from prose alone")
   }
-  ignore(Kuku_Engine.plate(~id=S.setName(s) ++ "_plate", ~prompt=platePrompt(s), ~refs, ~dst=plateFile(s), ()))
+  ignore(Kuku_Engine.plate(~id=S.setName(s) ++ "_plate", ~prompt=platePrompt(s, ()), ~refs, ~dst=plateFile(s), ()))
+}
+
+/* A VANTAGE PLATE is the same place from a named station. The lane's two
+   vantage plates were hand-made on 2026-08-23 and never rebuilt, so twenty-two
+   shots kept inheriting a pre-campaign world — raised markers, a different
+   palette, no walls — while the master plate had moved on. They are derived
+   here from the same prose and blueprint as the master. */
+let doVantagePlate = (s, vantage) => {
+  let bp = blueprintPng(s)
+  let refs = existsSync(bp) ? [P.styleKey(), plateFile(s), bp] : [P.styleKey(), plateFile(s)]
+  ignore(
+    Kuku_Engine.plate(
+      ~id=S.setName(s) ++ "_" ++ S.vantageName(vantage) ++ "_plate",
+      ~prompt=platePrompt(s, ~vantage, ()) ++
+        "\nSAME PLACE, NEW STATION: the SECOND attached image is this very set already built — keep its ground, its walls, its kerbs, its markers, its palette and its light exactly, and show that same place from the viewpoint named above.",
+      ~refs,
+      ~dst=S.platePath(s, S.vantageName(vantage)),
+      (),
+    ),
+  )
 }
 
 /* the camera pass: the empty set surveyed in one continuous move */
@@ -148,7 +168,7 @@ let doSurvey = s => {
     Js.log("no approved plate for " ++ S.setName(s) ++ " — run `plate` first")
   } else {
     ignore(Kuku_Engine.clip(~id=S.setName(s) ++ "_survey", ~spec=surveySpec(s),
-      ~model="seedance_2_0_mini", ~secs=5, ~start=plate, ~dst=surveyFile(s), ()))
+      ~model="seedance_2_0_mini", ~secs=5, ~start=Kuku_Engine.StartFrame(plate), ~dst=surveyFile(s), ()))
   }
 }
 
@@ -201,7 +221,7 @@ let stylePassPrompt = s =>
 
 let doStylePass = (s, blockout, dst) => {
   ignore(Kuku_Engine.plate(~id=S.setName(s) ++ "_stylepass", ~prompt=stylePassPrompt(s),
-    ~refs=[P.styleKey, blockout], ~dst, ()))
+    ~refs=[P.styleKey(), blockout], ~dst, ()))
 }
 
 let mode = Js.Array2.length(argv) > 2 ? argv[2] : "blueprint"
@@ -220,7 +240,7 @@ switch (mode, target) {
         }
       }
     Js.Array2.forEach(sets, s => {
-      try_(S.setName(s) ++ " plate", () => platePrompt(s))
+      try_(S.setName(s) ++ " plate", () => platePrompt(s, ()))
       try_(S.setName(s) ++ " style", () => stylePassPrompt(s))
       try_(S.setName(s) ++ " survey", () => P.videoPrompt(surveySpec(s)))
     })
@@ -230,8 +250,19 @@ switch (mode, target) {
     Js.log("PROMPT GATE CLEAN: plates, style passes and surveys for " ++ Belt.Int.toString(Js.Array2.length(sets)) ++ " sets")
   }
 | ("plate", Some(s)) => doPlate(s)
+| ("vantage", Some(s)) => {
+    let v = Js.Array2.length(argv) > 4 ? argv[4] : "top_looking_down"
+    let vantage = switch v {
+    | "bottom_looking_up" => S.BottomLookingUp
+    | "overhead" => S.Overhead
+    | "ground_level" => S.GroundLevel
+    | "at_the_ring" => S.AtTheRing
+    | _ => S.TopLookingDown
+    }
+    doVantagePlate(s, vantage)
+  }
 | ("survey", Some(s)) => doSurvey(s)
-| ("prompt", Some(s)) => Js.log(platePrompt(s))
+| ("prompt", Some(s)) => Js.log(platePrompt(s, ()))
 | ("stylepass", Some(s)) => {
     let tag = Js.Array2.length(argv) > 4 ? argv[4] : "bottom_looking_up"
     doStylePass(

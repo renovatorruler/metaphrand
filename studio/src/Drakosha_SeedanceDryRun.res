@@ -21,6 +21,9 @@ open Drakosha_SeedanceBatch
 
 let refsDir = "../stories/drakosha/ep1prod/scene1/references"
 let kfDir = "../stories/drakosha/rnd/keyframes"
+/* WHERE THE BLENDER BLOCKOUTS LIVE — a blockout is a video reference, not a
+   keyframe, and the dry run has to be able to say which of the two is missing. */
+let previzDir = "../stories/drakosha/ep1prod/sets/blender/previz_out"
 let outDir = "../stories/drakosha/production/seedance_batch/emitted"
 
 let sha256 = (s: string): string => createHash("sha256")->update(s)->digest("hex")
@@ -142,6 +145,40 @@ let assertScriptLinesPresent = (record, script: string, problem): unit => {
    supplied start image … that image is the truth for the set" while the emitted
    args carried "startImage": "". The prompt asserted an anchor the job never
    received, so the model invented the room. */
+/* THE BLOCKOUT MUST BE BOUND IF THE CHOREOGRAPHY LEANS ON IT, and must not be
+   bound silently if it does not. A creative text with a BLOCKOUT block tells the
+   model to inherit its camera, marks and paths; sending that text with no video
+   attached leaves those instructions pointing at nothing, and the model invents
+   the staging instead — which is exactly how the Nano Banana start-frame passes
+   went wrong on 2026-09-01, describing shapes that were not in front of it. */
+let assertBlockoutBacked = (record, blockout: option<string>, problem): unit => {
+  let c = Js.String2.toLowerCase(record.creative)
+  /* "BLOCKOUT" IS OUR WORD FOR BLENDER PREVIZ, and it is the wrong one for a video
+     reference that is real footage — the author's own hands on a counter, say. The
+     model reads that header. Seedance's documented convention is to address uploads as
+     @video1 / @image1 and give each one scoped role, so a real-footage reference gets a
+     VIDEO REFERENCE block instead. Either header satisfies this check; what matters is
+     that a bound video is never silent. */
+  let claims =
+    Js.String2.includes(c, "@blockout") ||
+    Js.String2.includes(c, "blockout") ||
+    Js.String2.includes(c, "@video1") ||
+    Js.String2.includes(c, "video reference")
+  switch (claims, blockout) {
+  | (true, None) =>
+    problem(
+      record.jobId,
+      "the choreography refers to a blockout and no blockout video is bound. Either bind one or stop referring to it.",
+    )
+  | (false, Some(_)) =>
+    problem(
+      record.jobId,
+      "a blockout video is bound and the choreography never says what it is for. A video reference is read as a motion reference by default; write the BLOCKOUT block.",
+    )
+  | _ => ()
+  }
+}
+
 let assertStartFrameBacked = (record, problem): unit => {
   let c = Js.String2.toLowerCase(record.creative)
   let claims =
@@ -274,6 +311,56 @@ let changeMarkers = [
 ]
 
 let reactionHeaders = ["REACTIONS", "REACTION"]
+
+/* True when the choreography walks the shot beat by beat AND names, somewhere in it,
+   what the faces and the hands are doing — which is all the REACTIONS and HANDS
+   blocks were ever asking for. */
+/* A BLOCKOUT IS ONLY FOLLOWED IF THE PROMPT SAYS WHERE THE CAMERA IS. Every shot of
+   this show that came back matching its previz — the descent, the laps, the exchange
+   wide, the scooter POV — states the camera in words as well as attaching the video.
+   SP146-149 is the only one that did not: it said "take the camera from it" and never
+   said what it looked at. @ROAD's plate is composed with the ramp coming down in the
+   foreground, and with nothing contradicting it the plate's framing beat the blockout —
+   the girl came down the ramp in a shot whose blockout has the ramp small and far away.
+   22.5 credits. I had deleted that sentence myself, reading the author's "do not
+   describe what the blockout shows" as covering the camera; it covers the SET and the
+   REFERENCES. The camera line is the anchor, not a description. */
+let assertBlockoutStatesCamera = (record, problem): unit => {
+  let c = record.creative
+  let hasBlockout =
+    Js.String2.includes(c, "\nBLOCKOUT") || Js.String2.includes(c, "\nVIDEO REFERENCE")
+  let lower = Js.String2.toLowerCase(c)
+  let anchored =
+    ["camera stands", "camera looks", "camera is", "camera locked", "\ncamera\n",
+     "looking up", "looking down", "looking back", "looking along", "looking across"]
+    ->Belt.Array.some(w => Js.String2.includes(lower, w))
+  if hasBlockout && !anchored {
+    problem(
+      record.jobId,
+      "a blockout is attached and the choreography never says where the camera is or what "
+      ++ "it looks at. \"Take the camera from it\" is not enough: a bound set plate carries "
+      ++ "its own composition and will impose it. State the camera in words — where it "
+      ++ "stands, which way it faces, what is down each side.",
+    )
+  }
+}
+
+let carriesFacesAndHandsInline = (r: shotRecord): bool => {
+  let c = Js.String2.toLowerCase(r.creative)
+  /* It first insisted the choreography be a NUMBERED beat list, which is only one way
+     of walking a shot in order — "while the camera is moving… once it has stopped" is
+     another, and it forced a REACTIONS block that then restated the same face in
+     different words. Two passages describing one face let the model choose between
+     them. What the blocks were ever asking is that the shot SAY what changes, so that
+     is what is checked: change markers, a facial part, a hand action. */
+  let beaten = Belt.Array.length(changeMarkers->Belt.Array.keep(m =>
+    Js.String2.includes(Js.String2.toLowerCase(r.creative), m))) >= 2
+  let face = ["brow", "mouth", "jaw", "chin", "eyes", "grin"]
+  let hand = ["hand", "fist", "grip"]
+  beaten &&
+  face->Belt.Array.some(w => Js.String2.includes(c, w)) &&
+  hand->Belt.Array.some(w => Js.String2.includes(c, w))
+}
 
 let assertReactionsWritten = (record, problem): unit =>
   if Belt.Array.length(record.cast) > 1 {
@@ -590,6 +677,18 @@ let assertEmotionsDeclared = (record, problem): unit => {
                   )
                 | Some(spec) =>
                   let lower = Js.String2.toLowerCase(p)
+                  /* A FACE THAT IS NOT IN FRAME CANNOT DO THE ANATOMY. 2026-08-30.
+                     SH144 looks straight down on the crown of Фрося's head. The
+                     gate wanted a jaw setting and eyes steadying, so the prompt
+                     had to describe a face the camera never sees — 150 words of
+                     it, in a shot whose entire content is a head turning, and
+                     every one of those words an invitation to show the face
+                     after all. Declaring FACE NOT IN FRAME buys the exemption,
+                     and it has to be declared: silence is still refused. */
+                  let faceHidden = Js.String2.includes(Js.String2.toUpperCase(p), "FACE NOT IN FRAME")
+                  if faceHidden {
+                    ()
+                  } else {
                   /* A reactions paragraph is a JOURNEY — it says what the face
                      starts as and what it becomes — but the label names where it
                      ENDS, because that is the feeling the shot delivers. So the
@@ -643,6 +742,7 @@ let assertEmotionsDeclared = (record, problem): unit => {
                       )
                     }
                   })
+                  }
                 }
               }
             }
@@ -869,7 +969,7 @@ let assertModelFits = (spec: Drakosha_SeedanceJobs.jobSpec, refCount: int, probl
       )
     | _ => ()
     }
-  | Mini | V20 | V25 =>
+  | Mini | V20 | V25 | CS4 =>
     if refCount > maxRefs {
       problem(
         spec.record.jobId,
@@ -894,6 +994,44 @@ let creditTotal = ref(0.0)
    why the job in which Фрося RECEIVES the pencil also told the model she has
    none. The choreography owns what is in a character's hands, shot by shot; the
    reference line owns only who they are. */
+/* A REFERENCE LINE THAT DESCRIBES ITS OWN PICTURE IS COMPETING WITH IT.
+   Every tagLine in the registry was a paragraph — 87 to 808 characters — emitted
+   into the highest-weighted block of the prompt, re-describing an image attached
+   to the very same request. Author, 2026-09-02: "why are we describing a reference
+   when we have a blockout and a reference? I do not want to see any descriptions."
+
+   It is not just budget. @ROAD's line opened "running away into the dark" and
+   closed with lights "running far away down the road" — AWAY twice, at the top —
+   while the girl's direction was stated twice, lower, once as the
+   direction-agnostic "out of frame". SP138 came back with her turning round and
+   riding away up the road, against a blockout that had her coming at the lens.
+
+   So: enough to bind the tag to the right attached image, plus the one feature the
+   model drops if unnamed. 110 characters is generous for that. */
+let assertReferenceLinesAreShort = (record: shotRecord, problem): unit => {
+  let check = (tag, line) =>
+    if Js.String2.length(line) > 110 {
+      problem(
+        record.jobId,
+        "the reference line for " ++
+        tag ++
+        " is " ++
+        Belt.Int.toString(Js.String2.length(line)) ++
+        " characters — it is DESCRIBING a picture that is attached to this same request, from the highest-weighted block of the prompt. Cut it to who it is plus the one feature the model drops if unnamed. This is what turned Фрося round in SP138: @ROAD's line said \"running away\" twice above a blockout that had her riding at the lens.",
+      )
+    }
+  record.cast->Belt.Array.forEach(t => {
+    let e = castEntry(t)
+    check(e.tag, e.tagLine)
+  })
+  record.props->Belt.Array.forEach(t =>
+    switch propEntry(t) {
+    | Backed(e) => check(e.tag, e.tagLine)
+    | _ => ()
+    }
+  )
+}
+
 let assertTagLinesAreIdentityOnly = (record: shotRecord, problem): unit =>
   record.cast->Belt.Array.forEach(t => {
     let entry = castEntry(t)
@@ -970,8 +1108,16 @@ let assertHandsWritten = (record, problem): unit => {
       )
     }
     let lower = Js.String2.toLowerCase(block)
+    /* HANDS THAT ARE OUT OF SHOT. 2026-08-30. SH144 looks straight down on the
+       crown of a kneeling girl; her hands are in her lap, below the frame. The
+       gate wanted a positive hand action, so the prompt described hands the
+       camera cannot see — and a pair of oversized cartoon hands duly climbed
+       into the bottom of frame. Describing hands is what makes hands. A shot may
+       say NOT IN FRAME instead, and it has to say it: silence still fails, so
+       nobody can drop the block by forgetting it. */
+    let handsHidden = Js.String2.includes(Js.String2.toUpperCase(block), "NOT IN FRAME")
     let verbs = handsVerbs->Belt.Array.keep(v => Js.String2.includes(lower, v))
-    if Belt.Array.length(verbs) < Belt.Array.length(record.cast) {
+    if !handsHidden && Belt.Array.length(verbs) < Belt.Array.length(record.cast) {
       problem(
         record.jobId,
         "the HANDS block leans on prohibitions rather than saying what the hands ARE doing. \"No broom\" lost to a reference sheet that shows one; \"her hands hang open and empty at her sides\" wins, because it occupies the same cell. Give every character a positive hand action.",
@@ -1015,9 +1161,15 @@ let assertHandsWritten = (record, problem): unit => {
    Note also that which wall sits behind a character is a fact about where the
    CAMERA stands, not about the character. It is answered per shot and never
    carried over from the last one. */
+/* The list was written for the hall and knew nothing of the crawl space below it,
+   so an underfloor shot could only satisfy it by writing "the framing shows no wall
+   of the hall" — a sentence about a room that is not in the picture, added purely to
+   get past a check. The gate wants to know WHAT IS BEHIND THEM; the road's own stone
+   wall and its post row are perfectly good answers. */
 let namedWalls = [
   "hatch wall", "hatch-wall", "ramp", "railing", "back wall", "kitchen end",
   "niche", "table end", "boulder-block wall", "no wall", "shows no wall",
+  "stone block wall", "block wall", "wooden posts", "post row", "gravel",
 ]
 
 /* DO NOT NAME A THING THE PICTURE DOES NOT SHOW. 2026-08-24.
@@ -1147,7 +1299,16 @@ let assertGlyphsPlanned = (record, problem): unit => {
       let planned =
         Js.String2.includes(up, "NOT READABLE") ||
         Js.String2.includes(up, "REPAINT") ||
-        Js.String2.includes(up, "PLATE")
+        Js.String2.includes(up, "PLATE") ||
+        /* A FOURTH ANSWER, for a shot driven by footage that ALREADY CONTAINS the
+           letters. The rule was written after scene 7, where the model was asked to
+           invent glyphs from a written instruction and every letter shot was lost —
+           and that is a different thing from re-texturing tiles whose letters are in
+           the source video, face up and in plane, never turning over. Author,
+           2026-09-03: "it's very important that the glyphs will stay the way they
+           are... we're not repainting anything." The block must still name WHICH
+           letters have to survive, so the failure is checkable on delivery. */
+        Js.String2.includes(up, "MUST SURVIVE")
       if !planned {
         problem(
           record.jobId,
@@ -1163,6 +1324,68 @@ let assertGlyphsPlanned = (record, problem): unit => {
     }
   }
 }
+
+/* SH144 was lost to its own SOURCE block. It quoted the shooting script's
+   stage direction for the beat — three overhead shots in which she assembles
+   the word and checks it with a finger — while the shot being made had the
+   tiles nailed down and only her head moving. The model followed the sentence
+   at the top of the prompt and slid a second set of letters in from the left,
+   spelling САМОКЛТ, over the ten that were meant to be at rest.
+
+   The lesson is not "keep SOURCE accurate". s9dogovor carried «Крупно Вася. Он
+   медленно кивает.» and came back perfect, because that direction described the
+   shot actually being made. That is the whole difference, and it is not
+   something a gate can read.
+
+   What a gate CAN read is the asymmetry. A direction in SOURCE is either
+   redundant — the choreography below says it anyway — or catastrophic, because
+   whatever sits at the top of the prompt outranks every constraint under it.
+   Redundant-or-catastrophic earns a ban. Dialogue cannot misfire this way: a
+   quoted line is a thing to say, not a thing to do.
+
+   So SOURCE carries speech and nothing else. Scope notes, stage directions and
+   the reasoning behind a departure from the script belong in the job record,
+   which is never sent to the model. */
+let assertSourceCarriesOnlySpeech = (record, problem): unit => {
+  /* A creative opens on SOURCE, so there is no newline in front of it on line
+     one. Searching for "\nSOURCE" found nothing and the check skipped every job
+     in the episode without saying so. */
+  let padded = "\n" ++ record.creative
+  if Js.String2.includes(padded, "\nSOURCE") {
+    let after = Belt.Array.getExn(Js.String2.split(padded, "\nSOURCE"), 1)
+    let block = Belt.Array.getExn(Js.String2.split(after, "\n\n"), 0)
+    let lines = Js.String2.split(block, "\n")
+    lines->Belt.Array.forEachWithIndex((i, line) => {
+      let trimmed = Js.String2.trim(line)
+      let lower = Js.String2.toLowerCase(trimmed)
+      /* line 0 is the header that follows the word SOURCE on its own line */
+      let isHeader = i == 0
+      let isBlank = Js.String2.length(trimmed) == 0
+      let isSpeech = Js.String2.includes(trimmed, "\u00ab") && Js.String2.includes(trimmed, "\u00bb")
+      let isSilence =
+        Js.String2.includes(lower, "nothing is spoken") ||
+        Js.String2.includes(lower, "nobody speaks") ||
+        Js.String2.includes(lower, "no one speaks")
+      if !isHeader && !isBlank && !isSpeech && !isSilence {
+        problem(
+          record.jobId,
+          "the SOURCE block carries a line that is not speech: \"" ++
+          trimmed ++
+          "\". SOURCE may hold quoted dialogue in \u00ab\u00bb and a declaration that nothing is spoken, and nothing else. This is what cost SH144: its SOURCE quoted the script's stage direction for a beat we had replaced, the model followed it over every constraint below, and a second set of letters slid into a frame whose tiles were meant to be nailed down. A direction here is redundant when it agrees with the shot and fatal when it does not. Put scope notes, stage directions and the reasoning for departing from the script in the job record, which the model never sees.",
+        )
+      }
+    })
+  }
+}
+
+let setProps = ["@FLOOR", "@ROAD", "@ROOM_BACK", "@ROOM_FRONT", "@ROOM_FRONT_LOW", "@ROOM_FRONT_HATCH", "@ROOF", "@FLOOR_AFTER"]
+let hasSetReference = (r: shotRecord): bool =>
+  r.props->Belt.Array.some(t =>
+    switch propEntry(t) {
+    | Backed(e) => setProps->Belt.Array.some(x => x == e.tag)
+    | _ => false
+    }
+  )
 
 let assertBackgroundsAssigned = (record, problem): unit => {
   let c = record.creative
@@ -1390,7 +1613,7 @@ let () = {
        rule about dialogue shots would make the writing look slow. */
     let floorSec = switch spec.model {
     | Kling26 | Kling30 => 3
-    | Mini | V20 | V25 | Veo31Lite => 4
+    | Mini | V20 | V25 | CS4 | Veo31Lite => 4
     }
     if record.durationSec < floorSec || record.durationSec > 30 {
       problem(
@@ -1403,7 +1626,7 @@ let () = {
       )
     }
     /* emit (raises on smuggled tags) */
-    switch try Some(emitPrompt(record)) catch {
+    switch try Some(emitPrompt(record, ~refsSent=Drakosha_SeedanceJobs.modelMaxRefs(spec.model) > 0, ())) catch {
     | BatchError(m) =>
       problem(jobId, m)
       None
@@ -1425,10 +1648,45 @@ let () = {
         )
       }
       assertStartFrameBacked(record, problem)
-      assertReactionsWritten(record, problem)
-      assertEmotionsDeclared(record, problem)
-      assertHandsWritten(record, problem)
-      assertBackgroundsAssigned(record, problem)
+      /* A BEAT-BY-BEAT TIMELINE ALREADY CARRIES THE FACES AND THE HANDS, and when it
+         does, a REACTIONS block underneath can only restate it. The requirement was
+         never the heading — it is that the shot SAYS what each face and each pair of
+         hands is doing. Author, 2026-09-02, reading a prompt where the timeline named
+         the brows, the mouth and the hands on every beat and the two blocks below
+         summarised the same thing: "are you giving me a prompt with useless context?" */
+      if !carriesFacesAndHandsInline(record) {
+        assertReactionsWritten(record, problem)
+        assertEmotionsDeclared(record, problem)
+      }
+      assertBlockoutStatesCamera(record, problem)
+      assertSourceCarriesOnlySpeech(record, problem)
+      /* AND NO HANDS BLOCK WHERE THERE IS NOBODY TO HAVE HANDS. The rule exists so a
+         character sheet cannot put a broom back into an empty hand. A job with no cast
+         at all — a shot of hands moving tiles, driven by footage of hands moving tiles
+         — has no sheet to fight and nothing to state. Author, 2026-09-03: "we're not
+         putting a hands block in here when it's literally a video of hands doing
+         stuff." */
+      /* AND NO HANDS BLOCK WHEN THE HANDS ARE IN THE FOOTAGE. Where the choreography
+         hands ALL movement to a video reference, the hands are visible in that video
+         doing exactly what they do and holding exactly what they hold — there is no
+         empty cell for a sheet to fill. Writing one anyway produces a contradiction:
+         "both hands bare and empty, holding nothing" over footage of hands picking
+         things up. Author, 2026-09-03: "remove that hand block. It's contradicting." */
+      let handsAreInTheFootage =
+        Js.String2.includes(record.creative, "Follow the reference video exactly") ||
+        Js.String2.includes(record.creative, "@video1 supplies")
+      if !carriesFacesAndHandsInline(record) && Belt.Array.length(record.cast) > 0 &&
+         !handsAreInTheFootage {
+        assertHandsWritten(record, problem)
+      }
+      /* A BOUND SET PLATE IS THE BACKGROUND. The block exists so a character is
+         never floating in a room the model invents — but when @ROAD or @ROOM_BACK is
+         attached, the picture settles it and a paragraph restating it can only
+         compete. Author, 2026-09-02, cutting a prompt to the bone: "the blocking
+         carries the scale... this prompt should not be in thousands of characters." */
+      if !hasSetReference(record) {
+        assertBackgroundsAssigned(record, problem)
+      }
       assertGlyphsPlanned(record, problem)
       assertShotCodeResolves(record, problem)
       assertQuotedLinesRecorded(record, problem)
@@ -1450,6 +1708,16 @@ let () = {
         p
       | None => ""
       }
+      let blockout = switch spec.blockout {
+      | Some(k) =>
+        let p = previzDir ++ "/" ++ k
+        if !existsSync(p) {
+          problem(jobId, "missing blockout " ++ p)
+        }
+        Some(p)
+      | None => None
+      }
+      assertBlockoutBacked(record, blockout, problem)
       writeFileSync(outDir ++ "/" ++ jobId ++ ".prompt.txt", prompt)
       let args = {
         let d = Js.Dict.empty()
@@ -1466,6 +1734,10 @@ let () = {
         | None => ()
         }
         Js.Dict.set(d, "imageReferences", Js.Json.array(refPaths->Belt.Array.map(Js.Json.string)))
+        switch blockout {
+        | Some(v) => Js.Dict.set(d, "videoReferences", Js.Json.array([Js.Json.string(v)]))
+        | None => ()
+        }
         Js.Dict.set(d, "promptSha256", Js.Json.string(sha256(prompt)))
         Js.Json.object_(d)
       }
@@ -1475,6 +1747,7 @@ let () = {
       assertModelFits(spec, refCount, problem)
       assertFaceWorkHasReferences(spec, refCount, problem)
       assertTagLinesAreIdentityOnly(record, problem)
+      assertReferenceLinesAreShort(record, problem)
       let credits =
         Drakosha_SeedanceJobs.modelCreditsPerSec(spec.model) *.
         Belt.Int.toFloat(record.durationSec)

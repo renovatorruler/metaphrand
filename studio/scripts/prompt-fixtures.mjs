@@ -31,10 +31,19 @@ HARD RULES:
 - THE NICHE SHELF IS BARE STONE, in shadow.`;
 const g = G.scanStrict(GOOD);
 if (g.length) { fails++; console.log("  BAD: the lawful prompt was refused:", g); } else console.log("  PASSED   lawful per-name prompt");
-// the receipt invariant: refs are exactly what follows a reference flag in argv
-const args = ["generate","create","x","--prompt","p","--start-image","a.png","--image-references","key.png","--image-references","plate.png","--duration","5"];
-const refs = E.refsOfArgs(args);
-const want = ["a.png","key.png","plate.png"];
-if (JSON.stringify(refs) !== JSON.stringify(want)) { fails++; console.log("  BAD refsOfArgs:", refs); } else console.log("  PASSED   refsOfArgs derives the receipt from the call");
+// THE INVARIANT THAT FAILED ON 2026-09-02: a reference in the receipt is a
+// reference in the call, because both are rendered from one list.
+const R = (TAG, _0) => ({ TAG, _0 });
+const refs = [R("Style","key.png"), R("Plate","plate.png"), R("Start","a.png"), R("Board","kuku.png")];
+const argv = E.argsOfRefs(true, refs);
+const paths = refs.map(E.pathOf);
+const missing = paths.filter(p => !argv.includes(p));
+if (missing.length) { fails++; console.log("  BAD: refs absent from the call:", missing); }
+else console.log("  PASSED   every reference in the receipt appears in the provider call");
+// and a start frame cannot be an end frame: the types differ, so this is a
+// compile-time guarantee — asserted here by checking the flags they render to
+const flags = E.argsOfRefs(true, [R("Start","s.png"), R("End","e.png")]);
+if (flags[0] !== "--start-image" || flags[2] !== "--end-image") { fails++; console.log("  BAD frame flags:", flags); }
+else console.log("  PASSED   start and end frames render to their own flags");
 console.log(fails ? `PROMPT FIXTURES: ${fails} FAILED` : "PROMPT FIXTURES: all known-bad prompts refused, lawful prompt passed");
 process.exit(fails ? 1 : 0);

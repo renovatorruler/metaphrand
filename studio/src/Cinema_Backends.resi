@@ -19,6 +19,7 @@
 @unboxed type path = Path(string)
 @unboxed type prompt = Prompt(string)
 @unboxed type voiceId = VoiceId(string)
+@unboxed type publicOwnerId = PublicOwnerId(string)
 @unboxed type seconds = Seconds(float)
 @unboxed type millis = Millis(int)
 @unboxed type text = Text(string)
@@ -28,6 +29,32 @@
 type productionVoiceSettings = {
   stability: float,
   speed: float,
+}
+
+/* Public Voice Library metadata used for a no-generation-credit casting screen.
+   The backend returns only fields needed to compare identity, language fit,
+   saturation, availability cost, and narration positioning. */
+type sharedVoice = {
+  publicOwnerId: string,
+  voiceId: string,
+  name: string,
+  accent: string,
+  gender: string,
+  age: string,
+  descriptive: string,
+  useCase: string,
+  language: string,
+  description: string,
+  previewUrl: string,
+  usageCharacterCount1y: int,
+  clonedByCount: int,
+  rate: float,
+}
+
+type sharedVoicesPage = {
+  voices: array<sharedVoice>,
+  hasMore: bool,
+  totalCount: int,
 }
 
 /* opaque binary blob — a Node Buffer under the hood. The only ways to get one
@@ -123,6 +150,12 @@ let dialogue: array<(text, voiceId)> => promise<blob>
 /* Same continuous take, PLUS each input line's (start,end) seconds in input order
    (from voice_segments) — for landing name+line captions on a continuous take. */
 let dialogueTimed: array<(text, voiceId)> => promise<(blob, array<(float, float)>)>
+/* Deterministic production variant with explicit language normalization. */
+let productionDialogueTimed: (
+  ~lines: array<(text, voiceId)>,
+  ~languageCode: string,
+  ~seed: int,
+) => promise<(blob, array<(float, float)>)>
 /* Align an existing audio file to its exact plain-text transcript. This endpoint
    is billed like speech-to-text, so callers must gate it as a paid operation. */
 type forcedAlignmentCharacter = {text: string, start: float, end_: float}
@@ -141,6 +174,28 @@ let productionTts: (
   ~seed: int,
   ~settings: productionVoiceSettings,
 ) => promise<blob>
+/* Same controlled production path with an explicit ISO 639-1 language code.
+   This prevents the English normalizer from being applied to Hindi auditions. */
+let productionTtsForLanguage: (
+  ~text: text,
+  ~voice: voiceId,
+  ~languageCode: string,
+  ~seed: int,
+  ~settings: productionVoiceSettings,
+) => promise<blob>
+/* One current, account-authenticated Voice Library page containing voices that
+   ElevenLabs marks as Hindi-capable. This is catalog metadata, not generation. */
+let sharedHindiVoices: unit => promise<sharedVoicesPage>
+let sharedHindiVoicesSearch: (~search: string, ~page: int) => promise<sharedVoicesPage>
+/* Check account availability and idempotently add a selected Shared Voice
+   Library voice. These calls change no generated-media cache and spend no
+   generation credits. */
+let voiceAvailable: (~voice: voiceId) => promise<bool>
+let addSharedVoice: (
+  ~publicOwner: publicOwnerId,
+  ~voice: voiceId,
+  ~name: string,
+) => promise<unit>
 /* Instrumental score bed (ElevenLabs Music). Naming a real artist -> 400. */
 let music: (~prompt: prompt, ~ms: millis, ~instrumental: bool) => promise<blob>
 /* Production Music v2 master at MP3 48 kHz/320 kbps. Storage for inpainting
@@ -154,4 +209,9 @@ let productionMusic: (
 ) => promise<blob>
 /* One sound effect from a description. influence 0..1 (0.55 = the shipped setting):
    higher obeys the prompt more literally, lower sounds more like a real recording. */
-let soundEffect: (~prompt: prompt, ~seconds: float, ~influence: float) => promise<blob>
+let soundEffect: (
+  ~prompt: prompt,
+  ~seconds: float,
+  ~influence: float,
+  ~loop: bool=?,
+) => promise<blob>

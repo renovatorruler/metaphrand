@@ -9,7 +9,13 @@
    This module is pure (no IO): Drakosha_SceneFlow's seedance stage owns file
    checks, readiness, receipts, and the one sanctioned spawn point. */
 
-type castToken = Frosya | Vasya | Mama | Papa | Babies | Rusya | Musya | YagaFlight | YagaDomovoy | VasyaCat | VasyaWasp | VasyaMama
+/* FrosyaPencil and VasyaPouch are the SAME two children later in the day, and
+   they exist because the sheets differ. Фрося carries the pencil stub in her hair
+   from the moment she is given it, and Вася wears the pouch from SH098 onward.
+   Added as new tokens rather than by repointing Frosya and Vasya, because the
+   scenes before those two moments still need the earlier sheets and silently
+   changing 25 existing shot records is how the wrong мама happened. */
+type castToken = VasyaNoFace | Frosya | FrosyaPencil | Vasya | VasyaPouch | Mama | Papa | Babies | Rusya | Musya | YagaFlight | YagaDomovoy | VasyaCat | VasyaWasp | VasyaMama
 /* THE FAMILY LIVES INSIDE THE FIREPLACE. The hall is not a room containing a
    fireplace — it is the bricked-up fireplace's own cavity, and the giant
    sandstone boulder-blocks are its masonry seen at their size. The camera is
@@ -27,7 +33,7 @@ type castToken = Frosya | Vasya | Mama | Papa | Babies | Rusya | Musya | YagaFli
    was "reverse", which has no fixed referent — the reverse of the front is the
    back and the reverse of the back is the front — so nothing written with that
    word could be checked. Do not reintroduce it. */
-type propToken = TwoMamas | FloorAfter | RoomFront | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Stupa | Pomelo | Broom | Top | Tin | Chest | Tiles | Pouch | Pencil | Scooter | Road | Tank | Thread | Cake | Juice | Salad | Poppy
+type propToken = VasyaArm | FloorTopdown | RoadWall | ScooterCutout | ScooterPlaced | TwoMamas | FloorAfter | RoomFront | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Stupa | Pomelo | Broom | Top | Tin | Chest | Tiles | Pouch | Pencil | Scooter | Road | Tank | Thread | Cake | Juice | Salad | Poppy
 
 type shotRecord = {
   jobId: string, // "job12"
@@ -58,12 +64,52 @@ type castEntry = {
   refPath: string, // relative to ep1prod/scene1/references, or "KF:" + keyframes-relative
 }
 
+/* A REFERENCE LINE NAMES WHO, NOT WHAT THEY LOOK LIKE.
+   Author, 2026-09-02: "why are we describing a reference when we have a blockout
+   and a reference? I do not want to see any descriptions."
+
+   Every line in this file was a paragraph, 87 to 808 characters, sitting in the
+   HIGHEST-WEIGHTED block of the prompt and re-describing an image attached to the
+   same request. That is not merely wasted budget: @ROAD's opened "running away
+   into the dark" and closed with lights "running far away down the road", and
+   SP138 came back with the girl turning round and riding away up the road while
+   the blockout had her coming straight at the lens. Words beat the blockout
+   because they sat higher up.
+
+   A line needs exactly enough to bind the TAG to the right attached image, plus
+   the one feature the model reliably drops if unnamed — Вася's eyebrows are what
+   make him recognisable at distance. Everything else is in the picture, and
+   [[sheet-beats-negation]] cuts both ways: words cannot beat the sheet, so all
+   they can do is muddy it.
+
+   Trimmed so far: @ROAD, @FROSYA (pencil), @VASYA (pouch) — the three the scene 10
+   shots bind. assertReferenceLinesAreShort below refuses the rest as they come up. */
 let castEntry = (t: castToken): castEntry =>
   switch t {
   | Frosya => {
       tag: "@FROSYA",
       tagLine: "@FROSYA: a girl with long dark hair, an orange flower in her hair on one side, freckles and a gap-toothed grin, wearing a floral patchwork dress with a large safety pin at the front. 100% matches the reference.",
       refPath: "packet_v2/page-05.png", // official «Фрося — ДО карандаша» sheet (packet v2)
+    }
+  | FrosyaPencil => {
+      tag: "@FROSYA",
+      tagLine: "@FROSYA: the girl. 100% matches the reference.",
+      refPath: "packet_v2/page-06.png", // official «Фрося — ПОСЛЕ карандаша (canon)» sheet
+    }
+  | VasyaPouch => {
+      tag: "@VASYA",
+      tagLine: "@VASYA: the boy, ENORMOUS bushy brows. 100% matches the reference.",
+      refPath: "C-VAS-02_with_pouch_from_page04.png",
+    }
+  /* HIS SHEET WITHOUT THE FEATURE NOTE. The brows are named on his usual line because
+     they are what the model drops at distance — but in a shot that never sees his face
+     that is a description of something not in frame, competing for attention with the
+     three things that are. Author, 2026-09-03: "do not talk about his eyebrows. It's
+     pointless here." */
+  | VasyaNoFace => {
+      tag: "@VASYA",
+      tagLine: "@VASYA: the boy. 100% matches the reference.",
+      refPath: "C-VAS-02_with_pouch_from_page04.png",
     }
   | Vasya => {
       tag: "@VASYA",
@@ -107,7 +153,16 @@ let castEntry = (t: castToken): castEntry =>
     }
   | VasyaCat => {
       tag: "@VASYA_CAT",
-      tagLine: "@VASYA_CAT: Вася turned into a small ginger cat — he keeps his ENORMOUS shaggy dark eyebrows above the cat's eyes, the one feature that makes him recognisable. 100% matches the reference.",
+      /* IDENTITY ONLY, AND NO STORY. The old line spent 185 characters re-describing
+         the attached sheet. It also said this cat IS Вася transformed, which is context
+         for us and instruction for nobody: the model has a sheet of a cat and needs to
+         draw that cat. Author, 2026-09-03: "do not tell us that VasyaCat reference is
+         Vasya in a cat form. Who cares? I do not want a single line in this prompt
+         assuming that the model cares about the context." */
+      /* NOT "small". The script's «маленького рыжего кота» is small as cats go; beside a
+         house spirit he is gigantic, and that word sitting in the highest-weighted block
+         argues with every size instruction below it. */
+      tagLine: "@VASYA_CAT: the ginger cat, ENORMOUS shaggy brows. 100% matches the reference.",
       refPath: "T-VAS-CAT-01_approved.png",
     }
   | VasyaWasp => {
@@ -264,11 +319,25 @@ let propEntry = (t: propToken): propEntry =>
       tagLine: "@TILES: the wooden letter tiles — small square wooden tiles, each carved with one Cyrillic letter. 100% matches the reference. WHERE the tiles are in this shot is stated in the shot text and nowhere else.",
       refPath: "D-MAM-CHEST-01_approved.png",
     })
+  /* THE POUCH USED TO POINT AT A PICTURE WITHOUT A POUCH IN IT. Its refPath was
+     packet_v2/page-04.png — Вася's own sheet, on which he wears a shoelace belt
+     and a mallet and no pouch at all — while its tagLine said "as shown on his
+     character sheet". Every job that bound @POUCH was therefore handing the model
+     a reference that did not contain the thing the line named, and the pouch was
+     being carried entirely by prose. Found 2026-09-01; now bound to the real
+     article, cut from SH098 where Мама ties it on. */
   | Pouch =>
     Backed({
       tag: "@POUCH",
-      tagLine: "@POUCH: Вася's small cloth drawstring pouch for his letter tiles, as shown on his character sheet. 100% matches the reference. WHERE the pouch is in this shot — worn at his belt, or lying on the floor — is stated in the shot text and nowhere else.",
-      refPath: "packet_v2/page-04.png",
+      tagLine: "@POUCH: Вася's small leather drawstring pouch. 100% matches the reference.",
+/* The author's clean solo prop on white, 2026-09-02, replacing a CROP out of an
+         earlier shot that carried that shot's warm blurred room behind it — the same
+         fault that put the living room into the exchange wide. Author: "we're not
+         giving any crops as a reference."
+         It is SHUT in this picture: the drawstring is knotted at the neck and the
+         gathered fabric stands above the tie. I first read that gathered top as an
+         open mouth and said so; the author corrected it. */
+      refPath: "D-VAS-POUCH-02_author_solo.png",
     })
   /* THE JUICE — author's ruling 2026-08-23: the magic makes a GLASS, not a
      thimble. The thimble is the family's found-object scale; magic does not
@@ -317,11 +386,54 @@ let propEntry = (t: propToken): propEntry =>
      one, which is what she asked for — "as long as it looks like a regular
      scooter, all we care is that it's consistent." A card that argued with its own
      reference would be the height-anchor mistake all over again. */
-  | Scooter =>
+  /* THE SCOOTER STANDING IN THIS ROOM, AT SIZE. 2026-08-30, the author's plate.
+     The sheet says what the scooter IS; this says how big it is on these boards
+     beside a kneeling Фрося, which is the one thing three attempts at wording
+     failed to pin. It is a reference, not a keyframe — in it she is looking at
+     her paper, which is the wrong beat for either end of a shot. */
+  | ScooterPlaced =>
+    Backed({
+      tag: "@SCOOTER_PLACED",
+      tagLine: "@SCOOTER_PLACED: the same kick scooter standing upright on the floorboards of the main room, at the size it is on these boards. 100% matches the reference.",
+      refPath: "PROP-SCOOTER-02_in-place_author.png",
+    })
+  /* THE SCOOTER WITH NO ROOM AROUND IT. @SCOOTER's in-place plate is a picture of
+     the hall with a scooter standing in it, and it was chosen for a shot where the
+     value was placement — where the scooter stands, at what size, on these boards.
+
+     ONCE A BLOCKOUT SUPPLIES PLACEMENT, that plate stops being a scooter reference
+     and becomes a second backplate. On s9exchangewide, 2026-09-01, it beat
+     @ROOM_BACK outright: the render came back with the in-place plate's stove, its
+     shelf of jars, its melon, its string lights and its letter tiles on the floor,
+     and none of @ROOM_BACK's furniture. Two room shots went in and the one shot at
+     this shot's camera won.
+
+     So: a blockout-directed job binds ScooterCutout, which has no room in it at all,
+     and lets the backplate be the only picture of the room in the job. */
+  | ScooterCutout =>
     Backed({
       tag: "@SCOOTER",
-      tagLine: "@SCOOTER: Фрося's kick scooter — a red-painted frame carrying a planked wooden deck screwed down into it, a polished bare-metal steering column with two metal clamp collars, a T-handlebar with chunky red grips, a white lightning bolt on the stem and a small amber reflector below it, two dark rubber wheels on silver spoked hubs, and a red mudguard curving over the rear wheel. 100% matches the reference.",
-      refPath: "PROP-SCOOTER-01_approved_sheet.png",
+      tagLine: "@SCOOTER: the red kick scooter. 100% matches the reference.",
+      refPath: "PROP-SCOOTER-01_approved_cutout_transparent.png",
+    })
+  | Scooter =>
+    Backed({
+      /* SIXTY WORDS PAINTING A SCOOTER, AT THE TOP OF THE PROMPT, FOR AN OBJECT
+         THAT MUST NOT EXIST UNTIL THE LAST THREE SECONDS. 2026-08-30. The line
+         listed the deck, the clamp collars, the lightning bolt and the mudguard
+         — all of it visible in the attached image, and all of it read as
+         instruction because it sits in the first block. The author had already
+         warned that showing the model the finished scooter invites it to open on
+         one. A reference line fixes identity; the picture does the describing.
+         The in-place plate replaces the design sheet: it is the same scooter,
+         drawn by the author, standing on these boards at its size. 2026-08-30,
+         second version — the author's own frame of the empty room with the
+         scooter in it, same camera as the start plate and no Фрося in the
+         picture. It carries size and placement without showing the shot's last
+         moment, which is what a reference of the finished state would do. */
+      tag: "@SCOOTER",
+      tagLine: "@SCOOTER: Фрося's red kick scooter, brand new and gleaming. 100% matches the reference.",
+      refPath: "PROP-SCOOTER-02_in-place_author.png",
     })
   /* APPROVED 2026-08-27 — the author's plates. They supersede every earlier
      description, including the one written from her verbal brief the same day:
@@ -357,10 +469,82 @@ let propEntry = (t: propToken): propEntry =>
      the ramp the block wall is on the RIGHT and the posts on the LEFT; facing
      back toward the ramp it is the other way round. The chase has her ride away
      and come back, so the wall changes sides with her. */
+  /* THE WALL-AND-POSTS ANGLE. @ROAD's other plates look ALONG the road — the ramp
+     view and its reverse — and neither is this shot, which faces the stone wall
+     square with two posts standing between the lens and it. Author, 2026-09-02, when
+     shown the ramp plate for the laps: "wrong reference. You have the reference for
+     that back row and posts." Same road, same tag; the camera is the difference, and
+     a set plate at the wrong angle drags the whole frame to its own. */
+  /* A HAND SHEET, NOT A BODY SHEET, and ONE of them. The tile shots see hands and
+     nothing else, and the Б motion test settled what that needs: given his full figure
+     the model returned a generic adult-proportioned hand; given a hand sheet it was
+     right. Author, 2026-09-03: "I really don't think we need two arm references. What
+     do they give us?" Nothing — a left hand is a mirror of a right, so one sheet
+     produces both, and naming the arm only invites the model to reason about
+     handedness. The LEFT sheet is bound because its close-up row carries a POINT pose,
+     which is the gesture these shots end on. */
+  | VasyaArm =>
+    Backed({
+      tag: "@HAND",
+      /* NOT "the boy's hand". A minor next to a body part is the pattern that had a
+         mini run refused as nsfw this morning; the wording that passed dropped the
+         child and named the sheet instead. The sheet is a sheet of small hands and
+         carries the proportions on its own. */
+      tagLine: "@HAND: the hand and forearm. 100% matches the reference.",
+/* BACK TO THE ORIGINAL SHEET. The arm turnaround returned the author's own adult
+         hand proportions; his first hand sheet — 13 poses, elbow to fingers — is the one
+         that worked on the Б test. Author, 2026-09-03: "the hand proportions are my
+         hands, not the reference hand. I think we should be using the original hand
+         reference I provided you." */
+      refPath: "C-VAS-HAND-01_author_right-arm-sheet.png",
+    })
+  /* The boards seen from STRAIGHT ABOVE. Every other road plate looks along the road
+     and is useless to a camera pointing at the floor. Supplied by the author for the
+     tile-motion test and proven there. */
+  | FloorTopdown =>
+    Backed({
+      tag: "@FLOOR",
+      tagLine: "@FLOOR: the wooden floorboards seen from above. 100% matches the reference.",
+/* The ROAD's own boards from above, supplied 2026-09-03 — cool at one edge and
+         warm where a bulb pools, which is the light every other scene 10 shot came back
+         with. FLOOR-01 was a generic warm floor made for the Б test and would have put
+         a different room's light under the tiles. */
+      refPath: "R-EP1-FLOOR-02_author_road_boards_topdown.png",
+    })
+  | RoadWall =>
+    Backed({
+      tag: "@ROAD",
+      tagLine: "@ROAD: the underfloor road. 100% matches the reference.",
+      /* THE COOL ONE, NOT THE WIDE ONE. Both show this angle; the _wide plate is
+         warmer — brown posts, orange boards — and SP138 came back cool: grey-blue
+         stone, cold depth, warm only in the bulbs and a pool underfoot. Author,
+         2026-09-02: "this seems to be a lot warmer than what we have." A set plate
+         sets the temperature of the whole frame, so the two shots have to be cut
+         from the same one or they will not sit together. */
+/* The author's own grade of the wide plate, 2026-09-02, matched to a frame of
+         the delivered SP138 rather than to an intention. The ungraded _wide plate is
+         browner and would not cut with the descent; the un-wide plate is cool but
+         tight, and she would be entering and leaving frame almost on top of him. */
+      refPath: "SET-ROAD-01_author_wall_straight_posts_wide_COOL.png",
+    })
   | Road =>
     Backed({
       tag: "@ROAD",
-      tagLine: "@ROAD: the underfloor road — a plank road of wide boards running away into the dark beneath the giants' floor. Overhead is a grid of heavy wooden joists, close above. Along ONE side is a wall of giant cut stone blocks with loose gravel banked at its foot and a small iron grate set low in it; along the OTHER side stands a row of squat wooden posts on stone footings, carrying the joists, with darkness behind them. Small coloured string lights hang on a wire along both sides, running far away down the road. The whole space is COOL — steel blue and grey stone, cold light, quite unlike the warm room above — and the only warm light in it falls on the characters themselves. 100% matches the reference.",
+      /* A HUNDRED WORDS RE-DESCRIBING A PLATE THAT IS ATTACHED TO THE SAME REQUEST.
+         Author, 2026-09-02: "why are we describing a reference when we have a
+         blockout and a reference? I do not want to see any descriptions."
+
+         And it was not merely wasted: this line opened with "running away into the
+         dark" and closed with lights "running far away down the road" — the word
+         AWAY twice, in the highest-weighted block of the prompt — while the girl's
+         direction was stated only twice, lower down, once as the direction-agnostic
+         "out of frame". SP138 came back with her turning round and riding away up
+         the road. The blockout had her right; the words outranked it.
+
+         A set line fixes IDENTITY. The plate fixes everything else, and it always
+         travels with the line. Same law as [[sheet-beats-negation]] from the other
+         direction: words cannot beat the sheet, so they can only muddy it. */
+      tagLine: "@ROAD: the underfloor road. 100% matches the reference.",
       /* The CLEAN plate, no characters in it. A set reference carrying a
          character invites the model to copy that character into shots she does
          not belong in — the with-scooter concept is kept as a look guide only.
@@ -413,8 +597,8 @@ let propRefPath = (t: propToken): option<string> =>
 
 let castName = (t: castToken): string =>
   switch t {
-  | Frosya => "FROSYA"
-  | Vasya => "VASYA"
+  | Frosya | FrosyaPencil => "FROSYA"
+  | VasyaNoFace | Vasya | VasyaPouch => "VASYA"
   | Mama => "MAMA"
   | Papa => "PAPA"
   | Babies => "BABIES"
@@ -432,8 +616,8 @@ let castName = (t: castToken): string =>
    check whether a given person was written about at all. */
 let castRuName = (t: castToken): option<string> =>
   switch t {
-  | Frosya => Some("Фрося")
-  | Vasya => Some("Вася")
+  | Frosya | FrosyaPencil => Some("Фрося")
+  | VasyaNoFace | Vasya | VasyaPouch => Some("Вася")
   | Mama => Some("Мама")
   | Papa => Some("Папа")
   | Rusya => Some("Руся")
@@ -441,6 +625,22 @@ let castRuName = (t: castToken): option<string> =>
   | YagaFlight | YagaDomovoy => Some("Яга")
   | VasyaMama => Some("Вася-мама")
   | VasyaCat | VasyaWasp | Babies => None
+  }
+
+/* WHAT TO CALL SOMEBODY WHEN NO REFERENCE WAS SENT. 2026-08-30.
+   "@FROSYA" is an instruction to match reference image one. On Kling and Veo
+   there is no reference image one, so the tag points at nothing and the model
+   is left to guess what the token means. Identity on those calls comes from the
+   start frame, so the prompt should just say who is in it in plain words. */
+let castPlainNoun = (t: castToken): string =>
+  switch t {
+  | Frosya | FrosyaPencil => "the girl"
+  | VasyaNoFace | Vasya | VasyaPouch | VasyaCat | VasyaWasp => "the boy"
+  | Mama | VasyaMama => "the woman"
+  | Papa => "the man"
+  | Rusya | Musya => "the baby"
+  | Babies => "the babies"
+  | YagaFlight | YagaDomovoy => "the old woman"
   }
 
 /* ---- Emission ---- */
@@ -454,8 +654,8 @@ exception BatchError(string)
    model cannot measure inches but can be told what reaches whose chest. */
 let castScale = (t: castToken): option<string> =>
   switch t {
-  | Frosya => Some("Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.")
-  | Vasya => Some("Вася is a head shorter than Мама — the top of his head reaches about her chin.")
+  | Frosya | FrosyaPencil => Some("Everyone here is tiny. Фрося is 3.50 in / 8.9 cm and is the unit.")
+  | VasyaNoFace | Vasya | VasyaPouch => Some("Вася is a head shorter than Мама — the top of his head reaches about her chin.")
   | Mama => Some("Мама is a little taller than Фрося.")
   | Papa => Some("Папа is the tallest, about a head above Мама.")
   | Babies => Some("@BABIES are far smaller: РУСЯ about 1.9 in, and МУСЯ smaller still — each fits along one of @MAMA's forearms.")
@@ -471,7 +671,13 @@ let castScale = (t: castToken): option<string> =>
   | Musya => Some("Муся the baby is a little smaller than the other baby.")
   | YagaDomovoy => Some("@YAGA at house-spirit size stands about 3.60 in / 9.1 cm — the same order as the parents, never towering over them.")
   | YagaFlight => Some("@YAGA in human flight form stands about 147 cm — SIXTEEN TIMES the family's size. She is a full-grown human woman here.")
-  | VasyaCat => Some("@VASYA_CAT is a cat at house-spirit scale, a little longer than @VASYA is tall.")
+  /* SIZE IS ONLY EVER RELATIVE TO A CHILD. "A little longer than @VASYA is tall" is
+     both a measurement nobody can act on and the wrong answer: the point of the beat
+     is that a cat is GIGANTIC beside a house spirit, which is what lets one lying down
+     shut a road. Author, 2026-09-03: "we don't care about them being three and a half
+     inches. The only thing we care about is that this cat is gigantic in comparison to
+     her." */
+  | VasyaCat => Some("@VASYA_CAT is GIGANTIC beside the children — lying flat he is longer than @FROSYA is tall, and his shoulder stands higher than her chest.")
   | VasyaWasp => Some("@VASYA_WASP is a wasp at house-spirit scale, small enough to fly through a gap in the floorboards.")
   /* CORRECTED 2026-08-26. This said she is "a head taller than Фрося", while
      МАМА's own line says she is only "a little taller than Фрося". Read
@@ -509,7 +715,20 @@ let propScale = (t: propToken): option<string> =>
      carries the old version at SH068 ("почти достаёт до локтя" — almost reaches
      her elbow); that line is stale and must not be copied into a prompt. */
   | Pencil => Some("@PENCIL is sized for @FROSYA's own hand — it sits in her palm, she writes with it one-handed, and it fits behind her ear. It is NOT a giant human pencil and never dwarfs her.")
-  | Scooter => Some("@SCOOTER is sized for the children: standing on the floor beside @VASYA its handlebars come up to about his chest, and its deck sits at his ankle. It is NOT a human-sized scooter and never dwarfs either child.")
+  /* NO SCALE LINE. The plate shows the scooter standing on these boards beside a
+     kneeling Фрося, so its size is settled by a picture. Three attempts to say
+     it in words — against Вася who was not in the shot, then against a standing
+     child who does not exist until the next shot, then against her kneeling head
+     — were all worse than the image. */
+  | VasyaArm | FloorTopdown | RoadWall => None
+  | ScooterPlaced => None
+  /* NO SCALE LINE FOR THE SCOOTER. The plate shows it standing on these boards
+     at its size, so the size is settled by a picture. Three attempts to say it
+     in words — against Вася who was not in the shot, then against a standing
+     child who does not exist until the next shot, then against her kneeling head
+     — were each worse than the image, and the last of them was still sitting in
+     the prompt after I wrote a comment claiming I had removed it. */
+  | Scooter | ScooterCutout => None
   | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Tiles | Pouch | Road | Tank | Thread | Cake | Juice | Salad | Poppy | FloorAfter | TwoMamas => None
   }
 
@@ -733,7 +952,7 @@ let assertEmittedClean = (jobId: string, prompt: string): unit => {
    it stays off. Author, 2026-08-26. See also the sheet-beats-negation law: a
    reference image outranks a prohibition, and a positive instruction of the same
    kind is what displaces one. */
-let negatedDirection = %re("/(never|not|no|nobody|nothing|at no point)[^.;—]{0,60}\b(left|right)\b[ -]*(of frame|of the frame|edge|side of frame|hand side)/i")
+let negatedDirection = %re("/\b(never|not|no|nobody|nothing|at no point)\b[^.;—]{0,60}\b(left|right)\b[ -]*(of frame|of the frame|edge|side of frame|hand side)/i")
 
 /* B8 — a NEGATED PERFORMANCE. "she does not giggle" is the only thing in a
    prompt that puts giggling anywhere near it: the model never saw the shot this
@@ -999,7 +1218,13 @@ let assertYagaScale = (r: shotRecord): unit => {
   }
 }
 
-let emitPrompt = (r: shotRecord): string => {
+/* WHETHER THE CALL ACTUALLY CARRIES REFERENCE IMAGES. 2026-08-30.
+   Kling and Veo take none. Handing them an ACTIVE REFERENCES block describes a
+   face in prose and then tells the model to match a sheet it was never sent —
+   which is an invitation to invent one, and pure noise on a shot that never
+   shows the face at all. Seedance gets the block because Seedance gets the
+   images. */
+let emitPrompt = (r: shotRecord, ~refsSent: bool=true, ()): string => {
   assertCreativeClean(r)
   assertCyrillicNames(r)
   assertDialoguePronunciation(r)
@@ -1032,14 +1257,34 @@ let emitPrompt = (r: shotRecord): string => {
   | 0 => ""
   | _ => " The set and props are " ++ propRoster ++ ", and each matches its reference exactly."
   }
+  let matchClause = refsSent ? " Every character matches their reference exactly." : ""
+  /* IT RESTATED THE REFERENCE LIST IN LONGHAND, directly under the reference list.
+     "Every character matches their reference exactly" says nothing the "100% matches
+     the reference" on each line above has not already said. What only this block adds
+     is the closed roster and the no-text rule. */
+  /* "No text" IN A SHOT WHOSE SUBJECT IS LETTERS. The clause is meant to keep captions
+     and watermarks out, but on the tile shots it points straight at the one thing that
+     has to survive — and the author is not repainting them. Dropped wherever the
+     choreography has a GLYPHS block.
+     And an empty roster printed "ONLY ." on a job with no cast, only hands. */
+  let hasGlyphs = Js.String2.includes(r.creative, "\nGLYPHS")
+  /* A CLOSED ROSTER AND A WARNING AGAINST TWINS ARE BOTH POINTLESS WITH ONE CHARACTER.
+     Author, 2026-09-03, reading it on a shot that shows nothing but forearms: "what the
+     hell is that?" Fair — it guards against a problem that cannot arise. The subtitle
+     clause stays: models do burn captions in, and on the tile shots that lands on top
+     of the letters. */
+  let single = Belt.Array.length(r.cast) <= 1
+  let tail =
+    (single ? "" : " No duplicates.") ++
+    (hasGlyphs ? " No subtitles, no watermarks." : " No text, no subtitles, no watermarks.")
   let constraints =
-    "POSITIVE CONSTRAINTS\n" ++
-    "Exactly these characters and no others: " ++
-    roster ++
-    ". Every character matches their reference exactly." ++
-    propClause ++
-    " No additional people, no additional babies, no duplicates. " ++
-    "No text, no subtitles, no watermarks."
+    (roster == "" || single ? "" : "ONLY " ++ roster ++ ".") ++
+    /* IT NAMED THE BABIES IN EVERY PROMPT THE SHOW HAS EVER SENT, including every
+       shot they are nowhere near. Author, 2026-09-02: "you cannot just attach
+       something about no additional babies." Right — by the rule @ROAD just proved,
+       naming a thing you do not want is how you get it, and the roster clause above
+       already says exactly who is in the shot and nobody else. */
+    tail
   /* A SCALE LINE MAY NOT ANCHOR TO SOMEBODY WHO IS NOT IN THE SHOT. 2026-08-26.
      Most of these lines are written against Фрося, because she is the unit of
      the scale registry. That is production knowledge; it is useless to a model
@@ -1057,22 +1302,75 @@ let emitPrompt = (r: shotRecord): string => {
   )
   let keepScale = (line: string) =>
     !(absentNames->Belt.Array.some(n => Js.String2.includes(line, n)))
+  /* THE FILTER HAS TO COVER PROPS AS WELL. 2026-08-30. It was written for cast
+     lines after v09rescue sized Мама against an invisible Фрося and the two
+     women came back different heights — but props were never passed through it,
+     so @SCOOTER went out sized against @VASYA in a shot he is not in. A prop
+     measured against somebody the model cannot see is a prop with no size at
+     all. Author caught it: "is there a chance that it's gonna render a tiny
+     scooter?" */
   let scaleLines = Belt.Array.concat(
     r.cast->Belt.Array.keepMap(castScale)->Belt.Array.keep(keepScale),
-    r.props->Belt.Array.keepMap(propScale),
+    r.props->Belt.Array.keepMap(propScale)->Belt.Array.keep(keepScale),
   )
-  let scaleBlock = switch Belt.Array.length(scaleLines) {
-  | 0 => ""
+  /* A SCALE BLOCK WITH NOTHING TO COMPARE IS DEAD WEIGHT. 2026-08-30. These
+     lines exist so two things in one frame come out the right size relative to
+     each other. One character alone with no prop in shot has no second thing,
+     so the block says only how many centimetres she is — which the model cannot
+     act on and which SH144 spent 108 words carrying. */
+  /* AND A BLOCKOUT CARRIES SCALE BETTER THAN A SENTENCE CAN. Author, 2026-09-02:
+     "you cannot attach the scale line. The scale line does not apply here. The
+     blocking carries the scale." A previz frame shows both children standing in the
+     set at their built heights; centimetres in prose can only argue with it. */
+  let hasBlockout =
+    (Js.String2.includes(r.creative, "\nBLOCKOUT") || Js.String2.includes(r.creative, "\nVIDEO REFERENCE")) || Belt.Option.isSome(r.startImage)
+  let nothingToCompare =
+    hasBlockout || (Belt.Array.length(r.cast) <= 1 && Belt.Array.length(r.props) == 0)
+  let scaleBlock = switch (Belt.Array.length(scaleLines), nothingToCompare) {
+  | (0, _) | (_, true) => ""
   | _ => "SCALE\n" ++ scaleLines->Js.Array2.joinWith("\n") ++ "\n\n"
   }
-  let prompt =
-    "ACTIVE REFERENCES\n" ++
-    Belt.Array.concat(castLines, propLines)->Js.Array2.joinWith("\n") ++
-    "\n\n" ++
+  /* AND NO EMPTY HEADER. A job driven by a start frame and a motion reference binds no
+     image references at all, and the block printed its title over nothing. */
+  let refBlock = refsSent && Belt.Array.length(Belt.Array.concat(castLines, propLines)) > 0
+    ? "ACTIVE REFERENCES\n" ++
+      Belt.Array.concat(castLines, propLines)->Js.Array2.joinWith("\n") ++
+      "\n\n"
+    : ""
+  /* SOURCE IS PROVENANCE, NOT DIRECTION. 2026-08-30. It carries a script line
+     number and a shot code so the gates and the author can trace a prompt back
+     to the page. The model has no script and no shot list; the block is pure
+     noise to it, and when it carried a stage direction it destroyed SH144. It
+     stays in the creative file and never reaches the call. */
+  let body = {
+    let c = r.creative
+    let padded = "\n" ++ c
+    if Js.String2.includes(padded, "\nSOURCE") {
+      let after = Belt.Array.getExn(Js.String2.split(padded, "\nSOURCE"), 1)
+      switch Js.String2.split(after, "\n\n")->Belt.Array.get(1) {
+      | Some(_) =>
+        let parts = Js.String2.split(after, "\n\n")
+        Js.Array2.joinWith(Belt.Array.sliceToEnd(parts, 1), "\n\n")
+      | None => c
+      }
+    } else {
+      c
+    }
+  }
+  let assembled =
+    refBlock ++
     scaleBlock ++
-    r.creative ++
+    body ++
     "\n\n" ++
     constraints
+  /* The tag has to go everywhere or nowhere. POSITIVE CONSTRAINTS is built from
+     the roster, not from the choreography, so substituting only the body left
+     "@FROSYA" sitting in the last line of a call that carries no references. */
+  let prompt = refsSent
+    ? assembled
+    : r.cast->Belt.Array.reduce(assembled, (acc, t) =>
+        Js.String2.replaceByRe(acc, Js.Re.fromStringWithFlags("@" ++ castName(t), ~flags="g"), castPlainNoun(t))
+      )
   assertEmittedBudget(r.jobId, prompt)
   assertEmittedClean(r.jobId, prompt)
   assertNoNegatedDirection(r.jobId, prompt)
