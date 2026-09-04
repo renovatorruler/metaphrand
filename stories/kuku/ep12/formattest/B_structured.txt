@@ -1,0 +1,57 @@
+format: scene-graph/1
+render.shot: MEDIUM
+render.aspect: 16:9
+render.frame: full-bleed, camera inside the world
+style.ref: image[0]
+style.medium: 3D papercraft, layered cut paper, matte construction-paper texture, visible paper edges and folds
+style.palette: bright, vibrant, warm storybook, fully saturated
+set.ref: image[1]
+set.rule: same location as image[1]; identical ground, walls, kerbs, textures, palette, light; landmarks inside this frame sit where image[1] puts them
+set.place: दादी's courtyard — square of pale paper flagstone, walled on every side; low wall of cut paper blocks on the valley side; square niche set into that wall; wooden paper door in the taller wall; paper hills of the valley beyond
+light.time: night
+light.key: the flame in the niche, the one warm light
+light.falloff: glow on the paper stone nearest the flame; the courtyard beyond in soft blue shadow
+
+subject[0].name: कुकु
+subject[0].species: paper dragon child
+subject[0].colour: green
+subject[0].scale: knee high to a grown-up; the low wall rises well above the head
+subject[0].wears: golden कड़ा on one forearm
+subject[0].pose: leans in toward the niche on लेडा's count
+
+subject[1].name: फ्यूरिया
+subject[1].species: paper dragon child
+subject[1].colour: bright pink-red
+subject[1].scale: knee high to a grown-up; the low wall rises well above the head
+subject[1].wears: golden कड़ा on one forearm
+subject[1].pose: leans in toward the niche beside कुकु, wings held tight
+
+subject[2].name: लेडा
+subject[2].species: paper dragon child
+subject[2].colour: lilac-purple
+subject[2].scale: knee high to a grown-up; the low wall rises well above the head
+subject[2].wears: golden कड़ा on one forearm
+subject[2].pose: kneels a little back from the niche, one claw raised, counting
+
+subject[3].name: कैस्टर
+subject[3].species: paper dragon child
+subject[3].colour: golden-yellow
+subject[3].scale: knee high to a grown-up; the low wall rises well above the head
+subject[3].wears: golden कड़ा on one forearm
+subject[3].pose: leans in toward the niche at the right, both paws out
+
+subject[4].name: वैस्पर
+subject[4].species: paper dragon child
+subject[4].colour: pale blue
+subject[4].scale: knee high to a grown-up; the low wall rises well above the head
+subject[4].wears: golden कड़ा on one forearm
+subject[4].pose: leans in toward the niche at the left
+
+prop[0].name: THE DIYA
+prop[0].form: small round clay paper lamp, shallow dish, pinched lip, short cotton wick
+prop[0].place: on the stone shelf of the niche
+prop[0].state: one small flame upright on the wick
+
+camera.viewpoint: low three-quarter across the seated group, the niche at the far side of the frame
+world.creatures: only the subjects listed above
+world.material: every surface — stone, wood, cloth, sky — is plain blank paper, cut pieces with real thickness, soft rounded edges, fine paper grain, each piece casting a small soft shadow on the one behind

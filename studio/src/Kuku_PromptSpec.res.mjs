@@ -138,6 +138,140 @@ function isCharacter(s) {
   }
 }
 
+function subjectFields(i, s) {
+  var k = "subject[" + String(i) + "]";
+  var rows;
+  switch (s.TAG) {
+    case "Dragon" :
+        var name = s.name;
+        rows = [
+          [
+            k + ".name",
+            nameOf(name)
+          ],
+          [
+            k + ".species",
+            "paper dragon child"
+          ],
+          [
+            k + ".colour",
+            colorOf(name)
+          ],
+          [
+            k + ".scale",
+            s.form === "Great" ? "about seven metres tall — a grown man would reach only to this dragon's knee; the size in the picture depends on how far the viewpoint stands, so in a wide shot this dragon may be a small figure and still be enormous" : "knee high to a grown-up, the height of a human child"
+          ],
+          [
+            k + ".wears",
+            "a golden कड़ा on one forearm"
+          ],
+          [
+            k + ".pose",
+            s.doing
+          ]
+        ];
+        break;
+    case "Gauri" :
+        rows = [
+          [
+            k + ".name",
+            "GAURI"
+          ],
+          [
+            k + ".species",
+            "paper cow"
+          ],
+          [
+            k + ".colour",
+            "brown and white, dark paper eyes"
+          ],
+          [
+            k + ".wears",
+            "a plain rope halter and only that; neck and legs otherwise bare"
+          ],
+          [
+            k + ".pose",
+            s.doing
+          ]
+        ];
+        break;
+    case "RishiMuni" :
+        rows = [
+          [
+            k + ".name",
+            "RISHI"
+          ],
+          [
+            k + ".species",
+            "elder paper dragon guru from the attached sheet"
+          ],
+          [
+            k + ".look",
+            "white-maned and white-bearded, pale horns, an ochre robe, a wooden staff"
+          ],
+          [
+            k + ".pose",
+            s.doing
+          ]
+        ];
+        break;
+    case "Dadi" :
+        rows = [
+          [
+            k + ".name",
+            "DADI"
+          ],
+          [
+            k + ".species",
+            "paper grandmother from the attached sheet"
+          ],
+          [
+            k + ".pose",
+            s.doing
+          ]
+        ];
+        break;
+    case "Cheel" :
+        rows = [
+          [
+            k + ".name",
+            "CHEEL"
+          ],
+          [
+            k + ".species",
+            "great paper eagle, sharp-eyed, imposing"
+          ],
+          [
+            k + ".pose",
+            s.doing
+          ]
+        ];
+        break;
+    case "Prop" :
+        rows = [
+          [
+            k + ".name",
+            s.what
+          ],
+          [
+            k + ".state",
+            s.doing
+          ]
+        ];
+        break;
+    
+  }
+  return rows.map(function (param) {
+                return param[0] + ": " + param[1];
+              }).join("\n");
+}
+
+function fieldBlock(subjects) {
+  return subjects.map(function (s, i) {
+                return subjectFields(i, s);
+              }).join("\n\n");
+}
+
 function imagePrompt(s) {
   var match = s.plate;
   var tmp;
@@ -150,29 +284,30 @@ function imagePrompt(s) {
       case "Close" :
       case "Insert" :
       case "CloseAbstract" :
-          tmp$1 = "SET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place stays itself: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and every landmark of it that falls inside this tighter frame sits exactly where the plate puts it.";
+          tmp$1 = "set.rule: image[1] is this same location seen closer — identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light; every landmark inside this tighter frame sits where image[1] puts it";
           break;
       default:
-        tmp$1 = "SET PLATE: the SECOND attached image IS this location, already built — reproduce it faithfully: the same ground, the same landmarks in the same places, the same walls, kerbs and horizon, the same camera vantage, the same architecture throughout.";
+        tmp$1 = "set.rule: image[1] IS this location, already built — same ground, same landmarks in the same places, same walls, kerbs and horizon, same camera vantage, same architecture";
     }
-    tmp = tmp$1 + (
-      s.objects.length > 0 ? " The image after the plate is a locked STORY OBJECT: the same forged shape appears in other shots and is reproduced with identical form, proportion, colour and material every single time." : ""
-    ) + " Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet.";
+    tmp = "set.ref: image[1]\n" + tmp$1 + (
+      s.objects.length > 0 ? "\nobject.ref: the image after the plate is a locked story object — identical form, proportion, colour and material every time it appears" : ""
+    ) + "\ncast.ref: every remaining attached image is a locked character design; match each EXACTLY, including the golden कड़ा";
   } else {
-    tmp = "CHARACTER REFERENCES: every attached image after the first is a locked character design; match each EXACTLY, including the golden bracelet.";
+    tmp = "cast.ref: every attached image after the first is a locked character design; match each EXACTLY, including the golden कड़ा";
   }
   var match$2 = s.blockout;
   return PromptGate.passStrict("imagePrompt", [
                 "SHOT: " + shotName(s.shot) + ", LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.",
-                "STYLE: " + styleLaw + ". The FIRST attached image is the art style; match it EXACTLY.",
-                "PALETTE: " + paletteLaw + ".",
+                "style.ref: image[0] — match its look EXACTLY",
+                "style.medium: " + styleLaw,
+                "style.palette: " + paletteLaw,
                 tmp,
                 match$2 !== undefined ? "STAGING: the attached grey BLOCKOUT is a 3D render of this exact moment — it is the authority on WHERE EVERY BODY STANDS and where the camera looks. Each coloured proxy marks one character by their own colour (green कुकु, pink-red फ्यूरिया, lilac लेडा, golden-yellow कैस्टर, pale blue वैस्पर, cream ऋषि, brown cart, cream cow): put that character exactly there, at that size, facing that way, on that ground. Paint the finished papercraft world over this arrangement — the blockout owns the positions, the style reference owns the look." : "",
                 "SCENE: " + s.scene,
-                "SUBJECTS:\n" + s.subjects.map(subjectText).join("\n"),
-                "SETTING: " + s.setting,
-                "LIGHTING: " + s.lighting,
-                "HARD RULES:\n" + bullets((
+                fieldBlock(s.subjects),
+                "setting.place: " + s.setting,
+                "light.state: " + s.lighting,
+                "world.rules:\n" + bullets((
                         s.subjects.some(isCharacter) ? worldFacts : ["this is an object/insert shot: the frame holds the place and the named objects alone"].concat(worldFacts)
                       ).concat(s.extraRules))
               ].join("\n"));
@@ -190,7 +325,7 @@ function editPrompt(e) {
                 "TASK: edit the attached image — apply ONLY the change below.",
                 "CHANGE: " + e.change,
                 "KEEP:\n" + bullets(editKeepLaw.concat(e.keep)),
-                "HARD RULES:\n" + bullets(worldFacts.concat(e.extraRules))
+                "world.rules:\n" + bullets(worldFacts.concat(e.extraRules))
               ].join("\n"));
 }
 
@@ -298,6 +433,8 @@ export {
   subjectText ,
   castLine ,
   isCharacter ,
+  subjectFields ,
+  fieldBlock ,
   imagePrompt ,
   editKeepLaw ,
   editPrompt ,

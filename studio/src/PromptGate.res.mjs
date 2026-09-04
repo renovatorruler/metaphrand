@@ -89,7 +89,11 @@ var greatForm = /GREAT FORM/;
 
 var subjectLine = /^- (KUKU|FYURIA|LEDA|CASTOR|VESPER|DADI|PAPA|KALU) — (.*)$/;
 
-var boilerplate = /^(?:SHOT:|STYLE:|SET PLATE|PAPER MATERIAL|STAGING:|CHARACTER REFERENCES|VIEWPOINT:|AUDIO:|CAMERA:)/;
+var fieldName = /^subject\[(\d+)\]\.name: (.+)$/;
+
+var fieldPose = /^subject\[(\d+)\]\.pose: (.+)$/;
+
+var boilerplate = /^(?:SHOT:|STYLE:|SET PLATE|PAPER MATERIAL|STAGING:|CHARACTER REFERENCES|VIEWPOINT:|AUDIO:|CAMERA:|style\.|set\.|object\.|cast\.|world\.|camera\.|light\.|setting\.|render\.|subject\[\d+\]\.(?:name|species|colour|scale|wears|look|state):|prop\[)/;
 
 function has(re, s) {
   return re.test(s);
@@ -111,8 +115,8 @@ function scanStrict(text) {
   var add = function (m) {
     out.contents = out.contents.concat([m]);
   };
-  var subjects = lines.reduce((function (acc, l) {
-          var m = l.match(subjectLine);
+  var idxName = lines.reduce((function (acc, l) {
+          var m = l.match(fieldName);
           if (m === null) {
             return acc;
           }
@@ -121,14 +125,59 @@ function scanStrict(text) {
           if (match !== undefined && match$1 !== undefined) {
             return acc.concat([[
                           match,
+                          match$1.trim()
+                        ]]);
+          } else {
+            return acc;
+          }
+        }), []);
+  var fieldSubjects = lines.reduce((function (acc, l) {
+          var m = l.match(fieldPose);
+          if (m === null) {
+            return acc;
+          }
+          var match = Caml_array.get(m, 1);
+          var match$1 = Caml_array.get(m, 2);
+          if (match === undefined) {
+            return acc;
+          }
+          if (match$1 === undefined) {
+            return acc;
+          }
+          var match$2 = idxName.find(function (param) {
+                return param[0] === match;
+              });
+          if (match$2 !== undefined) {
+            return acc.concat([[
+                          match$2[1],
                           match$1
                         ]]);
           } else {
             return acc;
           }
         }), []);
+  var subjects = fieldSubjects.concat(lines.reduce((function (acc, l) {
+              var m = l.match(subjectLine);
+              if (m === null) {
+                return acc;
+              }
+              var match = Caml_array.get(m, 1);
+              var match$1 = Caml_array.get(m, 2);
+              if (match !== undefined && match$1 !== undefined) {
+                return acc.concat([[
+                              match,
+                              match$1
+                            ]]);
+              } else {
+                return acc;
+              }
+            }), []));
   var lighting = Belt_Option.getWithDefault(Caml_option.undefined_to_opt(lines.find(function (l) {
-                return l.startsWith("LIGHTING:");
+                if (l.startsWith("LIGHTING:")) {
+                  return true;
+                } else {
+                  return l.startsWith("light.state:");
+                }
               })), "");
   lines.forEach(function (l) {
         var t = l.trim();
@@ -223,6 +272,8 @@ export {
   smallForm ,
   greatForm ,
   subjectLine ,
+  fieldName ,
+  fieldPose ,
   boilerplate ,
   has ,
   hasName ,

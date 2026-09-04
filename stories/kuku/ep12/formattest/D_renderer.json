@@ -1,0 +1,59 @@
+[
+  {
+    "created_at": "2026-09-04T18:54:02.465769Z",
+    "display_name": "Nano Banana Pro",
+    "id": "77f02aea-9e25-4eef-a41d-a91ddb5d0132",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260904_185402_77f02aea-9e25-4eef-a41d-a91ddb5d0132_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "5a4002f8-c800-4272-849f-53044b2ec876",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/5a4002f8-c800-4272-849f-53044b2ec876.png"
+        },
+        {
+          "id": "3b50e7ad-2d82-4c90-a82a-84c657f30c05",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/3b50e7ad-2d82-4c90-a82a-84c657f30c05_resize.jpg"
+        },
+        {
+          "id": "c8fef91b-55a4-4ca4-9914-39370d34cd88",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/c8fef91b-55a4-4ca4-9914-39370d34cd88_resize.jpg"
+        },
+        {
+          "id": "c37cf9f8-7db3-48c5-ad59-31d00304d72c",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/c37cf9f8-7db3-48c5-ad59-31d00304d72c_resize.jpg"
+        },
+        {
+          "id": "adc65bbf-023a-4f85-ae27-e2aa8239e5c6",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/adc65bbf-023a-4f85-ae27-e2aa8239e5c6_resize.jpg"
+        },
+        {
+          "id": "142f168d-5486-4423-869d-21c377ca19d7",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/142f168d-5486-4423-869d-21c377ca19d7_resize.jpg"
+        },
+        {
+          "id": "2007799d-083b-48f5-b957-64abd1b2bd96",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/2007799d-083b-48f5-b957-64abd1b2bd96_resize.jpg"
+        }
+      ],
+      "prompt": "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\nset.ref: image[1]\nset.rule: image[1] is this same location seen closer — identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light; every landmark inside this tighter frame sits where image[1] puts it\ncast.ref: every remaining attached image is a locked character design; match each EXACTLY, including the golden कड़ा\n\nSCENE: कुकु, फ्यूरिया, कैस्टर and वैस्पर leaning in together around the niche on लेडा's count, लेडा a little back with one claw raised, counting\nsubject[0].name: KUKU\nsubject[0].species: paper dragon child\nsubject[0].colour: green\nsubject[0].scale: knee high to a grown-up, the height of a human child\nsubject[0].wears: a golden कड़ा on one forearm\nsubject[0].pose: कुकु leans in toward the niche on लेडा's count\n\nsubject[1].name: FYURIA\nsubject[1].species: paper dragon child\nsubject[1].colour: bright pink-red\nsubject[1].scale: knee high to a grown-up, the height of a human child\nsubject[1].wears: a golden कड़ा on one forearm\nsubject[1].pose: फ्यूरिया leans in toward the niche beside कुकु, wings held tight\n\nsubject[2].name: LEDA\nsubject[2].species: paper dragon child\nsubject[2].colour: lilac-purple\nsubject[2].scale: knee high to a grown-up, the height of a human child\nsubject[2].wears: a golden कड़ा on one forearm\nsubject[2].pose: लेडा kneels a little back from the niche with one claw raised, counting\n\nsubject[3].name: CASTOR\nsubject[3].species: paper dragon child\nsubject[3].colour: golden-yellow\nsubject[3].scale: knee high to a grown-up, the height of a human child\nsubject[3].wears: a golden कड़ा on one forearm\nsubject[3].pose: कैस्टर leans in toward the niche at the right, both paws out\n\nsubject[4].name: VESPER\nsubject[4].species: paper dragon child\nsubject[4].colour: pale blue\nsubject[4].scale: knee high to a grown-up, the height of a human child\nsubject[4].wears: a golden कड़ा on one forearm\nsubject[4].pose: वैस्पर leans in toward the niche at the left\n\nsubject[5].name: THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick\nsubject[5].state: standing on the stone shelf of the niche with a single small flame upright on its wick\nsetting.place: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.\nlight.state: Night has come. The small flame in the niche is the one warm light, glowing on the paper stone closest to it, and the courtyard beyond falls away into soft blue shadow.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.\n- SMALL FORM: कुकु, फ्यूरिया, लेडा, कैस्टर, वैस्पर are each about knee high to a grown-up, and the low wall rises well above the small dragons' heads.\n- VIEWPOINT: A low three-quarter view across the seated group, the niche at the far side of the frame.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260904_185402_77f02aea-9e25-4eef-a41d-a91ddb5d0132.png",
+    "status": "completed"
+  }
+]

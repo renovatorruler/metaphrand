@@ -73,7 +73,10 @@ let darkLighting = %re("/darkness|night sky|one source of light/i")
 let smallForm = %re("/small everyday form/i")
 let greatForm = %re("/GREAT FORM/")
 let subjectLine = %re("/^- (KUKU|FYURIA|LEDA|CASTOR|VESPER|DADI|PAPA|KALU) — (.*)$/")
-let boilerplate = %re("/^(?:SHOT:|STYLE:|SET PLATE|PAPER MATERIAL|STAGING:|CHARACTER REFERENCES|VIEWPOINT:|AUDIO:|CAMERA:)/")
+/* hybrid form: subject[N].name / subject[N].pose */
+let fieldName = %re("/^subject\[(\d+)\]\.name: (.+)$/")
+let fieldPose = %re("/^subject\[(\d+)\]\.pose: (.+)$/")
+let boilerplate = %re("/^(?:SHOT:|STYLE:|SET PLATE|PAPER MATERIAL|STAGING:|CHARACTER REFERENCES|VIEWPOINT:|AUDIO:|CAMERA:|style\.|set\.|object\.|cast\.|world\.|camera\.|light\.|setting\.|render\.|subject\[\d+\]\.(?:name|species|colour|scale|wears|look|state):|prop\[)/")
 
 let has = (re, s) => Js.Re.test_(re, s)
 let hasName = ((latin, dev), s) => Js.String2.includes(s, latin) || Js.String2.includes(s, dev)
@@ -83,7 +86,32 @@ let scanStrict = (text: string): array<string> => {
   let out = ref([])
   let add = m => out := Js.Array2.concat(out.contents, [m])
   /* who is in this prompt, from its own subject lines */
-  let subjects = Js.Array2.reduce(lines, (acc, l) =>
+  /* pair each subject[N].name with its subject[N].pose */
+  let idxName = Js.Array2.reduce(lines, (acc, l) =>
+    switch Js.String2.match_(l, fieldName) {
+    | Some(m) =>
+      switch (m[1], m[2]) {
+      | (Some(i), Some(n)) => Js.Array2.concat(acc, [(i, Js.String2.trim(n))])
+      | _ => acc
+      }
+    | None => acc
+    }
+  , [])
+  let fieldSubjects = Js.Array2.reduce(lines, (acc, l) =>
+    switch Js.String2.match_(l, fieldPose) {
+    | Some(m) =>
+      switch (m[1], m[2]) {
+      | (Some(i), Some(pose)) =>
+        switch Js.Array2.find(idxName, ((j, _)) => j == i) {
+        | Some((_, n)) => Js.Array2.concat(acc, [(n, pose)])
+        | None => acc
+        }
+      | _ => acc
+      }
+    | None => acc
+    }
+  , [])
+  let subjects = Js.Array2.concat(fieldSubjects, Js.Array2.reduce(lines, (acc, l) =>
     switch Js.String2.match_(l, subjectLine) {
     | Some(m) =>
       switch (m[1], m[2]) {
@@ -92,8 +120,8 @@ let scanStrict = (text: string): array<string> => {
       }
     | None => acc
     }
-  , [])
-  let lighting = Js.Array2.find(lines, l => Js.String2.startsWith(l, "LIGHTING:"))->Belt.Option.getWithDefault("")
+  , []))
+  let lighting = Js.Array2.find(lines, l => Js.String2.startsWith(l, "LIGHTING:") || Js.String2.startsWith(l, "light.state:"))->Belt.Option.getWithDefault("")
   Js.Array2.forEach(lines, l => {
     let t = Js.String2.trim(l)
     if t != "" && !has(boilerplate, t) {

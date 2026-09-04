@@ -1,0 +1,59 @@
+[
+  {
+    "created_at": "2026-09-04T15:41:25.385961Z",
+    "display_name": "Nano Banana Pro",
+    "id": "ab892668-4ef8-4ebb-ae91-3c66a6205aae",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260904_154125_ab892668-4ef8-4ebb-ae91-3c66a6205aae_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "fa69b350-834f-427b-8bfe-d02eecbdd89c",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/fa69b350-834f-427b-8bfe-d02eecbdd89c.png"
+        },
+        {
+          "id": "cb44353a-fc07-4351-9db5-de88d0e59c94",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/cb44353a-fc07-4351-9db5-de88d0e59c94_resize.jpg"
+        },
+        {
+          "id": "2574cab3-80d6-483a-a86d-fff49963af0d",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/2574cab3-80d6-483a-a86d-fff49963af0d_resize.jpg"
+        },
+        {
+          "id": "04c96213-4408-4589-87e4-7a83ee22eb43",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/04c96213-4408-4589-87e4-7a83ee22eb43_resize.jpg"
+        },
+        {
+          "id": "a80c4773-adbc-4efa-b477-7f2e82636f1e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/a80c4773-adbc-4efa-b477-7f2e82636f1e_resize.jpg"
+        },
+        {
+          "id": "028773ab-18c7-4ee5-a97f-5b915b0eb1d4",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/028773ab-18c7-4ee5-a97f-5b915b0eb1d4_resize.jpg"
+        },
+        {
+          "id": "db71ecc2-b7f0-442e-a0d5-385157c4f3a3",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/db71ecc2-b7f0-442e-a0d5-385157c4f3a3_resize.jpg"
+        }
+      ],
+      "prompt": "SCENE: कुकु, फ्यूरिया, कैस्टर and वैस्पर lean in together around the niche on लेडा's count, and लेडा kneels a little back with one claw raised, counting.\n\nformat: scene-graph/1\nrender.shot: MEDIUM\nrender.aspect: 16:9\nrender.frame: full-bleed, camera inside the world\nstyle.ref: image[0]\nstyle.medium: 3D papercraft, layered cut paper, matte construction-paper texture, visible paper edges and folds\nstyle.palette: bright, vibrant, warm storybook, fully saturated\nset.ref: image[1]\nset.rule: same location as image[1]; identical ground, walls, kerbs, textures, palette, light; landmarks inside this frame sit where image[1] puts them\nset.place: दादी's courtyard — square of pale paper flagstone, walled on every side; low wall of cut paper blocks on the valley side; square niche set into that wall; wooden paper door in the taller wall; paper hills of the valley beyond\nlight.time: night\nlight.key: the flame in the niche, the one warm light\nlight.falloff: glow on the paper stone nearest the flame; the courtyard beyond in soft blue shadow\n\nsubject[0].name: कुकु\nsubject[0].species: paper dragon child\nsubject[0].colour: green\nsubject[0].scale: knee high to a grown-up; the low wall rises well above the head\nsubject[0].wears: golden कड़ा on one forearm\nsubject[0].pose: leans in toward the niche on लेडा's count\n\nsubject[1].name: फ्यूरिया\nsubject[1].species: paper dragon child\nsubject[1].colour: bright pink-red\nsubject[1].scale: knee high to a grown-up; the low wall rises well above the head\nsubject[1].wears: golden कड़ा on one forearm\nsubject[1].pose: leans in toward the niche beside कुकु, wings held tight\n\nsubject[2].name: लेडा\nsubject[2].species: paper dragon child\nsubject[2].colour: lilac-purple\nsubject[2].scale: knee high to a grown-up; the low wall rises well above the head\nsubject[2].wears: golden कड़ा on one forearm\nsubject[2].pose: kneels a little back from the niche, one claw raised, counting\n\nsubject[3].name: कैस्टर\nsubject[3].species: paper dragon child\nsubject[3].colour: golden-yellow\nsubject[3].scale: knee high to a grown-up; the low wall rises well above the head\nsubject[3].wears: golden कड़ा on one forearm\nsubject[3].pose: leans in toward the niche at the right, both paws out\n\nsubject[4].name: वैस्पर\nsubject[4].species: paper dragon child\nsubject[4].colour: pale blue\nsubject[4].scale: knee high to a grown-up; the low wall rises well above the head\nsubject[4].wears: golden कड़ा on one forearm\nsubject[4].pose: leans in toward the niche at the left\n\nprop[0].name: THE DIYA\nprop[0].form: small round clay paper lamp, shallow dish, pinched lip, short cotton wick\nprop[0].place: on the stone shelf of the niche\nprop[0].state: one small flame upright on the wick\n\ncamera.viewpoint: low three-quarter across the seated group, the niche at the far side of the frame\nworld.creatures: only the subjects listed above\nworld.material: every surface — stone, wood, cloth, sky — is plain blank paper, cut pieces with real thickness, soft rounded edges, fine paper grain, each piece casting a small soft shadow on the one behind",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260904_154125_ab892668-4ef8-4ebb-ae91-3c66a6205aae.png",
+    "status": "completed"
+  }
+]

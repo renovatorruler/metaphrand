@@ -1,0 +1,59 @@
+[
+  {
+    "created_at": "2026-09-04T15:41:27.025689Z",
+    "display_name": "Nano Banana Pro",
+    "id": "65747d4a-4245-4485-81e9-5d5fa4629d30",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260904_154127_65747d4a-4245-4485-81e9-5d5fa4629d30_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "54729ad1-2dc1-4ca5-b301-905193c93bd6",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/54729ad1-2dc1-4ca5-b301-905193c93bd6.png"
+        },
+        {
+          "id": "dd351fb4-a2a5-4a6e-afd2-8be658dd513d",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/dd351fb4-a2a5-4a6e-afd2-8be658dd513d_resize.jpg"
+        },
+        {
+          "id": "8bda4e77-787d-4745-9f3e-e502d068b7e8",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/8bda4e77-787d-4745-9f3e-e502d068b7e8_resize.jpg"
+        },
+        {
+          "id": "0d65557a-dbce-41ea-8aa9-2a5a44aabe8b",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/0d65557a-dbce-41ea-8aa9-2a5a44aabe8b_resize.jpg"
+        },
+        {
+          "id": "565d40de-231b-43fd-bc70-a8f7993a6376",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/565d40de-231b-43fd-bc70-a8f7993a6376_resize.jpg"
+        },
+        {
+          "id": "f05a1eee-1c54-4cfb-8fe3-57b1e74d750d",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/f05a1eee-1c54-4cfb-8fe3-57b1e74d750d_resize.jpg"
+        },
+        {
+          "id": "6152845a-1b69-4570-9d8f-e10a98ea3bcc",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/6152845a-1b69-4570-9d8f-e10a98ea3bcc_resize.jpg"
+        }
+      ],
+      "prompt": "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nSTYLE: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world. The FIRST attached image is the art style; match it EXACTLY.\nPALETTE: bright, vibrant, warm storybook palette, every colour full and saturated.\nSET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place stays itself: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and every landmark of it that falls inside this tighter frame sits exactly where the plate puts it. Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet.\n\nSCENE: कुकु, फ्यूरिया, कैस्टर and वैस्पर leaning in together around the niche on लेडा's count, लेडा a little back with one claw raised, counting\nSUBJECTS:\n- KUKU — green paper dragon, small everyday form: a small paper dragon child, the height of a human child, wearing a golden कड़ा on one forearm. कुकु leans in toward the niche on लेडा's count\n- FYURIA — bright pink-red paper dragon, small everyday form: a small paper dragon child, the height of a human child, wearing a golden कड़ा on one forearm. फ्यूरिया leans in toward the niche beside कुकु, wings held tight\n- LEDA — lilac-purple paper dragon, small everyday form: a small paper dragon child, the height of a human child, wearing a golden कड़ा on one forearm. लेडा kneels a little back from the niche with one claw raised, counting\n- CASTOR — golden-yellow paper dragon, small everyday form: a small paper dragon child, the height of a human child, wearing a golden कड़ा on one forearm. कैस्टर leans in toward the niche at the right, both paws out\n- VESPER — pale blue paper dragon, small everyday form: a small paper dragon child, the height of a human child, wearing a golden कड़ा on one forearm. वैस्पर leans in toward the niche at the left\n- THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick — standing on the stone shelf of the niche with a single small flame upright on its wick\nSETTING: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.\nLIGHTING: Night has come. The small flame in the niche is the one warm light, glowing on the paper stone closest to it, and the courtyard beyond falls away into soft blue shadow.\nHARD RULES:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.\n- SMALL FORM: कुकु, फ्यूरिया, लेडा, कैस्टर, वैस्पर are each about knee high to a grown-up, and the low wall rises well above the small dragons' heads.\n- VIEWPOINT: A low three-quarter view across the seated group, the niche at the far side of the frame.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260904_154127_65747d4a-4245-4485-81e9-5d5fa4629d30.png",
+    "status": "completed"
+  }
+]

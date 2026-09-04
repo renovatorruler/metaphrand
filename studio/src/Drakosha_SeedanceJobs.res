@@ -935,6 +935,52 @@ let all: array<jobSpec> = [
      directly." It prices identically to 2.5 at this length — 58.5 credits for 9s, probed
      both ways — so there is nothing to trade off. Cinema Studio 4.0 accepts video uploads
      up to 30s; the blockout is 9s. */
+  /* SCENE 10, SP150 — SHE CANNOT GET ROUND HIM. She rides at one end of him, he strolls
+     over and lies across it before she arrives; she walks the scooter back on foot and
+     tries the other end, and he gets up, turns himself round and lies across that one too.
+
+     THE BLOCK CARRIES WHERE AND WHEN, NOTHING ELSE. Three positions and the times he is
+     at them. Everything a cat actually does — getting up front-end first, turning on his
+     own axis with the tail bending after him like a train, circling once before he flops
+     — is in the prompt, because a grey blob cannot say it. Author, 2026-09-04: "there is
+     no way we can reproduce this motion with a block... I think it's the prompt that
+     should be doing it." The tutorial agrees: "the grey box handles camera timing and the
+     references handle visuals."
+
+     LOCKED ON THE AMBUSH'S OWN CAMERA, opening on its last frame to the decimal. He beats
+     her twice in identical framing, which is what makes him read as a wall; a push-in
+     would say something is changing when the point is that nothing is. The scale change
+     belongs on the CUT into SP151, where she acts.
+
+     NO DIALOGUE. SP151's «Ах так… Б-А-К. БАК!» is not this shot and is not one shot at
+     all: in this show the letters are spoken AS THEY ARE WRITTEN, so «Ах так…» plays on
+     the close-up that follows and «Б-А-К. БАК!» belongs inside the spell-casting
+     sequence. line82 will need splitting at the ellipsis. */
+  /* START FRAME, NOT BLOCKING. Author, 2026-09-04: "it's either with a start frame or
+     it's with a blockout. It cannot be both, and I want to go the start frame route."
+     The one job that ever sent both went out with startImage EMPTY — the frame was
+     silently dropped — so pairing them is not a thing this pipeline actually does.
+     The frame is the last frame of the ambush, so the cut is invisible by construction
+     rather than by description, and every position and time now lives in the words. */
+  job(
+    "s10weave",
+    "SH169",
+    [FrosyaPencil, VasyaCat],
+    /* NO @ROAD. The start frame IS the road, at the right angle and the right light;
+       a set plate alongside it can only argue with the picture we are starting from.
+       Author, 2026-09-04: "I don't think it makes sense to attach a road reference
+       when we have a start frame."
+
+       @PLATE INSTEAD: the author's clean plate of this exact frame with nobody in it, so
+       when the cat walks off a mark the model has the real boards, wall and posts that
+       were behind him. "Here's the background you can attach in case it doesn't know
+       what's behind the characters, and this way it exactly matches what's in the
+       frame." */
+    [ScooterCutout, RoadPlate],
+    Some("2026-09-04_S10_WEAVE_start_from_ambush_last.png"),
+    8,
+    Mini,
+  ),
   blockoutJob(
     "s10catjump",
     "SH163-166",

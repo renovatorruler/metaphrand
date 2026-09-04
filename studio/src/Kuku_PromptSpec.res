@@ -169,40 +169,106 @@ let isCharacter = s =>
   | _ => true
   }
 
+
+/* ============================================================================
+   THE HYBRID FORM (measured 2026-09-04, three formats on one shot, 6 credits).
+
+   Pure prose lost a character: the SUBJECTS paragraph let five descriptions blur
+   and only four dragons were staged. Pure key/value fields kept the naming law
+   perfectly — a collective noun has nowhere to live when every pose is the value
+   of a named key — but the model lost its grip on the moment and वैस्पर fell out
+   of the frame entirely.
+
+   The hybrid rendered all five, correct colours, correct scale, plate intact: ONE
+   prose sentence to say what moment this is, and fields for everything a sentence
+   was never needed for. It is also 14% shorter. The naming law stops being a
+   regex we police and becomes a shape the prompt cannot violate.
+   ============================================================================ */
+let subjectFields = (i, s) => {
+  let k = "subject[" ++ Belt.Int.toString(i) ++ "]"
+  let rows = switch s {
+  | Dragon({name, form, doing}) => [
+      (k ++ ".name", nameOf(name)),
+      (k ++ ".species", "paper dragon child"),
+      (k ++ ".colour", colorOf(name)),
+      (
+        k ++ ".scale",
+        form == Great
+          ? "about seven metres tall — a grown man would reach only to this dragon's knee; the size in the picture depends on how far the viewpoint stands, so in a wide shot this dragon may be a small figure and still be enormous"
+          : "knee high to a grown-up, the height of a human child",
+      ),
+      (k ++ ".wears", "a golden कड़ा on one forearm"),
+      (k ++ ".pose", doing),
+    ]
+  | Gauri({doing}) => [
+      (k ++ ".name", "GAURI"),
+      (k ++ ".species", "paper cow"),
+      (k ++ ".colour", "brown and white, dark paper eyes"),
+      (k ++ ".wears", "a plain rope halter and only that; neck and legs otherwise bare"),
+      (k ++ ".pose", doing),
+    ]
+  | RishiMuni({doing}) => [
+      (k ++ ".name", "RISHI"),
+      (k ++ ".species", "elder paper dragon guru from the attached sheet"),
+      (k ++ ".look", "white-maned and white-bearded, pale horns, an ochre robe, a wooden staff"),
+      (k ++ ".pose", doing),
+    ]
+  | Dadi({doing}) => [
+      (k ++ ".name", "DADI"),
+      (k ++ ".species", "paper grandmother from the attached sheet"),
+      (k ++ ".pose", doing),
+    ]
+  | Cheel({doing}) => [
+      (k ++ ".name", "CHEEL"),
+      (k ++ ".species", "great paper eagle, sharp-eyed, imposing"),
+      (k ++ ".pose", doing),
+    ]
+  | Prop({what, doing}) => [(k ++ ".name", what), (k ++ ".state", doing)]
+  }
+  Js.Array2.joinWith(Js.Array2.map(rows, ((key, v)) => key ++ ": " ++ v), "\n")
+}
+
+let fieldBlock = subjects =>
+  Js.Array2.joinWith(Js.Array2.mapi(subjects, (s, i) => subjectFields(i, s)), "\n\n")
+
 let imagePrompt = (s: imageSpec) =>
   PromptGate.passStrict(~which="imagePrompt", Js.Array2.joinWith(
     [
       "SHOT: " ++ shotName(s.shot) ++ ", LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.",
-      "STYLE: " ++ styleLaw ++ ". The FIRST attached image is the art style; match it EXACTLY.",
-      "PALETTE: " ++ paletteLaw ++ ".",
+      "style.ref: image[0] — match its look EXACTLY",
+      "style.medium: " ++ styleLaw,
+      "style.palette: " ++ paletteLaw,
       switch s.plate {
       | Some(_) =>
         /* a wide shot stands where the plate stands; a close shot is the same
            place seen from nearer, so it must inherit materials and landmarks
            without being forced back to the plate's camera */
+        "set.ref: image[1]\n" ++
         (switch s.shot {
         | Wide | WideLow | WideAction | HighWide | MediumWide | WideAbstract =>
-          "SET PLATE: the SECOND attached image IS this location, already built — reproduce it faithfully: the same ground, the same landmarks in the same places, the same walls, kerbs and horizon, the same camera vantage, the same architecture throughout."
+          "set.rule: image[1] IS this location, already built — same ground, same landmarks in the same places, same walls, kerbs and horizon, same camera vantage, same architecture"
         | Medium | CloseMedium | Close | Insert | CloseAbstract =>
-          "SET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place stays itself: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and every landmark of it that falls inside this tighter frame sits exactly where the plate puts it."
+          "set.rule: image[1] is this same location seen closer — identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light; every landmark inside this tighter frame sits where image[1] puts it"
         }) ++
         (Js.Array2.length(s.objects) > 0
-          ? " The image after the plate is a locked STORY OBJECT: the same forged shape appears in other shots and is reproduced with identical form, proportion, colour and material every single time."
+          ? "\nobject.ref: the image after the plate is a locked story object — identical form, proportion, colour and material every time it appears"
           : "") ++
-        " Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet."
+        "\ncast.ref: every remaining attached image is a locked character design; match each EXACTLY, including the golden कड़ा"
       | None =>
-        "CHARACTER REFERENCES: every attached image after the first is a locked character design; match each EXACTLY, including the golden bracelet."
+        "cast.ref: every attached image after the first is a locked character design; match each EXACTLY, including the golden कड़ा"
       },
       switch s.blockout {
       | Some(_) =>
         "STAGING: the attached grey BLOCKOUT is a 3D render of this exact moment — it is the authority on WHERE EVERY BODY STANDS and where the camera looks. Each coloured proxy marks one character by their own colour (green कुकु, pink-red फ्यूरिया, lilac लेडा, golden-yellow कैस्टर, pale blue वैस्पर, cream ऋषि, brown cart, cream cow): put that character exactly there, at that size, facing that way, on that ground. Paint the finished papercraft world over this arrangement — the blockout owns the positions, the style reference owns the look."
       | None => ""
       },
+      /* the ONE sentence: what moment this is */
       "SCENE: " ++ s.scene,
-      "SUBJECTS:\n" ++ Js.Array2.joinWith(Js.Array2.map(s.subjects, subjectText), "\n"),
-      "SETTING: " ++ s.setting,
-      "LIGHTING: " ++ s.lighting,
-      "HARD RULES:\n" ++
+      /* everything a sentence was never needed for */
+      fieldBlock(s.subjects),
+      "setting.place: " ++ s.setting,
+      "light.state: " ++ s.lighting,
+      "world.rules:\n" ++
       bullets(
         Js.Array2.concat(
           Js.Array2.some(s.subjects, isCharacter)
@@ -231,7 +297,7 @@ let editPrompt = (e: editSpec) =>
       "TASK: edit the attached image — apply ONLY the change below.",
       "CHANGE: " ++ e.change,
       "KEEP:\n" ++ bullets(Js.Array2.concat(editKeepLaw, e.keep)),
-      "HARD RULES:\n" ++ bullets(Js.Array2.concat(worldFacts, e.extraRules)),
+      "world.rules:\n" ++ bullets(Js.Array2.concat(worldFacts, e.extraRules)),
     ],
     "\n",
   ))

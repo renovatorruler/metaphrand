@@ -33,7 +33,7 @@ type castToken = VasyaNoFace | Frosya | FrosyaPencil | Vasya | VasyaPouch | Mama
    was "reverse", which has no fixed referent — the reverse of the front is the
    back and the reverse of the back is the front — so nothing written with that
    word could be checked. Do not reintroduce it. */
-type propToken = VasyaArm | FloorTopdown | RoadWall | ScooterCutout | ScooterPlaced | TwoMamas | FloorAfter | RoomFront | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Stupa | Pomelo | Broom | Top | Tin | Chest | Tiles | Pouch | Pencil | Scooter | Road | Tank | Thread | Cake | Juice | Salad | Poppy
+type propToken = RoadPlate | VasyaArm | FloorTopdown | RoadWall | ScooterCutout | ScooterPlaced | TwoMamas | FloorAfter | RoomFront | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Stupa | Pomelo | Broom | Top | Tin | Chest | Tiles | Pouch | Pencil | Scooter | Road | Tank | Thread | Cake | Juice | Salad | Poppy
 
 type shotRecord = {
   jobId: string, // "job12"
@@ -527,6 +527,17 @@ let propEntry = (t: propToken): propEntry =>
          tight, and she would be entering and leaving frame almost on top of him. */
       refPath: "SET-ROAD-01_author_wall_straight_posts_wide_COOL.png",
     })
+  /* THE CLEAN PLATE, MADE BY THE AUTHOR TO MATCH ONE START FRAME EXACTLY. Same camera,
+     same lens, same light, nobody in it — so when a character walks off a mark the model
+     has the actual boards, wall and posts that were behind them rather than an invention.
+     This is NOT @ROAD: @ROAD is the master set plate at its own angle and will fight a
+     start frame. Bind this one only with the start frame it was built for. */
+  | RoadPlate =>
+    Backed({
+      tag: "@PLATE",
+      tagLine: "@PLATE: the empty road behind them, with nobody in it. 100% matches the reference.",
+      refPath: "SET-ROAD-02_clean_plate_author.png",
+    })
   | Road =>
     Backed({
       tag: "@ROAD",
@@ -729,7 +740,7 @@ let propScale = (t: propToken): option<string> =>
      — were each worse than the image, and the last of them was still sitting in
      the prompt after I wrote a comment claiming I had removed it. */
   | Scooter | ScooterCutout => None
-  | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Tiles | Pouch | Road | Tank | Thread | Cake | Juice | Salad | Poppy | FloorAfter | TwoMamas => None
+  | RoomFrontLow | RoomFrontHatch | RoomBack | SeatingScene5 | Carry | Roof | Door | Tiles | Pouch | Road | Tank | Thread | Cake | Juice | Salad | Poppy | FloorAfter | TwoMamas | RoadPlate => None
   }
 
 /* The creative text may not smuggle tag lines past the emitter: any "@" is a
