@@ -133,12 +133,12 @@ let posed = (st: puppetState, poses: array<(partName, partPose)>): puppetState =
    relaxed behind him, arms down. Every state begins here and adds to it —
    later entries in a pose list win, so a shot overrides only what it moves. */
 let wingAt = (a, s) => {angle: Deg(a), dx: Px(0.0), dy: Px(0.0), s: Scale(s)}
-let restWingNear = -78.0
-let restWingFar = -8.0
+let restWingNear = -45.0
+let restWingFar = 15.0
 let restArm = 62.0
 let canonical = [
-  (wingNear, wingAt(restWingNear, 0.56)),
-  (wingFar, wingAt(restWingFar, 0.65)),
+  (wingNear, wingAt(restWingNear, 0.6)),
+  (wingFar, wingAt(restWingFar, 0.6)),
   (armNear, turn(-.restArm)),
   (armFar, turn(restArm)),
 ]
@@ -239,8 +239,8 @@ let runIn = async () => {
         (legFar, turn(-.legs(t) -. brace(t))),
         (armNear, turn(-.restArm -. armSwing(t))),
         (armFar, turn(restArm -. armSwing(t))),
-        (wingNear, wingAt(restWingNear +. flutter(t), 0.56)),
-        (wingFar, wingAt(restWingFar -. flutter(t), 0.65)),
+        (wingNear, wingAt(restWingNear +. flutter(t), 0.6)),
+        (wingFar, wingAt(restWingFar -. flutter(t), 0.6)),
         (tail, turn(6.0 *. running(t) *. Js.Math.sin(2.0 *. Js.Math._PI *. f *. secf(t) -. 1.2))),
         (head, turn(-0.5 *. lean(t) +. 2.0 *. running(t) *. stride(t) +. look(t))),
       ],
