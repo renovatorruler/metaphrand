@@ -68,6 +68,11 @@ type buffer
 @set external setLineWidth: (ctx, float) => unit = "lineWidth"
 @set external setLineCap: (ctx, string) => unit = "lineCap"
 @send external stroke: ctx => unit = "stroke"
+@set external setCompositeOp: (ctx, string) => unit = "globalCompositeOperation"
+type gradient
+@send external createRadialGradient: (ctx, float, float, float, float, float, float) => gradient = "createRadialGradient"
+@send external addColorStop: (gradient, float, string) => unit = "addColorStop"
+@set external setFillGradient: (ctx, gradient) => unit = "fillStyle"
 
 @module("fs") external readFileBuffer: string => buffer = "readFileSync"
 @module("fs") external writeFileBuffer: (string, buffer) => unit = "writeFileSync"
@@ -109,7 +114,17 @@ type partSpec = {
    the boundary where a shot is authored. */
 type small
 type great
-type rigSpec<'form> = {sprite: imagePath, parts: array<partSpec>, partsDir: string}
+/* A PATCH: an alternative picture of a small region — a mouth shape — drawn in
+   its parent part's space at a sprite-space box, shown when the state names
+   it. The sprite's own mouth shows when no patch is named. */
+type patchSpec = {patch: string, image: imagePath, parent: partName, at: spritePoint}
+type rigSpec<'form> = {
+  sprite: imagePath,
+  parts: array<partSpec>,
+  patches: array<patchSpec>,
+  feet: spritePoint, /* the ground contact point, in sprite space */
+  partsDir: string,
+}
 
 /* How one part is posed at one instant: an angle about its pivot, a nudge, a
    scale about the same pivot. Rest is the sprite as generated. */
@@ -127,6 +142,7 @@ type puppetState = {
   bank: deg,
   parts: Js.Dict.t<partPose>,
   opacity: alpha,
+  mouth: option<string>, /* the patch showing, if any */
 }
 
 let poseOf = (st, PartName(n)) =>
@@ -137,7 +153,27 @@ let poseOf = (st, PartName(n)) =>
 
 /* A cut part, ready to draw: its image and where its box sits in sprite space. */
 type part = {spec: partSpec, img: image, ox: float, oy: float}
-type rig<'form> = {spec: rigSpec<'form>, parts: array<part>, spriteW: float, spriteH: float}
+type rig<'form> = {
+  spec: rigSpec<'form>,
+  parts: array<part>,
+  patches: array<(patchSpec, image)>,
+  spriteW: float,
+  spriteH: float,
+}
+
+/* a puppet standing on the ground at a stage point, every part at rest */
+let stand = (_spec: rigSpec<'form>, ~feetX, ~feetY, ~size, ~facingLeft=true, ()) => {
+  {
+    x: Px(feetX),
+    y: Px(feetY),
+    size: Scale(size),
+    facingLeft,
+    bank: Deg(0.0),
+    parts: Js.Dict.empty(),
+    opacity: Alpha(1.0),
+    mouth: None,
+  }
+}
 
 let partFile = (dir, PartName(n)) => join(dir, n ++ ".png")
 let partMeta = (dir, PartName(n)) => join(dir, n ++ ".box.json")
@@ -198,7 +234,13 @@ let loadRig = async (r: rigSpec<'form>): rig<'form> => {
     let img = await loadImage(ImagePath(partFile(r.partsDir, p.name)))
     ignore(Js.Array2.push(parts, {spec: p, img, ox: num("x"), oy: num("y")}))
   }
-  {spec: r, parts, spriteW: imageWidth(sprite), spriteH: imageHeight(sprite)}
+  let patches: array<(patchSpec, image)> = []
+  for i in 0 to Js.Array2.length(r.patches) - 1 {
+    let ps = r.patches[i]
+    let img = await loadImage(ps.image)
+    ignore(Js.Array2.push(patches, (ps, img)))
+  }
+  {spec: r, parts, patches, spriteW: imageWidth(sprite), spriteH: imageHeight(sprite)}
 }
 
 /* the chain of ancestors, root first, so nested rotations compose in order */
@@ -226,9 +268,14 @@ let applyPose = (c, st, p: part) => {
 let drawPuppet = (c, rg: rig<'form>, st: puppetState) => {
   save(c)
   setGlobalAlpha(c, switch st.opacity { | Alpha(a) => a })
+  /* the state's x, y is where the FEET stand on the stage; the puppet banks
+     about that point and mirrors about it, so a mirrored puppet stands exactly
+     where an unmirrored one would */
+  let (Px(fx), Px(fy)) = rg.spec.feet
   translate(c, pxf(st.x), pxf(st.y))
   rotate(c, rad(st.bank))
   scaleCtx(c, scalef(st.size) *. (st.facingLeft ? 1.0 : -1.0), scalef(st.size))
+  translate(c, -.fx, -.fy)
   let ordered = Js.Array2.copy(rg.parts)
   ignore(Js.Array2.sortInPlaceWith(ordered, (a, b) => a.spec.z - b.spec.z))
   Js.Array2.forEach(ordered, p => {
@@ -260,8 +307,60 @@ let drawPuppet = (c, rg: rig<'form>, st: puppetState) => {
     | None => ()
     }
   })
+  /* the named patch, in its parent's space, over everything */
+  switch st.mouth {
+  | Some(m) =>
+    Js.Array2.forEach(rg.patches, ((ps, img)) =>
+      if ps.patch == m {
+        save(c)
+        Js.Array2.forEach(lineage(rg, ps.parent), anc => applyPose(c, st, anc))
+        let (Px(ax), Px(ay)) = ps.at
+        drawImage(c, img, ax, ay)
+        restore(c)
+      }
+    )
+  | None => ()
+  }
   restore(c)
 }
+
+/* ------------------------------------------------------------- speech */
+/* Rhubarb's viseme track decides which mouth patch shows at an instant.
+   A (rest) and X (silence) show the sprite's own mouth. */
+type viseme = {from: float, to_: float, shape: string}
+let visemes = (path: string): array<viseme> => {
+  let j = Js.Json.parseExn(readFileSync(path, "utf8"))
+  let cues =
+    j
+    ->Js.Json.decodeObject
+    ->Belt.Option.flatMap(o => Js.Dict.get(o, "mouthCues"))
+    ->Belt.Option.flatMap(Js.Json.decodeArray)
+    ->Belt.Option.getWithDefault([])
+  Js.Array2.map(cues, cue => {
+    let o = cue->Js.Json.decodeObject->Belt.Option.getWithDefault(Js.Dict.empty())
+    let num = k => Js.Dict.get(o, k)->Belt.Option.flatMap(Js.Json.decodeNumber)->Belt.Option.getWithDefault(0.0)
+    let str = k => Js.Dict.get(o, k)->Belt.Option.flatMap(Js.Json.decodeString)->Belt.Option.getWithDefault("X")
+    {from: num("start"), to_: num("end"), shape: str("value")}
+  })
+}
+let rhubarbMouth = shape =>
+  switch shape {
+  | "E" | "F" => Some("round")
+  | "D" => Some("open")
+  | "B" | "C" | "G" | "H" => Some("half")
+  | _ => None
+  }
+let mouthAt = (vs: array<viseme>, ~map=rhubarbMouth, t: sec) =>
+  switch Js.Array2.find(vs, v => secf(t) >= v.from && secf(t) < v.to_) {
+  | Some(v) => map(v.shape)
+  | None => None
+  }
+/* how much talking is happening around t: 1 inside a non-rest cue, easing off */
+let talking = (vs: array<viseme>, t: sec) =>
+  switch Js.Array2.find(vs, v => secf(t) >= v.from && secf(t) < v.to_) {
+  | Some(v) => v.shape == "X" || v.shape == "A" ? 0.0 : 1.0
+  | None => 0.0
+  }
 
 /* ----------------------------------------------------------- animation */
 /* keyframes with eased interpolation; before the first key holds the first
@@ -429,3 +528,35 @@ let contactSheet = (~video, ~out, ~cols, ~rows, ~everySec) =>
     "-vf", "fps=1/" ++ Js.Float.toString(everySec) ++ ",scale=320:-1,tile=" ++ Belt.Int.toString(cols) ++ "x" ++ Belt.Int.toString(rows),
     "-frames:v", "1", out,
   ])
+
+/* -------------------------------------------------------------- light */
+/* The one plate, graded in code: a multiply tint darkens and colours the whole
+   stage; a glow adds light around a point. Same geometry in every state, so
+   the courtyard can never drift between dusk, lamp-night, dark and golden. */
+let tintLayer = (~z, ~colour, ~w, ~h) => {
+  z,
+  draw: (c, _t) => {
+    save(c)
+    setCompositeOp(c, "multiply")
+    setFillStyle(c, colour)
+    fillRect(c, -.pxf(w), -.pxf(h), 3.0 *. pxf(w), 3.0 *. pxf(h))
+    restore(c)
+  },
+}
+type glow = {gx: px, gy: px, radius: px, strength: alpha}
+let glowLayer = (~z, ~colour, ~glow: sec => glow) => {
+  z,
+  draw: (c, t) => {
+    let g = glow(t)
+    let (Px(x), Px(y), Px(r)) = (g.gx, g.gy, g.radius)
+    save(c)
+    setCompositeOp(c, "lighter")
+    setGlobalAlpha(c, switch g.strength { | Alpha(a) => a })
+    let grad = createRadialGradient(c, x, y, 0.0, x, y, r)
+    addColorStop(grad, 0.0, colour)
+    addColorStop(grad, 1.0, "rgba(0,0,0,0)")
+    setFillGradient(c, grad)
+    fillRect(c, x -. r, y -. r, 2.0 *. r, 2.0 *. r)
+    restore(c)
+  },
+}

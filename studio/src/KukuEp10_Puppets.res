@@ -8,7 +8,6 @@
 //   node src/KukuEp10_Puppets.res.mjs check     # rest pose + exploded pose, on grey
 //   node src/KukuEp10_Puppets.res.mjs fly       # the proof: कुकु flies in and lands at the niche
 
-@module("fs") external mkdirSync: (string, {"recursive": bool}) => unit = "mkdirSync"
 @module("process") external cwd: unit => string = "cwd"
 @module("process") external argv: array<string> = "argv"
 
@@ -40,6 +39,8 @@ let tail = PartName("tail")
 let kukuRig: rigSpec<small> = {
   sprite: ImagePath(root ++ "cutout/sprites/kuku_spread.png"),
   partsDir: root ++ "cutout/parts/kuku/",
+  patches: [], /* his mouth shapes are not made yet: four edits, 8 credits */
+  feet: p(1140.0, 1420.0),
   parts: [
     {
       name: torso,
@@ -109,22 +110,42 @@ let kukuRig: rigSpec<small> = {
   ],
 }
 
-/* the point between his feet, in sprite space: what stands on the ground */
-let feet = (1140.0, 1420.0)
+/* ------------------------------------------------------------ दादी's rig */
+/* Her sprite is the standing pose on green (1706x1536 after the crop that
+   removed the leaked wall), facing LEFT. Two parts — head with neck, and
+   everything else — are enough for dialogue: the head nods on its neck, and
+   her mouth shapes are the registered patches already cut for the first proof. */
+let dHead = PartName("head")
+let dBody = PartName("body")
+let dadiRig: rigSpec<small> = {
+  sprite: ImagePath(root ++ "cutout/sprites/dadi_stand.png"),
+  partsDir: root ++ "cutout/parts/dadi/",
+  feet: p(860.0, 1380.0),
+  parts: [
+    {
+      name: dBody,
+      parent: None,
+      pivot: p(900.0, 1000.0),
+      z: 1,
+      outline: [p(600.0, 660.0), p(960.0, 660.0), p(965.0, 560.0), p(990.0, 300.0), p(1460.0, 270.0), p(1706.0, 600.0), p(1706.0, 1450.0), p(540.0, 1450.0), p(560.0, 760.0)],
+    },
+    {
+      name: dHead,
+      parent: Some(dBody),
+      pivot: p(800.0, 640.0),
+      z: 2,
+      outline: [p(460.0, 380.0), p(480.0, 290.0), p(560.0, 170.0), p(700.0, 140.0), p(830.0, 120.0), p(930.0, 160.0), p(965.0, 260.0), p(950.0, 420.0), p(962.0, 660.0), p(660.0, 665.0), p(590.0, 560.0), p(455.0, 500.0)],
+    },
+  ],
+  patches: [
+    {patch: "half", image: ImagePath(root ++ "cutout/sprites/mouth_half.png"), parent: dHead, at: p(477.0, 435.0)},
+    {patch: "open", image: ImagePath(root ++ "cutout/sprites/mouth_open.png"), parent: dHead, at: p(477.0, 435.0)},
+    {patch: "round", image: ImagePath(root ++ "cutout/sprites/mouth_round.png"), parent: dHead, at: p(477.0, 435.0)},
+  ],
+}
 
 /* a state with every part at rest, placed by where the feet are on the stage */
-let standing = (~feetX, ~feetY, ~size) => {
-  let (fx, fy) = feet
-  {
-    x: Px(feetX -. fx *. size),
-    y: Px(feetY -. fy *. size),
-    size: Scale(size),
-    facingLeft: true,
-    bank: Deg(0.0),
-    parts: Js.Dict.empty(),
-    opacity: Alpha(1.0),
-  }
-}
+let standing = (~feetX, ~feetY, ~size) => stand(kukuRig, ~feetX, ~feetY, ~size, ())
 
 let posed = (st: puppetState, poses: array<(partName, partPose)>): puppetState => {
   let d = Js.Dict.empty()
@@ -339,12 +360,133 @@ let flight = (rig: rig<great>, ~plate, ~lamp): shot => {
   }
 }
 
+/* --------------------------------------------- the dialogue proof: talk */
+/* दादी speaks her line 8 to कुकु at the niche. Her mouth follows the viseme
+   track of her own take; her head moves with the speech; कुकु listens, looks
+   up at her, nods twice. The lamp glows and flickers. */
+let lampGlow = (~strength) => (t: sec) => {
+  gx: Px(603.0),
+  gy: Px(392.0),
+  radius: Px(150.0),
+  strength: Alpha(strength +. 0.04 *. Js.Math.sin(13.0 *. secf(t)) +. 0.03 *. Js.Math.sin(29.0 *. secf(t))),
+}
+let talk = async () => {
+  mkdirSync(outDir, {"recursive": true})
+  let dadi = await loadRig(dadiRig)
+  let kuku = await loadRig(kukuRig)
+  let (plate, lamp) = await courtyard()
+  let vs = visemes(root ++ "cutout/audio/line008.visemes.json")
+  let dur = 8.08 +. 0.6
+  let dadiState = t => {
+    let base = stand(dadiRig, ~feetX=985.0, ~feetY=628.0, ~size=0.335, ())
+    let sway = 1.2 *. Js.Math.sin(2.0 *. Js.Math._PI *. 0.22 *. secf(t))
+    let emphasis = 2.0 *. talking(vs, t) *. Js.Math.sin(2.0 *. Js.Math._PI *. 0.9 *. secf(t))
+    {...posed(base, [(dHead, turn(-1.5 +. sway +. emphasis))]), mouth: mouthAt(vs, t)}
+  }
+  let kukuState = t => {
+    let base = stand(kukuRig, ~feetX=730.0, ~feetY=640.0, ~size=0.21, ~facingLeft=false, ())
+    let nod = track([{at: Sec(3.0), v: 0.0}, {at: Sec(3.25), v: 6.0}, {at: Sec(3.6), v: 0.0}, {at: Sec(6.4), v: 0.0}, {at: Sec(6.65), v: 6.0}, {at: Sec(7.0), v: 0.0}], t)
+    let breathe = 0.6 *. Js.Math.sin(2.0 *. Js.Math._PI *. 0.3 *. secf(t))
+    posedCanonical(base, [(head, turn(-9.0 +. nod +. breathe)), (tail, turn(3.0 *. Js.Math.sin(2.0 *. Js.Math._PI *. 0.25 *. secf(t))))])
+  }
+  let shadowOf = (fx, w) => (_t: sec) => {cx: Px(fx), cy: Px(646.0), rx: Px(w), ry: Px(14.0), a: Alpha(0.28)}
+  let camera = t => {
+    zoom: Scale(track([{at: Sec(0.0), v: 1.1}, {at: Sec(dur), v: 1.18}], ~ease=linear, t)),
+    lookX: Px(track([{at: Sec(0.0), v: 690.0}, {at: Sec(dur), v: 718.0}], ~ease=linear, t)),
+    lookY: Px(track([{at: Sec(0.0), v: 390.0}, {at: Sec(dur), v: 400.0}], ~ease=linear, t)),
+  }
+  let sh = {
+    name: "dadi_line008",
+    width: stageW,
+    height: stageH,
+    fps: fpsOut,
+    duration: Sec(dur),
+    layers: [
+      plate,
+      {...lamp, z: 21},
+      glowLayer(~z=22, ~colour="rgba(255,186,96,1)", ~glow=lampGlow(~strength=0.30)),
+      shadowLayer(~z=3, ~shadow=shadowOf(985.0, 95.0)),
+      shadowLayer(~z=3, ~shadow=shadowOf(730.0, 70.0)),
+      puppetLayer(~z=4, ~rig=dadi, ~state=dadiState),
+      puppetLayer(~z=5, ~rig=kuku, ~state=kukuState),
+    ],
+    camera,
+    audio: Some(root ++ "cutout/audio/line008.wav"),
+    out: outDir ++ "proof_dadi_line008_puppet.mp4",
+  }
+  render(sh)
+  contactSheet(~video=sh.out, ~out=outDir ++ "proof_dadi_line008_puppet_sheet.png", ~cols=6, ~rows=2, ~everySec=0.72)
+}
+
+/* ------------------------------------------------- the light states */
+/* One plate, four gradings, same geometry: dusk as generated; lamp-night, a
+   blue multiply with the lamp's glow; dark, deeper blue and the lamp cold;
+   golden, the letter's light from the courtyard's middle. */
+type light = Dusk | LampNight | Dark | Golden
+let lightName = l =>
+  switch l {
+  | Dusk => "dusk"
+  | LampNight => "lampnight"
+  | Dark => "dark"
+  | Golden => "golden"
+  }
+/* z: puppets sit at 4-9; the tint at 20 grades plate AND puppets; the lamp's
+   flame at 21 stays bright above the tint; the glow at 22 lights everything */
+let lightLayers = (l, ~lamp: layer) =>
+  switch l {
+  | Dusk => [{...lamp, z: 21}]
+  | LampNight => [
+      tintLayer(~z=20, ~colour="#5a6fb8", ~w=Px(1280.0), ~h=Px(720.0)),
+      {...lamp, z: 21},
+      glowLayer(~z=22, ~colour="rgba(255,176,80,1)", ~glow=lampGlow(~strength=0.55)),
+    ]
+  | Dark => [
+      tintLayer(~z=20, ~colour="#3a4a8a", ~w=Px(1280.0), ~h=Px(720.0)),
+      tintLayer(~z=20, ~colour="#6a7098", ~w=Px(1280.0), ~h=Px(720.0)),
+    ]
+  | Golden => [
+      tintLayer(~z=20, ~colour="#6a6a90", ~w=Px(1280.0), ~h=Px(720.0)),
+      glowLayer(~z=22, ~colour="rgba(255,205,90,1)", ~glow=_t => {gx: Px(860.0), gy: Px(430.0), radius: Px(360.0), strength: Alpha(0.75)}),
+    ]
+  }
+let lights = async () => {
+  mkdirSync(outDir, {"recursive": true})
+  let dadi = await loadRig(dadiRig)
+  let kuku = await loadRig(kukuRig)
+  let (plate, lamp) = await courtyard()
+  let dadiState = _t => stand(dadiRig, ~feetX=985.0, ~feetY=628.0, ~size=0.335, ())
+  let kukuState = _t => posedCanonical(stand(kukuRig, ~feetX=730.0, ~feetY=640.0, ~size=0.21, ~facingLeft=false, ()), [(head, turn(-9.0))])
+  Js.Array2.forEach([Dusk, LampNight, Dark, Golden], l => {
+    let sh = {
+      name: "light_" ++ lightName(l),
+      width: stageW,
+      height: stageH,
+      fps: fpsOut,
+      duration: Sec(1.0),
+      layers: Js.Array2.concat(
+        Js.Array2.concat([plate], lightLayers(l, ~lamp)),
+        [puppetLayer(~z=4, ~rig=dadi, ~state=dadiState), puppetLayer(~z=5, ~rig=kuku, ~state=kukuState)],
+      ),
+      camera: _t => wholeStage(1280.0, 720.0),
+      audio: None,
+      out: "",
+    }
+    frame(sh, Sec(0.0), outDir ++ "light_" ++ lightName(l) ++ ".png")
+  })
+  Js.log("wrote the four light states in " ++ outDir)
+}
+
 let () =
   switch Belt.Array.get(argv, 2) {
-  | Some("cut") => ignore(cut(kukuRig))
+  | Some("cut") => {
+      ignore(cut(kukuRig))
+      ignore(cut(dadiRig))
+    }
+  | Some("talk") => ignore(talk())
+  | Some("lights") => ignore(lights())
   | Some("check") => ignore(check())
   | Some("run") => ignore(runIn())
   | Some("fly") =>
     Js.log("the flight takes a great-form rig only (rig<great>); कुकु's great form has no sprite yet — one Sheet generation, 2 credits, on the author's budget line")
-  | _ => Js.log("usage: cut | check | run | fly")
+  | _ => Js.log("usage: cut | check | run | talk | lights | fly")
   }
