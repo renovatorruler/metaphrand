@@ -34,7 +34,7 @@ let legNear = PartName("legNear")
 let legFar = PartName("legFar")
 let tail = PartName("tail")
 
-let kukuRig: rigSpec = {
+let kukuRig: rigSpec<small> = {
   sprite: ImagePath(root ++ "cutout/sprites/kuku_spread.png"),
   partsDir: root ++ "cutout/parts/kuku/",
   parts: [
@@ -169,46 +169,117 @@ let check = async () => {
   Js.log("wrote check_rest.png and check_exploded.png in " ++ outDir)
 }
 
-/* ------------------------------------------------------ the flight proof */
-/* कुकु comes in over the wall from the valley, swoops across the courtyard,
-   flares and lands on the flagstones beside the niche, settles, and looks at
-   the lamp. Every number below is the whole shot; change one and re-render. */
-let fly = async () => {
-  mkdirSync(outDir, {"recursive": true})
-  let rig = await loadRig(kukuRig)
+/* ------------------------------------------------------- shared helpers */
+let easeOut = u => 1.0 -. Js.Math.pow_float(~base=1.0 -. u, ~exp=3.0)
+let clamp01 = u => u < 0.0 ? 0.0 : u > 1.0 ? 1.0 : u
+let groundY = 640.0
+let courtyard = async () => {
   let plate = await plateLayer(~path=ImagePath(root ++ "sets/courtyard_plate.png"), ~w=Px(1280.0), ~h=Px(720.0))
   let lamp = await imageLayer(~z=1, ~path=ImagePath(root ++ "cutout/sprites/lamp_lit.png"), ~x=Px(548.0), ~y=Px(353.0), ~w=Px(110.0), ~h=Px(79.0))
+  (plate, lamp)
+}
+
+/* ------------------------------------------------- the ground proof: run */
+/* Small कुकु cannot fly — only the great forms fly, after the कड़ा — so the
+   small form's action is on the ground: he runs in from the right along the
+   flagstones, skids to a stop beside the niche, and looks up at the lamp. */
+let runIn = async () => {
+  mkdirSync(outDir, {"recursive": true})
+  let rig = await loadRig(kukuRig)
+  let (plate, lamp) = await courtyard()
+  let size = 0.21
+  let stopT = 3.3
+  let stopX = 735.0
+  let speed = 190.0
+  let f = 2.6 /* strides per second */
+  /* the feet: a steady run, then the last stretch eases into a skid */
+  let feetX = t => {
+    let tv = secf(t)
+    let brakeT = stopT -. 0.55
+    let xAtBrake = 1330.0 -. speed *. brakeT
+    tv < brakeT ? 1330.0 -. speed *. tv : xAtBrake +. (stopX -. xAtBrake) *. easeOut(clamp01((tv -. brakeT) /. 0.55))
+  }
+  /* how much of the run is still happening: 1 at speed, 0 once stopped */
+  let running = t => 1.0 -. easeOut(clamp01((secf(t) -. (stopT -. 0.55)) /. 0.55))
+  let stride = t => Js.Math.sin(2.0 *. Js.Math._PI *. f *. secf(t))
+  let legs = t => 16.0 *. running(t) *. stride(t)
+  /* the brace at the stop: legs planted apart, then relaxed */
+  let brace = t => track([{at: Sec(stopT -. 0.3), v: 0.0}, {at: Sec(stopT), v: 12.0}, {at: Sec(stopT +. 0.6), v: 0.0}], t)
+  let bob = t => 3.0 *. running(t) *. Js.Math.abs_float(Js.Math.sin(2.0 *. Js.Math._PI *. f *. secf(t)))
+  let squash = t => track([{at: Sec(stopT), v: 0.0}, {at: Sec(stopT +. 0.1), v: 5.0}, {at: Sec(stopT +. 0.4), v: 0.0}], t)
+  let lean = t => -7.0 *. running(t) +. track([{at: Sec(stopT -. 0.3), v: 0.0}, {at: Sec(stopT), v: 6.0}, {at: Sec(stopT +. 0.7), v: 0.0}], t)
+  /* wings swept up while running, like a child running with arms raised, with a
+     flutter on the stride; they settle to the spread rest once he stands */
+  let sweep = t => track([{at: Sec(0.0), v: 35.0}, {at: Sec(stopT +. 0.2), v: 35.0}, {at: Sec(stopT +. 1.0), v: 0.0}], t) +. 6.0 *. running(t) *. stride(t)
+  /* arms hang and swing opposite the legs; the look up at the lamp */
+  let armSwing = t => 12.0 *. running(t) *. stride(t)
+  let look = t => track([{at: Sec(stopT +. 0.7), v: 0.0}, {at: Sec(stopT +. 1.2), v: -11.0}], t)
+  let state = t => {
+    let base = standing(~feetX=feetX(t), ~feetY=groundY +. squash(t), ~size)
+    posed(
+      {...base, y: Px(pxf(base.y) -. bob(t)), bank: Deg(lean(t))},
+      [
+        (legNear, turn(legs(t) +. brace(t))),
+        (legFar, turn(-.legs(t) -. brace(t))),
+        (armNear, turn(-32.0 -. armSwing(t))),
+        (armFar, turn(32.0 -. armSwing(t))),
+        (wingNear, turn(sweep(t))),
+        (wingFar, turn(-.sweep(t))),
+        (tail, turn(6.0 *. running(t) *. Js.Math.sin(2.0 *. Js.Math._PI *. f *. secf(t) -. 1.2))),
+        (head, turn(-0.5 *. lean(t) +. 2.0 *. running(t) *. stride(t) +. look(t))),
+      ],
+    )
+  }
+  let shadow = t => {cx: Px(feetX(t)), cy: Px(groundY +. 6.0), rx: Px(150.0 *. size *. 3.4), ry: Px(70.0 *. size), a: Alpha(0.3)}
+  let camera = t => {
+    zoom: Scale(track([{at: Sec(0.0), v: 1.06}, {at: Sec(stopT +. 0.8), v: 1.11}], t)),
+    lookX: Px(track([{at: Sec(0.0), v: 700.0}, {at: Sec(stopT +. 0.8), v: 685.0}], t)),
+    lookY: Px(372.0),
+  }
+  let sh = {
+    name: "kuku_runs_in",
+    width: stageW,
+    height: stageH,
+    fps: fpsOut,
+    duration: Sec(5.4),
+    layers: [plate, lamp, shadowLayer(~z=2, ~shadow), puppetLayer(~z=3, ~rig, ~state)],
+    camera,
+    audio: None,
+    out: outDir ++ "proof_kuku_runs_in.mp4",
+  }
+  render(sh)
+  contactSheet(~video=sh.out, ~out=outDir ++ "proof_kuku_runs_in_sheet.png", ~cols=6, ~rows=2, ~everySec=0.45)
+}
+
+/* ------------------------------------------------------------ the flight */
+/* Authored once, waiting for a rig it can accept: the parameter is rig<great>,
+   so कुकु's small rig cannot be handed in — that is the series law as a type.
+   His great form has no sprite yet (one Sheet generation, 2 credits). */
+let flight = (rig: rig<great>, ~plate, ~lamp): shot => {
   let landT = 4.2
-  let groundY = 640.0
   let landX = 720.0
-  /* the path of the feet: in high over the wall, a swoop, then the descent */
   let feetX = t => track([{at: Sec(0.0), v: 1330.0}, {at: Sec(landT), v: landX}], ~ease=linear, t)
   let height = t => track([{at: Sec(0.0), v: 430.0}, {at: Sec(1.8), v: 250.0}, {at: Sec(3.0), v: 210.0}, {at: Sec(landT), v: 0.0}], t)
   let feetY = t => groundY -. height(t) +. track([{at: Sec(landT), v: 0.0}, {at: Sec(landT +. 0.12), v: 7.0}, {at: Sec(landT +. 0.45), v: 0.0}], t)
-  /* depth: he grows as he comes toward the camera */
   let size = t => track([{at: Sec(0.0), v: 0.13}, {at: Sec(landT), v: 0.21}], ~ease=linear, t)
-  /* wingbeats: fast in the approach, slower in the glide, a wide flare to land, then folded */
   let hz = 2.4
   let flapAmp = t => track([{at: Sec(0.0), v: 26.0}, {at: Sec(2.6), v: 18.0}, {at: Sec(3.4), v: 30.0}, {at: Sec(landT), v: 0.0}], t)
   let flap = t => cycle(~hz, ~amp=flapAmp(t), t)
   let wingHold = t => track([{at: Sec(3.4), v: 0.0}, {at: Sec(landT +. 0.2), v: 0.0}, {at: Sec(landT +. 1.1), v: 38.0}], t)
-  /* the body: nose down through the swoop, nose up to flare, level on the ground */
   let pitch = t => track([{at: Sec(0.0), v: -10.0}, {at: Sec(1.8), v: -6.0}, {at: Sec(3.3), v: 14.0}, {at: Sec(landT), v: 0.0}], t)
-  /* legs tucked in flight, down for the landing; arms trailing, then out for balance, then relaxed */
   let tuck = t => track([{at: Sec(0.0), v: -38.0}, {at: Sec(3.2), v: -38.0}, {at: Sec(landT -. 0.1), v: 0.0}], t)
   let arms = t => track([{at: Sec(0.0), v: -28.0}, {at: Sec(3.3), v: -10.0}, {at: Sec(landT), v: 8.0}, {at: Sec(landT +. 0.9), v: -30.0}], t)
-  /* the look at the lamp once he has settled */
   let look = t => track([{at: Sec(landT +. 0.9), v: 0.0}, {at: Sec(landT +. 1.4), v: 9.0}], t)
   let state = t => {
     let s = size(t)
     let base = standing(~feetX=feetX(t), ~feetY=feetY(t), ~size=s)
-    let f = flap(t)
+    let fl = flap(t)
     let bob = secf(t) < landT ? 4.0 *. Js.Math.sin(2.0 *. Js.Math._PI *. hz *. secf(t) -. 1.2) : 0.0
     posed(
       {...base, y: Px(pxf(base.y) +. bob), bank: Deg(pitch(t))},
       [
-        (wingNear, turn(f -. wingHold(t))),
-        (wingFar, turn(-.f +. wingHold(t))),
+        (wingNear, turn(fl -. wingHold(t))),
+        (wingFar, turn(-.fl +. wingHold(t))),
         (head, turn(-0.4 *. pitch(t) +. look(t))),
         (legNear, turn(tuck(t))),
         (legFar, turn(tuck(t))),
@@ -218,7 +289,6 @@ let fly = async () => {
       ],
     )
   }
-  /* the contact shadow: under his feet, faint while he is high, solid when he lands */
   let shadow = t => {
     let hgt = height(t)
     let s = size(t)
@@ -230,13 +300,12 @@ let fly = async () => {
       a: Alpha(0.32 *. (1.0 -. 0.8 *. Js.Math.min_float(1.0, hgt /. 300.0))),
     }
   }
-  /* the camera follows him in, then holds */
   let camera = t => {
     zoom: Scale(track([{at: Sec(0.0), v: 1.06}, {at: Sec(landT +. 0.6), v: 1.14}], t)),
     lookX: Px(track([{at: Sec(0.0), v: 660.0}, {at: Sec(landT +. 0.6), v: 690.0}], t)),
     lookY: Px(track([{at: Sec(0.0), v: 345.0}, {at: Sec(landT +. 0.6), v: 400.0}], t)),
   }
-  let sh = {
+  {
     name: "kuku_flies_in",
     width: stageW,
     height: stageH,
@@ -247,14 +316,14 @@ let fly = async () => {
     audio: None,
     out: outDir ++ "proof_kuku_flies_in.mp4",
   }
-  render(sh)
-  contactSheet(~video=sh.out, ~out=outDir ++ "proof_kuku_flies_in_sheet.png", ~cols=6, ~rows=2, ~everySec=0.52)
 }
 
 let () =
   switch Belt.Array.get(argv, 2) {
   | Some("cut") => ignore(cut(kukuRig))
   | Some("check") => ignore(check())
-  | Some("fly") => ignore(fly())
-  | _ => Js.log("usage: cut | check | fly")
+  | Some("run") => ignore(runIn())
+  | Some("fly") =>
+    Js.log("the flight takes a great-form rig only (rig<great>); कुकु's great form has no sprite yet — one Sheet generation, 2 credits, on the author's budget line")
+  | _ => Js.log("usage: cut | check | run | fly")
   }

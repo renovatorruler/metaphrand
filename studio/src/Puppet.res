@@ -97,7 +97,13 @@ type partSpec = {
   outline: array<spritePoint>,
   z: int,
 }
-type rigSpec = {sprite: imagePath, parts: array<partSpec>, partsDir: string}
+/* THE FORM IS A TYPE. Only the great forms fly, after the कड़ा; a small-form
+   puppet handed to a flight is a compile error, never a story mistake found
+   in a render. The parameter is phantom: nothing at runtime, everything at
+   the boundary where a shot is authored. */
+type small
+type great
+type rigSpec<'form> = {sprite: imagePath, parts: array<partSpec>, partsDir: string}
 
 /* How one part is posed at one instant: an angle about its pivot, a nudge, a
    scale about the same pivot. Rest is the sprite as generated. */
@@ -125,14 +131,14 @@ let poseOf = (st, PartName(n)) =>
 
 /* A cut part, ready to draw: its image and where its box sits in sprite space. */
 type part = {spec: partSpec, img: image, ox: float, oy: float}
-type rig = {spec: rigSpec, parts: array<part>, spriteW: float, spriteH: float}
+type rig<'form> = {spec: rigSpec<'form>, parts: array<part>, spriteW: float, spriteH: float}
 
 let partFile = (dir, PartName(n)) => join(dir, n ++ ".png")
 let partMeta = (dir, PartName(n)) => join(dir, n ++ ".box.json")
 
 /* CUT: every part image is the sprite clipped by its polygon, saved once with
    the box it came from. Rerunning is free and deterministic. */
-let cut = async (r: rigSpec) => {
+let cut = async (r: rigSpec<'form>) => {
   mkdirSync(r.partsDir, {"recursive": true})
   let sprite = await loadImage(r.sprite)
   let w = imageWidth(sprite)
@@ -171,7 +177,7 @@ let cut = async (r: rigSpec) => {
   })
 }
 
-let loadRig = async (r: rigSpec): rig => {
+let loadRig = async (r: rigSpec<'form>): rig<'form> => {
   let sprite = await loadImage(r.sprite)
   let parts: array<part> = []
   for i in 0 to Js.Array2.length(r.parts) - 1 {
@@ -190,7 +196,7 @@ let loadRig = async (r: rigSpec): rig => {
 }
 
 /* the chain of ancestors, root first, so nested rotations compose in order */
-let rec lineage = (rg: rig, name: partName): array<part> =>
+let rec lineage = (rg: rig<'form>, name: partName): array<part> =>
   switch Js.Array2.find(rg.parts, p => p.spec.name == name) {
   | None => []
   | Some(p) =>
@@ -211,7 +217,7 @@ let applyPose = (c, st, p: part) => {
 
 /* DRAW the puppet: stage transform, then for each part (by z) the transforms
    of its whole lineage, then the part image at its sprite-space box. */
-let drawPuppet = (c, rg: rig, st: puppetState) => {
+let drawPuppet = (c, rg: rig<'form>, st: puppetState) => {
   save(c)
   setGlobalAlpha(c, switch st.opacity { | Alpha(a) => a })
   translate(c, pxf(st.x), pxf(st.y))
