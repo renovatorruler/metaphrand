@@ -1,21 +1,24 @@
 // prompt-fixtures.mjs — the gate must REFUSE the prompts that made the bad frames.
 // Zero cost: no provider call. Lesson 10 — a guard that has never failed on a
 // known-bad input has not been tested.
+//
+// The known-bad prompts are PINNED under scripts/prompt-fixtures/ as the exact
+// text the receipts carried on 2026-09-04 (commit fe43c9f). They used to be read
+// from the live receipts, which broke the moment those shots were lawfully
+// regenerated: a fixture that reads a moving file tests the file, not the gate.
 import fs from "fs";
 import * as G from "../src/PromptGate.res.mjs";
 import * as E from "../src/Kuku_Engine.res.mjs";
-const EP = "/Users/dusty/Dev/metaphrand/stories/kuku/ep12/";
+const DIR = new URL("./prompt-fixtures/", import.meta.url).pathname;
 const BAD = [
-  ["s33e still (small + lit lamp)",       "stills/s33e_too_big.png.gen.json"],
-  ["s33d still (small form + GREAT rule)","stills/SMALLSCALE_s33d_thrown_back.png.gen.json"],
-  ["s52 still (invented glyph)",         "stills/s52_line_rises.png.gen.json"],
-  ["s27 clip ('the five', pronouns)",    "clips/EP12_s27_darkness.mp4.gen.json"],
-  ["s33c clip ('five great dragons')",   "clips/EP12_s33c_they_rise.mp4.gen.json"],
+  ["s33e still (small + lit lamp)",       "s33e.prompt.txt"],
+  ["s52 still (invented glyph)",         "s52.prompt.txt"],
+  ["s27 clip ('the five', pronouns)",    "s27.prompt.txt"],
+  ["s33c clip ('five great dragons')",   "s33c.prompt.txt"],
 ];
 let fails = 0;
-for (const [label, rel] of BAD) {
-  if (!fs.existsSync(EP + rel)) { console.log("  skip (no receipt):", label); continue; }
-  const prompt = JSON.parse(fs.readFileSync(EP + rel, "utf8")).prompt;
+for (const [label, file] of BAD) {
+  const prompt = fs.readFileSync(DIR + file, "utf8");
   const found = G.scanStrict(prompt);
   const ok = found.length > 0;
   if (!ok) fails++;

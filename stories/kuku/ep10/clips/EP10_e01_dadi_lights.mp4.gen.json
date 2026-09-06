@@ -1,0 +1,46 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "clip",
+ "id": "e01_dadi_lights",
+ "at": "2026-08-31T22:51:17.204Z",
+ "model": "cinematic_studio_video_4_0",
+ "credits": 32.5,
+ "assetSha256": "7068947c7463c367b60a43523d2e30b0c4bfa1e53cf03a5354675aafc7e95f5a",
+ "promptSha256": "ce1c56e24dff244af3dadc4ee70e867f9a086411a6e8efe81729d9afa6070e41",
+ "prompt": "SCENE: दादी settles the small clay lamp onto the niche shelf, and the flame catches and stands upright.\nTHE COMPLETE CAST OF THIS SHOT — exactly these:\n- DADI — kneeling at the low wall, both hands settling the small clay lamp onto the stone shelf of the niche, then drawing slowly back\nFIRST FRAME: the provided start image IS frame one — the action begins from exactly this position.\nFORMAT: one single unbroken take.\nBLOCKING:\n- दादी stays kneeling at the low wall through the whole shot, her shoulders about level with the coping stone.\n- The lamp stays on the niche shelf from the moment her hands leave it.\nACTION TIMING:\n- Her hands lower the lamp the last small distance onto the stone shelf and let it settle.\n- The wick takes, and a single small flame rises and stands upright inside the niche.\n- Her hands draw slowly back and rest, and she watches the flame steady.\nCAMERA: The camera holds completely still throughout, framing her and the lit niche together from the side.\nPHYSICS:\n- TRAVEL KEEPS ONE DIRECTION: whatever moves may start from rest, speed up or slow down, and its path always continues the same way.\n- motion has real weight\n- The flame moves the way a real small flame moves: it rises, wavers gently, and settles upright.\n- The warm glow on the stone grows as the flame takes hold, brightest on the niche walls closest to it.\nLIGHTING: Evening, the sun already below the frame, the warm level light lying across the stone. The new flame is the one bright point, glowing on the stone around it.\nAUDIO: SILENT\nSTYLE: every frame keeps exactly the cut-paper papercraft look of the start image.\nHARD RULES:\n- दादी माया IS A PAPER DRAGON ELDER as her board shows: pale grey paper dragon, small curved horns, long snout, round wire spectacles, rust-and-cream knitted paper shawl, folded paper wings, dragon tail along the stone.\n- EVERY SURFACE IS PAPER: folded and cut paper, matte paper faces, soft rounded paper edges.\n- THE COURTYARD IS THE ONE IN THE START FRAME: same flagstones, same low wall and coping, same niche, same door, same valley beyond.",
+ "params": [
+  "generate",
+  "create",
+  "cinematic_studio_video_4_0",
+  "--prompt",
+  "SCENE: दादी settles the small clay lamp onto the niche shelf, and the flame catches and stands upright.\nTHE COMPLETE CAST OF THIS SHOT — exactly these:\n- DADI — kneeling at the low wall, both hands settling the small clay lamp onto the stone shelf of the niche, then drawing slowly back\nFIRST FRAME: the provided start image IS frame one — the action begins from exactly this position.\nFORMAT: one single unbroken take.\nBLOCKING:\n- दादी stays kneeling at the low wall through the whole shot, her shoulders about level with the coping stone.\n- The lamp stays on the niche shelf from the moment her hands leave it.\nACTION TIMING:\n- Her hands lower the lamp the last small distance onto the stone shelf and let it settle.\n- The wick takes, and a single small flame rises and stands upright inside the niche.\n- Her hands draw slowly back and rest, and she watches the flame steady.\nCAMERA: The camera holds completely still throughout, framing her and the lit niche together from the side.\nPHYSICS:\n- TRAVEL KEEPS ONE DIRECTION: whatever moves may start from rest, speed up or slow down, and its path always continues the same way.\n- motion has real weight\n- The flame moves the way a real small flame moves: it rises, wavers gently, and settles upright.\n- The warm glow on the stone grows as the flame takes hold, brightest on the niche walls closest to it.\nLIGHTING: Evening, the sun already below the frame, the warm level light lying across the stone. The new flame is the one bright point, glowing on the stone around it.\nAUDIO: SILENT\nSTYLE: every frame keeps exactly the cut-paper papercraft look of the start image.\nHARD RULES:\n- दादी माया IS A PAPER DRAGON ELDER as her board shows: pale grey paper dragon, small curved horns, long snout, round wire spectacles, rust-and-cream knitted paper shawl, folded paper wings, dragon tail along the stone.\n- EVERY SURFACE IS PAPER: folded and cut paper, matte paper faces, soft rounded paper edges.\n- THE COURTYARD IS THE ONE IN THE START FRAME: same flagstones, same low wall and coping, same niche, same door, same valley beyond.",
+  "--start-image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/stills/e01_dadi_lights.png",
+  "--mode",
+  "omni_reference",
+  "--image-references",
+  "../stories/kuku/charsheets/dadi.png",
+  "--generate_audio",
+  "false",
+  "--duration",
+  "5",
+  "--resolution",
+  "720p",
+  "--bitrate_mode",
+  "high",
+  "--aspect_ratio",
+  "16:9",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/stills/e01_dadi_lights.png",
+   "sha256": "0c20bb68b8202130f417e12a9d59aa6125e62a6a5e8fc2ef01844ba62e34505e"
+  },
+  {
+   "path": "../stories/kuku/charsheets/dadi.png",
+   "sha256": "1d9261673ae8dda44b675bce6bbb654142c3c08ef3f791f437e096ea2caa40e3"
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+[
+  {
+    "created_at": "2026-09-04T21:28:02.345429Z",
+    "display_name": "Seedream 5.0 Pro",
+    "id": "575e4859-4f6a-4e18-8723-91ed4bdffb9f",
+    "job_type": "seedream_v5_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260904_212802_575e4859-4f6a-4e18-8723-91ed4bdffb9f_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "is_inpaint": false,
+      "medias": [
+        {
+          "data": {
+            "id": "a5d04246-33d1-4d47-8576-94a6edbb0d2e",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/a5d04246-33d1-4d47-8576-94a6edbb0d2e.png"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "f177b649-678b-435d-8324-0f83bdcbd7eb",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/f177b649-678b-435d-8324-0f83bdcbd7eb_resize.jpg"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "80c84c46-d142-484c-b1be-96088cdfd113",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/80c84c46-d142-484c-b1be-96088cdfd113_resize.jpg"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "a88e80ee-d098-4885-a6e7-2e541b38f1f6",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/a88e80ee-d098-4885-a6e7-2e541b38f1f6_resize.jpg"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "730e8257-9086-463c-ba1c-ce69233a9447",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/730e8257-9086-463c-ba1c-ce69233a9447_resize.jpg"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "c177fb3d-e4fa-4be8-96cd-53089f8e9f0f",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/c177fb3d-e4fa-4be8-96cd-53089f8e9f0f_resize.jpg"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "6266503c-1f13-436b-b02a-f1853252fdda",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/6266503c-1f13-436b-b02a-f1853252fdda_resize.jpg"
+          },
+          "role": "image"
+        }
+      ],
+      "prompt": "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nstyle.ref: among the attached images is a close patch of pale cut-paper wall blocks and paper flagstone — that patch is the art style; match its material and finish EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\nset.ref: among the attached images is a photograph of a small walled courtyard at dusk, with a low wall of cut paper blocks, a square niche set into that wall, a wooden door on the left and green paper hills beyond\nset.rule: that courtyard photograph is this same location seen closer — identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light; every landmark inside this tighter frame sits where that courtyard photograph puts it\ncast.ref: every remaining attached image is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it\n\nSCENE: कुकु, फ्यूरिया, कैस्टर and वैस्पर leaning in together around the niche on लेडा's count, लेडा a little back with one claw raised, counting\nsubject[0].name: KUKU\nsubject[0].species: paper dragon child\nsubject[0].colour: green\nsubject[0].scale: knee high to a grown-up, the height of a human child\nsubject[0].pose: कुकु leans in toward the niche on लेडा's count\n\nsubject[1].name: FYURIA\nsubject[1].species: paper dragon child\nsubject[1].colour: bright pink-red\nsubject[1].scale: knee high to a grown-up, the height of a human child\nsubject[1].pose: फ्यूरिया leans in toward the niche beside कुकु, wings held tight\n\nsubject[2].name: LEDA\nsubject[2].species: paper dragon child\nsubject[2].colour: lilac-purple\nsubject[2].scale: knee high to a grown-up, the height of a human child\nsubject[2].pose: लेडा kneels a little back from the niche with one claw raised, counting\n\nsubject[3].name: CASTOR\nsubject[3].species: paper dragon child\nsubject[3].colour: golden-yellow\nsubject[3].scale: knee high to a grown-up, the height of a human child\nsubject[3].pose: कैस्टर leans in toward the niche at the right, both paws out\n\nsubject[4].name: VESPER\nsubject[4].species: paper dragon child\nsubject[4].colour: pale blue\nsubject[4].scale: knee high to a grown-up, the height of a human child\nsubject[4].pose: वैस्पर leans in toward the niche at the left\n\nsubject[5].name: THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick\nsubject[5].state: standing on the stone shelf of the niche with a single small flame upright on its wick\nsetting.place: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.\nlight.state: Night has come. The small flame in the niche is the one warm light, glowing on the paper stone closest to it, and the courtyard beyond falls away into soft blue shadow.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.\n- SMALL FORM: कुकु, फ्यूरिया, लेडा, कैस्टर, वैस्पर are each about knee high to a grown-up, and the low wall rises well above the small dragons' heads.\n- VIEWPOINT: A low three-quarter view across the seated group, the niche at the far side of the frame.",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "seed": 64372,
+      "width": 2720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260904_212802_575e4859-4f6a-4e18-8723-91ed4bdffb9f.png",
+    "status": "completed"
+  }
+]

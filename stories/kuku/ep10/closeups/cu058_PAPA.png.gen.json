@@ -1,0 +1,38 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "still",
+ "id": "cu058_PAPA",
+ "at": "2026-09-02T05:03:05.413Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "41bf9a1d4a12a6341c627e5e6a976c1756f00fdbc17bd367e4a567ef330115a7",
+ "promptSha256": "ebb776f2dbe578c57d75c752f907971412639b1bd028b6c9ef53ef24d4ef8b5e",
+ "prompt": "SHOT: CLOSE, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nSTYLE: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world. The FIRST attached image is the art style; match it EXACTLY.\nPALETTE: bright, vibrant, warm storybook palette, every colour full and saturated.\nSET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place stays itself: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and every landmark of it that falls inside this tighter frame sits exactly where the plate puts it. Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet.\n\nSCENE: A close single on पापा in the courtyard, mid-speech.\nSUBJECTS:\n- पापा — a grown paper dragon father, taller and broader than the children, plain travelling wrap across his shoulders, the same pale papercraft build as the family — facing the camera in close-up, mouth open in mid-speech, राहत में, पास आती आवाज़\nSETTING: दादी's courtyard, seen close: behind the character are the pale cut-paper blocks of the low wall, softly out of focus.\nLIGHTING: The golden letter is the one source of light, standing in the dark and glowing steadily. Warm gold falls on the faces near it and on the paper stone of the wall, and the courtyard beyond holds deep blue night.\nHARD RULES:\n- this is an object/insert shot: the frame holds the place and the named objects alone\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- FRAMING: a close single on this one character alone. The head and shoulders fill the frame from top to bottom, the face turned about three quarters toward the camera so the whole muzzle and mouth are clearly visible, eyes open and looking slightly off camera. The character's face is the largest thing in the picture.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges and a fine visible paper grain.\n- THE BACKGROUND IS THE SAME COURTYARD as the attached plate — the same cut-paper wall, held soft and close behind the character.",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "SHOT: CLOSE, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nSTYLE: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world. The FIRST attached image is the art style; match it EXACTLY.\nPALETTE: bright, vibrant, warm storybook palette, every colour full and saturated.\nSET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place stays itself: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and every landmark of it that falls inside this tighter frame sits exactly where the plate puts it. Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet.\n\nSCENE: A close single on पापा in the courtyard, mid-speech.\nSUBJECTS:\n- पापा — a grown paper dragon father, taller and broader than the children, plain travelling wrap across his shoulders, the same pale papercraft build as the family — facing the camera in close-up, mouth open in mid-speech, राहत में, पास आती आवाज़\nSETTING: दादी's courtyard, seen close: behind the character are the pale cut-paper blocks of the low wall, softly out of focus.\nLIGHTING: The golden letter is the one source of light, standing in the dark and glowing steadily. Warm gold falls on the faces near it and on the paper stone of the wall, and the courtyard beyond holds deep blue night.\nHARD RULES:\n- this is an object/insert shot: the frame holds the place and the named objects alone\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- FRAMING: a close single on this one character alone. The head and shoulders fill the frame from top to bottom, the face turned about three quarters toward the camera so the whole muzzle and mouth are clearly visible, eyes open and looking slightly off camera. The character's face is the largest thing in the picture.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges and a fine visible paper grain.\n- THE BACKGROUND IS THE SAME COURTYARD as the attached plate — the same cut-paper wall, held soft and close behind the character.",
+  "--image",
+  "a34b16f4-11fa-4153-9c43-ed2e2a30d033",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/sets/courtyard_plate.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "a34b16f4-11fa-4153-9c43-ed2e2a30d033",
+   "sha256": "PROVIDER_ASSET:a34b16f4-11fa-4153-9c43-ed2e2a30d033"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/sets/courtyard_plate.png",
+   "sha256": "84246f4cc88c2c00b8368d1fb2a549bfcbef4872c9c2c95f0235e09cd1277f69"
+  }
+ ]
+}

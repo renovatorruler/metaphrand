@@ -1,0 +1,22 @@
+SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.
+STYLE: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world. The FIRST attached image is the art style; match it EXACTLY.
+PALETTE: bright, vibrant, warm storybook palette, every colour full and saturated.
+SET PLATE: the SECOND attached image is THIS SAME LOCATION, already built. This shot is closer in, so the framing differs — but the place stays itself: identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light, and every landmark of it that falls inside this tighter frame sits exactly where the plate puts it. Every remaining attached image is a locked character design; match each EXACTLY, including the golden bracelet.
+
+SCENE: कैस्टर and फ्यूरिया in great form filling the courtyard, the cold lamp small in its niche far below them
+SUBJECTS:
+- KUKU — green paper dragon, small everyday form: a small paper dragon child, the height of a human child, wearing a golden कड़ा on one forearm. कैस्टर and फ्यूरिया in great form filling the courtyard, the cold lamp small in its niche far below them
+- FYURIA — bright pink-red paper dragon, small everyday form: a small paper dragon child, the height of a human child, wearing a golden कड़ा on one forearm. कैस्टर and फ्यूरिया in great form filling the courtyard, the cold lamp small in its niche far below them
+- LEDA — lilac-purple paper dragon, small everyday form: a small paper dragon child, the height of a human child, wearing a golden कड़ा on one forearm. कैस्टर and फ्यूरिया in great form filling the courtyard, the cold lamp small in its niche far below them
+- CASTOR — golden-yellow paper dragon, small everyday form: a small paper dragon child, the height of a human child, wearing a golden कड़ा on one forearm. कैस्टर and फ्यूरिया in great form filling the courtyard, the cold lamp small in its niche far below them
+- VESPER — pale blue paper dragon, small everyday form: a small paper dragon child, the height of a human child, wearing a golden कड़ा on one forearm. कैस्टर and फ्यूरिया in great form filling the courtyard, the cold lamp small in its niche far below them
+- THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick — standing cold and dark on the stone shelf of the niche
+SETTING: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.
+LIGHTING: Deep blue darkness. The lamp in the niche is cold and unlit. The only light is the faint blue of the night sky, enough to see shapes and the shine of open eyes.
+HARD RULES:
+- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals
+- every surface — stone, wood, cloth, banner and sky — is plain blank paper
+- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.
+- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.
+- VIEWPOINT: A view from beside the niche, looking back across the lamp at the faces of the children.
+- THE CHILDREN ARE SMALL: each child dragon is about knee high to a grown-up, low enough to sit at the lamp, and the low wall rises above them.

@@ -162,6 +162,53 @@ let flagOf = (~forClip, r) =>
   | Style(_) | Plate(_) | Object(_) | Board(_) => forClip ? "--image-references" : "--image"
   }
 
+/* ============================================================================
+   REFERENCE ORDER IS A PROPERTY OF THE MODEL, NOT A HABIT.
+
+   Measured 2026-09-04 on one shot, same prompt, same seven references:
+
+     nano_banana_pro   style first  plate 0.393  cast 5/5   <- current
+     nano_banana_pro   plate first  plate 0.402  cast 3/5   <- set better, cast lost
+     seedream_v5_pro   style first  plate 0.083  cast 3/5   <- reinvented the set
+     seedream_v5_pro   plate first  plate 0.318  cast 5/5   <- rescued
+
+   Whichever reference sits first dominates, and the models disagree about the
+   cost of that. So the order is chosen per model here, once, and every driver
+   inherits it — rather than each caller assembling an array and hoping.
+   ============================================================================ */
+type refOrder = StyleFirst | PlateFirst
+
+let orderFor = model =>
+  switch model {
+  | "seedream_v5_pro" | "seedream_v5_lite" | "seedream_v4_5" => PlateFirst
+  | _ => StyleFirst
+  }
+
+let rank = (o, r) =>
+  switch (o, r) {
+  | (StyleFirst, Style(_)) => 0
+  | (StyleFirst, Plate(_)) => 1
+  | (PlateFirst, Plate(_)) => 0
+  | (PlateFirst, Style(_)) => 1
+  | (_, Start(_)) => 0
+  | (_, End(_)) => 2
+  | (_, Object(_)) => 3
+  | (_, Board(_)) => 4
+  | (_, Video(_)) => 5
+  }
+
+/* stable sort: equal ranks keep the order the renderer chose */
+let ordered = (~model, refs: array<reference>) => {
+  let o = orderFor(model)
+  let withIdx = Js.Array2.mapi(refs, (r, i) => (r, i))
+  let sorted = Js.Array2.copy(withIdx)
+  Js.Array2.sortInPlaceWith(sorted, ((a, ai), (b, bi)) => {
+    let d = rank(o, a) - rank(o, b)
+    d != 0 ? d : ai - bi
+  })->ignore
+  Js.Array2.map(sorted, ((r, _)) => r)
+}
+
 let argsOfRefs = (~forClip, refs: array<reference>) =>
   Js.Array2.reduce(refs, (acc, r) => Js.Array2.concat(acc, [flagOf(~forClip, r), pathOf(r)]), [])
 
@@ -317,6 +364,8 @@ let refsOfArgs = (args: array<string>): array<string> =>
    the same list, so they cannot describe different calls. */
 let run = (~episode, ~id, ~kind, ~model, ~credits, ~prompt, ~refs: array<reference>, ~head, ~tail, ~forClip, ~dst, ~ext) => {
   Js.Array2.forEach(refs, r => ignore(requireFile(roleOf(r) ++ " reference", pathOf(r))))
+  /* the model decides which reference leads */
+  let refs = ordered(~model, refs)
   let args = Js.Array2.concatMany(head, [argsOfRefs(~forClip, refs), tail])
   Kuku_Spend.guard(~episode, ~shot=id, ~credits)
   let raw = execFileSync("higgsfield", args, opts)

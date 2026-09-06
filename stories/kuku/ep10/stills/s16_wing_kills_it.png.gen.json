@@ -1,0 +1,48 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "still",
+ "id": "s16_wing_kills_it",
+ "at": "2026-09-06T02:43:28.008Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "5ca28d15633379a3327ff10e8e76f9040b4d06164664a0e6d4f457c922a494b0",
+ "promptSha256": "cbb0ab7bb16fbd9bf86771191ee78745c4266a98c1f52b541e6d467acc6ff489",
+ "rulesSha256": "cc95a1b4f7db91b98e72f58aa60ed9932680dcf85849cbe482f247c914e9bb6b",
+ "prompt": "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\nset.ref: image[1]\nset.rule: image[1] is this same location seen closer — identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light; every landmark inside this tighter frame sits where image[1] puts it\ncast.ref: every remaining attached image is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it\n\nSCENE: फ्यूरिया at the niche with one wing spread across the opening\nsubject[0].name: FYURIA\nsubject[0].species: paper dragon child\nsubject[0].colour: bright pink-red\nsubject[0].scale: knee high to a grown-up, the height of a human child\nsubject[0].pose: फ्यूरिया stands at the niche with one wing spread across the opening\n\nsubject[1].name: THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick\nsubject[1].state: standing on the stone shelf of the niche with a single small flame upright on its wick\nsetting.place: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.\nlight.state: Night has come. The small flame in the niche is the one warm light, glowing on the paper stone closest to it, and the courtyard beyond falls away into soft blue shadow.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.\n- SMALL FORM: फ्यूरिया are each about knee high to a grown-up, and the low wall rises well above the small dragons' heads.\n- VIEWPOINT: A medium view holding the niche at one side of the frame and the character acting on it at the other.",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\nset.ref: image[1]\nset.rule: image[1] is this same location seen closer — identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light; every landmark inside this tighter frame sits where image[1] puts it\ncast.ref: every remaining attached image is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it\n\nSCENE: फ्यूरिया at the niche with one wing spread across the opening\nsubject[0].name: FYURIA\nsubject[0].species: paper dragon child\nsubject[0].colour: bright pink-red\nsubject[0].scale: knee high to a grown-up, the height of a human child\nsubject[0].pose: फ्यूरिया stands at the niche with one wing spread across the opening\n\nsubject[1].name: THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick\nsubject[1].state: standing on the stone shelf of the niche with a single small flame upright on its wick\nsetting.place: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.\nlight.state: Night has come. The small flame in the niche is the one warm light, glowing on the paper stone closest to it, and the courtyard beyond falls away into soft blue shadow.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.\n- SMALL FORM: फ्यूरिया are each about knee high to a grown-up, and the low wall rises well above the small dragons' heads.\n- VIEWPOINT: A medium view holding the niche at one side of the frame and the character acting on it at the other.",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/ep10_style_key.png",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/sets/courtyard_plate.png",
+  "--image",
+  "../stories/kuku/charsheets/furia.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/ep10_style_key.png",
+   "role": "style",
+   "sha256": "a9e06bf777c5579e379c1d4ea1954f0e6ba05e45cb326386551a7cbc6f0fefe6"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/sets/courtyard_plate.png",
+   "role": "plate",
+   "sha256": "84246f4cc88c2c00b8368d1fb2a549bfcbef4872c9c2c95f0235e09cd1277f69"
+  },
+  {
+   "path": "../stories/kuku/charsheets/furia.png",
+   "role": "board",
+   "sha256": "b87317a837ab53954d61cda1d048964c7abd6f67fd04dd116b3221b0d6b2aa1a"
+  }
+ ]
+}

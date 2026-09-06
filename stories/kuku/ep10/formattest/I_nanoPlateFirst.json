@@ -1,0 +1,59 @@
+[
+  {
+    "created_at": "2026-09-04T21:32:07.628696Z",
+    "display_name": "Nano Banana Pro",
+    "id": "4d7b1e8f-3372-400a-8712-0c96fc105ef4",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260904_213207_4d7b1e8f-3372-400a-8712-0c96fc105ef4_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "c9ccadc2-fcea-4f1d-a76d-c53319f7cace",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/c9ccadc2-fcea-4f1d-a76d-c53319f7cace_resize.jpg"
+        },
+        {
+          "id": "e9600b0d-d2ae-447a-bc0f-286b949794d3",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/e9600b0d-d2ae-447a-bc0f-286b949794d3.png"
+        },
+        {
+          "id": "3eb7afce-688d-464a-a050-6328b1196d16",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/3eb7afce-688d-464a-a050-6328b1196d16_resize.jpg"
+        },
+        {
+          "id": "37bca72e-85a5-4a7d-8686-5b858824632e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/37bca72e-85a5-4a7d-8686-5b858824632e_resize.jpg"
+        },
+        {
+          "id": "e5b83e6d-8aff-44d7-8dc0-1987443e6566",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/e5b83e6d-8aff-44d7-8dc0-1987443e6566_resize.jpg"
+        },
+        {
+          "id": "cf1e5d0b-ed91-4ca6-80f8-c35372be1229",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/cf1e5d0b-ed91-4ca6-80f8-c35372be1229_resize.jpg"
+        },
+        {
+          "id": "2dfe6631-177f-4e36-8656-bc8018cd2abe",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/2dfe6631-177f-4e36-8656-bc8018cd2abe_resize.jpg"
+        }
+      ],
+      "prompt": "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nstyle.ref: image[1] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\nset.ref: image[0]\nset.rule: image[0] is this same location seen closer — identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light; every landmark inside this tighter frame sits where image[0] puts it\ncast.ref: every remaining attached image is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it\n\nSCENE: कुकु, फ्यूरिया, कैस्टर and वैस्पर leaning in together around the niche on लेडा's count, लेडा a little back with one claw raised, counting\nsubject[0].name: KUKU\nsubject[0].species: paper dragon child\nsubject[0].colour: green\nsubject[0].scale: knee high to a grown-up, the height of a human child\nsubject[0].pose: कुकु leans in toward the niche on लेडा's count\n\nsubject[1].name: FYURIA\nsubject[1].species: paper dragon child\nsubject[1].colour: bright pink-red\nsubject[1].scale: knee high to a grown-up, the height of a human child\nsubject[1].pose: फ्यूरिया leans in toward the niche beside कुकु, wings held tight\n\nsubject[2].name: LEDA\nsubject[2].species: paper dragon child\nsubject[2].colour: lilac-purple\nsubject[2].scale: knee high to a grown-up, the height of a human child\nsubject[2].pose: लेडा kneels a little back from the niche with one claw raised, counting\n\nsubject[3].name: CASTOR\nsubject[3].species: paper dragon child\nsubject[3].colour: golden-yellow\nsubject[3].scale: knee high to a grown-up, the height of a human child\nsubject[3].pose: कैस्टर leans in toward the niche at the right, both paws out\n\nsubject[4].name: VESPER\nsubject[4].species: paper dragon child\nsubject[4].colour: pale blue\nsubject[4].scale: knee high to a grown-up, the height of a human child\nsubject[4].pose: वैस्पर leans in toward the niche at the left\n\nsubject[5].name: THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick\nsubject[5].state: standing on the stone shelf of the niche with a single small flame upright on its wick\nsetting.place: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.\nlight.state: Night has come. The small flame in the niche is the one warm light, glowing on the paper stone closest to it, and the courtyard beyond falls away into soft blue shadow.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.\n- SMALL FORM: कुकु, फ्यूरिया, लेडा, कैस्टर, वैस्पर are each about knee high to a grown-up, and the low wall rises well above the small dragons' heads.\n- VIEWPOINT: A low three-quarter view across the seated group, the niche at the far side of the frame.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260904_213207_4d7b1e8f-3372-400a-8712-0c96fc105ef4.png",
+    "status": "completed"
+  }
+]

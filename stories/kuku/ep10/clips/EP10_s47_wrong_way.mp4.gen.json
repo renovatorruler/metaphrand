@@ -1,0 +1,54 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "clip",
+ "id": "s47_wrong_way",
+ "at": "2026-09-03T06:09:49.989Z",
+ "model": "cinematic_studio_video_4_0",
+ "credits": 32.5,
+ "assetSha256": "a517bbe6ac2fd7f3d13d4ddd63f007d6e4b3abb47820fcfb76bf0dd5630adbbb",
+ "promptSha256": "94bb9f6eb3eb8143476482e53399431c1df0ad51e13da2045b84886f8cdc8bc5",
+ "prompt": "SCENE: A golden curve forms in the dark and glows — but it is turned the wrong way round, its opening facing away from the valley.\nTHE COMPLETE CAST OF THIS SHOT — exactly these:\n- KUKU — कुकु breathing toward the empty air before the niche\n- THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick — standing cold and dark on the stone shelf of the niche\nFIRST FRAME: the provided start image IS frame one — the action begins from exactly this position.\nFORMAT: one single unbroken take.\nBLOCKING:\n- The courtyard stays exactly as it is in the start frame: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- Everyone in frame keeps the position they hold in the start frame, apart from the movement described below.\nACTION TIMING:\n- A golden curve forms in the dark and glows — but it is turned the wrong way round, its opening facing away from the valley.\nCAMERA: The camera holds completely still throughout. A straight view of the niche in the low wall, the lamp on its stone shelf filling the middle of the frame.\nPHYSICS:\n- TRAVEL KEEPS ONE DIRECTION: whatever moves may start from rest, speed up or slow down, and its path always continues the same way.\n- motion has real weight\n- the golden कड़ा stays on the same forearm as in the start image\n- Paper behaves as paper: it bends and lifts at its edges and settles back, keeping its thickness.\n- The flame moves the way a real small flame moves — it leans, wavers and recovers.\nLIGHTING: Deep blue darkness. The lamp in the niche is cold and unlit. The only light is the faint blue of the night sky, enough to see shapes and the shine of open eyes.\nAUDIO: SILENT\nSTYLE: every frame keeps exactly the cut-paper papercraft look of the start image.\nHARD RULES:\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges and a fine visible paper grain.\n- THE CHILDREN ARE SMALL: each child dragon is about knee high to a grown-up, and the low wall rises above them.\n- THE LAMP IS OUT: the small clay lamp stands empty and cold on the niche shelf, its wick dark, and it stays that way for the whole shot. All the light in this picture comes from the night sky.\n- ONE CONTINUOUS MOVEMENT: the shot contains a single unbroken action that carries from the first frame to the last, moving a little in every frame at an even pace throughout.",
+ "params": [
+  "generate",
+  "create",
+  "cinematic_studio_video_4_0",
+  "--prompt",
+  "SCENE: A golden curve forms in the dark and glows — but it is turned the wrong way round, its opening facing away from the valley.\nTHE COMPLETE CAST OF THIS SHOT — exactly these:\n- KUKU — कुकु breathing toward the empty air before the niche\n- THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick — standing cold and dark on the stone shelf of the niche\nFIRST FRAME: the provided start image IS frame one — the action begins from exactly this position.\nFORMAT: one single unbroken take.\nBLOCKING:\n- The courtyard stays exactly as it is in the start frame: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- Everyone in frame keeps the position they hold in the start frame, apart from the movement described below.\nACTION TIMING:\n- A golden curve forms in the dark and glows — but it is turned the wrong way round, its opening facing away from the valley.\nCAMERA: The camera holds completely still throughout. A straight view of the niche in the low wall, the lamp on its stone shelf filling the middle of the frame.\nPHYSICS:\n- TRAVEL KEEPS ONE DIRECTION: whatever moves may start from rest, speed up or slow down, and its path always continues the same way.\n- motion has real weight\n- the golden कड़ा stays on the same forearm as in the start image\n- Paper behaves as paper: it bends and lifts at its edges and settles back, keeping its thickness.\n- The flame moves the way a real small flame moves — it leans, wavers and recovers.\nLIGHTING: Deep blue darkness. The lamp in the niche is cold and unlit. The only light is the faint blue of the night sky, enough to see shapes and the shine of open eyes.\nAUDIO: SILENT\nSTYLE: every frame keeps exactly the cut-paper papercraft look of the start image.\nHARD RULES:\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges and a fine visible paper grain.\n- THE CHILDREN ARE SMALL: each child dragon is about knee high to a grown-up, and the low wall rises above them.\n- THE LAMP IS OUT: the small clay lamp stands empty and cold on the niche shelf, its wick dark, and it stays that way for the whole shot. All the light in this picture comes from the night sky.\n- ONE CONTINUOUS MOVEMENT: the shot contains a single unbroken action that carries from the first frame to the last, moving a little in every frame at an even pace throughout.",
+  "--start-image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/stills/s47_wrong_way.png",
+  "--mode",
+  "omni_reference",
+  "--image-references",
+  "../stories/kuku/charsheets/kuku.png",
+  "--generate_audio",
+  "false",
+  "--duration",
+  "5",
+  "--resolution",
+  "720p",
+  "--bitrate_mode",
+  "high",
+  "--aspect_ratio",
+  "16:9",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/stills/s47_wrong_way.png",
+   "sha256": "62252faf4990ac46a9b6eaf05244058d938e860fd30b40babb84c85a3e657e09"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/ep10_style_key.png",
+   "sha256": "a9e06bf777c5579e379c1d4ea1954f0e6ba05e45cb326386551a7cbc6f0fefe6"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/sets/courtyard_plate.png",
+   "sha256": "84246f4cc88c2c00b8368d1fb2a549bfcbef4872c9c2c95f0235e09cd1277f69"
+  },
+  {
+   "path": "../stories/kuku/charsheets/kuku.png",
+   "sha256": "1658963cd42d088b74abe31e745cff9577010625a4af5707ebf4d6e609c35447"
+  }
+ ]
+}

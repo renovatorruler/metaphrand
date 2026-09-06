@@ -1,0 +1,76 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "still",
+ "id": "s33e_too_big",
+ "at": "2026-09-06T04:46:46.035Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "c346abe1604448a71342fbab52affbddbda978704ed1f7263e377443ac4fba09",
+ "promptSha256": "ad106e8dd9e9852dc0e7a46956f6e993063484c330776bc09cabae863c2860ca",
+ "rulesSha256": "cc95a1b4f7db91b98e72f58aa60ed9932680dcf85849cbe482f247c914e9bb6b",
+ "prompt": "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\nset.ref: image[1]\nset.rule: image[1] is this same location seen closer — identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light; every landmark inside this tighter frame sits where image[1] puts it\ncast.ref: every remaining attached image is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it\n\nSCENE: कुकु, फ्यूरिया, लेडा, कैस्टर and वैस्पर in great form crowding the courtyard, shoulders level with the top of the low wall, कैस्टर bending down toward the niche far below, फ्यूरिया's head hanging, कुकु looking down at the niche, लेडा looking at कैस्टर, वैस्पर with wings drawn in tight\nsubject[0].name: KUKU\nsubject[0].species: paper dragon child\nsubject[0].colour: green\nsubject[0].scale: about seven metres tall — a grown man would reach only to this dragon's knee; the size in the picture depends on how far the viewpoint stands, so in a wide shot this dragon may be a small figure and still be enormous\nsubject[0].pose: कुकु in great form stands crowded at the middle of the courtyard, looking down at the niche far below\n\nsubject[1].name: FYURIA\nsubject[1].species: paper dragon child\nsubject[1].colour: bright pink-red\nsubject[1].scale: about seven metres tall — a grown man would reach only to this dragon's knee; the size in the picture depends on how far the viewpoint stands, so in a wide shot this dragon may be a small figure and still be enormous\nsubject[1].pose: फ्यूरिया in great form stands at कुकु's right with head hanging, defeated\n\nsubject[2].name: LEDA\nsubject[2].species: paper dragon child\nsubject[2].colour: lilac-purple\nsubject[2].scale: about seven metres tall — a grown man would reach only to this dragon's knee; the size in the picture depends on how far the viewpoint stands, so in a wide shot this dragon may be a small figure and still be enormous\nsubject[2].pose: लेडा in great form stands at कुकु's left, looking at कैस्टर\n\nsubject[3].name: CASTOR\nsubject[3].species: paper dragon child\nsubject[3].colour: golden-yellow\nsubject[3].scale: about seven metres tall — a grown man would reach only to this dragon's knee; the size in the picture depends on how far the viewpoint stands, so in a wide shot this dragon may be a small figure and still be enormous\nsubject[3].pose: कैस्टर in great form stands at the right end, bending down toward the niche far below, speaking slowly\n\nsubject[4].name: VESPER\nsubject[4].species: paper dragon child\nsubject[4].colour: pale blue\nsubject[4].scale: about seven metres tall — a grown man would reach only to this dragon's knee; the size in the picture depends on how far the viewpoint stands, so in a wide shot this dragon may be a small figure and still be enormous\nsubject[4].pose: वैस्पर in great form stands at the left end, wings drawn in tight to fit the courtyard\nsetting.place: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.\nlight.state: Deep blue darkness. All light comes from the night sky, enough to see outlines and the shine of open eyes.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.\n- GREAT FORM: कुकु, फ्यूरिया, लेडा, कैस्टर, वैस्पर each stand about seven metres tall, taller than the courtyard is wide, shoulders level with the top of the low wall and heads above it, wings broad enough to reach across the flagstones; a wide golden band shines on one wrist of each dragon.\n- THE NICHE SHELF IS BARE STONE, in shadow.\n- VIEWPOINT: A view from beside the niche, looking back across the courtyard at the faces.",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\nset.ref: image[1]\nset.rule: image[1] is this same location seen closer — identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light; every landmark inside this tighter frame sits where image[1] puts it\ncast.ref: every remaining attached image is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it\n\nSCENE: कुकु, फ्यूरिया, लेडा, कैस्टर and वैस्पर in great form crowding the courtyard, shoulders level with the top of the low wall, कैस्टर bending down toward the niche far below, फ्यूरिया's head hanging, कुकु looking down at the niche, लेडा looking at कैस्टर, वैस्पर with wings drawn in tight\nsubject[0].name: KUKU\nsubject[0].species: paper dragon child\nsubject[0].colour: green\nsubject[0].scale: about seven metres tall — a grown man would reach only to this dragon's knee; the size in the picture depends on how far the viewpoint stands, so in a wide shot this dragon may be a small figure and still be enormous\nsubject[0].pose: कुकु in great form stands crowded at the middle of the courtyard, looking down at the niche far below\n\nsubject[1].name: FYURIA\nsubject[1].species: paper dragon child\nsubject[1].colour: bright pink-red\nsubject[1].scale: about seven metres tall — a grown man would reach only to this dragon's knee; the size in the picture depends on how far the viewpoint stands, so in a wide shot this dragon may be a small figure and still be enormous\nsubject[1].pose: फ्यूरिया in great form stands at कुकु's right with head hanging, defeated\n\nsubject[2].name: LEDA\nsubject[2].species: paper dragon child\nsubject[2].colour: lilac-purple\nsubject[2].scale: about seven metres tall — a grown man would reach only to this dragon's knee; the size in the picture depends on how far the viewpoint stands, so in a wide shot this dragon may be a small figure and still be enormous\nsubject[2].pose: लेडा in great form stands at कुकु's left, looking at कैस्टर\n\nsubject[3].name: CASTOR\nsubject[3].species: paper dragon child\nsubject[3].colour: golden-yellow\nsubject[3].scale: about seven metres tall — a grown man would reach only to this dragon's knee; the size in the picture depends on how far the viewpoint stands, so in a wide shot this dragon may be a small figure and still be enormous\nsubject[3].pose: कैस्टर in great form stands at the right end, bending down toward the niche far below, speaking slowly\n\nsubject[4].name: VESPER\nsubject[4].species: paper dragon child\nsubject[4].colour: pale blue\nsubject[4].scale: about seven metres tall — a grown man would reach only to this dragon's knee; the size in the picture depends on how far the viewpoint stands, so in a wide shot this dragon may be a small figure and still be enormous\nsubject[4].pose: वैस्पर in great form stands at the left end, wings drawn in tight to fit the courtyard\nsetting.place: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.\nlight.state: Deep blue darkness. All light comes from the night sky, enough to see outlines and the shine of open eyes.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.\n- GREAT FORM: कुकु, फ्यूरिया, लेडा, कैस्टर, वैस्पर each stand about seven metres tall, taller than the courtyard is wide, shoulders level with the top of the low wall and heads above it, wings broad enough to reach across the flagstones; a wide golden band shines on one wrist of each dragon.\n- THE NICHE SHELF IS BARE STONE, in shadow.\n- VIEWPOINT: A view from beside the niche, looking back across the courtyard at the faces.",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/ep10_style_key.png",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/sets/courtyard_plate.png",
+  "--image",
+  "../stories/kuku/ep10prod/elements/future_kuku_board_bracelet.png",
+  "--image",
+  "../stories/kuku/ep10prod/elements/future_fyuria_board_bracelet.png",
+  "--image",
+  "../stories/kuku/ep10prod/elements/future_leda_board_bracelet.png",
+  "--image",
+  "../stories/kuku/ep10prod/elements/future_castor_board_bracelet.png",
+  "--image",
+  "../stories/kuku/ep10prod/elements/future_vesper_board_bracelet.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/ep10_style_key.png",
+   "role": "style",
+   "sha256": "a9e06bf777c5579e379c1d4ea1954f0e6ba05e45cb326386551a7cbc6f0fefe6"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/sets/courtyard_plate.png",
+   "role": "plate",
+   "sha256": "84246f4cc88c2c00b8368d1fb2a549bfcbef4872c9c2c95f0235e09cd1277f69"
+  },
+  {
+   "path": "../stories/kuku/ep10prod/elements/future_kuku_board_bracelet.png",
+   "role": "board",
+   "sha256": "aca63afabc702d05e53399bcd490d4a02e9f3ad03bc4a2b2dac065db3158d792"
+  },
+  {
+   "path": "../stories/kuku/ep10prod/elements/future_fyuria_board_bracelet.png",
+   "role": "board",
+   "sha256": "5f4a3c4961a0a09a6f4d38937302098fb673442a45a96dfa8c38ccf1d67c6211"
+  },
+  {
+   "path": "../stories/kuku/ep10prod/elements/future_leda_board_bracelet.png",
+   "role": "board",
+   "sha256": "86b239668299db2efc6052f7713ef8f92caab243522cbadebcf8e49ef2eac4dd"
+  },
+  {
+   "path": "../stories/kuku/ep10prod/elements/future_castor_board_bracelet.png",
+   "role": "board",
+   "sha256": "5c5862dbbbcaed38c1faa1dd56a249c356ea3b494022701ae1e5ecd2be98de3d"
+  },
+  {
+   "path": "../stories/kuku/ep10prod/elements/future_vesper_board_bracelet.png",
+   "role": "board",
+   "sha256": "d703fef9e7669244fea6d1fcd45bf4c32aca62670b832d9a416eae6aa9eca699"
+  }
+ ]
+}

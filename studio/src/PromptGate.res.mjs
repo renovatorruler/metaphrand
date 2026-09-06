@@ -85,6 +85,17 @@ var darkLighting = /darkness|night sky|one source of light/i;
 
 var smallForm = /small everyday form/i;
 
+var wearables = [
+  "कड़ा",
+  "bracelet",
+  "halter",
+  "spectacles",
+  "shawl",
+  "staff",
+  "turra",
+  "safa"
+];
+
 var greatForm = /GREAT FORM/;
 
 var subjectLine = /^- (KUKU|FYURIA|LEDA|CASTOR|VESPER|DADI|PAPA|KALU) — (.*)$/;
@@ -199,6 +210,13 @@ function scanStrict(text) {
         }
         
       });
+  wearables.forEach(function (w) {
+        var n = text.split(w).length - 1 | 0;
+        if (n > 1) {
+          return add("[REPEATED_NOUN: " + w + " named " + String(n) + " times — a repeated noun gets drawn twice; the character sheet is the authority on what is worn]");
+        }
+        
+      });
   if (smallForm.test(text) && greatForm.test(text)) {
     add("[CONTRADICTION_FORM: small everyday form and GREAT FORM in one prompt]");
   }
@@ -270,6 +288,7 @@ export {
   flameWords ,
   darkLighting ,
   smallForm ,
+  wearables ,
   greatForm ,
   subjectLine ,
   fieldName ,

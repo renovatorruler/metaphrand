@@ -1,0 +1,48 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "still",
+ "id": "s52_line_rises",
+ "at": "2026-09-06T04:46:18.234Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "da225746516224d3b256d58b19b1a9f6002dc7651116c24f6a1eb2929b804137",
+ "promptSha256": "ea28476b367f0c923dbaaf5c2cf938d7d2aface3f05ef2ffaee75c4765afec9e",
+ "rulesSha256": "cc95a1b4f7db91b98e72f58aa60ed9932680dcf85849cbe482f247c914e9bb6b",
+ "prompt": "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\nset.ref: image[1]\nset.rule: image[1] is this same location seen closer — identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light; every landmark inside this tighter frame sits where image[1] puts it\ncast.ref: every remaining attached image is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it\n\nSCENE: कुकु standing before the niche with a warm golden glow standing in the air before it\nsubject[0].name: KUKU\nsubject[0].species: paper dragon child\nsubject[0].colour: green\nsubject[0].scale: knee high to a grown-up, the height of a human child\nsubject[0].pose: कुकु stands before the niche, still breathing out toward the golden glow\n\nsubject[1].name: A SOFT POOL OF WARM GOLDEN LIGHT — a warm golden glow hanging in the air before the niche, its edges fading gently into the dark, about as tall as a seated child\nsubject[1].state: burning steadily, casting warm gold onto the faces near it and onto the paper stone of the wall behind it\nsetting.place: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.\nlight.state: A warm golden glow standing in the air before the niche is the one source of light. Warm gold falls on the faces near it and on the paper stone of the wall, and the courtyard beyond holds deep blue night.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.\n- SMALL FORM: कुकु are each about knee high to a grown-up, and the low wall rises well above the small dragons' heads.\n- THE NICHE SHELF IS BARE STONE, in shadow.\n- VIEWPOINT: A straight view of the niche in the low wall, the bare stone shelf of the niche filling the middle of the frame.",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\nset.ref: image[1]\nset.rule: image[1] is this same location seen closer — identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light; every landmark inside this tighter frame sits where image[1] puts it\ncast.ref: every remaining attached image is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it\n\nSCENE: कुकु standing before the niche with a warm golden glow standing in the air before it\nsubject[0].name: KUKU\nsubject[0].species: paper dragon child\nsubject[0].colour: green\nsubject[0].scale: knee high to a grown-up, the height of a human child\nsubject[0].pose: कुकु stands before the niche, still breathing out toward the golden glow\n\nsubject[1].name: A SOFT POOL OF WARM GOLDEN LIGHT — a warm golden glow hanging in the air before the niche, its edges fading gently into the dark, about as tall as a seated child\nsubject[1].state: burning steadily, casting warm gold onto the faces near it and onto the paper stone of the wall behind it\nsetting.place: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.\nlight.state: A warm golden glow standing in the air before the niche is the one source of light. Warm gold falls on the faces near it and on the paper stone of the wall, and the courtyard beyond holds deep blue night.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.\n- SMALL FORM: कुकु are each about knee high to a grown-up, and the low wall rises well above the small dragons' heads.\n- THE NICHE SHELF IS BARE STONE, in shadow.\n- VIEWPOINT: A straight view of the niche in the low wall, the bare stone shelf of the niche filling the middle of the frame.",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/ep10_style_key.png",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/sets/courtyard_plate.png",
+  "--image",
+  "../stories/kuku/charsheets/kuku.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/ep10_style_key.png",
+   "role": "style",
+   "sha256": "a9e06bf777c5579e379c1d4ea1954f0e6ba05e45cb326386551a7cbc6f0fefe6"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/sets/courtyard_plate.png",
+   "role": "plate",
+   "sha256": "84246f4cc88c2c00b8368d1fb2a549bfcbef4872c9c2c95f0235e09cd1277f69"
+  },
+  {
+   "path": "../stories/kuku/charsheets/kuku.png",
+   "role": "board",
+   "sha256": "1658963cd42d088b74abe31e745cff9577010625a4af5707ebf4d6e609c35447"
+  }
+ ]
+}

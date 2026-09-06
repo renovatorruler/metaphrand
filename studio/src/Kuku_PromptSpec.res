@@ -106,10 +106,10 @@ let shotName = s =>
    surviving every text fix, because the first attached reference out-argues
    any prompt. The key is now a landmark-free crop of our OWN receipted lane
    plate: the world defines its own style, and has nothing foreign to leak. */
-/* THE STYLE KEY IS CONTENT, NOT JUST STYLE. EP10 learned this the hard way: a key
+/* THE STYLE KEY IS CONTENT, NOT JUST STYLE. The rejected ग-से-गाय attempt learned this the hard way: a key
    cropped from a paper-theatre image put red blocks and gold shields into fifty
-   frames. The key below is a crop of EP10's own LANE — which then leaked EP10's
-   lane, red markers and all, into an EP12 courtyard shot. So the key is per
+   frames. The key below is a crop of that attempt's own LANE — which then leaked its
+   lane, red markers and all, into a द-से-दीया courtyard shot. So the key is per
    episode: a show with a new set needs a landmark-free crop of THAT set. */
 let styleKeyDefault = "a34b16f4-11fa-4153-9c43-ed2e2a30d033"
 let styleKeyRef = ref(styleKeyDefault)
@@ -197,20 +197,17 @@ let subjectFields = (i, s) => {
           ? "about seven metres tall — a grown man would reach only to this dragon's knee; the size in the picture depends on how far the viewpoint stands, so in a wide shot this dragon may be a small figure and still be enormous"
           : "knee high to a grown-up, the height of a human child",
       ),
-      (k ++ ".wears", "a golden कड़ा on one forearm"),
       (k ++ ".pose", doing),
     ]
   | Gauri({doing}) => [
       (k ++ ".name", "GAURI"),
       (k ++ ".species", "paper cow"),
       (k ++ ".colour", "brown and white, dark paper eyes"),
-      (k ++ ".wears", "a plain rope halter and only that; neck and legs otherwise bare"),
       (k ++ ".pose", doing),
     ]
   | RishiMuni({doing}) => [
       (k ++ ".name", "RISHI"),
       (k ++ ".species", "elder paper dragon guru from the attached sheet"),
-      (k ++ ".look", "white-maned and white-bearded, pale horns, an ochre robe, a wooden staff"),
       (k ++ ".pose", doing),
     ]
   | Dadi({doing}) => [
@@ -253,9 +250,9 @@ let imagePrompt = (s: imageSpec) =>
         (Js.Array2.length(s.objects) > 0
           ? "\nobject.ref: the image after the plate is a locked story object — identical form, proportion, colour and material every time it appears"
           : "") ++
-        "\ncast.ref: every remaining attached image is a locked character design; match each EXACTLY, including the golden कड़ा"
+        "\ncast.ref: every remaining attached image is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it"
       | None =>
-        "cast.ref: every attached image after the first is a locked character design; match each EXACTLY, including the golden कड़ा"
+        "cast.ref: every attached image after the first is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it"
       },
       switch s.blockout {
       | Some(_) =>

@@ -1,0 +1,78 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "clip",
+ "id": "s33b_transform",
+ "at": "2026-09-03T06:04:48.313Z",
+ "model": "cinematic_studio_video_4_0",
+ "credits": 32.5,
+ "assetSha256": "6dc9cac0ce31b18be419c04bdb1cda3d79ab4681b1e5034772bf72ac24dd5880",
+ "promptSha256": "29d63d73f70648ef1a8cf5ff6fc73dff5d8f23d968e74036e8a721c57fc653c9",
+ "prompt": "SCENE: Five bands ring at once. A golden wave climbs each child and opens outward, and where five small dragons stood, five great ones now fill the courtyard, their shoulders level with the top of the low wall.\nTHE COMPLETE CAST OF THIS SHOT — exactly these:\n- KUKU — five golden waves rising from five bands as the small children become great dragons\n- FYURIA — five golden waves rising from five bands as the small children become great dragons\n- LEDA — five golden waves rising from five bands as the small children become great dragons\n- CASTOR — five golden waves rising from five bands as the small children become great dragons\n- VESPER — five golden waves rising from five bands as the small children become great dragons\n- THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick — standing cold and dark on the stone shelf of the niche\nFIRST FRAME: the provided start image IS frame one — the action begins from exactly this position.\nFORMAT: one single unbroken take.\nBLOCKING:\n- The courtyard stays exactly as it is in the start frame: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- Everyone in frame keeps the position they hold in the start frame, apart from the movement described below.\nACTION TIMING:\n- Five bands ring at once. A golden wave climbs each child and opens outward, and where five small dragons stood, five great ones now fill the courtyard, their shoulders level with the top of the low wall.\nCAMERA: The camera holds completely still throughout. A wide view from the door side of the courtyard, taking in the flagstone floor, the low wall and the niche, with the valley beyond.\nPHYSICS:\n- TRAVEL KEEPS ONE DIRECTION: whatever moves may start from rest, speed up or slow down, and its path always continues the same way.\n- motion has real weight\n- the golden कड़ा stays on the same forearm as in the start image\n- Paper behaves as paper: it bends and lifts at its edges and settles back, keeping its thickness.\n- The flame moves the way a real small flame moves — it leans, wavers and recovers.\nLIGHTING: Deep blue darkness. The lamp in the niche is cold and unlit. The only light is the faint blue of the night sky, enough to see shapes and the shine of open eyes.\nAUDIO: SILENT\nSTYLE: every frame keeps exactly the cut-paper papercraft look of the start image.\nHARD RULES:\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges and a fine visible paper grain.\n- THE FIVE ARE IN THEIR GREAT FORM: each dragon now stands about seven metres tall, taller than the courtyard is wide, shoulders level with the top of the low wall and heads above it, wings broad enough to reach across the flagstones. A wide golden band shines on one wrist of each.\n- THE LAMP IS OUT: the small clay lamp stands empty and cold on the niche shelf, its wick dark, and it stays that way for the whole shot. All the light in this picture comes from the night sky.\n- ONE CONTINUOUS MOVEMENT: the shot contains a single unbroken action that carries from the first frame to the last, moving a little in every frame at an even pace throughout.",
+ "params": [
+  "generate",
+  "create",
+  "cinematic_studio_video_4_0",
+  "--prompt",
+  "SCENE: Five bands ring at once. A golden wave climbs each child and opens outward, and where five small dragons stood, five great ones now fill the courtyard, their shoulders level with the top of the low wall.\nTHE COMPLETE CAST OF THIS SHOT — exactly these:\n- KUKU — five golden waves rising from five bands as the small children become great dragons\n- FYURIA — five golden waves rising from five bands as the small children become great dragons\n- LEDA — five golden waves rising from five bands as the small children become great dragons\n- CASTOR — five golden waves rising from five bands as the small children become great dragons\n- VESPER — five golden waves rising from five bands as the small children become great dragons\n- THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick — standing cold and dark on the stone shelf of the niche\nFIRST FRAME: the provided start image IS frame one — the action begins from exactly this position.\nFORMAT: one single unbroken take.\nBLOCKING:\n- The courtyard stays exactly as it is in the start frame: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- Everyone in frame keeps the position they hold in the start frame, apart from the movement described below.\nACTION TIMING:\n- Five bands ring at once. A golden wave climbs each child and opens outward, and where five small dragons stood, five great ones now fill the courtyard, their shoulders level with the top of the low wall.\nCAMERA: The camera holds completely still throughout. A wide view from the door side of the courtyard, taking in the flagstone floor, the low wall and the niche, with the valley beyond.\nPHYSICS:\n- TRAVEL KEEPS ONE DIRECTION: whatever moves may start from rest, speed up or slow down, and its path always continues the same way.\n- motion has real weight\n- the golden कड़ा stays on the same forearm as in the start image\n- Paper behaves as paper: it bends and lifts at its edges and settles back, keeping its thickness.\n- The flame moves the way a real small flame moves — it leans, wavers and recovers.\nLIGHTING: Deep blue darkness. The lamp in the niche is cold and unlit. The only light is the faint blue of the night sky, enough to see shapes and the shine of open eyes.\nAUDIO: SILENT\nSTYLE: every frame keeps exactly the cut-paper papercraft look of the start image.\nHARD RULES:\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges and a fine visible paper grain.\n- THE FIVE ARE IN THEIR GREAT FORM: each dragon now stands about seven metres tall, taller than the courtyard is wide, shoulders level with the top of the low wall and heads above it, wings broad enough to reach across the flagstones. A wide golden band shines on one wrist of each.\n- THE LAMP IS OUT: the small clay lamp stands empty and cold on the niche shelf, its wick dark, and it stays that way for the whole shot. All the light in this picture comes from the night sky.\n- ONE CONTINUOUS MOVEMENT: the shot contains a single unbroken action that carries from the first frame to the last, moving a little in every frame at an even pace throughout.",
+  "--start-image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/stills/s33b_transform.png",
+  "--mode",
+  "omni_reference",
+  "--image-references",
+  "../stories/kuku/charsheets/kuku.png",
+  "--image-references",
+  "../stories/kuku/charsheets/furia.png",
+  "--image-references",
+  "../stories/kuku/charsheets/leda_small.png",
+  "--image-references",
+  "../stories/kuku/charsheets/castor.png",
+  "--image-references",
+  "../stories/kuku/charsheets/vesper_small.png",
+  "--generate_audio",
+  "false",
+  "--duration",
+  "5",
+  "--resolution",
+  "720p",
+  "--bitrate_mode",
+  "high",
+  "--aspect_ratio",
+  "16:9",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/stills/s33b_transform.png",
+   "sha256": "eac77c6727f012a82e3807eba86f29ad47c13ed6c7c3b711e9e38a81c8e55032"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/ep10_style_key.png",
+   "sha256": "a9e06bf777c5579e379c1d4ea1954f0e6ba05e45cb326386551a7cbc6f0fefe6"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/sets/courtyard_plate.png",
+   "sha256": "84246f4cc88c2c00b8368d1fb2a549bfcbef4872c9c2c95f0235e09cd1277f69"
+  },
+  {
+   "path": "../stories/kuku/charsheets/kuku.png",
+   "sha256": "1658963cd42d088b74abe31e745cff9577010625a4af5707ebf4d6e609c35447"
+  },
+  {
+   "path": "../stories/kuku/charsheets/furia.png",
+   "sha256": "b87317a837ab53954d61cda1d048964c7abd6f67fd04dd116b3221b0d6b2aa1a"
+  },
+  {
+   "path": "../stories/kuku/charsheets/leda_small.png",
+   "sha256": "83e9018db62fa16b7cd4fb3243bac022158e972490cb2d5d59388af9b5223089"
+  },
+  {
+   "path": "../stories/kuku/charsheets/castor.png",
+   "sha256": "7294429a9792c6287e4569e82831ec18991f720e1acfd9774ba593d3b112f886"
+  },
+  {
+   "path": "../stories/kuku/charsheets/vesper_small.png",
+   "sha256": "f1f06dec9e2d203ab3a84580fa0ebe06c51a297d94e21a17c50644cbaff335bc"
+  }
+ ]
+}

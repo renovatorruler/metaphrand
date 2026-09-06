@@ -1,0 +1,41 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "still",
+ "id": "sprite_dadi_kneeling",
+ "at": "2026-09-06T14:06:40.228Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "eca9bdee043ee67af4e42188453300a0ef74243c3a5ef131960db9065f898c55",
+ "promptSha256": "9b616120620ae6bfef46aa6a2db858ea63f1c31a304b2e1e59ab4fea3221bfd9",
+ "rulesSha256": "cc95a1b4f7db91b98e72f58aa60ed9932680dcf85849cbe482f247c914e9bb6b",
+ "prompt": "SHOT: WIDE, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\ncast.ref: every attached image after the first is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it\n\nSCENE: दादी kneels on the flat green paper with both hands held forward and low, as if setting something small down in front of दादी, face turned three quarters toward the camera, mouth gently closed.\nsubject[0].name: DADI\nsubject[0].species: paper grandmother from the attached sheet\nsubject[0].pose: दादी kneels with both hands held forward and low, face three quarters to the camera, mouth gently closed\nsetting.place: one smooth flat sheet of bright green paper fills the entire background edge to edge, the same even green everywhere\nlight.state: Evening, warm level light from the left, the same gold as the courtyard plate, soft shadow falling to the right.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE WHOLE BACKGROUND IS THAT ONE FLAT GREEN PAPER SHEET; दादी is the only thing on it.\n- EVERY SURFACE OF दादी IS CUT PAPER: separate pieces with real thickness, soft rounded cut edges and a fine visible paper grain.\n- दादी FILLS THE FRAME: whole body visible from horns to tail with clear green margin on every side.",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "SHOT: WIDE, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\ncast.ref: every attached image after the first is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it\n\nSCENE: दादी kneels on the flat green paper with both hands held forward and low, as if setting something small down in front of दादी, face turned three quarters toward the camera, mouth gently closed.\nsubject[0].name: DADI\nsubject[0].species: paper grandmother from the attached sheet\nsubject[0].pose: दादी kneels with both hands held forward and low, face three quarters to the camera, mouth gently closed\nsetting.place: one smooth flat sheet of bright green paper fills the entire background edge to edge, the same even green everywhere\nlight.state: Evening, warm level light from the left, the same gold as the courtyard plate, soft shadow falling to the right.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE WHOLE BACKGROUND IS THAT ONE FLAT GREEN PAPER SHEET; दादी is the only thing on it.\n- EVERY SURFACE OF दादी IS CUT PAPER: separate pieces with real thickness, soft rounded cut edges and a fine visible paper grain.\n- दादी FILLS THE FRAME: whole body visible from horns to tail with clear green margin on every side.",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/ep10_style_key.png",
+  "--image",
+  "../stories/kuku/charsheets/dadi.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/ep10_style_key.png",
+   "role": "style",
+   "sha256": "a9e06bf777c5579e379c1d4ea1954f0e6ba05e45cb326386551a7cbc6f0fefe6"
+  },
+  {
+   "path": "../stories/kuku/charsheets/dadi.png",
+   "role": "board",
+   "sha256": "1d9261673ae8dda44b675bce6bbb654142c3c08ef3f791f437e096ea2caa40e3"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "plate",
+ "id": "ep10_letter_da",
+ "at": "2026-09-01T10:12:33.467Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "f3909d28e6636ee1bd72d90b9424532bb20ee60e5434f229fb3199cb3ab0cff7",
+ "promptSha256": "113d3a150394f98622aac2878546fc6210128a0f2fcbf0219153f8ec90277dc9",
+ "prompt": "A single forged letter made of light, standing alone on a plain dark background.\nTHE LETTER: the Devanagari letter द — a deep rounded curve open to the left, with a straight upright line rising along its right side, joined at the top by the flat headline stroke that Devanagari letters carry.\nMATERIAL: the letter is made of warm golden light with a soft glow around it, as though a thin ribbon of gold were standing upright in the air. Its surface has the same soft cut-paper quality as the rest of this world, with a fine paper grain visible inside the glow.\nThe background is plain deep blue-black, so the letter's own light is the only light in the picture.\nThe letter stands upright and centred, seen straight on, filling most of the frame.",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "A single forged letter made of light, standing alone on a plain dark background.\nTHE LETTER: the Devanagari letter द — a deep rounded curve open to the left, with a straight upright line rising along its right side, joined at the top by the flat headline stroke that Devanagari letters carry.\nMATERIAL: the letter is made of warm golden light with a soft glow around it, as though a thin ribbon of gold were standing upright in the air. Its surface has the same soft cut-paper quality as the rest of this world, with a fine paper grain visible inside the glow.\nThe background is plain deep blue-black, so the letter's own light is the only light in the picture.\nThe letter stands upright and centred, seen straight on, filling most of the frame.",
+  "--image",
+  "a34b16f4-11fa-4153-9c43-ed2e2a30d033",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "a34b16f4-11fa-4153-9c43-ed2e2a30d033",
+   "sha256": "PROVIDER_ASSET:a34b16f4-11fa-4153-9c43-ed2e2a30d033"
+  }
+ ]
+}

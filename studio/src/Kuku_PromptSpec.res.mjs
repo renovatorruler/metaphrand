@@ -162,10 +162,6 @@ function subjectFields(i, s) {
             s.form === "Great" ? "about seven metres tall — a grown man would reach only to this dragon's knee; the size in the picture depends on how far the viewpoint stands, so in a wide shot this dragon may be a small figure and still be enormous" : "knee high to a grown-up, the height of a human child"
           ],
           [
-            k + ".wears",
-            "a golden कड़ा on one forearm"
-          ],
-          [
             k + ".pose",
             s.doing
           ]
@@ -186,10 +182,6 @@ function subjectFields(i, s) {
             "brown and white, dark paper eyes"
           ],
           [
-            k + ".wears",
-            "a plain rope halter and only that; neck and legs otherwise bare"
-          ],
-          [
             k + ".pose",
             s.doing
           ]
@@ -204,10 +196,6 @@ function subjectFields(i, s) {
           [
             k + ".species",
             "elder paper dragon guru from the attached sheet"
-          ],
-          [
-            k + ".look",
-            "white-maned and white-bearded, pale horns, an ochre robe, a wooden staff"
           ],
           [
             k + ".pose",
@@ -291,9 +279,9 @@ function imagePrompt(s) {
     }
     tmp = "set.ref: image[1]\n" + tmp$1 + (
       s.objects.length > 0 ? "\nobject.ref: the image after the plate is a locked story object — identical form, proportion, colour and material every time it appears" : ""
-    ) + "\ncast.ref: every remaining attached image is a locked character design; match each EXACTLY, including the golden कड़ा";
+    ) + "\ncast.ref: every remaining attached image is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it";
   } else {
-    tmp = "cast.ref: every attached image after the first is a locked character design; match each EXACTLY, including the golden कड़ा";
+    tmp = "cast.ref: every attached image after the first is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it";
   }
   var match$2 = s.blockout;
   return PromptGate.passStrict("imagePrompt", [

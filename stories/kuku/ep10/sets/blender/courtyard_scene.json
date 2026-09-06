@@ -1,0 +1,3292 @@
+{
+  "episode": "EP10",
+  "set": "dadi_courtyard",
+  "floor_size_m": 5.5,
+  "wall_y_m": 2.4,
+  "wall_h_m": 1.38,
+  "niche_h_m": 0.68,
+  "door_y_m": -2.6,
+  "diya": [
+    0,
+    2.28,
+    0.68
+  ],
+  "cams": [
+    {
+      "tag": "wide",
+      "pos": [
+        0,
+        -1.6,
+        1.25
+      ],
+      "aim": [
+        0,
+        2.1,
+        0.62
+      ],
+      "lens": 30
+    },
+    {
+      "tag": "niche",
+      "pos": [
+        0,
+        0.95,
+        0.8
+      ],
+      "aim": [
+        0,
+        2.35,
+        0.7200000000000001
+      ],
+      "lens": 45
+    },
+    {
+      "tag": "flame",
+      "pos": [
+        0.18,
+        1.75,
+        0.76
+      ],
+      "aim": [
+        0,
+        2.3,
+        0.7100000000000001
+      ],
+      "lens": 60
+    },
+    {
+      "tag": "lampmed",
+      "pos": [
+        0.85,
+        0.95,
+        0.78
+      ],
+      "aim": [
+        -0.1,
+        2.25,
+        0.68
+      ],
+      "lens": 35
+    },
+    {
+      "tag": "faces",
+      "pos": [
+        1.55,
+        2.1,
+        1.2
+      ],
+      "aim": [
+        -0.15,
+        1.15,
+        0.45
+      ],
+      "lens": 28
+    },
+    {
+      "tag": "childeye",
+      "pos": [
+        -0.2,
+        1.35,
+        0.32
+      ],
+      "aim": [
+        0,
+        2.4,
+        0.68
+      ],
+      "lens": 35
+    },
+    {
+      "tag": "overfuria",
+      "pos": [
+        -0.85,
+        1.05,
+        0.72
+      ],
+      "aim": [
+        0.05,
+        2.32,
+        0.68
+      ],
+      "lens": 40
+    },
+    {
+      "tag": "door",
+      "pos": [
+        0,
+        0.6,
+        1.1
+      ],
+      "aim": [
+        0,
+        -2.6,
+        1.05
+      ],
+      "lens": 35
+    },
+    {
+      "tag": "valley",
+      "pos": [
+        0,
+        1.9,
+        1.45
+      ],
+      "aim": [
+        0,
+        7,
+        0.9
+      ],
+      "lens": 28
+    },
+    {
+      "tag": "group34",
+      "pos": [
+        -2.15,
+        -0.35,
+        1
+      ],
+      "aim": [
+        0.15,
+        1.95,
+        0.52
+      ],
+      "lens": 30
+    },
+    {
+      "tag": "high",
+      "pos": [
+        -1,
+        -1.9,
+        2.3
+      ],
+      "aim": [
+        0,
+        1.9,
+        0.5
+      ],
+      "lens": 26
+    }
+  ],
+  "shots": [
+    {
+      "id": "s00_plate",
+      "cam": "wide",
+      "light": "dusk",
+      "secs": 0,
+      "cast": []
+    },
+    {
+      "id": "s01_dadi_enters",
+      "cam": "wide",
+      "light": "dusk",
+      "secs": 9,
+      "cast": [
+        {
+          "who": "DADI",
+          "kind": "elder",
+          "pose": "stand",
+          "pos": [
+            0,
+            -2.15,
+            0
+          ],
+          "facing": 0,
+          "height": 1.62,
+          "rgb": [
+            0.88,
+            0.84,
+            0.78
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s02_lamp_lit",
+      "cam": "niche",
+      "light": "dusk",
+      "secs": 8,
+      "cast": [
+        {
+          "who": "DADI",
+          "kind": "elder",
+          "pose": "kneel",
+          "pos": [
+            0.42,
+            1.95,
+            0
+          ],
+          "facing": 10,
+          "height": 1.62,
+          "rgb": [
+            0.88,
+            0.84,
+            0.78
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s03_five_settle",
+      "cam": "group34",
+      "light": "dusk",
+      "secs": 9,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        },
+        {
+          "who": "DADI",
+          "kind": "elder",
+          "pose": "kneel",
+          "pos": [
+            0.42,
+            1.95,
+            0
+          ],
+          "facing": 10,
+          "height": 1.62,
+          "rgb": [
+            0.88,
+            0.84,
+            0.78
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s04_dadi_explains",
+      "cam": "faces",
+      "light": "dusk",
+      "secs": 10,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        },
+        {
+          "who": "DADI",
+          "kind": "elder",
+          "pose": "kneel",
+          "pos": [
+            0.42,
+            1.95,
+            0
+          ],
+          "facing": 10,
+          "height": 1.62,
+          "rgb": [
+            0.88,
+            0.84,
+            0.78
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s05_first_gust",
+      "cam": "flame",
+      "light": "dusk",
+      "secs": 6,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s06_dadi_valley",
+      "cam": "valley",
+      "light": "dusk",
+      "secs": 10,
+      "cast": [
+        {
+          "who": "DADI",
+          "kind": "elder",
+          "pose": "kneel",
+          "pos": [
+            0.42,
+            1.95,
+            0
+          ],
+          "facing": 10,
+          "height": 1.62,
+          "rgb": [
+            0.88,
+            0.84,
+            0.78
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s07_dadi_leaves",
+      "cam": "door",
+      "light": "night",
+      "secs": 9,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        },
+        {
+          "who": "DADI",
+          "kind": "elder",
+          "pose": "stand",
+          "pos": [
+            0,
+            -2.15,
+            0
+          ],
+          "facing": 0,
+          "height": 1.62,
+          "rgb": [
+            0.88,
+            0.84,
+            0.78
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s08_furia_offers",
+      "cam": "overfuria",
+      "light": "night",
+      "secs": 8,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s09_wing_nearly_kills",
+      "cam": "lampmed",
+      "light": "night",
+      "secs": 9,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s10_furia_backs_off",
+      "cam": "group34",
+      "light": "night",
+      "secs": 8,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s11_castor_cups",
+      "cam": "childeye",
+      "light": "night",
+      "secs": 10,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s12_paws_too_small",
+      "cam": "lampmed",
+      "light": "night",
+      "secs": 8,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s13_vesper_wall",
+      "cam": "niche",
+      "light": "night",
+      "secs": 9,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s14_wall_flies",
+      "cam": "niche",
+      "light": "night",
+      "secs": 7,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s15_leda_counts",
+      "cam": "valley",
+      "light": "night",
+      "secs": 11,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s16_all_shield",
+      "cam": "group34",
+      "light": "night",
+      "secs": 12,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s17_offbeat_gust",
+      "cam": "lampmed",
+      "light": "night",
+      "secs": 9,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s18_blue_thread",
+      "cam": "flame",
+      "light": "night",
+      "secs": 7,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s19_kuku_breathes_nothing",
+      "cam": "overfuria",
+      "light": "night",
+      "secs": 9,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s20_mist_scatters",
+      "cam": "niche",
+      "light": "night",
+      "secs": 8,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s21_furia_gives_first",
+      "cam": "faces",
+      "light": "night",
+      "secs": 10,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s22_kuku_hears_the_sound",
+      "cam": "childeye",
+      "light": "night",
+      "secs": 11,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s23_leda_draws_shape",
+      "cam": "faces",
+      "light": "night",
+      "secs": 12,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s24_all_encourage",
+      "cam": "group34",
+      "light": "night",
+      "secs": 8,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s25_curve_forms",
+      "cam": "niche",
+      "light": "night",
+      "secs": 12,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s26_line_rises",
+      "cam": "niche",
+      "light": "night",
+      "secs": 10,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s27_wind_turns",
+      "cam": "valley",
+      "light": "night",
+      "secs": 11,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s28_flame_stands",
+      "cam": "flame",
+      "light": "night",
+      "secs": 9,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s29_dadi_returns",
+      "cam": "door",
+      "light": "night",
+      "secs": 11,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        },
+        {
+          "who": "DADI",
+          "kind": "elder",
+          "pose": "stand",
+          "pos": [
+            0,
+            -2.15,
+            0
+          ],
+          "facing": 0,
+          "height": 1.62,
+          "rgb": [
+            0.88,
+            0.84,
+            0.78
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s30_night_holds",
+      "cam": "high",
+      "light": "night",
+      "secs": 9,
+      "cast": [
+        {
+          "who": "KUKU",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.05,
+            1.25,
+            0
+          ],
+          "facing": 0,
+          "height": 0.62,
+          "rgb": [
+            0.42,
+            0.62,
+            0.36
+          ]
+        },
+        {
+          "who": "FYURIA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -0.62,
+            1.42,
+            0
+          ],
+          "facing": 14,
+          "height": 0.62,
+          "rgb": [
+            0.9,
+            0.28,
+            0.32
+          ]
+        },
+        {
+          "who": "LEDA",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.55,
+            1.42,
+            0
+          ],
+          "facing": -14,
+          "height": 0.62,
+          "rgb": [
+            0.72,
+            0.62,
+            0.86
+          ]
+        },
+        {
+          "who": "CASTOR",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            -1.05,
+            1.72,
+            0
+          ],
+          "facing": 26,
+          "height": 0.527,
+          "rgb": [
+            0.94,
+            0.8,
+            0.32
+          ]
+        },
+        {
+          "who": "VESPER",
+          "kind": "child",
+          "pose": "sit",
+          "pos": [
+            0.98,
+            1.72,
+            0
+          ],
+          "facing": -26,
+          "height": 0.62,
+          "rgb": [
+            0.74,
+            0.86,
+            0.94
+          ]
+        },
+        {
+          "who": "KALU",
+          "kind": "dog",
+          "pose": "curled",
+          "pos": [
+            1.45,
+            0.85,
+            0
+          ],
+          "facing": 200,
+          "height": 0.3,
+          "rgb": [
+            0.24,
+            0.22,
+            0.21
+          ]
+        }
+      ]
+    }
+  ]
+}

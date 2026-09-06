@@ -49,7 +49,7 @@ let pass = (~which: string, text: string): string => {
 
 
 /* ---- THE STRICT LAW (2026-09-04 audit) ---------------------------------------
-   Eleven agents traced every inconsistent EP12 frame to prompt text a regex can
+   Eleven agents traced every inconsistent EP10 frame to prompt text a regex can
    catch: a collective noun where a name should be ("the five"), a pronoun with no
    named actor, one character's line describing another, a SCENE that leaves a
    cast member unnamed, a shape noun the model then draws (a glyph, a beam), an
@@ -71,6 +71,12 @@ let namedAbsent = %re("/\b(?:cold and dark|unlit|wick dark|empty and cold|dead l
 let flameWords = %re("/\b(?:flame|burning wick|small flame)\b/i")
 let darkLighting = %re("/darkness|night sky|one source of light/i")
 let smallForm = %re("/small everyday form/i")
+/* A NOUN REPEATED IS A NOUN MATERIALISED. Naming the कड़ा once per subject and
+   again in the cast clause put a bracelet on both forearms; the same class put a
+   tripod in frame for "CAMERA:" and painted a whole road for one red marker.
+   A distinctive worn or carried thing is named AT MOST ONCE in a prompt — and
+   when a character sheet is attached, not at all: the sheet is the authority. */
+let wearables = ["कड़ा", "bracelet", "halter", "spectacles", "shawl", "staff", "turra", "safa"]
 let greatForm = %re("/GREAT FORM/")
 let subjectLine = %re("/^- (KUKU|FYURIA|LEDA|CASTOR|VESPER|DADI|PAPA|KALU) — (.*)$/")
 /* hybrid form: subject[N].name / subject[N].pose */
@@ -137,6 +143,12 @@ let scanStrict = (text: string): array<string> => {
       if has(flameWords, t) && has(darkLighting, lighting) {
         add("[STATE_PAIR: a flame in a shot whose lighting says dark] " ++ t)
       }
+    }
+  })
+  Js.Array2.forEach(wearables, w => {
+    let n = Js.Array2.length(Js.String2.split(text, w)) - 1
+    if n > 1 {
+      add("[REPEATED_NOUN: " ++ w ++ " named " ++ Belt.Int.toString(n) ++ " times — a repeated noun gets drawn twice; the character sheet is the authority on what is worn]")
     }
   })
   if has(smallForm, text) && has(greatForm, text) {

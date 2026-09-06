@@ -1,0 +1,55 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "still",
+ "id": "s11_vesper_warns",
+ "at": "2026-09-06T04:43:27.385Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "66111ae15578a4e70f753987bb19a03f034ef03563d44ed89ac4190193cde91f",
+ "promptSha256": "881cdc5b0c43d6e79bae8dc9c5636191dc709c23243479d6eef979c3c7622301",
+ "rulesSha256": "cc95a1b4f7db91b98e72f58aa60ed9932680dcf85849cbe482f247c914e9bb6b",
+ "prompt": "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\nset.ref: image[1]\nset.rule: image[1] is this same location seen closer — identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light; every landmark inside this tighter frame sits where image[1] puts it\ncast.ref: every remaining attached image is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it\n\nSCENE: वैस्पर standing at the low wall looking down the valley, worried, and फ्यूरिया standing beside वैस्पर at the wall, relaxed and unconcerned\nsubject[0].name: VESPER\nsubject[0].species: paper dragon child\nsubject[0].colour: pale blue\nsubject[0].scale: knee high to a grown-up, the height of a human child\nsubject[0].pose: वैस्पर stands at the low wall looking down the valley, worried\n\nsubject[1].name: FYURIA\nsubject[1].species: paper dragon child\nsubject[1].colour: bright pink-red\nsubject[1].scale: knee high to a grown-up, the height of a human child\nsubject[1].pose: फ्यूरिया stands beside वैस्पर at the low wall, relaxed and unconcerned, wings loose\n\nsubject[2].name: THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick\nsubject[2].state: standing on the stone shelf of the niche with a single small flame upright on its wick\nsetting.place: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.\nlight.state: Evening, the sun already below the frame. Warm level light lies across the paper stone, and the sky above the valley holds the last gold.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.\n- SMALL FORM: वैस्पर, फ्यूरिया are each about knee high to a grown-up, and the low wall rises well above the small dragons' heads.\n- VIEWPOINT: A view over the low wall out to the paper hills of the valley below.",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "SHOT: MEDIUM, LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\nset.ref: image[1]\nset.rule: image[1] is this same location seen closer — identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light; every landmark inside this tighter frame sits where image[1] puts it\ncast.ref: every remaining attached image is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it\n\nSCENE: वैस्पर standing at the low wall looking down the valley, worried, and फ्यूरिया standing beside वैस्पर at the wall, relaxed and unconcerned\nsubject[0].name: VESPER\nsubject[0].species: paper dragon child\nsubject[0].colour: pale blue\nsubject[0].scale: knee high to a grown-up, the height of a human child\nsubject[0].pose: वैस्पर stands at the low wall looking down the valley, worried\n\nsubject[1].name: FYURIA\nsubject[1].species: paper dragon child\nsubject[1].colour: bright pink-red\nsubject[1].scale: knee high to a grown-up, the height of a human child\nsubject[1].pose: फ्यूरिया stands beside वैस्पर at the low wall, relaxed and unconcerned, wings loose\n\nsubject[2].name: THE DIYA — a small round clay paper lamp, a shallow dish with a pinched lip and a short cotton wick\nsubject[2].state: standing on the stone shelf of the niche with a single small flame upright on its wick\nsetting.place: दादी's courtyard: a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into it, a wooden paper door in the taller wall, and the paper hills of the valley beyond.\nlight.state: Evening, the sun already below the frame. Warm level light lies across the paper stone, and the sky above the valley holds the last gold.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE COURTYARD IS THE ATTACHED PLATE: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges, a fine visible paper grain, and the small soft shadow each piece casts on the one behind it.\n- SMALL FORM: वैस्पर, फ्यूरिया are each about knee high to a grown-up, and the low wall rises well above the small dragons' heads.\n- VIEWPOINT: A view over the low wall out to the paper hills of the valley below.",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/ep10_style_key.png",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/sets/courtyard_plate.png",
+  "--image",
+  "../stories/kuku/charsheets/vesper_small.png",
+  "--image",
+  "../stories/kuku/charsheets/furia.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/ep10_style_key.png",
+   "role": "style",
+   "sha256": "a9e06bf777c5579e379c1d4ea1954f0e6ba05e45cb326386551a7cbc6f0fefe6"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/sets/courtyard_plate.png",
+   "role": "plate",
+   "sha256": "84246f4cc88c2c00b8368d1fb2a549bfcbef4872c9c2c95f0235e09cd1277f69"
+  },
+  {
+   "path": "../stories/kuku/charsheets/vesper_small.png",
+   "role": "board",
+   "sha256": "f1f06dec9e2d203ab3a84580fa0ebe06c51a297d94e21a17c50644cbaff335bc"
+  },
+  {
+   "path": "../stories/kuku/charsheets/furia.png",
+   "role": "board",
+   "sha256": "b87317a837ab53954d61cda1d048964c7abd6f67fd04dd116b3221b0d6b2aa1a"
+  }
+ ]
+}

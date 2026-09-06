@@ -1,0 +1,46 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "clip",
+ "id": "s16_wing_kills_it",
+ "at": "2026-09-02T02:57:01.774Z",
+ "model": "cinematic_studio_video_4_0",
+ "credits": 32.5,
+ "assetSha256": "3cdaeaf28b369bd2df890b80897371af18d321d77b03c30aea6cae7b81c20de0",
+ "promptSha256": "ddb0ff3e5fe86fd1c4abac1680e052111de4b39a7da8081010f124ac0e7ad85f",
+ "prompt": "SCENE: She spreads her wing over the niche; the flame is driven flat and shrinks to a thin blue thread.\nTHE COMPLETE CAST OF THIS SHOT — exactly these:\n- FYURIA — फ्यूरिया at the niche with her wing spread across the opening\nFIRST FRAME: the provided start image IS frame one — the action begins from exactly this position.\nFORMAT: one single unbroken take.\nBLOCKING:\n- The courtyard stays exactly as it is in the start frame: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- Everyone in frame keeps the position they hold in the start frame, apart from the movement described below.\nACTION TIMING:\n- She spreads her wing over the niche; the flame is driven flat and shrinks to a thin blue thread.\nCAMERA: The camera holds completely still throughout. A medium view holding the lit niche at one side of the frame and whoever is acting on it at the other.\nPHYSICS:\n- TRAVEL KEEPS ONE DIRECTION: whatever moves may start from rest, speed up or slow down, and its path always continues the same way.\n- motion has real weight\n- the golden कड़ा stays on the same forearm as in the start image\n- Paper behaves as paper: it bends and lifts at its edges and settles back, keeping its thickness.\n- The flame moves the way a real small flame moves — it leans, wavers and recovers.\nLIGHTING: Night has come. The small flame in the niche is the one warm light, glowing on the paper stone closest to it, and the courtyard beyond falls away into soft blue shadow.\nAUDIO: SILENT\nSTYLE: every frame keeps exactly the cut-paper papercraft look of the start image.\nHARD RULES:\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges and a fine visible paper grain.\n- THE CHILDREN ARE SMALL: each child dragon is about knee high to a grown-up, and the low wall rises above them.\n- ONE CONTINUOUS MOVEMENT: the shot contains a single unbroken action that carries from the first frame to the last, moving a little in every frame at an even pace throughout.",
+ "params": [
+  "generate",
+  "create",
+  "cinematic_studio_video_4_0",
+  "--prompt",
+  "SCENE: She spreads her wing over the niche; the flame is driven flat and shrinks to a thin blue thread.\nTHE COMPLETE CAST OF THIS SHOT — exactly these:\n- FYURIA — फ्यूरिया at the niche with her wing spread across the opening\nFIRST FRAME: the provided start image IS frame one — the action begins from exactly this position.\nFORMAT: one single unbroken take.\nBLOCKING:\n- The courtyard stays exactly as it is in the start frame: the same flagstones, the same low wall of cut paper blocks, the same niche in the same place, the same door, the same valley beyond.\n- Everyone in frame keeps the position they hold in the start frame, apart from the movement described below.\nACTION TIMING:\n- She spreads her wing over the niche; the flame is driven flat and shrinks to a thin blue thread.\nCAMERA: The camera holds completely still throughout. A medium view holding the lit niche at one side of the frame and whoever is acting on it at the other.\nPHYSICS:\n- TRAVEL KEEPS ONE DIRECTION: whatever moves may start from rest, speed up or slow down, and its path always continues the same way.\n- motion has real weight\n- the golden कड़ा stays on the same forearm as in the start image\n- Paper behaves as paper: it bends and lifts at its edges and settles back, keeping its thickness.\n- The flame moves the way a real small flame moves — it leans, wavers and recovers.\nLIGHTING: Night has come. The small flame in the niche is the one warm light, glowing on the paper stone closest to it, and the courtyard beyond falls away into soft blue shadow.\nAUDIO: SILENT\nSTYLE: every frame keeps exactly the cut-paper papercraft look of the start image.\nHARD RULES:\n- EVERY SURFACE IS CUT PAPER: separate pieces of paper with real thickness, soft rounded cut edges and a fine visible paper grain.\n- THE CHILDREN ARE SMALL: each child dragon is about knee high to a grown-up, and the low wall rises above them.\n- ONE CONTINUOUS MOVEMENT: the shot contains a single unbroken action that carries from the first frame to the last, moving a little in every frame at an even pace throughout.",
+  "--start-image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/stills/s16_wing_kills_it.png",
+  "--mode",
+  "omni_reference",
+  "--image-references",
+  "../stories/kuku/charsheets/furia.png",
+  "--generate_audio",
+  "false",
+  "--duration",
+  "5",
+  "--resolution",
+  "720p",
+  "--bitrate_mode",
+  "high",
+  "--aspect_ratio",
+  "16:9",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/stills/s16_wing_kills_it.png",
+   "sha256": "0551ecf1f4fa2d3719130d898c4895b685807f81ed1e03f93d7e75ee710cd1bd"
+  },
+  {
+   "path": "../stories/kuku/charsheets/furia.png",
+   "sha256": "b87317a837ab53954d61cda1d048964c7abd6f67fd04dd116b3221b0d6b2aa1a"
+  }
+ ]
+}

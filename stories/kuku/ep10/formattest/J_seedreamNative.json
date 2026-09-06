@@ -1,0 +1,81 @@
+[
+  {
+    "created_at": "2026-09-04T21:52:10.521152Z",
+    "display_name": "Seedream 5.0 Pro",
+    "id": "5fd04a00-4580-4ab3-8076-34654d75f314",
+    "job_type": "seedream_v5_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260904_215210_5fd04a00-4580-4ab3-8076-34654d75f314_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "is_inpaint": false,
+      "medias": [
+        {
+          "data": {
+            "id": "8a07716d-0f2c-40b5-947b-8affa395b278",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/8a07716d-0f2c-40b5-947b-8affa395b278_resize.jpg"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "19f9e9b0-a531-44f1-a4c3-439cee1d0e3b",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/19f9e9b0-a531-44f1-a4c3-439cee1d0e3b.png"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "548aa75c-095a-4ef0-80d3-e4d98e16f0ad",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/548aa75c-095a-4ef0-80d3-e4d98e16f0ad_resize.jpg"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "8c325455-2495-4fa8-af21-97bd171455e6",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/8c325455-2495-4fa8-af21-97bd171455e6_resize.jpg"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "afa23efb-b720-4257-aeb5-126a38edeeae",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/afa23efb-b720-4257-aeb5-126a38edeeae_resize.jpg"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "da22635d-1f27-4f8e-a4f1-3262f57bcaf2",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/da22635d-1f27-4f8e-a4f1-3262f57bcaf2_resize.jpg"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "ea500299-1034-49d4-85b7-ce5e8b13316a",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/ea500299-1034-49d4-85b7-ce5e8b13316a_resize.jpg"
+          },
+          "role": "image"
+        }
+      ],
+      "prompt": "A warm papercraft scene: कुकु, फ्यूरिया, कैस्टर and वैस्पर lean in together around the lamp niche on लेडा's count, while लेडा kneels a little back with one claw raised, counting.\n\nImage 1 is this courtyard, already built — a small square of pale paper flagstone walled on every side, a low wall of cut paper blocks along the valley side with a square niche set into that wall, a wooden paper door in the taller wall, and green paper hills beyond. This shot is closer in, so the framing differs, but the place stays itself: the same ground and paving, the same walls and stone, the same palette and light, and every landmark inside this tighter frame sits exactly where Image 1 puts it.\n\nImage 2 is the art style — folded and cut paper, matte construction-paper surfaces, soft rounded cut edges, a fine visible paper grain, each piece casting a small soft shadow on the one behind it. Every surface in this picture is made of paper.\n\nImage 3 is कुकु, Image 4 is फ्यूरिया, Image 5 is लेडा, Image 6 is कैस्टर, Image 7 is वैस्पर. Each of these is a locked character design; reproduce each dragon exactly as its own sheet shows it, including its colour and everything worn.\n\nकुकु, the green paper dragon child, leans in toward the niche on लेडा's count. फ्यूरिया, the bright pink-red paper dragon child, leans in toward the niche beside कुकु with wings held tight. लेडा, the lilac-purple paper dragon child, kneels a little back from the niche with one claw raised, counting. कैस्टर, the golden-yellow paper dragon child, leans in toward the niche at the right with both paws out. वैस्पर, the pale blue paper dragon child, leans in toward the niche at the left. Each of these five dragons is about knee high to a grown-up, the height of a human child, so the low wall rises well above their heads.\n\nA small round clay paper lamp with a pinched lip stands on the stone shelf of the niche, one small flame upright on its wick.\n\nNight has come. The flame in the niche is the one warm light, glowing on the paper stone closest to it, and the courtyard beyond falls away into soft blue shadow.\n\nThe camera looks across the seated group from a low three-quarter angle, with the niche at the far side of the frame. Landscape 16:9, full bleed, the camera inside the world. The only creatures in this picture are the five dragons named above.",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "seed": 727527,
+      "width": 2720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37I5NaFzvjAFORcmzIOL6HHcIPZ/hf_20260904_215210_5fd04a00-4580-4ab3-8076-34654d75f314.png",
+    "status": "completed"
+  }
+]
