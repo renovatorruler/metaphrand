@@ -15,14 +15,24 @@ module P = Kuku_PromptSpec
 
 let root = cwd() ++ "/../stories/kuku/ep10/"
 let () = PromptGate.setStrict(true)
-let () = P.useStyleKey(root ++ "style/ep10_style_key.png")
 let spritesDir = root ++ "cutout/sprites/"
+
+/* THE SPRITE STYLE KEY IS A FLAT SHEET, NOT THE SET. image[0] out-argues any
+   text; both set keys are pictures of walls, and the first कुकु sprite came
+   back standing in front of that wall with the sheet nowhere. So a sprite's
+   key is a synthesized flat paper texture in the key colour: the reference
+   now argues FOR the sheet. */
+let sheetKey = root ++ "style/sheet_blue_key.png"
+let () = P.useStyleKey(sheetKey)
+let poseProxy = spritesDir ++ "kuku_pose_proxy.png"
 
 /* THE KEY SHEET. A cutout is generated on one flat green paper sheet and keyed
    out. The green is named as a material the character stands on, never as a
    thing to remove — the gate would refuse that, and the model draws what it is
    told to remove. */
 let keySheet = "one smooth flat sheet of bright green paper fills the entire background edge to edge, the same even green everywhere"
+/* कुकु is green, so his sheet is blue: a key colour must be absent from the character */
+let keySheetBlue = "one smooth flat sheet of bright blue paper fills the entire background edge to edge, the same even blue everywhere"
 
 let dadiKneeling: P.imageSpec = {
   scene: "दादी kneels on the flat green paper with both hands held forward and low, as if setting something small down in front of दादी, face turned three quarters toward the camera, mouth gently closed.",
@@ -37,6 +47,26 @@ let dadiKneeling: P.imageSpec = {
     "THE WHOLE BACKGROUND IS THAT ONE FLAT GREEN PAPER SHEET; दादी is the only thing on it.",
     "EVERY SURFACE OF दादी IS CUT PAPER: separate pieces with real thickness, soft rounded cut edges and a fine visible paper grain.",
     "दादी FILLS THE FRAME: whole body visible from horns to tail with clear green margin on every side.",
+  ],
+}
+
+/* THE PUPPET SPRITE. A spread pose: every limb standing clear of the body with
+   green showing between, so each part can be cut along a polygon and hinged.
+   Generated once; from here on कुकु moves only by numbers. */
+let kukuSpread: P.imageSpec = {
+  scene: "कुकु stands on the flat blue paper facing three quarters to the left, both wings raised high and spread wide open, both arms held straight out from the body with blue paper visible between each arm and the body, legs apart, tail stretched straight out behind with blue paper visible between the tail and the legs, head level, mouth closed.",
+  shot: P.Sheet,
+  subjects: [P.Dragon({name: P.Kuku, form: P.Small, doing: "कुकु stands facing three quarters to the left with both wings raised high and spread wide open, both arms held straight out from the body, legs apart, tail stretched straight out behind, head level, mouth closed"})],
+  setting: keySheetBlue,
+  lighting: "Evening, warm level light from the left, the same gold as the courtyard plate, soft shadow falling to the right.",
+  plate: None,
+  blockout: Some(poseProxy),
+  objects: [],
+  extraRules: [
+    "THE WHOLE BACKGROUND IS THAT ONE FLAT BLUE PAPER SHEET; कुकु is the only thing on it.",
+    "EVERY SURFACE OF कुकु IS CUT PAPER: separate pieces with real thickness, soft rounded cut edges and a fine visible paper grain.",
+    "कुकु FILLS THE FRAME: whole body visible from horns to tail tip with clear blue margin on every side.",
+    "EVERY LIMB STANDS CLEAR: blue paper shows between each wing and the head, between each arm and the body, between the two legs, and between the tail and the legs.",
   ],
 }
 
@@ -61,18 +91,102 @@ let mouth = shape =>
   | None => Js.log("no mouth shape " ++ shape)
   }
 
-let sprite = name =>
+let specOf = name =>
   switch name {
-  | "dadi" =>
-    ignore(Kuku_Engine.still(~episode="EP10", ~id="sprite_dadi_kneeling", ~spec=dadiKneeling,
-      ~dst=spritesDir ++ "dadi_kneeling_raw.png", ()))
-  | _ => Js.log("no sprite named " ++ name)
+  | "dadi" => Some(("sprite_dadi_kneeling", dadiKneeling, "dadi_kneeling_raw.png"))
+  | "kuku" => Some(("sprite_kuku_spread", kukuSpread, "kuku_spread_raw.png"))
+  | _ => None
+  }
+
+let sprite = name =>
+  switch specOf(name) {
+  | Some((id, spec, file)) =>
+    ignore(Kuku_Engine.still(~episode="EP10", ~id, ~spec, ~dst=spritesDir ++ file, ()))
+  | None => Js.log("no sprite named " ++ name)
+  }
+
+/* THE POSE PROXY. Pictures beat text: the first कुकु sprite copied the pose off
+   the character sheet and ignored the written spread pose. So the spread pose
+   is also a picture — a flat green silhouette on the blue sheet, drawn by code,
+   attached as the staging reference. Zero credits, deterministic. Sprite
+   space is 2752x1536, the character facing left. */
+let drawProxy = () => {
+  module C = Puppet
+  let cv = C.createCanvas(2752, 1536)
+  let c = C.getContext(cv, "2d")
+  C.setFillStyle(c, "#2f6fe0")
+  C.fillRect(c, 0.0, 0.0, 2752.0, 1536.0)
+  C.setFillStyle(c, "#4f9d4f")
+  C.setStrokeStyle(c, "#4f9d4f")
+  C.setLineCap(c, "round")
+  let disc = (x, y, rx, ry) => {
+    C.beginPath(c)
+    C.ellipse(c, x, y, rx, ry, 0.0, 0.0, 2.0 *. Js.Math._PI)
+    C.fill(c)
+  }
+  let bar = (x0, y0, x1, y1, w) => {
+    C.setLineWidth(c, w)
+    C.beginPath(c)
+    C.moveTo(c, x0, y0)
+    C.lineTo(c, x1, y1)
+    C.stroke(c)
+  }
+  let poly = pts => {
+    C.beginPath(c)
+    Js.Array2.forEachi(pts, ((x, y), i) => i == 0 ? C.moveTo(c, x, y) : C.lineTo(c, x, y))
+    C.closePath(c)
+    C.fill(c)
+  }
+  /* wings first, behind everything */
+  poly([(1300.0, 760.0), (700.0, 200.0), (450.0, 520.0), (1150.0, 900.0)])
+  poly([(1540.0, 760.0), (2200.0, 200.0), (2400.0, 560.0), (1650.0, 900.0)])
+  /* tail out behind (to the right, since the character faces left) */
+  poly([(1580.0, 1020.0), (2500.0, 980.0), (2500.0, 1060.0), (1580.0, 1140.0)])
+  /* body, neck, head */
+  disc(1420.0, 950.0, 210.0, 300.0)
+  bar(1330.0, 780.0, 1200.0, 640.0, 130.0)
+  disc(1150.0, 520.0, 175.0, 165.0)
+  /* arms straight out, legs apart */
+  bar(1250.0, 880.0, 820.0, 880.0, 90.0)
+  bar(1600.0, 880.0, 2050.0, 880.0, 90.0)
+  bar(1330.0, 1230.0, 1230.0, 1470.0, 110.0)
+  bar(1520.0, 1230.0, 1600.0, 1470.0, 110.0)
+  C.writeFileBuffer(poseProxy, C.toBuffer(cv, "image/png"))
+  Js.log("wrote " ++ poseProxy)
+}
+
+/* the sheet key: flat bright blue paper with a fine grain, the same size as a
+   sprite; synthesized, so it depicts nothing but the sheet */
+let drawSheetKey = () => {
+  Cinema_Backends.ffmpeg([
+    "-y", "-v", "error", "-f", "lavfi", "-i", "color=c=0x2f6fe0:s=2752x1536",
+    "-vf", "noise=alls=14:allf=u,gblur=sigma=0.8", "-frames:v", "1", sheetKey,
+  ])
+  Js.log("wrote " ++ sheetKey)
+}
+
+/* PLAN: the exact prompt a sprite would be generated from, and every finding
+   of the law against it. Costs nothing; run it before spending. */
+let plan = name =>
+  switch specOf(name) {
+  | Some((id, spec, _)) => {
+      let txt = P.imagePrompt(spec)
+      Js.log("== " ++ id ++ " ==\n" ++ txt)
+      let found = Js.Array2.concat(PromptGate.scan(txt), PromptGate.scanStrict(txt))
+      Js.log(Js.Array2.length(found) == 0 ? "GATE CLEAN" : Js.Array2.joinWith(found, "\n"))
+    }
+  | None => Js.log("no sprite named " ++ name)
   }
 
 let () = {
   mkdirSync(spritesDir, {"recursive": true})
   switch (Belt.Array.get(argv, 2), Belt.Array.get(argv, 3)) {
   | (Some("sprite"), Some(n)) => sprite(n)
+  | (Some("plan"), Some(n)) => plan(n)
+  | (Some("proxy"), _) => {
+      drawProxy()
+      drawSheetKey()
+    }
   | (Some("mouth"), Some(n)) => mouth(n)
   | _ => Js.log("usage: sprite <name>")
   }

@@ -1,0 +1,48 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "still",
+ "id": "sprite_kuku_spread",
+ "at": "2026-09-06T15:01:59.507Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "a2dd8c39b7b6ffcb78ffddfaca8e676671aca7a48be56657f2f9b91077ed10eb",
+ "promptSha256": "0d8d6b123261ac71d3d3bf620abf1ef3ed2ef4080de369555c47689494828146",
+ "rulesSha256": "98b48b52a2cf61ac9ae431adb865578d5098ab4479d4d51edeb9f260c5e36f50",
+ "prompt": "SHOT: PUPPET SHEET, LANDSCAPE 16:9: one character shown whole and large, straight on, laid out flat for cutting against one flat sheet of paper.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\ncast.ref: image[2] is the locked character design — the authority on build, colour, markings and everything worn; the pose in this picture is the one written in SCENE and drawn in the silhouette\nPOSE: image[1] is a flat green silhouette on the same sheet showing the pose for this picture — the authority on where every limb goes: head, wings, arms, legs and tail; paint the finished papercraft character exactly over it, limb for limb, with the plain sheet all around.\nSCENE: कुकु stands on the flat blue paper facing three quarters to the left, both wings raised high and spread wide open, both arms held straight out from the body with blue paper visible between each arm and the body, legs apart, tail stretched straight out behind with blue paper visible between the tail and the legs, head level, mouth closed.\nsubject[0].name: KUKU\nsubject[0].species: paper dragon child\nsubject[0].colour: green\nsubject[0].scale: knee high to a grown-up, the height of a human child\nsubject[0].pose: कुकु stands facing three quarters to the left with both wings raised high and spread wide open, both arms held straight out from the body, legs apart, tail stretched straight out behind, head level, mouth closed\nsetting.place: one smooth flat sheet of bright blue paper fills the entire background edge to edge, the same even blue everywhere\nlight.state: Evening, warm level light from the left, the same gold as the courtyard plate, soft shadow falling to the right.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE WHOLE BACKGROUND IS THAT ONE FLAT BLUE PAPER SHEET; कुकु is the only thing on it.\n- EVERY SURFACE OF कुकु IS CUT PAPER: separate pieces with real thickness, soft rounded cut edges and a fine visible paper grain.\n- कुकु FILLS THE FRAME: whole body visible from horns to tail tip with clear blue margin on every side.\n- EVERY LIMB STANDS CLEAR: blue paper shows between each wing and the head, between each arm and the body, between the two legs, and between the tail and the legs.",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "SHOT: PUPPET SHEET, LANDSCAPE 16:9: one character shown whole and large, straight on, laid out flat for cutting against one flat sheet of paper.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\ncast.ref: image[2] is the locked character design — the authority on build, colour, markings and everything worn; the pose in this picture is the one written in SCENE and drawn in the silhouette\nPOSE: image[1] is a flat green silhouette on the same sheet showing the pose for this picture — the authority on where every limb goes: head, wings, arms, legs and tail; paint the finished papercraft character exactly over it, limb for limb, with the plain sheet all around.\nSCENE: कुकु stands on the flat blue paper facing three quarters to the left, both wings raised high and spread wide open, both arms held straight out from the body with blue paper visible between each arm and the body, legs apart, tail stretched straight out behind with blue paper visible between the tail and the legs, head level, mouth closed.\nsubject[0].name: KUKU\nsubject[0].species: paper dragon child\nsubject[0].colour: green\nsubject[0].scale: knee high to a grown-up, the height of a human child\nsubject[0].pose: कुकु stands facing three quarters to the left with both wings raised high and spread wide open, both arms held straight out from the body, legs apart, tail stretched straight out behind, head level, mouth closed\nsetting.place: one smooth flat sheet of bright blue paper fills the entire background edge to edge, the same even blue everywhere\nlight.state: Evening, warm level light from the left, the same gold as the courtyard plate, soft shadow falling to the right.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE WHOLE BACKGROUND IS THAT ONE FLAT BLUE PAPER SHEET; कुकु is the only thing on it.\n- EVERY SURFACE OF कुकु IS CUT PAPER: separate pieces with real thickness, soft rounded cut edges and a fine visible paper grain.\n- कुकु FILLS THE FRAME: whole body visible from horns to tail tip with clear blue margin on every side.\n- EVERY LIMB STANDS CLEAR: blue paper shows between each wing and the head, between each arm and the body, between the two legs, and between the tail and the legs.",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/sheet_blue_key.png",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/cutout/sprites/kuku_pose_proxy.png",
+  "--image",
+  "../stories/kuku/charsheets/kuku.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/sheet_blue_key.png",
+   "role": "style",
+   "sha256": "56f01e798e7623aa5459ab426ea20828faa139778810a11a1f6668eb3914dc8f"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/cutout/sprites/kuku_pose_proxy.png",
+   "role": "board",
+   "sha256": "f27ca5e3e22ce0adecf6f52cfdc77804f59f61198e970d8e0049486fa1e01c0b"
+  },
+  {
+   "path": "../stories/kuku/charsheets/kuku.png",
+   "role": "board",
+   "sha256": "1658963cd42d088b74abe31e745cff9577010625a4af5707ebf4d6e609c35447"
+  }
+ ]
+}

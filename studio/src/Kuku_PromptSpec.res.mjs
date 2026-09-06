@@ -58,6 +58,8 @@ function shotName(s) {
         return "CLOSE ABSTRACT";
     case "WideAbstract" :
         return "WIDE ABSTRACT";
+    case "Sheet" :
+        return "PUPPET SHEET";
     
   }
 }
@@ -261,36 +263,46 @@ function fieldBlock(subjects) {
 }
 
 function imagePrompt(s) {
-  var match = s.plate;
+  var match = s.shot;
   var tmp;
-  if (match !== undefined) {
-    var match$1 = s.shot;
-    var tmp$1;
-    switch (match$1) {
+  tmp = match === "Sheet" ? "SHOT: PUPPET SHEET, LANDSCAPE 16:9: one character shown whole and large, straight on, laid out flat for cutting against one flat sheet of paper." : "SHOT: " + shotName(s.shot) + ", LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.";
+  var match$1 = s.plate;
+  var tmp$1;
+  if (match$1 !== undefined) {
+    var match$2 = s.shot;
+    var tmp$2;
+    switch (match$2) {
       case "Medium" :
       case "CloseMedium" :
       case "Close" :
       case "Insert" :
       case "CloseAbstract" :
-          tmp$1 = "set.rule: image[1] is this same location seen closer — identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light; every landmark inside this tighter frame sits where image[1] puts it";
+      case "Sheet" :
+          tmp$2 = "set.rule: image[1] is this same location seen closer — identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light; every landmark inside this tighter frame sits where image[1] puts it";
           break;
       default:
-        tmp$1 = "set.rule: image[1] IS this location, already built — same ground, same landmarks in the same places, same walls, kerbs and horizon, same camera vantage, same architecture";
+        tmp$2 = "set.rule: image[1] IS this location, already built — same ground, same landmarks in the same places, same walls, kerbs and horizon, same camera vantage, same architecture";
     }
-    tmp = "set.ref: image[1]\n" + tmp$1 + (
+    tmp$1 = "set.ref: image[1]\n" + tmp$2 + (
       s.objects.length > 0 ? "\nobject.ref: the image after the plate is a locked story object — identical form, proportion, colour and material every time it appears" : ""
     ) + "\ncast.ref: every remaining attached image is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it";
   } else {
-    tmp = "cast.ref: every attached image after the first is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it";
+    var match$3 = s.shot;
+    tmp$1 = match$3 === "Sheet" ? "cast.ref: image[2] is the locked character design — the authority on build, colour, markings and everything worn; the pose in this picture is the one written in SCENE and drawn in the silhouette" : "cast.ref: every attached image after the first is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it";
   }
-  var match$2 = s.blockout;
+  var match$4 = s.blockout;
+  var match$5 = s.shot;
+  var tmp$3;
+  tmp$3 = match$4 !== undefined ? (
+      match$5 === "Sheet" ? "POSE: image[1] is a flat green silhouette on the same sheet showing the pose for this picture — the authority on where every limb goes: head, wings, arms, legs and tail; paint the finished papercraft character exactly over it, limb for limb, with the plain sheet all around." : "STAGING: the attached grey BLOCKOUT is a 3D render of this exact moment — it is the authority on WHERE EVERY BODY STANDS and where the camera looks. Each coloured proxy marks one character by their own colour (green कुकु, pink-red फ्यूरिया, lilac लेडा, golden-yellow कैस्टर, pale blue वैस्पर, cream ऋषि, brown cart, cream cow): put that character exactly there, at that size, facing that way, on that ground. Paint the finished papercraft world over this arrangement — the blockout owns the positions, the style reference owns the look."
+    ) : "";
   return PromptGate.passStrict("imagePrompt", [
-                "SHOT: " + shotName(s.shot) + ", LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.",
+                tmp,
                 "style.ref: image[0] — match its look EXACTLY",
                 "style.medium: " + styleLaw,
                 "style.palette: " + paletteLaw,
-                tmp,
-                match$2 !== undefined ? "STAGING: the attached grey BLOCKOUT is a 3D render of this exact moment — it is the authority on WHERE EVERY BODY STANDS and where the camera looks. Each coloured proxy marks one character by their own colour (green कुकु, pink-red फ्यूरिया, lilac लेडा, golden-yellow कैस्टर, pale blue वैस्पर, cream ऋषि, brown cart, cream cow): put that character exactly there, at that size, facing that way, on that ground. Paint the finished papercraft world over this arrangement — the blockout owns the positions, the style reference owns the look." : "",
+                tmp$1,
+                tmp$3,
                 "SCENE: " + s.scene,
                 fieldBlock(s.subjects),
                 "setting.place: " + s.setting,

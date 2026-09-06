@@ -22,6 +22,7 @@ type subject =
 type shot =
   | Wide | WideLow | HighWide | MediumWide | Medium | CloseMedium | Close | Insert
   | WideAction | CloseAbstract | WideAbstract
+  | Sheet /* a puppet sheet: one character, whole and large, on one flat keyable sheet — a different kind of picture, so the header, the pose clause and the cast clause all change with it */
 
 type imageSpec = {
   scene: string,
@@ -96,6 +97,7 @@ let shotName = s =>
   | WideAction => "WIDE ACTION"
   | CloseAbstract => "CLOSE ABSTRACT"
   | WideAbstract => "WIDE ABSTRACT"
+  | Sheet => "PUPPET SHEET"
   }
 
 /* the fixed laws */
@@ -231,7 +233,10 @@ let fieldBlock = subjects =>
 let imagePrompt = (s: imageSpec) =>
   PromptGate.passStrict(~which="imagePrompt", Js.Array2.joinWith(
     [
-      "SHOT: " ++ shotName(s.shot) ++ ", LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world.",
+      switch s.shot {
+      | Sheet => "SHOT: PUPPET SHEET, LANDSCAPE 16:9: one character shown whole and large, straight on, laid out flat for cutting against one flat sheet of paper."
+      | _ => "SHOT: " ++ shotName(s.shot) ++ ", LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world."
+      },
       "style.ref: image[0] — match its look EXACTLY",
       "style.medium: " ++ styleLaw,
       "style.palette: " ++ paletteLaw,
@@ -244,7 +249,7 @@ let imagePrompt = (s: imageSpec) =>
         (switch s.shot {
         | Wide | WideLow | WideAction | HighWide | MediumWide | WideAbstract =>
           "set.rule: image[1] IS this location, already built — same ground, same landmarks in the same places, same walls, kerbs and horizon, same camera vantage, same architecture"
-        | Medium | CloseMedium | Close | Insert | CloseAbstract =>
+        | Medium | CloseMedium | Close | Insert | CloseAbstract | Sheet =>
           "set.rule: image[1] is this same location seen closer — identical ground material and paving, identical walls, kerbs, stone and paper textures, identical palette and light; every landmark inside this tighter frame sits where image[1] puts it"
         }) ++
         (Js.Array2.length(s.objects) > 0
@@ -252,12 +257,19 @@ let imagePrompt = (s: imageSpec) =>
           : "") ++
         "\ncast.ref: every remaining attached image is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it"
       | None =>
-        "cast.ref: every attached image after the first is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it"
+        switch s.shot {
+        | Sheet =>
+          "cast.ref: image[2] is the locked character design — the authority on build, colour, markings and everything worn; the pose in this picture is the one written in SCENE and drawn in the silhouette"
+        | _ =>
+          "cast.ref: every attached image after the first is a locked character design — the sheet is the authority on that character's build, colour and everything worn; reproduce each design exactly as the sheet shows it"
+        }
       },
-      switch s.blockout {
-      | Some(_) =>
+      switch (s.blockout, s.shot) {
+      | (Some(_), Sheet) =>
+        "POSE: image[1] is a flat green silhouette on the same sheet showing the pose for this picture — the authority on where every limb goes: head, wings, arms, legs and tail; paint the finished papercraft character exactly over it, limb for limb, with the plain sheet all around."
+      | (Some(_), _) =>
         "STAGING: the attached grey BLOCKOUT is a 3D render of this exact moment — it is the authority on WHERE EVERY BODY STANDS and where the camera looks. Each coloured proxy marks one character by their own colour (green कुकु, pink-red फ्यूरिया, lilac लेडा, golden-yellow कैस्टर, pale blue वैस्पर, cream ऋषि, brown cart, cream cow): put that character exactly there, at that size, facing that way, on that ground. Paint the finished papercraft world over this arrangement — the blockout owns the positions, the style reference owns the look."
-      | None => ""
+      | (None, _) => ""
       },
       /* the ONE sentence: what moment this is */
       "SCENE: " ++ s.scene,

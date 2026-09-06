@@ -65,6 +65,7 @@
     "rescript": "^11.1.4"
   },
   "dependencies": {
+    "@napi-rs/canvas": "^0.1.65",
     "better-sqlite3": "^13.0.1"
   }
 }
