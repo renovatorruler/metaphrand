@@ -234,7 +234,7 @@ let imagePrompt = (s: imageSpec) =>
   PromptGate.passStrict(~which="imagePrompt", Js.Array2.joinWith(
     [
       switch s.shot {
-      | Sheet => "SHOT: PUPPET SHEET, LANDSCAPE 16:9: one character shown whole and large, straight on, laid out flat for cutting against one flat sheet of paper."
+      | Sheet => "SHOT: PUPPET SHEET, LANDSCAPE 16:9: one character shown whole and large, straight on, standing on one flat sheet of paper — the same three-dimensional papercraft figure as on its character sheet, every piece with real thickness and a soft shadow on the sheet."
       | _ => "SHOT: " ++ shotName(s.shot) ++ ", LANDSCAPE 16:9, full-bleed scene, the camera is INSIDE the world."
       },
       "style.ref: image[0] — match its look EXACTLY",
@@ -266,7 +266,7 @@ let imagePrompt = (s: imageSpec) =>
       },
       switch (s.blockout, s.shot) {
       | (Some(_), Sheet) =>
-        "POSE: image[1] is a flat green silhouette on the same sheet showing the pose for this picture — the authority on where every limb goes: head, wings, arms, legs and tail; paint the finished papercraft character exactly over it, limb for limb, with the plain sheet all around."
+        "POSE: image[1] is a flat silhouette in the character's own colour on the same sheet, showing the pose for this picture — the authority on where every limb goes: head, wings, arms, legs and tail; paint the finished papercraft character exactly over it, limb for limb, with the plain sheet all around."
       | (Some(_), _) =>
         "STAGING: the attached grey BLOCKOUT is a 3D render of this exact moment — it is the authority on WHERE EVERY BODY STANDS and where the camera looks. Each coloured proxy marks one character by their own colour (green कुकु, pink-red फ्यूरिया, lilac लेडा, golden-yellow कैस्टर, pale blue वैस्पर, cream ऋषि, brown cart, cream cow): put that character exactly there, at that size, facing that way, on that ground. Paint the finished papercraft world over this arrangement — the blockout owns the positions, the style reference owns the look."
       | (None, _) => ""

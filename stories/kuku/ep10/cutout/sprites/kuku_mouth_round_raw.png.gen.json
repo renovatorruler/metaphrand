@@ -1,0 +1,34 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "edit",
+ "id": "sprite_kuku_mouth_round",
+ "at": "2026-09-06T22:29:12.118Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "d32832c30db0ff723efa0360aca6a41f35f271a7fe6f00cb8b9964f38759ee50",
+ "promptSha256": "7dc3b07d4c1f49b77f0da68a18685c19829c40fcc8b7869271e48d5ee6851ee6",
+ "rulesSha256": "98b48b52a2cf61ac9ae431adb865578d5098ab4479d4d51edeb9f260c5e36f50",
+ "prompt": "TASK: edit the attached image — apply ONLY the change below.\nCHANGE: कुकु's mouth pursed small and round, as if saying OO\nKEEP:\n- same 3D papercraft medium and layered cut-paper texture\n- same bright vibrant palette and same lighting\n- same character designs, poses and expressions unless the change says otherwise\n- same composition and camera\n- everything else exactly as it is: the same spread pose, the same wings, arms, legs and tail, the same eyes, the same flat blue background, the same framing\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- only the mouth of कुकु changes; the mouth is a clean paper cutout in the same papercraft finish",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "TASK: edit the attached image — apply ONLY the change below.\nCHANGE: कुकु's mouth pursed small and round, as if saying OO\nKEEP:\n- same 3D papercraft medium and layered cut-paper texture\n- same bright vibrant palette and same lighting\n- same character designs, poses and expressions unless the change says otherwise\n- same composition and camera\n- everything else exactly as it is: the same spread pose, the same wings, arms, legs and tail, the same eyes, the same flat blue background, the same framing\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- only the mouth of कुकु changes; the mouth is a clean paper cutout in the same papercraft finish",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/cutout/sprites/kuku_spread_raw.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/cutout/sprites/kuku_spread_raw.png",
+   "role": "object",
+   "sha256": "a2dd8c39b7b6ffcb78ffddfaca8e676671aca7a48be56657f2f9b91077ed10eb"
+  }
+ ]
+}

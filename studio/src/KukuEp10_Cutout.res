@@ -22,9 +22,13 @@ let spritesDir = root ++ "cutout/sprites/"
    back standing in front of that wall with the sheet nowhere. So a sprite's
    key is a synthesized flat paper texture in the key colour: the reference
    now argues FOR the sheet. */
-let sheetKey = root ++ "style/sheet_blue_key.png"
+/* The key is now a crop of कुकु's own receipted sprite: a papercraft figure
+   standing on the blue sheet, wing and arm and sheet-shadow, no set. The flat
+   texture said nothing about the FIGURE's material, and फ्यूरिया came back
+   as flat cut paper with a generic face. */
+let sheetKey = root ++ "style/sheet_blue_material_key.png"
 let () = P.useStyleKey(sheetKey)
-let poseProxy = spritesDir ++ "kuku_pose_proxy.png"
+let proxyFor = who => spritesDir ++ who ++ "_pose_proxy.png"
 
 /* THE KEY SHEET. A cutout is generated on one flat green paper sheet and keyed
    out. The green is named as a material the character stands on, never as a
@@ -60,7 +64,7 @@ let kukuSpread: P.imageSpec = {
   setting: keySheetBlue,
   lighting: "Evening, warm level light from the left, the same gold as the courtyard plate, soft shadow falling to the right.",
   plate: None,
-  blockout: Some(poseProxy),
+  blockout: Some(proxyFor("kuku")),
   objects: [],
   extraRules: [
     "THE WHOLE BACKGROUND IS THAT ONE FLAT BLUE PAPER SHEET; कुकु is the only thing on it.",
@@ -70,31 +74,87 @@ let kukuSpread: P.imageSpec = {
   ],
 }
 
+/* फ्यूरिया's sheet: the same spread pose, her own colour in the silhouette.
+   Her design has no blue, so the blue sheet keys her too. */
+let furiaSpread: P.imageSpec = {
+  scene: "फ्यूरिया stands on the flat blue paper facing three quarters to the left, both wings raised high and spread wide open, both arms held straight out from the body with blue paper visible between each arm and the body, legs apart, tail stretched straight out behind with blue paper visible between the tail and the legs, head level, mouth closed.",
+  shot: P.Sheet,
+  subjects: [P.Dragon({name: P.Fyuria, form: P.Small, doing: "फ्यूरिया stands facing three quarters to the left with both wings raised high and spread wide open, both arms held straight out from the body, legs apart, tail stretched straight out behind, head level, mouth closed"})],
+  setting: keySheetBlue,
+  lighting: "Evening, warm level light from the left, the same gold as the courtyard plate, soft shadow falling to the right.",
+  plate: None,
+  blockout: Some(proxyFor("furia")),
+  objects: [],
+  extraRules: [
+    "THE WHOLE BACKGROUND IS THAT ONE FLAT BLUE PAPER SHEET; फ्यूरिया is the only thing on it.",
+    "EVERY SURFACE OF फ्यूरिया IS CUT PAPER: separate pieces with real thickness, soft rounded cut edges and a fine visible paper grain.",
+    "फ्यूरिया FILLS THE FRAME: whole body visible from horns to tail tip with clear blue margin on every side.",
+    "फ्यूरिया'S FACE AND BODY ARE THE SHEET'S: large round eyes with dark paper lashes, the smiling snout with one small fang, a cream belly of stacked paper plates, the golden कड़ा on one forearm, the same bright pink-red paper everywhere else.",
+    "EVERY LIMB STANDS CLEAR: blue paper shows between each wing and the head, between each arm and the body, between the two legs, and between the tail and the legs.",
+  ],
+}
+
 /* MOUTH SHAPES are edits of the SAME sprite, so the body stays identical and only
    the mouth changes; the mouth region is then cut out and swapped by the viseme
    track. A (rest) and X (silence) use the sprite's own closed mouth. */
-let mouthEdit = (shape, change): P.editSpec => {
-  change,
-  keep: ["everything else exactly as it is: the same pose, the same shawl, the same staff, the same wings and tail, the same flat green background, the same framing"],
-  extraRules: ["only the mouth of दादी changes; the mouth is a clean paper cutout in the same papercraft finish"],
-}
-let mouths = [
-  ("open", "दादी's mouth open wide in a tall oval, as if saying a long AA sound"),
-  ("round", "दादी's mouth pursed small and round, as if saying OO"),
-  ("half", "दादी's mouth slightly open with the paper teeth just showing, as if saying EE"),
+/* one character's mouth set: the sprite it edits, what stays, and the four
+   shapes. A character whose sprite smiles open needs the closed shape too,
+   for rest and silence. */
+type mouthSet = {who: string, src: string, keep: string, whoRule: string, shapes: array<(string, string)>}
+let mouthSets = [
+  {
+    who: "dadi",
+    src: "dadi_kneeling_raw.png",
+    keep: "everything else exactly as it is: the same pose, the same shawl, the same staff, the same wings and tail, the same flat green background, the same framing",
+    whoRule: "only the mouth of दादी changes; the mouth is a clean paper cutout in the same papercraft finish",
+    shapes: [
+      ("open", "दादी's mouth open wide in a tall oval, as if saying a long AA sound"),
+      ("round", "दादी's mouth pursed small and round, as if saying OO"),
+      ("half", "दादी's mouth slightly open with the paper teeth just showing, as if saying EE"),
+    ],
+  },
+  {
+    who: "kuku",
+    src: "kuku_spread_raw.png",
+    keep: "everything else exactly as it is: the same spread pose, the same wings, arms, legs and tail, the same eyes, the same flat blue background, the same framing",
+    whoRule: "only the mouth of कुकु changes; the mouth is a clean paper cutout in the same papercraft finish",
+    shapes: [
+      ("closed", "कुकु's mouth closed, lips together, calm and content, teeth hidden"),
+      ("open", "कुकु's mouth open wide in a tall oval, as if saying a long AA sound"),
+      ("round", "कुकु's mouth pursed small and round, as if saying OO"),
+      ("half", "कुकु's mouth slightly open with the paper teeth just showing, as if saying EE"),
+    ],
+  },
+  {
+    who: "furia",
+    src: "furia_spread_raw.png",
+    keep: "everything else exactly as it is: the same spread pose, the same wings, arms, legs and tail, the same eyes and lashes, the same golden कड़ा, the same flat blue background, the same framing",
+    whoRule: "only the mouth of फ्यूरिया changes; the mouth is a clean paper cutout in the same papercraft finish",
+    shapes: [
+      ("open", "फ्यूरिया's mouth open wide in a tall oval, as if saying a long AA sound"),
+      ("round", "फ्यूरिया's mouth pursed small and round, as if saying OO"),
+      ("half", "फ्यूरिया's mouth slightly open with the paper teeth just showing, as if saying EE"),
+    ],
+  },
 ]
-let mouth = shape =>
-  switch Js.Array2.find(mouths, ((n, _)) => n == shape) {
-  | Some((n, change)) =>
-    ignore(Kuku_Engine.edit(~episode="EP10", ~id="sprite_dadi_mouth_" ++ n, ~spec=mouthEdit(n, change),
-      ~src=spritesDir ++ "dadi_kneeling_raw.png", ~dst=spritesDir ++ "dadi_mouth_" ++ n ++ "_raw.png", ()))
-  | None => Js.log("no mouth shape " ++ shape)
+let mouthEdit = (set, change): P.editSpec => {change, keep: [set.keep], extraRules: [set.whoRule]}
+let mouth = (who, shape) =>
+  switch Js.Array2.find(mouthSets, m => m.who == who) {
+  | Some(set) =>
+    switch Js.Array2.find(set.shapes, ((n, _)) => n == shape) {
+    | Some((n, change)) =>
+      ignore(Kuku_Engine.edit(~episode="EP10", ~id="sprite_" ++ who ++ "_mouth_" ++ n, ~spec=mouthEdit(set, change),
+        ~src=spritesDir ++ set.src, ~dst=spritesDir ++ who ++ "_mouth_" ++ n ++ "_raw.png", ()))
+    | None => Js.log("no mouth shape " ++ shape ++ " for " ++ who)
+    }
+  | None => Js.log("no mouth set for " ++ who)
   }
 
 let specOf = name =>
   switch name {
   | "dadi" => Some(("sprite_dadi_kneeling", dadiKneeling, "dadi_kneeling_raw.png"))
   | "kuku" => Some(("sprite_kuku_spread", kukuSpread, "kuku_spread_raw.png"))
+  | "furia" => Some(("sprite_furia_spread", furiaSpread, "furia_spread_raw.png"))
   | _ => None
   }
 
@@ -110,14 +170,14 @@ let sprite = name =>
    is also a picture — a flat green silhouette on the blue sheet, drawn by code,
    attached as the staging reference. Zero credits, deterministic. Sprite
    space is 2752x1536, the character facing left. */
-let drawProxy = () => {
+let drawProxy = (~who, ~colour) => {
   module C = Puppet
   let cv = C.createCanvas(2752, 1536)
   let c = C.getContext(cv, "2d")
   C.setFillStyle(c, "#2f6fe0")
   C.fillRect(c, 0.0, 0.0, 2752.0, 1536.0)
-  C.setFillStyle(c, "#4f9d4f")
-  C.setStrokeStyle(c, "#4f9d4f")
+  C.setFillStyle(c, colour)
+  C.setStrokeStyle(c, colour)
   C.setLineCap(c, "round")
   let disc = (x, y, rx, ry) => {
     C.beginPath(c)
@@ -151,8 +211,8 @@ let drawProxy = () => {
   bar(1600.0, 880.0, 2050.0, 880.0, 90.0)
   bar(1330.0, 1230.0, 1230.0, 1470.0, 110.0)
   bar(1520.0, 1230.0, 1600.0, 1470.0, 110.0)
-  C.writeFileBuffer(poseProxy, C.toBuffer(cv, "image/png"))
-  Js.log("wrote " ++ poseProxy)
+  C.writeFileBuffer(proxyFor(who), C.toBuffer(cv, "image/png"))
+  Js.log("wrote " ++ proxyFor(who))
 }
 
 /* the sheet key: flat bright blue paper with a fine grain, the same size as a
@@ -180,15 +240,15 @@ let plan = name =>
 
 let () = {
   mkdirSync(spritesDir, {"recursive": true})
-  switch (Belt.Array.get(argv, 2), Belt.Array.get(argv, 3)) {
-  | (Some("sprite"), Some(n)) => sprite(n)
-  | (Some("plan"), Some(n)) => plan(n)
-  | (Some("proxy"), _) => {
-      drawProxy()
+  switch (Belt.Array.get(argv, 2), Belt.Array.get(argv, 3), Belt.Array.get(argv, 4)) {
+  | (Some("sprite"), Some(n), _) => sprite(n)
+  | (Some("plan"), Some(n), _) => plan(n)
+  | (Some("proxy"), Some(who), Some(colour)) => {
+      drawProxy(~who, ~colour)
       drawSheetKey()
     }
-  | (Some("mouth"), Some(n)) => mouth(n)
-  | _ => Js.log("usage: sprite <name>")
+  | (Some("mouth"), Some(who), Some(shape)) => mouth(who, shape)
+  | _ => Js.log("usage: sprite <name> | plan <name> | proxy <who> <#colour> | mouth <who> <shape>")
   }
 }
 
