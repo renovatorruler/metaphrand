@@ -22,7 +22,10 @@ let outDir = root ++ "cutout/out/"
    are loose wherever they border transparent sheet and careful only where
    parts meet: a part must never copy a neighbour's pixels, or the copy moves
    with it as a ghost. Pivots sit on the joints. Drawing order, back to front:
-   far wing, far arm, far leg, tail, near wing, torso, near leg, near arm, head. */
+   far wing, tail, far leg, near wing, torso, far arm, near leg, near arm, head.
+   The far arm is drawn in front of the torso although it is on the far side:
+   hanging behind the body it would vanish, and the character sheet shows both
+   hands. Its shoulder has a paper joint like the near arm's. */
 let p = (x, y) => (Px(x), Px(y))
 let torso = PartName("torso")
 let head = PartName("head")
@@ -42,7 +45,7 @@ let kukuRig: rigSpec<small> = {
       name: torso,
       parent: None,
       pivot: p(1320.0, 980.0),
-      z: 6,
+      z: 5,
       outline: [p(1180.0, 640.0), p(1300.0, 615.0), p(1375.0, 600.0), p(1450.0, 720.0), p(1462.0, 1040.0), p(1400.0, 1095.0), p(1395.0, 1300.0), p(1210.0, 1300.0), p(1150.0, 1200.0), p(1120.0, 1000.0), p(1140.0, 830.0), p(1168.0, 760.0)],
     },
     {
@@ -56,7 +59,7 @@ let kukuRig: rigSpec<small> = {
       name: wingNear,
       parent: Some(torso),
       pivot: p(1190.0, 740.0),
-      z: 5,
+      z: 4,
       outline: [p(1120.0, 190.0), p(1030.0, 300.0), p(1010.0, 470.0), p(1000.0, 590.0), p(1085.0, 665.0), p(1190.0, 690.0), p(1198.0, 800.0), p(950.0, 800.0), p(850.0, 785.0), p(640.0, 520.0), p(470.0, 240.0), p(500.0, 150.0), p(900.0, 130.0)],
     },
     {
@@ -77,8 +80,9 @@ let kukuRig: rigSpec<small> = {
     {
       name: armFar,
       parent: Some(torso),
-      pivot: p(1405.0, 835.0),
-      z: 2,
+      pivot: p(1410.0, 835.0),
+      z: 6,
+      cap: {radius: Px(54.0), colour: "#94a45f", edge: "#6f8244"},
       outline: [p(1385.0, 758.0), p(1790.0, 768.0), p(1830.0, 840.0), p(1800.0, 928.0), p(1425.0, 912.0)],
     },
     {
@@ -99,7 +103,7 @@ let kukuRig: rigSpec<small> = {
       name: tail,
       parent: Some(torso),
       pivot: p(1600.0, 1150.0),
-      z: 4,
+      z: 2,
       outline: [p(1560.0, 935.0), p(2430.0, 950.0), p(2440.0, 1130.0), p(2000.0, 1268.0), p(1665.0, 1262.0), p(1662.0, 1160.0), p(1642.0, 1062.0), p(1470.0, 1040.0), p(1540.0, 1000.0)],
     },
   ],
@@ -135,12 +139,13 @@ let posed = (st: puppetState, poses: array<(partName, partPose)>): puppetState =
 let wingAt = (a, s) => {angle: Deg(a), dx: Px(0.0), dy: Px(0.0), s: Scale(s)}
 let restWingNear = -45.0
 let restWingFar = 15.0
-let restArm = 62.0
+let restArmNear = 62.0
+let restArmFar = 75.0 /* hanging along the far flank, hand beside the belly */
 let canonical = [
   (wingNear, wingAt(restWingNear, 0.6)),
   (wingFar, wingAt(restWingFar, 0.6)),
-  (armNear, turn(-.restArm)),
-  (armFar, turn(restArm)),
+  (armNear, turn(-.restArmNear)),
+  (armFar, turn(restArmFar)),
 ]
 let posedCanonical = (st, poses) => posed(st, Js.Array2.concat(canonical, poses))
 
@@ -237,8 +242,8 @@ let runIn = async () => {
       [
         (legNear, turn(legs(t) +. brace(t))),
         (legFar, turn(-.legs(t) -. brace(t))),
-        (armNear, turn(-.restArm -. armSwing(t))),
-        (armFar, turn(restArm -. armSwing(t))),
+        (armNear, turn(-.restArmNear -. armSwing(t))),
+        (armFar, turn(restArmFar -. armSwing(t))),
         (wingNear, wingAt(restWingNear +. flutter(t), 0.6)),
         (wingFar, wingAt(restWingFar -. flutter(t), 0.6)),
         (tail, turn(6.0 *. running(t) *. Js.Math.sin(2.0 *. Js.Math._PI *. f *. secf(t) -. 1.2))),
