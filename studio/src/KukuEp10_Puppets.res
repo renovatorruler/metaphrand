@@ -69,8 +69,9 @@ let kukuRig: rigSpec<small> = {
     {
       name: armNear,
       parent: Some(torso),
-      pivot: p(1170.0, 835.0),
+      pivot: p(1158.0, 835.0),
       z: 8,
+      cap: {radius: Px(56.0), colour: "#9fb068", edge: "#7c8d4b"},
       outline: [p(1168.0, 762.0), p(830.0, 770.0), p(800.0, 830.0), p(825.0, 900.0), p(1165.0, 908.0)],
     },
     {
@@ -127,6 +128,22 @@ let posed = (st: puppetState, poses: array<(partName, partPose)>): puppetState =
   {...st, parts: d}
 }
 
+/* THE CANONICAL POSE. The puppet sheet spreads every limb so the parts can be
+   cut; the character sheet is how कुकु actually stands: wings half open and
+   relaxed behind him, arms down. Every state begins here and adds to it —
+   later entries in a pose list win, so a shot overrides only what it moves. */
+let wingAt = (a, s) => {angle: Deg(a), dx: Px(0.0), dy: Px(0.0), s: Scale(s)}
+let restWingNear = -78.0
+let restWingFar = -8.0
+let restArm = 62.0
+let canonical = [
+  (wingNear, wingAt(restWingNear, 0.56)),
+  (wingFar, wingAt(restWingFar, 0.65)),
+  (armNear, turn(-.restArm)),
+  (armFar, turn(restArm)),
+]
+let posedCanonical = (st, poses) => posed(st, Js.Array2.concat(canonical, poses))
+
 /* ---------------------------------------------------------------- checks */
 let stageW = 1280
 let stageH = 720
@@ -136,7 +153,7 @@ let check = async () => {
   mkdirSync(outDir, {"recursive": true})
   let rig = await loadRig(kukuRig)
   let grey = colourLayer(~z=0, ~colour="#7a7a7a", ~w=Px(1280.0), ~h=Px(720.0))
-  let restState = _t => standing(~feetX=640.0, ~feetY=660.0, ~size=0.42)
+  let restState = _t => posedCanonical(standing(~feetX=640.0, ~feetY=660.0, ~size=0.42), [])
   /* every part swung by a test angle: any pixel that belongs to a neighbour
      shows up as a ghost that moves with the wrong piece */
   let exploded = _t =>
@@ -208,23 +225,22 @@ let runIn = async () => {
   let bob = t => 3.0 *. running(t) *. Js.Math.abs_float(Js.Math.sin(2.0 *. Js.Math._PI *. f *. secf(t)))
   let squash = t => track([{at: Sec(stopT), v: 0.0}, {at: Sec(stopT +. 0.1), v: 5.0}, {at: Sec(stopT +. 0.4), v: 0.0}], t)
   let lean = t => -7.0 *. running(t) +. track([{at: Sec(stopT -. 0.3), v: 0.0}, {at: Sec(stopT), v: 6.0}, {at: Sec(stopT +. 0.7), v: 0.0}], t)
-  /* wings swept up while running, like a child running with arms raised, with a
-     flutter on the stride; they settle to the spread rest once he stands */
-  let sweep = t => track([{at: Sec(0.0), v: 35.0}, {at: Sec(stopT +. 0.2), v: 35.0}, {at: Sec(stopT +. 1.0), v: 0.0}], t) +. 6.0 *. running(t) *. stride(t)
+  /* wings as the character sheet holds them, with a flutter on the stride */
+  let flutter = t => 5.0 *. running(t) *. stride(t)
   /* arms hang and swing opposite the legs; the look up at the lamp */
   let armSwing = t => 12.0 *. running(t) *. stride(t)
   let look = t => track([{at: Sec(stopT +. 0.7), v: 0.0}, {at: Sec(stopT +. 1.2), v: -11.0}], t)
   let state = t => {
     let base = standing(~feetX=feetX(t), ~feetY=groundY +. squash(t), ~size)
-    posed(
+    posedCanonical(
       {...base, y: Px(pxf(base.y) -. bob(t)), bank: Deg(lean(t))},
       [
         (legNear, turn(legs(t) +. brace(t))),
         (legFar, turn(-.legs(t) -. brace(t))),
-        (armNear, turn(-32.0 -. armSwing(t))),
-        (armFar, turn(32.0 -. armSwing(t))),
-        (wingNear, turn(sweep(t))),
-        (wingFar, turn(-.sweep(t))),
+        (armNear, turn(-.restArm -. armSwing(t))),
+        (armFar, turn(restArm -. armSwing(t))),
+        (wingNear, wingAt(restWingNear +. flutter(t), 0.56)),
+        (wingFar, wingAt(restWingFar -. flutter(t), 0.65)),
         (tail, turn(6.0 *. running(t) *. Js.Math.sin(2.0 *. Js.Math._PI *. f *. secf(t) -. 1.2))),
         (head, turn(-0.5 *. lean(t) +. 2.0 *. running(t) *. stride(t) +. look(t))),
       ],

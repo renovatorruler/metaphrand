@@ -90,12 +90,18 @@ let loadImage = (ImagePath(p)) => loadImageRaw(p)
    is applied inside its parent's, so a forearm follows the upper arm. z orders
    drawing within the puppet, higher in front. */
 type spritePoint = (px, px)
+/* A JOINT CAP: a disc in the part's own colour, with a darker paper edge,
+   drawn over its pivot in the parent's space, so the straight cut end of a
+   hinged piece never shows when it swings — the round paper joint a real
+   cutout puppet has. */
+type cap = {radius: px, colour: string, edge: string}
 type partSpec = {
   name: partName,
   parent: option<partName>,
   pivot: spritePoint,
   outline: array<spritePoint>,
   z: int,
+  cap?: cap,
 }
 /* THE FORM IS A TYPE. Only the great forms fly, after the कड़ा; a small-form
    puppet handed to a flight is a compile error, never a story mistake found
@@ -230,6 +236,29 @@ let drawPuppet = (c, rg: rig<'form>, st: puppetState) => {
     Js.Array2.forEach(lineage(rg, p.spec.name), anc => applyPose(c, st, anc))
     drawImage(c, p.img, p.ox, p.oy)
     restore(c)
+    /* the cap sits on the joint itself: posed like the parent, not the part */
+    switch p.spec.cap {
+    | Some({radius: Px(r), colour, edge}) => {
+        save(c)
+        Js.Array2.forEach(
+          switch p.spec.parent {
+          | Some(par) => lineage(rg, par)
+          | None => []
+          },
+          anc => applyPose(c, st, anc),
+        )
+        let (Px(cx), Px(cy)) = p.spec.pivot
+        setFillStyle(c, colour)
+        setStrokeStyle(c, edge)
+        setLineWidth(c, 4.0)
+        beginPath(c)
+        ellipse(c, cx, cy, r, r, 0.0, 0.0, 2.0 *. Js.Math._PI)
+        fill(c)
+        stroke(c)
+        restore(c)
+      }
+    | None => ()
+    }
   })
   restore(c)
 }
