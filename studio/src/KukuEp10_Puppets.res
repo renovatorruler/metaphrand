@@ -36,6 +36,24 @@ let legNear = PartName("legNear")
 let legFar = PartName("legFar")
 let tail = PartName("tail")
 
+/* AN ARM ENDS IN A HALF-DISC at the shoulder, cut inside the arm's own pixels,
+   and hinges on that disc's centre: it turns in place like a ball in a socket,
+   so no straight cut ever shows and nothing is drawn over the picture. cut is
+   where the arm meets the torso; the disc bulges toward the torso. */
+let armEnd = (~cut, ~yTop, ~yBot, ~tip, ~towardTorso) => {
+  let r = (yBot -. yTop) /. 2.0
+  let cy = (yTop +. yBot) /. 2.0
+  let px = cut -. towardTorso *. r
+  let arc = Belt.Array.makeBy(9, i => {
+    let a = -.Js.Math._PI /. 2.0 +. Belt.Int.toFloat(i) *. Js.Math._PI /. 8.0
+    p(px +. towardTorso *. r *. Js.Math.cos(a), cy +. r *. Js.Math.sin(a))
+  })
+  let tipSide = tip < cut ? -1.0 : 1.0
+  (p(px, cy), Js.Array2.concat(arc, [p(tip, yBot), p(tip +. tipSide *. 25.0, cy), p(tip, yTop)]))
+}
+
+let (kArmNPivot, kArmNOutline) = armEnd(~cut=1168.0, ~yTop=762.0, ~yBot=908.0, ~tip=760.0, ~towardTorso=1.0)
+let (kArmFPivot, kArmFOutline) = armEnd(~cut=1395.0, ~yTop=768.0, ~yBot=912.0, ~tip=1850.0, ~towardTorso=-1.0)
 let kukuRig: rigSpec<small> = {
   sprite: ImagePath(root ++ "cutout/sprites/kuku_spread.png"),
   partsDir: root ++ "cutout/parts/kuku/",
@@ -75,22 +93,8 @@ let kukuRig: rigSpec<small> = {
       z: 1,
       outline: [p(1372.0, 700.0), p(1425.0, 765.0), p(1800.0, 768.0), p(2000.0, 700.0), p(2280.0, 560.0), p(2260.0, 150.0), p(1500.0, 150.0), p(1520.0, 560.0), p(1400.0, 640.0)],
     },
-    {
-      name: armNear,
-      parent: Some(torso),
-      pivot: p(1158.0, 835.0),
-      z: 8,
-      cap: {radius: Px(56.0), colour: "#9fb068", edge: "#7c8d4b"},
-      outline: [p(1168.0, 762.0), p(830.0, 770.0), p(800.0, 830.0), p(825.0, 900.0), p(1165.0, 908.0)],
-    },
-    {
-      name: armFar,
-      parent: Some(torso),
-      pivot: p(1410.0, 835.0),
-      z: 6,
-      cap: {radius: Px(54.0), colour: "#94a45f", edge: "#6f8244"},
-      outline: [p(1385.0, 758.0), p(1790.0, 768.0), p(1830.0, 840.0), p(1800.0, 928.0), p(1425.0, 912.0)],
-    },
+    {name: armNear, parent: Some(torso), pivot: kArmNPivot, z: 8, outline: kArmNOutline},
+    {name: armFar, parent: Some(torso), pivot: kArmFPivot, z: 6, outline: kArmFOutline},
     {
       name: legNear,
       parent: Some(torso),
@@ -153,6 +157,8 @@ let dadiRig: rigSpec<small> = {
 /* Her sheet sprite: 2752x1536, facing LEFT, wings spread, arms out, the कड़ा
    on the far forearm. Same part names as कुकु's rig so the same shots and the
    same canonical-pose logic apply; her own rest angles below. */
+let (fuArmNPivot, fuArmNOutline) = armEnd(~cut=1190.0, ~yTop=618.0, ~yBot=715.0, ~tip=790.0, ~towardTorso=1.0)
+let (fuArmFPivot, fuArmFOutline) = armEnd(~cut=1400.0, ~yTop=660.0, ~yBot=800.0, ~tip=1850.0, ~towardTorso=-1.0)
 let furiaRig: rigSpec<small> = {
   sprite: ImagePath(root ++ "cutout/sprites/furia_spread.png"),
   partsDir: root ++ "cutout/parts/furia/",
@@ -191,22 +197,8 @@ let furiaRig: rigSpec<small> = {
       z: 1,
       outline: [p(1400.0, 560.0), p(1470.0, 700.0), p(1460.0, 760.0), p(1900.0, 780.0), p(2450.0, 860.0), p(2460.0, 160.0), p(1560.0, 150.0), p(1540.0, 400.0)],
     },
-    {
-      name: armNear,
-      parent: Some(torso),
-      pivot: p(1178.0, 665.0),
-      z: 8,
-      cap: {radius: Px(40.0), colour: "#d8646c", edge: "#a8444e"},
-      outline: [p(1190.0, 618.0), p(840.0, 612.0), p(820.0, 660.0), p(850.0, 712.0), p(1188.0, 715.0)],
-    },
-    {
-      name: armFar,
-      parent: Some(torso),
-      pivot: p(1418.0, 720.0),
-      z: 6,
-      cap: {radius: Px(40.0), colour: "#c6535c", edge: "#963a44"},
-      outline: [p(1400.0, 660.0), p(1820.0, 700.0), p(1830.0, 800.0), p(1430.0, 800.0)],
-    },
+    {name: armNear, parent: Some(torso), pivot: fuArmNPivot, z: 8, outline: fuArmNOutline},
+    {name: armFar, parent: Some(torso), pivot: fuArmFPivot, z: 6, outline: fuArmFOutline},
     {
       name: legNear,
       parent: Some(torso),
@@ -232,6 +224,8 @@ let furiaRig: rigSpec<small> = {
 }
 
 /* ------------------------------------------------------------ लेडा's rig */
+let (leArmNPivot, leArmNOutline) = armEnd(~cut=1192.0, ~yTop=768.0, ~yBot=875.0, ~tip=790.0, ~towardTorso=1.0)
+let (leArmFPivot, leArmFOutline) = armEnd(~cut=1395.0, ~yTop=795.0, ~yBot=905.0, ~tip=1850.0, ~towardTorso=-1.0)
 let ledaRig: rigSpec<small> = {
   sprite: ImagePath(root ++ "cutout/sprites/leda_spread.png"),
   partsDir: root ++ "cutout/parts/leda/",
@@ -250,10 +244,8 @@ let ledaRig: rigSpec<small> = {
       outline: [p(1200.0, 220.0), p(1120.0, 330.0), p(1080.0, 440.0), p(1100.0, 600.0), p(1190.0, 650.0), p(1195.0, 775.0), p(900.0, 775.0), p(700.0, 760.0), p(520.0, 540.0), p(500.0, 150.0), p(1000.0, 120.0)]},
     {name: wingFar, parent: Some(torso), pivot: p(1450.0, 650.0), z: 1,
       outline: [p(1400.0, 640.0), p(1470.0, 760.0), p(1500.0, 795.0), p(1800.0, 795.0), p(2000.0, 760.0), p(2450.0, 860.0), p(2460.0, 120.0), p(1620.0, 100.0), p(1615.0, 520.0), p(1480.0, 570.0)]},
-    {name: armNear, parent: Some(torso), pivot: p(1180.0, 822.0), z: 8, cap: {radius: Px(40.0), colour: "#c9aee6", edge: "#9a80b8"},
-      outline: [p(1192.0, 768.0), p(840.0, 772.0), p(820.0, 820.0), p(850.0, 872.0), p(1190.0, 875.0)]},
-    {name: armFar, parent: Some(torso), pivot: p(1410.0, 850.0), z: 6, cap: {radius: Px(40.0), colour: "#b89ad8", edge: "#8c6fae"},
-      outline: [p(1395.0, 795.0), p(1800.0, 805.0), p(1830.0, 860.0), p(1800.0, 905.0), p(1425.0, 905.0)]},
+    {name: armNear, parent: Some(torso), pivot: leArmNPivot, z: 8, outline: leArmNOutline},
+    {name: armFar, parent: Some(torso), pivot: leArmFPivot, z: 6, outline: leArmFOutline},
     {name: legNear, parent: Some(torso), pivot: p(1210.0, 1150.0), z: 7,
       outline: [p(1140.0, 1110.0), p(1260.0, 1100.0), p(1320.0, 1200.0), p(1320.0, 1380.0), p(1340.0, 1450.0), p(1110.0, 1455.0), p(1120.0, 1380.0), p(1150.0, 1300.0), p(1130.0, 1200.0)]},
     {name: legFar, parent: Some(torso), pivot: p(1500.0, 1100.0), z: 3,
@@ -264,6 +256,8 @@ let ledaRig: rigSpec<small> = {
 }
 
 /* ---------------------------------------------------------- कैस्टर's rig */
+let (caArmNPivot, caArmNOutline) = armEnd(~cut=1192.0, ~yTop=700.0, ~yBot=815.0, ~tip=850.0, ~towardTorso=1.0)
+let (caArmFPivot, caArmFOutline) = armEnd(~cut=1395.0, ~yTop=728.0, ~yBot=855.0, ~tip=1850.0, ~towardTorso=-1.0)
 let castorRig: rigSpec<small> = {
   sprite: ImagePath(root ++ "cutout/sprites/castor_spread.png"),
   partsDir: root ++ "cutout/parts/castor/",
@@ -282,10 +276,8 @@ let castorRig: rigSpec<small> = {
       outline: [p(1180.0, 190.0), p(1090.0, 280.0), p(1040.0, 400.0), p(1030.0, 520.0), p(1060.0, 600.0), p(1170.0, 610.0), p(1190.0, 690.0), p(880.0, 690.0), p(700.0, 600.0), p(620.0, 300.0), p(640.0, 120.0), p(1000.0, 110.0)]},
     {name: wingFar, parent: Some(torso), pivot: p(1450.0, 660.0), z: 1,
       outline: [p(1400.0, 640.0), p(1470.0, 760.0), p(1500.0, 780.0), p(1800.0, 760.0), p(2000.0, 720.0), p(2280.0, 700.0), p(2260.0, 120.0), p(1600.0, 110.0), p(1580.0, 300.0), p(1520.0, 560.0)]},
-    {name: armNear, parent: Some(torso), pivot: p(1180.0, 757.0), z: 8, cap: {radius: Px(42.0), colour: "#e7b95a", edge: "#b8862e"},
-      outline: [p(1192.0, 700.0), p(900.0, 705.0), p(880.0, 750.0), p(900.0, 810.0), p(1190.0, 815.0)]},
-    {name: armFar, parent: Some(torso), pivot: p(1410.0, 790.0), z: 6, cap: {radius: Px(42.0), colour: "#d9a94a", edge: "#a67a28"},
-      outline: [p(1395.0, 728.0), p(1800.0, 740.0), p(1830.0, 800.0), p(1800.0, 855.0), p(1425.0, 850.0)]},
+    {name: armNear, parent: Some(torso), pivot: caArmNPivot, z: 8, outline: caArmNOutline},
+    {name: armFar, parent: Some(torso), pivot: caArmFPivot, z: 6, outline: caArmFOutline},
     {name: legNear, parent: Some(torso), pivot: p(1130.0, 1120.0), z: 7,
       outline: [p(1060.0, 1070.0), p(1200.0, 1060.0), p(1230.0, 1160.0), p(1225.0, 1300.0), p(1245.0, 1365.0), p(1035.0, 1370.0), p(1040.0, 1290.0), p(1070.0, 1200.0)]},
     {name: legFar, parent: Some(torso), pivot: p(1440.0, 1060.0), z: 3,
@@ -296,6 +288,8 @@ let castorRig: rigSpec<small> = {
 }
 
 /* ---------------------------------------------------------- वैस्पर's rig */
+let (veArmNPivot, veArmNOutline) = armEnd(~cut=1192.0, ~yTop=788.0, ~yBot=880.0, ~tip=780.0, ~towardTorso=1.0)
+let (veArmFPivot, veArmFOutline) = armEnd(~cut=1395.0, ~yTop=800.0, ~yBot=905.0, ~tip=1850.0, ~towardTorso=-1.0)
 let vesperRig: rigSpec<small> = {
   sprite: ImagePath(root ++ "cutout/sprites/vesper_spread.png"),
   partsDir: root ++ "cutout/parts/vesper/",
@@ -314,10 +308,8 @@ let vesperRig: rigSpec<small> = {
       outline: [p(1220.0, 270.0), p(1120.0, 360.0), p(1080.0, 480.0), p(1070.0, 600.0), p(1090.0, 650.0), p(1180.0, 700.0), p(1195.0, 785.0), p(900.0, 785.0), p(700.0, 760.0), p(420.0, 560.0), p(400.0, 150.0), p(1000.0, 100.0)]},
     {name: wingFar, parent: Some(torso), pivot: p(1460.0, 730.0), z: 1,
       outline: [p(1400.0, 720.0), p(1470.0, 820.0), p(1500.0, 800.0), p(1800.0, 800.0), p(2000.0, 760.0), p(2420.0, 820.0), p(2420.0, 80.0), p(1580.0, 60.0), p(1560.0, 380.0), p(1500.0, 620.0)]},
-    {name: armNear, parent: Some(torso), pivot: p(1180.0, 833.0), z: 8, cap: {radius: Px(40.0), colour: "#a9d3ea", edge: "#6f9db8"},
-      outline: [p(1192.0, 788.0), p(830.0, 792.0), p(810.0, 830.0), p(830.0, 875.0), p(1190.0, 880.0)]},
-    {name: armFar, parent: Some(torso), pivot: p(1410.0, 852.0), z: 6, cap: {radius: Px(40.0), colour: "#94c2de", edge: "#5f8aa6"},
-      outline: [p(1395.0, 800.0), p(1800.0, 810.0), p(1830.0, 860.0), p(1800.0, 905.0), p(1425.0, 905.0)]},
+    {name: armNear, parent: Some(torso), pivot: veArmNPivot, z: 8, outline: veArmNOutline},
+    {name: armFar, parent: Some(torso), pivot: veArmFPivot, z: 6, outline: veArmFOutline},
     {name: legNear, parent: Some(torso), pivot: p(1170.0, 1160.0), z: 7,
       outline: [p(1090.0, 1110.0), p(1240.0, 1100.0), p(1260.0, 1200.0), p(1260.0, 1360.0), p(1270.0, 1445.0), p(1050.0, 1445.0), p(1060.0, 1360.0), p(1080.0, 1200.0)]},
     {name: legFar, parent: Some(torso), pivot: p(1470.0, 1090.0), z: 3,
@@ -328,6 +320,8 @@ let vesperRig: rigSpec<small> = {
 }
 
 /* ------------------------------------------------------------ पापा's rig */
+let (paArmNPivot, paArmNOutline) = armEnd(~cut=1192.0, ~yTop=708.0, ~yBot=808.0, ~tip=830.0, ~towardTorso=1.0)
+let (paArmFPivot, paArmFOutline) = armEnd(~cut=1395.0, ~yTop=718.0, ~yBot=805.0, ~tip=1810.0, ~towardTorso=-1.0)
 let papaRig: rigSpec<small> = {
   sprite: ImagePath(root ++ "cutout/sprites/papa_spread.png"),
   partsDir: root ++ "cutout/parts/papa/",
@@ -346,10 +340,8 @@ let papaRig: rigSpec<small> = {
       outline: [p(1240.0, 320.0), p(1150.0, 350.0), p(1110.0, 420.0), p(1100.0, 520.0), p(1130.0, 580.0), p(1190.0, 650.0), p(1195.0, 705.0), p(900.0, 705.0), p(700.0, 700.0), p(480.0, 560.0), p(470.0, 170.0), p(1000.0, 150.0)]},
     {name: wingFar, parent: Some(torso), pivot: p(1450.0, 700.0), z: 1,
       outline: [p(1400.0, 700.0), p(1470.0, 780.0), p(1500.0, 760.0), p(1760.0, 715.0), p(2000.0, 700.0), p(2400.0, 780.0), p(2410.0, 110.0), p(1500.0, 100.0), p(1430.0, 400.0), p(1420.0, 600.0)]},
-    {name: armNear, parent: Some(torso), pivot: p(1180.0, 758.0), z: 8, cap: {radius: Px(36.0), colour: "#8fb08a", edge: "#5f7f5c"},
-      outline: [p(1192.0, 708.0), p(880.0, 712.0), p(860.0, 755.0), p(880.0, 805.0), p(1190.0, 808.0)]},
-    {name: armFar, parent: Some(torso), pivot: p(1410.0, 762.0), z: 6, cap: {radius: Px(36.0), colour: "#7fa07a", edge: "#55704f"},
-      outline: [p(1395.0, 718.0), p(1760.0, 725.0), p(1790.0, 760.0), p(1760.0, 805.0), p(1425.0, 805.0)]},
+    {name: armNear, parent: Some(torso), pivot: paArmNPivot, z: 8, outline: paArmNOutline},
+    {name: armFar, parent: Some(torso), pivot: paArmFPivot, z: 6, outline: paArmFOutline},
     {name: legNear, parent: Some(torso), pivot: p(1180.0, 1180.0), z: 7,
       outline: [p(1080.0, 1130.0), p(1240.0, 1120.0), p(1290.0, 1220.0), p(1290.0, 1330.0), p(1300.0, 1385.0), p(1060.0, 1390.0), p(1070.0, 1320.0), p(1090.0, 1220.0)]},
     {name: legFar, parent: Some(torso), pivot: p(1400.0, 1160.0), z: 3,
@@ -397,6 +389,8 @@ let kaluRig: rigSpec<small> = {
 
 /* ------------------------------------------------- कुकु's GREAT form */
 /* The type says it: rigSpec<great>. This is the first rig the flight accepts. */
+let (kgArmNPivot, kgArmNOutline) = armEnd(~cut=1170.0, ~yTop=768.0, ~yBot=875.0, ~tip=720.0, ~towardTorso=1.0)
+let (kgArmFPivot, kgArmFOutline) = armEnd(~cut=1395.0, ~yTop=768.0, ~yBot=882.0, ~tip=1810.0, ~towardTorso=-1.0)
 let kukuGreatRig: rigSpec<great> = {
   sprite: ImagePath(root ++ "cutout/sprites/kuku_great_spread.png"),
   partsDir: root ++ "cutout/parts/kuku_great/",
@@ -411,10 +405,8 @@ let kukuGreatRig: rigSpec<great> = {
       outline: [p(1170.0, 210.0), p(1080.0, 300.0), p(1040.0, 430.0), p(1030.0, 540.0), p(1050.0, 610.0), p(1150.0, 650.0), p(1165.0, 765.0), p(900.0, 765.0), p(700.0, 720.0), p(400.0, 560.0), p(390.0, 160.0), p(1000.0, 150.0)]},
     {name: wingFar, parent: Some(torso), pivot: p(1460.0, 700.0), z: 1,
       outline: [p(1400.0, 660.0), p(1470.0, 790.0), p(1500.0, 765.0), p(1760.0, 765.0), p(2000.0, 740.0), p(2260.0, 760.0), p(2250.0, 110.0), p(1520.0, 100.0), p(1500.0, 300.0), p(1500.0, 460.0), p(1450.0, 580.0)]},
-    {name: armNear, parent: Some(torso), pivot: p(1160.0, 822.0), z: 8, cap: {radius: Px(42.0), colour: "#8fb36a", edge: "#5e8040"},
-      outline: [p(1170.0, 768.0), p(770.0, 772.0), p(750.0, 820.0), p(770.0, 872.0), p(1165.0, 875.0)]},
-    {name: armFar, parent: Some(torso), pivot: p(1410.0, 825.0), z: 6, cap: {radius: Px(42.0), colour: "#7fa35c", edge: "#527236"},
-      outline: [p(1395.0, 768.0), p(1760.0, 772.0), p(1790.0, 825.0), p(1760.0, 882.0), p(1425.0, 880.0)]},
+    {name: armNear, parent: Some(torso), pivot: kgArmNPivot, z: 8, outline: kgArmNOutline},
+    {name: armFar, parent: Some(torso), pivot: kgArmFPivot, z: 6, outline: kgArmFOutline},
     {name: legNear, parent: Some(torso), pivot: p(1160.0, 1160.0), z: 7,
       outline: [p(1060.0, 1110.0), p(1220.0, 1100.0), p(1280.0, 1200.0), p(1280.0, 1350.0), p(1300.0, 1445.0), p(1030.0, 1445.0), p(1040.0, 1360.0), p(1070.0, 1220.0)]},
     {name: legFar, parent: Some(torso), pivot: p(1470.0, 1090.0), z: 3,

@@ -287,10 +287,11 @@ let mouthSets = [
 module K = Puppet_Key
 let keyRuleOf = who =>
   switch who {
-  | "kuku" | "furia" | "castor" | "kuku_great" | "furia_great" | "castor_great" => Some({K.sheet: K.BlueSheet, rCoef: 1.7, bias: 20.0, width: 40.0, erode: 5})
-  | "papa" => Some({K.sheet: K.BlueSheet, rCoef: 1.2, bias: 15.0, width: 40.0, erode: 5}) /* drawn on a lighter, greyer blue square: red weighs less */
-  | "kalu" => Some({K.sheet: K.BlueSheet, rCoef: 1.7, bias: 35.0, width: 40.0, erode: 5}) /* black stays opaque, his shadow on the sheet does not */
-  | "leda" | "vesper" | "leda_great" | "vesper_great" => Some({K.sheet: K.GreenSheet, rCoef: 1.7, bias: 25.0, width: 20.0, erode: 5})
+  | "kuku" | "kuku_great" => Some({K.sheet: K.BlueSheet, clamp: K.SheetChannel, rCoef: 1.7, bias: 20.0, width: 40.0, erode: 5})
+  | "furia" | "castor" | "furia_great" | "castor_great" => Some({K.sheet: K.BlueSheet, clamp: K.RedDominant, rCoef: 1.7, bias: 20.0, width: 40.0, erode: 5}) /* pink and gold: nothing beyond red */
+  | "papa" => Some({K.sheet: K.BlueSheet, clamp: K.SheetChannel, rCoef: 1.2, bias: 15.0, width: 40.0, erode: 5}) /* drawn on a lighter, greyer blue square: red weighs less */
+  | "kalu" => Some({K.sheet: K.BlueSheet, clamp: K.RedDominant, rCoef: 1.7, bias: 35.0, width: 40.0, erode: 5}) /* black, brown eyes: nothing beyond red either */ /* black stays opaque, his shadow on the sheet does not */
+  | "leda" | "vesper" | "leda_great" | "vesper_great" => Some({K.sheet: K.GreenSheet, clamp: K.SheetChannel, rCoef: 1.7, bias: 25.0, width: 20.0, erode: 5})
   | _ => None
   }
 

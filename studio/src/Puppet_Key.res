@@ -17,8 +17,14 @@
 open Puppet
 
 type sheet = BlueSheet | GreenSheet
+/* which colour law the character's own pixels obey, so the clamp can be exact:
+   SheetChannel caps only the sheet's channel; RedDominant says no pixel of this
+   character has green or blue beyond red — true of pink फ्यूरिया and golden
+   कैस्टर — and catches cyan, which a blue-channel cap lets through. */
+type clamp = SheetChannel | RedDominant
 type keyRule = {
   sheet: sheet,
+  clamp: clamp,
   rCoef: float, /* blue: the weight of red in (rCoef·r + 0.2g − b); lower catches desaturated blues, higher keeps blue-tinted shadows on the figure */
   bias: float, /* blue: added to the sum; green: the g−max(r,b) level that is still character */
   width: float, /* the ramp's width */
@@ -43,10 +49,11 @@ let erosions = n => Js.Array2.joinWith(Belt.Array.make(n, "erosion"), ",")
    blue sheet no pixel of the character may be blue-dominant, on a green sheet
    none green-dominant: the offending channel is capped just above the larger
    of the other two. Deterministic, and what `rim` then measures is honest. */
-let clampOf = s =>
-  switch s {
-  | BlueSheet => "geq=r='r(X,Y)':g='g(X,Y)':b='min(b(X,Y),max(r(X,Y),g(X,Y))+8)':a='alpha(X,Y)'"
-  | GreenSheet => "geq=r='r(X,Y)':g='min(g(X,Y),max(r(X,Y),b(X,Y))+8)':b='b(X,Y)':a='alpha(X,Y)'"
+let clampOf = r =>
+  switch (r.clamp, r.sheet) {
+  | (RedDominant, _) => "geq=r='r(X,Y)':g='min(g(X,Y),r(X,Y)+10)':b='min(b(X,Y),r(X,Y)+10)':a='alpha(X,Y)'"
+  | (SheetChannel, BlueSheet) => "geq=r='r(X,Y)':g='g(X,Y)':b='min(b(X,Y),max(r(X,Y),g(X,Y))+8)':a='alpha(X,Y)'"
+  | (SheetChannel, GreenSheet) => "geq=r='r(X,Y)':g='min(g(X,Y),max(r(X,Y),b(X,Y))+8)':b='b(X,Y)':a='alpha(X,Y)'"
   }
 
 /* the whole chain: rule → alpha, alpha eroded and softened, despilled colour */
@@ -57,7 +64,7 @@ let chain = (rule, ~pre="", ~post="") =>
   "',split[rgb][al];[al]alphaextract," ++
   erosions(rule.erode) ++
   ",boxblur=1:1[am];[rgb][am]alphamerge," ++
-  clampOf(rule.sheet) ++
+  clampOf(rule) ++
   post
 
 let key = (~rule, ~src, ~dst) =>
@@ -107,7 +114,7 @@ let rim = async (~sheet, ~raw, path) => {
         let ri = (y * w + x) * 4
         let (rr, rg, rb) = (getRaw(ri), getRaw(ri + 1), getRaw(ri + 2))
         let rawSheet = switch sheet {
-        | BlueSheet => rb - Js.Math.max_int(rr, rg) > 12
+        | BlueSheet => rb - Js.Math.max_int(rr, rg) > 12 || (rb - rr > 40 && rg - rr > 20)
         | GreenSheet => rg - Js.Math.max_int(rr, rb) > 12
         }
         if rawSheet {
@@ -119,8 +126,9 @@ let rim = async (~sheet, ~raw, path) => {
           boundary := boundary.contents + 1
           let i = (y * w + x) * 4
           let (r, g, b) = (get(i), get(i + 1), get(i + 2))
+          /* a blue sheet may come out cyan: blue-and-green well over red counts too */
           let sheetColoured = switch sheet {
-          | BlueSheet => b - Js.Math.max_int(r, g) > 12
+          | BlueSheet => b - Js.Math.max_int(r, g) > 12 || (b - r > 40 && g - r > 20)
           | GreenSheet => g - Js.Math.max_int(r, b) > 12
           }
           if sheetColoured {
