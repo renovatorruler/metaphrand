@@ -171,6 +171,24 @@ let kaluSheet: P.imageSpec = {
   ],
 }
 
+/* कालू ASLEEP: the curled-up sprite for the settle in scene 2 and the last frame. */
+let kaluAsleep: P.imageSpec = {
+  scene: "कालू lies curled up asleep on the flat blue paper in full side view, कालू's head resting on कालू's front paws, eyes closed, tail curled along the body, with blue paper visible all around.",
+  shot: P.Sheet,
+  subjects: [P.Kalu({doing: "कालू lies curled up asleep in full side view, head resting on the front paws, eyes closed, tail curled along the body"})],
+  setting: keySheetBlue,
+  lighting: "Evening, warm level light from the left, the same gold as the courtyard plate, soft shadow falling to the right.",
+  plate: None,
+  blockout: Some(proxyFor("kalu_asleep")),
+  objects: [],
+  extraRules: [
+    "THE WHOLE BACKGROUND IS THAT ONE FLAT BLUE PAPER SHEET; कालू is the only thing on it.",
+    "EVERY SURFACE OF कालू IS CUT PAPER: separate pieces with real thickness, soft rounded cut edges and a fine visible paper grain.",
+    "कालू FILLS THE FRAME: the whole curled body visible with clear blue margin on every side.",
+    "कालू'S FACE AND BODY ARE THE SHEET'S: a black paper puppy with long floppy ears, a small black nose, eyes closed in sleep.",
+  ],
+}
+
 /* MOUTH SHAPES are edits of the SAME sprite, so the body stays identical and only
    the mouth changes; the mouth region is then cut out and swapped by the viseme
    track. A (rest) and X (silence) use the sprite's own closed mouth. */
@@ -287,11 +305,12 @@ let mouthSets = [
 module K = Puppet_Key
 let keyRuleOf = who =>
   switch who {
-  | "kuku" | "kuku_great" => Some({K.sheet: K.BlueSheet, clamp: K.SheetChannel, rCoef: 1.7, bias: 20.0, width: 40.0, erode: 5})
-  | "furia" | "castor" | "furia_great" | "castor_great" => Some({K.sheet: K.BlueSheet, clamp: K.RedDominant, rCoef: 1.7, bias: 20.0, width: 40.0, erode: 5}) /* pink and gold: nothing beyond red */
-  | "papa" => Some({K.sheet: K.BlueSheet, clamp: K.SheetChannel, rCoef: 1.2, bias: 15.0, width: 40.0, erode: 5}) /* drawn on a lighter, greyer blue square: red weighs less */
-  | "kalu" => Some({K.sheet: K.BlueSheet, clamp: K.RedDominant, rCoef: 1.7, bias: 35.0, width: 40.0, erode: 5}) /* black, brown eyes: nothing beyond red either */ /* black stays opaque, his shadow on the sheet does not */
-  | "leda" | "vesper" | "leda_great" | "vesper_great" => Some({K.sheet: K.GreenSheet, clamp: K.SheetChannel, rCoef: 1.7, bias: 25.0, width: 20.0, erode: 5})
+  | "kuku" | "kuku_great" => Some({K.sheet: K.BlueSheet, clamp: K.SheetChannel, rCoef: 1.7, bias: 20.0, width: 40.0, erode: 5, darkBelow: 0.0})
+  | "furia" | "castor" | "furia_great" | "castor_great" => Some({K.sheet: K.BlueSheet, clamp: K.RedDominant, rCoef: 1.7, bias: 20.0, width: 40.0, erode: 5, darkBelow: 0.0}) /* pink and gold: nothing beyond red */
+  | "papa" => Some({K.sheet: K.BlueSheet, clamp: K.SheetChannel, rCoef: 1.2, bias: 15.0, width: 40.0, erode: 5, darkBelow: 0.0}) /* drawn on a lighter, greyer blue square: red weighs less */
+  | "kalu" => Some({K.sheet: K.BlueSheet, clamp: K.RedDominant, rCoef: 1.7, bias: 35.0, width: 40.0, erode: 5, darkBelow: 0.0})
+  | "kalu_asleep" => Some({K.sheet: K.BlueSheet, clamp: K.RedDominant, rCoef: 1.7, bias: 35.0, width: 40.0, erode: 5, darkBelow: 110.0}) /* drawn on a pale paper mat: the figure is the dark thing */ /* black, brown eyes: nothing beyond red either */ /* black stays opaque, his shadow on the sheet does not */
+  | "leda" | "vesper" | "leda_great" | "vesper_great" => Some({K.sheet: K.GreenSheet, clamp: K.SheetChannel, rCoef: 1.7, bias: 25.0, width: 20.0, erode: 5, darkBelow: 0.0})
   | _ => None
   }
 
@@ -303,6 +322,7 @@ let keySprite = async who =>
   | Some(rule) => {
       let file = switch who {
       | "kalu" => "kalu_side_raw.png"
+      | "kalu_asleep" => "kalu_asleep_raw.png"
       | "dadi" => "dadi_kneeling_raw.png"
       | _ => who ++ "_spread_raw.png"
       }
@@ -360,6 +380,7 @@ let specOf = name =>
   | "vesper" => Some(("sprite_vesper_spread", vesperSheet, "vesper_spread_raw.png", Green))
   | "papa" => Some(("sprite_papa_spread", papaSheet, "papa_spread_raw.png", Blue))
   | "kalu" => Some(("sprite_kalu_side", kaluSheet, "kalu_side_raw.png", Blue))
+  | "kalu_asleep" => Some(("sprite_kalu_asleep", kaluAsleep, "kalu_asleep_raw.png", Blue))
   | "kuku_great" => Some(("sprite_kuku_great_spread", kukuGreat, "kuku_great_spread_raw.png", Blue))
   | "furia_great" => Some(("sprite_furia_great_spread", furiaGreat, "furia_great_spread_raw.png", Blue))
   | "leda_great" => Some(("sprite_leda_great_spread", ledaGreat, "leda_great_spread_raw.png", Green))
@@ -469,6 +490,33 @@ let drawProxyDog = (~who, ~colour, ~sheet) => {
   Js.log("wrote " ++ proxyFor(who))
 }
 
+let drawProxyCurl = (~who, ~colour, ~sheet) => {
+  module C = Puppet
+  let cv = C.createCanvas(2752, 1536)
+  let c = C.getContext(cv, "2d")
+  C.setFillStyle(c, sheetFill(sheet))
+  C.fillRect(c, 0.0, 0.0, 2752.0, 1536.0)
+  C.setFillStyle(c, colour)
+  C.setStrokeStyle(c, colour)
+  C.setLineCap(c, "round")
+  let disc = (x, y, rx, ry) => {
+    C.beginPath(c)
+    C.ellipse(c, x, y, rx, ry, 0.0, 0.0, 2.0 *. Js.Math._PI)
+    C.fill(c)
+  }
+  disc(1450.0, 950.0, 620.0, 330.0) /* the curled body */
+  disc(900.0, 980.0, 260.0, 220.0) /* the head resting at the front */
+  disc(720.0, 1050.0, 130.0, 90.0) /* the snout on the paws */
+  disc(980.0, 1100.0, 90.0, 190.0) /* the ear hanging */
+  C.setLineWidth(c, 90.0)
+  C.beginPath(c)
+  C.moveTo(c, 2000.0, 1150.0)
+  C.lineTo(c, 1500.0, 1260.0)
+  C.stroke(c) /* the tail curled along the flank */
+  C.writeFileBuffer(proxyFor(who), C.toBuffer(cv, "image/png"))
+  Js.log("wrote " ++ proxyFor(who))
+}
+
 /* the sheet key: flat bright blue paper with a fine grain, the same size as a
    sprite; synthesized, so it depicts nothing but the sheet */
 let drawSheetKey = () => {
@@ -500,6 +548,8 @@ let () = {
   | (Some("plan"), Some(n), _) => plan(n)
   | (Some("proxy"), Some(who), Some(colour)) =>
     drawProxy(~who, ~colour, ~sheet=switch specOf(who) { | Some((_, _, _, c)) => c | None => Blue })
+  | (Some("proxycurl"), Some(who), Some(colour)) =>
+    drawProxyCurl(~who, ~colour, ~sheet=switch specOf(who) { | Some((_, _, _, c)) => c | None => Blue })
   | (Some("proxydog"), Some(who), Some(colour)) =>
     drawProxyDog(~who, ~colour, ~sheet=switch specOf(who) { | Some((_, _, _, c)) => c | None => Blue })
   | (Some("mouth"), Some(who), Some(shape)) => mouth(who, shape)

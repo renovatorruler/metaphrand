@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "soundFile": "/Users/dusty/Dev/metaphrand/stories/kuku/ep10/cutout/audio/line011.wav",
+    "duration": 3.84
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.01, "value": "X" },
+    { "start": 0.01, "end": 0.06, "value": "B" },
+    { "start": 0.06, "end": 0.18, "value": "C" },
+    { "start": 0.18, "end": 0.53, "value": "B" },
+    { "start": 0.53, "end": 0.82, "value": "X" },
+    { "start": 0.82, "end": 0.88, "value": "B" },
+    { "start": 0.88, "end": 1.08, "value": "C" },
+    { "start": 1.08, "end": 1.50, "value": "B" },
+    { "start": 1.50, "end": 1.57, "value": "C" },
+    { "start": 1.57, "end": 1.65, "value": "A" },
+    { "start": 1.65, "end": 1.90, "value": "B" },
+    { "start": 1.90, "end": 1.98, "value": "A" },
+    { "start": 1.98, "end": 2.22, "value": "F" },
+    { "start": 2.22, "end": 2.28, "value": "E" },
+    { "start": 2.28, "end": 2.53, "value": "C" },
+    { "start": 2.53, "end": 2.61, "value": "A" },
+    { "start": 2.61, "end": 2.84, "value": "E" },
+    { "start": 2.84, "end": 2.91, "value": "F" },
+    { "start": 2.91, "end": 3.84, "value": "X" }
+  ]
+}

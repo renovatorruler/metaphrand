@@ -60,6 +60,7 @@ type buffer
 @send external beginPath: ctx => unit = "beginPath"
 @send external moveTo: (ctx, float, float) => unit = "moveTo"
 @send external lineTo: (ctx, float, float) => unit = "lineTo"
+@send external bezierCurveTo: (ctx, float, float, float, float, float, float) => unit = "bezierCurveTo"
 @send external closePath: ctx => unit = "closePath"
 @send external clip: ctx => unit = "clip"
 @send external fill: ctx => unit = "fill"

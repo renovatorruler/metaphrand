@@ -1,0 +1,713 @@
+[
+ {
+  "line": 1,
+  "shot": "शॉट ०१",
+  "who": "दादी",
+  "text": "साँझ ढल गई। अब दीये की बारी है।",
+  "wav": "cutout/audio/line001.wav",
+  "visemes": "cutout/audio/line001.visemes.json",
+  "secs": 2.8
+ },
+ {
+  "line": 2,
+  "shot": "शॉट ०२",
+  "who": "दादी",
+  "text": "जल गया।",
+  "wav": "cutout/audio/line002.wav",
+  "visemes": "cutout/audio/line002.visemes.json",
+  "secs": 3.76
+ },
+ {
+  "line": 3,
+  "shot": "शॉट ०३",
+  "who": "कैस्टर",
+  "text": "मैंने अपनी जगह पकड़ ली!",
+  "wav": "cutout/audio/line003.wav",
+  "visemes": "cutout/audio/line003.visemes.json",
+  "secs": 3.92
+ },
+ {
+  "line": 4,
+  "shot": "शॉट ०३",
+  "who": "लेडा",
+  "text": "तुम रोज़ यही कहते हो।",
+  "wav": "cutout/audio/line004.wav",
+  "visemes": "cutout/audio/line004.visemes.json",
+  "secs": 3.04
+ },
+ {
+  "line": 5,
+  "shot": "शॉट ०४",
+  "who": "फ्यूरिया",
+  "text": "और रोज़ ग़लत कहते हो। कालू तुमसे पहले आ जाता है।",
+  "wav": "cutout/audio/line005.wav",
+  "visemes": "cutout/audio/line005.visemes.json",
+  "secs": 3.6
+ },
+ {
+  "line": 6,
+  "shot": "शॉट ०४",
+  "who": "कैस्टर",
+  "text": "कालू तो यहीं सोता है!",
+  "wav": "cutout/audio/line006.wav",
+  "visemes": "cutout/audio/line006.visemes.json",
+  "secs": 3.44
+ },
+ {
+  "line": 7,
+  "shot": "शॉट ०५",
+  "who": "कैस्टर",
+  "text": "दादी, यह दीया रातभर क्यों जलता रहता है?",
+  "wav": "cutout/audio/line007.wav",
+  "visemes": "cutout/audio/line007.visemes.json",
+  "secs": 2.72
+ },
+ {
+  "line": 8,
+  "shot": "शॉट ०६",
+  "who": "दादी",
+  "text": "क्योंकि पापा घाटी से लौटते हैं, और अँधेरे में उन्हें रास्ता नहीं दिखता। वे इसी दीये को देखकर घर पहचानते हैं।",
+  "wav": "cutout/audio/line008.wav",
+  "visemes": "cutout/audio/line008.visemes.json",
+  "secs": 8.08
+ },
+ {
+  "line": 9,
+  "shot": "शॉट ०७",
+  "who": "कुकु",
+  "text": "तो दीया रास्ता है।",
+  "wav": "cutout/audio/line009.wav",
+  "visemes": "cutout/audio/line009.visemes.json",
+  "secs": 2.32
+ },
+ {
+  "line": 10,
+  "shot": "शॉट ०७",
+  "who": "दादी",
+  "text": "दीया रास्ता है।",
+  "wav": "cutout/audio/line010.wav",
+  "visemes": "cutout/audio/line010.visemes.json",
+  "secs": 3.6
+ },
+ {
+  "line": 11,
+  "shot": "शॉट ०८",
+  "who": "वैस्पर",
+  "text": "दादी, अगर किसी रात दीया बुझ जाए तो?",
+  "wav": "cutout/audio/line011.wav",
+  "visemes": "cutout/audio/line011.visemes.json",
+  "secs": 3.84
+ },
+ {
+  "line": 12,
+  "shot": "शॉट ०८",
+  "who": "दादी",
+  "text": "इसीलिए कोई न कोई इसके पास बैठता है।",
+  "wav": "cutout/audio/line012.wav",
+  "visemes": "cutout/audio/line012.visemes.json",
+  "secs": 3.44
+ },
+ {
+  "line": 13,
+  "shot": "शॉट ०९",
+  "who": "लेडा",
+  "text": "मैंने गिना है। यह दीया चौदह रातों से जल रहा है।",
+  "wav": "cutout/audio/line013.wav",
+  "visemes": "cutout/audio/line013.visemes.json",
+  "secs": 3.92
+ },
+ {
+  "line": 14,
+  "shot": "शॉट ०९",
+  "who": "दादी",
+  "text": "और आज पंद्रहवीं रात है।",
+  "wav": "cutout/audio/line014.wav",
+  "visemes": "cutout/audio/line014.visemes.json",
+  "secs": 2.32
+ },
+ {
+  "line": 15,
+  "shot": "शॉट ११",
+  "who": "वैस्पर",
+  "text": "आज हवा जल्दी आ गई। और पापा अभी नीचे ही हैं।",
+  "wav": "cutout/audio/line015.wav",
+  "visemes": "cutout/audio/line015.visemes.json",
+  "secs": 3.84
+ },
+ {
+  "line": 16,
+  "shot": "शॉट ११",
+  "who": "फ्यूरिया",
+  "text": "हवा से क्या डरना।",
+  "wav": "cutout/audio/line016.wav",
+  "visemes": "cutout/audio/line016.visemes.json",
+  "secs": 1.68
+ },
+ {
+  "line": 17,
+  "shot": "शॉट १२",
+  "who": "दादी",
+  "text": "मैं पापा के लिए खाना गरम करती हूँ। तब तक दीया तुम्हारे पास है।",
+  "wav": "cutout/audio/line017.wav",
+  "visemes": "cutout/audio/line017.visemes.json",
+  "secs": 4.48
+ },
+ {
+  "line": 18,
+  "shot": "शॉट १२",
+  "who": "लेडा",
+  "text": "हम इसे बुझने नहीं देंगे।",
+  "wav": "cutout/audio/line018.wav",
+  "visemes": "cutout/audio/line018.visemes.json",
+  "secs": 2.08
+ },
+ {
+  "line": 19,
+  "shot": "शॉट १३",
+  "who": "दादी",
+  "text": "इसे रोकना मत, बस इसके साथ रहना। हवा को रोका नहीं जाता।",
+  "wav": "cutout/audio/line019.wav",
+  "visemes": "cutout/audio/line019.visemes.json",
+  "secs": 5.92
+ },
+ {
+  "line": 20,
+  "shot": "शॉट १३",
+  "who": "कुकु",
+  "text": "जी, दादी।",
+  "wav": "cutout/audio/line020.wav",
+  "visemes": "cutout/audio/line020.visemes.json",
+  "secs": 1.68
+ },
+ {
+  "line": 21,
+  "shot": "शॉट १५",
+  "who": "फ्यूरिया",
+  "text": "पहले मैं! मैं इसे अपने पंख से ढक लूँगी।",
+  "wav": "cutout/audio/line021.wav",
+  "visemes": "cutout/audio/line021.visemes.json",
+  "secs": 3.12
+ },
+ {
+  "line": 22,
+  "shot": "शॉट १५",
+  "who": "लेडा",
+  "text": "धीरे, फ्यूरिया।",
+  "wav": "cutout/audio/line022.wav",
+  "visemes": "cutout/audio/line022.visemes.json",
+  "secs": 3.6
+ },
+ {
+  "line": 23,
+  "shot": "शॉट १७",
+  "who": "फ्यूरिया",
+  "text": "मैंने तो सोचा था कि मेरे पंख इसे बचा लेंगे।",
+  "wav": "cutout/audio/line023.wav",
+  "visemes": "cutout/audio/line023.visemes.json",
+  "secs": 3.28
+ },
+ {
+  "line": 24,
+  "shot": "शॉट १७",
+  "who": "लेडा",
+  "text": "तुम्हारे पंख सबसे तेज़ हैं। आज वही मुश्किल है।",
+  "wav": "cutout/audio/line024.wav",
+  "visemes": "cutout/audio/line024.visemes.json",
+  "secs": 3.92
+ },
+ {
+  "line": 25,
+  "shot": "शॉट १९",
+  "who": "कैस्टर",
+  "text": "दादी के हाथ बड़े हैं। मेरे पूरे नहीं पड़ते।",
+  "wav": "cutout/audio/line025.wav",
+  "visemes": "cutout/audio/line025.visemes.json",
+  "secs": 3.6
+ },
+ {
+  "line": 26,
+  "shot": "शॉट १९",
+  "who": "कुकु",
+  "text": "तुमने कोशिश तो की।",
+  "wav": "cutout/audio/line026.wav",
+  "visemes": "cutout/audio/line026.visemes.json",
+  "secs": 3.92
+ },
+ {
+  "line": 27,
+  "shot": "शॉट २०",
+  "who": "वैस्पर",
+  "text": "अगर हवा को रोका नहीं जा सकता, तो उसे मोड़ना पड़ेगा। मैं आगे एक दीवार बनाता हूँ।",
+  "wav": "cutout/audio/line027.wav",
+  "visemes": "cutout/audio/line027.visemes.json",
+  "secs": 6.24
+ },
+ {
+  "line": 28,
+  "shot": "शॉट २२",
+  "who": "वैस्पर",
+  "text": "काग़ज़ हवा से हल्का है। हवा उसे भी उठा ले जाती है।",
+  "wav": "cutout/audio/line028.wav",
+  "visemes": "cutout/audio/line028.visemes.json",
+  "secs": 3.68
+ },
+ {
+  "line": 29,
+  "shot": "शॉट २३",
+  "who": "लेडा",
+  "text": "सुनो! हवा एक साथ नहीं आती। एक... दो... तीन — फिर रुकती है। मेरी गिनती पर झुको।",
+  "wav": "cutout/audio/line029.wav",
+  "visemes": "cutout/audio/line029.visemes.json",
+  "secs": 8.96
+ },
+ {
+  "line": 30,
+  "shot": "शॉट २५",
+  "who": "लेडा",
+  "text": "एक... दो... तीन — अब!",
+  "wav": "cutout/audio/line030.wav",
+  "visemes": "cutout/audio/line030.visemes.json",
+  "secs": 4.08
+ },
+ {
+  "line": 31,
+  "shot": "शॉट २५",
+  "who": "कैस्टर",
+  "text": "चल रहा है! सच में चल रहा है!",
+  "wav": "cutout/audio/line031.wav",
+  "visemes": "cutout/audio/line031.visemes.json",
+  "secs": 2.88
+ },
+ {
+  "line": 32,
+  "shot": "शॉट २८",
+  "who": "कैस्टर",
+  "text": "बुझ गया।",
+  "wav": "cutout/audio/line032.wav",
+  "visemes": "cutout/audio/line032.visemes.json",
+  "secs": 3.28
+ },
+ {
+  "line": 33,
+  "shot": "शॉट ३०",
+  "who": "कैस्टर",
+  "text": "दादी की आग भीतर है। और दरवाज़ा मुझसे बड़ा है।",
+  "wav": "cutout/audio/line033.wav",
+  "visemes": "cutout/audio/line033.visemes.json",
+  "secs": 4.56
+ },
+ {
+  "line": 34,
+  "shot": "शॉट ३०",
+  "who": "फ्यूरिया",
+  "text": "दादी को बुलाएँ?",
+  "wav": "cutout/audio/line034.wav",
+  "visemes": "cutout/audio/line034.visemes.json",
+  "secs": 1.36
+ },
+ {
+  "line": 35,
+  "shot": "शॉट ३०",
+  "who": "लेडा",
+  "text": "वे भी इस हवा में नई बाती नहीं जला पाएँगी।",
+  "wav": "cutout/audio/line035.wav",
+  "visemes": "cutout/audio/line035.visemes.json",
+  "secs": 2.88
+ },
+ {
+  "line": 36,
+  "shot": "शॉट ३२",
+  "who": "कुकु",
+  "text": "पापा हैं। वे रास्ता ढूँढ रहे हैं।",
+  "wav": "cutout/audio/line036.wav",
+  "visemes": "cutout/audio/line036.visemes.json",
+  "secs": 2.32
+ },
+ {
+  "line": 37,
+  "shot": "शॉट ३३-अ",
+  "who": "लेडा",
+  "text": "कड़े! सब अपने-अपने कड़े छुओ।",
+  "wav": "cutout/audio/line037.wav",
+  "visemes": "cutout/audio/line037.visemes.json",
+  "secs": 3.04
+ },
+ {
+  "line": 38,
+  "shot": "शॉट ३३-अ",
+  "who": "फ्यूरिया",
+  "text": "पापा तक हम पहुँचेंगे!",
+  "wav": "cutout/audio/line038.wav",
+  "visemes": "cutout/audio/line038.visemes.json",
+  "secs": 2.4
+ },
+ {
+  "line": 39,
+  "shot": "शॉट ३३-ब",
+  "who": "लेडा",
+  "text": "एक... दो... तीन!",
+  "wav": "cutout/audio/line039.wav",
+  "visemes": "cutout/audio/line039.visemes.json",
+  "secs": 3.04
+ },
+ {
+  "line": 40,
+  "shot": "शॉट ३३-द",
+  "who": "वैस्पर",
+  "text": "ऊपर हवा और भी तेज़ है!",
+  "wav": "cutout/audio/line040.wav",
+  "visemes": "cutout/audio/line040.visemes.json",
+  "secs": 2.4
+ },
+ {
+  "line": 41,
+  "shot": "शॉट ३३-य",
+  "who": "कैस्टर",
+  "text": "और इतने बड़े होकर हम दीये के पास बैठ भी नहीं सकते।",
+  "wav": "cutout/audio/line041.wav",
+  "visemes": "cutout/audio/line041.visemes.json",
+  "secs": 4.48
+ },
+ {
+  "line": 42,
+  "shot": "शॉट ३३-य",
+  "who": "फ्यूरिया",
+  "text": "हमारी पूरी ताक़त भी कम पड़ गई।",
+  "wav": "cutout/audio/line042.wav",
+  "visemes": "cutout/audio/line042.visemes.json",
+  "secs": 4.4
+ },
+ {
+  "line": 43,
+  "shot": "शॉट ३३-र",
+  "who": "लेडा",
+  "text": "छोटे हो जाओ। एक... दो... तीन।",
+  "wav": "cutout/audio/line043.wav",
+  "visemes": "cutout/audio/line043.visemes.json",
+  "secs": 5.6
+ },
+ {
+  "line": 44,
+  "shot": "शॉट ३४",
+  "who": "वैस्पर",
+  "text": "और मुझे नीचे कुछ दिखता ही नहीं।",
+  "wav": "cutout/audio/line044.wav",
+  "visemes": "cutout/audio/line044.visemes.json",
+  "secs": 2.24
+ },
+ {
+  "line": 45,
+  "shot": "शॉट ३६",
+  "who": "कुकु",
+  "text": "मैंने आकार सोचा ही नहीं। मैंने बस साँस छोड़ दी।",
+  "wav": "cutout/audio/line045.wav",
+  "visemes": "cutout/audio/line045.visemes.json",
+  "secs": 4.72
+ },
+ {
+  "line": 46,
+  "shot": "शॉट ३७",
+  "who": "लेडा",
+  "text": "कुकु, तुम्हारी साँस लौ नहीं बनाती। वह अक्षर बनाती है। कोई ऐसा अक्षर बनाओ जो जलता रहे।",
+  "wav": "cutout/audio/line046.wav",
+  "visemes": "cutout/audio/line046.visemes.json",
+  "secs": 8.4
+ },
+ {
+  "line": 47,
+  "shot": "शॉट ३७",
+  "who": "कुकु",
+  "text": "कौन सा अक्षर?",
+  "wav": "cutout/audio/line047.wav",
+  "visemes": "cutout/audio/line047.visemes.json",
+  "secs": 1.76
+ },
+ {
+  "line": 48,
+  "shot": "शॉट ३८",
+  "who": "फ्यूरिया",
+  "text": "इस बार पहले तुम, कुकु। मेरी ताक़त ने ही इसे बुझाया है।",
+  "wav": "cutout/audio/line048.wav",
+  "visemes": "cutout/audio/line048.visemes.json",
+  "secs": 4.88
+ },
+ {
+  "line": 49,
+  "shot": "शॉट ३९",
+  "who": "कुकु",
+  "text": "दीया... दादी... दरवाज़ा... तीनों एक ही आवाज़ से शुरू होते हैं।",
+  "wav": "cutout/audio/line049.wav",
+  "visemes": "cutout/audio/line049.visemes.json",
+  "secs": 6.72
+ },
+ {
+  "line": 50,
+  "shot": "शॉट ४०",
+  "who": "लेडा",
+  "text": "फिर से कहो, कुकु।",
+  "wav": "cutout/audio/line050.wav",
+  "visemes": "cutout/audio/line050.visemes.json",
+  "secs": 2.16
+ },
+ {
+  "line": 51,
+  "shot": "शॉट ४०",
+  "who": "कुकु",
+  "text": "दीया। दादी। दरवाज़ा। द।",
+  "wav": "cutout/audio/line051.wav",
+  "visemes": "cutout/audio/line051.visemes.json",
+  "secs": 10.32
+ },
+ {
+  "line": 52,
+  "shot": "शॉट ४१",
+  "who": "कैस्टर",
+  "text": "दूध भी! दूध में भी वही आवाज़ है!",
+  "wav": "cutout/audio/line052.wav",
+  "visemes": "cutout/audio/line052.visemes.json",
+  "secs": 3.12
+ },
+ {
+  "line": 53,
+  "shot": "शॉट ४१",
+  "who": "लेडा",
+  "text": "तुम्हें हर बात में दूध ही सूझता है।",
+  "wav": "cutout/audio/line053.wav",
+  "visemes": "cutout/audio/line053.visemes.json",
+  "secs": 5.44
+ },
+ {
+  "line": 54,
+  "shot": "शॉट ४२",
+  "who": "वैस्पर",
+  "text": "दूर। जो नीचे घाटी में है, वह दूर है। उसमें भी द है।",
+  "wav": "cutout/audio/line054.wav",
+  "visemes": "cutout/audio/line054.visemes.json",
+  "secs": 5.76
+ },
+ {
+  "line": 55,
+  "shot": "शॉट ४३",
+  "who": "लेडा",
+  "text": "दस। मैं रोज़ दस तक गिनती हूँ। दस में भी द है।",
+  "wav": "cutout/audio/line055.wav",
+  "visemes": "cutout/audio/line055.visemes.json",
+  "secs": 5.52
+ },
+ {
+  "line": 56,
+  "shot": "शॉट ४४",
+  "who": "फ्यूरिया",
+  "text": "दौड़! जब मैं सबसे तेज़ जाती हूँ, वह दौड़ है। उसमें भी द!",
+  "wav": "cutout/audio/line056.wav",
+  "visemes": "cutout/audio/line056.visemes.json",
+  "secs": 5.04
+ },
+ {
+  "line": 57,
+  "shot": "शॉट ४५",
+  "who": "कुकु",
+  "text": "दीया, दादी, दरवाज़ा, दूध, दूर, दस, दौड़। सबकी शुरुआत एक ही है। द।",
+  "wav": "cutout/audio/line057.wav",
+  "visemes": "cutout/audio/line057.visemes.json",
+  "secs": 10
+ },
+ {
+  "line": 58,
+  "shot": "शॉट ४६",
+  "who": "लेडा",
+  "text": "अब आकार सुनो। ऊपर एक सीधी लकीर, और उसके नीचे एक गहरा घुमाव जो नीचे जाकर मुड़ जाता है। यही द है।",
+  "wav": "cutout/audio/line058.wav",
+  "visemes": "cutout/audio/line058.visemes.json",
+  "secs": 10.16
+ },
+ {
+  "line": 59,
+  "shot": "शॉट ४९",
+  "who": "लेडा",
+  "text": "घुमाव दूसरी तरफ़, कुकु! उसका मुँह हवा की ओर होना चाहिए, पीठ नहीं।",
+  "wav": "cutout/audio/line059.wav",
+  "visemes": "cutout/audio/line059.visemes.json",
+  "secs": 5.84
+ },
+ {
+  "line": 60,
+  "shot": "शॉट ४९",
+  "who": "कुकु",
+  "text": "फिर से।",
+  "wav": "cutout/audio/line060.wav",
+  "visemes": "cutout/audio/line060.visemes.json",
+  "secs": 3.2
+ },
+ {
+  "line": 61,
+  "shot": "शॉट ५०",
+  "who": "सब",
+  "text": "कुकु, तुम कर सकते हो!",
+  "wav": "cutout/audio/line061.wav",
+  "visemes": "cutout/audio/line061.visemes.json",
+  "secs": 2.4
+ },
+ {
+  "line": 62,
+  "shot": "शॉट ५४",
+  "who": "वैस्पर",
+  "text": "हवा इसे छू भी नहीं पा रही।",
+  "wav": "cutout/audio/line062.wav",
+  "visemes": "cutout/audio/line062.visemes.json",
+  "secs": 2
+ },
+ {
+  "line": 63,
+  "shot": "शॉट ५४",
+  "who": "लेडा",
+  "text": "क्योंकि यह आग नहीं है।",
+  "wav": "cutout/audio/line063.wav",
+  "visemes": "cutout/audio/line063.visemes.json",
+  "secs": 1.92
+ },
+ {
+  "line": 64,
+  "shot": "शॉट ५६",
+  "who": "पापा",
+  "text": "मुझे रोशनी दिख गई! मैं आ रहा हूँ!",
+  "wav": "cutout/audio/line064.wav",
+  "visemes": "cutout/audio/line064.visemes.json",
+  "secs": 2.24
+ },
+ {
+  "line": 65,
+  "shot": "शॉट ५७",
+  "who": "पापा",
+  "text": "यह दीया नहीं है। यह क्या है?",
+  "wav": "cutout/audio/line065.wav",
+  "visemes": "cutout/audio/line065.visemes.json",
+  "secs": 2.8
+ },
+ {
+  "line": 66,
+  "shot": "शॉट ५७",
+  "who": "कुकु",
+  "text": "यह द है, पापा। मैंने बनाया।",
+  "wav": "cutout/audio/line066.wav",
+  "visemes": "cutout/audio/line066.visemes.json",
+  "secs": 4.08
+ },
+ {
+  "line": 67,
+  "shot": "शॉट ५८",
+  "who": "पापा",
+  "text": "मैं नीचे अँधेरे में खड़ा था। फिर ऊपर एक सुनहरी रोशनी उठी, और मुझे रास्ता मिल गया।",
+  "wav": "cutout/audio/line067.wav",
+  "visemes": "cutout/audio/line067.visemes.json",
+  "secs": 4.8
+ },
+ {
+  "line": 68,
+  "shot": "शॉट ५९",
+  "who": "दादी",
+  "text": "द से दीया। और आज द ही दीया है।",
+  "wav": "cutout/audio/line068.wav",
+  "visemes": "cutout/audio/line068.visemes.json",
+  "secs": 7.12
+ },
+ {
+  "line": 69,
+  "shot": "शॉट ६०",
+  "who": "कैस्टर",
+  "text": "और द से दादी भी!",
+  "wav": "cutout/audio/line069.wav",
+  "visemes": "cutout/audio/line069.visemes.json",
+  "secs": 2.72
+ },
+ {
+  "line": 70,
+  "shot": "शॉट ६०",
+  "who": "दादी",
+  "text": "और द से दूध, जो अब तुम्हें पीना है।",
+  "wav": "cutout/audio/line070.wav",
+  "visemes": "cutout/audio/line070.visemes.json",
+  "secs": 3.92
+ },
+ {
+  "line": 71,
+  "shot": "शॉट ६१",
+  "who": "दादी",
+  "text": "चलो, एक बार और। कौन-कौन से शब्द द से शुरू होते हैं?",
+  "wav": "cutout/audio/line071.wav",
+  "visemes": "cutout/audio/line071.visemes.json",
+  "secs": 5.84
+ },
+ {
+  "line": 72,
+  "shot": "शॉट ६१",
+  "who": "कैस्टर",
+  "text": "दूध!",
+  "wav": "cutout/audio/line072.wav",
+  "visemes": "cutout/audio/line072.visemes.json",
+  "secs": 3.04
+ },
+ {
+  "line": 73,
+  "shot": "शॉट ६१",
+  "who": "वैस्पर",
+  "text": "दूर!",
+  "wav": "cutout/audio/line073.wav",
+  "visemes": "cutout/audio/line073.visemes.json",
+  "secs": 0.96
+ },
+ {
+  "line": 74,
+  "shot": "शॉट ६२",
+  "who": "लेडा",
+  "text": "दस!",
+  "wav": "cutout/audio/line074.wav",
+  "visemes": "cutout/audio/line074.visemes.json",
+  "secs": 1.2
+ },
+ {
+  "line": 75,
+  "shot": "शॉट ६२",
+  "who": "फ्यूरिया",
+  "text": "दौड़!",
+  "wav": "cutout/audio/line075.wav",
+  "visemes": "cutout/audio/line075.visemes.json",
+  "secs": 1.12
+ },
+ {
+  "line": 76,
+  "shot": "शॉट ६२",
+  "who": "कुकु",
+  "text": "दीया। और दादी।",
+  "wav": "cutout/audio/line076.wav",
+  "visemes": "cutout/audio/line076.visemes.json",
+  "secs": 3.28
+ },
+ {
+  "line": 77,
+  "shot": "शॉट ६३",
+  "who": "दादी",
+  "text": "और दरवाज़ा, जो आज तुम्हारे लिए बंद था और फिर भी तुमने रास्ता बना लिया।",
+  "wav": "cutout/audio/line077.wav",
+  "visemes": "cutout/audio/line077.visemes.json",
+  "secs": 5.44
+ },
+ {
+  "line": 78,
+  "shot": "शॉट ६५",
+  "who": "कुकु",
+  "text": "साँझ ढल गई। अब दीये की बारी है।",
+  "wav": "cutout/audio/line078.wav",
+  "visemes": "cutout/audio/line078.visemes.json",
+  "secs": 2.88
+ },
+ {
+  "line": 79,
+  "shot": "शॉट ६५",
+  "who": "दादी",
+  "text": "जल गया।",
+  "wav": "cutout/audio/line079.wav",
+  "visemes": "cutout/audio/line079.visemes.json",
+  "secs": 4.08
+ }
+]

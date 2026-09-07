@@ -29,15 +29,20 @@ type keyRule = {
   bias: float, /* blue: added to the sum; green: the g−max(r,b) level that is still character */
   width: float, /* the ramp's width */
   erode: int, /* sprite pixels taken off the matte's edge */
+  darkBelow: float, /* 0 = off; else the figure is also required to be darker than this luminance — for a black character drawn on a pale paper mat, which no channel rule can tell from him */
 }
 
 let f = Js.Float.toString
 
-let alphaExpr = r =>
-  switch r.sheet {
-  | BlueSheet => "255*clip((" ++ f(r.rCoef) ++ "*r(X,Y)+0.2*g(X,Y)-b(X,Y)+" ++ f(r.bias) ++ ")/" ++ f(r.width) ++ ",0,1)"
-  | GreenSheet => "255*clip((" ++ f(r.bias) ++ "-(g(X,Y)-max(r(X,Y),b(X,Y))))/" ++ f(r.width) ++ ",0,1)"
+let alphaExpr = r => {
+  let rule = switch r.sheet {
+  | BlueSheet => "(" ++ f(r.rCoef) ++ "*r(X,Y)+0.2*g(X,Y)-b(X,Y)+" ++ f(r.bias) ++ ")/" ++ f(r.width)
+  | GreenSheet => "(" ++ f(r.bias) ++ "-(g(X,Y)-max(r(X,Y),b(X,Y))))/" ++ f(r.width)
   }
+  r.darkBelow > 0.0
+    ? "255*clip(min(" ++ rule ++ ",(" ++ f(r.darkBelow) ++ "-(r(X,Y)+g(X,Y)+b(X,Y))/3)/30),0,1)"
+    : "255*clip(" ++ rule ++ ",0,1)"
+}
 /* No despill. ffmpeg's despill strips the sheet channel from every pixel
    where it exceeds a fraction of the others: on pale blue वैस्पर it took a
    third of the green and turned him lilac. The clamp below is the only colour
