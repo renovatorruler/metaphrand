@@ -1,0 +1,75 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "clip",
+ "id": "s06v_seedance_mini_v2v",
+ "at": "2026-09-07T04:07:22.549Z",
+ "model": "seedance_2_0_mini",
+ "credits": 25,
+ "assetSha256": "2562a0457e2ae0562595c8b309f1794057f56253f11318ed00395fbc7f2bef71",
+ "promptSha256": "59979539e0a568df4ba87f1c48e2a0f1f7bf7a0442686bc1ef12efd518357c89",
+ "rulesSha256": "eb66635e059641526f07bf8c7e29d49ad845923d10a9039509580b15a8b124d0",
+ "prompt": "SCENE: दादी speaks warmly at the lamp niche while कुकु stands and listens and फ्यूरिया watches, exactly as the reference video already shows.\nTHE COMPLETE CAST OF THIS SHOT — exactly these:\n- DADI — दादी stands at the niche and speaks, दादी's mouth opening and closing on the words\n- KUKU — कुकु stands and looks up at दादी with a closed mouth\n- FYURIA — फ्यूरिया stands at the left with a closed mouth and watches दादी\nFIRST FRAME: the provided start image IS frame one — the action begins from exactly this position.\nFORMAT: one single unbroken take.\nBLOCKING:\n- दादी stands at the wall niche on the right, upright, facing कुकु.\n- कुकु stands on the flagstones in the middle of the courtyard, facing दादी.\n- फ्यूरिया stands on the flagstones at the left, facing दादी.\n- The small clay lamp burns in the niche behind दादी.\nACTION TIMING:\n- Every position and every movement follows the reference video frame for frame.\n- दादी's mouth moves on the words exactly when the reference video moves it.\n- कुकु and फ्यूरिया keep watching दादी exactly as the reference video shows.\nCAMERA: The camera follows the reference video exactly.\nPHYSICS:\n- TRAVEL KEEPS ONE DIRECTION: whatever moves may start from rest, speed up or slow down, and its path always continues the same way.\n- motion has real weight\n- the golden कड़ा stays on the same forearm as in the start image\n- Each character moves as one continuous body, with the weight of thick cut paper.\n- दादी's mouth is the only mouth that opens.\nLIGHTING: Evening gold from the left across the courtyard, and the warm small glow of the burning lamp in the niche.\nAUDIO: दादी speaks steadily in a warm elderly voice; a light evening wind moves across the courtyard.\nSTYLE: every frame keeps exactly the cut-paper papercraft look of the start image.\nHARD RULES:\n- THE REFERENCE VIDEO IS THE PERFORMANCE: every position, every movement and every moment of speech follows the reference video frame for frame.\n- THE ATTACHED SHEETS ARE THE CHARACTERS: दादी keeps the build, the colour and the markings of दादी's attached sheet; कुकु keeps the build, the colour and the markings of कुकु's attached sheet; फ्यूरिया keeps the build, the colour and the markings of फ्यूरिया's attached sheet.\n- EVERY SURFACE STAYS CUT PAPER, with soft rounded cut edges, real thickness and visible paper grain, in warm evening light.",
+ "params": [
+  "generate",
+  "create",
+  "seedance_2_0_mini",
+  "--prompt",
+  "SCENE: दादी speaks warmly at the lamp niche while कुकु stands and listens and फ्यूरिया watches, exactly as the reference video already shows.\nTHE COMPLETE CAST OF THIS SHOT — exactly these:\n- DADI — दादी stands at the niche and speaks, दादी's mouth opening and closing on the words\n- KUKU — कुकु stands and looks up at दादी with a closed mouth\n- FYURIA — फ्यूरिया stands at the left with a closed mouth and watches दादी\nFIRST FRAME: the provided start image IS frame one — the action begins from exactly this position.\nFORMAT: one single unbroken take.\nBLOCKING:\n- दादी stands at the wall niche on the right, upright, facing कुकु.\n- कुकु stands on the flagstones in the middle of the courtyard, facing दादी.\n- फ्यूरिया stands on the flagstones at the left, facing दादी.\n- The small clay lamp burns in the niche behind दादी.\nACTION TIMING:\n- Every position and every movement follows the reference video frame for frame.\n- दादी's mouth moves on the words exactly when the reference video moves it.\n- कुकु and फ्यूरिया keep watching दादी exactly as the reference video shows.\nCAMERA: The camera follows the reference video exactly.\nPHYSICS:\n- TRAVEL KEEPS ONE DIRECTION: whatever moves may start from rest, speed up or slow down, and its path always continues the same way.\n- motion has real weight\n- the golden कड़ा stays on the same forearm as in the start image\n- Each character moves as one continuous body, with the weight of thick cut paper.\n- दादी's mouth is the only mouth that opens.\nLIGHTING: Evening gold from the left across the courtyard, and the warm small glow of the burning lamp in the niche.\nAUDIO: दादी speaks steadily in a warm elderly voice; a light evening wind moves across the courtyard.\nSTYLE: every frame keeps exactly the cut-paper papercraft look of the start image.\nHARD RULES:\n- THE REFERENCE VIDEO IS THE PERFORMANCE: every position, every movement and every moment of speech follows the reference video frame for frame.\n- THE ATTACHED SHEETS ARE THE CHARACTERS: दादी keeps the build, the colour and the markings of दादी's attached sheet; कुकु keeps the build, the colour and the markings of कुकु's attached sheet; फ्यूरिया keeps the build, the colour and the markings of फ्यूरिया's attached sheet.\n- EVERY SURFACE STAYS CUT PAPER, with soft rounded cut edges, real thickness and visible paper grain, in warm evening light.",
+  "--image-references",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/ep10_style_key.png",
+  "--image-references",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/sets/courtyard_plate.png",
+  "--image-references",
+  "../stories/kuku/charsheets/dadi.png",
+  "--image-references",
+  "../stories/kuku/charsheets/kuku.png",
+  "--image-references",
+  "../stories/kuku/charsheets/furia.png",
+  "--video-references",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/cutout/out/puppet_lines_008_010_10s.mp4",
+  "--duration",
+  "10",
+  "--resolution",
+  "720p",
+  "--aspect_ratio",
+  "16:9",
+  "--generate_audio",
+  "true",
+  "--bitrate_mode",
+  "high",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/ep10_style_key.png",
+   "role": "style",
+   "sha256": "a9e06bf777c5579e379c1d4ea1954f0e6ba05e45cb326386551a7cbc6f0fefe6"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/sets/courtyard_plate.png",
+   "role": "plate",
+   "sha256": "84246f4cc88c2c00b8368d1fb2a549bfcbef4872c9c2c95f0235e09cd1277f69"
+  },
+  {
+   "path": "../stories/kuku/charsheets/dadi.png",
+   "role": "board",
+   "sha256": "1d9261673ae8dda44b675bce6bbb654142c3c08ef3f791f437e096ea2caa40e3"
+  },
+  {
+   "path": "../stories/kuku/charsheets/kuku.png",
+   "role": "board",
+   "sha256": "1658963cd42d088b74abe31e745cff9577010625a4af5707ebf4d6e609c35447"
+  },
+  {
+   "path": "../stories/kuku/charsheets/furia.png",
+   "role": "board",
+   "sha256": "b87317a837ab53954d61cda1d048964c7abd6f67fd04dd116b3221b0d6b2aa1a"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/cutout/out/puppet_lines_008_010_10s.mp4",
+   "role": "video",
+   "sha256": "51333a5358c328976e012a8a555c45546d1f92f3f4713b33c218dbf1e7f7c6e2"
+  }
+ ]
+}
