@@ -1,0 +1,48 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "still",
+ "id": "sprite_papa_spread",
+ "at": "2026-09-06T23:48:20.157Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "ff8fbd2a1cb03132adcbfa80e92f3cca815abfacf90d4651a6dfe0f9ff8519dd",
+ "promptSha256": "015e51410330e0479eab858d072c9135e7a95fbeff1063d51109b083bad95a75",
+ "rulesSha256": "badb9984251dc0d40358eab3f78a6c9f1c505dc702faa184e1902ee18d179dcf",
+ "prompt": "SHOT: PUPPET SHEET, LANDSCAPE 16:9: one character shown whole and large, straight on, standing on one flat sheet of paper — the same three-dimensional papercraft figure as on its character sheet, every piece with real thickness and a soft shadow on the sheet.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\ncast.ref: image[2] is the locked character design — the authority on build, colour, markings and everything worn; the pose in this picture is the one written in SCENE and drawn in the silhouette\nPOSE: image[1] is a flat silhouette in the character's own colour on the same sheet, showing the pose for this picture — the authority on where every limb goes: head, wings, arms, legs and tail; paint the finished papercraft character exactly over it, limb for limb, with the plain sheet all around.\nSCENE: पापा stands on the flat blue paper facing three quarters to the left, both wings raised high and spread wide open, both arms held straight out from the body with blue paper visible between each arm and the body, legs apart, tail stretched straight out behind with blue paper visible between the tail and the legs, head level, mouth closed.\nsubject[0].name: PAPA\nsubject[0].species: grown paper dragon from the attached sheet, कुकु's father\nsubject[0].colour: sage green, a brown strap across the chest with a small grey radio\nsubject[0].scale: a grown-up: कुकु reaches his knee\nsubject[0].pose: पापा stands facing three quarters to the left with both wings raised high and spread wide open, both arms held straight out from the body, legs apart, tail stretched straight out behind, head level, mouth closed\nsetting.place: one smooth flat sheet of bright blue paper fills the entire background edge to edge, the same even blue everywhere\nlight.state: Evening, warm level light from the left, the same gold as the courtyard plate, soft shadow falling to the right.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE WHOLE BACKGROUND IS THAT ONE FLAT BLUE PAPER SHEET; पापा is the only thing on it.\n- EVERY SURFACE OF पापा IS CUT PAPER: separate pieces with real thickness, soft rounded cut edges and a fine visible paper grain.\n- पापा FILLS THE FRAME: whole body visible from horns to tail tip with clear blue margin on every side.\n- EVERY LIMB STANDS CLEAR: blue paper shows between each wing and the head, between each arm and the body, between the two legs, and between the tail and the legs.\n- पापा'S FACE AND BODY ARE THE SHEET'S: a big heavy grown body, kind heavy-lidded eyes, a wide gentle smile, the brown strap across the chest with the small grey radio, the same sage green paper everywhere else, built as a thick three-dimensional papercraft figure with real depth and soft shadows, the same construction as the character sheet.",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "SHOT: PUPPET SHEET, LANDSCAPE 16:9: one character shown whole and large, straight on, standing on one flat sheet of paper — the same three-dimensional papercraft figure as on its character sheet, every piece with real thickness and a soft shadow on the sheet.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\ncast.ref: image[2] is the locked character design — the authority on build, colour, markings and everything worn; the pose in this picture is the one written in SCENE and drawn in the silhouette\nPOSE: image[1] is a flat silhouette in the character's own colour on the same sheet, showing the pose for this picture — the authority on where every limb goes: head, wings, arms, legs and tail; paint the finished papercraft character exactly over it, limb for limb, with the plain sheet all around.\nSCENE: पापा stands on the flat blue paper facing three quarters to the left, both wings raised high and spread wide open, both arms held straight out from the body with blue paper visible between each arm and the body, legs apart, tail stretched straight out behind with blue paper visible between the tail and the legs, head level, mouth closed.\nsubject[0].name: PAPA\nsubject[0].species: grown paper dragon from the attached sheet, कुकु's father\nsubject[0].colour: sage green, a brown strap across the chest with a small grey radio\nsubject[0].scale: a grown-up: कुकु reaches his knee\nsubject[0].pose: पापा stands facing three quarters to the left with both wings raised high and spread wide open, both arms held straight out from the body, legs apart, tail stretched straight out behind, head level, mouth closed\nsetting.place: one smooth flat sheet of bright blue paper fills the entire background edge to edge, the same even blue everywhere\nlight.state: Evening, warm level light from the left, the same gold as the courtyard plate, soft shadow falling to the right.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE WHOLE BACKGROUND IS THAT ONE FLAT BLUE PAPER SHEET; पापा is the only thing on it.\n- EVERY SURFACE OF पापा IS CUT PAPER: separate pieces with real thickness, soft rounded cut edges and a fine visible paper grain.\n- पापा FILLS THE FRAME: whole body visible from horns to tail tip with clear blue margin on every side.\n- EVERY LIMB STANDS CLEAR: blue paper shows between each wing and the head, between each arm and the body, between the two legs, and between the tail and the legs.\n- पापा'S FACE AND BODY ARE THE SHEET'S: a big heavy grown body, kind heavy-lidded eyes, a wide gentle smile, the brown strap across the chest with the small grey radio, the same sage green paper everywhere else, built as a thick three-dimensional papercraft figure with real depth and soft shadows, the same construction as the character sheet.",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/sheet_blue_material_key.png",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/cutout/sprites/papa_pose_proxy.png",
+  "--image",
+  "../stories/kuku/charsheets/papa.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/sheet_blue_material_key.png",
+   "role": "style",
+   "sha256": "8592f4828aca3dcb70bb0540cfce207e0d3fc46cfbcc6604cee6e511bd0bc779"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/cutout/sprites/papa_pose_proxy.png",
+   "role": "board",
+   "sha256": "643b4d84a3ca03d6e4f118f342ee1523468a6da788fe6c33a5c71f9b467f6b1f"
+  },
+  {
+   "path": "../stories/kuku/charsheets/papa.png",
+   "role": "board",
+   "sha256": "099bcb94bd5024059b79323d41cae42ecc0e7696b5dc3bd54b934ac1cb0d711e"
+  }
+ ]
+}

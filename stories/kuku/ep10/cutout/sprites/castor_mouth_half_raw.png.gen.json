@@ -1,0 +1,34 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "edit",
+ "id": "sprite_castor_mouth_half",
+ "at": "2026-09-06T23:41:52.329Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "d4e4c474d7d9ab927f997bde84a0c1c54f3e3632bdbf28eab7e686eeffcd171a",
+ "promptSha256": "0d1810994b5993aad74c0e05aa89054d1aadf61ed35e8b63fad0c761f1becfbc",
+ "rulesSha256": "badb9984251dc0d40358eab3f78a6c9f1c505dc702faa184e1902ee18d179dcf",
+ "prompt": "TASK: edit the attached image — apply ONLY the change below.\nCHANGE: कैस्टर's mouth slightly open with the paper teeth just showing, as if saying EE\nKEEP:\n- same 3D papercraft medium and layered cut-paper texture\n- same bright vibrant palette and same lighting\n- same character designs, poses and expressions unless the change says otherwise\n- same composition and camera\n- everything else exactly as it is: the same spread pose, the same wings, arms, legs and tail, the same eyes, the same golden कड़ा, the same flat blue background, the same framing\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- only the mouth of कैस्टर changes; the mouth is a clean paper cutout in the same papercraft finish",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "TASK: edit the attached image — apply ONLY the change below.\nCHANGE: कैस्टर's mouth slightly open with the paper teeth just showing, as if saying EE\nKEEP:\n- same 3D papercraft medium and layered cut-paper texture\n- same bright vibrant palette and same lighting\n- same character designs, poses and expressions unless the change says otherwise\n- same composition and camera\n- everything else exactly as it is: the same spread pose, the same wings, arms, legs and tail, the same eyes, the same golden कड़ा, the same flat blue background, the same framing\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- only the mouth of कैस्टर changes; the mouth is a clean paper cutout in the same papercraft finish",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/cutout/sprites/castor_spread_raw.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/cutout/sprites/castor_spread_raw.png",
+   "role": "object",
+   "sha256": "03b38f204ce8a534eb57e893ecb5db353cf9038767caea41d1ca8c32ef814290"
+  }
+ ]
+}

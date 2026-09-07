@@ -108,6 +108,10 @@ function subjectText(s) {
         return "- DADI — the paper grandmother bird from the attached character sheet. " + s.doing;
     case "Cheel" :
         return "- CHEEL — a great paper eagle, sharp-eyed, imposing. " + s.doing;
+    case "Papa" :
+        return "- PAPA — कुकु's father, the big grown paper dragon from the attached character sheet: sage green, a brown strap across the chest with a small grey radio, kind heavy-lidded eyes. " + s.doing;
+    case "Kalu" :
+        return "- KALU — the small black paper puppy from the attached character sheet, long floppy ears, big brown eyes. " + s.doing;
     case "Prop" :
         return "- " + s.what + " — " + s.doing;
     
@@ -126,6 +130,10 @@ function castLine(s) {
         return "- DADI — " + s.doing;
     case "Cheel" :
         return "- CHEEL the eagle — " + s.doing;
+    case "Papa" :
+        return "- PAPA — " + s.doing;
+    case "Kalu" :
+        return "- KALU the puppy — " + s.doing;
     case "Prop" :
         return "- " + s.what + " — " + s.doing;
     
@@ -230,6 +238,54 @@ function subjectFields(i, s) {
           [
             k + ".species",
             "great paper eagle, sharp-eyed, imposing"
+          ],
+          [
+            k + ".pose",
+            s.doing
+          ]
+        ];
+        break;
+    case "Papa" :
+        rows = [
+          [
+            k + ".name",
+            "PAPA"
+          ],
+          [
+            k + ".species",
+            "grown paper dragon from the attached sheet, कुकु's father"
+          ],
+          [
+            k + ".colour",
+            "sage green, a brown strap across the chest with a small grey radio"
+          ],
+          [
+            k + ".scale",
+            "a grown-up: कुकु reaches his knee"
+          ],
+          [
+            k + ".pose",
+            s.doing
+          ]
+        ];
+        break;
+    case "Kalu" :
+        rows = [
+          [
+            k + ".name",
+            "KALU"
+          ],
+          [
+            k + ".species",
+            "small black paper puppy from the attached sheet"
+          ],
+          [
+            k + ".colour",
+            "black, big brown eyes"
+          ],
+          [
+            k + ".scale",
+            "a small puppy, lower than कुकु's knee"
           ],
           [
             k + ".pose",
@@ -396,6 +452,10 @@ function boardOf(s) {
         return kukuRoot + "charsheets/dadi.png";
     case "Cheel" :
         return kukuRoot + "charsheets/cheel.png";
+    case "Papa" :
+        return kukuRoot + "charsheets/papa.png";
+    case "Kalu" :
+        return kukuRoot + "charsheets/kalu.png";
     case "Prop" :
         return ;
     

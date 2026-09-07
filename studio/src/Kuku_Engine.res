@@ -81,6 +81,8 @@ let requireBoards = (subjects: array<P.subject>) =>
           | P.RishiMuni(_) => "RISHI"
           | P.Dadi(_) => "DADI"
           | P.Cheel(_) => "CHEEL"
+          | P.Papa(_) => "PAPA"
+          | P.Kalu(_) => "KALU"
           | P.Prop(_) => "?"
           },
           "generate the sheet first, register it in boardOf, then rerun",

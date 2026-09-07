@@ -231,6 +231,170 @@ let furiaRig: rigSpec<small> = {
   ],
 }
 
+/* ------------------------------------------------------------ लेडा's rig */
+let ledaRig: rigSpec<small> = {
+  sprite: ImagePath(root ++ "cutout/sprites/leda_spread.png"),
+  partsDir: root ++ "cutout/parts/leda/",
+  feet: p(1360.0, 1440.0),
+  patches: [
+    {patch: "open", image: ImagePath(root ++ "cutout/sprites/leda_mouth_open.png"), parent: head, at: p(1050.0, 480.0)},
+    {patch: "round", image: ImagePath(root ++ "cutout/sprites/leda_mouth_round.png"), parent: head, at: p(1050.0, 480.0)},
+    {patch: "half", image: ImagePath(root ++ "cutout/sprites/leda_mouth_half.png"), parent: head, at: p(1050.0, 480.0)},
+  ],
+  parts: [
+    {name: torso, parent: None, pivot: p(1340.0, 930.0), z: 5,
+      outline: [p(1190.0, 640.0), p(1290.0, 620.0), p(1400.0, 660.0), p(1470.0, 760.0), p(1530.0, 900.0), p(1540.0, 1060.0), p(1450.0, 1130.0), p(1410.0, 1200.0), p(1210.0, 1200.0), p(1160.0, 1080.0), p(1150.0, 900.0), p(1175.0, 760.0)]},
+    {name: head, parent: Some(torso), pivot: p(1300.0, 680.0), z: 9,
+      outline: [p(1070.0, 560.0), p(1080.0, 440.0), p(1120.0, 330.0), p(1200.0, 220.0), p(1300.0, 170.0), p(1440.0, 180.0), p(1560.0, 190.0), p(1600.0, 320.0), p(1580.0, 480.0), p(1480.0, 560.0), p(1420.0, 660.0), p(1400.0, 700.0), p(1200.0, 700.0), p(1180.0, 600.0), p(1100.0, 600.0)]},
+    {name: wingNear, parent: Some(torso), pivot: p(1220.0, 640.0), z: 4,
+      outline: [p(1200.0, 220.0), p(1120.0, 330.0), p(1080.0, 440.0), p(1100.0, 600.0), p(1190.0, 650.0), p(1195.0, 775.0), p(900.0, 775.0), p(700.0, 760.0), p(520.0, 540.0), p(500.0, 150.0), p(1000.0, 120.0)]},
+    {name: wingFar, parent: Some(torso), pivot: p(1450.0, 650.0), z: 1,
+      outline: [p(1400.0, 640.0), p(1470.0, 760.0), p(1500.0, 795.0), p(1800.0, 795.0), p(2000.0, 760.0), p(2450.0, 860.0), p(2460.0, 120.0), p(1620.0, 100.0), p(1615.0, 520.0), p(1480.0, 570.0)]},
+    {name: armNear, parent: Some(torso), pivot: p(1180.0, 822.0), z: 8, cap: {radius: Px(40.0), colour: "#c9aee6", edge: "#9a80b8"},
+      outline: [p(1192.0, 768.0), p(840.0, 772.0), p(820.0, 820.0), p(850.0, 872.0), p(1190.0, 875.0)]},
+    {name: armFar, parent: Some(torso), pivot: p(1410.0, 850.0), z: 6, cap: {radius: Px(40.0), colour: "#b89ad8", edge: "#8c6fae"},
+      outline: [p(1395.0, 795.0), p(1800.0, 805.0), p(1830.0, 860.0), p(1800.0, 905.0), p(1425.0, 905.0)]},
+    {name: legNear, parent: Some(torso), pivot: p(1210.0, 1150.0), z: 7,
+      outline: [p(1140.0, 1110.0), p(1260.0, 1100.0), p(1320.0, 1200.0), p(1320.0, 1380.0), p(1340.0, 1450.0), p(1110.0, 1455.0), p(1120.0, 1380.0), p(1150.0, 1300.0), p(1130.0, 1200.0)]},
+    {name: legFar, parent: Some(torso), pivot: p(1500.0, 1100.0), z: 3,
+      outline: [p(1405.0, 1040.0), p(1520.0, 1030.0), p(1600.0, 1100.0), p(1600.0, 1380.0), p(1610.0, 1445.0), p(1395.0, 1445.0), p(1400.0, 1380.0), p(1410.0, 1200.0)]},
+    {name: tail, parent: Some(torso), pivot: p(1600.0, 1080.0), z: 2,
+      outline: [p(1545.0, 960.0), p(1700.0, 930.0), p(2420.0, 1000.0), p(2430.0, 1080.0), p(2100.0, 1200.0), p(1650.0, 1200.0), p(1610.0, 1130.0), p(1560.0, 1060.0)]},
+  ],
+}
+
+/* ---------------------------------------------------------- कैस्टर's rig */
+let castorRig: rigSpec<small> = {
+  sprite: ImagePath(root ++ "cutout/sprites/castor_spread.png"),
+  partsDir: root ++ "cutout/parts/castor/",
+  feet: p(1300.0, 1370.0),
+  patches: [
+    {patch: "open", image: ImagePath(root ++ "cutout/sprites/castor_mouth_open.png"), parent: head, at: p(1040.0, 470.0)},
+    {patch: "round", image: ImagePath(root ++ "cutout/sprites/castor_mouth_round.png"), parent: head, at: p(1040.0, 470.0)},
+    {patch: "half", image: ImagePath(root ++ "cutout/sprites/castor_mouth_half.png"), parent: head, at: p(1040.0, 470.0)},
+  ],
+  parts: [
+    {name: torso, parent: None, pivot: p(1330.0, 940.0), z: 5,
+      outline: [p(1180.0, 660.0), p(1290.0, 640.0), p(1400.0, 670.0), p(1470.0, 760.0), p(1530.0, 900.0), p(1540.0, 1040.0), p(1450.0, 1100.0), p(1420.0, 1200.0), p(1140.0, 1200.0), p(1120.0, 1050.0), p(1110.0, 880.0), p(1150.0, 760.0)]},
+    {name: head, parent: Some(torso), pivot: p(1290.0, 680.0), z: 9,
+      outline: [p(1030.0, 520.0), p(1040.0, 400.0), p(1090.0, 280.0), p(1180.0, 190.0), p(1300.0, 160.0), p(1460.0, 170.0), p(1560.0, 260.0), p(1580.0, 420.0), p(1520.0, 560.0), p(1420.0, 660.0), p(1400.0, 700.0), p(1200.0, 700.0), p(1170.0, 600.0), p(1060.0, 600.0)]},
+    {name: wingNear, parent: Some(torso), pivot: p(1190.0, 650.0), z: 4,
+      outline: [p(1180.0, 190.0), p(1090.0, 280.0), p(1040.0, 400.0), p(1030.0, 520.0), p(1060.0, 600.0), p(1170.0, 610.0), p(1190.0, 690.0), p(880.0, 690.0), p(700.0, 600.0), p(620.0, 300.0), p(640.0, 120.0), p(1000.0, 110.0)]},
+    {name: wingFar, parent: Some(torso), pivot: p(1450.0, 660.0), z: 1,
+      outline: [p(1400.0, 640.0), p(1470.0, 760.0), p(1500.0, 780.0), p(1800.0, 760.0), p(2000.0, 720.0), p(2280.0, 700.0), p(2260.0, 120.0), p(1600.0, 110.0), p(1580.0, 300.0), p(1520.0, 560.0)]},
+    {name: armNear, parent: Some(torso), pivot: p(1180.0, 757.0), z: 8, cap: {radius: Px(42.0), colour: "#e7b95a", edge: "#b8862e"},
+      outline: [p(1192.0, 700.0), p(900.0, 705.0), p(880.0, 750.0), p(900.0, 810.0), p(1190.0, 815.0)]},
+    {name: armFar, parent: Some(torso), pivot: p(1410.0, 790.0), z: 6, cap: {radius: Px(42.0), colour: "#d9a94a", edge: "#a67a28"},
+      outline: [p(1395.0, 728.0), p(1800.0, 740.0), p(1830.0, 800.0), p(1800.0, 855.0), p(1425.0, 850.0)]},
+    {name: legNear, parent: Some(torso), pivot: p(1130.0, 1120.0), z: 7,
+      outline: [p(1060.0, 1070.0), p(1200.0, 1060.0), p(1230.0, 1160.0), p(1225.0, 1300.0), p(1245.0, 1365.0), p(1035.0, 1370.0), p(1040.0, 1290.0), p(1070.0, 1200.0)]},
+    {name: legFar, parent: Some(torso), pivot: p(1440.0, 1060.0), z: 3,
+      outline: [p(1360.0, 990.0), p(1500.0, 980.0), p(1540.0, 1100.0), p(1530.0, 1320.0), p(1530.0, 1385.0), p(1330.0, 1385.0), p(1340.0, 1320.0), p(1355.0, 1200.0)]},
+    {name: tail, parent: Some(torso), pivot: p(1560.0, 960.0), z: 2,
+      outline: [p(1500.0, 890.0), p(1700.0, 880.0), p(2270.0, 920.0), p(2280.0, 1010.0), p(2000.0, 1050.0), p(1600.0, 1040.0), p(1545.0, 1000.0)]},
+  ],
+}
+
+/* ---------------------------------------------------------- वैस्पर's rig */
+let vesperRig: rigSpec<small> = {
+  sprite: ImagePath(root ++ "cutout/sprites/vesper_spread.png"),
+  partsDir: root ++ "cutout/parts/vesper/",
+  feet: p(1330.0, 1440.0),
+  patches: [
+    {patch: "open", image: ImagePath(root ++ "cutout/sprites/vesper_mouth_open.png"), parent: head, at: p(1060.0, 550.0)},
+    {patch: "round", image: ImagePath(root ++ "cutout/sprites/vesper_mouth_round.png"), parent: head, at: p(1060.0, 550.0)},
+    {patch: "half", image: ImagePath(root ++ "cutout/sprites/vesper_mouth_half.png"), parent: head, at: p(1060.0, 550.0)},
+  ],
+  parts: [
+    {name: torso, parent: None, pivot: p(1330.0, 990.0), z: 5,
+      outline: [p(1180.0, 720.0), p(1290.0, 700.0), p(1400.0, 730.0), p(1470.0, 820.0), p(1530.0, 960.0), p(1540.0, 1100.0), p(1450.0, 1160.0), p(1420.0, 1240.0), p(1150.0, 1240.0), p(1120.0, 1100.0), p(1120.0, 940.0), p(1160.0, 830.0)]},
+    {name: head, parent: Some(torso), pivot: p(1290.0, 740.0), z: 9,
+      outline: [p(1070.0, 600.0), p(1080.0, 480.0), p(1120.0, 360.0), p(1220.0, 270.0), p(1340.0, 250.0), p(1500.0, 270.0), p(1560.0, 380.0), p(1560.0, 520.0), p(1500.0, 620.0), p(1420.0, 720.0), p(1400.0, 760.0), p(1200.0, 760.0), p(1180.0, 660.0), p(1090.0, 650.0)]},
+    {name: wingNear, parent: Some(torso), pivot: p(1200.0, 720.0), z: 4,
+      outline: [p(1220.0, 270.0), p(1120.0, 360.0), p(1080.0, 480.0), p(1070.0, 600.0), p(1090.0, 650.0), p(1180.0, 700.0), p(1195.0, 785.0), p(900.0, 785.0), p(700.0, 760.0), p(420.0, 560.0), p(400.0, 150.0), p(1000.0, 100.0)]},
+    {name: wingFar, parent: Some(torso), pivot: p(1460.0, 730.0), z: 1,
+      outline: [p(1400.0, 720.0), p(1470.0, 820.0), p(1500.0, 800.0), p(1800.0, 800.0), p(2000.0, 760.0), p(2420.0, 820.0), p(2420.0, 80.0), p(1580.0, 60.0), p(1560.0, 380.0), p(1500.0, 620.0)]},
+    {name: armNear, parent: Some(torso), pivot: p(1180.0, 833.0), z: 8, cap: {radius: Px(40.0), colour: "#a9d3ea", edge: "#6f9db8"},
+      outline: [p(1192.0, 788.0), p(830.0, 792.0), p(810.0, 830.0), p(830.0, 875.0), p(1190.0, 880.0)]},
+    {name: armFar, parent: Some(torso), pivot: p(1410.0, 852.0), z: 6, cap: {radius: Px(40.0), colour: "#94c2de", edge: "#5f8aa6"},
+      outline: [p(1395.0, 800.0), p(1800.0, 810.0), p(1830.0, 860.0), p(1800.0, 905.0), p(1425.0, 905.0)]},
+    {name: legNear, parent: Some(torso), pivot: p(1170.0, 1160.0), z: 7,
+      outline: [p(1090.0, 1110.0), p(1240.0, 1100.0), p(1260.0, 1200.0), p(1260.0, 1360.0), p(1270.0, 1445.0), p(1050.0, 1445.0), p(1060.0, 1360.0), p(1080.0, 1200.0)]},
+    {name: legFar, parent: Some(torso), pivot: p(1470.0, 1090.0), z: 3,
+      outline: [p(1380.0, 1030.0), p(1540.0, 1020.0), p(1570.0, 1120.0), p(1560.0, 1360.0), p(1570.0, 1445.0), p(1370.0, 1445.0), p(1380.0, 1360.0), p(1385.0, 1200.0)]},
+    {name: tail, parent: Some(torso), pivot: p(1590.0, 1220.0), z: 2,
+      outline: [p(1520.0, 1120.0), p(1700.0, 1100.0), p(2130.0, 1250.0), p(2120.0, 1330.0), p(1900.0, 1370.0), p(1620.0, 1350.0), p(1580.0, 1300.0), p(1545.0, 1220.0)]},
+  ],
+}
+
+/* ------------------------------------------------------------ पापा's rig */
+let papaRig: rigSpec<small> = {
+  sprite: ImagePath(root ++ "cutout/sprites/papa_spread.png"),
+  partsDir: root ++ "cutout/parts/papa/",
+  feet: p(1280.0, 1380.0),
+  patches: [
+    {patch: "open", image: ImagePath(root ++ "cutout/sprites/papa_mouth_open.png"), parent: head, at: p(1090.0, 440.0)},
+    {patch: "round", image: ImagePath(root ++ "cutout/sprites/papa_mouth_round.png"), parent: head, at: p(1090.0, 440.0)},
+    {patch: "half", image: ImagePath(root ++ "cutout/sprites/papa_mouth_half.png"), parent: head, at: p(1090.0, 440.0)},
+  ],
+  parts: [
+    {name: torso, parent: None, pivot: p(1320.0, 1000.0), z: 5,
+      outline: [p(1190.0, 700.0), p(1300.0, 680.0), p(1400.0, 700.0), p(1470.0, 780.0), p(1530.0, 900.0), p(1540.0, 1080.0), p(1480.0, 1150.0), p(1450.0, 1240.0), p(1120.0, 1240.0), p(1100.0, 1100.0), p(1100.0, 900.0), p(1150.0, 780.0)]},
+    {name: head, parent: Some(torso), pivot: p(1290.0, 720.0), z: 9,
+      outline: [p(1100.0, 520.0), p(1110.0, 420.0), p(1150.0, 350.0), p(1240.0, 320.0), p(1360.0, 330.0), p(1420.0, 400.0), p(1420.0, 520.0), p(1380.0, 600.0), p(1370.0, 740.0), p(1200.0, 740.0), p(1190.0, 600.0), p(1130.0, 580.0)]},
+    {name: wingNear, parent: Some(torso), pivot: p(1200.0, 690.0), z: 4,
+      outline: [p(1240.0, 320.0), p(1150.0, 350.0), p(1110.0, 420.0), p(1100.0, 520.0), p(1130.0, 580.0), p(1190.0, 650.0), p(1195.0, 705.0), p(900.0, 705.0), p(700.0, 700.0), p(480.0, 560.0), p(470.0, 170.0), p(1000.0, 150.0)]},
+    {name: wingFar, parent: Some(torso), pivot: p(1450.0, 700.0), z: 1,
+      outline: [p(1400.0, 700.0), p(1470.0, 780.0), p(1500.0, 760.0), p(1760.0, 715.0), p(2000.0, 700.0), p(2400.0, 780.0), p(2410.0, 110.0), p(1500.0, 100.0), p(1430.0, 400.0), p(1420.0, 600.0)]},
+    {name: armNear, parent: Some(torso), pivot: p(1180.0, 758.0), z: 8, cap: {radius: Px(36.0), colour: "#8fb08a", edge: "#5f7f5c"},
+      outline: [p(1192.0, 708.0), p(880.0, 712.0), p(860.0, 755.0), p(880.0, 805.0), p(1190.0, 808.0)]},
+    {name: armFar, parent: Some(torso), pivot: p(1410.0, 762.0), z: 6, cap: {radius: Px(36.0), colour: "#7fa07a", edge: "#55704f"},
+      outline: [p(1395.0, 718.0), p(1760.0, 725.0), p(1790.0, 760.0), p(1760.0, 805.0), p(1425.0, 805.0)]},
+    {name: legNear, parent: Some(torso), pivot: p(1180.0, 1180.0), z: 7,
+      outline: [p(1080.0, 1130.0), p(1240.0, 1120.0), p(1290.0, 1220.0), p(1290.0, 1330.0), p(1300.0, 1385.0), p(1060.0, 1390.0), p(1070.0, 1320.0), p(1090.0, 1220.0)]},
+    {name: legFar, parent: Some(torso), pivot: p(1400.0, 1160.0), z: 3,
+      outline: [p(1320.0, 1110.0), p(1460.0, 1100.0), p(1490.0, 1200.0), p(1480.0, 1330.0), p(1490.0, 1385.0), p(1310.0, 1390.0), p(1320.0, 1320.0), p(1325.0, 1200.0)]},
+    {name: tail, parent: Some(torso), pivot: p(1530.0, 1000.0), z: 2,
+      outline: [p(1480.0, 920.0), p(1700.0, 900.0), p(2070.0, 960.0), p(2070.0, 1060.0), p(1800.0, 1090.0), p(1560.0, 1080.0), p(1500.0, 1040.0)]},
+  ],
+}
+
+/* ------------------------------------------------------------ कालू's rig */
+/* A quadruped in side view: body, head, the hanging ear in front of the head,
+   four legs (the far pair behind the body), the tail. He has no lines. */
+let dBodyDog = PartName("body")
+let dHeadDog = PartName("head")
+let dEar = PartName("ear")
+let legFN = PartName("legFrontNear")
+let legFF = PartName("legFrontFar")
+let legHN = PartName("legHindNear")
+let legHF = PartName("legHindFar")
+let dTail = PartName("tail")
+let kaluRig: rigSpec<small> = {
+  sprite: ImagePath(root ++ "cutout/sprites/kalu_side.png"),
+  partsDir: root ++ "cutout/parts/kalu/",
+  feet: p(1450.0, 1300.0),
+  patches: [],
+  parts: [
+    {name: dBodyDog, parent: None, pivot: p(1450.0, 800.0), z: 4,
+      outline: [p(1000.0, 620.0), p(1200.0, 560.0), p(1500.0, 560.0), p(1800.0, 620.0), p(1850.0, 800.0), p(1800.0, 980.0), p(1700.0, 1000.0), p(1500.0, 960.0), p(1300.0, 960.0), p(1100.0, 1000.0), p(1020.0, 900.0)]},
+    {name: dHeadDog, parent: Some(dBodyDog), pivot: p(1080.0, 620.0), z: 7,
+      outline: [p(700.0, 520.0), p(760.0, 380.0), p(880.0, 270.0), p(1050.0, 240.0), p(1200.0, 300.0), p(1240.0, 400.0), p(1120.0, 480.0), p(1120.0, 640.0), p(1000.0, 700.0), p(900.0, 660.0), p(720.0, 640.0)]},
+    {name: dEar, parent: Some(dHeadDog), pivot: p(1200.0, 360.0), z: 8,
+      outline: [p(1130.0, 330.0), p(1260.0, 330.0), p(1360.0, 500.0), p(1340.0, 740.0), p(1220.0, 760.0), p(1120.0, 640.0), p(1100.0, 480.0)]},
+    {name: legFN, parent: Some(dBodyDog), pivot: p(1120.0, 960.0), z: 6,
+      outline: [p(1040.0, 930.0), p(1200.0, 930.0), p(1220.0, 1080.0), p(1230.0, 1250.0), p(1260.0, 1310.0), p(1040.0, 1310.0), p(1050.0, 1250.0), p(1030.0, 1080.0)]},
+    {name: legFF, parent: Some(dBodyDog), pivot: p(1270.0, 960.0), z: 1,
+      outline: [p(1180.0, 930.0), p(1360.0, 930.0), p(1370.0, 1080.0), p(1360.0, 1250.0), p(1380.0, 1310.0), p(1200.0, 1310.0), p(1210.0, 1250.0), p(1190.0, 1080.0)]},
+    {name: legHN, parent: Some(dBodyDog), pivot: p(1600.0, 960.0), z: 5,
+      outline: [p(1520.0, 930.0), p(1680.0, 930.0), p(1700.0, 1080.0), p(1690.0, 1250.0), p(1720.0, 1310.0), p(1500.0, 1310.0), p(1510.0, 1250.0), p(1510.0, 1080.0)]},
+    {name: legHF, parent: Some(dBodyDog), pivot: p(1790.0, 960.0), z: 2,
+      outline: [p(1680.0, 930.0), p(1880.0, 920.0), p(1890.0, 1080.0), p(1870.0, 1250.0), p(1900.0, 1310.0), p(1700.0, 1310.0), p(1710.0, 1250.0), p(1690.0, 1080.0)]},
+    {name: dTail, parent: Some(dBodyDog), pivot: p(1780.0, 660.0), z: 3,
+      outline: [p(1740.0, 660.0), p(1760.0, 380.0), p(1950.0, 370.0), p(1960.0, 660.0), p(1860.0, 700.0)]},
+  ],
+}
+
 /* a state with every part at rest, placed by where the feet are on the stage */
 let standing = (~feetX, ~feetY, ~size) => stand(kukuRig, ~feetX, ~feetY, ~size, ())
 
@@ -256,6 +420,12 @@ let canonical = [
   (armFar, turn(restArmFar)),
 ]
 let posedCanonical = (st, poses) => posed(st, Js.Array2.concat(canonical, poses))
+/* her sheet holds one small wing folded back: rest keeps the wings low */
+let ledaCanonical = [(wingNear, wingAt(-40.0, 0.55)), (wingFar, wingAt(10.0, 0.55)), (armNear, turn(-66.0)), (armFar, turn(70.0))]
+let castorCanonical = [(wingNear, wingAt(-45.0, 0.6)), (wingFar, wingAt(12.0, 0.6)), (armNear, turn(-66.0)), (armFar, turn(70.0))]
+let vesperCanonical = [(wingNear, wingAt(-50.0, 0.55)), (wingFar, wingAt(15.0, 0.55)), (armNear, turn(-66.0)), (armFar, turn(70.0))]
+let papaCanonical = [(wingNear, wingAt(-45.0, 0.55)), (wingFar, wingAt(12.0, 0.55)), (armNear, turn(-70.0)), (armFar, turn(72.0))]
+
 
 /* ---------------------------------------------------------------- checks */
 let stageW = 1280
@@ -740,8 +910,18 @@ let () =
       ignore(cut(kukuRig))
       ignore(cut(dadiRig))
       ignore(cut(furiaRig))
+      ignore(cut(ledaRig))
+      ignore(cut(castorRig))
+      ignore(cut(vesperRig))
+      ignore(cut(papaRig))
+      ignore(cut(kaluRig))
     }
   | Some("checkfuria") => ignore(checkRig(furiaRig, "furia"))
+  | Some("checkleda") => ignore(checkRig(ledaRig, "leda"))
+  | Some("checkcastor") => ignore(checkRig(castorRig, "castor"))
+  | Some("checkvesper") => ignore(checkRig(vesperRig, "vesper"))
+  | Some("checkpapa") => ignore(checkRig(papaRig, "papa"))
+  | Some("checkkalu") => ignore(checkRig(kaluRig, "kalu"))
   | Some("talk") => ignore(talk())
   | Some("talkkuku") => ignore(talkKuku())
   | Some("talk3") => ignore(talk3())

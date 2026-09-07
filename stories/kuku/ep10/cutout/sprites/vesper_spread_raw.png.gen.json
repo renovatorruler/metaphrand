@@ -1,0 +1,48 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "still",
+ "id": "sprite_vesper_spread",
+ "at": "2026-09-06T23:42:51.868Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "38e8b47e709f8d352d82ffdccf81a3955e9fc2459b93502ac5b093ac1ca4d1e2",
+ "promptSha256": "8eb115a5c3108e8bb46b5b27d7e9e1f6831762207c73d79931e8a7ed6acaeeb0",
+ "rulesSha256": "badb9984251dc0d40358eab3f78a6c9f1c505dc702faa184e1902ee18d179dcf",
+ "prompt": "SHOT: PUPPET SHEET, LANDSCAPE 16:9: one character shown whole and large, straight on, standing on one flat sheet of paper — the same three-dimensional papercraft figure as on its character sheet, every piece with real thickness and a soft shadow on the sheet.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\ncast.ref: image[2] is the locked character design — the authority on build, colour, markings and everything worn; the pose in this picture is the one written in SCENE and drawn in the silhouette\nPOSE: image[1] is a flat silhouette in the character's own colour on the same sheet, showing the pose for this picture — the authority on where every limb goes: head, wings, arms, legs and tail; paint the finished papercraft character exactly over it, limb for limb, with the plain sheet all around.\nSCENE: वैस्पर stands on the flat green paper facing three quarters to the left, both wings raised high and spread wide open, both arms held straight out from the body with green paper visible between each arm and the body, legs apart, tail stretched straight out behind with green paper visible between the tail and the legs, head level, mouth closed.\nsubject[0].name: VESPER\nsubject[0].species: paper dragon child\nsubject[0].colour: pale blue\nsubject[0].scale: knee high to a grown-up, the height of a human child\nsubject[0].pose: वैस्पर stands facing three quarters to the left with both wings raised high and spread wide open, both arms held straight out from the body, legs apart, tail stretched straight out behind, head level, mouth closed\nsetting.place: one smooth flat sheet of bright green paper fills the entire background edge to edge, the same even green everywhere\nlight.state: Evening, warm level light from the left, the same gold as the courtyard plate, soft shadow falling to the right.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE WHOLE BACKGROUND IS THAT ONE FLAT GREEN PAPER SHEET; वैस्पर is the only thing on it.\n- EVERY SURFACE OF वैस्पर IS CUT PAPER: separate pieces with real thickness, soft rounded cut edges and a fine visible paper grain.\n- वैस्पर FILLS THE FRAME: whole body visible from horns to tail tip with clear green margin on every side.\n- EVERY LIMB STANDS CLEAR: green paper shows between each wing and the head, between each arm and the body, between the two legs, and between the tail and the legs.\n- वैस्पर'S FACE AND BODY ARE THE SHEET'S: heavy sleepy eyelids over dark blue eyes, cream horns, the calm small smile, a cream belly of stacked paper plates, the golden कड़ा on one forearm, the same pale blue paper everywhere else.",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "SHOT: PUPPET SHEET, LANDSCAPE 16:9: one character shown whole and large, straight on, standing on one flat sheet of paper — the same three-dimensional papercraft figure as on its character sheet, every piece with real thickness and a soft shadow on the sheet.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\ncast.ref: image[2] is the locked character design — the authority on build, colour, markings and everything worn; the pose in this picture is the one written in SCENE and drawn in the silhouette\nPOSE: image[1] is a flat silhouette in the character's own colour on the same sheet, showing the pose for this picture — the authority on where every limb goes: head, wings, arms, legs and tail; paint the finished papercraft character exactly over it, limb for limb, with the plain sheet all around.\nSCENE: वैस्पर stands on the flat green paper facing three quarters to the left, both wings raised high and spread wide open, both arms held straight out from the body with green paper visible between each arm and the body, legs apart, tail stretched straight out behind with green paper visible between the tail and the legs, head level, mouth closed.\nsubject[0].name: VESPER\nsubject[0].species: paper dragon child\nsubject[0].colour: pale blue\nsubject[0].scale: knee high to a grown-up, the height of a human child\nsubject[0].pose: वैस्पर stands facing three quarters to the left with both wings raised high and spread wide open, both arms held straight out from the body, legs apart, tail stretched straight out behind, head level, mouth closed\nsetting.place: one smooth flat sheet of bright green paper fills the entire background edge to edge, the same even green everywhere\nlight.state: Evening, warm level light from the left, the same gold as the courtyard plate, soft shadow falling to the right.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE WHOLE BACKGROUND IS THAT ONE FLAT GREEN PAPER SHEET; वैस्पर is the only thing on it.\n- EVERY SURFACE OF वैस्पर IS CUT PAPER: separate pieces with real thickness, soft rounded cut edges and a fine visible paper grain.\n- वैस्पर FILLS THE FRAME: whole body visible from horns to tail tip with clear green margin on every side.\n- EVERY LIMB STANDS CLEAR: green paper shows between each wing and the head, between each arm and the body, between the two legs, and between the tail and the legs.\n- वैस्पर'S FACE AND BODY ARE THE SHEET'S: heavy sleepy eyelids over dark blue eyes, cream horns, the calm small smile, a cream belly of stacked paper plates, the golden कड़ा on one forearm, the same pale blue paper everywhere else.",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/sheet_green_material_key.png",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/cutout/sprites/vesper_pose_proxy.png",
+  "--image",
+  "../stories/kuku/charsheets/vesper_small.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/sheet_green_material_key.png",
+   "role": "style",
+   "sha256": "1831c41e63b89d3af6802fcea93678a10782e2a31c7e954942ad67fc316dc62b"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/cutout/sprites/vesper_pose_proxy.png",
+   "role": "board",
+   "sha256": "fa748cbc0a5df5768750d9e4d857522297232342df8fc064f9093a91e3f75991"
+  },
+  {
+   "path": "../stories/kuku/charsheets/vesper_small.png",
+   "role": "board",
+   "sha256": "f1f06dec9e2d203ab3a84580fa0ebe06c51a297d94e21a17c50644cbaff335bc"
+  }
+ ]
+}

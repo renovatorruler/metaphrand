@@ -1,0 +1,34 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "edit",
+ "id": "sprite_papa_mouth_open",
+ "at": "2026-09-06T23:57:53.143Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "dbec88e115692917f5ab8c1f82e54d331ab12da6d4406b7747a40e29c82fd8dd",
+ "promptSha256": "159bc5e4f4be07f7464517150cc90eeaaf49b0355d94d1137460f8318ba996c3",
+ "rulesSha256": "badb9984251dc0d40358eab3f78a6c9f1c505dc702faa184e1902ee18d179dcf",
+ "prompt": "TASK: edit the attached image — apply ONLY the change below.\nCHANGE: पापा's mouth open wide in a tall oval, as if saying a long AA sound\nKEEP:\n- same 3D papercraft medium and layered cut-paper texture\n- same bright vibrant palette and same lighting\n- same character designs, poses and expressions unless the change says otherwise\n- same composition and camera\n- everything else exactly as it is: the same spread pose, the same wings, arms, legs and tail, the same sleepy eyes, the same strap and radio, the same flat blue background, the same framing\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- only the mouth of पापा changes; the mouth is a clean paper cutout in the same papercraft finish",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "TASK: edit the attached image — apply ONLY the change below.\nCHANGE: पापा's mouth open wide in a tall oval, as if saying a long AA sound\nKEEP:\n- same 3D papercraft medium and layered cut-paper texture\n- same bright vibrant palette and same lighting\n- same character designs, poses and expressions unless the change says otherwise\n- same composition and camera\n- everything else exactly as it is: the same spread pose, the same wings, arms, legs and tail, the same sleepy eyes, the same strap and radio, the same flat blue background, the same framing\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- only the mouth of पापा changes; the mouth is a clean paper cutout in the same papercraft finish",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/cutout/sprites/papa_spread_raw.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/cutout/sprites/papa_spread_raw.png",
+   "role": "object",
+   "sha256": "ff8fbd2a1cb03132adcbfa80e92f3cca815abfacf90d4651a6dfe0f9ff8519dd"
+  }
+ ]
+}

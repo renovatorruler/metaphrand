@@ -704,6 +704,12 @@ if (args.length > 0 && Caml_array.get(args, 0) === "audit") {
                 case "Cheel" :
                     tmp = "CHEEL";
                     break;
+                case "Papa" :
+                    tmp = "PAPA";
+                    break;
+                case "Kalu" :
+                    tmp = "KALU";
+                    break;
                 case "Prop" :
                     tmp = "?";
                     break;

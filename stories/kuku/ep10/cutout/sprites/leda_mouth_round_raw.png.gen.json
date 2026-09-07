@@ -1,0 +1,34 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "edit",
+ "id": "sprite_leda_mouth_round",
+ "at": "2026-09-06T23:36:15.050Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "934a29326e1dd4c7c399520dc5354fe1ddf57b8fd0b46b950091fecc75d572a3",
+ "promptSha256": "dc94698ac1829d1bc996aad53ef11fd7b316b7d7fe1353480484ed2bcf2ebd9c",
+ "rulesSha256": "badb9984251dc0d40358eab3f78a6c9f1c505dc702faa184e1902ee18d179dcf",
+ "prompt": "TASK: edit the attached image — apply ONLY the change below.\nCHANGE: लेडा's mouth pursed small and round, as if saying OO\nKEEP:\n- same 3D papercraft medium and layered cut-paper texture\n- same bright vibrant palette and same lighting\n- same character designs, poses and expressions unless the change says otherwise\n- same composition and camera\n- everything else exactly as it is: the same spread pose, the same wings, arms, legs and tail, the same eyes, the same golden कड़ा, the same flat green background, the same framing\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- only the mouth of लेडा changes; the mouth is a clean paper cutout in the same papercraft finish",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "TASK: edit the attached image — apply ONLY the change below.\nCHANGE: लेडा's mouth pursed small and round, as if saying OO\nKEEP:\n- same 3D papercraft medium and layered cut-paper texture\n- same bright vibrant palette and same lighting\n- same character designs, poses and expressions unless the change says otherwise\n- same composition and camera\n- everything else exactly as it is: the same spread pose, the same wings, arms, legs and tail, the same eyes, the same golden कड़ा, the same flat green background, the same framing\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- only the mouth of लेडा changes; the mouth is a clean paper cutout in the same papercraft finish",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/cutout/sprites/leda_spread_raw.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/cutout/sprites/leda_spread_raw.png",
+   "role": "object",
+   "sha256": "1a38652f801cb750785989d635e4a245b728e5e93a89e60c8ee6ac944b83124b"
+  }
+ ]
+}

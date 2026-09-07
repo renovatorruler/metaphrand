@@ -73,6 +73,9 @@ type gradient
 @send external createRadialGradient: (ctx, float, float, float, float, float, float) => gradient = "createRadialGradient"
 @send external addColorStop: (gradient, float, string) => unit = "addColorStop"
 @set external setFillGradient: (ctx, gradient) => unit = "fillStyle"
+type imageData
+@send external getImageData: (ctx, float, float, float, float) => imageData = "getImageData"
+@get external imageDataBytes: imageData => Js.TypedArray2.Uint8ClampedArray.t = "data"
 
 @module("fs") external readFileBuffer: string => buffer = "readFileSync"
 @module("fs") external writeFileBuffer: (string, buffer) => unit = "writeFileSync"

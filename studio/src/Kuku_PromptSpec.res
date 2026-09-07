@@ -17,6 +17,8 @@ type subject =
   | RishiMuni({doing: string})
   | Dadi({doing: string})
   | Cheel({doing: string})
+  | Papa({doing: string}) /* कुकु's father: the big sage-green dragon with the radio strap */
+  | Kalu({doing: string}) /* the black paper puppy */
   | Prop({what: string, doing: string}) // a non-character subject with a locked canonical description
 
 type shot =
@@ -149,6 +151,10 @@ let subjectText = s =>
     "- DADI — the paper grandmother bird from the attached character sheet. " ++ doing
   | Cheel({doing}) =>
     "- CHEEL — a great paper eagle, sharp-eyed, imposing. " ++ doing
+  | Papa({doing}) =>
+    "- PAPA — कुकु's father, the big grown paper dragon from the attached character sheet: sage green, a brown strap across the chest with a small grey radio, kind heavy-lidded eyes. " ++ doing
+  | Kalu({doing}) =>
+    "- KALU — the small black paper puppy from the attached character sheet, long floppy ears, big brown eyes. " ++ doing
   | Prop({what, doing}) => "- " ++ what ++ " — " ++ doing
   }
 
@@ -162,6 +168,8 @@ let castLine = s =>
   | RishiMuni({doing}) => "- RISHI — " ++ doing
   | Dadi({doing}) => "- DADI — " ++ doing
   | Cheel({doing}) => "- CHEEL the eagle — " ++ doing
+  | Papa({doing}) => "- PAPA — " ++ doing
+  | Kalu({doing}) => "- KALU the puppy — " ++ doing
   | Prop({what, doing}) => "- " ++ what ++ " — " ++ doing
   }
 
@@ -220,6 +228,20 @@ let subjectFields = (i, s) => {
   | Cheel({doing}) => [
       (k ++ ".name", "CHEEL"),
       (k ++ ".species", "great paper eagle, sharp-eyed, imposing"),
+      (k ++ ".pose", doing),
+    ]
+  | Papa({doing}) => [
+      (k ++ ".name", "PAPA"),
+      (k ++ ".species", "grown paper dragon from the attached sheet, कुकु's father"),
+      (k ++ ".colour", "sage green, a brown strap across the chest with a small grey radio"),
+      (k ++ ".scale", "a grown-up: कुकु reaches his knee"),
+      (k ++ ".pose", doing),
+    ]
+  | Kalu({doing}) => [
+      (k ++ ".name", "KALU"),
+      (k ++ ".species", "small black paper puppy from the attached sheet"),
+      (k ++ ".colour", "black, big brown eyes"),
+      (k ++ ".scale", "a small puppy, lower than कुकु's knee"),
       (k ++ ".pose", doing),
     ]
   | Prop({what, doing}) => [(k ++ ".name", what), (k ++ ".state", doing)]
@@ -389,6 +411,8 @@ let boardOf = s =>
     }
   | RishiMuni(_) => Some(kukuRoot ++ "charsheets/rishi.png")
   | Cheel(_) => Some(kukuRoot ++ "charsheets/cheel.png")
+  | Papa(_) => Some(kukuRoot ++ "charsheets/papa.png")
+  | Kalu(_) => Some(kukuRoot ++ "charsheets/kalu.png")
   | Dadi(_) => Some(kukuRoot ++ "charsheets/dadi.png")
   | Gauri(_) => Some(kukuRoot ++ "charsheets/gauri.png")
   | Prop(_) => None
