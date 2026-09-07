@@ -709,5 +709,14 @@
   "wav": "cutout/audio/line079.wav",
   "visemes": "cutout/audio/line079.visemes.json",
   "secs": 4.08
+ },
+ {
+  "line": 80,
+  "shot": "शॉट ३१",
+  "who": "पापा",
+  "text": "कोई है? मुझे कुछ दिख नहीं रहा!",
+  "wav": "cutout/audio/line080.wav",
+  "visemes": "cutout/audio/line080.visemes.json",
+  "secs": 3.04
  }
 ]
