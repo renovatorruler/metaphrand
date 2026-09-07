@@ -504,7 +504,9 @@ let clip = (~episode="EP10", ~id, ~spec: P.videoSpec, ~model, ~secs, ~start: sta
        without any — the two constraints leave exactly one lawful mode. */
     ~head=Js.Array2.concat(
       ["generate", "create", engineName, "--prompt", prompt],
-      ["--mode", "omni_reference"],
+      /* Seedance 2.0 Mini states no mode parameter and takes reference media
+         directly; passing one to an engine that does not declare it is a 422. */
+      engineName == "seedance_2_0_mini" ? [] : ["--mode", "omni_reference"],
     ),
     /* GENERATED SPEECH IS THE DUB MARKER. The runbook paid three wrong passes
        for guessing where a model animated a mouth; its own generated voice is

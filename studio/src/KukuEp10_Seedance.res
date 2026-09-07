@@ -106,8 +106,10 @@ let s06v: P.videoSpec = {
 
 let shots = [("s06", s06, "s06_dadi_explains.png"), ("s06v", s06v, "s06_dadi_explains.png")]
 
-/* the puppet cut that goes in as the one video reference */
-let sourceVideo = root ++ "cutout/out/proof_lines_008_010.mp4"
+/* the puppet cut that goes in as the video reference: ten seconds, दादी's whole
+   line 8 and the start of कुकु's answer, with the mouths already moving on the
+   recorded takes. The model is asked to restyle motion that already exists. */
+let sourceVideo = root ++ "cutout/out/puppet_lines_008_010_10s.mp4"
 
 let find = key =>
   switch Js.Array2.find(shots, ((k, _, _)) => k == key) {
@@ -150,6 +152,9 @@ let refsOf = spec =>
    no reason to submit an unpriced job. A key ending in v is video-to-video:
    one video reference, no start frame, mode video_edit. */
 let isV2v = key => Js.String2.endsWith(key, "v")
+/* Seedance 2.0 Mini: no mode, at most 9 images and 3 videos, 12 files in all */
+let miniModel = "seedance_2_0_mini"
+let modeArgs = model => model == miniModel ? [] : ["--mode", "video_edit"]
 let cost = (key, secs) =>
   switch find(key) {
   | Some((_, spec, still)) => {
@@ -163,9 +168,11 @@ let cost = (key, secs) =>
             ["--start-image", root ++ "stills/" ++ still],
             Js.Array2.reduce(refs, (acc, r) => Js.Array2.concat(acc, ["--image-references", r]), []),
           )
+      let model = isV2v(key) ? miniModel : "seedance_2_5"
       let args = Js.Array2.concatMany(
-        ["generate", "cost", "seedance_2_5", "--prompt", P.videoPrompt(spec), "--mode", isV2v(key) ? "video_edit" : "omni_reference"],
+        ["generate", "cost", model, "--prompt", P.videoPrompt(spec)],
         [
+          isV2v(key) ? modeArgs(model) : ["--mode", "omni_reference"],
           ["--duration", secs, "--resolution", "720p", "--aspect_ratio", "16:9", "--generate_audio", "true"],
           media,
           ["--json"],
@@ -176,6 +183,42 @@ let cost = (key, secs) =>
         Belt.Int.toString(Js.Array2.length(refs)) ++ " image references",
       )
       Js.log(execFileSync("higgsfield", args, {"encoding": "utf8"}))
+    }
+  | None => Js.log("no shot " ++ key)
+  }
+
+/* GO VIDEO-TO-VIDEO. The engine's clip() is built around a start frame; a
+   restyle has none — the video IS frame one — so this assembles the same typed
+   reference list without one and hands it to the same run(), which keeps the
+   gate, the spend guard and the receipt. */
+let goV2v = (key, secs) =>
+  switch find(key) {
+  | Some((k, spec, _)) => {
+      let prompt = P.videoPrompt(spec) /* PromptGate inside */
+      let refs = Js.Array2.concat(
+        [Kuku_Engine.Video(sourceVideo)],
+        Js.Array2.map(refsOf(spec), r =>
+          r == P.styleKey() ? Kuku_Engine.Style(r) : r == plate ? Kuku_Engine.Plate(r) : Kuku_Engine.Board(r)
+        ),
+      )
+      Kuku_Engine.run(
+        ~episode="EP10",
+        ~id=k ++ "_seedance_mini_v2v",
+        ~kind="clip",
+        ~model=miniModel,
+        ~credits=Kuku_Spend.priceOf(miniModel) *. Belt.Int.toFloat(secs) /. 5.0,
+        ~prompt,
+        ~refs,
+        ~head=["generate", "create", miniModel, "--prompt", prompt],
+        ~tail=[
+          "--duration", Belt.Int.toString(secs), "--resolution", "720p",
+          "--aspect_ratio", "16:9", "--generate_audio", "true", "--bitrate_mode", "high",
+          "--wait", "--json",
+        ],
+        ~forClip=true,
+        ~dst=clipsDir ++ "EP10_" ++ k ++ "_mini.mp4",
+        ~ext="(mp4|webm|mov)",
+      )->ignore
     }
   | None => Js.log("no shot " ++ key)
   }
@@ -208,10 +251,15 @@ let () =
   | (Some("plan"), Some(k), _) => plan(k)
   | (Some("cost"), Some(k), Some(s)) => cost(k, s)
   | (Some("cost"), Some(k), None) => cost(k, "5")
+  | (Some("mini"), Some(k), Some(s)) =>
+    switch Belt.Int.fromString(s) {
+    | Some(n) => goV2v(k, n)
+    | None => Js.log("duration must be a whole number of seconds")
+    }
   | (Some("go"), Some(k), Some(s)) =>
     switch Belt.Int.fromString(s) {
     | Some(n) => go(k, n)
     | None => Js.log("duration must be a whole number of seconds")
     }
-  | _ => Js.log("usage: plan <shot> | cost <shot> [secs] | go <shot> <secs>")
+  | _ => Js.log("usage: plan <shot> | cost <shot> [secs] | go <shot> <secs> | mini <shot> <secs>")
   }
