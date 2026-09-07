@@ -846,6 +846,46 @@ let talk3 = async () => {
   contactSheet(~video=sh.out, ~out=outDir ++ "proof_lines_008_010_sheet.png", ~cols=6, ~rows=2, ~everySec=1.25)
 }
 
+/* ------------------------------------------------------- the lineup */
+/* the whole company at rest in the courtyard, one frame: the look test */
+let lineup = async () => {
+  mkdirSync(outDir, {"recursive": true})
+  let (plate, lamp) = await courtyard()
+  let kalu = await loadRig(kaluRig)
+  let castor = await loadRig(castorRig)
+  let leda = await loadRig(ledaRig)
+  let kuku = await loadRig(kukuRig)
+  let furia = await loadRig(furiaRig)
+  let vesper = await loadRig(vesperRig)
+  let dadi = await loadRig(dadiRig)
+  let papa = await loadRig(papaRig)
+  let child = (rig, spec, can, fx, left) => puppetLayer(~z=5, ~rig, ~state=_t => posed(stand(spec, ~feetX=fx, ~feetY=655.0, ~size=0.21, ~facingLeft=left, ()), can))
+  let sh = {
+    name: "lineup",
+    width: stageW,
+    height: stageH,
+    fps: fpsOut,
+    duration: Sec(1.0),
+    layers: [
+      plate,
+      {...lamp, z: 21},
+      puppetLayer(~z=4, ~rig=papa, ~state=_t => posed(stand(papaRig, ~feetX=1195.0, ~feetY=662.0, ~size=0.4, ()), papaCanonical)),
+      puppetLayer(~z=4, ~rig=dadi, ~state=_t => stand(dadiRig, ~feetX=1040.0, ~feetY=640.0, ~size=0.32, ())),
+      child(castor, castorRig, castorCanonical, 330.0, false),
+      child(leda, ledaRig, ledaCanonical, 470.0, false),
+      child(kuku, kukuRig, canonical, 610.0, false),
+      child(furia, furiaRig, furiaCanonical, 760.0, true),
+      child(vesper, vesperRig, vesperCanonical, 900.0, true),
+      puppetLayer(~z=6, ~rig=kalu, ~state=_t => stand(kaluRig, ~feetX=200.0, ~feetY=660.0, ~size=0.13, ~facingLeft=false, ())),
+    ],
+    camera: _t => wholeStage(1280.0, 720.0),
+    audio: None,
+    out: "",
+  }
+  frame(sh, Sec(0.0), outDir ++ "cast_lineup.png")
+  Js.log("wrote cast_lineup.png")
+}
+
 /* ------------------------------------------------- the light states */
 /* One plate, four gradings, same geometry: dusk as generated; lamp-night, a
    blue multiply with the lamp's glow; dark, deeper blue and the lamp cold;
@@ -921,6 +961,7 @@ let () =
   | Some("checkcastor") => ignore(checkRig(castorRig, "castor"))
   | Some("checkvesper") => ignore(checkRig(vesperRig, "vesper"))
   | Some("checkpapa") => ignore(checkRig(papaRig, "papa"))
+  | Some("lineup") => ignore(lineup())
   | Some("checkkalu") => ignore(checkRig(kaluRig, "kalu"))
   | Some("talk") => ignore(talk())
   | Some("talkkuku") => ignore(talkKuku())

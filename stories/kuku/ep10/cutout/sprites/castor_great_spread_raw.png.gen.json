@@ -1,0 +1,48 @@
+{
+ "engine": "kuku-engine/1",
+ "kind": "still",
+ "id": "sprite_castor_great_spread",
+ "at": "2026-09-07T00:07:23.473Z",
+ "model": "nano_banana_pro",
+ "credits": 2,
+ "assetSha256": "003f6920e9a6d7df9f510e24fd3d49e81722c10552cf2a3bed9ffa944d388080",
+ "promptSha256": "279a81e78536574a3ed519703696778aee633b379d388758923b79813857d0bf",
+ "rulesSha256": "badb9984251dc0d40358eab3f78a6c9f1c505dc702faa184e1902ee18d179dcf",
+ "prompt": "SHOT: PUPPET SHEET, LANDSCAPE 16:9: one character shown whole and large, straight on, standing on one flat sheet of paper — the same three-dimensional papercraft figure as on its character sheet, every piece with real thickness and a soft shadow on the sheet.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\ncast.ref: image[2] is the locked character design — the authority on build, colour, markings and everything worn; the pose in this picture is the one written in SCENE and drawn in the silhouette\nPOSE: image[1] is a flat silhouette in the character's own colour on the same sheet, showing the pose for this picture — the authority on where every limb goes: head, wings, arms, legs and tail; paint the finished papercraft character exactly over it, limb for limb, with the plain sheet all around.\nSCENE: कैस्टर stands on the flat blue paper facing three quarters to the left, both wings raised high and spread wide open, both arms held straight out from the body with blue paper visible between each arm and the body, legs apart, tail stretched straight out behind with blue paper visible between the tail and the legs, head level, mouth closed.\nsubject[0].name: CASTOR\nsubject[0].species: paper dragon child\nsubject[0].colour: golden-yellow\nsubject[0].scale: about seven metres tall — a grown man would reach only to this dragon's knee; the size in the picture depends on how far the viewpoint stands, so in a wide shot this dragon may be a small figure and still be enormous\nsubject[0].pose: कैस्टर stands facing three quarters to the left with both wings raised high and spread wide open, both arms held straight out from the body, legs apart, tail stretched straight out behind, head level, mouth closed\nsetting.place: one smooth flat sheet of bright blue paper fills the entire background edge to edge, the same even blue everywhere\nlight.state: Evening, warm level light from the left, the same gold as the courtyard plate, soft shadow falling to the right.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE WHOLE BACKGROUND IS THAT ONE FLAT BLUE PAPER SHEET; कैस्टर is the only thing on it.\n- EVERY SURFACE OF कैस्टर IS CUT PAPER: separate pieces with real thickness, soft rounded cut edges and a fine visible paper grain.\n- कैस्टर FILLS THE FRAME: whole body visible from horns to tail tip with clear blue margin on every side.\n- EVERY LIMB STANDS CLEAR: blue paper shows between each wing and the head, between each arm and the body, between the two legs, and between the tail and the legs.\n- कैस्टर'S GREAT FORM IS THE BOARD'S: the same face and markings grown to a tall powerful adult dragon, the cream belly of stacked paper plates, the golden कड़ा on one forearm, the same golden-yellow paper everywhere else.",
+ "params": [
+  "generate",
+  "create",
+  "nano_banana_pro",
+  "--prompt",
+  "SHOT: PUPPET SHEET, LANDSCAPE 16:9: one character shown whole and large, straight on, standing on one flat sheet of paper — the same three-dimensional papercraft figure as on its character sheet, every piece with real thickness and a soft shadow on the sheet.\nstyle.ref: image[0] — match its look EXACTLY\nstyle.medium: 3D papercraft, layered cut-paper illustration, soft matte construction-paper textures, visible paper edges and folds, an illustrated handcrafted paper world\nstyle.palette: bright, vibrant, warm storybook palette, every colour full and saturated\ncast.ref: image[2] is the locked character design — the authority on build, colour, markings and everything worn; the pose in this picture is the one written in SCENE and drawn in the silhouette\nPOSE: image[1] is a flat silhouette in the character's own colour on the same sheet, showing the pose for this picture — the authority on where every limb goes: head, wings, arms, legs and tail; paint the finished papercraft character exactly over it, limb for limb, with the plain sheet all around.\nSCENE: कैस्टर stands on the flat blue paper facing three quarters to the left, both wings raised high and spread wide open, both arms held straight out from the body with blue paper visible between each arm and the body, legs apart, tail stretched straight out behind with blue paper visible between the tail and the legs, head level, mouth closed.\nsubject[0].name: CASTOR\nsubject[0].species: paper dragon child\nsubject[0].colour: golden-yellow\nsubject[0].scale: about seven metres tall — a grown man would reach only to this dragon's knee; the size in the picture depends on how far the viewpoint stands, so in a wide shot this dragon may be a small figure and still be enormous\nsubject[0].pose: कैस्टर stands facing three quarters to the left with both wings raised high and spread wide open, both arms held straight out from the body, legs apart, tail stretched straight out behind, head level, mouth closed\nsetting.place: one smooth flat sheet of bright blue paper fills the entire background edge to edge, the same even blue everywhere\nlight.state: Evening, warm level light from the left, the same gold as the courtyard plate, soft shadow falling to the right.\nworld.rules:\n- the only creatures anywhere in this picture are the ones this prompt names — a world of paper dragons, paper birds and paper animals\n- every surface — stone, wood, cloth, banner and sky — is plain blank paper\n- THE WHOLE BACKGROUND IS THAT ONE FLAT BLUE PAPER SHEET; कैस्टर is the only thing on it.\n- EVERY SURFACE OF कैस्टर IS CUT PAPER: separate pieces with real thickness, soft rounded cut edges and a fine visible paper grain.\n- कैस्टर FILLS THE FRAME: whole body visible from horns to tail tip with clear blue margin on every side.\n- EVERY LIMB STANDS CLEAR: blue paper shows between each wing and the head, between each arm and the body, between the two legs, and between the tail and the legs.\n- कैस्टर'S GREAT FORM IS THE BOARD'S: the same face and markings grown to a tall powerful adult dragon, the cream belly of stacked paper plates, the golden कड़ा on one forearm, the same golden-yellow paper everywhere else.",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/sheet_blue_material_key.png",
+  "--image",
+  "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/cutout/sprites/castor_great_pose_proxy.png",
+  "--image",
+  "../stories/kuku/ep10prod/elements/future_castor_board_bracelet.png",
+  "--aspect_ratio",
+  "16:9",
+  "--resolution",
+  "2k",
+  "--wait",
+  "--json"
+ ],
+ "refs": [
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/style/sheet_blue_material_key.png",
+   "role": "style",
+   "sha256": "8592f4828aca3dcb70bb0540cfce207e0d3fc46cfbcc6604cee6e511bd0bc779"
+  },
+  {
+   "path": "/Users/dusty/Dev/metaphrand/studio/../stories/kuku/ep10/cutout/sprites/castor_great_pose_proxy.png",
+   "role": "board",
+   "sha256": "44ac3c164b158731b1e34fe6fd0d5b42ee01502d815a8cc1c21e99d2445e1bc8"
+  },
+  {
+   "path": "../stories/kuku/ep10prod/elements/future_castor_board_bracelet.png",
+   "role": "board",
+   "sha256": "5c5862dbbbcaed38c1faa1dd56a249c356ea3b494022701ae1e5ecd2be98de3d"
+  }
+ ]
+}

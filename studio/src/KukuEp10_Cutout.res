@@ -143,6 +143,15 @@ let vesperSheet = bipedSheet(~who="vesper", ~hindi="वैस्पर", ~subjec
   ~face="वैस्पर'S FACE AND BODY ARE THE SHEET'S: heavy sleepy eyelids over dark blue eyes, cream horns, the calm small smile, a cream belly of stacked paper plates, the golden कड़ा on one forearm, the same pale blue paper everywhere else.")
 let papaSheet = bipedSheet(~who="papa", ~hindi="पापा", ~subject=doing => P.Papa({doing: doing}), ~colour=Blue,
   ~face="पापा'S FACE AND BODY ARE THE SHEET'S: a big heavy grown body, kind heavy-lidded eyes, a wide gentle smile, the brown strap across the chest with the small grey radio, the same sage green paper everywhere else, built as a thick three-dimensional papercraft figure with real depth and soft shadows, the same construction as the character sheet.")
+/* THE GREAT FORMS: the same five children after the कड़ा, from the bracelet
+   boards. Same template, same faces grown up; the flight rigs cut from these. */
+let greatFace = (hindi, colour) => hindi ++ "'S GREAT FORM IS THE BOARD'S: the same face and markings grown to a tall powerful adult dragon, the cream belly of stacked paper plates, the golden कड़ा on one forearm, the same " ++ colour ++ " paper everywhere else."
+let kukuGreat = bipedSheet(~who="kuku_great", ~hindi="कुकु", ~subject=doing => P.Dragon({name: P.Kuku, form: P.Great, doing}), ~colour=Blue, ~face=greatFace("कुकु", "green"))
+let furiaGreat = bipedSheet(~who="furia_great", ~hindi="फ्यूरिया", ~subject=doing => P.Dragon({name: P.Fyuria, form: P.Great, doing}), ~colour=Blue, ~face=greatFace("फ्यूरिया", "bright pink-red"))
+let ledaGreat = bipedSheet(~who="leda_great", ~hindi="लेडा", ~subject=doing => P.Dragon({name: P.Leda, form: P.Great, doing}), ~colour=Green, ~face=greatFace("लेडा", "lilac"))
+let castorGreat = bipedSheet(~who="castor_great", ~hindi="कैस्टर", ~subject=doing => P.Dragon({name: P.Castor, form: P.Great, doing}), ~colour=Blue, ~face=greatFace("कैस्टर", "golden-yellow"))
+let vesperGreat = bipedSheet(~who="vesper_great", ~hindi="वैस्पर", ~subject=doing => P.Dragon({name: P.Vesper, form: P.Great, doing}), ~colour=Green, ~face=greatFace("वैस्पर", "pale blue"))
+
 /* कालू is a quadruped: a side view with the legs apart, ears hanging clear */
 let kaluSheet: P.imageSpec = {
   scene: "कालू stands on the flat blue paper in full side view facing left, legs straight and apart with blue paper visible between the front legs and between the hind legs, tail raised behind, ears hanging clear of the neck, mouth closed.",
@@ -278,10 +287,10 @@ let mouthSets = [
 module K = Puppet_Key
 let keyRuleOf = who =>
   switch who {
-  | "kuku" | "furia" | "castor" => Some({K.sheet: K.BlueSheet, rCoef: 1.7, bias: 20.0, width: 40.0, erode: 5})
+  | "kuku" | "furia" | "castor" | "kuku_great" | "furia_great" | "castor_great" => Some({K.sheet: K.BlueSheet, rCoef: 1.7, bias: 20.0, width: 40.0, erode: 5})
   | "papa" => Some({K.sheet: K.BlueSheet, rCoef: 1.2, bias: 15.0, width: 40.0, erode: 5}) /* drawn on a lighter, greyer blue square: red weighs less */
   | "kalu" => Some({K.sheet: K.BlueSheet, rCoef: 1.7, bias: 35.0, width: 40.0, erode: 5}) /* black stays opaque, his shadow on the sheet does not */
-  | "leda" | "vesper" => Some({K.sheet: K.GreenSheet, rCoef: 1.7, bias: 25.0, width: 20.0, erode: 5})
+  | "leda" | "vesper" | "leda_great" | "vesper_great" => Some({K.sheet: K.GreenSheet, rCoef: 1.7, bias: 25.0, width: 20.0, erode: 5})
   | _ => None
   }
 
@@ -350,6 +359,11 @@ let specOf = name =>
   | "vesper" => Some(("sprite_vesper_spread", vesperSheet, "vesper_spread_raw.png", Green))
   | "papa" => Some(("sprite_papa_spread", papaSheet, "papa_spread_raw.png", Blue))
   | "kalu" => Some(("sprite_kalu_side", kaluSheet, "kalu_side_raw.png", Blue))
+  | "kuku_great" => Some(("sprite_kuku_great_spread", kukuGreat, "kuku_great_spread_raw.png", Blue))
+  | "furia_great" => Some(("sprite_furia_great_spread", furiaGreat, "furia_great_spread_raw.png", Blue))
+  | "leda_great" => Some(("sprite_leda_great_spread", ledaGreat, "leda_great_spread_raw.png", Green))
+  | "castor_great" => Some(("sprite_castor_great_spread", castorGreat, "castor_great_spread_raw.png", Blue))
+  | "vesper_great" => Some(("sprite_vesper_great_spread", vesperGreat, "vesper_great_spread_raw.png", Green))
   | _ => None
   }
 
