@@ -41,7 +41,9 @@ let renderAct = async n =>
       for i in 0 to Js.Array2.length(ss) - 1 {
         let (name, build) = ss[i]
         let f = await renderOne(name, build)
-        ignore(Js.Array2.push(files, f))
+        /* the sound pass writes <name>_sfx.mp4 beside the scene; the cut prefers it */
+        let withSound = sceneDir ++ name ++ "_sfx.mp4"
+        ignore(Js.Array2.push(files, existsSync(withSound) ? withSound : f))
       }
       let actDir = root ++ "acts/"
       mkdirSync(actDir, {"recursive": true})

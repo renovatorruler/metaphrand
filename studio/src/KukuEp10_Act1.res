@@ -10,13 +10,17 @@ open KukuEp10_Stage
 /* ------------------------------------------------------------- marks */
 /* Where everyone stands or sits for the whole act. Scene 2 brings them here;
    scenes 3 and 4 inherit these values, so continuity is a fact, not a hope. */
+/* A seated child is nearly 400 px wide with wings and tail, so the half circle
+   needs about 170 px between neighbours who face the same way and more where
+   two face each other. Left of the niche they face right, toward दादी; right
+   of her they face left. */
 let dadiAtNiche = {x: 760.0, y: 626.0, facingLeft: true}
-let vesperMark = {x: 410.0, y: 650.0, facingLeft: false}
-let castorMark = {x: 515.0, y: 668.0, facingLeft: false}
-let ledaMark = {x: 600.0, y: 700.0, facingLeft: false}
-let kukuMark = {x: 700.0, y: 705.0, facingLeft: false}
-let furiaMark = {x: 900.0, y: 700.0, facingLeft: true}
-let kaluMark = {x: 1010.0, y: 662.0, facingLeft: true}
+let vesperMark = {x: 300.0, y: 645.0, facingLeft: false}
+let castorMark = {x: 470.0, y: 690.0, facingLeft: false}
+let ledaMark = {x: 640.0, y: 725.0, facingLeft: false}
+let kukuMark = {x: 890.0, y: 720.0, facingLeft: true}
+let furiaMark = {x: 1090.0, y: 668.0, facingLeft: true}
+let kaluMark = {x: 1215.0, y: 655.0, facingLeft: true}
 let offRight = {x: 1360.0, y: 660.0, facingLeft: true}
 let behindDoor = {x: 150.0, y: 632.0, facingLeft: false}
 let atDoor = {x: 330.0, y: 640.0, facingLeft: true}
@@ -42,7 +46,7 @@ let clampLook = (zoom, x, y) => {
   let hh = 360.0 /. zoom
   (Js.Math.max_float(hw, Js.Math.min_float(1280.0 -. hw, x)), Js.Math.max_float(hh, Js.Math.min_float(720.0 -. hh, y)))
 }
-let single = (m: mark, ~size, ~zoom=1.35) => {
+let single = (m: mark, ~size, ~zoom=1.45) => {
   let headY = m.y -. 1100.0 *. size *. depthScale(m.y)
   let (lx, ly) = clampLook(zoom, m.x, headY +. 60.0)
   {zoom: Scale(zoom), lookX: Px(lx), lookY: Px(ly)}
