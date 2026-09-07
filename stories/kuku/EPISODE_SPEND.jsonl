@@ -991,3 +991,4 @@
 {"at":"2026-09-07T00:06:30.098Z","episode":"EP10","shot":"sprite_leda_great_spread","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
 {"at":"2026-09-07T00:07:23.467Z","episode":"EP10","shot":"sprite_castor_great_spread","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
 {"at":"2026-09-07T00:08:12.189Z","episode":"EP10","shot":"sprite_vesper_great_spread","kind":"still","model":"nano_banana_pro","credits":2,"note":""}
+{"at":"2026-09-07T01:46:44.889Z","episode":"EP10","shot":"s06_seedance_dialogue","kind":"clip","model":"seedance_2_5","credits":32.5,"note":"job e4b5e8ec — submitted and accepted; the engine process was lost to a harness error before it could book, so this row is written from the provider job record"}

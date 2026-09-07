@@ -438,7 +438,16 @@ let still = (~episode="EP10", ~id, ~spec: P.imageSpec, ~dst, ()) => {
 /* `workflow` swaps the bare model for one of the platform's own pipelines —
    Cinema Studio exposes palette, light, lens and pacing as PARAMETERS rather
    than as sentences a model may ignore, which is the whole reason to try it. */
-let clip = (~episode="EP10", ~id, ~spec: P.videoSpec, ~model, ~secs, ~start: startFrame, ~endFrame: option<endFrame>=?, ~videoRefs=[], ~setRefs=[], ~workflow="", ~dst, ()) => {
+/* HOW MANY IMAGES THIS ENGINE ACCEPTS. The old 9 was Cinema Studio's ceiling
+   promoted to a law; Seedance 2.5 states its own: at most 50 reference media,
+   at most 30 images counting start and end. Read the model, do not assume. */
+let imageSlots = engine =>
+  switch engine {
+  | "seedance_2_5" | "seedance_2_0" | "seedance_2_0_mini" => 30
+  | _ => 9
+  }
+
+let clip = (~episode="EP10", ~id, ~spec: P.videoSpec, ~model, ~secs, ~start: startFrame, ~endFrame: option<endFrame>=?, ~videoRefs=[], ~setRefs=[], ~workflow="", ~generateAudio=false, ~dst, ()) => {
   let prompt = P.videoPrompt(spec) /* PromptGate inside */
   requireBoards(spec.cast)
   let startP = startPath(start)
@@ -468,7 +477,7 @@ let clip = (~episode="EP10", ~id, ~spec: P.videoSpec, ~model, ~secs, ~start: sta
   | Some(_) => 1
   | None => 0
   }
-  let slots = 9 - 1 - Js.Array2.length(setRefs) - hasEnd
+  let slots = imageSlots(workflow == "" ? model : workflow) - 1 - Js.Array2.length(setRefs) - hasEnd
   if Js.Array2.length(boards) > slots {
     refuse("OVERFLOW",
       Belt.Int.toString(Js.Array2.length(boards)) ++ " cast sheets for " ++ Belt.Int.toString(slots) ++ " reference slots in " ++ id,
@@ -490,12 +499,18 @@ let clip = (~episode="EP10", ~id, ~spec: P.videoSpec, ~model, ~secs, ~start: sta
   let credits = Kuku_Spend.priceOf(workflow == "" ? model : workflow) *. Belt.Int.toFloat(secs) /. 5.0
   let engineName = workflow == "" ? model : workflow
   run(~episode, ~id, ~kind="clip", ~model=engineName, ~credits, ~prompt, ~refs, ~forClip=true,
+    /* every clip carries a start frame, so the mode is always omni_reference:
+       t2v refuses reference media outright, and omni_reference refuses to run
+       without any — the two constraints leave exactly one lawful mode. */
     ~head=Js.Array2.concat(
       ["generate", "create", engineName, "--prompt", prompt],
-      workflow == "" ? [] : ["--mode", "omni_reference"],
+      ["--mode", "omni_reference"],
     ),
+    /* GENERATED SPEECH IS THE DUB MARKER. The runbook paid three wrong passes
+       for guessing where a model animated a mouth; its own generated voice is
+       the only record of that, so a shot that will be dubbed asks for audio. */
     ~tail=Js.Array2.concat(
-      ["--generate_audio", "false", "--duration", Belt.Int.toString(secs)],
+      ["--generate_audio", generateAudio ? "true" : "false", "--duration", Belt.Int.toString(secs)],
       ["--resolution", "720p", "--bitrate_mode", "high", "--aspect_ratio", "16:9", "--wait", "--json"],
     ),
     ~dst, ~ext="(mp4|webm|mov)")
