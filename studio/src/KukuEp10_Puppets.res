@@ -395,6 +395,35 @@ let kaluRig: rigSpec<small> = {
   ],
 }
 
+/* ------------------------------------------------- कुकु's GREAT form */
+/* The type says it: rigSpec<great>. This is the first rig the flight accepts. */
+let kukuGreatRig: rigSpec<great> = {
+  sprite: ImagePath(root ++ "cutout/sprites/kuku_great_spread.png"),
+  partsDir: root ++ "cutout/parts/kuku_great/",
+  feet: p(1300.0, 1430.0),
+  patches: [],
+  parts: [
+    {name: torso, parent: None, pivot: p(1320.0, 960.0), z: 5,
+      outline: [p(1170.0, 690.0), p(1290.0, 670.0), p(1400.0, 700.0), p(1470.0, 790.0), p(1530.0, 920.0), p(1540.0, 1070.0), p(1460.0, 1130.0), p(1420.0, 1240.0), p(1140.0, 1240.0), p(1110.0, 1100.0), p(1100.0, 900.0), p(1130.0, 780.0)]},
+    {name: head, parent: Some(torso), pivot: p(1280.0, 700.0), z: 9,
+      outline: [p(1030.0, 540.0), p(1040.0, 430.0), p(1080.0, 300.0), p(1170.0, 210.0), p(1280.0, 180.0), p(1420.0, 190.0), p(1500.0, 300.0), p(1500.0, 460.0), p(1450.0, 580.0), p(1400.0, 660.0), p(1380.0, 720.0), p(1180.0, 720.0), p(1160.0, 620.0), p(1050.0, 610.0)]},
+    {name: wingNear, parent: Some(torso), pivot: p(1180.0, 700.0), z: 4,
+      outline: [p(1170.0, 210.0), p(1080.0, 300.0), p(1040.0, 430.0), p(1030.0, 540.0), p(1050.0, 610.0), p(1150.0, 650.0), p(1165.0, 765.0), p(900.0, 765.0), p(700.0, 720.0), p(400.0, 560.0), p(390.0, 160.0), p(1000.0, 150.0)]},
+    {name: wingFar, parent: Some(torso), pivot: p(1460.0, 700.0), z: 1,
+      outline: [p(1400.0, 660.0), p(1470.0, 790.0), p(1500.0, 765.0), p(1760.0, 765.0), p(2000.0, 740.0), p(2260.0, 760.0), p(2250.0, 110.0), p(1520.0, 100.0), p(1500.0, 300.0), p(1500.0, 460.0), p(1450.0, 580.0)]},
+    {name: armNear, parent: Some(torso), pivot: p(1160.0, 822.0), z: 8, cap: {radius: Px(42.0), colour: "#8fb36a", edge: "#5e8040"},
+      outline: [p(1170.0, 768.0), p(770.0, 772.0), p(750.0, 820.0), p(770.0, 872.0), p(1165.0, 875.0)]},
+    {name: armFar, parent: Some(torso), pivot: p(1410.0, 825.0), z: 6, cap: {radius: Px(42.0), colour: "#7fa35c", edge: "#527236"},
+      outline: [p(1395.0, 768.0), p(1760.0, 772.0), p(1790.0, 825.0), p(1760.0, 882.0), p(1425.0, 880.0)]},
+    {name: legNear, parent: Some(torso), pivot: p(1160.0, 1160.0), z: 7,
+      outline: [p(1060.0, 1110.0), p(1220.0, 1100.0), p(1280.0, 1200.0), p(1280.0, 1350.0), p(1300.0, 1445.0), p(1030.0, 1445.0), p(1040.0, 1360.0), p(1070.0, 1220.0)]},
+    {name: legFar, parent: Some(torso), pivot: p(1470.0, 1090.0), z: 3,
+      outline: [p(1380.0, 1030.0), p(1540.0, 1020.0), p(1580.0, 1120.0), p(1570.0, 1360.0), p(1590.0, 1445.0), p(1370.0, 1445.0), p(1375.0, 1360.0), p(1385.0, 1200.0)]},
+    {name: tail, parent: Some(torso), pivot: p(1580.0, 1030.0), z: 2,
+      outline: [p(1520.0, 940.0), p(1700.0, 920.0), p(2300.0, 980.0), p(2300.0, 1060.0), p(2000.0, 1120.0), p(1620.0, 1120.0), p(1560.0, 1060.0)]},
+  ],
+}
+
 /* a state with every part at rest, placed by where the feet are on the stage */
 let standing = (~feetX, ~feetY, ~size) => stand(kukuRig, ~feetX, ~feetY, ~size, ())
 
@@ -581,13 +610,12 @@ let runIn = async () => {
 /* Authored once, waiting for a rig it can accept: the parameter is rig<great>,
    so कुकु's small rig cannot be handed in — that is the series law as a type.
    His great form has no sprite yet (one Sheet generation, 2 credits). */
-let flight = (rig: rig<great>, ~plate, ~lamp): shot => {
+let flight = (rig: rig<great>, ~plate, ~lamp, ~sizeFrom, ~sizeTo, ~landX, ~out): shot => {
   let landT = 4.2
-  let landX = 720.0
   let feetX = t => track([{at: Sec(0.0), v: 1330.0}, {at: Sec(landT), v: landX}], ~ease=linear, t)
   let height = t => track([{at: Sec(0.0), v: 430.0}, {at: Sec(1.8), v: 250.0}, {at: Sec(3.0), v: 210.0}, {at: Sec(landT), v: 0.0}], t)
   let feetY = t => groundY -. height(t) +. track([{at: Sec(landT), v: 0.0}, {at: Sec(landT +. 0.12), v: 7.0}, {at: Sec(landT +. 0.45), v: 0.0}], t)
-  let size = t => track([{at: Sec(0.0), v: 0.13}, {at: Sec(landT), v: 0.21}], ~ease=linear, t)
+  let size = t => track([{at: Sec(0.0), v: sizeFrom}, {at: Sec(landT), v: sizeTo}], ~ease=linear, t)
   let hz = 2.4
   let flapAmp = t => track([{at: Sec(0.0), v: 26.0}, {at: Sec(2.6), v: 18.0}, {at: Sec(3.4), v: 30.0}, {at: Sec(landT), v: 0.0}], t)
   let flap = t => cycle(~hz, ~amp=flapAmp(t), t)
@@ -640,8 +668,18 @@ let flight = (rig: rig<great>, ~plate, ~lamp): shot => {
     layers: [plate, lamp, shadowLayer(~z=2, ~shadow), puppetLayer(~z=3, ~rig, ~state)],
     camera,
     audio: None,
-    out: outDir ++ "proof_kuku_flies_in.mp4",
+    out,
   }
+}
+
+/* the great form flies in: the first flight the type allows */
+let flyGreat = async () => {
+  mkdirSync(outDir, {"recursive": true})
+  let rig = await loadRig(kukuGreatRig)
+  let (plate, lamp) = await courtyard()
+  let sh = flight(rig, ~plate, ~lamp, ~sizeFrom=0.22, ~sizeTo=0.46, ~landX=760.0, ~out=outDir ++ "proof_kuku_great_flies_in.mp4")
+  render(sh)
+  contactSheet(~video=sh.out, ~out=outDir ++ "proof_kuku_great_flies_in_sheet.png", ~cols=6, ~rows=2, ~everySec=0.52)
 }
 
 /* --------------------------------------------- the dialogue proof: talk */
@@ -955,6 +993,7 @@ let () =
       ignore(cut(vesperRig))
       ignore(cut(papaRig))
       ignore(cut(kaluRig))
+      ignore(cut(kukuGreatRig))
     }
   | Some("checkfuria") => ignore(checkRig(furiaRig, "furia"))
   | Some("checkleda") => ignore(checkRig(ledaRig, "leda"))
@@ -969,7 +1008,7 @@ let () =
   | Some("lights") => ignore(lights())
   | Some("check") => ignore(check())
   | Some("run") => ignore(runIn())
-  | Some("fly") =>
-    Js.log("the flight takes a great-form rig only (rig<great>); कुकु's great form has no sprite yet — one Sheet generation, 2 credits, on the author's budget line")
+  | Some("fly") => ignore(flyGreat())
+  | Some("checkkukugreat") => ignore(checkRig(kukuGreatRig, "kuku_great"))
   | _ => Js.log("usage: cut | check | run | talk | lights | fly")
   }
